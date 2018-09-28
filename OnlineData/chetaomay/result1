@@ -1,0 +1,489 @@
+MỤC LỤC LUẬN VĂN THIẾT KẾ CHẾ TẠO MÁY CẤY LÚA 6 HÀNG
+LỜI CẢM ƠN.. 5
+TÓM TẮT LUẬN VĂN.. 6
+DANH SÁCH HÌNH VẼ VÀ BẢNG BIỂU.. 7
+CHƯƠNG 1: TỔNG QUAN VỀ CÂY LÚA VÀ KỸ THUẬT CẤY LÚA.. 9
+1.1 Tính cấp thiết của đề tài9
+1.2 Tình hình nghiên cứu máy cấy lúa trên thế giới và Việt Nam... 10
+1.2.1 Tình hình thế giới10
+1.2.2 Tình hình cơ giới hoá sản xuất ở Việt Nam.. 11
+1.2.3 Tình hình sản xuất lúa gạo tại Việt Nam.. 13
+1.2.4 So sánh tình hình lúa gạo thế giới và Việt Nam 2014-2015. 14
+1.3 Ý nghĩa khoa học và thực tiễn của đề tài18
+1.4 Mục tiêu nghiên cứu đề tài19
+1.5 Đối tượng và phạm vi nghiên cứu của đề tài19
+1.5.1 Đối tượng nghiên cứu. 19
+1.5.2 Phạm vi nghiên cứu. 19
+1.6 Phương pháp nghiên cứu. 20
+1.6.1 Cơ sở phương pháp luận. 20
+1.6.2 Các phương pháp nghiên cứu cụ thể. 20
+1.7 Đặc tính của máy. 20
+1.8 Kết cấu máy mạ khay. 20
+1.8.1 Các phương pháp nghiên cứu cụ thể. 20
+1.8.2 Cấu tạo máy cấy mạ khay. 21
+1.8.3 Nhược điểm của máy. 23
+CHƯƠNG 2: PHÂN TÍCH NHIỆM VỤ VÀ CHỌN PHƯƠNG ÁN KẾT CẤU CƠ GIỚI HOÁ QUÁ TRÌNH CẤY LÚA 24
+2.1 Phân tích nhiệm vụ. 24
+2.2 Thông số thiết kế. 24
+2.3 Chọn phương án kết cấu cơ giới hoá quá trình cấy lúa. 25
+
+2.2.1 Phương án 1. 25
+2.2.2 Phương án 2. 27
+2.2.3 Phương án lựa chọn. 28
+2.3 Trình tự công việc tiến hành. 28
+CHƯƠNG 3: TÍNH TOÁN VÀ KẾT CẤU THIẾT BỊ29
+3.1 Thiết kế khung mô đun cấy lúa kéo theo. 29
+3.2 Bánh xe truyền chuyển động chính. 30
+3.3 Rơ móc. 31
+3.4 Đế trượt. 31
+3.5 Tay quay. 32
+3.6 Giàn mạ. 34
+3.7 Cơ cấu dịch chuyển giàn mạ. 35
+3.8 Bánh xe phụ. 37
+3.9 Tính toán và xác định kích thước động các khâu của cơ cấu. 38
+3.10 Tính toán các bộ truyền của mô đun cấy lúa. 41
+3.10.1 Xác định các thông số đĩa xích, tỷ lệ truyền và khoảng cách cấy. 41
+3.10.2 Chọn số răng đĩa xích. 42
+3.10.3 Tính toán xích đĩa xích 1-2. 44
+3.10.4 Tính toán xích đĩa xích 3-4. 48
+3.11 Tính thiết kế sức bền trục. 53
+3.11.1 Trục 2 -trục tay quay. 53
+3.11.2 Trục 4 – trục bánh xe. 55
+3.12 Chọn then và tính kiểm nghiệm then. 56
+KẾT LUẬN.. 58
+TÀI LIỆU THAM KHẢO.. 59
+
+LỜI CẢM ƠN
+
+Để hoàn thành bài luận văn này, em đã nhận được nhiều sự quan tâm, chỉ bảo, giúp đỡ của quý thầy cô và các bạn.
+Em xin gửi lời cảm ơn sâu sắc đến:
+Thầy Nguyễn Văn Thạnh đã trực tiếp tận tình hướng dẫn và tạo điều kiện cho em thực hiện luận văn này.
+Quý thầy cô khoa Cơ khí đã tận tình dạy bảo, giúp đỡ em trong suốt những năm học tập tại trường Đại học Bách Khoa TP.HCM để em có được một nền tảng kiến thức vững chắc để thực hiện luận văn này cũng như bước tiếp trên con đường sau này.
+Cảm ơn gia đình, đã luôn ủng hộ, động viên, tạo mọi điều kiện để thuận lợi để em có thể hoàn thành chương trình đào tạo.
+Do thời gian và kiến thức có hạn, bài báo cáo không thể tránh khỏi nhiều sai sót, mong quí thầy cô và mọi người quan tâm góp ý về bài báo cáo xin gửi về email: thephuongtran90@gmail.com
+
+
+TÓM TẮT LUẬN VĂN
+
+CHƯƠNG 1: TỔNG QUAN VỀ CÂY LÚA VÀ KỸ THUẬT CẤY LÚA
+- Tính cấp thiết của đề tài, tìm hiểu tình hình nghiên cứu trong và ngoài nước, phương pháp nghiên cứu thực hiện, mục tiêu và ý nghĩa khoa học của đề tài máy cấy lúa.
+CHƯƠNG 2: PHÂN TÍCH NHIỆM VỤ VÀ CHỌN PHƯƠNG ÁN KẾT CẤU CƠ GIỚI HOÁ QUÁ TRÌNH CẤY LÚA
+- Nhiệm vụ và các thông số thiết kế và lựa chọn phương án, giải pháp cho máy cấy lúa tại Việt Nam.
+CHƯƠNG 3: TÍNH TOÁN VÀ KẾT CẤU THIẾT BỊ
+- Tính toán xác định khung, bánh xe, đế trượt, tay quay.
+- Tính toán xác định cơ cấu tay cấy.
+- Tính toán, thiết kế bộ truyền giàn mạ.
+- Xác định các thông số, tỷ lệ truyền, khoảng cách cấy và xích.
+- Tính thiết kế sức bền trục.
+- Chọn then và kiểm nghiệm then.
+DANH SÁCH HÌNH VẼ VÀ BẢNG BIỂU
+
+Hình 1.1. Diện tích trồng lúa một số nước trên thế giới.10
+Hình 1.2. Niềm vui của người dân trúng vụ mùa.11
+Hình 1.3. Sản lượng và diện tích lúa gạo thế giới.12
+Hình 1.4 Chế biến gạo xuất khẩu.14
+Hình 1.5 Sản lượng, xuất khẩu và dự trữ gạo tại một số nước xuất khẩu quan trọng.16
+Hình 1.6 Người nông dân cấy lúa bằng tay tốn nhiều lao động.18
+Hình 1.7 Máy cấy mạ khay MC-6-250 sản xuất thành công ở Việt Nam.19
+Hình 1.8 Sơ đồ khối nguyên lý mô đun máy cấy lúa kéo theo.21
+Hình 1.9 Sơ đồ nguyên lý máy cấy 6 hàng.22
+Hình 2.1 Khoảng cách mạ cấy.24
+Hình 2.2 Bánh cóc và tay quay con trượt.25
+Hình 2.3 Cơ cấu tay quay con trượt dịch chuyển giàn mạ.26
+Hình 2.4 Cơ cấu vít xoắn 2 chiều dịch chuyển giàn mạ.27
+Hình 2.5 Vít xoắn 2 chiều.27
+Hình 3.1 Hình chiếu cạnh khung máy cấy.29
+Hình 3.2 Hình chiếu đứng khung máy cấy.29
+Hình 3.3 Hình chiếu bánh xe máy cấy. 30
+Hình 3.4 Thanh kéo mô đun cấy lúa. 31
+Hình 3.5 Đế trượt của mô đung cấy lúa trên đồng ruộng.31
+Hình 3.6 Hình tay quay.32
+Hình 3.7 Đĩa tay quay.32
+Hình 3.8 Khớp tay quay 1.33
+Hình 3.9 Khớp tay quay 2.33
+Hình 3.10 Hình chiếu giàn mạ.34
+Hình 3.11 Độ nghiêng giàn mạ.34
+Hình 3.12 Hình cơ cấu tay quay con trượt dịch chuyển giàn mạ.35
+Hình 3.13 Hình cắt giàn mạ.35
+Hình 3.14 Hình cắt giàn mạ trước bánh cóc.36
+Hình 3.15 Cơ cấu bánh cóc.37
+Hình 3.16 Bánh xe phụ.37
+Hình 3.17 Nguyên lý hoạt động khâu cấy.38
+Hình 3.18 Chuyển động của tay cấy.39
+Hình 3.19 Chiều cao của tay cấy. 40
+Hình 3.20 Độ sâu của tay cấy. 40
+Hình 3.21 Sơ đồ động máy cấy lúa 6 hàng.41
+Hình 3.22 Đĩa xích máy cấy.42
+Hình 3.23 Bảng thông số tỷ lệ truyền tay cấy.43
+Hình 3.24 Bảng moment và số vòng quay trục 2.53
+Hình 3.25 Biểu đồ moment trục 2.54
+Hình 3.24 Bảng moment và số vòng quay trục 4.55
+Hình 3.25 Biểu đồ moment trục 4.56
+Hình 3.26 Then.56
+Hình 3.27 Bảng chọn thông số then.57
+
+
+Chương 1 TỔNG QUAN VỀ CÂY LÚA VÀ KỸ THUẬT CẤY LÚA
+1.1 Tính cấp thiết của đề tài
+Máy cấy lúa hiện đang rất phổ biến ở các nước như: Nhật Bản, Trung Quốc, Ấn Độ… nhưng ở Việt nam nó vẫn còn tương đối xa lạ.Với tinh thần cần cù, sáng tạo và cầu tiến, người nông dân Việt Nam đã không ngừng tự tìm tòi, mày mò nghiên cứu và cũng đã tạo ra một được một vài sản phẩm mấy cấy đơn giản.Tuy nhiên, đa số chúng vẫn chưa đem lại hiệu quả cao như ý muốn cả về năng suất lẫn khả năng thay thế sức lao động cho người nông dân.
+Các loại máy cấy mạ hiện nay trên thế giới đều có bộ phận cấy và cung cấp mạ rất linh hoạt.Đa số chúng có chung đặc điểm về hình dáng và cấu tạo: gồm bộ phận công tác chính là bộ phận cấy, bộ phận cung cấp mạ và các bộ truyền như : bộ truyền bánh răng, bộ truyền đai, bộ truyền xích, hộp số…
+Một số loại máy cấy hiện nay:
+vMáy cấy MC-6-250: Đây là sản phẩm do Viện Cơ điện nông nghiệp và Công nghệ sau thu hoạch phối hợp với Công ty Máy kéo - máy nông nghiệp Hà Tây thiết kế, chế tạo, được sản xuất trên cơ sở thiết kế, cải tiến lại từ các loại máy cấy của Trung Quốc và Nhật Bản... cho phù hợp với điều kiện sản xuất trong nước. Máy được thiết kế gọn nhẹ, phù hợp với mới loại ruộng, kể cả ruộng có diện tích nhỏ.
+vMáy cấy lúa 2ZS-4: đây là loại máy cấy sử dụng công nghệ hiện đại nhất hiện nay. Dùng các tay Robot điều khiển tự động, thao tác đơn giản, dễ sử dụng và chạy được ở ruộng sình lầy nhất nhờ ván trượt nghiêng, công suất: 8hp, năng suất: 2-3mẫu/h, tiêu hao nhiên liệu 1lit/h, bề ngang: 4 hàng.
+vMáy cấy lúa Kubota SPU-68C nhà sản xuất Nhật Bản, cấy 6 hàng,trọng lượng 495 kg
+vMáy cấy HT 2ZT630 công suất 3,23 Kw, tốc độ 2600 v/ph, số hàng cấy 6…
+Hiện nay ở các tỉnh miền Tây, nhiều nông dân trồng lúa đã giảm được một phần chi phí nhờ dùng máy cấy lúa thay cho phương pháp gieo mạ truyền thống. Cách làm này vừa tiết kiệm được giống, công lao động, dễ chăm sóc và rút ngắn thời gian gieo trồng để kịp mùa vụ. Song nói đến máy cấy lúa không ít nông dân còn tỏ ra ngỡ ngàng. Đa số nông dân vẫn làm theo phương pháp truyền thống là gieo mạ bằng tay. Phương pháp gieo mạ bằng tay tốn rất nhiều giống, lúa mọc không đều, không thẳng hàng, dẫn đến khó chăm sóc và sâu bệnh nhiều hơn. Nếu dùng máy cấy lúa, nông dân sẽ tiết kiệm được 1/3 lượng giống tương đương 800 ngàn đồng/hécta/vụ so với gieo bằng tay. Đồng thời, máy cấy lúa có thể cấy được 10 hécta/ngày bớt cho nông dân nỗi lo thiếu lao động mùa vụ. Bên cạnh đó, dùng máy cấy lúa còn rút ngắn thời gian mùa vụ khoảng 15-17 ngày. Như vậy, trong vụ mùa, vụ đông-xuân bà con hạn chế được tình trạng hạn cuối vụ. Ngoài ra, còn có thể xuống giống đồng loạt trên cùng một cánh đồng, sẽ dễ chăm sóc và phòng trừ sâu bệnh, đặc biệt là bệnh rầy nâu.
+Lao động nông nghiệp đang ngày một thiếu, giá nhân công lao động vào vụ khoảng 150 - 160 ngàn đồng/ngày. Không ít nông dân có diện tích lớn than thở, vào mùa vụ nhiều khi trả giá cao cũng không thuê được nhân công, đành phải sản xuất không đúng thời vụ. Đây là thực trạng đang diễn ra ở nhiều địa phương, vì thế việc cơ giới hóa trong trồng trọt để giảm công lao động là vấn đề đang trở nên bức thiết
+Chính vì cơ giới hóa trong khâu gieo cấy là mắt xích quan trọng, là nhân tố quyết định để thúc đẩy cơ giới hóa đồng bộ trong sản xuất. Học tập kinh nghiệm của Nhật Bản trong việc đưa mạ khay, máy cấy vào sản xuất cho thấy từ những năm 70 của thế kỷ trước, Nhật Bản đã chú trọng đến khâu này và đến nay đã đạt đến mức hoàn hảo về cơ giới hóa, tự động hóa trong sản xuất lúa. Hiện nay tại Nhật Bản đang thực hiện hai mô hình chính về tổ chức sản xuất, đó là: Hợp tác xã dịch vụ nông nghiệp tổ chức đồng bộ từ khâu sản xuất đến tạo ra sản phẩm cuối cùng; thứ hai là chuyên môn hóa cao từ các khâu làm giá thể cho mạ, sản xuất mạ khay để phục vụ cho máy cấy.
+1.2 Tình hình nghiên cứu máy cấy lúa trên thế giới và Việt Nam:
+1.2.1 Tình hình thế giới:
+Lúa là cây lương thực quan trọng trên thế giới, có khoảng 100 nước trên thế giới sản xuất lúa. Vào năm 2004 diện tích trồng lúa trên thế giới khoảng 153,2 triệu ha, trong đó 90% diện tích tập trung ở châu Á, còn lại ở châu Âu, châu Phi, châu Mĩ và châu Đại Dương. Có khoảng 40 nước trồng nhiều lúa, trong đó có 13 nước có diện tích trồng lúa từ 1 triệu ha trở lên, các nước có diện tích trồng lúa nhiều trên thế giới biểu thị ở bảng sau:
+Nước Ấn Độ Trung Quốc Bangladesh Indonesia Thái Lan Việt Nam Miến Điện Nhật Bản Diện tích (triệu ha) 42.5 29.4 11 11.7 9.8 7.4 6 1.6
+Hình 1.1 Diện tích trồng lúa một số nước trên thế giới
+(Nguồn: Viện nghiên cứu lúa quốc tế IRRT 2004)
+Năng suất lúa bình quân trên thế giới năm 2004 khoảng 3,97 tấn/ha. Những nước có năng suất cao là Nhật Bản 6,9 tấn/ha, Hàn Quốc 6,4 tấn/ha, Trung Quốc 6,35 tấn/ha, Iran 5,9 tấn/ha.
+Những nước có năng suất thấp: Campuchia 2,05 tấn/ha, Thái Lan 2,57 tấn/ha.
+Các nước châu Á như Ấn Độ, Thái Lan, Philipphin, Nepan, Trung Quốc,… cũng đã đầu tư vào nghiên cứu thử nghiệm thiết kế, chế tạo mẫu máy cấy thủ công và máy cấy có động cơ của các nước tiên tiến nhưng đến nay vẫn chưa có nước nào phát triển được vẫn đang giai đoạn thăm dò.
+1.2.2 Tình hình cơ giới hoá sản xuất lúa ở Việt Nam:
+Tình hình sản xuất lúa nói chung:
+Lúa là cây lương thực chính ở nước ta, tổng diện tích trồng lúa năm 2003 là 7,5 triệu ha và tổng sản lượng thóc là 34,5 triệu tấn. Lúa được trồng ở khắp mọi miền đất nước nhưng tập trung chính ở 2 vùng: Đồng bằng Sông Hồng và đồng bằng sông Cửu Long (chiếm 69% diện tích). Lúa được trồng vào 2 vụ chính trong năm là vụ Chiêm xuân và vụ Mùa và có thể thâm canh vào vụ hè thu (chủ yếu ở đồng bằng sông Cửu Long).
+
+Hình 1.2 Niềm vui của người dân trúng vụ mùa lúa
+
+Lúa gạo là một loại lương thực quan trọng đối với 3.5 tỷ người, chiếm 50% dân số thế giới. Theo thống kê của tổ chức lương thực thế giới FAO năm 2015 sản lượng lúa gạo đạt 749.1 triệu tấn tăng 1% so với năm 2014 (741.8 triệu tấn) và có xu thế tăng trong những năm tiếp theo.Sản lượng lúa gạo tại châu Á chiếm tới 90.4% toàn thế giới, tức 677.7 triệu tấn. Tỷ lệ này vẫn đang liên tục tăng vì vấn đề dân số gia tăng ở khu vực này. Theo thống kê, sản lượng lúa gạo cao chủ yếu nhờ sản lượng tăng mạnh tại Trung Quốc, Ấn Độ, Thái Lan, Pakistan và Việt Nam, trong đó Việt Nam sản lượng lúa gạo 2015 đạt tới 44.7 triệu tấn.
+Sản lượng lúa gạo tại Châu Phi đạt 28.7 triệu tấn, tăng 0.8% so với sản lượng năm 2014. Sản lượng tăng tại các nước Tây Phi đã bù đắp những thiếu hụt do sự suy giảm tại một nước ở Đông và Nam Phi.
+Tại vùng trung Mỹ và Caribe sản lượng lúa gạo duy trì ở mức ổn định 3 triệu tấn. Vùng nam Mỹ sản lượng lúa gạo đạt 25.4 triệu tấn năm 2015 tăng 2.7% so với cùng kỳ năm 2014. Sản lượng lúa gạo tại châu Âu giữ ở mức ổn định đạt 4.1 triệu tấn năm 2015.
+
+
+Hình 1.3 Sản lượng và diện tích lúa gạo thế giới
+
+1.2.3 Tình hình sản xuất lúa gạo tại Việt Nam
+Việt Nam là một nước nhiệt đới gió mùa có chiều dài bờ biển lên tới 3000km, địa hình phức tạp nhiều sông núi, do đó hình thành nhiều vùng canh tác lúa khác nhau. Căn cứ vào điệu kiện tự nhiên, tập quán canh tác, sự hình thành mùa vụ và phương pháp gieo trồng, nghề trồng lúa nước được hình thành và chia ra là 3 vùng chính: đồng bằng sông Hồng, đồng bằng ven biển miền Trung và đồng bằng Nam Bộ
+Diện tích và sản lượng lúa gạo của Việt Nam từ năm 2000-2015
+Theo bảng thống kê diện tích và sản lượng lúa của cả nước, nhận thấy rằng bắt đầu từ năm 2000 đến năm 2007 diện tích trồng lúa giảm từ 7.666 nghìn ha xuống 7.207 nghìn ha và từ năm 2007 trở đi diện tích trồng lúa có xu hướng tăng trở lại và đạt 7.899 nghìn ha vào năm 2013. Diện tích của vụ lúa mùa có xu hướng giảm dần, còn diện tích của vụ đông xuân thì tăng dần theo từng năm. Diện tích vụ hè thu giữ ở mức ổn định và bắt đầu có xu hướng tăng từ năm 2010.
+Từ năm 2005 trở lại đây sản lượng lúa gạo có xu thế tăng dần. Ngoài việc tăng diện tích trồng lúa thì việc ứng dụng khoa học kỹ thuật vào nông nghiệp bằng việc tạo ra những giống lúa mới có năng suất cao, chống chọi được với nhiều loại sâu bệnh cũng góp phần nâng cao sản lượng lúa gạo của cả nước.
+1.2.4 So sánh tình trạng lúa gạo thế giới và Việt Nam 2014-2015
+Năm 2014, thương mại lúa gạo thế giới tương đối bình ổn, không có những xáo trộn đáng kể xảy ra do mùa màng hoặc biến cố chính trị. Do nhu cầu của một số nước gia tăng và số lượng lúa gạo thặng dư tại các nước xuất khẩu, sự trao đổi lúa gạo thế giới đạt mức kỷ lục 40,2 triệu tấn gạo hay 8% cao hơn 2013.
+
+Hình 1.4 Chế biến gạo xuất khẩu.
+Theo tiên đoán của Cơ quan FAO, trao đổi lúa gạo sẽ giảm bớt 0,7% trong 2015. Giá gạo thế giới thấp nhất kể từ 2008. Các nước nhập khẩu chính vẫn là Trung Quốc, Indonesia, Philippines, Bangladesh, SriLanka và Châu Phi.
+Năm qua, có vài sự kiện đáng chú ý làm ảnh hưởng không nhỏ đến thị trường thế giới. Tháng 2/2014, Chính phủ quân nhân Thái Lan hủy bỏ chương trình trợ giá gạo lớn lao của Chính phủ trước, thúc đẩy xuất khẩu gạo tồn kho, hạ thấp giá để giúp nước này phục hồi ngành xuất khẩu truyền thống và đã trở lại ngôi vị xuất khẩu gạo hạng nhất trong 2014.
+Dĩ nhiên, điều này có tác động trực tiếp đến giá gạo xuất khẩu Việt Nam và Ấn Độ. Campuchia và Myanmar đang trở nên những nước xuất khẩu gạo giá thấp và có lực cạnh tranh đáng lo ngại cho cả Việt Nam và Thái Lan trong tương lai.
+Trung Quốc, Úc Châu, Ecuador, Hoa Kỳ, Liên bang Nga và Uruguay cũng xuất khẩu gạo nhưng với số lượng tương đối nhỏ.
+Với khuynh hướng giảm bớt diện tích trồng lúa, Việt Nam năm vừa qua được mùa nhờ khí hậu điều hòa, sản lượng đạt đến 45 triệu tấn lúa hay tăng 2,3% so với 2013, năng suất bình quân 5,77 tấn/ha và xuất khẩu 6,2 triệu tấn gạo trị giá 2,7 tỉ Mỹ kim, so với mục tiêu đầu năm 6,5 triệu tấn và 6,7 triệu tấn của 2013.
+Năm 2014, Việt Nam xuống vị trí thứ ba xuất khẩu gạo thế giới, sau Thái Lan và Ấn Độ. Hai chương trình trợ cấp trồng lúa lai và sản xuất lúa 3 vụ/năm đã đến lúc cần được nghiêm túc duyệt xét lại vì sự bất hợp lý của nước sản xuất dư thừa và xuất khẩu gạo lớn thế giới, chưa kể đến yếu tố kỹ thuật.
+Cho nên, cần chuyển đổi cơ cấu cây trồng và đặc biệt dành hỗ trợ này cho mục đích khác như ngành trồng bắp, đậu nành cho chăn nuôi và rau cải, màu có trị giá cao. Hơn nữa, trồng 3 vụ lúa/năm trong khi giá gạo xuất khẩu thế giới xuống thấp như hiện nay, nông dân còn gặp nhiều khó khăn hơn nữa.
+Chỉ tiêu sản xuất lúa gạo hàng năm cần đặt trên cơ sở nhu cầu thế giới và nội địa để đảm bảo lợi tức cao cho nông dân thay vì dựa vào đất trồng sẵn có.
+Năm 2014, thị trường lúa gạo Việt Nam có một số sự kiện nổi bật. Chính phủ cho phép bổ sung Vinafood 1 (Tổng công ty Lương thực miền Bắc) cùng Vinafood 2 (Tổng công ty Lương thực miền Nam) làm đầu mối giao dịch hợp đồng tập trung tại các thị trường Philippines, Indonesia và Malaysia. Cạnh tranh xuất khẩu gạo vào Trung Quốc ngày càng tăng thêm, Việt Nam chiếm hơn nửa thị trường này, bên cạnh Pakistan, Thái Lan và Myanmar.
+Cũng giống 2013, Việt Nam mua tạm trữ 1 triệu tấn lúa quy gạo trong vụ đông xuân ở đồng bằng sông Cửu Long với lãi suất hỗ trợ để hạn chế dao động giá cả lúa gạo trong nước.
+Từ 18/4, giá gạo xuất khẩu tối thiểu tăng thêm 20 đô la Mỹ lên 375 đô la/tấn cho gạo 25% tấm. Suốt năm, giá gạo xuất khẩu bị tác động mạnh do cạnh tranh mãnh liệt với Ấn Độ và Thái Lan. Dù thế, giá gạo xuất khẩu Việt Nam tăng lên liên tục từ quý 2 đến tháng 9/2014 mới bắt đầu xuống thấp. Châu Á và Châu Phi là thị trường nhập khẩu chính của Việt Nam.
+Tháng 4/2014, doanh nghiệp Việt Nam đã thắng thầu 800.000 tấn gạo 15% tấm nhập khẩu của Philippines, nhưng với giá chỉ 436,5 đô la/tấn, thấp khá xa so với giá đề nghị của 3 nhà thầu khác từ Pháp, Hồng Kông và Thái Lan. Tuy nhiên, hợp đồng bán gạo này giúp Việt Nam có đối trọng đáng kể để Trung Quốc không thể ép giá mua gạo Việt Nam xuống thấp.
+Năm 2014 là năm xuất khẩu gạo thơm nhiều nhất, hơn 800.000 tấn gạo hay 36% so với cùng thời điểm năm trước, với giá trung bình 600 đô la/tấn (trong khi gạo thơm Hom Mali của Thái Lan từ 1.065 - 1.075 đô la/tấn và Basmati của Ấn Độ 1.515 - 1.525 đô la/tấn), có thể thu hút nông dân trồng nhiều lúa thơm trong những năm tới. Thị trường chủ yếu là Trung Quốc, Hồng Kông, Singapore, Malaysia, Philippines và Mỹ.
+Một điều đáng mừng cho người Việt hải ngoại là gạo Việt Nam bắt đầu xuất hiện lần đầu tiên trên thị trường Hoa Kỳ từ quý 4/2014, nhưng chất lượng và giá cả kém hơn gạo Thái Lan (từ 10-45 đô la/kg), với 3 nhãn hiệu: Gạo thơm thượng hạng Bạc Liêu, Gạo thơm thượng hạng 3 Miền và Việt Nam Jasmine ricet tại miền Nam California. Phản ứng sơ khởi của giới tiêu thụ Mỹ cho biết chất lượng gạo Việt Nam không bằng gạo Thái Lan, loại gạo sau này hiện chiếm thị phần to lớn tại Mỹ (hơn 80%).
+
+Hình 1.5 Sản lượng, xuất khẩu và dự trữ gạo tại một số nước xuất khẩu quan trọng
+(Nguồn: FAO Tháng 12-2014)
+Năm 2015, theo một số chuyên gia, thị trường xuất khẩu gạo thế giới có thể gặp khó khăn do nhiều nước đang được mùa và thế giới “xả hàng” nên nguồn cung nhiều hơn cầu.
+Ngoài ra, giá xăng dầu liên tục xuống thấp làm cho nhu cầu sản xuất nhiên liệu sinh học giới hạn, số lương thực như bắp, đậu nành… sẽ thặng dư làm giá lương thực khó tăng lên trong tương lai, giá lúa gạo có thể thấp hơn. FAO tiên đoán thị trường lúa gạo thế giới sẽ kém hơn 2014 một chút, chỉ độ 0,6% hay số lượng đạt đến 40,5 triệu tấn gạo.
+Hiện nay, các nước ở Nam bán cầu đang gieo trồng, theo tiên đoán sơ khởi, sản xuất lúa của Argentina và Uruguay giảm bớt do mưa quá nhiều và giá thành cao; trong khi tăng thêm tại Bolivia, Chile và Paraguay.
+Ở Indonesia, chính phủ đặt chỉ tiêu tăng 4% (73,4 triệu tấn lúa) so với 2014. Sri Lanka sản xuất phục hồi nhờ mưa trở lại. Tại Châu Phi, triển vọng sản xuất của Madagascar và Tanzania khá tốt.
+Tuy nhiên, sản xuất lúa của Úc Châu sẽ co lại 18% do thiếu nước và giá thành cao. Ngoài ra, Thái Lan và Trung Quốc đã ký bản ghi nhớ với nội dung Trung Quốc sẽ mua 2 triệu tấn gạo từ Thái Lan trong 2015-2016 dù thực tế chưa xác định như đã thấy trong 2014.
+..................................................
+Hình 3.22 Đĩa xích máy cấy
+
+Dựa vào khoảng cách giữa các cây lúa khi cấy l=19 – 21cm, ta có:
+Với chu vi bánh xe = 1000mm, có 30 gạch chia đều trên bánh và khoảng cách 2 gạch bánh xe là khoảng 200mm ta lập bảng phân tích sau:
+Trục bánh xe Trục trung gian Trục tay cấy Số lần cấy 1 vòng 5 vòng 15 vòng 15 lần cấy 30 gạch 5 vòng 15 vòng 15 lần cấy 2 gạch 1/3 vòng 1 vòng 1 lần cấy
+Hình 3.23 Bảng thông số tỷ lệ truyền tay cấy
+
+Tỷ lệ truyền giữa trục trung gian và trục tay cấy u1 = 3
+Tỷ lệ truyền giữa trục bánh xe và trục trung gian u2 = 5
+Vậy utổng = 5.3 = 15
+Với U1 = 3. Tra bảng 5.4 [I]/80 Ta chọn:
+Z1 = 29-2u = 29 – 2.3 = 23 răng (Z1 là số răng đĩa xích nhỏ tay cấy).
+Do đó ta có số răng đĩa xích lớn Z2 là:
+Z2 là đĩa xích 2 của trục truyền động trung gian.
+Z2 = U1.Z1£ Zmax
+Zmax: Được xác định từ điều kiện hạn chế độ tăng xích do bản lề bị mòn sau một thời gian làm việc.
+Zmax = 120 đối với xích ống và xích con lăn, Zmax = 140 đối với xích răng.
+Z2 = U1.Z1 = 3.23 = 69 răng
+Vậy Z2 = 69 răng
+Z3 là đĩa xích đồng trục với trục trung gian của đĩa xích 2.
+Z4 là đĩa xích trục bánh xe.
+Với u2 = 5
+Z4 = U2.Z3£ Zmax.
+Zmax: Được xác định từ điều kiện hạn chế độ tăng xích do bản lề bị mòn sau một thời gian làm việc.
+Zmax = 120 đối với xích ống và xích con lăn, Zmax = 140 đối với xích răng.
+Ta chọn Z3 = 29 -2u = 29 – 2.5 = 19 răng,
+Z4 = U2.Z3 = 5.19 = 95 răng.
+Ta có: Khối lượng tay cấy mỗi tay cấy khoảng 1kg, => 6 tay cấy khối lượng m = 6kg
+P = m.g = 6.9,81 = 58,86 kg
+Ta có chiều dài tay cấy d = 150
+=> T = F.d = P.d = 58,86.150 = 8829
+Mà =8829 => P = 0,03
+Do điều kiện làm việc dưới đồng ruộng nên bùn đất bám khi di chuyển nên ta có công suất như sau:
+= = 0,05
+3.10.3 Tính toán xích đĩa xích 1-2
+a. Xác định bước xích p:
+Theo công thức 5.3[I]/80 công suất tính toán và điều kiện đảm bảo chỉ tiêu độ bền mòn.
+Ptx = P.k.kZ.kn £[P]. (1)
+Trong đó:
+Ptx, P, [P]: Lần lượt là công suất tính toán, công suất cần truyền (P=PII), công suất cho phép.
+kZ: Hệ số số răng.
+kZ = ,
+Z01:bước xích tiêu chuẩn của bộ truyền xích có số răng đĩa nhỏ, Z1= 23.
+® kZ = = 1,09
+kn: Hệ số số vòng quay. kn =
+Vì số vòng quay đĩa nhỏ n1 =33,67(v/ph), nên ta chọn n1 = 50(v/ph).
+®kn = = 1,485
+Ta có: Hệ số sử dụng
+k = k0. ka. kdc. kbt. kd. kc
+Ta bảng 5.6 [I]/82 ta có:
+k0: Hệ số kể đến ảnh hưởng vị trí bộ truyền, lấy k0=1.
+(Chọn độ nghiêng giữa bộ truyền và phương ngang < 400).
+ka: Hệ số kể đến khoảng cách trục và chiều dài xích, lấy ka = 1,25( Khoảng cách trục a £25p ).
+kdc: Hệ số kể đến ảnh hưởng của việc điều chỉnh lực căng xích, lấy kdc = 1 (ứng với vị trí trục không điều chỉnh được).
+kbt: Hệ số kể đến ảnh hưởng của bôi trơn, lấy kbtr = 1,3 ( vì môi trường có bụi, bôi trơn loại II).
+kd: Hệ số tải trọng động, kể đến tính chất của tải trọng, lấy kd = 1,25 (vì tải trọng động )
+Kc: Hệ số kể đến chế độ làm việc của bộ truyền , lấy kc = 1,25(làm việc 2ca/ngày).
+Vậy:
+k = 1.1,25.1,3.1.1,25.1,25 = 2,54
+Vậy ta xác định được Ptx từ công thức trên:
+Ptx = .k.kZ.kn = 0,05.2,54.1,67.1,485 = 0,31(kW).
+Ptx < [P] = 0,35(kW)
+Với n1 = 50(v/phút). Tra bảng 5.5[I]/81 ta chọn được bộ truyền xích:
+bước xích .. = 12,7(mm).
+dc= 4,45(mm) ( Đường kính chốt xích)
+B= 8,9(mm) ( Chiều dài ống xích)
+Theo bảng 5.8[I]/83 với n1 = 33,67 < 3300(v/phút).
+p = p max = 50,8(mm), với pmax là bước xích lớn nhất cho phép.
+ó Thoả mãn điều kiện va đập đối với bộ truyền
+b. Khoảng cách trục và số mắt xích:
+Khoảng cách trục nhỏ nhất giới hạn bởi khe hở nhỏ nhất cho phép giữa các đĩa xích a=(30¸50) mm, hệ số nhỏ dùng khi u = 1..2. hệ số lớn dùng khi u = 6…7
+amin = 0,5(da1 + da2) + (30 ... 50)
+Mặt khác để tránh lực căng quá lớn do trọng lượng bản thân xích gây nên, khoảng cách trục không nên quá lớn
+a £ amax = 80..
+Khi thiết kế thường sơ bộ chọn:
+a £ 25..= 317,5 mm.
+Chọn: a = 300mm
+Từ khoảng cách trục a = 300.(mm). Ta xác định được số mắt xích X:
+Lấy số mắt xích: X = 96.
+Tính lại khoảng cách trục a theo số mắt xích X = 96.
+a* = 0,25. (X- 0,5.(z2 + z1) + )
+= 0,25.12,7. (96- 0,5.(69+23) + )
+= 303,2 (mm)
+Để xích không chịu lực căng quá lớn, giảm a một lượng Da.
+Da = (0,002..0,004)a.
+Chọn Da = 0,004.a = 0,004.303,2 » 1,2.
+Do đó: a = 303,2 – 1,2 = 302 (mm).
+Sau khi xác định được số mắt xích và khoảng cách trục, cần tiến hành kiểm nghiệm số lần va đập i của bản lề xích trong một giây:
+.= = 0,54 (lần/s)`
+Điều kiện : i £ [i].
+[i]: Số lần va đập cho phép trong một giây.
+Tra theo bảng 5.9[I]/85. Dựa vào P = 12,7 . ta có: [i] = 60.
+Vậy i = 0,54 < [i] = 60. => thoả mãn
+c. Kiểm nghiệm xích về độ bền:
+Với cả bộ truyền xích bị quá tải lớn khi mở máy hoặc thường xuyên chịu tải trọng va đập trong quá trình làm việc cần tiến hành kiểm nghiệm về quá tải theo hệ số an toàn:
+Theo công thức : .
+Trong đó:
+Q: Tải trọng phá hỏng, tra theo bảng 5.2 hoặc 5.3[I].(với p= 12,7 mm)
+Q = 18,2kN = 18,2.103(N), khối lượng một mét xích:q = 0,65kg/m
+Kd : hệ số tải trọng động Kd = 1,7( Chế độ tải trọng trung bình)
+Ft: Lực vòng, Ft = 1000..
+Trong đó: v = (m/s)
+® Ft =
+FV: Lực căng do lực li tâm sinh ra.
+FV = q.V2 = 0,65.(0,16)2 = 0,02 (N).
+F0: Lực căng do trọng lượng nhánh xích bị động sinh ra:
+F0 = 9,81.kf.q.a(N).
+Trong đó:
+a: khoảng cách trục; a=302 mm =302.10-3 m
+kf: Hệ số phụ thuộc độ võng f của xích và vị trí bộ truyền, f = (0,01¸0,02)a
+Lấy kf = 6 ( Bộ truyền nghiêng một góc < 400).
+® F0 = 9,81.6.0,65. 302.10-3 = 11,6(N).
+Vậy ta tính được s
+s =
+Tra bảng 5.10[I] , với bước xích p =12,7 mm và n1=nx= 33,67 ta được [S] = 7
+
+Vậy S = 47,1 > [S] = 7 Þ Bộ truyền xích đảm bảo độ bền.
+
+d. Xác định các thông số của đĩa xích và kiểm nghiêm độ bền tiếp xúc:
+vXác định thông số của đĩa xích:
+- Đường kính vòng chia của đĩa xích được xác định theo công thức:
+d1 = và d2 =
+® d1 = = 93,27 (mm)
+® d2 = = 279,03 (mm)
+- Đường kính vòng đỉnh của đĩa xích 1,2:
+= .
+= . = = 285,09(mm)
+e. Xác định lực tác dụng lên trục:
+Xác định theo công thức 5.20[I]/92:
+Fr = kx.Ft =
+Kx: Hệ số kể đến trọng lượng xích. Lấy kx = 1,15. Vì đây là bộ truyền nghiêng một góc < 400.
+® Fr = 1,15.3.12,5= 359,4 (N).
+
+3.10.4 Tính toán xích đĩa xích 3-4:
+a. Xác định bước xích p của đĩa xích:
+Ta có: Công suất xích 3-4:
+(kw)
+Theo công thức 5.3[I]/80 công suất tính toán và điều kiện đảm bảo chỉ tiêu độ bền mòn.
+Ptx = P.k.kZ.kn £[P]. (1)
+Trong đó:
+Ptx, P, [P]: Lần lượt là công suất tính toán, công suất cần truyền (P=PII), công suất cho phép.
+kZ: Hệ số số răng.
+kZ =
+Z03:bước xích tiêu chuẩn của bộ truyền xích có số răng đĩa nhỏ, Z3= 19.
+® kZ = = 1,36
+kn: Hệ số số vòng quay. kn =
+Vì số vòng quay đĩa nhỏ n3 =33,67(v/ph), nên ta chọn n03 = 50(v/ph).
+®kn = = 1,485
+Ta có: Hệ số sử dụng
+k = k0. ka. kdc. kbt. kd. kc
+Ta bảng 5.6 [I]/82 ta có:
+k0: Hệ số kể đến ảnh hưởng vị trí bộ truyền, lấy k0=1.
+(Chọn độ nghiêng giữa bộ truyền và phương ngang < 400).
+ka: Hệ số kể đến khoảng cách trục và chiều dài xích, lấy ka = 1,25( Khoảng cách trục a £25p ).
+kdc: Hệ số kể đến ảnh hưởng của việc điều chỉnh lực căng xích, lấy kdc = 1 (ứng với vị trí trục không điều chỉnh được).
+kbt: Hệ số kể đến ảnh hưởng của bôi trơn, lấy kbtr = 1,3 ( vì môi trường có bụi, bôi trơn loại II).
+kd: Hệ số tải trọng động, kể đến tính chất của tải trọng, lấy kd = 1,25 (vì tải trọng động )
+Kc: Hệ số kể đến chế độ làm việc của bộ truyền , lấy kc = 1,25(làm việc 2ca/ngày).
+Vậy:
+k = 1.1,25.1,3.1.1,25.1,25 = 2,54
+Vậy ta xác định được Ptx từ công thức trên:
+Ptx = P.k.kZ.kn = 0,05.2,54.1,36.1,485 = 0,26(kW).
+Ptx < [P] = 0,35(kW)
+Với n3 = 50(v/phút). Tra bảng 5.5[I]/81 ta chọn được bộ truyền xích:
+bước xích = 12,7(mm).
+dc= 4,45(mm) ( Đường kính chốt xích)
+B= 8,9(mm) ( Chiều dài ống xích)
+Theo bảng 5.8[I]/83 với n1 = 33,67 < 3300(v/phút).
+p = p max = 50,8(mm), với pmax là bước xích lớn nhất cho phép.
+ó Thoả mãn điều kiện va đập đối với bộ truyền
+b. Khoảng cách trục và số mắt xích:
+Khoảng cách trục nhỏ nhất giới hạn bởi khe hở nhỏ nhất cho phép giữa các đĩa xích a=(30¸50) mm, hệ số nhỏ dùng khi u = 1..2. hệ số lớn dùng khi u = 6…7
+amin = 0,5(da1 + da2) + (30 ... 50)
+Mặt khác để tránh lực căng quá lớn do trọng lượng bản thân xích gây nên, khoảng cách trục không nên quá lớn
+a £ amax = 80..
+Khi thiết kế thường sơ bộ chọn:
+a £ 25 = 317,5 mm.
+Chọn: a = 300mm
+Từ khoảng cách trục a = 300.(mm). Ta xác định được số mắt xích X:
+Lấy số mắt xích: X = 110.
+Tính lại khoảng cách trục a theo số mắt xích X = 110.
+a* = 0,25. (X- 0,5.(z2 + z1) + )
+= 0,25.12,7. (110- 0,5.(95+19) + )
+= 305,7 (mm)
+Để xích không chịu lực căng quá lớn, giảm a một lượng Da.
+Da = (0,002..0,004)a.
+Chọn Da = 0,004.a = 0,004.305,7 » 1,2.
+Do đó: a = 305,7 – 1,2 = 304,5 (mm).
+Sau khi xác định được số mắt xích và khoảng cách trục, cần tiến hành kiểm nghiệm số lần va đập i của bản lề xích trong một giây:
+.= = 0,39 (lần/s)
+Điều kiện : i £ [i].
+[i]: Số lần va đập cho phép trong một giây.
+Tra theo bảng 5.9[I]/85. Dựa vào = 12,7 . ta có: [i] = 60.
+Vậy i = 0,39 < [i] = 60. => thoả mãn
+c. Kiểm nghiệm xích về độ bền:
+Với cả bộ truyền xích bị quá tải lớn khi mở máy hoặc thường xuyên chịu tải trọng va đập trong quá trình làm việc cần tiến hành kiểm nghiệm về quá tải theo hệ số an toàn:
+Theo công thức : .
+Trong đó:
+Q: Tải trọng phá hỏng, tra theo bảng 5.2 hoặc 5.3[I].(với p= 12,7 mm)
+Q = 18,2kN = 18,2.103(N), khối lượng một mét xích:q = 0,65kg/m
+Kd : hệ số tải trọng động Kd = 1,7( Chế độ tải trọng trung bình)
+Ft: Lực vòng, Ft = 1000..
+Trong đó: v = (m/s)
+® Ft =
+FV: Lực căng do lực li tâm sinh ra.
+FV = q.V2 = 0,65.(0,14)2 = 0,01 (N).
+F0: Lực căng do trọng lượng nhánh xích bị động sinh ra:
+F0 = 9,81.kf.q.a(N).
+Trong đó:
+a: khoảng cách trục; a=304,5 mm =304,5.10-3 m
+kf: Hệ số phụ thuộc độ võng f của xích và vị trí bộ truyền, f = (0,01¸0,02)a
+Lấy kf = 6 ( Bộ truyền nghiêng một góc < 400).
+® F0 = 9,81.6.0,65. 304,5.10-3 = 11,6(N).
+
+Vậy ta tính được s
+s =
+
+Tra bảng 5.10[I] , với bước xích p =12,7 mm và n1=nx= 33,67 ta được [S] = 7
+Vậy S = 34,6 > [S] = 7 Þ Bộ truyền xích đảm bảo độ bền.
+
+d. Xác định các thông số của đĩa xích và kiểm nghiêm độ bền tiếp xúc đĩa xích:
+vXác định thông số của đĩa xích:
+- Đường kính vòng chia của đĩa xích được xác định theo công thức:
+d3 = và d4 =
+® d3 = = 77,16 (mm)
+® d2 = = 384,11 (mm)
+- Đường kính vòng đỉnh của đĩa xích 1,2:
+da1 = .
+da2 = . = = 390,25(mm)
+e. Xác định lực tác dụng lên đĩa xích:
+Xác định theo công thức 5.20[I]/92:
+Fr = kx.Ft =
+Kx: Hệ số kể đến trọng lượng xích. Lấy kx = 1,15. Vì đây là bộ truyền nghiêng một góc < 400.
+® Fr = 1,15.428,6= 492,9 (N).
+3.11 Tính thiết kế sức bền trục:
+3.11.1 Trục 2 (trục tay quay):
+Phân tích lực tác dụng lên trục từ các chi tiết quay của hệ thống truyền động:
+Ta có moment xoắn trên trục 2 (Trục tay quay giúp chuyển động tay cấy).
+Mà =1418,8 (Nmm)
+
+Trục Moment xoắn (Nmm) Số vòng quay (vòng/phút) 2 (tay quay) T = 1418,8 n = 33,67
+Hình 3.24 Bảng moment và số vòng quay trục 2
+
+Lực tác dụng lên bộ truyền xích
+Lực tác dụng lên trục: Fr = 359,4 (N) phân bố cho hai bộ truyền ở 2 đầu:
+Lực tác dụng lên trục tại khớp nối:
+Ta chọn vật liệu chế tạo trục là thép C35, theo bảng 10.1 [1] chọn sơ bộ ứng suất uốn cho phép [σ] = 80 (MPa) và ứng suất xoắn cho phép [τ] = 20 (MPa) Xác định đường kính sơ bộ theo công thức (4.113):
+Trong mặt phẳng yOz, phương trình cân bằng moment:
+Ta có = 14,19 (N)
+ð = = 140,61 (N)
+ð 14,19 + 359,4 -140,61 = 232,98 (N)
+Biểu đồ moment:
+Hinh 3.25 Biều đồ moment
+3.11.1 Trục 4 (trục bánh xe):
+Phân tích lực tác dụng lên trục từ các chi tiết quay của hệ thống truyền động:
+Ta có moment xoắn trên trục 2 (Trục tay quay giúp chuyển động tay cấy).
+Mà =1805,2 (Nmm)
+
+Trục Moment xoắn (Nmm) Số vòng quay (vòng/phút) 4 (trục bánh xe) T = 1805,2 n = 505,1
+Hình 3.26 Bảng moment và số vòng quay trục 4
+Lực tác dụng lên bộ truyền xích
+Lực tác dụng lên trục: Fr = 492,9 (N):
+Trọng lực do khối lượng của mỗi bánh xe: P = mg = 30.9,81 = 294,3 (N)
+Trong mặt phẳng xOz, phương trình cân bằng moment:
+ð = 294,3 (N)
+Trong mặt phẳng xOz, phương trình cân bằng moment:
+ð = 205,4
+ð 287,5 (N)
+Vẽ biểu đồ moment:
+Hình 3.27 Moment trục 4
+3.12 Chọn then và tính kiểm nghiệm then:
+Ta chọn then tiêu chuẩn dựa vào đường kính trục và chiều dài Mayo :l = 0,8.lm
+Hình 3.26 Then
+*Với đường kính trục tại vị trí lắp đĩa xích là : d= 40 mm
++Ta chọn then bằng và tra bảng 9.1a ta được các kích thước sau :
+d(mm) Lm=1,4.d(mm) b (mm) h(mm) t1(mm) t2(mm) 40 56 12 8 5 3,3
+Hình 3.27 Bảng chọn thông số then
++ Kiểm nghiệm độ bền dập và độ bền cắt của then
+Theo công thức 9.1 sách TKHDĐCK-tập 1:
+= = 28,3 Mpa
+Theo công thức 9.2 sách TKHDĐCK-tập 1:
+= = 10,6
+Với tải trọng tĩnh,dạng lắp cố định,tra bảng 9.5 sách TKHDĐCK-tập 1 ta có ứng suất dập và ứng suất cắt cho phép của then:
+[σ] = 150 MPa
+[τ] = 60 ÷90 Mpa
+Ta thấy σ <[ σ] và τ < [τ]. Vậy mối ghép then thỏa điều kiện bền dập và bền cắt.
+KẾT LUẬN
+Những vấn đề đạt được:
+- Xem xét tính khả thi của máy qua tình hình nghiên cứu trong và ngoài nước.
+- Tìm hiểu được nguyên lý và hoạt động trên địa hình nước ta.
+- Đưa ra được các phương án thiết kế và lựa chọn để thiết kế máy với kết cấu tốt, khả năng kết hợp hài hoà giữa mạ và máy.
+Hạn chế của đề tài:
+- Do kiến thức còn hạn chế nên đề tài còn nhiều thiếu sót.
+- Máy còn gia công khá phức tạp.
+Đề xuất hướng phát triển:
+- Nghiên cứu tìm các phương pháp tối ưu hoá năng suất và chất lượng.
+- Nghiên cứu thiết kết nhỏ gọn, đơn giản và năng suất cao để giảm sức lao động và tạo điều kiện cho bà con nhân dân phát triển.
+

@@ -1,0 +1,410 @@
+500 MB Bao gồm tất cả file CAD, file 2D 3D , file DOC (DOCX), lồng phôi, sơ đồ đúc, qui trình công nghệ, sơ đồ kết cấu nguyên công, bản vẽ đồ gá THIẾT KẾ QUY TRÌNH CÔNG NGHỆ GIA CÔNG CHI TIẾT GỐI ĐỠ TRỤC VÍT ME ĐHCN HN
+THIẾT KẾ QUY TRÌNH CÔNG NGHỆ GIA CÔNG CHI TIẾT GỐI ĐỠ TRỤC VÍT ME ĐHCN HN, đồ án môn học công nghệ chế tạo máy GỐI ĐỠ TRỤC VÍT ME ĐHCN HN, bài tập lớn công nghệ chế tạo máy GỐI ĐỠ TRỤC VÍT ME ĐHCN HN, thiết kế quy trình công nghệ gia công chi tiết GỐI ĐỠ
+Thiết kế đồ án công nghệ chế tạo máy là một nhiệm vụ quan trọng trong quá trình đào tạo môn chuyên nghành chế tạo máy trong các trường đại học kĩ thuật . Đồ án công nghệ chế tạo máy giúp sinh viên hệ thống lại các kiến thức đã học từ các bài giảng , bài thực hành
+Đồ án công nghệ chế tạo máy là một bài tập tổng hợp , vì vậy sinh viên hoàn thiện khả năng sử dụng tài liệu , các loại sổ tay , bảng biểu tiêu chuẩn phối hợp chúng với các kiến thức đã học để thiết lập phương án công nghệ tốt nhất ứng với điều kiện sản xuất cụ thể .
+Đồ án công nghệ cũng cho phép sinh viên phát triển khả năng sáng tạo , hoàn thiện các các bài toán kĩ thuật và tổ chức khi thiết kế công nghệ , nhằm nâng cao hiệu quả sản xuất , chất lượng sản phẩm , ứng dụng các kĩ thuật mới vào quá trình công nghệ .
+Đồ án cũng có ý nghĩa hình thành một phong cách làm việc khoa học của các sinh viên khi giảI quyết bài toán thực tế sản xuất
+Trong thuyết minh này hầu hết nội dung của đồ án đã được hệ thống lại một cách ngắn gọn . tác giả đã cố găng tra các bảng và các tính toan theo các ví dụ trong các giáo trinh , cac sách tham khảo hiện có , xin ý kiến nhiều thày giáo , các kĩ sư nhiều kinh nghiệm lâu năm trong ngành với mục đích trau dồi các kiến thức đã thu nhận ,tụ nhận xét quá trình nhận thức của bản bản thân trong quá trình học tập
+Nội dung chính là trình tự thực hiện các bước công nghệ , các phân tích về chi tiết gia công ( nguyên lí làm việc , chọn các phương pháp gia công ) Các hình vẽ minh hoạ các nguyên công…
+Đây là thuyết minh đồ án của một sinh viên chưa qua kinh nghiệm thực tế nhiều nên không thể tránh khỏi các sai sót . Nội dung và bố cục trình bày chưa được hoàn hảo như ý muốn của người đọc . vì vậy tôi rất cảm ơn và mong nhận được các ý kiến đóng góp , phê bình của các bạn , các thầy giáo
+Phần I
+I) CHỨC NĂNG NHIỆM VỤ CỦA CHI TIẾT
+- Kết cấu của chi tiết : Dạng hộp
+- Điều kiện làm việc : ổ đỡ trục các_đăng xe ôtô trọng tải lớn ( Bộ phận này nằm phía trong hộp máy ) Do đó nó chịu lực tác dụng liên tục . Yêu cầu kĩ thuật của thân chi tiết phải đạt độ cứng từ 180- 210 HB
+Chi tiết có các bề mặt làm việc sau
+Hai bề mặt song song được lắp vào hai bề mặt của 2 chi tiết khác . Trên hai bề mặt này có các lỗ định vị khi lắp ghép chi tiết này
+Hai bề mặt lỗ Æ190 và Æ84 là 2 vị trí lắp hai ổ bi đỡ trục các đăng do đó hai lỗ này cần độ đồng tâm nhỏ hơn hay bằng 0.01
+2) Tính công nghệ kết cấu của chi tiết :
+_ Phôi được chế tạo từ phương pháp đúc , vật liệu là thép 45 . Tuy hình dạng khá phức tạp nhưng có nhiều bề mặt không phải gia công . Hình dạng các mặt ngoài và mặt lỗ trong không gây khó khăn cho việc tạo phôi . Tuy vậy trong quá trình đúc vẫn phải thực hiện các phần tử phụ như thao ( bằng đất ) để tạo lổ trong ( hai lỗ 1vuông và tròn đâm xuyên qua nhau) , chính vì vậy nó có tính công nghệ thấp . Có lẽ hình dạng và kích thước của lỗ này được xác định bởi nguyên lý cấu trúc hoặc chức năng đặc biệt nên không thể thay đổi hay loại bỏ đựoc.
+Hai mặt phẳng song song của chi tiết được chế tạo với độ chính xác cao ( độ song song không nhỏ hơn 0.05) và Rz=20 . Nên phương pháp gia công duy nhất có thể đáp ứng là phay bằng dao phay mặt đầu gắn hợp kim cứng
+Các bề mặt lỗ này Æ190 và Æ84 yêu cầu độ đồng tâm cao , kich thước lỗ lớn , yêu cầu bề mặt không cao do đó ta có thể tiến hành gia công trên máy tiện trong một lần gá đặt với chuẩn định vị là mặt đáy và hai lỗ Æ22 ở hai đầu của chi tiết . Các bề mặt gia công có tính công nghệ phù hợp , cho phép sử dụng chế độ cắt cao , kết cấu dao đơn giản , mặt chuẩn của các nguyên công đầu tiên ổn dịnh . Các lỗ bắt bu lông có ren hoặc không có ren đều cho phép gia công trên máy khoan nhiều trục chính
+II THIÊT KÊ SƠ BÔ PHƯƠNG AN CÔNG NGHÊ
+1) Xác định dạng sản xuất ( theo phương pháp gần đúng )
+Sản lượng chi tiết hằng năm là 3000 chi tiết
+Khối lượng của chi tiết được tính theo công thức ; Q1 = V. ỵ
+Với ỵ là khối lượng riêng của thép = 7.852 Kg/dm3
+V là thể tích của chi tiết (dm3)
+Chia chi tiết làm 3 phần ta có :
+V1 =Vhộp -Vtrụ
+Vhộp = 342 ´ 105 x 69 = 2477790 (mm3)
+Vtrụ = 3.14 ´ 95x95 ´69 = 1955356,5 (mm3)
+V1 = 2477790 – 1955356,5 = 522433,5 (mm3)
+V2 = Vhộp – V trụ
+Vhộp = 420 x 105 ´ 45 = 1984500 (mm3)
+V trụ = 3.14 ´ 42x42´ 45 = 249253,2(mm3)
+V2 = 1984500- 249253.2 = 1735246,8( mm3)
+V3 = V hộp – V lõi
+Vhộp = 89 ´ 105 ´ 300 = 2803500 (mm3)
+Vlõi = 89 ´ 105 ´ 100 = 934500(mm3)
+V3 = 2803500- 934500 = 1869000 (mm3)
+V chi tiết = V1+ V2 +V3 = 522433,5 +1735246,8 + 1869000 = 4126680,3 (mm3) =4,1266(mm3)
+Vậy khối lượng chi tiết là Q1= 4,1266 ´ 7.852 = 32,5 Kg
+căn cứ vào bảng 2.6 sách hướng dẫn thiết kế đồ án công nghệ chế tạo máy ta có thể xác định được dạng sản xuất là loạt lớn
+2) Chọn phôi và phương pháp chế tạo phôi
+Chi tiết được chế tạo bằng thép C 45 có thành phần hoá học như sau
+C Si Mn S P Ni Ci Không lớn hơn 0.40- 0.5 0.17 – 0.37 0.5 – 0.8 0.045 0.045 0.3 0.3
+Thành phần hoá học của thép 45 % theo khối lượng
+Theo yêu cầu kĩ thuật sau khi tạo phôi song ta tiến hành ủ để thân chi tiết đạt độ cứng 180 – 210 HB
+a)Phương pháp chế tạo phôi
+Do chi tiết có hình dạng phức tạp ( hai lỗ tròn và vuông đâm xuyên qua nhau ) nên chỉ có phương pháp đúc là có thể đáp ứng được yêu cầu trên
+Có rất nhiều phương pháp đúc
+Đúc trong khuân cát : tương đối phổ biến ở nước ta , tuy nhiên nhược điểm là tốn thời gian chế tạo khuân mẫu , độ chính xác của phôi không cao , nhưng có thể tạo được phôi có khối lượng lớn từ 10-15 tấn
+- Đúc trong khuân vỏ mỏng : Sử dụng chế tạo các các loại phôi quan trọng có hình dạng phức tạp từ vật liệu thép và hợp kim nhôm Độ chính của phôi đạt từ cấp chính xác 12 -14 có thể sử dụng phương pháp chế tạo khuân tự động hoá cho năng suất cao nhưng giá thánh rất cao
+- Đúc trong khuân kim loại : Đạt hiệu quả khi tạo phôi với số lượng lớn , bề mặt chi tiết đúc có độ chính xác khá cao , năng suất cao , đúc được các chi tiết cố hình dạng tương đối phức tạp , giá thành không cao lắm
+- Đúc áp lực : tạo các chi tiết từ vật liệu thiếc , nhôm , ma nhê và hợp kim của kẽm phương pháp này có thể tạo phôi có khôi lượng lớn
+- Đúc li tâm : Dùng tạo các các phôi có dạng tròn xoay
+Căn cứ vào hiệu quả kinh tế , yêu cầu kĩ thuật , ta có thể lụa chọn phương pháp đúc trong khuân kim loại , có sử dụng các phần tử phụ là thao bằng đất để tạo lỗ . Khuân làm bằng máy
+3)Thiết kế sơ bộ tiến trình công nghệ gia công chi tiết
+Phân tích chuẩn định vị và kẹp chặt
+Do yêu cầu kĩ thuật của chi tiết là hai mặt phẳng đối diện của chi tiết cần đảm bảo độ song song ,cho nên ta phải tính toán gia công sao cho hợp lý nhất đảm bảo tính kĩ thuật , năng suất , kinh tế ,
+a) Nguyên công II tiến hành phay bề mặt có kích thước 105´420´45
+Chọn chuẩn thô là là hai bên vai của phía dưới bề mặt cần gia công và một mặt bên phía dưới của bề mặt đối diện
+Nếu chọn chuẩn định vị như vậy ta có thể đảm bảo một số yêu cầu sau đây:
++ Đảm bảo nguyên tắc chọn chuẩn thô
++ Khi chọn hai bề mặt vai làm chuẩn đảm bảo kích thước h = 45 , đảm bảo phân bố lượng dư gia công hợp lý cho các bề mặt cần gia công
++ Sau khi gia công xong bề mặt này sẽ là chuẩn tinh chính dùng trong suất quá trình gia công do đó ta có chuẩn tinh thống nhất
+b)Nguyên công II Phay bề mặt có kích thước 105´324
+Chọn chuẩn thô là bề mặt đối diện phía dưới và mặt bên của nó với phương án này cũng đảm bảo kích thước cần gia công nhưng không theo nguyên tắc chọn chuẩn , không phân bố đều được lượng dư gia công cho các bề mặt , không tạo được chuẩn tinh thống nhất do đó không đẩm bảo kích thước làm phức tạp quá trình gia công
+c) Nguyên công II Gia công 2 lỗ Æ190 và Æ84 với chuẩn là hai mặt vai hay bề mặt có kích thước 105´420
+Bề mặt 2lỗ sau khi gia công song có thể làm chuẩn tinh chính để gia công các bề mặt khác nhưng quá trinh gia công sẽ gặp khó khăn , đòi hổi hệ thống công nghệ rất cứng vững , chế tạo đồ gá cho các nguyên công tiếp theo rất phúc tạp . Tóm lại quy trình công nghệ chưa thật hợp lý
+Qua nghiên cứu các khả năng công nghệ để gia công chi tiết trên ta có rất nhiều phương án lựa chọn nhưng để đảm bảo các yêu cầu ta nên chọn phương án đầu tiên
+Việc chọn chuẩn như vậy cho phép đạt được các ưu điểm sau .
+Dễ đạt được độ song song của hai mặt đáy lớn , độ vuông góc của hai lỗ Æ190 và Æ84 so với hai mặt đáy lớn Đồ gá có kết cấu đơn giản , tin cậy , có thể sử dụng hầu hết cho các nguyên công Mặt đáy dùng làm chuẩn định vị có diện tích đủ lớn ,đảm bảo gá đặt ổn định khi gia công bằng các phương pháp đạt năng suất cao
+Như vậy quá trình gia công bao gồm các nguyên công sau:
+NGUYÊN CÔNG II : Phay mặt 1
+Chuẩn là 2bề mặt dưới của bề mặt cần gia công khống chế 4 bậc tự do và mặt cạnh khống chế 1 bậc tự do
+NGUYÊN CÔNG III : Phay mặt 2
+Chuẩn là bề mặt vừa gia công xong khống chế 3 bậc tự do, mặt cạnh khống chế 1 bậc tự do
+NGUYÊN CÔNG IV : Khoan 2 lỗ Æ22
+Chuẩn là bề mặt vừa gia công trước đó và một mặt cạnh
+Khi gia công 2 lỗ này cần thực hiện các yêu cầu sau
++ Tránh sai số gá đặt thì gia công hai lỗ trong 1lần gá
++Theo yêu cầu kĩ thuật ghi trên bản vẽ cho dung sai kích thước giữa 2 lỗ là 0.4 ta cố gắng gia công sao cho dung sai là <0.2mm để khi gia công các lỗ Æ190 và Æ84 cho một loạt các chi tiết trong nguyên công sau được đảm bảo yêu cầu kĩ thuật ,vì đây chính là hai lỗ định vị .
+Các nguyên công tiếp theo là :
+NGUYÊN CÔNG V : Tiện lỗ Æ190 và Æ84
+NGUYÊN CÔNG VI : Khoan lỗ Æ8.5 và Æ6,5
+NGUYÊN CÔNG VII : Ta rô M8 và M10
+NGUYÊN CÔNG VIII: Tổng kiểm tra
+4) Xác định lượng dư gia công
+- Vì đây là sản xuất loạt lớn hàng khối , nên phần lớn các nguyên công của quá trình công nghệ đều được thực hiện trên các máy đã được điều chỉnh sẵn bằng phương pháp tự động đạt kích thước .Do vậy lượng dư gia công sẽ được xác định bằng phương pháp tính toán phân tích .
+Ơ đây với chi tiết này ta sẽ tính lượng dư gia công và các kích thước giới hạn trung gian cho lỗ Æ190 của chi tiết , còn các bề mặt khác theo phương pháp tra bảng
+Phôi đúc trong khuân kim loại đạt cấp chính xác 12 Æ14 khối lượng m = 3,2 Kg . Tiến trình gia công lỗ Æ 190 bao gồm 2 bước tiện thô và tinh trong một lần gá , chuẩn là 2 lỗ Æ22 và mặt đáy đã được gia công từ trước
+Sai số không gian tổng cộng với loại phôi này khi gia công lỗ ∅190 xác định theo công thức :
+Pph =
+
+Pcv : Sai số do độ cong vênh của mặt lỗ sau khi đúc . Sai số này được tính toán theo 2 phương , dọc trục và hướng kính :
+trong đó : Pcv =
+Äk : là độ cong vênh đơn vị lấy theo bảng 3,7´ Äk= 0,7
+d : đường kính lỗ gia công ;
+l : Chiều dài lỗ gia công .
+Do đó : Pcv = ....= 136.5 mm
+Plk: là sai lệch về vị trí các mặt chuẩn đã gia công ở nguyên công trước và được dùng để sử dụng gá đặt chi tiết trên nguyên công đang thực hiện so với bề mặt gia công
+.Khi gia công lỗ Æ190 ngoài mặt phẳng phía dưới người ta còn dùng 2 lỗ Æ22 để làm chuẩn khống chế các bậc tự do còn lại của chi tiết
+Khi khoan 2 lỗ Æ22 người ta thường sử dụng các mặt bên của phôi đúc làm chuẩn . Do vậy phải tính tới sai lệch của kích thước xác định vị trí tương đối của tâm lỗ Æ190 so với các mặt bên của phôi . Sai lệch của kích thước này sẽ gây ra sai số vị trí của lỗ Æ190 so với các lỗ định vị Æ22. Sai số của kích thước này được lấy bằng dung sai của nó theo cấp chính xác tương ứng của phôi . tra theo bảng 2.37 ( hướng dẫn đồ án công nghệ )
+Vậy Plk= = = 1500mm
+d là dung sai theo cấp tương ứng của phôi lấy theo bảng tra (2:37 hướng dẫn đồ án công nghệ chế tạo máy)
+Sai số không gian tổng cộng của phôi là :
+Pph= ....= 1.5mm Sai số không gian sau khi tiện thô sót là : Pcl= 0,05 ´ Pph = 0.05 x1500= 75mm
+Sai số gá đặt khi tiện thô là :
+egđ =
+Sai số định vị trong trường hợp này ( ec ) xuất hiện là do chi tiết bị xoay trong mặt phẳng ngang khi gá trên chốt định vị với khe hở . Khe hở lớn nhất giữa lỗ và chốt là :
+dmax = da+ db+dmin
+Trong đó :
+da là dung sai của lỗ , da = 15mm
+db là dung sai của chốt , db = 15mm
+dmin là khe hở bé nhất giữa lỗ và chốt, dmin = 13mm
+Góc quay lớn nhất của chi tiết so với vị trí trung
+tga = = 0,00014
+Sai số định vị trên chiều dài lỗ gia công sẽ là :
+ec = l´ tga = 40 ´ 0,00014= 0,005mm = 5mm
+Sai số kẹp chặt phôi ek cho kích thước 45mm lấy bằng 120mm (bảng 3.14 sách hướng dẫn đồ án công nghệ )
+Sai số kẹp chặt ec cho kích thước 45 lấy bằng 280mm (bảng 3.14 H D Đ A công nghệ
+Do đó sai số gá đặt khi tiện thô là :
+egd = = 281mm
+Do khi tiện tinh không thay đổi gá đặt nên sai số gá đặt còn sót lại là:
+egd 2= 0,05 ´ egd + ephân độ = 14mm
+( trong đó ephân độ = 0 do không có cơ cấu phân độ )
+Theo công thức :
+2Zmin i = 2(Rzi -1 + Ti-1 + )
+Khi tiện thô:
+2Zmin 1 = 2( 200 +300 +) = 4052mm
+Khi tiện tinh:
+2Zmin 2 = 2(50 +) = 252mm
+Kích thước tính toán khi tiện thô sẽ bằng kích thước tính toán khi tiện tinh trừ đi lượng dư tối thiểu khi tiện tinh , còn kích thứoc tính toán của phôi sẽ bằng kích thước tính toán khi tiện thô trừ đi lượng dư tối thiểu khi tiện thô .
+dt 1 = 190,05 – 0,126 = 189,924mm
+dtphôi = 189,924 – 2,026 = 186.6mm
+Dung sai của các bước lấy theo bảng tra trong các sổ tay
+d2 = 62 mm ; d1 = 160 mm ; dph = 400 mm
+Tiện tinh : dmax2 =190,05 – 0,062 = 189,9mm
+Tiện thô: dmax1 = 189,924 - 0,16 = 189,764mm
+Phôi : dmax ph = 189,764 – 0,4 = 185,8mm
+Giá trị lượng dư nhỏ nhất giới hạn Zghmin2 bằng hiệu của các kích thước lớn nhất trên nguyên công đang thực hiện và nguyên công trước đó . Giá trị lượng dư lớn nhất giới hạn Zghmax2 bằng hiệu các kích thước giới hạn nhỏ nhất trên nguyên công đang thực hiện với nguyên công kề ngay trước nó
+Với tiện tinh : 2Zghmin2 = 190,05 – 189.92 = 0.13mm = 130mm
+2Zghmax2 = 189.9 – 189, 76 = 0,14mm = 140mm
+Với tiện thô:
+2Zghmin1 = 189,92 – 186,2 = 3,72mm = 3720mm
+2Zghmax1 = 189,76 – 185,8 = 3,96mm = 3960mm
+Lượng dư tổng cộng :
+2Zomin = 130 + 3720 = 3850mm
+2Zomax = 140 + 3960 = 4100mm
+Lượng dư danh nghĩa tổng cộng là
+Zodn = 3720 + 200 – 50 = 3900mm
+Trong đó 200 và 50 là các giới hạn trên của phôi và chi tiết
+Đường kính lỗ khi tạo phôi là ; dphôi = 190 – 3,9 = 186,1mm
+Với các bề mặt còn lại của chi tiết , lượng dư và dung sai được xác định bằng phương pháp tra bảng
+Bề mặt Kích thước Lượng dư Dung sai Tra bảng tính toán 1 Æ84 3,9 ±1.5 2 105´69´342 2.5 ±1.5 3 105´45´420 2.5 ±1.5
+
+
+
+
+
+PHÂN II : Trình tự các nguyên công, tính toán chế độ cắt và Thiết kế đồ gá
+NGUYÊN CÔNG I : Tạo phôi
+1/ Sơ đồ (hình vẽ )
+Mục đích : Tạo phôi cơ bản để cho quá trình gia công cắt gọt trên máy cắt kim loại .
+2/ YCKT :
+-Phôi đúc không rạn nứt, cong vênh.
+-Phôi đúc phải đảm bảo kích thước , hình dáng trên bản vẽ.
+-Đúc xong phải được ủ , mài sạch và mài ba via.
+..................................
+NGUYÊN CÔNG VI: KHOAN LỖ ễ 8.5VÀ ễ 8
+- Sơ đồ nguyên công.
+- Định vị: mặt dáy 3 bậc , chốt trụ ngắn 2 bậc, chốt trám 1 bậc
+- Khép chặt: đòn kẹp.
+- Máy: Khoan đứmg 2A135.
+Thông số máy:
+- Đường kính lớn nhất khoan được 35 mm – côn móc trục chính N0 = 4
+- Công suất động cơ 6 kw – hiệu suất h = 0,8
++ Dụng cụ cắt: Mũi khoan thep gió p = 18
++ Chế độ cắt khi khoan
+- Chiều sâu cắt khi khoan :
+
+- Lượng chạy dao khi khoan:
+
+- Lượng chạy dao khi ta rô:
+S = Cs . D0,6 = 0,15 . 100,6
+=> Cs = 0,15
+=> S = 0,6 ( mm/v )
+- Tốc độ cắt:
+
++ Vận tốc khi khoan:
+Cv Zv Yv m Xv 7 0,4 0,55 0,2 0
+
+
+- Số vòng quay trục chính khi khoét:
+
+Chọn theo máy: n = 530 ( vòng/phút )
+- Số vòng quay trục chính khi khoan:
+
+- Mô men xoắn là lực chiều trục.
++ Khi khoan:
+
++ Bảng 7-3:
+Cp Xp Yp 42,7 1 0,8
+
+
+Kmp = 1
+=> P0 = 42,7 . 91 . 0,1150,8 . 1 = 68,1 kg
+So với [ P0 ] = 1600 kg, ta thấy bước tiến đã chọn làm việc an toàn
+- Mô men xoắn:
+
++ Bảng 7-3:
+Cm Zm Ym 0,021 2 0,8
+
+
+Km = 1
+=> M = 0,021 . 82 . 0,115 0,8 . 1 = 0,3 ( kgm )
+- Khi khoan:
+
+Nchọn = 750 ( v/p )
+Thay số:
+
+So với công suất máy [ N ] = 6 kw, đảm bảo độ an toàn khi máy làm việc.
+- Khi khoan:
+
+l = ( d/2 ) . cotgj + 2 mm = ( 9/2 ) . cotg j + 2 = 9 mm
+l1 = 3 mm
+l2 = 11 mm.
+Thay số:
+
+
+
+
+
+
+
+
+
+NGUYÊN CÔNG VII TA RÔM10 ,M8
+1. Chiều sâu cắt.
+t = 3 mm.
+2. Lượng tiến dao.
+S = CS.D0,6
+- Bảng ( 1-3 ) có CS = 0,075
+=> S = 0,075.320,6 = 0,6 ( mm/v ).
+TTM Chọn S = 0,57 ( mm/v ).
+3. Vận tốc khi ta rô
+V = =
+- Bảng ( 3-3 ) có
+Cv zv xv yv M 18,8 0,2 0,1 0,4 0,125
+- Bảng ( 4-3 ) T = 40
+- Bảng ( 5-3 ) Kmv = 1
+- Bảng ( 6-3 ) Kls = 1
+- Bảng ( 7-1 ) Knv = 0,8
+- Bảng ( 8-1 ) Kuv = 1
+=> Kv = 1.1.0,8.1 = 0,8
+
+Thay vào công thức có
+V = = 19,3 (m/p).
+Số vòng quay trục chính
+n = = 200 (v/p).
+TMM chọm n = 140 (v/p).
+4. Mômem xoắn.
+- Mômen xoắn.
+M =
+- Bảng ( 11-1 ) Cp = 114; xp = 0,9 ; yp = 0,75
+- Bảng ( 2-1 ) Kmp = 1
+- Bảng ( 15-1 ) K = 0,98
+Thay vào công thức có
+=> M = = 30 ( KGm )
+
+5. Công suất máy.
+N = = 4,4 (KW).
+So với công suất máy Nmáy = 4,8 > N => máy làm việc an toàn.
+6. Thời gian máy.
+T = = 0,75 ( phút ).
+công suất động cơ 4,5 kw.
++ Đường kính lỗ trục chính 35 mm. Côn móc số 5.
++ Chiều sâu cắt t = 3 mm ( vì lượng dư nhỏ ) nên có thể cắt một lần đạt độ nhám, bóng theo yêu cầu.
++ bước tiến S: Chọn S theo Smáy = 0,47 ( mm/v )
++ Vận tốc cắt khi tiện:
+
++ Bnảg 1-1:
+Cv Xv Yv M T 215 0,15 0,45 0,2 60
+
+
+
++ Bảng 2-1: Kmv = 1 ; 7-1: Knv = 0,6; 8-1: Kuv = 1;
+9-1: Krv = 1, Kjv = 1, Kqv = 1; 10-1: K0v = 1
+Kv = 1 . 1 . 0,6 . 1 . 1 . 1 . 1 = 0,6
+Thay số :
+
+=> Số vòng quay trong 1 phút:
+
+=> n = 212,3 ( v/p )
+=> Chọn theo thuyết minh máy n = 173 ( v/p )
+=> Vận tốc cắt thực:
+
+=> Vt = 58,7 ( v/p )
++ Tính lực cắt:
+- Lực tiếp tuyến:
++ Bảng 11-1:
+CPz XPz YPz Nz 123 1 0,85 0
+
+
+
++ Bảng 12-1: Kpz = 1,25
+Thay số: Pz = 123 . 0,470,85 . 21 . 58 . 70 . 1,25 = 161,86 ( kg )
+- Lực hướng kính Py:
+
++ Bảng 11-1:
+CPy XPy YPy Ny 61 0,6 0,5 0
+
+
+
++ Bảng 12-1: KPy = 2
+Thay số: Py = 61 . 20,6 . 0,470,5 . 58,70 . 2 = 97,3 ( kg )
+
+- Lực dọc trục Px:
+
++ Bảng 11-1:
+CPx XPx YPx Nx 24 1,05 0,2 0
+
+
+
++ Bảng 12-1: KPx = 2
+Thay số : Px = 24 . 21,05 . 0,470,2 . 58,70 . 2 = 85,5 ( kg )
++ Công suất cắt gọt:
+
+So với thuyết minh máy => đảm bảo an toàn
++ thời gian gia công chi tiết:
+
+l: Chiều dài gia công: l = 30 mm
+l1: Khoảng ăn dao: l1 = 2 mm
+l2: Độ dài phụ để láy phôi thử l3 = 2mm
+l3: Khoảng thoát dao l2 =0
+=> L = l + l1 + l2 + l3 = 30 + 2 + 2 +0 = 34 mm
+
+=> T0 = 0,418 ( phút ) = 25,1 ( s ).
+
+
+
+
+NGUYÊN CÔNG VIII : KIỂM TRA.
+1/ Sơ đồ nguyên công (hình vẽ).
+2/ Phân tích :
+a/ Mục đích : Kiểm tra xem gia công đã đạt yckt mà bản vẽ đã đề ra chưa.
+b/ Cách làm :
++Kiểm tra độ không vuông góc giưã mặt đáy và tâm lỗ Æ190 với giới hạn không vượt quá 0,05(mm).
++ Kiêm tra độ đồng tam giữa 2 lỗ Æ190 và Æ84
+-Dùng 1 trục gá có hai bậc chế tạo chính xác 1 đầu có vai lồng áp sát vào lỗ Æ190 và.Æ84
+-Đặt chi tiết sao cho mặt đáy chi tiết áp sát vào bàn máp.
+-Sau đó dùng 1 đồng hồ so cặp lên trục gá . Đầu đồng hồ so chỉ vào mặt bên của chi tiết . Lấy tay kéo đầu chỉ ra cho tiếp xúc với mặt bên đó . Nếu sai số không > 0,03 (mm) là đạt yêu cầu kỹ thuật.Làm đi làm lại mấy lần như vậy.
++Kiểm tra độ không // giữa mặt 2 đáy
+-Cách làm tương tự nhưng dùng 1 đồng hồ so đặt trên bàn máp và được hãm chặt trên bàn máp .Cho đầu chỉ của đồng hồ tiếp xúc vào mặt cần đo đọc hcỉ số sau đó thay đổi vị trí của đồng hồ so sang đầu bên kia nếu sai số không vượt quá 0,05/mm
+PHÂN III
+Thiết kế đồ gá cho nguyên công tiện
+I/ Nguyên lý làm việc của đồ gá .
+1/ Định vị và kẹp chặt :
+-Chi tiết được định vị trên đồ gá : Mặt đáy được đặt lên một mặt phẳng hạn chế 3 bậc tự do ; định vị vào lỗ 2 Æ22 , một chốt trụ ngắn hạn chế 2 bậc tự do và một chốt trám định vị hạn chế 1 bậc tự do.
+-Kẹp chặt bằng cơ cấu bu lông đai ốc như hình vẽ
+2/ Thao tác :
+-Khi đặt chi tiết vào các định trí định vị ta và dùng cờ lê vặn 2 đai ốc và kẹp chặt chi tiết.
+-Khi gia công xong ta dùng cờ lê phù hợp vặn đai ốc cao đi lên , sau đó rút vòng đệm có cắt rãnh ra và nhấc chi tiết ra mà không cần phải tháo đai ốc ra khỏi bu lông , vì đai ốc ta gia công nhỏ hơn lỗ Æ22
+-Ưu nhược điểm của đồ gá này :
++Cơ cấu định vị và kẹp chặt đơn giản , gia công không bị vướng dao , cho dao vào cắt gọt cũng như rút dao ra một cách dễ dàng.
++Kẹp chặt bằng cơ cấu này vừa nhanh vừa thăng bằng , lực kẹp vừa dễ thao tác cho người công nhân.
+-Ta sử dụng máy tiện T630 của Việt Nam sản suát có các thông số
+Đường kính gia công lớn nhất 600 , công suát 10Kw ( đồ gá lắp trên mặt bích cổ trục chính , sau khi tháo mâm cặp ra và được bắt chặt nhờ 3 bu lông M12)
+II/ Tính lực kẹp :
+-Ta có công thức :
+
+Theo bảng 8 – 43 (Sổ tay công nghệ chế tạo máy – tập II) có :
+Lực kẹp cần thiết :
+ở đây ta chỉ tính lực ma sát thắng lực chuyển động trượt của phôi :
+
+-K : là hệ số an toàn có tính tới khả năng làm tăng lực cắt trong quá trình gia công :
+
++Hệ số an toàn cho mọi trường hợp : = 1,5.
++Hệ số tính đến trường hợp tăng lực cắt khi độ bóng thay đổi : = 1,2
++Hệ số lực cắt khi mòn dao : = 1 – 1,8.
++Hệ số tăng lực cắt khi gián đoạn : = 1,2.
++Hệ số tính đến sai số kẹp chặt : = 1,3.
++Hệ số tính đến mức độ thuận lợi của cơ cấu kẹp bằng tay : = 1.
++Hệ số tính đến mômen quay chi tiết gia công : = 1,5.
+Vậy : K = 1,5.1.1,2.1,3.1.1.1,5 = 3,51.
+-Hệ số ma sát
+= (0,4 – 0,7)_bề mặt đã gia công
+= (0,5 – 0,8)_bề mặt định vị bằng mặt phẳng
+chọn : = = 0,6
+III/ Xác định đường kính bu lông :
+-Ta có : (mm).
++C = 1,4_hệ số của ren hệ mét.
++= 8- 10(KG)_ứng suất vật liệu.vì thép 45 nên ta chọn = 8(KG
+ta chọn d = 14(mm) .
+Vậy ta chọn bu lông -đai ốc M14 là đủ lực kẹp an toàn cho quá trình gia công.
+YÊU CẦU CỦA ĐỒ GÁ
+Đồ gá có kết cấu đơn giản , các chi tiết của đồ gá có kết cấu dễ gia công , dễ lắp ráp và không phải tiêu chuẩn một số chi tiết. -Các chi tiết : Chốt bu lông định vi phải có độ bền cao và có độ chính xác khá cao, được gia công sau khi tôi cải thiện , không vướng cơ cấu kẹp vào hành trình của chạy của dao. -Cơ cấu kẹp đơn giản ,đủ lực kẹp trong suốt quá trình gia công. -Thân đồ gá được lắp ghép chính xác với chốt bu long định vị và độ cứng vững của hệ thống đồ gá phải cao.Vật liệu làm thân đồ gá làm bằng gang để có tính ổn định cao khi làm việc (không gây ra hiện tượng cộng hưởng rung động trong quá trình gia công) Chế tạo đò gá phải tuân theo quy tắc tính toán dựa trên cơ sở khoa học và yckt của chi tiết cần gia công cụ thể . Độ không // giữa mặt trên và mặt đáy đồ gá 0,05mm. Độ không vuông góc giữa mặt đáy đồ gá và lỗ tâm Æ22 0,05. Thân đồ gá chế tạo bằng GX15-32.
+Phần IV : Lời kết và tài liệu tham khảo.
+Lời kết :
+Sau 2 tuần làm đồ án môn học công nghệ chế tạo máy với đề tài : thiết kế quy trình công nghệ gia công chi tiết ổ đỡ trạc các đăng .Với sự nỗ lực của bản thân cùng với sự hướng dẫn tận tình của thầy giáo Nguyễn Văn Thiện . Đến nay đề tài được giao em đã hoàn thành .
+Với khối lượng công việc của đồ án tương đối lớn , khối lượng kiến thức tổng hợp sâu rộng mà thời gian thì hạn chế .Tuy vậy em đã cố gắng hết mình , vận dụng tối đa những kiến thức mà mình đã tiếp thu được trong quá trình học tập .Để thực hiện đè tài với phương án tốt nhất .
+Mặc dù đã cố gắng hết mình nhưng lượng kiến thức và sự hiểu biết còn hạn chế vì vậy em không thể tránh khỏi những sai sót trong quá trình thiết kế . Em kính mong được sự chỉ bảo , góp ý của các thầy cô trong khoa cũng như các bạn đồng nghiệp để đồ án của em được hoàn thiện hơn và phương án công nghệ có thể áp dụng vào thực tế trong các phân xưởng cơ khí .
+Em xin chân thành cảm ơn.
+Sinh viên : Trần Minh Quân
+TÀI LIỆU THAM KHẢO
+1/ Sổ tay công nghệ chế tạo máy tập I,II,III tác giả Nguyễn Đắc Lộc 2/ Chế độ cắt gia công cơ khí, tác giả: Nguyễn Ngọc Đào; Trần Thế San 3/ Đồ gá gia công cơ tác giả Trần Văn Địch 4/ Hướng dẫn thiết kế dồ án công nghệ chế tạo máy- Trần Văn Địch
+5/ Công nghệ chế tạo máy tập I,II – Trần Văn Địch
+6/ Dung sai và lắp ghép- Ninh Đức Tốn
+TÀI LIỆU THAM KHẢO 1] : Thiết kế đồ án công nghệ chế tạo máy [2] : Sổ tay công nghệ chế tạo máy tập 1 (bộ 3 tập) [3] : Sổ tay công nghệ chế tạo máy tập 2 (bộ 3 tập) [4] : Sổ tay công nghệ chế tạo máy tập 2 (bộ 3 tập) [5] : Sổ tay nhiệt luyện [6] : Công nghệ chế tạo máy tập 1 [7] : Sổ tay công nghệ chế tạo máy tập 1 (bộ 7 tập) [8] : Sổ tay công nghệ chế tạo máy toàn tập (trường ĐHBK
+

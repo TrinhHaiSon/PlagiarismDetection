@@ -1,0 +1,312 @@
+ĐỒ ÁN TỐT NGHIỆP ĐIỆN TỬ THIẾT KẾ VÀ THI CÔNG HỆ THỐNG GIÁM SÁT MÁY ATM QUA TIN NHẮN SMS
+TRƯỜNG ĐẠI HỌC BÁCH KHOA
+KHOA ĐIỆN TỬ- VIỄN THÔNG
+ĐỒ ÁN TỐT NGHIỆP
+Đề tài:
+THIẾT KẾ VÀ THI CÔNG HỆ THỐNG GIÁM SÁT MÁY ATM QUA TIN NHẮN SMS
+MỤC LỤC
+
+LỜI CAM ĐOAN... 1
+BẢNG PHÂN CÔNG CÔNG VIỆC... 2
+MỤC LỤC... 3
+CÁC TỪ VIẾT TẮT.. 6
+MỞ ĐẦU... 7
+CHƯƠNG 1 GIỚI THIỆU TỔNG QUAN ĐỀ TÀI. 8
+1.1 Giới thiệu chương. 8
+1.2 Đặt vấn đề. 8
+1.3 Hướng giải quyết vấn đề. 8
+1.3.1 Mục tiêu đề tài8
+1.3.1.1 Thiết kế phần cứng. 8
+1.3.1.2 Lập trình phần mềm... 9
+1.3.2 Phương pháp thực hiện. 9
+1.3.2.1 Đối với PIC 18F887. 9
+1.3.2.2 Module SIM300. 9
+1.4 Ý nghĩa thực tiễn của đề tài10
+1.5 Kết luận chương. 10
+CHƯƠNG 2 TỔNG QUAN LÝ THUYẾT.. 11
+2.1 Giới thiệuchương. 11
+2Giới thiệu về PIC18F887. 11
+2.2.1 Đặc điểm của PIC16F887. 11
+2.2.2 Các thông số của vi điều khiển PIC18F877. 13
+2.2.3 Sơ đồ cấu trúc bên trong của PIC 16F887. 18
+2.3 Tổng quan về Module SIM300CZ 22
+2.3.1 Hình dạng thực tế và sơ đồ khối22
+2.3.2 Các chức năng chính. 22
+2.3.3 Đặc điểm và thông số kỹ thuật của Module sim300CZ.. 22
+2.3.4 Sơ đồ chân và bản định nghĩa. 24
+2.3.5 Các chế độ hoạt động. 27
+2.3.6 Giới thiệu chung về tập lệnh AT.. 28
+2.3.7 Cấu trúc hoạt động của module SIM300CZ.. 29
+2.3.8 Giao tiếp nối tiếp của SIM300CZ và Simcard. 31
+2.4Giới thiệu các linh kiện cần thiết khác trong mạch. 34
+2.4.1 IC Max232. 34
+2.4.2 Cổng COM DB9. 46
+2.4.3 Triac BT138. 37
+2.4.4 Opto MOC3020. 38
+2.4.5 LCD 16x2. 38
+2.4.6 Cảm biến gas MQ-6. 40
+2.4.7 Cảm biến gas LM-35. 41
+2.4.8 Cảm biến Hồng ngoại PIR.. 43
+2.5 Kết luận chương. 45
+CHƯƠNG 3THIẾT KẾ VÀ THI CÔNG... 46
+3.1 Giới thiệu chương. 46
+3.2. Sơ đồ khối và hoạt động chung của hệ thống. 46
+3.2.1 Sơ đồ khối 46
+3.2.2.Nguyên lý hoạt động. 46
+3.3Phân tích và giải thích chức năng từng khối47
+3.3.1 Khối nguồn. 47
+3.3.1.1 Sơ đồ mạch và nhiệm vụ. 47
+3.3.1.2 Tính toán thiết kế. 48
+3.3.2 Module IM300CZ……………………………………………………….......49
+3.3.2.1Sơ đồ mạch và nhiệm vụ………………………………………………….49
+3.3.2.2 Tính toán thiết kế 49
+3.3.3 Khối kiểm tra nhiệt độ điều khiển tải và giải mã. 51
+3.3.3.1 Sơ đồ mạch và nhiệm vụ…………………………………………….........51
+3.3.3.2 Tính toán thiết kế. 52
+3.3.4 Khối giao tiếp RS232. 52
+3.3.4.1 Sơ đồ mạch và nhiệm vụ. 52
+3.3.4.2 Tính toán thiết kế. 53
+3.3.5 Khối công suất. 54
+3.3.5.1Sơ đồ mạch và nhiệm vụ. 54
+3.3.5.2 Tính toán thiết kế…………………………………………………………55
+3.3.6 Khối hiển thị ………………………………………………………………..55
+3.3.6.1 Sơ đồ mạch và nhiệm vụ …………………………………………………55
+3.3.6.2 Tính toán thiết kế ………………………………………………………...55
+3.4 Thực hiện mạch in, lắp ráp và kiểm tra mạch……………………………...56
+3.4.1 Quy trình thực hiện mạch in……………………………………………….56
+3.4.1.1 Layout mạch………………………………………………………………56
+3.4.1.2 Quá trình ủi mạch………………………………………………………...57
+3.4.1.3 Quá trình rửa mạch………………………………………………………57
+3.4.1.4 Quá trình khoan, hàn mạch……………………………………………...58
+3.5 Lập trình cho vi điều khiển PIC16F887……………………………………..58
+3.5.1 Phân tích…………………………………………………………………….58
+3.5.2.Lưu đồ thuật toán…………………………………………………………..59 3.5.2.1 Chương trình thu nhận và xử lí tin nhắn đến…………………………..59
+3.5.2.1.1 Lưu đồ thuật toán của đoạn chương trình con ngắt RDA…………...59
+3.5.2.1.2 Lưu đồ chương trình con kiểm tra……………………………………59
+3.5.2.2 Lưu đồ và code của việc gởi tin nhắn……………………………………60
+3.5.2.3 Lưu đồ thuật toán LM35…………………………………………………61
+3.5.2.4 Đọc giá trị nhiệt độ từ cảm biến LM35 và hiển thị ra màn hình………62
+3.5.2.5 Lưu đồ thuật toán điều khiển chuông hoặc đèn báo …………………...63
+3.6 Kết luận chương………………………………………………………………64
+CHƯƠNG4KẾT LUẬN... 65
+4.1 Kết quả đạt được. 69
+4.2 Hạn chế của đề tài68
+4.3 Kết luận. 68
+4.4 Hướng phát triển. 68
+TÀI LIỆU THAM KHẢO... 69
+PHẦN PHỤ LỤC... 70
+
+
+
+
+
+
+CÁC TỪ VIẾT TẮT
+
+ADC Analog-to-digital converter EEPROM Electrically Erasable Programmable Read-Only Memory EUSART Enhanced Universal Synchronous Asynchronous Receiver ransmitter GPR General Purpose Register GSM Global System for Mobile Communications ICSP In-Circuit Serial Programming OS Operating system PIC Programmable Intelligent Computer hoặc Peripheral Interface Controller SFR Special Function Register UART Universal Asynchronous Receiver/Transmitter
+
+
+
+MỞ ĐẦU
+
+Cùng các ngành khoa học kỹ thuật khác, công nghệ điện tử viễn thông ngày càng phát triển và hoàn thiện, đồng thời nó đã khẳng định được vị trí chung trong toàn xã hội. Hệ thống thông tin liên lạc là một trong những vấn đề quan trọng của loài người, nhất là những ứng dụng vào lĩnh vực kinh tế, khoa học và đời sống. Mạng GSM hiện nay đã trở nên thông dụng trong cuộc sống, thông qua chiếc điện thoại di động một thiết bị dùng để liên lạc rất tiện dụng chúng ta có thể trò chuyện, nhắn tin, gọi điện thoại tới bạn bè, người thân...Theo các con số thuê bao được công bố thì Việt Nam đã đạt gần 100% dân số sử dụng điện thoại di động (trích lượt từ vneconomy.com). Thật là tiện lợi nếu chúng ta có thể giám sát và điều khiển các thiết bị từ xa thông qua chiếc điện thoại di động.
+Trong khi đó hiện nay tình trạng phá máy ATM cướp tiền ngày càng đáng báo động, đòi hỏi việc giám sát, bảo vệ các trạm ATM càng cấp thiết hơn,ngoài các biện pháp hiện có như con người, camera giám sát…thì việc giám sát máy ATM bằng các thiết bị từ xa vừa tiện lợi lại kinh tế mà vẫn đảm bảo vấn đề an ninh.
+Với những ưu điểm trên nên nhóm quyết định chọn tên đề tài “Thiết kế và thi công hệ thống giám sát máy ATM qua tin nhắn SMS”.
+
+CHƯƠNG 1 GIỚI THIỆU TỔNG QUAN ĐỀ TÀI
+
+1.1 Giới thiệu chương
+Trong chương 1 này sẽ trình bày những nội dung sau:
+Đặt vấn đề Hướng giải quyết vấn đề
+- Mục tiêu đề tài
+- Phương pháp thực hiện
+Ý nghĩa thực tiễn của đề tài
+1.2 Đặt vấn đề:
+Hiện nay tình trạng phá máy và cướp tiền tại các trạm ATM ngày càng đáng báo động nên việc giám sát và cảnh báo tại các máy ATM là cấp thiết. Có nhiều cách để điều khiển, giám sát báo động như: con người, hồng ngoại, sóng RF, mạng internet…Nhưng các phương pháp nêu trên có những hạn chế: thời gian, phạm vi hoạt động hẹp, độ ổn định không cao kết nối Internet phải luôn được bật…
+Với những ưu điểm của việc điều khiển thiết bị bằng tin nhắn SMS như: phạm vi hoạt động rộng, bất cứ nơi nào được phủ sóng di động thì đều có thể điều khiển,giám sát thông qua một chiếc điện thoại di động đông thời bằng cách giám sát này thì tính bảo mật cao. Bên cạnh đó cùng với sự phát triển của các Thiết bị ngoại vi ứng dụng hỗ trợ vào việc cảnh báo chống kẻ gian đột nhập. Với những lý do trên nên nhóm quyết định chọn tên đề tài “Thiết kế và thi công hệ thống giám sát máy ATM qua tin nhắn SMS”
+1.3 Hướng giải quyết vấn đề:
+1.3.1 Mục tiêu cụ thể của đề tài:
+Thiết kế và thi công hệ thống giám sát báo động máy ATM từ xa bằng tin nhắn SMS. Tạo ra sản phẩm hoàn chỉnh.
+
+
+1.3.1.1 Thiết kế phần cứng
+Thiết kế phần cứng module SIM300CZ. Module vi điều khiển sử dụng PIC 16F887 và khối mạch giao tiếp theo chuẩn RS232 để kết nối với module SIM300CZ. Thiết kế mạch điều khiển công suất bật Thiết bị cảnh báo cung cấp cho tải và đưa tín hiệu hồi tiếp từ tải về vi điều khiển.
+1.3.1.2 Lập trình phần mềm
+Sử dụng trình biên dịch CCS (dùng ngôn ngữ C) để lập trình cho vi điều khiển PIC16F887 đọc tín hiệu điều khiển (nằm trong nội dung tin nhắn SMS đến) từ Sim Card kết nối với Module Sim 300CZ. Sau đó, tùy thuộc vào tín hiệu các thiết bị cảnh báo, sẽ gửi tin nhắn SMS cùng Tín hiệu báo động cảnh báo cho chúng ta.
+1.3.2 Phương pháp thực hiện
+1.3.2.1 Đối với PIC 16F887
+Sử dụng tài liệu được hỗ trợ ở website www.microchip.com và một số diễn đàn khác để tìm hiểu cấu trúc, hoạt động của chip 16F887 Sử dụng code example để làm quen với việc lập trình cho PIC bằng ngôn ngữ C, thực hiện trên chương trình CCS, là phần mềm hỗ trợ đầy đủ các công cụ lập trình cho dòng sản phẩm PIC để thực hiện việc viết chương trình, biên dịch, gỡ rối. Tìm hiểu các ngắt (Interrupts) để xây dựng các chương trình con ngắt nhận và xuất dữ liệu qua UART. Tìm hiểu cấu trúc phần cứng các khối, các pin I/O để thực hiện thiết kế module GSM SIM300CZ. Tìm hiểu Tập lệnh AT để điều khiển module Sim, nắm rõ các đáp ứng trả về từ module để dễ dàng cho việc phân tích cắt các chuỗi điều khiển. Giám sát máy ATM từ xa được cảnh báo bằng tin nhắn SMS bởi mạng điện thoại di động có khả năng phản hồi trạng thái tạo cảm giác yên tâm cho người điều khiển. Rất tiện lợi và phạm vi hoạt động rộng: chỉ cần ở đâu có sóng di động thì đều có thể giám sát được. Kinh tế: Khi thiết bị được lắp đặt thì tiết kiệm được chi phí nhân công giám sát, ta có thể giám sát và cảnh báo thiết bị từ xa.
+1.3.2.2 Module SIM300CZ
+1.4 Ý nghĩa thực tiễn của đề tài
+1.5 Kết luận chương
+Chương 1 đã nêu ra vấn đề cần giải quyết, cũng như các cách giải quyết vấn đề ở trên thông qua các mục tiêu và phương pháp thực hiện rõ ràng. Qua đó, cho chúng ta có cái nhìn cụ thể hơn về đề tài: “Thiết kế và thi công hệ thống giám sát máy ATM qua tin nhắn SMS” cũng như lợi ích của đề tài. Các vấn đề liên quan đến lý thuyết sẽ được trình bày ở chương 2, và chương 3 là phần thiết kế và thi công. Cuối cùng, phần kết quả đạt được sẽ được trình bày ở chương 4.
+
+CHƯƠNG 2 TỔNG QUAN LÝ THUYẾT
+
+2.1 Giới thiệu chương:
+Trong chương này sẽ trình bày những lý thuyết quan trọng để thực hiện đề tài như sau:
+Giới thiệu về PIC16F887 Tổng quan về Module Sim 300CZ Giới thiệu linh kiện cần thiết trong mạch: IC Max232, điện trở, tụ điện, opto……
+2.2 Giới thiệu về PIC16F887:
+2.2.1 Đặc điểm của PIC16F887
+PIC16F887 là nhóm PIC trong họ PIC16XX của họ Vi điều khiển 8-bit, tiêu hao năng lượng thấp, đáp ứng nhanh, chế tạo theo công nghệ CMOS, chống tĩnh điện tuyệt đối. PIC là một vi điều khiển với kiến trúc RISC sử dụng microcode đơn giản đặt trong ROM,chạy một lệnh một chu kỳ máy (4 chu kỳ của bộ dao động). Chỉ có 35 lệnh( độ dài mỗi lệnh là 14 bit) và 1 lượng lớn các thanh ghi cho phép đáp ứng cao trong ứng dụng.
+Họ PIC16F8X có nhiều tính năng đặc biệt làm giảm thiểu các thiết bị ngoại vi, vì vậy kinh tế cao, có hệ thống nổi bật đáng tin cậy và sự tiêu thụ năng lượng thấp. Ở đây có 4 sự lựa chọn bộ dao dộng và chỉ có 1 chân kết nối bộ dao động RC nên có giải pháp tiết kiệm cao. Chế độ SLEEP tiết kiệm nguồn và có thểđược đánh thức bởi các nguồn reset.
+PIC16F877A có 40/44 chân với sự phân chia cấu trúc như sau:
+Có 5 port xuất/nhập Có 8 kênh chuyển đổi A/D 10-bit 2 bộ định thời 8 bit Timer 0 và Timer 2 1 bộ định thời 16 bit Timer 1 Có thể hoạt động cả trong chế độ tiết kiệm năng lượng (Sleep Mode) với nguồn xung clock ngoài.
+
+Bảng 2.1 Tóm tắt đặc điểm của PIC16F887
+
+Tần số hoạt động DC-20MHz Reset và Delay POR, BOR (PWRT, OST) Bộ nhớ chương trình Flash(14-bit word) 8K 8K Bộ nhớ dữ liệu (byte) 368 Bộ nhớ dữ liệu EEPROM (byte) 256 Các nguồn ngắt 15 Các Port xuất/nhập Port A, B, C, D, E Timer 3 Module Capture/Compare/PWM 2 Giao tiếp nối tiếp MSSP, USART Giao tiếp song song PSP Module A/D 10-bit 8 kênh ngõ vào Bộ so sánh tương tự 2 Tập lệnh 35 lệnh Số chân 40 chân PDIP
+
+
+
+2.2.2 Sơ đồ chân, cấu trúc và chức năng PIC16F887 loại 40 chân PDIP :
+Hình 2.1 Sơ đồ chân PIC 16F887
+Chân(1) /Vpp:
+- MCLR: hoạt động reset ở mức thấp .
+- VPP: ngõ vào áp lập trình.
+Chân(2) RA0/AN0.
+- RA0 : xuất/nhập số.
+- AN0 : ngõ vào tương tự 0.
+Chân(3) RA1/NA1:
+- RA1 : xuất/nhập số.
+- AN1 : ngõ vào tương tự 1.
+Chân (4) RA2/NA2/VREF-/CVREF/C2IN+:
+- RA2 : xuất/nhập số
+- AN2 : ngõ vào tương tự 2
+- VREF -: ngõ vào điện áp chuẩn (thấp) của bộ A/D
+- CVREF: điện áp tham chiếu VREF ngõ ra bộ so sánh.
+Chân(5) RA3/NA3/VREF+/C1IN+:
+- RA3 : xuất/nhập số.
+- AN3 : ngõ vào tương tự 3.
+- VREF+ : ngõ vào điện áp chuẩn (cao) của bộ A/D.
+Chân (6) RA4/TOCKI/C1OUT:
+- RA4 : xuất/nhập số - mở khi được cấu tạo như ngõ ra.
+- TOCKI : ngõ vào xung clock bên ngoài cho Timer 0.
+- C1 OUT : Ngõ ra bộ so sánh 1.
+Chân (7)RA5/AN4//C2OUT:
+- RA5 : xuất/nhập số.
+- AN4 : ngõ vào tương tự 4.
+- : ngõ vào chọn lựa SPI phụ.
+- C2 OUT : ngõ ra bộ so sánh 2.
+Chân(8) RE0/AN5:
+- RE0 : xuất/nhập số.
+- AN5 : ngõ vào tương tự 5
+Chân (9)RE1/AN6:
+- RE1 : xuất/nhập số.
+- AN6 : ngõ vào tương tự 6.
+Chân (10) RE2/AN7:
+- RE2 : xuất/nhập số.
+- AN7 : ngõ vào tương tự 7
+Chân (11) VDD,chân(12)Vss Chân (13) OSC1/CLKI: ngõ vào dao động thạch anh hoặc xung clock bên ngoài.
+- OSC1 : ngõ vào dao động thạch anh hoặc xung clock bên ngoài.
+- CLKI : ngõ vào nguồn xung bên ngoài. Luôn được kết hợp với chức năng OSC1.
+Chân (14) OSC2/CLKO: ngõ vào dao động thạch anh hoặc xung clock
+- OSC2 : Ngõ ra dao động thạch anh. Kết nối đến thạch anh hoặc bộ cộng hưởng.
+- CLKO : ở chế độ RC, ngõ ra của OSC2, bằng tần số của OSC1 và chỉ ra tốc độ của chu kỳ lệnh.
+Chân(15) RC0/T1 OCO/T1CKI:
+- RC0 : xuất/nhập số.
+- T1 OCO : ngõ vào bộ dao động Timer 1.
+- T1 CKI : ngõ vào xung clock bên ngoài Timer 1.
+Chân(16)RC1/T1 OSI/CCP2:
+- RC1 : xuất/nhập số
+- T1 OSI : ngõ vào bộ dao động Timer 1
+- CCP2 : ngõ vào Capture 2, ngõ ra compare 2, ngõ ra PWM2
+Chân (17)RC2/P1A/CCP1:
+- RC2 : xuất/nhập số.
+- CCP1 : ngõ vào Capture 1, ngõ ra compare 1, ngõ ra PWM1
+Chân(18):RC3/SCK/SCL
+- RC3 : xuất/nhập số.
+- SCK : ngõ vào xung clock nối tiếp đồng bộ/ngõ ra của chế độ SPI.
+- SCL : ngõ vào xung clock nối tiếp đồng bộ/ ngõ ra của chế độ I2C
+Các chân(19) RD0, (20) RD1,(21) RD2, (22) RD3: xuất/nhập số. Chân (23) RC4/SDI/SDA:
+- RC4 : xuất/nhập số.
+- SDI : dữ liệu vào SPI.
+- SDA : xuất/nhập dữ liệu vào I2C.
+Chân(24) RC5/SDO:
+- RC5 : xuất/nhập số.
+- SDO : dữ liệu ra SPI.
+Chân (25) RC6/TX/CK:
+- RC6 : xuất/nhập số.
+- TX : truyền bất đồng bộ USART.
+- CK : xung đồng bộ USART.
+Chân (26) RC7/RX/DT:
+- RC7 : xuất/nhập số.
+- RX : nhận bất đồng USART.
+- DT : dữ liệu đồng bộ USART.
+Các Chân (27) RD4,chân (28)RD5/P1B, chân(29) RD6/P1C, chân (30) RD7/P1D Chân (31)Vss,chân (32)VDD Chân (33) RB0/AN12/INT:
+- RB0 : xuất/nhập số
+- INT : ngắt ngoài
+Chân(34) RB1/AN10/C12IN3
+- RB1 : xuất/nhập số
+Chân (35) RB2/AN8:
+- RB2 : xuất/nhập số
+Chân (36)RB3/AN9/PGM/ C12IN2-:
+- RB3 : xuất/nhập số.
+Chân(37) RB4, Chân(38) RB5: xuất/nhập số Chân (39) RB6/ICSPCLK:
+- RB6 : xuất/nhập số.
+Chân(40) RB7/ICSPDAT :
+- RB7 : xuất/nhập số.
+
+
+
+
+
+
+
+
+
+
+
+
+2.2.3 Sơ đồ cấu trúc bên trong của PIC 16F887 :
+Hình 2.2 Sơ đồ cấu trúc bên trong của PIC 16F887
+Các cổng xuất nhập của PIC16F887:
+Cổng xuất nhập (I/O port) chính là phương tiện mà vi điều khiển dùng để tương tác với bên ngoài. Bên cạnh đó, do vi điều khiển được tích hợp sẵn bên trong các đặc tính giao tiếp ngoại vi nên bên cạnh chức năng là cổng xuất nhập thông thường, một số chân xuất nhập còn có thêm các chức năng khác để thể hiện sự tác động của các đặc tính ngoại vi nêu trên đối với bên ngoài.
+Vi điều khiển PIC16F887 có 5 cổng xuất nhập, bao gồm PORTA, PORTB, PORTC, PORTD và PORTE.
+vPORT A:
+PORTA (RPA) bao gồm 6 I/O pin.Đây là các chân “hai chiều” (bidirectional pin), nghĩa là có thể xuất và nhập được. Chức năng I/O này được điều khiển bởi thanh ghi TRISA (địa chỉ 85h). Muốn xác lập chức năng của một chân trong PORTA là input, ta “set” bit điều khiển tương ứng với chân đó trong thanh ghi TRISA và ngược lại, muốn xác lập chức năng của một chân trong PORTA là output, ta “clear” bit điều khiển tương ứngvới chân đó trong thanh ghi TRISA. Thao tác này hoàn toàn tương tự đối với các PORT và các thanh ghi điều khiển tương ứng TRIS (đối với PORTA là TRISA, đối với PORTB là TRISB, đối với PORTC là TRISC, đốivới PORTD là TRISD và đối với PORTE là TRISE). Bên cạnh đó PORTA còn là ngõ ra của bộ ADC, bộ so sánh, ngõ vào analog ngõ vào xung clock của Timer0 và ngõ vào của bộ giao tiếp MSSP (Master SynchronousSerial Port).
+Các thanh ghi SFR liên quan đến PORTA bao gồm:
+PORTA (địa chỉ 05h) : chứa giá trị các pin trong PORTA. TRISA (địa chỉ 85h) : điều khiển xuất nhập. CMCON (địa chỉ 9Ch) : thanh ghi điều khiển bộ so sánh. CVRCON (địa chỉ 9Dh) : thanh ghi điều khiển bộ so sánh điện áp. ADCON1 (địa chỉ 9Fh) : thanh ghi điều khiển bộ ADC.
+vPORT B:
+PORTB (RPB) gồm 8 pin I/O. Thanh ghi điều khiển xuất nhập tương ứng là TRISB. Bên cạnh đó một số chân của PORTB còn được sử dụng trong quá trình nạp chương trình cho vi điều khiển với các chế độ nạp khác nhau. PORTB còn liên quan đến ngắt ngoại vi và bộ Timer0. PORTB còn được tích hợp chức năng điện trở kéo lên được điều khiển bởi chương trình. Các thanh ghi SFR liên quan đến PORTB bao gồm:
+PORTB (địa chỉ 06h,106h) : chứa giá trị các pin trong PORTB OPTION_REG (địa chỉ 81h,181h) : điều khiển ngắt ngoại vi và bộ Timer0.
+vPORT C:
+PORTC (RPC) gồm 8 pin I/O. Thanh ghi điều khiển xuất nhập tương ứng là TRISC. Bên cạnh đó PORTC còn chứa các chân chức năng của bộ so sánh, bộ Timer1, bộ PWM và các chuẩn giao tiếp nối tiếp I2C, SPI, SSP, USART.
+Các thanh ghi điều khiển liên quan đến PORTC:
+PORTC (địa chỉ 07h) : chứa giá trị các pin trong PORTC TRISC (địa chỉ 87h) : điều khiển xuất nhập.
+vPORT D:
+PORTD (RPD) gồm 8 chân I/O, thanh ghi điều khiển xuất nhập tương ứng là TRISD. PORTD còn là cổng xuất dữ liệu của chuẩn giao tiếp PSP (Parallel Slave Port).
+Các thanh ghi liên quan đến PORTD bao gồm:
+Thanh ghi PORTD : chứa giá trị các pin trong PORTD. Thanh ghi TRISD : điều khiển xuất nhập.
+vPORT E:
+PORTE (RPE) gồm 3 chân I/O. Thanh ghi điều khiển xuất nhập tương ứng là TRISE. Các chân của PORTE có ngõ vào analog. Bên cạnh đó PORTE còn là các chân điều khiển của chuẩn giao tiếp PSP.
+Các thanh ghi liên quan đến PORTE bao gồm:
+PORTE: chứa giá trị các chân trong PORTE. TRISE: điều khiển xuất nhập và xác lập các thông số cho chuẩn giao tiếp PSP. ADCON1: thanh ghi điều khiển khối ADC. ADC :
+....................................
+Hình 4.3 Module SIM300CZ
+4.2 Hạn chế của đề tài
+- Hệ thống chỉ hoạt động ở vùng có phủ sóng điện thoại di động.
+- Hệ thống được lập trình chỉ cảnh báo tin nhắn SMS dạng kí tự.
+- Hạn chế về số lượng các thiết bị ngoại vi Báo động.
+4.3 Kết luận
+- Thi công mạch đạt được yêu cầu về thời gian và hoàn thành đúng nhiệm vụ đặt ra của đề tài.
+- Mạch điều khiển hoạt động tốt, có khả năng mở rộng số thiết bị điều khiển.
+- Module hoàn toàn có thể tin cậy, giá thành hợp lý tính khả thi khi ứng dụng vào thực tế.
+4.4 Hướng phát triển
+Đây là một đề tài khá mới mẻ, nên có nhiều hướng phát triển trong tương lai.
+- Mở rộng số thiết bị cần điều khiển…
+- Tạo phần mềm thay đổi password và mã điều khiển thông qua máy vi tính.
+- Sử dụng chức năng GPRS của Module Sim300 CZ để thực hiện điều khiển qua máy tính có mạng Internet để giảm chi phí gửi SMS và mở rộng phạm vi điều khiển.
+- Kết hợp với các bộ cảm biến định vị GPS để phát triển thành hệ thống giám sát.
+- Mở rộng chức năng cảnh báo sự cố qua tin nhắn Thoại, kết nối thêm các thiết bị Cảm biến ngoại vi như: Báo khói, chống Rung, công tắc từ cửa…
+
+
+
+TÀI LIỆU THAM KHẢO
+
+[1] SIMCOM Ltd. (2007-02-07), SIM300CZ Hardware Design V1.01, SIMCOM Ltd.
+[2] SIMCOM Ltd. (2008-04-30), SIM300CZ AT Commnad Set V1.00, SIMCOM Ltd.
+[3] Microchip Technology Inc. (2006), Pic18F4520 Family Datasheet, Microchip Technology Inc. [4] http://www.microchip.com
+[5] http://tme.vn
+[6] www.picvietnam.com
+[7] www.dientuvietnam.net

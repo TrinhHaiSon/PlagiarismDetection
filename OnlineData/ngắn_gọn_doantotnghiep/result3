@@ -1,0 +1,130 @@
+THIẾT KẾ CHẾ TẠO ROBOT TỰ ĐỘNG điều khiển thông qua wifi
+LỜI GIỚI THIỆU
+
+“Xu hướng phát triển của Robot hiện đại”. Theo dự đoán trong vòng 20 năm nữa mỗi người sẽ có nhu cầu sử dụng một Robot cá nhân như nhu cầu một máy tính PC hiện nay và Robot sẽ là tâm điểm của một cuộc cách mạng lớn sau Internet. Với xu hướng này, cùng các ứng dụng truyền thống khác của Robot trong công nghiệp, y tế, giáo dục đào tạo, giải trí và đặc biệt là trong an ninh quốc phòng thì thị trường Robot sẽ vô cùng to lớn.
+Robot đã có những bước tiến đáng kể trong hơn nửa thế kỷ qua. Robot đầu tiên được ứng dụng trong công nghiệp vào những năm 60 để thay thế con người làm những công việc nặng nhọc, nguy hiểm trong môi trường độc hại. Do nhu cầu sử dụng ngày càng nhiều trong quá trình sản xuất phức tạp nên Robot công nghiệp cần có những khả năng thích ứng linh hoạt và thông minh hơn.
+Ngày nay, ngoài ứng dụng sơ khai ban đầu của Robot trong chế tạo máy thì các ứng dụng khác như trong y tế, chăm sóc sức khỏe, nông nghiệp, đóng tàu, xây dựng, an ninh quốc phòng đang là động lực cho sự phát triển của ngành công nghiệp Robot.
+MỤC LỤC Mở đầu Trang CHƯƠNG 1: ĐẶT VẤN ĐỀ.. 1 CHƯƠNG 2: THIẾT KẾ VÀ THI CÔNG.. 2 I. CƠ KHÍ. 2 1. Tính toán động cơ. 2 2. Thiết kế và thi công. 3 2.1. Thiết kế đế Robot. 3 2.2. Thiết kế khớp trượt dọc-ngang. 5 2.3. Thiết kế tay gắp lá. 9 2.3.1. Phương án 1 :. 10 2.3.2. Phương án 2 :. 11 2.4. Thiết kế giỏ chứa lá. 12 2.5. Thi công. 13 2.5.1. Thi công đế Robot. 13 2.5.2. Thi công khớp trượt dọc-ngang. 14 2.5.3. Thi công tay gắp lá. 16 2.5.4. Thi công giỏ chứa lá. 17 II. ĐIỆN TỬ... 21 1. PHẦN CỨNG.. 21 1.1. Mạch nguồn. 21 1.2. Mạch VĐK Master và Slave. 21 1.3. Mạch Reset:. 22 1.4. Mạch dao động thạch anh:. 23 1.5. Mạch giao tiếp ánh sáng:. 24 1.6. Khối hiển thị LCD 16x2:. 24 1.7. Mạch mở rộng dùng IC 74138:. 24 1.8. Mạch công suất. 25 1.8.1. Relay :. 27 1.8.2. Mosfet:. 28 1.9. Giới thiệu chuẩn SPI:. 31 1.10. Giới thiệu USART hay UART:. 32 2. PHẦN MỀM – GIAO TIẾP MÁY TÍNH QUA MẠNG.. 36 2.1. Ngôn ngữ HTML.. 37 2.1.1. Giới thiệu về HTML.. 37 2.1.2. Thành phần và cách sử dụng HTML.. 37 2.2. Kit FrendlyARM Mini 2440. 41 2.3. Module wifi VT6656:. 44 2.4. Cài đặt hệ điều hành Ubuntu. 45 2.4.1. Thiết lặp cấu hình cài đặt Ubuntu. 45 2.4.2. Cài đặt Ubuntu:. 48 2.5. Cài đặt các công cụ cần thiết. 52 2.5.1. Cài đặt Qt Creator 4.8:. 52 2.5.2. Tạo project với Qt Creator:. 53 2.5.3. Cài đặt trình biên dịch chéo arm-linux-gcc:. 56 2.5.4. Cài đặt Qt embedded:. 57 a. Cài đặt thư viện tslib:. 57 b. Cài đặt Qt embedded:. 59 2.6. Build Linux cho mini2440 hỗ trợ wifi và gpio driver:. 61 2.6.1. Build kernel cho mini2440. 61 2.6.2. Đưa linux lên kit mini2440:. 64 2.7. Kết nối Wifi cho mini2440:. 66 2.7.1. Cài đặt driver cho VT6656 USB:. 66 2.7.2. Thiết lập bảo mật WPA cho VT6656 USB:. 67 2.8. Đưa ứng dụng lên mini2440:. 70 2.8.1. Điều khiển GPIO sử dụng Qt:. 70 2.8.2. Đưa ứng dụng lên KIT:. 72 III. LẬP TRÌNH.. 75 1. Sơ đồ khối phần cứng. 75 2. Chế độ auto. 76 3. Dò line. 78 3.1. Lấy mẫu. 78 3.2. Bám line. 79 3.2.1. Lệch phải 79 3.2.2. Lệch trái 80 3.3. Bắt ngã tư.. 81 4. Đếm encoder. 82 4.1. Chạy thẳng. 82 4.2. Xoay trái- phải 83 5. Cơ cấu. 84 CHƯƠNG 3: KẾT QUẢ VA HƯỚNG PHÁT TRIỂN.. 88 I. KẾT QUẢ.. 88 1. Kết quả đạt được. 88 2. Hạn chế. 88 II. HƯỚNG PHÁT TRIỂN.. 88 PHỤ LỤC.. 89 TÀI LIỆU THAM KHẢO.. 89
+
+DANH MỤC CÁC BẢNG, SƠ ĐỒ, HÌNH VẼ CHƯƠNG 2: THIẾT KẾ VÀ THI CÔNG I. CƠ KHÍ Hình 2.1.1: Thiết kế đế Robot. Hình 2.1.2: Bản vẽ bánh bi cầu. Hình 2.1.3: Bánh bi cầu thực tế. Hình 2.1.4: Bản vẽ bánh chủ động. Hình 2.1.5: Bánh chủ động thực tế. Hình 2.1.6: Bản vẽ buli. Hình 2.1.7: Buli thực tế. Hình 2.1.8: Bản vẽ động cơ chính. Hình 2.1.9: Động cơ chính thực tế. Hình 2.1.10: Bản vẽ dây curoa. Hình 2.1.11: Dây curoa thực tế. Hình 2.2.1: Bản vẽ ống nhôm đứng của khớp trượt. Hình 2.2.2: Bản vẽ bạc đạn. Hình 2.2.3: Các tấm nhôm khớp trượt. Hình 2.2.4: Bản vẽ khớp trượt. Hình 2.2.5: Thanh trượt bi. Hình 2.2.6: Bản vẽ động cơ tay trượt gắp lá. Hình 2.3.1.1: Bản vẽ tay gắp phương án 1. Hình 2.3.1.2: Bản vẽ hệ thống bánh răng tay gắp phương án 1. Hình 2.3.2.1: Bản vẽ tay gắp phuong án 2. Hình 2.3.2.2: Bản vẽ hệ thống trục vít – bánh vít tay gắp phương án 2. Hình 2.3.2.3: Bản vẽ động cơ kèm đĩa xích kéo khớp trượt. Hình 2.4.1: Bản vẽ hệ thống động cơ giỏ chứa lá. Hình 2.4.2: Bản vẽ giỏ chứa lá. Hình 2.5.1: Bản thiết kế và mô hình thực tế đế Robot. Hình 2.5.2.1: Bản thiết kế khớp trượt. Hình 2.5.2.2: Mô hình thực tế khớp trượt. Hình 2.5.3.1: Bản thiết kế tay gắp lá. Hình 2.5.3.2: Mô hình thực tế tay gắp lá. Hình 2.5.4: Mô hình thực tế giỏ chứa lá. Hình 2.6: Bản thiết kế toàn bộ Robot. Hình 2.7: Mô hình thực tế Robot. II. ĐIỆN TỬ 1 PHẦN CỨNG Hình 1.1: Sơ đồ mạch nguồn. Hình 1.2.1: Sơ đồ chân ngõ ra CHIP Master. Hình 1.2.2: Sơ đồ chân ngõ ra CHIP Slave. Hình 1.3: Sơ đồ mạch reset. Hình 1.4: Sơ đồ mạch dao động thạch anh. Hình 1.5: Sơ đồ mạch giao tiếp ánh sáng. Hình 1.6: Sơ đồ khối hiển thị LCD. Hình 1.7: Sơ đồ mạch mở rộng dùng IC 74138. Hình 1.8: Sơ đồ mạch công suất. Hình 1.8.1: Relay. Hình 1.8.2: Mosfet. Hình 1.8.3: Tụ kí sinh trong Mosfet. Hình 1.8.4: Biểu đồ hiệu ứng Miller. Hình 1.8.5: Tác nhân gây nhiễu khi đi mạch in. Hình 1.8.6: Dạng sóng cực G trước khi dùng mạch driver và mạch snooper. Hình 1.8.7: Dạng sóng cực G sau khi dùng mạch driver và mạch snooper. Hình 1.9: Sơ đồ giao tiếp SPI. Hình 1.10: Mô phỏng 3D mạch Robot. 2 PHẦN MỀM Hình 2.1.2.1: Ví dụ 1 trang html cơ bản. Hình 2.1.2.2: Ví dụ một form với trường text. Hình 2.1.2.3: Ví dụ một form với trường submit. Hình 2.1.2.4: Khi load được hình ảnh. Hình 2.1.2.5: Khi không load được hình ảnh. Hình 2.1.2.6: Ví dụ canh lề phải của thuộc tính align trong div. Hình 2.2.1: Kit Frendlyarm Mini2440. Hình 2.2.2: Các ngõ ra-vào cùng một số thành phần khác của Kit Frendlyarm Mini2440. Hình 2.2.3: Sơ đồ khối Kit Frendlyarm Mini2440. Hình 2.2.4: Cổng COM trên kit. Hình 2.2.5: Cổng USB host loại A và loại B. Hình 2.2.6: Sơ đồ chân GPIO giao tiếp VĐK MASTER và VĐK SLAVE. Hình 2.3: Module wifi VT6656. Hình 2.4.1: Màn hình Ubuntu thử nghiệm. Hình 2.4.2: Phân vùng ổ cứng. Hình 2.4.3: Khung điền tên phân vùng. Hình 2.4.4: Phân vùng SWAP. Hình 2.4.2.1: Cửa sổ cài đặt Ubuntu. Hình 2.4.2.2; 2.4.2.3; 2.4.2.4; 2.4.2.5: Các cửa sổ Installation type. Hình 2.4.2.6: Cửa sổ Who are you?. Hình 2.4.2.7: Cửa sổ thời gian cài đặt Ubuntu. Hình 2.5.1: Cửa sổ Ubuntu Software Center. Hình 2.5.2.1; 2.5.2.2; 2.5.2.3; 2.5.2.4; 2.5.2.5; 2.5.2.6; 2.5.2.7: Các bước tạo Project với Qt Creator. Hình 2.5.3; 2.5.4.1; 2.5.4.2; 2.5.4.3; 2.5.4.4 : Các câu lênh trong cửa sổ Terminal. Hình 2.6.1.1: Cửa sổ Build kernel cho mini2440. Hình 2.6.1.2: Cửa sổ báo file zImage build thành công. Hình 2.6.2.1: Cửa sổ UART/USB Option đưa linux lên kit. Hình 2.6.2.2: Cửa sổ chọn chức năng cài đặt linux. Hình 2.7: Sơ đồ điều khiển của kit. Hình 2.8.1: Giao diện chương trình test IO. Hình 3.1: Sân thi đấu Hình 3.2: Sơ đồ di chuyển Robot
+
+KÍ HIỆU CÁC CỤM TỪ VIẾT TẮT VĐK: Vi điều khiển. PWM: Pluse Width Modulation. PIC: Programable Intelligent Computer. TFT LCD: thin-film-transistor liquid-crystal display. CPU: central processing unit. RAM: Random-access memory – Bộ nhớ truy xuất ngẫu nhiên SDRAM: Synchronous dynamic random access memory – RAM đồng bộ. EEPROM: Electrically ErasableProgrammable Read-Only Memory. USB: Universal Serial Bus. ARM: Acorn RISC Machine. RISC: Reduced Instructions Set Computer - Máy tính với tập lệnh đơn giản hóa.
+
+CHƯƠNG 1: ĐẶT VẤN ĐỀ
+
+Đề tài Robot tự động được nâng cấp từ Bài tập lớn Cơ điện tử. Sau khi hoàn thành Bài tập lớn Cơ điện tử, các việc đã đạt được là:
+-Cơ khí: phần đế, tay gắp, thanh trượt, giỏ chứa lá.
+-Mạch nguồn, mạch dò line.
+-Giải thuật lập trình.
+Các công việc phải làm trong đồ án:
+-Thay đổi cơ cấu tay gắp, thanh chặn.
+-Thiết kế mạch cho các động cơ, bổ sung công tắc hành trình.
+-Bàn bạc lại chiến thuật thi đấu, hoàn thiện sơ đồ giải thuật và chương trình vi điều khiển.
+Những khó khăn có thể gặp phải:
+-Lá có thể trượt khỏi tay gắp.
+-Không bỏ phôi vào hẳn trong ring.
+Hướng giải quyết:
+-Gắn vòng cao su, băm xung động cơ.
+-Cho chạy thử để rút ra nguyên nhân và khắc phục để bỏ phôi chính xác hơn.
+
+
+CHƯƠNG 2: THIẾT KẾ VÀ THI CÔNG
+Những kết cấu cơ khí, điện – điện tử và lập trình được nhóm nghiên cứu và tiến hành tuần tự nhằm đạt được hiệu quả cao.
+CƠ KHÍ
+Việc tạo nên một sản phẫm công nghệ cần phải hạn chế đến mức thấp nhất những nhược điểm khó khăn khi sử dụng, cũng như chi phí tạo nên một sản phẩm, thì vấn đề cần quan tâm nhất là đề ra các phương án giải quyết tối ưu nhất phù hợp với mục tiêu đặt ra. Bằng cách làm việc chung với nhau, nhóm đã tìm hiểu và đưa ra những phương án tối ưu rồi bắt tay vào thi công.
+Tính toán động cơ
+Khối lượng Robot ước tính: m=15kg.
+Vận tốc Robot:V= 0,8 m/s.
+Gia tốt trọng trường: g =10 m/s2.
+Lực tác dụng: P = m.g =150N
+Công suất tải:
+
+Trong đó:
+Nt : Công suất tải của động cơ chính.
+N : Công suất cần thiết.
+η = (η1)2 (η2 )2 = 0.962 0.992 = 0.9
+Trong đó : η : Hiệu suất bộ truyền (tra Bảng 2.1 trang 27 sách Thiết kế chi tiết máy).
+η = 0,96– hiệu suất bộ truyển đai.
+η = 0,99 – hiệu suất của một cặp ổ lăn.
+Công suất cần thiết:
+
+Cần phải chọn động cơ có công suất lớn hơn công suất cần thiết:
+Nđc>=Nct=133,3W
+Chọn động cơ 24VDC, dòng 4-5A.
+Thiết kế và thi công Thiết kế đế Robot
+Là bộ phận quan trọng và cần thiết nhất để Robot có thể di chuyển trên sân, chịu tải cho toàn bộ các cơ cấu phía trên nên cần thiết kế chắc chắn và đảm bảo cho việc phân bố lực đồng đều trên toàn bộ Robot.
+
+Hình 2.1.1
+Đế được thiết kế bằng các ống nhôm chịu lực gắn trên tấm phíp dày 2mm. Kích thước đế 500x685x120 (mm).
+Phía trước gồm thanh chặn để Robot dễ dàng tiếp cận ring, 2 bánh bi cầu làm nhiệm vụ dẫn hướng.
+
+Hình 2.1.2 Hình 2.1.3
+Loại bánh xe này có thể dùng làm bánh lái cho Robot, tải trọng 70kg, toàn bộ bánh xe làm bằng sắt và bi thép nên rất bền. Đơn giản, gọn gàng và rất dễ lắp đặt.
+Chịu tải trọng và giúp Robot di chuyển là 2 bánh chủ động.
+
+Hình 2.1.4 Hình 2.1.5
+Với tải trọng 50kg, đường kính ngoài 100mm, bề rộng 35mm, bánh xe được đúc bằng nhôm có độ bền cao ,vỏ được bọc silicon mềm có nhiều rảnh nên có độ bám cao. Một bánh xe gồm 1 bánh xe + 2 bạc + 1 trục + 1 lốp cao su, có gia công thêm hai đường rãnh để lắp dây curoa, kết hợp Buli đường kính 13mm tạo thành cơ cấu truyền hệ số 1:7. Động cơ 20 đến 50W, tốc độ 1500 đến 4000 rmp gắn vào Buli có thể chạy tốt Robot tự động.
+
+Hình 2.1.6 Hình 2.1.7
+Động cơ được sử dụng là động cơ DC 24V không qua hộp giảm tốc.
+
+Hình 2.1.8 Hình 2.1.9
+Do không qua hộp giảm tốc nên tốc độ lớn khoảng 4000 vòng/phút, dòng qua 4-5A. Dây đai PU cord dùng kết hợp với bánh xe kết cấu giảm tốc và buli.
+
+Hình 2.1.10 Hình 2.1.11
+Dây đai PU cord dùng nhiều trong các loại máy công nghiệp ,rất dai và độ bền cao. Từ sợi curoa dài có thể cắt ra thành những sợi dây kích thước theo nhu cầu sau đó gia nhiệt để nối lại rất đơn giản.
+Thiết kế khớp trượt dọc-ngang.
+Khớp trượt gồm 2 phần : phần cố định và phần di động. Phần cố định làm nhiệm vụ dẫn hướng cho phần di động.
+Khớp trượt tạo chuyển động tịnh tiến, có tác dụng đưa một cơ cấu chấp hành di chuyển nhiều vị trí khác nhau để cơ cấu có thể dễ dàng thực hiện công việc.
+Phần cố định nhóm sử dụng nhôm ống làm nhiệm vụ dẫn hướng và chịu tải cho toàn bộ cơ cấu nậng hạ cánh tay gắp, được cố định chắc chắc bằng các bas nhôm chữ V dày 2mm với đế Robot.
+
+Hình 2.2.1
+Ổ bi dùng để giảm ma sát và dẫn hướng khớp truyền động.
+
+Hình 2.2.2
+Ổ bi là loại có má 1 bên tạo độ ổn định cho khớp trược lên xuống một cách êm ái. Hệ thống khớp trượt động gồm 3 tấm nhôm dày lắp song song và được khoan lỗ đồng trục để gắn cây ti.
+
+Hình 2.2.3
+Bằng việc tính toán khoảng cách giữa ống nhôm đứng và ống nhôm trượt của tay gắp, nhóm tiến hành xác định lỗ khoan để có thể lắp đồng thời 2 ống nhôm này mà không cần khoan nhiều lỗ, từ đó giảm sai số, sự rung lắc của tay gắp, lắp động cơ cho các cơ cấu tiện lợi hơn.
+
+Hình 2.2.4
+Trong đề thi Robocon lần này có thể lấn sân đối phương để bỏ lá nên ngoài bộ phận trượt chính là ống nhôm còn thêm thanh trượt bi tạo độ dài cần thiết đủ để bỏ lá sang sân đội bạn.
+
+Hình 2.2.5
+Thanh trượt bi được gắn vào trong ống nhôm, cả hai bộ phận đều dùng xích để chuyển động.
+
+Hình 2.2.6
+Hai bộ phận này được 2 động cơ điều khiển ra vào một cách độc lập và linh hoạt. Với ống nhôm ngoài, dây xích được lắp chặt trên mặt và động cơ gắn chặt vào tấm nhôm ở giữa. Khi động cơ quay, qua đĩa xích và dây xích kéo ống nhôm lăn trên các ổ bi có má cố định bởi trục 8mm bắt ốc chắc chắn. Thanh trượt bi ở trong di chuyển tương tự với ống nhôm ở ngoài nhưng dây xích được mắc thành vòng tròn qua hai đĩa xích gắn ở hai đầu ống nhôm, động cơ gắn ở phía sau được bố trí đĩa encoder xác định khoảng cách mà tay gắp đưa ra.
+Thiết kế tay gắp lá.
+Tay gắp là phần chính của Robot, làm nhiệm vụ ghi điểm và truyền mầm cho Robot bằng tay.
+Ở giai đoạn này, nhóm đã có 2 phương án để thực hiện.
+Phương án 1 :
+
+Hịnh 2.3.1.1
+Tay gắp có kết cấu đơn giản gồm 2 càng gắp gắn thêm các ống nhôm giữ thêm nhiều lá, cơ cấu gắp - nhả thực hiện bằng hệ thống truyền động bánh răng.
+Hình 2.3.1.2
+Tuy vậy kết cấu này khá nặng, hệ thống bánh răng không cho phép tay gắp có thể kẹp chặt lá nếu động cơ không được cấp nguồn, việc này sẽ làm nóng và gây hỏng động cơ cũng như hệ thống mạch điện.
+Phương án 2 :
+Hình 2.3.2.1
+Qua những kiến thức đã học về cơ khí, nhóm quyết định thay đổi hệ thống bánh răng sang hệ thống trục vít – bánh vít, động cơ được thay thế với kích thước nhỏ hơn nhưng momen lớn. Điều này tăng khả năng tự giữ cũng như giảm tải trọng cho cơ cấu gắp lá.
+Khi hoạt động động cơ quay tạo momen xoắn, hai bánh vít quay ngược chiều nhau làm cho 2 càng của tay gắp nhả đồng thời với nhau. Hai càng gắp được gắn thêm các thanh nhôm chữ U và các ống nhôm, 2 thanh nhôm phía dưới cùng kích thước hổ trợ việc giữ 2 lá cùng lúc.
+Với những ưu điểm trong việc giữ lá cũng như khối lượng nhẹ hơn nên nhóm chọn phương án 2 để thi công.
+Toàn bộ cơ cấu khớp trượt lên xuống đươc gắn vào dây xích, động cơ gắn phía trên của thanh nhôm đứng làm nhiệm vụ kéo toàn bộ cơ cấu lên.
+.......................................................
+CHƯƠNG 3: KẾT QUẢ VÀ HƯỚNG PHÁT TRIỂN
+
+KẾT QUẢ
+Kết quả đạt được
+Cơ khí: cơ cấu làm việc tương đối tốt. Điện – điện tử: mạch hoạt động ổn định. Lập trình: giải thuật ngắn gọn. Giao tiếp wifi điều khiển Robot ở cự ly xa bằng nhiều thiết bị có thể kết nối mạng: điện thoại, máy tính xách tay,v.v…
+Robot hoàn thành các yêu cầu mà đề thi đưa ra.
+Hạn chế
+-Tay gắp còn rung lắc do hệ thống hai khớp trượt ngang không ổn định.
+-Cơ cấu phức tạp nên Robot cần nhiều thời gian thực hiện các thao tác trên sân.
+HƯỚNG PHÁT TRIỂN
+-Thay đổi cơ cấu trượt ngang bằng cách rút ngắn còn một khớp trượt hoặc sử dụng hệ thống khí nén thay cho động cơ ở tay gắp lá.
+-Tối ưu các cơ cấu hoàn toàn bằng hệ thống khí nén.
+Mở rộng:
+-Sử dụng truyền tín hiệu không dây wifi để nhận và kiểm tra tín hiệu trả về ở các bước thực hiện của Robot tự động.
+-Kết nối với camera để truyền hình ảnh từ xa, ứng dụng vào việc giám sát trong ngôi nhà thông minh.
+
+

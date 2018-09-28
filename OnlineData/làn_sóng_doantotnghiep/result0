@@ -1,0 +1,332 @@
+TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP. HỒ CHÍ MINH
+KHOA ĐIỆN ĐIỆN TỬ
+BỘ MÔN KỸ THUẬT MÁY TÍNH - VIỄN THÔNG
+
+ĐỒ ÁN TỐT NGHIỆP
+
+THỰC HIỆN HỆ THỐNG THU THẬP
+VÀ LỌC NHIỄU THÍCH NGHI CHO
+TÍN HIỆU ĐIỆN TIM ECG
+
+NGÀNH SƯ PHẠM KỸ THUẬT ĐIỆN TỬ - TRUYỀN THÔNG
+TÓM TẮT
+
+
+Trong đề tài này tác giả thực hiện lọc nhiễu cho tín hiệu điện tim (ECG) nhằm loại bỏ nhiễu tần số 50Hz từ mạng điện công nghiệp ra khỏi tín hiệu ECG. Trong thu nhận tín hiệu y sinh, môi trường nhiễu luôn thay đổi. Để giải quyết bài toán lọc nhiễu này, mô hình lọc nhiễu thích nghi và thuật toán tối thiểu hóa trung bình bình phương (LMS) được lựa chọn vì tính đơn giản và cho hiệu suất cao. Đề tài tập trung làm rõ ảnh hưởng của kích thước bước cố định đến độ hội tụ của thuật toán bằng thực nghiệm dựa trên các điều kiện lựa chọn kích thước bước. Sau đó tác giả thiết kế một hệ thống thu thập tín hiệu ECG dựa trên việc thiết kế một mạch thu tín hiệu ECG kết nối với một khối truyền tín hiệu là Arduino để hiển thị tín hiệu theo thời gian thực lên Matlab.
+Từ khóa: Tín hiệu ECG; thu nhận tín hiệu ECG; lọc nhiễu; LMS
+
+MỤC LỤC ĐỒ ÁN TỐT NGHIỆP ĐIỆN TỬ THỰC HIỆN HỆ THỐNG THU THẬP VÀ LỌC NHIỄU THÍCH NGHI CHO TÍN HIỆU ĐIỆN TIM ECG
+Danh mục hình. viii
+Danh mục bảng. x
+Các từ viết tắt. xi
+CHƯƠNG 1: GIỚI THIỆU.. 1
+1.1 TÌNH HÌNH NGHIÊN CỨU HIỆN NAY.1
+1.2 MỤC TIÊU CỦA ĐỀ TÀI.3
+1.3 ĐỐI TƯỢNG VÀ PHẠM VI NGHIÊN CỨU.. 4
+1.4 BỐ CỤC CỦA KHÓA LUẬN TỐT NGHIỆP. 4
+CHƯƠNG 2: CƠ SỞ LÝ THUYẾT.. 6
+2.1 TỔNG QUAN VỀ TÍN HIỆU ĐIỆN TIM (ECG).6
+2.1.1 Nhịp tim.6
+2.1.2 Các quá trình điện học của tim.7
+2.1.3 Sự hình thành các dạng sóng của tim.. 7
+2.1.4 Tín hiệu ECG.. 10
+2.1.5 Các dải tần trong tín hiệu ECG.. 13
+2.1.6 Các phương pháp đo tín hiệu ECG.. 15
+2.1.7 Các loại nhiễu tác động đến tín hiệu ECG.. 17
+2.2 BỘ LỌC THÍCH NGHI21
+2.2.1 Bộ lọc số. 21
+2.2.2 Sơ lược về lọc thích nghi23
+2.2.3 Bộ lọc thích nghi24
+2.2.4 Các cấu trúc của bộ lọc thích nghi25
+2.3 THUẬT TOÁN TỐI THIỂU HÓA TRUNG BÌNH BÌNH PHƯƠNG.. 26
+2.3.1 Bộ kết hợp thích nghi tuyến tính. 27
+2.3.2 Hàm mục tiêu. 28
+2.4 ỨNG DỤNG LỌC THÍCH NGHI TRONG TRIỆT NHIỄU.. 31
+2.4.1 Các chế độ khử nhiễu thích nghi32
+2.4.2 Thuật toán cập nhật cho các bộ lọc. 32
+CHƯƠNG 3: THIẾT KẾ HỆ THỐNG THU THẬP VÀ TRIỆT NHIỄU THÍCH NGHI CHO TÍN HIỆU ECG.. 36
+3.1 SƠ ĐỒ KHỐI HỆ THỐNG THU THẬP VÀ TRIỆT NHIỄU THÍCH NGHI CHO TÍN HIỆU ECG.36
+3.2 THIẾT KẾ MẠCH THU TÍN HIỆU ECG.. 37
+3.2.1 Sơ đồ khối và chức năng các khối37
+3.2.2 Chọn linh kiện cho các khối38
+3.2.3 Thiết kế, tính toán các khối40
+3.2.4 Lưu đồ thuật toán đo nhịp tim và kiểm tra mạch. 42
+3.3 KHỐI TRUYỀN TÍN HIỆU.. 45
+CHƯƠNG 4: KẾT QUẢ ĐẠT ĐƯỢC.. 46
+4.1 KẾT QUẢ MÔ PHỎNG TRIỆT NHIỄU THÍCH NGHI46
+4.1.1 Xét tín hiệu ECG 1 chu kỳ. 46
+4.1.2 Xét tín hiệu ECG nhiều chu kỳ trong thực tế. 51
+4.2 BIỂU DIỄN TÍN HIỆU ECG THỰC TẾ THEO THỜI GIAN THỰC.. 56
+4.2.1 Hoạt động của mạch thu tín hiệu ECG.. 56
+4.2.2 Kết nối Arduino với Matlab. 57
+4.2.3 Vẽ tín hiệu ECG theo thời gian thực. 58
+CHƯƠNG 5: KẾT LUẬN – HƯỚNG PHÁT TRIỂN.. 62
+5.1 KẾT LUẬN CHUNG.. 62
+5.2 HƯỚNG PHÁT TRIỂN.. 63
+PHỤ LỤC.. 64
+TÀI LIỆU THAM KHẢO.. 66
+
+DANH MỤC HÌNH
+
+Hình 2.1 Các thế tác động ngang màng (tâm thất)....................................................... 7
+Hình 2.2 Xung truyền dẫn qua các cơ tim.................................................................... 8
+Hình 2.3 Dạng sóng tín hiệu điện tim............................................................................ 10
+Hình 2.4 Quá trình hình thành các dạng sóng thành phần trong ECG...................... 12
+Hình 2.5 Biến thiên nhịp tim theo phổ tần số trong 5 phút........................................ 15
+Hình 2.6 Sự hấp thụ ánh sáng của động mạch khi truyền qua ngón tay................... 17
+Hình 2.7 Ảnh hưởng của mạng điện công nghiệp lên tín hiệu điện tim................... 18
+Hình 2.8 Dạng sóng của bệnh thiếu máu cục bộ cơ tim............................................. 19
+Hình 2.9 Dạng sóng của bệnh nhồi máu cơ tim (dạng 1)............................................ 20
+Hình 2.10 Dạng sóng của bệnh nhồi máu cơ tim (dạng 2)........................................ 20
+Hình 2.11 Quá trình hoạt động của một bộ lọc số....................................................... 21
+Hình 2.12 Cấu trúc bộ lọc thích nghi cơ bản................................................................ 24
+Hình 2.13 Cấu trúc bộ lọc thích nghi cho khử nhiễu.................................................. 25
+Hình 2.14 Cấu trúc bộ lọc thích nghi cho nhận dạng hệ thống................................. 26
+Hình 2.15 Cấu trúc bộ lọc thích nghi cho bộ dự đoán thích nghi............................. 26
+Hình 2.16 Bộ kết hợp tuyến tính nhiều ngõ vào......................................................... 27
+Hình 2.17 Bộ kết hợp tuyến tính thích nghi với một ngõ vào.................................... 28
+Hình 2.18 Đường biểu diễn chất lượng làm việc của 1 hệ số..................................... 29
+Hình 2.19 Tìm điểm cực tiểu theo một trọng số........................................................... 30
+Hình 2.20 Cấu trúc triệt nhiễu thích nghi..................................................................... 31
+Hình 2.21 Lưu đồ thuật toán LMS................................................................................. 35
+Hình 3.1 Hệ thống xử lý tín hiệu ECG........................................................................... 36
+Hình 3.2 Sơ đồ lọc nhiễu thích nghi cho tín hiệu ECG............................................... 36
+Hình 3.3 Sơ đồ lọc nhiễu thích nghi trên Matlab......................................................... 37
+Hình 3.4 Sơ đồ hệ thống thu thập ECG......................................................................... 37
+Hình 3.5 Sơ đồ mạch thu tín hiệu ECG......................................................................... 38
+Hình 3.6 Vi điều khiển Pic 16F877A............................................................................ 39
+Hình 3.7 Sơ đồ mạch khối cảm biển............................................................................. 40
+Hình 3.8 Sơ đồ mạch khối lọc và khuếch đại............................................................... 41
+Hình 3.9 Sơ đồ mạch khối xử lý trung tâm và khối hiển thị...................................... 42
+Hình 3.10 Lưu đồ thuật toán đo nhịp tim (thu ECG)................................................... 43
+Hình 3.11Bo mạch Arduino UNO R3........................................................................... 44
+Hình 3.12Các I/O trên Arduino UNO R3..................................................................... 45
+Hình 4.1 Triệt nhiễu thích nghi cho tín hiệu ECG....................................................... 46
+Hình 4.2 Tín hiệu ECG đã triệt nhiễu với các kích thước bước khác nhau............. 47
+Hình 4.3 Đồ thị MSE ứng với các kích thước bước khác nhau.................................. 49
+Hình 4.4 Các đáp ứng của bộ lọc ứng với µ = 0.8........................................................ 49
+Hình 4.5 Các đáp ứng của bộ lọc ứng với µ = 0.05..................................................... 50
+Hình 4.6 Các đáp ứng của bộ lọc ứng với µ = 0.005................................................... 50
+Hình 4.7 Các đáp ứng của bộ lọc ứng với µ = 0.0002................................................. 51
+Hình 4.8 Triệt nhiễu thích nghi ECG sử dụng thuật toán LMS, µ = 0.8.................. 52
+Hình 4.9 Đáp ứng của bộ lọc, µ = 0.8........................................................................... 52
+Hình 4.10 Triệt nhiễu thích nghi ECG sử dụng thuật toán LMS, µ = 0.05.............. 53
+Hình 4.11 Đáp ứng của bộ lọc, µ = 0.05...................................................................... 53
+Hình 4.12 Triệt nhiễu thích nghi ECG sử dụng thuật toán LMS, µ = 0.005............ 54
+Hình 4.13 Đáp ứng của bộ lọc, µ = 0.005.................................................................... 54
+Hình 4.14 Triệt nhiễu thích nghi ECG sử dụng thuật toán LMS, µ = 0.0002......... 55
+Hình 4.15 Đáp ứng của bộ lọc, µ = 0.0002.................................................................. 55
+Hình 4.16 Hoạt động của mạch thu tín hiệu ECG....................................................... 56
+Hình 4.17 Nhận driver thành công Arduino UNO R3................................................ 57
+Hình 4.18 Upload thành công thư viện chân cho Arduino UNO R3....................... 57
+Hình 4.19 Kết nối Arduino với mạch cảm biến và máy tính.................................... 58
+Hình 4.20Matlab nhận đầy đủ các chân của Arduino............................................... 58
+Hình 4.21 Vẽ tín hiệu theo thời gian thực khi để hở chân analog............................. 59
+Hình 4.22Tín hiệu ECG theo thời gian thực................................................................ 60
+Hình 4.23Tín hiệu ECG theo thời gian thực với nhịp tim trung bình...................... 60
+Hình 4.24 Tín hiệu ECG theo thời gian thực với nhịp tim trung bình và nhanh..... 61
+
+
+DANH MỤC BẢNG
+
+Bảng 2.1: Thông số nhịp tim người ở trạng thái nghỉ ngơi......................................... 6
+Bảng 2.2: Khoảng giá trị bình thường phổ tần số theo nhóm tuổi........................... 15
+Bảng 2.3: Số phép toán của thuật toán LMS................................................................ 34
+Bảng 3.1: Giới thiệu tổng quan về LCD 16x2.............................................................. 39
+Bảng 3.2: Các thông số cơ bản của Arduino UNO R3................................................ 45
+Bảng 4.1: Giá trị công suất với các kích thước bước khác nhau............................... 48
+Bảng 4.2Giá trị công suất với các kích thước bước khác nhau................................ 56
+
+
+CÁC TỪ VIẾT TẮT
+
+Từ viết tắt Từ đầy đủ ADC Analog to Digital Converter AF Adaptive Filters ANC Active Noise Canceller CT Computed Tomography DAC Digital to Analog Converter DSP Digital Signal Processing DSP Digital Signal Processing ECG Electrocardiogram EEPROM Electrically Erasable Programmable Read-Only Memory FIR Finite Impulse Response IC Integrated Circuit IDE Integrated development environment IEEE Institute of Electrical and Electronics Engineers LED Light Emitting Diode LMS Least Mean Squared MRI Magnetic Resonance Imaging MSE Mean Squared Error NLMS NormalizedLeast Mean Squared PWM Pulse Width Modulation RAM Random Access Memory RLS Recursive Least Squares ROM Read Only Memory SPECT Single-Photon Emission Computerized tomography SPI Serial Peripheral Interface SRAM Static Random Access Memory TTL Transistor–Transistor logic UART Universal Asynchronous Receiver/Transmitter USB Universal Serial Bus
+
+
+CHƯƠNG 1
+
+GIỚI THIỆU
+1.1 TÌNH HÌNH NGHIÊN CỨU HIỆN NAY
+Ngày nay, khi mà khoa học kỹ thuật phát triển vượt bậc thì máy móc, thiết bị tiên tiến đã gắn liền với đời sống con người, hiện diện trong mọi lĩnh vực, với mục đích làm cho chất lượng cuộc sống của con người ngày một nâng cao. Và y học không phải là một ngoại lệ. Với định hướng phát triển của y học hiện đại: ứng dụng khoa học kỹ thuật tiến tiến, nhằm giúp con người ngày càng hoàn thiện hơn các thiết bị chẩn đoán, cũng như chữa trị những căn bệnh con người mắc phải mà hàng loạt các thiết bị y tế tiên tiến ra đời. Tiêu biểu là các thiết bị chẩn đoán như CT, MRI, SPECT hay thiết bị điều trị như "dao mổ" điện, châm cứu bằng laser. Từ đó ngành Kỹ thuật y sinh (Biomedical Engineering) được hình thành và không ngừng phát triển mạnh mẽ cho đến ngày hôm nay.
+Trong lĩnh vực Kỹ thuật y sinh thì Điện tử y sinh là một thành tố có vai trò hết sức quan trọng. Cùng với ngành Tin học y sinh thì Điện tử y sinh đã đóng góp cho y học những máy móc, thiết bị, công nghệ tiên tiến để phục vụ chẩn đoán, điều trị bệnh hiệu quả hơn. Những máy móc, thiết bị đó luôn phát triển không ngừng, tuy nhiên để làm chủ các máy móc, thiết bị hiện đại thì cần nắm vững các nguyên lý, thiết bị cơ bản. Bất kỳ thiết bị máy móc y tế nào cũng cần có phần mềm điều khiển để hoạt động một cách chính xác và hiệu quả. Các nhiệm vụ y học trước hết được xây dựng và mô phỏng trên máy tính bằng các phần mềm chuyên dụng sau đó triển khai lên phần cứng. Đối với một lĩnh vực liên quan đến tính mạng con người như y học thì việc phát triển các máy móc thiết bị phục vụ hiệu quả cho việc chẩn đoán và điều trị bệnh là hết sức cần thiết, nhất là đối với các bộ phận như não, tim, các cơ quan hô hấp, tiêu hóa… Ngày nay máy đo điện tim hay còn gọi là điệm tâm đồ đã được sử dụng phổ biến trong hầu hết các bệnh viện, phòng khám nhằm ghi lại dạng sóng, theo dõi hoạt động của tim để chẩn đoán và điều trị các bệnh liên quan đến tim một cách hiệu quả nhất. Tuy nhiên để máy điện tâm đồ hoạt động tốt thì cần các phương pháp để thu thập và xử lý tín hiệu ECG. Đặc điểm của tín hiệu ECG là dạng sóng có biên độ rất nhỏ, rất dễ bị nhiễu khi thu thập, vì thế việc xử lý nhiễu cho tín hiệu ECG là rất cần thiết. Hiện nay các đề tài liên quan đến ECG đã được thực hiện nhiều cùng với sự phát triển của ngành Kỹ thuật y sinh ở trong nước cũng như ngoài nước.
+Trong nước tập trung vào các đề tài mô phỏng, khảo sát tín hiệu điện tim, xây dựng các mạch điện, thiết bị thu thập, xử lý tín hiệu, có thể kể đến các tác giả tiêu biểu như Hoàng Mạnh Hà, Chu Đức Hoàng, Dương Trọng Lượng. Tác giả Chu Đức Hoàng đã phân tích tín hiệu điện tim bằng các phương pháp xử lý tín hiệu số dưới dạng biến đổi tín hiệu wavelet để có thể phát hiện các tín hiệu bất thường của điện tim, phục vụ cho quá trình chẩn đoán bệnh, tác giả chưa giải quyết các loại can nhiễu và các phương thức triệt nhiễu. Tác giả Hoàng Mạnh Hà xác định điều kiện để thuật toán LMS hội tụ khi áp dụng thuật toán này trong mô hình lọc nhiễu thích nghi. Đề xuất phương pháp thay đổi kích thước bước của thuật toán LMS nhằm nâng cao hiệu năng cho mô hình lọc nhiễu thích nghi trong [3], tuy nhiên đề tài chưa đi sâu phân tích về tín hiệu điện tim, chưa đưa ra cách thức thu thập tín hiệu ECG. Ở đề tài [5] tác giả Dương Trọng Lượng thiết kế hệ thống thu nhận tín hiệu điện tâm đồ trong thời gian thực dựa trên giao tiếp âm thanh-soundcard tích hợp sẵn trong máy tính. Với mục đích phát triển một công cụ đo tín hiệu ECG thuận tiện trong việc thu thập, xử lý và phân tích, phục vụ cho việc phân tích chẩn đoán bệnh dựa trên tín hiệu sinh học từ cơ thể người. Đề tài chỉ đề xuất phương pháp thu thập dựa trên phần cứng mà chưa giải quyết vấn đề nhiễu cũng như các phương thức triệt nhiễu.
+Ngoài nước có thể kể đến các đề tài như xây dựng các mạch đo nhịp tim trên các phần cứng khác nhau, xây dựng mô hình toán học của tín hiệu điện tim và xử lý các loại nhiễu ảnh hưởng tới nó. Hong Wan, Thamer M.Jamel, Manal J.Alkindy, Aid K. Alsamarae, Neeraj kumar, Imteyaz Ahmad, Pankaj Rai là một số nhà nhà nghiên cứu điển hình cho lĩnh vực này. Trong [10], [11], [12] các tác giả đưa ra các cơ sở toán học của các giải thuật LMS, DLMS, NLMS để áp dụng vào lọc nhiễu tần số 50Hz cho tín hiệu ECG, chưa làm rõ về bản chất tín hiệu, cách thức thu thập tín hiệu ECG.
+Với sự bùng nổ của khoa học công nghệ nói chung và ngành Kỹ thuật y sinh nói riêng đã mở ra rất nhiều hướng nghiên cứu về các loại tín hiệu như điện tim, điện não…Tín hiệu điện tim là loại tín hiệu y sinh tương đối phức tạp vì thế luôn cần nghiên cứu chi tiết. Các loại nhiễu gây ra cho tín hiệu điện tim cũng đa dạng, phức tạp, cần xử lý tốt các loại nhiễu này để có thể thu được tín hiệu tốt nhất phục vụ cho công việc chẩn đoán và điều trị các bệnh về tim. Trong đề tài này tác giả tập trung vào việc xử lý nhiễu gây ra từ mạng điện công nghiệp đối với tín hiệu điện tim vì loại nhiễu này rất hay gặp và gây ảnh hưởng lớn lên tín hiệu điện tim.
+Mặt khác, hầu hết các đề tài nêu trên đều tập trung vào việc khảo sát và lọc nhiễu cho ECG bằng phần mềm mà cụ thể là Matlab. Tuy nhiên hiện nay có một bo mạch đang được sử dụng phổ biến trong lĩnh vực điện tử bởi tính tiện dụng là Arduino. Vì thế trong đề tài này tác giả sẽ thực hiện thu thập tín hiệu ECG bằng một board arduino kết hợp với một mạch thu tín hiệu ECG tự thiết kế và thi công để hiển thị kết quả lên máy tính thông qua phần mềm Matlab. Hệ thống này có ưu điểm là đơn giản, chi phí thấp và thể hiện được bản chất của tín hiệu ECG, hướng đến việc xây dựng các máy điện tâm đồ đơn giản và giá thành rẻ hơn các thiết bị đắt đỏ hiện nay để việc chăm sóc sức khỏe cho người dân ngày càng hiệu quả hơn.
+1.2 MỤC TIÊU CỦA ĐỀ TÀI
+Mục tiêu của đề tài là xây dựng, khảo sát tín hiệu ECG trên phần mềm Matlab, làm rõ được tác hại của các loại nhiễu tác động lên ECG từ đó triệt nhiễu, thu được tín hiệu ECG chuẩn. Sau đó sẽ thu thập tín hiệu ECG thực tế bằng phần cứng tự xây dựng thông qua phần mềm Matlab.
+1.3 ĐỐI TƯỢNG VÀ PHẠM VI NGHIÊN CỨU
+Đối tượng nghiên cứu là bản chất toán học của tín hiệu ECG cũng như nhiễu tần số 50Hz từ mạng điện công nghiệp (và các loại nhiễu ngẫu nhiên) từ đó đưa ra cách xử lý phù hợp.
+Phạm vi nghiên cứu:
+- Khảo sát tín hiệu điện tim, xây dựng phương thức triệt nhiễu tần số 50Hz thông qua bộ lọc thích nghi với sự hỗ trợ của phần mềm Matlab.
+- Thu thập tín hiệu ECG bằng phần cứng tự xây dựng là board Arduino kết hợp với một mạch thu ECG.
+- Phân tích và đánh giá kết quả đạt được.
+- Đề xuất các hướng nghiên cứu tiếp theo.
+1.4 BỐ CỤC CỦA KHÓA LUẬN TỐT NGHIỆP
+Khóa luận được chia thành các chương chi tiết, mỗi chương thể hiện một nội dung đặc trưng như sau:
+Chương 1. Giới thiệu
+Nhiệm vụ của chương này là giới thiệu chung về đề tài như tình hình nghiên cứu hiện nay về các lĩnh vực liên quan, mục tiêu của đề tài, đối tượng và phạm vi nghiên cứu, cuối cùng là trình bày bố cục của đề tài.
+Chương 2. Cơ sở lý thuyết
+Chương này trình bày tổng quan về tín hiệu điện tim như cơ chế hình thành, cấu tạo và đặc điểm các dạng sóng thành phần, sự hình thành điện tim đồ. Quá trình hình thành các dạng sóng thành phần theo cấu trúc và đặc điểm của tim, khảo sát các dải tần trong tín hiệu điện tim. Các loại nhiễu, đặc tính và tác hại của chúng lên tín hiệu điện tim. Cuối chương là phần trình bày về bộ lọc thích nghi và thuật toán “Tối thiểu hóa trung bình bình phương” (LMS) ứng dụng trong lọc nhiễu để từ đó thiết kế hệ thống triệt nhiễu thích nghi cho tín hiệu ECG.
+Chương 3: Thiết kế hệ thống thu thập và triệt nhiễu thích nghi cho tín hiệu ECG
+Nội dung của chương là thiết kế hệ thống thu thập và lọc nhiễu thích nghi cho tín hiệu ECG. Hệ thống này được mô phỏng bằng phần mềm Matlab. Bên cạnh đó là phần thiết kế và thi công một mạch thu tín hiệu ECG, làm cơ sở cho việc hiển thị ECG thực tế lên máy tính.
+Chương 4: Kết quả đạt được
+Chương này trình bày về kết quả mô phỏng triệt nhiễu thích nghi ECG bằng giải thuật LMS với các kích thước bước khác nhau, từ đó đưa ra các đánh giá, nhận xét. Phần tiếp theo là kết quả thu thập tín hiệu ECG bằng phần cứng đã xây dựng.
+Chương 5: Kết luận- Hướng phát triển
+Chương cuối nêu lên kết luận chung về những gì đã thực hiện đồng thời đúc kết lại ưu - khuyết điểm để từ đó đưa ra hướng phát triển cho đề tài.
+
+
+CHƯƠNG 2
+CƠ SỞ LÝ THUYẾT
+
+2.1 TỔNG QUAN VỀ TÍN HIỆU ĐIỆN TIM (ECG)
+2.1.1 Nhịp tim
+Nhịp tim là số nhịp đập của tim trên một đơn vị thời gian, thường được tính bằng nhịp/phút. Nhịp tim có thể thay đổi theo nhu cầu hấp thụ Oxi và bài tiết CO2 của cơ thể, ví dụ như lúc tập thể dục và lúc ngủ.
+Bảng 2.1: Thông số nhịp tim người ở trạng thái nghỉ ngơi
+Nam Độ tuổi Nhịp/phút Đánh giá 18-35 49-61 Tuyệt vời 62-70 Tốt 71-81 Trung bình 82+ Xấu (nhịp nhanh) 36-55 50-63 Tuyệt vời 64-71 Tốt 72-83 Trung bình 84+ Xấu (nhịp nhanh) Trên 56 51-61 Tuyệt vời 62-69 Tốt 70-79 Trung bình 80+ Xấu (nhịp nhanh) Nữ Độ tuổi Nhịp/phút Đánh giá 18-35 54-64 Tuyệt vời 65-72 Tốt 73-84 Trung bình 85+ Xấu (nhịp nhanh) 36-55 54-65 Tuyệt vời 66-73 Tốt 74-83 Trung bình 84+ Xấu (nhịp nhanh) Trên 56 54-64 Tuyệt vời 65-72 Tốt 73-84 Trung bình 85+ Xấu (nhịp nhanh)
+Nguồn: www.khoahocphattrien.vn
+Tim là tổ chức cơ rỗng, tại đó sự co bóp một cách tuần tự các cơ sẽ tạo ra áp lực đẩy máu đi qua các bộ phận khác nhau trên cơ thể. Mỗi nhịp tim được kích thích bởi xung điện từ các tế bào nút xoang tại tâm nhĩ. Các xung điện truyền đến các bộ phận khác của tim và làm cho tim co bóp. Việc ghi tín hiệu điện tim là ghi lại các tín hiệu điện này (tín hiệu ECG).
+2.1.2 Các quá trình điện học của tim
+Năng lượng chuyển hóa được sử dụng để tạo ra môi trường trong giàu Kali nhưng ít Natri so với thành phần ngoại bào Natri cao và Kali thấp. Do có sự không cân bằng tồn tại điện thế tĩnh trên màng tế bào, bên trong chừng 90mV so với bên ngoài. Khi tế bào bị kích thích (bằng cách cho dòng điện vốn làm tăng tạm thời thế ngang màng), các tính chất của màng thay đổi theo chu trình, pha thứ nhất của nó là độ thẩm mạnh đối với Natri, dòng Natri lớn (sớm) chảy vào trong do các gradient khuếch tán và điện.
+
+Hình 2.1 Các thế tác động ngang màng (tâm thất).
+Dòng chảy tạo ra dòng điện như hình 2.1. Trong khi di chuyển tiếp, tế bào về cơ bản có tính chất như nguồn lưỡng cực điện. Dòng Natri chuyến tiếp này chịu trách nhiệm về dòng mạch điện nội tại và là một phần của dòng điện đó. Theo cách này, hoạt động mở rộng tiếp tới các tế bào lân cận. Khi màng hồi phục (trở về các tính chất nghỉ), thế tác động của tế bào kết thúc và nó trở lại trạng thái nghỉ và có khả năng được tái kích thích. Nói một cách ngắn gọn khi có dòng Natri, Kali chảy qua màng tim thì có điện thế được sinh ra.
+2.1.3 Sự hình thành các dạng sóng của tim
+2.1.3.1 Tính dẫn truyền
+Tim là một khối cơ rỗng gồm 4 buồng, dày mỏng không đều nhau, cấu trúc phức tạp làm cho tín hiệu điện của tim phát ra thực chất là tổng hợp của các sợi cơ tim, phức tạp hơn của một tế bào hay một sợi cơ.
+Nút SA là một chùm nhỏ tế bào (khoảng 3x10 mm) nằm ở cuối thành của tâm nhĩ, ngay dưới điểm gắn vào của tĩnh mạch trên (đóng vai trò khởi phát). Nó cung cấp tín hiệu kích thích truyền xung ra cơ nhĩ làm cho nhĩ khử cực, nhĩ bóp trước đấy máu xuống thất. Vận tốc truyền đối với thế năng động của nút SA là khoảng 30cm/s trong mô tâm nhĩ. Sau đó nút nhĩ thất Tawara (AV node: Aschoff- Tawara node) nhờ tiếp nhận xung động sẽ truyền qua bó His. Có một bộ dãy mô chuyên biệt nằm giữa nút SA và AV, ở đó vận tốc truyền nhanh hơn vận tốc trong mô tâm nhĩ khoảng 51cm/s, con đường truyền dẫn bên trong này mang tín hiệu đến các tâm thất. Do tâm thất phải hoạt động đáp ứng lại một động năng trước khi tâm nhĩ rỗng nên ở mức động năng 45cm/s sẽ đạt đến nút AV trong khoảng 30 đến 50ms sau khi phóng từ nút SA. Sau đó nốt AV hoạt động giống như một giới hạn hoãn nhằm làm chậm lại phần đến trước của thế năng động cùng với hệ thống dẫn điện bên trong hướng đến các tâm thất.
+
+Hình 2.2 Xung truyền dẫn qua các cơ tim.
+Xung truyền qua hai nhánh cơ tâm thất nhờ mạng Purkinje và làm khử cực tâm thất. Lúc này thất đã đầy máu sẽ bóp mạnh và đẩy máu ra ngoài. Tính dẫn đường các sợi Purkinje rất nhanh. Thế động năng chạy qua khoảng cách giữa các nút SA và AV là khoảng 40ms và bị làm chậm lại bởi nút AV khoảng 100ms sao cho kích hoạt các ngăn dưới có thể đồng bộ với phần trống của các ngăn trên. Việc dẫn vào các chùm nhánh thì khá nhanh giả định cho 60ms khác vươn đến các sợi Purkinje xa nhất.
+
+2.1.3.2 Tính trơ và các thời kì trơ
+Tính chất chính của tế bào cơ (phụ trách truyền dẫn) liên quan đến sự hình thành chứng loạn nhịp là sự trơ (không phản ứng) đối với kích thích trong một giai đoạn xác định nào đó. Khoảng thời gian này được gọi là chu kì trơ .
+Trong suốt chu kì trơ, các tế bào tái cực. Mật độ ion K+, Na+ bên trong và bên ngoài thay đổi do các ion trên di chuyển qua màng tê bào để tạo điện thế nghỉ.
+Chu kì trơ có thể chia làm hai phần:
+- Giai đoạn đầu ngay lập tức theo sau giai đoạn khử cực, tế bào hoàn toàn không phản ứng lại với kích thích bên ngoài và được gọi là giai đoạn trơ tuyệt đối (APR - absolute refractory period).
+- Giai đoạn sau là giai đoạn sự khử cực có thể thực hiện được mặc dù điện thế tương đối khá nhỏ nên xung không đủ lan ra các tế bào bên cạnh, Trong giai đoạn này tế bào được gọi là trơ tương đối (RRP-relative refractory period) .
+2.1.3.3 Điện trường của tim
+Sự lan truyền xung trong tim và ở môi trường trung gian từ tim đến da cũng như hình dạng bề mặt cơ thể.
+Xét phân bố điện thế:
+Giả sử cơ thể là môi trường dẫn điện và điện môi không đồng nhất. Điện thế sẽ tăng trong các mô dẫn truyền của cơ tim trong lúc khử cực và tái cực. Sự phân bố điện thế có thể được xem tương đương với sự phân bố điện trường. Theo tính chất của điện trường, mỗi điểm của cơ thể có một vectơ mật độ dòng điện.
+Tim nằm trong một chất không đồng nhất lớn vô hạn có cùng độ dẫn truyền. Trong trường hợp chất trung gian có giới hạn, các điểm trên bề mặt có vectơ mật độ dòng điện khác nhau nên xem như cấu trúc của tim là một dipole. Giá trị tức thời mô-men điện (E) trong một chu kỳ làm việc của tim tạo một đường cong không gian phức tạp khép kín. Lúc đó điện trường của tim được biểu diễn bằng những đường đẳng áp.
+Vì thế điện thế tim có thể đo gián tiếp nhờ các điện cực đặt lên những điểm xác định trên bề mặt cơ thê. Nếu như ta đặt tim vào trong một hệ tọa độ vuông góc ba chiều thì hình chiếu đường cong của không gian này lên cả ba mặt phẳng đều có dạng ba đường cong có tên là P, QRS, T. Vector tạo đường cong trên mặt phẳng chính diện này bằng chính vecto điện tim. Phương pháp này được gọi là điện tim đồ.
+2.1.4 Tín hiệu ECG
+ECG là tín hiệu điện thu được từ các điện cực gắn lên cơ thể người để đo các hoạt động của tim người. Khi tim đập tác dụng lên các điện cực tạo ra các xung điện. Thông thường các xung điện này rất nhỏ do đó cần phải khuếch đại lên rồi mới được xử lí. Tín hiệu điện tim được đặc trưng bởi các dạng sóng được ký hiệu P, Q, R, S, T và U. [2, 3]
+Hình 2.3 Dạng sóng tín hiệu điện tim
+Trong hình 2.3 là tín hiệu ECG gồm các thành phần:
+Sóng P: thể hiện quá trình khử cực ở tâm nhĩ trái và phải, sóng P có dạng một đường cong điện thế dương, kéo dài khoảng 0.06 đến 0.1 giây. Đoạn PR: là đoạn từ điểm bắt đầu sóng P đến trước điểm bắt đầu phức QRS. Nó bao gồm thời gian khử cực tâm nhĩ và dẫn đến nút AV. Đoạn PR kéo dài khoảng 0.12 đến 0.2 giây. Phức QRS: thể hiện quá trình khử cực tâm thất, kéo dài khoảng 0.04 đến 0.1 giây. Phức QRS chia ra ba trạng thái là Q, R và S. Đoạn ST: từ lúc kết thúc quá trình khử cực tâm thất đến trước qua trình tái phân cực. Điểm bắt đầu gọi là điểm J, điểm kết thúc gọi là điểm ST. Sóng T: thể hiện quá trình tái phân cực tâm thất. Vì quá trình này có tốc độ chậm hơn khử cực nên sóng T rộng và có độ dốc thấp. Sóng U: hiện nay nguồn gốc hình thành sóng này chưa được xác định rõ ràng vì thế ít được đề cập tới.
+Mỗi thành phần này có đặc trưng riêng, đáp ứng riêng nhưng có chung đặc điểm đều là các hiện tượng điện sinh vật. Hiện tượng điện sinh vật là quá trình hoá lý, hoá sinh phức tạp xảy ra bên trong và ngoài màng tế bào.
+Quá trình này được mô tả bằng công thức Nerst như sau:
+Ek (2.1)
+Trong đó:
+Ek: Suất điện động tương đương, được tạo ra do sự chênh lệch nồng độ ion giữa trong và ngoài màng tế bào. n: Hoá trị của ion K+, n = 1. [K]i và [K]o: Nồng độ của ion K+ ở trong và ngoài màng tế bào (tính bằng mol/lít). c: Hằng số khí (c = 8.31 Jul/mol). t: Nhiệt độ tuyệt đối (tính theo nhiệt độ Kelvil, ở nhiệt độ 37oC có t = 3100K). F: Hằng số Faraday (96500 Culong/ đương lượng); Đương lượng = mol/hoá trị.
+Hình 2.4 Quá trình hình thành các dạng sóng thành phần trong ECG
+Nhĩ đồ: Xung động đi từ nút xoang (ở nhĩ phải) sẽ tỏa ra làm khử cực cơ nhĩ với hướng chung là từ trên xuống dưới và từ phải sang trái. Như vậy vectơ khử cực nhĩ sẽ có hướng từ trên xuống dưới và từ phải sang trái, tạo với đường ngang một góc +490 và còn gọi là trục điện nhĩ, tạo được một làn sóng dương thấp, nhỏ với thời gian khoảng từ 0,05s —> 0,ls gọi là sóng P. Do đó, trục điện nhĩ lại còn có tên gọi là trục sóng P.
+Khi nhĩ tái cực, nó có phát ra dòng điện ghi lên máy bằng một sóng âm nhỏ gọi là sóng Ta (auricular T). Ngay lúc này cũng xuất hiện khử cực thất (QRS) với điện thế mạnh hơn nhiều nên trên điện tim đồ thông thường ta không nhìn thấy được sóng Ta nữa. Tóm lại, nhĩ đồ có nghĩa là sự hoạt động của nhĩ chỉ thể hiện lên điện tim bằng một làn sóng chính là sóng P. [1]
+Thất đồ:
+• Khử cực: Xảy ra ngay khi nhĩ đang còn khử cực rồi bắt vào nút nhĩ - thất rồi truyền qua thất và hai nhánh bó His xuống khử cực thất. Việc khử cực này bắt đầu từ phần giữa mặt trái vách liên thất xuyên sang mặt phải vách này, tạo ra một vectơ khử cực đầu tiên hướng từ trái sang phải, tạo ra một làn sóng âm nhỏ, nhọn, gọi là sóng Q.
+Xung truyền xuống và tiến hành khử cực đồng thời cả hai tâm thất theo hướng xuyên qua bề mặt dày cơ tim, từ lớp dưới nội tâm mạc ra dưới thượng tâm mạc. Lúc này vectơ khử cực hướng nhiều về bên trái hơn vì thất trái dày hơn vì tim nằm nghiêng hướng trục giải phẫu về bên trái. Vectơ khử cực lúc này hướng từ phải sang trái và máy ghi được một làn sóng dương cao, nhọn, gọi là sóng R.
+Sau đó, khử cực vùng đáy thất lại hướng từ trái sang phải, tạo một vector hướng từ trái sang phải: ghi được một làn sóng âm, nhỏ, nhọn, gọi là sóng S.
+Tóm lại , khử cực thất bao gồm ba làn sóng cao, nhọn Q, R, S biến thiên phức tạp nên được gọi là phức bộ QRS (QRS complex). Vì nó có sức điện động tương đối lớn lại biến thiên nhanh trong một thời gian ngắn (chỉ khoảng 0.07s) nên còn gọi là phức bộ nhanh, cần chú ý là trong phức bộ nhanh, sóng chính lớn nhất là sóng R.
+Nếu ta đem tổng hợp 3 vectơ khử cực Q, R, S ở trên lại, ta sẽ được một vector khử cực trung bình có hướng từ trên xuống dưới và từ phải sang trái, tạo với đường ngang một góc khoảng 85°, vectơ đó còn được gọi là trục điện trung bình cửa tim, hay gọi tắt là trục điện tim, trục QRS .
+• Tái cực: Thất khử cực xong sẽ qua thời kỳ tái cực chậm, thể hiện trên điện tâm đồ bằng một đoạn thẳng đồng điện gọi là đoạn ST, sau đó đến thời kỳ tái cực nhanh.
+Tái cực có hướng xuyên qua cơ tim, từ lớp dưới thượng tâm mạc vào lớp dưới nội tâm mạc. Tái cực ngược chiều với khử cực do nó tiến hành đúng vào lúc tim co bóp với cường độ mạnh nhất, làm cho lớp cơ tim dưới nội tâm mạc bị lớp ngoài nén quá mạnh nên tái cực muộn đi. Trái với khử cực, tái cực tiến hành từ vùng điện dương tới vùng điện âm. Vectơ tái cực hướng từ trên xuống dưới và từ phải sang trái làm phát sinh một làn sóng dương thấp gọi là sóng T. [1]
+Sóng T không đối xứng, mà có sườn lên thoải hơn và sườn xuống dốc đứng hơn. Thời gian của nó rất dài nên nó được gọi là sóng chậm. Sau khi T kết thúc, có thể còn thấy một sóng chậm nhỏ gọi là sóng U. Người ta cho rằng sóng ulà một giai đoạn muộn của tái cực, vì thế trong nhiều trường hợp không xét đến.
+Tóm lại, thất đồ có thể được chia làm hai giai đoạn :
+- Giai đoạn khử cực, bao gồm phức bộ QRS và còn được gọi là pha đầu.
+- Giai đoạn tái cực, bao gồm ST và T (và cả sóng U), được gọi là pha cuối.
+2.1.5 Các dải tần trong tín hiệu ECG
+Dạng sóng ECG là một trong những dạng sóng quan trọng nhất khi theo dõi bệnh nhân. Các thiết bị khác nhau sẽ theo dõi các đạo trình điện tim khác nhau. Máy điện tim chuyên dụng có thể theo dõi đầy đủ 12 đạo trình. Máy thông thường nếu sử dụng 3 điện cực thì theo dõi được 3 đạo trình, dùng 5 điện cực thì theo dõi được 7 đạo trình.
+Tín hiệu điện tim có thể được coi như tổ hợp của các sóng có dải tần từ 0¸¥. Phổ tần số của tín hiệu điện tim chuẩn nằm từ 0,05Hz đến 100Hz, tuy nhiên tùy từng ứng dụng mà người ta quan tâm đến từng dải phổ nhất định. Đa số bệnh tật liên quan đến tim mạch để có đủ thông tin cho chẩn đoán của bác sĩ thì vùng phổ thường từ 0,5Hz đến 80Hz, một vài bệnh cực kỳ đặc biệt thì nằm ở vùng phổ đến 100Hz và cao hơn.
+Xét các khoảng tần số cụ thể trong biến thiên nhịp tim.
+Độ lớn biến thiên nhịp tim ở dãy tần số cao (HF), nằm trong khoảng 0.15 – 0.4 Hz, độ dài chu kỳ 2.5-6 giây. Biểu hiện hoạt động thần kinh phó giao cảm trong điều hoà hô hấp.
+Độ lớn biến thiên nhịp tim ở dãy tần số thấp (LF), nằm trong khoảng 0.04 – 0.15 Hz, độ dài chu kỳ > 6 giây. Biểu hiện hoạt động thần kinh giao cảm và thần kinh phó giao cảm. Tuy vậy, khi tăng LF, người ta thường thấy sự thay đổi hoạt tính giao cảm. Vùng này cũng biểu hiện kết quả tác động của phản xạ thụ thể áp lực và quá trình điều hoà huyết áp.
+Độ lớn biến thiên nhịp tim ở dãy tần số rất thấp (VLF), nằm trong khoảng 0.003 – 0.04 Hz, độ dài chu kỳ > 25 giây. Vùng này biểu hiện cơ chế điều hoà của thần kinh giao cảm và thần kinh phó giao cảm lên quá trình điều hoà thân nhiệt.
+Độ lớn biến thiên nhịp tim ở dãy tần số cực thấp (ULF), nằm trong khoảng 0 - 0.003 Hz, độ dài chu kỳ > 5 giờ. Vùng này biểu hiện mức tiêu thụ oxy trong hoạt động thể lực.
+Tỷ số LF/HF. Đặc trưng cho hoạt động thần kinh giao cảm. Độ lớn của tỷ số có giá trị trong đánh giá cân bằng hoạt động giao cảm và phó giao cảm.
+Tổng độ lớn biến thiên nhịp tim trên các dãi tần số (TF), từ 0 – 0.4Hz. Đáp ứng tần số của thần kinh phó giao cảm biểu thị trên cả dãi rộng tần số trong khi thần kinh giao cảm biểu thị ở vùng tần số thấp dưới 0.15Hz. Điều này cho thấy cả thần kinh giao cảm và thần kinh phó giao cảm cùng tạo nên dao động của nhịp tim ở dãy tần số dưới 0.15Hz, còn thần kinh phó giao cảm tạo nên dao động của nhịp tim ở dãy tần số trên 0.15Hz. Biến thiên tần số nhịp tim được trình bày như hình 2.5. [2]
+Trong vùng tần số tín hiệu điện tim thu được bị ảnh hưởng bởi rất nhiều loại nhiễu như nhiễu nguồn điện 50Hz từ mạng điện công, nhiễu tần số cao do các rung động của cơ bắp, nhiễu tần số thấp gây trôi tín hiệu do nhịp thở, nhiễu do tiếp xúc không tốt giữa bệnh nhân và điện cực…Tuy nhiên trong giới hạn đề tài này chỉ xét đến nhiễu do mạng điện công nghiệp có tần số 50Hz gây ra.
+
+Hình 2.5 Biến thiên nhịp tim theo phổ tần số trong 5 phút
+Bảng 2.2 Khoảng giá trị bình thường phổ tần số theo nhóm tuổi [2]
+2.1.6 Các phương pháp đo tín hiệu ECG
+Có thể kể đến các phương pháp đo như sau:
+Phương pháp Oscillometric
+Phương pháp này thường phải đo nhịp tim chung với huyết áp. Dựa trên cảm biến áp suất gắn vào bắp tay người cần đo (nơi có động mạch chạy qua), dựa vào sự thay đổi lưu lượng máu chảy qua động mạch thu được tín hiệu điện. Tín hiệu điện thu được từ cảm biến áp suất thay đổi đồng bộ với tín hiệu nhịp tim. Chu kỳ thay đổi của tín hiệu này bằng đúng chu kỳ tín hiệu nhịp tim. Từ đó thu được tín hiệu điện tim.
+Phương pháp điện tim đồ
+Như đã trình bày ở phần “Sự hình thành điện tim đồ”, chính vì cấu trúc đặc trưng và các đặc điểm của tim mà điện thế tim có thể đo gián tiếp nhờ các điện cực đặt lên những điểm xác định trên bề mặt cơ thể. Nếu như ta đặt tim vào trong một hệ tọa độ vuông góc ba chiều thì hình chiếu đường cong của không gian này lên cả ba mặt phẳng đều có dạng ba đường cong có tên là P, QRS, T (và có thể có sóng U). Vector tạo đường cong trên mặt phẳng chính diện này bằng chính vectơ điện tim. Các tín hiệu thu được từ các điện cực sẽ được xử lý và hiển thị trên máy đo điện tim.
+Phương pháp hấp thụ quang học
+Khi tim đập, máu sẽ được đẩy đi khắp cơ thể qua động mạch, tạo ra sự thay đổi về áp suất trên thành động mạch và lượng máu chảy qua động mạch. Vì vậy, ta có thể đo nhịp tim bằng cách đo những sự thay đổi đó.
+Khi lượng máu trong thành động mạch thay đổi sẽ làm thay đổi mức độ hấp thụ ánh sáng của động mạch, do đó khi một tia sáng được truyền qua động mạch thì cường độ ánh sáng sau khi truyền qua sẽ biến thiên đồng bộ với nhịp tim.
+Khi tim giãn ra, lượng máu qua động mạch nhỏ nên hấp thụ ít ánh sáng, ánh sáng sau khi truyền qua động mạch có cường độ lớn, ngược lại khi tim co vào, lượng máu qua động mạch lớn hơn, ánh sáng sau khi truyền qua động mạch sẽ có cường độ nhỏ hơn.
+Hình 2.6 Sự hấp thụ ánh sáng của động mạch khi truyền qua ngón tay.
+Trục tung biểu thị biên độ dòng điện (Ip) đơn vị là mV, trục hoành thể hiện thời gian (Th) đơn vị là giây.
+Ánh sáng sau khi truyền qua ngón tay gồm 2 thành phần AC và DC:
++ Thành phần DC đặc trưng cho cường độ ánh sáng cố định truyền qua mô, xương và tĩnh mạch.
++ Thành phần AC đặc trưng cho cường độ ánh sáng thay đổi khi lượng máu thay đổi truyền qua động mạch, tần số của tín hiệu này đồng bộ với tần số nhịp tim.
+Vậy nếu ta lọc bỏ thành phần DC sẽ thu được tín hiệu AC đồng bộ với tín hiệu nhịp tim. Trong hai phương pháp này thì đo nhịp tim bằng phương pháp hấp thụ quang phổ biến hơn vì nguyên lý dễ hiểu, dễ thực hiện và kết quả tương đối chính xác.
+2.1.7 Các loại nhiễu tác động đến tín hiệu điện tim
+Tín hiệu điện tim là dạng tín hiệu có biên độ nhỏ nên rất dễ bị ảnh hưởng bởi các loại nhiễu khác nhau. Có thể kể đến các loại nhiễu như: nhiễu từ mạng cung cấp điện, nhiễu sóng cơ do bệnh nhân mất bình tĩnh khi đo gây ra, nhiễu do tiếp xúc không tốt giữa điện cực và bệnh nhân, nhiễu do tồn tại 2 nguồn tạo tín hiệu điện tim trong cùng một cơ thể như ghép tim hoặc mang thai…Tuy nhiên qua khảo sát và thực nghiệm người ta thấy rằng lọc nhiễu từ mạng điện công nghiệp là cần thiết nhất vì tính phổ biến cũng như khó kiểm soát của nó. Các loại nhiễu còn lại có dải tần ổn định nên có thể lọc bỏ bằng các bộ lọc cố định.
+2.1.7.1 Nhiễu do tiếp xúc kém giữa điện cực và bệnh nhân
+Nguyên nhân của loại nhiễu này chủ yếu là do tiếp xúc kém giữa điện cực và da. Bề mặt của da rất gồ ghề, lớp biểu bì có cả các tế bào chết, bụi bặm…Bên cạnh đó mồ hôi luôn được tiết ra ngoài theo lỗ chân lông, mà lông mọc từ dưới da, mang theo các ion tạo nên điện thế tiếp xúc. Lớp tiếp xúc mang điện thế này ảnh hưởng đến các điện thế thu được trong tín hiệu điện tim gây ra nhiễu.
+2.1.7.2 Nhiễu do run cơ
+Khi đo điện tâm đồ bệnh nhân lo sợ, căng thẳng sẽ gây run cơ tạo nên nhiễu sóng cơ. Loại nhiễu này có dải tần từ 20Hz - 30Hz nên có thể lọc bỏ bằng bộ lọc chắn dải.
+2.1.7.3 Sai lệch tín hiệu bởi nhiễu
+Nhiễu tần số 50Hz từ mạng điện công nghiệp: Đường đẳng điện dầy, nhòe đều.
+Tiếp xúc da không tốt: Đường đẳng điện lên xuống thất thường.
+Hình ảnh giả do run rẩy, rung cơ: Đường đẳng điện lăn tăn không thanh mảnh, có khi như có kèm rất nhiều gai nhọn.
+Hình ảnh giả do nấc cục: Thỉnh thoảng có dạng gai nhọn, có thể nhầm với ngoại tâm thu.
+2.1.7.4 Nhiễu tần số 50Hz từ mạng điện công nghiệp
+Các đặc tính của nhiễu tần số 50Hz
+Thông tin có ích luôn nằm ở dải tần thấp từ 0.05Hz – 100Hz, trong khi mạng điện công nghiệp có tần số 50Hz vì thế tín hiệu ECG luôn bị tác động bởi tín hiệu có tần số 50Hz từ mạng điện công nghiệp.
+Loại nhiễu này rất hay gặp vì mạng điện công nghiệp luôn có mặt ở khắp các bệnh viện, phòng khám…tác động trực tiếp lên máy đo điện tim.
+Hình 2.7 Ảnh hưởng của mạng điện công nghiệp lên tín hiệu điện tim
+Ảnh hưởng của mạng điện công nghiệp lên tín hiệu nhịp tim có thể giải thích bằng định luật cảm ứng điện từ:
+Vm(t)= (2.2)
+Trong đó:
+- Vm(t): Điện thế sinh ra do biến thiên từ thông
+-: Hàm mô tả biến thiên từ thông qua diện tích S
+Giả sử từ trường vuông góc với mặt phẳng S thì:
+Vm(t)= (2.3)
+Trong đó điện tích bề mặt cơ thể bệnh nhân S là một đại lượng thay đổi ngẫu nhiên tùy thuộc vào tư thế, chuyển động cơ thể.
+Nếu từ trường do động cơ hoặc nguồn điện tần số f gây ra có dạng thì: Vm(t)= (2.4)
+Trong đó f là tần số của mạng điện công nghiệp. Vì vậy tín hiệu điện tim cần thu sẽ bị nhiễu. [3]
+Tác hại của nhiễu
+Nhiễu do dòng điện xoay chiều của mạng điện công nghiệp có tần số 50Hz (có một quốc gia khác là 60Hz) thường là nhiễu trắng. Loại nhiễu này tác động trực tiếp gây sai lệch tín hiệu điện tim.
+Giống như các loại nhiễu khác, nhiễu từ mạng điện công nghiệp gây sai lệch nhiều cho tín hiệu điện tim và ngoài ra còn rất dễ gặp ở mọi nơi nên cần phải xử lý triệt để.
+Loại nhiễu này gây ra những tác hại như sau: làm sai lệch chu kỳ, tần số của tính hiệu khiến cho việc chẩn đoán bệnh gặp ít nhiều khó khăn. Làm sai lệch dạng sóng của phức QRS – một trong những dạng sóng quan trọng của ECG. Ngoài ra khi bị nhiễu, dạng sóng tái cực T của ECG sẽ bị sai, ảnh hưởng lớn đến việc xác định các đạo trình ECG, từ đó gây sai lệch toàn bộ tín hiệu.
+Xét các ví dụ trong chuẩn đoán bệnh:
+Trong thiếu máu cơ tim: ở các chuyển đạo mẫu và trước tim: ST hạ xuống, T cao nhọn, đối xứng, trong thiếu máu dưới thượng tâm mạc.
+Hình 2.8 Dạng sóng của bệnh thiếu máu cục bộ cơ tim
+Trong nhồi máu cơ tim cấp:
+Dạng 1: Q rộng và sâu, ST chênh lên, T âm Dạng 2: ST chênh xuống, T dương.
+Hình 2.9 Dạng sóng của bệnh nhồi máu cơ tim (dạng 1)
+
+Hình 2.10 Dạng sóng của bệnh nhồi máu cơ tim (dạng 2)
+Từ các ví dụ trên có thể thấy bất kỳ dạng sóng thành phần nào trong ECG cũng có vai trò rất quan trọng nên nếu không xử lý tốt nhiễu từ mạng điện công nghiệp để tín hiệu ECG bị sai lệnh nhiều sẽ gây hậu quả nghiêm trọng chẩn đoán và điều trị các bệnh về tim – một trong các loại bệnh nguy hiểm đến tính mạng con người. Vì thế đồ án này tập trung giải quyết nhiễu tần số 50Hz từ mạng điện công nghiệp.
+....................................
+Hình 4.24 Tín hiệu ECG theo thời gian thực với nhịp tim trung bình và nhanh
+Ở hình 4.24 có thể thấy trong khoảng thời gian đầu từ 0-450 nhịp tim vào khoảng 63-85 nhịp/phút, các đường biên độ đã giãn ra nhưng đến khoảng thời gian 450-1000 lúc này nhịp tim vào khoảng 87-96 nhịp thì các đường biên độ dày đặc lại, biểu thị cho nhịp tim nhanh của cơ thể hoạt động thể thao mạnh. Từ đây có thể thấy tuy chưa đầy đủ (chỉ thể hiện rõ bộ phức QRS) nhưng đây chính là dạng sóng ECG vì nó có quan hệ chặt chẽ với nhịp tim.
+CHƯƠNG 5
+KẾT LUẬN – HƯỚNG PHÁT TRIỂN
+5.1 KẾT LUẬN CHUNG
+Kết quả đạt được.
+Sau quá trình thực hiện nghiên cứu đề tài, tác giả thu được một số kết quả như sau:
+- Tìm hiểu lý thuyết về tim, cấu tạo, quá trình hình thành các dạng sóng tim, tín hiệu ECG, các dải tần của nó, các phương pháp thu thập cũng như các loại nhiễu tác động đến ECG và tác hại của chúng.
+- Nghiên cứu về bộ lọc số, lọc thích nghi, bộ lọc thích nghi.
+- Tìm hiểu thuật toán thích nghi LMS, nguyên tắc hoạt động, cách thức cập nhật trọng số của thuật toán này. Đúc kết được các đặc điểm của thuật toán LMS như:
+Đơn giản, dễ thực hiện, tính toán không phức tạp. Tốc độ hội tụ chậm.
+- Mô phỏng hệ thống triệt nhiễu tích cực - ANC (active noise canceller) sử dụng thuật toán LMS bằng Matlab đạt kết quả tốt.
+- Dựa vào kết quả mô phỏng: đánh giá, kiểm chứng lại được các đặc điểm của thuật toán LMS qua các thông số.
+- Giao tiếp thành công bo mạch Arduino với phần mềm Matlab.
+- Thu thập được tín hiệu ECG thực tế từ phần cứng tự xây dựng.
+Hạn chế.
+- Nghiên cứu về tín hiệu điện tim ở góc độ tín hiệu điện, chưa đi sâu về khía cạnh sinh học.
+- Việc thiết kế bộ triệt nhiễu chỉ dừng lại ở thuật toán LMS chưa mở rộng thêm các thuật toán khác nên chưa có sự so sánh các ưu, khuyết điểm.
+
+5.2 HƯỚNG PHÁT TRIỂN ĐỒ ÁN TỐT NGHIỆP ĐIỆN TỬ THỰC HIỆN HỆ THỐNG THU THẬPVÀ LỌC NHIỄU THÍCH NGHI CHOTÍN HIỆU ĐIỆN TIM ECG.
+- Tiếp tục tìm hiểu, nghiên cứu chuyên sâu hơn, tối ưu hoá thuật toán để xây dựng, hoàn thiện mô hình khử nhiễu hiệu quả hơn.
+- Mở rộng thêm các thuật toán khác như NLMS, RLS…để có sự so sánh về ưu, khuyết điểm của các thuật toán.
+- Lọc nhiễu thành công cho tín hiệu ECG thu thập từ phần cứng.
+- Định hướng phát triển có thể xây dựng triển khai các hệ thống lớn có tính ứng dụng trong thực tế, ví dụ như máy đo điện tim, các thiết bị thu tín hiệu trong y tế, các hệ thống khác như hệ thống triệt nhiễu trong xe hơi, tai nghe triệt nhiễu tích cực, …

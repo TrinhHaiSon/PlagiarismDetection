@@ -1,0 +1,564 @@
+ĐỒ ÁN TỐT NGHIỆP ĐIỆN TỬ Đề tài: XÂY DỰNG HỆ THỐNG ĐIỀU KHIỂN, GIÁM SÁT HÀNH TRÌNH VÀ CẢNH BÁO GIAO THÔNG
+
+PHIẾU GIAO NHIỆM VỤ ĐỒ ÁN TỐT NGHIỆP
+1. Thông tin về sinh viên
+Họ và tên sinh viên:
+Điện thoại liên lạc: Email:
+Lớp: Hệ đào tạo: Đại học (Kỹ sư)
+Đồ án tốt nghiệp được thực hiện tại:
+Thời gian làm ĐATN: Từ ngày /03 /2010 đến ngày 04 /06 /2010
+2. Mục đích nội dung của ĐATN
+Tìm hiểu và xây dựng website học tiếng Anh dành cho trẻ em.
+3. Các nhiệm vụ cụ thể của ĐATN
+a. Khảo sát, tìm hiểu các thông tin hiện tại của các website học tiếng Anh dành cho trẻ em, từ đó đề xuất ra giải pháp mới.
+b. Phân tích và thiết kế hệ thống.
+c. Xây dựng website học tiếng Anh dành cho trẻ em.
+4. Lời cam đoan của sinh viên:
+Tôi – Nguyễn Đức Tuấn cam kết ĐATN là công trình nghiên cứu của bản thân tôi dưới sự hướng dẫn của Ths Trần Tuấn Vinh.
+Các kết quả nêu trong ĐATN là trung thực, không phải là sao chép toàn văn của bất kỳ công trình nào khác.
+
+TÓM TẮT NỘI DUNG ĐỒ ÁN TỐT NGHIỆP
+Nội dung của đồ án được chia làm 6 chương:
+Chương 1: Nhiệm vụ và phân tích nhiệm vụ giới thiệu tổng quan về đề tài, nhiệm vụ được giao, phân tích nhiệm vụ, các công việc kế hoạch thực hiện đồ án.
+Chương 2: Kháo sát đánh giá và phân tích hệ thống khảo sát hiện trạng của hệ thống, giải pháp đưa ra để nâng cao hệ thống, phân tích các bước thực hiện giải pháp
+Chương 3: Các kiến thức liên quan trình bày các kiến thức chung liên quan đến hệ thống.
+Chương 4: Phân tích và thiết kế hệ thống trình bày nội dung phân tích thiết kế hệ thống về mặt chức năng, dữ liệu và thiết kế cơ sở dữ liệu.
+Chương 5: Thiết kế website mô tả một số lưu đồ các thao tác cơ bản được thực thi hệ thống, các giải pháp lựa chọn chương trình, hoạt động của các trang được thiết kế và các quan hệ giữa chúng.
+Chương 6: Đánh giá và kết luận tóm tắt lại các chức năng đã xây dựng, đánh giá kết quả và đề ra một số hướng phát triển trong tương lai.
+
+ABSTRACT OF THESIS
+
+Contents of the project is divided into six chapters: Chapter 1: Tasks and task analysis overview on the subject, tasks, task analysis, work plan implementation projects. Chapter 2: Survey and evaluation systems analyst surveys the current state of systems, solutions devised to improve the system, analyzing the steps solution Chapter 3: The present knowledge concerning the general knowledge related to the system.
+Chapter 4: Analysis and system design presents content analysis system design in terms of functionality, data and database design. Chapter 5: Web design flow chart describing some of the basic operations implemented system, the alternatives program, the operation of the site is designed and relations between them. Chapter 6: Evaluating and summarizing the conclusions already built the function, evaluate results and propose some directions for future development.
+
+LỜI CẢM ƠN
+Em xin chân thành cảm ơn Viện Công Nghệ Thông Tin, trường Đại Học Bách Khoa Hà Nội đã tạo điều kiện cho em thực hiện đề tài khóa luận tốt nghiệp này.
+Em xin gửi lời cảm ơn chân thành đến tất cả các Thầy cô đã giảng dạy chúng em trong suốt thời gian quan. Cảm ơn thầy Trần Tuấn Vinh – người đã hướng dẫn em thực hiện đồ án này.
+Nhân đây, em cũng xin bày tỏ lòng biết ơn sâu sắc đến ba mẹ và gia đình đã nuôi dạy em nên người, và luôn là chỗ dựa tinh thần vững chắc, giúp cho em vượt qua mọi khó khăn, thử thách trong cuộc sống.
+Bên cạnh đó, để hoàn thành đồ án này, em cũng đã nhận được rất nhiều sự giúp đỡ, những lời động viên quý báu của các bạn bè, các anh chị thân hữu, em xin hết lòng cảm ơn.
+Tuy nhiên, do thời gian hạn hẹp, mặc dù đã nỗ lực hết sức mình, nhưng chắc rằng đồ án khó tránh khỏi những thiếu sót. Em rất mong nhận được sự thông cảm, chỉ bảo tận tình của thầy cô và các bạn.
+
+LỜI NÓI ĐẦU
+
+Ngày nay, ứng dụng công nghệ thông tin và việc tin học hóa, được xem là một trong những yếu tố mang tính quyết định trong hoạt động của chính phủ, tổ chức, cũng như các công ty, nó đóng vai trò hết sức quan trọng, có thể tạo ra những bước đột phá mạnh mẽ.
+Việc xây dựng các trang web để phục vụ cho các nhu cầu riêng của các tổ chức, công ty thậm chí các cá nhân, ngày nay, không lấy gì làm xa lạ. Với một vài thao tác đơn giản, một người bình thường có thể trở thành chủ của một website giới thiệu về bất cứ gì anh ta quan tâm, một website giới thiệu về bản thân và gia đình anh ta, hay là một website trình bày các bộ sưu tập hình ảnh các loại xe hơi mà anh ta thích chẳng hạn.
+Đối với các chính phủ và các công ty thì việc xây dựng các website riêng càng ngày càng trở nên cấp thiết. Thông qua những website này, thông tin về họ cũng như công văn, thông báo, quyết định của chính phủ hay các sản phẩm dịch vụ mới của công ty sẽ đến với những người quan tâm, đến với khách hàng của họ một cách nhanh chóng kịp thời, tránh những phiền hà mà phương thức giao tiếp truyền thống thường gặp phải.
+Với ngôn ngữ tiếng anh đang trở nên rất cần cần thiết đối với lứa tuổi học sinh và sinh viên, bắt nguồn từ ý tưởng này, với sự gợi ý của thầy Trần Tuấn Vinh, em đã thực hiện đồ án “XÂY DỰNG WEBSITE HỌC TIẾNG ANH CHO TRẺ EM” như nội dung trình bày sau đây.
+
+MỤC LỤC
+LỜI CẢM ƠN.. 5
+LỜI NÓI ĐẦU.. 6
+MỤC LỤC.. 7
+DANH MỤC HÌNH VẼ.. 10
+DANH MỤC BẢNG.. 11
+Chương 1: NHIỆM VỤ VÀ PHÂN TÍCH NHIỆM VỤ.. 12
+1.1.NHIỆM VỤ.. 12
+1.2.PHÂN TÍCH NHIỆM VỤ.. 13
+1.3.CÁC BƯỚC THỰC HIỆN ĐỀ TÀI. 13
+1.3.1.Thời gian thực hiện đề tài14
+1.3.2.Các bước thực hiện đề tài14
+1.3.2.1.Chuẩn bị14
+1.3.2.2.Thực hiện. 14
+1.3.2.3.Hoàn tất15
+Chương 2: KHẢO SÁT ĐÁNH GIÁ VÀ PHÂN TÍCH HỆ THỐNG.. 16
+2.1. KHẢO SÁT ĐÁNH GIÁ HỆ THỐNG.. 16
+2.2. PHÂN TÍCH HỆ THỐNG.. 18
+2.3. ĐẶC TẢ YÊU CẦU.. 20
+2.3.1. Yêu cầu chức năng. 20
+2.3.2. Yêu cầu phi chức năng. 20
+Chương 3: CÁC KIẾN THỨC LIÊN QUAN.. 21
+3.1.GIỚI THIỆU VỀ INTERNET.. 21
+3.1.1.Giới thiệu vể Internet. 21
+3.1.2.Sự ra đời và phát triển của Internet. 21
+3.1.3.Ứng dụng web. 21
+3.1.4.Mô hình hoạt động. 22
+3.1.5.Khái niệm về mô hình trên Server. 22
+3.1.5.1.Mô hình Client/Server. 22
+3.1.5.2.Ứng dụng mô hình Client/Server. 23
+3.1.5.3.Mô hình Web Client/ Server. 23
+3.1.6.Hoạt động của cơ chế khách/ chủ. 23
+3.1.7. Mở rộng khả năng của Web Server. 24
+3.2.ASP 24
+3.2.1.Giới thiệu về ASP.. 24
+3.2.1.1.ASP là gì ?. 24
+3.2.1.2. Cấu trúc một trang ASP. 25
+3.2.1.3. Mô hình ứng dụng Web qua công nghệ ASP. 25
+3.2.2. Hoạt động một trang ASP.. 25
+3.2.3. Ưu và khuyết điểm của ASP.. 26
+3.3. SƠ LƯỢC VỀ THIẾT KẾ CỦA WEBSITE.. 26
+3.3.1. Sơ lược về website. 26
+3.3.2. Sơ lược về Dreaweaver. 26
+3.4. BẢO MẬT CƠ SỞ DỮ LIỆU VỚI MICROSOFT OFFICE ACCESS. 28
+3.4.1. Sử dụng macro AutoExec để kiểm tra và thiết lập lại cài đặt. 28
+3.4.2. Ẩn cửa sổ Database. 29
+3.4.3. Chặn phím Shift. 29
+3.4.4. Chia cơ sở dữ liệu. 29 3.4.5. Tránh sử dụng Compact On Close. 30
+3.4.6. Ẩn các đối tượng. 29 3.4.7. Chặn thông báo lỗi31
+3.4.8. Đặt mật khẩu bảo vệ cơ sở dữ liệu 32
+3.4.9. Chuyển đổi định dạng sang “mde” hay “accde”. 33
+3.4.10. Đặt mật khẩu bảo vệ hệ thống. 34
+Chương 4: PHÂN TÍCH VÀ THIẾT KẾ HỆ THỐNG.. 35
+4.1. BIỂU ĐỒ PHÂN CẤP CHỨC NĂNG.. 35
+4.1.1. Biểu đồ chức năng của hệ thống. 35
+4.1.2. Biểu đồ phân cấp chức năng quản lý nhóm bài học. 35
+4.1.3. Biểu đồ phân cấp chức năng quản lý danh sách bài học. 36
+4.1.4. Biểu đồ phân cấp chức năng quản lý thành viên. 36
+4.1.5. Biểu đồ phân cấp chức năng quản lý bài kiểm tra. 37
+4.1.6. Biểu đồ phân cấp chức năng quản lý câu hỏi kiểm tra. 37
+4.1.7. Biểu đồ phân cấp chức năng quản lý thông tin liên hệ. 38
+4.1.8. Biểu đồ phân cấp chức năng hỗ trợ quản lý học. 38
+4.1.9. Mô tả các chức năng chính. 39
+4.1.9.1. Chức năng quản lý bài học. 39
+4.1.9.2. Chức năng quản lý thành viên. 39
+4.1.9.3. Chức năng hỗ trợ quản lý học. 39
+4.1.9.4. Chức năng quản lý bài kiểm tra. 39
+4.2. BIỂU ĐỒ LUỒNG DỮ LIỆU MỨC KHUNG CẢNH CỦA HỆ THỐNG.. 40
+4.3. BIỂU ĐỒ LUỒNG DỮ LIỆU MỨC ĐỈNH.. 41
+4.4. BIỂU ĐỒ LUỒNG DỮ LIỆU MỨC DƯỚI ĐỈNH.. 42
+4.4.1. Mức dưới đỉnh của chức năng đăng ký thành viên. 42
+4.4.2. Mức dưới đỉnh của chức năng quản lý bài học. 43
+4.4.3. Mức dưới đỉnh của chức năng quản lý bài kiểm tra. 44
+4.4.4. Mức dưới đỉnh của chức năng tìm kiếm... 45
+4.4.5. Mức dưới đỉnh quản lý thông tin liên hệ. 45
+4.4.6. Mức dưới đỉnh của chức năng quản lý thành viên. 46
+4.4.7. Mức dưới đỉnh của chức năng hỗ trợ quản lý học. 47
+4.5. MÔ HÌNH THỰC THỂ CỦA HỆ THỐNG.. 48
+4.5.1. Chuẩn hóa quan hệ. 48
+4.5.2. Mô hình dữ liệu quan hệ. 49
+4.5.3. Danh sách các bảng dữ liệu cơ bản của hệ thống. 50
+Chương 5: THIẾT KẾ WEBSITE.. 55
+5.1. THAO TÁC CƠ BẢN THỰC THI HỆ THỐNG.. 55
+5.1.1. Cách thức cài đặt hệ thống. 55
+5.1.1.1. Yêu cầu về phần cứng và phần mềm.. 55
+5.1.1.2. Các bước cài đặt như sau. 55
+5.1.1.3. Hướng dẫn sử dụng. 55
+5.2. SƠ ĐỒ LIÊN KẾT CÁC GIAO DIỆN.. 55
+5.2.1. Danh sách các giao diện. 56
+5.2.2. Mô tả chi tiết các giao diện chính. 57
+5.2.2.1. Nhóm giao diện template. 57
+5.2.2.2. Nhóm giao diện trang hiển thị59
+5.2.2.3. Nhóm giao diện trang quản lý.67
+Chương 6: ĐÁNH GIÁ VÀ KẾT LUẬN.. 73
+6.1. ĐÁNH GIÁ.. 73
+6.2. HƯỚNG PHÁT TRIỂN.. 74
+TÀI LIỆU THAM KHẢO.. 75
+
+
+
+
+
+
+
+
+
+DANH MỤC HÌNH VẼ
+
+Hình 4.1. Biểu đồ chức năng của hệ thống. 35
+Hình 4.2. Biểu đồ phân cấp chức năng quản lý nhóm bài học. 35
+Hình 4.3. Biểu đồ phân cấp chức năng quản lý danh sách bài học. 36 Hình 4.4. Biểu đồ phân cấp chức năng quản lý thành viên. 36 Hình 4.5. Biểu đồ phân cấp chức năng quản lý bài kiểm tra. 37
+Hình 4.6. Biểu đồ phân cấp chức năng quản lý câu hỏi kiểm tra. 37
+Hình 4.7. Biểu đồ phân cấp chức năng quản lý thông tin liên hệ. 38
+Hình 4.8. Biểu đồ phân cấp chức năng hỗ trợ quản lý học. 38
+Hình 4.9. Biểu đồ luồng dữ liệu mức khung cảnh của hệ thống. 40 Hình 4.10. Biểu đồ luồng dữ liệu mức đỉnh. 41 Hình 4.11. Biểu đồ mức dưới đỉnh chức năng đăng ký thành viên. 42
+Hình 4.12. Biểu đồ mức dưới đỉnh chức năng quản lý bài học. 43
+Hình 4.13. Biểu đồ mức dưới đỉnh chức năng quản lý bài kiểm tra. 44
+Hình 4.14. Biểu đồ mức dưới đỉnh chức năng tìm kiếm.. 45
+Hình 4.15. Biểu đồ mức dưới đỉnh quản lý thông tin liên hệ. 45
+Hình 4.16. Biểu đồ mức dưới đỉnh chức năng quản lý thành viên. 46
+Hình 4.17. Biểu đồ mức dưới đỉnh chức năng hỗ trợ quản lý học. 47
+Hình 4.18. Biểu đồ thiết kế dữ liệu. 49
+Hình 5.1. Giao diện website học tiếng Anh dành cho trẻ em.. 55
+Hình 5.2. Giao diện trang quản trị website học tiếng Anh dành cho trẻ em.. 56
+Hình 5.3. Giao diện template. 58
+Hình 5.4. Giao diện trang quản trị viên. 59
+Hình 5.5. Giao diện trang chủ. 60
+Hình 5.6. Giao diện trang đăng ký thành viên. 61
+Hình 5.7. Giao diện trang đăng nhập. 62
+Hình 5.8. Giao diện trang bài học. 63
+Hình 5.9. Giao diện trang tìm kiếm.. 64
+Hình 5.10. Giao diện trang liên hệ. 65
+Hình 5.11. Giao diện trang bài kiểm tra. 66
+Hình 5.12. Giao diện trang cha mẹ. 67
+Hình 5.13. Giao diện trang quản lý thành viên. 69
+Hình 5.14. Giao diện trang quản lý mục bình chọn. 70
+Hình 5.15. Giao diện trang quản lý thông tin liên hệ. 71 Hình 5.16. Giao diện trang thay đổi thông tin quản trị72
+DANH MỤC BẢNG
+
+Bảng 4.1. Đặc tả bảng dữ liệu Infousers (Người sử dụng). 50
+Bảng 4.2. Đặc tả bảng dữ liệu Question ( Câu hỏi bài kiểm tra). 50
+Bảng 4.3. Đặc tả bảng dữ liệu Subject (Môn kiểm tra). 50
+Bảng 4.4. Đặc tả bảng dữ liệu Level (Cấp độ kiểm tra). 51
+Bảng 4.5. Đặc tả bảng dữ liệu Answer (Trả lời câu hỏi kiểm tra). 51
+Bảng 4.6. Đặc tả bảng dữ liệu Testinformation (Thông tin người tham gia kiểm tra). 51
+Bảng 4.7. Đặc tả bảng dữ liệu _Page (Các đề mục). 52
+Bảng 4.8. Đặc tả bảng dữ liệu _LogoAdv (Banner quảng cáo). 52
+Bảng 4.9. Đặc tả bảng dữ liệu _Message (Nội dung bài học). 53
+Bảng 4.10. Đặc tả bảng dữ liệu _Catalog (Chủ đề chính bài học). 53
+Bảng 4.11. Đặc tả bảng dữ liệu _Topic (Chủ đề con bài học). 54
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chương 1: NHIỆM VỤ VÀ PHÂN TÍCH NHIỆM VỤ
+
+1.1. NHIỆM VỤ
+Cùng với sự phát triển không ngừng về kỹ thuật máy tính và mạng điện tử, công nghệ thông tin cũng được những công nghệ có đẳng cấp cao và lần lượt chinh phục hết đỉnh cao này đến đỉnh cao khác. Mạng Interner là một trong những sản phẩm có giá trị hết sức lớn lao và ngày càng trở nên một công cụ không thể thiếu, là nền tảng chính cho sự truyền tải, trao đổi thông tin trên toàn cầu.
+Giờ đây, mọi việc liên quan đến thông tin trở nên thật dễ dàng cho chúng ta sử dụng: Chỉ cần có một máy tính kết nối Internet và một dòng dữ liệu tìm kiếm thì gần như lập tức... cả thế giới về vấn đề mạng mà bạn đang quan tâm sẽ hiện ra, có đầy đủ thông tin, hình ảnh và thậm chí đôi lúc có cả những âm thanh nếu bạn cần....
+Bằng Internet, chúng ta đã thực hiện được nhiều công việc với tốc độ nhanh hơn và chi phí thấp hơn nhiều so với cách thức truyền thống. Chính điều này đã thúc đẩy sự khai sinh và phát triển của thương mại điện tử và chính phủ điện tử trên khắp thế giới, làm biến đổi đáng kể bộ mặt văn hóa, nâng cao chất lượng cuộc sống con người.
+Trong hoạt động dạy và học, giờ đây, các website điện tử khẳng định được vai trò xúc tiến và thúc đẩy sự phát triển của hệ thống chính phủ điện tử, của các doanh nghiệp, của các tổ chức. Đối với quá trình học tiếng Anh là lâu dài và cần thiết đối với các em nhỏ, vì thế nhu cầu cần có một website riêng phục vụ nhu cầu của các em là rất cần, nó giúp các em nắm vững được những kiến thức cơ bản. Một ngôn ngữ nào đó, nếu được tiếp xúc sớm với các em thì việc học ngôn ngữ đó là đơn giản cho sau này. Vì thế mà việc xây dựng một website học tiếng Anh là hết sức cần thiết, nó tạo ra một sân chơi bổ ích cho các em. Và một vấn đề được đặt ra song song cùng với nó, là làm sao để có thể quản lý và điều hành website một cách dễ dàng và hiệu quả, các kiến thức phù hợp với nhu cầu độ tuổi của các em, có như vậy mới tránh được sự nhàm chán cho các em khi thường xuyên phải học tập trên website và thu được kết quả như mong muốn. Đây là vấn để hết sức cần thiết và luôn là nỗi trăn trở của hầu hết các nhà quản lý hay những người trực tiếp tham gia điều hành website.
+Với đồ án này, em xin được trình bày một cách thức quản lý website giúp cho những người quản trị dễ dàng trong việc phân quyền quản lý, thay đổi, cập nhật thông tin trang web, hay nói đúng hơn là xây dựng bài học phù hợp với lứa tuổi các em, các bài học gắn với các trò chơi để tránh việc học tập trở nên nhàm chán và gây căng thẳng với các em trong quá trình học. Đối với lứa tuổi của các em là còn khá nhỏ vì thế việc xây dựng một bài học phù hợp với em để các em có thể học tiếng Anh trên Internet quả là một việc không dễ dàng, các bậc phụ huynh cũng nên tham gia góp ý với con em mình và người quản trị để có một giáo án tốt nhất cho các em, tránh cho các em sự căng thẳng không cần thiết với độ tuổi của các em trong quá trình học.
+
+1.2. PHÂN TÍCH NHIỆM VỤ
+Hiện nay, khác với những nước đã có nền công nghệ thông tin phổ biến và phát triển, tại Việt Nam thì công nghệ thông tin vẫn còn trong những bước đi chập chững và đang phát triển rất nhanh chóng trong xã hội, nhất là những thành phố lớn. Trên thực tế số lượng các website là rất lớn nhưng chủ yếu là do các công ty sở hữu thuê các nhà thiết kế (thường là các công ty thiết kế website), số lượng các website phục vụ cho học tập còn rất hạn chế, các website phần lớn hoạt động đều đa số nghiêng về thương mại hóa vì thế để có một website phục vụ học tập miễn phí là rất ít. Vì thế việc xây dựng một website phục vụ học tập miễn phí dành riêng cho các em nhỏ, nhất là môn tiếng Anh là một điều cần thiết, các em chính là tương lai của đất nước. Thực tế ở Việt Nam hiện nay, vai trò của người quản trị website dường như chưa được đánh giá đúng, đa phần người quản trị trang web chỉ đảm đương công việc này sau khi hoàn tất công việc khác. Vấn đề làm mới thông tin website còn bị xem nhẹ, khiến cho những người thường xuyên ghé qua website cảm thấy nhàm chán và từ từ bỏ thói quen ghé thăm website.
+Sự hoạt động hiệu quả của một số trang web là những minh chứng cho vai trò của người quản trị website. Các website đều có một bộ phận riêng đảm đương việc quản lý thông tin website, nhằm đáp ứng kịp thời và hiệu quả yêu cầu của các thành viên website thông qua mạng Internet, có như vậy mới khai thác hết giá trị của website, thu hút số lượng thành viên đông đảo, đóng góp xây dựng website ngày càng hoàn chỉnh hơn phù hợp với yêu cầu mà website đặt ra.
+Việc xây dựng một website phục vụ cho công việc học tập là hết sức cần thiết trong thời buổi công nghệ thông tin phát triển như hiện nay. Muốn được như vậy cần có một đội ngũ quản trị website nhiệt tình và năng động nắm bắt được xu hướng và xu thế của những người tham gia học tập. Một website phục vụ cho công việc học tập nhằm giúp ích cho thế hệ tương lai đất nước là hết sức cần thiết, cần mở rộng những hệ thống website này.
+
+1.3. CÁC BƯỚC THỰC HIỆN ĐỀ TÀI
+Website được xây dựng dựa trên HTML, kết hợp ngôn ngữ lập trình điều khiển server ASP.
+Sử dụng Macromedia Dreamweaver để thiết kế và lập trình.
+Hệ điều hành: Windows XP
+Hệ quản trị cơ sở dữ liệu: Microsoft Office Access.
+Phương thức kết nối dữ liệu: ADODB.
+Các phần mềm hỗ trợ khác: Microsoft Front Page XP, Photoshop,
+Macromedia Flash, Webstyle, Swish…
+1.3.1. Thời gian thực hiện đề tài
+Lịch thực hiện đồ án tốt nghiệp: 15 tuần, từ ngày 15 tháng 03 năm 2010 đến ngày 04 tháng 06 năm 2010.
+Kế hoạch thực hiện đề tài như sau:
+Tuần 1: Lựa chọn tên đề tài sao cho phù hợp với khả năng nghiên cứu. Tuần 2, 3: Lập đề cương chi tiết đồ án. Tìm hiểu khảo sát các thông tin liên quan đến đồ án. Tuần 4, 5, 6: Xây dựng các sơ đồ chức năng, tương tác, thiết kế cơ sở dữ liệu cho đồ án. Tuần 7, 8, 9, 10, 11: Thiết kế demo cho đồ án. Tuần 12: Báo cáo, kiểm thử, kiểm tra việc thiết kế demo. Tuần 13, 14: Chỉnh sửa báo cáo, demo, hoàn tất báo cáo, demo cho đồ án. Tuần 15: Nộp báo cáo, demo, hoàn tất đồ án.
+1.3.2. Các bước thực hiện đề tài
+1.3.2.1. Chuẩn bị
+- Lập đề cương chi tiết cho đồ án.
+- Nghiên cứu, tham khảo các tài liệu về:
+o ASP.
+o Microsoft Office Access.
+o Photoshop.
+o Flash.
+o Cơ chế mã hóa thông tin trên cơ sở dữ liệu.
+o Cách sử dụng templates kết hợp ASP.
+- Tìm hiểu cơ chế tổ chức, thực hiện các chương trình học của website học tiếng Anh dành cho trẻ em.
+- Tìm hiểu, tổng hợp thông tin, chuẩn bị nội dung cho trang web.
+1.3.2.2. Thực hiện
+- Xây dựng sơ đồ chức năng, tương tác giữa các trang trong website.
+- Xây dựng database và mô hình quan hệ dữ liệu.
+- Thiết kế giao diện website.
+- Tạo các template theo cấu trúc đã đưa ra.
+- Lập trình hiển thị nội dung website sử dụng các template đã tạo.
+- Lập trình hỗ trợ việc tìm kiếm dữ liệu về bài học.
+- Lập trình xử lý thao tác của thành viên trên form liên hệ.
+- Mã hóa thông tin cập nhật đối với các thông tin nhạy cảm.
+- Lập trình phần cập nhật động nội dung website.
+- Lập trình quản lý các liên hệ của thành viên.
+- Lập trình quản lý thành viên.
+- Lập trình phân quyền người quản trị trang web.
+- Nhập dữ liệu vào database thông qua các giao diện cập nhật.
+1.3.2.3. Hoàn tất
+- Kiểm tra tính chính xác của việc lập trình hiển thị nội dung website.
+- Kiểm tra việc tìm kiếm thông tin.
+- Kiểm tra việc thực hiện cập nhật động.
+- Kiểm tra phân quyền người quản trị.
+- Kiểm tra việc quản lý bài học.
+- Kiểm tra việc quản lý thành viên.
+- Kiểm tra thông tin mã hóa cơ sở dữ liệu và độ bảo mật website.
+- Kiểm tra toàn diện và hoàn tất website.
+- Báo cáo thiết kế đồ án.
+
+
+
+
+
+
+
+
+
+
+
+Chương 2: KHẢO SÁT ĐÁNH GIÁ VÀ PHÂN TÍCH HỆ THỐNG
+
+2.1. KHẢO SÁT ĐÁNH GIÁ HỆ THỐNG
+Ngày nay, Internet và website đã không còn là những thuật ngữ tin học quá xa lạ
+với chúng ta. Với tốc độ phát triển mạnh mẽ hiện nay, Internet đã chứng tỏ nó đang dần trở thành một yếu tố không thể thiếu trong cuộc sống hiện đại. Với Internet, con người càng có nhiều cơ hội để phát triển về mọi mặt. Nhiều hoạt động sống của con người đã, đang và sẽ ngày càng gắn liền với Internet. Internet cung cấp cho bạn cơ hội giao thương, gặp gỡ các đối tác, đặc biệt là các đối tác nước ngoài một cách thuận lợi. Internet mang những thông tin quảng bá, khuyến mãi đến người sử dụng vô cùng nhanh chóng. Internet giúp bạn tiếp tục điều hành các công việc và giữ liên lạc mật thiết với những người bạn quan tâm khi khoảng cách là một trở ngại lớn…
+Hằng ngày, Internet không chỉ mang đến cho chúng ta những thông tin nóng bỏng nhất, những lợi ích kinh doanh tốt nhất, những hình thức giải trí mới lạ, đa dạng,
+phong phú mà nó còn cung cấp cho chúng ta một cách thức học tập nâng cao trình
+độ nói chung và học ngoại ngữ nói riêng rất tiện lợi, thú vị, độc đáo với những
+website sinh động, đặc sắc với các biểu mẫu, đồ họa, âm thanh, ảnh động…
+Nhận thức được tầm quan trọng của Internet đối với vấn đề nâng cao dân trí, chính phủ ta đã sớm chủ trương đưa Net vào trường và các địa phương cũng đang nỗ lực để chủ trương này thực sự hữu ích. Như đánh giá của nhiều người, việc xây dựng
+các trang web hỗ trợ học tập trên Internet quả là một giải pháp hấp dẫn và thiết
+thực, có nhiều ưu điểm riêng vượt trội so với cách giáo dục truyền thống theo
+trường lớp: Không hạn chế sĩ số lớp, không gò bó theo thời gian biểu cố định; không
+tốn chi phí, công sức đi lại. Bên cạnh đó, website lại dễ thay đổi, cập nhật thông tin,
+cải thiện giao diện, nội dung … để nâng cao tính hấp dẫn và hiệu quả của chương
+trình.
+Website giáo dục luôn hướng đến mục đích cuối cùng là hỗ trợ tối đa cho người
+dùng với sự tích hợp, thừa kế những ưu điểm của 3 phương pháp học truyền thống tự học, học với người hướng dẫn và học với bạn. Website giáo dục là một người thầy, người bạn tận tâm hiếm có – có thể xuất hiện bên bạn bất kỳ lúc nào bạn cần –
+trong lúc khẩn cấp bất kể sớm khuya. Website giáo dục là người thầy, người bạn
+thú vị cung cấp cho bạn những kinh nghiệm quý báu, những bài học đầy hình ảnh,
+âm thanh, màu sắc sinh động … Trong một tương lai không xa, loại hình giáo dục này sẽ phát triển mạnh mẽ và đóng vai trò quan trọng trong nền giáo dục hiện đại.
+Hiện nay trên Internet đã có khá nhiều trang web hỗ trợ học tiếng Anh nói chung và học tiếng Anh dành cho trẻ em nói riêng, phổ biến là các trang:
+http://www.habbo.co.uk/Đây là community ảo 3D (chat world) mà các bé có thể vào để chat tiếng Anh, nói chuyện với bè bạn khắp các châu lục. Tại khách sạn 5* này, em có thể gặp gỡ, nói chuyện, sắm đồ, tạo cho mình một phòng riêng, kết bạn và chat chit cực kỳ lành mạnh.... Có rất nhiều nơi để bạn tham gia: Phòng cafe, phòng game, đánh cờ vua (cực ngộ luôn), bể bơi, sân thượng... Các nhân vật thì toàn là thiếu nhi cả, trông bạn nào cũng rất lovely.
+Dành cho trẻ từ 12 tuổi trở lên và...biết tiếng Anh.
+http://www.surfnetkids.com/ Thư mục các site hay nhất cho các em. Một thư mục rất phong phú cho các em dù em học cũng như khi tới trường, học hay chơi. Một site không thể không ghé qua.
+http://www.carnegielibrary.org/kids/bigkids/fun/ Rất nhiều liên kết vui nhộn và các trò chơi cho các em.
+http://kids.yahoo.com/ Trang Web rất thú vị của Yahoo cho các bé!
+Trò chơi-Các con vật-Thiệp tặng ( rất ngộ nghĩnh )- Các đoạn phim thú vị - Chuyện vui - Nghiên cứu khoa học và rất nhiều liên kết hay.
+Có trang riêng cho các thầy cô và các bậc phụ huynh..
+http://www.scholastic.com/kids/stacks/games/ Mục hay nhất mà tôi thích là bạn có thể tự tay làm những tấm thiệp ngộ nghĩnh ở Card Factory, nơi trao đổi, giao lưu cho các bé, truyện tranh, game.
+http://funschool.kaboose.com/ Các trò chơi có tính giáo dục cho trẻ mới đến trường
+http://www.bbc.co.uk/education/laac/ Không có gì đáng yêu hơn, hãy cho bé ở đây! Các bé có thể hát, chơi và làm quen với rất nhiều con vật dễ thương.
+http://www.askkids.com/ Aj Kid: Trả lời mọi thắc mắc của các em: Tại sao bò tót lại sợ màu đỏ thế nhỉ? Tại sao chó lại ghét mèo?..( với Ask Jeeves ), các trò chơi, rất nhiều trò vui và thú vị khác.
+http://www.kids-space.org/ Quỹ giáo dục trẻ em phi lợi nhuận: Các em có thể học và chơi rất nhiều thứ ở đây: Khoa học, các con vật, các câu chuyện ngụ ngôn, các bài hát, các nhạc cụ...
+Nơi các bé có thể trao đổi truyện, tranh và nhạc tới khắp nơi trên thế giới.
+http://www.ipl.org/div/kidspace/Kho thư viện dành cho thiếu nhi. Bé có thể làm quen với các môn khoa học và tiến hành các thí nghiệm nho nhỏ trong quầy Experiments and Science Fair ở Math & Science, đọc những bài thơ trong Reading Zone và tham gia nhiều trò chơi thú vị khác.
+http://www.kidsfuncanada.com/?s=12a554674bf495e2537e8 Cùng với các bạn trẻ Canada tham gia các trò chơi, học các bài học nhỏ, vui với các hoạt động thú vị liên quan đến những câu truyện cổ tích Andersen và Grim nhé.
+http://www.gleneagles.com/family.aspx Chào các bạn, chúng ta sẽ gặp gỡ nhau qua các trò chơi vui nhộn, tham gia các hoạt động thú vị, tìm hiểu các món ăn, tham quan các gallery cùng nhau và gì nữa nhỉ...nhiều quá ha!
+http://leovietnam.com/children/Tiếng Anh dành cho trẻ em rất vui nhộn với ngôn ngữ tiếng Việt, hệ thống bài học đặc sắc nhưng hệ thống có trả phí. http://www.uptoten.com/kids/uptoten-home.html Website này giúp bé học và đọc được alphabet dễ dàng. Mẹ nào có bé dưới 3 tuổi thì chọn phần infants còn hơn 3 tuổi thì chọn phần toddlers nhé. Ngoài ra cũng có rất nhiều trò chơi thú vị khác nữa đó.
+
+2.2. PHÂN TÍCH HỆ THỐNG
+- Sau khi khảo sát sơ lược các trang web hỗ trợ học tiếng Anh dành cho trẻ em trên, ta có thể thấy có không ít những trang web hỗ trợ học tiếng Anh nói chung và học tiếng Anh dành cho trẻ em nói riêng.
+- Mỗi website đều có những đặc trưng riêng, ưu khuyết riêng, đáp ứng được cách khía cạnh khác nhau trong nhu cầu của nhiều loại người dùng.
+- Tuy vậy, số lượng website hỗ trợ học tiếng Anh cho trẻ em thực sự tiện ích cho nhân dân ta còn rất khiêm tốn. Hầu như không có website giao diện tiếng Việt miễn phí phục vụ cho những người mới bắt đầu làm quen với tiếng Anh hoặc Internet.
+- Khá ít trang web hỗ trợ luyện tập đầy đủ các kiểm tra đánh giá kết quả.
+- Hầu hết các trang web đều cung cấp các mẫu luyện tập cố định, không linh động về số câu hỏi… Các câu hỏi và câu trả lời cố định, dễ dẫn đến tình trạng trả lời theo trí nhớ khi luyện tập nhiều lần.
+- Cơ sở dữ liệu bài học chưa thực sự đầy đủ và tổng quát….
+Trước nhu cầu học Anh văn ngày càng tăng cao của nhân dân ta và triển vọng phát triển của loại hình website giáo dục, nhóm chúng em đã quyết định chọn đề tài xây dựng website học tiếng Anh dành cho trẻ em.
+Để có thể học và thi tiếng Anh đạt kết quả tốt, người dùng cần nắm chắc kiến thức về nhiều vấn đề trong tiếng Anh và đặc biệt là kỹ thuật làm bài thi tiếng Anh. Trong bước đầu xây dựng website, chúng em quan tâm chủ yếu đến 3 phần chính sau:
+Hệ thống bài học . Hệ thống hỗ trợ quản lý học. Hệ thống bài kiểm tra thử.
+• Hệ thống bài học
+Hệ thống bài học này bao gồm nhiều mảng tiếng Anh nói chung và hệ thống các bài học tiếng anh dành cho trẻ em nói riêng: Từ ngữ pháp cơ bản đến nâng cao, các kỹ thuật và kinh nghiệm học tiếng Anh của những người đi trước. Hệ thống bài học này nhằm cung cấp những kiến thức nền tảng cũng như nâng cao vô cùng cần thiết để các em có thể thực hiện học tiếng Anh dễ dàng và đạt kết quả cao.
+• Hệ thống hỗ trợ quản lý học
+Hệ thống này nhằm giúp tạo sự liên kết giữ phụ huynh và nhà quản trị, giữa các bé với nhà quản trị. Làm sao để đạt hiệu suất học tập tiếng Anh có hiệu quả dành riêng cho các em.
+• Hệ thống bài kiểm tra thử
+Một yếu tố quan trọng ảnh hưởng nhiều đến kết quả học và thi của các em là thời gian. Để giúp các em chuẩn bị tâm lý và điều chỉnh tốc độ làm bài thi đạt kết quả cao trong kỳ thi, website còn cung cấp các bài kiểm tra thử. Hệ thống các bài kiểm tra được xây dựng trên thuật toán random hai lớp:
+- Lấy ngẫu nhiên một số câu hỏi từ cơ sở dữ liệu như các bài luyện tập, các bài học.
+- Đảo thứ tự các câu trả lời và câu hỏi nhằm hạn chế việc chọn đáp án theo trí nhớ - không phải theo kiến thức thực sự. Một câu hỏi có 5 câu trả lời được đề nghị.
+Thuật toán random hai lớp này nhằm mục đích đưa ra kết quả kiểm tra thử của người dùng đánh giá gần chính xác nhất dựa trên năng lực thực sự của người dùng. Qua đó, hệ thống có thể đưa ra những đề nghị hữu ích giúp các em củng có những vấn đề có thể dẫn đến kết quả không như ý trong kỳ thi.
+Hệ thống cũng ghi nhận các thông tin cá nhân và các thông tin liên quan đến quá trình học tập của người dùng như điểm số các bài kiểm tra thử, các vấn đề ưu khuyết của người dùng… để luôn đưa ra các thống kê và các đề nghị thực sự hữu ích, hỗ trợ tối đa cho người dùng đề hoàn thiện vốn tiếng Anh nói chung và để đạt kết quả tốt trong các kỳ thi tiếng Anh nói riêng. Ngoài ra, các thống kê này cũng góp phần giúp nhóm thực hiện có định hướng, mục tiêu để phát triển, hoàn thiện website để website ngày càng hữu ích hơn, hỗ trợ tốt hơn cho quá trình học tiếng Anh của người dùng để website thực sự trở thành người bạn của mọi nhà, người bạn của những ai mới bắt đầu học tiếng Anh và của những ai yêu thích tiếng Anh.
+
+
+
+2.3. ĐẶC TẢ YÊU CẦU
+2.3.1. Yêu cầu chức năng
+Người khách viếng thăm website phải đăng ký thành viên của website, và tìm kiếm các thông tin bài học trên website. Website cập nhập thông tin các bài học trực tiếp lên cơ sở dữ liệu, và cho phép người quản trị được phân quyền thao tác các công việc sau:
++ Xem thông tin liên hệ của thành viên và phản hồi lại thông tin.
++ Xác nhận, chỉnh sửa lại bài học. Chỉnh sửa thông tin thành viên.
+- Thay đổi, thêm mới hoặc xóa bỏ thông tin, hình ảnh về các bài học sao cho thích hợp với các em.
+- Theo dõi tình hình liên hệ thông qua website của thành viên, để đáp ứng kịp thời yêu cầu của thành viên.
+- Về tổ chức lưu trữ, thực hiện các yêu cầu:
++ Thêm, xóa, sửa thông tin, hình ảnh về nội dung các bài học, phục vụ cho công tác quản lý, thống kê tình hình hoạt động của Website.
++ Thêm, xóa, sửa thông tin của các thành viên.
+2.3.2. Yêu cầu phi chức năng
+- Website phải có dung lượng không quá lớn, tốc độ xử lý nhanh.
+- Công việc phải thực hiện chính xác, không chấp nhận sai sót.
+- Sử dụng mã hóa các thông tin nhạy cảm của thành viên.
+- Đảm bảo an toàn dữ liệu khi chạy website trực tuyến.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chương 3: CÁC KIẾN THỨC LIÊN QUAN
+
+3.1. GIỚI THIỆU VỀ INTERNET
+3.1.1. Giới thiệu vể Internet
+- Internet là tài nguyên vô tận của con người trong mọi lĩnh vực.
+- Internet là mạng máy tính khổng lồ được kết nối lại với nhau. Bất cứ vị trí, khoảng cách hoặc thời gian nào, một máy tính kết nối vào mạng Internet đều được coi là thành viên của mạng Internet.
+3.1.2. Sự ra đời và phát triển của Internet
+Trong những năm 60 và 70, nhiều công nghệ máy tính đã ra đời nhưng mỗi kiểu lại dựa trên những phần cứng riêng biệt. Một trong những kiểu này được gọi là mạng cục bộ (Local Area Networks – LAN), nối các máy tính với nhau trong phạm vi hẹp bằng dây dẫn và một thiết bị cài đặt trong mỗi máy. Các mạng lớn không được gọi là mạng diện rộng (Wide Area Networks – WAN), nối nhiều máy tính với nhau trong phạm vi rộng thông qua một hệ thống dây truyền dẫn kiểu như trong các hệ thống điện thoại.
+Giao thức TCP/IP đảm bảo sự thông suốt trao đổi thông tin giữa các máy tính. Internet hiện nay đang liên kết hàng ngàn máy tính thuộc các công ty, cơ quan nhà nước, các trung tâm nghiên cứu khoa học, trường đại học, không phân biệt khoảng cách địa lý. Đó là ngân hàng dữ liệu khổng lồ của nhân loại.
+3.1.3. Ứng dụng web
+Khi nói đến Internet người ta thường nhắc đến bộ giao thức chuẩn TCP/IP và các dịch vụ điển hình nhất của nó là email, FTP (File Transfer Protocol) và WWW (World Wide Web). Tuy nhiên WWW chiếm vai trò quan trọng nhất vì nó quyết định mô hình của Internet.
+Tìm hiểu WWW ta có thể xác định phạm vi ứng dụng của Internet trong thực tiễn khoa học, công nghệ cũng như trong đời sống.
+WWW rất dễ sử dụng và thú vị cho nên đã trở thành một dịch vụ quen thuộc không thể thiếu. Ngày nay, khi email và FTP đã được tích hợp vào hầu hết các trình duyệt thì WWW cũng trở thành một công cụ để khai thác các hoạt động tìm kiếm thông tin trên Internet (Search Engine). Với bản chất là một siêu tài liệu đa phương tiện, chứa các thông tin về các dữ liệu multimedia, WWW đã làm cho Internet trở nên thuận lợi, sinh động và hấp dẫn hơn nhiều.
+
+
+3.1.4. Mô hình hoạt động
+WWW là một ứng dụng với nhiều chức năng và vai trò cực kỳ to lớn. Để phân tích chi tiết được nó thật không đơn giản, do đó trong phạm vi hẹp đây chỉ đề cập tới WWW từ khía cạnh công nghệ.
+Hầu hết tất cả các dịch vụ trên Internet đều được triển khai trên mô hình khách/ chủ (Client/Server) và đây cũng là mô hình hoạt động mà WWW áp dụng.
+3.1.5. Khái niệm về mô hình trên Server
+Thuật ngữ Server được dùng cho những chương trình thi hành như một dịch vụ trên toàn mạng. Các chương trình Server này chấp nhận tất cả các yêu cầu hợp lệ đến từ mọi nơi trên mạng, sau đó thi hành dịch vụ trên Server và kết quả trả về máy yêu cầu.
+Một chương trình coi là Client khi nó gửi các yêu cầu tới máy có chương trình Server và chờ đợi câu trả lời từ Server. Chương trình Server và Client nói chuyện với nhau bằng thông điệp (message) thông qua một cổng truyền thông tin liên lạc IPC (Interprosses communication). Để chương trình Server và một chương trình Client có thể giao tiếp được với nhau thì giữa chúng phải có một chuẩn để giao tiếp, chuẩn này được gọi là giao thức (protocol). Nếu một chương trình Client nào muốn yêu cầu lấy thông tin từ Server thì nó phải tuân theo giao thức Server đưa ra.
+Một máy tính chứa chương trình Server được coi là máy chủ hay máy phục vụ (Server) và máy chứa chương trình Client là máy khách mô hình trên mạng mà các máy chủ và máy khách giao tiếp với nhau theo một chiều hoặc nhiều chiều dịch vụ được coi là mô hình Client /Server.
+3.1.5.1. Mô hình Client/Server
+Thực tế mô hình Client/Server là sự mở rộng tự nhiên và tiện lợi cho việc truyền thông tiến trình trên các máy tính cá nhân, mô hình này cho phép xây dựng các chương trình Client/Server một cách dễ dàng và sử dụng chúng để liên lạc với nhau đạt hiệu quả hơn. Mô hình Client/Server như sau:
+Gửi yêu cầu
+CLIENT
+SERVER
+
+Trả trang web
+
+
+
+Đây là mô hình tổng quát nhất, trên thực tế thì Server có thể được kết nối với nhiều Server khác nhằm làm việc hiệu quả hơn và nhanh chóng hơn. Khi nhận được yêu cầu từ Server này có thể gửi tiếp yêu cầu vừa nhận được cho một Server khác ví dụ như database Server vì bản thân nó không thể xử lý yêu cầu này được.
+Với mô hình trên thì mô hình Client/Server chỉ mang đặc điểm của phần mềm không liên quan đến phần cứng mặc dù trên thực tế yêu cầu cho một máy Server là cao hơn rất nhiều so với máy Client. Lý do bởi vì máy Server phải quản lý rất nhiều các yêu cầu từ các Client khác nhau trên mạng máy tính.
+3.1.5.2. Ứng dụng mô hình Client/Server
+Như vậy, với dịch vụ này trên mạng, người sử dụng máy tính có thể truy cập vào mạng để lấy thông tin khác nhau dựa trên văn bản, hình ảnh thậm chí cả âm thanh (thông tin đa phương tiện – multimedia). Giao diện giữa người và máy càng trở nên thân thiện, nhờ các biểu tượng và các thiết bị ngoại vi như chuột, bút quang, … Người dùng mạng không cần có trình độ cao về tin học, với một chút vốn tiếng anh đủ để hiểu những gì máy tính thông báo cũng có thể dùng nó như một công cụ đắc lực.
+Như vậy dịch vụ WWW trên mạng có một ứng dụng rất to lớn trong thời đại thông tin như hiện nay. Web đã thay đổi cách biểu diễn thông thường bằng văn bản toàn kiểu chữ nhàm chán sang kiểu thông tin sinh động có hình ảnh âm thanh. Với một bộ trình duyệt có trang tiện ích đồ họa ta có thể dễ dàng xử lý thông tin đa phương tiện khác. WWW cho phép tìm kiếm thông tin một cách nhanh chóng, phổ biến các tài liệu khoa học và trao đổi thông tin trên mạng.
+3.1.5.3. Mô hình Web Client/ Server
+Mô hình Client/Server ứng dụng vào trang Web được gọi là mô hình Web Client/Server giao thức chuẩn được sử dụng để giao tiếp giữa Web Server và Web Client là HTTP.
+Web client (Web Browser): Các trình duyệt có vai trò như là Client trong mô hình Client/Server, khi cần xem một trang Web cụ thể nào thì trình duyệt Web sẽ gửi yêu cầu lên cho Web Server để lấy nội dung trang Web đó.
+Web Server: Khi nhận yêu cầu từ một Client /Server, Web Server sẽ trả về nội dung file cho trình duyệt Web Server cho phép chuyển giao dữ liệu bao gồm văn bản, đồ hoạ và thậm chí cả âm thanh, video tới người sử dụng.
+3.1.6. Hoạt động của cơ chế khách/ chủ
+Tất cả các gói tin nhận và trả lời giữa Web Server và Client đều tuân theo giao thức chuẩn HTTP. Mô hình hoạt động như sau:
+- Ban đầu trình duyệt trên máy Client có một văn bản HTML và hiển thị lên màn hình với đầy đủ các mối liên kết.
+- Khi người sử dụng chọn một mối liên kết nào đó trong văn bản trên thì trình duyệt sẽ sử dụng giao thức HTTP gửi một yêu cầu lên mạng cho Web Server để truy cập tới một trang Web mới hay muốn được phục vụ một dịch vụ nào đó được chỉ ra bởi mối liên kết đó.
+- Sau khi nhận được thông tin từ trình duyệt nó có thể tự xử lý thông tin hoặc gửi cho các bộ phận khác có khả năng xử lý (Database Server, CGI…) rồi chờ kết quả để gửi về cho trình duyệt Client.
+- Trình duyệt nhận và định dạng dữ liệu theo chuẩn của trang Web để hiển thị lên màn hình.
+- Quá trình cứ tiếp diễn như vậy được gọi là duyệt Web trên mạng.
+3.1.7. Mở rộng khả năng của Web Server
+Web Server là một phần mềm đóng vai trò phục vụ khi được hình thành, nó nạp vào bộ nhớ và đợi các yêu cầu từ nơi khác đến. Các yêu cầu có thể từ trình duyệt hoặc từ Web Server khác đến. Các yêu cầu thường là đòi hỏi về một tư liệu hay một thông tin nào đó. Khi nhận yêu cầu, nó phân tích để xác định xem tư liệu thông tin mà người dùng yêu cầu là gì. Sau đó gửi trả kết quả lại nơi yêu cầu. Các phần mềm Web Server chủ yếu:
+Apche dùng cho UNIX. IIS dùng cho Window.
+Bản thân Web Server không có khả năng truy cập CSDL. Vấn đề đặt ra là cần mở rộng khả năng của Web Server để nó có thể xử lý các yêu cầu truy nhập vào một CSDL nào đó, lấy các thông tin từ đó ra và sau đó trả các thông tin này về cho trình duyệt – nơi đã gửi yêu cầu.
+
+3.2. ASP
+3.2.1. Giới thiệu về ASP
+3.2.1.1. ASP là gì ?
+ASP (Active Server Page) là một mở rộng ISAPI (Internet Server Application Programming Interface)cung cấp một khung làm việc cho các ứng dụng phía Server. Một tài liệu ASP chứa cả ngữ pháp HTML lẫn những cấu trúc script. Khi Web Server nhận được một yêu cầu cho một file ASP, một file HTML “ảo” được sinh ra (trong bộ nhớ) để trả lời. File sử dụng những thông tin HTML tĩnh cộng với bất kỳ HTML nào sinh ra bởi Scripting, URL tham khảo tới ASP tương tự như đối với ISAPI và CGI.
+ASP cung cấp các đối tượng tự động thực hiện nhiều công việc ở mức thấp và cũng đơn giản hóa nhiều quá trình. Các đối tượng đó cung cấp khái niệm phiên người sử dụng, cho phép lưu những giá trị ngang qua trang Web. Trước ASP, việc này phải xử lý rất phức tạp. Thêm vào đó, sức mạnh thực sự của ASP Scripting là ở khả năng tạo giao diện với các Software Componet (cung cấp bởi chính ASP, Windows NT và BackOffice) thông qua COM/DCOM.
+
+3.2.1.2. Cấu trúc một trang ASP
+Trang ASP đơn giản là một trang văn bản với phần mở rộng là *.asp, gồm có 3 phần:
+Văn bản (Text)
+HTML tag (HTML : Hypertext Markup Language)
+Các đoạn script asp
+Khi thêm 1 đoạn script vào HTML, ASP dùng dấu phân cách (delimiters) để phân biệt giữa đoạn HTML và đoạn ASP. <% bắt đầu đoạn script và %> để kết thúc đoạn script. Có thể xem trang ASP như một trang HTML có bổ sung các ASP Script Command
+Xem ví dụ dưới đây:
+
+
+Bạn bắt đầu với trang ASP này ngày :<%=Now%>
+
+
+3.2.1.3. Mô hình ứng dụng Web qua công nghệ ASP
+Thao tác giữa client và server trong một ứng dụng web có thể được thể hiện khái quát như sau:
+3.2.2. Hoạt động một trang ASP
+Khi một trang ASP được yêu cầu bởi web browser, web server sẽ duyệt tuần tự trang ASP này và chỉ dịch các script ASP. Tùy theo người xây dựng trang web này quy định mà kết quả do web server dịch sẽ trả về lần lượt cho trình duyệt của người dùng hay là chỉ trả về khi dịch xong tất cả các script. Kết quả trả về này mặc định là một trang theo cấu trúc của ngôn ngữ HTML.
+3.2.3. Ưu và khuyết điểm của ASP
+Ưu điểm :
+ASP bổ sung cho các công nghệ đã có từ trước như CGI (Common Gateway Interface), giúp người dùng xây dụng các ứng dụng web với những tính năng sinh động. Tuy nhiên, khác với CGI, các trang ASP không cần phải hợp dịch.
+Dễ dàng tương thích với các công nghệ của MicroSoft, ASP sử dụng ActiveX Data Object (ADO) để thao tác với cơ sở dữ liệu hết sức tiện lợi.
+Với những gì ASP cung cấp, các nhà phát triển ứng dụng web dễ dàng tiếp cận công nghệ này và nhanh chóng tạo ra các sản phẩm có giá trị. Điều này hết sức có ý nghĩa trong điều kiện phát triển như vũ bảo của tin học ngày nay. Nó góp phần tạo nên một đội ngũ lập trình web lớn mạnh.
+ASP có tính năng mở. Nó cho phép các nhà lập trình xây dựng các component và đăng ký sử dụng dễ dàng. Hay nói cách khác ASP có tính năng COM(Component Object Model)
+Khuyết điểm :
+ASP chỉ chạy và tương thích trên môi trường Window điều này làm ASP bị hạn chế rất nhiều.
+Dùng ASP chúng ta sẽ gặp không ít khó khăn trong việc can thiệp sâu vào hệ thống như các ứng dụng CGI.
+ASP không được sự hổ trợ nhiều từ các hãng thứ ba.
+Các ứng dụng ASP chạy chậm hơn công nghệ Java Servlet.
+Tính bảo mật thấp. Không giống như CGI hay Java servlet, các mã ASP đều có thể đọc được nếu người dùng có quyền truy cập vào web server. Có lẽ đây là lý do quan trọng nhất để người dùng không chọn công nghệ ASP.
+
+3.3. SƠ LƯỢC VỀ THIẾT KẾ CỦA WEBSITE
+3.3.1. Sơ lược về website
+Website được viết chủ yếu bằng ngôn ngữ lập trình: Ngôn ngữ xây dựng website HTML, ASP… nên trong quá trình thực hiện, website dùng phần mềm DREAMWEAVER để thiết kế, kết nối với cơ sở dữ liệu Microsoft Ofice Access. Được chạy ban đầu trên localhost với việc cài đặt IIS để thuận tiện cho việc chỉnh sửa.
+3.3.2. Sơ lược về Dreaweaver
+Dreamweaver được thiết kế để hỗ trợ việc xây dựng, kiểm soát, chỉnh sửa hoặc phát triển trang Web với các chức năng phong phú, dễ dùng, hiệu quả và rất mạnh mẽ. Một đặc điểm quan trọng của Dreamweaver gọi là Rountrip HTML nhờ nó mà bạn có thể tạo ra các trang HTML, trong bất cứ chương trình nào, khi mở trong Dreamweaver, mã HTML gốc sẽ không bị thay đổi. Đây là điểm mạnh của Dreamweaver mà một số trình thiết kế Web khác không có được, chẳng hạn như Frontpage.
+Một số đặc điểm trong Dreamweaver
+Bảng điều khiển Assets trong Dreamweaver cung cấp cách thức truy cập dễ dàng đến thư viện và các trang mẫu của Dreamweaver. Bảng Assets cung cấp một vị trí trung tâm nơi lưu giữ tất cả những gì của website, bao gồm các hình ảnh, màu sắc, URL bên ngoài, các mã kịch bản, các tập tin Flash, có thể kéo và thả chúng từ bảng điều khiển Assets vào trong hồ sơ HTML .. Cửa sổ Site kèm theo trong các biểu tượng cho Design Notes, vì thế có thể dễ dàng xác định được một tập tin có một ghi chú được gắn với nó hay không. Cũng có thể thay đổi cách thể hiện ghi chú thiết kế, chẳng hạn như Due Date và Status. Các vùng có thể soạn thảo trong phần Templates có các thẻ và một outline giúp cho người dùng dễ dàng biết được vùng nào trong một trang mẫu có thể thay đổi được. Trình soạn thảo có khả năng tạo các tập tin JavaScript, tập tin XML, và các tập tin văn bản khác trong Dreamweaver Code View, kèm theo các mẫu đánh dấu cú pháp sống động. Đặc điểm này được thiết kế cho những người sử dụng có hiểu biết kỹ thuật của Dreamweaver và được dùng cho lập trình chất lượng cao. Extension Manager giúp cho việc bổ sung các phần mở rộng của Dreamweaver dễ dàng hơn. Các đặc điểm Flash Buttons và Flash Text là kết quả của việc tích hợp các chương trình tạo hoạt hình Flash của Dreamweaver. Có thể chọn kiểu Flash được định nghĩa trước hoặc có thể bổ sung các nút tùy biến của riêng mình hoặc văn bản và sau đó dễ dàng bổ sung chúng vào bất kỳ trang web nào trong website. Intergrate Mail giúp liên kết các địa chỉ thư điện tử. Trình soạn thảo văn bản HTML được tích hợp. Chế độ hiển thị Table Layout cho phép vẽ, di chuyển các ô bảng trực tiếp trến trang Web. Đặc điểm Split View giúp có thể đồng thời soạn thảo mã nguồn HTML ở một phần màn hình và phần soạn thảo WYSIWYG ở phần còn lại. Macromedia Fireworks giờ đây đã được tích hợp hoàn toàn với Dreamweaver, vì thế các hình ảnh và các bảng HTML đã được tạo ra trong Fireworks và được đưa vào trong Dreamweaver sẽ có cửa sổ kiểm soát property riêng cho mình. Giao diện đặc biệt trong Fireworks giúp có thể chuyển qua lại giữa Fireworks và Dreamweaver, cập nhật tập tin HTML mỗi khi kết thúc sử dụng Fireworks và giữ lại các thay đổi lớn đã thực hiện trong Dreamweaver. Đặc điểm Site Reporting của Dreamweaver sẽ giúp cho việc tìm kiếm ra các vấn đề thường gặp, như là hồ sơ không có tiêu đề hoặc thiếu các thẻ ALT dễ dàng hơn.
+
+3.4. BẢO MẬT CƠ SỞ DỮ LIỆU VỚI MICROSOFT OFFICE ACCESS
+3.4.1. Sử dụng macro AutoExec để kiểm tra và thiết lập lại cài đặt Sử dụng macro AutoExec để kiểm tra và thiết lập lại các tùy chọn bảo mật có thể bị thay đổi trong các phiên làm việc trước đó. AutoExec là một macro đặc biệt có thể thực hiện mở cơ sở dữ liệu. Để tạo một macro AutoExec, chỉ cần đặt tên cho một macro AutoExec mới. Ví dụ, macro Startup() (trong hình) có chức năng xác định người dùng, thực hiện kiểm tra và cài đặt các thuộc tính bảo mật trước khi người dùng truy cập.
+
+3.4.2. Ẩn cửa sổ Database Những tùy chọn khởi động trong hình B cho phép bạn xác định các thuộc tính của cơ sỡ dữ liệu khi mở. Hai trong số những thuộc tính này giúp cơ sở bảo dữ liệu bảo mật hơn:
+Display Database Window: Hủy chọn tùy chọn này để ẩn cửa sổ Database khi ai đó mở cơ sở dữ liệu. Do đó người dùng sẽ không thể truy cập trực tiếp vào bất cứ đối tượng nào.
+Use Access Special Keys: Bỏ tùy chọn này để người dùng không thể sử dụng phím F11 làm hiện cửa sổ Database.
+Hai cài đặt này hỗ trợ cho nhau, vì nếu không bỏ chọn tùy chọn Use Access Special Keys người dùng có thể ấn phím F11 để làm hiện cửa sổ Database. Để truy cập vào những tùy chọn Startup, vào menu Tools\ Startup. Trong Access 2007, click vào nút Office\ Access Options\ Current Database trong cửa sổ trái và bạn sẽ thấy những tùy chọn này trong Application Options. Access 2007 không có cửa sổ Database, nhưng bạn có thể làm ẩn Navigation Pane theo cách tương tự. Tùy chọn đó nằm trong Navigation, ngay bên dưới Application Options. Việc bỏ chọn tùy chọn Display Database sẽ hủy lệnh Startup. Người dùng có thể loại những tùy chọn này bằng cách giữ phím Shift trong khi mở sơ sở dữ liệu. Đây là thủ thuật nhắc nhở cho bạn nhưng sẽ rất nguy hiểm nếu người khác biết được. Ngoài ra người dùng có thể đưa nhiều đối tượng vào một cơ sở dữ liệu trống để tránh những cài đặt khởi động. 3.4.3. Chặn phím Shift Bạn có thể sử dụng chính giao diện để ẩn cửa sổ Database. Nhưng việc sử dụng phím Shift lại gây nguy hiểm cho cơ sở dữ liệu. Bạn có thể hủy bỏ việc sử dụng phím Shift bằng cách đổi giá trị của thuộc tính AllowBypassKey thành False khi đóng cơ sở dữ liệu. Tuy nhiên, bạn cũng có thể gọi đoạn mã sau từ một tác vụ đóng bất kì:
+Public Sub SetStartupOptions(propname As String, _ propdb As Variant, prop As Variant) 'Set passed startup property. Dim dbs As Object Dim prp As Object Set dbs = CurrentDb On Error Resume Next dbs.Properties(propname) = prop If Err.Number = 3270 Then Set prp = dbs.CreateProperty(propname, _ propdb, prop) dbs.Properties.Append prp End If Set dbs = Nothing Set prp = Nothing End Sub
+Khi gọi thủ tục, cần đảm bảo phải lựa chọn đúng tùy chọn khởi động. Ví dụ: Call SetStartupOptions("AllowBypassKey", dbBoolean, False) Sau khi cài đặt thuộc tính này cho tiến trình đóng, cơ sở dữ liệu sẽ vô hiệu hóa phím Shift. Ngoài ra bạn có thể cài đặt bất kì thuộc tính khởi động nào. Ví dụ làm ẩn cửa sổ Database: Call SetStartupOptions("StartupShowDBWindow", dbBoolean, False) Bạn có thể cài đặt những tùy chọn đóng và mở cơ sở dữ liệu với một ngoại lệ. Đó là thuộc tính AllowBypassKey phải được cài đặt khi đóng cơ sở dữ liệu, và bạn cần đặt tham chiếu tới thư viện Data Access Objects (DAO). Nếu không thủ tục này sẽ gây ra lỗi tham chiếu. Tuy nhiên, nếu ai đó biết sử dụng phím Shift cũng có thể biết cách khôi phục lại nó bằng cách thay đổi giá trị của AllowBypassKey thành True. Trong trường hợp này bạn sẽ phải áp dụng phương pháp bảo mật nhóm làm việc để chỉ cho phép admin truy cập vào thuộc tính này. 3.4.4. Chia cơ sở dữ liệu Việc bảo vệ một cơ sở dữ liệu nhỏ sẽ dễ dàng hơn rất nhiều so với cơ sở dữ liệu lớn với nhiều đối tượng dữ liệu và giao diện. Bạn có thể chia một cơ sở dữ liệu lớn thành hai cơ sở dữ liệu nhỏ, trong đó cơ sở dữ liệu thứ nhất chứa bảng và quan hệ (được gọi là backend), và cơ sở dữ liệu còn lại chứa các đối tượng giao diện (còn gọi là frontend). Hai cơ sở dữ liệu này giao tiếp thông qua các bảng đã được liên kết. Một điểm quan trọng là người dùng trong frontend không thể thay đổi thiết kế bảng trong backend. (có nhiều cách để phân chia cở sở dữ liệu nhưng bài viết này chỉ hướng vào mục đích bảo mật). Để chia cơ sở dữ liệu, vào menu Tools\ Database Utilities\ Database Spliter sau đó làm theo hướng dẫn. Trong Access 2007, click Access Database trong nhóm Move Data của tab Database Tools. 3.4.5. Tránh sử dụng Compact On Close Những ai đã từng sử dụng Access có lẽ đều biết đến tác dụng của việc nén cơ sở dữ liệu tường xuyên. Quá trình nén sẽ tạo ra một bản sao của cơ sở dữ liệu, kiểm tra các đối tượng, xóa bỏ dữ liệu tạm thời và sắp xếp lại những phần vỡ trên ổ đĩa. Tóm lại, nén giúp cơ sở dữ liệu luôn ổn định. Tùy chọn Compact On Close, được tích hợp đầu tiên trong Access 2000, giúp nén cơ sở dữ liệu tự động khi kết thúc phiên làm việc. Không may, tiến trình này lại giữ lại cả những file không cần thiết. Nếu thấy những file tạm thời như db1.mdb, db2.mdb, … trong folder chứa cơ sở dữ liệu của bạn, chúng có thể là một sản phẩm phụ của tính năng nén. Những file thừa này có thể gây ra rắc rối cho bạn nếu ai đó vào folder cũng có thể truy cập cả vào những file tạm thời. Đó là một lỗ hổng bảo mật. Có 2 cách để bảo vệ cơ sở dữ liệu của bạn:
+Thường xuyên kiểm tra và xóa những file tạm. (Tuy nhiên đây không phải là biện pháp thiết thực và thậm chí không có hiệu quả).
+Không sử dụng tính năng Compact On Close. Thay vào đó nên nén cơ sở dữ liệu theo cách thủ công. Đây là cách tốt nhất để bảo vệ cơ sở dữ liệu khỏi lỗ hổng trên.
+3.4.6. Ẩn các đối tượng Việc ẩn đi những đối tượng như bảng, truy vấn, form, … không phải là phương pháp bảo vệ hữu hiệu, vì nếu người dùng tìm thấy thì họ có thể thay đổi chúng. Tuy nhiên những đối tượng này sẽ được bảo mật hơn nếu người dùng không biết tới sự tồn tại của chúng. Việc ẩn các đối tượng chỉ đơn thuần giúp hạn chế lỗi gây mất dữ liệu mà không có tác dụng bảo mật. Để ẩn một đối tượng trong cửa sổ Database (hay Navigation), bạn chỉ cần phải chuột lên đối tượng, chọn Properties sau đó chọn tùy chọn Hidden Attribute. Tuy nhiên, những người dùng Access có thể làm hiện những đối tượng này bằng cách vào menu Tools\ Options, chọn tab View sau đó hủy chọn tùy chọn Hidden Objects trong mục Show. Trong Access 2007, phải chuột vào thanh menu Navigation, chọn Navigation Options\ Show Hidden Objects\ OK. Như đã nói, việc ẩn các đối tượng không có tác dụng bảo mật. Nếu bạn sử dụng phương pháp này, cần nhớ rằng những module ẩn vẫn hiển thị trên Visual Basic Editor (VBE). Hơn nữa, chỉ nên ẩn những đối tượng quan trọng vì khi người dùng truy cập vào mà không thấy cửa sổ Database họ sẽ tìm kiếm nó. Bạn không thể nhập những đối tượng ẩn vào một cơ sở dữ liệu nếu quá trình nhập không phù hợp. Bạn có thể lập trình để ẩn đi một đối tượng bằng mã VBA sau: CurrentDb.TableDefs(tablename).Attributes = dbHiddenObject Từ phiên bản Office 2000 trở về trước, việc sử dụng mã để gán thuộc tính ẩn vào một bảng rất rắc rối vì Access coi bảng đó là bảng tạm thời. Và trong lần nén tiếp theo Access sẽ xóa bỏ nó cùng với dữ liệu. Vì vây tránh sử dụng phương pháp này khi làm việc với các phiên bản đó. 3.4.7. Chặn thông báo lỗi Khi xuất hiện lỗi trong mã, VBA hiển thị thông báo lỗi. Nếu người dùng nhận được thông báo đó và click vào nút Debug họ sẽ tiếp cận được với module chứa lỗi đó trong VBE. Trong trường hợp này người dùng có toàn quyền đối với đoạn mã. Thông thường, người dùng sẽ không biết xử lý và yêu cầu người lập trình giúp đỡ. Trái lại, cũng có tình huống người dùng xóa bỏ tất cả đoạn mã đó.
+Trong giai đoạn phát triển, khả năng truy cập nhanh vào mã giúp tiết kiệm thời gian. Nhưng khi quản lý cơ sở dữ liệu thì đó là một thảm họa. Tốt nhất, trong mỗi thủ tục nên bổ sung một số tính năng xử lý lỗi để chặn thông báo và loại bỏ nút Debug. 3.4.8. Đặt mật khẩu bảo vệ cơ sở dữ liệu Việc thiết lập mật khẩu cho cơ sở dữ liệu sẽ giới hạn quyền truy cập cho từng người dùng cụ thể cũng rất quan trọng mặc dù hiện nay có nhiều chương trình nhóm ba có thể phá bỏ mật khẩu của cơ sở dữ liệu. Để cài đặt mật khẩu bạn chỉ cần thực hiện các thao tác sau:
+Mở cơ sở dữ liệu theo chế độ Exclusive bằng cách chọn Open Exclusive trong hộp thoại Open.
+Vào menu Tools\ Security\ Set Database Password.
+Nhập mật khẩu vào hộp Password và Retype Password.
+Thực hiện xong click OK.
+Để gỡ bỏ mật khẩu thực hiện các bước sau:
+Mở cơ sở dữ liệu trong chế độ Exclusive.
+Vào menu Tools\ Security\ Unset Database Password.
+Nhập mậu khẩu. .....................
+............................................................
+Chương 6: ĐÁNH GIÁ VÀ KẾT LUẬN
+
+6.1. ĐÁNH GIÁ
+“Xây dựng website học tiếng anh cho trẻ em” không phải là một vấn đề mới mẻ, nhưng nó mang tính thực tế cao, nhất là trong giai đoạn hiện nay – khi Việt Nam đang tiến hành các chính sách công nghiệp hóa, hiện đại hóa đất nước, đẩy mạnh công nghệ thông tin, đưa tin học hóa vào cuộc sống, việc xây dựng website học tiếng Anh cho trẻ em và quản lý website càng trở nên là nhu cầu thiết yếu. Dưới sự hướng dẫn của thầy Trần Tuấn Vinh, em đã thực hiện đề tài này nhằm đưa ra một giải pháp học tiếng Anh phù hợp cho trẻ em.
+Như đã nói ở trên, website học tiếng Anh cho trẻ em chỉ ra cách thức xây dựng và quản lý website để nó hoạt động có hiệu quả, cung cấp thông tin bài học cho các thành viên website, đây cũng là cách thức quản bá website hiệu quả đến với mọi người. Ngoài ra, do sự hạn hẹp cả về thời gian và trình độ nên website em xây dựng được trong đồ án này mới chỉ đáp ứng được những yêu cầu cơ bản, nếu đưa vào thực tế thì chắc chắn cần phải nâng cấp theo các định hướng phát triển sau này.
+Tuy nhiên, với đồ án này, em đã hoàn thành các yêu cầu đặt ra, bao gồm:
+- Giao diện: thiết kế giao diện phù hợp với các em, hình thức hài hòa, dễ tiếp cận mặc dù là website tiếng anh nhưng vì lứa tuổi của các em còn nhỏ nên giao diện chủ yếu là tiếng Việt.
+- Toàn bộ website đều sử dụng Dreamweaver để thiết kế và lập trình nên cho phần phân quyền người quản trị.
+- Lập trình hiển thị nội dung các chương trình bài học.
+- Lập trình cho phép khách đăng ký là thành viên trên website để tham gia vào quá trình học
+- Lập trình cho phép người tham gia học có thể gửi yêu cầu, liên hệ tới ban quản trị website.
+- Lập trình quản trị cho phép việc thêm mới, hiệu chỉnh, xóa bỏ các bài học.
+- Lập trình quản trị cho phép thêm mới, hiệu chỉnh, xóa bỏ các thành viên.
+- Lập trình quản lý việc yêu cầu, liên hệ.
+- Thực hiện thành công việc lập trình việc upfile, phục vụ cho thao tác cập nhật ảnh trong quản lý chương trình bài học.
+- Tất cả các form nhập liệu đều được bẫy lỗi cho các trường.
+- Quản lý phân quyền người quản trị cho các cấp quyền quy định (thêm, xóa, sửa người quản trị, phân biệt nhau bởi các thành viên).
+
+6.2. HƯỚNG PHÁT TRIỂN
+Đồ án này có thể thêm các hướng như sau trong tương lai gần:
+Bổ sung và hoàn thành thêm giao diện người dùng:
+- Thiết kế và lập trình thêm một số chức năng, phân quyền người dùng tham gia vào các bài học, thiết kế giao diện trang dành riêng cho khách để thu hút khách tham gia đăng ký làm thành viên của website. Chẳng hạn đưa thêm các trang:
+Tin tức và sự kiện: Đưa các thông tin mang tính chất thời sự có liên quan đến hoạt động của website, các thông tin nổi bật về tình hình và tiến trình học tập của các em. Dịch vụ: Trang trình bày các dịch vụ khác của website đối với các lĩnh vực phục vụ riêng cho nhu cầu của các thành viên. Thiết kế thêm phần khóa học, với mô hình lớp, thành viên tham gia học, có kết quả học trả về sau khi thành viên tham gia học xong khóa học.
+- Chỉnh sửa hoàn thiện thêm các trang template để tránh trường hợp website bị hụt khi các thành viên mở trên các màn hình có độ phân giải lớn.
+- Có thể thiết kế thêm một số trang chủ dưới dạng Flash và đặt chúng ở chế độ thay đổi luân phiên mỗi khi có thêm lượt truy cập mới.
+Bổ sung các chức năng quản lý website:
+- Quản lý thành viên thân thiết, cho phép thành viên được hưởng một số quyền lợi dành riêng cho mình.
+- Kết hợp thêm các services đáng tin cậy để giúp người quản trị dễ dàng và tiết kiệm thời gian cho việc chứng thực thông tin tài khoản của thành viên.
+- Khi Việt Nam đã chính thức đưa các hình thức thanh toán trực tuyến thông quan hệ thống chính thực hợp pháp và bảo mật cao, chúng ta nên kết hợp giải pháp này cho các thành viên, để xây dựng hệ thống bài học có trả phí, có như vậy, thì quá trình thương mại điện tử thực sự mới có thể thực hiện trên website này, và giúp cho đội ngũ quản trị hoạt động tích cực hơn.
+Tăng cường chế độ bảo mật cho website:
+- Bảo mật Server: sử dụng các chế độ bảo mật trên server mà website được lưu trữ, có thể sử dụng HTTPS trên Server (HTTPS là giao thức Hypertext Transfer Protocol có sử dụng các dịch vụ bảo mật, mã hóa do SSL Protocol cung cấp) để mã hóa thông tin thành viên, tăng khả năng chứng thực và bảo mật của website. (SSL Protocol là viết tắt của Secure Socket Layer).
+- Bảo mật soure code của website: Có thể dùng các ký thuật mã hóa toàn bộ source của website để chống đánh cắp và bảo mật thông tin.
+- Bảo mật cơ sở dữ liệu trên Microsoft Office Access.
+TÀI LIỆU THAM KHẢO
+
+1. Đỗ Văn Uy – Bài giảng môn phân tích thiết kế hệ thống, Viện công nghệ thông tin Đại học Bách Khoa Hà Nội.
+2. Lê Đình Duy - Thiết kế và lập trình ứng dụng web bằng ASP, NXB Thống Kê, năm 2002.
+3. Nguyễn Văn Ba – Phân tích và thiết kế hệ thống thông tin, các phương pháp hướng cấu trúc, NXB Đại học Quốc gia Hà Nội, năm 2003.
+4. VN-Guide - Những bài thực hành ASP, NXB Thống Kê, năm 2002.
+5. Stephan Walth, Active Server Page Unleashed, Stephan Walth.
+6. Nhóm tác giả ELICOM , Xây dựng trang web động với ASP.
+Click OK.
+Bạn cũng có thể đặt mật khẩu bảo vệ cho các module VBA:
+Từ menu Tools của VBE, chọn Project Properties.
+Chọn tiếp tab Protection.
+Chọn tùy chọn Lock Project For Viewing.
+Nhập mật khẩu (hai lần).
+Click OK.
+3.4.9. Chuyển đổi định dạng sang “mde” hay “accde” Access bổ sung tính năng bảo mật dưới một định dạng file mde hoặc accde (trong Access 2007). Định dạng này là một phiên bản “chỉ thực hiện” của cơ sở dữ liệu, có nghĩa là người dùng không có quyền truy cập vào mã qua VBE và họ không thể thay đổi các đối tượng. Định dạng này chỉ bảo vệ được thiết kế mà không bảo vệ được dữ liệu của bạn. Vì vậy bạn cần copy file mdb/accdb gốc trước khi nâng cấp hay thay đổi. Tuy nhiên khi sử dụng bạn cần lưu ý:
+Chỉ sử dụng định dạng này với frontend. Không sử dụng để bảo mật cho backend hay một cơ sở dữ liệu độc lập. Còn nếu muốn thực hiện, bạn cần phải chuyển mọi dữ liệu sang một cơ sở dữ liệu mới mỗi khi nâng cấp frontend.
+Định dạng này cũng không bảo vệ bảng biểu, truy vấn, macro, quan hệ, thuộc tính cở dữ liệu và những tùy chọn khởi động.
+Để chuyển đổi một cơ sở dữ liệu frontend sang định dạng mde hay accde bạn thực hiện các thao tác sau:
+Trong Access XP (hay các phiên bản Access trước đó), vào menu Tools\ Database Utilities\ Make MDE File. Trong Access 2007, click vào Make ACCDE của Database Tools trong tab Database Tools.
+Trong hộp thoại kết quả, đặt tên cơ sở dữ liệu mới và chọn đường dẫn thư mục lưu sau đó click Save.
+3.4.10. Đặt mật khẩu bảo vệ hệ thống Không phải lúc nào người dùng cũng làm việc trên máy tính, đôi khi họ phải đảm trách nhiều công việc khác. Những lúc đó máy tính của họ sẽ không được chú ý và rất có thể sẽ bị xâm nhập. Cách tốt nhất để tránh tình huống trên là đặt mật khẩu bảo vệ màn hình. Tiện ích bảo vệ màn hình sẽ tự động được kích hoạt khi máy tính nhàn rỗi. Người dùng sẽ phải nhập mật khẩu trước khi truy cập vào hệ thống. Trong Windows XP, bạn có thể đặt mật khẩu cho tiện ích bảo vệ màn hình theo cách sau:
+Vào menu Start\ Control Panel\ Display.
+Chọn tab ScreenSaver.
+Chọn kiểu ScreenSaver.
+Đặt thời gian ScreenSaver khởi chạy.
+Lựa chọn tùy chọn On Resume, Password Protection.
+Click OK.
+

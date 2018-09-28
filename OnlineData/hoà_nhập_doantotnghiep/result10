@@ -1,0 +1,217 @@
+LỜI NÓI ĐẦU Đồ án thiết kế sản phẩm với CAD Hộp giảm tốc côn trụ 2 cấp trục dẫn đường kính O85
+Trường ĐHKTCN Thái Nguyên
+Thiết kế sản phẩm với CAD
+Hiện nay khoa học kỹ thuật đang phát triển như vũ bão, mang lại những lợi ích cho con người về tất cả những lĩnh vực tinh thần và vật chất. Để nâng cao đời sống nhân dân, để hoà nhập vào sự phát triển chung của các nước trong khu vực cũng như trên thế giới. Đảng và nhà nước ta đã đề ra những mục tiêu trong những năm tới là nước công nghiệp hoá hiện đại hoá.Muốn thực hiện được điều đó một trong những ngành cần quan tâm phát triển nhất đó là ngành cơ khí chế tạo máy vì ngành cơ khí chế tạo máy đóng vai trò quan trọng trong việc sản xuất ra các thiết bị công cụ cho mọi ngành kinh tế quốc dân. Để thực hiện việc phát triển ngành cơ khí cần đẩy mạnh đào tạo đội ngũ cán bộ kỹ thuật có trình độ chuyên môn cao, đồng thời phải đáp ứng được các yêu cầu của công nghệ tiên tiến, công nghệ tự động hoá theo dây truyền trong sản xuất. Nhằm thực hiện mục tiêu đó, chúng em là sinh viên trường Đại Học Kỹ Thuật Công Nghiệp - Thái Nguyên nói riêng và sinh viên của các trường kỹ thuật nói chung trong cả nước luôn cố gắng phấn đấu trong học tập và rèn luyện, trau dồi những kiến thức đã được dạy trong trường để sau khi ra trường có thể đóng góp một phần trí tuệ và sức lực của mình vào công cuộc đổi mới của đất nước trong thế kỷ mới. Qua đồ án này chúng em đã tổng hợp được nhiều kiến thức chuyên môn, giúp chúng em hiểu rõ hơn những công việc của một kỹ sư tương lai. Song với những hiểu biết còn hạn chế cùng với kinh nghiệm thực tế chưa nhiều nên đồ án của chúng em không tránh khỏi những thiếu sót. Chúng em rất mong được sự chỉ bảo của các thầy trong bộ môn Kỹ thuật cơ khí và các Thầy Cô giáo trong khoa để đồ án được hoàn thiện hơn.
+Cuối cùng chúng em xin chân thành cảm ơn sự quan tâm chỉ bảo của các Thầy Cô trong khoa và bộ môn Kỹ thuật cơ khí trường Đại Học Kỹ Thuật Công Nghiệp – Thái Nguyên và đặc biệt là sự hướng dẫn tận tình của thầy giáo Lê Xuân Hưng. Với sự hướng dẫn của thầy chúng em đã hoàn thành được đồ án này. Em xin chân thành cảm ơn!
+PHẦN 1
+TÍNH TOÁN ĐỘNG HỌC HỆ DẪN ĐỘNG CƠ KHÍ.
+I. Chọn động cơ điện:
+- Chọn kiểu, loại động cơ;
+- Chọn công suất động cơ;
+- Chọn tốc độ đồng bộ động cơ;
+- Chọn động cơ thực tế;
+- Kiểm tra điều kiện mở máy, điều kiện quá tải cho động cơ.
+Nội dung cụ thể của các bước như sau:
+1.1 Chọn kiểu, loại động cơ:
+Việc chọn 1 loại động cơ điện dùng cho hộp giảm tốc hiện nay thật là đơn giản song chúng ta cần chọn loại động cơ sao cho phù hợp nhất với hộp giảm tốc của chúng ta , phù hợp với điều kiện sản xuất , điều kiện kinh tế ... Dưới đây là 1 vài loại động cơ đang có mặt trên thị trường :
+Động cơ điện một chiều : loại động cơ này có ưu điểm là có thể thay đổi trị số của mômen và vận tốc góc trong phạm vi rộng , đảm bảo khởi động êm , hãm và đảo chiều dễ dàng ... nhưng chúng lại có nhược điểm là giá thành đắt , khó kiếm và phải tăng thêm vốn đầu tư để đặt thiết bị chỉnh lưu , do đó được dùng trong các thiết bị vận chuyển bằng điện , thang máy , máy trục , các thiết bị thí nghiệm ... Động cơ điện xoay chiều : bao gồm 2 loại : một pha và ba phaĐộng cơ một pha có công suất nhỏ do đó chỉ phù hợp cho các dụng cụ gia dình. Trong công nghiệp sử dụng rộng rãi động cơ ba pha:đồng bộ và không đồng bộ.
+So với động cơ ba pha không đồng bộ , động cơ ba pha đồng bộ có ưu điểm hiệu suất và cosj cao , hệ số tải lớn nhưng có nhược điểm : thiết bị tương đối phức tạp , giá thành cao vì phải có thiết bị phụ để khởi động động cơ , do đó chúng được dùng cho các trường hợp cần công suất lớn (100kw) , khi cần đảm bảo chặt chẽ trị số không đổi của vận tốc góc . Động cơ ba pha không đồng bộ gồm hai kiểu : rôto dây cuốn và rôto lồng sóc . Động cơ ba pha không đồng bộ rôto dây cuốn cho phép điều chỉnh vận tốc trong một phạm vi nhỏ ( khoảng 5%), có dòng điện mở máy thấp nhưng cosj thấp ,giá thành đắt , vận hành phức tạp do đó chỉ dùng thích hợp trong một phạm vi hẹp để tìm ra vận tốc thích hợp của dây chuyền công nghệ đã được lắp đặt . Động cơ ba pha không đồng bộ rôto lồng sóc có ưu diểm là kết cấu đơn giản , giá thành hạ , dễ bảo quản , có thể trực tiếp vào lưới điện ba pha không cần biến đổi dòng điện song hiệu suất và hệ số công suất thấp so với động cơ ba pha đồng bộ,không điều chỉnh được vận tốc .
+Từ những ưu cơ bản trên cùng với điều kiện hộp giảm tốc của ta và vận chuyển băng tải em đã chọn Động cơ ba pha không đồng bộ rôto lồng sóc
+1.2. Chọn công suất động cơ:
+Công suất của động cơ được chọn theo điều kiện nhiệt độ nhằm đảm bảo cho nhiệt độ của động cơ khi làm việc không lớn hơn trị số cho phép. Để đảm bảo điều kiện đó cần thoả mãn yêu cầu sau:
+(kW) (1.1)
+Trong đó: - công suất định mức của động cơ;
+- công suất đẳng trị trên trục động cơ, được xác định như sau:
+Vì tải trọng không thay đổi nên có thể xác định theo công thức:
+(KW) (1.2)
+
+Trong đó:
+:Công suất danh nghĩa trên trục công tác của động cơ
+(KW) (1.3)
+Trong đó: t -là lực vòng trên trục công tác (N)
+v- là vận tốc vòng của băng tải (m/s)
+hå - hiệu suất chung của toàn hệ thống
+Vì sơ đồ gồm các bộ truyền mắc nối tiếp nên ta có:
+Tra bảng 1.1 [1] Ta có : hổ lăn = hO = 0,99 ; hk = 1
+hbrc = 0,95 ; hbrt = 0,97
+= k.brc .brt.ηo4=.0.95.0.97.=0,89 (1.4)
+(KW)
+Động cơ có công suất định mức :
+1.3. Chọn số vòng quay đồng bộ của động cơ
+Số vòng quay đồng bộ của động cơ (còn gọi là tốc độ từ trường quay) được xác định theo công thức:
+(1.5)
+Trong đó: f - tần số của dòng điện xoay chiều (Hz) (f = 50 Hz);
+p - số đôi cực từ; p = 1; 2; 3; 4; 5; 6.
+Trên thực tế, số vòng quay đồng bộ có các giá trị là 3000, 1500, 1000, 750, 600 và 500 v/ph. Số vòng quay đồng bộ càng thấp thì kích thước khuôn khổ và giá thành của động cơ càng tăng (vì số đôi cực từ lớn). Tuy nhiên dùng động cơ có số vòng cao lại yêu cầu giảm tốc nhiều hơn, tức tỉ số truyền của toàn hệ thống tăng, dẫn tới kích thước và giá thành của các bộ truyền tăng lên. Do vậy, trong các hệ dẫn động cơ khí nói chung, nếu không có yêu cầu gì đặc biệt, hầu như các động cơ có số vòng quay đồng bộ là 1500 hoặc 1000 v/ph (tương ứng số vòng quay có kể đến sự trượt 3% là 1450 và 970 v/ph).
+Cách xác định số vòng quay đồng bộ như sau:
++) Tính số vòng quay của trục công tác:
+- Với hệ dẫn động băng tải:
+(1.6)
+Trong đó:
+D - đường kính tang dẫn của băng tải (mm);
+v - vận tốc vòng của băng tải (m/s);
++) Xác định số vòng quay đồng bộ nên dùng cho động cơ:
+Do hộp giảm tốc (HGT) bánh răng côn trụ có und =8÷31,5. Bảng 1.2[1]
+Nên số vòng quay nên dùng động cơ nđcthuộc khoảng und.nct =572,96÷2256,03 (v/ph)
+=>Ta chọn số vòng quay đồng bộ động cơ = 1500 (v/ph)
+1.4. Chọn động cơ thực tế
+Căn cứ vào công suất đẳng trị đã tính tiến hành tra bảng chọn động cơ có công suất định mức thoả mãn điều kiện (1.1) và có số vòng quay đồng bộ của động cơ là giá trị đã xác định được và theo bảng P1.3[1] ta chọn được kiểu động cơ
+4A200M4Y3 có thông số kĩ thuật như sau:
+Tên động cơ Công suất (kw) Vận tốc quay(v/ph) cosφ Tk/Tdn Tmax/Tdn 4A200M4Y3 37 1475 0.90 1,4 2,2
+Bảng 1.1: Thông số động cơ 4A200M4Y3
+1.5. Kiểm tra điều kiện mở máy, điều kiện quá tải cho động cơ
+a. Kiểm tra điều kiện mở máy cho động cơ:
+Khi khởi động, động cơ cần sinh ra một công suất đủ lớn để thắng sức ỳ của hệ thống. Vì vậy cần kiểm tra điều kiện mở máy cho động cơ.
+Điều kiện mở máy của động cơ thoả mãn nếu công thức sau đảm bảo:
+(1.8)
+Trong đó: - công suất mở máy của động cơ (Kw):
+(Kw)
+Trong đó:
+-Tk và Tdn và mô men khởi động và mô men danh nghĩa của động cơ (tra bảng động cơ).
+- - công suất cản ban đầu trên trục động cơ (kW):
+- (Kw)
+Động cơ đã chọn thoã mãn điều kiện (1.8) nên không cần chọn lại động cơ
+b. Kiểm tra điều kiện quá tải cho động cơ
+Với bộ truyền làm việc với tải trọng không thay đổi. Động cơ thỏa mãn điều kiện mở máy thì ta không cần kiểm tra điều kiện quá tải cho động cơ nữa.
+II. PHÂN PHỐI TỈ SỐ TRUYỀN
+Tỉ số truyền của hệ thống : (1.9)
+Vì không có bộ truyền ngoài hôp nên =>
+Trong đó:
+: Tỷ số truyền bộ cấp nhanh.
+: Tỷ số truyền bộ cấp chậm.
+Với : Số vòng quay động cơ đã chọn.
+Số vòng quay của trục công tác.
+Với HGT bánh răng côn trụ cấp 2, để nhận được chiều cao HGT nhỏ nhất có thể tính tỷ số truyền bánh răng trụ (cấp chậm) u2 theo công thứ sau:
+(1.10)
+Trong đó: kbe – hệ số chiều rộng vành răng bánh răng côn = 0,25 – 0,3
+- hệ số chiều rộng bánh răng trụ = 0,3 – 0,4
+Khi = 0,3 và = 0,4 ( các giá trị tối ưu )
+III.XÁC ĐỊNH CÁC THÔNG SỐ TRÊN TRỤC
+3.1.Công suất danh nghĩa trên trục
+- Trục I : P= P.η.η= 28,65.1.0,99 = 28,37( KW)
+- Trục II: P= P.η.η= 28,37.0,95.0,99 = 26,68 (KW)
+- Trục III: P = P. η.η= 26,68.0,97.0,99 = 25,62 (KW)
+- Trục IV: P= P.η. η=25,62.0,99.1 = 25,36 (KW)
+3.2.Tính số vòng quay của trục chính
+- Tốc độ quay của trục I:
+- Tốc độ quay của trục II:
+- Tốc độ quay của trục III:
+- Tốc độ quay của trục IV:
+3.3. Momen xoắn trên các trục
+-
+- Trục I:
+- Trục II:
+- Trục III:
+- Trục IV:
+
+
+
+
+
+
+
+
+
+
+3.4. Bảng thông số
+Thông số Trục Tỷ số truyền u Công suất P(kw) Số vòng quay n(v/ph) Momen xoắn T(Nmm) Động cơ 1 28,65 1475 Trục I 28,37 1475 5,7 Trục II 26,68 258,77 3,61 Trục III 25,62 71,68 Trục IV 1 25,36 71,68
+
+Bảng 1.2 Thông số hộp giảm tốc
+
+
+
+
+
+
+
+PHẦN II: THIẾT KẾ BỘ TRUYỀN CƠ KHÍ
+I. Thiết kế bộ truyền bánh răng côn cấp nhanh.
+1.1 Chọn vật liệu.
+Bộ truyền tải nhẹ, tải không đổi và do không có yêu cầu đặc biệt về cơ tính nên ta chọn vật liêu sau theo bảng 6.1[2]
+Loại bánh răng Nhãn hiệu thép Nhiệt luyện Đô cứng (HB) Giới hạn bền (Mpa) Giới hạn chảy (Mpa) Bánh nhỏ (1) 45 tôi cải thiện 245 850 580 Bánh lớn (2) 45 tôi cải thiện 230 750 450
+Bảng 2.1 Vật liệu làm bánh răng côn cấp nhanh
+Thỏa mãn điều kiện
+1.2. Xác định ứng suất cho phép
+Ứng suất tiếp xúc cho phép và ứng suất uốn cho phép được xác định theo các công thức sau:
+(1.11)
+(1.12)
+Trong đó:
+:Hệ số xét đến ảnh hưởng độ nhám của mặt răng làm việc.
+:Hệ số xét đến ảnh hưởng của vận tốc vòng.
+: Hệ số xét đến ảnh hưởng của kích thước bánh răng.
+:hệ số an toàn. Tra bảng 6.2 [2] ta có = 1,1
+: Ứng suất tiếp xúc ứng với chu kì cơ sở.
+: Hệ số xét đến ảnh hưởng của độ nhám mặt lượn chân răng.
+: Hệ số xét đến độ nhạy của vật liệu đối với tập trung ứng suất.
+: Hệ số xét đến kích thước bánh răng ảnh hưởng đến độ bền uốn.
+: Hệ số an toàn. Tra bảng 6.2 [2] ta có = 1,75
+: Hệ số xét đến ảnh hưởng của việc đặt tải. (tải đặt 1 phía)
+:Ứng suất uốn ứng với chu kì cơ sở.
+Trong bước tính thiết kế, sơ bộ lấy và nên công thức (1.11) và (1.12) trở thành
+(1.11a)
+(1.12a)
+Theo bảng 6.2[ 2] ta có:
+
+ð
+
+
+: Hệ số tuổi thọ .
+: Hệ số tuổi thọ .
+mH, mF: bậc của đường cong mỏi khi thử về tiếp xúc và uốn. Khi độ cứng mặt răng HB≤350 chọn mH=6, mF=6.
+: Số chu kỳ thay đổi ứng suất cơ sở khi thử về độ bền uốn. Với mọi loại thép ta đều có
+: Số chu kỳ thay đổi ứng suất cơ sở khi thử về độ bền tiếp xúc.
+(1.13)
+
+: Số chu kỳ thay đổi ứng suất tương đương. Vì tải không đổi, quay một chiều nên ta có :
+Với :
+c: số lần ăn khớp trong một vòng quay c=1.
+n: Số vòng quay trên các trục:
+: Tổng số giờ làm việc
+Vậy
+Ta thấy và Nên ta lấy NHE=NHO và NFE=NFO để tính.
+ð
+Từ (1.11a) và (1.12a) sẽ xác định được Ư/S tiếp xúc cho phép và Ư/S uốn cho phép của từng bánh răng trong bộ truyền :
+Vì là bánh răng côn răng thẳng do đó :
+- Ứng suất tiếp xúc cho phép khi quá tải : (1.14)
+- Ứng suất uốn cho phép khi quá tải: (1.15)
+1.3. Xác định các thông số bộ truyền
+1.3.1. Xác định chiều dài côn ngoài hoặc đường kính chia ngoài
+- Chiều dài côn ngoài của bánh côn chủ động được xác định theo độ bền tiếp xúc.
+(1.16)
+Trong đó:
+KR = 0,5Kd -hệ số phụ thuộc vào vật liệu bánh răng, loại răng
+Với bánh răng côn răng thẳng bằng thép Kd = 100Mpa1/3 => KR=50 Mpa1/3
+
+Kbe- hệ số chiều rộng vành răng: Kbe = b/Re = 0,25…0,3 Chọn Kbe= 0.25
+TI momen xoắn trên trục chủ động.
+Ư/S tiếp xúc cho phép Mpa.
+Theo bảng 6.21[2] thì:
+lắp trục bánh côn trên ổ bi, sơ đồ I, HB I = 183683,73
+Do đó:
+1.3.2 Xác định các thông số ăn khớp
+- Số răng bánh nhỏ:
+Tra bảng 6.22 Thiết kế HDĐCK [2] được
+Với HB < 350 z1 = 1,6.= 1,6.16 = 25,6 chọn z1 = 26 răng.
+- Đường kính trung bình và modul trung bình:
+(1.17)
+(1.18)
+- Modul vòng ngoài:
+.............................
+Hình 5.7. Kích thước bu lông vòng
+* Chốt định vị
+Mặt ghép giữa nắp và thân nằm trong mặt phẳng chứa đường tâm các trục. Lỗ trụ lắp ở trên nắp và thân hộp được gia công đồng thời, để đảm bảo vị trí tương đối của nắp và thân trước và sau khi gia công cũng như khi lắp ghép, ta dùng 2 chốt định vị, nhờ có chốt định vị khi xiết bulông không làm biến dạng vòng ngoài của ổ.
+Tra bảng 18.4b [2] ta được: d=10 ; c=1,6 ; l=120.
+Hình 5.8. Kích thước chốt định vị
+III. CHỌN DẦU MỠ BÔI TRƠN HỘP GIẢM TỐC
+Phương pháp bôi trơn : vì vận tốc vòng v Dầu bôi trơn : Tra bảng 18.11[2] chọn độ nhớt để bôi trơn sau đó chọn loại dầu ở bảng 18.13[2].
+Tra bảng 18.11[2] độ nhớt cần thiết là:độ nhớt Cetistoc ³ 70
+độ nhớt Engle ³ 9,48
+Vậy ta dùng dầu ôtô máy kéo AK – 20 để bôi trơn.
+Chọn dầu mỡ bôi trơn cho ổ lăn
+Khi ổ lăn được bôi trơn đúng kỹ thuật nó sẽ không bị mài mòn vì chất bôi trơn sẽ giúp tránh không để các chi tiết kim loại tiếp xúc trực tiếp với nhau. Ma sát trong ổ lăn sẽ giảm, khả năng chống mài mòn của ổ tăng lên, khả năng tản nhiệt tốt hơn, giảm được tiếng ồn, bảo vệ bề mặt không bị han rỉ.
+Chất bôi trơn được lựa chọn dựa trên nhiệt độ làm việc và số vòng quay của ổ. Mỡ bôi trơn có nhiều ưu điểm hơn dầu như được giữ trong ổ dễ hơn, làm việc được lâu hơn, độ nhớt ít bị thay đổi vì nhiệt, tránh cho ổ khỏi tạp chất và độ ẩm. Chính vì vậy ta chọn mỡ để bôi trơn ổ lăn.
+Tra bảng 15.15.a[2] chọn loại mỡ T .Loại này đặc biệt thích hợp cho các loại ổ cỡ nhỏ hoặc trung bình, ngay cả ở điều kiện làm việc cao hơn, mỡ T có tính năng chịu nước rất tốt cũng như chống gỉ cao. Để bôi trơn, mỡ được cho vào chiếm 2/3 khoảng trống của bộ phận ổ. Mỡ được đưa vào nhờ 1 vít trên lắp ổ.
+
+
+
+

@@ -1,0 +1,160 @@
+TÀI LIỆU VỀ THIẾT KẾ KHUÔN ÉP NHÔM:
+Kích cỡ buồng ép và số lỗ khuôn là những nhân tố cần quan tâm, đặc biệt là đối với các nhà sản xuất sử dụng máy ép đồng bộ; điều chủ yếu ở hai nhân tố này là năng xuất được quyết định trước. Trong máy ép đồng bộ, tốc độ ram lớn nhất là một giá trị cố định được quyết định bởi đầu ra gallon/phút của bơm vào xylanh thuỷ lực. Nói chung, đối với kiểu máy ép này thí tốc độ ram khoảng 30’’ mỗi phút. Phần lớn các máy ép có nhiều tốc độ ram khác nhau
+Hình1: bản vẽ biểu thị các số liên quan đến tính toán lực ép khối khuôn, sử dụng công thức sau:
+P1= P (A-D)
+(C-D)
+Trong đó:
+A = Diện tích mặt khuôn hoặc diện tích i.d của tấm đệm.
+B = Diện tích lỗ khuôn
+C = Diện tích tiếp xúc của tấm đệm phụ
+D = Diện tích lỗ đệm khuôn
+P1 = áp lực đùn ép (psi)
+Lực ép khối khuôn (lớn nhất 165,000 psi)
+Chú ý: Container, lực ép tối đa 45,000 psi; các tấm lót (trên vòng kẹp khuôn) lực ép tối đa 75,000 psi.
+Tỉ số truyền được xác định bởi diện tích mặt cắt ngang của container (buồng chứa) chia cho tổng diện tích mặt cắt ngang của các lỗ khuôn. Công thức dưới đây chứng minh hiệu quả trực tiếp của tỉ số truyền về hiệu suất:
+Hiệu suất (fpm) = (Tốc độ ram (ipm)/ 12) x tỉ số truyền.
+Các khuôn phải chịu được áp lực lớn khi đang đùn ép nhôm nóng thành các hình dạng cụ thể. Thêm vào đó, các khuôn cần được thiết kế để bù vênh, xoắn mà có khuynh hướng thường xảy ra đối với kim loại đùn ép. Một số những khó khăn vận hành và thiết kế có liên quan đến áp lực bề mặt khuôn. Thường gặp áp lực có thể lên tới 50 tấn/in2.
+Đầu tiên, áp lực bề mặt khuôn cao nhưng giảm dần khi lượng nạp giảm. áp lực giảm khi nhiệt độ tăng và chiều dài Billet giảm. Tuy nhiên, áp lực luôn tăng ở một vài insơ cuối cùng (1 insơ = 2,54cm). Một biện pháp quyết định giá trị ép cho áp lực khối khuôn được thể hiện ở hình 1.
+Độ lệch là do sự hỗ trợ khuôn không có hiệu quả, bởi áp lực lên khuôn quá lớn. Điều này làm bề mặt trục chệch hướng, do đó làm giảm hiệu suất
+Các nhà sản xuất khuôn luôn sử dụng một số kỹ thuật sửa đổi khuôn để làm phù hợp trong sự đa dạng xử lý. Hơn nữa, làm sạch và bôi trơn khuôn là rất cần thiết đối với việc bảo dưỡng khuôn và tỉ lệ phục hồi cao. Điều kiện bề mặt khuôn có ảnh hưởng đến các đặc tính dòng chảy.
+Những vận hành bằng tay là cần thiết trong việc chế tạo khuôn cỡ trung bình. Một sự hiểu biết rõ về dung sai là rất cần thiết. Những điều này sẽ được thảo luận ở một phần tương ứng. Dung sai của các nhà sản xuất khuôn bao gồm:
+Mẫu khuôn, ± 0.001”
+Cách bố trí, ± 0.010”
+Mặt dưới mài: +0.015”, - 0.000”
+Bearing: +1/32”
+Rũa hoàn thiện(góc), phẳng (bằng) tới thắt 1/40.
+Rũa hoàn thiện(lỗ), 0.002” trên khuôn
+Các bộ phận dụng cụ
+Lắp ráp dụng cụ khuôn cơ bản được chỉ ra ở hình 2.
+Hình 2: Một bộ lắp ráp khuôn điển hình
+Các bộ phận bao gồm khuôn, khuôn phụ và đi kèm là áo khuôn, đệm khuôn và đệm phụ.Các bộ phận này được lắp vào một bộ phận gọi là bộ phận chứa dụng cụ (tool carrier), hoặc là container. Một cửa trượt đóng giữ việc lắp đặt bảo vệ khỏi lực của máy ép. Khuôn phụ và đệm khuôn giúp phân bổ áp lực đồng đều và hỗ trợ khuôn. Một số khuôn dùng cho đùn ép hình dạng nhôm được chỉ ra ở hình 2a.(tham khảo tài liệu tiếng anh)
+Container- Đây là một xylanh thép, có một tấm đệm lót có thể thay chuyển được. Container có đường kính bên trong lớn hơn một chút so với đường kính billet được đùn ép. Chiều dài của nó thay đổi theo lượng công suất và nhà chế tạo máy ép.
+Vòng khuôn- là một ống lồng (bọc ngoài) để giữ khuôn và khuôn phụ trong mối liên kết trục với nhau.
+Khuôn phụ- giống như khuôn nhưng thường dày hơn 2 đến 3 lần. Nó như là một đĩa thép và nó có một lỗ lớn hơn lỗ của khuôn. Khuôn phụ thường được trang bị các chốt hoặc vấu lồi để có thể gắn nó với khuôn đùn ép hợp lý. Khuôn phụ hỗ trợ khuôn chống lại áp lực billet và là phương tiện giữ khuôn.
+Đệm khuôn (Bolster)- là một bộ phận bằng thép hợp kim hình đĩa được gia công cứng, có đường kính bằng đường kính áo khuôn. Đệm khuôn hỗ trợ khuôn và khuôn phụ và nhằm giảm thiểu độ vênh lệch. Đệm phụ (Sub-boster) tương tự như đệm khuôn.
+Giá đỡ khuôn (Die holder)- đây là một bộ phận của máy ép. Nó nằm giữa container và trục ép. Nó có thể tháo ra được hoặc có thể vuông góc với hướng đùn ép (tuỳ thuộc vào kiểu máy ép) để mà có thể tháo khuôn ra nhằm loại bỏ đầu mẩu hoặc phế phẩm.
+Chày ép (Dummy block)- là một đĩa thép, dày khoảng 3”, có đường kính nhỏ hơn bên trong container một chút(khoảng 0.025”). Nó tạo thành một sự bảo vệ khỏi việc nạp ngược giữa billet nóng và Stem.
+Stem (ram)- là một bộ phận đùn ép có chức năng cho billet vào trong container và nó tiếp xúc với dummy block. Là một đoạn của xylanh chính, stem phải có khả năng chịu được lượng ép tối đa.
+Thuật ngữ “stem” được sử dụng thay cho hoặc đôi khi đồng nghĩa với “ram” trong những trường hợp nhất định.
+Các kiểu khuôn- Nói ngắn gọn, một khuôn ép là một kết cấu thép dạng đĩa có một hoặc nhiều lỗ hoặc những lỗ có diện tích mặt cắt giống nhau (ngoại trừ phần co lại) và có đường nét như sản phẩm cụ thể.
+Các khuôn rỗng được phân loại thành các kiểu khuôn khác nhau như khuôn spider, khuôn porthole và khuôn bridge. Chúng được sử dụng cho việc đùn ép các billet đặc thành hình dạng rỗng hoặc bán rỗng.
+Các billet rỗng có một lỗ (được khoan, đúc) dọc thông qua tâm. Chúng được sử dụng với một lõi trục (mandrel) riêng rẽ. Những lõi trục như thế này hoặc là cố định hoặc là không cố định. Trong cả hai trường hợp, các mandrel phải tách khỏi và không phải là một phần của khuôn. Một lõi trục quyết định kích thước bên trong của các thanh đùn ép rỗng. Khuôn quyết định kích thước bên ngoài.
+Khi một lõi trục tách biệt khỏi khuôn nhưng nó cố định với phần cuối của stem, thì nó được mang thuật ngữ kiểu Đức. Nó hoặc là đi qua một billet rỗng hoặc là khoan thủng lỗ qua một billet đặc. Khi mandrel không cố định thì nó được gọi là kiểu Pháp. Một mandrel như thế được đặt trong một khe rãnh trong dummy block (chày ép) và tâm của nó trong khuôn khi kim loại chảy dưới áp lực. Các billet rỗng được sử dụng khi trục lõi không cố định được dùng. Cả hai loại cố định và không cố định nói chung được sử dụng với lắp ráp máy ép.
+Các khuôn Spider, Porthole, Bridge: Các khuôn này đều có lỗ trục như một phần đồng bộ của khuôn. Các thanh rỗng hoặc bán rỗng được chế tạo từ các khuôn này có một hoặc nhiều mối hàn hoặc các đường hàn dọc. Điều này do có thực tế là kim loại chảy xung quanh các trụ lõi và hàn với nhau bên trong khoang hàn trước khi qua khuôn. Những khuôn này phù hợp với các hình dạng rỗng hoặc bán rỗng.
+Khuôn Spider bao gồm một khuôn đùn ép có hình dạng đường nét cụ thể, được gắn với một kết cấu “spider” thép đỡ một lõi trục kéo dài qua khuôn.
+Khuôn Porthole tương tự như khuôn Spider, chỉ khác là khuôn Spider được thay thế bằng một đĩa được khoan mà có một vài lỗ chạy qua nó.
+Khuôn Bridge có một phần giống như chiếc cầu được bắt chặt vào phía sau khuôn và ở đây gắn lỗ trục (mandrel) ngắn. Mặt khuôn trũng vào để tạo hốc hàn.
+Thuật ngữ khuôn
+Để thuận tiện cho người đọc, thuật ngữ cơ bản được sử dụng trong thiết kế khuôn và chế tạo khuôn được định nghĩa trong các đoạn dưới đây. Các thuật ngữ này và thuật ngữ đùn ép nhôm khác sẽ được tìm thấy trong từ điển thuật ngữ khác.
+Back Taper (côn ngược): Là phần cấu trúc bên trong của khuôn bắt đầu từ điểm rời và rẽ góc về phía sau của khuôn khoảng từ 1,50 đến 100, phụ thuộc vào góc cắt được côn. Nếu cần thiết, để hỗ trợ một phần mỏng của khuôn chẳng hạn như lưỡi, góc có thể nhỏ đến 00, nhưng chỗ cắt cần được giảm 0.015” hoặc hơn thế. Thường thì đầu mài song song với bề mặt Bearing, lúc này không còn độ giảm nữa.
+Bearing- là bề mặt tại lỗ, tại các góc bên phải với bề mặt khuôn, mà kiểm soát dòng chảy kim loại (và đôi khi tốc độ độ chảy); là bề mặt dọc dòng chảy nhôm và được tạo hình.
+Breakaway Point (điểm tách): thường là vị trí nơi Relief khuôn bắt đầu và bề mặt bearing kết thúc; là vị trí nơi thanh đùn ép rời Bearing.
+Choke (góc thắt): là góc được mài trên bề mặt bearing tại điểm nơi bearing và bề mặt khuôn gặp nhau và nơi nhôm vào lỗ. Độ dài thắt thay đổi với các góc thắt- ít góc thì kéo dài chỗ thắt và ngược lại.
+Enter Point (Điểm vào): là nơi nhôm vào các bearing; góc được tạo bởi bề mặt khuôn và bearing.
+Short Choke: Là mặt vạt cạnh ngắn hơn choke thường lệ, khoảng 450 được so sánh với 50 hoặc ít hơn. Điều này có khuynh hướng làm chậm dòng chảy kim loại khi điểm vào xa hơn tính từ mặt khuôn.
+Short speed (tốc độ ngắn): là nơi bearing có một góc xiên ngắn khoảng 450 tại điểm tách. Góc xiên này làm tăng tốc độ dòng chảy của kim loại. Một góc xiên dài khoảng 30 tại điểm tách, mặc dầu được hiểu là “tốc độ” là có một khuynh hướng làm chậm về dòng chảy kim loại.
+
+BỐ TRÍ VÀ THIẾT KẾ KHUÔN
+Trước tiên cần thiết lập kích cỡ container và số lỗ khuôn cho việc đùn ép một thanh trước khi thiết kế khuôn. Bước tiếp theo là phải phác thảo trên giấy, trình bày ra (1) độ co (2) sự giảm độ kéo (độ co là kết quả từ việc kéo căng hoặc kéo thẳng các thanh ép) và (3) Bearing.
+Sau đó bản vẽ được chuyển tới xưởng máy nơi mà mẫu khuôn được chế tạo bằng thép hoặc nhôm có độ dày khoảng 1/8”. Thanh được vạch giới hạn cả trước và sau trên một khoảng trống khuôn tiêu chuẩn. Những khoảng trống có độ dày tương đương bằng khoảng 1/5 đường kính của chúng, nhưng thay đổi đáng kể với khối lượng máy ép. Các khoảng trống thường có cỡ tiêu chuẩn, để làm khớp với giá kẹp khuôn tiêu chuẩn. Bản thân khuôn có thể là 1 inch hoặc dày hơn thế và được làm bằng thép được rèn, gia công xử lý nóng. Thanh lớn nhất mà có thể được chế tạo trên một khuôn cụ thể phải khớp trong đường tròn ngoại tiếp có đường kính không lớn hơn đường kính được nêu trong Bảng 2 hoặc 80% của i.d. của container.
+Bảng 2: Sử dụng đường kính đường tròn ngoại tiếp của các thanh để quyết định khuôn và kích cỡ container tối thiểu.
+Đường kính đường tròn thanh lớn nhất Các đường kính khuôn tối thiểu 4” 5” 6” 8” 10” Các khuôn lỗ đơn 2” 3” 31/2” 47/8” 61/8” Các khuôn đa lỗ 21/2” 31/2” 4” 53/8” 65/8”
+
+Đường kính đường tròn thanh lớn nhất Các đường kính khuôn tối thiểu 5” 6” 7” 8” 9” Hợp kim mềm 4” 5” 6” 7” 8” Hợp kim cứng 31/2” 41/2” 51/2” 61/2” 71/2”
+Mặc dầu các bước thay đổi với các xưởng khác nhau, nói chung vận hành máy đầu tiên phải cắt bớt phần giảm ở phía sau, thường với một độ mài côn cuối. Sau đó, khoảng trống được lật, được khoan ở các góc, và hình dạng được cưa trên một cưa dây. Lỗ khuôn được gia công gọt giũa tạo hình dạng của khuôn. Tiếp đó là sự chỉnh sửa cuối cùng bằng tay và lắp ráp khuôn, với xử lý nhiệt và đánh bóng là những công đoạn cuối cùng.
+XỬ LÝ BEARING
+Những điều chỉnh hợp lý đối với khuôn nhằm chỉnh sửa hoặc thay đổi các tỉ lệ dòng chảy kim loại được thực hiện bằng cách thay đổi lượng kim loại khuôn tại các lỗ, được hiểu như là độ rộng, độ cao hoặc độ dài Bearing. Bằng cách giảm độ dài của Bearing tại một vị trí đặc biệt, tỉ lệ dòng chảy được tăng lên; tăng độ dài, dòng chảy giảm xuống.
+Xử lý các bề mặt Bearing phía trước và phía sau của lỗ khuôn được hiểu như “choke-góc thắt” hoặc “relief-góc giảm” tương ứng lần lượt như ở hình 3.
+Hình 3: Các biện pháp làm chậm hoặc tăng dòng chảy kim loại qua một khuôn đùn ép: lỗ khuôn thắt để làm chậm dòng chảy kim loại (hình trái); lỗ khuôn giảm để làm tăng nhanh dòng chảy kim loại (hình bên phải). Góc cắt dưới (undercut) của côn ngược (back taper) được quyết định bởi góc cắt mài- 11/2o, 30 hoặc 50 là phổ biến. Sự chỉnh sửa, chẳng hạn như tốc độ (giảm) được chỉ ra ở hình phải, hiếm khi được kết hợp trong một khuôn mới, nhưng được thêm vào khi cần thiết để kiểm soát dòng chảy kim loại.
+Nếu người thiết kế muốn giải quyết khó khăn trong việc xử lý làm đầy các góc nhọn hoặc hoàn tất các thanh mỏmg, Bearing có thể được thắt một góc khoảng 31/20. Điều này làm chậm dòng chảy kim loại và làm đầy lỗ khuôn. Việc tăng góc lên tới 70 ở phía sau hoặc hoặc phía thoát của Bearing là để tăng vận tốc của dòng chảy kim loại.
+ảnh hưởng của Bearing lên dòng chảy được miêu tả đầy đủ hơn ở trang 21.
+Thiết lập độ dài Bearing
+Độ dài Bearing dài hay ngắn được sử dụng như một phương tiện điều chỉnh dòng chảy kim loại. Sự đa dạng khác nhau về độ dài Bearing có thể được tìm thấy trong mỗi khuôn. Ví dụ như, nếu các cạnh kề của một thanh có các độ dày khác nhau, thì một độ dài bearing xấp xỉ tương đương hoặc nhỏ hơn độ dày mỗi cạnh sẽ gây ra một dòng chảy cân bằng hơn ngang trên thanh và làm giảm nguy cơ bị xoắn.
+Đối với việc quyết định kích thước của một bearing thứ hai, nơi một cạnh kề đã được thiết lập trước thì nhiều công thức đang được tính toán. Tuy nhiên, chúng hiếm được sử dụng bên ngoài dây chuyền đặc biệt. Tuy nhiên, phần lớn công thức là giống nhau và kết quả cũng như nhau. thường thường, đối với việc tính toán độ dài Bearing, người thiết kế bắt đầu với con số thực tế nhỏ nhất để kiểm soát đầy đủ hơn những sự biến đổi thanh.
+Thực tế ở Châu âu với các thanh nhỏ thì phải dùng một Bearing khoảng 4 lần độ dày thanh . Trong đất nước này, thường sử dụng một Bearing tương đương chiều dày thanh. Một số nhà thiết kế cố gắng giữ một thanh tối thiểu khoảng 3/32” và điều chỉnh các bearing kề nhằm kiểm soát dòng chảy.
+Độ dài bearing tối thiểu thường được thiết lập cho các kích cỡ nhất định của các lỗ khuôn, với bearing bắt đầu tối thiểu được thiết lập theo một kích cỡ lỗ khuôn, không kể đến vị trí trên mặt của khuôn. Thường vị trí được chọn là gần vách container nhất. Đầu hoặc cuối của cạnh,( nhưng không phải các điểm giao nhau hoặc các đường dọc), sẽ chiếm khoảng 4/5 mức bình thường Bearing cho lỗ khuôn..
+Sau khi thiết lập được một điểm khởi đầu khoảng 3/32” bearing tối thiểu, theo như hình dạng thanh phác thảo, chiều dài bearing được tăng 1/32” mỗi 1/2” tới phía trung tâm của khuôn. “Nguyên tắc ngón tay cái” này có thể được áp dụng trên mọi thứ khoảng một vách 3/16”. Nguyên tắc tương tự cũng thường áp dụng nơi mà độ dày vách không tạo các thay đổi đột ngột nhưng thay đổi dần dần theo độ biến đổi thanh.
+Khi một thanh có các yếu tố kích cỡ khác nhau, một điểm khởi đầu được thiết lập và tất cả độ dài Bearing được thực hiện cân xứng với kích cỡ lỗ, dựa trên chiều dài bearing của lỗ nhỏ nhất. Cần phải tính toán chiều dài Bearing là gì dựa trên lỗ nhỏ nhất nếu tại một vùng nhất định, sau đó nhân tỉ lệ của ứng dụng bearing yêu cầu lỗ khuôn. Ví dụ: một thanh rộng 4” có một vách 0.125” tại 2”, mà là điểm xa nhất tính từ tâm khuôn, và một vách 0.250” tại trung tâm khuôn. Bearing nhỏ nhất 3/32” được thiết lập cho độ dày vách 0.125” tại 2”; nếu vách 0.125” này ở tại trung tâm thì nó sẽ cần một Bearing 7/32”. Vì 0.250” là gấp đôi 0.125”, 7/16” (gấp đôi là 7/32”) được yêu cầu cho tâm khuôn nơi có vách là 0.250”.
+Một ngoại trừ đối với nguyên tắc này liên quan đến các thanh mà bị “Toe” hoặc “Wing” như ở hình 4.
+Các đầu (Tip) của các cạnh (Leg) lõm vào cần các Bearing ngắn nhất. Điều này do độ lệch dẫn tới mút chìa (Cantilever). Mút chìa này tạo ra một vấu hoặc độ thắt tại Bearing.
+Một ví dụ điển hình của một khuôn đùn ép cho một thanh được yêu cầu có độ dày vách khác nhau được chỉ ra ở hình 5.
+Hình 4 Hình 5
+Hình 4: Ví dụ về độ dài Bearing trên thanh mà có “Wings in”
+Hình 5: Thiết lập độ dài Bearing cho một thanh có độ dài khác nhau.
+Người thiết kế khuôn đã gửi một con số 3/32” như là chiều dài Bearing tại điểm xa nhất tính từ tâm (21/2”), nơi có độ dày thanh là 0.125”
+Bằng cách tăng độ dài Bearing 1/32” cho mỗi 1/2” gần tâm, bearing được tăng tương ứng là 5/32” cho inch đầu tiên. Tại điểm này, độ dài thanh thay đổi bất ngờ tới 0.250” nơi mà cần sự hỗn hợp côn. Các nhà thiết kế phải tăng độ dài theo tỉ lệ cân xứng và thêm 30% để kiểm soát phần lồi hợp lý(Nose?). Do đó, thanh 0.250” phù hợp với chiều dài bearing 13/32”, tăng tới 15/32” chỉ trước khi có sự thay đổi thanh tiếp theo. ở đây, một sự kết hợp góc côn (taper blend) khác là cần thiết vì chiều dài bearing với độ dày 0.750” được tăng tới 1-13/10”; sự kết hợp góc côn này đưa ra một bearing cân xứng giữa độ dày thanh 0.250” và 0.750”, cộng thêm 30%. Từ điểm này, chiếu từ tâm, do đó bearing giảm 1/32” mỗi 1/2” tới khoảng 1-11/16”. Bởi vì cạnh ngắn của “L” giữ nguyên tính từ tâm trung tâm và không có thay đổi nào về thanh nên độ dài bearing ở đây cố định 1-11/16”
+Kết hợp bearing:
+Khi một thanh đang được hoạt động trong dạng hợp kim mềm, các Bearing có sự biến đổi lớn hơn 1/32” thường được kết hợp 450 (3/16”x450 là đủ). Điều này cũng đúng đối với các Bearing kề trên các khuôn được sử dụng cho hợp kim 7075, có một sự khác nhau 1/8” hoặc lớn hơn thế. Các bearing có sự khác nhau nhỏ hơn 1/2” thì yêu cầu một đường thẳng đứt (break). Định rõ sự bắt đầu hay kết thúc một bearing côn cũng yêu cầu đường đứt đơn này.
+Các Bearing cận kề đối với các hợp kim ,ngoại trừ các hợp kim như 7075, có sự khác nhau tối thiểu như bảng dưới đây sẽ yêu cầu một góc chi tiết:
+Độ côn của cắt mài 70 50 30 11/20 00 Sự khác biệt nhỏ nhất của các bearing kề nhau 0.250” 0.375” 0.500” 1.000”
+Nếu lượng góc côn (taper) nhỏ hơn 1/32 thì nói chung bearing không côn nữa.
+Nói chung, một Bearing không nên côn nếu số độ côn nhỏ hơn 1/2 độ dày vách liên quan. Một ngoại lệ là hỗ cuối (đầu) một cạnh phải được giảm.
+Một cạnh hoặc một vách phải có độ dày đồng nhất hoặc có thể được côn, nhưng để có một Bearing được côn thì ít nhất nó phải dài 1/4” và dài gấp 4 lần độ rộng, tại vị trí mỏng nhất. Điều này tính toán một Bearing tại một điểm gấp 4 lần độ rộng cuối tính từ điểm cuối, nếu gấp 4 lần độ rộng cuối ít nhất là 1/2” và nhỏ hơn tổng chiều dài cạnh (Leg-chân, cạnh).
+Khi quyết định độ dày trung bình phần cuối (đầu) của cạnh (mà có một Bearing được côn), thì yếu tố cuối (đầu) 4/5 có thể được sử dụng.
+Chỗ nhô ra (Projection- Chỗ nhô ra; Hình chiếu) được tính toán độc lập cần có dộ dài ít nhất 3/32” và dài hơn chiều rộng của nó. Độ dài này được đo từ đường tách chứ không phải được đo từ phần chính.
+Bearing ở chỗ giao nhau của hai bức vách trở lên cần bằng hoặc lớn hơn hơn các Bearing kề. Một thực tế nói chung là Bearing nhỏ nhất nên nhỏ hơn 1/16”; một số nơi thì lấy là 1/32” và đưa ra một vài chỉ số dưới đây được coi là chỉ số trung bình điển hình trong việc kiểm soát các định cỡ tại các Bearing có chiều dài khác nhau.
+Các định cỡ 1/32” trên các Bearing từ 1/32” tới 1”
+Các định cỡ 1/16” trên các Bearing từ 1” tới 3”
+Các định cỡ 1/8” trên các Bearing từ 3” trở lên.
+Lỗ
+Luôn mong muốn sử dụng số lỗ nhiều nhất trong một khuôn khi sử dụng các hợp kim xử lý nhiệt vì các hợp kim này sẽ đùn ép tương đối chậm. Nếu hình dạng phức tạp, 4 lỗ là nguyên tắc.
+Khi các thanh là loại nhỏ và đơn giản thì khuôn có thể là 6 lỗ. Số lượng các thanh đùn ép càng lớn thì có khuynh hướng làm xước lẫn nhau vì chúng đùn ép ở những tốc độ khác nhau; khi thực hiện sản xuất các thanh nhỏ và để bảo đảm các dụng cụ đặc biệt, một số các khối chặn chạy bằng điện có thể được sử dụng để giữ các thanh được độc lập thông qua áp lực. Sẽ có thêm thuận lợi bằng cách sử dụng các khuôn đa lỗ trên câc hợp kim như 1100 và 3003 vì chúng dễ đùn ép.
+Hình 6 chỉ ra một lỗ khuôn điển hình.
+Hình 6: Giảm Bearing nhằm giảm thiểu áp lực trong quá trình đùn ép.
+“A” là kích thước mặt cắt của lỗ khuôn (die opening)
+“B”: độ dài Bearing
+“C”: Phần được giảm
+“D”: Phần côn ngược
+Độ dày thực tế của thanh được đùn ép được quyết định bởi lỗ “A” nhưng để giảm thiểu áp lực trong khi đùn ép thì kim loại sẽ qua “die bearing” ( khoảng cách “B” ). Vượt quá điểm này, khuôn bị giảm (relieved).
+Khuôn cho đùn ép nhôm có các cạnh (edge) vào (entry-lối vào) bearing sắc (sharp-sắc nhọn). Thử nghiệm với các khuôn kiểu miệng chuông (bell-mouthed) chẳng hạn như các khuôn được dùng cho bạc, hình 7 cho thấy sự cần thiết cho áp lực đùn ép lớn hơn với chỉ một chút cải tiến trong sự hoàn thiện bề mặt.
+Hình 7: Khuôn đùn ép nhôm có cả phần thắt và giảm (hình trái) và đôi khi được gọi là “Bearing vương miện”. Hình phải là một lỗ điển hình cho đùn ép.
+Bố trí các thanh
+Bố trí một lỗ đơn thì đơn giản. Thực chất là đặt lỗ sao cho trọng tâm của lỗ phù hợp tương ứng với tâm của khuôn. Nếu có sự biến đổi đáng kể độ dày, thì việc đặt lỗ phải thực hiện phần mỏng nhất tại tâm. Điều này sẽ nâng cao vận hành đùn ép. Hình 8 chỉ ra những ví dụ điển hình.
+Hình 8: Khi tỉ lệ dòng chảy lớn hơn về phía tâm thì thường có thể đặt các thanh mỏng hơn cùng một hình dạng ở đó và đặt các thanh dày hơn về phía rìa (ngoại biên).
+Nếu một thanh mỏng và chiếm phần lớn nhất của khuôn, Bearing sẽ phải được tăng về phía tâm và giảm phía cuối.
+Có nhiều quan điểm để xắp xếp các thanh phù hợp nhất cho khuôn đa lỗ. Chúng có thể được bố trí xuyên tâm toả tròn hoặc bố trí phẳng(Radially or flat). Cách bố trí trước thường được ưa chuộng hơn. Trong cách bố trí xuyên tâm, trục chính của mỗi hình dạng nằm dọc theo một bán kính, tạo cho mỗi phần của bề mặt Bearing mối quan hệ đối với tâm của khuôn giống như các phần tương tự trên những hình dạng khác.
+Trong cách bố trí phẳng, trục chính của mỗi hình dạng nằm tại các góc phải hoặc song song với một bán kính. Một điểm mạnh của kiểu bố trí này là tất cả các phần được đùn ép có thể nằm trên bàn dẫn ra với độ xoắn nhỏ nhất.
+Thường cũng phải xem xét vận dụng thực tế để thiết lập một vòng tròn tiêu chuẩn cho mỗi kích cỡ khuôn (khoảng 2/3 đường kính khuôn), trong đó các lỗ nằm ở tâm. Điều này đảm bảo khả năng hỗ trợ hoán đổi nhau Hình 9 ra các thanh được bố trí theo hệ thống, cân xứng với tâm của khuôn. Việc bố trí có hệ thống sẽ làm đơn giản việc chỉnh sửa khuôn và làm giảm thiểu độ xoắn tại khuôn.
+
+Những người ủng hộ việc bố trí mà sẽ đảm bảo sự hỗ trợ đầy đủ trên bàn dẫn ra, sẽ đặt các thanh giống như cách bố trí như hình 10. Bằng cách hạn chế khuynh hướng xoắn trên bàn dẫn ra, thì việc xoắn tại khuôn cũng sẽ được hạn chế Hình 9 Hình 10
+Hình 9 : Các thanh được đặt cùng khoảng cách từ tâm khuôn do đó có thể đùn ép với cùng tỉ lệ tốc độ
+Hình 10: Bằng cách bồ trí các thanh ở vị trí như hình vẽ đảm bảo sự hỗ trợ đầy đủ hơn tại bàn dẫn ra
+Ma sát vách cạnh, vì billet tiếp xúc với vách xilanh (cylinder), sẽ tạo ảnh hưởng đáng kể lên đường nét của thanh đùn ép và có thể góp phần vào .OXIDE ENTRAPMENT và các vết vạch khi anod hoá. Do đó, ít nhất một khoảng trống 3/4” tính từ vách cạnh tới lỗ khuôn là cần thiết cho các thanh nhỏ và khoảng 11/2” cho các thanh lớn hơn và phức tạp. Trong mọi trường hợp, thanh được chia đều, theo chiều dọc và chiều ngang, do đó tác động một xu hướng ổn định cân bằng đối với vách cạnh.
+Khi một thanh không thể được đùn ép chính xác với hình dạng, thì cần có một vận hành thứ hai. Hình 11 là một ví dụ chứng minh một thanh hình chữ “U”.
+
+11.a 11.b
+Hình 11
+Hình 11: Các hình dạng có lưỡi dài trong khuôn rất khó để đùn ép. Tuy nhiên hình dạng có thể được sửa đổi để củng cố lưỡi khuôn (xem hình11.b).Đùn ép ở dạng trước thì thanh sau đó được tạo hình lại theo chỉ số yêu cầu
+Nó gây ra áp lực không hợp lí tại “Lưỡi - tongue” trong quá trình đùn ép. Một biện pháp là phải tạo một mẫu của thanh nhôm mong muốn, và sau đó uốn cong nó thành hình dạng như dạng bên phải. Dưới hình dạng này, thanh đã sẵn sàng cho đùn ép và khuôn cắt tương ứng.
+Bridge Widths (Rộng cầu)- là khoảng cách giữa các hình dạng kề nhau (Adjacent-gần kề, kế liền) của một khuôn đa lỗ thì được gọi là Bridge. Khoảng cách Bridge tối thiểu được quyết định bởi một số hệ số, chẳng hạn như độ dày khuôn và thiết kế dụng cụ hỗ trợ. Hình 12 chỉ ra một phương pháp tính toán các hệ số cứng (strength) lên Bridge của khuôn. Chiều rộng Bridge điển hình được đưa ra ở bảng 3
+Bảng 3:
+Đường kính khuôn 4” 5” 6” 8” 95/8” 117/8” 147/8” 167/8” 187/8” 227/8” Độ rộng Bridge 1” 1” 11/8” 11/8” 13/8” 11/2” Lớn hơn 11/2”
+Hình 12: Hệ số và công thức tính độ cứng của khuôn
+Bản vẽ phác thảo làm rõ giá trị công thức ”B” và “CA” theo như
+thiết kế .trong phần lớn trường hợp cần nhỏ nhất là 7/8”
+Công thức
+T(B-D) - T1 (B1 - 0.062) + T2 (B2 - 0.062)
+2 CA
+T: Độ dày khuôn T1= Độ dày khuôn sau B2= Độ rộng cầu đệm lót T2=Độ dày tấm đệm lót D= Khoảng hở côn trung bình B = Độ rộng cầu khuôn CA= Diện tích tâm B1= Độ rộng cầu khuôn sau (Backer) F= Hệ số cứng
+Chế tạo khuôn vừa là khoa học vừa là nghệ thuật. Thậm chí khi hai khuôn được chế tạo ra “giống nhau” và được vận hành trong cùng điều kiện, chúng cũng hiếm khi thực hiện chính xác giống nhau.
+Một số nhà máy đùn ép có được khuôn bằng những dụng cụ thiết bị chế tạo khuôn mặc dù phần lớn những chỉnh sửa được thực hiện bởi một hoặc nhiều chuyên gia về khuôn.
+Các công đoạn dưới đây và gia công một khuôn thực tế được sử dụng trong đùn ép nhôm chỉ ra những công đoạn khác nhau được yêu cầu.
+Mặc dầu thời gian được đưa ra trong các công đoạn chế tạo khuôn, thì cũng luôn phải ghi nhớ rằng thời gian là một nhân tố tương đối cho từng trường hợp và thay đổi đáng kể; phụ thuộc vào từng nhà chế tạo khuôn; điều kiện và kiểu dụng cụ chế tạo, các hệ số dung sai và các nhân tố liên quan.
+Các quy trình vận hành cơ khí trong việc chế tạo khuôn- Việc gia công cơ khí trên một khuôn đặc biệt được chỉ ra trong các bức ảnh dưới đây, được yêu cầu tổng số khoảng 48 tiếng, cộng thêm thời gian cho xử lý nhiệt và đánh bóng. Trước khi công việc thực sự bắt đầu trên khuôn, phải dành thêm 7 tiếng cho chuẩn bị khuôn. Khuôn được làm bằng nhôm, hình 13, và được kiểm tra trên máy chiếu (Projector) Leitz #GP 650.
+Bề mặt và tiện, hình 15, sẽ mất 50 phút trên một máy tiện có dụng cụ gia công cacbua (Carbide). Tốc độ là 250 rmp. Nạp cho cắt thô là 0.024”/rev. và 0.006” cho hoàn thiện (finish). Độ sâu cắt là 1/16” cho thô và 0.05” đến 0.010” cho hoàn thiện. Mặt vạt cạnh (Chamfer) được làm thành 4 đường cắt bằng tay.
+Tốc độ đề nghị cho các khoảng trống (Blank) khuôn có kích cỡ khác nhau trên các thép có thể so sánh được là đường kính 6”-7”: 330 rmp; 8”-9”: 250 rmp; 10-12”: 180 rmp; và đường kính 14”: 125 rmp.
+Sau 5 phút mài bề mặt, khoảng trống (Blank) đã sẵn sàng cho Layout. Đánh dấu các giới hạn vị trí dằng trước và sau trên khuônmất khoảng 1 tiếng (xem hình 16). Cần một tiếng rưỡi để phác hoạ vẽ can khuôn trước và sau (xem hình 17). Cần 3 tiếng để tính toán và phác thảo phía sau cho mài (Milling).
+Mất khoảng 2 tiếng cho việc khoan 9 lỗ khởi điểm (Starting) trong mỗi lỗ (xem hình 18). Mài côn ngược mất 14 tiếng (hình 19). Máy cán (mài) được sử dụng là 3/32” (11/20 và 30). Tốc độ là 650 rpm. Nạp bằng tay.
+Khoan và gọt giũa các lỗ khởi đầu để cho cưa cắt mất khoảng 1 tiếng. Một lỗ (hole) trong mối lỗ (Opening) phải được gọt giũa sao cho hợp với một lưỡi cưa 0.038 x 1/16”.
+Máy cưa (hình 20) mất khoảng 51/4 tiếng. Máy cưa này (0.038” x 1/16”)có 32 răng, khía lượn sóng. Tốc độ từ.....đến 100 ft/ phút.
+Vì hai cạnh (Leg) của mỗi lỗ (Opening) được đo 0.034 và........tương ứng, chúng quá hẹp để.........cho nên loại cưa của thợ kim hoàn được sử dụng (hình 21). Và mất khoảng 11/2 tiếng cho công đoạn này.
+Thêm 11/2” tiếng nữa để mài cán côn trên độ sâu Bearing.
+Rũa bằng máy (hình 22) và dũa bằng tay (hình 23), và đánh bóng cuối cùng mất nhiều thời gian nhất khoảng 17 tiếng.
+Chi phí ban đầu cho thép chế tạo khuôn khoảng $20.
+Kim loại được sử dụng (H12) là thép chế tạo khuôn 5% Crom, làm cứng bằng khí (Air-hardening). Nó là loại được sử dụng rộng rãi trong các khuôn cho đùn ép nhôm, kẽm, magiê. Thép tương tự cũng được dùng cho lõi trục (Mandrel), khối đệm lót, dummy block, và Punch (máy dập, máy khoan). Các phân tích điển hình là: C: 0.35; Cr: 5.00; V: 0.40; W: 1.50; Mo: 1.50.
+Thép được tôi này được cung cấp thành: (1) các thanh- được cán nóng (hot rolled), được rèn (forged),.......(2) kim loại hình - các khối, đĩa (disk), các hình dạng đặc biệt (3) Thanh khoan.........
+Ủ: Yêu cầu vật liệu làm kín trong khoang được làm kín. Vật liệu có thể là mạt gang mới (cast-iron chip) hoặc cát trong đó thêm một số lượng nhỏ vật liệu cácbon. Nung tại 1550 F một tiếng mỗi inch của độ dày thùng, sau đó làm lạnh từ từ cùng lò. Độ cứng đạt được là 207Brinell.
+TÔI CỨNG: Yêu cầu gia nhiệt trước, chậm khoảng từ 1250 F đến 1400 F. Sau đó nhiệt độ được tăng lên 1850 F. Để hạn chế decarbuiation và làm kín trong xử lý nhiệt, bộ phận được tôi cứng trong lò được kiểm soát bởi không khí hoặc được làm kín trong một hỗn hợp làm kín trung tính chẳng hạn như mạt gang xám, sạch hoặc một trong những hợp chất làm kín thương mại. Nếu vật liệu làm kín được sử dụng, thì cần tiếp tục được gia nhiệt cao ít nhất là một tiếng cho mỗi inch độ dày container.
+Tôi: Đối với một độ cứng 420-460 (44-48 Rockwell C), thì cần nhiệt độ từ 1075 đến 1110 F. Đối với tuổi thọ khuôn lâu hơn thì cần thời gian tôi lâu. Việc hướng dẫn tôi có thể tư vấn các nhà chế tạo thép.
+
+

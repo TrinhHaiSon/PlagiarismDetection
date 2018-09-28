@@ -1,0 +1,292 @@
+LỜI NÓI ĐẦU Thiết kế quy trình công nghệ gia công nắp trục ĐHSPKT HƯNG YÊN
+
+Trong những năm gần đây, công nghệ đã được coi là động lực phát triển quan trọng đối với nhiều quốc gia.
+Để phát triển nền kinh tế của mình, từng quốc gia đã có những chính sách phù hợp ưu tiên phát triển công nghệ
+Nước ta đang trên con đường tiến lên sự nghiệp công nghiệp hoá, hiện đại hoá. Với đường lối xây dựng chủ nghĩa xã hội, Đảng và nhà nước ta đã đề ra đồng thời ba cuộc cách mạng trong đó có cuộc cách mạng khoa học kỹ thuật là then chốt, là động lực quan trọng để phát triển đất nước. Vì vậy phải ưu tiên phát triển công nghiệp một cách hợp lý.
+Trước tình hình và yêu cầu cấp thiết đó, việc phát triển ngành công nghệ chế tạo máy đóng vai trò hết sức quan trọng. Song song với việc phải phát triển ngành chế tạo máy còn đòi hỏi phải có đội ngũ cán bộ có trình độ cao về lý thuyết và khả năng vận dụng lý thuyết vào thực tiễn để có thể đáp ứng được yêu cầu của sự phát triển, bắt kịp và hoà nhập với nền kinh tế - khoa học kỹ thuật trong khu vực và trên thế giới.
+Là một sinh viên học chuyên ngành cơ khí chế tạo máy, em đã được trang bị những kiến thức cơ bản về mặt lý luận, những kiến thức cơ sở - chuyên ngành và được thực tập tay nghề. Để tổng hợp củng cố được những kiến thức đã được trang bị, em đã được nhận đồ án tốt nghiệp với đề tài “Thiết kế quy trình công nghệ gia công nắp trục”. Mục đích của đề tài nhằm đánh giá những kiến thức đã được trang bị. Tổng hợp kiến thức tạo cơ sở để sau này ra thực tế sản xuất.
+
+MỤC LỤC
+LỜI NÓI ĐẦU.. 1
+MỤC LỤC.. 2
+DANH MỤC HÌNH VẼ.. 4
+DANH MỤC BẢNG BIỂU.. 4
+CHƯƠNG I: TỔNG QUAN.. 5
+1.1 Mục đích, ý nghĩa của đề tài5
+1.2 Phân tích chức năng làm việc và điều kiện làm việc của chi tiết6
+1.3 Phân tích tính công nghệ trong kết cấu của chi tiết6
+1.3.1 Vật liệu chế tạo chi tiết6
+1.3.2 Yêu cầu kỹ thuật7
+1.4 Xác định dạng sản xuất8
+1.4.1 Xác định khối lượng của chi tiết8
+1.4.2 Xác định dạng sản xuất9
+1.5 Xác định phương pháp chế tạo phôi và thiết kế bản vẽ chi tiết lồng phôi9
+1.5.1 Xác định phương pháp chế tạo phôi9
+1.5.2 Thiết kế bản vẽ chi tiết lồng phôi10
+CHƯƠNG II: THIẾT KẾ QUY TRÌNH CÔNG NGHỆ GIA CÔNG.. 11
+2.1 Xác định đường lối công nghệ. 11
+2.1.1 Phương pháp gia công. 11
+2.1.2 Máy công cụ và dụng cụ cắt tham gia gia công:11
+2.3 Thiết kế nguyên công. 15
+2.3.1 Nguyên công I: Phay mặt đầu. 15
+2.3.2 Nguyên công II: Phay mặt đáy. 17
+2.3.3 Nguyên công III: Phay mặt trước. 19
+2.3.4 Nguyên công IV: Phay mặt sau. 21
+2.3.5 Nguyên công V: Khoan – doa 4 lỗ Ø10. 23
+2.3.6 Nguyên công VI: Tiện lỗ Ø21, Ø25, Ø28. 25
+2.3.7 Nguyên công VII: Khoét – doa lỗØ23. 26
+2.3.8 Nguyên công VIII: Khoét – doa lỗ Ø23 còn lại28
+2.3.9 Nguyên công IX: Khoan – taro 4 lỗ M6, Khoan-Doa lỗ Ø4 mặt trước. 30
+2.3.10 Nguyên công X: Khoan – taro 4 lỗ M6 Khoan-Doa lỗ Ø4 mặt sau. 31
+2.3.11 Nguyên công XI: Khoan – taro 4 lỗ M6 trên mặt đầu. 33
+CHƯƠNG III: TÍNH TOÁN LƯỢNG DƯ GIA CÔNG VÀ CHẾ ĐỘ CẮT.. 35
+3.1 Cơ sở tính toán lượng dư và chế độ cắt35
+3.1.1. Cơ sở tính toán lượng dư gia công:35
+3.1.2. Cơ sở tính toán chế độ cắt gia công cơ khí36
+3.2.Tính lượng dư gia công cho một nguyên công và tra lượng dư cho các nguyên công còn lại.40
+3.2.1 Tính lượng dư gia công cho nguyên công II (phay mặt đáy). 41
+3.2.2 Tra lượng dư cho các nguyên công còn lại45
+3.3 Tính chế độ cắt cho một nguyên công và tra chế độ cắt cho các nguyên công còn lại47
+3.3.1 Tính chế độ cắt cho nguyên công IX (Khoan –Taro 4 lỗ M6). 48
+3.3.2 Tra chế độ cắt cho các nguyên công còn lại.51
+3.4 Tính thời gian gia công cơ bản cho các nguyên công. 75
+3.4.1 Cơ sở tính toán thời gian gia công. 75
+3.4.2 Tính thời gian gia công cho các nguyên công. 76
+CHƯƠNG 4: TÍNH VÀ THIẾT KẾ ĐỒ GÁ.. 88
+4.1 Cơ sở về thiết kế đồ gá. 88
+4.2 Tính toán lực kẹp theo kết cấu đồ gá. 88
+4.3 Các thành phần của sai số gá đặt91
+4.4 Những yêu cầu kỹ thuật của đồ gá.92
+4.5 Nguyên lý làm việc của đồ gá.93
+4.6 Thành phần đồ gá. 94
+KẾT LUẬN.. 95
+TÀI LIỆU THAM KHẢO.. 96
+
+DANH MỤC HÌNH VẼ
+Hình 1.1 Nắp trục. 6
+Hình 1.2: Phân chia thể tích chi tiết9
+Hình 1.3 Bản vẽ chi tiết lồng phôi11
+Hình 4.1 Phân tích thành phần lực. 89
+
+DANH MỤC BẢNG BIỂU
+Bảng 1.1 Thành phần hóa học của vật liệu. 7
+Bảng 1.2 Dạng sản xuất10
+Bảng 4.1 Bảng chi tiết đồ gá. 88
+
+
+
+
+CHƯƠNG I: TỔNG QUAN
+1.1 Mục đích, ý nghĩa của đề tài
+Đề tài “Thiết kế quy trình công nghệ gia công chi tiết nắp trục” là đề tài tốt nghiệp của bộ môn công nghệ chế tạo máy, thuộc Trung tâm đào tạo và thực hành công nghệ cơ khí, nhằm kết thúc khoá học trong chương trình đào tạo cao đẳng khoá 2012 – 2015 của trường Đại học Sư phạm kỹ thuật Hưng Yên, giúp sinh viên sau khi tốt nghiệp sẽ thiết kế được quy trình công nghệ gia công các sản phẩm khác nhau trong thực tế sản xuất, nắm được các ưu, nhược điểm của các phương pháp gia công, từ đó tìm được các phương pháp gia công tối ưu, giảm thời gian gia công, giảm giá thành sản phẩm.
+Hình 1.1 Nắp trục
+
+
+1.2 Phân tích chức năng làm việc và điều kiện làm việc của chi tiết
+Nắp trục là chi tiết dạng hộp, ở vị trí đáy của nắp trục có 4 lỗ Ø10 dùng để định vị nắp trục lên thân máy, các lỗ này được gia công chính xác vừa làm chuẩn định vị khi lắp ráp, vừa làm chuẩn định vị khi gia công. Chi tiết có 2 lỗ đối xứng Ø23 dùng để lắp các nắp đậy có chức năng điều chỉnh vị trí cho trục chính, trục chính lắp ráp ở vị trí lỗ Ø28. Mặt phẳng đáy của nắp trục tiếp xúc với vỏ máy, toàn bộ chi tiết nắp trục mang chức năng làm giá đỡ đảm bảo trục được lắp ráp chính xác với thân máy. Mỗi bề mặt có lỗ lớn, đều có các lỗ vít để lắp ráp nắp đậy tra mỡ, chắn bụi vào trong vị trí bôi trơn.
+1.3 Phân tích tính công nghệ trong kết cấu của chi tiết
+Nắp trục làm từ vật liệu gang xám 15-32, các góc cạnh, vị trí không tham gia làm việc được bo góc tránh tập trung ứng suất khi xảy ra rung động dù nhỏ của máy.
+Mặt đáy của chi tiết được gia công phẳng, 4 lỗ Ø8 được gia công vuông góc nhằm lắp ghép chính xác với lên thân máy, đảm bảo lỗ Ø23 đồng trục với trục chính của máy tiện.
+Chi tiết không có gân đỡ, tuy nhiên cũng không cần gân đỡ đối với chi tiết này, vì ở vị trí ụ động, chi tiết không chịu rung động lớn.
+Vật liệu chế tạo chi tiết là gang xám 15-32, là loại vật liệu có tính đúc tốt – dễ chảy đầy lỏng khuôn đúc, va tính thấm dầu tốt, do đó gang xám được làm bộ phận ổ trục chuyển động, vì tại đó dầu bôi trơn được duy trì lâu hơn sô với các chi tiết được làm từ vật liệu khác.
+Các lỗ lớn sau khi gia công là Ø28, Ø23 được vát mép cạnh lớn, để tránh mép lỗ cọ xát với bậc của trục hoặc bề mặt của nắp đậy.
+1.3.1 Vật liệu chế tạo chi tiết
+Vật liệu chế tạo chi tiết là gang xám 15-32, các thông số về vật liệu như sau
+15: giới hạn bền kéo của gang xám dk = 15kg/mm2
+32: giới hạn bền uốn của gang xám bu = 32kg/mm2
+Độ cứng của chi tiết không ghi trên bản vẽ, do đó độ cứng được lấy trong khoảng HB =163~229kg/mm2. Trong quá trình tính toán gia công, để dễ tính toán và đối chiếu với các bảng số liệu, ta lấy độ cứng HB = 190kg/mm2
+Bảng 1.1 Thành phần hóa học của vật liệu
+Thành phần các nguyên tố hóa học trong gang xám C Mn Si S P 3,5 ~3,7 0,5~0,8 2~4 0.15 0.3
+- khi chế tạo phôi cần điều chỉnh lượng thành phần nguyên tố hóa học trên nhằm mục đích nâng cao cơ tính, chống mài mòn bền mặt và chống sự ăn mòn hóa học
+1.3.2 Yêu cầu kỹ thuật
+Phôi sau khi đúc xong được ủ hoặc thường hóa, không có hiện tượng biến cứng, rỗ khí, rỗ xỉ.
+Các bề mặt làm việc chủ yếu có các yêu cầu kỹ thuật sau:
+- Lỗ Ø28 dung sai +0,08 mm, đạt cấp chính xác 8, là vị trí lắp đặt ổ lăn.
+- Lỗ Ø23 dung sai +0,03 mm, cấp chính xác 7, lắp ổ trượt, bạc lót cho trục.
+- Các lỗ Ø10 dung sai ±0,08 mm dùng để lắp ráp chi tiết lên thân máy với chốt định vị
+Bề mặt làm việc của chi tiết, bao gồm mặt đáy chi tiết, mặt đầu chi tiết, 2 bề mặt trước lỗ Ø23, bề mặt lỗ Ø23, bề mặt lỗ Ø25. Khoảng cách giữa 2 lỗ định vị theo chiều ngang có dung sai ±0,1mm, khoảng cách theo chiều ngang có dung sai ±0,1mm. Chiều cao từ mặt đáy đến tâm lỗ đạt dung sai ±0,035mm, độ đối xứng giữa các thành phần có dung sai ±0,1mm.
+Để đạt được các yêu cầu kỹ thuật trên, ta sử dụng phương pháp gia công gồm phay, khoan, khoét, doa, taro ren, tiện vát mép. Tuy nhiên không nên sử dụng dụng phương pháp tiện cho các nguyên công gia công lỗØ23 và Ø28 do chiều dài lỗ tương đối dài, nếu gia công bằng tiện lỗ cần phải có hệ thống gá dao phức tạp, lớn, nên khó gia công trong lỗ nhỏ, vì vậy đối với các nguyên công gia công lỗ này, ta sử dụng phương pháp gia công khoét, doa trên máy khoan cần.
+
+
+1.4 Xác định dạng sản xuất
+1.4.1 Xác định khối lượng của chi tiết
+Để xác định khối lượng của chi tiết, ta cần xác định thể tích của chi tiết, và khối lượng riêng của gang xám được cho trước là 7,1kg/dm3
+- Tính thể tích của chi tiết:
+Hình 1.2: Phân chia thể tích chi tiết
+Chi tiết nắp trục không có hình dạng phức tạp, thể tích của chi tiết được xác định bằng hiệu của hình khối chữ nhật với các lỗ.
+Thể tích của hình khối chữ nhật là
+V1= 50.65.65+2.16.21.65= 202930(mm3)= 0,20293(dm3)
+Thể tích các lỗ:
++ V2 =2. п .h.r2 = 2.п.9.22=226,08 (mm3)
++V4 = 8.п .h.r2 =8.п.14.32 =3165,12(mm3)
++ V3 =4.п .h.r2=4. п.14.32 =1582,56(mm3)
++V5 =п .h.r2=п.65. 132 =34992,9(mm3)
++V6 =4. п .h.r2=4.п.15.52 = 4710(mm3)
++V7 = п .h.r2= п.65.142 = 40003,6(mm3)
+Thể tích của chi tiết là:
+V=V1-(V2+V3+V4+V5+V6+V7)=118789.74(mm3) =0,1878974 dm3
+- Xác định khối lượng của chi tiết :
+Thể tích của chi tiết được xác định là 0,1878974 dm3
+Khối lượng riêng của gang xám là 7,1kg/dm3
+Khối lượng của chi tiết là : 7,1. 0,1878974 =1,33405kg
+1.4.2 Xác định dạng sản xuất
+Số lượng yêu cầu sản xuất trong 1 năm là 19000 chiếc/năm
+Số lượng chi tiết chế tạo trong 1 năm là: N = N0 . m . (1+α)(1+β) chiếc / năm
+Trong đó N0 là số lượng sản phẩm yêu cầu, N0=19000 m là số chi tiết đang xét có trong một sản phẩm, m=1 α là tỉ lệ phế phẩm không tránh khỏi, lấy giá trị = 5% β là tỉ lệ dự trữ trong sản xuất, lấy giá trị bằng 6% Vậy
+Tra bảng dạng sản xuất với trọng lượng chi tiết là 1,33kg, số lượng chi tiết 21147 chiếc
+Bảng 1.2 Dạng sản xuất
+Dạng sản xuất Q – khối lượng của chi tiết >200 kg 4-200 kg <4 kg Sản lượng hàng năm Đơn chiếc <5 <10 <100 Hàng loạt nhỏ 55-100 100-200 100-500 Hàng loạt vừa 100-300 200-500 500-5000 Hàng loạt lớn 300-1000 500-1000 5000-50000 Hàng khối >1000 >5000 >50000
+Dạng sản xuất được xác định là hàng loạt lớn.
+1.5 Xác định phương pháp chế tạo phôi và thiết kế bản vẽ chi tiết lồng phôi
+1.5.1 Xác định phương pháp chế tạo phôi
+Nắp trục là chi tiết dạng hộp, hình dáng chi tiết chỉ là hình khối đơn giản và các lỗ gia công có vị trí không khó khăn.Lỗ Ø28 và Ø25 có thể được tạo rỗng trên phôi, Kim loại chế tạo phôi là gang xám, có tính điền đầy khuôn tạo phôi, kết cấu phôi có dạng đối xứng, vì vậy có thể sử dụng 2 nửa khuôn kim loại cho máy đúc, vì vậy để chế tạo phôi, ta sử dụng phương pháp đúc trong khuôn kim loại.
+1.5.2 Thiết kế bản vẽ chi tiết lồng phôi
+Để thiết kế bản vẽ chi tiết lồng phôi, ta cần dựa vào các yếu tố: lượng dư gia công bề mặt chi tiết, dung sai cho phép của vật liệu đúc, độ nhám bề mặt chi tiết đúc.
+- Tra bảng 3-94 (sổ tay CNCTM tập 1 tr252), với vật liệu đúc cấp chính xác I, lượng dư gia công với vị trí bề mặt khi rót kim loại ở phía trên là 3mm
+- Tra bảng 3-3 (sổ tay CNCTM tập 1 tr174), sai lệch cho phép kích thước phôi đúc là 0,6mm
+- Tra bảng 3-13 (sổ tay CNCTM tập 1 tr185), phôi đúc là gang xám đúc trong khuôn kim loại có độ nhám bề mặt Rz=40μm
+- Lượng dư khi gia công lỗ là đường kính lỗ, khi gia công 2 lỗ này, ta chọn phương pháp khoan, khoét và doa
+Hình 1.3 Bản vẽ chi tiết lồng phôi
+
+
+CHƯƠNG II: THIẾT KẾ QUY TRÌNH CÔNG NGHỆ GIA CÔNG
+2.1 Xác định đường lối công nghệ
+2.1.1 Phương pháp gia công
+Dạng sản xuất cho 19000 chi tiết nắp trục là hàng loạt lớn, nên ta chọn phương án sản xuất là phân tán nguyên công, các quy trình công nghệ được chia thành các nguyên công đơn giản có thời gian gia công khác nhau, mỗi máy công cụ thực hiện một nguyên công nhất định, đồ gá được sử dụng là đồ gá chuyên dùng.
+Đối với các nguyên công có biên dạng gia công giống nhau như 4 lỗ ren M6 trên 1 mặt, ta sử dụng 1 bầu kẹp mũi khoan nhiều trục con, cho phép gia công đồng thời 4 lỗ trên cùng 1 lần chạy dao.
+Vì chi tiết có hình dáng đối xứng, nên 1 nguyên công có thể chạy 2 lần trên 2 vị trí gia công đối xứng.
+2.1.2 Máy công cụ và dụng cụ cắt tham gia gia công:
+a) Máy khoan cần VR4A
+- Công suất động cơ trục chính P=4,5 kW
+- Kích thước bàn máy làm việc 1000x1500 mm
+- Số cấp tốc độ trục chính là 16 (28; 38; 50; 67; 90; 125; 170; 224; 300; 400; 560; 750; 1000; 1320; 1800; 2500)
+- Giới hạn tốc độ trục chính từ 28÷2500 vòng/phút
+- Lượng chạy dao (mm/vòng): (0,05; 0,063; 0,08; 0,1; 0,132; 0,17; 0,212; 0,28; 0,355; 0,45; 0,56; 0,75; 0,95; 1,25; 1,6)
+b) Máy phay X6332B
+- Công suất động cơ trục chính P=3,7 kW
+- Kích thước bàn máy làm việc 320x1250 mm
+- Trục đứng: Số cấp tốc độ trục chính: 20 cấp gồm:40, 114, 152, 173, 228, 262, 364, 408, 524, 658, 816, 995, 1316, 1496, 1990, 2260, 2973, 3510, 4740, 6980
+- Trục nằm ngang: Số cấp tốc độ trục chính: 12 cấp gồm: 60, 80, 110, 140, 185, 250, 325, 430, 580, 755, 1000, 1350
+- Lượng chạy dao bàn máy của hai trục đứng và trục nằm giống nhau: 10; 20; 40; 80; 140; 250; 420; 740 (mm/ph)
+c) Máy tiện CZ6240A
+- Tốc độ trục chính: 38; 57; 113; 255; 380; 200; 300; 600; 900 1345; 2000.
+- Lượng chạy dao: 0,055; 0,056; 0,062; 0,086; 0,09; 0,11; 0,12; 0,14; 0,16; 0,17; 0,19; 0,22; 0,25; 0,28; 0.31; 0,34; 0,37;0,44; 0,45; 0,5; 0,56; 0,62; 0,69; 0,75; 0,87; 0,9; 1.
+- Công suất máy :P= 4,5 kw
+d) Dao phay mặt đầu răng chắp mảnh hợp kim cứng có các thông số:
+Loại 1
+- Đường kính dao: 100mm
+- Chiều dài đầu gá+ lưỡi cắt: 60mm
+- Số răng: 10
+Loại 2
+- Đường kính dao: 75mm
+- Chiều dài đầu gá + lưỡi cắt: 60mm
+- Số răng: 10
+e) Mũi khoan ruột gà thép gió P6M5
+- Đường kính d=5 mm, đuôi trụ, chiều dài tổng thể L=100mm, chiều dài phần làm việc l=50mm.
+- Đường kính d=9.8mm chuôi côn, chiều dài tổng thể 100mm, chiều dài phần làm việc 50mm.
+f) Mũi khoét liền khối chuôi côn thép gió P6M5
+- Đường kính d=27.8mm, chiều dài tổng thể L=160mm, chiều dài phần làm việc 80mm
+- Đường kính d=24.8mm, chiều dài tổng thể L=160mm, chiều dài phần làm việc 80mm
+g) Các loại mũi doa:
+- Đường kính 10mm, chiều dài phần làm việc 30mm, chiều dài tổng thể 100mm, chuôi trụ.
+- Đường kính 28mm, chiều dài tổng thể 160mm, chiều dài phần làm việc 80mm, chuôi côn .
+- Đường kính 25mm, chiều dài tổng thể 160mm, chiều dài phần làm việc 80mm, chuôi côn.
+h) Dao tiện ngoài lắp ghép mảnh hợp kim cứng bằng chêm.
+2.2 Xây dựng và lựa chọn phương án gia công
+Trên chi tiết có một bề mặt đáy và 4 lỗ Ø10, vì vậy để thuận tiện cho việc gá đặt và gia công các vị trí còn lại, ta ưu tiên gia công mặt phẳng đáy và các lỗ trước, tuy nhiên nếu gia công các lỗ Ø10 ngay sau khi gia công bề mặt đáy, việc gá đặt rất khó khan, vì vậy ta sẽ gia công mặt phẳng trên trước, sau đó gia công mặt phẳng đáy dựa theo chuẩn tinh là mặt phẳng trên mặt phẳng trước, mặt phẳng sau, tiếp đó gia công các lỗ Ø10 để lấy chuẩn định vị thống nhất. Sau đó các vị trí sau sắp xếp tùy ý
+Có 2 phương án gia công được đưa ra:
+Phương án 1
+- Nguyên công I: Phay mặt đầu
+- Nguyên công II: Phay mặt đáy
+- Nguyên công III: Phay mặt trước
+- Nguyên công IV: Phay mặt sau
+- Nguyên công V: Tiện lỗ Ø21, Ø25, Ø28
+- Nguyên công VI: Khoan – doa 4 lỗ Ø10
+- Nguyên công VII: Khoét – doa 2 lỗ Ø23 mặt trước
+- Nguyên côngVIII: Khoét – doa 2 lỗ Ø23 mặt sau
+- Nguyên công IX: Khoan – taro 4 lỗ M6 Khoan-Doa lỗ Ø4 mặt trước
+- Nguyên công X: Khoan – taro 4 lỗ M6 Khoan-Doa lỗ Ø4 mặt sau
+- Nguyên công XI: Khoan – taro 4 lỗ M6 trên mặt đầu
+Phương án 2
+- Nguyên công I: Phay mặt đầu
+- Nguyên công II: Phay mặt đáy
+- Nguyên công III: Phay mặt trước
+- Nguyên công IV: Phay mặt sau
+- Nguyên công V: Khoan – doa 4 lỗ Ø10
+- Nguyên công VI: Tiện lỗ Ø21, Ø25, Ø28
+- Nguyên công VII: Khoét – doa 2 lỗ Ø23 mặt trước
+- Nguyên côngVIII: Khoét – doa 2 lỗ Ø23 mặt sau
+- Nguyên công IX: Khoan – taro 4 lỗ M6 Khoan-Doa lỗ Ø4 mặt trước
+- Nguyên công X: Khoan – taro 4 lỗ M6 Khoan-Doa lỗ Ø4 mặt sau
+- Nguyên công XI: Khoan – taro 4 lỗ M6 trên mặt đầu
+Do vị trí lỗ làm việc chính cần độ chính xác cao, nên ta gia công 4 lỗ Ø10 ở chân chi tiết trước, sau đó lấy chuẩn định vị gia công lỗ chính, sử dụng lỗ chính làm chuẩn định vị để gia công tiếp các vị trí còn lại, vì vậy phương án 2 tối ưu và được chọn để thiết lập sơ đồ nguyên công.
+................................................
+Những yêu cầu an toàn về đồ gá :
++ Những chi tiết ngoài của đồ gá không được có cạnh sắc.
++ Không được làm xê dịch vị trí của đồ gá khi thay đổi điều chỉnh trên máy.
++ Các đồ gá phải được cân bằng tĩnh và cân bằng động.
++ Khi lắp các chi tiết trên đồ gá phải có dụng cụ chuyên dùng.
+4.5 Nguyên lý làm việc của đồ gá.
+Đồ gá được sử dụng gia công 4 lỗ M6 đảm bảo các yêu cầu kỹ thuật. Chi tiết được định vị khống chế 6 bậc tự do: mặt phẳng đáy được định vị bằng 2 phiến tỳ tinh khống chế 3 bậc tự do (tịnh tiến theo Oz, quay quanh Ox, Oy), một chốt trụ ngắn và một chốt trám định vị vào 2 rãnh đã gia công tinh khống chế 3 bậc tự do (tịnh tiến theo Ox, Oy, và quay quanh Oz), tổng cộng chi tiết đã được định vị 6 bậc tự do nên đảm bảo cứng vững.
+- Đặt phiến tỳ lên đế đồ gá và chốt định vị và xiết chặt vít.
+- Đặt đồ gá lên bàn máy sao cho rãnh bắt bu lông trùng với rãnh chữ T trên bàn máy sau đó xiết đồ gá cố định trên bàn máy bằng bu lông.
+- Bắt thân đồ gá lên trên đế đồ gá bằng 2 con bulông và 2 chốt
+- Bạc thay nhanh được bắt chặt bằng 1 con vít 8
+- Dịch chuyển đầu mũi khoét, doa sao cho tâm dao trùng tâm bạc dẫn hướng rồi gia công.
+- Để lấy chi tiết ra khỏi đồ gá sau khi gia công và chuẩn bị cho lần gá đặt tiếp theo làm như sau: nới lỏng đai ốc kẹp chặt bên động, kéo mỏ kẹp ra bên ngoài tách khỏi sự tiếp xúc với chi tiết, lúc này bulông kẹp chặt bên động sẽ được tụt xuống nhờ đòn bẩy bulông và mỏ kẹp bên cố định sẽ được thả lỏng và chi tiết được tháo ra, sau đó đặt chi tiết khác vào xiết đai ốc kẹp chặt bên động nhờ đòn bẩy mỏ kẹp bên cố định cũng được kẹp chặt.
+4.6 Thành phần đồ gá
+Bảng 4.1 Bảng chi tiết đồ gá
+Vị Trí Tên Gọi Số lượng Vật liệu 01 Đế đồ gá 01 Gang xám 02 Vòng đệm 08 Thép 45 03 Đai ốc M8 05 Thép 45 04 Chốt đỡ 02 Thép 45 05 Thanh kẹp 02 Thép 45 06 Lò xo 02 Thép C20 07 Bulong kẹp 02 Thép 45 08 Tấm dẫn hướng 01 Thép 45 09 Bạc lót 04 Thép C20 10 Bạc dẫn hướng 04 Thép C20 11 Vít M5 04 Thép 45 12 Chốt chặn 02 Thép 20X 13 Chốt trám 01 Thép 20X 14 Đòn Gánh 01 Thép 45 15 Chốt trụ ngắn 01 Thép 20X 16 Chốt chống 02 Thép 45 17 Thân đỡ sau 01 Gang xám 18 Chốt định vị 04 Thép 20X 19 Vít M6 08 Thép 20X 20 Ống lót 01 Thép 20X 21 Chốt quay 01 Thép 20X 22 Phiến tỳ 02 Thép 20X 23 Bulông M6 01 Thép 45 24 Thân đỡ trước 01 Gang xám 25 Vòng đệm U 01 Thép 45 26 Then 01 Thép 45
+
+KẾT LUẬN
+Sau một thời gian nghiên cứu, tham khảo tài liệu, cũng như vận dụng các kiến thức đã học kết hợp với sự giúp đỡ của bạn bè và sự hướng dẫn tận tình của thầy Đỗ Hoài Vũ, em đã thực hiện xong đồ án tốt nghiệp chuyên ngành công nghệ chế tạo máy qua việc “Thiết kế quy trình công nghệ gia công chi tiết Nắp trục- Bản vễ số 45.42”.
+Quy trình công nghệ này đáp ứng các yêu cầu về năng suất, đảm bảo được các yêu cầu về kỹ thuật của chi tiết gia công: độ chính xác về kích thước, các sai số về vị trí, hình dáng hình học, độ nhám bề mặt gia công cũng như đáp ứng về mặt kinh tế nhằm giảm giá thành sản phẩm.
+Quá trình thực hiện đồ án, mặc dù em đã nỗ lực nghiên cứu, cân nhắc và tính toán, song do sự hạn chế về trình độ kiến thức cũng như kinh nghiệm thực tế nên không tránh khỏi sai sót, chưa đạt sự tối ưu trong phương pháp công nghệ. Em rất mong nhận được những ý kiến đóng góp chỉ bảo của các thầy-cô và các bạn để rút kinh nghiệm cho công việc sau này được tốt hơn.
+Em xin chân thành cảm ơn sự hướng dẫn của thầy Nguyễn Hồng Phong, sự giúp đỡ của các bạn để tạo điều kiện cho em hoàn thành đồ án tốt nghiệp này.
+
+2.3 Thiết kế nguyên công
+2.3.1 Nguyên công I: Phay mặt đầu
+* Sơ đồ định vị và kẹp chặt
+.............................
+Những yêu cầu an toàn về đồ gá :
++ Những chi tiết ngoài của đồ gá không được có cạnh sắc.
++ Không được làm xê dịch vị trí của đồ gá khi thay đổi điều chỉnh trên máy.
++ Các đồ gá phải được cân bằng tĩnh và cân bằng động.
++ Khi lắp các chi tiết trên đồ gá phải có dụng cụ chuyên dùng.
+4.5 Nguyên lý làm việc của đồ gá.
+Đồ gá được sử dụng gia công 4 lỗ M6 đảm bảo các yêu cầu kỹ thuật. Chi tiết được định vị khống chế 6 bậc tự do: mặt phẳng đáy được định vị bằng 2 phiến tỳ tinh khống chế 3 bậc tự do (tịnh tiến theo Oz, quay quanh Ox, Oy), một chốt trụ ngắn và một chốt trám định vị vào 2 rãnh đã gia công tinh khống chế 3 bậc tự do (tịnh tiến theo Ox, Oy, và quay quanh Oz), tổng cộng chi tiết đã được định vị 6 bậc tự do nên đảm bảo cứng vững.
+- Đặt phiến tỳ lên đế đồ gá và chốt định vị và xiết chặt vít.
+- Đặt đồ gá lên bàn máy sao cho rãnh bắt bu lông trùng với rãnh chữ T trên bàn máy sau đó xiết đồ gá cố định trên bàn máy bằng bu lông.
+- Bắt thân đồ gá lên trên đế đồ gá bằng 2 con bulông và 2 chốt
+- Bạc thay nhanh được bắt chặt bằng 1 con vít 8
+- Dịch chuyển đầu mũi khoét, doa sao cho tâm dao trùng tâm bạc dẫn hướng rồi gia công.
+- Để lấy chi tiết ra khỏi đồ gá sau khi gia công và chuẩn bị cho lần gá đặt tiếp theo làm như sau: nới lỏng đai ốc kẹp chặt bên động, kéo mỏ kẹp ra bên ngoài tách khỏi sự tiếp xúc với chi tiết, lúc này bulông kẹp chặt bên động sẽ được tụt xuống nhờ đòn bẩy bulông và mỏ kẹp bên cố định sẽ được thả lỏng và chi tiết được tháo ra, sau đó đặt chi tiết khác vào xiết đai ốc kẹp chặt bên động nhờ đòn bẩy mỏ kẹp bên cố định cũng được kẹp chặt.
+
+
+4.6 Thành phần đồ gá
+Bảng 4.1 Bảng chi tiết đồ gá
+Vị Trí Tên Gọi Số lượng Vật liệu 01 Đế đồ gá 01 Gang xám 02 Vòng đệm 08 Thép 45 03 Đai ốc M8 05 Thép 45 04 Chốt đỡ 02 Thép 45 05 Thanh kẹp 02 Thép 45 06 Lò xo 02 Thép C20 07 Bulong kẹp 02 Thép 45 08 Tấm dẫn hướng 01 Thép 45 09 Bạc lót 04 Thép C20 10 Bạc dẫn hướng 04 Thép C20 11 Vít M5 04 Thép 45 12 Chốt chặn 02 Thép 20X 13 Chốt trám 01 Thép 20X 14 Đòn Gánh 01 Thép 45 15 Chốt trụ ngắn 01 Thép 20X 16 Chốt chống 02 Thép 45 17 Thân đỡ sau 01 Gang xám 18 Chốt định vị 04 Thép 20X 19 Vít M6 08 Thép 20X 20 Ống lót 01 Thép 20X 21 Chốt quay 01 Thép 20X 22 Phiến tỳ 02 Thép 20X 23 Bulông M6 01 Thép 45 24 Thân đỡ trước 01 Gang xám 25 Vòng đệm U 01 Thép 45 26 Then 01 Thép 45
+
+KẾT LUẬN
+Sau một thời gian nghiên cứu, tham khảo tài liệu, cũng như vận dụng các kiến thức đã học kết hợp với sự giúp đỡ của bạn bè và sự hướng dẫn tận tình của thầy Đỗ Hoài Vũ, em đã thực hiện xong đồ án tốt nghiệp chuyên ngành công nghệ chế tạo máy qua việc “Thiết kế quy trình công nghệ gia công chi tiết Nắp trục- Bản vễ số 45.42”.
+Quy trình công nghệ này đáp ứng các yêu cầu về năng suất, đảm bảo được các yêu cầu về kỹ thuật của chi tiết gia công: độ chính xác về kích thước, các sai số về vị trí, hình dáng hình học, độ nhám bề mặt gia công cũng như đáp ứng về mặt kinh tế nhằm giảm giá thành sản phẩm.
+Quá trình thực hiện đồ án, mặc dù em đã nỗ lực nghiên cứu, cân nhắc và tính toán, song do sự hạn chế về trình độ kiến thức cũng như kinh nghiệm thực tế nên không tránh khỏi sai sót, chưa đạt sự tối ưu trong phương pháp công nghệ. Em rất mong nhận được những ý kiến đóng góp chỉ bảo của các thầy-cô và các bạn để rút kinh nghiệm cho công việc sau này được tốt hơn.
+Em xin chân thành cảm ơn sự hướng dẫn của thầy Nguyễn Hồng Phong, sự giúp đỡ của các bạn để tạo điều kiện cho em hoàn thành đồ án tốt nghiệp này.
+TÀI LIỆU THAM KHẢO Thiết kế quy trình công nghệ gia công nắp trục ĐHSPKT HƯNG YÊN
+
+“Hướng dẫn thiết kế đồ án công nghệ chế tạo máy” _GS.TS Trần Văn Địch.
+Nhà xuất bản KH & KT Hà Nội – 2002.
+“Sổ tay công nghệ chế tạo máy” ( Tập 1,2,3 ) _ GS.TS Nguyễn Đắc Lộc, GS.TS Lê Văn Tiến, GS.TS Ninh Đức Tốn, GS.TS Trần Xuân Việt.
+Nhà xuất bản KH & KT Hà Nội.
+“Atlas đồ gá” _ GS.TS. Trần Văn Địch “Giáo trình công nghệ chế tạo máy” _ GS.TS Trần Văn Địch, GS.TS Nguyễn Trọng Bình, GS.TS Nguyễn Thế Đạt, GS.TS. Lê Văn Tiến, GS.TS. Trần Xuân Việt
+Nhà xuất bản KH & KT Hà Nội – 2003.
+“Dung Sai Và Lắp Ghép”_ PGS.TS Ninh Đức Tôn.
+Nhà xuất bản giáo dục.
+“Nguyên Lý Cắt Kim Loại” _GS.TS Trần Văn Địch.
+Nhà xuất bản KH & KT -2008
+“Sức Bền Vật Liệu”_ GS.TS Đặng Việt Cương , PGS.TS Khổng Doãn Điền.
+Nhà xuất bản giáo dục.
+
+TÀI LIỆU THAM KHẢO Thiết kế quy trình công nghệ gia công nắp trục ĐHSPKT HƯNG YÊN
+1] : Thiết kế đồ án công nghệ chế tạo máy [2] : Sổ tay công nghệ chế tạo máy tập 1 (bộ 3 tập) [3] : Sổ tay công nghệ chế tạo máy tập 2 (bộ 3 tập) [4] : Sổ tay công nghệ chế tạo máy tập 2 (bộ 3 tập) [5] : Sổ tay nhiệt luyện [6] : Công nghệ chế tạo máy tập 1 [7] : Sổ tay công nghệ chế tạo máy tập 1 (bộ 7 tập) [8] : Sổ tay công nghệ chế tạo máy toàn tập (trường ĐHBK
+

@@ -1,0 +1,325 @@
+HỆ THỐNG ĐIỀU KHIỂN THIẾT BỊ ĐIỆN TỪ XA VÀ TỰ ĐỘNG QUAY SỐ BÁO ĐỘNG THÔNG QUA MẠNG ĐIỆN THOẠI, thuyết minh ĐIỀU KHIỂN THIẾT BỊ ĐIỆN TỪ XA
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+ĐẠI HỌC QUỐC GIA TP.HỒ CHÍ MINH
+TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT
+KHOA ĐIỆN – ĐIỆN TỬ
+BỘ MÔN ĐIỆN TỬ
+…… 000 ……
+LUẬN VĂN TỐT NGHIỆP
+ĐỀ TÀI:
+HỆ THỐNG ĐIỀU KHIỂN
+THIẾT BỊ ĐIỆN TỪ XA VÀ
+TỰ ĐỘNG QUAY SỐ BÁO ĐỘNG
+THÔNG QUA MẠNG ĐIỆN THOẠI
+Giáo viên hướng dẫn : TS.TRẦN THU HÀ
+PHẦN I
+GIỚI THIỆU ĐỀ TÀI
+
+Trong thời đại ngày nay, hệ thống thông tin liên lạc là một trong những vấn đề quan trọng của loài người. Nhất là những ứng dụng của kỹ thuật thông tin liên lạc vào lĩnh vực kinh tế, khoa học và đời sống. Chính vì nó mà con người và xã hội loài người đã phát triển không ngừng. Đặc biệt trong những thập niên gần đây, ngành bưu chính viễn thông đã phát triển mạnh mẽ tạo ra bước ngoặc quan trọng trong lĩnh vực thông tin để đáp ứng nhu cầu của con người. Ngoài nhu cầu về thông tin con người còn muốn những nhu cầu khác như : tự động trả lời điện thoại khi chủ vắng nhà, hộp thư thoại,…Vì thế ngành bưu chính viễn thông luôn là đề tài cho các nhà khoa học, kỹ sư và đông đảo các bạn đọc thuộc các ngành có liên quan đến ngành bưu chính viễn thông. Nhưng trong số các đề tài về bưu chính viễn thông ở nước Việt Nam chưa có đề tài nào dùng mạng điện thoại để: điều khiển thiết bị điện và tự động quay số báo động thông qua đường điện thoại.
+Đối với hệ thống điều khiển xa bằng tia hồng ngoại thì giới hạn về khoảng cách là yếu điểm của kỹ thuật này, ngược lại với mạng điện thoại đã được mở rộng với quy mô toàn thế giới thì giới hạn xa không phụ thuộc vào khoảng cách đã mở ra một lối thoát mới trong lĩnh vực tự động điều khiển và tự động báo động .
+Hiện nay, do nhu cầu trao đổi thông tin của người dân ngày càng tăng ,đồng thời việc gắn các thiết bị điện thoại ngày càng được phổ biến rộng rãi, do đó việc sử dụng mạng điện thoại để truyền tín hiệu điều khiển là phương thức thuận tiện nhất, tiết kiệm nhiều thời gian cho công việc ,vừa đảm bảo các tính năng an toàn cho các thiết bị điện gia dụng vừa tiết kiệm được chi phí sử dụng và đảm bảo an toàn cho tính mạng và tài sản của mỗi người dân do cháy nổ hoặc do chạm chập điện gia dụng gây ra
+Ngoài ra,ứng dụng của hệ thống điều khiển xa bằng điện thoại, giúp ta điều khiển các thiết bị điện ở những môi trường nguy hiểm mà con người không thể làm việc được hoặc những dây chuyền sản xuất để thay thế con người.
+Trong đời sống của chúng ta luôn tồn tại những khu vực rất dễ bị cháy, nên việc lắp đặt ,các hệ thống báo cháy có tầm quan trọng hết sức to lớn. Nó giúp ta phát hiện nhanh chóng ,chữa cháy kịp thời ở thời kỳ đầu của vụ cháy đem lại sự bình yên cho mọi người, bảo vệ tài sản cho nhân dân, nhà máy, xưởng sản xuất.
+Ngày nay, việc phòng cháy chửa cháy trở thành mối quan tâm hàng đầu của nước ta cũng như nhiều nước trên thế giới. Nó trở thành nghĩa vụ của mỗi người dân. Trên các phương tiện thông tin đại chúng luôn tuyên truyền giáo dục cho mỗi người dân ý thức phòng cháy chữa cháy, nhằm mục đích hạn chế những vụ cháy đáng tiết xảy ra.
+Các vụ cháy thường xảy ra vào mùa khô gây thiệt hại lớn về người và của. Ta có thể điển hình một số vụ cháy xảy ra gần đây như : vụ cháy chợ Đồng Xuân ở Hà Nội, khách sạn Cửu Long, và một số vùng dân cư trong thành phố Hồ Chí Minh… Qua đó ta thấy rằng khi một vụ cháy xảy ra gây thiệt hại rất lớn, và thường xảy ra vào ban đêm, tại những nơi có nhiều chất liệu dễ cháy, nhiều phòng ốc, nhà xưởng mà không có người canh gác hoặc sơ ý trong lúc kiểm tra. Vì vậy rất khó phát hiện các đám cháy dẫn đến việc cháy lan rộng khó dập tắt. Việc đặt một thiết bị báo cháy ở những vùng như vậy là hết sức cần thiết.
+Cùng với sự phát triển nhanh chóng của hệ thống thông tin điện thoại, thì việc báo cháy qua điện thoại thì rất cần thiết, nó giúp ta báo kịp thời những thông tin về vụ cháy đến các cơ quan chức năng có liên quan.
+Ngày nay, việc phát hiện kẻ trộm đột nhập vào nhà, vào các kho chứa hàng, vào các ngân hàng, những nơi cất những tài sản quí hiếm, những tài liệu mật … là rất cần thiết đối với mọi người dân, các cơ quan chức năng, các ngân hàng … Nếu ta chỉ sử dụng hệ thống báo trộm tại chỗ thì kẻ trộm có thể tìm cách khống chế tắt tất cả các hệ thống báo động tại chỗ, làm cho chúng ta không phát hiện được hoăc chúng ta đi xa thì hệ thống báo động tại chỗ cũng không có tác dụng. Nếu chúng ta dùng mạng điện thoại để báo động khi có kẻ trộm đột nhập thì rất có hiệu quả. Thông qua mạng điện thoại thì hệ thống báo động sẽ tự động quay số báo động đến các cơ quan chức năng và những người có liên quan để xử lý kịp thời dù chúng ta không có mặt ở hiện trường.
+Xuất phát từ những ý tưởng và tình hình thực tế như ở trên, tôi chọn đề tài: “Hệ thống điều khiển thiết bị điện từ xa và tự động quay số báo động thông qua mạng điện thoại” cho luận án tốt nghiệp.
+Mạch điều khiển thiết bị điện từ xa thông qua mạng điện thoại, giúp ta điều khiển các thiết bị điện gia dụng khi không có ai ở nhà khi ta ở cách xa nhà(hay ở nhà) hoặc ở những môi trường nguy hiểm mà con người không thể làm việc được hoặc một dây chuyền sản xuất để thay thế con người. Chẳng hạn muốn điều khiển các thiết bị điện trong nhà khi vắng người, ta quay số điện thoại về nhà và gởi mã lệnh đóng hay ngắt thiết bị thì mạch sẽ thực hiện. Khi mạch thực hiện xong lệnh của ta thì mạch sẽ gọi tín hiệu phản hồi cho ta biết mạch đã thực hiện xong lệnh hay chưa.
+Mạch quay số báo động: sẽ tự động quay số báo động tới cho các cơ quan chức năng biết khi có cháy hay có kẻ trộm đột nhập.
+Với đề tài: “Hệ thống điều khiển thiết bị điện từ xa và tự động quay số báo động thông qua mạng điện thoại” gồm 3 phần:
+PHẦN I: GIỚI THIỆU ĐỀ TÀI:
+Giới thiệu về sự phát triển của ngành điện tử-viễn thông trong khoa học kỹ thuật và những ứng dụng thực tế của chúng vào các lĩnh vực khoa học, xã hội. Đặc biệt là sự ứng dụng của vi điều khiển vào hệ thống viễn thông để tạo ra được một sản phẩm có thể ứng dụng rộng rãi trong các lĩnh vực điều khiển và báo động trong đời sống hằng ngày của người dân. Sản phẩm có tên gọi “Hệ thống điều khiển thiết bị điện từ xa và tự động quay số báo động thông qua mạng điện thoại”
+PHẦN II. NỘI DUNG CHÍNH CỦA ĐỀ TÀI:
+Tình hình nghiên cứu trong và ngoài nước Phương án thiết kế
+- Thiết kế và thi công :
++ Khối cảm biến chuông.
++ Khối kết nối thuê bao.
++ Khối cảm biến tín hiệu đảo cực.
++ Khối cảm biến cháy.
++ Khối cảm biến phát hiện trộm.
++ Khối thu-phát DTMF.
++ Khối giải mã và hiển thị.
++ Khối xử lí trung tâm.
++ Khối công tấc bên ngoài.
++ Khối công xuất ra.
++ Khối tạo tiếng nói.
+từ các khối trên ta kết hợp các khối lại với nhau tạo thành một hệ thống hoạt động hoàn chỉnh để thi công mạch và viết chương trình điều khiển cho mạch hoạt động theo đúng yêu cầu đề ra.
+PHẦN III. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN ĐỀ TÀI
+Tóm tắt toàn bộ nội dung đề tài, nêu ưu-khuyết điểm của đề tài. Đưa ra hướng phát triển của đề tài.
+Mong rằng hệ thống điều khiển thiết bị điện từ xa và tự động quay số báo động thông qua mạng điện thoại mà tôi thực hiện sẽ được mở rộng theo nhiều hướng hoàn chỉnh hơn, ứng dụng rộng rãi trong thực tế để ngày càng cải thiện đời sống vật chất , tinh thần và sinh hoạt của con người. Góp phần hiện đại hóa và công nghiệp hóa đất nước đáp ứng tốt yêu cầu của chính phủ đề ra.
+PHẦN II
+NỘI DUNG
+CHÍNH CỦA ĐỀ TÀI
+CHƯƠNG I
+PHƯƠNG ÁN THIẾT KẾ
+
+I . MỤC ĐÍCH CỦA ĐỀ TÀI:
+Mục đích của đề tài là thiết kế và thi công hệ thống điều khiển thiết bị điện từ xa và tự động quay số báo động thông qua mạng điện thoại với khả năng phản hồi trạng thái, kết quả điều khiển thiết bị và báo động khi có sự cố bằng tiếng nói, thông báo cho trung tâm điều khiển, trung tâm bảo vệ khi sự cố vừa mới xảy ra hoặc người điều khiển khi hệ thống đã hoàn thành nhiệm vụ, tạo cảm giác yên tâm cho người điều khiển.
+II . PHƯƠNG PHÁP NGHIÊN CỨU:
+Để thực hiện được đề tài, tôi cần phải xác định được phương pháp nghiên cứu với trình tự nghiên cứu như sau:
+Khảo sát hệ thống nguyên lý hoạt động mạng điện thoại, khảo sát IC MT8880, khảo sát vi điều khiển 8951 Lập sơ đồ khối theo mục tiêu của đề tài Tính toán thiết kế phần cứng Thiết kế phần mềm cho khối xử lý trung tâm Thiết kế mạch xử lý tín hiệu phản hồi bằng tiếng nói.
+III . TÌNH HÌNH NGHIÊN CỨU TRONG VÀ NGOÀI NƯỚC:
+Hệ thống điều khiển từ xa nắm giữ 1 vai trò quan trọng trong công cuộc công nghiệp hóa, hiện đại hóa đất nước. Điều khiển từ xa rất đa dạng phong phú: trong lĩnh vực quân sự được ứng dụng vào điều khiển máy bay không người lái, tên lửa, phi thuyền, vệ tinh nhân tạo… trong dân dụng điều khiển từ xa làm tăng tính tiện ích và tăng giá trị sử dụng cho các thiết bị.
+Điều khiển thiết bị điện từ xa và tự động quay số báo động khi có sự cố thông qua hệ thống thông tin liên lạc là sự kết hợp giữa các ngành Điện – Điện tử và Viễn thông, sự phối hợp ứng dụng vi điều khiển hiện đại và hệ thống thông tin liên lạc đã hình thành một hướng nghiên cứu và phát triển không nhỏ trong khoa học kỹ thuật. Điều khiển thiết bị điện từ xa và tự động quay số báo động khi có sự cố thông qua mạng điện thoại khắc phục được nhiều giới hạn trong hệ thống điều khiển từ xa và báo động thông thường. Hệ thống này không phụ thuộc vào khoảng cách, môi trường ,đối tượng điều khiển và đối tượng báo động. Điểm đặc trưng nổi bậc của hệ thống là tính lưu động của tác nhân điều khiển (người điều khiển),đối tượng báo động và đối tượng được điều khiển là cố định.
+Trên thế giới, ở các nước phát triển không ít những công trình nghiên cứu khoa học đã thành công khi dùng mạng điều khiển và báo động thông qua đường truyền của hệ thống thông tin: Tại Nga có những nhà máy điện, những kho lưu trữ tài liệu quý đã ứng dụng hệ thống điều khiển từ xa và tự dộng báo động thông qua đường điện thoại để đóng ngắt những nơi cao áp, tự động quay số báo động khi có sự cố, tự động xã bình chữa cháy …và cũng tại Nga đã có hệ thống điều khiển và báo động thông qua mạng Internet để điều khiển nhà máy điện nguyên tử.
+Ở Mỹ có những chung cư lớn sử dụng hệ thống khóa cửa, két sắt được lắp đặt bí mật thông qua 1 tổng đài nội bộ.
+Trên đây là những thành tựu của các nước tiên tiến. Còn ở Việt Nam cũng có:
++ Một số đề tài nghiên cứu sử dụng mạng điện thoại để điều khiển nhưng chưa thực sự là 1 đề tài hoàn chỉnh bởi vì các đề tài này chỉ điều khiển được 2 thiết bị điện hoặc có đề tài điều khiển được 4 thiết bị nhưng phương pháp phản hồi không chính xác (chỉ phản hồi bằng tiếng nhạc) và không thể tắt thiết bị bằng công tắc bên ngoài.
++ Một số đề tài nghiên cưú sử dụng mạng điện thoại để báo động khi có cháy nhưng các đề tài này chỉ được thực hiện trên lý thuyết.
+Từ những tình hình thực tế trên, hệ thống điều khiển từ xa và tự động quay số báo động qua mạng điện thoại mặc dù có những đặc trưng nổi bật, nhưng chúng chỉ được ứng dụng ở những công trình có tầm cỡ lớn và chưa thực sự là một sản phẩm phổ biến trong dân dụng là do giá thành sản phẩm còn quá cao.
+Xuất phát từ nhu cầu thực tế đó, tôi thực hiện đề tài : “Hệ thống điều khiển thiết bị điện từ xa và tự động quay số báo động thông qua mạng điện thoại” với mục đích tạo ra một sản phẩm có độ tin cậy cao nhưng giá thành sản phẩm hạ nhằm nâng cao đời sống tiện ích cho con người, góp phần vào công cuộc công nghiệp hóa, hiện đại hóa đất nước.
+Ý TƯỞNG THIẾT KẾ:
+Ý tưởng thiết kế là dựa vào mạng điện thoại có sẵn để thiết kế hệ thống tự động điều khiển đóng ngắt thiết bị điện từ xa và tự động quay số báo động khi có sự cố, với sự trợ giúp của kỹ thuật vi điều khiển. Hệ thống này được thiết kế trên mô hình đóng ngắt 4 thiết bị, tự động quay số báo động khi có cháy,có kẻ trộm đột nhập và phương pháp phản hồi kết quả điều khiển, báo động bằng tiếng nói được lưu trữ và cài đặt sẳn. Ngoài ra hệ thống chỉ có thể điều khiển được khi nhấn đúng mã và không thể xảy ra trường hợp người ngoài có thể điều khiển hệ thống do vô tình quay số ngẫu nhiên
+
+Hệ thống này có 2 chức năng:
+Điều khiển thiết bị điện từ xa thông qua mạng điện thoại:
+Để điều khiển, đầu tiên người điều khiển phải gọi số máy điện thoại nơi lắp đặt thiết bị điều khiển. Điện thoại được gọi có mạch điều khiển mắc song song với dây điện thoại (thiết bị muốn điều khiển được mắc vào mạch điều khiển). Sau một thời gian đổ chuông nhất định, nếu không có ai nhấc máy thì mạch sẽ tự động điều khiển đóng mạch. Sự đóng mạch này là đóng tải giả để kết nối thuê bao. Sau đó người điều khiển sẽ nhấn mã passwords để xâm nhập vào hệ thống điều khiển. Khi nhấn đúng mã số passwords mạch sẽ phát ra lời giới thiệu để người điều khiển biết với nội dung thông báo: “ Đây là hệ thống điều khiển thiết bị điện từ xa qua điện thoại. Xin bạn hãy bấm mã điều khiển”. Lúc này, mạch điều khiển sẵn sàng nhận lệnh. Nếu nhấn sai mã passwords thì người điều khiển không thể xâm nhập vào hệ thống điều khiển được.
++ Sau khi nhấn đúng mã passwords thì người điểu khiển có thể bắt đầu kiểm tra trạng thái tất cả các thiết bị và điều khiển các thiết bị. Nếu muốn kiểm tra trạng thái tất cả các thiết bị trước khi điều khiển và sau khi điều khiển thì người điều khiển nhấn mã số để kiểm tra. Nếu người điều khiển nhấn đúng mã số để kiểm tra thì hệ thống này sẽ báo cho người điều khiển biết trạng thái tất cả các thiết bị điện đang muốn điều khiển ( Ví dụ :sau khi bấm đúng mã passwords 2397, rồi bấm tiếp số 5 thì người điều khiển sẽ nghe được tín hiệu phản hồi về bằng tiếng nói nội dung như sau: “Thiết bị 1 đã tắt, thiết bị 2 đã tắt,thiết bị 3 đã tắt, thiết bị 4 đã tắt”).
+Để tắt,tắt các thiết bị ta sẽ qui định mã tắt tắt các thiết bị như sau :
+Số 6 được chọn là lệnh tắt thiết bị Số 9 là lệnh tắt thiết bị. Số 8 được chọn là lệnh tắt tất cả các thiết bị. Số 1 được chọn là thiết bị 1. Số 2 được chọn là thiết bị 2. Số 3 được chọn là thiết bị 3. Số 4 được chọn là thiết bị 4.
+Ví dụ: Như vậy muốn tắt thiết bị 1 ta bấm số 21, muốn tắt thiết bị 2 ta bấm số 92. Sau mỗi lần điều khiển mạch sẽ phát ra tiếng nói để báo kết quả cho người điều khiển (ví dụ : nếu ta muốn tắt thiết bị 1 thì ta sẽ bấm số 21. Sau khi bấm xong số 21 thì hệ thống này sẽ có tín hiệu phản hồi về bằng tiếng nói với nội dung : “Thiết bị 1 đã tắt” . Nếu muốn tắt thiết bị 2 thì ta bấm số 92. Sau khi bấm xong số 21 thì hệ thống này sẽ có tín hiệu phản hồi về bằng tiếng nói với nội dung : “Thiết bị 2 đã tắt” . Ví dụ : khi có sự cố ta muốn tắt tất cả các thiết bị điện thì ta gọi điện thoại về nơi điều khiển sau đó bấm mã 2397 để xâm nhập vào hệ thống điều khiển, sau đó bấm số 5 để tắt tất cả các thiết bị điện. Sau khi bấm số 5 xong thì hệ thống này sẽ có tín hiệu phản hồi về bằng tiếng nói với nội dung : “Tất cả các thiết bị đã tắt” để cho người điều khiển biết là tất cả các thiết bị mình muốn điều khiển đã tắt.
+Sau khi điều khiển xong thì người điều khiển gác máy. Lúc này, mạch không còn nhận được lệnh điều khiển. Sau một thời gian nhất định 30giây, mạch sẽ tự động ngắt mạch kết nối thuê bao. Chú ý, trong thời gian điều khiển, nếu có người nào đó nhấc máy bên máy bị gọi thì vẫn có thể thông thoại với người điều khiển.
+2. Tự động quay số báo động khi có sự cố:
+Khi có cháy thì từ bộ cảm biến cháy sẽ cho ra một tín hiệu tác động đến vi điều khiển báo cho vi điều khiển biết là có sự cố cháy thì vi điều khiển sẽ điều khiển quay số báo động. Số điện thoại này sẽ được nạp trước từ bàn phím điện thoại. Hệ thống này sẽ tự động quay số báo động đến những trung tâm như phòng cháy chữa cháy, bộ phận bảo vệ hay những ngưới có trách nhiệm về những vấn đề đó. Khi quay số báo động đến phòng cháy chữa cháy xong nếu ở đầu bên kia nhấc máy thì hệ thống này sẽ phát ra câu báo động để báo cho phòng cháy chữa cháy biết với nội dung :” Hiện nay tại số nhà A, đường B, phường C, quận D đang có cháy. Xin các đồng chí tới chữa cháy.”. Nếu cuộc gọi này không thành công thì hệ thống sẽ tự động tắt tải giả và nhảy sang gọi cuộc gọi thứ 2 . Nếu cuộc gọi thứ 2 cũng không thành công thì hệ thống này sẽ nhảy về gọi cuộc gọi thứ 1, cứ luân phiên gọi như vậy đến khi nào 2 cuộc gọi thành công thì thôi. Sau khi quay số điện thoại cho phòng cháy chữa cháy xong thì hệ thống này sẽ tự động quay số điện thoại thứ 2 đề báo cho chủ nhà biết hay báo cho bộ phận bảo vệ biết là hiện giờ nhà của mình đang cháy hay xí nghiệp, cơ quan của mình đang cháy để kịp thời chữa cháy.Sau khi quay số cho chủ nhà xong nếu chủ nhà nhấc máy thì hệ thống này sẽ tự động báo cho chủ nhà với nội dung như sau : “ Hiện nay nhà của bạn đang cháy. Xin bạn tìm cách xử lý”. Nếu điện thoại chủ nhà bận hay chưa nhấc máy thì hệ thống này tự động đợi trong vòng 30giây rồi gọi lại. Các cuộc gọi này gọi đến khi nào thành công thì thôi.
+
+V. PHƯƠNG ÁN THIẾT KẾ VÀ SƠ ĐỒ KHỐI:
+Phương án 1 :
+Dùng vi mạch số với tín hiệu phản hồi và phát đi bằng tiếng nhạc
+Hình 1: sơ đồ khối dùng vi mạch số
+
+Đối với phương án thiết kế sử dụng vi mạch số thì đòi hỏi người thiết kế phải nắm vững phương pháp thiết kế bằng kĩ thuật số và chức năng của các vi mạch tham gia trong mạch điện. Mặt khác, nếu thiết kế bằng vi mạch số thì mạch rất phức tạp, to và cồng kềnh. Không được mềm dẻo khi muốn phát triển thêm hay khi muốn thay đổi cách điều khiển.
+Mạch này dùng tín hiệu phản hồivà phát đi bằng tiếng nhạc báo động cho nên người điều khiển hay người được thông báo không biết chính xác các trạng thái làm việc của mạch và trạng thái báo động.
+
+2. Phương án 2 :
+Dùng vi điều khiển với tín hiệu phản hồi và phát đi bằng tiếng nhạc:
+Hình 2 : Sơ đồ khối dùng vi điều khiển
+Đối với phương án thiết kế sử dụng vi điều khiển thì đòi hỏi người thiết kế phải biết về cách thiết kế phần cứng và viết chương trình phần mềm cho vi điều khiển. Sử dụng phương pháp này để thiết kế thì mạch điện sẽ đơn giản hơn so với dùng vi mạch số và tính mềm dẻo của nó rất cao nếu ta muốn thay đổi cách điều khiển.
+Mạch này dùng tín hiệu phản hồi và phát báo động bằng tiếng nhạc cho nên người điều khiển hay người nhận tín hiệu báo động không nhận biết các trạng thái làm việc của mạch và trạng thái báo động.
+Mạch này không thể điều khiển tại chỗ bằng công tấc riêng được. Chỉ điều khiển tại chỗ ở nhà thông qua điện thoại mà thôi.
+3. Phương án 3:
+Dùng vi xử lý với tín hiệu phản hồi và phát đi bằng tiếng nói.
+Hình 3 : Sơ đồ khối dùng vi xử lý
+Trong phương án này người điều khiển có thể điều khiển tại chỗ các thiết bị bằng công tắc riêng ở bên ngoài không cần thông qua điện thoại.
+Trong phương án này dùng biến đổi D/A để tạo ra tiếng nói để phản hồi về người điều khiển và phát đi báo động. Sự phản hồi và phát đi bằng tiếng nói này do khối vi xử lí trung tâm ra lệnh. Nội dung của tín hiệu phản hồi và phát đi được lưu trữ bên trong bộ nhớ EPROM.
+Ưu điểm của phương án này là người điều khiển và người nhận báo động biết chính xác trạng thái các thiết bị và tình hình cần báo động thông qua tiếng nói
+4. Phương án 4:
+Dùng vi điều khiển với tín hiệu phản hồi và phát đi bằng tiếng nói
+Hình 4 : Sơ đồ khối dùng vi điều khiển có phản hồi bằng tiếng nói
+
+Trong phương án này người điều khiển có thể điều khiển tại chỗ các thiết bị bằng công tắc riêng ở bên ngoài không cần thông qua điện thoại.
+Trong phương án này dùng biến đổi D/A để tạo ra tiếng nói để phản hồi về người điều khiển và phát đi báo động. Sự phản hồi và phát đi bằng tiếng nói này do khối vi xử lí trung tâm ra lệnh. Nội dung của tín hiệu phản hồi và phát đi được lưu trữ bên trong bộ nhớ EPROM.
+Ưu điểm của phương án này là người điều khiển và người nhận báo động biết chính xác trạng thái các thiết bị và tình hình cần báo động thông qua tiếng nói.
+Trong phương pháp dùng vi điều khiển thì ta tận dụng được ROM nội bên trong nên mạch điện sẽ ít phức tạp hơn so với dùng vi xử lý.
+
+5. Lựu chọn phương án thiết kế:
+Qua 4 phương án đã trình bày thì ta thấy phương án 4 là phương án hoàn chỉnh, tiện ích nhất trong khi thiết kế và thi công mach, mang tính hiện đại phù hợp với đề tài tốt nghiệp. Vì vậy tôi chọn phuơng án 4. Tuy nhiên đối với phương án này không phải không gặp những khó khăn bởi vì mạch điện phức tạp hơn , nhiều khối, thi công khó khăn đặc biệt là phần lưu trữ tiếng nói vào trong EPROM. Vì vậy khi lựa chọn phương án này đòi hỏi phải có một số máy móc hỗ trợ và đặc biệt là kiến thức về xử lí âm thanh.
+Tóm lại: Trong đề tài: “Hệ thống điều khiển thiết bị điện từ xa và tự động quay số báo động thông qua mạng điện thoại” tôi chọn phương án 4 để thiết kế và thi công. Vì phương án 4 có nhiều ưu điểm hơn hẳn 3 phương án trên. Đây cũng chính là nội dung chính của đề tài.
+6. Giải thích mối quan hệ giữa các khối :
+6.1 Chức năng bộ phận điều khiển:
+Khi muốn điều khiển ta chỉ việc gọi về số máy của máy điện thoại được kết nối với bộ phận điều khiển ở nơi cần điều khiển thì tín hiệu chuông của tổng đài sẽ cấp cho thuê bao nếu thuê bao đó không bận. Mạch điều khiển được mắc song song vào đường dây của thuê bao. Lúc này, khối cảm biến chuông sẽ phát hiện tín hiệu này và ngõ ra thay đổi mức logic từ cao xuống thấp. Sự thay đổi mức logic này tác động vào khối xử lý trung tâm. Khối xử lý sẽ định thời gian đợi chuông. Sau một khoảng thời gian không ai nhấc máy tức vẫn còn tín hiệu chuông thì khối xử lý sẽ tác động vào khối kết nối thuê bao. Khối kết nối thuê bao sẽ đóng tải giả, lúc này tổng đài ngưng cấp tín hiệu chuông và kết nối cho thông thoại.
+Khi đã thông thoại, ta sẽ bấm mã passwords để xâm nhập vào hệ thống điều khiển. Sau khi bấm đúng mã passwords khối tạo tiếng nói sẽ phát ra lời giới thiệu “Đây là hệ thống điều khiển thiết bị điện từ xa thông qua điện thoại. Xin bạn hãy bấm mã điều khiển”, để báo cho người điều khiển biết mạch đã làm việc và chờ lệnh điều khiển. Khi người điều khiển muốn kiểm tra tất cả các trạng thái các thiết bị thì chỉ việc nhấn đúng mã số kiểm tra của mạch thì khối tạo tiếng nói sẽ báo trạng thái làm việc của các thiết bị nhằm mục đích gợi nhớ cho người điều khiển. Sau đó người điều khiển sẽ bấm lệnh điều khiển mở hay tắt, tín hiệu này tác động đến khối động lực đóng ngắt relay đồng thời lại tác động đến khối tạo tiếng nói để báo lại trạng thái thiết bị đã điều khiển với mục đích tạo sự an tâm chắc chắn của công việc điều khiển.
+Việc nhận dạng phím nào bấm, được khối giải mã DTMF quyết định. Khi người điều khiển nhấn phím, một cặp tần số DTMF truyền trên đường dây thoại. Tần số này nằm trên dãy thông của tín thiệu thoại, một tần số cao và một tần số thấp nên không thể trùng lấp với tín hiệu người nói. Khi giải mã DTMF và hiển thị số được nhấn, 4 bit được giải mã được đưa vào khối xử lý trung tâm để xử lý.
+Khi không ấn phím, sau một thời gian đợi mà không có phím ấn thì khối xử lý sẽ ngưng kết nối thuê bao. Lúc này tổng đài sẽ giải tỏa thuê bao. Người điều khiển có thể gác máy bất cứ lúc nào muốn ngừng điều khiển, mạch sẽ tự động ngắt kết nối thuê bao sau một thời gian nhất định để giải tỏa thuê bao.
+Khối công tấc bên ngoài để điều khiển khối công suất
+6.2 Chức năng bộ phận quay số tự động:
+Khi có sự cố thì từ bộ cảm biến sẽ cho ra một tín hiệu tác động đến bộ xử lý trung tâm báo cho bộ xử lý trung tâm biết là có sự cố. Bộ xử lý trung tâm lập tức sẽ điều khiển quay số báo động. Số điện thoại này sẽ được nạp trước từ bàn phím điện thoại. Số điện thoại được xuất từ khối trung tâm dưới dạng mã nhị phân và được truyền tới khối giải mã hiển thị và khối thu_phát DTMF để khối này biến đổi số nhị phân ra tầng số để truyền đến máy được gọi. Sau khi quay số xong nếu máy bị gọi được nhấc máy thì trạng thái nhấc máy sẽ được bộ cảm biến nhận dạng tín hiệu nhấc máyvà báo cho bộ xử lý trung tâm biết thuê bao bên kia đã nhấc máy. Ngay lập tức bộ xử lý trung tâm điều khiển khối xử lý tiếng nói để phát ra câu báo động.
+
+CHƯƠNG II
+THIẾT KẾ PHẦN CỨNG
+
+Hệ thống mạch điện gồm hai phần : mạch điều khiển và mạch âm thanh
+MẠCH ĐIỀU KHIỂN :
+I. SƠ ĐỒ NGUYÊN LÝ : (Hình 5)
+1. Nguyên lý hoạt động :
+1.1 Nguyên lý hoạt động của bộ phận điều khiển:
+Khi muốn điều khiển, người điều khiển gọi số máy cần điều khiển. Tổng đài sẽ xem máy cần điều khiển có bận không. Nếu máy này không bận thì tổng đài sẽ cấp chuông cho máy được gọi. Tín hiệu chuông được chỉnh lưu thành điện áp DC cấp cho Optron N35. Tín hiệu chuông làm cho optron dẫn. Ngõ ra từ mức logic cao xuống mức logic thấp, qua IC 74LS244 khuếch đại đưa đến tác động vào ngắt ngoài 1 của vi điều khiển để gọi chương trình “phục vụ ngắt 1”. Chương trình này sẽ định thời gian đợi chuông. Sau 1 thời gian nhất định mà không có người nhấc máy thì chương trình của vi mạch điều khiển sẽ cấp mức logic cao ở chân P1.4, qua IC đệm 74LS244 điều khiển relay đóng mạch kết nối thuê bao. Khi đóng mạch kết nối thuê bao, điện trở mạch vòng thuê bao giảm xuống còn khoảng 150 à 1500. Lúc đó trên đường dây xuất hiện dòng DC từ 20 à 100mA. Tổng trở giảm xuống tương đương trạng thái nhấc máy của thuê bao. Tổng đài nhận biết sự thay đổi này, ngừng cung cấp tín hiệu chuông và cung cấp dòng thông thoại cho thuê bao.
+Khi người điều khiển nhấn phím nào thì 1 cặp tone gồm 1 tần số cao và 1 tần số thấp tương ứng sẽ truyền trên đường dây thuê bao. Tín hiệu DTMF này sẽ được 1 IC chuyên dùng MT8880 giải mã DTMF ra thành 4 bit tương ứng với số của phím nhấn. Đồng thời lúc đó chân IRQ\CP của MT8880 sẽ chuyển trạng thái từ mức logic cao xuống mức logic thấp tác động vào vi điều khiển để vi điều khiển đón lệnh và thi hành lệnh.
+Sau khi nhận biết đầu bên kia đã đóng tải giả, người điều khiển bấm mã passwords để xâm nhập vào hệ thống điều khiển. Mã passwords trong hệ thống này được qui định 4 số là 2397. Nếu người điều khiển bấm sai mã passwords thì sẽ không xâm nhập được vào hệ thống điều khiển. Nếu người điều khiển nhấn sai một trong 4 mã passswords thì hệ thống yêu cầu người điều khiển phải nhấn lại từ đầu mã passwords. Sau khi bấm đúng mã passwords 2397, chương trình con được gọi để phát ra lời giới thiệu, chương trình con này cấp mức logic cao ở chân P2.6 để chọn IC4 làm việc,sau đó cấp mức logic thấp cho chân P0.1 để chọn EPROM cần truy xuất (chứa dữ liệu là lời giới thiệu) và cấp mức logic thấp cho chân P2.7 để khởi động mạch đếm (mạch tạo địa chỉ đếm từ địa chỉ 0000H à FFFFH) trong khoảng thời gian 7s sau đó trở lại mức cao kết thúc việc truy xuất dữ liệu trong EPROM chứa dữ liệu là lời giới thiệu. Tiếng nói được khuếch đại, qua biến áp cách ly và được tải trên đường dây điện thoại.
+Người điều khiển sau khi được gợi nhớ trạng thái của các thiết bị thì có thể tiếp tục điều khiển các thiết bị khác và vi điều khiển cũng sẽ báo trạng thái của thiết bị sau mỗi lần nhấn lệnh điều khiển.
+Port 0 , IC2 và chân P2.4 dùng để điều khiển đóng ngắt thiết bị. Trong quá trình đóng ngắt, để minh họa rõ ràng, tín hiệu 4 bit sau khi được giải mã tone sẽ được giải mã sang led 7 đoạn để hiển thị số phím được nhấn. Trên mạch có led báo hiệu khi có chuông, led báo hiệu đóng mạch kết nối thuê bao và led báo hiệu đóng ngắt thiết bị.
+Sau khi nhấn đúng mã passwords 2397, nếu lúc này người điều khiển muốn kiểm tra tất cả các trạng thái thiết bị trước khi muốn điều khiển thì sẽ bấm mã số 5 (Mã số 5 được qui định là mã kiểm tra tất cả các trạng thái thiết bị trong hệ thống điều khiển).Sau khi nhấn đúng số 5 thì người điều khiển sẽ nghe được tín hiệu phản hồi về với tiếng nó để báo trạng thái tất cả các thiết bị. Lúc này, người điều khiển biết rõ tất cả các trạng thái thiết bị. Sau đó, người điều khiển muốn tắt hay tắt thiết bị nào phụ thuộc vào mã lệnh người điều khiển muốn điều khiển tắt hay tắt. Nếu người điều khiển muốn tắt thiết bị thì người điều khiển bấm mã số 6 ( Mã số 6 được qui định là mã tắt thiết bị).Còn muốn tắt thiết bị nào là phụ thuộc vào mã số thứ hai.
+Trong hệ thống này các số được qui định cho các thiết bị như sau:
+- Số 1 tương ứng cho thiết bị 1
+- Số 2 tương ứng cho thiết bị 2
+- Số 3 tương ứng cho thiết bị 3
+- Số 4 tương ứng cho thiết bị 4
+Ví dụ : Muốn tắt thiết bị 1 thì người điều khiển phải bấm mã 61 tức là mã tắt thiết bị 1 (Mã số 6 là mã tắt và mã số 1 là thiết bị 1). Sau khi nhấn đúng mã 61 thiết bị 1 sẽ được tắt và vi điều khiển sẽ cho truy xuất EPROM báo trạng thái thiết bị 1 vừa mới điều khiển với nội dung “Thiết bị 1 đã tắt “. Nếu người điều khiển muốn tắt tiếp thiết bị 4 sẽ bấm mã 64, sau khi bấm đúng mã 64 người điều khiển sẽ nghe được tín hiệu phản hồi về bằng tiếng nói với nội dung “Thiết bị 4 đã tắt”.
+Nếu người điều khiển muốn tắt thiết bị thì bấm mã số 9 (Mã số 9 được qui định là mã tắt thiết bị) , còn muốn tắt thiết bị nào thì phụ thuộc vào mã bấm tiếp theo của mã số 9. Ví dụ: Muốn tắt thiết bị 1 người điều khiển bấm mã số 9 , sau đó bấm mã số 1 để tắt thiết bị 1. Sau khi bấm đúng mã 91 thì thiết bị 1 sẽ được tắt và sẽ có tín hiệu phản hồi về bằng tiếng nói để báo cho người điều khiển biết kết quả điều khiển bằng tiếng nói với nội dung “Thiết bị 1 đã tắt”. Nếu người điều khiển muốn tắt thiết bị 3 thì bấm tiếp mã 93 thì lập tức thiết bị 3 được tắt và đồng thời có tín hiệu phản hồi về báo kết qủa điều khiển với nội dung “Thiết bị 3 đã tắt”.
+Sau khi điều khiển hết tất cả các thiết bị muốn điều khiển, người điều khiển muốn kiểm tra lại trạng thái tất cả các thiết bị thì chỉ việc bấm mã số 5 (Mã này được qui định là mã kiểm tra tất cả các thiết bị ).Sau khi người điều khiển bấm đúng mã số 5 thì hệ thống sẽ đi kiểm tra tất cả các thiết bị và báo trạng thái hiện tại của tất cả các thiết bị cho người điều khiển biết. Ví dụ : “Thiết bị 1 đã tắt, thiết bị 2 đã tắt, thiết bị 3 đã tắt, thiết bị 4 đã tắt”.
+Trong hệ thống này còn dùng một chức năng là mã khẩn cấp, khi có sự cố cháy hay một số sự cố khác v.v.. hay khi người điều khiển muốn tắt hết tất cả các thiết bị cùng một lúc mà không cần phải đi tắt từng thiết bị một mất thời gian.
+Ví dụ: Khi có cháy xảy ra thì hệ thống này sẽ tự động quay số báo động cho người có trách nhiệm bảo vệ khu vực này biết. Khi người có trách nhiệm khu vực này biết sẽ lập tức quay số về thuê bao có gắn mạch điều khiển để tắt tất cả các thiết bị điện để trách chập mạch điện dẫn đến hư hỏng các thết bị điện và tránh chập mạch điện phát ra tia lửa điện để phát cháy các khu vực khác. Khi quay xong và bấm đúng mã passwords 2397 để vào hệ thống điều khiển thì người diều khiển chỉ việc bấm mã số 5 thì tất cả các thiết bị sẽ tắt và có tín hiệu phản hồi về bằng tiếng nói để báo trạng thái thiết bị với nội dung “Tất cả các thiết bị đã tắt”
+Sau khi người điều khiển bấm xong 1 số thì hệ thống này sẽ đợi trong khoảng thời gian 30giây để coi thử có phím nào được bấm tiếp không. Nếu có thì sẽ thực hiện tiếp và quay trở lại đợi tiếp 30giây. Nếu sau 30giây không có phím nhấn thì hệ thống sẽ tự động mở tải giả tắt kết nối thuê bao,kết thúc việc điều khiển.
+1.2 Tự động quay số báo động bảo vệ khi có sự cố:
+Mạch có chức năng tự động quay số báo động khi có sự cố (cháy, nổ, trộm..). Khi có tín hiệu cháy từ mạch ngoài tác động vào, tín hiệu này được đưa qua một FlipFlop với mục đích là chốt tín hiệu cháy này để tránh trường hợp khi cháy xảy ra sẽ làm đức dây mất tín hiệu báo cháy. Tín hiệu báo cháy này sau khi đi qua FlipFlop sẽ tác động vào chân P3.0 của vi điều khiển báo cho vi điều khiển biết là có cháy xảy ra . Lúc này vi điều khiển sẽ ra lệnh quay số báo động đến cho phòng cháy chữa cháy. Số điện thoại này đã được cài đặt sẵn trước đó thông qua bàn phím trên điện thoại. Cách cài đặt số điện thoại sẽ được trình bày ở phần sau. Nếu bên thuê bao phòng cháy chữa cháy nhấc máy thì lúc này tổng đài sẽ cấp tín hiệu đảo cực để báo lại cho bên thuê bao gọi là thuê bao đầu bên kia đã nhấc máy. Lúc này hệ thống sẽ nhận biết thuê bao bên kia nhấc máy bằng tín hiệu đảo cực mà tổng đài cung cấp cho nhờ vào một mạch cảm biến tín hiệu đảo cực và đưa tín hiệu đảo cực này đến chân P3.6 để báo cho vi điều khiển biết là đầu thuê bao bên kia (phòng cháy chữa cháy) đã nhấc máy. Lúc này, vi điều khiển ra lệnh xuất câu thông báo, báo động cho phòng cháy chữa cháy biết với nội dung bằng tiếng nói như sau:” Hiện nay tại số nhà A, đường B, phường C, quận D đang có cháy. Xin các đồng chí tới chữa cháy”. Sau khi quay báo động cho phòng cháy chữa cháy xong, thì hệ thống này sẽ tự động quay tiếp số điện thoại báo động thứ 2 để báo cho chủ nhà biết với nội dung :”Hiện nay nhà của bạn đang có cháy. Xin bạn hãy tìm cách xử lý.” Sau khi xuất xong câu báo động thứ 2 này, hệ thống này sẽ tự động tắt tải giả, kết thúc việc báo động. Sau đó ta phải reset lại cho mạch báo cháy.
+Ở trên là trường hợp 2 cuộc gọi điều thành công. Nếu cuộc gọi thứ nhất không thành công thì hệ thống sẽ tự động nhảy sang cuộc gọi thứ 2. Nếu cuộc gọi thứ 2 cũng không thàng công thì nhảy trở về cuộc gọi thứ nhất và tiếp tục gọi luân phiên như vậy cho đến khi nào cả hai cuộc gọi thành công thì thôi.
+Khi có trộm thì hệ thống này cũng báo động tương tự như báo cháy ở trên. Khi có tín hiệu phát hiện có trộm từ bộ cảm biến thì tín hiệu này được đưa qua 1 FlipFlop để chốt dữ liệu này lại. Tín hiệu sau khi chốt sẽ tác động vào chân P3.1 của vi điều khiển, báo cho vi điều khiển biết là có kẻ trộm. Sau khi vi điều khiển nhận được tín hiệu này ra lệnh quay số báo động đến cho chủ nhà biết trước, bằng cách đóng tải giả (nhấc máy), sau đó sẽ quay số điện thoại cho chủ nhà. Số điện thoại này đã được cài đặt sẵn trước đó thông qua bàn phím trên điện thoại. Cách cài đặt số điện thoại sẽ được trình bày ở phần sau. Sau khi quay xong số điện thoại xong thì hệ thống sẽ đợi trong khoảng thời gian 30giây, nếu không có ai nhấc máy thì sẽ nhảy sang thực hiện cuộc gọi thứ 2. Nếu cuộc gọi thứ 2 cũng không thành công thì nhảy về cuộc gọi thứ nhất và tiếp tục như vậy cho đến khi nào cả hai cuộc gọi thành công thì thôi. Nếu trong khoảng thời gian 30giây có người nhấc máy thì tổng đài cấp tín hiệu đảo cực báo cho thuê bao gọi biết là thuê bao đầu bên kia đã nhấc máy. Tín hiệu đảo cực được tổng đài cấp, được hệ thống này nhận bằng một mạch cảm biến tín hiệu đảo cực để báo cho vi điều khiển biết là đầu bên kia đã nhấc máy. Lúc này vi điều khiển sẽ cho truy xuất câu thông báo cho chủ nhà với nội dung thông báo bằng tiếng nói :”Hiện nay nhà của bạn đang có trộm. Xin bạn về nhà gấp”. Sau khi phát thông báo xong mạch sẽ tắt tải giả và nhảy sang thực hiện cuộc gọi thứ hai để báo cho công an địa phương biết. Nếu cuộc gọi thứ hai thành công thì sẽ phát câu thông báo:”Hiện nay tại số nhà A, đường B, phường C,quận D đang có kẻ trộm. Xin mời các đồng chí tới bắt gấp”. Sau khi phát thông báo xong hệ thống này sẽ tắt tải giả để tắt thuê bao, kết thúc cuộc gọi báo động. Sau khi kết thúc việc gọi báo động ta phải reset lại mạch báo trộm bằng một nút reset để cho mạch trở lại vị trí ban đầu.
+Khi muốn cài đặt số điện thoại để báo động, ta có thể ở xa hệ thống cũng có thể cài đặt được và cũng có thể ở tại chỗ để cài số điện thoại. Nếu muốn cài số điện thoại cần báo động vào hệ thống ta chỉ việc quay số điện thoại về hệ thống mình muốn cài đặt. Sau đó bấm mã passwords của hệ thống để xâm nhập vào hệ thống, tiếp theo sau là bấm lệnh để cài số điện thoại vào. Mã lệnh để cài đặt số diện thoại là 21. Sau khi bấm mã 21 thỉ hệthống sẽ cho ta cài đãt số điện thoại báo động thứ nhất cho báo động cháy, sau khi cài đặt xong số điện thoại thứ nhất muốn báo động cho báo động cháy thì người cài đặt bấm phím “ * ” để kết thúc số điện thoại thứ nhất . Nếu muốn kết thúc việc nạp số điện thoại luôn thì bấm tiếp phím “ # “ thì hệ thống sẽ cho kết thúc việc nạp số điện thoại. Nếu người điều khiển muốn cho nạp tiếp số điện thoại thứ 2 thì sau khi bấm phím “ * “ thì bấm tiếp số điện thoại thứ 2 muốn cài đặt. Sau khi bấm xong số điện thoại thứ 2 muốn cài đặt thì bấm phím “ * “ để kết thúc việc nạp số điện thoại thứ 2 và bắt đầu cho số điện thoại thứ 3. Nếu muốn cài đặt số điện thoại thứ 3 thì bấm tiếp số điện thoại thứ 3 muốn cài đặt vào. Sau đó bấm phím “ * “ để kết thúc số điện thoại thứ 3 và bắt đầu cho việc nạp số điện thoại thứ 4. Nếu muốn nạp số điện thoại thứ 4 thì bấm số điện thoại thứ 4 vào và bấm phím “ * “ để kết thúc việc việc nạp số điện thoại thứ 4 cũng là số điện thoại để báo động cuối cùng trong hệ thống báo động này. Để kết thúc việc nạp số điện thoại thì ta bấm tiếp phím “ # “ để thoát khỏi chương trình nạp số điện thoại.
+II . TÍNH TOÁN VÀ THIẾT KẾ HỆ THỐNG
+KHỐI CẢM BIẾN CHUÔNG:
+1.1 Sơ đồ nguyên lý :
+................................................
+2. Giải thích:
+Đây là chương trình phục vụ cho các chương trình khác khi được gọi đến. Khi đó chương trình có nhiệm vụ làm trễ đi một khoảng thời gian nhất định được cài đặt trước.
+Đầu tiên chương trình nạp cho thanh ghi R1 = 20, tắt timer 0 bằng cách xóa TR0, xóa cờ báo tràn TF0. Sau đó TH0 được nạp byte của (-50000) và byte thấp của (-50000) được nạp vào TL0. Con số (-50000) là con số của hệ số 10, dấu trừ tượng trưng cho các bit cao là bit 0.
+Sau khi nạp thời hằng cho hai thanh ghi chương trình sẽ bật timer 0. Timer 0 được đếm ở chế độ mode 1, đếm 16 bit, timer 0 tự động đếm lên cho đến FFFFH, rồi xuống 0000H. Lúc đó cờ tràn TF0 được bật lên 1. Chương trình lại tiếp tục giảm R1, và khi R1 chưa bằng 0 thì chương trình lặp lại quá trình đếm của timer 0.
+Khi R1 = 0 thì chương trình sẽ thoát về từ gọi chương trình con.
+Cách tính thời gian chương trình delay:
+Với chu kỳ của xung timer là 1us thì Tdelay được tính như sau:
+Tdelay = 20 x 50000 = 1000000 s = 1 s
+CHƯƠNG IV PHẦN THI CÔNG
+1. GIAI ĐOẠN CHUẨN BỊ:
+Để tiến hành giai đoạn thi công, đầu tiên ta phải lựa chọn linh kiện được sử dụng. Các IC được test trước khi dùng, sử dụng linh kiện mới, tụ điện và điện trở được chọn có sai số 1%. Sử dụng một testboard cho việc cân chỉnh sửa chửa và thay đổi được dễ dàng.
+Chuẩn bị một VOM, tần số kế để đo đạc Chuẩn bị một bộ nguồn chuẩn xác có điện áp 5V, 12V (sử dụng nguồn máy tính) Chuẩn bị một điện thoại để thử
+2. GIAI ĐOẠN VẼ MẠCH IN:
+Để thiết kế mạch in ta có thể sử dụng phần mềm để trợ giúp như: ORCAD hay EAGLE. Có thể vẽ trực tiếp bằng viết lông dầu, sơn hay có thể đặt làm bằng công nghệ in lụa.
+3. GIAI ĐOẠN LẮP RÁP:
+Thứ tự lắp ráp: Để quá trình thi công tiến hành thuận lợi, sai sót sơ xuất hay hư hỏng linh kiện là thấp nhất thì cần phải có thứ tự lắp ráp như sau:
+Kiểm tra mạch in với sơ đồ nguyên lý Lắp ráp cơ bản như đế IC, pinhead ….. Lắp ráp từng khối bằng cách ráp ở ngoài trước bằng testboard, sửa chữa cân chỉnh trước khi ráp vào mạch Viết chương trình phần mềm, nạp và chạy thử chương trình Lắp ráp hoàn chỉnh, kiểm tra và chạy thử. Ghi nhận kết quả để có phương án sửa chữa khi có sai sót
+PHẦN III
+KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN ĐỀ TÀI
+I. TÓM TẮT NỘI DUNG ĐỀ TÀI:
+Hệ thống điều khiển thiết bị điện từ xa và tự động quay số báo động là một hệ thống khá hoàn chỉnh. Hệ thống này có 2 chức năng như sau:
+ĐIỀU KHIỂN THIẾT BỊ ĐIỆN TỪ XA VỚI HỆ THỐNG BÁO TRẠNG THÁI THIẾT BỊ PHẢN HỒI BẰNG TIẾNG NÓI:
+Các thiết bị điện được nối song song với hệ thống điều khiển từ xa bằng đường điện thoại. Muốn điều khiển thiết bị điện ta quay số điện thoại về máy điện thoại có các thiết bị cần điều khiển. Sau khi quay số xong, ta qui định nếu sau 10 hồi chuông không có ai nhấc máy thì mạch này sẽ tự động đóng tải giả để kết nối thuê bao (thông thoại) với thuê bao gọi. Sau khi kết nối thuê bao, hệ thống này sẽ đợi phím nhấn trong khoảng 30giây nếu không có phím nhấn thì hệ thống này sẽ tự động mở tải giả tắt kết nối thuê bao.
+Sau khi có tín hiệu thông thoại người điều khiển bắt đầu nhấn mã passwords để xâm nhập vào hệ thống điều khiển. Mã passwords trong hệ thống này được qui định 4 số là 2397. Nếu người điều khiển bấm sai mã passwords thì sẽ không xâm nhập được vào hệ thống điều khiển. Nếu người điều khiển nhấn sai một trong 4 mã passswords thì hệ thống yêu cầu người điều khiển phải nhấn lại từ đầu mã passwords. Nếu mã passwords được nhấn đúng 4 số 2397 thì cho phép người điều khiển xâm nhập vào hệ thống điều khiển và đồng thời phát câu báo hiệu bằng tiếng nói với nội dung : “Đây là hệ thống điều khiển thiết bị điện từ xa thông qua đường điện thoại . Xin bạn hãy bấm mã điều khiển”. Sau khi phát xong câu giới thiệu, hệ thống này sẽ chờ lệnh điều khiển trong khoảng 30giây nếu không có phím nhấn thì hệ thống này sẽ tự động mở tải giả tắt kết nối thuê bao.
+Sau khi nhấn đúng mã passwords 2397, nếu lúc này người điều khiển muốn kiểm tra tất cả các trạng thái thiết bị trước khi muốn điều khiển thì sẽ bấm mã số 5 (Mã số 5 được qui định là mã kiểm tra tất cả các trạng thái thiết bị trong hệ thống điều khiển).Sau khi nhấn đúng số 5 thì người điều khiển sẽ nghe được tín hiệu phản hồi về với tiếng nó để báo trạng thái tất cả các thiết bị. Lúc này, người điều khiển biết được tất cả các trạng thái thiết bị. Sau đó, người điều khiển muốn mở hay tắt thiết bị nào phụ thuộc vào mã lệnh người điều khiển muốn điều khiển mở hay tắt. Nếu người điều khiển muốn mở thiết bị thì bấm mã số 6 ( Mã số 6 được qui định là mã mở thiết bị).Còn muốn mở thiết bị nào là phụ thuộc vào mã số thứ hai.
+Trong hệ thống này các số được qui định cho các thiết bị như sau:
+- Số 1 tương ứng cho thiết bị 1
+- Số 2 tương ứng cho thết bị 2
+- Số 3 tương ứng cho thiết bị 3
+- Số 4 tương ứng cho thiết bị 4
+Ví dụ : Muốn mở thiết bị 1 thì người điều khiển phải bấm mã 61 tức là mã mở thiết bị 1(Mã số 6 là mã mở và mã số 1 là thiết bị 1). Sau khi nhấn đúng mã 61 thiết bị 1 sẽ được mở và vi điều khiển sẽ cho truy xuất EPROM báo trạng thái thiết bị 1 vừa mới điều khiển với nội dung “Thiết bị 1 đã mở “. Nếu người điều khiển muốn mở tiếp thiết bị 4 sẽ bấm mã 64, sau khi bấm đúng mã 64 người điều khiển sẽ nghe được tín hiệu phản hồi về bằng tiếng nói với nội dung “Thiết bị 4 đã mở”.
+Nếu người điều khiển muốn tắt thiết bị 1 thì bấm mã số 9 (Mã số 9 được qui định là mã tắt thiết bị) , còn muốn tắt thiết bị nào thì phụ thuộc vào mã bấm tiếp theo của mã số 9. Ví dụ: Muốn tắt thiết bị 1 người điều khiển bấm mã số 9 , sau đó bấm mã số 1 để tắt thết bị 1. Sau khi bấm đúng mã 91 thì thiết bị 1 sẽ được tắt và sẽ có tín hiệu phản hồi về bằng tiếng nói để báo cho người điều khiển biết kết quả điều khiển bằng tiếng nói với nội dung “Thiết bị 1 đã tắt”. Nếu người điều khiển muốn tắt thiết bị 3 thì bấm tiếp mã 93 thì lập tức thiết bị 3 được tắt và đồng thời có tín hiệu phản hồi về báo kết qủa điều khiển với nội dung “Thiết bị 3 đã tắt”.
+Sau khi điều khiển hết tất cả các thiết bị muốn điều khiển, người điều khiển muốn kiểm tra lại trạng thái tất cả các thiết bị thì chỉ việc bấm mã số 5 (Mã này được qui định là mã kiểm tra tất cả các thiết bị ).Sau khi người điều khiển bấm đúng mã số 5 thì hệ thống sẽ đi kiểm tra tất cả các thiết bị và báo trạng thái hiện tại của tất cả các thiết bị cho người điều khiển biết. Ví dụ : “Thiết bị 1 đã tắt, thiết bị 2 đã tắt, thiết bị 3 đã tắt, thiết bị 4 đã tắt”.
+Trong hệ thống này còn dùng một chức năng là mã khẩn cấp, khi có sự cố cháy hay một số sự cố khác v.v.. hay khi người điều khiển muốn tắt hết tất cả các thiết bị cùng một lúc mà không cần phải đi tắt từng thiết bị một mất thời gian.
+Ví dụ: Khi có cháy xảy ra thì hệ thống này sẽ tự động quay số báo động cho ngườ có trách nhiệm bảo vệ khu vực này biết. Khi người có trách nhiệm khu vực này biết sẽ lập tức quay số về thuê bao có gắn mạch điều khiển để tắt tất cả các thiết bị điện để tránh chập mạch điện dẫn đến hư hỏng các thiết bị điện vá tránh chập mạch điện phát ra tia lửa điện để phát cháy các khu vực khác. Khi quay xong và bấm đúng mã passwords 2397 để vào hệ thống điều khiển thì người điều khiển chỉ việc bấm mã số 5 thì tất cả các thiết bị sẽ tắt và có tín hiệu phản hồi về bằng tiếng nói để báo trạng thái thiết bị với nội dung “Tất cả các thiết bị đã tắt”
+Sau khi ngưởi điều khiển bấm xong 1 số thì hệ thống này sẽ đợi trong khoảng thời gian 30giây để coi thử có phím nào được bấm tiếp không. Nếu có thì sẽ thực hiện tiếp và quay trở lại đợi tiếp 30giây. Nếu sau 30giây không có phím nhấn thì hệ thống sẽ tự động mơ tải giả tắt kết nối thuê bao,kết thúc việc điều khiển.
+2. TỰ ĐỘNG QUAY SỐ BÁO ĐỘNG BẢO VỆ KHI CÓ SỰ CỐ :
+Mạch có chức năng tự động quay số báo động khi có sự cố (cháy,nổ,trộm). Khi có tín hiệu cháy từ mạch ngoài tác động vào, tín hiệu này được đưa qua một FlipFlop với mục đích là chốt tín hiệu cháy này để tránh trường hợp khi cháy xảy ra sẽ làm đức dây mất tín hiệu báo cháy. Tín hiệu báo cháy này sau khi đi qua FlipFlop sẽ tác động vào chân P3.0 của vi điều khiển báo cho vi điều khiển biết là có cháy xảy ra . Lúc này vi điều khiển sẽ ra lệnh quay số báo động đến cho phòng cháy chữa cháy. Số điện thoại này đã được cài đặt sẵn trước đó thông qua bàn phím trên điện thoại. Cách cài đặt số điện thoại sẽ được trình bày ở phần sau. Nếu bên thuê bao phòng cháy chữa cháy nhấc máy thì lúc này tổng đài sẽ cấp tín hiệu đảo cực để báo lại cho bên thuê bao gọi là thuê bao đầu bên kia đã nhấc máy. Lúc này hệ thống sẽ nhận biết thuê bao bên kia nhấc máy bằng tín hiệu đảo cực mà tổng đài cung cấp cho nhờ vào một mạch cảm biến tín hiệu đảo cực và đưa tín hiệu đảo cực này đến chân P3.6 để báo cho vi điều khiển biết là đầu thuê bao bên kia (phòng cháy chữa cháy) đã nhấc máy. Lúc này, vi điều khiển ra kệnh xuất câu thông báo, báo động cho phòng cháy chữa cháy biết với nội dung bằng tiếng nói như sau:” Hiện nay tại số nhà A, đường B, phường C, quận D đang có cháy. Xin các đồng chí tới chữa cháy”. Sau khi quay báo động cho phòng cháy chữa cháy xong,thì hệthống này sẽ tự động quay tiếp số điện thoại báo động thứ 2 để báo cho chủ nhà biết với nội dung :”Hiện nay nhà của bạn đang có cháy. Xin bạn hãy tìm cách xử lý.” Sau khi xuất xong câu báo động thứ 2 này, hệ thống này sẽ tự động mở tải giả, kết thúc việc báo động. Sau đó ta phải reset lại cho mạch báo cháy.
+Ở trên là trường hợp 2 cuộc gọi điều thành công. Nếu cuộc gọi thứ nhất không thành công thì hệ thống sẽ tự động nhảy sang cuộc gọi thứ 2. Nếu cuộc gọi thứ 2 cũng không thàng công thì nhảy trở về cuộc gọi thứ nhất và tiếp tục gọi luân phiên như vậy cho đến khi nào cả hai cuộc gọi thành công thì thôi.
+Khi có trộm thì hệ thống này cũng báo động tương tự như báo cháy ở trên. Khi có tín hiệu phát hiện có trộm từ bộ cảm biến thì tín hiệu này được đưa qua 1 FlipFlop để chốt dữ liệu này lại. Tín hiệu sau khi chốt sẽ tác động vào chân P3.1 của vi điều khiển, báo cho vi điều khiển biết là có kẻ trộm. Sau khi vi điều khiển nhận được tín hiệu này ra lệnh quay số báo động đến cho chủ nhà biết trước, bằng cách đóng tải giả (nhấc máy), sau đó sẽ quay số điện thoại cho chủ nhà. Số điện thoại này đã được cài đặt sẵn trước đó thông qua bàn phím trên điện thoại. Cách cài đặt số điện thoại sẽ được trình bày ở phần sau. Sau khi quay xong số điện thoại thì hệ thống này sẽ đợi trong khoảng thời gian 30giây, nếu không có ai nhấc máy thì sẽ nhảy sang thực hiện cuộc gọi thứ 2. Nếu cuộc gọi thứ 2 cũng không thành công thỉ nhảy về cuộc gọi thứ nhất và tiếp tục như vậy cho đến khi nào cả hai cuộc gọi thành công thì thôi. Nếu trong khoảng thời gian 30giây có người nhấc máy thì tổng đài cấp tín hiệu đảo cực báo cho thuê bao gọi biết là thuê bao đầu bên kia đã nhấc máy. Tín hiệu đảo cực được tổng đài cấp, được hệ thống này nhận bằng một mạch cảm biến tín hiệu đảo cực để báo cho vi điều khiển biết là đầu bên kia đã nhấc máy. Lúc này vi điều khiển sẽ cho truy xuất câu thông báo cho chủ nhà với nội dung thông báo bằng tiếng nói :”Hiện nay nhà của bạn đang có trộm. Xin bạn về nhà gấp”. Sau khi phát thông báo xong mạch sẽ mở tải giả và nhảy sang thực hiện cuộc gọi thứ hai để báo cho công an địa phương biết. Nếu cuộc gọi thứ hai thành công thì sẽ phát câu thông báo: ”Hiện nay tại số nhà A, đường B, phường C, quận D đang có kẻ trộm. Xin mời các đồng chí tới bắt gấp”. Sau khi phát thông báo xong hệ thống này sẽ mở tải giả để tắt thuê bao, kết thúc cuộc gọi báo động. Sau khi kết thúc việc gọi báo động ta phải reset lại mạch báo trộm bằng một nút reset để cho mạch trở lại vị trí ban đầu.
+Khi muốn cài đặt số điện thoại để báo động, ta có thể ở xa hệ thống cũng có thể cài đặt được và cũng có thể ở tại chỗ để cài số điện thoại. Nếu muốn cài số điện thoại cần báo động vào hệ thống ta chỉ việc quay số điện thoại về hệ thống mình muốn cài đăt. Sau đó bấm mã passwords của hệ thống để xâm nhập vào hệ thống, tiếp theo sau là bấm lệnh để cài số điện thoại vào. Mã lệnh để cài đặt số diện thoại là 21. Sau khi bấm mã 21 thì hệ thống sẽ cho ta cài đặt số điện thoại báo động thứ nhất cho báo động cháy, sau khi cài đặt xong số điện thoại thứ nhất muốn báo động cho báo động cháy thì người cài đặt bấm phím “ * ” để kết thúc số điện thoại thứ nhất . Nếu muốn kết thúc việc nạp số điện thoại luôn thì bấm tiếp phím “ # “ thì hệ thống sẽ cho kết thúc việc nạp số điện thoại. Nếu người điều khiển muốn cho nạp tiếp số điện thoại thứ 2 thì sau khi bấm phím “ * “ thì bấm tiếp số điện thoại thứ 2 muốn cài đặt. Sau khi bấm xong số điện thoại thứ 2 muốn cài đặt thì bấm phím “ * “ để kết thúc việc nạp số điện thoại thứ 2 và bắt đầu cho số điện thoại thứ 3. Nếu muốn cài đặt số điện thoại thứ 3 thì bấm tiếp số điện thoại thứ 3 muốn cài đặt vào. Sau đó bấm phím “ * “ để kết thúc số điện thoại thứ 3 và bắt đầu cho việc nạp số điện thoại thứ 4. Nếu muốn nạp số điện thoại thứ 4 thì bấm số điện thoại thứ 4 vào và bấm phím “ * “ để kết thúc việc việc nạp số điện thoại thứ 4 cũng là sộ điện thoại để báo động cuối cùng trong hệ thống báo động này. Để kết thúc việc nạp số điện thoại thì ta bấm tiếp phím “ # “ để thoát khỏi chương trình nạp số điện thoại.
+II. HƯỚNG PHÁT TRIỂN ĐỀ TÀI:
+Với đề tài: “Hệ thống điều khiển thiết bị điện từ xa và tự động quay số báo động thông qua đường điện thoại“ là một hệ thống khá hoàn chỉnh. Với chức năng báo động và phản hồi bằng tiếng nói, cho nên sẽ báo chính xác các trạng thái thiết bị và tình hình xảy ra sự cố một cách chính xác tạo cho người nghe thông báo và điều khiển có cảm giác an tâm hơn. Hệ thống này có thể đặt ở nhà riêng, xí nghiệp, cơ quan, nhà xưởng, nhà kho, văn phòng, khách sạn, chung cư .v.v…
+Với hệ thống này, chúng ta có thể phát triển theo hướng đưa hệ thống này giao tiếp với máy tính. Sau đó, đưa chức năng điều khiển và báo động lên mạng internet. Tức hệ thống này vẫn hoạt động bình thường ở chế độ như trước nhưng bây giờ hệ thống này được giao tiếp với mạng máy tính. Cho nên, chúng có thể được điều khiển và quay số báo động thông qua mạng internet. Nếu chúng ta sử dụng mạng thì những thông tin về điều khiển, báo động sẽ phong phú và có nhiều chức năng hơn.
+Ví dụ: khi đưa hệ thống này lên mạng thì khi điều khiển chúng ta sẽ biết nhiều thông tin về thiết bị mình muốn điều khiển hơn, biết được ngày giờ và tên người điều khiển trước đó.
+Còn đối với hệ thống báo cháy, báo trộm thì sẽ được cập nhật ngày giời xảy ra vụ cháy hay khi có kẻ trộm đột nhập và nghi lại được hình ảnh từ lúc bắt đầu xảy ra vụ cháy cho đến kết thúc vụ cháy và ghi lại được hình ảnh từ lúc phát hiện được kẻ trộm đột nhập bằng camera thông qua mạng internet để lưu trử vào máy tính muốn quan sát.
+Đối với mạch âm thanh ta nên sử dụng những IC chuyên dùng cho việc ghi phát ngữ âm. Để làm giảm kích thước của mạch âm thanh, giảm giá thành và thuận tiện hơn cho người sử dụng. Khi muốn thay đổi thông tin báo động hay thông tin về điều khiển. Ở đây tôi đưa ra một IC chuyên dùng là APR9600, IC này có thể thu và phát tiếng nói trong vòng 60giây. Nó có thể truy xuất song song 8 đoạn tiếng nói bằng cách kích mức logic phù hợp cho chân điều khiển. IC chuyên dùng này có bộ nhớ Flat cho nên khi ghi âm vào thì dữ liệu sẽ không bị mất khi cúp điện. Việc ghi âm rất là đơn giản nhờ những linh kiện rời được kết nối bên ngoài IC. Khi ghi âm ta chỉ việc nhấn một nút muốn ghi âm ở đoạn nào thì quá trình ghi âm sẽ được thực hiện ở đoạn đó. Khi muốn kết thúc chỉ việc bấm nút đó nhả ra là kết thúc việc ghi âm. Chất lượng ghi âm ở IC này rất tốt. Do lúc này trên thị trường Việt Nam không có IC này, cho nên tôi không thể dùng IC này trong luận văn này được.
+Nhìn chung đây là hướng phát triển khá lý thú và khả thi trong điều kiện nước nhà như hiện nay. Đó là một hệ thống chức năng đa dụng, tiện ích, hiện đại, kinh tế không ngoài mục đích nâng cao đời sống tiện ích cho con người.
+III. KẾT QỦA ĐẠT ĐƯỢC :
+1 . Tính khoa học:
+Thế kỷ 20 – 21 là thế kỷ của Thông Tin Điện Tử - Viễn Thông, là nền tảng quan trọng trong việc điều khiển thông qua mạng thông tin toàn cầu, phù hợp với xu hướng phát triển của khoa học kỹ thuật
+Đề tài sử dụng kỹ thuật tiên tiến trong quá trinh biến đổi xử lý tín hiệu âm thanh từ tín hiệu tương tự analog sang thành tín hiệu số digital.
+Ngoài ra đề tài còn thể hiện tính ứng dụng đa năng trong kỹ thuật Vi Điều Khiển.
+2 . Khả năng triển khai ứng dụng vào thực tiễn:
+Mục tiêu của đề tài là thiết kế và thi công hệ thống điều khiển các thiết bị điện từ xa và tự động quay số báo động thông qua mạng điện thoại. Đồng thời hệ thống có khả năng phản hồi,báo động trạng thái và kết quả điều khiển thiết bị bằng tiếng nói, tạo cảm giác yên tâm cho người điều khiển và người được nghe báo động. Ưu điểm của việc dùng đường truyền có sẵn của mạng điện thoại để điều khiển thiết bị và báo động là phạm vi điều khiển và báo động rộng, không hạn chế. Tại một nơi mà có thể điều khiển và báo động được nhiều nơi khác.
+Hệ thống có khả năng điều khiển được nhiều thiết bị. Tuy nhiên, đề tài này chỉ làm trên mô hình cho nên tôi chỉ đưa ra điều khiển 4 thiết bị tượng trưng mà thôi.
+Hệ thống này có khả năng báo động được nhiều số điện thoại nhưng trong đề tài này tôi chỉ đưa ra báo động 2 số điện thoại mà thôi.
+Ngoài ra trong công tác giảng dạy, hệ thống trở thành một mô hình thực tế dùng để giảng dạy thể hiện sự ứng dụng của mạng thông tin và đặc biệt khả năng ứng dụng đa dạng của Vi Điều Khiển.
+Với những đặc điểm và tính năng trên, đề tài có khả năng triển khai ứng dụng rộng rãi trong thực tế và mang tính hiện đại thực tiễn cao.
+3 . Hiệu quả kinh tế xã hội:
+Nhờ có điều khiển từ xa con người tiết kiệm được thời gian và quá trình đi lại, với điều kiện thi công của đề tài rất khả thi, giá thành thấp, phù hợp với điều kiện hiện tại nước nhà. Song đề tài mang tính tiện ích rất cao được ứng dụng từ dân dụng đến công nghiệp, như nhà máy, kho xưởng và đặc biệt là những môi trường khắc nghiệt, nguy hiểm, nơi cao áp.
+Nhờ có hệ thống báo động từ xa, cho nên việc báo động cho những người và các cơ quan có chức năng kịp thời để xử lý tránh những trường hợp báo động chậm gây ra những hậu qủa không lường. Song với ứng dụng này mang tiện ích rất cao được ứng dụng cho các nhà dân, chung cư, các xí nghgiệp, kho chứa hàng, khách sạn, ngân hàng v.v…
+Hơn nữa về tính khả thi trong tương lai, đề tài mang tính kích thích thúc đẩy sự phát triển của ngành công nghệ Điện Tử Việt Nam. Từ đó góp phần xây dựng đất nước ngày càng phồn vinh, vì ngành Điện Tử là ngành đóng vai trò kinh tế mụi nhọn.
+IV. KẾT LUẬN:
+Trong thời gian làm đề tài, với sự hạn chế về thời gian vàtài liệu vì vậy đòi hỏi bản thân tôi phải cố gắng tìm tòi và nhiệt tình trong công việc nghiên cứu đề tài và cuối cùng đề tài đã hoàn thành một cách trọn vẹn. Đó là kết quả của một thời gian dài nổ lực của tôi thời gian nghiên cứu và dưới sự hướng dẫn tận tình của giáo viên hướng dẫn cùng với sự giúp đỡ của nhà trường nên đề tài đã hoàn thành đúng thời hạn.
+Với đề tài này, yêu cầu phải có kiến thức tổng quát về nhiều mặt: kiến thức về kỹ thuật số, tương tự, xử lý tín hiệu, xử lý âm thanh số đặc biệt là quá trình biến đổi âm thanh số A/D để nạp vào EPROM, lý thuyết mạch, kiến thức phần cứng và phần mềm của vi xử lý, kiến thức về bưu chính viễn thông …. Tôi đã áp dụng nhuần nhuyễn giữa lý thuyết và thực hành và tận dụng được đường truyền có sẳn của mạng bưu chính viễn thông để thiết kế phần cứng phần mềm hợp lý để mạch điều khiển và báo động hoạt động được hoàn hảo.
+Đề tài “Hệ thống điều khiển thiết bị điện từ xa và tự động quay số báo động thông qua mạng điện thoại” là sự kết hợp giữa các khối tạo thành một hệ thống hoàn chỉnh. Trong đề tài nghiên cứu đã trình bày khá sâu sắc về cấu trúc và chức năng từng khối của phần cứng, phần mềm giúp cho người đọc dễ dàng nắm được cấu trúc và chức năng của mạch. Nội dung đề tài được trình bày đầy đủ, hình thức rõ ràng, từ ngữ thông dụng và dễ hiểu giúp cho người đọc hiểu được một cách dễ dàng để vận dụng đúng đắn và chính xác.
+MỤC LỤC
+PHẦN GIỚI THIỆU
+Tựa luận văn tốt nghiệp.
+Nhiệm vụ luận văn tốt nghiệp.
+Bảng nhận xét của giáo viên hướng dẫn.
+Bảng nhận xét của giáo viên phản biện.
+Lời nói đầu
+Lời cảm tạ
+PHẦN NỘI DUNG
+PHẦN I. GIỚI THIỆU ĐỀ TÀI ................................................................. 1
+PHẦN II. NỘI DUNG CHÍNH CỦA ĐỀ TÀI ........................................... 4
+Chương I. PHƯƠNH ÁN THIẾT KẾ ............................................................. 5
+I. Mục đích của đề tài ............................................................................................... 5
+II. Phương pháp nghiên cứu ...................................................................................... 5
+III. Tình hình nghiên cứu trong và ngoài nước ........................................................... 5
+IV. Ý tưởng thiết kế .................................................................................................... 6
+V. Phương án thiết kế và sơ đồ khối ......................................................................... 9
+Chương II. THIẾT KẾ PHẦN CỨNG ............................................................... 15
+A. MẠCH ĐIỀU KHIỂN .......................................................................................... 15
+I. Sơ đồ nguyên lý ..................................................................................................... 15
+II. Tính toán và thiết kế hệ thống ................................................................................ 19
+1. Khối cảm biến chuông ........................................................................................... 19
+2. Khối kết nối thuê bao ............................................................................................ 21
+3. Khối giải mã thu và phát DTMF ............................................................................ 23
+4. Khối giải mã và hiển thị ......................................................................................... 25
+5. Khối điều khiển động lực ....................................................................................... 26
+6. Khối điều khiển thiết bị điện công tắc bên ngoài ................................................... 27
+7. Mạch khuếch đại Tone ra ....................................................................................... 28
+8. Mạch nhận tín hiệu đảo cực ................................................................................... 29
+9. Khối xử lý trung tâm dùng vi điều khiển ............................................................... 30
+B. THIẾT KẾ MẠCH ÂM THANH ......................................................................... 31
+I. Khối dao động ....................................................................................................... 31
+II. Khối tạo địa chỉ ...................................................................................................... 32
+III. EPROM và chuyển đổi D/A ................................................................................. 32
+IV. Khối khuếch đại âm tần ......................................................................................... 32
+Chương III. THIẾT KẾ PHẦN CỨNG .............................................................. 33
+I. Chương trình chính ................................................................................................. 33
+II. Chươngtrình phục vụ ngắt 1 EXT1ISR ................................................................. 35
+III. Chương trình phục vụ ngắt 0 EXT0ISR ............................................................... 37
+IV. Chương trình con mở thiết bị ................................................................................ 41
+V. Chương trình con tắt thiết bị ................................................................................. 43
+VI. Chương trình con nhận tín hiệu DTMF ................................................................ 45
+VII. Chương trình con RESET_MT8880 .................................................................... 46
+VIII. Chương trình con chọn chế độ điều khiển ......................................................... 47
+IX. Chương trình con gọi lời giới thiệu ....................................................................... 48
+X. Chương trình con báo mở thiết bị 1-2-3-4.............................................................. 49
+XI. Chương trình con báo tắt thiết bị 1-2-3-4 ............................................................ 50
+XII. Chương trình con báo trạng thái tất cả các thiết bị ............................................. 51
+XIII. Chương trình con tắt tất cả các thiết bị .............................................................. 53
+XIV. Chương trình con báo tắt tất cả các thiết bị ....................................................... 55
+XV. Chương trình con nạp số điện thoại thứ 1-2-3-4 ................................................ 56
+XVI. Chương trình con phát số điện thoại thứ 1-2-3-4 .............................................. 57
+XVII. Chương trìng con quay số điện thoại thứ 1-2-3-4 ............................................ 58
+XVIII. Chương trìng con quay số báo động ............................................................... 59
+XIX. Chương trình con Delay .................................................................................. 60
+Chương IV. PHẦN THI CÔNG .......................................................................... 61
+1. Giai đoạn chuẩn bị.................................................................................................... 61
+2. Giai đoạn vẽ mạxh in ............................................................................................... 61
+3. Giai đoạn lắp ráp ...................................................................................................... 61
+PHẦN III. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN ĐỀ TÀI ........................ 62
+I. Tóm tắt nội dung đề tài ............................................................................................ 62
+II. Hướng phát triển đề tài ........................................................................................... 65
+III. Kết quả đạt được ................................................................................................... 66
+IV. Kết luận ................................................................................................................. 68
+PHỤ LỤC
+
+TÀI LIỆU THAM KHẢO
+……. 000 ……
+
+1. Sơ đồ chân linh kiện bán dẫn
+Tác giả : Dương Minh Trí - Nhà xuất bản KHKT – 1997
+2. Tra cứu IC Nhật Bản (Tập 2)
+3. Tra cứu CMOS - Nhà xuất bản khoa học kỹ thuật Hà Nội-1993
+4. Tra cứu IC TTL
+5. Linh kiện quang điện tử - Nhà xuất bản KHKT – 1994
+Kỹ thuật số
+Tác giả : Nguyễn Thuý Vân - Nhà xuất bản KHKT Hà Nội– 1997
+7. Kỹ thuật điện tử
+Tác giả : Lê Phi Yến – Lưu Phú – Nguyễn Như Anh
+8. Truyền dữ liệu
+Tác giả : Tống Văn On – Trường Đại Học Bách Khoa TP.HCM
+9. Báo hiệu và truyền dẫn số của mạch vòng thuê bao
+Tác giả : Whitham D.Reeve – Nhà xuất bản giáo dục – 1997
+10. Thiết bị đầu cuối thông tin – Tổng cục bưu điện
+11. Bài giảng điện thoại cơ sở
+Tác giả : Phạm Đình Nguyên & Phạm Quốc Anh – Trung tâm bưu chính viễn thông TP.HCM
+12. Giáo trình vi điều khiển – Trường Đại Học Kỹ Thuật TP.HCM
+13. Vi xử lý trong đo lường và điều khiển
+Tác giả : Ngô Diên Tập – Nhà xuất bản khoa học và kỹ thuật
+14. The 8051 Microcontroller
+Tác giả : I.Scott MacKenzie _ Nhà xuất bản Printice Hall-1995
+15. The 8051 Family of Microcontroller
+16. Digitall System
+Tác giả : Tocci – Nhà xuất bản Printice Hall – 1994
+17. Introduction to Electronics Design
+Tác giả : F. H. Mitchell – Nhà xuất bản Printice Hall – 1988
+HỆ THỐNG ĐIỀU KHIỂN THIẾT BỊ ĐIỆN TỪ XA VÀ TỰ ĐỘNG QUAY SỐ BÁO ĐỘNG THÔNG QUA MẠNG ĐIỆN THOẠI, thuyết minh ĐIỀU KHIỂN THIẾT BỊ ĐIỆN TỪ XA

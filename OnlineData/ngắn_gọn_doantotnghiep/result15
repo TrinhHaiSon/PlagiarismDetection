@@ -1,0 +1,580 @@
+BẢNG QUANG BÁO LED MA TRẬN DÙNG PIC 16F877A
+LỜI CẢM ƠN
+Chúng em xin chân thành cảm ơn khoa điện tử - tin học trường cao đẳng kỹ thuật Cao Thắng đã tạo điều kiện cho chúng em thực hiện đề tài tốt nghiệp này.
+Chúng em xin chân thành cảm ơn thầy Đỗ Đức Tuấn đã tận tình hướng dẫn, chỉ bảo chúng em trong suốt thời gian thực hiện đề tài.
+Chúng em xin chân thành cảm ơn quý thầy cô trong khoa đã tận tình giảng dạy, trang bị cho em những kiến thức quý báu trong những năm học qua, sự nhiệt tình của Thầy Cô đã giúp và trang bị cho chúng em những kiến thức về điện tử và viễn thông, đó là những hành trang quý báu giúp em vững chắc trên con đường học vấn của mình.
+Chúng con xin chân thành biết ơn Ông Bà, Cha Mẹ đã nuôi dậy chúng con nên người.
+Xin chân thành cảm ơn các anh, chị, bạn bè đã ủng hộ giúp đỡ chúng em trong suốt thời gian qua.
+Mặc dù chúng em đã cố gắng để hoàn thành đồ án tốt nghiệp trong phạm vi và khả năng cho phép nhưng không tránh khỏi những thiếu sót. Chúng em mong nhận được sự thông cảm và tận tình chỉ bảo của quý thầy cô và các bạn.
+MỤC LỤC
+Phiếu đăng ký đồ án tốt nghiệp...............................................................................................
+Nhận xét của giáo viên hướng dẫn.........................................................................................
+Nhận xét của giáo viên phản biện..........................................................................................
+Lời cảm ơn ................................................................................................................................
+PHẦN I: NỘI DUNG
+Chương Dẫn nhập ....................................................................................................... Trang
+1.1: Đặt vấn đề..................................................................................................... 1.2: Nội dung đề tài
+1.3: Mục đích đề tài ............................................................................................
+1.4: Đối tượng nghiên cứu..................................................................................
+1.5: Lập kế hoạch nghiên cứu...........................................................................
+Chương 2: Giới thiệu led ma trận và bảng quang báo....................................................... 1
+2.1: Giới thiệu về led ma trận.......................................................................... 1
+2.2: Một số hình ảnh về bảng quang báo thực tế.......................................... 3
+2.3: Giới thiệu về bảng quang báo trong đề tài............................................. 4
+Chương 3: Khảo sát linh kiện.............................................................................................. 5
+3.1: Vi điều khiển PIC 16F877A..................................................................... 5
+3.2: IC 74HC154.............................................................................................. 27
+3.3: IC 74HC573.............................................................................................. 28
+3.4: Transistor A1015..................................................................................... 31
+3.5: IC Ôn áp 7805.......................................................................................... 33
+3.6: Điện trở .................................................................................................... 35
+3.7: Tụ điện...................................................................................................... 35
+3.8: Diode.......................................................................................................... 37
+3.9: IC 74HC139.............................................................................................. 39
+3.5: Transistor 2N3055................................................................................... 40
+Chương 4: Các phương pháp hiển thị led ma trận.......................................................... 42
+4.1: Phương pháp hiển thị bằng IC chốt....................................................... 42
+4.2: Phương pháp sử dụng thanh ghi dịch.................................................... 45
+4.3: Mạch quang báo sử dụng trong đồ án................................................... 49
+Chương 5: Sơ đồ khối và tính toán mạch.......................................................................... 50
+5.1: Sơ đồ khối ................................................................................................ 50
+5.2: mạch kéo dòng......................................................................................... 51
+5.3: Mạch nguồn.............................................................................................. 53
+5.4: Khối bàn phím.......................................................................................... 54
+5.5: Khối điều khiển trung tâm...................................................................... 56
+5.6: Sơ đồ nguyên lý....................................................................................... 56
+Chương 6: Nguyên lý hoạt động và Lưu đồ giải thuật.................................................... 57
+6.1: Nguyên lý hoạt động............................................................................... 57
+6.2: Lưu đồ giải thuật...................................................................................... 58
+6.3: Code chương trình................................................................................... 59
+Chương 7: Tổng kết.............................................................................................................. 68
+PHẦN II: PHỤ LỤC
+CHƯƠNG DẪN NHẬ
+1.1 ĐẶT VẤN ĐỀ:
+Trong đời sống hiện đại ngày nay, quảng cáo là một phần không thể thiếu trong nhịp sống bùng nổ công nghệ thông tin như hiện nay. Ở bất cứ nơi đâu ta cũng bắt gặp những biển quảng cáo từ đơn giản, thủ công cho đến những biển quảng cáo điện tử hiện đại, thẩm mỹ. Đó là những bảng quảng cáo điện tử mà chúng ta gọi là những bảng đèn quang báo. Công nghệ điện tử này còn được sử dụng trong nhiều lĩnh vực như những biển báo giao thông, những bảng điểm trên những sàn giao dịch chứng khoán,hay tại các sân bay, siêu thị... Những bảng quang báo này góp phần làm cho thành phố chúng ta có được một bộ mặt của một thành phố hiện đại và văn minh. Tác dụng của bảng quang báo là khá to lớn. Chính điều đó đã thôi thúc chúng em thực hiện đề tài tìm hiểu về quang báo “ Điều khiển 1 dòng quang báo bằng bàn phím matrix ”.
+
+1.2 NỘI DUNG ĐỀ TÀI:
+Với khoảng thời gian thực hiện đề tài 4 tuần, nhóm đã thảo luận và chọn nội dung của đề tài như sau:
+- Tìm hiểu, tìm phương án điều khiển và xử lý dữ liệu cho bảng led
+ma trận hiển thị.
+- Tìm hiểu và tìm phương án để xử lý giao tiếp bàn phím và bảng quang báo
+- Thi công bảng quang báo hiển thị đơn sắc kích thước 16 ×64 điểm ảnh.
+- Thi công mạch giao tiếp giữa bàn phím và bảng quang báo.
+1.3 MỤC ĐÍCH ĐỀ TÀI:
+Trong quá trình tìm hiểu và thực hiện đề tài này nhằm giúp người học:
+- Tăng khả năng tự tìm hiểu nghiên cứu học tập tự lập.
+- Bước đầu tiếp xúc với thực tế.
+- Vận dụng những kiến thức đã có đồng thời tìm tòi những kiến thức mới để hiểu sâu sắc hơn trong lĩnh vực này.
+Để thiết kế được một hệ thống như đã nêu ở trên thì người tìm hiểu phải nắm vững kiến thức chuyên ngành điện tử, tìm hiểu qua sách vở, tài liệu nước ngoài và dạng mạch thực tế để thi công phần cứng, phần mềm để viết chương trình..
+1.4 ĐỐI TƯỢNG TÌM HIỂU:
+- Các phương án điều khiển và xử lý dữ liệu cho bảng led ma trận.
+- Tìm hiểu vi điều khiển PIC16F877A.
+- Tìm hiểu phương pháp lập trình CCS cho PIC.
+- Bảng quang báo led ma trận kích thước 16×64 điểm ảnh.
+1.5 LẬP KẾ HOẠCH TÌM HIỂU:
+Để thực hiện đề tài này nhóm sinh viên đã kết hợp sử dụng nhiều phương pháp và phương tiện hỗ trợ gồm có:
+- Tham khảo tài liệu: kỹ thuật xung, kỹ thuật số, điện tử căn bản, vi điều khiển….
+- Quan sát.
+- Thực nghiệm.
+- Tổng kết kinh nghiệm.
+- Phương tiện: máy vi tính, Internet….
+Kế hoạch tìm hiểu:
+- Tuần 1: Nhận đề tài và lập đề cương tổng quát.
++ Thu thập tài liệu và lập đề cương chi tiết.
+- Tuần 2, 3, 4: Thiết kế thi công và viết báo cáo.
+.........................................................
+GIỚI THIỆU LED MA TRẬN VÀ BẢNG QUANG BÁO
+Ngày nay khi nhu cầu về thông tin quảng cáo rất lớn, việc áp dụng các phương tiện kỹ thuật mới vào các lĩnh vực trên là rất cần thiết. Khi bạn đến các nơi công cộng, bạn dễ dàng bắt gặp những áp phích quảng cáo điện tử chạy theo các hướng khác nhau với nhiều hình ảnh và màu sắc rất ấn tượng.
+2.1 GIỚI THIỆU VỀ LED MA TRẬN
+Ma trận LED bao gồm nhiều LED cùng nằm trong một vỏ chia thành nhiều cột và hàng, mỗi giao điểm giữa hàng và cột có thể có 1 LED (ma trận LED một màu) hay nhiều LED (2 LED tại một vị trí tạo thành ma trận LED 3 màu). Để LED tại một vị trí nào đó sáng thì phải cấp hiệu điện thế dương giữa Anode và Cathode. Trên cơ sở cấu trúc như vậy, ta có thể mở rộng hàng và cột của ma trận LED để tạo thành các bảng quang báo.
+2.1.1 PHÂN LOẠI LED MA TRẬN
+Theo kích cỡ Theo màu sắc Theo hình dạng điểm chấm 5x7 1 màu Tròn 5x8 2 màu Vuông 8x8 3 màu Bầu dục
+
+Bảng phân loại LED ma trận
+
+
+2.1.2 LED MA TRẬN 8x8
+Led ma trận m×n là Led ma trận có m cột và n hàng. Led ma trận 8×8 là led ma trận gồm có 8 cột và 8 hàng. Led ma trận này có hai loại: loại thứ nhất là cathode chung (common cathode – cột cathode, hàng anode), loại thứ hai là anode chung (common anode– cột anode, hàng cathode).
+Đề tài sử dụng loại Led ma trận cathode chung (cathode cột) vì dễ dàng tìm mua được Led ma trận loại này trên thị trường linh kiện điện tử ở nước ta, đa dạng về kích cỡ và màu sắc, có loại indoor, outdoor.
+2.1.3 HÌNH DẠNG THỰC TẾ VÀ SƠ ĐỒ CHÂN RA
+Hình dạng thực tế và sơ đồ chân led ma trận 8x8
+
+2.1.4 SƠ ĐỒ NGUYÊN LÝ LED MA TRẬN 8X8
+2.2 MỘT SỐ HÌNH ẢNH VỀ BẢNG QUANG BÁO THỰC TẾ
+2.2.1 MẪU MỘT DÒNG CHỮ (16 X 240 ĐIỂM ẢNH):
+Các thông số kỹ thuật:
+- Kích thước hiển thị: chiều cao 122mm, chiều dài tuỳ ý (thường là bội của 305mm)
+- Độ phân giải (số điểm ảnh): 16 x 40 x (chiều dài hiển thị/305)
+- Kết nối chuẩn (Máy tính, cổng COM) tuỳ chọn (RJ45, Bàn phím)
+- Bảng này có thể hiển thị một dòng chữ cao 122mm (16 điểm ảnh - như hình trên) hoặc hai dòng chữ cao 61mm (8 điểm ảnh) nhưng không dấu Tiếng Việt
+- Kết nối chuẩn (Máy tính, cổng COM) tuỳ chọn (RJ45)
+2.2.2 MẪU HAI DÒNG CHỮ (32 X 240 ĐIỂM ẢNH)
+Các thông số kỹ thuật:
+- Kích thước hiển thị: chiều cao 244mm, chiều dài tuỳ ý (thường là bội của 305mm)
+- Độ phân giải (số điểm ảnh): 32 x 40 x (chiều dài hiển thị/305)
+- Kết nối chuẩn (Máy tính, cổng COM) tuỳ chọn ( RJ45)
+- Bảng này có thể hiển thị hai dòng chữ cao 122mm (16 điểm ảnh – như hình trên) hoặc một dòng chữ cao 244mm (32 điểm ảnh - như hình dưới)
+- Kết nối chuẩn (Máy tính, cổng COM) tuỳ chọn ( RJ45)
+2.3 GIỚI THIỆU VỀ BẢNG QUANG BÁO HIỂN THỊ LED MA TRẬN TRONG ĐỒ ÁN
+2.3.1 PHẦN CỨNG:
+- Kích thước hiển thị: chiều cao 12 cm, chiều dài 48.5 cm
+- Độ phân giải (số điểm ảnh): 16 x 64.
+- Bảng này có khả năng hiển thị hai dòng chữ mỗi dòng cao 6 cm.
+- Hiển thị:
++ Một màu đỏ.
++ Một màu xanh
++ Nội dung hiển thị được cho chạy theo hướng: dịch trái.
+2.3.2 PHẦN MỀM
+- Dùng ngôn ngữ lập trình CCS để lập trình cho vi xử lý PIC16F877A.
+........................................................................
+CHƯƠNG 3
+KHẢO SÁT LINH KIỆ
+3.1 VI ĐIỀU KHIỂN PIC16F877A
+3.1.1 GIỚI THIỆU CHUNG VỀ PIC
+PIC là viết tắt của “Programable Intelligent Computer”, có thể tạm dịch là “máy tính thông minh khả trình” do hãng Genenral Instrument đặt tên cho vi điều khiển đầu tiên của họ: PIC1650 được thiết kế để dùng làm các thiết bị ngoại vi cho vi điều khiển CPU1600. Vi điều khiển này sau đó được nghiên cứu phát triển thêm và từ đó hình thành nên dòng vi điều khiển PIC ngày nay.
+3.1.1.1 SỰ PHỔ BIẾN CỦA VI ĐIỀU KHIỂN PIC
+Trên thị trường có rất nhiều họ vi điều khiển như 8051, Motorola 68HC, AVR, ARM... Tuy nhiên, hiện nay PIC đang được sử dụng rộng rãi ở Việt Nam vì những nguyên nhân sau:
+- Họ vi điều khiển này có thể tìm mua dễ dàng tại thị trường Việt Nam.
+- Giá thành không quá đắt.
+- Có đầy đủ các tính năng của một vi điều khiển khi hoạt động độc lập.
+- Là sự bổ sung rất tốt về kiến thức cũng như về ứng dụng cho họ vi điều khiển mang tính truyền thống: họ vi điều khiển 8051.
+- Hiện nay tại Việt Nam cũng như trên thế giới, PIC được sử dụng khá rộng rãi. Điều này tạo nhiều thuận lợi trong quá trình tìm hiểu và phát triển các ứng dụng như: số lượng tài liệu, số lượng các ứng dụng mở đã được phát triển thành công, dễ dàng trao đổi, học tập, dễ dàng tìm được sự chỉ dẫn khi gặp khó khăn…
+- Sự hỗ trợ của nhà sản xuất về trình biên dịch, các công cụ lập trình, nạp chương trình từ đơn giản đến phức tạp…
+- Các tính năng đa dạng của vi điều khiển PIC không ngừng được phát triển.
+3.1.1.2 KIẾN TRÚC PIC
+Cấu trúc phần cứng của một vi điều khiển được thiết kế theo hai dạng kiến trúc: kiến trúc Von-Neumann và kiến trúc Harvard.
+Hình 3.1: Kiến trúc Harvard và kiến trúc Von-Neuman
+Tổ chức phần cứng của PIC được thiết kế theo kiến trúc Harvard. Điểm khác biệt giữa kiến trúc Harvard và kiến trúc Von-Neumann là cấu trúc bộ nhớ dữ liệu và bộ nhớ chương trình.
+Đối với kiến trúc Von-Neuman, bộ nhớ dữ liệu và bộ nhớ chương trình nằm chung trong một bộ nhớ, do đó ta có thể tổ chức, cân đối một cách linh hoạt bộ nhớ chương trình và bộ nhớ dữ liệu. Tuy nhiên điều này chỉ có ý nghĩa khi tốc độ xử lí của CPU phải rất cao,vì với cấu trúc đó, trong cùng một thời điểm CPU chỉ có thể tương tác với bộ nhớ dữ liệu hoặc bộ nhớ chương trình. Như vậy có thể nói kiến trúc Von-Neumann không thích hợp với cấu trúc của một vi điều khiển.
+Đối với kiến trúc Harvard, bộ nhớ dữ liệu và bộ nhớ chương trình tách ra thành hai bộ nhớ riêng biệt. Do đó trong cùng một thời điểm CPU có thể tương tác với cả hai bộ nhớ, như vậy tốc độ xử lí của vi điều khiển được cải thiện đáng kể. Một điểm cần chú ý nữa là tập lệnh trong kiến trúc Harvard có thể được tối ưu tùy theo yêu cầu kiến trúc của vi điều khiển mà không phụ thuộc vào cấu trúc dữ liệu. Ví dụ, đối với vi điều khiển dòng 16Fxxx, độ dài lệnh luôn là 14 bit (trong khi dữ liệu được tổ chức thành từng byte), còn đối với kiến trúc Von-Neumann, độ dài lệnh luôn là bội số của 1 byte (do dữ liệu được tổ chức thành từng byte). Đặc điểm này được minh họa cụ thể trong hình 3.1.
+3.1.1.3 RISC VÀ CISC
+Như đã trình bày ở trên, kiến trúc Harvard là khái niệm mới hơn so với kiến trúc Von-Neumann. Khái niệm này được hình thành nhằm cải tiến tốc độ thực thi của một vi điều khiển. Qua việc tách rời bộ nhớ chương trình và bộ nhớ dữ liệu, bus chương trình và bus dữ liệu, CPU có thể cùng một lúc truy xuất cả bộ nhớ chương trình và bộ nhớ dữ liệu, giúp tăng tốc độ xử lí của vi điều khiển lên gấp đôi. Đồng thời cấu trúc lệnh không còn phụ thuộc vào cấu trúc dữ liệu nữa mà có thể linh động điều chỉnh tùy theo khả năng và tốc độ của từng vi điều khiển. Và để tiếp tục cải tiến tốc độ thực thi lệnh, tập lệnh của họ vi điều khiển PIC được thiết kế sao cho chiều dài mã lệnh luôn cố định (ví dụ đối với họ 16Fxxxx chiều dài mã lệnh luôn là 14 bit) và cho phép thực thi lệnh trong một chu kì của xung clock ( ngoại trừ một số trường hợp đặc biệt như lệnh nhảy, lệnh gọi chương trình con … cần hai chu kì xung đồng hồ). Điều này có nghĩa tập lệnh của vi điều khiển thuộc cấu trúc Harvard sẽ ít lệnh hơn, ngắn hơn, đơn giản hơn để đáp ứng yêu cầu mã hóa lệnh bằng một số lượng bit nhất định. Vi điều khiển được tổ chức theo kiến trúc Harvard còn được gọi là vi điều khiển RISC (Reduced Instruction Set Computer) hay vi điều khiển có tập lệnh rút gọn. Vi điều khiển được thiết kế theo kiến trúc Von-Neuman còn được gọi là vi điều khiển CISC (Complex Instruction Set Computer) hay vi điều khiển có tập lệnh phức tạp vì mã lệnh của nó không phải là một số cố định mà luôn là bội số của 8 bit (1 byte).
+3.1.1.4 PIPELINING
+Đây chính là cơ chế xử lí lệnh của các vi điều khiển PIC. Một chu kì lệnh của vi điều khiển sẽ bao gồm 4 xung clock. Ví dụ ta sử dụng oscillator có tần số 4 MHZ, thì xung lệnh sẽ có tần số 1 MHz (chu kì lệnh sẽ là 1 us). Giả sử ta có một đoạn chương trình như sau:
+1. MOVLW 55h
+2. MOVWF PORTB
+3. CALL SUB_1
+4. BSF PORTA,BIT3
+5. instruction @ address SUB_1
+Ở đây ta chỉ bàn đến qui trình vi điều khiển xử lí đoạn chương trình trên thông qua từng chu kì lệnh. Quá trình trên sẽ được thực thi như sau:
+TCY0: đọc lệnh 1
+TCY1:thực thi lệnh 1, đọc lệnh 2 TCY2: thực thi lệnh 2, đọc lệnh 3 TCY3: thực thi lệnh 3, đọc lệnh 4.
+TCY4: vì lệnh 4 không phải là lệnh sẽ được thực thi theo qui trình thực thi của chương trình (lệnh tiếp theo được thực thi phải là lệnh đầu tiên tại label SUB_1) nên chu kì thực thi lệnh này chỉ được dùng để đọc lệnh đầu tiên tại label SUB_1. Như vậy có thể xem lênh 3 cần 2 chu kì xung clock để thực thi.
+TCY5: thực thi lệnh đầu tiên của SUB_1 và đọc lệnh tiếp theo của SUB_1.
+Quá trình này được thực hiện tương tự cho các lệnh tiếp theo của chương trình.
+Thông thường, để thực thi một lệnh, ta cần một chu kì lệnh để gọi lệnh đó, và một chu kì xung clock nữa để giải mã và thực thi lệnh. Với cơ chế pipelining được trình bày ở trên, mỗi lệnh xem như chỉ được thực thi trong một chu kì lệnh. Đối với các lệnh mà quá trình thực thi nó làm thay đổi giá trị thanh ghi PC (Program Counter) cần hai chu kì lệnh để thực thi vì phải thực hiện việc gọi lệnh ở địa chỉ thanh ghi PC chỉ tới. Sau khi đã xác định đúng vị trí lệnh trong thanh ghi PC, mỗi lệnh chỉ cần một chu kì lệnh để thực thi xong.
+3.1.1.5 CÁC DÒNG PIC VÀ CÁCH LỰA CHỌN PIC
+* Các kí hiệu của vi điều khiển PIC
+- PIC12xxxx: độ dài lệnh 12 bit - PIC16xxxx: độ dài lệnh 14 bit - PIC18xxxx: độ dài lệnh 16 bit
+- C: PIC có bộ nhớ EPROM (chỉ có 16C84 là EEPROM)
+- F: PIC có bộ nhớ flash
+- LF: PIC có bộ nhớ flash hoạt động ở điện áp thấp LV: tương tự như LF, đây là kí hiệu cũ.
+Bên cạnh đó một số vi điệu khiển có kí hiệu xxFxxx là EEPROM, nếu có thêm chữ A ở cuối là flash (ví dụ PIC16F877 là EEPROM, còn PIC16F877A là flash).Ngoài ra còn có thêm một dòng vi điều khiển PIC mới là dsPIC. Ở Việt Nam phổ biến nhất là các họ vi điều khiển PIC do hãng Microchip sản xuất.
+*Cách lựa chọn PIC
+Trước hết cần chú ý đến số chân của vi điều khiển cần thiết cho ứng dụng. Có nhiều vi điều khiển PIC với số lượng chân khác nhau, thậm chí có vi điều khiển chỉ có 8 chân, ngoài ra còn có các vi điều khiển 28, 40, 44 … chân.
+Cần chọn vi điều khiển PIC có bộ nhớ flash để có thể nạp xóa chương trình được nhiều lần hơn. Tiếp theo cần chú ý đến các khối chức năng được tích hợp sẵn trong vi điều khiển, các chuẩn giao tiếp bên trong. Sau cùng cần chú ý đến bộ nhớ chương trình mà vi điều khiển cho phép. Ngoài ra mọi thông tin về cách lựa chọn vi điều khiển PIC có thể được tìm thấy trong cuốn sách “Select PIC guide” do nhà sản xuất Microchip cung cấp.
+3.1.1.6 NGÔN NGỮ LẬP TRÌNH PIC
+Ngôn ngữ lập trình cho PIC rất đa dạng. Ngôn ngữ lập trình cấp thấp có MPLAB (được cung cấp miễn phí bởi nhà sản xuất Microchip), các ngôn ngữ lập trình cấp cao hơn bao gồm C, Basic, Pascal, … Ngoài ra còn có một số ngôn ngữ lập trình được phát triển dành riêng cho PIC như PICBasic, MikroBasic…
+3.1.2 PIC16F877A
+3.1.2.1 HÌNH DẠNG VÀ SƠ ĐỒ CHÂN
+Hình 3.2: Vi điều khiển PIC16F877A/PIC16F874A và các dạng sơ đồ chân
+3.1.2.2 MỘT VÀI THÔNG SỐ VỀ PIC 16F877A
+Đây là vi điều khiển thuộc họ PIC16Fxxx với tập lệnh gồm 35 lệnh có độ dài 14 bit. Mỗi lệnh đều được thực thi trong một chu kì xung clock. Tốc độ hoạt động tối đa cho phép là 20 MHz với một chu kì lệnh là 200ns. Bộ nhớ chương trình 8Kx14 bit, bộ nhớ dữ liệu 368 byte RAM và bộ nhớ dữ liệu EEPROM với dung lượng 256 byte. Số PORT I/O là 5 với 33 pin I/O.
+
+Các đặc tính ngoại vi bao gồm các khối chức năng sau:
+- Timer0: bộ đếm 8 bit với bộ chia tần số 8 bit.
+- Timer1: bộ đếm 16 bit với bộ chia tần số, có thể thực hiện chức năng đếm dựa vào xung clock ngoại vi ngay khi vi điều khiển hoạt động ở chế độ sleep.
+- Timer2: bộ đếm 8 bit với bộ chia tần số, bộ postcaler.
+- Hai bộ Capture/so sánh/điều chế độ rông xung.
+- Các chuẩn giao tiếp nối tiếp SSP (Synchronous Serial Port), SPI và I2C.
+- Chuẩn giao tiếp nối tiếp USART với 9 bit địa chỉ.
+- Cổng giao tiếp song song PSP (Parallel Slave Port) với các chân điều khiển RD, WR, CS ở bên ngoài.
+Các đặc tính Analog:
+- 8 kênh chuyển đổi ADC 10 bit.
+- Hai bộ so sánh.
+Bên cạnh đó là một vài đặc tính khác của vi điều khiển như:
+- Bộ nhớ flash với khả năng ghi xóa được 100.000 lần.
+- Bộ nhớ EEPROM với khả năng ghi xóa được 1.000.000 lần.
+- Dữ liệu bộ nhớ EEPROM có thể lưu trữ trên 40 năm.
+- Khả năng tự nạp chương trình với sự điều khiển của phần mềm.
+- Nạp được chương trình ngay trên mạch điện ICSP (In Circuit Serial Programming)
+thông qua 2 chân.
+- Watchdog Timer với bộ dao động trong.
+- Chức năng bảo mật mã chương trình.
+- Chế độ Sleep.
+- Có thể hoạt động với nhiều dạng Oscillator khác nhau.
+3.1.2.3 SƠ ĐỒ KHỐI CỦA PIC16F877A
+Hình 3.3: Sơ đồ khối vi điều khiển PIC16F877A.
+3.1.2.4. TỔ CHỨC BỘ NHỚ
+Cấu trúc bộ nhớ của vi điều khiển PIC16F877A bao gồm bộ nhớ chương trình (Program
+memory) và bộ nhớ dữ liệu (Data Memory).
+* Bộ nhớ chương trình
+Bộ nhớ chương trình của vi điều khiển PIC16F877A là bộ nhớ flash, dung lượng bộ nhớ 8K word (1 word = 14 bit) và được phân thành nhiều trang (từ page0 đến page 3) . Như vậy bộ nhớ chương trình có khả năng chứa được 8*1024 = 8192 lệnh (vì một lệnh sau khi mã hóa sẽ có dung lượng 1 word (14 bit).
+Khi vi điều khiển được reset, bộ đếm chương trình sẽ chỉ đến địa chỉ 0000h (Reset vector). Khi có ngắt xảy ra, bộ đếm chương trình sẽ chỉ đến địa chỉ 0004h (Interrupt vector). Bộ nhớ chương trình không bao gồm bộ nhớ stack và không được địa chỉ hóa bởi
+bộ đếm chương trình.
+* Bộ nhớ dữ liệu
+Bộ nhớ dữ liệu của PIC là bộ nhớ EEPROM được chia ra làm nhiều bank. Đối với PIC16F877A bộ nhớ dữ liệu được chia ra làm 4 bank. Mỗi bank có dung lượng 128 byte, bao gồm các thanh ghi có chức năng đặc biệt SFG (Special Function Register) nằm ở các vùng địa chỉ thấp và các thanh ghi mục đích chung GPR (General Purpose Register) nằm ở vùng địa chỉ còn lại trong bank. Các thanh ghi SFR thường xuyên được sử dụng (ví dụ như thanh ghi STATUS) sẽ được đặt ở tất cà các bank của bộ nhớ dữ liệu giúp thuận tiện trong quá trình truy xuất và làm giảm bớt lệnh của chương trình. Sơ đồ cụ thể của bộ nhớ dữ liệu PIC16F877A như sau:
+Hình 3.4: Sơ đồ bộ nhớ dữ liệu của PIC16F877A
+.............................................................
+CHƯƠNG 7
+TỔNG KẾT
+
+Sau 9 tuần tìm hiểu và thực hiện với nhiều nỗ lực và cố gắng của nhóm thực hiện đề tài cùng với sự hướng dẫn tận tình của thầy Đỗ Đức Tuấn, quyển đồ án này đã hoàn thành với những nội dung như sau:
+7.1. CÁC VẤN ĐỀ ĐÃ ĐƯỢC GIẢI QUYẾT TRONG ĐỒ ÁN:
+Các vấn đề đã nghiên cứu:
+- Tìm hiểu vi điều khiển PIC 16F877A.
+- Tìm hiểu cách quét led ma trận.
+- Tìm hiểu ngôn ngữ lập trình CCS.
+Các vấn đề đã thực hiện:
+- Lập trình điều khiển vi điều khiển PIC 16F877A bằng ngôn ngữ CCS.
+- Lập trình điều khiển led ma trận theo cách quét cột, phương pháp chốt.
+7.1.3 Thi công mạch
+Nhóm đã thi công xong các mạch sau:
+- Mạch điều khiển.
+- Mạch hiển thị, mạch quét và mạch kéo dòng.
+- Mạch nguồn, bàn phím.
+7.2 ƯU VÀ NHƯỢC ĐIỂM CỦA THI CÔNG MẠCH:
+7.2.1 Ưu điểm:
+Chữ hiển thị rõ ràng, tốc độ di chuyển vừa phải.
+Mạch hoạt động ổn định trong thời gian dài.
+Nhược điểm
+- Do bộ nhớ ROM có dung lượng nhỏ nên muốn lưu nhiều font chữ thì phải thay đổi ROM có dung lượng lớn hơn.
+7.3 Các phương hướng phát triển đề tài
+- Tăng kích thước của mạch quang báo cho phù hợp với thực tế sử dụng.
+- Sử dụng nhiều font chữ để làm phong phú hơn bảng quang báo.
+- Sử dụng giao tiếp, RS232, USB để thay thế cho bàn phím.
+- Tạo bảng led ma trận bằng led out door để đáp ứng nhu cầu sử dụng.
+- Sử dụng các module có thể phát vô tuyến .Chương trình điều khiển trên máy tính có thể giám sát -liên lạc ( mail, điện thoại )…
+KẾT LUẬN:
+Đề tài: “QUANG BÁO LED MA TRẬN SỬ DỤNG PIC 16F877A”. Đề tài đã trình bày được nguyên tắc hoạt động cơ bản của mạch quang báo giao tiếp với bàn phím, giới thiệu về cách sử dụng cũng như sơ đồ chân, sơ đồ nội bộ của các IC số dùng trong mạch.
+Nhóm thực hiện đề tài xin chân thành cảm ơn quý thầy cô cùng các bạn sinh viên, đã đóng góp rất nhiều ý kiến, công sức quý báu trong quá trình nhóm thực hiện đề tài này.
+Đặc biệt, chúng em xin cảm ơn thầy Đỗ Đức Tuấn đã nhiệt tình hướng dẫn, chỉ bảo những kinh nghiệm, kiến thức thực tế để đề tài được hoàn thành đúng thời gian quy định
+Tuy nhiên, do còn hạn chế về thời gian và trình độ nên đề tài không tránh khỏi nhiều sai sót, nhóm rất mong nhận được sự đóng góp ý kiến chân tình của quý thầy cô và các bạn để đề tài được hoàn chỉnh hơn.
+........................................................................................
+** THANH GHI CHỨC NĂNG ĐẶC BIỆT SFR:
+Đây là các thanh ghi được sử dụng bởi CPU hoặc được dùng để thiết lập và điều khiển các khối chức năng được tích hợp bên trong vi điều khiển. Có thể phân thanh ghi SFR làm hai lọai: thanh ghi SFR liên quan đến các chức năng bên trong (CPU) và thanh ghi SRF dùng để thiết lập và điều khiển các khối chức năng bên ngoài (ví dụ như ADC, PWM …).
+Thanh ghi STATUS (03h, 83h, 103h, 183h):thanh ghi chứa kết quả thực hiện phép toán của khối ALU, trạng thái reset và các bit chọn bank cần truy xuất trong bộ nhớ dữ liệu.
+Thanh ghi OPTION_REG (81h, 181h): thanh ghi này cho phép đọc và ghi, cho phép điều khiển chức năng pull-up của các chân trong PORTB, xác lập các tham số về xung tác động, cạnh tác động của ngắt ngoại vi và bộ đếm Timer0.
+Thanh ghi INTCON (0Bh, 8Bh,10Bh, 18Bh):thanh ghi cho phép đọc và ghi, chứa các bit điều khiển và các bit cờ hiệu khi timer0 bị tràn, ngắt ngoại vi RB0/INT và ngắt interrputon- change tại các chân của PORTB.
+Thanh ghi PIE1 (8Ch): chứa các bit điều khiển chi tiết các ngắt của các khối chức năng ngoại vi.
+Thanh ghi PIR1 (0Ch) chứa cờ ngắt của các khối chức năng ngoại vi, các ngắt này được cho phép bởi các bit điều khiển chứa trong thanh ghi PIE1.
+Thanh ghi PIE2 (8Dh): chứa các bit điều khiển các ngắt của các khối chức năng CCP2, SSP bus, ngắt của bộ so sánh và ngắt ghi vào bộ nhớ EEPROM.
+Thanh ghi PIR2 (0Dh): chứa các cờ ngắt của các khối chức năng ngoại vi, các ngắt này được cho phép bởi các bit điều khiển chứa trong thanh ghi PIE2.
+Thanh ghi PCON (8Eh): chứa các cờ hiệu cho biết trạng thái các chế độ reset của vi điều khiển.
+** THANH GHI MỤC ĐÍCH CHUNG GPR:
+Các thanh ghi này có thể được truy xuất trực tiếp hoặc gián tiếp thông qua thanh ghi FSG (File Select Register). Đây là các thanh ghi dữ liệu thông thường, người sử dụng có thể tùy theo mục đích chương trình mà có thể dùng các thanh ghi này để chứa các biến số, hằng số, kết quả hoặc các tham số phục vụ cho chương trình.
+* Stack
+Stack không nằm trong bộ nhớ chương trình hay bộ nhớ dữ liệu mà là một vùng nhớ đặc biệt không cho phép đọc hay ghi.
+Khi lệnh CALL được thực hiện hay khi một ngắt xảy ra làm chương trình bị rẽ nhánh, giá trị của bộ đếm chương trình PC tự động được vi điều khiển cất vào trong stack. Khi một trong các lệnh RETURN, RETLW hat RETFIE được thực thi, giá trị PC sẽ tự động được lấy ra từ trong stack, vi điều khiển sẽ thực hiện tiếp chương trình theo đúng qui trình định trước.
+Bộ nhớ Stack trong vi điều khiển PIC họ 16F877A có khả năng chứa được 8 địa chỉ và hoạt động theo cơ chế xoay vòng. Nghĩa là giá trị cất vào bộ nhớ Stack lần thứ 9 sẽ ghi đè
+lên giá trị cất vào Stack lần đầu tiên và giá trị cất vào bộ nhớ Stack lần thứ 10 sẽ ghi đè lên giá trị cất vào Stack lần thứ 2.
+Cần chú ý là không có cờ hiệu nào cho biết trạng thái stack, do đó ta không biết được khi nào stack tràn. Bên cạnh đó tập lệnh của vi điều khiển dòng PIC cũng không có lệnh POP hay PUSH, các thao tác với bộ nhớ stack sẽ hoàn toàn được điều khiển bởi CPU.
+3.1.2.5. CÁC CỔNG XUẤT NHẬP CỦA PIC16F877A
+Cổng xuất nhập (I/O port) chính là phương tiện mà vi điều khiển dùng để tương tác với thế giới bên ngoài. Bên cạnh đó, do vi điều khiển được tích hợp sẵn bên trong các đặc tính giao tiếp ngoại vi nên bên cạnh chức năng là cổng xuất nhập thông thường, một số chân xuất nhập còn có thêm các chức năng khác để thể hiện sự tác động của các đặc tính ngoại vi nêu trên đối với thế giới bên ngoài.
+Vi điều khiển PIC16F877A có 5 cổng xuất nhập, bao gồm PORTA, PORTB, PORTC, PORTD và PORTE.
+*PORT A:
+PORTA (RPA) bao gồm 6 I/O pin. Đây là các chân “hai chiều” (bidirectional pin), nghĩa là có thể xuất và nhập được. Chức năng I/O này được điều khiển bởi thanh ghi TRISA (địa chỉ 85h). Muốn xác lập chức năng của một chân trong PORTA là input, ta “set” bit điều khiển tương ứng với chân đó trong thanh ghi TRISA và ngược lại, muốn xác lập chức năng của một chân trong PORTA là output, ta “clear” bit điều khiển tương ứng với chân đó trong thanh ghi TRISA. Thao tác này hoàn toàn tương tự đối với các PORT và các thanh ghi điều khiển tương ứng TRIS (đối với PORTA là TRISA, đối với PORTB là TRISB, đối với PORTC là TRISC, đối với PORTD là TRISD vàđối với PORTE là TRISE). Bên cạnh đó PORTA còn là ngõ ra của bộ ADC, bộ so sánh, ngõ vào analog ngõ vào xung clock của Timer0 và ngõ vào của bộ giao tiếp MSSP (Master Synchronous Serial Port).
+Các thanh ghi SFR liên quan đến PORTA bao gồm:
+- PORTA (địa chỉ 05h) : chứa giá trị các pin trong PORTA.
+- TRISA (địa chỉ 85h) : điều khiển xuất nhập.
+- CMCON (địa chỉ 9Ch) : thanh ghi điều khiển bộ so sánh.
+- CVRCON (địa chỉ 9Dh) : thanh ghi điều khiển bộ so sánh điện áp.
+- ADCON1 (địa chỉ 9Fh) : thanh ghi điều khiển bộ ADC.
+* PORT B:
+PORTB (RPB) gồm 8 pin I/O. Thanh ghi điều khiển xuất nhập tương ứng là TRISB. Bên cạnh đó một số chân của PORTB còn được sử dụng trong quá trình nạp chương trình cho vi điều khiển với các chế độ nạp khác nhau. PORTB còn liên quan đến ngắt ngoại vi và bộ Timer0. PORTB còn được tích hợp chức năng điện trở kéo lên được điều khiển bởi chương trình.
+Các thanh ghi SFR liên quan đến PORTB bao gồm:
+- PORTB (địa chỉ 06h,106h) : chứa giá trị các pin trong PORTB
+- TRISB (địa chỉ 86h,186h) : điều khiển xuất nhập
+- OPTION_REG (địa chỉ 81h,181h) : điều khiển ngắt ngoại vi và bộ Timer0.
+* PORT C:
+PORTC (RPC) gồm 8 pin I/O. Thanh ghi điều khiển xuất nhập tương ứng là TRISC. Bên cạnh đó PORTC
+
+TÀI LIỆU THAM KHẢO
+[1] Giáo trình học tập môn Vi Xử Lý –PIC16F877A
+[2] Giáo trinh học tập môn Kỹ Thuật Số
+[3] Giáo trình học tập môn Kỹ Thuật Truyền Số Liệu
+[4] Giáo trình học tập môn Mạch điện tử
+[5] Giáo trình học tập môn Điện Tử Công Suất
+[6] Bài giảng điện tư cơ bản _ Thượng Văn Be
+[7] www.picvietnam.net
+PHỤ LỤC
+GIỚI THIỆU VỀ CCS
+
+1. TổNG QUAN VỀ CCS.
+1.1 TẠI SAO SỬ DỤNG CCS?
+- Sự ra đời của một loại vi điều khiển đi kèm với việc phát triển phần mềm ứng dụng cho
+việc lập trình cho con vi điều khiển đó. Vi điều khiển chỉ hiểu và làm việc với hai con số 0 và 1. Ban đầu để việc lập trình cho VĐK là làm việc với dãy các con số 0 và 1.
+- Sau này khi kiến trúc của Vi điều khiển ngày càng phức tạp, số luợng thanh ghi lệnh nhiều lần, việc lập trình với dãy các số 0 và 1 không còn phù hợp nữa, đòi hỏi ra đời một ngôn ngữ mới thay thế. Và ngôn ngữ lập trình Assembly. Ở đây ta không nói nhiều đến Assmebly. Sau này khi ngôn ngữ C ra đời, nhu cầu dụng ngôn ngữ C để thay cho ASM trong việc mô tả các lệnh lập trình cho Vi điều khiển một cách ngắn gọn và dễ hiểu hơn đã dẫn đến sự ra đời của nhiều chương trình soạn thảo và biên dịch C cho Vi điều khiển : Keil C, HT-PIC, MikroC, CCS…Đồ án này sử dụng CCS để lập trình vì tính năng mạnh và lập trình đơn giản hơn so với MBLab
+1.2 GIỚI THIỆU VỀ CCS.
+CCS là trình biên dịch lập trình ngôn ngữ C cho Vi điều khiển PIC của hãng Microchip. Chương trình là sự tích hợp của 3 trình biên dịch riêng biệt cho 3 dòng PIC khác nhau đó là:
+- PCB cho dòng PIC 12 bit opcodes
+- PCM cho dòng PIC 14 bit opcodes
+- PCH cho dòng PIC 16 và 18 bit
+Tất cả 3 trình biên dịch này được tích hợp lại trong một chương trình bao gồm cả trình soạn thảo văn biên dịch là CCS
+Giống như nhiều trình biên dịch C khác cho PIC, CCS giúp cho người sử dụng nắm bắt nhanh được vi điều khiển PIC và sử dụng PIC trong các dự án. Các chương trình điều khiển sẽ được thực hiện nhanh chóng và đạt hiệu quả cao thông qua việc sử dụng ngôn ngữ lập trình cấp cao – Ngôn ngữ C
+
+2.VIẾT MỘT CHƯƠNG TRÌNH TRONG CCS:
+Đây là ví dụ về cấu trúc 1 chương trình trong CCS :
+#include < 16F877 .h >
+#device PIC6f877 *=16 ADC=10
+#use delay(clock=20000000)
+. . . .
+Int16 a,b;
+{ . . . }
+#INT_TIMER1
+Void xu_ly_ngat_timer ( )
+{ . . .}
+Void Main ( )
+{ . . . }
+Đầu tiên là các chỉ thị tiền xử lý : # . . . có nhiệm vụ báo cho CCS cần sử dụng những gì trong chương trình C như dùng VXL gì , có dùng giao tiếp PC qua cổng COM không , có dùng ADC không , có dùng DELAY không , có biên dịch kèm các file hay không . . . Các khai báo biến . Các hàm con do ta viết : xu_ly_ADC () , . . . _ Các hàm phục vụ ngắt theo sau bởi 1 chỉ thị tiền xử lý cho biết dùng ngắt nào. _Chương trình chính .
+Một chương trình C có thể được viết luôn trong hàm main () , nếu chúng rất ngắn và đơn giản . Nhưng khi chương trình bắt đầu dài ra , phức tạp lên 1 chút thì phải phân chia trong các hàm con . Các hàm này có thể là :
+1/ Hàm không trả về trị .
+Ví dụ : Void xu_ly( )
+{ Z = x+y ; }
+Hàm trên chỉ thực hiện các lệnh trong thân hàm , khi gọi hàm này chỉ đơn giản viết :Xu_ly( ) ;
+1/ Hàm có trả về trị .
+Ví dụ : int xu_ly ( int a , int b)
+{ . . .
+Return (a+b) ; }
+Hàm trên sẽ trả về tổng (a+b) . khi sử dụng , ví dụ tính bằng 2 biến e ,f , chương trình như sau ( trong hàm main() ) :
+Main()
+{ Int e ,f ,g ;
+e=7 ;
+f= 4;
+g = xu_ly(e ,f ); }
+- Mỗi hàm con nên được viết để thực hiện 1 chức năng chuyên biệt nào đó . Bên trong 1 hàm con có thể gọi 1 hay nhiều hàm khác . Cách thức hoạt động như viết 1 chương trình C trên máy tính .
+- Nếu chương trình lớn hơn nữa có thể làm file c rất dài và do đó rất khó kiểm soát , nên sẽ cần phân chia ra các file c . trong đó file chính chứa hàm main sẽ được biên dịch . Các file c khác chứa các hàm phục vụ chuyên biệt như : cho LCD , . . .Trong file chính chỉ cần thêm dòng #include < file x.c > là tất cả hàm cần dùng chứa trong file x sẽ được biên dịch vào file hex chung . Các ví dụ trong thư mục của CCS nếu có sử dụng LCD sẽ chèn 1 dòng #include < lcd.c> và do đó sẽ gọi được các hàm trong file này mà không cần phải viết lại . điều này có nghĩa là ta có thể viết các file c chứa mã tổng quát có thể dùng chung cho nhiều project , tức là tái sử dụng mã , thay vì phải viết lại chuyên biệt cho từng project . Đây là cách làm chuyên nghiệp cho những project lớn .
+3. SỬ DỤNG CÁC BIẾN VÀ HÀM, CÁC CẤU TRÚC LỆNH, HIỂN THỊ TIỀN XỬ LÍ.
+3.1.CÁC KHAI BÁO VÀ SỬ DỤNG BIẾN, HẰNG, MẢNG.
+Các loại biến sau được hỗ trợ :
+Int1 số 1 bit = true hay false ( 0 hay 1)
+Int8 số nguyên 1 byte ( 8 bit)
+Int16 số nguyên 16 bit
+Int32 số nguyên 32 bit
+Char ký tự 8 bit
+Float số thực 32 bit
+Short mặc định như kiểu int1
+Byte mặc định như kiểu int8
+Int mặc định như kiểu int8
+Long mặc định như kiểu int16
+3.2 CÁC CẤU TRÚC LỆNH ( STATEMENT )
+Gồm các lệnh như :
+_while (expr) stmt : xét điều kiện trước rồi thực thi biểu thức sau .
+_ do stmt while (expr) : thực thi biểu thức rồi mới xét điều kiện sau .
+_Return : dùng cho hàm có trả về trị , hoặc không trả về trị cũng được , khi đó chỉ cần dùng: return ; ( nghĩa là thoát khỏi hàm tại đó ) .
+_Break : ngắt ngang ( thoát khỏi ) vòng lặp while.
+
+3.3.CHỈ THỊ TIỀN XỬ LÍ.
+#ASM và #ENDASM:
+Cho phép đặt 1 đoạn mã ASM giữa 2 chỉ thị này , Chỉ đặt trong hàm . CCS định nghĩa sẵn 1 biến 8 bit _RETURN_ để bạn gán giá trị trả về cho hàm từ đoạn mã Assembly. _C đủ mạnh để thay thế Assmemly . Vì vậy nên hạn chế lồng mã Assembly vào vì thường gây ra xáo trộn dẫn đến sau khi biên dịch mã chạy sai , trừ phi bạn nắm rõ Assembly và đọc hiểu mã Assembly sinh ra thông qua mục C/Asm list . _Khi sử dụng các biến không ở bank hiện tại , CCS sinh thêm mã chuyển bank tự động cho các biến đó . Nếu sử dụng #ASM ASIS thì CCS không sinh thêm mã chuyển bank tự động ,phải tự thêm vào trong mã ASM .
+#INCLUDE :
+Cú pháp : #include <filename>
+Hay #include “ filename”
+Filename : tên file cho thiết bị *.h , *.c . Nếu chỉ định file ở đường dẫn khác thì thêm đường dẫn vào . Luôn phải có để khai báo chương trình viết cho VĐK nào , và luôn đặt ở dòng đầu tiên .
+#BIT , #BYTE , #LOCATE Và # DEFINE:
+#BIT id = X . Y
+Với id : tên biến X : biến C ( 8,16,32,…bit) hay hằng số địa chỉ thanh ghi. Y : vị trí bit trong x -> tạo biến 1 bit đặt ở byte x vị trí bit y, tiện dùng kiểm tra hay gán trị cho bit thanh ghi . Điểm khác biệt so với dùng biến 1 bit từ khai báo int1 là : int1 tốn 1 bit bộ nhớ , đặt ở thanh ghi đa mục đích nào đó do CCS tự chọn , còn #BIT thì không tốn thêm bộ nhớ do id chỉ là danh định đại diện cho bit chỉ định ở biến x , thay đổi giá trị id ( 0 / 1 ) sẽ thay đổi giá trị bit tương ứng Y thay đổi trị X.
+#BYTE id = x
+X: địa chỉ id : tên biến C Gán tên biến id cho địa chỉ (thanh ghi ) x , sau đó muốn gán hay kiểm tra địa chỉ x chỉ cần dùng id . Không tốn thêm bộ nhớ , tên id thường dùng tên gợi nhớ chức năng thanh ghi ở địa chỉ đó . Lưu ý rằng giá trị thanh ghi có thể thay đổi bất kỳ lúc nào do hoạt động chương trình nên giá trị id cũng tự thay đổi theo giá trị thanh ghi đó . Không nên dùng id cho thanh ghi đa mục đích như 1 cách dùng biến int8 vì CCS có thể dùng các thanh ghi này bất kỳ lúc nào cho chương trình .
+# LOCATE id = x
+Làm việc như #byte nhưng có thêm chức năng bảo vệ không cho CCS sử dụng địa chỉ đó vào mục đích khác .
+Sử dụng #LOCATE để gán biến cho 1 dãy địa chỉ kề nhau ( cặp thanh ghi ) sẽ tiện lợi hơn thay vì phải dùng 2 biến với #byte .
+# DEFINE id text
+Text : chuỗi hay số . Dùng định nghĩa giá trị . VD :
+#define a 12345 # DEVICE :
+# DEVICE chip option chip : tên VĐK sử dụng , không dùng tham số này nếu đã khai báo tên chip ở # include . option : toán tử tiêu chuẩn theo từng chip:
+* = 5 dùng pointer 5 bit ( tất cả PIC )
+* = 8 dùng pointer 8 bit ( PIC14 và PIC18 )
+* = 16 dùng pointer 16 bit ( PIC14 ,PIC 18) ADC = x sử dụng ADC x bit ( 8 , 10 , . . . bit tuỳ chip ) , khi dùng hàm read_adc( ) , sẽ trả về giá trị x bit .
+ICD = true : tạo mã tương thích debug phần cứng Microchip
+HIGH_INTS = TRUE : cho phép dùng ngắt ưu tiên cao
+_Khai báo pointer 8 bit , bạn sử dụng được tối đa 256 byte RAM cho tất cả biến chương trình.
+_Khai báo pointer 16 bit , bạn sử dụng được hết số RAM có của VDK .
+_Chỉ nên dùng duy nhất 1 khai báo #device cho cả pointer và ADC .
+VD : #device * = 16 ADC = 10
+# ORG :
+# org start , end
+# org segment
+#org start , end { } Start , end: bắt đầu và kết thúc vùng ROM dành riêng cho hàm theo sau , hoặc để riêng không dùng
+# USE :
+# USE delay ( clock = speed ) Speed : giá trị OSC mà bạn dùng . VD: dùng thạch anh dao động 40Mhz thì : #use delay( clock = 40000000) _Chỉ khi có chỉ thị này thì trong chương trình bạn mới được dùng hàm delay_us ( ) và delay_ms( ) . #USE fast_io ( port) Port : là tên port :từ A-G ( tuỳ chip ) _Dùng cái này thì trong chương trình khi dùng các lệnh io như output_low() , . . . nó sẽ set chỉ với 1 lệnh , nhanh hơn so với khi không dùng chỉ thị này. –b - - Trong hàm main( ) bạn phải dùng hàm set_tris_x( ) để chỉ rõ chân vào ra thì chỉ thị trên mới có hiệu lực , không thì chương trình sẽ chạy sai . _Không cần dùng nếu không có yêu cầu gì đặc biệt . VD : # use fast_io( A )
+#USE I2C ( options ) _Thiết lập giao tiếp I2C. Option bao gồm các thông số sau, cách nhau bởi dấu phẩy : Master : chip ở chế độ master
+Slave : chip ở chế độ slave
+SCL = pin : chỉ định chân SCL
+SDA = pin : chỉ định chân SDA
+ADDRESS =x : chỉ định địa chỉ chế độ slave
+FAST : chỉ định FAST I2C
+SLOW : chỉ định SLOW I2C
+RESTART_WDT : restart WDT trong khi chờ I2C_READ( )
+FORCE_HW : sử dụng chúc năng phần cứng I2C ( nếu chip hỗ trợ )
+NOFLOAT_HIGH : không cho phép tín hiệu ở float high ( ??? ) , tín hiệu được lái từ thấp lên cao.
+SMBUS : bus dùng không phải bus I2C , nhưng là cái gì đó tương tự .
+#use I2C (slave , sda= pin_C4 , scl= pin_C3 , address = 0xa00 , FORCE_HW )
+#USE RS232 ( options ) _Thiết lập giao tiếp RS232 cho chip ( có hiệu lực sau khi nạp chương trình cho chip , không phải giao tiếp RS232 đang sử dụng để nạp chip ) .
+Option bao gồm :
+BAUD = x : thiết lập tốc độ baud rate : 19200 , 38400 , 9600 , . . .
+PARITY = x : x= N ,E hay O , với N : không dùng bit chẵn lẻ .
+XMIT = pin : set chân transmit ( chuyển data)
+RCV = pin : set chân receive ( nhận data ) _Các thông số trên hay dùng nhất , các tham số khác sẽ bổ sung sau.
+VD :
+#use rs232(baud = 19200,parity = n, xmit = pin_C6, rcv = pin_C7)
+* Một số chỉ thị tiền xử lý khác :
+#CASE : cho phép phân biệt chữ hoa / thường trong tên biến , dành cho những ai quen lập trình C . #OPT n :với n=0 – 9 : chỉ định cấp độ tối ưu mã , không cần dùng thì mặc định là 9 ( very tối ưu ) . #PRIORITY ints : với ints là danh sách các ngắt theo thứ tự ưu tiên thực hiện khi có nhiều ngắt xảy ra đồng thời , ngắt đứng đầu sẽ là ngắt ưu tiên nhất , dùng ngắt nào đưa ngắt đó vô . Chỉ cần dùng nếu dùng hơn 1 ngắt . Xem cụ thể phần ngắt . VD : #priority int_CCP1 , int_timer1 // ngắt CCP1 ưu tiên nhất.
+4.CÁC HÀM XỬ LÍ SỐ, XỬ LÍ BIT, DELAY.
+4.1 CÁC HÀM XỬ KÝ SỐ.
+Bao gồm các hàm: Sin() cos() tan() Asin() acos() atan() Abs() : lấy trị tuyệt đối Ceil( ) :làm tròn theo hướng tăng Floor ( ) :làm tròn theo hướng giảm Exp ( ) : tính e^x Log ( ) : Log10 ( ) : Pow ( ) : tính luỹ thừa Sqrt ( ) :căn thức _Các hàm này chạy rất chậm trên các VDK không có bộ nhân phần cứng ( PIC 14 ,12 ) vì chủ yếu tính toán với số thực và trả về cũng số thực ( 32 bit ) và bằng phần mềm .
+4.2 CÁC HÀM XỬ LÝ BIT VÀ PHÉP TOÁN .
+Shift_right ( address , byte , value ) / Right
+Dịch phải (trái ) 1 bit vào 1 mảng hay 1 cấu trúc . Địa chỉ có thể là địa chỉ mảng hay địa chỉ trỏ tới cấu trúc ( kiểu như &data) . Bit 0 byte thấp nhất là LSB.
+Bit_clear ( var , bit )
+Bit_set ( var , bit )
+Bit_clear ( ) dùng xóa ( set = 0 ) bit được chỉ định bởi vị trí bit trong biến var .
+Bit_set ( ) dùng set=1 bit được chỉ định bởi vị trí bit trong biến var .
+var : biến 8 , 16 , 32 bit bất kỳ .
+bit : vị trí clear ( set ) : từ 0-7 ( biến 8 bit) , 0-15 ( biến 16 bit ) , 0-31 (biến 32 bit ) . _Hàm không trả về trị .
+VD : Int x; X=11 ; //x=1011 Bit_clear ( x ,1 ) ; // x= 1001b = 9
+Bit_test ( var , bit ) :
+- Dùng kiểm tra vị trí bit trong biến var .
+Hàm trả về 0 hay 1 là giá trị bit đó trong var .
+var : biến 8, 16 ,32 bit .
+bit : vị trí bit trong var .
+Swap ( var ) : _var : biến 1 byte
+- Hàm này tráo vị trí 4 bit trên với 4 bit dưới của var , tương đương var =( var>>4 ) Hàm không trả về trị
+Make8 ( var , offset ) :
+- Hàm này trích 1 byte từ biến var .
+var : biến 8,16,32 bit . offset là vị trí của byte cần trích ( 0,1,2,3) .
+Hàm trả về giá trị byte cần trích . VD :
+Int16 x = 1453 ; // x=0x5AD
+Y = Make(x, 1) ; //Y= 5 = 0x05
+Make16 ( varhigh , varlow ) :
+- Trả về giá trị 16 bit kết hợp từ 2 biến 8 bit varhigh và varlow . Byte cao là varhigh , thấp là varlow .
+Make32 ( var1 , var2 , var3 , var4 ) :
+- Trả về giá trị 32 bit kết hợp từ các giá trị 8 bit hay 16 bit từ var1 tới var4 . Trong đó var2 đến var4 có thể có hoặc không . Giá trị var1 sẽ là MSB , kế tiếp là var2 , . . .Nếu tổng số bit kết hợp ít hơn 32 bit thì 0 được thêm vào MSB cho đủ 32 bit . VD:
+Int a=0x01 , b=0x02 , c=0x03 , d=0x04 ; // các giá trị hex
+Int32 e ;
+e = make32 ( a , b , c , d ); // e = 0x01020304
+e = make32 ( a , b , c , 5 ) ; // e = 0x01020305
+e = make32 ( a, b, 8 ); // e = 0x00010208
+e = make32 ( a ,0x1237 ) ; // e = 0x00011237
+4.3 CÁC HÀM DELAY.
+Để sử dụng các hàm delay , cần có khai báo tiền xử lý ở đầu file , VD : sử dụng OSC 20 Mhz , cần khai báo : #use delay ( clock = 20000000 ).
+Hàm delay không sử dụng bất kỳ timer nào . Chúng thực ra là 1 nhóm lệnh ASM để khi thực thi từ đầu tới cuối thì xong khoảng thời gian mà bạn quy định . Tuỳ thời gian delay yêu cầu dài ngắn mà CCS sinh mã phù hợp . có khi là vài lệnh NOP cho thời gian rất nhỏ . Hay 1 vòng lặp NOP . Hoặc gọi tới 1 hàm phức tạp trong trường hợp delay dài . Các lệnh nói chung là vớ vẩn sao cho đủ thời gian quy định là được . Nếu trong trong thời gian delay lại xảy ra ngắt thì thời gian thực thi ngắt không tính vào thời gian delay , xong ngắt nó quay về chạy tiếp các dòng mã cho tới khi xong hàm delay . Do đó thời gian delay sẽ không đúng .
+Có 3 hàm phục vụ :
+4.3.1 DELAY_CYCLES (COUNT ) COUNT : hằng số từ 0 – 255 , là số chu kỳ lệnh .1 chu kỳ lệnh bằng 4 chu kỳ máy .
+- Hàm không trả về trị . Hàm dùng delay 1 số chu kỳ lệnh cho trước . VD :
+delay_cycles ( 25 ) ; // với OSC = 20 Mhz , hàm này delay 5 us
+4.3.2 DELAY_US ( TIME ) TIME : là biến số thì = 0 – 255 , time là 1 hằng số thì = 0 -65535 . _Hàm không trả về trị .
+- Hàm này cho phép delay khoảng thời gian dài hơn theo đơn vị us .
+- Quan sát trong C / asm list bạn sẽ thấy với time dài ngắn khác nhau , CSS sinh mã khác nhau
+4.3.3 DELAY_MS (TIME ) Time = 0-255 nếu là biến số hay = 0-65535 nếu là hằng số .
+- Hàm không trả về trị .
+- Hàm này cho phép delay dài hơn nữa .
+5. XỬ LÍ ADC, CÁC HÀM I/O.
+5.1 XỬ LÝ ADC.
+PIC có nhiều chân phục vụ xử lý ADC với nhiều cách thức khác nhau . Để dùng ADC , bạn phải có khai báo #DEVICE cho biết dùng ADC mấy bit ( tuỳ chip hỗ trợ , thường là 8 hay 10 bit hoặc hơn) . Bạn cần lưu ý là: 1 VDK hỗ trợ ADC 10 bit thì giá trị vào luôn là 10 bit , nhưng chia cho 4 thì còn 8 bit . Do đó 1 biến trở chiết áp cấp cho ngõ vào ADC mà bạn chọn chế độ 10 bit thì sẽ rất nhạy so với chế độ 8 bit ( vì 2 bit cuối có thay đổi cũng không ảnh hưởng giá trị 8 bit cao và do đó kết quả 8 bit ADC ít thay đổi ) , nếu chương trình có chế độ kiểm tra ADC để cập nhật tính toán , hay dùng ngắt ADC , thì nó sẽ chạy hoài thôi . Dùng ADC 8 bit sẽ hạn chế điều này . Do đó mà CCS cung cấp chọn lựa ADC 8 hay 10 bit tùy mục đích sử dụng .
+5.2 CÁC HÀM VÀO RA TRONG IC.
+5.2.1 OUTPUT_LOW ( PIN ) , OUTPUT_HIGH (PIN ) :
+- Dùng thiết lập mức 0 ( low, 0V ) hay mức 1 ( high, 5V ) cho chân IC , pin chỉ vị trí chân .
+- Hàm này sẽ đặt pin làm ngõ ra, xem mã asm để biết cụ thể .
+- Hàm này dài 2-4 chu kỳ máy. Cũng có thể xuất xung dùng set_tris_X() và #use fast_io. VD : chương trình sau xuất xung vuông chu kỳ 500ms, duty =50% ra chân B0 ,nối B0 với 1 led sẽ làm nhấp nháy led .
+#include <16F877.h>
+#use delay( clock=20000000)
+Main()
+{ while(1)
+{ output_high(pin_B0) ;
+Delay_ms(250) ; // delay 250ms
+Output_low (pin_B0);
+Delay_ms (250 ); } }
+5.2.2 OUTPUT_BIT ( PIN , VALUE ) :
+Pin : tên chân ; Value : giá trị 0 hay 1
+- Hàm này cũng xuất giá trị 0/1 trên pin, tương tự 2 hàm trên. Thường dùng nó khi giá trị ra tuỳ thuộc giá trị biến 1 bit nào đó, hay muốn xuất đảo của giá trị ngõ ra trước đó .
+5.2.3 OUTPUT_FLOAT ( PIN ) :
+- Hàm này set Pin như ngõ vào
+5.2.4 INPUT ( PIN ) :
+- Hàm này trả về giá trị 0 hay 1 là trạng thái của chân IC . Giá trị là 1 bit
+5.2.5 OUTPUT_X ( VALUE ) :
+- X là tên port có trên chip . Value là giá trị 1 byte .
+- Hàm này xuất giá trị 1 byte ra port . Tất cả chân của port đó đếu là ngõ ra .
+5.2.6 INPUT_X ( ) : _X : là tên port ( a, b ,c ,d e ) .
+- Hàm này trả về giá trị 8 bit là giá trị đang hiện hữu của port đó .
+5.2.7 PORT_B_PULLUPS ( VALUE ) : _Hàm này thiết lập ngõ vào port B pullup Value =1 sẽ kích hoạt tính năng này và value =0 sẽ ngừng .
+- Chỉ các chip có port B có tính năng này mới dùng hàm này .
+5.2.8 SET_TRIS_X ( VALUE ) : Hàm này định nghĩa chân IO cho 1 port là ngõ vào hay ngõ ra. Chỉ được dùng với #use fast_IO . Sử dụng #byte để tạo biến chỉ đến port và thao tác trên biến này chính là thao tác trên port .
+Value là giá trị 8 bit . Mỗi bit đại diện 1 chân và bit=0 sẽ set chân đó là ngõ vào , bit= 1 set chân đó là ngõ ra .
+6. TRUYỀN THÔNG VỚI PC QUA CỔNG COM, XỬ LÍ CHUỖI:
+Điều này rất cần thiết khi bạn muốn VĐK khi hoạt động có thể truyền dữ liệu cho PC xử lý , hoặc nhận giá trị từ PC để xử lý và điều khiển ( dùng PC điều khiển động cơ , nhiệt độ , hay biến PC thành dụng cụ đo các đại lượng điện , Oscilocope , . .)
+- Để sử dụng giao thức này , phải có 2 khai báo như ví dụ sau :
+#use delay (clock = 40000000 ) // nếu VDK đang dùng OSC 40Mhz
+#use rs232 (baud=19200 , parity=n , xmit=pin_C6 , rcv=pin_C7 ) // baud= 19200 , không chẵn lẻ , chân truyền C6 , chân nhận C7
+-Các hàm liên quan :Printf ( ) Getc ( ) putc ( ) Getch ( ) putchar ( ) Getchar ( ) fputc ( ) Fgetc ( ) puts ( ) Gets ( ) fputs ( )Fgets ( ) Kbhit ( ) Assert ( ) Perror ( ) Set_uart_speed ( )
+- Tất cả các hàm trên đòi hỏi phải khai báo chỉ thị tiền xử lý #use RS232 ( . . .) .
+6.1 PRINTF ( STRING ) PRINTF ( CSTRING , VALUES . . . )
+Dùng xuất chuỗi theo chuẩn RS232 ra PC . String là 1 chuỗi hằng hay 1 mảng ký tự ( kết thúc bởi ký tự null ) . Value là danh sách các biến , cách nhau bởi dấu phẩy .
+Khai báo dạng format của value theo kiểu %wt .Trong đó w có thể có hoặc không , có giá trị từ 1-9 chỉ rõ có bao nhiêu ký tự được xuất ra ( mặc định không có thì có bao nhiêu ra bấy nhiêu ), hoặc 01-09 sẽ chèn thêm 0 cho đủ ký tự hoặc 1.1-1.9 cho trường hợp số thực . còn t là kiểu giá trị, t có thể là :
+C : 1 ký tự
+S : chuỗi hoặc ký tự
+U : số 8 bit không dấu
+x : số 8 bit kiểu hex ( ký tự viết thường ,VD : 1ef )
+D : số 8 bit có dấu
+e : số thực có luỹ thừa VD : e12
+f : số thực
+Lx : số hex 16 /32 bit ( ký tự viết thường )
+Lu : số thập phân không dấu
+Ld : số thập phân có dấu
+6.2 KBHIT ( ) : Thường thì chúng ta dùng RC6 và RC7 cho RX và TX trong giao tiếp cổng COM , VDK PIC trang bị phần cứng phục vụ việc này với thanh ghi gởi và nhận và các bit bào hiệu tương ứng . Do đó khi dùng RS232 hỗ trợ từ phần cứng thì KHBIT ( ) trả về TRUE nếu 1 ký tự đã được nhận ( trong bộ đệm phần cứng ) và sẵn sàng cho việc đọc , và trả về 0 nếu chưa sẵn sàng .
+Hàm này có thể dùng hỏi vòng xem khi nào có data nhận từ RS232 để đọc .
+7.LÀM VIỆC VỚI NGẮT
+7.1 CƠ CHẾ HOẠT ĐỘNG CỦA NGẮT
+7.1.1 NGẮT 1 CẤP : Trên PIC 14 , 12 ,10 ,tất cả các ngắt chỉ có 1 cấp
+ưu tiên . Nghĩa là ngắt nào đang được phục vụ thì không thể bị ngắt bởi 1 ngắt khác xảy ra . Cơ chế sinh mã cho ngắt của CCS như sau : nhảy đến địa chỉ ngắt , thường là 004h , sao lưu thanh ghi W, STATUS , PCLATCH , FSR, sau đó hỏi vòng xem cờ ngắt nào xảy ra thì nhảy đến hàm phục vụ ngắt đó . thực hiện xong thì phục hồi tất cả thanh ghi trên , rồi mới “RETFIE” – thoát ngắt . Số chu kỳ thực thi từ chỗ ngắt đến khi nhảy vào hàm ngắt cỡ 20 chu kỳ lệnh.
+7.1.2 NGẮT 2 CẤP : Để sử dụng ngắt 2 cấp , khai báo #device phải có high_ints=true . Và hàm ngắt nào muốn ưu tiên cao thì thêm FAST hay HIGH theo sau chỉ thị tiền xử lý hàm đó .
+7.2 KHAI BÁO NGẮT
+Mỗi dòng VDK có số lượng nguồn ngắt ngắt khác nhau : PIC 14 có 14 ngắt , PIC 18 có 35 :
+#INT_AD : chuyển đổi A /D đã hoàn tất , thường thì không nên dùng
+#INT_ADOF : I don’t know
+#INT_BUSCOL : xung đột bus
+#INT_BUTTON : nút nhấn ( không biết hoạt động thế nào )
+#INT_CCP1 : có Capture hay compare trên CCP1
+#INT_CCP2 : có Capture hay compare trên CCP2
+#INT_COMP : kiểm tra bằng nhau trên Comparator
+#INT_EEPROM : hoàn thành ghi EEPROM
+#INT_EXT : ngắt ngoài
+#INT_EXT1 : ngắt ngoài 1
+#INT_EXT2 : ngắt ngoài 2
+#INT_I2C : có hoạt động I 2C
+#INT_LCD : có hoạt động LCD
+#INT_LOWVOLT : phát hiện áp thấp
+#INT_PSP : có data vào cổng Parallel slave
+#INT_RB : bất kỳ thay đổi nào trên chân B4 đến B7
+#INT_RC : bất kỳ thay đổi nào trên chân C4 đến C7
+#INT_RDA : data nhận từ RS 232 sẵn sàng
+#INT_RTCC : tràn Timer 0
+#INT_SSP : có hoạt động SPI hay I 2C
+#INT_TBE : bộ đệm chuyển RS 232 trống
+#INT_TIMER0 : một tên khác của #INT_RTCC
+#INT_TIMER1 : tràn Timer 1
+#INT_TIMER2 : tràn Timer 2
+#INT_TIMER3 : tràn Timer 3
+#INT_TIMER5 : tràn Timer 5
+#INT_OSCF : lỗi OSC
+#INT_PWMTB : ngắt cuả PWM time base
+#INT_IC3DR : ngắt đổi hướng ( direct ) của IC 3
+#INT_IC2QEI : ngắt của QEI
+#INT_IC1 : ngắt IC 1
+7.3 CÁC HÀM THIẾT LẬP HOẠT ĐỘNG NGẮC
+7.3.1 ENABLE_INTERRUPTS ( LEVEL )
+_level là tên các ngắt đã cho ở trên hay là GLOBAL để cho phép ngắt ở cấp toàn cục . _Mọi ngắt của VDK đều có 1 bit cờ ngắt , 1 bit cho phép ngắt . Khi có ngắt thì bit cờ ngắt bị set =1, nhưng ngắt có họat động được hay không tuỳ thuộc bit cho phép ngắt . enable_interrupts (int_xxx ) sẽ bật bit cho phép ngắt . Nhưng tất cả các ngắt đều không thể thực thi nếu bit cho phép ngắt toàn cục = 0 , enable_interrupts( global ) sẽ bật bit này . VD : để cho phép ngắt timer0 và timer1 hoạt động:
+enable_interrupts (int_timer0);
+enable_interrupts (int_timer1 ) ;
+enable_interrupts ( global ); // chỉ cần dùng 1 lần trừ phi muốn có thay đổi đặc biệt
+7.3.2 DISABLE_INTERRUPTS ( LEVEL )
+_Level giống như trên .
+_Hàm này vô hiệu 1 ngắt bằng cách set bit cho phép ngắt = 0 .
+_Disable_interrupts ( global ) set bit cho phép ngắt toàn cục =0 , cấm tất cả các ngắt . _Không dùng hàm này trong hàm phục vụ ngắt vì không có tác dụng , cờ ngắt luôn bị xoá tự động .
+7.3.3 CLEAR_INTERUPT ( LEVEL )
+_level không có GLOBAL .
+_Hàm này xoá cờ ngắt của ngắt được chỉ định bởi level .
+7.3.4 EXT_INT_EDGE ( SOURCE , EDGE )
+_Hàm này thiết lập nguồn ngắt ngoài EXTx là cạnh lên hay cạnh xuống .
+_source : nguồn ngắt . Trên PIC 18 có 3 nguồn ngắt trên 3 chân EXT0 , EXT1 , EXT2 ứng với source = 0 ,1 , 2 . Các PIC khác chỉ có 1 nguồn EXT nên source = 0 .
+_edge : chọn cạnh kích ngắt , edge = L_TO_H nếu chọn cạnh lên ( từ mức thấp chuyển lên mức cao ) hay H_TO_L nếu chọn

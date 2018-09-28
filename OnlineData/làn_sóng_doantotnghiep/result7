@@ -1,0 +1,700 @@
+TÓM TẮT LUẬN VĂN Nghiên cứu đề xuất kết cấu máy và xác định các thông số làm việc của máy gọt trái xoài
+Gọt vỏ trái xoài chín để phục vụ việc chế biên các sản phẩm từ xoài ở Việt Nam hiện tại đang được thực hiện thủ công nên năng suất không cao do sử dụng sức người và các dụng cụ thủ công. Ở các nước Châu Âu có đưa ra thị trường máy gọt trái xoài qui mô công nghiệp năng suất rất lớn với giống Úc có hình dáng tròn, màu đỏ, thịt trái cứng chắc, ít xơ. Ở điều kiện Việt Nam, chưa thấy thể hiện rõ nhu cầu gọt vỏ trái xoài giống xoài cát Hoà Lộc. Tuy nhiên, nhu cầu về các loại thiết bị/máy gọt vỏ trái xoài quy mô nhỏ có nguồn cầu rất lớn, đặc biệt khi vào mùa vụ thu hoạch lúa, giúp các cơ sở sản xuất chủ động và đáp ứng được các yêu cầu về năng suất, an toàn vệ sinh thực phẩm. Luận văn đã triển khai nghiên cứu, đề xuất được công nghệ gọt vỏ trái xoài cát Hoà Lộc bằng máy, xác định được nguyên ký kết cấu máy, tính toán thiết kế toàn bộ máy. Máy đã được chế tạo thử nghiệm và các thí nghiệm xác định các thông số hoạt động, thông số hình học của dao cắt, đĩa cắt. Các kết quả hoạt động thử nghiệm cho thấy, máy có kết cấu đơn giản, khả năng điều chỉnh để gọt các loại xoài khác nhau dễ dàng, giá thành rẻ. Thiết kế máy gọt vỏ trái xoái hiện tại có thể triển khai sản xuất chế tạo và thương mại với qui mô lớn để đáp ứng nhu cầu chế biến xoài của các cơ sở sản xuất thực phẩm qui mô nhỏ và trung bình.
+
+ABSTRACT
+Research, Design, Manufacturing and Testing Mango Peeling Machine.
+Peel the mango in the consortium , manufacturing facility is usually done manually requires a lot of effort . Currently on the market there are a number of machines imported peeled the mango can meet the requirements peeled .
+However, these machines have the capacity to produce large and industrial scale. High price should not be applied to the consortium, perhaps a small manufacturing facility.
+The theme proposed operating principles, structures and manufacturing mango peel testing machine with a small capacity. Machine application of the principle of mango peeled sliced principle.
+Machine manufacturing operations meet the test specifications , materials fabrication using stainless steel 304 stainless steel to meet sanitary standards . Machine can deploy manufacturing and commercial large scale to meet the processing needs of the combined ginger , food production facilities small scale .
+
+MỤC LỤC
+QUYẾT ĐỊNH GIAO ĐỀ TÀI
+LÝ LỊCH KHOA HỌC.. ii
+LỜI CAM ĐOAN.. iv
+LỜI CẢM ƠN.. v
+TÓM TẮT LUẬN VĂN.. vi
+MỤC LỤC.. viii
+DANH MỤC BẢNH BIỂU.. x
+DANH MỤC HÌNH ẢNH.. xi
+CHƯƠNG 1: GIỚI THIỆU.. 1
+1.1. Tính cấp thiết của đề tài1
+1.2. Ý nghĩa khoa học và tính thực tiễn của đề tài2
+1.3. Mục tiêu nghiên cứu của đề tài2
+1.4. Đối tượng và phạm vi nghiên cứu. 2
+1.5.Phương pháp nghiên cứu. 3
+1.6. Kết cấu của luận văn tốt nghiệp. 3
+CHƯƠNG 2: TỔNG QUAN VỀ LUẬN VĂN.. 4
+2.1. Giới thiệu về cây xoài và trái xoài4
+2.2. Đặc tính của xoài14
+2.4. Các phương pháp gọt vỏ xoài21
+2.5 Lựa chọn nguyên lý thực hiện. 26
+CHƯƠNG 3: CƠ SỞ LÝ THUYẾT.. 27
+3.1. Khảo sát kích thước trái xoài27
+3.2. Số liệu khảo sát trái xoài27
+3.3 Xác định cơ lý tính của trái xoài29
+3.4 Các thông số hình học của dao. 30
+CHƯƠNG 4: PHƯƠNG HƯỚNG VÀ CÁC GIẢI PHÁP. 36
+4.1. Yêu cầu thiết kế. 36
+4.2. Phương hướng và giải pháp thực hiện. 36
+CHƯƠNG 5: THIẾT KẾ VÀ CHẾ TẠO MÁY THỬ NGHIỆM... 41
+5.1. Đĩa cắt, lưới dao. 41
+5.2.Chế tạo miếng chêm dao. 43
+5.3. Chế tạo thanh lục giác. 44
+5.4. Chế tạo trục truyền. 45
+5.5. Chế tạo bích lắp chặn ổ lăn. 46
+5.6. Chế tạo tấm đỡ trục. 47
+5.7. Các cụm máy được lăp ghép. 48
+5.8. Chế tạo máy thử nghiệm.. 50
+5.9. Thử nghiệm.. 51
+CHƯƠNG 6: THIẾT KẾ HOÀN CHỈNH MÁY GỌT VỎ XOÀI67
+6.1. Các thông số thiết kế. 67
+6.2. Kết cấu máy. 67
+6.2. Các công việc tính toán.68
+6.3.Tính toán.68
+6.4. Chế Tạo máy hoàn chỉnh. 72
+6.5. Kết cấu máy hoàn chỉnh. 84
+KẾT LUẬN VÀ KIẾN NGHỊ87
+TÀI LIỆU THAM KHẢO.. 88
+PHỤ LỤC.. I
+
+
+
+DANH MỤC BẢNH BIỂU
+Trang
+Bảng 2.1: Sản lượng xoài năm 2011 của một số nước trên thế giới [FAO]............................ 10
+Bảng 2.2: Diện tích và sản lượng xoài ở một số tỉnh ĐBSCL và Đông Nam Bộ năm 200411
+Bảng 3.1: Bảng kết quả khảo sát trái xoài tại chợ Bình Điền-Tp.HCM.................................. 28
+Bảng 6.1 Bảng đánh giá hiệu quả máy........................................................................................ 86
+Bảng 1.1: Thành phần hóa học của các chủng loại Inox.............................................................. I
+Bảng 1.3: Bảng số liệu xoài tròn ở chợ đầu mối Bình Điền...................................................... IV
+
+
+
+DANH MỤC HÌNH ẢNH
+
+Hình 2.1: Xoài cát Hòa Lộc............................................................................................................. 6
+Hình 2.2: Xoài Cát Chu.................................................................................................................... 7
+Hình 2.3: Xoài tứ quý....................................................................................................................... 7
+Hình 2.4:Xoài Thái........................................................................................................................... 8
+Hình 2.5: Xoài Đài Loan.................................................................................................................. 9
+Hình 2.6: Bánh tráng xoài............................................................................................................. 15
+Hình 2.7: Nước ép xoài.................................................................................................................. 16
+Hình 2.8: Xoài sấy.......................................................................................................................... 17
+Hình 2.9: Mứt xoài......................................................................................................................... 18
+Hình 2.10: Xoài đông lạnh............................................................................................................ 19
+Hình 2.11: Xoài ngâm.................................................................................................................... 20
+Hình 2.12:Gọt vỏ xoài bằng tay................................................................................................... 21
+Hình 2.13: Nguyên lý cắt lật......................................................................................................... 22
+Hình 2.14: Cấu tạo đĩa cắt............................................................................................................. 23
+Hình 2.15: Hình nguyên lý tiện.................................................................................................... 24
+Hình 2.16: Cấu tạo lưỡi cắt........................................................................................................... 24
+Hình 2.17: Nguyên lý cắt lột......................................................................................................... 25
+Hình 2.18: Cấu tạo lưỡi cắt lột..................................................................................................... 26
+Hình 3.1: Chợ Bình Điền............................................................................................................... 27
+Hình 3.2: Đo xoài lấy số liệu........................................................................................................ 29
+Hình 3.3: Thí nghiệm xác định lực cắt........................................................................................ 30
+Hình 3.4: Góc cắt............................................................................................................................ 32
+Hình 3.5: Vận tốc dao cắt.............................................................................................................. 33
+Hình 3.6: Phân tích vận tốc điểm M ở cạnh sắc lưỡi dao khi cắt............................................ 33
+Hình 3.7: Phân tích các lực tác động giữa lưỡi dao và vật cắt................................................. 34
+Hình 4.1: Nguyên lý máy gọt vỏ trái xoài sử dụng bộ truyền đai............................................ 37
+Hình 4.2: Cấu tạo đĩa cắt............................................................................................................... 37
+Hình 4.3: Nguyên lý điều khiển bằng biến tần........................................................................... 39
+Hình 4.4: Mô tả nguyên lý hoạt động của máy gọt vỏ xoài sử dụng 3 động cơ..................... 40
+Hình 5.1: Bản vẽ thiết kế đĩa cắt................................................................................................. 41
+Hình 5.2: Đĩa cắt............................................................................................................................. 42
+Hình 5.3: Bản vẽ thiết kế lưới dao............................................................................................... 42
+Hình 5.4: Lưỡi dao......................................................................................................................... 43
+Hình 5.5: Bản vẽ thiết kế miếng chêm dao................................................................................. 43
+Hình 5.6: Miếng chêm dao............................................................................................................ 44
+Hình 5.7: Bản vẽ thiết kế thanh lục giác..................................................................................... 44
+Hình 5.8: Thanh lục giác............................................................................................................... 45
+Hình 5.9: Bản vẽ thiết kế trục truyền.......................................................................................... 45
+Hình 5.10: Trục truyền.................................................................................................................. 46
+Hình 5.11: Bản vẽ thiết kế bích lắp chặn ổ lăn.......................................................................... 46
+Hình 5.12: Mặt bích....................................................................................................................... 47
+Hình 5.13: Bản vẽ thiết kế tấm đỡ trục....................................................................................... 47
+Hình 5.14: Tấm đỡ trục.................................................................................................................. 48
+Hình 5.15: Motor lắp với trục....................................................................................................... 49
+Hình 5.16: Cụm máy lắp với khung............................................................................................. 49
+Hình 5.17: Máy chế tạo thử nghiệm............................................................................................ 50
+Hình 5.18: Thùng chứa hình tam giác......................................................................................... 50
+Hình 5.19: Dao cắt chế tạo tư vật liệu lưỡi cưa CD................................................................... 51
+Hình 5.20: Thử nghiệm với n = 27 vòng/phút............................................................................ 51
+Hình 5.21: Thử nghiệm với n = 310 vòng/phút.......................................................................... 52
+Hinh 5.22: Thử nghiệm với n = 340 vòng/phút.......................................................................... 52
+Hình 5.23: Thử nghiệm với n = 370 vòng/phút.......................................................................... 53
+Hình 5.24 Thử nghiệm với n = 420 vòng/phút........................................................................... 53
+Hình 5.25:Thử nghiệm với n = 270 vòng/phút........................................................................... 54
+Hình 5.26: Thử nghiệm với n = 310 vòng/phút.......................................................................... 55
+Hình 5.27: Thử nghiệm với n = 370 vòng/phút.......................................................................... 55
+Hình 5.29: Thử nghiệm với n = 460 vòng/phút.......................................................................... 57
+Hình 5.30: Hình dao hợp kim....................................................................................................... 58
+Hình 5.31: Thử nghiệm với n = 270 vòng/phút.......................................................................... 58
+Hình 5.32: Thử nghiệm với n = 310 vòng/phút.......................................................................... 59
+Hình 5.33: Thử nghiệm với n = 340 vòng/phút.......................................................................... 59
+Hình 5.34: Thử nghiệm với n = 370 vòng/phút.......................................................................... 60
+Hình 5.35: Thử nghiệm với n = 420 vòng/phút.......................................................................... 60
+Hình 5.36: Thử nghiệm với n = 460 vòng/phút.......................................................................... 61
+Hình 6.1: Góc độ lưới dao............................................................................................................. 67
+Hình 6.2:Mô hình kết cấu được thiết kế trên phân mềm pro/creo 2.0.................................... 68
+Hình 6.4: Bản vẽ chi tiết 2D – 3D khung máy 3 trục................................................................ 72
+Hình 6.5: Bản vẽ chi tiết 2D – 3D Tấm đỡ trục.......................................................................... 73
+Hình 6.6: Bản vẽ chi tiết 2D – 3D khay thoát nước.................................................................. 73
+Hình 6.7: Bản vẽ chi tiết 2D – 3D bích....................................................................................... 74
+Hình 6.8: Bản vẽ chi tiết 2D – 3D thanh lục giác...................................................................... 74
+Hình 6.9: Bản vẽ chi tiết 2D – 3D vỏ máy.................................................................................. 75
+Hình 6.10: Bản vẽ chi tiết 2D – 3D vỏ máy................................................................................ 75
+Hình 6.11: Hình chế tạo khung máy............................................................................................ 76
+Hình 6.12: Hình chế tạo tấm lắp trục.......................................................................................... 76
+Hình 6.13: Hình chế tạo khay thoát nước................................................................................... 77
+Hình 6.14: Bản vẽ chi tiết 2D – 3D thùng ôvan......................................................................... 78
+Hình 6.15: Bản vẽ chi tiết 2D – 3D Tấm đáy............................................................................. 78
+Hình 6.16: Bản vẽ chi tiết 2D – 3D thùng máy.......................................................................... 79
+Hình 6.17: Hình chế tạo thùng ôvan............................................................................................ 79
+Hình 6.18: Hình chế tạo thùng máy............................................................................................. 80
+Hình 6.19: Hình chế tạo tấm đáy................................................................................................. 80
+Hình 6.20: Bản vẽ chi tiết 2D – 3D Trục truyền........................................................................ 81
+Hình 6.21: Bản vẽ chi tiết 2D – 3D lưỡi cắt............................................................................... 82
+Hình 6.22: Bản vẽ chi tiết 2D – 3D miếng chêm dao................................................................ 82
+Hình 6.23: Bản vẽ chi tiết 2D – 3D đĩa cắt................................................................................. 83
+Hình 6.24: Hình bộ đĩa cắt và trục............................................................................................... 83
+Hình 6.25:Máy hoàn thiện............................................................................................................ 85
+
+CHƯƠNG 1: GIỚI THIỆU
+
+Xã hội ngày càng phát triển nhu cầu chăm sóc sức khỏe của con người ngày càng được quan tâm trong nhiều lĩnh vực như: y tế, ẩm thực, dịch vụ….Trong đó ẩm thực là một trong những lĩnh vực khá là quan trọng trong việc mang lại sức khỏe tốt cho con người.Vì vậy, việc nghiên cứu các chất dinh dưỡng có trong thực phẩm, hoa qủa… trong nông lâm sản là vấn đề quan tâm của toàn xã hội.Hiện nay, trên thế giới và nước ta đã có nhiều công trình nghiên cứu xác định thành phần, cấu tạo của các chất có trong các loại thực phẩm, hoa quả….mang nhiều sức khỏe đến cho con người và kết quả đã đưa ra là có những chất có khả năng khoáng khuẩn, chống ung thư…góp phần nâng cao sức khỏe cho con người.Việt Nam là nước nằm trong vùng nhiệt đới gió mùa, nước ta lại là nước sản xuất nông nghiệp là chính nên hệ thực vật vô cùng đa dạng và phong phú. Trong đó, có rất nhiều loại cây vừa mang lại hiệu quả kinh tế vừa cung cấp một lượng lớn chất dinh dưỡng cho con người. Đó được xem như là nguồn tài nguyên sinh học vô cùng quý giá. Vì vậy, từ xưa đến nay con người đã khai thác nguồn tài nguyên này để làm thuốc chữa bệnh, dược phẩm, mỹ phẩm, hương liệu, thực phẩm dinh dưởng...
+1.1. Tính cấp thiết của đề tài
+- Trong đời sống hằng ngày, xoài là 1 loại cây hết sức quen thuộc với mỗi con người Việt Nam.Nó rất đa dạng và phong phú về chủng loại, nó cung cấp một sản lượng lớn hàng năm và góp phần thúc đẩy và phát triển kinh tế của một số vùng miền ở Việt Nam. Nó không những mọc hoang ở những vùng núi mà còn được trồng khá phổ biến ở nhiều vùng miền.
+- Hiện nay, ởbmột số tỉnh như Long An, Tiền Giang, Đồng Tháp, Khánh Hòa… có nhiều người dân trồng rất nhiều loại xoài như: xoài cát hòa lộc, xoài cát chu, xoài keo, xoài 3 mùa mưa, xoài cóc, xoài tứ quý, xoài đài loan, xoài thái…. Người dân trồng 1 cách đại trà cung cấp cho nhu cầu thị hiếu tại địa phương và 1 số nơi và góp phần làm phong phú các mặt hàng nông sản được xuất khẩu ra thi trường nước ngoài.
+- Đặc biệt đối với xoài trong chế biến món ăn: bánh xoài, mức xoài, kẹo xoài, nước ép xoài, xoài đông lạnh…. Và đặc biệt vào mùa tết đến gần thì nhu cầu thị hiếu về các sản phẩm xoài tăng cao. Nhưng hiện nay ở Việt Nam việc gọt vỏ xoài được thực hiện chủ yếu là dùng sức người, dẩn đến năng xuất thấp, đòi hỏi số lượng lao động nhiều, tốn thời gian, ảnh hưởng sức khỏe, giá thành cao. Nên vấn đề tự động hóa trong khâu gọt vỏ xoài là cấp thiết để giảm tải sức lao động cũng như tăng năng suất, hạ giá thành. Để góp phần nâng cao năng suất lao động và giảm thiếu tác hại của điều kiện lao động đến sức khỏe người lao động, đề tài“Nghiên cứu đề xuất kết cấu máy và xác định các thông số làm việc của máy gọt trái xoài” đã được lựa chọn triển khai, thực hiện tạiTrường Đại Học Sư Phạm Kỹ ThuậtThành phố Hồ Chí Minh.
+1.2. Ý nghĩa khoa học và tính thực tiễn của đề tài
+- Trong quá trình phát triển của nền kinh tế thị trường cùng với sự hòa nhập của nền kinh tế của khu vực và quốc tế nền công nghiệp nặng chiếm một vị trí quan trọng trong nền kinh tế xã hội. Tự động hóa quá trình sản xuất ngày càng được sử dụng rộng rãi vào các thành phần kinh tế. Bên cạnh đó cùng với những ứng dụng tin học đã tạo cho quá trình sản xuất phát triển hoàn thiện bằng những máy móc hiện đại có năng suất cao, chất lượng tốt và đạt độ chính xác cao. Vì thế các thiết bị máy móc ngày càng được phổ biến và đa dạng hơn theo yêu cầu một cách nhanh gọn, vận hành đơn giản, giảm bớt sức lao động cho con người, giá cả hợp lý. Vì thế việc thiết kế máy gọt vỏ xoài có thể phục vụ cho các cơ sở sản xuất nhỏ nhằm đáp ứng nhu cầu chế biến sản phẩm xoài.
+- Đề tài được thực hiện đầy đủ các bước theo một trình tự của quy trình thiết kế chế tạo một sản phẩm mới.
+- Đồng thời đề tài cũng đáp ứng được một số nhu cầu của các cơ sở sản xuất, của thị trường và các doanh nghiệp để làm bánh xoài, kẹo, mứt, xoài đông lạnh, nước ép xoài…
+- Hạn chế được số lượng lao động, tăng năng suất đảm bảo an toàn vệ sinh.
+- Góp phần tạo điều kiện phát triển kinh tế nước nhà.
+- So với bóc vỏ bằng tay thì máy bóc vỏ có những ưu điểm nổi bật:
++ Năng suất cao.
++ Giảm bớt số lượng lao động.
++ Đảm bảo an toàn thực phẩm.
++ Nhanh gọn, vận hành đơn giản.
+ÞGiá thành hạ, giúp tăng lợi nhuận.
+1.3. Mục tiêu nghiên cứu của đề tài
+- Đề xuất công nghệ gọt vỏ, kết cấu máy gọt vỏ xoài.
+- Chế tạo thử nghiệm máy gọt vỏ xoài công suất nhỏ.
+1.4. Đối tượng và phạm vi nghiên cứu
+1.4.1. Đối tượng nghiên cứu
+- Xoài tròn và xoài dài chín ươm được trồng phổ biến và sản xuất công nhiệp.
+- Máy gọt vỏ các loại.
+- Máy gọt vỏ xoài công nghiệp.
+1.4.2. Phạm vi nghiên cứu
+- Xoài cát Hòa Lộc,xoài cát chu.
+- Trái xoài tròn có kích thước chiều dài trung bình là 11 - 13 cm, chiều rộng là 8 – 9 cm; chiều dày là 6,5 – 8 cm.
+- Trái xoài dài có kích thước chiều dài trung bình là 13 – 15 cm, chiều rộng là 8 – 9 cm, chiều dày là 6,5 – 7,5 cm.
+- Thiết kế, chế tạo thự nghiệm máy gọt vỏ trái xoài, thí nghiệm xác định các thông số làm việc máy gọt vỏ trái xoài.
+1.5.Phương pháp nghiên cứu
+1.5.1.Cơ sở phương pháp luận
+- Dựa vào nhu cầu sử dụng xoài trong nước.
+- Dựa vào nhu cầu sử dụng máy gọt vỏ xoài để thay cho phương pháp thủ công.
+- Dựa vào khả năng công nghệ có thể chế tạo được máy gọt vỏ xoài.
+1.5.2. Phương pháp nghiên cứu
+- Tiến hành thu thập tài liệu về xoài như: sách, tạp chí, video.
+- Tiến hành thu thập dữ liệu trực tiếp từ người nông dân, các tiểu thương ở các chợ, các cơ sơ sản xuất sản phẩm xoài.
+- Nghiên cứu các tài liệu và sử lý các số liệu có được trước đó.
+- Tính toán thiết kế.
+- Tiến hành chế tạo mô hình thử nghiệm.
+- Xử lý số liệu sau sau thử nghiệm và cải tiến.
+- Tiến hành chế tạo máy gọt vỏ xoài.
+- Đánh giá kết quả.
+- Rút kinh nghiệm.
+1.6. Kết cấu của luận văn tốt nghiệp
+Chương 1: Giới thiệu.
+Chương 2:Tổngquan
+Chương 3:Cơ sở lý thuyết.
+Chương 4:Phương hướng và giải pháp.
+Chương 5: Thiết kế và chế tạo thử nghiệm.
+Chương 6:Xác định các thông số đầu vào và thiết kế hoàn thiện máy gọt vỏ xoài.
+CHƯƠNG 2: TỔNG QUAN VỀ LUẬN VĂN
+
+2.1. Giới thiệu về cây xoài và trái xoài
+2.1.1. Khái quát về cây xoài
+a) Đặc điểm chung
+- Tên phổ thông: Xoài
+- Tên khoa học: Mangifera indica.
+- Họ thực vật: Anacardiaceae (Đào lộn hột)
+- Nguồn gốc xuất xứ: Ấn Độ và các nước nhiệt đới khác
+- Phân bố ở Việt Nam: Rộng rãi
+- Chi Xoài (danh pháp khoa họcMangifera) thuộc họ Đào lộn hột (Anacadiaceae) còn có tên gọi là quả sài, là những loài cây ăn quả vùng nhiệt đới.
+- Các loài xoài có thể chia làm hai loại, một loại có nguồn gốc từ Ấn Độ còn loại kia có nguồn gốc từ Philippines và Đông Nam Á. Chủng loại Ấn Độ không chịu được điều kiện quá ẩm ướt, có chồi non màu đỏ, dễ bị nấm mốc sương, quả đơn phôi có màu sáng và hình dạng bình thường. Chủng loại Đông Nam Á chịu được điều kiện quá ẩm ướt, có chồi màu lục nhạt hay đỏ và kháng nấm mốc sương. Quả của chúng là đa phôi có màu lục nhạt và dài hình quả thận.
+- Trên thế giới hiện nay có 87 nước trồng xoài với diện tích khoảng 1,8 – 2,2 triệu hécta. Vùng Châu Á chiếm 2/3 diện tích trồng xoài trên thế giới, trong đó đứng đầu là Ấn Độ (chiếm gần 70% sản lượng xoài thế giới với 9,3 triệu tấn), Thái Lan, Pakistan, Philippin, và Miền Nam Trung Quốc, Zimbabuê, Ghinê, Cônggô, Nam Phi, Keynia, Modămbích, Mali, Ai Cập, Brazin, Mêhicô, Hoa kỳ. Ngoài ra, xoài còn được trồng ở vùng ven biển nước Úc.
+- Ở Việt Nam xoài được trồng từ Nam chí Bắc, vùng trồng xoài tập trung là từ Bình Định trở vào nhiều nhất là các tỉnh Đồng Bằng Sông Cửu Long như: Tiền Giang (trên 6.000ha, trong đó đang cho trái 4.000ha), Đồng Tháp, Vĩnh Long, Cần Thơ,
+- Quả xoài chín có màu vàng hấp dẫn, có vị chua ngọt, mùi thơm ngon được nhiều người ưa thích và được xem là một loại quả quí. Trái xoài chứa nhiều vitamin A, C, đường (15,4%), các acid hữu cơ nên xoài được sử dụng rộng rãi cả trái chín và trái già còn xanh. Xoài chín được ăn tươi, đóng hộp, làm nước trái cây, mứt kẹo, kem, sấy khô để tiêu thụ nội địahay xuất khẩu.
+ Đặc điểm sinh học:
+- Rễ: Phần lớn rễ phân bố ở tầng đất 0 – 50 cm ở những vùng có mực nước ngầm thấp hay đất cát rễ có thể ăn rất sâu (6 – 8m). Tuy nhiên, phần lớn rễ tập trung trong phạm vi cách gốc khoảng 2m.
+- Thân, tán cây: Xoài là loại cây ăn quả thân gỗ mọc rất khỏe. Ở những nơi trảng, chiều cao cây và tán cây có đường kính tương đương. Tán cây lớn hoặc nhỏ tùy theo giống.
+- Lá và cành: Một năm xoài có thể ra 3 – 4 đợt chồi tùy theo giống, tùy vào tuổi cây, thời tiết khí hậu và tình hình dinh dưỡng; cây con ra nhiều đợt chồi hơn so với cây đang cho quả; cây già rất khó ra chồi. Lá non sau 35 ngày mới chuyển xanh hoàn toàn, mỗi lần ra lá, cành xoài dài thêm 20 – 30 cm.
+- Hoa: Hoa ra từng chùm ở ngọn cành, chùm hoa dài khoảng 30 cm, có 200 – 400 hoa. Mỗi chùm thường có 2 loại hoa: hoa lưỡng tính và hoa đực. Tỉ lệ hoa đực và hoa lưỡng tính trên cây phụ thuộc vào giống và điều kiện khí hậu ở địa điểm trồng. Thường thì hoa lưỡng tính chiếm từ 1 – 36%. Xoài là cây thụ phấn chéo, thụ phấn nhờ côn trùng là chủ yếu. Thời gian tiếp nhận hạt phấn của nhụy rất ngắn, chỉ sau vài giờ. Ở xoài nhụy thường chín trước, thời gian tốt nhất để nhụy tiếp nhận hạt phấn là lúc mặt trời mọc, trong khi đó nhụy đựctung phấn chỉ vào khoảng 8 – 10 giờ sáng. Sự không trùng hợp này là nguyên nhân cản trở sự thụ phấn và thụ tinh của xoài.Những nguyên nhân khác làm xoài đậu quả kém là ảnh hưởng của điều kiện ngoại cảnh như: vào thời gian hoa nở gặp mưa, lạnh, độ ẩm và nhiệt độ không khí cao.
+- Quả: Sau khi thụ tinh thì quả phát triển. Thời gian từ thụ tinh đến chín là 2 tháng đối với giống chín sớm, 2 – 3,5 tháng đối với giống chín trung bình, 4 tháng đối với giống chín muộn
+ Đặc điểm sinh lý, sinh thái:
+- Tốc độ sinh trưởng: Trung bình.
+- Phù hợp với: Cây ưa sáng, đất tơi xốp, giàu dinh dưỡng.
+b) Phân loại
+- Xoài Cát Hòa Lộc: Xuất phát từ Cái Bè (Tiền Giang), xoài có trái to, trọng lượng trái 400 – 600gr, thịt trái vàng, dẽ, thơm, ngọt, hạt dẹp, được coi là giống xoài có phẩm chất ngon. Thời gian từ trổ bông đến chín trung bình 3,5 – 4 tháng.
+Hình 2.1: Xoài cát Hòa Lộc
+
+- Xoài Cát Chu: Phẩm chất trái ngon, thịt thơm ngọt có vị hơi chua, dạng trái hơi tròn, trọng lượng trái trung bình 250 – 350g, vỏ trái mỏng. Đây là giống xoài ra hoa rất tập trung vàdễ đậu trái, năng suất rất cao.
+Hình 2.2: Xoài Cát Chu
+- Xoài tứ quý: lá bàn to,tán thưa,mép gợn sóng.trái nặng trung bình khoảng 300g, hình bầu dục, đầu trái nhọn, vỏ mỏng láng, màu vàng nhạt và hạt nhỏ.
+Hình 2.3: Xoài tứ quý
+- Xoài Xiêm: Phẩm chất tương đối ngon, cơm vàng, thịt dẽo, mịn, hạt nhỏ, vỏ trái dày. Đây là giống dễ đậu trái, năng suất cao.
+- Xoài Bưởi: Còn gọi là xoài ghép hay xoài 3 mùa mưa, trọng lượng trái trung bình 250 – 350gr, có nguồn gốc từ Cái Bè (Tiền Giang), giống xoài nầy có thể trồng đượctrên nhiều loại đất kể cả đất nhiễm phèn, mặn. Cây phát triển nhanh, nếu trồng từ hột cây cho trái sau 2,5 – 3 năm.
+- Xoài Thái Lan nhập nội: Nam-dok-mai: Tán thưa, lá to bản, mép gợn sóng. Trái nặng trung bình 320gr, hình bầu dục, đầu trái nhọn, vỏ mỏng láng, màu vàng đẹp, ngọt, thơm, hạt nhỏ. Từ khi nở hoa đến thu hoạch 115 ngày.
+
+
+Hình 2.4:Xoài Thái
+
+- Khiew-sa-woei: Là giống xoài ăn xanh, cây phát triển mạnh, lá thon dài, đầuhơi nhọn, trái dài hơi cong, nặng trung bình 300g.
+
+Hình 2.5: Xoài Đài Loan
+- Ngoài ra còn một số giống xoài như: Xoài Hòn, xoài Châu, xoài Thanh, xoài Thanh Ca… dễ trồng cho trái ổn định, năng suất cao[1].
+2.1.2. Sản lượng
+a) Sản lượng trên thế giới
+Top 10 quốc gia sản xuất xoài lớn nhất thế giới gồm có (năm 2011):
+Bảng 2.1: Sản lượng xoài năm 2011 của một số nước trên thế giới [FAO]
+Quốc gia Sản lượng (tấn) Ấn Độ 15.188.000 Trung Quốc 4.350.000 Thái Lan 2.600.000 Indonesia 2.131.139 Pakistan 1.888.449 Mêxico 1.827.314 Brazil 1.249.521 Bangladesh 889.176 Nigeria 850.000 Philippines 800.551 Thế giới 31.774.150
+
+b) Tình hình sản xuất xoài và tiêu thụ xoài ở Việt Nam
+- Ở Việt Nam hiện nay có gần 50 giống xoài có khả năng cho năng xuất và chất lượng cao, trong đó có giống xoài cát được trồng tại các tỉnh đồng bằng sông Cửu Long như: Cát Bồ, Cát Đen, Cát Trắng, Cát Chu, Cát Hoà Lộc…trong số các loại xoài cát thì xoài cát Hoà Lộc được lựa chọn nhiều nhất, ngon nhất và có giá bán đắt nhất.
+- Xoài cát Hòa Lộc, một loại trái cây đặc biệt “Ngọt ngào Hương vị Việt” được cộng đồng trong và ngòai nước biết đến, hiện nay cây Xoài cát Hòa Lộc được trồng ở qui mô công nghiệp và đã được chứng nhận sản xuất nông nghiệp bền vững theo tiêu chuẩn VietGAP. Sản phẩm trái xoài cát Hòa Lộc không những dùng trong lễ hội mang tính dân tộc mà còn phát triển sản xuất, tiêu thụ trên thị trường nội địa và xuất khẩu, tạo nguồn thu cho Tỉnh và cải thiện tốt đời sống nông dân trong vùng địa lý.
+
+
+Bảng 2.2: Diện tích và sản lượng xoài ở một số tỉnh ĐBSCL và Đông Nam Bộ năm 2004
+Tỉnh Diện tích (ha) Tỷ lệ (%) Sảnlượng (tấn) Tỷ lệ (%) ĐBSCL 35038 100.00 219438 100.00 Tiền Giang 5316 15.17 62359 28.42 Vĩnh Long 4049 11.56 34602 15.77 Đồng Tháp 5822 16.62 36648 16.70 An giang 1898 5.42 4640 2.11 Các tỉnh khác 17953 51.23 81189 37.00 Đông Nam Bộ 24038 100.00 70620 100.00 Bình Phước 5429 22.59 7115 10.08 Đồng Nai 6281 26.13 24318 34.44 Bình Dương 2314 9.63 4179 5.92 Tây Ninh 2692 11.2 11135 15.77 Các tỉnh khác 7322 51.24 23873 37.00
+
+- Về thị trường đã cung cấp: Hiện nay, xoài tươi đang xuất khẩu qua các nước châu Âu như Đức, Pháp và một số nước châu Á như Nhật, Hong Kong, Singapore và phần lớn xuất sang thị trường Trung Quốc.
+- Các nhà phân phối: METRO Cash&Carry, COOPMart, ECOFarm, các Chợ đầu mối, các dịch vụ du lịch... [2].
+2.1.3. Tác dụng của xoài
+- Theo Fitnea, trái xoài có 11 ưu điểm dễ nhận biết sau
+1. Giàu dinh dưỡng:
+Uống mỗi ngày một cốc sinh tố xoài chứa tỷ lệ phần trăm dinh dưỡng như sau: 103 kalo, 75% vitamin C có tác dụng chống ôxy hóa và tăng cường hệ miễn dịch; 24% vitamin A giúp chống oxy hóa và tăng thị lực; 12% vitamin B6 và một số vitamin B khác các tác dụng phòng bệnh não và tim; 10% lợi khuẩn; 8% đồng cần cho việc sản xuất các tế bào máu; 8% kali giúp cân bằng lượng natri trong cơ thể và 5% magie.
+2. Ngừa ung thư
+Nhiều nghiên cứu cho thấy các hợp chất chống ôxy hóa trong trái xoài có tác dụng bảo vệ cơ thể, chống lại ung thư ruột kết, ung thư vú, ung thư tuyến tiền liệt và bệnh bạch cầu. Các hợp chất này là isoquercitrin, quercetin, fisetin, astragalin, methylgallat, axit gallic cũng như các enzim khác.
+3. Giảm lượng cholesterol
+Hàm lượng cao vitamin C, pectin và chất xơ được tìm thấy trong xoài có tác dụng làm giảm nồng độ cholesterol trong huyết thanh, đặc biệt là cải thiện tình trạng rối loạn mỡ trong máu.
+4. Làm sạch da
+Loại trái cây ngon và có màu sắc đậm như xoài tốt cho làn da bạn cả bên trong và bên ngoài. Ăn xoài có thể giúp làm sạch lỗ chân lông bị tắc và loại bỏ mụn.
+5. Tốt cho mắt
+Một cốc xoài xắt lát cung cấp 24% lượng vitamin A cần thiết cho cơ thể mỗi ngày. Loại vitamin này giúp thúc đẩy thị lực, ngăn ngừa khô mắt và quáng gà.
+6. Kiềm hóa cơ thể
+Axit malic, một hàm lượng nhỏ axit citric và axit tartaric được tìm thấy trong trái xoài, có tác dụng duy trì và dự trữ kiềm cho cơ thể.
+7. Cải thiện chất lượng "chuyện ấy"
+Xoài là nguồn cung cấp vitamin E tuyệt vời. Các nghiên cứu gần đây đã chỉ ra tầm quan trọng của dinh dưỡng từ thực phẩm giúp cải thiện chất lượng cuộc yêu của các đôi.
+8. Cải thiện hệ tiêu hóa
+Đu đủ không phải là loại trái cây duy nhất chứa enzim để chuyển hóa protein trong quá trình tiêu hóa. Bên cạnh đó còn có rất nhiều loại trái cây khác, chẳng hạn xoài. Chất xơ trong xoài cũng giúp ích cho quá trình tiêu hóa và bài tiết.
+9. Ngăn ngừa đột quỵ do nhiệt
+Quan điểm y học cổ đại giải thích lý do khiến con người kiệt sức khi đến thăm vùng khí hậu xích đạo là do năng lượng mãnh liệt của mặt trời làm cơ thể nóng dần lên, đặc biệt là cơ bắp. Khi đó thận trở nên quá tải vì phải đào thải liên tục các độc tố từ quá trình này. Lúc này, bạn nên uống một ly nước ép trái cây từ xoài xanh trộn với nước và một chất làm ngọt (như đường) sẽ giúp làm mát cơ thể và ngăn chặn tác hại của nhiệt.
+10. Tăng cường hệ miễn dịch
+Hàm lượng lớn vitamin A và vitamin C trong trái xoài, cộng với 26 loại carotenoids khác nhau có tác dụng duy trì sự bền vững và khỏe mạnh của hệ thống miễn dịch.
+11. Lá xoài tốt cho người mắc bệnh tiểu đường
+Lá xoài giúp bình thường hóa nồng độ insulin trong máu. Phương thuốc cổ truyền trị bệnh tiểu đường là đun sôi lá trong nước nóng, để qua đêm và sau đó lọc lấy nước, uống sau khi thức dậy. Trái xoài có chỉ số đường huyết tương đối thấp nên khi ăn vào không làm tăng đột biến lượng đường trong cơ thể.
+- Theo Đông y, quả xoài chín có vị ngọt, chua, tính mát, tác dụng ích dạ dày, tiêu tích trệ, làm hệt nôn mửa, thanh nhiệt, giải khát, lợi tiểu, nhuận phế, tiêu đàm.
++ Lá xoài: chứa chất tanin và một hợp chất flavonoid là mangiferin. Tác dụng hành khí, lợi tiểu, tiêu độc, tiêu tích trệ. Dùng chữa bệnh đường hô hấp trên: Ho, viêm phế quản cấp và mãn tính; chữa phù thũng. Dùng ngoài chữa viêm da ngứa da. Có thể lấy lá nấu nước để rửa hoặc xông. Lưu ý: Lá xoài có độc, thận trọng khi dùng. Không dùng cho trẻ nhỏ và phụ nữ có thai.
++ Thịt quả xoài chín: Thái lát mỏng hoặc giã nhuyễn, đắp chống bỏng, bảo vệ da chống lại sự tấn công của ánh nắng.
++ Vỏ quả xoài chín: Có tác dụng chữa ho ra máu, cầm máu ở tử cung, chảy máu ruột. Thường dùng dưới dạng cao lỏng. Cho 10g cao lỏng vỏ quả xoài vào 120ml nước rồi uống, cách 1 - 2 giờ một muỗng cà phê.
++ Hạt xoài: Phơi khô, bỏ nhân, đem sao sơ, tán bột mịn. Ngày uống 2 lần, mỗi lần 1 - 5g với nước sôi để nguội.
++ Hạch của quả xoài (Nhân xoài): Chứa nhiều tinh bột, dầu, tanin, acid galic tự do, có vị đắng chát. Tác dụng làm hết ho, mạnh dạ dày, trợ tiêu hóa. Dùng chữa ho, kiết lỵ, tiêu chảy, trừ giun sán.
++ Vỏ thân cây xoài: Chứa tanin và mangiferin 3%. Tác dụng làm se niêm mạc, thu liễm, sát trùng. Dùng chữa ho, đau sưng cổ họng, đau sưng cổ họng, đau răng. Vỏ tươi 50 - 60g (khô 20 - 30g) rửa sạch, sắc đặc, hòa với ít rượu hoặc muối. Ngày ngậm 4 - 5 lần, ngậm khoảng 10 phút, súc miệng rồi nhổ bỏ. Ngậm sau bữa ăn và trước khi đi ngủ.
++ Người bị bệnh dạ dày, nếu là bệnh do có nhiều chất kiềm, thì không nên ăn xoài: Vì ăn xoài có thể cảm thấy khó chịu, thậm chí là no hơi và đau bụng. Trái lại, đối với người có dạ dày chứa nhiều chất chua, ăn xoài chín muồi sẽ cảm thấy bao tử rất dễ chịu.
++ Khi bị ho do phổi bị táo nhiệt, ăn xoài có thể hóa đàm nhuận phổi, giảm bớt ho. Trái lại, nếu ho do phổi bị lạnh, bao tử bị lạnh và khó tiêu, thì không nên ăn xoài.
++ Riêng những người bình nhật có bệnh phong thấp, hoặc da bị dị ứng, nội tạng bị lở loét, bị ung thư, đều không nên dùng xoài. Vì ăn xoài bệnh sẽ nặng thêm.
++ Vào mùa hè, do đổ mồ hôi nhiều, miệng khô khát nước, nhất là sau khi làm việc dưới trời nắng hoặc đi du ngoạn ngoài trởi, cả người nóng ran, tứ chi mệt mỏi, nên ăn một trái xoài, sẽ hết khát nước, sinh nước miếng và giảm mỏi mệt.
++ Trong dân gian, có thói quen dùng xoài xanh nấu với thịt heo nạc, ăn để chữa bệnh phổi. Cách nấu như thế này: Khi xoài chưa chín, hái xuống phơi khô để dành. Mỗi lần dùng từ hai đến ba quả xoài khô, cắt đôi, phối hợp với vài lạng thịt heo nạc, cho thêm Trần bì để nấu canh. Phải nấu 3 - 4 giờ liền trên lửa nhỏ. Cách trị liệu dân gian này có hiệu quả khá tốt. Vì có thể do hạt xoài và vỏ xoài đều có công dụng trợ tiêu hóa, làm thông phổi tan đàm, nên sau khi bệnh nhân dùng canh thì khát đàm dễ dàng hơn, gián tiếp hỗ trợ cho việc trị liệu bệnh phổi.
++ Hạt xoài có công dụng hóa giải chất dầu mỡ và đề phòng sự khó tiêu. Cho nên đối với Trung y, khi gặp bệnh khó tiêu vì ăn nhiều dầu mỡ, thường dùng hạt xoài vào toa thuốc trị liệu với liều lượng nặng. Về mặt dược tính, tuy hạt xoài có tính chất bình đạm, nhưng sức hóa giải dầu mỡ của nó đáng tin cậy, lại rất an toàn.
++ Người bị cảm sốt, ho, do ăn uống thiếu kiêng cử như thịt gà, canh thịt heo, hoặc ăn thịt gà, vịt, ngỗng, làm cho chứng ho nặng thêm, nói tiếng khàn khàn, thường thì thấy nặng ngực, đau ngực, khát đàm khó khăn. Với bệnh trạng như thế, người ta cho là bệnh nhân bị cảm sốt, lại ăn phải thức ăn nhiều dầu mỡ gây ra, nên có thói quen dùng hạt xoài nấu chung với Bố tra diệp lấy nước uống, để tiêu giải chất dầu mỡ, nhờ đó mà bệnh cảm sốt, ho sẽ được mau khỏi.
++ Thịt của trái xoài chín mùi, còn có thể dùng để đắp lên nơi sưng đau. Thí dụ rủi ro bị bỏng lửa hoặc bỏng nước sôi, người ta lấy thịt trái xoài chín mùi đắp lên nơi bị bỏng, chẳng những có thể làm hết đau, giảm sưng mà còn có thể đề phòng nơi đó làm độc[3].
+2.2. Đặc tính của xoài
+- Theo y học hiện đại, xoài có thành phần hóa học như sau: 100g xoài chín cho 65 calo, 17g hydrat cacbon, 3.894 UI.vitamin A (78% nhu cầu hằng ngày), 28mg vitamin C (46% nhu cầu), 1mg E (10%)... Đường của xoài là loại cấp năng lượng nhanh. Quả xanh ít vitamin A và nhiều vitamin C
+- Trong 100g phần ăn được của xoài chín có chứa các chất dinh dưỡng (FAO, 1976): Nước 86,5g; glucid 15,9g; protein 0,6g; lipid 0,3g; tro 0,6g; các chất khoáng: Ca 10mg,P15mg, Fe 0,3mg; các vitamin: A 1880 mcg, B1 0,06mg, C 36mg
+- Một miếng xoài trung bình chứa 100 calo, 1 g protein, 0,5 g chất béo, 25 g carbohydrate, 23 g đường và 3 gam chất xơ. Khẩu phần này đáp ứng đủ nhu cầu hằng ngày về vitamin C, 35% vitamin A, 20% folate, 10% vitamin B6, 8% vitamin K và kali của cơ thể. Xoài cũng chứa sắt, đồng, canxi và một số hóa chất chống ôxy hóa
+- Xoài chín chứa: 69.0 năng lượng kcal, 82.5g nước, 0.6g đạm, 0.3g béo, 15.9g bột[4].
+2.3. Sản phẩm từ xoài
+- Với những giá trị dinh dưỡng cao thì xoài đã được sử dụng làm nhiều mặt hàng thực phẩm có giá trị dinh dưỡng cao nhằm đáp ứng được nhu cầu thị yếu của con người.
+- Một số sản phẩm điển hình từ xoài:
++ Bánh tráng xoài: Bánh tráng xoài là đặc sản nổi tiếng của người Nha Trang. Bánh tráng xoài được chế biến từ những nguyên liệu quen thuộc là xoài chín và một chút đường nhưng với bàn tay khéo léo của con người đã tạo nên một loại bánh dân dã, để ăn chơi, nhưng rất ngon và nổi tiếng.
+
+
+Quy trình làm bánh tráng xoài:
+Xoài chín
+Gọt vỏ
+Xay lỏng
+Nấu trên bếp than
+Chà
+Xoài trộn thêm đường
+Trải thành bánh và đem phơi
+Đóng thành phẩm
+
+
+
+
+
+
+
+
+Hình 2.6: Bánh tráng xoài
+
+
+
+
+
+
++ Nước ép xoài: xoài có giá trị dinh dưỡng cao cũng được dùng làm nước ép 1 loại nước uống rất được ưa chuộng hiện nay.
+
+
+Quy trình sản xuất nước ép xoài:
+Xoài
+Rửa sạch
+Lựa chọn, phân loại
+Bóc vỏ
+Cắt miếng
+Chần
+Chà
+Lọc
+Phối trộn
+Đồng hóa
+Thanh trùng
+Làm nguội
+Đóng hộp
+Sản phẩm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hình 2.7: Nước ép xoài
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++ Xoài sấy: đây là đặc sản của Nha Trang. Xoài xấy vừa thơm, vừa có vị ngọt, vừa có vị chua của xoài chính, hòa quyện vào đó là hương thơm tự nhiên của xoài và lớp đường cát bao xung quanh, ăn hoài không ngán...du khách biết đến xoài xấy như một món ăn không thể nào bỏ qua khi đến vùng đất xinh đẹp này, vừa ăn vừa có thể mang về và vừa có thể mua làm quà tặng.
+Quy trình sản xuất xoài sấy:
+Xoài
+Rửa sạch
+Lựa chọn, phân loại
+Bóc vỏ
+Cắt miếng
+Chần
+Ngâm trong dung dịch đường
+Vớt,để ráo
+Sấy
+Đóng gói
+Dán nhản
+Bảo quản
+
+
+
+
+
+
+
+
+
+Hình 2.8: Xoài sấy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++ Mứt xoài: Vào những ngày tết thì nhu cầu bánh mức tăng cao, tết lại là mùa thu hoạch xoài rộ nhất trong năm. Do đó bà con chúng ta đã khéo tay làm ra 1 loại mứt ngon đó là mức xoài có vị chua nhẹ, vị thơm, ngọt, dai dai.
+Quy trình làm mứt xoài:
+Xoài xanh
+Rửa sạch
+Lựa chọn, phân loại
+Bóc vỏ
+Cắt miếng
+Luộc xoài
+Vớt xoài,ngâm trong nước lạnh
+Vớt,để ráo
+Ngâm xoài vào đường
+Sao thành mứt
+Ngào đường
+Bảo quản
+
+
+
+
+
+
+
+Hình 2.9: Mứt xoài
+
+
+
+
+
+
+
+
+
+
+
+
++ Xoài đông lạnh: Với sự phát triển nhanh của khoa học kỷ thuật góp phần cải thiện cuộc sống của con người. Vì vậy mà ngày càng nhiều sản phẩm làm sẵn được xuất hiện trên thị trường để phục vụ cho con người 1 cách nhanh chóng và hợp vệ sinh. Trong đó có sự xuất hiện của xoài cắt lát đóng gói đông lạnh là 1 sản phẩm được nhiều người ưa chuộng hiện nay.
+Quy trình làm xoài đông lạnh:
+Xoài chín
+Lựa chọn, phân loại
+Bóc vỏ
+Cắt miếng
+Cho vào túi chân không
+Đóng gói
+Đông lạnh
+Bảo quản
+Rửa sạch
+
+
+
+Hình 2.10: Xoài đông lạnh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++ Xoài ngâm: Xoài ngâm là 1 sản phẩm được ưa chuộng nhất hiện nay. là 1 sản phẩm được bán nhiều nơi trên thị trường như trong hệ thống các siêu thị.
+Quy trình làm xoài ngâm:
+Xoài sống
+Bóc vỏ
+Rửa sạch
+Lựa chọn.phân loại
+Cắt miếng
+Cho vào nước giấm đường
+Đóng hộp
+
+
+
+
+
+
+
+
+
+Hình 2.11: Xoài ngâm
+NHẬN XÉT
+-Trong tất cả các quy trình làm sản phẩm xoài,thì công đoạn gọt vỏ là công đoạn quan trọng và tiên quyết để có được sản phẩm xoài mong muốn.
+-Công đoạn chiếm nhiều thời gian trong tất cả các quy trình làm ra sản phẩm xoài.
+-Công đoạn này chưa được cơ khí hóa tại Việt Nam.
+2.4. Các phương pháp gọt vỏ xoài
+2.4.1. Phương pháp gọt vỏ bằng tay
+a) Nguyên lý
+- Theo một số người thợ làm mứt xoàiở các cơ sở làm mứt thì khâu gọt vỏ xoài cũng khá là quan trọng và cũng là khâu khá là vất vả. Đa số là dùng tay gọt từng trái, Phương pháp thủ công này rất tốn thời gian và cho năng xuất thấp. Nhưng dùng tay gọt có thể gọt sạch vỏ của trái xoài.
+
+
+Hình 2.12:Gọt vỏ xoài bằng tay
+b) Nhận xét
+- Ưu điểm:
++ Có thể gọt sạch 100% vỏ của trái xoài
++ Loại bỏ được những phần hư hỏng
++ Có thể bóc vỏ được tất cả các chủng loại xoài
++ Có thể gọt vỏ được các trái xoài có hình dáng và kích thước khác nhau.
+- Nhược điểm:
++ Năng suất thấp khoảng 30-40 kg/ngày/người
++ Cần nhiều lao động nếu số lượng lớn
++ Dễ gây ra tai nạn nếu không chú ý hay mệt mỏi
++ Cần diện tích lớn để có thể cho người lao động làm việc
++ Giá thành cao khoảng 1800-2200 ngàn đồng/kg.
+2.4.2. Phương pháp gọt vỏ bằng máy
+2.4.2.1. Nguyên lý cắt lật
+Hình 2.13: Nguyên lý cắt lật
+a ) Nguyên lý
+Khi cho xoài vào và cho máy hoạt động, các đĩa cắt sẽ quay tròn. Trên đĩa cắt có gắn các lưỡi dao nên khi quay với một tốc độ nhất định các lưỡi cắt sẽ tác động vào trái xoài và cắt vỏ, Do lực cắt tác động vào trái xoài nên một phần vỏ trái xoài được gọt đi đồng thời lật trái xoài đi một góc làm cho phần vỏ chưa được gọt tiếp xúc với mặt đĩa cắt. Lực ly tâm của đĩa cắt sẽ đưa trái xoài vào vùng cắt và quá trình được lập đi lập lại cho tới khi trái xoài được gọt vỏ xong.
+- Trên máy có các tấm gạt chuyển động tịnh tiến với mục đích đưa xoài từ đầu đến cuối hành trình,trong khi các tấm này chuyền động củng tác động vào trái xoài làm cho trái xoài lật đi do đó hổ trợ quá trình cắt.
+- Khi máy hoạt động thì nước được bơm vào liên tục nhằm rửa sạch xoài và giúpcho vỏ rơi xuống bên dưới máng để thoát ra bên ngoài.
+
+b) Cấu tạo đĩa cắt
+- Đĩa cắt là một đĩa tròn, trên mặt đĩa có khoét 3 rảnh nằm đều nhau 120 độ, trên 3 rảnh đó gắn 3 lưỡi dao chênh với mặt trên của đĩa một góc nhất định.
+Hình 2.14: Cấu tạo đĩa cắt
+c) Ưu nhược điểm
+* Ưu điểm:
+- Gọt được nhiều trái cùng 1 lúc và trong 1 thời gian ngắn,máy gọt liên tục.
+- Có thể gọt sạch đến 90%.
+- Bề mặt trái xoài sau gọt tương đối nhẵn.
+- Gọt được xoài có kích cở bất kì.
+* Nhược điểm:
+- Chỉ gọt được xoài có biên dạng tương đối tròn.
+- Chỉ gọt được xoài chín ương(xoài chín khó gọt).
+
+
+2.4.2.2. Nguyên lý tiện đứng 1 đầu cắt.
+
+Hình 2.15: Hình nguyên lý tiện
+a) Nguyên lý
+- Cho xoài gắn vào máy theo từng trái đúng vị trí của đầu cắm cố định,cho đầu cắm di động tiến tới và cố định trái xoài trên máy.
+- Nhấn nút khởi động động cơ,trái xoài chuyển động quay tròn quanh trục,đồng thời bộ phận chuyển động tịnh tiến có gắn dao cắt chuyển động tịnh tiến dọc trục,tự lựa theo biên dạng trái xoài và gọt được vỏ.
+- Khi đi hết biên dạng,dao sẽ tự động lùi về.Động cơ dừng lại, xoài gọt xong được lấy ra và trái xoài mới được gắn vào.
+b) Cấu tạo lưỡi cắt
+- Lưỡi cắt là một lưỡi dao dạng lưỡi dao của dao bào, hai đầu của lưỡi dao gắn trên 1 cái cán hình chữ U và lưỡi dao có thể xoay lên xuống 1 góc nhất định và có thể tì theo biên dạng trái xoài.
+Hình 2.16: Cấu tạo lưỡi cắt
+c) Ưu nhược điểm
+* Ưu điểm
+- Có thể gọt sạch đến 90%.
+- Kết cấu máy đơn giản,gọn.
+- Có thể gọt được nhiều dạng xoài (tròn và dài).
+- Có thể gọt được xoài chín ương đến chín
+* Nhược điểm
+- Tốc độ gọt chậm,phụ thuộc vào người công nhân
+- Máy được điều khiển theo từng nhịp nên dể gây ra sự cố
+2.4.2.3. Nguyên lý cắt lột
+
+Hình 2.17: Nguyên lý cắt lột
+a ) Nguyên lý
+- Chọn xoài (xoài chín) đúng theo yêu cầu,cắt bỏ cuống xoài,rửa sạch.
+- Cắt xoài thành 2 nữa,bỏ hạt.
+- Đặt xoài đã cắt vào băng tải theo đúng vị trí,đặt xoài úp lên băng tải.
+- Khi máy chạy thì băng tải đưa xoài vào ru lô cuộn,trên ru lô có các điểm lồi nhằm tạo ra lực ép lên vỏ trái xoài,tránh gây ra hiện tượng trượt làm cho quá trình cắt nhanh hơn và chính xác.
+- Trên máy có gắn lưỡi cắt hình bán nguyệt với góc độ nhất định và cách 2 bánh ru lô một khoảng (dày hơn độ dày của vỏ xoài).Đồng thời có gắn thêm các lưỡi cắt song song nhằm cắt xoài thành các miếng nhỏ.
+
+b) Cấu tạo lưỡi cắt
+Hình 2.18: Cấu tạo lưỡi cắt lật
+c) Ưu nhược điểm
+* Ưu điểm
+- Có thể gọt sạch đến 90%.
+- Kết cấu máy đơn giản.
+- Gọt được xoài chín có hình dạng tròn và dài.
+- Không cần tưới nước trong quá trình gọt.
+* Nhược điểm
+- Mất thời gian cho công đoạn cắt xoài thành 2 nữa rồi mới gọt.
+- Chỉ gọt được xoài chín.
+2.5 Lựa chọn nguyên lý thực hiện
+Qua khảo sát các nguyên lý gọt xoài, nguyên lý cắt lật được chọn do các ưu điểm:
+- Gọt được nhiều trái cùng 1 lúc và trong 1 thời gian ngắn,máy gọt liên tục.
+- Có thể gọt sạch trên 90%.
+- Gọt được xoài có kích cở bất kì.
+Trên cơ sở đó,máy gọt xoài theo nguyên lý cắt lật đã được lựa chọn để triển khai thiết kế và chế tạo thử nghiệm.
+CHƯƠNG 3: CƠ SỞ LÝ THUYẾT
+
+3.1. Khảo sát kích thước trái xoài
+- Tiến hành khảo sát 200 trái xoài thương phẩm(xoài cát Hòa Lộc,xoài Cát Chu) ởCông ty quản lý và kinh doanh chợ Bình Điền(chợ đầu mối Nông sản Thực phẩm Bình Điền)
++ Địa chỉ: Đại lộ Nguyễn Văn Linh, Khu Phố 6, Phường 7, Quận 8, Tp. Hồ Chí Minh.
++ Điện thoại: (84.8) 37.590.001 - 37.590.002
++ Fax: (84.8) 37.590.003 - 37.590.033
++ E-mail: binhdien@hcm.vnn.vn; kinhdoanh@binhdienmarket.com.vn
+
+Hình 3.1: Chợ Bình Điền
+
+3.2. Số liệu khảo sát trái xoài
+- Theo các tiểu thương tại các chợ thì trái xoài thường được bán trên thị trường hiện nay đa số là xoài Việt Nam và xoài Thái.Xoài Việt Nam có xuất xứ từ các tỉnh như: Vĩnh Long, Tiền Giang, Đồng Tháp….
+- Sau đây là kích thước trung bình của các trái xoài đã khảo sát.
+
+
+
+
+Bảng 3.1:Bảng kết quả khảo sát trái xoài tại chợ Bình Điền-Tp.HCM
+
+Số liệu khảo sát trái xoài tại chợ Bình Điền Xoài cát Hòa Lộc Xoài Cát Chu Chiều dài trái xoài 12.1(cm) 12.6(cm) Chiều rộng trái xoài 8(cm) 7.83(cm) Chiều dàytrái xoài 7.2(cm) 7.13(cm) Khoảng cách eo trái xoài 8.8(cm) 8.6(cm)
+
+
+Hình 3.2: Đo xoài lấy số liệu
+3.3 Xác định cơ lý tính của trái xoài
+Về cơ tính nói chung bao gồm lực cắt, kéo, nén, xoắn, uốn… Nhưng trong giới hạn của đề tài chỉ tập trung nghiên cứu, thực nghiệm về lực cắt qua đó xác định được độ dai của vỏ xoài
+
+
+
+Tiến hành thực nghiệm ta tính toán được cơ tính ( khả năng chịu lực) của quả xoài như sau:
+Bảng 3.2:Bảng xác định cơ tính của trái xoài (N)
+Số lần thực nghiệm Lực Cắt (N) Ghi chú 1 11.272 1Kg lực =9,806 N 2 11.712 3 12.240 4 12.857 5 12.505 6 12.064 7 11.976 8 12.681 9 12.152 10 12.505
+
+
+
+
+
+
+
+
+
+
+
+Hình 3.3: Thí nghiệm xác định lực cắt.
+3.4 Các thông số hình học của dao
+-Trong quá trình cắt gọt,dao cụ đóng vai trò quan trọng đặc biệt,vì dao cụ trục tiếp tạo ra mặt gia công của thành phẩm.Nếu chất lượng dao cụ không tốt lập tức ảnh hưởng đến chất lượng sản phấm,năng suất lao động,tiêu hao năng lượng…Do đó,dao cụ được chế tạo phải đáp ứng một số yêu cầu cơ bản sau đây:gia công với năng suất cao,chất lượng gia công(độ bóng bề mặt và độ chính xác gia công) đáp ứng theo yêu cầu,có khả năng chống mài mòn mủi cắt để có tuổi thọ dài về số lần mài lẫn thời gian sử dụng,dể chế tạo,lắp ráp đơn giản,gọn nhẹ.
+-Trong quá trình gọt vỏ dao cắt phải qua hệ thống trung gian của bộ gá dao,khi thiết kế dụng cụ cắt không những thiết kế lưỡi dao mà còn phải thiết kế cả bộ gá.Cho nên bộ gá dao cũng phải được đơn giản hóa,gọn nhẹ,dễ chế tạo…và đặc biệt là tính kinh tế.
+- Các dạng mặt cắt ngang của dao cắt:
+-Chọn kiểu dao cắt: xét về tính chất của quả xoài và một số dạng trái khác như dừa,dứa… có thể xem như có các đặc điểm của vật liệu gỗ thì xoài là loại trái có chất liệu xơ và cấu trúc theo từng thớ. Do vậy, khi chọn hình dạng của lưỡi dao thì củng chọn theo kiểu của dao cho vật liệu gổ.Do đó ta chọn theo biên dạng dao Dạng 1 và Dạng 3.
+-Thông số hình học của dao cắt:
+a. Độ sắc s (mm) của cạnh sắc lưỡi dao:
+Hình : cạnh sắc lưỡi dao
+Chính là chiều dày s của nó. Độ sắc cực tiểu đạt tới 20 ÷ 40 μm. đối với các máy trong chế biến thực phẩm không vượt quá 100 μm, nếu s quá 100 μm lưỡi dao coi như bắt đầu cùn và thái kém.
+
+Rõ ràng là độ sắc s càng lớn thì áp suất riêng q càng tăng.
+Nếu gọi ứng suất cắt của vật cắt là σc thì:
+q = s.σc
+b. Góc cắt gọt α là góc hợp bởi góc đặt dao β và góc mài dao σ:
+α = β + σ
+..............................................
+KẾT LUẬN VÀ KIẾN NGHỊ
+Kết luận:
+Sau thời gian tìm hiểu, nghiên cứu, thiết kế và chế tạo thử nghiệm và chế tạo hoàn thiện đến nay luận văn đã được hoàn thành đúng thời hạn với các kết quả của đề tài như sau:
+- Tìm hiểu thực trạng nhu cầu của thị trường về máy gọt vỏ xoài.
+- Nghiên cứu, khảo sát các loại xoài thương phẩm.
+- Nghiên cứu, tìm hiểu các phương pháp gọt vỏ xoài.
+- Đề xuất nguyên lý máy gọt vỏ xoài với quy mô nhỏ.
+- Đề xuất phương án kết cấu máy gọt vỏ xoài quy mô nhỏ.
+- Thiết kế hoàn chỉnh máy gọt vỏ xoài.
+- Chế tạo thử nghiệm máy gọt vỏ xoài.
+Trong quá trình nghiên cứu, thiết kế, chế tạo đề tài còn gặp một số hạn chế, nhược điểm sau:
+- Thời gian nghiên cứu ngắn nên không thể thiết kế hoàn chỉnh hệ thống cấp phôi tự động và hệ thống gạt phôi tự động.
+- Các chi tiết gia công trên máy cơ nên độ chính xác không cao.
+- Hệ thống thoát vỏ và nước chưa thật sự như ý muốn.
+- Sử dung nguồn điện 3 pha nên khó khăn trong quá trình đấu nguồn sử dụng
+
+Kiến nghị
+Trong khoảng thời gian thực hiện đề tài tôi đã cố gắng, nổ lực nghiên cứu tuy nhiên kết quả vẫn chưa như mong muốn, nên ngoài những kết quả đạt được tôi cũng xin đề xuất một số ý kiến như sau:
+- Nghiên cứu thiết kế hoàn chỉnh máy gọt vỏ xoài nhiều trục.
+- Thiết kế chế tạo hoàn chỉnh hệ thống cấp phôi(xoài) tự động.
+- Thiết kế hoàn chỉnh hệ thống thoát vỏ.
+- Thiết kế hoàn chỉnh hệ thống gạt phoi tự động.
+- Mặt trên của đĩa cắt với mặt trên của đáy thùng phải được cân chỉnh 1 cách đồng phẳng để góp phần tăng năng suất gọt của máy.
+Với mô hình thiết kế tôi tin rằng đề tài có thể phát triển và có thể đưa vào sản xuất 1 cách rộng rãi.
+
+

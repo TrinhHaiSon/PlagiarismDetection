@@ -1,0 +1,212 @@
+ĐỒ ÁN TỐT NGHIỆP NGHIÊN CỨU HỆ THỐNG LÁI TRỢ LỰC TRÊN Ô TÔ TOYOTA ĐỜI MỚI, bản vẽ nguyên lý, bản vẽ thiết kế, tập bản vẽ các chi tiết trong, Thiết kế kết cấu,Thiết kế động học............... nhiều tài liệu liên quan đến thiết kế kết cấu Ô tô
+BỘ CÔNG THƯƠNG
+TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP TP. HCM
+KHOA CÔNG NGHỆ ĐỘNG LỰC
+
+ĐỒ ÁN TỐT NGHIỆP
+
+NGHIÊN CỨU HỆ THỐNG LÁI TRỢ LỰC
+TRÊN Ô TÔ TOYOTA ĐỜI MỚI
+
+LỜI MỞ ĐẦU Trong những năm gần đây, nền khoa học kỹ thuật thế giới đã phát triển cực kỳ mạnh mẽ với nhiều thành công rực rỡ trong tất cả các lĩnh vực của đời sống xã hội, đặc biệt trong lĩnh vực công nghệ ô tô. Ngày nay chúng ta đã tạo ra được những sản phẩm xe hơi, nó không những là phương tiện đi lại, vận chuyển mà nó còn là tác phẩm thể hiện sự tiện nghi và sang trọng. chúng ta đã tạo ra được những dòng xe cao cấp và hiện đại, di cùng với nó là sự tiện nghi và an toàn rất được chú trọng nghiên cứu và phát triển nhằm tạo ra sự êm ái và an toan khi điều khiển. chính vì vậy, nhóm chúng em đã đi tìm hiểu sự cấu tạo và nguyên tắc hoạt động của hệ thống lái, tuy nhiên chúng em chỉ đi sâu nghiên cứu hệ thống lái trợ lực trên các dòng xe du lịch toyota đời mới. LỜI CẢM ƠN
+Trong suốt quá trình học tập và hoàn thành đồ án tốt nghiệp này, chúng em đã nhận được sự hướng dẫn, giúp đỡ quý báu của các thầy cô, các anh chị, các em và các bạn. Với lòng kính trọng và biết ơn sâu sắc chúng em xin được bày tỏ lới cảm ơn chân thành tới. Ban giám hiệu, khoa Công Nghệ Động Lực trường Đại Học Công Nghiệp TP.Hồ Chí Minh đã tạo mọi điều kiện thuận lợi giúp đỡ chúng em trong quá trình học tập và hoàn thành đồ án tố nghiệp. Thầy Trần Anh Sơn, người thầy kính mến đã hết lòng giúp đỡ, dạy bảo, động viên và tạo mọi điều kiện thuận lợi cho chúng em trong suốt quá trình học tập và hoàn thành luận văn tốt nghiệp. Chúng em cũng muốn gửi lời cám ơn tới các thầy trong tổ phản biện, cũng là những người thầy đáng kính đã truyền đạt cho chúng em những kiến thức, kỹ năng thực hành quý báu trong chuyên nghành công nghệ ô tô. Chúng em xin gửi lời cám ơn tới tất cả các thầy cô trong các khoa, phòng tại trường Đại Học Công Nghiệp TP.Hồ Chí Minh - những người đi trước trên hành trình đi tìm tri thức, những người đã hướng dẫn, hỗ trợ chúng em suốt bốn năm học đại học. Cuối cùng xin dành lời cảm ơn tới cha me, đã sinh ra và nuôi dưỡng chúng con đã luôn ở bên cạnh động viên và giúp đỡ chúng con học tập làm việc và hoàn thành đồ án.
+MỤC LỤC CHƯƠNG I. MỞ ĐẦU.. 10 1.1. Lý do chọn đề tài 10 1.2. Mục tiêu và nhiệm vụ của đề tài 10 1.3. Giới hạn đề tài 11 1.4. Phương pháp nghiên cứu. 11 1.5. Điểm mới của luận văn và giá trị thực tiễn. 12 1.6. Bố cục của luận văn. 12 CHƯƠNG II. ĐỘNG LỰC HỌC QUAY VÒNG Ô TÔ. 14 2.1. quá trình quay vòng ô tô. 14 2.2. các lực tác dụng lên bánh xe dẫn hướng khi quay vòng. 15 2.3. Các lực tác dụng lên ô tô khi ô tô quay vòng. 17 2.4. xét sự quay vòng của xe khi tính đến sự biến dạng của lốp. 18 2.5. Các trường hợp quay vòng. 19 2.5.1. Trường hợp quay vòng trung tính. 19 2.5.2. Trường hợp quay vòng thiếu. 19 2.5.3. Trường hợp quay vòng thừa. 20 2.6. Ổn định khi quay vòng. 20 CHƯƠNG III. PHÂN TÍCH CÁC THÔNG SỐ TRONG HỆ THỐNG LÁI. 23 3.1. Tỷ số truyền của hệ thống lái ôtô 23 3.2. Điều kiện không trượt khi quay vòng 24 3.3. Hình học lái 28 3.4. Các yêu cầu của hệ thống lái 36 3.5. Trợ lực lái 37 CHƯƠNG IV. CƠ SỞ LÝ THUYẾT ĐIỀU KHIỂN TỰ ĐỘNG HỆ THỐNG LÁI 42 4.1. Yêu cầu của hệ thống lái 42 4.2. Lực cản quay vòng. 45 4.3. Các yếu tố ảnh hưởng đến lực cản khi quay vòng. 50 CHƯƠNG V. PHÂN TÍCH HỆ THỐNG TRỢ LỰC LÁI ĐIỆN TỬ.. 61 5.1. Khái niệm chung về hệ thống lái trợ lực điều khiển điện tử 61 5.2. Phân loại các hệ thống trợ lực lái 61 5.3. Các bộ phận của hệ thống lái trợ lực điều khiển điện tử. 63 5.3.1. Van xoay phân phối 63 5.3.2. Bơm thủy lực. 64 5.3.3. Hệ thống cảm biến lái trợ lực điện tử. 69 5.3.3.1. Bộ cảm biến lái 69 5.3.3.2. Cảm biến tốc độ xe (vehicle speed sensor). 72 5.3.3.4. Cảm biến tốc độ góc bánh lái (steering wheel rotation sensor). 73 5.3.4. Hộp số lái 73
+
+5.4. Hoạt động của hệ thống trợ lực lái điện tử EHPS. 77 5.5. Những ưu diển của hệ thống trợ lực lái điện tử EHPS. 79 5.6. Hệ thống lái trợ lực điện(EPS). 85 5.6.1. Giới thiệu về hệ thống lái trợ lực điện(EPS). 85 5.6.2. Các dạng bố trí trợ lực lái 88 5.7. Xu hướng phát triển các hệ thống lái hiện đại 96 CHƯƠNG VI THUẬT TOÁN ĐIỀU KHIỂN HỆ THỐNG TRỢ LỰC LÁI 101 6.1. Giới thiệu và trình bày nguyên lý làm việc của hệ thống trợ lực lái EPS. 101 6.2. Xây dựng và giải thích lưu đồ thuật toán. 102 6.3. Xây dựng phần cứng tương ứng. 104 CHƯƠNG VII KẾT LUẬN VÀ KIẾN NGHỊ 105 7.1. Kết luận. 105 7.2. Kiến nghị 106 TÀI LIỆU THAM KHẢO.. 107
+
+CHƯƠNG 1 MỞ ĐẦU
+1.1 Lý do chọn đề tài
+Trong những năm gần đây. Nền khoa học kỷ thuật thế giới đã phát triển cực kỳ mạnh mẽ với nhiều thành công rực rỡ trong tất cả các lĩnh vực của đời sống xã hội, đặc biệt trong lĩnh vực công nghệ ô tô.
+chúng ta đã tạo ra được những dòng xe cao cấp và hiện đại, di cùng với nó là sự tiện nghi và an toàn rất được chú trọng nghiên cứu và phát triển nhằm tạo ra sự êm ái và an toan khi điều khiển.
+Hệ thống lái là một trong những hệ thống quan trọng nhất quyết định an toàn của một chiếc xe. Chính vì vậy, nhóm chúng em đã đi tìm hiểu sự cấu tạo và nguyên tắc hoạt động của hệ thống lái, tuy nhiên chúng em chỉ đi sâu nghiên cứu hệ thống lái trợ lực trên các dòng xe du lịch toyota đời mới.
+1.2 Mục tiêu và nhiệm vụ của đề tài
+Nghiên cứu về hệ thống lái trợ lực trên xe toyota đời mới.
+Chỉ ra được sự tiện lợi và an toàn hơn các hệ thống trợ lực đời cũ.
+Nghiên cứu đặc tính quay vòng và điều kiện an toàn khi xe đi vào đường vòng.
+Xây dựng được thuật toán điều khiển trợ lực lái.
+1.3 Giới hạn đề tài
+Hệ thống lái trợ lực trên ôtô toyota đời mới thì đây là một đề tài khó trong việc nghiên cứu. Vấn đề giải quyết các bài toán chuyển động quay vòng ổn định là quá phức tạp. Với mục tiêu và nhiệm vụ đặt ra ở trên nên đề tài không đi sâu vào tính toán.
+Do thời gian có hạn nên đề tài chỉ nghiên cứu ở phạm vi các hệ thống trợ lực lái điều khiển điện tử trên các dòng xe du lịch Toyota đời mới. Sự điều khiển điện tử hệ thống trợ lực lái chỉ đưa ra tính năng và nguyên lý của một vài hệ thống.
+
+1.4 Phương pháp nghiên cứu
+Trên cơ sở lý thuyết tính toán về hệ thống lái và các vấn đề động lực học, an toàn chuyển động trên ôtô. Đã chỉ ra được sự tiện lợi hơn của hệ thống trợ lực điện. Từ đó điều khiển các thông số đầu vào tối ưu cho hệ thống trợ lực lái điện tử. Quá trình hoạt động của hệ thống trợ lực lái điện tử được so sánh và đánh giá với hệ thống cơ khí thông thường. Qua đó nhằm chứng minh tính vượt trội của hệ thống trợ lực lái điều khiển bằng điện tử. Tìm hiểu một vài nguyên lý và cấu tạo của hệ thống trợ lực điều khiển bằng điện tử trên ôtô hiện đại đang được sử dụng. Xây dựng một lưu đồ thuật toán điều khiển hệ thống trợ lực lái với các thông số đầu vào cơ bản.
+1.6 Bố cục của đồ án
+Luận văn được chia làm 7 chương
+Chương I Mở đầu
+Chương II Động lực học quay vòng ôtô
+Chương III Phân tích các thông số trong hệ thống lái
+Chương IV Cơ sở lý thuyết điều khiển tự động hệ thống trợ lực lái
+Chương V Phân tích hệ thống trợ lực lái điện tử
+Chương VI Thuật toán điều khiển hệ thống trợ lực lái
+Chương VII Kết luận và kiến nghị
+
+CHƯƠNG II ĐỘNG LỰC HỌC QUAY VÒNG Ô TÔ.
+2.1 quá trình quay vòng ô tô
+Trong quá trình chuyển động của ô tô, ô tô luôn thực hiện các động tác thay đổi hướng chuyển động. quá trình chuyển hướng đó là quá trình quay vòng của ô tô. Quá trình quay vòng có thể chia làm 3 giai đoạn như sau.
+Đi vào đường vòng.
+Quay vòng.
+Đi ra khỏi đường vòng.
+Ta xét tại một thời điểm tức thời khi xe đang quay vòng, khi đó xe có bán kính quay vòng tức thời R.
+Trong hình bên: có Hình 2.1 Quá trình quay vòng ô tô
+là góc quay trung bình
+là góc quay của bánh xe chuyển hướng bên ngoài
+là góc quay của bánh xe chuyển hướng bên trong
+Xét tam giác vuông OAB ta có
+
+Do đó
+Các góc quay của các bánh xe chuyển hướng trong , ngoài được xác định như sau:
+Liên hệ giữa các góc quay.
+Theo hình vẽ ta có mà
+Bán kính quay tức thời của trọng tâm ô tô
+2.2 Các lực tác dụng lên bánh xe dẫn hướng khi quay vòng
+Trong quá trình chuyển động của ô tô, bánh dẫn hướng chịu tác dụng của các lực:
+Tải trọng thẳng đứng G1
+Lực cản lăn Pf = G1 .f
+Lực đẩy P = -Pf
+Khi xe quay vòng, lực đẩy của xe lúc này là P’.
+P’f = P’.cos lực đẩy
+Y = P’.sin. Y là lực ngang. Hình 2.2 Các lực tác dụng
+Để đảm bảo xe chạy được an toàn thì phải có
+P’.co
+Hay
+=>. =>
+Coi , f
+Ta có artg , f: hệ số cản lăn và hệ số bám ngang
+Để xe chuyển hướng được ổn định thì góc chuyển hướng lớn hay bé phụ thuộc vào chất lượng của mặt đường, biểu thị qua hệ số bám ngang của bánh xe dẫn hướng với mặt đường cũng như hệ số cản lăn f của bánh xe với mặt đường. hình 2.3 Đồ thị khảo nghiệm
+Khảo sát thực tế, ta thu được mối quan hệ giữa o,n, f , biểu thị như ở đồ thị bên.
+Qua đồ thị bên ta thấy, nếu góc dẫn hướng trong thực tế lớn hơn so với tính toán thì bánh xe dẫn hướng chỉ bị trượt ngang chứ không lăn theo hướng chuyển động khi quay vòng.
+2.3 Các lực tác dụng lên ô tô khi ô tô quay vòng
+Khi ô tô chuyển động trên đường cong có bán kính qua trọng tâm xe là sẽ tạo ra lực ly tâm Plt . và lực ly tâm này sẽ có thành phần Py vuông góc với khung xe và gây mất ổn định cho xe khi quay vòng.
+Jy : gia tốc hướng tâm
+Jv gia tốc pháp tuyến.
+Khi đó ta có công thức.
+Plt =
+Py = Plt . cos Plt => Py = (: góc quay xe)
+Jy = jv .cos + jt .sin
+Jv =
+Jt = Hình 2.4 Các lực tác dụng khi ô tô quay vòng
+Sin
+cos
+jy =
+Py =
+Qua biểu thức trên ta thấy rằng khi đi vào đường vòng, để giảm Py thì ta phải giảm tốc độ V.
+2.4 xét sự quay vòng của xe khi tính đến sự biến dạng của lốp
+hình 2.5 Sự quay vòng của xe có lốp đàn hồi
+Khi xe chuyển động quay vòng, thành phần lực ngang Py và do sự đàn hồi của lốp, thì sự quay vòng sẽ làm lốp bị biến dạng.
+: là góc biến dạng bánh xe cầu trước
+: là góc biến dạng bánh xe cầu sau
+Ot: tâm quay vòng tức thời khi có biến dạng.
+Rd: bán kính quay vòng tức thời
+L = BC + AC = OTC.tg + OTC.tg = Rd.tg + Rd.tg
+Rd = , vì bé nêntg ,tg
+Vậy Rd =
+2.5 Các trường hợp quay vòng
+2.5.1 Trường hợp quay vòng trung tính. = => R = R0
+. Đây là trường hợp tâm quay vòng khác nhau mà bán kính quay vòng bằng nhau. Ở trường hợp này, để giữ cho xe chuyển động thẳng khi có lực ngang tác dụng thì người lái cần quay vô lăng sao cho xe lệch khỏi trục đường một góc = = Khi ô tô đang chuyển động thẳng . Nếu xuất hiện = thì ô tô sẽ chuyển động xiên theo phương dọc một góc và như vậy người lái có thể dùng vô lăng để điều chỉnh quỹ đạo chuyển động.
+Hình 2.6 Trường hợp quay vòng trung tính
+2.5.2 Trường hợp quay vòng thiếu
+Trường hợp δ1 > δ2 Tức là góc lệch hướng của cầu trước lớn hơn cầu sau, khi đó R > R0 nên ô tô có tính chất quay vòng thiếu. Người lái phải đánh thêm vô lăng để duy trì quỹ đạo chuyển động với bán kính R0 . Phản ứng của người lái trong trường lợp này là thuận. Khi ô tô chuyển động thẳng mà xuất hiện δ1 > δ2 thì ô tô quay vòng quanh tâm O. Lực ly tâm Plt xuất hiện ngược chiều lực ngang Y. Vì vậy, chúng triệt tiêu nhau làm cho ô tô ổn định hướng chuyển động thẳng. Như vậy, quay vòng thiếu là tốt. Hầu hết xe ô tô đời mới có cầu trước chủ động. Khi đó, các bánh xe ở cầu trước sẽ bị trượt dọc nhiều nên khả năng bám ngang giảm. Nên có xu hướng quay vòng thiếu, có khả năng ổn định chuyển động tốt hơn.
+Hình 2.7 Trường hợp quay vòng thiếu
+2.5.3 Trường hợp quay vòng thừa
+Hình 2.8 Trường hợp quay vòng thừa
+Trường hợp δ1 < δ2 => thì R < R0 nên xe có tính năng quay vòng thừa.Trường hợp này xe bị mất khả năng chuyển động thẳng ổn định vì chiều của lực ly tâm Plt xuất hiện trùng với chiều của lực ngang Y. Sự mất ổn định càng lớn khi vận tốc xe càng cao. Để tránh khả năng lật đổ xe trong trường hợp này, người lái phải nhanh chóng đánh tay lái theo hướng ngược lại với chiều xe bị lệch để mở rộng bán kính quay vòng. Phản ứng của người lái trong trường hợp này là nghịch. Hơn nữa, khi ô tô chuyển động thẳng mà xuất hiện góc lệch hướng δ1 thì quá trình trên càng thêm tiến triển. Như vậy, quay vòng thừa là cần tránh trong thiết kế và vận hành ô tô.
+2.6 Ổn định khi quay vòng
+Ta chỉ đề cập tới tính ổn định của các bánh xe dẫn hướng khi quay vòng. Tính ổn định dẫn hướng được hiểu là khả năng của chúng giữ được vị trí ban đầu ứng với khi xe chuyển động thẳng và tự quay trở về vị trí này sau khi bị lệch.
+Nhờ tính ổn định mà khả năng dao động của các bánh xe dẫn hướng và tải trọng tác dụng lên hệ thống lái được giảm đáng kể.
+Tính ổn định của các bánh xe dẫn hướng được duy trì dưới tác dụng của các thành phần phản lực thẳng đứng, lực bên và lực tiếp tuyến tác dụng lên chúng khi xe chuyển động.
+Ba nhân tố sau đây đảm bảo tính ổn định của các bánh xe dẫn hướng:
++ Độ nghiêng ngang của trụ đứng cam quay.
++ Độ nghiêng dọc của trụ đứng cam quay.
++ Độ đàn hồi của lốp theo hướng ngang.
+Khi trục đứng được đặt nghiêng ngang thì phản lực thẳng đứng của đất tác dụng lên trục trước của xe sẽ được sử dụng để đảm bảo tính ổn định cho các bánh dẫn hướng. Thông thường xem mặt đường là tuyệt đối cứng, khi các bánh xe dẫn hướng bị lệch khỏi vị trí trung gian của chúng thì trục trước của xe sẽ được nâng lên. Hình bên cho thấy trục quay đứng đặt nghiêng ngang một góc θ . Nếu xem như bánh xe không có góc doãn ta có thể phân phản lực thẳng đứng Zb làm hai thành phần: Zbcosβ và Zbsinβ như hình.
+Hình 2.9 Góc nghiêng của trục quay đứng trong mặt phẳng ngang của xe.
+Moment ổn định tạo nên bởi tác động của phản lực thẳng đứng của đất tác dụng lên bánh xe và độ nghiêng bên của trụ đứng là MZβ = Zblsinβsinα. Trong đó l là khỏang cách từ tâm bề mặt tựa của bánh xe tới đường tâm trụ đứng.
+Moment ổn định MZβ tăng lên cùng với sự tăng của góc quay vòng α của bánh xe dẫn hướng, MZβ nhỏ và ảnh hưởng của nó tới tính ổn định không lớn. Moment này có ý nghĩa chủ yếu là làm cho bánh xe dẫn hướng tự động quay về vị trí trung gian sau khi thực hiện quay vòng.
+Khi quay vòng bánh xe dẫn hướng, moment MZβ sẽ chống lại sự quay vòng, vì vậy cần phải tăng thêm lực tác dụng lên vành tay lái. Mặt khác, nhờ độ nghiêng ngang của trụ đứng mà moment do phản lực tiếp tuyến của đất tác dụng lên bánh xe sẽ giãm xuống.
+Ngoài ra, trụ đứng còn được đặt nghiêng về phía sau so với chiều chuyển động tiến của xe. Dưới tác dụng của lực ly tâm khi xe vào đường vòng, lực gió ngang hoặc lực nghiêng ngang của thùng xe khi xe chạy trên mặt đường nghiêng, ở khu vực tiếp xúc của các bánh xe với mặt đường sẽ xuất hiện các phản lực bên Yb. Khi trụ quay đứng được đặt nghiêng về phía sau một góc γ so với chiều tiến của xe thì phản lực ngang Yb của đường sẽ tạo với tâm tiếp xúc O một moment ổn định MYγ = Yb.C . Moment này có xu hướng làm quay bánh xe trở về vị trí trung gian ban đầu khi nó bị lệch khỏi vị trí này. Khi quay vòng người lái phải tạo ra một lực để khắc phục moment này, vì vậy góc nghiêng γ thường không lớn. Moment MYγ không phụ thuộc vào góc quay vòng của các bánh xe dẫn hướng.
+
+Hình 2.10 Góc quay của trụ quay đứng quay trong mặt phẳng dọc của xe
+
+CHƯƠNG III PHÂN TÍCH CÁC THÔNG SỐ TRONG HỆ THỐNG LÁI
+Các thông số cơ bản của hệ thống lái
+3.1 Tỷ số truyền của hệ thống lái ôtô
+Hệ thông lái là một loại cơ cấu truyền chuyển động từ vành tay lái đến
+đòn chuyển hướng tại bánh xe dẫn hướng. Trong phạm vi hệ thống lái có thể phân biệt các tỷ số truyền sau .
+Hình 3.1 Hộp số lái khiểu trục vít – con lăn có tỷ số truyền thay đổi
++ Tỷ số truyền của hộp số lái ( IL1 ) : Là tỷ số truyền của góc quay của vành tay lái chia cho góc quay của đòn lắc chuyển hướng. +Tỷ số truyền của hộp số lái có thể có trị số cố định hoặc có thể tăng hoặc giảm khi vành tay lái được quay khỏi vị trí trung gian.
+đối với xe du lịch sẽ có lợi hơn nếu sử dụng hộp số lái với tỷ số truyền thay đổi . Điều này làm tăng tính an toàn khi ôtô chạy nhanh , vì khi vành tay lái dược quay một góc nhỏ thì các bánh xe dẫn hướng xoay ít hơn . Ngoài ra với tỷ số truyền của hộp số lái cao thì sự rung động của các bánh xe dn hướng ở tốc độ cao sẽ ảnh hưởng ít hơn đến người lái . 1- Trục vít, 2- Con lăn, 3-Đòn chuyển hướng của dẫn động lái
++ Tỷ số truyền của dẫn động lái ( IL2 )
+Trong quá trình các bánh dẫn hướng xoay thì độ dài cánh tay đòn của các thanh và đòn thuộc dẫn động lái sẽ thay đổi .Tỷ số truyền của dẫn động lái phụ thuộc vào sơ đồ động học của nó, nhưng thường thay đổi không nhiều lắm trong các kiểu dẫn động lái hiện nay.
++ Tỷ số truyền theo góc của hệ thống lái (IL3 )
+Là tỷ số truyền của góc quay vành tay lái chia cho góc quay của bánh dẫn hướng
+3.2 Điều kiện không trượt khi quay vòng
+Quá trình quay vòng của xe được chia thành ba giai đoạn :
+........................................................
+trình phát triển hệ thống điện-cơ chẳng hạn như hệ thống EPS. Chúng ta sẽ giới thiệu một vài thành tựu trong sự phát triển của hệ thống EPS này.
+Đã có rất nhiều đề xuất nhằm mục đích phát triển các hệ thống lái. Chẳng hạn việc thực hiện lái bốn bánh 4WS (4- Wheel Steering) trên các xe có kích thước nhỏ của. Phần lớn việc lái các bánh xe phía trước với tải nặng bằng việc tận dụng một hệ thống dẫn động lái đằng sau và việc sử dụng các bộ điều khiển điện tử thông minh.
+Trong các hệ thống trợ lực lái thủy lực, lực trợ làm quay vành tay lái thì được quy định bởi một vị trí lỗ trên van xoay thông với một ngõ trong vỏ van mà tạo nên một trong số các đường đặc tính áp suất khác nhau như đã nói. Ngay khi bộ điều khiển điện tử được sử dụng, chỉ riêng ở việc cảm nhận góc độ lái thì được cải tiến bằng cách thay đổi các đặc tính áp suất theo tốc độ xe. Hệ thống trợ lực lái điện tử thì chỉ được sử dụng trên các xe có kích thước nhỏ với tải đặt trên cầu trước rất nhỏ. Ý tưởng thiết kế một hệ thống lái thông minh với các bộ phận đã được nghiên cứu gọi là hệ thống “steer-by-wire” đòi hỏi sự thay đổi góc lái theo góc bánh xe lái. Hình 5.29. Hệ thống lái “steer-by-wire” đòi hỏi các cảm biến nhận vào từ môi trường bên ngoài.
+Hình 5.29_ Hệ thống lái thông minh.
+Các hệ thống cần thiết cho cả việc trợ lực lái và khả năng thay đổi góc độ lái tại một tốc độ tương đối cao và nó thì khác so với hệ thống thủy lực kiểu truyền thống. Như đã nói rõ ở trên, đối với cấu trúc của hệ thống lái thông minh trong tương lai, một vấn đề vô cùng quan trọng là thiết kế bộ điều khiển điện-tử thủy lực trong bộ tích năng.
+
+Hình 5.30_ hệ thống EPS-I.
+Hình 5.30 thể hiện cấu trúc của hệ thống EPS-I. Hộp số lái về cơ bản dùng một hệ thống thanh răng – pinhông truyền thống và bao gồm một cơ cấu trợ lực bằng môtơ được lắp đồng trục với thanh răng, một đai ốc bi và một bánh răng xoắn. Hệ thống EPS-I cũng bao gồm một bộ cảm biến mômen lái được đặt trên trục lái, các thiết bị nhận tín hiệu góc lái đầu vào (như mômen xoắn, vận tốc góc lái), ECU và PDU (Power Drive Unit) để điều khiển hoạt động môtơ. Môtơ loại DC có chổi than, công suất đầu ra 200 W và đường kính trục 94 mm. Cảm biến mômen lái gồm một bộ cảm biến với các thiết bị dò mômen và tốc độ góc lái thông qua tín hiệu góc lái đầu vào.
+Hình 5.31_ Hệ thống trợ lực lái EPS-I.
+So sánh với hệ thống trợ lực lái thủy lực, hệ thống lái điện tử cho phép thay đổi các đường đặc tính trợ lực để cải thiện đặc tính lái ổn định. Thêm vào, tần số đáp ứng cao đã cải thiện phản ứng giật lùi của lốp do mặt đường không bằng phẳng, lốp không cân bằng. Tóm lại, sức hấp dẫn của hệ thống đã đạt được. Trừ bơm thủy lực là hoạt động liên tục trong mọi thời điểm thì bộ cung cấp trợ lực chỉ hoạt động khi giảm 2% áp suất yêu cầu.
+
+Hình 5.32_ So sánh theo khả năng lái giữa các hệ thống lái.
+Hệ thống điện – cơ khí được dùng cho các hệ thống lái và treo đòi hỏi độ tin cậy cao, hệ thống EPS-I thì cần hệ số an toàn dự trữ cao. Nó được dùng trên các xe thể thao hiệu suất cao. Bởi các lý do như vậy, hệ thống EPS-I không được dùng trên các xe lái cầu trước thông thường.
+
+CHƯƠNG VI THUẬT TOÁN ĐIỀU KHIỂN HỆ THỐNG TRỢ LỰC LÁI
+
+Qua các vấn đề nghiên cứu trên ta nhận thấy rằng: hệ thống trợ lực lái điều khiển bằng điện tử thì khắc phục được hầu hết các nhược điểm của một hệ thống trợ lực thông thường. Ta đã giới thiệu một vài hệ thống trợ lực lái cùng các biểu đồ tính năng có được từ thực nghiệm của chúng. Chẳng hạn như: biểu đồ mômen tác dụng lên vôlăng thay đổi theo tốc độ xe, theo mômen cản trên ngõng lái, theo gia tốc ngang v.v…
+Trong phần này, ta giả định đi xây dựng thuật toán điều khiển cho mạch điện dẫn động môtơ trợ lực trong hệ thống trợ lực lái loại EPS (Electronic Power Steering) như Hình 6.1. Ta giới thiệu sơ đồ và nguyên lý làm việc của hệ thống EPS như sau:
+6.1 Giới thiệu và trình bày nguyên lý làm việc của hệ thống trợ lực lái EPS
+
+Hệ thống EPS có một thanh răng và pinhông bánh răng truyền (thay đổi tốc độ truyền) và một môtơ điện dẫn động. Môtơ cung cấp trợ lực lái thì được thiết kế bên trong hộp cơ cấu lái. Cảm biến lái thì được lắp trên trục lái. Cảm biến này gởi tín hiệu điện áp tới hộp điều khiển EPS cho biết chiều quay lái, giá trị góc quay và mômen quay vôlăng.
+Nếu xe có hộp số tự động thì cảm biến tốc độ xe đặt trên hộp số. Cảm biến này gởi tín hiệu điện áp về bộ điều khiển hộp số (TCM) cho biết tốc độ ra của trục hộp số. Tín hiệu này được truyền từ TCM tới hộp điều khiển EPS. Ở các xe có hộp số thường thì tín hiệu điện áp có dạng xung đơn vị và cũng được chuyển tới hộp điều khiển EPS. Đồng hồ tốc độ cũng gởi tín hiệu điện áp tới hộp điều khiển EPS. Sau đó hộp điều khiển EPS so sánh và tính toán giá trị tốc độ tin cậy thực tế của xe.
+Hộp điều khiển EPS (bên trong gồm các mạch điều khiển môtơ mà hoạt động theo chương trình nạp sẵn) lắp trên hộp cơ cấu lái. Hộp điều khiển này nhận các tín hiệu điện áp từ cảm biến lái, cảm biến tốc độ xe. Khi các tín hiệu này được nhận vào, bộ điều khiển sẽ tính toán ra giá trị cần trợ lực và chiều quay lái thích hợp. Bộ điều khiển sẽ phát một dòng điện dẫn động môtơ điện trong hộp cơ cấu lái kéo thanh răng di chuyển sang phải hay sang trái với cường độ trợ lực thích hợp. Trong hộp điều khiển EPS cũng có các tính năng tự chẩn đoán và an toàn.
+6.2 Xây dựng và giải thích lưu đồ thuật toán.
+Thuật toán được xây dựng trên cơ sở nhận và xử lý các tín hiệu đầu vào sau:
+Tín hiệu từ cảm biến tốc độ xe Va , tín hiệu cảm biến góc lái. Vì tín hiệu tốc độ xe là một thông số điều khiển rất quan trọng nên nó được lấy từ nhiều vị trí khác nhau trên xe, sau đó được xử lý và chọn ra một giá trị tin cậy nhất. Tín hiệu cảm biến gốc lái bao gồm: chiều quay lái, mômen cản lái theo chiều ngược và cả tốc độ đánh vôlăng.
+Nếu tất cả tín hiệu nhận được từ các cảm biến là tốt thì cho đóng relay chính, relay an toàn để cung cấp điện cho hệ thống chuẩn bị hoạt động. Chương trình sẽ đọc tín hiệu từ cảm biến góc lái, từ cảm biến tốc độ xe vào bộ xử lý trung tâm (ECU hay vi điều khiển).
+Nếu bộ xử lý trung tâm nhận biết tốc độ xe là thấp và góc lái là không thay đổi hoặc đang trả về thì chương trình sẽ điều khiển mạch cho dừng môtơ dẫn động, chương trình cho quay về ban đầu.
+Nếu bộ xử lý trung tâm nhận biết tốc độ xe là thấp và xe đang quay sang trái thì chương trình sẽ điều khiển cho môtơ dẫn động quay trái, sẽ điều chỉnh mômen trợ lái phù hợp với tốc độ xe và góc lái. Mômen trợ lái càng lớn khi tốc độ xe càng nhỏ hay đang quay vòng tại chỗ.
+Tương tự, nếu bộ xử lý trung tâm nhận biết tốc độ xe là thấp và xe đang quay sang phải thì chương trình sẽ điều khiển cho môtơ dẫn động quay phải, sẽ điều chỉnh mômen trợ lái phù hợp với tốc độ xe và góc lái. Mômen trợ lái càng lớn khi tốc độ xe càng nhỏ.
+Nếu bộ xử lý trung tâm nhận biết tốc độ xe là cao và góc lái là không thay đổi hoặc đang trả về thì chương trình sẽ điều khiển mạch cho dừng môtơ dẫn động, chương trình cho quay về ban đầu.
+Nếu bộ xử lý trung tâm nhận biết tốc độ xe là cao và xe đang quay sang trái thì chương trình sẽ điều khiển mạch cho môtơ dẫn động hãm quay phải. Chương trình cũng điều khiển mạch sao cho mômen hãm lái phù hợp với tốc độ xe và góc lái, tốc độ xe càng lớn thì mômen hãm phải càng lớn.
+Nếu bộ xử lý trung tâm nhận biết tốc độ xe là cao và xe đang quay sang phải thì chương trình sẽ điều khiển mạch cho môtơ dẫn động hãm quay trái. Chương trình cũng điều khiển mạch sao cho mômen hãm lái phù hợp với tốc độ xe và góc lái, tốc độ xe càng lớn thì mômen hãm trái càng lớn, chương trình cho quay về khởi tạo ban đầu.
+Tính năng an toàn Ta biết rằng hệ thống trợ lực lái được thiết kế sao cho trong trường hợp bị hỏng hốc thì hệ thống lái phải tiếp tục hoạt động như không có bộ trợ lực. Vì vậy, ở lưu đồ thuật toán trên, nếu các cảm biến hư hỏng làm cho các tín hiệu gởi về bộ xử lý trung tâm là không tốt hoặc giả là không có thì chương trình sẽ điều khiển cho hiển thị đèn cảnh báo. Chương trình điều khiển cho cắt dòng tới các relay chính và các relay an toàn. Hệ thống trợ lực lái lúc này bị ly khai khỏi hệ thống lái.
+
+6.3 Xây dựng phần cứng tương ứng
+Theo xu hướng mà bộ trợ lực lái làm việc ở các chế độ khác nhau nêu trong lưu đồ thuật toán ta đề xuất một sơ đồ khối phần cứng điều khiển bơm trợ lực như Hình VII.3
+Phần cứng gồm có ba phần chính:
++ Bộ nhận các tín hiệu điều khiển đầu vào gồm: cảm biến tốc độ xe, cảm biến lái, nguồn accu 12[V] nuôi hệ thống.
++ Mạch điều khiển chính gồm: bộ chuyển đổi các tín hiệu cảm biến từ dạng tương tự sang dạng số (bộ xử lý trung tâm ECU chỉ đọc tín hiệu dạng số), một vi điều khiển hay bộ xử lý trung tâm và bộ ổn áp 5[V] đầu ra cấp cho vi điều khiển.
++ Bộ phận tác động gồm: đèn cảnh báo an toàn, các relay chính, relay an toàn và môtơ dẫn động trợ lực lái.
+Mạch điều khiển nhận và xử lý tín hiệu từ các cảm biến rồi gởi về bộ xử lý trung tâm. Ở đây, vi điều khiển sẽ tính toán ra các thông số tối ưu như: tốc độ xe hiện thời, hoạt động lái đang diễn ra là thẳng, quay trái hay quay phải cũng như mômen tác động lên vôlăng và tốc độ góc đánh tay lái,v.v… Từ đó gởi một dòng điện tới điều khiển môtơ dẫn động bộ trợ lực phù hợp cả về cường độ và chiều dòng điện.
+
+
+
+CHƯƠNG VII. KẾT LUẬN VÀ KIẾN NGHỊ
+7.1 KẾT LUẬN
+Xuất phát từ vấn đề giữ cho người lái có “cảm giác sức cản từ mặt đường” khi thực hiện việc quay vòng xe, ta thấy rõ mâu thuẫn trong bộ trợ lực lái thủy lực thông thường. Vấn đề “tay lái nhẹ” do bộ trợ lực sinh ra luôn mâu thuẫn với vấn đề “người lái phải có được cảm giác từ mặt đường”.
+Từ cơ sở lý thuyết về lực cản mặt đường tác dụng lên các bánh xe cầu điều khiển khi quay vòng ta đã phân tích nhiều yếu tố ảnh hưởng đến lực cản này. Theo đó một hệ thống trợ lực lái cần phải đáp ứng là làm thế nào để dẫn động lái thật nhẹ nhàng, êm dịu mà vẫn giữ cho người lái còn cảm giác sức cản mặt đường. Tức là phải giải quyết được mâu thuẫn nói trên.
+Qua các vấn đề nghiên cứu trên ta nhận thấy hệ thống trợ lực lái điều khiển bằng điện tử ra đời theo xu thế tất yếu và được phát triển dựa trên cơ sở bộ trợ lực lái thủy lực kiểu truyền thống. Qua các hệ thống trợ lực lái điện tử đã khảo sát thì đặc tính quan hệ giữa mômen lái với mômen cản tác dụng ngược từ mặt đường, theo tốc độ chuyển động của xe, theo tải trọng thẳng đứng tác dụng lên cầu dẫn hướng thì hầu như là tối ưu.
+Ngày nay, với sự phát triển của lĩnh vực điện tử, các vấn đề về điều khiển hệ thống thì hoàn toàn được đáp ứng. Vấn đề điều khiển cho hệ thống trợ lực lái mà cụ thể là cho bơm dẫn động trợ lực dựa trên một thuật toán riêng biệt.Trong đề tài chỉ nghiên cứu lý thuyết một vài hệ thống trợ lực lái điều khiển bằng điện tử dựa trên vài thông số đầu vào. Các thông số đầu vào này là: tín hiệu từ cảm biến tốc độ xe; cảm biến lái bao gồm chiều quay lái, góc lái, momen lái, tốc độ góc đánh vôlăng; tải trọng thẳng đứng đặt trên cầu điều khiển, v.v…
+Cũng dựa trên xu hướng mà bộ trợ lực lái đòi hỏi, ta cũng đã đề xuất một lưu đồ thuật toán điều khiển cho một mạch điện dẫn động môtơ trợ lực theo các chế độ làm việc khác nhau. Lưu đồ cho ta các hướng xử lý của môtơ trợ lực để đầu ra dẫn động bộ trợ lực là phù hợp nhất. Theo đó cũng giới thiệu một sơ đồ khối phần cứng mạch điều khiển hệ thống trợ lực lái bằng điện tử.
+Vấn đề đựa hệ thống trợ lực lái điều khiển bằng điện tử vào sử dụng thực tế ta còn cần quan tâm đến hiệu quả và giá thành của sản phẩm cũng như tổng giá thành của xe. Vì vậy, về mặt lý thuyết việc điều khiển hệ thống trợ lực lái bằng điện tử là tốt nhưng vẫn còn hạn chế sử dụng. Các nhà nghiên cứu về hệ thống lái vẫn không ngừng tìm kiếm những giải pháp điều khiển tốt nhất nhằm đáp ứng các đòi hỏi mà một hệ thống trợ lực đặt ra. Một trong những giải pháp đang nghiên cứu áp dụng đó là việc sử dụng các loại vật liệu mới mà chúng có khả năng đáp ứng vấn đề điều khiển đặt ra và năng lượng tiêu thụ cho quá trình điều khiển thấp.
+Như vậy, việc điều khiển hệ thống trợ lực lực lái với các thông tin cơ bản đầu vào là tất yếu. Việc ra đời của hệ thống trợ lực lái điều khiển bằng điện tử đã giải quyết mâu thuẫn nội tại ở hệ thống trợ lực lái thông thường. Việc điều khiển bằng điện tử dần đạt đến mức độ tối ưu. Do vậy, các vấn đề về tính êm dịu khi xe chuyển động trên đường, vấn đề phát huy tối đa tính năng động lực học – an toàn chuyển động thì được đảm bảo.
+7.2 KIẾN NGHỊ
+Qua thời gian nghiên cứu đề tài “Hệ thống lái trợ lực trên ô tô toyota đời mới” chúng em có những kiến nghị như sau:
+Do thời gian và khả năng là có hạn nên việc nghiên cứu đề tài này con nhiều bất cập để đề tài này có thể trở thành tài liệu tham khảo tích cực thì cần phát triển thêm các phần mềm mô phỏng cấu tạo và nguyên lý hoạt động.
+Ngoài ra, cần phải nghiên cứu nhiều hơn nữa về thuật toán cũng như viết chương trình điều khiển mạch điện từ đơn giản tới phức tạp. Xây dựng và giải các bài toán quay vòng ổn định với sự trợ giúp của máy tính.
+Do kinh phí chúng em có hạn, nên trong đề tài nghiên cứu này chúng em không thể làm được mô hình, chính vì lẽ đó chúng em đề nghị khoa có kế hoạch tạo mô hình theo hướng đề tài này, để đề tài này trở thành tài liệu tham khảo tích cực
+------------------------------oOo------------------------------
+
+TÀI LIỆU THAM KHẢO
+1. GS.ST Nguyễn Hữu Cẩn – Lý Thuyết Ôtô Máy Kéo.
+[NXB Khoa Học và Kỹ Thuật-1996]
+2. PGS.TS Nguyễn Văn Phụng – Lý Thuyết Ôtô Máy Kéo (Tập I, II)
+[Đại Học Sư Phạm Kỹ Thuật TP. Hồ Chí Minh-1989]
+
+

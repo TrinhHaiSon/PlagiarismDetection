@@ -1,0 +1,310 @@
+TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP. HỒ CHÍ MINH
+KHOA CƠ KHÍ ĐỘNG LỰC
+BỘ MÔN ĐIỆN TỬ Ô TÔ
+
+SV thực hiện :
+Lớp :
+Khoa : Cơ Khí Động Lực
+Tên đề tài :
+THIẾT KẾ, CHẾ TẠO MÔ HÌNH HỆ THỐNG ĐÈN THÔNG MINH
+Các số liệu ban đầu: ............................................................................
+................................................................................................................
+Nội dung đồ án:
+a ) Thiết kế, chế tạo mô hình hệ thống đèn thông minh.
+b ) Viết thuyết minh:
+- Tóm tắt lý thuyết về hệ thống đèn chiếu sáng, tín hiệu trên xe.
+- Trình bày cấu tạo, nguyên lý điều khiển và hoạt động của hệ thống chiếu
+sáng chủ động trên xe.
+- Trình bày ý tưởng thiết kế, phương án thiết kế và các bước tiên hành thiết kế. Trình bày cấu tạo, nguyên lý điều khiển và hoạt động của hệ thống đèn thông minh trên mô hình.
+Giáo viên hướng dẫn: Th.S LÊ THANH PHÚC Ngày giao nhiệm vụ: 10 – 10 – 2012 Ngày hoàn thành nhiệm vụ 10 – 02 – 2012
+
+Giáo viên hướng dẫn ký tên Ngày . . .tháng . .
+Th.S LÊ THANH PHÚC Thông qua bộ môn
+
+LỜI MỞ ĐẦU
+Khoá học 2008-2012 đang ở giai đoạn cuối của chương trình đào tạo là thực hiện đồ án tốt nghiệp. Sau hơn 4 năm học tập tại trường Đại Học Sư Phạm Kỹ Thuật Tp. Hồ Chí Minh, chúng em được lĩnh hội rất nhiều kiến thức quý báu và rèn luyện kỹ năng chuyên ngành Công nghệ Ô tô tại khoa Cơ khí Động lực.
+Trong quá trình tìm kiếm đề tài tốt nghiệp chúng em đã chọn được đề tài mong muốn, phù hợp với khả năng và lĩnh vực yêu thích của mình. Từ đó chúng em đã mạnh dạn tự đề xuất đề tài “Thiết kế, chế tạo mô hình hệ thống đèn thông minh”, và nhận được sự đồng ý của Bộ môn Điện Tử Ô tô. Ban chủ nhiệm Khoa cũng đã cho phép đăng ký thực hiện đề tài.
+Thiết nghĩ, việc thiết kế mô hình hệ thống chiếu sáng thông minh phục vụ trong việc giảng dạy trong nhà trường là cần thiết và rất có ích cho sinh viên thực tập. Mô hình được thiết kế với đầy đủ các bộ phận, cơ cầu, chức năng của một hệ thống chiếu sáng hiện đại vì vậy sẽ giúp ích cho sinh viên có thêm mô hình để thực tập và được tiếp cận với công nghệ chiếu sáng chủ động trên xe, hiện còn mới mẻ ở Việt Nam. Đối với bản thân, đây là cơ hội cho chúng em để hệ thống lại kiến thức, là cơ hội nghiên cứu, thực nghiệm và rèn luyện các kỹ năng làm việc trước khi bước vào môi trường làm việc thực sự.
+Sau một thời gian thực hiện đề tài, mặc dù chúng em đã gặp nhiều khó khăn nhưng với sự giúp đỡ của thầy GVHD ThS.Lê Thanh Phúc và các thầy cô trong bộ môn Điện Tử Ô tô cùng các thầy cô trong Khoa Cơ khí Động lực cùng sự cố gắng nỗ lực của bản thân, đề tài “Thiết kế, chế tạo mô hình hệ thống đèn thông minh” đã được hoàn thành đúng tiến độ.
+Dù đã rất cố gắng và nỗ lực để thực hiện đề tài này, nhưng do kiến thức và thời gian có hạn nên không tránh khỏi những thiếu sót và hạn chế, vì vậy chúng em rất mong nhận được những ý kiến đóng góp của quý thầy cô cùng các bạn.
+
+MỤC LỤC
+PHẦN A: DẪN NHẬP Trang
+Lý do chọn đề tài. Giới hạn phạm vi nghiên cứu. Mục đích nghiên cứu. Phương pháp nghiên cứu.
+PHẦN B: NỘI DUNG ĐỀ TÀI
+CHƯƠNG 1: LỊCH SỬ PHÁT TRIỂN ĐÈN CHIẾU SÁNG TRÊN Ô TÔ
+1.1. Khái quát 1
+1.2. Đèn xe trước thời kỳ sử dụng đèn điện 2
+1.3. Đèn sợi đốt ra đời và phổ biến trên xe hơi 3
+1.4. Đèn Halogen ra đời và phổ biến trên xe hơi 4
+1.5. Đèn Xenon ra đời và phổ biến trên xe hơi 5
+1.6. Đèn pha công nghệ đi-ốt phát quang LED 8
+CHƯƠNG 2: TỔNG QUAN VỀ HỆ THỐNG CHIẾU SÁNG – TÍN HIỆU TRÊN XE 11
+Khái quát về hệ thống đèn chiếu sáng và hệ thống đèn tín hiệu trên xe 11 Tổng quan về hệ thống chiếu sáng 13
+2.2.1. Hệ thống đèn đầu 13
+2.2.1.1. Tổng quan các loại bóng đèn đầu 13
+2.2.1.2. Cấu tạo chóa đèn 24
+2.2.1.3. Sơ đồ và hoạt động của một số loại mạch điện hệ thống đèn trên xe 27
+2.2.2. Hệ thống đèn hậu 31
+2.2.3. Hệ thống đèn sương mù 31
+2.2.3.1. Đèn sương mù phía trước 31
+2.2.3.2. Đèn sương mù phía sau 32
+2.3. Tổng quan hệ thống tín hiệu 33
+2.3.1. Hệ thống đèn xi nhan có công tắc hazard rời 33
+2.3.2 . Hệ thống đèn xi nhan có công tắc hazard tổ hợp 34
+2.3.3. Hệ thống đèn xi nhan điều khiển tích hợp 35
+CHƯƠNG 3: GIỚI THIỆU HỆ THỐNG ĐÈN THÔNG MINH 37
+3.1. Hệ thống đèn chiếu sáng góc cua tĩnh 37
+3.1.1. Giới thiệu hệ thống 37
+3.1.2. Nguyên lý điều khiển hệ thống đèn chiếu sáng góc cua tĩnh 42
+3.2. Hệ thống đèn chiếu sáng góc cua động 44
+3.2.1. Giới thiệu hệ thống 44
+3.2.2 . Nguyên lý điều khiển đèn chiếu sáng góc cua động 47
+. Cơ sở tính toán góc điều chỉnh vùng chiếu sáng 49
+Xu hướng phát triển của hệ thống chiếu sáng chủ động 52
+
+CHƯƠNG 4: THIẾT KẾ CHẾ TẠO MÔ HÌNH CHIẾU SÁNG THÔNG MINH 56
+Ý tưởng thiết kế 56 Ý tưởng về hệ thống chiếu sáng hiện đại 56 Ý tưởng về hệ thống chiếu sáng thông minh 56
+4.1.2.1. Ý tưởng thiết kế hệ thống chiếu sáng góc cua tĩnh 56
+4.1.2.2. Ý tưởng thiết kế hệ thống góc cua động 58
+4.1.2.3. Ý tưởng thiết kế hệ thống tự động bật đèn đầu và hệ thống tự động chuyển Pha – Cốt 59
+4.2. Các bước thiết kế. 61
+4.2.1. Thiết kế mô hình cơ bản 61
+4.2.1.1. Khung mô hình 62
+4.2.1.2. Hệ thống đèn đầu 62
+4.2.1.3. Hệ thống đèn đuôi 64
+4.2.1.4. Cụm vô lăng và công tắc điều khiển 65
+4.2.2. Thiết kế hệ thống chiếu sáng - tín hiệu trên mô hình 66
+4.2.2.1. Sơ đồ và hoạt động của mạch điện hệ thống chiếu sáng trên mô hình 67
+4.2.2.2. Sơ đồ mạch điện và hoạt động đèn báo rẽ, báo phanh trên mô hình 69
+4.2.3. Thiết kế hệ thống chiếu sáng góc cua 70
+4.2.3.1. Thiết kế hệ thống chiếu sáng góc cua tĩnh 70
+4.2.3.2. Thiết kế hệ thống chiếu sáng góc cua động 78
+4.2.4. Thiết kế hệ thống tự động bật đèn đầu và tự động chuyển pha cốt 84
+4.2.4.1. Thiết kế hệ thống tự động bật đèn đầu 84
+4.2.4.2. Thiết kế hệ thống tự động chuyển pha – cốt 86
+4.2.5. Thiết kế mạch điện điều khiển trung tâm 89
+4.3 Hướng dẫn sử dụng mô hình 92
+4.3.1 Khởi động 92
+4.3.2 Điều khiển hoạt động của hệ thống chiếu sáng góc cua 92
+4.3.2.1. Điều khiển hoạt động của hệ thống đèn liếc tĩnh 92
+4.3.2.2. Điều khiển hoạt động của hệ thống đèn liếc động 93
+4.3.2.3. Điều khiển hoạt động của hệ thống tự động mở đèn đầu 94
+4.3.2.4 Điều khiển hoạt động của hệ thống chuyển đổi pha – cốt 94
+PHẦN C: KẾT LUẬN – ĐỀ NGHỊ
+PHỤ LỤC
+TÀI LIỆU THAM KHẢO
+PHẦN A: DẪN NHẬP
+
+I. Lý do chọn đề tài:
+Lịch sử phát triển của Công nghệ chiếu sáng trên xe gắn liền với lịch sử ra đời và phát triển kéo dài hơn 120 năm của ngành công nghiệp ô tô. Với vai trò như đôi mắt cho người lái xe vào ban đêm, công nghệ chiếu sáng trên xe luôn được quan tâm và chú trọng nghiên cứu.
+Những năm gần đây công nghệ chiếu sáng ô tô đã có những phát triển bước ngoặt. Với sự xuất hiện của bóng đèn tăng áp Xenon với cường độ sáng mạnh và tầm chiếu sáng xa, cho ánh sáng như ánh sáng ban ngày, các nhà sản xuất ô tô đã giải được bài toán về nguồn chiếu sáng. Không ngừng ở đó, để đáp ứng những đòi hỏi chính đáng của người sử dụng về một môi trường lái xe an toàn, thân thiện hơn vào ban đêm, gần đây các nhà sản xuất đã giới thiệu công nghệ chiếu sáng chủ động trên xe với tham vọng hoàn toàn đánh bật bóng đêm. Nổi bật trong đó là giải pháp chiếu sáng chủ động theo góc bẻ lái của xe, với công nghệ này các tài xế không còn phải lo lắng việc thường xuyên phải đối mặt với những vùng tối đột ngột hoặc nguy hiểm hơn là việc bất ngờ xuất hiện các chướng ngại vật khi lái xe vào ban đêm gặp những cung đường cong hoặc các đoạn rẽ.
+Hệ thống chiếu sáng chủ động đã dần trở nên thông dụng đối với các nước phát triển, coi trọng vấn đề an toàn giao thông còn đối với Việt Nam ta hiện nay thì chiếu sáng chủ động vẫn còn khá mới mẻ, chỉ được trang bị trên các xe hạng sang, vì vậy việc sinh viên ngành cơ khí ô tô được tiếp cận công nghệ mới này còn rất hạn chế, chủ yếu qua Internet và qua các tạp chí ô tô.
+Vì vậy, nhóm làm đề tài mạnh dạn lựa chọn đề tài “Thiết kế, chế tạo mô hình hệ thống đèn thông minh” sau khi xét đến tính khả thi của đề tài, với mục đích thiết kế mô hình phục vụ việc giảng dạy và thực tập cho sinh viên khoa Cơ Khí Động Lực trường ĐH Sư phạm Kỹ thuật TP.HCM.
+II. Giới hạn phạm vi nghiên cứu:
+Khái niệm chiếu sáng chủ động trên xe hiện nay rất rộng và vẫn còn tiếp tục được các nhà nghiên cứu cải tiến và phát triển. Trong phạm vi nghiên cứu của đề tài vì giới hạn về thời gian, kinh phí và khả năng nên đề tài tập trung thiết kế hệ thống chiếu sáng chủ động theo góc cua đang dần trở nên phổ biến và được trang bị trên các xe hạng sang ngày nay.
+Ngoài ra trên mô hình còn được thiết kế thêm các hệ thống tự động bật đèn đầu khi trời tối và hệ thống tự động chuyển pha – cốt, hệ thống này tự nhận biết có xe đi ngược chiều và tự động chuyển chế độ đèn đầu về cốt.
+III. Mục đích nghiên cứu:
+Từ nhiệm vụ chính của đề tài đặt ra là nghiên cứu thiết kế - chế tạo mô hình hệ thống chiếu sáng đèn thông minh, nội dung nghiên cứu của đề tài được thực hiện với các mục đích sau:
+Thực hiện việc nghiên cứu tổng quan về hệ thống chiếu sáng – tín hiệu trên xe, nghiên cứu từ thực tế của hệ thống chiếu sáng chủ động trên xe. Tìm ra phương án thiết kế khả thi để chế tạo mô hình hệ thống chiếu sáng thông minh và thiết lập các bước thiết kế một cách khoa học. Thực hiện việc thiết kế, chế tạo mô hình hệ thống chiếu sáng thông minh theo phương án thiết kế đã chọn. Với mục đích thiết kế mô hình phục vụ cho việc giảng dạy, nghiên cứu nên mô hình ngoài việc phải thể hiện được tính thực tế của hệ thống chiếu sáng thông minh còn phải có tính sư phạm và tính thẩm mỹ. Biên soạn đề tài lý thuyết trình bày một cách có hệ thống, khoa học về cơ sở lý thuyết, nguyên tắc điều khiển, cấu tạo, và hoạt động của mô hình hệ thống chiếu sáng đèn thông minh. Ngoài ra nội dung đề tài còn hệ thống lại quá trình phát triển của đèn xe, tổng quan về hệ thống chiếu sáng - tín hiệu.
+IV. Phương pháp nghiên cứu:
+Với mục tiêu thiết kế chế tạo mô hình hệ thống chiếu sáng đáp ứng góc bẻ lái và điều khiển tự động đèn chiếu sáng để phục vụ công tác giảng dạy nên phương pháp nghiên cứu chính là phương pháp thực nghiệm, kết hợp với nghiên cứu tài liệu và tham khảo các hệ thống chiếu sáng chủ động đã được áp dụng trong thực tế, kết hợp với phương pháp thực nghiệm, chọn ra phương án khả thi nhất để có thể hoàn thành sản phẩm đáp ứng được mục tiêu đề ra ban đầu và phù hợp với nhiệm vụ nghiên cứu của đề tài.
+V. Kết cấu thuyết minh Đồ án Tốt nghiệp:
+Nội dung biên soạn gồm các phần chính như sau:
+Phần A: Dẫn Nhập:
+Lý do chọn đề tài. Giới hạn phạm vi nghiên cứu. Mục đích nghiên cứu. Phương pháp nghiên cứu
+Phần B: Nội Dung Đề Tài:
+Chương I: Lịch sử phát triển đèn xe.
+Chương II: Tổng quan hệ thống Chiếu sáng – Tín hiệu.
+Chương III: Giới Thiệu hệ thống chiếu sáng chủ động trên xe và nguyên lý điều khiển.
+Chương IV: Thiết kế - Chế tạo mô hình đèn thông minh.
+Phần C: Kết luận – Đề nghị
+Phụ lục
+Tài liệu tham khảo
+....................................
+PHẦN B: NỘI DUNG ĐỀ TÀI
+CHƯƠNG 1: LỊCH SỬ PHÁT TRIỂN ĐÈN CHIẾU SÁNG TRÊN Ô TÔ
+KHÁI QUÁT:
+Theo các số liệu thống kê ngày nay, mặc dù công nghệ chiếu sáng trên xe hơi đã phát triển rất nhiều, và hầu hết các tuyến đường đều đã được trang bị đèn đường chiếu sáng, tăng độ an toàn cho xe lưu thông vào ban đêm nhưng tỉ lệ số vụ tai nạn xe vào ban đêm lên đến 40 % trong khi mật độ xe lưu thông vào ban đêm chỉ bằng 1/5 mật độ xe lưu thông vào ban ngày, chính vì những đòi hỏi phải tăng tính an toàn cho người điều khiển xe vào ban đêm mà công nghệ chiếu sáng trên xe đã rất được quan tâm và chú trọng nghiên cứu, phát triển.
+Ai cũng thấy được tầm quan trọng của đèn chiếu sáng trên xe hơi khi vận hành trong bóng tối. Ra đời đồng thời với xe hơi, đèn pha đã trải qua 120 năm lịch sử từ những chiếc khổng lồ cổ lỗ tới Bi-Xenon hay LED ngày nay.
+Bắt đầu từ chiếc đèn thuở sơ khai có cấu tạo khổng lồ đến những chiếc Bilux (hai bóng) hình parabol của thập niên 1950-1960, đèn pha đã cải thiện đến 85% hiệu quả chiếu sáng. Sau đó là sự xuất hiện của đèn cốt (low-beam) chiếu sáng trong khoảng 100 m và đèn Bi-Xenon với khoảng cách quan sát an toàn 180 m hiện nay. Lịch sử đèn pha bắt đầu cùng thời với xe hơi khi Gottlieb Daimler và Karl Benz giới thiệu chiếc xe hơi đầu tiên năm 1886. Qua từng giai đoạn, do yêu cầu đòi hỏi khác nhau của thực tế khi lái xe vào ban đêm, trong thời tiết xấu, các đèn pha liên tục được cải tiến và phát triển với nhiều loại khác nhau.
+
+ĐÈN XE TRƯỚC THỜI KỲ SỬ DỤNG ĐÈN ĐIỆN:
+Chiếc xe hơi đầu tiên được ra đời vào năm 1886, cùng thời đó thì Thomas Edinson cũng chỉ mới phát minh ra bóng đèn sợi đốt, tuy nhiên bóng đèn sợi đốt lúc đó không được sử dụng để chiếu sáng trên xe hơi vì nguồn điện để thắp sáng bóng đèn là Accu thì lại không đáp ứng được về dung lượng trong khi máy phát điện một chiều còn quá cồng kềnh và chưa được ứng dụng trên xe hơi. Vì vậy vào những năm cuối thế kỷ 19 người ta muốn lái xe ra đường vào ban đêm thì phải mang theo những chiếc đèn lồng, đèn măng sông, … là những chiếc đèn được sử dụng để thắp sáng trong nhà. Tuy nhiên những chiếc đèn này với ánh sáng leo lét không thể đáp ứng về chiếu sáng cho xe. Vì vậy những nhà sản xuất xe hơi và những nhà khoa học đã bắt tay nghiên cứu các loại đèn có khả năng chiếu xa và vùng chiếu rộng để lắp đặt trên xe.
+Ban đầu người ta đã nghĩ ra cách hướng chùm ánh sáng về phía trước mặt đường bằng cách sử dụng các gương cầu mà ngày nay phát triển thành chóa đèn, tạo ra những chùm ánh sáng song song, vì vậy cải thiện đáng kể khả năng chiếu xa.
+
+Ngoài các loại đèn nến thông thường, tài xế còn sử dụng đèn xăng và acetylene để chiếu sáng con đường phía trước được xa hơn. Đèn pha sử dụng acetylene được biết đến nhiều hơn so với các các đèn dùng khí carbua (đất đèn) bởi chúng ít tốn kém hơn. Với đèn sử dụng khí carbua, người ta phải đốt 35 lít gas để thắp sáng đèn trong một giờ. Các nhà sản xuất thường lắp một bình chứa khí gas bên ngoài xe để mọi người không phải ngửi mùi khó chịu của carbua.
+Ngay từ những năm đầu tiên của lịch sử đèn pha, một vấn đề luôn ám ảnh những nhà chế tạo xe hơi đến tận ngày nay, đó là khi họ cố gắng tạo loại đèn pha có khả năng chiếu sáng càng xa càng tốt thì nó có thể gây lóa mắt cho tài xế đi trên xe ngược chiều. Để tránh hiện tượng này, năm 1908 các nhà thiết kế đã đưa ra ý tưởng hạ thấp ngọn lửa acetylene ra khỏi tiêu điểm ống kính mỗi khi gặp xe ngược chiều bằng cách sử dụng sợi dây điều khiển. Mặc dù cách làm này được ứng dụng nhanh chóng nhưng tương lai cho đèn pha acetylene không còn. Xe hơi ngày một nhanh hơn khiến đèn gas trở nên lỗi thời.
+Hình 1.1: Đèn carbua gắn trên xe đạp
+ĐÈN SỢI ĐỐT ĐƯỢC SỬ DỤNG VÀ PHỔ BIẾN TRÊN XE HƠI: (thời kỳ 1910 – 1960)
+Với sự phát triển của bóng đèn sợi tóc và sự ra đời các loại máy phát điện gọn nhẹ có thể nắp đặt trên xe hơi thì vào năm 1910 các loại bóng đèn sợi tóc đầu tiên được sử dụng để chiếu sáng trên xe hơi.
+Năm 1913, công ty điện Bosch, Đức, đã có cách tiếp cận hợp lý đối với vấn đề này và đưa ra sản phẩm "Bosch Light". Đây là hệ thống tích hợp đèn pha, máy phát điện một chiều và bộ điều chỉnh để tránh gây phiền phức cho khách hàng nếu mua các phần tử rời rạc. Tuy nhiên, vẫn xuất hiện những tranh cãi xung quanh đèn pha sử dụng điện hiện đại và các đèn pha thế hệ cũ sử dụng gas. Một giải pháp mới là kết hợp đèn pha chạy bằng nhiên liệu với đèn pha điện. Các loại đèn pha này cùng tồn tại cho đến sau chiến tranh thế giới lần thứ nhất. Năm 1920, điện chiếm ưu thế không chỉ trong đèn pha mà còn trong cả công nghệ chế tạo xe hơi.
+Đèn cốt (low - beam) ra đời cũng trong thời kỳ này:
+Lái xe trong đêm vẫn bị ảnh hưởng bởi vấn đề rất cũ là gây chói mắt của những chiếc xe đi ngược chiều. Các kỹ sư đã cố gắng rất nhiều nhằm giải quyết vấn đề này bằng cách sử dụng thiết bị chống lóa mắt và tìm ra phương pháp lắp đặt đèn pha. Hai đèn chiếu riêng biệt với hai chùm ánh sáng mang lại hiệu quả cao hơn (pha và cốt).
+Bóng đèn bilux - giải pháp tất cả trong một:
+Năm 1924, chuyên gia về đèn Osram đưa ra giải pháp kỹ thuật mới nhằm giảm chói mắt cho xe đi ngược chiều là dùng bóng đèn có hai sợi đốt, kết hợp cả chùm pha và cốt trên cùng một gương phản xạ. Thay vì phải dùng 2 nguồn sáng với hai chóa đèn riêng biệt cho 2 chế độ chiếu xa và chiếu gần.
+Đèn cốt không đối xứng - sáng hơn phía bên phải:
+Năm 1957, đèn cốt không đối xứng xuất hiện. Loại đèn này có cường độ sáng cao hơn phía bên tay phải, nơi hay có người đi bộ và xe đạp mà lái xe thường rất khó phát hiện trong đêm. Và được chính quyền Đức chính thức công nhận việc sử dụng đèn cốt không đối xứng trên xe ôtô.
+ĐÈN HALOGEN RA ĐỜI VÀ ĐƯỢC SỬ DỤNG PHỔ BIẾN TRÊN XE HƠI (thời kỳ 1960 – 1990):
+Hình 1.2: Đèn Hallogen
+Chỉ một vài năm sau, ngành công nghiệp ôtô chứng kiến sự xâm nhập và chiếm ưu thế của đèn sử dụng khí halogen (gồm các khí Flo, Clo). Một trong những ưu điểm lớn nhất của công nghệ này là hiệu quả chiếu sáng và tuổi thọ làm việc cao. Trong khi đó, đối với các đèn sợi đốt thông thường, kim loại bốc hơi từ các sợi đốt tập trung trên bề mặt kính làm xám đen. Khí Halogen có tác dụng làm hạn chế sự bốc hơi của kim loại từ sợi đốt làm cho bóng đèn trở nên sáng. Ngoài ra nó cũng giúp đốt nóng sợi đốt một cách mạnh mẽ và cho nguồn ánh sáng tốt hơn.
+Đèn pha chiếu ánh sáng từ các thấu kính:
+Công nghệ chiếu sáng tiếp tục được phát triển xa hơn bằng giải pháp thay đổi hình dạng của đèn pha và gương phản xạ. Đầu những năm 1960, các đèn pha hình chữ nhật bắt đầu xuất hiện trên đường phố. Năm 1983, đèn pha đánh dấu sự phát triển mang tính quyết định nhờ cách thức chiếu ánh sáng lên trên mặt đường theo nguyên lý của các đèn slide. Sự khác nhau mang tính quyết định nằm ở gương phản xạ. Nó không phải là một gương parabol mà là gương ellipsoid với ba trục chuyển động nên tạo ra nhiều ánh sáng hơn.
+Đèn pha chiếu tạo ra một chùm sáng dạng nón với một điểm hội tụ xác định rất gần với bề mặt phản xạ. Các thấu kính thông thường sẽ được thay thế bằng các thấu kính hội tụ với một vùng chỉ vài cm2 tập trung chùm sáng.
+Các nhà thiết kế xe hơi rất ngạc nhiên với công nghệ đèn pha mới. Ngay lập tức họ thiết kế các đèn pha cực kỳ gọn nhẹ và cực mỏng với các kính hội tụ đặt nghiêng. Các đèn pha dùng phương pháp chiếu này mang đến nhiều ưu điểm như sự phân bố ánh sáng, giảm một cách đáng kể sự lóa do sương mù, mưa và tuyết.
+ĐÈN XENON RA ĐỜI VÀ ĐƯỢC SỬ DỤNG PHỔ BIẾN TRÊN XE HƠI (thời kỳ 1990 – nay):
+Hình 1.3: Bộ đèn xenon và bộ tăng áp
+Năm 1991 đèn pha Xenon ra đời. Nguồn sáng của đèn này gồm khí Xenon và một lượng nhỏ muối kim loại. Bằng cách sử dụng bộ tăng áp (Ballast) tạo ra những xung ngắn với điện áp lên đến 28.000 Volt, các quầng plasma sẽ xuất hiện giữa các cực của đèn. Đèn Xenon được sử dụng từ năm 1995 và bắt đầu thay thế các bóng đèn sợi đốt thông thường. Ưu điển lớn nhất của Xenon là chúng chỉ tiêu thụ 35 W nhưng lại có cường độ ánh sáng gấp 2 lần so với những chiếc đèn halogen công suất 55W.
+Đèn BI - Xenon ra đời:
+Hình 1.4: Công nghệ chiếu sáng Bi -Xenon
+Khi đèn Xenon ra đời người ta lại phải sử dụng bộ đèn chiếu có 2 choá, một choá cho đèn pha và một choá cho đèn cốt, vì Xenon chỉ có một tim.
+Vào năm 1998 bóng đèn Xenon 2 chế độ Pha – cốt xuất hiện, cũng tương tự như bóng đèn 2 tim, đèn Xenon 2 chế độ pha cốt bố trí 2 bóng đèn Xenon sát nhau nhưng 2 tim đèn đặt được bố trí lệch nhau, nên ánh sáng phát ra từ các tim đèn này qua phản xạ của gương cầu cho những luồng sáng có góc chiếu khác nhau.
+Một kiểu Xenon 2 chế độ Pha – Cốt khác là sử dụng một bóng đèn Xenon, nhưng vị trí tim đèn của bóng đèn Xenon có thể thay đổi dịch chuyển được, dịch ra ở vị trí ngay tiêu cự cho chế độ pha, và thụt vào ở vị trí sau tiêu cự cho chế độ cốt, vì vậy nó được gọi thông dụng là đèn Xenon thụt thò.
+Dưới đây là hình minh hoạ của một loại xenon “thụt thò” như vậy
+Hình 1.5: Vị trí tim đèn Xenon thay đổi ở các chế độ pha – cốt khác nhau
+Sự ra đời của đèn Xenon, Bi - Xenon đánh dấu một bước ngoặt mới của lịch sử phát triển đèn xe, gắn với sự ra đời của đèn Xenon, thời kì này các nhà sản xuất đưa ra nhiều phát minh để tăng tính tiện ích, an toàn và hiệu quả chiếu sáng của đèn xe.
+Hình 1.6: Bộ đèn Bi – Xenon của xe Audi Avant
+
+Công nghệ đèn pha với tiêu điểm biến đổi:
+Một trong những điểm mới trong công nghệ xe hơi xuất hiện năm 1995 với cặp đèn pha đôi. Đèn pha đôi được thiết kế riêng rẽ hai chức năng pha và cốt cho phép các gương phản xạ có thể định dạng một cách tối ưu nhất theo từng nhiệm vụ cụ thể của chúng.
+Máy tính giúp các gương có thể định dạng với trường chiếu sáng lớn nhất và sự phân bố ánh sáng tối ưu. Máy tính chia bề mặt của gương phản xạ thành hàng nghìn phần tử gương nhỏ xíu, gương sẽ chuyển động xung quanh và định hình lại cho đến khi nào có được một vị trí tối ưu nhất. Điều này tạo ra nguồn sáng tốt hơn và chiếu sáng xa hơn.
+ĐÈN PHA CÔNG NGHỆ ĐI-ỐT PHÁT QUANG LED
+Trong những năm gần đây công nghệ đèn pha ôtô ra đời loại đèn pha sử dụng công nghệ đi-ốt phát quang LED.
+Hình 1.7: Đèn pha sử dụng LED
+Tuổi thọ lên tới 100 nghìn giờ, có thể sử dụng với nguồn điện công suất nhỏ, hoạt động tốt trong mọi điều kiện thời tiết, tiết kiệm điện năng là những ưu điểm của đèn LED.
+Đèn LED an toàn hơn khi sử dụng do có điện thế thấp (đèn LED chỉ 3 volt), hiệu quả tiết kiệm năng lượng cao hơn theo tính toán cùng một thời gian sử dụng mức tiêu thụ điện ít hơn gần 10 lần so với đèn thường, thân thiện hơn đối với môi trường trong quá trình phát sáng lượng nhiệt tỏa ra rất thấp.
+Đèn LED (Light emitting diodes - đèn đi-ốt phát quang) đang trở nên phổ biến dưới vai trò đèn pha hoặc đèn hậu.
+Hình 1.8: Đèn pha (trái) và đèn hậu (phải) dạng mành của Hella tại Frankfurt
+Ưu điểm của nó là khối lượng nhẹ, tuổi thọ cao, cường độ sáng lớn và rất thời trang. Ánh sáng của LED khá lạnh (mang ít nhiệt) nên những chiếc xe thiết kế dựa vào LED thường mang dáng vẻ trừu tượng, viễn tưởng và huyền bí.
+● Đèn pha thông minh sử dụng công nghệ công nghệ Đi-ốt phát quang
+Hệ thống chiếu sáng chủ động AFS (Adaptive Front Lighting System), có khả năng điều khiển chùm sáng đèn pha theo góc lái, đã được biết tới với công nghệ đèn thông minh chiếu sáng chủ động trên đèn pha Bi - Xenon tự xoay. Tuy nhiên, hầu hết các hệ thống AFS hiện thời sử dụng một nguồn sáng nên khi vào cua, phần ngược với hướng rẽ không được chiếu sáng và đó là một trong những nhược điểm quan trọng nhất.
+Hệ thống AFS mới với công nghệ đèn Led nhờ sự nhỏ gọn của những bóng đèn Led dễ dàng bố trí đã tích hợp hai nguồn sáng độc lập: Một bóng đèn halogen công suất cao có chức năng sinh chùm sáng chính giống như trên các dòng xe thông dụng và đèn này không thay đổi theo góc cua. Nguồn sáng thứ hai là hàng đèn đi-ốt phát quang LED, chịu trách nhiệm chiếu sáng tức thời, nghĩa là chỉ bật khi xe chuẩn bị vào cua. Dàn đèn LED hoạt động theo nguyên lý của công nghệ AFS và hướng các chùm sáng đều nhau tới bề mặt đường.
+Hình 1.9: Công nghệ đèn LED thông minh trên chiếc Volkswagen
+........................
+CHƯƠNG 2: TỔNG QUAN VỀ HỆ THỐNG CHIẾU SÁNG – TÍN HIỆU TRÊN XE
+KHÁI QUÁT VỀ HỆ THỐNG ĐÈN CHIẾU SÁNG VÀ HỆ THỐNG ĐÈN TÍN HIỆU TRÊN XE
+Phân loại các loại đèn sử dụng trên xe gồm có các loại đèn chiếu sáng và đèn tín hiệu, thông báo.
+Hệ thống đèn chiếu sáng tín hiệu bao gồm các đèn xi nhan sử dụng khi báo rẽ hoặc báo nguy, đèn kích thước để báo kích thước xe, đèn phanh báo khi đạp phanh, … Hệ thống đèn chiếu sáng: Bao gồm các đèn đầu gồm đèn chiếu gần và đèn chiếu xa được sử dụng để chiếu sáng vào ban đêm đáp ứng được khả năng quan sát cho người lái xe. Các yêu cầu về chiếu sáng của đèn đầu như: Cường độ chiếu sáng, vùng chiếu sáng, góc chiếu sáng, giới hạn chiếu sáng sẽ được nói rõ ở phần sau. Ngoài ra chế độ flash của đèn đầu được dùng như đèn báo tín hiệu cho người lái xe ngược chiều. Bên cạnh đó còn có đèn sương mù để chiếu sáng khi thời tiết có nhiều sương mù, …
+Hệ thống chiếu sáng và tín hiệu có các bộ phận sau đây:
+Đèn đầu, đèn sương mù phía trước Cụm đèn phía sau, đèn sương mù phía sau Công tắc điều khiển đèn và độ sáng: Công tắc đèn xi nhan, công tắc đèn sương mù phía trước và phía sau Đèn xi nhan và đèn báo nguy Công tắc đèn báo nguy hiểm Bộ nhấp nháy đèn xi nhan Cảm biến báo hư hỏng đèn Relay tổ hợp Cảm biến điều khiển đèn tự động Công tắc điều khiển góc chiếu sáng đèn đầu Bộ chấp hành điều khiển góc chiếu sáng đèn đầu Đèn trong xe Công tắc cửa Đèn chiếu sáng khoá điện.
+TỔNG QUAN HỆ THỐNG CHIẾU SÁNG Hệ thống đèn đầu:
+Hệ thống đèn đầu là hệ thống đèn chiếu sáng cơ bản, là hệ thống quan trọng nhất trong các hệ thống đèn trên xe, với các nhiệm vụ đảm bảo điều kiện lái xe cho người điều khiển vào ban đêm, đảm bảo an toàn giao thông. Hệ thống đèn đầu phải có những thông số kỹ thuật theo những tiêu chuẩn nhất định, đảm bảo cường độ sáng lớn nhưng không làm chóa mắt người đi ngược chiều, công suất chiếu sáng khi chiếu gần là 35 – 40W, chiếu xa là từ 45 – 70W, ở chế độ chiếu gần vùng chiếu sáng là từ 50 – 75m, chiếu xa từ 180 – 250m.
+2.2.1.1 Tổng quan các loại bóng đèn đầu:
+Bóng đèn dây tóc:
+Hình 2.2: Bóng đèn loại dây tóc
+Cấu tạo bóng đèn dây tóc gồm vỏ bóng đèn làm bằng thủy tinh, bên trong có chứa dây điện trở volfram. Dây volfram khi được đặt vào một mức điện áp nhất định và được nung nóng lên đến nhiệt độ 23000C sẽ sinh ra luồng ánh sáng trắng. Ở nhiệt độ thấp hơn ánh sáng sinh ra sẽ yếu hơn, và ngược lại nhưng nếu cung cấp điện áp đặt vào hai đầu dây volfram lớn quá điện áp định mức, nhiệt độ điện trở volfram quá lớn làm cho dây volfram bốc hơi nhanh gây hiện tượng đen bóng đèn và đốt cháy dây tóc, dây tóc bị đứt. Trong bóng đèn người ta hút hết không khí ra để tạo môi trường chân không hạn chế hiện tượng oxy hóa dây điện trở volfram làm dây volfram dễ bị đốt cháy.
+Để dây tóc bóng đèn đầu có thể phát sáng ở nhiệt độ cao hơn, có thể đặt vào bóng đèn một điện áp cao hơn, người ta bơm vào bóng đèn khí trơ Argon với áp suất thấp. Với cách này cường độ chiếu sáng của bóng đèn đầu sẽ tăng thêm được khoảng 40%.
+Bóng đèn halogen:
+Hình 2.3: Bóng đèn halogen
+Với bóng đèn dây tóc trong quá trình hoạt động để sinh ra ánh sáng thì dây điện trở volfram phải được nung nóng lên đến 23000C điều này làm dây tóc bay hơi và bị đốt cháy. Sự bay hơi của dây tóc làm vỏ thủy tinh bị đen làm giảm cường độ chiếu sáng. Dây điện trở bị đốt cháy làm giảm tuổi thọ của bóng đèn.
+Với sự ra đời của bóng đèn halogen sẽ khắc phục được hiện tượng bay hơi của dây volfram làm đen bóng thủy tinh và nâng cao tuổi thọ nhờ dây Volfram không bị bay hơi. Đèn halogen chứa khí halogen như iode hoặc brôm, các chất khí này là chất xúc tác cho quá trình thăng hoa ở dây volfram; khí halogen kết với volfram bay hơi ở dạng khí thành iodur volfram, hỗn hợp khí này không bám vào thủy tinh như đèn dây tóc bình thường khi bị nung nóng đến nhiệt độ bay hơi mà sự thăng hoa sẽ mang hỗn hợp iodur volfram trở về vùng khí nhiệt độ cao xung quanh tim đèn (ở nhiệt độ cao trên 14500C) lúc đó nó sẽ tách lại thành 2 chất: Volfram bám trở lại tim đèn và các phần tử khí halogen được giải phóng trở về dạng khí, tiếp tục khi nhiệt độ dây volfram lại được nung nóng đến nhiệt độ bay hơi nó sẽ tiếp tục kết hợp với halogen thăng hoa và sau đó volfram lại trở lại tim đèn, quá trình này lặp lại liên tục. Điều này không chỉ ngăn chặn sự đổi màu bóng đèn mà còn giữ cho tim đèn luôn hoạt động ở điều kiện tốt trong một thời gian dài.
+Vỏ bóng đèn halogen được làm từ thạch anh nhờ vậy nó có thể chịu được nhiệt độ cao và áp suất rất cao từ 5 – 7 bar, nhiệt độ vỏ bóng đèn halogen phải hoạt động được ở nhiệt độ cao hơn 2500C. Ở nhiệt độ này khí halogen mới bốc hơi. Sử dụng đèn halogen có cường độ sáng, tuổi thọ cao hơn bóng đèn dây tóc thường và dây tóc bóng đèn halogen có thể được chế tạo có đường kính nhỏ hơn so với các bóng đèn dây tóc vì vậy có thể điều chỉnh tiêu cự bóng đèn dễ dàng chính xác hơn.
+Đèn Xenon:
+Hình 2.4: Bóng đèn Xenon
+Nguyên lý hoạt động:
+Nguyên lý hoạt động của đèn Xenon giống như hiện tượng sét phóng điện xảy ra trong tự nhiên khi trời mưa. Những tia sét phóng điện giữa những đám mây tích điện và bề mặt trái đất sinh ra những luồng ánh sáng cường độ cao trong không trung, đây là ý tưởng manh nha cho những nhà chế tạo nảy ra ý tưởng sản xuất ra đèn Xenon có thể sinh ra ánh sáng cường độ cao thay thế cho những thế hệ đèn dây tóc và halogen ngày càng trở nên già cỗi.
+Năm 1992, nhà sản xuất bóng đèn xe hơi hàng đầu thế giới Hella giới thiệu bóng đèn Xenon đầu tiên, sản xuất theo công nghệ phóng điện cường độ cao - High Intensity Discharge (HID). Đèn xenon lúc này chủ yếu chỉ dùng cho chế độ đèn cốt, vì bóng đèn Xenon chỉ có một chế độ không giống như đèn sợi tóc có thể có hai tim, chóa đèn dùng cho đèn xenon phải có chóa đèn pha và chóa đèn cốt riêng biệt.
+Năm 1999, đèn Bi – Xenon ra đời khắc phục được khuyết điểm này của đèn Xenon, nó có thể tạo ra ánh sáng pha và cốt từ một luồng ánh sáng, phát ra ánh sáng giống nhau cho pha và cốt. Tiết kiệm năng lượng hơn.
+Về cấu tạo:
+Đèn Xenon theo nguyên lý phóng điện cường độ cao giữa hai bản cực để sinh ra luồng sáng vì vậy không có dây điện trở volfram như đèn sợi đốt và đèn halogen, thay vào đó là hai bản điện cực đặt trong ống huỳnh quang, ống huỳnh quang này bên trong có chứa khí Xenon hoàn toàn tinh khiết, thủy ngân và các muối kim loại halogen. Khi đóng nguồn điện đặt vào hai đầu của hai điện cực này một điện áp lớn hơn điện áp đánh thủng (lớn hơn 25000 V) xuất hiện sẽ xảy ra hiện tượng phóng điện giữa các bản cực do các hạt electron phóng ra va đập với các nguyên tử kim loại của bản đối diện giải phóng năng lượng tạo ra ánh sáng. Sự phóng điện cũng kích thích các phân tử khí trơ Xenon lên mức năng lượng cao, sau khi bị kích thích các phân tử khí Xenon sẽ giải phóng năng lượng để trở về trạng thái bình thường, bức xạ ra ánh sáng theo định luật bức xạ điện từ. Màu của ánh sáng phát ra (hay bước sóng của bức xạ) phụ thuộc vào mức độ chênh lệch năng lượng của electron và vào tính chất hóa học của muối kim loại được dùng trong bầu khí Xenon. Vỏ đèn Xenon được làm từ thủy tinh thạch anh có thể chịu được nhiệt độ và áp suất rất cao. Do sự phóng điện sinh ra luồng sáng chỉ xảy ra giữa các bản cực đèn Xenon khi đặt vào nó một điện áo cao trên 25000 V nên để có thể tạo ra được điện thế cao như vậy, hệ thống cần có một bộ khởi động (ignitor). Ngoài ra, để duy trì tia hồ quang, một chấn lưu (ballast) sẽ cung cấp điện áp khoảng 85 V trong suốt quá trình đèn hoạt động, đây vừa là bộ xử lý của đèn Xenon vừa làm nhiệm vụ tăng áp cho bóng đèn.
+Hình 2.5: Sơ đồ cấu tạo của đèn Xenon
+Ánh sáng của đèn Xenon phát ra:
+Tùy thuộc vào tính chất hóa học của loại muối kim loại chứa bên trong mà ánh sáng của đèn Xenon phát ra cũng khác nhau. Độ Kelvin và Lumens là 2 đại lượng đặc trưng cho màu sắc (độ trắng) và độ sáng của đèn sẽ phát ra.
+Hình 2.6: Dãy màu mà đèn Xenon phát ra
+Ở 4300 K đèn tạo ra khoảng 3100 Lm, nó tạo ra lượng ánh sáng nhiều hơn gấp 3 lần của loại đèn Halogen và tạo ra nhiệt độ màu sáng nhất, ánh sáng có màu trắng hoàn toàn và sẽ chuyển sang hơi vàng nhạt khi phản xạ đồng nhất trên đường. Loại đèn này được dùng ở trên các loại xe sử dụng nhiều về đêm và đi đường đồi núi nhằm tối ưu tầm nhìn. Ở 6000 K đèn tạo ra khoảng 2900 Lm, nó tạo ra lượng ánh sáng nhiều hơn gấp 3 lần của loại đèn Halogen và mỏng hơn so với ở 4300 K. Mặc dù phát ra ánh sáng ít hơn, nhưng phát ra ánh sáng trắng hơn với màu xanh nhạt. Ở 8000 K đèn tạo ra khoảng 2500 Lm, nó tạo ra lượng ánh sáng nhiều hơn gấp 3 lần của loại đèn Halogen và mỏng hơn và phát ra ánh sáng ít hơn đồng thời xanh hơn so với ở 6000 K. Đây là một trong những màu được lựa chọn sử dụng ở trên xe. Ở 10000 K đèn tạo ra khoảng 2300 Lm, nó tạo ra lượng ánh sáng nhiều hơn gấp 2 lần của loại đèn Halogen. Ở 10000 K phát ra dãy ánh sáng xanh thẩm đến tím sau đó chuyển sang xanh đậm hơn so với 8000 K. Ở 12000 K đèn tạo ra khoảng 2000 Lm, nó tạo ra lượng ánh sáng nhiều hơn gấp 2 lần của loại đèn Halogen. Đây là nhiệt độ màu có màu xanh thẩm tím và màu đậm hơn so với 10000 K. Sản phẩm này được được khách hàng sử dụng vì phát ra ánh sáng tối ưu và lạ mắt nhất.
+Các loại chân đế bóng đèn Xenon:
+Chân đế tiêu chuẩn của loại đèn này có dạng tròn là D2S, D2R hoặc dạng chân đế vuông là D1S, D1R. Trong đó:
+D2S: Là loại bóng dùng cho các chóa đèn có màng chắn lóa (ký tự S lấy từ chữ shield - tấm chắn) và có thấu kính giúp gom ánh sáng không làm chói xe lưu thông ngược chiều.
+Hình 2.7: Cấu tạo chóa và bóng đèn D2S
+D2R: Là loại bóng có sẵn màng chắn dùng cho các chóa đèn chỉ có mặt phản xạ (ký tự R lấy từ chữ reflector - vật phản xạ). Có 1 lớp màu đen, để ngăn ánh sáng trực tiếp làm chói mắt xe ngược chiều. ....................
+...............................
+CHƯƠNG 4: THIẾT KẾ CHẾ TẠO MÔ HÌNH CHIẾU SÁNG THÔNG MINH
+4.1 Ý TƯỞNG THIẾT KẾ:
+Ý tưởng về hệ thống chiếu sáng hiện đại:
+Đáp ứng là một mô hình với đầy đủ các chức năng của một hệ thống chiếu sáng – tín hiệu hiện đại, bao gồm:
+Chức năng chiếu sáng chế độ pha – cốt hiện đại: sử dụng đèn chiếu sáng cao áp với bộ đèn xenon cho chế độ đèn chiếu xa, đèn halogen cho chế độ đèn chiếu gần. Chức năng đèn tín hiệu: đầy đủ chế độ báo rẽ, báo phanh, kích thước…
+Ý tưởng về hệ thống chiếu sáng thông minh:
+4.1.2.1 Ý tưởng thiết kế hệ thống chiếu sáng góc cua tĩnh:
+Ý tưởng ban đầu là hệ thống góc cua tĩnh của mô hình sẽ được thiết kế với đầy đủ các chế độ hoạt động của một hệ thống chiếu sáng góc cua tĩnh đang được sản xuất và sử dụng trên thị trường, tiêu biểu là bộ đèn liếc tĩnh Hella Dyna View EVO2 của hãng Hella.
+Trên mô hình bên cạnh 2 đèn cốt sẽ được bố trí thêm 2 đèn phụ để chiếu sáng bổ sung cho đèn cốt khi xe vào cua. Hai đèn chiếu này được điều khiển bởi bộ điều khiển trung tâm, dựa theo các tín hiệu cảm biến tốc độ, cảm biến góc lái, và các tín hiệu bật đèn xi nhan đưa về. và có các chế độ hoạt động theo các tiêu chuẩn của các bộ đèn liếc tĩnh đang được sử dụng trong thực tế
+Các chế độ đó được minh hoạ dưới hình vẽ sau:
+Hình 4.1: Các chế độ hoạt động của đèn chiếu sáng góc cua tĩnh
+Hình 4.1a. đèn chiếu sáng góc cua tắt khi xe đi thẳng.
+Hình 4.1b. đèn chiếu sáng góc cua bật lên cùng đèn xi nhan.
+Hình 4.1c. đèn chiếu sáng góc cua bật lên khi đi trên cung đường cong.
+Hình 4.1d. đèn chiếu sáng góc cua bật lên khi xe đi lùi hoặc trong điều kiện sương mù.
+Nguyên lý, chức năng, và hoạt động của hệ thống đèn liếc tĩnh trong thực tế được trình bày kỹ hơn ở chương 3 của đề tài phần “Hệ thống đèn liếc tĩnh”.
+Dựa trên những tiêu chuẩn đó nhóm làm đề tài đưa ra các ý tưởng thiết kế hệ thống chiếu sáng góc cua tĩnh trên mô hình, đó là:
++ Hệ thống chiếu sáng góc cua tĩnh được thiết kế chỉ kích hoạt khi có tín hiệu đèn cốt được bật.
++ Đèn chiếu sáng góc cua chỉ được bật khi cảm biến tốc độ đưa về bộ điều khiển trung tâm cho thấy xe đang chạy với tốc độ dưới 40km/h, và cảm biến góc lái cho thấy xe đang vào cua với góc cua của xe lớn hơn 120 điều này đảm bảo cho thấy xe đang chạy tốc độ chậm để chuẩn bị vào cua , tuy nhiên đèn liếc tĩnh cũng được bật ngay lập tức nếu có tín hiệu bật xi nhan, đèn chiếu phụ khi xe vào cua bên trái sẽ sáng khi xe vào cua bên trái và ngược lại đèn bên phải sẽ sáng khi xe vào cua bên phải.
++ Mặt khác trên mô hình còn bố trí nút kích hoạt cả 2 đèn liếc tĩnh ở chế độ sương mù hoặc chạy lùi.
+Để thực hiện được các ý tưởng này, một board mạch điều khiển trung tâm được thiết kế, trong đó sử dụng vi điều khiển AVR để lập trình, xử lý các thông tin tín hiệu góc lái, tốc độ, tín hiệu đèn cốt, đèn xi nhan và điều khiển đóng ngắt các relay điều khiển đèn chiếu sáng góc cua tĩnh.
+4.1.2.2 Ý tưởng thiết kế hệ thống góc cua động:
+Trên thực tế cấu tạo của hệ thống đèn liếc động khá đa dạng, nhưng phổ biến nhất hiện nay là hệ thống đèn liếc động thay đổi góc chiếu sáng của đèn pha nhờ hiện tượng khúc xạ ánh sáng, bên trong choá đèn bố trí những tấm chắn phía trước bóng đèn, với những tấm chắn khác nhau, luồng ánh sáng đi qua tấm chắn sẽ có góc khúc xạ khác nhau, vì vậy có thể thay đổi vùng chiếu sáng theo góc đánh lái.
+Hình 4.2: Cấu tạo một bộ đèn liếc động
+Để xoay các tấm chắn, người ta sử dụng một động cơ Servo, được bộ điều khiển trung tâm điều khiển tự động qua việc xử lý các tín hiệu từ cảm biến góc đánh lái và cảm biến tốc độ. Cấu tạo của bộ đèn liếc này khá phức tạp và có giá thành không hề rẻ nên hiện tại bây giờ nó cũng chỉ mới được nắp trên các dòng xe hạng sang.
+Cấu tạo, nguyên lý và hoạt động của đèn liếc động đã được giới thiệu kỹ hơn ở chương 3.
+Nếu hệ thống chiếu sáng góc cua động của mô hình được thiết kế theo phương án này, thì phải trang bị một bộ đèn liếc động chuyên dụng được mua về với giá thị trường hiện nay khoảng 1000 $ vì khó có thể tự thết kế được bộ đèn có bố trí các tấm chắn ánh sáng bên trong choá, cũng như động cơ servo xoay choá đèn và các cơ cấu dẫn động khác. Vì vậy mô hình chọn hướng thiết kế hệ thống chiếu sáng góc cua động sao cho đạt được mục đích: “thay đổi vùng chiếu sáng của đèn cốt theo góc đánh lái vôlăng”.
+Để thay đổi được vùng chiếu sáng của đèn cốt theo góc chiếu sáng của vô lăng, đề tài chọn giải pháp thiết kế board mạch điều khiển động cơ servo xoay choá đèn cốt dựa trên các tín hiệu bật đèn cốt, góc xoay vô lăng và tín hiệu tốc độ.
+Các bước thiết kế và phương pháp thiết kế sẽ được nói rõ hơn ở mục 4.2.3.2 phần thiết kế hệ thống chiếu sáng góc cua động.
+4.1.2.3 Ý tưởng thiết kế hệ thống tự động bật đèn đầu và hệ thống tự động chuyển Pha – Cốt:
+Trên mô hình ngoài việc thiết kế các hệ thống chiếu sáng chủ động đáp ứng theo góc cua còn được trang bị thêm hệ thống bật đèn tự động và hệ thống tự động chuyển Pha – Cốt.
+Ý tưởng thiết kế hệ thống tự động bật đèn đầu:
+Hệ thống tự động bật đèn đầu ra đời nhằm mục đích tăng tính tiện ích và giảm các thao tác cho người lái xe khi điều khiển xe.
+Nguyên lý hoạt động của hệ thống khá đơn giản, với các xe có trang bị hệ thống này, cảm biến ánh sáng được đặt ngay trên nắp ca pô và đưa tín hiệu về một mạch điều khiển.
+Hình 4.3: Bố trí cảm biến ánh sáng trên xe
+Khi nhận tín hiệu từ cảm biến ánh sáng đưa tới mạch điều khiển cho thấy ánh sáng môi trường chung quanh yếu đi, không đảm bảo đủ điều kiện ánh sáng cho phép để lái xe, mạch điều khiển này sẽ đóng relay tự động mở đèn đầu.
+Hệ thống tự động mở đèn đầu trên mô hình cũng được trang bị một cảm biến ánh sáng và thiết kế một board mạch, điều khiển relay tự động mở đèn đầu như trong thực tế.
+b. Ý tưởng thiết kế hệ thống tự động chuyển pha - cốt:
+Khi đang đi trên xa lộ hoặc đường vắng chúng ta thường bật đèn đầu ở chế độ đèn pha, nhưng sử dụng đèn chiếu xa sẽ gây khó chịu, làm loá mắt, hạn chế khả năng quan sát của tài xế xe đi ngược chiều và người ta thường phải chuyển chế độ đèn pha về chế độ đèn cốt khi có xe ngược chiều để đảm bảo an toàn và cũng như thể hiện một thái độ lịch sự khi đi đường. Nhằm tăng khả năng quan sát cho người đi đối diện, tăng độ an toàn, giảm thao tác và tăng tính tiện ích cũng như giúp người điều khiển xe tập trung hơn vào việc lái xe, hệ thống chuyển đổi pha – cốt được ra đời.
+Hình 4.4: Bật chế độ đèn pha có thể gây choá mắt cho người đi ngược chiều
+Việc nhận biết có xe đi ngược chiều để thay đổi chế độ pha – cốt nhờ một cảm biến ánh sáng được đặt phía trước đầu xe, khi có xe đi ngược chiều và rọi ánh sáng vào cảm biến ánh sáng, tín hiệu điện áp từ cảm biến ánh sáng sẽ đưa về mạch điều khiển, mạch điều khiển sẽ đóng relay tự động chuyển pha – cốt.
+Trên mô hình được bố trí một cảm biến ánh sáng ở phía trước, và sử dụng một mạch điều khiển để đóng ngắt relay tự động chuyển pha – cốt. Các bước thiết kế và hoạt động của hệ thống trên mô hình sẽ được nói rõ hơn trong phần sau.
+4.2 CÁC BƯỚC THIẾT KẾ:
+4.2.1 Thiết kế mô hình cơ bản:
+..................................
+PHẦN C: KẾT LUẬN – ĐỀ NGHỊ
+KẾT LUẬN:
+Sau một thời gian nghiên cứu, tìm hiểu tài liệu, tìm hướng thiết kế khả thi, lập kế hoạch và tiến hành thiết kế, chế tạo. Cuối cùng đề tài “Thiết kế, Chế tạo mô hình hệ thống chiếu sáng đèn thông minh” đã được hoàn thành đúng thời hạn được giao.
+Cơ bản đề tài đã đạt được những kết quả sau:
+● Thiết kế, chế tạo mô hình:
+- Thiết kế chế tạo mô hình chiếu sáng – tín hiệu cơ bản: hệ thống chiếu sáng thông minh trước hết là một hệ thống chiếu sáng hiện đại, vì vậy mô hình được thiết kế với đầy đủ cơ cấu, bộ phận, chức năng của một hệ thống chiếu sáng – tín hiệu hiện đại.
+- Thiết kế hệ thống chiếu sáng chủ động theo góc lái: Trong thực tế, hệ thống chiếu sáng chủ động được chia làm hai loại: hệ thống đèn liếc tĩnh và hệ thống đèn liếc động, mỗi loại có những ưu, nhược điểm khác nhau. Trên mô hình được thiết kế với cả 2 hệ thống này hoạt động đồng thời và bổ khuyết cho nhau:
++ Hệ thống chiếu sáng đèn liếc tĩnh: có ưu điểm khi xe rẽ trái rẽ phải, nhờ góc chiếu sáng rộng, nhưng nhược điểm là kém linh hoạt, chỉ chiếu sáng cố định.
++ Hệ thống chiếu sáng đèn liếc động: có ưu điểm thay đổi góc chiếu sáng linh hoạt khi xe chạy trên các cung đường cong, nhưng nhược điểm là góc chiếu sáng thay đổi ít, chỉ 150 mỗi bên.
+Vì vậy với sự kết hợp cả hai hệ thống đèn liếc động và tĩnh, hệ thống chiếu sáng chủ động theo góc bẻ lái của mô hình có sự phối hợp nhuần nhuyễn và linh hoạt.
+Thiết kế hệ thống bật đèn tự động và hệ thống thay đổi chế độ Pha – Cốt:
++ Hệ thống tự động bật đèn đầu nhận biết ánh sáng môi trường xung quanh và tự động bật đèn đầu nếu nhận thấy không đủ điều kiện ánh sáng cho việc điều khiển xe.
++ Hệ thống chuyển đổi Pha –Cốt: Khi đi trên đường xa lộ, nếu chúng ta bật chế độ đèn pha có thể làm choá mắt người đi ngược chiều, hệ thống chuyển đổi pha – cốt nhận biết có xe đi ngược chiều và chuyển chế độ đèn đầu từ pha về cốt.
+● Biên soạn Đề tài lý thuyết:
+Đề tài lý thuyết hệ thống lại lịch sử phát triển, tổng quát nguyên lý, hoạt động của hệ thống chiếu sáng – tín hiệu trên xe. Giới thiệu hệ thống chiếu sáng chủ động theo góc lái và nguyên lý điều khiển. Trình bày ý tưởng thiết kế hệ thống chiếu sáng thông minh trên mô hình, các bước thiết kế mô hình, trình bày giải thuật điều khiển, và hoạt động của hệ thống chiếu sáng thông minh trên mô hình.
+Thuận lợi và khó khăn:
+Trong quá trình thực hiện đề tài nhóm làm đề tài đã gặp phải những khó khăn và thuận lợi sau:
+- Thuận lợi:
++ Được Khoa Cơ khí Động lực và Bộ môn Điện Tử Ô tô quan tâm và tạo điều kiện về môi trường làm việc với đầy đủ dụng cụ, máy móc cần thiết.
++ Được sự quan tâm giúp đỡ và góp ý của thầy GVHD Th.S Lê Thanh Phúc cùng các thầy Nguyễn Trọng Thức, thầy Hồ Phước Dũng, thầy Lê Quang Vũ, thầy Nguyễn Lê Duy, …và các thầy cô khác trong bộ môn Điện Tử Ô tô cũng như các bộ môn khác của Khoa Cơ khí Động lực.
++ Một thuận lợi nữa là đối tượng nghiên cứu của đề tài “Thiết kế, chế tạo mô hình hệ thống đèn thông minh” được lấy ý tưởng từ hệ thống chiếu sáng chủ động trên xe trong thực tế nên việc định hướng, tìm phương án thiết kế dễ dàng hơn nhờ tham khảo, nghiên cứu hoạt động và cấu tạo của hệ thống này trong thực tiễn cũng như các nguồn tài liệu liên quan...
+- Khó khăn: bên cạnh những thuận lợi đáng kể ở trên, đề tài cũng gặp không ít khó khăn:
++ Khó khăn trước hết là công nghệ chiếu sáng chủ động trên xe là một công nghệ mới, và khó tìm ra tài liệu trình bày rõ ràng và đủ tin cậy về cơ sở lý thuyết điều khiển, cấu tạo và hoạt động của hệ thống. Điều này làm mất nhiều thời gian để tìm tài liệu và tổ chức dịch bài, nghiên cứu.
++ Đề tài thiết kế theo hướng mô phỏng hệ thống chiếu sáng chủ động theo góc cua trong thực tế, nhưng thiết kế mô hình khác với thực tế trên xe, do các tín hiệu điều khiển của hệ thống chiếu sáng chủ động theo góc lái ngoài thực tế dựa trên những tín hiệu từ hoạt động cua vòng thực của xe, như tín hiệu lực ly tâm xuất hiện khi xe cua vòng, tốc độ xe... Để giải quyết những khó khăn này đặt ra nhiệm vụ phải tìm ra các phương án giả tín hiệu điều khiển.
++ Khó khăn về kinh phí cũng ảnh hưởng nhiều đến tiến độ thực hiện đề tài, do các giá thành của phụ tùng Ô tô rất cao vì vậy nhóm làm đề tài phải mất nhiều thời gian cho việc đi tìm các cơ cấu, bộ phận cần thiết, phù hợp và có giá thành vừa phải cho mô hình.
++ Khó khăn về thời gian thực hiện đề tài ảnh hưởng đến chất lượng của đề tài, do mất nhiều thời gian cho việc tìm kiếm, biên dịch và nghiên cứu tài liệu, tìm phương hướng thiết kế khả thi và tiêu tốn thời gian cho việc tìm mua phụ tùng cần thiết…
+Mặc dù vậy với sự cố gắng, nỗ lực của các thành viên trong nhóm làm đề tài cộng với sự giúp đỡ của thầy GVHD Lê Thanh Phúc, cùng các thầy cô khác nên đề tài đã được hoàn tất đúng thời hạn.
+ĐỀ NGHỊ:
+- Lĩnh vực Hệ thống chiếu sáng chủ động trên xe hiện không chỉ đơn thuần là chiếu sáng chủ động theo góc cua, và vẫn đang được nghiên cứu cải tiến. Trong tương lai với sự phát triển của hệ thống định vị toàn cầu, các nhà sản xuất Ô tô đang có tham vọng sẽ đưa ra một giải pháp chủ động hoàn toàn cho công nghệ chiếu sáng trên xe, vì vậy hy vọng trong điều kiện cho phép Khoa sẽ tạo điều kiện hơn nữa cho các đề tài mới nghiên cứu sâu hơn về lĩnh vực này.
+- Khoa Cơ khí Động lực và Bộ môn Điện Tử Ô tô đã luôn tạo điều kiện hết mức về nhà xưởng và các thiết bị, dụng cụ, máy móc cũng như đã rất quan tâm giúp đỡ đến các nhóm là đề tài tốt nghiệp, các nhóm nghiên cứu khoa học, các nhóm tham gia sáng tạo Robot…chúng em hi vọng trong tương lai Khoa và Bộ môn sẽ tiếp tục quan tâm cũng như tạo điều kiện và giúp đỡ hơn nữa.
+Lợi ích của đèn Xenon:
+Đầu tiên, tuổi thọ của đèn Xenon cao gấp 10 lần đèn halogen và đèn sợi đốt, do dây điện trở volfram của đèn halogen và sợi đốt rất dễ đứt do bị va đập hoặc hao mòn trong quá trình sử dụng, còn đèn Xenon chỉ đơn giản gồm hai bản cực phóng điện, được cố định bởi lớp vỏ thạch anh, chỉ có thể hư nếu bóng đèn bị vỡ. Trung bình đèn halogen chỉ có thời gian sử dụng từ 300 – 1000 giờ, còn đèn Xenon là 3000 giờ. Thứ hai là ánh sáng do đèn Xenon sinh ra là loại ánh sáng trắng xanh rất giống ánh sáng ban ngày trong khi đèn halogen chỉ sinh ra ánh sáng màu vàng, điều này có ý nghĩa giúp người điều khiển xe dễ dàng quan sát khi lái xe với hình ảnh thật hơn, rõ nét hơn. Vì vậy với công nghệ sinh ra luồng sáng cường độ cao (HID) đặc biệt có ý nghĩa tăng tính an toàn khi lái xe ban đêm. Theo các nghiên cứu để có thể phản ứng và xử lý các chướng ngại vật khi đang lái xe với tốc độ 100km/h người lái xe phải quan sát được các tín hiệu giao thông trước đó 70 m, vì vậy để đảm bảo an toàn chúng ta cần ít nhất 2,5 giây để phản xạ trước các biến cố xảy ra trên đường. Đèn Xenon với chùm ánh sáng dài, tầm quan sát rộng có thể đáp ứng được những yêu cầu này. Một ưu điểm nữa của đèn Xenon là tiết kiệm năng lượng hơn so với đèn sợi đốt do không phải tốn năng lượng để đốt nóng dây tóc nên tiêu thụ chỉ bằng 1/3 so với đèn sợi đốt, đèn halogen. Mà cường độ sáng lại cao hơn gấp 2 - 3 lần, một bóng Xenon 35 W cho độ sáng tương đương bóng halogen 100 W.
+...................................
+
+..TÀI LIỆU THAM KHẢO:
+
+[1]. Đỗ Văn Dũng, Hệ thống điện thân xe và điều khiển tự động trên Ô tô, ĐH SPKT. TPHCM, 2007
+[2]. Nguyễn Hữu Cẩn, Kết cấu và tính toán ôtô máy kéo, NXB Bộ ĐH & Trung học chuyên nghiệp, 1985.
+[3]. Châu Kim Lang, Phương pháp nghiên cứu khoa học, ĐH SPKT. TPHCM, 1995
+[4]. http://www.otosaigon.com
+[5]. http://www.narva.com.vn
+[6]. http://www.hella.com
+[7]. http://www.lighting.philips.com
+[8]. http://www.glowire.com/automotive.htm
+[9]. http://lighting.lrc.rpi.edu/

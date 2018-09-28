@@ -1,0 +1,402 @@
+LUẬN VĂN TỐT NGHIỆP ĐIỆN TỬ Mạch MẠNG CAMERA KHÔNG DÂY, thuyết minh Mạch vi MẠNG CAMERA KHÔNG DÂY, NGUYÊN LÝ MẠNG CAMERA KHÔNG DÂY
+
+NGUYÊN LÝ TRUYỀN HÌNH
+
+I.Khái Quát Về Nguyên Lý Truyền Hình:
+Hệ thống truyền hình là một tập hợp các thiết bị cần thiết để đảm bảo các quá trình phát và thu các tin tức truyền thấy. Truyền hình được dùng vào nhiều mục đích khác nhau. Tùy theo mục đích của truyền hình mà xác định chỉ tiêu kỹ thuật của hệ thống cho phù hợp. Yêu cầu chung là ảnh nhận được trên màn máy thu hình phải phản ảnh trung thực vật cần truyền đi. Nhưng chất lượng hình ảnh càng cao, thì thiết bị của hệ thống truyền hình càng phức tạp, cồng kềnh,đắt tiền. Do đó, khi thiết kế các hệ thống truyền hình phải dung hòa các chỉ tiêu về chất lượng ảnh, về kích thước, về kinh tế ..v..v.song, dù với bất kỳ hệ thống truyền hình nào, cũng phải có sơ đồ khối tổng quát như hình 1.1:
+Hình1.1- Sơ đồ khối tổng quát hệ thống truyền hình đen trắng
+
+Ảnh của vật cần truyền đi qua hệ thống quang học của máy quay (camera) hội tụ trên Catốt quang điện của bộ chuyển đổi ảnh – tín hiệu. Ở bộ chuyển đổi này, ảnh quang được chuyển đổi thành tín hiệu điện, tức là chuyển đổi năng lượng ánh sáng thành năng lượng điện, gọi tắt là bộ chuyển đổi ảnh – tín hiệu .
+Hình ảnh là tin tức cần truyền đi. Tín hiệu mang tin tức về hình ảnh, nên gọi là tín hiệu hình hay tín hiệu video. Quá trình chuyển đổi ảnh quang thành tín hiệu điện là quá trình phân tích ảnh. Dụng cụ chủ yếu để thực hiện sự chuyển đổi này là phần tử biến đổi quang điện, hay còn gọi là ống phát hình.
+Tín hiệu hình được khuếch đại, gia công rồi truyền đi theo kênh thông tin (hữu tuyến hoặc vô tuyến) sang phía thu. Ở phía thu, tín hiệu hình được khuếch đại lên đến mức cần thiết rồi đưa đến bộ chuyển đổi tín hiệu – ảnh. Bộ chuyển đổi này có tác dụng ngược lại bộ chuyển đổi ở phía phát, nó chuyển đổi tín hiệu hình nhận được thành ảnh quang (chuyển đổi năng lượng điện thành năng lượng ánh sáng). Quá trình chuyển đổi tín hiệu thành ảnh quang là quá trình tổng hợp ảnh, hay khôi phục ảnh. Dụng cụ để thực hiện sự chuyển đổi này là phần tử biến đổi điện – quang, còn gọi là ống thu hình.
+Quá trình chuyển đổi tín hiệu - ảnh phải hoàn toàn đồng bộ và đồng pha với quá trình chuyển đổi ảnh – tín hiệu , thì mới khôi phục được ảnh quang đã truyền đi. Để thực hiện được sự đồng bộ đồng pha, trong hệ thống truyền hình phải dùng một bộ tạo xung đồng bộ. Xung đồng bộ được đưa đến bộ chuyển đổi ảnh – tín hiệu để khống chế quá trình phân tích ảnh, đồng thời đưa đến bộ khuếch đại và gia công tín hiệu hình để cộng với tín hiệu rồi truyền sang phía thu, tín hiệu hình đã cộng thêm xung đồng bộ gọi là tín hiệu truyền hình. Và ở phía thu , xung đồng bộ được tách ra khỏi tín hiệu truyền hình, và dùng để khống chế quá trình tổng hợp ảnh (khôi phục ảnh ).
+II.Phương Pháp Phân Tích Và Tổng Hợp Ảnh :
+II.A/ Nguyên lý quét:
+1) Phương pháp quét liên tục:
+Thông tin mà mắt người thu nhận được từ cảnh vật xung quanh là thông tin về màu sắc trong không gian ba chiều và biến đổi theo thời gian, đó là thông tin về độ sâu của hình ảnh (tính ba chiều), về độ chói, về kích thước, hình dạng và sự biến đổi .v.v..Lượng thông tin mắt người thu nhận được là vô cùng lớn. Việc truyền thông tin về hình ảnh chỉ đảm bảo được một phần nào đó trong lượng thông tin của cảnh vật thực mà thôi. Tuy nhiên, sự cảm nhận của mắt người nhờ có các tính chất sinh lý đặc biệt nên cho phép cảm nhận một dạng hình ảnh chứa không đầy đủ thông tin như là một hình ảnh của cảnh vật thực. Và dựa trên các đặc điểm này các hệ thống truyền hình đã ra đời phục vụ cho việc truyền hình ảnh.
+Chúng ta nhìn thấy và phân biệt được mọi vật là nhờ tính chất phản xạ ánh sáng khác nhau của từng vật cũng như từng chi tiết của một vật. Khi rọi lên vật một chùm tia sáng trắng, từ mỗi phần tử (điểm) của vật đều phản xạ lại phía người quan sát. Cường độ và thành phần phổ của tia phản xạ thể hiện tính chất phản xạ của phần tử. Đó chính là tin tức thấy được về vật.
+Ở một thời điểm nào đó, người quan sát chỉ có thể nhìn thấy một phần của không gian; phần không gian đó được xác định bằng góc khối có đỉnh ở mắt người quan sát, được gọi là góc nhìn. Đối với hệ thống truyền hình thì đỉnh của góc nhìn đặt tại tâm của ống kính.
+Trong truyền hình, ảnh của các vật cần truyền đi trong không gian được chiếu lên một mặt phẳng (mặt catốt quang điện của phần tử biến đổi quang-điện) nhờ một hệ thống quang học. Như vậy, trước tiên các vật trong không gian được chuyển thành ảnh của chúng trên mặt phẳng rồi mới biến đổi thành tín hiệu hình, hay nói cách khác, ảnh truyền hình là ảnh phẳng (hai chiều).
+Nếu chia một tấm ảnh thành nhiều phần nhỏ, ví dụ chia thành các ô vuông theo kiểu bàn cờ chẳng hạn, mỗi phần nhỏ (mỗi ô vuông) gọi là một điểm ảnh. Mỗi điễm ảnh có độ chói trung bình và màu của nó. Số điểm ảnh càng lớn, tức là ảnh được chia ra càng nhỏ, thì độ chói và màu trên toàn tiết diện của mỗi điểm ảnh càng đồng nhất.
+Ngược lại, nếu dùng nhiều điểm ảnh có độ chói và màu tương ứng, có thể ghép thành ảnh.Nếu kích thước của các điểm ảnh nhỏ đến mức độ nào đó và dưới một góc nhìn nào đó, thì ta không còn phân biệt được các phần tử riêng rẻ nữa, mà có cảm giác như tấm ảnh là một khối liên tục chứ không phải được ghép bởi các điểm ảnh.
+Trong truyền hình, muốn biến đổi hình ảnh thành tín hiệu điện, cũng chia ảnh thành nhiều phần tử nhỏ, rồi biến đổi độ chói và màu các phần tử đó thành tín hiệu điện(U).Như vậy tín hiệu tín hiệu hình phải là hàm của nhiều biến số:
+U = f(L,
+Trong đó :
+L: độ chói của phân tử ảnh:
+và p’ – bước sóng và độ thuần khiết, xác định màu của phần tử ảnh:
+x và y – tọa độ xác định vị trí của phần tử ảnh;
+t – thời gian xác định thời điểm lấy ảnh
+Để truyền liên tục tin tức của mỗi phần tử; với ảnh có N phần tử cần có N kênh thông tin.Đối với các hệ thống truyền hình thông dụng, mỗi ảnh có thể được phân tích thành 50 vạn phần tử, nên thực tế không thể thực hiện việc truyền liên tục tin tức của mỗi phần tử được.Để khắc phục khó khăn đó, người ta dùng phương pháp truyền gián đoạn theo thời gian, tức là truyền kế tiếp tin tức của từng phần tử, hết phần tử này sang phần tử khác.Việc truyền gián đoạn đó được thực hiện nhờ các bộ quét.Các bộ quét làm việc theo một quy luật đã định trước và được khống chế bởi các tín hiệu đồng bộ. Do đó các tọa độ x và y đều là hàm của thời gian và đã biết trước(quy luật biến đổi của chúng đã được định trước).
+Nếu là ảnh động thì các tham số L,,p của mỗi phần tử cũng đều là hàm của thời gian (t). Nhưng để đơn giản việc khảo sát, chúng ta hãy khảo sát ảnh đen trắng, không có màu và đứng im.
+Một ảnh tĩnh đen trắng có thể diễn đạt bằng phương trình :
+l = f(x,y)
+Phương trình trên thể hiện sự phân bố độ chói của ảnh trên mặt phẳng. Nhưng đều là hàm của (t) nên độ chói cũng là hàm của thời gian t.
+L = f(t)
+Biểu thức trên biểu thị sự biến thiên mức chói từ phần tử này sang phần tử khác. Trật tự sắp xếp các phần tử theo thời gian được quy định trước. Trật tự đó phụ thuộc vào phương pháp phân tích.
+Theo hình dưới đây biểu diễn dòng điện tử bắt đầu quét từ mép trái dòng 1, sang mép phải A, và lập tức quay về phía trái theo đường nét rời và lại bắt đầu từ mép trái dòng 2 quét về mép phải B, sau đó lập tức quay về mép trái và bắt đầu dòng 3, v.v…Cứ như vậy, dòng điện tử quét từ trên xuống dưới cho đến Z. Như vậy đã kết thúc việc phân tích hoặc tổng hợp một ảnh. Sau đó tia tử điện quay nhanh về mép trái dòng 1 của ảnh thứ hai. Quá trình trên xảy ra liên tiếp với ảnh thứ 3, thứ 4, v.v… với một tốc độ lớn.
+Hình1.2 - Phương pháp quét liên tục.
+Nếu thời gian cần thiết để truyền xong một ảnh là Ta (chu kỳ quét một ảnh ) Nếu ảnh chứaNa phần tử ảnh, thì thời gian truyền một phần tử ảnh là:
+tpt =
+Như vậy, mỗi giây truyền được ảnh, = , được gọi là tần số quét ảnh
+Mỗi phần tử được truyền đi lần trong một giây và mỗi lần truyền đi cần thời gian .
+Khi khôi phục lại ảnh (tổng hợp ảnh ), các phần tử ảnh được sắp xếp lại đúng vị trí của nó. Sự sắp xếp này được thực hiện nhờ một bộ quét thứ hai làm việc đồng bộ với bộ quét thứ nhất (khi phân tích ảnh ), vì chúng được khống chế bằng cùng một tín hiệu đồng bộ. Mỗi phần tử ảnh được khôi phục cũng bức xạ ánh sáng gián đoạn trong một giây, và mỗi lần chỉ kéo dài trong khoảng thời gian .
+Tuy nhiên, nếu số lần bức xạ trong một giây đủ lớn, thì mắt ta tưởng rằng các phần tử ảnh đó bức xạ ánh sáng liên tục (do quán tính của mắt ) nên ta nhận được ánh sáng bình thường.
+2) Phương pháp quét xen kẽ :
+Do sự lưu ảnh của mắt. Nếu ta truyền 24 ảnh/1 giây, khi tái tạo lại một ảnh người xem có cảm giác một hình ảnh chuyển động liên tục. Tuy nhiên với 24 ảnh/1 giây, ánh sáng vẫn bị chớp, gây khó chịu cho khán giả. Đối với điện ảnh, trong thời gian chiếu một ảnh người ta ngắt ánh sáng làm hai lần. Điều đó có nghĩa thay vì chiếu một ảnh liên tục trong thời gian 1/24 giây, người ta chiếu ảnh đó làm hai lần, mỗi lần 1/48 giây. Kết quả cho ta cảm giác được xem 48 ảnh/1 giây thay vì 24 ảnh/1 giây. Hình sẽ chuyển động liên tục và ánh sáng không bị chớp. Như vậy, số lượng ảnh truyền trong một giây càng lớn thì cử động trong ảnh càng thấy liên tục và ảnh tổng hợp không bị chớp nháy.
+Đối với truyền hình, để tránh hiện tượng bị rung, lắc hoặc có vết đen trôi trên màn ảnh khi bộ lọc nguồn không đảm bảo chất lượng, người ta truyền 25 ảnh/1 giây đối với những nơi sử dụng điện lưới có tần số 50 Hz và 30 ảnh/1 giây đối với những nơi có tần số điện lưới 60 Hz .
+Để loại trừ hiện tượng chớp sáng, truyền hình sử dụng phương pháp xen kẽ. Phương pháp quét xen kẽ giống như phương pháp quét liên tục ở chỗ dòmg điện tử cũng quét từ trên xuống dưới, từ trái sang phải và các dòng điện tử quét ngược (dòng và mặt ) cũng được xóa. Điểm khác cơ bản là ở đây người ta chia màn ảnh thành 2 nửa cơ ảnh (2 mành ) và thực hiện quét theo nguyên lý như hình sau :
+Hình1.3-a)Phương pháp quét xen kẽ
+Một ảnh được truyền hai lượt, lượt đầu truyền tất cả những dòng lẻ (1,3,5,…) gọi là mành lẻ; lượt hai truyền tất cả những dòng chẳn (2,4,6,…) gọi là mành chẳn; hoặc ngược lại, nếu mỗi ảnh có z dòng thì mỗi mành có z/2 dòng. Mỗi mành là một nửa ảnh, mang một nửa lượng tin tức của ảnh.
+Theo hệ thống truyền hình OIRT và CCIR mỗi giây truyền đi 50 mành, trong đó có 25 mành chẵn và 25 mành lẽ, hình thành 25 ảnh.
+Vì tần số mành bằng 50 Hz hoặc 60Hz, bằng tần số nhấp nháy tới hạn, nên khi khôi phục lại ảnh, ảnh trên màn máy không bị nhấp nháy. Tuy mỗi dòng chỉ chớp sáng có 25 lần, nhưng 2 dòng kề nhau chớp sáng 50 lần trong một giây. Vì độ rộng của mỗi dòng và khoảng cách của 2 dòng rất bé nên không phát hiện được.
+Khi quét cách dòng thì số dòng của mỗi ảnh phải là số lẽ : z = 2m +1 ; m là số nguyên bất kỳ. Mỗi mành sẽ có (m + ½) dòng.
+Trong quét xen kẽ, tần số dòng phải luôn là bội của tần số mành. Nếu ký hiệu của tần số mành. Nếu ký hiệu tần số mành là ,tần số dòng là , ta có:
+Ví dụ: Đối với hệ 625 dòng, việc chuyển đổi từ mành lẻ sang mành chẳn xảy ra tại thời điểm kết thúc nửa đầu của dòng cuối cùng thuộc mành thứ nhất. Như vậy, trong một giây 50 mành được truyền (mỗi mành có 312,5 dòng ) thay vì 25 ảnh (mỗi ảnh có 625 dòng ).
+Tần số mành do vậy bằng = 50Hz và tần số dòng = 25 x 625 = 50 x 312,5 = 15625 Hz.
+- Chu kỳ một dòng : = 64
+- Chu kỳ một mành : = 20 ms
+Truyền theo phương pháp quét xen kẽ có nhiều ưu điểm về mặt kỹ thuật kinh tế. Muốn lái dòng điện tử, người ta dùng xung quét dòng và mành có dạng răng cưa như hình sau:
+Hình 1.3-b)Dạng sóng quét của phương pháp quét xen kẽ
+II.B/ Nguyên lý chuyển đổi ảnh quang thành tín hiệu điện:
+Như phần trên đã trình bày, nguyên lý chuyển đổi ảnh quang thành tín hiệu điện dựa trên cơ sở lần lượt chuyển đổi độ chói của từng phần tử ảnh thành tín hiệu điện. Nếu là ảnh đen trắng, thì tín hiệu phải tỷ lệ với độ chói ở biểu thức sau:
+U = kL = k.f(t)
+Tức là trong đó : k – hệ số tỷ lệ.
+Để chuyển đổi độ chói thành dòng điện ( điện áp ) tương ứng, ta dùng hiệu ứng quang điện, trong đó có hiệu ứng quang điện trong và hiệu ứng quang điện ngoài.
+Bản chất của hiệu ứng quang điện trong là: đối với một số chất bán dẫn, khi được rọi sáng, thì độ dẫn điện (điện trở ) của nó thay đổi tỉ lệ với độ rọi .
+Bản chất của hiệu ứng quang điện ngoài là: đối với một số kim loại, khi được rọi sáng, trên bề mặt của nó có bức xạ điện tử. Các bức xạ điện tử này được gọi là quang điện tử. Số lượng quang điện tử tỉ lệ với độ rọi trên bề mặt kim loại. Nếu rọi sáng lên một tấm kim loại, thì quang điện tử của nó có thể bức xạ về phía rọi sáng (đối với tấm kim loại đầy ), cũng có thể bức xạ về phía không được rọi sáng (đối với màng mỏng kim loại, nửa trong suốt với ánh sáng).
+Để giải thích quá trình chuyển đổi ảnh quang thành dòng điện (điện áp) tương ứng, ta có thể dùng một màng mỏng kim loại có hiệu ứng quang điện ngoài, nửa trong suốt đối với ánh sáng (phun hơi kim loại lên một tấm thuỷ tinh chẳn hạn ), ta gọi màng đó là catốt quang điện. Khi chiếu ảnh của vật cần truyền đi lên catốt quang điện hình.(hình 1.4)
+Ở phía bên kia của catốt quang điện sẽ bức xạ quang điện tử. Mật độ quang điện tử ở mỗi điểm trên bề mặt của catốt quang điện tỷ lệ với độ rọi trên điểm đó. Như vậy, từ ảnh quang đã chuyển đổi thành ảnh điện tử. Phía sau catốt quang điện (phía không được chiếu sáng) đặt một colectơ. Catốt quang điện và colectơ đặt trong môi trường chân không. Đặt lên colectơ một điện áp dương so với catốt quang điện tạo thành điện trường. Tác dụng của điện trường này là thu hút về colectơ những quang điện tử bức xạ từ catốt quang điện .
+Hình 1.4 - Chuyển đổi ảnh quang thành dòng điện
+Để phân tích ảnh thành nhiều phần tử ảnh ta đặt một màn chắn ánh sáng chuyển động được. Màn chắn có lỗ cho ánh sáng đi qua, điện tích của lổ bằng điện tích của phần tử ảnh., Màn chắn này đặt trước catốt quang điện như hình trên, ở vị trí mặt phẳng ảnh của ống kính tức là ở vị trí ảnh quang là rõ nhất .
+Ảnh quang của vật truyền đi không được chiếu toàn bộ, mà chỉ chiếu từng phần tử lên catốt quang điện, phần tử chiếu qua lỗ của màn chắn. Khi màn chắn chuyển động, các phần tử ảnh lần lượt chiếu qua lỗ lên catốt quang điện .
+Số lượng quang điện tử bức xạ từ catốt quang điện ở mỗi thời điểm tỷ lệ với trị số quang thông của phần tử ảnh chiếu lên nó ở thời điểm đó. Dòng quang điện tử này bay đến colectơ hình thành dòng tín hiệu :
+trong đó : ith(t) – dòng điện tín hiệu tại thời điểm t, dòng điện i(t) có trị số biến thiên theo thời gian ;
+IFn – dòng quang điện tử với phần tử ảnh thứ n ;
+F – quang thông của phần tử ảnh thứ n;
+- hệ số tỷ lệ, xác định độ nhạy của catốt quang điện .
+Cũng có thể thực hiện phân tích ảnh bằng cách chiếu ảnh quang lên catốt quang điện, không dùng màn ánh sáng như trên mà dùng colectơ có một lỗ ở giữa, kích thước của lỗ bằng kích thước của một phần tử ảnh. Dùng hệ thống tiêu tụ và hệ thống làm việc tia điện tử bằng từ trường để điều khiển cho dòng quang điện tử của từng phần tử ảnh lần lượt chui qua lỗ ở giữa colectơ. Ở phía sau lỗ đặt một điện cực tín hiệu để lấy dòng điện tử này, đó là dòng tín hiệu.
+Hệ thống biến đổi ảnh quang thành tín hiệu điện như thế được gọi là hệ thống tác động tức thời, vì ở mỗi thời điểm, hệ thống này chỉ dùng trị số quang thông tức thời của phần tử ảnh đang được truyền đi ở thời điểm đó để tạo ra dòng tín hiệu; còn phần quang thông của các phần tử khác không được dùng đến. Do đó, hiệu suất sử dụng quang thông rất thấp.
+II.C/ Nguyên lý khôi phục ảnh quang:
+Phân tích ảnh và chuyển đổi ảnh quang thành tín hiệu điện ta đã chia ảnh quang thành các phần tử và chuyển đổi độ chói của từng phần tử thứ tự theo thời gian thành tín hiệu điện, thì ở đây, khôi phục ảnh quang là quá trình ngược lại, tức là phải khôi phục độ chói của từng phần tử ảnh và sắp xếp các phần tử ảnh lại đúng vị trí của nó, khi đó ta sẽ nhận được ảnh quang cần truyền đi.
+Để thực hiện điều đó, có thể dùng ống tia điện tử có màu huỳnh quang. Đặc điểm của màu huỳnh quang là, ở môi trường chân không, khi có tia điện tử đập vào nó, nó sẽ sáng lên. Cường độ sáng tỉ lệ với công suất của tia điện tử ở thời điểm nó đập tại mỗi điểm vào màn.
+Nếu dùng tín hiệu hình để điều chế tia địên tử của ống tia, sau cho ở thời điểm ứng với phần tử trắng của hình ảnh tia có công suất lớn và ứng với phần tử đen tia có công suất bé.
+Dùng hệ thống lái tia làm cho tia quét khắp màn huỳnh quang theo quy luật điểm định trước(giống như ở phía phát).Tia điện tử đã được khống chế quét liên tục lên màn huỳnh quang phải đồng bộ và đồng pha với tia điện tử trong ống phát.Nó sẽ kích thích các phần tử của màn huỳnh quang bức xạ sáng. Mức độ sáng của các phần tử trên màn tỉ lệ với công suất tia; tức là tỉ lệ với mức tín hiệu hình điều chế tia. Do đó độ chói các phần tử của màn bức xạ sáng tương ứng với độ chói các phần tử ảnh đã truyền đi. Nói cách khác độ chói và tọa độ của các phần tử ảnh đã được khôi phục.
+III.Đặc Điểm Của Tín Hiệu Hình:
+III.A/ Các dạng tín hiệu hình:
+Như ta đã biết ở trên,nguyên tắc chuyển đổi ảnh quang thành dòng điện là chuyển đổi độ chói của từng phần ảnh thành dòng điện(hoặc điện áp tín hiệu).
+Quá trình chuyển đổi được thực hiện theo quy luật thông dụng nhất là lần lượt chuyển đổi các phần tử ảnh của từng dòng,hết dòng này đến dòng khác,từ trên xuống dưới.
+Ví dụ:sự phân bổ độ rọi trên Catốt quang điện của bộ chuyển đổi (ảnh quang chiếu lên Catốt quang điện )như hình 1.5 .Ta hãy lấy các phần tử ảnh làm thành dòng aa’ khảo sát .Nếu kích thuớc của phần tử ảnh (tia điện tử )rất nhỏ so với chi tiết ảnh ,thì trị tức thời của tín hiệu hình hoàn toàn tỉ lệ với mức chói ở từng thời điểm của ảnh dọc theo dòng aa’.
+Hình 1.5 - Ví dụ chuyển đổi ảnh quang thành tín hiệu điệ
+Từ hình vẽ ta có thể rút ra những nhận xét sau:
++Tín hiệu hình là tín hiệu đơn cực tính, bởi vì độ chói của ảnh có trị số dương, biến đổi từ không đến trị số dương cực đại. Do đó tín hiệu hình tương ứng cũng chỉ có một cực tính, hoặc là dương, hoặc là âm. Nếu ứng với điểm trắng của ảnh, tín hiệu có trị số điện áp lớn nhất; ứng với các điểm đen, tín hiệu có điện áp nhỏ nhất ( trị số đại số ) thì gọi là tín hiệu cực tính dương.
+Nếu ngược lại, thì gọi là tín hiệu cực tính âm. Nói cách khác tín hiệu hình có chứa thành phần một chiều (trị trung bình ). Trị trung bình của tín hiệu đối với mỗi dòng tỉ lệ với độ chói trung bình của dòng đó. Trị trung bình của tín hiệu đối với mỗi ảnh tỉ lệ với độ chói trung bình của ảnh đó. Đối với ảnh đứng im độ chói trung bình không thay đổi, do đó trị trung bình (thành phần một chiều ) của tín hiệu cũng không thay đổi. Đối với ảnh động hoặc chuyển từ cảnh này sang cảnh khác, độ chói trung bình của ảnh luôn thay đổi, nhưng tốc độ biến đổi rất chậm, do đó thành phần trung bình thay đổi rất chậm, với tần số khoảng từ 0 à2;3Hz.
+Do tín hiệu hình là tín hiệu đơn cực tính, có tính chất như tín hiệu xung, nên khi đo lường không đo theo trị số hiệu dụng, mà đo theo trị số giữa đỉnh với đỉnh (hiệu số giữa mức cực đại và mức cực tiểu của tín hiệu ).
++Tín hiệu hình, nói chung, là tín hiệu không chu kỳ. Chỉ trong trường hợp truyền ảnh không di động thì tín hiệu có chu kỳ, bằng chu kỳ tần số ảnh. Trường hợp đặc biệt khi truyền những dải sọc thẳng đứng bất động, thì chu kỳ lặp lại của ảnh bằng chu kỳ dòng.
+Trong quá trình chuyển đổi,tín hiệu hình bị ngắt quãng qua mỗi dòng. Tia điện tử làm nhiệm vụ chuyển đổi ảnh quang thành tín hiệu điện quét lên bia thành từng dòng, khi hết một dòng tia được trở lại đầu dòng để quét dòng tiếp theo. Do đó, mỗi chu kỳ quét được chia làm hai phần : Phần quét thuận –tia điện tử có tác dụng chuyển đổi ảnh thành tín hiệu điện, chiếm khoảng 82à84% của một chu kỳ quét dòng. Phần quét ngược là phần thời gian tia điện tử cuối cùng quay về đầu dòng để chuẩn bị quét tiếp dòng sau, chiếm khoảng 16à18% của một chu kỳ dòng. Trong khoảng thời gian quét ngược, trường hợp không mang tin tức của ảnh, nên được dùng để truyền xung tắt dòng. Xung tắt dòng có tác dụng tắt tia điện tử ở ống tia trong thời gian quét ngược. Tín hiệu hình đầy đủ được trình bày trên hình 1.6
+Hình1.6 – Tín hiệu hình đầy đủ
+Cũng tương tự như vậy đối với ảnh, khi tia điện tử quét hết 1 ảnh, tức là quét một lượt qua tất cả các dòng của ảnh từ trên xuống dưới,tia phải chuyển động ngược lại từ dưới lên trên được gọi là thời gian quét ngược của ảnh. Trong khoảng thời gian này, tín hiệu không mang tin tức của ảnh nên được dùng để truyền xung tắt mặt. Xung tắt mặt có tác dụng tắt tia điện tử của ống thu trong thời gian quét ngược của ảnh. Thời gian quét ngược của ảnh thường dài bằng 23à30 chu kỳ của dòng.
+Như vậy xung tắt dòng xuất hiện sau mỗi dòng và xung tắt mành xuất hiện sau mỗi mành. Mức đỉnh được chọn dưới mức đen một ít để đảm bảo tắt hoàn toàn tia điện tử ở ống thu trong thời gian quét ngược, nên còn gọi là mức quá đen (xem hình 1.6). Mức đen là mức tín hiệu ứng với điểm đen của ảnh. Mức trắng là mức tín hiệu ứng với điểm trắng của ảnh.
+Trong thời gian quét ngược còn truyền xung đồng bộ. Quá trình quét ảnh, xử lý tín hiệu tại phía phát, truyền qua kênh thông tin tại phía thu cần phải được đồng bộ. Tín hiệu đồng bộ được dùng để khống chế bộ quét trong máy thu hình điều khiển tia điện tử trong ống thu làm việc đồng bộ và đồng pha với tia điện tử trong ống phát. Tín hiệu đồng bộ được tạo ra và truyền đi trên kênh thông tin cùng với tín hiệu hình. Tổng hợp của tín hiệu hình và tín hiệu đồng bộ cho truyền ảnh tín hiệu truyền hình.
+Tín hiệu đồng bộ dòng được đặt trên đỉnh xung của xóa dòng, và tín hiệu đồng bộ mành được dặt trên đỉnh của xung xóa mành. Tín hiệu đồng bộ cũng là các xung có biên độ và thời gian xác định nên còn được gọi là xung đồng bộ dòng và xung đồng bộ mành.
+Trong khoảng thời gian xóa mành, thường khá lớn khi so với thời gian của mọi dòng quét-xung đồng bộ mành có độ rộng bằng 2,5 hoặc 3 chu kỳ quét dòng, nhằm để tạo được quá trình đồng bộ chính xác sau các khoảng thời gian dài như vậy,tín hiệu đồng bộ mành còn mang theo các xung cân bằng. Đó là chuỗi các xung nằm trước và nằm sau xung đồng bộ mành trong khoảng thời gian xóa mành. Khoảng cách và thời gian giữa các xung cân bằng được xác định khác nhau tùy theo các hệ truyền hình. Tín hiệu hình đã được cộng cả xung tắt và xung đồng bộ được gọi là tín hiệu truyền hình đầy đủ.
+III.B/ Các dạng méo của ảnh truyền hình:
+Trong hệ thống truyền hình, ảnh quang được chuyển đổi thành tín hiệu hình, hay nói một cách khác:các tin tức về ảnh được mã hóa thành các mức khác nhau của tín hiệu hình. Độ chính xác của sự mã hóa được xác định bằng các tham số của hệ thống truyền hình. Tín hiệu hình được khuếch đại rồi truyền theo kênh thông tin đến phía thu. Ở phía thu, tín hiệu hình được chuyển đổi lại thành ảnh quang.
+Tín hiệu hình chứa đựng mọi tin tức của ảnh. Bất kỳ một dạng méo nào đối với tín hiệu hình cũng đầu gây ra méo ảnh ở lối ra hệ thống. Do đó, để đảm bảo tính trung thực của hệ thống truyền hình, các thiết bị truyền tín hiệu phải không gây ra méo hoặc gây ra méo không đáng kể.
+1)Sự hình thành tín hiệu hình và méo aperture:
+Trong quá trình chuyển đổi ảnh quang thành tín hiệu điện trong các ống phát, phần tử ảnh có diện tích bằng tiết diện của tia điện tử quét lên bia. Bởi vì, ở mỗi thời điểm, tia điện tử tiếp xúc với một phần tử bia(phần tử ảnh )và chuyển đổi độ chói của phần tử ảnh đó thành tín hiệu điện. Nói một cách khác, kích thước của phần tử ảnh được xác định bằng đường kính của tiết diện tia điện tử quét. Ở phần này truyền ảnh sẽ đề cập đến việc ảnh hưởng của kích thước tiết diện tia điện tử quét đến tín hiệu hình.
+Giả thiết tiết diện của tia điện tử quét có dạng tròn và mật độ điện tử phân bố đều trên tiết diện đó. Tia có tốc độ quét không đổi và quét len bia có chiếu ảnh như hình 1.7
+a) b)
+Hình1.7 – Méo aperture trong truyền hình
+Ở hình 1.7a, tia quét có tiết diện mà đường kính bằng d,quét từ trái sang phải , qua ranh giới giữa hai mức chói L1 và L2. tín hiệu được tạo ra ở mỗi thời điểm tỉ lệ với độ chói trung bình của phần tử ảnh đang tiếp xúc với tia quét tại thời điểm ấy. Nếu lấy tâm của tiết diện tia quét để xác định vị trí của tia quét , thì khi tia quét đi qua ranh giới biến đổi từ từ giữa hai mức tín hiệu.
+Thời gian chuyển biến từ U1 đến U2 bằng thời gian quét qua một phần tử ảnh, ký hiệu là tpt . Nếu dùng tín hiệu đó kích thích lên ống thu sẽ nhận được trên màn máy thu hình hai mức chói có ranh giới không rõ nét, mà bị nhòe. Khoảng nhòe có độ rộng bằng hai phần tử ảnh (tính cả hiệu quả của tia điện tử ở cả phía phát và phía thu gây ra).
+Từ hình 1.7b, truyền ảnh thấy rằng khi tia điện tử quét lên bia có chiếu ảnh gồm những dải dọc có độ rộng khác nhau, thì đối với những dải dọc có độ rộng lớn hơn nhiều so với đường kính của tia quét,tín hiệu hình là những xung có biên độ tỉ lệ với hiệu số giữa hai mức chói và độ rộng sườn bằng tpt. Đối với các dải dọc càng hẹp, tín hiệu là những hình sin biên độ càng bé. Khi các dải dọc có độ rộng bằng hoặc nhỏ hơn nửa đường kính d của tia quét, thì tín hiệu chỉ còn tỉ lệ với các mức chói trung bình giữa các dải dọc. Các chi tiết này khôi phục lại được trên màn máy thu hình.
+Từ đó có thể nói rằng:kích thước hữu hạn của tia quét đã làm nhòe các ranh giới rất rõ nét của ảnh,giảm độ chói của các chi tiết nhỏ và làm mất các chi tiết rất nhỏ của ảnh.Trên màn máy thu hình chỉ có thể khôi phục lại các chi tiết ảnh có kích thước lớn hơn hoặc xấp xỉ kích thước tia quét. Các chi tiết nhỏ hơn không thể khôi phục lại được.
+Do ảnh hưởng của kích thước tia quét, biên độ của các thành phần tần số cao của tín hiệu hình bị giảm nhỏ, có nghĩa là tín hiệu hình bị méo. Do đó ảnh được khôi phục cũng bị méo. Độ rõ của ảnh giảm,khả năng phân biệt của hệ thống giảm. Hiện tượng đó gọi là méo aperture. Để khắc phục méo aperture, người ta dùng những mạch sửa méo gọi là mạch sửa méo aperture.
+2)Méo ảnh truyền hình do tín hiệu hình bị méo gây ra:
+Một trong những yêu cầu đối với đường truyền (thiết bị đường hình, kênh thông tin) là dải thông phải đủ rộng để cho toàn bộ tần phổ của tín hiệu hình đi qua. Nếu dải thông không đủ rộng, một phần tần phổ của tín hiệu hình bị cắt, hoặc dải thông đủ rộng đối với toàn bộ tần phổ của tín hiệu hình nhưng các thành phần phổ không được khuếch đại như nhau, thì tín hiệu hình sẽ bị méo, ảnh ở lối ra của hệ thống cũng bị méo. Méo đó gọi là méo tần số.
+Méo tần số do thiết bị gây ra được đánh giá bằng đặc tuyến tần số hoặc đặc tuyến quá độ của thiết bị. Ơ đây ta khảo sát đặc tuyến quá độ
+Đặc tuyến quá độ được chia làm hai khoảng để khảo sát : khoảng thời gian ngắn và khoảng thời gian dài. Thời gian có độ dài xấp xỉ bằng thời gian truyền một phần tử ảnh là thời gian ngắn. Thời gian xấp xỉ hoặc dài hơn thời gian truyền nửa dòng (nửa chu kỳ dòng )là thời gian dài.
+a)ở khoảng thời gian ngắn:
+Giả thiết họ đặc tuyến quá độ ở khoảng thời gian ngắn của mạng bốn đầu được diễn giải như hình 1.8:
+Hình1.8 – Đặc tuyến quá độ ở khoảng thời gian ngắn
+Trong đó đường cong 1 là đặc tuyến quá độ ứng với trường hợp tới hạn , có thời gian thiết lập là t1 ảnh truyền hình ở lối ra của hệ thống có chất lượng tốt . Nếu vì 1 lý do nào đó, đặc tuyến quá độ thay đổi từ đường cong 1 sang đường cong 2. Thời gian thiết lập tăng từ t1 sang t2.. Điều đó cũng có nghĩa là dải thông của thiết bị thu hẹp lại, các thành phần tần số cao của phổ tín hiệu hình không được truyền qua. Do đó độ rõ nét của ảnh truyền hình giảm, tức các chi tiết nhỏ của ảnh mờ đi hoặc bị mất hẳn, các ranh giới trắng đen không còn rõ nét nữa mà bị nhòe.
+Nếu đặc tuyến quá độ bị biến dạng từ đường cong 1 sang đường cong 3 có thời gian thiết lập t3 <t1 và trên đặc tuyến xuất hiện bướu 3. điều đó tương ứng với đặc tuyến tần số bị vồng lên ở miền tần số cao. Các thành phần tan số cao của phổ tín hiệu hình được khuếch đại lớn hơn các thành phần tần số thấp. Độ rõ của ảnh truyền hình được tăng lên nhưng đồng thời gây ra hiện tượng đường viền ở các ranh giới trắng đen của ảnh.
+Ví dụ: Ảnh truyền đi là một đường tròn trắng trên nền xám, thì trên ảnh truyền hình sẽ nhận được ngoài đường tròn trắng trên nền xám ra, còn có thêm đường tròn đen chậm pha so với đường tròn trắng, như cái bóng của đường tròn trắng.
+Hiện tượng đó được minh họa ở hình 1.9. Ảnh cần truyền đi khi quét đường aa’ (1.9a) được chuyển đổi thành tín hiệu hình (1.9b). Trong quá trình truyền từ phía phát sang phía thu tín hiệu hình bị méo dạng (1.9c). Với tín hiệu đã bị méo đó, sẽ khôi phục lại được ảnh truyền hình như hình(1.9d).
+
+Hình1.9 – Méo hình
+Khi đặc tuyến tần số bị méo hơn nữa, giả thiết đặc tuyến quá độ bị biến dạng thành đường cong 4 trên hình 1.8. Trên đặc tuyến xuất hiện cả bướu dương +4 và bướu âm –5 , tương ứng với đặc tuyến tần số bị vồng lên rất lớn ở miền tần số cao. Trên ảnh truyền hình ngoài hiện tượng bóng ra còn thấy hiện tượng nhiều ảnh. Chúng bị dịch pha (xê dịch theo chiều ngang ) với nhau;trong đó ảnh sau nhạt hơn ảnh trước.
+Hiện tượng nhiều ảnh dịch pha trên màn máy thu hình còn có thể sinh ra các nguyên nhân khác, như tín hiệu hình được truyền lan từ điểm phát đến điểm thu theo nhiều đường khác nhau với thời gian truyền lan khác nhau, hoặc tín hiệu truyền theo cáp mà các đầu cáp không được phối hợp trở kháng.
+b)Đặc tuyến quá độ ở khoảng thời gian dài:
+Khảo sát đối với những xung rộng bằng nửa dòng chẳng hạn (nửa chu kỳ dòng ). Nếu đặc tuyến quá độ của kênh thông tin có trị số quy định, thì dạng xung ở lối ra của kênh thông tin không bị nén,đỉnh xung bằng phẳng (đường 1 trên hình 1.10).
+................................................
+2)Cài đặt ghi hình theo âm báo(Alarm Recording Setting):
+-Chọn phím tab Alarm bên trong menu Recording Setting
+-Đánh dấu ô “ON” của camera tương ứng để hữu hiệu hóa đường vào âm báo và chức năng ghi hình kiểu âm báo
+-Nhập khoảng thời gian ghi hình kiểu âm báo vào cột (tính bằng giây)
+-Đánh dấu ô “N0pen” nếu công cụ chuyển nối với đường vào âm báo đang ở chế độ mở bình thường
+-Nhập chỉ số khung hình mỗi giây cho từng camera. Chỉ số khung hình mặc định là 25 khung/giây
+3)Cài đặt ghi hình kiểu tiền âm báo Pre – Alarm:
+-Chức năng ghi hình kiểu tiền âm báo sẽ hữu hiệu một khi ô kích hoạt âm báo được đánh dấu
+-Đánh dấu ô “ON” trong cột tiền âm báo để hữu hiệu hóa chức năng của những camera tương ứng.
+-Nhập khoảng thời gian cho tiền âm báo từ 1 đến 60 giây
+-Mỗi khi âm báo được kích hoạt hình ảnh được ghi theo kiểu tiền âm báo sẽ được lưu thành một file vĩnh viễn có thể truy cập để chiếu lại
+-Nhấp OK để xác nhập thông số đã nhập.
+4)Cài đặt âm báo và dò tìm chuyển động hẹn giờ (Schedued Alarm & Motion Detection Setting):
+-Nhấp nút “Alarm Sch” để vào bộ hẹn giờ âm báo
+-Đánh dấu ô camera để kích hoạt chức năng hẹn giờ âm báo sẵn sàng dùng cho camera
+-Camera nào không chọn đánh dấu camer, chức năng hẹn giờ âm báo sẽ không dùng cho camera này. Chức năng dò tìm chuyển động và nhập đường vào âm báo sẽ kích hoạt kiểu ghi hình âm báo như bình thường
+-Toàn bộ ô đánh dấu camera được để trống theo mặc định
+-Nhập vào một chỉ số thời gian cho mỗi camera đã chọn. Chức năng ghi hình kiểu âm báo sẽ được hữu hiệu hóa vào chỉ số thời điểm này mỗi ngày
+-Thời gian bắt đầu và kết thúc được cài đặt ở 0, nghĩa là chức năng ghi hình kiểu âm báo sẽ không hoạt động bấc cứ lúc nào
+-Người dùng có thể lưu thời khóa biểu hẹn như một tên file hay có thể mở chương trình hẹn giờ hiện hữu bằng cách nhấp nút file trong phần phía trên ở góc tay trái
+-Đánh dấu camera bạn muốn dùng để ghi hình
+-Nhập vào thời gian bắt đầu và kết thúc để ghi hình theo hẹn những ngày trong tuần
+-Nhập chỉ số khung hình trên giây cho từng camera
+-Chỉ số khung hình mặc định là một khung hình/ giây
+6)Cài đặt ghi hình hẹn vào những ngày cuối tuần:
+-Chọn tab Schedule Weekday bên trong thực đơn Recording Setting
+-Chọn camera bạn muốn ghi hình
+-Nhập thời gian bắt đầu và kết thúc để ghi hình vào những ngày cuối tuần
+-Nhập chỉ số khung hình/giây cho từng camera. Chỉ số khung hình mặc định là 1 khung hình/giây
+III.F/ Sử dụng chức năng chiếu lại hình video (Playback the Video):
+Những hình video đã ghi trong tất cả các ổ đĩa cứng có thể truy cập để chiếu lại. Nhấp vào nút “Playback“ trong DSR để gọi công cụ chiếu video. Công cụ này sẽ cung cấp tương tác truy tìm hình video và các toán tính khung hình để chiếu lại những file video đã ghi.
+1)Chiếu lại những file đã được lưu trong máy nội bộ :
+-Chọn nút “Local” ở phía trên góc tay phải của công cụ chiếu video (video player) để chiếu lại những file chứa bên trong máy nội bộ
+-Tên máy chủ hiện hành có phimvideo đã ghi bên trong máy nội bộ trở thành có thể chon lựa bằng cách nhấp vào nút có muỗi tên chỉ xuống trong điều khiển chọn lựa máy chủ
+-Camera hiện hành dưới tên máy chủ được chọn trở thành có thể được chọn lựa bằng cách nhấp mũi tên chỉ xuống trong điều khiển chọn lựa camera
+-Ngày tháng hiện hành dưới camera được chọn trở thành có thể chọn lựa bằng cách nhấp vào nút có muỗi tên chỉ xuống trong điều khiển chọn lựa ngày tháng
+-Video hiện hành có thể được cư trú vào công cụ tìm kiếm video
+-Người dùng nhấp vào nút “file record” để biể thị video hiện hành bằng tên file và hiển thị thông tin trong một hộp danh sách điều khiển
+-Nhấp vào nút tiêu đề của cột của mỗi miền chính sẽ sắp xếp và hiển thị miền đó trong các thứ tự khác nhau. Thí dụ, người dùng có thể nhấp vào nút tiêu đề “Start time” lập tức các file sẽ được sắp xếp để hiển thị theo thứ tự trên xuống, nhấp nó một lần nữa sẽ được sắp xếp lại theo thứ tự từ dưới lên
+-Chọn file video bạn muốn chiếu lại bằng cách nhấp vào danh sách File Record hay nhấp ở Search Engine
+-File được chọn sẽ được tô sáng cùng lúc cả ở danh sách file Record và ở Search Engine
+-Nhấp vào bên trái nút Open file (mở một biểu tượng File) để chiếu lại File đã chọn
+-Nhấp vào bên phải nút Open file (mở biểu tượng liên tiếp nhiều file) để chiếu lại file đã chọn và tự động chiếu lại những file kế tiếp
+°Điều khiển camera chiếu lại (Playback camera control):
+-Khi xử dụng hộp thoại điều khiển tiêu đề camera người ta có thể chọn camera bằng tên hay tiêu đề để chiếu lại. Nhấp vào mũi tên chỉ xuống và nhấp vào camera mong muốn để xem chiếu lại
+-Trong khi vận hành chiếu lại khác hãy lập lại công đoạn trên để chọn lựa camera mong muốn mới để chiếu lại, thao tác đang chiếu của camera đã chọn trước đó sẽ tự động chấm dứt.
+-Hiển thị giờ/ngày tháng và độ dài tuyệt đối của video sẽ được hiển thị trên bảng điều khiển
+-Sử dụng hộp thoại điều khiển thanh trượt để điều chỉnh tốc độ chiếu lại (Playback Speed Control ). Kéo rê nút điều khiển sang bên phải để tăng tốc độ chiếu. Kéo rê sang bên trái sẽ giảm tốc độ. Tốc độ chiếu bình thường được chỉ đinh( trong hộp điều khiển tốc độ khi nút điều khiển được định vị ngay giữa
+°Trả phim và quay lại (Rewind & Replay)
+-Sử dụng cách đánh dấu Begin/End có thể chọn lựa một phần file video hiện hành để xem lại nhiều lần . rê kéo thanh công cụ cuốn ( thanh cuốn để dò tìm thủ công) đến vị trí bắt đầu mong muốn, nhấp nút “Begin” để vào ô đánh dấu rồi lập lại tiến trình để vào vị trí “End”bằng nhấp nút đánh dấu “End” nhấp nút “Play”để bắt đầu chiếu lại theo chế độ tự động quay vòng lại
+III.G/ Sử dụng những chức năng tiện ích (Utility Functions)
+1)Truy cập những chức năng tiện ích:
+-Khi người dùng đăng nhập với tên “SUPER” họ đã có quyền dùng những chức năng tiện ích .Tuy nhiên nếu người dùng đăng nhập với tên “Operator”nút Utility sẽ bị vô hiệu hóa để bảo vệ password và một số cài đặt ghi hình hay hệ thống khác khỏi bị hay thay đổi bởi người điều hành
+-Nhấp vào nút Utility trên màn hình chính và menu Unility sẽ trải xuống như hình dưới đây
+1)Chức năng Housekepping:
+-Khi vận hành dưới chế độ “Archive” chức năng Housekeeping của Utility Menu sẽ bị vô hiệu hoá .Để kích hoạt khôi phục lại các chức năng này từ DSR, hãy chuyển hệ thống lại chế độ sau lưu “Nomal”
+2)Hiển thị chuỗi:
+-Nhấp “Utility”và chọn “Display”để vào thực đơn hiển thị chuỗi.Nhập thời gian ngừng cho khoảng thời gian chuỗi.Mặc định là 1 giây
+-Chọn camera bạn muốn hiển thị trong kiểu ghi chuỗi
+-Nhấp Apply để ứng dụng các thông số nhập
+-Nhấp OK để xác nhận và đóng hộp thoại
+3)Độ phân giải hình khi ghi toàn bộ(Image Resolution):
+-Chọn tab Rercording trong thực đơn Option Setting
+-Ô đánh dấu Resolution dùng để điều khiển độ phân giải khi ghi
+PAL system NTSC system
++Chế độ ghi cao cấp 640 pixels * 480 pixels 640 pixels * 480 pixels
+cài đặt hình với độ
+phân giải toàn phần
++Chế độ ghi hình cao 384 pixels *288 pixels 320 pixels *240 pixels
+cài đặt ghi hình với
+độ phân giải thấp CIF
++Chế độ ghi hình thấp 192 pixels * 144 pixels 160 pixels *120 pixels
+cài đặt ghi hình với độ
+phân giải thấp QCIF
+4)Chọn chế độ ghi hình:
+a)Chế độ ghi hình tuyến tính:
+-Khi chọn chế độ này ghi hình,các kiểu ghi (âm báo ,tiền âm báo, nhanh và hẹn giờ) sẽ tự động chấm dứt khi các thiết bị lưu trữ đều được sử dụng hết.
+b)Chế độ ghi hình luân phiên xoay vòng:
+-Khi chọn chế độ này để ghi hình sự ghi hình sẽ tiếp tục chép chồng lên các file cũ nhất một khi các thiết bị lưu trữ đã đầy.Tuy nhiên, những file hình ảnh ghi kiểu âm báosẽ được bảo vệ trong chế độ này
+5)Cài đặt chế độ sao lưu:
+-Nhấp vào “Utility” rồi cài đặt Option và cuối cùng là phím tab Backup
+-Hệ thống được cài đặt ở chế độ sao lưu bình thường như hệ thống mặc định
+-Nhấp vào mũi tên chỉ xuống trong ổ đĩa sao lưu để hiển thị những ổ đĩa rời có sẵn để sao lưu và chọn ổ đĩa sao lưu mong muốn. Thiết bị rời có thể là ổ DVD-RAM hay ổ cứng IDE rời.Người dùng có thể chọn lựa để giữ lại những bản sao trên đĩa cứng đã sao lưu hay không giữ. Nhấp vào Apply và nhấp OK để đóng hộp thoại.
+6)Cài đặt password:
+-Sử dụng thực đơn System Information để thay đổi password.
+-Có 2 tên người dùng mặc định cho DSR là SUPER và OPERATOR
+Hai password này có thể được coi là cách dùng bảo mật trong tiến trình đăng nhập. Người dùng nên nhập đúng password khi vào hệ thống
+7)Lựa chọn Logoff:
+-Đánh dấu ô “Continue display”nếu bạn muốn hình ảnh được hiển thị ở điều kiện Logoff
+-Đánh dấu ô “Continue recording”nếu bạn muốn kiểu ghi hình nhanh vẫn tiếp tục hoạt động ở chế độ Logoff.
+
+
+CHƯƠNGIV :
+KẾT NỐI MICROSOFTPOWERPOINT VỚI PICO 2000
+
+I.Microsoft PowerPoint:
+I.A/ Khái quát về Microsoft PowerPoint:
+Microsoft PowerPoint là một một chương trình phần mềm đồ họa diễn hình thông dụng do hãng Microsoft sản xuất
+PowerPoint giúp chúng ta tạo và tổ chức ý tưởng , nó cung cấp đầy đủ các công cụ cũng như hỗ trợ nhiều chức năng tiện ích nhằm giúp chúng ta có thể tạo ra một diễn hình hoàn chỉnh một cách dễ dàng hơn, hoàn hảo hơn.
+I.B/ Những chức năng và tiện ích của PowerPonit:
+Powerpoint được sản xuất dựa trên nền tảng của bộ MicrosoftOffice.Vì vậy nó cũng có hỗ trợ sẵn các chức năng cơ bản như:xác lập các tab,indent và các kiểu canh chỉnh, các kiểu định dạng text .v..v. Ngoài ra PowerPoint còn có các chức năng đặc trưng như:
+1)Chức năng tạo diện mạo cho các slide:
+Trong PowerPoint diện mạo các slide có thể được thiết kế theo kiểu những đối tượng vẽ (được tạo ra bằng công cụ Autoshape).
+Ngoài ra PowerPoint còn hỗ trợ thêm các mẫu thiết kế slide có sẵn để dễ dàng cho người sử dụng. Chẳng hạn như việc áp dụng một kiểu thiết kế từ một diễn hình có sẵn:
+-Nhấp menu Format và sau đó nhấp vào Apply Design Template.
+-Tìm và chọn diễn hình có kiểu thiết kế mà ta muốn áp dụng.
+2) Chức năng chèn hình ảnh và âm thanh:
+Tương tự như Microsoft Word , PowerPoint cũng cho phép chèn vào văn bản Text những hình ảnh trong các Clipart, những hình ảnh từ máy ảnh kỹ thuật số hoặc từ máy quét. Đặc biệt là trong PowerPoint còn cho phép chèn 1 đoạn phim và âm thanh hoặc ghi âm cả 1 lời bình chú cho 1 slide.
+Các thao tác tiêu biểu:
+a)Chèn phim và âm thanh:
+-Nhấp menu Insert , trỏ vào Movies and Sound và sau đó nhấp các tùy chọn theo yêu cầu của chúng ta.
+-Sau khi chọn sẽ có thông báo xuất hiện, chọn Automatically (tự động chạy) hoặc When Clicked(chạy khi được nhấn)
+b)Ghi âm thanh hoặc lời bình chú về một slide:
+-Ta cũng nhấp menu Insert , trỏ vào Movies and Sound và sau đó chọn Record Sound.
+-Gõ nhập tên cho âm thanh
+-Nhấp nút Record và Stop khi đã hoàn tất
+3)Chức năng thiết kế diễn hình cho Web:
+PowerPoint cung cấp đầy đủ các công cụ mà chúng ta cần để tạo và lưu diễn hình dưới dạng 1 trang Web và để nó xuất hiện trên World Wide Web.
+Và trong PowerPoint cũng đã có sẵn 1 số Web template mà chúng ta có thể hiệu chỉnh nhằm đáp ứng những nhu cầu của chúng ta. Ngoài ra trong PowerPoint còn hỗ trợ cho chúng truyền ảnh các nút Action và các Hyperlink, bằng việc sử dụng các chức năng này chúng ta có thể nhảy đến 1 chương trình khác hoặc có thể Hyperlink đến cả các vị trí của Internet.
+Các thao tác tiêu biểu:
+a)Tạo một trang chủ (home page):
+-Nhấp menu File, nhấp New, chọn From Auto ContentWizard.
+-Nhấp Next để tiếp tục
+-Nhấp nút loại diễn hình theo ý muốn
+-Nhấp tùy chọn Web Presentation theo yêu cầu, nhấp Next
+-Nhấp tiêu đề cho diễn hình và thông tin footer,nhấp Next tiếp tục và nhấp Finish.
+b)Chèn các nút Action.
+-Nhấp menu Slide Show.
+-Trỏ vào Action Buttons, và chọn nút theo ý muốn
+-Tạo các xác lập cho hoạt động theo ý muốn
+c)Tạo một hyperlink với chương trình bên ngoài :
+-Nhấp phải một đối tượng trên slide, nhấp Action Settings.
+-Nhấp tùy chọn Hyperlink To, nhấp một mũi tên danh sách, và nhấp Other file trong danh sách hyperlink.
+-Chọn file theo yêu cầu, nhấp OK.
+4)Chức năng hiệu ứng hoạt hình:
+Chức năng này tạo cho diễn hình thêm sống động và thu hút.
+Các thao tác tiêu biểu:
+a)Tạo động và làm mờ Text sau khi tạo động:
+-Chọn Text cần tạo động nhấp phải và chọn Custom Animation
+-Nhấp Add Effect, và tùy chọn các hiệu ứng trong danh sách
+-Nhấp mũi tên Animate Text, và sau đó nhấp hiệu ứng theo ý muốn
+-Nhấp OK
+b)Tạo âm thanh cho hiệu ứng:
+-Nhấp phải vào đối tượng cần tạo , chọn Custom Animation.
+-Chọn hiệu ứng thích hợp trong thanh Effect.
+-Nhấp mũi tên danh sách Sound, và chọn hiệu ứng âm thanh cho phù hợp.
+II.Kết Nối Microsoft Powerpoint Và Pico2000:
+Việc kết nối này nhằm tiết kiệm thời gian cho người sử dụng trong việc kích hoạt chương trình Pico2000 (hoặc các trình tiện ích khác).Để có thể thực hiện được kết nối này ta cần có sẵn chương trình Pico2000 trên máy và sử dụng chức năng các nút Action của Microsoft PowerPoint.
+Các thao tác tiêu biểu:
+-Trong khung xem Normal , ta nhấp menu Slide Show, trỏ vào Action Button.
+-Chọn nút theo yêu cầu và thiết lập chức năng cho nút.
+-Nhấp hộp thoại Browse để tìm chương trình kết nối Pico2000
+-Nhấp OK để hoàn tất việc kết nối.
+
+CHƯƠNG V:
+MẠNG MÁY TÍNH
+I.Khái Quát Mạng Máy Tính:
+I.A/ Định nghĩa:
+Mạng máy tính là một nhóm các máy tính, thiết bị ngoại vi được nối kết với nhau thông qua các phương tiện truyền dẫn như cáp, sóng điện từ, tia hồng ngoại… giúp cho các thiết bị này có thể trao đổi dữ liệu với nhau một cách dễ dàng.
+I.B/ Các loại mạng máy tính:
+1)Mạng cục bộ LAN( Local Area Network):
+Mạng LAN là một nhóm máy tính và các thiết bị truyền thông mạng được nối kết với nhau trong một khu vực nhỏ như một tòa nhà cao ốc, khuôn viên trường đại học, khu giải trí…
+Các mạng LAN thường có đặc điểm sau:
+-Băng thông lớn, có khả năng chạy các ứng dụng trực tuyến như xem phim, hội thảo qua mạng.
+-Kích thước mạng bị giới hạn bởi các thiết bị
+-Chi phí các thiết bị mạng LAN tương đối rẻ
+-Quản trị đơn giản.
+2)Mạng đô thị MAN( Metropolitan Area Network):
+Mạng MAN gần giống như mạng LAN nhưng giới hạn của nó là một thành phố hay một quốc gia. Mạng MAN nối kết các mạng LAN với nhau thông qua các phương tiện truyền dẫn khác nhau (cáp quang, cáp đồng, sóng…) và các phương thức truyền thông khác nhau.
+Đặc điểm của mạng MAN:
+-Băng thông mức trung bình, đủ để phục vụ các ứng dụng cấp thành phô1 hay quốc gia như chính phủ điện tử, thương mại điện tử, các ứng dụng của các ngân hàng…
+-Do MAN nối kết nhiều LAN với nhau nên độ phức tạp cũng tăng đồng thời công tác quản trị sẽ khó khăn hơn.
+-Chi phí các thiết bị mạng MAN tương đối đắt tiền.
+3)Mạng diện rộng WAN (Wide Area Network)
+Mạng WAN bao phủ vùng địa lý rộng lớn có thể là một quốc gia, một lục địa hay toàn cầu. Mạng WAN thường là mạng của các công ty đa quốc gia hay toàn cầu, điển hình là mạng internet. Do phạm vi rộng lớn của mạng WAN nên thông thường mạng WAN là tập hợp các mạng LAN, MAN nối lại với nhau bằng các phương tiện như: vệ tinh(satelites), sóng viba (microwave), cáp quang, cáp điện thoại…
+Đặc điểm của mạng WAN:
+-Băng thông thấp, dễ mấy kết nối, thường chỉ phù hợp với các ứng dụng offline như e-mail, web, ftp…
+-Phạm vi hoạt động rộng lớn không giới hạn.
+-Do kết nối của nhiều LAN, MAN lại với nhau nên mạng rất phức tạp và có tính toàn cầu nên thường có tổ chức quốc tế đứng ra quản trị.
+-Chi phí cho các thiết bị và các công nghệ mạng WAN rất đắt tiền.
+4)Mạng Internet:
+Mạng Internet là trường hợp đặc biệt của mạng WAN, nó cung cấp các dịch vụ toàn cầu như Mail, Web, Chat, Ftp và phục vụ miễn phí cho mọi người.
+I.C/ Các mô hình xử lý mạng:
+1)Mô hình xử lý mạng tập trung:
+Toàn bộ các tiến hành xử lý diễn ra tại máy tính trung tâm. Các máy trạm cuối (terminals) được nối mạng với máy tính trung tâm và chỉ hoạt động như những thiết bị nhập xuất dữ liệu cho phép người dùng xem trên màn hình và nhập liệu bàn phím. Các máy trạm đầu cuối không lưu trữ và xử lý mạng trên có thể triển khai trên hệ thống phần cứng hoặc phần mềm được cài trên server.
+Ưu điểm: dữ liệu được bảo mật an toàn, dễ backup và diệt virus. Chi phí cho các thiết bị thấp.
+Khuyết điểm: khó đáp ứng được các yêu cầu của nhiều ứng dụng khác nhau, tốc độ truy xuất chậm.
+2)Mô hình xử lý mạng phân phối:
+Các máy tính có khả năng hoạt động độc lập, các công việc được tách nhỏ và giao cho nhiều máy tính khác nhau thay vì tập trung xử lý trên máy trung tâm. Tuy dữ liệu được xử lý và lưu trữ tại máy cục bộ nhưng các máy tính này được nối mạng với nhau nên chúng có thể trao đổi dữ liệu và dịch vụ.
+Ưu điểm: truy xuất nhanh, phần lớn không giới hạn các ứng dụng.
+Khuyết điểm: dữ liệu lưu trữ rời rạc khó đồng bộ, backup và rất dễ nhiễm virus.
+3)Mô hình xử lý mạng cộng tác:
+Mô hình xử lý cộng tác bao gồm nhiều máy tính có thể hợp tác để thực hiện một công việc. Một máy tính có thể mượn năng lực xử lý bằng cách chạy các chương trình trên các máy nằm trong mạng.
+Ưu điểm: rất nhanh và mạnh, có thể dùng để chạy các ứng dụng có các phép toán lớn.
+Khuyết điểm: các dữ liệu được lưu trữ trên các vị trí khác nhau nên rất khó đồng bộ và backup, khả năng nhiễm virus rất cao.
+I.D/ Các mô hình ứng dụng mạng:
+1)Mạng ngang hàng(peer to peer):
+Mạng ngang hàng cung cấp việc kết nối cơ bản giữa các máy tính nhưng không có bất kỳ một máy tính nào đóng vai trò phục vụ. Một máy tính trên mạng vừa có thể là client, vừa là server. Trong mô hình này người dùng trên từng máy tính chịu trách nhiệm điều hành và chia sẻ các tài nguyên của máy tính mình. Mô hình này chỉ phù hợp với các tổ chức nhỏ (khoảng 10 người) và không quan tâm đến vấn đề bảo mật.
+Ưu điểm: do mô hình mạng ngang hàng đơn giản nên dễ cài đặt, tổ chức và quản trị, chi phí thiết bị cho mô hình thấp.
+Khuyết điểm: không cho phép quản lý tập trung nên dữ liệu phân tán, khả năng bảo mật thấp, rất dễ bị xâm nhập. Các tài nguyên không được sắp xếp nên rất khó định vị và tìm kiếm.
+2)Mạng khách chủ (client-server):
+Trong mô hình mang khách chủ có một hệ thống máy tính cung cấp tài nguyên và dịch vụ cho cả hệ thống mạng sử dụng gọi là các máy chủ (server). Một hệ thống máy tính sử dụng các tài nguyên và dịch vụ này được gọi là máy khách (client). Các server thường có cấu hình mạnh (tốc độ xử lý nhanh, kích thước lưu trữ lớn) hoặc là các máy chuyên dụng.
+Ưu điểm: do các dữ liệu được lưu trữ tập trung nên dễ bảo mật, backup và đồng bộ với nhau. Tài nguyên và dịch vụ được tập trung nên dễ chia sẻ và quản lý và có thể phục vụ cho nhiều người.
+Khuyết điểm: các server chuyên dụng rất đắt tiền, phải có nhà quản trị cho hệ thống
+I.E/ Các lợi ích do mạng đem lại:
+-Tiết kiệm được tài nguyên phần cứng máy tính và có thể chia sẻ những thiết bị ngoại vi như: máy in, máy FAX, ổ CD-ROM…
+-Việc trao đổi dữ liệu giữa các máy tính trở nên dễ dàng hơn.
+-Tiết kiệm được các chi phí bản quyền và chi phí cài đặt các ứng dụng khi các ứng dụng này được cài trên các server(mô hình mạng khách chủ).
+-Giúp cho việc tập trung dữ liệu, bảo mật cũng như backup(sao chép dự phòng) trở nên hoàn hảo hơn.
+-Dựa trên các cơ sở hạ tầng mạng chúng ta có thể xây dựng các hệ thống ứng dụng lớn như chính phủ điện tử, thương mại điện tử…
+II.Các Cách Thức Và Phương Tiện Truyền Dẫn Mạng:
+II.A/ Truyền dẫn hữu tuyến:
+1)Cáp đồng trục:
+Là kiểu cáp đầu tiên được dùng trong các LAN, cấu tạo của cáp đồng trục gồm:
+-Dây dẫn trung tâm: dây đồng hoặc dây đồng bện.
+-Một lớp cách điện giữa dây dẫn phía ngoài và dây dẫn phía trong.
+-Dây dẫn ngoài: bao quanh dây dẫn trung tâm dưới dạng dây đồng bện hoặc lá. Dây này có tác dụng bảo vệ dây dẫn trung tâm khỏi nhiễu điện từ và được nối đất để thoát nhiễu.
+-Ngoài cùng là một lớp vỏ plastic bảo vệ cáp.
+2)Cáp xoắn đôi:
+Cáp xoắn đôi gồm nhiều cặp dây đồng xoắn lại với nhau nhằm chống phát xạ nhiễu điện từ. Do giá thành thấp nên cáp xoắn được dùng rất rộng rãi. Có hai loại cáp xoắn đôi được sử dụng rộng rãi trong LAN là:
+-Cáp xoắn đôi có vỏ bọc chống nhiễu STP (Shielded Twisted-Pair)
+-Cáp xoắn đôi không có vỏ bọc chống nhiễu UTP (Unshielded Twisted-Pair).
+3)Cáp quang (Fiber-optic cable):
+Cáp quang có cấu tạo gồm dây dẫn trung tâm là sợi thủy tinh hoặc plastic đã được tinh chế nhằm cho phép truyền đi tối đa các tín hiệu ánh sáng. Sợi quang được tráng một lớp nhằm phản chiếu các tín hiệu. Cáp quang chỉ truyền sóng ánh sáng (không truyền tín hiệu điện) với băng thông rất cao nên không gặp các sự cố về nhiễu hay bị nghe trộm.
+II.B/ Truyền dẫn vô tuyến:
+1)Sóng vô tuyến (radio):
+Sóng radio nằm trong phạm vi từ 10 KHz đến 1 GHz, trong miền này ta có rất nhiều dải tần như: sóng ngắn, VHF, UHF. Tại mỗi quốc gia, nhà nước sẽ quản lý cấp phép sử dụng các băng tần để tránh tình trạng các sóng bị nhiễu. Nhưng có một số băng tần được chỉ định là vùng tự do (vùng này thường có dải tần 2,4 GHz). Và các thiết bị Wireless của các hãng như Cisco, Compex đều dùng ở dải tần này.
+2)Sóng viba:
+Truyền thông viba thường có hai dạng: truyền thông trên mặt đất và các nối kết với vệ tinh. Miền tần số của viba mặt đất khoảng 21-23 GHz, các kết nối vệ tinh khoảng 11-14 MHz. Băng thông từ 1-10Mbps. Sự suy yếu tín hiệu tùy thuộc vào điều kiện thời tiết, công suất và tần số phát.
+3)Hồng ngoại:
+Mạng hồng ngoại có thể truyền với tốc độ từ 1-10 Mbps. Miền tần số từ 100 GHz đến 1000 GHz. Có bốn loại mạng hồng ngoại:
+-Mạng đường ngắm: mạng sẽ truyền dữ liệu khi máy phát và máy thu có đường ngắm rõ rệt giữa chúng.
+-Mạng hồng ngoại tán xạ: kỹ thuật này phát tia truyền dội tường và sàn nhà rồi mới đến máy thu.
+-Mạng phản xạ: ở loại mạng này, máy thu-phát quang đặt gần máy tính sẽ truyền tới một vị trí chung, tại đây tia truyền được đổi hướng đến máy tính thích hợp.
+-Broadband optical telepoint: loại mạng cục bộ vô tuyến hồng ngoại cung cấp các dịch vụ dải rộng. Mạng vô tuyến này có khả năng xử lý các yêu cầu đa phương tiện chất lượng cao, vốn có thể trùng khớp với các yêu cầu đa phương tiện của mạng cáp.
+II.C/ Các thiết bị mạng:
+1)Card mạng:
+Card mạng là thiết bị nối kết giữa máy tính và cáp mạng. Chún thường giao tiếp với máy tính qua các khe cắm như :ISA, PCI hay USP…Các chức năng chính của Card mạng:
+-Chuẩn bị dữ liệu đưa lên mạng
+-Gởi dữ liệu đến máy tính khác.
+-Kiểm soát luồng dữ liệu giữa máy tính và hệ thống cáp.
+2)Modem:
+Là thiết bị dùng để nối hai máy tính hay hai thiết bị ở xa thông qua mạng điện thoại. Modem có hai loại (cả hai đều có cổng giao tiếp RJ11 để nối với điện thoại):
+-Internal (là loại được gắn bên trong máy tính giao tiếp qua khe cắm ISA hoặc PCI)
+-External (là loại thiết bị đặt bên ngoài CPU và giao tiếp với CPU thông qua cổng COM theo tiêu chuẩn RS-232).
+Chức năng của Modem là chuyển đổi tín hiệu số (digital)thành tín hiệu tương tự (analog) để truyền dữ liệu trên dây điện thoại. Tại đầu nhận, Modem chuyển dữ liệu ngươc lại từ dạng tín hiệu tương tự sang tín hiệu số để truyền vào máy tính.
+3)Repeater:
+Là thiết bị dùng để khuếch đại tín hiệu trên các đoạn cáp dài. Khi truyền dữ liệu trên các đoạn cáp dài tín hiệu điện sẽ yếu đi, nếu chúng ta muốn mở rộng kích thước mạng thì chúng ta dùng thiết bị này để khuếch đại tín hiệu và truyền đi tiếp.
+4)Hub:
+Là thiết bị giống như repeater nhưng nhiều port hơn cho phép nhiều máy tính nối tập trung về thiết bị này. Các chức năng giống như repeater dùng để khuếch đại tín hiệu điện và truyền đến tất cả các port còn lại đồng thời không lọc được dữ liệu. Có 3 loại Hub:
+-Passive Hub: là thiết bị đầu nối cáp dùng để chuyển tiếp tín hiệu từ đoạn cáp này đến đoạn cáp khác, không có linh kiện điện tử và nguồn riêng nên không khuếch đại và xử lý tín hiệu.
+-Active Hub: là thiết bị đầu nối cáp dùng để chuyển tiếp tín hiệu từ cáp này đến các đoạn cáp khác với chất lượng cao hơn. Thiết bị này có linh kiện điện tử và nguồn điện riêng nên hoạt động như một repeater có nhiều cổng (port).
+-Intelligent Hub: là một active hub có thêm các chức năng vượt trội như cho phép quản lý từ các máy tính, chuyển mạch (switching), cho phép tín hiệu điện chuyển đến đúng port cần nhận không chyển đến các port không liên quan.
+5)Bridge:
+Là thiết bị cho phép nối kết hai nhánh mạng, có chức năng chuyển có chọn lọc các gói tin đến nhánh mạng chứa máy nhận gói tin. Trong Bridge có bảng địa chỉ MAC, bảng địa chỉ này sẽ được dùng để quyết định đường đi của gói tin.
+6)Switch:
+Là thiết bị giống như bridge nhưng nhiều port hơn cho phép kết nối nhiều đoạn mạng khác nhau. Switch cũng dựa vào bảng địa chỉ MAC để quyết định gói tin nào đi ra port nào nhằm tránh tình trạng giảm băng thông khi số máy trạm tăng lên.
+III.Cách Thức Thiết Lập Một Kết Nối Lan Đơn Giản:
+Để có một kết nối LAN đơn giản giữa hai máy tính ta cần có các thiết bị sau:
+-Hai Card mạng dành cho hai máy tính.
+-Một sợi dây cáp xoắn đôi có hai đầu RJ45.
+Sau khi đã ráp và cài đặt đầy đủ hai Card mạng ta nối dây cáp từ máy này đến máy kia. Đồng thới để kiểm tra kết nối giữa hai máy có hoạt động tốt ta tiến hành các bước sau:
+-Khởi động Norton Commander.
+-Đánh dòng lệnh “C:\>ipconfig /all” và Enter
+-Nếu kết nối được hoàn chỉnh thì máy sẽ hiển thị lên địa chỉ IP của máy mình và các mạng được kết nối và ta đã có thể truy cập các dữ liệu đã được chia sẻ giữa hai máy tính. Nếu không hiển thị, thì ta xem lại dây cáp mạng và các chỗ nối với các Card mạng của hai máy.
+TÀI LIỆU THAM KHẢO
+1.Giáo Trình Kỹ Thuật Truyền Hình Đỗ Hoàng Tiến& Dương Thanh Phong(NXB Khoa Học Kỹ Thuật)
+2.Thiết Kế Diễn Hình Với Powerpoint 2003 Thuận Thành(NXB Trẻ)
+3.Giáo Trình Mạng Máy Tính Trần Văn Thành(Trường Đại Học Khoa Học Tự Nhiên)
+LUẬN VĂN TỐT NGHIỆP ĐIỆN TỬ Mạch MẠNG CAMERA KHÔNG DÂY, thuyết minh Mạch vi MẠNG CAMERA KHÔNG DÂY, NGUYÊN LÝ MẠNG CAMERA KHÔNG DÂY

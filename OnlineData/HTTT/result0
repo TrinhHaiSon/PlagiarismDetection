@@ -1,0 +1,333 @@
+ĐỒ ÁN TỐT NGHIỆP ĐỀ TÀI HỆ THỐNG MẠNG PLC SCADA
+MỤC LỤC
+Chương 1: GIỚI THIỆU HỆ THỐNG SCADA
+KHÁI NIỆM................................................................................................... Trang 1 CẤU TRÚC CƠ BẢN CỦA MỘT HỆ THỐNG SCADA MTU ( Master Terminal Unit) ......................................................... Trang 1 RTU (Remote Terminal Unit)........................................................... Trang 2 Khối truyền thông............................................................................... Trang 2 HỆ THỐNG SCADA HIỆN ĐẠI Cấu trúc hệ thống............................................................................... Trang 3 Các đặc tính chính của hệ thống...................................................... Trang 4 Đặc điểm về giao tiếp giữa người và máy...................................... Trang 4 MẠNG SIMATIC Mạng con (subnet)................................................................................. Trang 5 Các lĩnh vực ứng dụng của các subnet........................................... Trang 5 Các subnet trong SIMATIC.............................................................. Trang 6 CÁC ỨNG DỤNG CỦA HỆ THỐNG SCADA......................................... Trang 7
+Chương 2: TỔNG QUAN VỀ WINCC
+KHÁI NIỆM................................................................................................... Trang 9 Đặc Trưng Cơ Bản Của WINCC......................................................... Trang 9 Chức năng cơ bản của trung tâm điều khiển..................................... Trang 12 Chức năng............................................................................... Trang 12 Cấu trúc .................................................................................. Trang 13 Phản hồi dữ liệu...................................................................... Trang 14 Soạn thảo (Editor)................................................................... Trang 14 Các thành của dự án (Project) ............................................... Trang 15 Khối kênh............................................................................... Trang 16 Kết nối.................................................................................. Trang 17 SOẠN THẢO DỰ ÁN MẪU...................................................................... Trang 19 Chọn PLC hoặc Driver từ Tag Management.............................. Trang 21 Tạo biến............................................................................................. Trang 22 Tạo các ảnh, thiết lập các thuộc tính............................................ Trang 26 Tạo thuộc tính động cho đối tượng............................................... Trang 32 Thiết lập các điều kiện Runtime.................................................... Trang 34 Chạy ứng dụng................................................................................. Trang 35 Mô phỏng ứng dụng hoạt cảnh...................................................... Trang 35 Hiển thị các giá trị xử lí.................................................................. Trang 37 Chức năng Tag Logging.................................................... Trang 37 Nhiệm vụ Tag Logging....................................................... Trang 37 Định dạng Timer................................................................. Trang 38 Tạo lưu trữ........................................................................... Trang 39 Tạo một Trend Windowm trong Graphic Designer...... Trang 41 Tạo một Table Window trong Graphic Designer .......... Trang 42 Cấu trúc Alarm Logging................................................................. Trang 46 Chức năng Alarm Logging................................................ Trang 46 Khởi động Message Wizard ............................................. Trang 49 Định dạng chủ đề thông báo............................................. Trang 50 Cài đặt thông báo mẫu....................................................... Trang 52 Chèn cửa sổ bản tin vào trong bức ảnh.......................... Trang 53 Chạy ứng dụng.................................................................... Trang 55
+Chương 3: BÀI TẬP ỨNG DỤNG
+Đồng hồ số................................................................................................. Trang 57 Yêu cầu.............................................................................................. Trang 57 Sơ đồ giải thuật................................................................................ Trang 57 Lập trình mạch điều khiển với S7 – 300...................................... Trang 59 Khai báo các thiết bị.......................................................... Trang 60 Thiết kế mô phỏng trên Win CC.................................................... Trang 65 Chọn loại PLC hoặc Tag Management............................ Trang 65 Tạo biến................................................................................ Trang 68 Tạo ảnh, thiết lập các thuộc tính...................................... Trang 70 Tạo các văn bản.................................................................. Trang 62 Tạo các thuộc tính động cho các đối tượng................... Trang 73 Đèn giao thông....................................................................... Trang 77 Yêu cầu............................................................................................ Trang 77 Lập trình điều khiển trên S7 – 300....................................... Trang 77 Sơ đồ giải thuật.................................................................. Trang 78 Khai báo các địa chỉ.......................................................... Trang 78 Chương trình đèn giao thông............................................ Trang 80 Lập trình mô phỏng trên Win CC 6.2............................................ Trang 87
+Kết luận......................................................................................................... Trang 90
+Tài liệu tham khảo...................................................................................... Trang 91
+LỜI NÓI ĐẦU
+Chương 1
+
+GIỚI THIỆU HỆ THỐNG SCADA
+SCADA (Supervisory Control And Data Acquisition) là một hệ thống thu thập dữ liệu, giám sát và điều khiển các quá trình từ xa. Người vận hành có thể nhận biết và điều khiển hoạt động các thiết bị thông qua máy tính và mạng truyền thông. Tuy nhiên, trong thực tế có một số hệ thống vẫn thường được gọi là SCADA, mặc dù những hệ thống này chỉ thực hiện duy nhất một chức năng là thu thập dữ liệu.
+KHÁI NIỆM
+SCADA thường được dùng để chỉ tất cả các hệ thống máy tính được thiết kế để thực hiện các chức năng sau:
+Thu thập dữ liệu từ các thiết thiết bị công nghiệp hoặc các cảm biến. Xử lý và thực hiện các phép tính trên các dữ liệu thu thập được. Hiển thị các dữ liệu thu thập được và kết quả đã xử lý. Nhận các lệnh từ người điều hành và gửi các lệnh đó đến các thiết bị của nhà máy. Xử lý các lệnh điều khiển tự động hoặc bằng tay một cách kịp thời và chính xác.
+CẤU TRÚC CƠ BẢN CỦA MỘT HỆ THỐNG SCADA
+Một hệ thống SCADA cơ bản có các thành phần chính là: MTU, RTU và thành phần truyền thông.
+MTU ( Master Terminal Unit)
+MTU là trung tâm của một hệ thống SCADA, trong thực tế nó thường là một hệ máy tính công nghiệp. MTU giao tiếp với người điều hành và RTU thông qua khối truyền thông. Ngoài ra MTU còn được kết nối với các thiết bị ngoại vi như monitor, máy in và có thể kết nối với mạng truyền thông.
+Nhiệm vụ của MTU bao gồm:
+Cập nhật dữ liệu từ các thiết bị RTU và nhận lệnh từ người điều hành. Xuất dữ liệu đến các thiết bị thi hành RTU. Hiển thị các thông tin cần thiết về các quá trình cũng như trạng thái của các thiết bị lên màn hình giúp cho người điều hành giám sát và điều khiển. Lưu trữ, xử lý các thông tin và giao tiếp với các hệ thống thông tin khác.
+RTU (Remote Terminal Unit)
+RTU thu nhận thông tin từ xa, thường đặt tại nơi làm việc để thu nhận dữ liệu và thông tin từ các thiết bị hiện trường như các valve, các cảm biến, các đồng hồ đo… gửi đến MTU để xử lý và thông báo cho người điều hành biết trạng thái hoạt động của các thiết bị hiện trường. Mặt khác, nó nhận lệnh hay tín hiệu từ MTU để điều khiển hoạt động của các thiết bị theo yêu cầu.
+Thông thường các RTU lưu giữ thông tin thu thập được trong bộ nhớ của nó và đợi yêu cầu từ MTU mới truyền dữ liệu. Tuy nhiên, ngày nay các RTU hiện đại có các máy tính và PLC có thể thực hiện điều khiển trực tiếp qua các địa điểm từ xa mà không cần định hướng của MTU.
+Khối truyền thông
+Là môi trường truyền thông giữa các khối thiết bị với nhau, bao gồm phần cứng và phần mềm.
+Phần cứng: là các thiết bị kết nối như modem, hộp nối, cáp truyền và các thiết bị thu phát vô tuyến (trong hệ thống không dây - wireless), các trạm lặp (trong trường hợp truyền đi xa).
+Phần mềm: đó là các giao thức truyền thông (protocol), các ngôn ngữ lập trình được dùng để các thiết bị có thể giao tiếp với nhau.
+CPU của RTU nhận luồng dữ liệu nhị phân theo giao thức truyền thông. Các giao thức có thể là giao thức mở như TCP\IP (Transmission Control Protocol and Internet Protocol) hoặc các giao thức riêng. Những luồng thông tin được tổ chức theo mô hình 7 lớp ISO/OSI. Mô hình OSI được sử dụng để đặt tiêu chuẩn cho cách trao đổi thông tin với các giao thức. Truyền thông và dữ liệu RTU nhận thông tin của nó nhờ vào sự nhận dạng mã trong dữ liệu truyền. Dữ liệu này được biên dịch và được CPU điều khiển thích hợp tác động tại chỗ.
+HỆ THỐNG SCADA HIỆN ĐẠI
+Cùng với sự phát triển vượt bậc của công nghệ viễn thông và công nghệ thông tin. Các hệ thống SCADA ngày nay cho phép thu thập dữ liệu, điều khiển và giám sát trên một phạm vi rộng lớn hơn, có thể lên đến hàng ngàn hay thậm chí là cả hàng chục ngàn kênh Input/Output với tốc độ nhanh và độ tin cậy cao nhờ vào các giao thức mở và các mạng truyền thông như mạng PROFIBUS, WAN, LAN, INTHENET và cả mạng Internet. Hầu hết các phần mềm SCADA ngày nay đều có hỗ trợ kết nối Internet. Mặt khác, trong hệ thống SCADA ngày nay có các PLC có khả năng đảm nhận việc giám sát và điều khiển tại các điểm cục bộ. Tuy nhiên, MTU vẫn không thể thiếu trong hệ thống SCADA.
+Cấu trúc hệ thống
+Ngày nay, các hệ thống SCADA thế hệ mới được xây dựng theo cấu trúc phân bố, trong đó máy chủ được phân bố trên một số các bộ xử lý được nối với nhau thông qua mạng cục bộ (LAN). Trong đó, mỗi bộ xử lý có một nhiệm vụ riêng nhất định như: thu thập và xử lý, xây dựng hiển thị, tạo báo cáo… và một số bộ xử lý dùng để dự phòng.
+Hệ thống được thiết kế theo giao thức mở và cơ chế Client – Server.
+Với:
+IOS: module các ngõ vào ra dữ liệu (Data Input/Output Modules). MMI: module giao tiếp giữa người và máy (Man- Machine Interface). HDC: module lưu trữ dữ liệu thu thập được trong quá khứ (Historical for Data Collection Storage). GW: cổng giao tiếp cho mạng LAN (Gateway for Inter-LAN Comunication). APPS: module tính toán và xử lý ứng dụng (Aplication Calculation and Processing Module).
+Các đặc tính chính của hệ thống
+Các hệ thống SCADA hiện nay có các đặc tính sau:
+Đồ họa hoàn toàn trong quá trình giám sát và điều khiển. Có hệ thống lưu trữ dữ liệu (History) và hiển thị đồ thị quá trình, có khả năng hiển thị đa tín hiệu. Hệ thống cảnh báo và ghi nhận sự kiện (Alarm/ Event System). Hỗ trợ các chuẩn truyền thông nối tiếp, song song và giao thức TCP/IP. Hệ thống báo cáo, báo biểu theo chuẩn công nghiệp. Hỗ trợ các chuẩn giao diện OPC, OLE/DB và các giao diện công nghiệp khác. Khả năng tích hợp tín hiệu Video động. Khả năng đồng bộ về thời gian với hệ thống cũng như giữa các Server và Client.
+Đặc điểm về giao tiếp giữa người và máy
+Về phần giao tiếp giữa người và máy, các hệ thống SCADA ngày nay được trang bị các khối hiển thị hình ảnh VDU (Video Display Unit), hiển thị đầy đủ hình ảnh đồ họa của các quá trình. Ngoài ra còn có kèm theo mouse, trackball, joystick và bàn phím, các nút điều khiển được thay thế bằng các biểu tượng (Icon) trên màn hình. Chúng được tác động bằng mouse, bàn phím hay có thể chỉ tay lên biểu tượng trên màn hình đối với các màn hình cảm ứng.
+Các thiết bị đó giúp cho người điều hành có khả năng:
+Nhanh chóng hoán đổi giữa các hiển thị. Nhanh chóng xem được chi tiết các thông tin được cập nhật. Tạo và sửa đổi các hiển thị trực tiếp trên màn hình hệ thống. Có những hiệu ứng đặc biệt giúp dễ dàng phân biệt trạng thái cũng như nhận biết dữ liệu (Ví dụ: các màu khác nhau cho các trạng thái khác nhau). Ngoài ra các VDU chạy trên môi trường Windows hay Windows-X còn giúp điều hành viên có thể: Xem trên cùng một VDU nhiều mảng thông tin, và truy cập được các dữ liệu nằm rải rác theo địa lý hoặc các dữ liệu thuộc các cơ sở dữ liệu khác nhau.
+Về các RTU, không còn là những thiết bị thụ động nữa mà chúng làm nhiệm vụ thu thập và lưu giữ dữ liệu vùng. Nhiều mức xử lý dữ liệu và điều khiển được thực hiện tại các RTU.
+Nhiều loại thiết bị có thể được nối vào các RTU như: PLC, máy đo lưu lượng, thiết bị lấy chuẩn trong các bin hay các bồn chứa… Các RTU có thể được kết nối theo kiểu phân bố hoặc kiểu phân cấp. Dữ liệu của các RTU được xử lý tại trạm chủ.
+Về cơ sở dữ liệu, các dữ liệu được lưu trữ không chỉ là dữ liệu đo đạc từ xa được tính toán mà còn là các thông số bảo vệ, các sự kiện, các mẫu tin cũng như các cảnh báo. Do tính chất phân bố của SCADA nên cơ sở dữ liệu cũng được phân bố. Cơ sở dữ liệu cũng có thể liên hệ với hệ thống quản trị thông tin (Managerment Information System) và hệ thống thông tin địa lý GIS (Geographic Information System). Ngoài ra, các dữ liệu có thể được bảo mật bằng các password.
+MẠNG SIMATIC Mạng con (subnet)
+Subnet là toàn bộ các thành phần vật lý cần thiết để xây dựng thành một đường truyền dữ liệu cũng như các thủ tục cần thiết cần thiết để chuyển dữ liệu.
+Các lĩnh vực ứng dụng của các subnet
+SIMATIC cung cấp các mạng truyền thông thích hợp cho các yêu cầu khác nhau:
+Industrial Ethernet. PROFIBUS. MPI. Giao tiếp AS
+Cấp quản lý/quản trị (Management Level)
+Ở cấp quản trị, các công việc giám sát được xử lý ảnh hưởng đến toàn bộ các công việc (các chức năng quản trị). Chúng bao gồm lưu giữ các giá trị quá trình, tối ưu hóa và phân tích các chức năng xử lý, cũng như xuất các kết quả thành các báo cáo. Dữ liệu cần cho các báo cáo này được thu thập từ nhiều chỗ và đã được xử lý. Từ cấp quản lý, có thể truy cập các chỗ khác. Số trạm có thể lớn hơn 1000.
+Cấp cell
+Ở cấp cell, các chức năng tự động hóa và tối ưu hóa được xử lý tự động. Ở cấp này các PLC, PC và HMI (Human Machine Interfaace) được nối kết lại với nhau.
+Cấp field
+Cấp field là nối kết giữa những nơi lắp đặt máy móc và các PLC. Các thiết bị trường (field device) đo lường, báo hiệu và phát các lệnh từ cấp cell đến các máy móc. Thường thì chuyển các khối dữ liệu nhỏ. Ở cấp này thì thường sắp xếp truyền thông phân cấp, nghĩa là nhiều thiết bị trường truyền thông với một master.
+Cấp Actuator/Sensor
+Ở cấp này thì master truyền thông với các actuator và sensor được nối vào subnet. Đặc tính chính của nó là thời gian đáp ứng nhanh với số bit dữ liệu nhỏ.
+Các subnet trong SIMATIC
+SIMATIC cung cấp các subnet sau đây mà chúng đạt được các yêu cầu của các cấp hệ thống tự động khác nhau (cấp quản trị, cấp cell, cấp trường và cấp actuator/sensor).
+MPI (Multipoint Interface)
+MPI là một subnet cho một phủ nhỏ và một số ít các trạm cho cấp cell và cấp field. MPI là giao tiếp đa điểm trong các hệ thống SIMATIC S7. Nó được thiết kế như giao tiếp thiết bị lập trình và dùng để nối mạng một số ít CPU nhằm để trao đổi các khối dữ liệu nhỏ.
+PROFIBUS
+PROFIBUS là mạng cho cấp cell và field trong hệ thống truyền thông mở của SIMATIC. Có hai phiên bản PROFIBUS:
+PROFIBUS-DP fieldbus (DP= Distributed I/O) để trao đổi dữ liệu tuần hoàn tốc độ cao, và PROFIBUS PA (PA= Process Actumation) cho các ứng dụng vốn có sẵn an toàn.
+PROFIBUS FDL (Fieldbus Data Link) hoặc PROFIBUS FMS (Fieldbus Message Specification) trong cấp cell để trao đổi dữ liệu tốc độ cao với các cộng sự truyền thông có quyền bằng nhau.
+Industrial Ethernet
+Industrial Ethernet là mạng cho cấp quản trị và cấp cell trong hệ truyền thông mở SIMATIC. Industrial Ethernet thích hợp cho việc trao đổi dữ liệu có lượng dữ liệu lớn.
+Giao tiếp AS
+Giao tiếp AS hay giao tiếp actuator/sensor (được viết tắt là AS-I hay ASI) là hệ subnet cho các cấp quá trình thấp nhất trong các hệ thống tự động. Nó được thiết kế đặc biệt cho kết nối giữa các sensor và actuator nhị phân. Lượng dữ liệu bị giới hạn ở 4 bit cho một trạm slave.
+CÁC ỨNG DỤNG CỦA HỆ THỐNG SCADA
+Ngày nay hệ thống SCADA được ứng dụng rộng rãi trong hầu hết các lĩnh vực công nghiệp. Đặc biệt trong một số lĩnh vực sau:
+Hệ thống SCADA cho các trạm trộn bê tông, các nhà máy sản xuất xi-măng, các nhà máy chế biến thực phẩm, nước giải khát. Hệ thống SCADA cho hệ thống vận chuyển hành lý và hàng hoá tại các sân bay, bến cảng. Hệ thống SCADA giám sát các giàn khoan ống dẫn dầu, dẫn khí. Hệ thống SCADA cho nhà máy nước, xử lý chất thải, các kho xăng dầu. Hệ thống SCADA cho hệ thống phân phối lưới điện. Ngoài ra, hệ thống SCADA còn được ứng dụng để giám sát và điều khiển trong các nhà máy hạt nhân và trong các ngành kỹ thuật hàng không vũ trụ và một số ngành công nghiệp công nghệ cao khác.
+Chương 2
+TỔNG QUAN VỀ WINCC
+Thông thường một hệ thống SCADA (Supervisory Control And Data Aquisition) yêu cầu một phần mềm chuyên dụng để xây dựng giao diện điều khiển (Human Machine Interface) cũng như phục vụ việc sử lý và lưu trữ dữ liệu. Phần mềm WinCC của Siemens là một phần mềm chuyên dụng cho mục đích này.
+KHÁI NIỆM.
+WinCC là một trong các chương trình ứng dụng Scada (HMI) trong lĩnh vực dân dụng và công nghiệp. WinCC được dùng để điều hành các màn hình hiện thị và hệ thống điều khiển trong tự động hóa sản xuất và quá trình.
+WinCC là chữ viết tắt của Window Control Center, là một phần mền của hãng Siemens dùng để giám sát, điều khiển và thu thập dữ liệu trong quá trình sản xuất. Theo nghĩa hẹp, WinCC là chương trình hỗ trợ cho người lập trình thiết kế giao diện Người và Máy – HMI (Human Machine Interface) trong hệ thống SCADA (Supervisory Control And Data Acquisition), với chức năng chính là thu thập dữ liệu, giám sát và điều khiển quá trình sản xuất. Những thành phần có trong WinCC dễ sử dụng, giúp người dùng tích hợp những ứng dụng mới hoặc có sẵn mà không gặp bất kỳ trở ngại nào.
+WinCC cung cấp các module chức năng thường dùng trong công trong công nghiệp như: hiển thị hình ảnh, tạo thông điệp, lưu trữ và báo cáo. Giao diện điều khiển mạnh, việc tuy cập ảnh nhanh chóng và chức năng lưu trữ an toàn (bảo mật) của nó bảo đảm tính hữu dụng cao.
+Với WinCC, người dùng có thể trao đổi dữ liệu trực tiếp với nhiều PLC của các hãng khác nhau như Misubishi, Allen Braddly, Siemens,v.v…thông qua cổng COM với chuẩn RS – 232 của máy tính với chuẩn RS – 485 của PLC.
+Đặc Trưng Cơ Bản Của WINCC.
+WinCC 6.2 chạy trên hệ điều hành Microsoft Window XP, Windows 2000. Do có tính chất mở và thường xuyên được cập nhật, phát triển nên WinCC tương thích với nhiều phần mềm chuẩn tạo nên giao diện người và máy đáp ứng nhu cầu sản xuất. Nếu bạn là những nhà phát triển hệ thống, có thể ứng dụng WinCC để phát triển ứng dụng của mình qua giao diện mở của WinCC. Chương trình tích hợp được nhiều ứng dụng, tận dụng dịch vụ của hệ thống có quy mô nhỏ và vừa khác nhau, cho tới việc xây dựng các hệ thống có quy mô lớn như MES: Hệ thống quản lý việc thực hiện sản xuất – Manufacturing Excution System, hệ thống ERP – Enterprise Resouce Planning.
+Tùy theo khả năng của người thiết kế cũng như các phần hỗ trợ khác mà WinCC đã và đang được phát triển trong nhiều lĩnh vực khác nhau.
+Ứng dụng phổ biến nhất của WinCC là:
+Tự động hóa quá trình điều khiển và giám sát quy trình sản xuất. Khi một hệ thống dùng chương trình WinCC để điều khiển và thu thập dữ liệu từ quá trình, nó có thể mô phỏng bằng hình các sự kiện xảy ra trong quá trình điều khiển dưới dạng các chuỗi sự kiện. WinCC cung cấp nhiều hàm chức năng cho mục đích hiển thị, thông báo bằng đồ họa, xử lý thông tin đo lường, các tham số công thức, các bảng ghi báo cáo, v.v … đáp ứng yêu cầu ngày một phát triển và là một trong những chương trình ứng dụng trong thiết kế giao diện Người – Máy (HMI), sử dụng phổ biến nhất hiện nay nhờ vào hệ thống trợ giúp của Siemens có mặt tại nhiều nước trên thế giới trong đó có Việt Nam.
+Khi sử dụng WinCC để thiết kế giao diện điều khiển Người – Máy (HMI) và mạng SCADA, WinCC sử dụng các chức năng sau:
+Graphics Designer: thực hiện dễ dàng các chức năng mô phỏng và hoạt động qua các đối tượng đồ họa của WinCC, Windows, OLE, I/O,… với nhiều thuộc tính động (Dynamic). Alarm Logging: thực hiện việc hiển thị các thông báo hay các báo cáo trong khi hệ thống vận hành. Đảm trách về các thông báo nhận được và lưu trữ, để chuẩn bị, hiển thị, hồi đáp và lưu trữ chúng. Ngoài ra, Alarm Logging còn giúp ta tìm nguyên nhân của lỗi. Tag Logging: Thu thập, lưu trữ và nén các giá trị đo dưới nhiều dạng khác nhau. Tag Logging cho phép lấy dữ liệu từ các quá trình thực thi, chuẩn bị để hiện thị và lưu trữ dữ liệu đó. Dữ liệu có thể cung cấp các tiêu chuẩn về công nghệ và kỹ thuật quan trọng liên quan đến trạng thái hoạt động của toàn hệ thống. Report Designer: có nhiệm vụ tạo các thông báo, báo cáo và các kết quả này được lưu dưới dạng các trang nhật ký sự kiện. User Achivers: cho phép người sử dụng lưu trữ dữ liệu từ chương trình ứng dụng và có khả năng trao đổi với các thiết bị khác. Điều này có nghĩa: các công thức, thông số quan trọng trong chương trình WinCC có thể soạn thảo, lưu trữ và sử dụng trong hệ thống.
+WinCC sử dụng bộ công cụ thiết kế giao diện đồ họa mạnh như: Toolbox, các Control, OLE,…được đặt dễ dàng treeb giao diện thiết kế. Ngoài ra, để phục vụ cho công việc giám sát điều khiển tự động WinCC còn trang bị thêm nhiều tính năng mới mà các công cụ khác không có như:
+Các Control thông qua hệ thống quản lí dữ liệu có thể gắn với một biến theo dõi trạng thái của hệ thống điều khiển. Thông qua đó, tác động đến việc giám sát trạng thái. Thông qua hệ thống, thông điệp có thể thực hiện được những hành động tương ứng khi trạng thái thay đổi. Trong WinCC, ngôn ngữ C – Sript được dùng để thao tác giúp cho việc xử lý các sự kiện phát sinh một cách mềm dẻo và linh hoạt.
+WinCC cho phép người sử dụng có khả năng truy cập vào các hàm giao diện chương trình ứng dụng API (Application Program Interface) của hệ điều hành. Ngoài ra, sự kết hợp giữa chương trình WinCC và các công cụ phát triển riêng như: Visual C++ hoặc Visual Basic sẽ tạo ra hệ thống có tính đặc thù cao, tinh vi, gắn riêng với một cấu hình cụ thể nào đó.
+WinCC có thể tạo một giao diện Người – Máy (HMI) dựa trên cơ sở giao tiếp giữa con người và hệ thống máy , thiết bị điều khiển ( PLC, CNC,…) thông qua các hình ảnh, sơ đồ, hình vẽ hoặc câu chữ có tính trực quan hơn. Có thể giúp người vận hành theo dõi được quá trình làm việc, thay đổi các tham số, công thức hoặc quá trình hoạt động, hiển thị các giá trị hiện thời cũng như giao tiếp với quá trình công nghệ thông qua các hệ thống tự động. Giao diện HMI cho phép người vận hành giám sát các quy trình sản xuất và cảnh báo, báo động hệ thống khi có sự cố. Do đó, WinCC là chương trình thiết kế giao diện Người – Máy thật sự cần thiết, không thể thiếu trong các hệ thống co quá trình tự động hóa phức tạp và hiện đại.
+Việc sử dụng chương trình WinCC để điều khiển và giám sát hệ thống tự động hóa trong quá trình sản xuất đã cho kết quả điều khiển chính xác.
+Từ máy tính trung tâm, có thể điều khiển sự hoạt động toàn bộ dây chuyền sản xuất được lập trình trên WinCC, bạn có thể giám sát tất cả các thiết bị trên dây chuyền. Dựa vào giao diện HMI, có thể giám sát và thu thập dữ liệu vào ra (I/O) một cách chính xác, hỗ trợ các phương thức xử lí dữ liệu, tổ chức số liệu một cách linh hoạt thông qua kiểu lập trình bằng ngôn ngữ C.
+Chức năng của trung tâm điều khiển (Control Center) Chức năng
+Control Center chứa tất cả các chức năng quản lý cho toàn hệ thống. Trong Conlrol Center, có đặt cấu hình và khởi động Run – time.
+Nhiệm vụ quản lý dữ liệu:
+Quản lý dữ liệu cung cấp ảnh quá trình với các giá trị của Tag. Tất cả các hoạt động của quản lí dữ liệu đều chạy trên một Background (nền).
+Nhiệm vụ của Control Center:
+Các nhiệm vụ chính của Control Center:
+Lập cấu hình hoàn chỉnh. Hướng dẫn giới thiệu việc lập cấu hình. Thích ứng việc ấn định, gọi và lưu trữ các dự án (Project). Quản lý các dự án (Project). Có khả năng nối mạng và soạn thảo cho nhiều người sử dụng trong một project. Quản lý phiên bản. Diễn tả bằng đồ thị của dữ liệu cấu hình. Điều khiển và đặt cấu hình vẽ/cấu trúc hệ thống. Thiết lập việc cấu hình toàn cục. Đặt cấu hình cho các chức năng định vị đặc biệt. Tạo và soạn thảo các tham khảo đan chéo. Phản hồi dữ liệu. Báo cáo trạng thái hệ thống. Thiết lập hệ thống đích. Chyển giữa Run time và cấu hình. Kiểm tra chế độ mô phỏng, trợ giúp thao tác để đặt cấu hình bao gồm: Dịch hình vẽ, mô phỏng Tag, hiển thị trạng thái và thiết lập thông báo.
+Cấu trúc
+Control Center có cấu trúc như sau:
+Control Center. Tìm hiểu WinCC trong Control Center. Giao diện đồ họa cho cấu hình dưới môi trường Windows 2000 và Windows XP. Quản lí dữ liệu. Cung cấp ảnh quá trình với giá trị của biến (Tag). Truyền dữ liệu và quản lí dữ liệu đã nhận từ các hệ thống tự động. Các module chức năng Phân hệ đồ họa (Graphic Designer). Hiển thì và kết nối quá trình bằng đồ thị. Viết chương trình cho các thao tác (Global Scrips). Tạo một dự án động cho các yêu cầu đặc biệt. Hệ thống thông báo (Alarm Logging). Xuất các thông báo và hồi đáp. Lưu trữ và soạn thảo các giá trị đo lường (Tag Logging). Soạn thảo các giá trị đo và lưu trữ trong thời gian dài. Soạn thảo dữ liệu liên quan đến người sử dụng và lưu trữ chúng trong thời gian dài. Phân hệ báo cáo (Report Designer).
+Báo cáo trạng thái hệ thống.
+Phản hồi dữ liệu
+Đối với trung tâm điều khiển (Control Center), việc in ra một hệ thống định sẵn có trong báo cáo thiết kế (Report Designer) để hiển thị tài liệu. Tất cả các máy tính, các biến (Tags) và các kết nối đã định hình đều được in ra bằng “Print Job” hay hiển thị trên màn hình.
+Các dữ liệu dự án được xuất ra bằng cách phản hồi tài liệu
+Máy tính: Tên và kiểu máy tính (Sever và Client). Tag Management: Tên biến (tag), kiểu dữ liệu, kết nối, kênh. Kết nối: kết nối đơn vị và tham số.
+Soạn thảo (Editor).
+Editor dùng soạn thảo và điều khiển một dự án (Project) hoàn chỉnh.
+Các bộ soạn thảo trong trung tâm điều khiển ( Control Center) bao gồm:
+Chương trình soạn thảo Giải thích Alarm Logging (Báo động) Nhận các thông báo từ các quá trình để chuẩn bị, hiển thị, hồi đáp và lưu trữ các thông báo này. User Administrator (Quản lí người dùng) Cho phép các nhóm và người sử dụng điều khiển truy nhập. Text Library (Thư viện văn bản) Chứa các văn bản tùy thuộc ngôn ngữ do người dùng tạo ra. Report Designer (Báo cáo) Cung cấp hệ thống báo cáo được tích hợp có thể sử dụng để báo cáo dữ liệu, các giá trị, thông báo hiện hành và đã lưu trữ, hệ thống tài liệu của chính người sử dụng. Global Script (Viết chương trình) Cho phép tạo các dự án động tùy thuộc vào từng yêu cầu đặc biệt. Bộ soạn thảo này cho phép tạo các hàm và các thao tác có thể được sử dụng trong một hay nhiều dự án tùy theo kiểu của chúng. Tag Logging (Hiển thị giá trị xử lí) Xử lý các giá trị đo lường và lưu trữ chúng trong thời gian dài. Graphics Designer (Thiết kế đồ họa) Cung cấp các màn hình hiển thị và kết nối đến các quá trình.
+Các thành của dự án (Project) trong Control Center
+Một dự án bao gồm các thành phần sau: máy tính, quản lý biến, kiểu dữ liệu, soạn thảo.
+Máy tính.
+Thành phần máy tính (Computer) dùng quản lí tất cả máy tính có thể truy cập một dự án hiện có. Có thể đặt cấu hình cho mỗi máy tính riêng biệt.
+Các thuộc tính của máy tính: bao gồm tên máy tính và kiểu máy tính.
+Server: máy tính trung tâm để lưu trữ và quản lí toàn cục trong hệ thống WinCC. Client: cũng được định nghĩa như một trạm làm việc (Work station). Trung tâm điều khiển (Control Center) được tải cục bộ trong từng máy tính loại này. Thành phần này có nhiều mục con như: các bộ điều khiển truyền thông để quản lí biến (tag) quá trình, các tag nội, các tag nội, các kết nối logic và các nhóm biến. Các bộ điều khiển truyền thông: Bộ giao diện truyền thông là giao diện kết nối giữa một hệ thống PLC và WinCC. Hệ thống WinCC chứa các bộ điều khiển truyền thông (liên kết động) trong kênh DLL với các thông tin về:
+Điều kiện tiên quyết cần để xử lý các tag quá trình bằng PLC. Các thủ tục để kết nối với tag ngoài. Giới thiệu cấu hình đặc biệt của kênh DLL.
+WinCC hỗ trợ nhiều hãng khácvới chuẩn khác nhau như: Modbus Protocol Suitel.chn, Mitsubishi FX.CHN, profibus DP.CHN, Modbus serial.CHN, Simatic S7 Protocol Suite.CHN, Simatic S5 Ethernet TF.CHN,…
+Khối kênh
+Một kênh trông WinCC được thực hiện như một Windows DLL và được liên kết động với hệ thống. Mỗi kênh WinCC thực hiện việc truy nhập các tham số kết nối đặc biệt với các nghi thức đặc biệt (chẳng hạn kênh Simatic S5 Ethernet TF hôc trợ việc truy nhập Simatic S5 với TF Protocol). Một kênh DLL có thể hỗ trợ nhiều khối kênh của một kiểu. Ví dụ: kênh DLL của Simatic S5 Ethernet TF được điều khiển với khối SINEC – H1 (CP1413) cũng như khối SINEC – L2 (CP5412) tại cùng một thời điểm. Quản lí dữ liệu của WinCC đòi hỏi các giá trị quá trình lúc “Run – time” từ PLC ở xa thông qua kết nối logic. Khối kênh sẽ thực hiện các bước truyền thông cần thiết để đáp ứng các yêu cầu về các giá trị quá trình bằng kết nối kênh đặc biệt, do đó cung cấp các giá trị quy trình cho quản lí dữ liệu WinCC. Dữ liệu đọc vào được lưu trữ như ảnh quá trình trong RAM của máy tính. Tất cả các thành phần của WinCC đều truy nhập ảnh quá trình này. Các kết nối logic, các nhóm tag và các tags cũng có thể được ấn định vào một khối kênh.
+Kết nối
+Một kết nối logic mô tả giao diện giữa hệ thống tự động và quản lí dữ liệu trong WinCC. Quản lí dữ liệu của máy Server đảm trách việc cung cấp các tags với các giá trị quá trình khi Run time. Quản lí dữ liệu cung cấp các giá trị quá trình đến các tags nội bộ của nó cũng như các tags của máy Client tương ứng. Quản lí dữ liệu chuyển các tags được truy cập đến kết nối logic của chúng vì thế đến được kênh thích hợp. Các kênh sẽ thực hiện các bước truyền thông cần thiết bằng tuyến quá trình để gán giá trị cho các tags.
+Biến (tag)
+Tags WinCC là phần tử trung tâm để truy nhập các giá trị quá trình. Trong một dự án, chúng nhận một tên và một kiểu dữ liệu duy nhất. Kết nối logic sẽ được gán với WinCC. Kết nối này xác định rằng kênh nào sẽ chuyển giao giá trị quá trình cho các biến.
+Các biến được lưu trữ trong cơ sở dữ liệu toàn dự án. Khi một chế độ của WinCC khởi động, tất cả các biến trong một dự án được nạp và cấu trúc Run – time tương ứng được thiết lập. Mỗi biến được lưu trữ trong quản lí dữ liệu theo một kiểu dữ liệu chuẩn.
+Biến nội
+Các biến nội không có địa chỉ trong hệ thống PLC, do đó quản lí dữ liệu bên trong WinCC sẽ cung cấp cho toàn bộ mạng hệ thống (Network). Các biến nội được dùng để lưu trữ thông tin tổng quát như: ngày, giờ hiện hành, lớp hiện hành, cập nhật liên tục. Hơn nữa, các biến nội còn cho phép trao đổi dữ liệu giữa các ứng dụng để thực hiện việc truyền thông cho cùng quá trình theo cách tập trung và tối ưu.
+Biến quá trình
+Trong hệ thống WinCC, biến ngoài cũng được hiểu lag tag quá trình. Các biến quá trình được liên kết với truyền thông logic để phản ánh thông tin về địa chỉ của các hệ thống PLC khác nhau. Các biến ngoài chứa một tổng quát gồm các thông tin về tên, kiểu, giá trị giới hạn và một mục chuyên biệt về kết nối và cách diễn tả phụ thuộc cách kết nối logic. Quản lí dữ liệu luôn cung cấp những mục đặc biệt của quá trình cho các ứng dụng trong một mẫu văn bản.
+Nhóm biến
+Nhóm biến chứa tất cả các biến có kết nối logic lẫn nhau.
+Ví dụ về các nhóm biến:
+CPU: nhóm này chứa tất cả các biến truy nhập cùng một CPU. Lò nhiệt: nhóm này chứa tất cả các biến truy cập cho một lò. I/O số: nhóm này chứa tất cả các biến truy nhập các đầu vào / ra số. I/O tương tự: nhóm này chứa tất cả các biến truy nhập các đầu vào / ra tương tự.
+Một kết nối logic diễn tả giao diện giữa hệ thống tự động và quản lí dữ liệu. Mỗi nhóm biến được gán với một khối kênh. Một kênh có thể có nhiều nhóm biến.
+Các kiểu dữ liệu
+Biến phải gán một trong các kiểu dữ liệu sau cho mỗi biến được định cấu hình. Việc gán kiểu dữ liệu cho biến được thực hiện trong khi tạo một biến mới.
+Kiểu dữ liệu của một biến độc lập với kiểu biến ( Biến nội hay biến quá trình). Trong WinCC, một kiểu dữ liệu nào đó cũng đều có thể được chuyển đổi thành kiểu khác bằng cách điều chỉnh lại dạng.
+Các kiểu dữ liệu ( Data Types) có trong WinCC:
+Binary Tag: kiểu nhị phân. Signed 8 – Bit Value: kiểu 8 bit có dấu. Unsigned 8 – Bit Value: kiểu 8 bit không dấu. Signed 16 – Bit Value: kiểu 16 bit có dấu. Unsigned 16 – Bit Value: kiểu 16 bit không dấu. Signed 32 – Bit Value: kiểu 32 bit có dấu. Unsigned 32 – Bit Value: kiểu 32 bit không dấu. Floating Point Number 32 bit IEEE 754: kiểu số thực 32 bit theo tiêu chuẩn IEEE 754. Floating Point Number 64 bit IEEE 754: kiểu số thực 64 bit theo tiêu chuẩn IEEE 754. Text Tag 8 bit character set: kiểu kid tự 8 bit. Text Tag 16 bit character set: kiểu kid tự 16 bit. Raw Data type: kiểu dữ liệu thô. Sau đây là vài kiểu dữ liệu thường dùng:
+Kiểu dữ liệu 8 – bit không dấu: kiểu này có độ dài 1 byte và không có dấu.
+Adapt Format Number Range
+Byte To Unsigned Byte 0 to 255
+Byte To Unsigned Word 0 to 255
+Byte To Unsigned Dword 0 to 255
+Byte To Signed Byte 0 to 127
+Byte To Signed Word 0 to 255
+Byte To Signed Dword 0 to 255
+Byte To BCD Byte 0 to 99
+Byte To BCD Word 0 to 255
+Byte To BCD Dword 0 to 255
+… …
+SOẠN THẢO DỰ ÁN MẪU
+Để soạn thảo một dự án “Project” trong WinCC, cần thực hiện theo các bước sau:
+Tạo một dự án “Project” WinCC mới. Chọn PLC hoặc Driver từ Tag management. Tạo các biến nội (Internal). Tạo hình ảnh từ cửa sổ giao diện Grsphic Designer. Thiết lập các thuộc tính của hình ảnh được tạo từ phân hệ Graphic Designer. Thiết lập môi trường thời gian thực hiện. Chạy mô phỏng.
+TẠO DỰ ÁN (PROJECT) MỚI
+Đầu tiên khởi động chương trình Windows Control Center 6.2 bằng cách nhấp chọn Start > SIMATIC > WinCC > WinCC V6.2 SP2.
+Hộp thoại WinCC Explorer xuất hiện, trong khung Create a New Project có 3 lựa chọn:
+Single – User Project. Multi – User Project. Client Project.
+Nếu chọn Single – User Project hoặc Multi – User Project, phải nhập tên dự án. Để mở dự án có sẵn, chọn Open an Existing Project. Sau đó, tìm đến file có phần mở rộng “.mcp”.
+Dự án này được thực hiện trên máy đơn không có nối mạng nên ta chọn mục Single – User Project sau đó nhấp OK chấp nhậHộp thoại Create a new project xuất hiện, đặt tên cho dự án trong khung Project name: DUANMAU. Trong khung Project Path, chọn ổ đĩa và thư mục để lưu trữ dự án: E:\WinCC. Tiếp tục nhấn nút Create tạo dự án.
+Cửa sổ soạn thảo WinCCExplorer xuất hiện như hình dưới: Chọn PLCc hoặc driver từ Tag Management.
+Để thiết lập kết nối truyền thông giữa WinCC với các thiết bị, cần có một mạng liên kết chung với nhau trong việc trao đổ dữ liệu. Do đó cần chọn một Driver.
+Driver: là giao diện liên kết giữa WinCC và PLC (Programable Logic Control).
+Trong dự án này, nhấp chuột phải vào Tag Management. Từ trình đơn xổ xuống, chọn Add New Driver… như hình bên:
+Hộp thoại Add New Driver xuất hiện, cho phép chọn mạng kết nối giữa WinCC và PLC. Nhấp chọn mạng Simatic S7 Protocol Suite.chn (kết nối với PLC S7 – 300) và nhấp Open để mở.
+Hộp thoại Connection properties xuất hiện để khai báo thuộc tính kết nối. Tại mục Name, đặt tên PLC1. Nhấp chọn OK chấp nhận.
+Trở lại giao diện soạn thảo WinCCExplorer, cổng kết Simatic S7 Protocol Suite.chn hiển thị trạm PLC1 cùng với thông số như hình dưới:
+Tạo biến
+Để tạo kết nối các thiết bị của một dự án trong WinCC, trước tiên phải tạo các Tags (biến) trên WinCC. Biến được tạo trên Tag Management.
+Biến gồm có biến nội (Internal Tags) và biến ngoại (External Tags).
+Biến nội (Internal).
+Là biến có sẵn trong WinCC. Những biến nội này là vùng nhớ trong WinCC, nó có chức năng như một PLC thực sự.
+Biến ngoại (External).
+Là biến quá trình, nó phản ánh thông tin địa chỉ của hệ thống PLC khác nhau. Các Tags được lưu trong bộ nhớ PLC hoặc trên các thiết bị khác. Chương trình WinCC kết nối với PLC thộng qua các Tags.
+Tạo những nhóm biến (Tags Groups) thiết bị.
+Khi dự án có một khối lượng dữ liệu với nhiều biến, các biến này tổ chức thành một nhóm biến sao cho thích hợp, đúng qui cách. Nhóm biến là những cấu trúc bên dưới sự kết nối PLC, người thiết kế có thể tạo nhiều nhóm biến và biến trong mỗi nhóm biến nếu cần.
+Để tạo nhóm biến, nhấp phải chuột vào PLC1 và chọn mục New Group.
+Hộp thoại Propertise of tag group xuất hiện. Đặt tên nhóm ở mục Name là
+BON và nhấp OK chấp nhận. Thực hiện tương tự để tạo nhóm biến DONGCO. Bên dưới mục PLC1 có hai nhóm biến BON và DONGCO như hình:
+Tạo biến quá trình (biến ngoại).
+Để thiết lập biến quá trình, nhấp phải vào nhóm biến BON, chọn New Tag…
+Hộp thoại Tag Properties xuất hiện. Tab General được chọn mặc định. Thiết lập tham số ở các mục như sau: Trong khung Properties of Tags, nhập tên biến ở mục Name là BON1.
+Tại mục Data Type, nhấp mũi tên xổ xuống và chọn kiểu dữ liệu Unsigned 8 – bit value.
+Ở mục Address nhấp nút Select.
+Hôp thoại Address Properties xuất hiện. Trong khung Description, chọn thông số ở các mục như sau:
+Mục Data, chọn dữ liệu Bit memory.
+Mục Address, chọn địa chỉ có trong PLC, là Byte.
+Mục MB, nhập 1.
+Các mục khác chọn như mặc định, nhấp OK chấp nhận.
+Trở lại hộp thoại Tag Properties, chọn mục Linear scaling. Và nhập giá trị như hình dưới, nhấp OK chấp nhận.
+Trong nhóm biến BON, lúc này, biến BON1 đượcthiết lập cùng với thông số kiểu dữ liệu Type, Parameters và ngày giờ thiết lập như hình:
+Ghi chú: tương tự như trên, có thể tạo nhiều biến quá trình (Biến ngoại) nếu hệ thống có nhiều thiết bị vào/ra.
+Tạo các biến nội (Internal Tags)
+Các biến nội được tạo dễ dàng và sao đó gán vào một PLC thật. Các biến này có nhiệm vụ xử lý và giám sát quá trình hoạt động cũng như vận hành.
+Tạo các biến nội bằng cách nhấp phải vào Internal tags, chọn New Tag…
+Hộp thoại Tag Properties xuất hiện. Tab General được chọn mặc định. Đặc tên biến ở mục Name: BONNUOC, chọn kiểu dữ liệu cho phù hợp với mỗi kiểu thiết bị.
+Ví dụ: nếu biến là “động cơ” thì chọn dữ liệu Binary Tag. Nếu biến là “bồn nước” thì chọn dữ liệu Unsigned 8 – bit value v.v…
+Trong hộp thoại Tag Properties, nhấp chọn tab Limits/Reporting để đặc các thông số giới hạn cho biến.
+Nhập các thông số như: mục Upper Limit (giới hạn trên), nhập 100. Mục Lower Limit (giới hạn dưới), nhập 5 và mục Start Value (Giá trị bắt đầu) nhập 5. Nhấp OK chấp nhận các giá trị thiết lập.Thực hiện tương tự để thiết lập các biến có trong dự án. Kết quả tạo được 2 biến DONGCO và SUCO với kiểu dữ liệu Binary Tag như hình dưới:
+Tạo ảnh, thiết lập các thuộc tính.
+Tạo ảnh
+Để tạo ảnh, đầu tiên phải mở giao diện đồ họa bằng cách, nhấp phải vào mục Graphics Designer, chọn mục New picture từ trình đơn xổ xuống.
+Bên phải WinCCExplorer có tên NewPdlo.Pdl. Nếu một dự án lớn có nhiều khâu điều khiển, có thể tạo nhiều File ảnh để hiển thị và tạo nút chuyển đổi giữa các File ảnh với nhau để việc giám sát và điều khiển dễ dàng hơn.
+Đổi tên bức ảnh vừa tạo bằng cách nhấp chuột phải vào mục NewPdl.Pdl, từ trình đơn xổ xuống chọn Rename picture.
+Hộp thoại New Name xuất hiện, nhập tên cho ảnh là DU AN MAU. Nhấp OK chấp nhận.
+Tương tự, tạo file ảnh có tên Tag Logging.pdl, Alarm Logging.pdl, MOHINH.pdl như hình dưới:
+Để mở file DU AN MAU, nhấp chuột phải chọn Open Picture.
+Cửa sổ giao diện thiết kế đồ họa Graphics Designer xuất hiện.
+Trên cửa sổ Graphics Designer: thiết lập những bức ảnh xử lý, giám sát và điều khiển từ những công cụ sau:
+Color Palette (bảng màu): gồm có 16 màu tiêu chuẩn, có thể gán cho màu nền hoặc đối tượng khác. Object Palette (bảng đối tượng) bao gồm: Các đối tượng chuẩn (Standard Object) như: Ellipse, đa giác (Polygon), hình chữ nhật (Rectangle), cung tròn (Circular Arc) … Các đối tượng thông minh (Smart Object): điều khiển OLE (OLE control), thanhg phần OLE (OLE elements),trường vào/ra (I/O field). Đối tượngWindows (Windows Object): gồm nút nhấn (Button), hộp kiểm tra (Check box), thanh trượt (Slider Object)…
+Dynamic Wizard Palette (bảng hình động) dung hỗ trợ cho việc tạo các đối tượng động cho mô hình thiết kế. Alignment Palette (bảng canh chỉnh vị trí): xác định việc thay đổi vị trí cho một hoặc nhiều đối tượng, thay đổi vị trí của đối tượng được chọn hoặc hợp nhất chiều cao và chiều rộng của nhiều đối tượng. Zom Palette (Bảng Zoom): phóng to, thu nhỏ cửa sổ màn hình đồ họa bằng cách di chuyển thanh trượt. Menu bar (thanh ghi tùy chọn): Gồm tất cả những lệnh có sẵn trên thanh trình đơn của giao diện thiết kế Graphics Designer. Standard Toolbar (Thanh công cụ chuẩn): bao gồm những biểu tượng hoặc nút nhấn. Cho phép thực hiện những lệnh thông dụng như: mở file mới (New), mở file có sẵn (Open), lưu File ảnh (Save), sao chép (copy), cắt (cut), dán (paste),… Layer Bar (thanh Layer): bao gồm 16 Layer (Layer 0 – 15). Lyer 0 để thiết lập mặc định của Graphics Designer.
+Thiết lập các thuộc tính hình ảnh
+Để thiết lập các thuộc tính hình ảnh, đầu tiên cần tạo các File ảnh:
+Dùng File DU AN MAU. pdl tạo giao diện gồm có: bồn nước, ống van, motor bơm nước và các nút nhấn. Những thư viện này nằm trong thư viện của WinCC. Tạo một hình ảnh bồn nước đại diện cho việc cấp nước, việc đầu tiên cần tạo một nút nhấn cho phép chuyển đổi qua lại giữa hai File ảnh DU AN MAU.pdl và MO HINH.pdl trong thời gian thực hiện.
+Từ bản đối tượng Object Palette, nhấp vào dấu “ + ” trước mục Windows Object chọn Botton. Sau đó di chuyển con trỏ ra màn hình thiết kế, nhấn vẽ nút nhấn đến kích thước thích hợp. Nhấp chuột kết thúc lệnh vẽ.
+Khi nhấp thả chuột, hộp thoại Button Configuration xuất hiện. Tại mục Text, nhập tên cho nút nhấn là MO HINH. Chọn màu chữ ở mục Color. Các mục khác vẫn giữ như mặc định.
+Trong khung Change Picture on Mouse Click, nhấn chọn biểu tượng file ảnh như hình trên:
+Hộp thoại Picture xuất hiện. Chọn file MO HINH.pdl, nhấn OK chấp nhận.
+Trở lại hộp thoại Button Configuration. Lúc này, trong khung Change Picture on Click, file MO HINH.pdl được chọn. Nhấp OK chấp nhận thiết lập.
+Trở lại giao diện Graphics Designer, nút nhấn MO HINH được thiết lập. Đổi màu nền nút nhấn bằng cách, di chuyển con trỏ đến bảng màu và chọn màu hiển thị.
+Thực hiện tương tự để thiết lập thêm nút nhấn và đặc tên DU AN, gán cho nút nhấn file ảnh DUANMAU.pdl.
+Tạo ảnh bồn chứa
+Để thiết lập ảnh bồn chứa. Trên thanh trình đơn, nhấp chọn View > Library.
+Hoặc trên thanh công cụ, nhấp chọn biểu tượng Display Library mở hộp thoại thư viện.
+Hộp thoại Library xuất hiện. Để chọn ảnh bồn chứa, nhấp đúp vào mục PlantElements.
+Ở mục PlantElements, nhấp chọn Tanks. Bên phải hộp thoại có 4 ảnh bồn chứa: Tank1, Tank2, Tank3, Tank4. Để thấy được ảnh các bồn chứa, nhấp biểu tượng Preview. Để hình ảnh các bồn chứa hiển thị với kích thước lớn. Trên thanh công cụ hộp thoại Library, nhấp chọn nút Giant Iconts.
+Đưa hình ảnh bồn chứa ra giao diện Graphics Designer bằng cách: Nhấp chuột phải vào ảnh tùy ý và chọn Copy. Hoặc nhấp giữ chuột vào ảnh sau đó kéo đặt vào giao diện thiết kế.
+Di chuyển chuột ra giao diện và nhấp phải, từ trình đơn xổ xuống, chọn Paste.
+Phóng lớn hay thu nhỏ ảnh bồn chứa bằng cách: chọn và di chuyển chuột đến 1 trong 4 góc của Tank1cho đến khi xuất hiện biểu tượng mũi tên hai chiều, nhấp giữ chuột để kéo lớn nhỏ tùy ý.
+Tương tự, có thể phóng lớn hoặc thu nhỏ bất kỳ ảnh nào trên giao diện Graphics Designer.
+Tạo ảnh động cơ bơm nước
+Đối với WinCC 6.2 thư viện ảnh Motor rất đa dạng và phong phú, có nhiều loại Motor khác nhau (cả ảnh 2 chiều, 3 chiều). Trong thư viện, ảnh Motor ở mục PlantElements > Pumps > Pump011. Tùy theo yêu cầu mà đưa ra ảnh nào phù hợp với dự án thiết kế.
+Tạo ống dẫn
+Trên hợp thoại thư viện Library, các ống dẫn ở mục Global Library > PlantElements > Pipes hoặc Pipes – Smart Object gồm các đoạn nối, đoạn cong với nhiều loại khác nhau như hình. Nhấp chọn các ảnh đoạn ống cần sử dụng, kéo ra màn hình thiết kế.
+Tạo các van
+Trong hộp thoại Library, nhấp chọn mục PlantElements > Values, nhấp chọn ảnh Value1 kéo ra màn hình.
+Sau khi đưa ra giao diện màn hình thiết kế , điều chỉnh kích cỡ và vị trí sao cho phù hợp.
+Ghi chú: trên giao diện Graphics Designer, các đối tượng có thể sao chép (copy), dán (paste), xóa (delete),…
+Tạo tường thông số hiển thị giá trị cho Tank1.
+Để hiển thị thông số giá trị cho biến (BON). Trên bảng đối tượng Object Palette, chọn mục Smart Object > I/O Field. Sau đó, di chuyển con trỏ có gắn biểu tượng (I/O) ra giao
+.......................................................
+ĐÈN GIAO THÔNG
+Yêu cầu công nghệ
+Viết chương trình điều khiển đèn giao thông và mô phỏng trên WinCC. Đèn giao thông hoạt động ở 3 chế độ: auto, manual và về khuya. Ở chế độ Auto đèn giao thông hoạt động tự động với thời gian được nhập từ bàn phím, và thời gian hiển thị trên Led, ở chế độ Manual đèn hoạt động bằng cách nhấn chọn nút điều khiển và cuối cùng ở chế độ về khuya thì chỉ có đèn vàng nhấp nháy, chuyển đổi qua lại giữa các chế độ được thực hiện bằng một nút nhấn.
+ĐÈN GIAO THÔNG
+Yêu cầu công nghệ
+Viết chương trình điều khiển đèn giao thông và mô phỏng trên WinCC. Đèn giao thông hoạt động ở 3 chế độ: auto, manual và về khuya. Ở chế độ Auto đèn giao thông hoạt động tự động với thời gian được nhập từ bàn phím, và thời gian hiển thị trên Led, ở chế độ Manual đèn hoạt động bằng cách nhấn chọn nút điều khiển và cuối cùng ở chế độ về khuya thì chỉ có đèn vàng nhấp nháy, chuyển đổi qua lại giữa các chế độ được thực hiện bằng một nút nhấn.
+KẾT LUẬN
+
+Qua thời gian thực hiện đề tài, em đã học được những bài học thực tiễn bổ ích. Từ đó rút ra được một số kết luận.
+Với sự phát triển vượt bật của khoa học kỹ thuật, những thành tựu đó đã và đang góp phần thúc đẩy xã hội phát triển vượt bật. Đặc biệt là trong lĩnh vực công nghệ tự động.
+Tự động hóa là sự lựa chọn hợp lý trong mọi lĩnh vực của đời sống xã hội, công nghệ tự động ngày càng chứng tỏ được vị thế của mình, tự động hóa máy móc trong sản xuất giúp giảm sức lao động cho người vận hành, nâng cao chất lượng sàn phẩm…
+Vì thời gian thực hiện đề tài không nhiều và khả năng bản thân có hạn, nên đề tài không tránh khỏi những thiếu sót, em rất mong sự giúp đỡ, ý kiến đóng góp của quý thầy cô và các bạn để đồ án này được hoàn thiện hơn.
+.................................................
+Chương 3
+BÀI TẬP ỨNG DỤNG
+Đồng hồ số.
+Bài tập này hướng dẫn cách viết chương trình trên S7 Manager và mô phỏng trên WinCC 6.2. Các bước tạo ảnh đã được hướng dẫn chi tiết trong “ SOẠN THẢO DỰ ÁN MẪU”, nên phần này chỉ hướng dẫn cách tạo thuộc tính cho đối tượng.
+Yêu cầu công nghệ:
+Thiết kế chương trình đồng hồ số: khi nhấn nút Start thì hệ thống hoạt động, nhấn nút Stop hệ thống dừng, hệ thống được điều khiển trên WinCC hiển thị giờ trên Led 7 đoạn.
+Sơ đồ giải thuật.
+Lập trình mạch điều khiển với S7 – 300
+Khởi động SIMATIC S7 – 300. Trên thanh Taskbar , chọn Start > SIMATIC > SIMATIC Manager.
+Hộp thoại STEP 7 Wizard: “ New Project” xuất hiện, sau đó nhấp Next tiếp tục.
+Trong hộp thoại STEP 7 Wizard: “ New Project”, chọn các thông số như hình:
+Cửa sổ SIMATIC Manager xuất hiện vừa tạo như hình dưới:
+Khai báo các thiết bị.
+Địa chỉ Mô tả Data type M0.0 Nút nhấn On BOOL M0.1 Nút nhấn Off BOOL MW10 Đơn vị giây WORD MW12 Chục giây WORD MW14 Đơn vị phút WORD MW16 Chục phút WORD MW18 Đơn vị giờ WORD MW20 Chục giờ WORD
+Cửa sổ soạn thảo LAD/STL/FBD – [ OB1 – donghoso… xuất hiện. Đây là nơi chúng ta viết chương trình cho PLC.
+Có thể dùng phím nóng hoặc chuột để chọn các tiếp cần thiết. Kết quả, chương trình được thiết lập như hình:
+THIẾT KẾ MÔ PHỎNG TRÊN WIN CC.
+Đầu tiên khởi động chương trình Windows Control Center 6.2 bằng cách nhấp chọn Start > SIMATIC > WinCC > WinCC V6.2 SP2.
+Hộp thoại WinCC Explorer xuất hiện, ta chọn mục Single – User Project sau đó nhấp OK chấp nhận.
+Hộp thoại Create a new project xuất hiện, đặt tên cho dự án trong khung Project name: DONG_HO_SO. Trong khung Project Path, chọn ổ đĩa và thư mục để lưu trữ dự án. Tiếp tục nhấn nút Create tạo dự án.
+Cửa sổ soạn thảo WinCCExplorer xuất hiện như hình bên:
+CHỌN PLC HOẶC DRIVER TỪ TAG MANAGEMENT.
+Để thiết lập kết nối truyền thông giữa WinCC với các thiết bị, cần có một mạng liên kết chung với nhau trong việc trao đổ dữ liệu. Do đó cần chọn một Driver.
+Nhấp chuột phải vào Tag Management. Từ trình đơn xổ xuống, chọn Add New Driver… như hình bên:
+Hộp thoại Add New Driver xuất hiện, cho phép chọn mạng kết nối giữa WinCC và PLC. Nhấp chọn mạng Simatic S7 Protocol Suite.chn (kết nối với PLC S7 – 300) và nhấp Open để mở.
+
+Hộp thoại Connection properties xuất hiện để khai báo thuộc tính kết nối. Tại mục Name, đặt tên S7 - 300. Nhấp chọn OK chấp nhận.
+Trở lại giao diện soạn thảo WinCCExplorer, cổng kết Simatic S7 Protocol Suite.chn hiển thị trạm S7 - 300 cùng với thông số như hình dưới:
+TẠO BIẾN
+Tạo những nhóm biến (Tags Groups) thiết bị.
+Để tạo nhóm biến, nhấp phải chuột vào S7 - 300 và chọn mục New Group.
+Hộp thoại Propertise of tag group xuất hiện. Đặt tên nhóm ở mục Name là hienthi và nhấp OK chấp nhận.
+Tạo biến quá trình (biến ngoại).
+Để thiết lập biến quá trình, nhấp phải vào nhóm biến hienthi, chọn New Tag…
+Hộp thoại Tag Properties xuất hiện. Tab General được chọn mặc định. Thiết lập tham số ở các mục như sau: Trong khung Properties of Tags, nhập tên biến ở mục Name là Start.
+Tại mục Data Type, nhấp mũi tên xổ xuống và chọn kiểu dữ liệu Binary Tag.
+Ở mục Address nhấp nút Select.
+Hôp thoại Address Properties xuất hiện. Trong khung Description, chọn thông số ở các mục như sau:
+Mục Data, chọn dữ liệu Bit memory.
+Mục Address, chọn địa chỉ có trong PLC, là Bit.
+Các mục khác chọn như mặc định, nhấp OK chấp nhận.
+Trở lại hộp thoại Tag Properties, nhấp OK chấp nhận.
+Thực hiện tương tự để được biến Stop, donvigiay, chucgiay, donviphut, chucphut, donvigio, chucgio. Kết quả các biến được thực hiện như hình bên dưới:
+
+TẠO ẢNH, THIẾT LẬP CÁC THUỘC TÍNH.
+Tạo ảnh
+Để tạo ảnh, đầu tiên phải mở giao diện đồ họa bằng cách, nhấp phải vào mục Graphics Designer, chọn mục New picture từ trình đơn xổ xuống.
+Đổi tên bức ảnh vừa tạo bằng cách nhấp chuột phải vào mục NewPdl.Pdl, từ trình đơn xổ xuống chọn Rename picture.
+Hộp thoại New Name xuất hiện, nhập tên cho ảnh là dong ho so. Nhấp OK chấp nhận.
+Để mở file dong ho so.Pdl, nhấp chuột phải chọn Open Picture.
+Cửa sổ giao diện thiết kế đồ họa Graphics Designer xuất hiện.
+Trên cửa sổ Graphics Designer: thiết lập những bức ảnh xử lý, giám sát và điều khiển.
+Tạo các số đếm
+Trên thanh Từ trình đơn, nhấp chọn View > Library.
+Hoặc trên thanh công cụ, nhấp chọn biểu tượng Display Library mở hộp thoại thư viện.
+Hộp thoại Library xuất hiện, chọn Displays > Displays > Digital Output.
+Thực hiện tương tự cho các số đếm còn lại.
+Tạo các nút nhấn điều khiển.
+Trong bảng Object Palette, nhấp vào dấu cộng tại mục Window Object. Nhấp đúp vào Button, sau đó vẽ hình chữ nhật với kích thước phù hợp.
+Hộp thoại Button Configuration xuất hiện, nhập tên nút nhấn Start trong khung Text.
+Sau đó nhấp vào nút Font, chọn font chữ Times New Roman. Nhấp OK chấp nhận. Ngoài ra ta còn có thể chọn font chữ và kích thước chữ trên thanh công cụ như hình bên:
+Tạo các văn bản.
+Từ bảng đối tượng Object Palette, nhấp chọn Standard Object > Static Text. Trong màn hình làm việc, kéo vẽ khung soạn thảo văn bản với kích thước theo ý muốn.
+Trên thanh công cụ, chọn Fonts, Size, Color tùy thích.
+Kết quả màn hình điều khiển được thiết kế như hình bên:
+TÀI LIỆU THAM KHẢO
+
+[1] Lập trình với S7 & Win CC – TS. Trần Thu Hà, KS. Phạm Quang Huy – Nhà xuất bản Hồng Đức.
+[2] Tự dộng hóa với SIMATIC S7 – 300 – Nguyễn Doãn Phước, Phan Xuân Minh, Vũ Vân Hà – Nhà xuất bản Khoa Học và Kỹ Thuật.
+[3] Truyền động điện Trang bị điện với Module điều khiển lập trình – Nguyễn Thị Ngọc Loan – Nhà xuất bản Giao Thông Vận Tải.
+[4] Điều khiển lập trình 2 – Th.s Nguyễn Tấn Đời – Ths. Tạ Văn Phương – Trường ĐH SPKT Thành phố Hồ Chí Minh – 2008.
+[5] Internet.

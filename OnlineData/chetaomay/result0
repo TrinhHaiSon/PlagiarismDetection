@@ -1,0 +1,411 @@
+HƯỚNG DẪN THỰC HIỆN ĐỒ ÁN CÔNG NGHỆ CHẾ TẠO MÁY
+CHƯƠNG I: NỘI DUNG VÀ TRÌNH TỰ THIẾT KẾ ĐỒ ÁN MÔN HỌC CÔNG NGHỆ CHẾ TẠO MÁY
+1.1.Nội dung đồ án môn học Công nghệ chế tạo máy:
+- Thiết kế quy trình công nghệ gia công chi tiết và thiết kế đồ gá (đồ gá chuyên dùng) để gia công chi tiết.
+- Đồ án gồm hai phần: thuyết minh và bản vẻ
+1.Thuyết minh:
+a.Trình bày:Tập thuyết minh dày khoảng 35 đến 40 trang có kẻ khung bao, chừa lề trái, được đánh máy bằng font chữ times new roman hoặc vn times, cỡ chữ 13
+b.Nội dung:Thực hiện đầy đủ theo tờ nhiệm vụ đề ra, và theo hướng dẫn ở các chương
+sau
+2.Bản vẽ:
+a.Bản vẽ chi tiết khổ A3: (có khung tên)
+- Bản vẽ này thường có ba hình chiếu, ghi đầy đủ kích thước, độ bóng, độ nhám, dung sai, và các yêu cầu khác của chi tiết gia công.
+- Khung tên vẽ đúng tỉ lệ, ghi rõ vật liệu, có thể vẽ thêm hình chiếu 3D
+b.Bản vẽ lồng phôi khổ A3:(có khung tên)
+-Vẽ lại hình dáng chi tiết gia công, ghi kích thước phôi, tức là kích thước chi tiết cộng thêm lượng (không cần ghi kích thước chi tiết gia công).
+- Phần lượng dư gạch chéo màu đỏ để dễ phân biệt với các bề mặt khác không gia công
+- Khung tên vẽ đúng tỉ lệ
+c.Bản vẽ mẫu đúc và khuôn đúc khổ A3: theo tiêu chuẩn về đúc, mẫu đúc vẽ 3D
+d.Bốn bản vẽ sơ đồ nguyên công khổ A3:
+- Bốn bản vẽ này do giáo viên hướng dẫn chọn ra từ bốn sơ đồ nguyên công khác nhau, các bản vẽ này phải vẽ bộ phận định vị, kẹp chặt, dụng cụ cắt, cơ cấu dẫn hướng, bộ phận định vị đồ gá vào máy, thân đồ gá.
+- Chi tiết gia công được vẽ bình thường ( không quy ước vẽ trong suốt, nét đứt ). Bề mặt đang gia công được gạch màu đỏ.
+- Các bản vẽ này không cần khung tên, vẽ vừa khổ A3, không cần đúng tỉ lệ, nhưng có khung các bước công nghệ và chế độ cắt. Chiều rộng khung này bằng chiều rộng khung tên theo tiêu chuẩn vẽ kỹ thuật.
+e.Bản vẽ tách một chi tiết trong bản vẽ đồ gá khổ A3:
+- Theo tiêu chuẩn vẽ kỹ thuật với đầy đủ 3 hình chiếu ( nên có ít nhất một hình cắt ) và có thêm các hình chiếu hay hình cắt riêng phần để thể hiện đầy đủ hình dáng và kết cấu của chi tiết. Ghi đầy đủ kích thước, dung sai, độ bóng và các yêu cầu kỹ thuật của chi tiết này.
+- Năm loại bản vẽ này đóng thành tập riêng, bìa ngoài ghi đầy đủ tên chi tiết, họ tên sinh viên thực hiện, giáo viên hướng dẫn, giáo viên phản biện.
+
+
+f.Bản vẽ thiết kế đồ gá khổ A1
+- Đây là bản vẽ lắp hoàn chỉnh với 3 hình chiếu (trong đó có ít nhất một hình cắt), phải thể hiện đầy đủ kết cấu của đồ gá chuyên dùng (theo đúng sơ đồ gá đặt trong thuyết minh), với tỉ lệ 1:1, 2:1 hoặc 1:2
+- Chi tiết gia công được qui ước vẽ trong suốt, bằng nét đứt màu đỏ, không che các chi tiết của đồ gá.
+- Đánh số thứ tự và bảng kê chi tiết.
+- Ghi yêu cầu kỹ thuật, các kích thước lắp ghép quan trọng, kích thước cao, dài, rộng của đồ gá
+. - Không nên vẽ các đồ gá vạn năng như êtô, mâm cặp …
+1.2.Trình tự thiết kế đồ án môn học công nghệ chế tạo máy
+1.Phân tích chức năng làm việc của chi tiết.
+2.Phân tích tính công nghệ trong kết cấu của chi tiết, sữa đổi kết cấu nếu cần
+3.Xác đinh dạng sản xuất.
+4.Xác định phương pháp chế tạo phôi.
+5.Thiết kế bản vẽ chi tiết lồng phôi.
+6.Thiết kế bản vẽ khuôn, mẫu, lõi ( nếu có ).
+7.Lập thứ tự các nguyên công, các bước ( vẽ sơ đồ gá đặt, ký hiệu định vị, kẹp chặt, chọn dao, vẽ ký hiệu chiều chuyển động của dao, của chi tiết ).
+8.Thiết kế nguyên công
+9.Tính lượng dư cho một bề mặt nào đó ( mặt tròn trong, mặt tròn ngoài hoặc mặt phẳng).
+10. Tính chế độ cắt cho một nguyên công thiết kế đồ gá.
+11.Tính và thiết kế đồ gá
+12.Viết thuyết minh theo nội dung những phần đã tính toán thiết kế.
+13.Xây dựng các bản vẽ
+CHƯƠNG II: PHÂN TÍCH CHI TIẾT GIA CÔNG VÀ XÁC ĐỊNH DẠNG SẢN XUẤT
+2.1.Phân tích chức năng và điều kiện làm việc của chi tiết:
+Dựa vào bản vẽ chi tiết được giao, sinh viên phải nghiên cứu tỉ mỉ kết cấu, chức năng và điều kiện làm việc của chi tiết, cụ thể là phải xác định được chi tiết làm ở bộ phận nào của máy, những bề mặt nào của chi tiết là bề mặt làm việc, những kích thước nào là quan trọng.
+Trong một số trường hợp các chi tiết không rõ chức năng làm việc thì sinh viên phải vận dụng kiến thức đã học như:máy cắt, chi tiết máy, động cơ đốt trong,…để phân tích chức năng và nhiệm vụ của các chi tiết và xếp thành các nhóm chi tiết thông dụng: dạng bạc, dạng trục, dạng càng …Sau đó xác định các điều kiện kỹ thuật, thông số kỹ thuật cơ bản của chi tiết như dung sai của các kích thước quan trọng, độ nhám, độ cứng cần thiết của các bề mặt làm việc cùng các yêu cầu kỹ thuật đặc biệt khác. Việc phân tích này sẽ xác định được bề mặt quan trọng, không quan trọng của chi tiết.
+2.2.Phân tích tính công nghệ trong kết cấu của chi tiết:
+Phần nghiên cứu tính công nghệ trong kết cấu chi tiết được tiến hành theo các bước sau:
+- Nghiên cứu điều kiện làm việc của chi tiết trong cụm máy, sản lượng sản xuất trong năm, xem có khả năng đơn giản hóa kết cấu không, khả năng thay bằng kết cấu hàn, kết cấu lắp ghép, đồng thời cả khả năng thay đổi vật liệu sử dụng.
+- Phân tích khả năng áp dụng phương pháp sản xuất tiên tiến.
+- Xác định chuỗi kích thước công nghệ và khả năng kiểm tra kích thước băng phương pháp đo trực tiếp.
+- Xác định những bề mặt chuẩn đảm bảo độ cứng vững của chi tiết khi gia công.
+- Phân tích khả năng ứng dụng các phương pháp chế tạo phôi đơn giản và tiên tiến cho phép đạt chỉ tiêu kinh tế cao.
+- Phân tích những bề mặt của chi tiết dễ bị biến dạng khi nhiệt luyện và xem vật liệu đã chọn có phù hợp với yêu cầu gia công nhiệt luyện chưa?
+- Để giúp cho việc xác định tính công nghệ được dễ dàng nên đưa chi tiết về cá nhóm chi tiết điển hình để dễ phân tích.
+Sau đây là một số gợi ý đối với các loại chi tiết điển hình:
+1.Chi tiết dạng hộp:
+Tính công nghệ trong kết cấu của hộp không những ảnh hưởng đến khối lượng lao động để chế tạo hộp, mà còn ảnh hưởng tới việc tiêu hao vật liệu. Vì vậy khi thiết kế phải chú ý đến kết cấu của chúng như:
+- Hộp phải có độ cứng vững để khi gia công không bị biến dạng và có thể dùng chế độ cắt cao, đạt năng suất cao.
+- Các bề mặt làm chuẩn phải có đủ diện tích nhất định, phải cho phép thực hiện nhiều nguyên công khi dùng bề mặt đó làm chuẩn và phải cho phép thực hiện quá trình gá đặt nhanh.
+- Các bề mặt cần gia công của hộp không được có vấu lồi,lõm, phải thuận lợi cho việc ăn dao, thoát dao. Kết cấu của các bề mặt phải tạo điều kiện cho việc gia công đồng thời bằng nhiều dao.
+- Các lỗ trên hộp nên có kết cấu đơn giản, không nên có rãnh hoặc có dạng định hình, bề mặt lỗ không được đứt quãng. Các lỗ đòng tâm nên có đường kính giảm dần từ ngoài vào trong. Các lỗ nên thông suốt và ngắn.
+- Không nên bố trí các lỗ nghiêng so với mặt phẳng của vách để khi gia công tránh hiện tượng dao khoan, khoét, doa bị ăn dao lệch hướng.
+- Các lỗ kẹp chặt của hộp phải là các lỗ tiêu chuẩn.
+2.Chi tiết dạng càng:
+Cũng như các dạng chi tiết khác, đối với chi tiết dạng càng tính công nghệ có ý nghĩa quan trọng vì nó ảnh hưởng trực tiếp đến năng suất và độ chính xác gia công. Vì vậy, khi thiết kế càng nên chú ý tới kết cấu của nó như:
+- Độ cứng vững của càng.
+- Chiều dài của các lỗ cơ bản nên bằng nhau và càng mặt đầu của chúng nằm trên hai mặt phẳng song song với nhau là tốt nhất.
+- Kết cấu của càng nên đối xứng qua một mặt phẳng nào đó. Đối với những càng có lỗ vuông góc với nhau thì kết cấu phải thuận lợi cho việc gia công các lỗ đó.
+- Kết cấu của càng phải thuận lợi cho việc gia công nhiều chi tiết cùng một lúc.
+- Hình dáng của càng phải thuận lợi cho việc chọn chuẩn thô và chuẩn tinh thống nhất.
+3.Chi tiết dạng trục:
+Khi thiết kế chi tiết dạng trục cần chú ý các vần đề sau:
+- Các bề mặt trên trục có khả năng gia công bằng các dao thông thường.
+- Đường kính các cổ trục nên giảm dần về hai đầu.
+- Giảm đường kính trục đến mức có thể mà vẫn đảm bảo mọi chức năng làm việc của nó.
+- Nghiên cứu khả năng thay rãnh then kín bằng rãnh then hở để nâng cao năng suất gia công.
+- Nghiên cứu khả năng gia công trục trên các máy thủy lực.
+- Xem xét đến độ cứng vững của trục khi gia công. Trong những trường hợp gia công đồng thời bằng nhiều dao thì tỉ số L/D phải nhỏ hơn 10.
+- Có thể thay trục bậc bằng trục trơn không? (Vì gia công trục trơn đơn giản hơn nhiều so với trục bậc).
+4.Chi tiết dạng bánh răng:
+Kết cấu của bánh răng có những đặc điểm sau đây:
+- Hình dạng lỗ phải đơn giản bởi vì nếu lỗ phức tạp sẽ phải dùng các máy bán tự động hoặc máy rơvônve.
+- Hình dáng vành ngoài của bánh răng phải đơn giản. Bánh răng có tính công nghệ cao nhất là bánh răng không có gờ,
+- Nếu có gờ chỉ nên ở một phía, vì nếu gờ ở cả hai phía thì thời gian gia công sẽ tăng lên rất nhiều.
+- Kết cấu của bánh răng ohải tạo điều kiện gai công đồng thời nhiều dao cùng một lúc.
+- Đối với các bánh răng nghiêng thì góc nghiêng nên dưới 30 độ
+5.Chi tiết dạng bạc:
+-Tính công nghệ trong kết cấu của bạc có ý nghĩa quan trọng đối với việc gia công để đạt các yêu cầu kỹ thuật cần thiết:
+-Trước hết cần chú ý đặc trưng quan trọng đối với bạc là tỉ sô giữa chiều dài và đường kính ngoài lớn nhất của chi tiết, tỉ số này phải nằm trong giới hạn 0,5 đến 0,3
+-Tiếp đến là phải chú ý đến kích thước lỗ bạc bởi vì cùng một đường kính gia công lỗ bao giờ cũng khó hơn gia công trục trục.
+-Bề dày của thành bạc cũng không nên mỏng quá để tránh biến dạng khi gia công và nhiệt luyện
+6.Thay đổi kết cấu cho phù hợp với dạng sản xuất và điều kiện gia công:
+7.Bổ sung kích thước và các yêu cầu kỹ thuật còn thiếu:
+a.Phương pháp nội suy để bổ sung kích thước:
+b.Phương pháp tính toán Rz theo dung sai để ghi vào bản vẽ:
+8.Yêu cầu kỹ thuật của một số bề mặt như:
+-Mặt trụ trong lắp vòng bi
+-Mặt trụ ngoài lắp vòng bi hay bánh răng
+-Rãnh mang cá
+-Mặt trụ lỗ lắp chốt
+2.3.Xác định dạng sản xuất:
+Trong chế tạo máy người ta chia ra làm ba dạng sản xuất chính sau đây:
+- Sản xuất đơn chiếc.
+- Sản xuất hang loạt: hàng loạt lớn, hàng loạt vừa, hàng loạt nhỏ.
+- Sản xuất hàng khối.
+Muốn xác định dạng sản xuất trước hết phải biết sản lượng hằng năm của chi tiết gia công. Sản lượng hằng năm được xác định theo công thức : (1)
+Trong đó: N: số chi tiết được sản xuất trong một năm;
+N1: số sản phẩm (số máy) được sản xuất trong một năm;
+m: số chi tiết trong một sản phẩm;
+: số chi tiết được chế tạo thêm để dự trữ (5% đến 7%).
+Nếu tính đến số % phế phẩm chủ yếu trong các phân xưởng đúc và rèn thì ta có công thức sau:
+(2)
+Trong đó .
+Sau khi xác định được sản lượng hàng năm của chi tiết N cần xác định trọng lượng của chi tiết. Trọng lượng chi tiết được xác định theo công thức sau:
+(kG) (3)
+Trong đó: Q1: trọng lượng chi tiết (kG).
+V: thể tích của chi tiết (dm ).
+.....
+Sau khi xác định được N và Q1 thì dựa vào bảng 2 để chọn dạng sản xuất phù hợp.
+Tính thể tích vật thể 3D trong AUTOCAD 2007:
++Phải có vật thể 3D
++Gõ lệnh MASSPROP, enter, kích vào đối tượng, xuất hiện bảng AUTOCAD TEXT WINDOW DRAWING.DWG
++Trị số cột bên phải đối diện với dòng chữ volume ở cột bên trái là thể tích vật thể
+
+Bảng 2.Cách xác định dạng sản xuất
+
+Dạng sản xuất Q1- Trọng lượng chi tiết > 200kG 4 – 200 kG < 4 kG Sản luợng hàng năm của chi tiết (chiếc) Đơn chiếc <5 <10 <100 Hàng loạt nhỏ 55- 100 10 -200 100 – 500 Hàng loạt vừa 100 – 300 200 – 500 500 – 5000 Hàng loạt lớn 300 – 1000 500 – 1000 5000- 50000 Hàng khối > 1000 >5000 >50000
+CHƯƠNG III: XÁC ĐỊNH PHƯƠNG PHÁP CHẾ TẠO PHÔI VÀ BẢN VẼ CHI TIẾT LỒNG PHÔI
+3.1.Xác định phương pháp chế tạo phôi:
+Phương pháp chế tạo phôi phụ thuộc vào dạng sản xuất, vật liệu, chức năng, yêu cầu kỹ thuật, hình dáng bề mặt, ,,, của chi tiết. Chọn phôi là chọn vật liệu chế tạo, chọn phương pháp chế tạo phôi, xác định lượng dư gia công các bề mặt, kích thước, dung sai cho quá trình chế tạo phôi.
+Đồ án môn học công nghệ chế tạo máy thường dùng các loại phôi sau:
+a.Phôi thép thanh:
+Để chế tạo các loại chi tiết như: con lăn, các loại trục, xi lanh, pittong, bánh răng có đường kính nhỏ, bạc,….
+b.Phôi dập:
+Dùng cho các chi tiết như: trục răng côn, trục răng thẳng, các loại bánh răng khác, các chi tiết dạng càng,..các chi tiết này được dập trên máy búa nằm ngang hoặc máy dập đứng. chi tiết đơn giản thì dập không có bavia, chi tiết phức tạp sẽ có bavia. Dung sai phôi dập được ghi trong STCNCTM tập 1
+c.Phôi rèn tự do:
+Dùng trong sản xuất đơn chiếc và hang loạt nhỏ, ưu điểm của loại phôi này là giá thành thấp(không phải chế tạo khuôn dập). Dung sai phôi rèn tự do được ghi trong STCNCTM tập 1
+d.Phôi đúc:
+Phôi đúc được dùng trong các loại chi tiết như: gối đỡ, các chi tiết dạng hộp, các loại càng phức tạp, các loại trục chữ thập,…Vật liệu dùng cho phôi đúc là gang, thép, đồng, nhôm và các loại hợp kim khác.
+Đúc được thực hiện trong khuôn cát, khuôn kim loại, trong khuôn vỏ mỏng và các phương pháp đúc ly tâm, đúc áp lực, đúc theo mẫu chảy. Tùy theo dạng sản xuất, dạng vật liệu, hình dáng và khối lượng chi tiết mà chọn phương pháp đúc hợp lý. Khi chọn phôi đúc cần tham khảo các giáo trình Công nghệ chế tạo phôi, Công nghệ chế tạo máy, Sổ tay công nghệ chế tạo máy, tập 1.
+2.Chọn phương pháp chế tạo phôi:
+a.Đúc trong khuôn mẫu gỗ:
+Chất lượng bề mặt không cao, gá thành thấp, trang thiết bị đơn giản, thích hợp cho dạng sản xuất đơn chiếc và loạt nhỏ. Loại phôi này có cấp chính xác: . Độ nhám bề mặt: .
+b.Đúc trong khuôn cát mẫu kim loại:
+Nếu công việc thực hiện bằng máy thì có cấp chính xác khá cao, giá thành cao hơn so với đúc trong khuôn mẫu bằng gỗ. Loại này phù hợp với dạng sản xuất hàng loạt vừa và lớn. Loại phôi này có cấp chính xác: . Độ nhám bề mặt: .
+c.Đúc trong khuôn kín
+Độ chính xác cao nhưng giá thành và thiết bị đầu tư lớn, phôi có hình dáng gần giống với chi tiết, giá thành sản phẩm cao. Loại này phù hợp với dạng sản xuất hang loạt lớn và hang khối. Loại phôi này có cấp chính xác: . Độ nhám bề mặt: .
+d.Đúc li tâm:
+Loại này chỉ phù hợp với chi tiết dạng tròn xoay, đặc biệt là hình ống, hình xuyến
+e.Đúc áp lực:
+Dùng áp lực để điền đầy kim loại trong long khuôn. Phương pháp này thích hợp với chi tiết có độ phức tạp cao, yêu cầu kỹ thuật cao, trang thiết bị đắt nên giá thành sản phẩm cao
+f.Đúc trong khuôn vỏ mỏng:
+Loại này tạo phôi chính xác cho chi tiết phức tạp được dùng trong sản xuất hàng loạt lớn và hàng khối
+3.2.Thiết kế bản vẽ lồng phôi:
+Trước khi vẽ bản vẽ lồng phôi tất cả những chỉnh sửa phải thông qua giáo viên hướng dẫn. Tùy theo mức độ phức tạp của chi tiết mà bản vẽ có 1, 2 hoặc 3 hình chiếu.
+Trên bản vẽ lồng phôi thể hiện: chỉ rõ bề mặt gia công, ghi kích thước phôi( kích thước chi tiết cộng với lượng dư gia công). Phần lượng dư gia công gạch chéo màu đỏ, đường viền của chi tiết được vẽ bằng bút đỏ. Tất cả những đường nét, ký hiệu phải thể hiện theo quy định, bản vẽ này phải chứa đựng các thông số cần thiết cho gia công kiểm tra và thu nhận sản phẩm
+Bên cạnh hoặc bên dưới của chi tiết phải ghi đầy đủ những yêu cầu kỹ thuật. Kích thước chi tiết phải có dung sai, bề mặt gia công phải ghi độ bóng cần đạt.....
+
+3.3.Thiết kế bản vẽ khuôn, mẫu, lõi, hộp lõi( nếu có): (tham khảo trang 20 đến 41 chương 3 CNKL -DHSPKTTPHCM )
+a. bản vẽ thiết kế đúc: (tham khảo trang 20 đến 29 chương 3 CNKL - DHSPKT TpHCM ).
+
+b.Bản vẽ mẫu đúc:(tham khảo trang 30 chương 3 CNKL- DHSPKTTPHCM )
+
+CHƯƠNG IV: THIẾT KẾ QUY TRÌNH CÔNG NGHỆ GIA CÔNG CHI TIẾT
+
+4.1.Chọn phương pháp gia công
+Do điều kiện sản xuất tại việt nam nên việc chọn các phương pháp gia công chi tiết phải phù hợp. Các dạng sản xuất hàng loạt vừa, hàng loạt lớn và hàng khối muốn nâng cao năng suất thì phải tiến hành phân tán nguyên công (số các bước trong mỗi nguyên công ít). Kết hợp máy vạn năng, máy chuyên dùng với đồ gá chuyên dùng.
+Nghiên cứu kĩ chi tiết để xác định các bề mặt cần gia công, xác định số lượng nguyên công chọn các phương pháp gia công phù hợp với từng nguyên công. Chọn phương pháp gia công phải chú ý đến cấp chính xác và độ bóng của chi tiết (tham khảo trang 21 chương IV TKDACNCTM 2007)
+4.2.lập tiến trình công nghệ
+4.2.1.Các nguyên tắc cơ bản khi lập tiến trình công nghệ
+Khi thiết kế quy trình công nghệ gia công chi tiết máy phải xác định hợp lý tiến trình công nghệ ứng với bề mặt của chi tiết sao cho chu trình gia công một chi tiết là ngắn nhất, góp phần hạn chế chi phí gia công, đảm bảo hiệu quả sản xuất
+Các nguyên tắc:
+1.Đầu tiên chọn chuẩn thô để gia công các bề mặt có thể dùng làm chuẩn tinh (cố gắng chọn số mặt làm chuẩn tinh thống nhất). nếu không chọn được chuẩn tinh thống nhất, sau một vài nguyên công phải đổi chuẩn thì phải chú ý đến độ chính xác về vị trí tương quan giữa các bề mặt.
+2.Nếu các bề mặt yêu cầu độ chính xác cao không chịu ảnh hưởng từ các bề mặt có độ chính xác thấp thì gia công trước
+Nếu các bề mặt có độ chính xác thấp ảnh hưởng đến các bề mặt có yêu cầu độ chính xác cao thì nên gia công mặt có độ chính xác cao sau
+3.Gia công những mặt có lượng dư lớn để phát hiện biến dạng của chi tiết
+4.Bề mặt càng chính xác tiến hành gia công cuối cùng, chia thành hai giai đoạn: gia công thô trước sau đó gia công tinh
+5.Cuối cùng gia công bề mặt có độ chính xác cao nhất, có ý nghĩa nhất khi sử dụng chi tiết
+6.Các lỗ có ren để bắt vít nên tiến hành gia công sau khi gia công lỗ chính
+7.Trên cùng một máy không nên gia công thô và tinh đối với dao định kích thước
+8.Sử dụng phương pháp phân tán nguyên công, dùng máy vạn năng và đồ gá chuyên dùng
+4.2.2.Lập bảng quy trình công nghệ bằng sơ đồ gá đặt
+Nhiệm vụ chính của giai đoạn này là sau khi đã lập tiến trình công nghệ cần thông qua giáo viên hướng dẫn để xây dựng từng nguyên công, từng bước cụ thể. Khi lập quy trình công nghệ nên theo phương pháp phân tán nguyên công, sử dụng đồ gá vạn năng và đồ gá chuyên dùng. Nên lập hai quy trình công nghệ để so sánh
+Ví dụ về các phương án lập quy trình công nghệ
+Cho chi tiết thanh nối (dạng càng) được đánh số thứ tự các mặt cần gia công
+..............................
+4.2.3.So sánh chọn phương án thích hợp nhất:
+So sánh hai phương án trên ta thấy mỗi phương án có những ưu nhược điểm riêng.
+Phương án I có bảy nguyên công, số bước nhiều nhất trong mỗi nguyên công là ba bước
+Phương án II có sáu nguyên công, số bước nhiều nhất trong nguyên công thứ ba là bốn bước
+Như vậy: phương án I phân tán nguyên công, số bước trong mỗi nguyên công ít. Phương án II tập trung nguyên công, số bước trong mỗi nguyên công nhiều. phương án I phù hợp với sản xuất hàng loạt sử dụng máy vạn năng và đồ gá chuyên dùng
+4.3. Thiết kế nguyên công:
+1.Lập sơ đồ gá đặt: Để lập sơ đồ gá đặt trước hết phải chọn những bề mặt làm chuẩn. Khi chọn cần chú ý 5 nguyên tắc chọn chuẩn thô và 5 nguyên tắc chọn chuẩn tinh.(tham khảo trang 164-165 chương 6 CSCNCTM-ĐHSPKTTPHCM-2003).Các mặt làm chuẩn cần được khống chế đủ số bậc tự do cần thiết, không thiếu (chi tiết chưa được xác định vị trí), không thừa (siêu định vị). Tại mỗi nguyên công phải vẽ phôi, các dao gia công, lực kẹp, số bậc tự do, không nhất thiết phải vẽ đúng tỉ lệ
+2. Chọn máy (Tham khảo trang 15 đến 136 chương IX STCNCTM 2006 tập 3)
+Việc chọn máy sau khi đã xác định phương pháp gia công và cách gá đặt chi tiết cho từng nguyên công. Khi gia công cắt gọt việc chọn máy phải tuân thủ các nguyên tắc sau:
+-Máy được chọn phải thực hiện được các phương pháp gia công đã xác định, ứng với chi tiết gia công
+-Máy được chọn phải đảm bảo đạt yêu cầu chất lượng gia công. Thông thường chọn máy có cấp chinh xác cao hơn cấp chính xác cần thực hiện từ 1 đến 2 cấp
+-Công suất và phạm vi điều chỉnh thông số công nghệ của máy phải tạo điều kiện gia công tốt, nghĩa là đạt chất lượng và gia công tốt
+-Tùy thuộc vào dạng sản xuất mà chọn máy cho hợp lý, với sản xuất hàng loạt nhỏ ta dùng máy vạn năng, với sản xuất hàng loạt lớn ta dùng máy chuyên dùng
+3. Chọn dụng cụ cắt( Tham khảo trang 286-470 chương IV STCNCTM 2006 tập 1)
+-Dụng cụ cắt được chọn theo kết cấu của bề mặt gia công, vật liệu, độ chính xác và năng suất yêu cầu.
+-Khi chọn dao cần chú ý đến kích thước của bề mặt gia công, đặc biệt đối với những dao không đinh kích thước. Kích thước và các thông số hình học của dao phải được ghi đầy đủ và phải chỉ rõ tài liệu tham khảo
+4. Tra lượng dư( Tham khảo trang 225-285 chương III STCNCTM 2006 tập 1)
+-Sau khi chọn được thứ tự các nguyên công và các bước tiến hành tra lượng dư cho tất cả các bề mặt, kể cả bề mặt mà sau này sẽ tính lượng dư theo phương pháp tính toán phân tích của giáo sư Kovan.
+-Lượng dư được tra theo Kết quả tra lượng dư của các bề mặt là cơ sở để xây dựng bản vẽ lồng phôi.
+-Sau khi xác định được lượng dư trung gian của các nguyên công, các bước thì tính lượng dư tổng cộng (tổng các lượng dư trung gian). Trường hợp lượng dư quá nhỏ hoặc quá lớn cần kiểm tra lại để điều chỉnh cho phù hợp.
+5.Tra chế độ cắt:( Tham khảo trang 49-201 chương 5 STCNCTM tập 2)
+Chọn chế độ cắt phụ thuộc vào vật liệu gia công, kết cấu của dụng cụ, vật liệu và các thông số của dụng cụ cắt, phương pháp gá dụng cụ cắt, dung dịch trơn nguội và tình trạng của hệ thống công nghệ.
+Chế độ cắt bao gồm các thông số sau:
+a.Chiều sâu cắt t(mm):
+Đối với các nguyên công thô thường chọn chiều sâu cắt t là lớn nhất (bằng hoặc gần bằng lượng dư gia công) để đạt năng suất cao. Khi gia công tinh chọn chiều sâu cắt t phụ thuộc vào độ chính xác và độ bóng bề mặt.
+Nhìn chung, khi gia công tinh nên chọn chiều sâu cắt nhỏ ( chiều sâu cắt t đo bằng mm).
+Ví dụ: khi tiện thô t mm ( phụ thuộc vào lượng dư và công suất máy), khi tiện tinh t mm.
+b.Lượng chạy dao s:
+Lượng chạy dao được ký hiệu bằng So (mm/vòng),. Sp (mm/phút) và Sr (mm/răng)
+Khi gia công thô nên chọn lượng chạy dao lớn nhất theo độ cứng vững của hệ thống công nghệ và công suất máy để đạt năng suất cao.
+Khi gia công tinh chọn lượng chạy dao theo cấp chính xác và độ bóng bề mặt.
+Lượng chạy dao này được nhân với cá hệ số có tính đến kết cấu của dao,các góc cắt, vật liệu gia công, vật liệu dao, tuổi bền dụng cụ, hình dáng của chi tiết gia công, v.v…
+Kết quả này được so sánh với giá trị thực trên máy và ta chọn giá trị nhỏ hơn để đảm bảo an toàn cho máy và dao cắt. Trong trường hợp chỉ có hai giá trị lớn nhất và nhỏ nhất thì phải tính để xác định giá trị chạy dao thực của má
+c.Tốc độ cắt v(mm/phút):
+Tốc độ cắt phụ thuộc vào nhiều yếu tố như chiều sâu cắt, lượng chạy dao, vật liệu gia công, vật liệu dụng cụ cắt, các thông số hình học của dao cắt, dung dịch trơn nguội, v.v…
+6. Xác định thời gian cho nguyên công:( tham khảo trang 58 chương 4 TKĐACNCTM-NXBKHKT 2007)
+Trong sản xuất hàng loạt và hàng khối thời gian từng chiếc được xác định theo công thức sau:
+Ttc = T0 + Tp + Tpv + Ttn
+Trong đó:
+Ttc : thời gian từng chiếc (thời gian nguyên công).
+T0 : thời gian cơ bản:đây là thời gian máy làm việc , dụng cụ cắt trực tiếp làm biến đổi hình dạng, kích thước và tính chất cơ lý của chi tiết gia công.
+Tp : thời gian phụ: đây là thời gian thao tác do máy hoặc công nhân để hoàn thành chu kỳ gia công
+Tpv : thời gian phục vụ chỗ làm việc gồm hai phần:
+Tpvkt=8%T0: thời gian phục vụ kĩ thuật như: đổi dụng cụ, sửa đá, mài dao
+Tpvtc= : thời gian phục vụ tổ chức: tra dầu vào máy, quét dọn bàn dao ca, ….
+Ttn : thời gian nghỉ ngơi tự nhiên của công nhân (Ttn= (3 ).
+Thời gian cơ bản được xác định theo công thức sau: :( tham khảo trang 58- 70 chương 4 TKĐACNCTM-NXBKHKT 2007)
+
+(phút)
+Trong đó:
+L : chiều dài bề mặt gia công (mm).
+L1 : chiều dài ăn dao (mm).
+L2 : chiều dài thoát dao (mm).
+S : lượng chạy dao vòng (mm/vòng).
+n : số vòng quay hoặc hành trình kép trong một phút
+7.Phương pháp và dụng cụ đo kiểm:
+Dụng cụ đo là một trong những yếu tố quan trọng ảnh hưởng đến chất lượng và năng suất gia công. Việc chọn dụng cụ đo phải thực hiện sao cho chất lượng sản phẩm được đánh giá một cách chính xác, chi phí cho công việc kiểm tra là thấp nhất, góp phần hạ giá thành sản phẩm.
+Mục đích của việc kiểm tra là xác định xem giá trị tham số được kiểm tra có nằm trong phạm vi cho phép hay không. Trong việc kiểm tra, giá trị thực của tham số có thể được xác định hoặc không xác định. Các tham số kiểm tra chất lượng gia công cơ có thể là kích thước, hình dáng của bề mặt (độ côn, độ ôvan, độ đa cạnh, độ phình (tang trống), độ tóp (yên ngựa), độ cong, độ phẳng, sai số vị trí tương quan (khoảng cách trục, độ vuông góc, độ đồng trục, độ song song...), độ nhám, độ cứng của bề mặt gia công.
+Phương pháp, hình thức và dụng cụ kiểm tra phải được chọn lưa cho từng nguyên công, các bước trong một nguyên công, đảm bảo cho việc thực hiện tốt các nguyên công hoặc bước công nghệ kế tiếp, đảm bảo chất lượng của sản phẩm sau khi gia công.
+Các phương pháp kiểm tra được dùng có thể là tuyệt đối hoặc tương đối, trực tiếp hoặc gián tiếp, tổng hợp hoặc từng phần, tiếp xúc hoặc không tiếp xúc.
+Hình thức tổ chức có thể là toàn bộ hoặc vài chi tiết trong nhóm, trong hoặc sau khi gia công (kiểm tra chọn thử).
+Để kiểm tra kích thước có thể dùng các dụng cụ kiểm tra như calip – hàm (còn gọi là calip chữ C) một giới hạn hoặc hai giới hạn (dùng kiểm tra đường kính trục trong sản xuất hàng loạt), calip trụ (để kiểm tra đường kính lỗ). Calip thừong được chọn tùy theo dung sai của kích thước kiểm tra.
+Để kiểm tra các kích thước ngoài (trục) bé chủ yếu dùng các dụng cụ đo vạn năng (thước kẹp, panme). Để kiểm tra lỗ bé (đường kính 0,2 ) dùng các dụng cụ đo khí nén (đo không tiếp xúc) bằng cách cho khí nén trực tiếp phun qua lỗ và đo khả năng thoát khí (cho đường kính 0,2 ) hoặc bằng các vòi phun khí nén (cho đường kính 5mm trở lên). Đối với lỗ từ thì cho một dây kiểm tra qua lỗ trước khi cho khí nén đi qua để tăng độ chính xác kiểm tra. Lỗ có đường kính trên 5mm cũng có thể được đo bằng các dụng cụ đo quang học hoặc các dụng cụ đo có đồng hồ so, thước cặp.
+Để đo kích thước lớn, dùng chủ yếu calip, thước cặp, panme, phiến kiểm, thước đo lỗ, đo sâu.
+Để đo góc, dùng các phiến kiểm góc, dưỡng kiểm góc, thước đo góc. Kết quả đo được xác định qua khe hở ánh sáng giữa thước và mặt phôi .
+Để đo độ côn trên trục và lỗ, dùng các calip côn (bạc hoặc trục). Khi kiểm tra, vạch chì lên đường sinh của mặt côn chi tiết, cho calip tương ứng vào, xoay chúng tương đối với nhau một góc nhỏ, sau đấy tháo ra. Độ chính xác mặt gia công được đánh giá qua việc xem xét vết in chì lên thước kiểm.
+Việc kiểm tra ren, được thực hiện bằng calip ren và các dưỡng kiểm bước ren. Để kiểm tra chính xác, có thể dùng panme với dưỡng kiểm hoặc dùng ba con lăn (đo đường kính trung bình).
+Để kiểm tra độ phẳng và độ thẳng, dùng phiến kiểm hoặc thước kiểm. Khi kiểm tra độ thẳng, đặt thước lên mặt kiểm và xem xét khe hở ánh sáng. Khi kiểm tra độ phẳng cũng có thể dùng thước kiểm. Nếu dùng phiến kiểm thì việc kiểm tra được thực hiện bằng cách bôi sơn hoặc mực, phấn màu lên phiến kiểm rồi đặt lên mặt cần kiểm cho tiếp xúc với nhau. Tùy theo kết quả đậm nhạt của vết in màu mà đánh giá độ phẳng của chi tiết. Phiến kiểm được gia công chính xác, mài nghiền hoặc cạo cà, có độ chính xác cấp 0, 1 và 2.
+Độ ôvan được đo bằng thước cặp (đo thô) hoặc dùng đồ gá có đồng hồ so với việc xoay chi tiết đi nửa vòng quanh trục của nó.
+Độ đa cạnh được đo bằng cách đặt chi tiết lên khối V có góc làm việc 90o. Khối V này cho độ đa cạnh gấp đôi trong các trường hợp, thường gặp nhất là tiết diện chi tiết có dạng tam giác hoặc ngũ giác.
+Độ tang trống và độ yên ngựa được đo bằng cách dùng gá hoặc thứoc cặp đo tại ba tiết diện dọc theo trục của chi tiết.
+Độ côn được xác định bằng cách đo đường kính tại hai tiết diện và lấy sai lệch của giá trị đo.
+Độ cong được xác định bằng cách cho chi tiết lăn trên mặt phẳng, kiểm tra khe hở ánh sáng lớn nhất giữa trục và mặt kiểm.
+Sai lệch tương quan giữa các bề mặt (khoảng cách trục, độ vuông góc, độ đồng trục...) được kiểm tra bằng các dụng cụ đo vạn năng (trong sản xuất đơn chiếc và loại bé) hoặc bằng các đồ gá kiểm tra có dùng đồng hồ so (trong sản xuất hàng khối và loạt lớn).
+Khi chọn dụng cụ kiểm tra, sinh viên phải ghi rõ phương pháp kiểm tra, hình thức tổ chức kiểm tra và dụng cụ kiểm tra hoặc đồ gá kiểm tra với đầy đủ các thông tin đặc trưng về chúng.
+Ví dụ: ghi dụng cụ kiểm tra
+Calip hàm dùng kiểm tra kích thước 30H6 của cổ trục, được ghi là calip hàm 30H6.
+Thước cặp dài 150mm có giá trị vạch đo 0,02mm, được ghi là thước cặp 0-150X0,02mm.
+Đối với các loại đồ gá đo, các sai số hình dáng và vị trí tương quan thì ghi tên đồ gá, chức năng kiểm tra, giá trị vạch đo của đồng hồ so. Thông thường độ chính xác lấy bằng giá trị vạch đo.
+7.Cho ví dụ về thiết kế nguyên công:
+......................................................
+4.4.Vẽ sơ đồ nguyên công:
+Mục đích của sơ đồ nguyên công là thể hiện nguyên lý và kết cấu đồ gá(không qua tính toán).Từ các nguyên công đã cho giáo viên hướng dẫn chọn ra 4 nguyên công đồ gá khác nhau. Các bản vẻ này có 2 hoặc 3 hình chiếu( thường là hai hình chiếu), mỗi bản vẻ phải có đầy đủ các bộ phận của đồ gá như:định vị, kẹp chặt, dao, cơ cấu dẫn hướng, định vị đồ gá vào máy và lien kết chúng bằng than đồ gá.
+Chi tiết gia công được vẽ bình thường ( không quy ước vẽ trong suốt, nét đứt ). Bề mặt đang gia công được gạch màu đỏ.
+Các bản vẽ này không cần khung tên, vẽ vừa khổ A3, không cần đúng tỉ lệ, nhưng có khung các bước công nghệ và chế độ cắt. Chiều rộng khung này bằng chiều rộng khung tên theo tiêu chuẩn vẽ kỹ thuật.
+4.5.Ví dụ sơ đồ nguyên công: Hình 5:nguyên công khoan, doa, vát mép lỗ Ø14
+....................................
+CHƯƠNG V : TÍNH LƯỢNG DƯ CHO NGUYÊN CÔNG ĐƯỢC CHỈ ĐỊNH
+5.1.Khái niệm chung về lượng dư gia công cơ:
+Do đồ án công nghệ chế tạo máy thường được cho theo dạng sản xuất hàng loạt và hàng khối, nên phần lớn các nguyên công của quá trình công nghệ đều được thực hiện trên các máy đã điều chỉnh sẵn bằng phương pháp tự động đạt kích thước. Do vậy lượng dư gia công được xác định bằng phương pháp tính toán phân tích.
+Sinh viên được giao nhiêm vụ tính lượng dư cho một bề mặt điển hình nào đó. Lượng dư của các bề mặt còn lại xác định theo phương pháp tra bảng. Cả hai phương pháp xác định lượng dư chỉ có thể thực hiện được sau khi đã xác định chính xác trình tự gia công các bề mặt.
+Lượng dư gia công cơ được hiểu là lớp vật liệu cần có để khắc phục các sai số xuất hiện trong quá trình tạo phôi và gia công cơ, đảm bảo cho sản phẩm có được các thông số chất lượng yêu cầu. Lớp vật liệu này sẽ được hớt bỏ trong quá trình gia công
+5.2.Xác định lượng dư bằng phương pháp tính toán phân tích:
+Phương pháp tính toán: dựa trên việc phân tích và tổng hợp các yếu tố tạo thành lớp kim loại cần phải hớt bỏ để có một chi tiết hoàn thiện. Phương pháp này đưa lại hiệu quả kinh tế lớn nên có nhiều nhà khoa học đã nghiên cứu và đưa ra phương pháp tính toán riêng. Sau đây ta tìm hiểu phương pháp tính lượng dư của giáo sư tiến sĩ V.M.Kôvan
+5.3. Ví dụ về tính lượng dư:Tính lượng dư trung gian và kích thước trung gian
+khi gia công lỗ Ø 24+0,02 của nguyên công 5
+Chọn loại phôi :phôi đúc, vật liệu thép C45
+Gia công trên máy phay: gá đặt bằng khối V.
+Bề mặt Ø24 của chi tiết cần đạt được :
+Cấp chính xác về kích thước : IT7
+Độ nhám bề mặt : Ra = 0,8mm
+Độ bóng bề mặt: s8
+Qui trình công nghệ gồm 3 bước : khoét thô, khoét tinh và doa tinh.
+Khoét thô: Cấp chính xác đạt được: 12¸11
+Độ nhám bề mặt: RZ = 40 mm
+Độ bóng đạt được: s= 4
+Khoét tinh: Cấp chính xác đạt được: 9¸8
+Độ nhám bề mặt: RZ = 20 mm
+Độ bóng đạt được: s= 6
+Doa tinh: Cấp chính xác đạt được: 7¸6
+Độ nhám bề mặt: Ra = 0.8 mm
+Độ bóng đạt được: s= 8
+Sai số không gian tổng cộng của phôi được xác định theo công thức :
+(trang 26 chương I CNCTM- ĐHSPKTTPHCM – 2008)
+.........................................................................
+CHƯƠNG VI: TÍNH CHẾ ĐỘ CẮT CHO NGUYÊN CÔNG ĐƯỢC CHỈ ĐỊNH ĐỂ THIẾT KẾ ĐỒ GÁ
+
+6.1. Khái niệm chung:
+Chọn chế độ cắt là xác định chiều sâu cắt, số lần chạy dao, lượng chạy dao, tốc độ cắt và công suất cắt cần thiết trong điều kiện gia công nhất định.
+Chế độ cắt có lợi là chế độ cắt ít tốn thời gian nhất để tạo ra sản phẩm, do vậy giá thành của nó rẻ nhất.
+Nếu chọn đúng kết cấu dao, thông số hình học phần cắt, vật liệu, phương pháp mài sắc và mài bóng cũng như xác định đúng đắn cách gá đặt kẹp chặt dao và phôi, điều chỉnh máy tốt, trang bị công nghệ có kết cấu hợp lý… sẽ tạo điều kiện để chọn chế độ cắt hợp lý và có lợi.
+Chế độ cắt đã chọn sẽ được điều chỉnh thêm cho tốt hơn trong quá trình cắt nếu nó tạo được năng suất cao nhất mà tiêu hao cho gia công ít nhất.
+Khi sử dụng chế độ cắt trên bản vẽ chế tạo cần vạch rõ những yêu cầu về độ chính xác kích thước, hình dáng, độ bóng bề mặt sau khi gia công, đặc trưng vật liệu sản phẩm như nhãn hiệu thép, trạng thái, cơ tính và trạng thái lớp bề mặt phôi.
+Mỗi đồ án môn học cần chọn một nguyên công để tính chế độ cắt (thường là nguyên công mà sau này ta cần thiết kế đồ gá). Một trong những nguyên công đó là: tiện, khoan, khoét, doa, cắt ren, chuốt, cắt răng, mài.
+6.2.Các yếu tố của chế độ cắt
+1.Chiều sâu cắt t:(mm) là khoảng cách giaữ bề mặt đang và đã gia công đo theo chiều vuông góc với mặt đã gia công.
+2.Lượng chạy dao s:(mm) là khoảng dịch chuyển của dao trên vòng quay của phôi hoặc là khỏang dịch chuyển của phôi sau một vòng quay của dao (hành trình làm việc)
+3. Chiều rộng của phoi b (mm): là khoảng cách giữa các bề mặt đang và đã gia công theo mặt cắt.
+4. Chiều dày phoi a (mm): là khoảng cách giữa hai vị trí liên tiếp của mặt cắt sau một vòng quay của phôi hay sau một lần chạy dao, đo theo phương vuông góc với chiều rộng phôi.
+5. Diện tích phoi f (mm2): là tích số chiều sâu cắt t với lượng chạy dao S hoặc chiều rộng phoi b với chiều dày a (f .).
+6. Tốc độ cắt: Là đoạn đường dịch chuyển của lưỡi cắt đối với mặt đang gia công trong một đơn vị thời gian. Tốc độ cắt tính ra m/phút. Tốc độ cắt khi mài bóng và các nguyên công tương tự tính ra m/s.
+6.3.Cho ví dụ:
+Tính chế độ cắt cho nguyên công 5: (Khoét – Doa – Vát mép lỗ Ø24)
+Bước 1: Khoét thô
+Chiều sâu cắt : t = 0,5 .( D –d)= 0,5 . ( 23.35 - 21.1) = 1,125 mm( Công thức tính t trang 20 STCNCTM-NXBKHKT-2006-tập 2)
+Lượng chạy dao : s = 0.6 (mm/vòng) (Bảng 5-107 trang 98 STCNCTM-NXBKHKT-2006- tập 2)
+....................................................................
+CHƯƠNG VII: TÍNH VÀ THIẾT KẾ ĐỒ GÁ
+
+7.1.Thành phần đồ gá:(tham khảo trang 55-110 chương 2 CNCTM-ĐHSPKTTPHCM-2008 )
+1. Cơ cấu định vị:Dùng để xác định vị trí của chi tiết với máy hoặc dụng cụ cắt. Các cơ cấu sau:khối V, phiếm tì, chốt tỳ, chốt trụ , chốt trám, mâm cặp,….
+2.Các cơ cấu kẹp chặt:Dùng để giữ cho chi tiết không bị xê dịch, rung động hoặc biến dạng trong quá trình gia công, có các cơ cấu kẹp sau:
+Các cơ cấu kẹp chặt bằng cơ khí:Kẹp chặt bằng ren vít, chêm, cam, kẹp chặt bằng đĩa mỏng đàn hồi, bằng chất dẻo.
+Các cơ cấu kẹp chặt kiểu thủy khí, điện từ, điện cơ: Kẹp chặt bằng khí nén, bằng thủy lực, kẹp chặt bằng khí nén thủy lực, kẹp chặt bằng cơ khí thủy lực, kẹp chặt bằng điện cơ, kẹp chặt bằng từ, kẹp chặt bằng chân không
+3.Cơ cấu dẫn hướng: Dùng để dẫn hướng dụng cụ cắt và nâng cao độ cứng vững của nó, cơ cấu dẫn hướng là bạc dẫn hướng.
+4.Cữ so dao: Dùng để điều chỉnh dụng cụ cắt có vị trí tương đối chính xác so với chi tiết gia công. Thường dùng trên máy phay.
+5.Cơ cấu quay và cơ cấu phân độ: Dùng trong đồ gá nhiều vị trí, để tạo cho phôi có nhiều vị trí khác nhau so với dụng cụ cắt. thường dùng trên máy phay và máy khoan.
+6.Thân đồ gá, đế đồ gá:Là các chi tiết cơ sở(thành phần của đồ gá tháo lắp nhanh), có dạng hình vuông, hình tròn, trên nó có các rảnh, lỗ ren để bắt chặt chi tiết lên nó.
+7.Các chi tiết gép nối:Như bu lông, đai ốc.
+8.Cơ cấu định vị và kẹp chặt đồ gá trên bàn máy:Thường dùng là các then dẫn hướng (ở đồ gá phay)có rãnh chữ U để kẹp chặt trên đồ gá bàn máy.
+7.2.Yêu cầu đối với đồ gá chuyên dùng:
+1.Kết cấu phải phù hợp với công dụng:để nâng cao năng suất gia công thì kết cấu đồ gá phải giải quyết được việc gá đặt và tháo phơi nhanh. Để mở rộng khả năng công nghệ của máy thì phải chọn kết cấu đồ gá sao cho giá thành nhỏ nhất
+2.Đảm bảo độ chính xác gia công đã cho:sai số trong quá trình gia công chi tiết phụ thuộc vào các yếu tố trong đồ gá. Ngươi thiết kế phải hiểu được sai số của đồ gá ảnh hưởng đến sai số gia công chi tiết. phải không chế sai số của đồ gá và các sai số có liên quan để đảm bảo sai số cho phép của chi tiết
+3.Sử dụng đơn giản thuận tiện và an toàn:để cho thuận tiện kết cấu đồ gá phải đảm bảo cho việc gá đặt và tháo nhanh chi tiết gia công, các chi tiết trên đồ gá phải thực hiện nhanh các thao tác. Để cho an toàn các đồ gá này không nên có phần nhô lớn, khi làm việc cần có bộ phận che chắn bảo vệ
+7.3.Trình tự thiết kế đồ gá:(tham khảo trang 43 chương 2 –CNCTM-ĐHSPKTTPHCM-2008)
+Có bốn bước cơ bản sau:
+Bước1: Thiết kế nguyên lý
+Bước2: Thiết kế kết cấu cụ thể
+Bước3: Vẽ tách chi tiết từ bản vẽ lắp thành những bản vẽ riêng
+Bước4: Hiệu chỉnh bản vẽ lắp
+1.Xác lập sơ đồ gá đặt:
+Sơ đồ gá đặt là các bộ phận định vị, bộ phận kẹp chặt khống chế từ 3 đến 6 bậc tự do tùy theo yêu cầu gia công cụ thể. Phải vẽ đúng tỷ lệ đối với phần này
+2.Lựa chọn các chi tiết tiêu chuẩn:( tham khảo trang55-62 chương 2-CNCTM-ĐHSPKTTPHCM-2008)
+Để nâng cao tính tiêu chuẩn của đồ gá, giảm giá thành chế tạo người ta lựa chọn các chi tiết tiêu chuẩn .
+a.Có các loại chi tiết tiêu chuẩn sau:
+Phiến tỳ nhỏ dài khử 2 bậc tự do.
+Chốt tỳ nhám, tròn, chỏm cầu khử 1 bậc tự do.
+Phiến tỳ tròn khử 1 bậc tự do
+Phiến tỳ lớn khử 3 bậc tự do
+Chốt trụ ngắn khử 2 bậc tự do
+Chốt trụ dài khử 4 bậc tự do
+Chốt trám khử 1 bậc tự do
+Khối V ngắn khử 2 bậc tự do
+Khối V dài khử 4 bậc tự do
+Khối V động khử 1 bậc tự do
+b.Các phối hợp thường gặp:
+Hai phiến tỳ dài khử 3 bậc tự do
+Ba chốt tỳ tròn khử 3 bậc tự do
+Hai khối V ngắn khử 4 bậc tự do
+c.Để khử đủ 6 bậc tự do ta thường có các phối hợp sau:
+Mặt phẳng + chốt trụ ngắn + chốt trám
+Mặt phẳng + phiến tỳ nhỏ dài + chốt trám, tròn, hoặc chỏm cầu.
+Mặt phẳng + khối V ngắn + khối V động.
+Mặt phẳng nhỏ + khối V hoặc trụ dài + chốt trám.
+Mặt phẳng nhỏ + khối V hoặc trụ ngắn + chốt trám.
+d.Trong thực tế, nhiều nguyên công chỉ cần khử 5 bậc tự do, khi đó ta có các phối hợp sau:
+Khối V hoặc khối trụ dài + mặt phẳng nhỏ
+Hai khối V ngắn + mặt phẳng nhỏ
+Mặt phẳng lớn + mặt phẳng nhỏ
+Mặt phẳng kết hợp với các loại chốt
+3.Tính sai số chế tạo đồ gá:
+4.Tính lực kẹp cần thiết:(tham khảo trang 65-70 chương 2-CNCTM-ĐHSPKTTPHCM-2008)
+5.Tính lực kẹp do cơ cấu kẹp tạo ra:( tham khảo trang 73-103 chương 2-CNCTM-ĐHSPKTTPHCM-2008)
+6.Tính toán sức bền cho một cơ cấu chịu lực:
+7.4.Bản vẽ đồ gá:
+1.Trình tự xây dựng bản vẽ lắp chung của đồ gá:
++Vẽ các hình chiếu của chi tiết gia công (vẽ bằng nét đứt, màu đỏ, coi như trong suốt).
++Vẽ cơ cấu định vị của chi tiết gia công.
++Vẽ cơ cấu kẹp chặt của chi tiết gia công.
++Vẽ các cơ cấu dẫn hướng của dụng cụ, điều chỉnh dụng cụ, cơ cấu phân độ…
++Vẽ thân đồ gá đảm bảo đủ cứng vững và có tính công nghệ cao.
++Ghi các kích thước cơ bản của đồ gá (kích thước lắp ghép, kích thước tổng thể: chiều dài, chiều rộng, chiều cao, kích thước chủ yếu…).
++Đánh số các chi tiết của đồ gá (từ trái qua phải theo chiều kim đồng hồ).
++Xác định điều kiện kỹ thuật của đồ gá theo yêu cầu của nguyên công và khả năng công nghệ chế tạo đồ gá thực tế.
++Lên bảng kê chi tiết trên đồ gá.
+Tùy theo kích thước thực của đồ gá mà bản vẽ lắp ráp chung của đồ gá được xây dựng theo các tỉ lệ khác nhau: 1:1 ; 2:1 ; 4:1…
+Để vẽ được một bản vẽ đồ gá hợp lý và sự thống nhất với thuyết minh thì ngay từ ban đầu sinh viên cần có sự hình dung về đồ gá cần thực hiện theo gợi ý sau:
+-Đồ gá thực hiện nguyên công gì? ( Khoan- khoét- doa; phay…) → đối với nguyên công đó thì đồ gá cần các chi tiết, bộ phận gì ( có cần cữ so dao, bạc dẫn hướng hay không…).
+-Chi tiết cần được gia công phải được định vị như thế nào → chọn chi tiết định vị cho phù hợp.
+-Với kết cấu của chi tiết và cách định vị như vậy thì cơ cấu kẹp như thế nào thì hợp lý. Tham khảo Atlas đồ gá và các cơ cấu kẹp trong sổ tay công nghệ.
+-Với các bộ phận đã xác định như trên thì bố trí như thế nào cho hợp lý. Hình dung bố cục của đồ gá sao cho hợp lý về kỹ thuật, mỹ thuật, kinh tế…
+2.Thiết kế vẽ tách một số chi tiết quan trọng của đồ gá:
+-Tách bản vẽ chi tiết từ bản vẽ lắp đồ gá
+-Ghi kích thước
+-Tính toán dung sai (sai lệch)
+-Quy định độ bóng
+-Quy định các yêu cầu kỹ thuật.
+
+

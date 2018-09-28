@@ -1,0 +1,471 @@
+TÍNH TOÁN ,THIẾT KẾ, MÔ PHỎNG , XÂY DỰNG DỮ LIỆU HỆ THỐNG CHẾ BIẾN LÚA GẠO DÂY CHUYỀN 50 TẤN/GIỜ
+NHIỆM VỤ ĐỒ ÁN TỐT NGHIỆP
+Giáo viên hướng dẫn : GVC –
+…………………………….
+Đề nghị giáo viên phản biện :………………………………………………………
+Họ và tên sinh viên :
+
+Tên đề tài :
+Tính toán, thiết kế, mô phỏng, xây dựng khung cơ sở dữ liệu cho hệ thống đường ống của công đoạn chế biến gạo trong dây chuyền 50 tấn/giờ tại công ty LAMICO.
+Các số liệu, tài liệu ban đầu :
+Các hệ thống chế biến lúa gạo đã và đang hoạt động ở đồng bằng sông Cửu Long như: Công Ty Lương Thực Miền Bắc (chi nhánh Tân Dương – Sa Đéc – Đồng Tháp), Công Ty Lương Thực Miền Bắc (chi nhánh Cái Sắn – Long Xuyên – An Giang), các hệ thống đường ống và máy chế biến gạo ở công ty LAMICO.
+Nội dung thuyết minh, tính toán :
+Tính toán tổn thất năng lượng trong hệ thống đường ống. Viết chương trình quản lý dữ liệu theo menu và combobox sử dụng Visual Basic 6.0 và Microsoft Excel. Thiết lập khung cơ sở dữ liệu dựa trên các quan hệ kích thước và hình học của chi tiết theo hướng mở.
+Thiết kế đường ống tự rót, đường ống hút cám, đường ống hút bụi công đoạn chế biến gạo trong dây chuyền 50 tấn/giờ. Mô phỏng bồ đài, mô phỏng đường ống hút cám. Định mức hệ thống đường ống trên Microsoft Excel để chế tạo và xuất hàng.
+Các bản vẽ:
+Bản vẽ chi tiết : Các chi tiết đặc trưng của đường ống.
+Bản vẽ lắp : Bản 3D đường ống tự rót đường ống hút bụi, đường ống hút cám.
+MỤC LỤC
+LỜI NÓI ĐẦU.. 1
+LỜI CẢM ƠN.. 2
+NHIỆM VỤ ĐỒ ÁN TỐT NGHIỆP. 3
+TỔNG QUAN VỀ ĐỀ TÀI. 7
+v LÝ DO CHỌN ĐỀ TÀI. 9
+v PHƯƠNG PHÁP THỰC HIỆN ĐỀ TÀI. 9
+v GIỚI HẠN CỦA ĐỀ TÀI. 9
+GIỚI THIỆU TỔNG QUAN VỀ CÔNG TY LAMICO.. 11
+Chương 1 GIỚI THIỆU TỔNG QUAN VỀ DÂY CHUYÊN SẢN XUẤT, CHẾ BIẾN GẠO NĂNG SUẤT 50 TẤN/ GIỜ.. 13
+1.1 SƠ ĐỒ CÔNG NGHỆ.. 14
+v THÔNG SỐ KỸ THUẬT. 16
+1.2 CHỨC NĂNG VÀ ĐẶC ĐIỂM CỦA CÁC THIẾT BỊ TRONG DÂY CHUYỀN.. 16
+1.2.1 Công đoạn nhập – tồn trữ nguyên liệu. 16
+1. Hệ thống băng tải nhập liệu. 16
+2. Cân tự động nhập liệu. 17
+3. Thùng chứa nguyên liệu kết hợp với thông thoáng và làm mát gạo. 18
+1.2.2 công đoạn chế biến gạo 2x(20-25)t/h. 19
+1. Máy làm sạch. 19
+2. Máy xát trắng. 20
+3. Thùng làm mát 22
+4. Sàng tách tấm.. 22
+5. Máy đánh bóng. 22
+6. Tháp sấy và làm mát 24
+1.2.3 Thiết bị phụ trợ. 24
+1. Hố nạp liệu. 24
+2. Bồ đài chuyển tải 24
+3. Hệ thống hút cám, hút bụi 25
+
+Chương 2 TÍNH TOÁN, THIẾT KẾ ĐƯỜNG ỐNG CÔNG ĐOẠN CHẾ BIẾN GẠO.. 26
+2.1 SƠ ĐỒ CÔNG NGHỆ CÔNG ĐOẠN CHẾ BIẾN GẠO.. 27
+2.2 TÍNH TOÁN ĐƯỜNG ỐNG TỰ RÓT. 28
+2.2.1 Thiết lập công thức tính góc α và chiều cao bồ đài 29
+2.2.2 Thiết lập công thức tính chiều dài và đường kính ống rót gạo. 31
+1. Tính chiều cao h của bồ đài E2-1, đường kính và chiều dài của ống từ bồ đài E2-1 đến cân trung gian 32
+2. Tính chiều cao h của bồ đài E2-2 - E2-3, đường kính và chiều dài của ống từ bồ đài E2-2 – E2-3 đến hộp hút trấu càng của bốn máy xát trắng RW80. 33
+3. Tính chiều cao h của bồ đài E2-4 – E2-5 đường kính và chiều dài của ống từ bồ đài E2-4 – E2-5 đến thùng làm mát 10 tấn. 35
+4. Tính toán đường ống từ bồ đài E2-6 đến thùng chứa 450kg 2 miệng ra của 4. 36
+máy đánh bóng RP80. 36
+5. Đường ống từ bồ đài E2-7 và E2-8 đến thùng chứa 450kg 2 miệng ra của 4 máy đánh bóng RP50 37
+2.3 TÍNH TOÁN ĐƯỜNG ỐNG HÚT CÁM VÀ HÚT BỤI. 39
+2.3.1 Cơ sở lý thuyết 39
+1. Hiệu số áp suất của máy quạt 40
+2. Tính toán khí động đường ống dẫn không khí 40
+v Tổn thất áp suất ma sát 41
+v Tổn thất áp suất cục bộ: 43
+3. Tính toán khí động hệ thống vận chuyển bằng khí ép. 47
+2.3.2 Tính toán khí động hệ thống đường ống hút cám.. 50
+1. Tính toán khí động đường ống hút cám từ máy đánh bóng RP80 đến cyclone. 52
+trong nhà máy cám.. 52
+2. Tính toán khí động đường ống hút cám từ máy đánh bóng RP50 đến cyclone. 59
+trong nhà máy cám.. 59
+3. Tính toán khí động đường ống hút cám từ máy trắng RW80 đến cyclone. 65
+trong nhà máy cám.. 65
+2.4 THIẾT KẾ ĐƯỜNG ỐNG.. 76
+2.4.2 Thiết kế đường ống hút cám.. 81
+2.4.3 Thiết kế đường ống hút bụi 83
+Chương 3 ĐỊNH MỨC ĐƯỜNG ỐNG, QUẢN LÝ DỮ LIỆU VÀ XÂY DỰNG KHUNG CƠ SỞ DỮ LIỆU THEO HƯỚNG MỞ.. 86
+3.1 MỤC ĐÍCH QUẢN LÝ CƠ SỞ DỮ LIỆU.. 86
+3.2 PHẦN MỀM QUẢN LÝ DỮ LIỆU VISUAL BASIC 6.0. 86
+3.2.1 Tạo thư viện bằng Visual Basic 6.0. 87
+3.2.2 Một vài cấu trúc code của Visual Basic 6.0. 89
+1. Điều khiển ComboBox và OptionButton. 89
+2. Điều khiển TextBox. 89
+3. Điều khiển nút bấm.. 89
+4. Một số cấu trúc lệnh liên kết giữa Visual Basic với Excel 90
+5. Cấu trúc lệnh giữa Visual Basic với Solid Edge. 91
+3.3 ĐỊNH MỨC ĐƯỜNG ỐNG VÀ QUẢN LÝ CƠ SỞ DỮ LIỆU VỚI VISUAL BASIC 6.0 91
+3.3.1 Định mức đường ống dây chuyền chuyển tải lúa gạo 50 tấn/h. 91
+1. Đường ống tự rót 95
+2. Đường ống hút bụi (Hình 2-16) 96
+3. Đường ống hút cám.. 97
+3.2.2 Viết chương trình quản lý dữ liệu với Visual Basic 6.0. 98
+1. Phần tổng quan về khung cơ sở dữ liệu. 98
+2. Phần quản lý cụ thể về đường ống dây chuyền. 105
+3.4. XÂY DỰNG KHUNG CƠ SỞ DỮ LIỆU THEO HƯỚNG MỞ.. 110
+3.4.1 Mục đích xây dựng khung cơ sở dữ liệu theo hướng mở. 111
+3.4.2 Xây dựng khung cơ sở dữ liệu theo hướng mở đối với máy quạt ly tâm tại công ty LAMICO 112
+1. Cơ sở lý thuyết về máy quạt 112
+2. Tính toán các thông số quạt ly tâm.. 115
+3. Xây dựng khung cơ sở dữ liệu theo hướng mở máy quạt ly tâm.. 118
+
+Chương 4 KẾT LUẬN VÀ ĐỂ NGHỊ. 133
+4.1 KẾT LUẬN.. 133
+4.1.1 Thành quả đã đạt được. 133
+4.1.2 Khả năng ứng dụng của để tài 133
+4.2 ĐỀ NGHỊ. 134
+LỜI NÓI ĐẦU
+
+Hiện nay cùng với sự phát triển mạnh mẽ của khoa học kỹ thuật, thì việc áp dụng những thành tựu của khoa học kỹ thuật vào sản xuất cũng rất quan trọng và hết sức cần thiết. Đặc biệt ở nước ta, một đất nước có đa số người dân làm trong lĩnh vực nông nghiệp. Mặt khác, chúng ta đã gia nhập WTO đòi hỏi chúng ta phải cải tiến mọi mặt của nền kinh tế, trong đó có nông nghiệp.
+Nông nghiệp ở nước ta đang lạc hậu rất xa so với các nước trong khu vực và trên thế giới. Mặc dù chúng ta đứng thứ hai về xuất khẩu gạo, nhưng sản phẩm của chúng ta có sức cạnh tranh rất thấp, để nâng cao sức cạnh tranh thì chúng ta phải chuyên môn hóa, cơ khí hóa nền nông nghiệp. Để hạt gạo Việt Nam khi sản xuất ra được thị trường trong nước chấp nhận, và cạnh tranh được với hạt gạo của các nước thì sản phẩm của chúng ta phải đảm bảo chất lượng tốt ,độ trắng sáng ,độ bóng phải cao…Để đạt được điều này ngoài vấn đề về giống, quy trình chăm sóc,thì việc thu hoạch và chế biến sản phẩm là hết sức quan trọng.
+Hệ thống đường ống là mối ghép hoàn chỉnh sau cùng của dây chuyền chế biến lúa gạo 50 tấn/giờ, là yếu tố quyết định chủ đạo đến quá trình sản xuất liên tục và hiệu quả sản xuất trong dây chuyền. Xuất phát từ vai trò của hệ thống đường ống chuyển tải trong dây chuyền lúa gạo và nhu cầu thực tế tại công ty, nhóm sinh viên thực hiện đề tài: “
+TÍNH TOÁN ,THIẾT KẾ, MÔ PHỎNG , XÂY DỰNG KHUNG CƠ SỞ DỮ LIỆU CHO HỆ THỐNG ĐƯỜNG ỐNG CỦA CÔNG ĐOẠN CHẾ BIẾN LÚA GẠO TRONG DÂY CHUYỀN 50 TẤN/GIỜ TẠI CÔNG TY LAMICO
+”
+Trong quá trình thực hiện đề tài mặc dù đã có nhiều cố gắng, song cũng không tránh khỏi những hạn chế, thiếu sót về kiến thức chuyên môn. Nên nhóm rất mong nhận được sự góp ý, chỉ bảo của quý thầy cô và các bạn.
+TỔNG QUAN VỀ ĐỀ TÀI
+Trong thời đại ngày nay, công nghệ thông tin ngày càng phát triển và đa dạng, các ngành nghề khác nhau từ giải trí, học tập, kinh tế cho đến quản lý, đều có sự góp mặt của công nghệ thông tin, và trong lĩnh vực kỹ thuật không phải là một ngoại lệ. Các kỹ sư thiết kế không chỉ tính toán các số liệu trên máy tính mà họ còn ứng dụng các phần mềm mô phỏng 3D để có được cái nhìn trực quan hơn về kết cấu, mối quan hệ giữa các chi tiết trong cùng hệ thống máy.
+Trong thiết kế truyền thống, kỹ sư và kỹ thuật viên phải tính toán, thiết kế dựa trên các tài liệu kỹ thuật, vẽ trên giấy chủ yếu là các tiết diện 2D, do đó thường tốn nhiều công sức, rất khó hình dung tổng thể, độ tin cậy không cao, tốn nhiều thời gian, và rủi ro tương đối lớn khi quyết định chế tạo thử. Từ thập niên 1970 của thế kỷ trước, đã bắt đầu xuất hiện các phần mềm máy tính, các ngôn ngữ lập trình, hỗ trợ cho thiết kế, và chế tạo. Ban đầu, các phần mềm này chỉ là công cụ hỗ trợ nhằm giảm thời gian, tăng độ tin cậy thiết kế, và tăng tính linh hoạt, dần dần chúng trở thành công cụ không thể thiếu trong thiết kế và chế tạo cơ khí. Ngày nay, đã xuất hiện nhiều bộ phần mềm chuyên dùng, không chỉ hỗ trợ đắc lực cho quá trình thiết kế, mà còn có cơ sở dữ liệu tương đối đầy đủ theo các tiêu chuẩn kỹ thuật quốc gia và quốc tế. Vấn đề chính là chuyên biệt hóa công cụ phần mềm phục vụ cho yêu cầu và mục đích sử dụng. Các công ty thường có những sản phẩm đặc thù, họ cần có cơ sở dữ liệu và công cụ phần mềm hỗ trợ thiết kế đủ mạnh, tiện lợi, dễ sử dụng, tin cậy và có tính bảo mật cao. Các cơ sở đào tạo, từ bậc đại học đến công nhân, mong muốn có khung cơ sở dữ liệu chuyên dùng phục vụ cho công tác đào tạo. Tùy theo nhu cầu cụ thể, khung cơ sở dữ liệu này sẽ được công ty, cơ sở đào tạo, cập nhật, mở rộng, nâng cấp, và chuyên biệt hóa theo thực tế sử dụng.
+Trong lĩnh vực thiết kế cơ khí, các phần mềm này còn giúp các kỹ sư thay đổi các thông số kích thước, tương quan hình học, tương quan vị trí một cách nhanh chóng nhằm kiểm nghiệm độ tin cậy của thiết kế, lựa chọn và có thể tối ưu hóa thiết kế theo các điều kiện cụ thể, trước khi đưa vào sản xuất thử nghiệm cũng như sản xuất hàng loạt nhằm giảm thiểu chi phí, thời gian, công sức. Không những thế, các công cụ này còn hỗ trợ việc quản lý các chi tiết trong một cụm máy một cách có hệ thống, cho phép tích hợp với phần mềm khác để xây dựng quy trình công nghệ, quản lý vật tư, theo dõi tiến độ sản xuất và quản lý chất lượng sản phẩm, đồng thời có thể tính toán chi phí và giá thành.
+Mặt khác, công ty Lamico cung cấp cho thị trường chế biến lúa gạo trong và ngoài nước nhiều loại dây chuyền với nhiều năng suất lớn nhỏ khác nhau. Trong đó, việc thiết kế, định mức và chế tạo đường ống gặp nhiều khó khăn sau:
+Chưa định mức được một cách cụ thể số lượng các loại ống và thiết bị đường ống dẫn đến khó khăn trong định mức vật tư, khó khăn trong chế tạo và mang đi lắp đặt. Quá trình lắp đặt đường ống gặp nhiều khó khăn vì chưa có bản vẽ thiết kế đường ống. Công nhân lắp đặt ống gặp nhiều khó khăn vì phải gia công nguội các múi ống để lắp thêm cho đủ chiều dài, hoặc cắt xén bớt ống khi dư chiều dài.
+Để giải quyết những khó khăn trên, nhóm sinh viên đưa việc tìm hiểu, nghiên cứu các khả năng ứng dụng công nghệ thông tin trong thiết kế cơ khí vào đề tài: “Tính toaùn, thieát keá, xaây döïng khung cô sôû döõ lieäu cho hệ thống đường ống của công doạn chế biến lúa gạo trong dây chuyền 50 tấn/giờ taïi coâng ty LAMICO”.
+MỤC TIÊU CỦA ĐỀ TÀI
+Tìm hiểu, nghiên cứu khả năng ứng dụng và mối liên hệ giữa các phần mềm: Solid Edge, Micosoft Excel, Word, Visual Basic…. Thiết kế hệ thống đường ống và định mức được số lượng các loại ống và phụ tùng đường ống. Thiết lập mối tương quan hình học, kích thước trong một chi tiết và giữa các chi tiết với nhau. Xây dựng khung cơ sở dữ liệu cho hệ thống đường ống.
+
+LÝ DO CHỌN ĐỀ TÀI
+Hiện nay việc chế tạo dây chuyền chế biến lúa gạo công suất lớn phục vụ công đoạn sau thu hoạch đang là nhu cầu cần thiết ở Việt Nam và các nước trong khu vực.
+Công ty cổ phần cơ khí chế tạo máy Long An Lamico là bạn đồng hành của các nhà chế biến lúa gạo, được thị trường trong và ngoài nước tin dùng. Bộ phận sản xuất tại công ty sử dụng các phương pháp gia công truyền thống va hiện đại với nhiều máy CNC, có xưởng đúc tại bộ phận sản xuất cung cấp hầu hết phôi đúc của công ty
+Tuy nhiên quá trình thiết kế – chế tạo – lắp đặt đường ống trong dây chuyền chưa được đồng bộ, còn nhiều công đoạn lắp đặt phải gia công và hiệu chỉnh tại chỗ, gây nhiều khó khăn trong hoạt động sản xuất của công ty.
+Đề tài: “Tính toaùn, thieát keá, xaây döïng khung cô sôû döõ lieäu cho hệ thống đường ống của công doạn chế biến lúa gạo trong dây chuyền 50 tấn/giờ taïi coâng ty LAMICO” nhằm giải quyết hai vấn đề:
+Hệ thống hóa đường ống tự rót, đường ống hút bụi, hút cám công đoạn chế biến gạo trên mô hình 3D với phần mềm Solid Edge. Xây dựng khung cơ sở dữ liệu, định mức đường ống tạo sự dễ dàng trong quản lý đường ống, đồng bộ khâu thiết kế - chế tạo – lắp đặt. PHƯƠNG PHÁP THỰC HIỆN ĐỀ TÀI Ứng dụng công nghệ thông tin vào tính toán, thiết kế và quản lý dữ liệu. Tiếp cận với thực tiển sản xuất và kiến thức đã học ở nhà trường thực hiện đề tài. GIỚI HẠN CỦA ĐỀ TÀI Đường ống trong dây chuyền chế biến lúa gạo có nhiều công đoạn, tuy nhiên nhóm sinh viên chỉ tính toán, thiết kế cho công đoạn chính công đoạn chế biến gạo. Trong hệ thống đường ống, có nhiều thiết bị như: quạt, cyclone, vít tải,…tuy nhiên trong khoảng thời gian có hạn nhóm sinh viên chỉ dừng lại việc thiết kế theo hướng mở cho quạt ly tâm. Việc tính toán đường ống: sau khi tính được tổn thất áp suất trên đường ống và với lưu lượng đã có ta chọn quạt ly tâm chọn quạt ly tâm theo danh mục quạt đã tính toán, chế tạo tại công ty. Bản vẽ chi tiết đường ống nếu trình bày toàn bộ thì sẽ rất nhiều, tuy nhiên đây là các chi tiết đặc trưng của công ty nên nhóm sinh viên chỉ tập trung trình bày các chi tiết cơ bản.
+GIỚI THIỆU TỔNG QUAN VỀ CÔNG TY LAMICO
+Nằm ngay bên quốc lộ 1A, thuộc địa phận tỉnh Long An, giáp ranh Tp.HCM, lại là cửa ngõ đường bộ lẫn đường thủy nối liền các tỉnh miền Tây Nam Bộ với các vùng miền khác, Công ty CP Cơ Khí Chế Tạo Máy Long An (LAMICO) hiện nay là một trong những Công ty hàng đầu trong nước và khu vực trong lĩnh vực sản xuất và cung ứng thiết bị xay xát chế biến lúa gạo, sấy và tồn trữ nông sản.
+
+Được thành lập trên nền tảng từ Cơ sở 2 thuộc Công ty Cơ khí Long An, LAMICO đã kế thừa truyền thống trên 20 năm để không ngừng đổi mới và phát triển.
+Mặt hàng chủ lực của LAMICO là các loại sản phẩm thuộc lĩnh vực công nghệ sau thu hoạch như: máy làm sạch, máy bóc vỏ lúa, máy tách trấu, máy tách thóc, sàng đảo, máy chọn hạt, máy xát trắng, máy đánh bóng gạo...Thiết kế, chế tạo và cung cấp trọn gói nhà máy chế biến lúa gạo năng suất từ 2 đến 50 tấn/giờ.
+Ngày nay, nhu cầu người dân đối với các mặt hàng nông sản nói chung và gạo nói riêng không chỉ cần nhiều và ngon mà còn phải sạch và bổ dưỡng. Hiểu được nhu cầu đó, LAMICO đã đáp ứng các loại máy móc, thiết bị, phụ tùng phục vụ sấy nông sản quy mô công nghiệp năng suất lên tới 400 tấn/ngày như: hệ thống sấy lúa, sấy bắp, sấy cám gạo. Bên cạnh đó là hệ thống thiết bị băng tải xuất nhập khẩu và hệ thống bảo quản tối ưu, mô hình Silo kiểu mới có thể tồn trữ đến 400 tấn nông sản mà vẫn đảm bảo chất lượng.
+Trong điều kiện thời tiết nóng ẩm, mưa nhiều của Việt Nam, bằng phương pháp thủ công, nhà nông chỉ có thể tích trữ được lượng thóc của họ trong thời gian rất ngắn, ngay ở các nhà kho lớn khâu bảo quản này cũng không khá hơn. Nhưng với việc ứng dụng Silo kiểu mới của LAMICO, mẫu Silo được thiết kế ngay trong nước, người nông dân có thể cơ giới hoá trong sản xuất lương thực, hạn chế được sự tích tụ vi khuẩn và tạp chất, tiết kiệm chi phí và thuận tiện hơn rất nhiều.
+Với phương châm: “Lợi ích của khách hàng gắn liền với lợi ích của Cty”, LAMICO luôn đưa ra các tiêu chí và quy định rất nghiêm ngặt về chất lượng: Công ty LAMICO luôn cung cấp cho khách hàng những sản phẩm chất lượng với giá cả hợp lý và hoạt động hiệu quả. Chế độ bảo hành và hậu mãi được áp dụng cho mọi sản phẩm đối với tất cả các khách hàng trong cả nước. Trong khu vực các tỉnh miền Đông và miền Tây Nam Bộ, nhân viên kỹ thuật LAMICO sẽ có mặt để khắc phục sự cố (nếu có) và thay thế phụ tùng cho khách hàng trong vòng 24 giờ kể từ khi nhận được yêu cầu. Ngoài ra, Công ty còn có dịch vụ tiến hành bảo trì, chăm sóc sản phẩm định kỳ ít nhất 03 tháng/ lần.
+Trong quá trình hình thành và phát triển, công ty LAMICO đã được trao nhiều giải thưởng cao quý: Cúp vàng Thần nông hội nhập “Thương hiệu LAMICO”; Cúp vàng Thần nông hội nhập “Sản phẩm Máy đánh bóng gạo RP80”; “Sản phẩm Máy xát trắng gạo RW80” tại Festival lúa gạo Việt Nam 2009 tại Hậu Giang; Cờ thi đua của Bộ Nông nghiệp và Phát triển nông thôn “Đã có thành tích xuất sắc dẫn đầu phong trào thi đua phục vụ sự nghiệp Công nghiệp hóa-Hiện đại hóa nông nghiệp và phát triển nông thôn 5 năm 2004-2009; Danh hiệu Hàng Việt Nam chất lượng cao 2010; Cúp Thương hiệu Việt lần thứ 6-2010; Danh hiệu Top 50 Thương hiệu Việt...
+Chương 1
+GIỚI THIỆU TỔNG QUAN VỀ DÂY CHUYÊN SẢN XUẤT, CHẾ BIẾN GẠO NĂNG SUẤT 50 TẤN/ GIỜ
+Công ty Cổ phần Cơ khí Chế tạo máy Long An (LAMICO) chuyên sản xuất các loại máy xay xát chế biến lúa gạo, sấy và tồn trữ nông sản. Thiết Kế, chế tạo và cung cấp trọn gói nhà máy chế biến lúa gạo từ 2 đến 50 tấn/giờ, hệ thống sấy nông sản quy mô công nghiệp đến 400 tấn/ngày, hệ thống silo tồn trữ nông sản, hệ thống thiết bị chuyển tải trong công nghiệp chế biến.
+Với bề dày kinh nghiệm trong gần 20 năm cũng như các nỗ lực áp dụng những tiến bộ của khoa học và công nghệ hiện đại vào lĩnh vực chế biến lúa gạo, Công ty Cổ phần Cơ khí Chế tạo máy Long An (LAMICO) đã đưa ra các kiểu thiết bị chế biến lúa gạo phù hợp với các loại lúa, gạo ở đồng bằng sông Cửu Long và các vùng trọng điểm lúa gạo của Việt Nam và khu vực.
+Trên cơ sở đó, LAMICO đã đưa ra quy trình công nghệ chế biến gạo và xử lý phụ phẩm có thể hoạt động phù hợp với nhiều loại nguyên liệu khác nhau như: gạo lức, gạo xô, gạo trắng có ẩm độ từ (14-18)% chế biến ra thành phẩm là gạo trắng - bóng đạt tiêu chuẩn xuất khẩu.
+Tất cả các thiết bị do LAMICO sản xuất được quản lý theo tiêu chuẩn ISO 9001; không ngừng được cải tiến nên luôn đạt chất lượng tốt, năng suất và tổng thu hồi cao; chi phí sử dụng - chi phí phụ tùng thấp; ngoài ra còn có chế độ chăm sóc, hậu mãi chu đáo và lâu dài, nhờ vậy sản phẩm của LAMICO được sự tín nhiệm cao của khách hàng trong và ngoài nước.
+Với cam kết: “Kịp thời khắc phục sự cố (nếu có) trong vòng 24 giờ kể từ lúc nhận được thông tin phản hồi”
+1.1 SƠ ĐỒ CÔNG NGHỆ
+THÔNG SỐ KỸ THUẬT
+Năng suất: 2x(20-25) tấn/giờ
+Gạo 5%: 1 lần xát, 3 lần đánh bóng, năng suất 40 tấn/giờ (2 hệ thống) Gạo 25%: 1 lần xát, 2 lần đánh bóng, năng suất 50 tấn/giờ (2 hệ thống)
+Tổng công suất: 3024 Kw
+Kích thước lắp đặt: (75x23x12) m
+Quy trình chế biến gồm nhiều công đoạn đồng bộ từ đầu vào đến đầu ra, mỗi công đoạn được bố trí vừa độc lập, vừa liên hoàn với toàn dây chuyền, trong mỗi công đoạn đều có thùng trung gian dự trữ nguyên liệu gạo đảm bảo có thể vận hành liên tục, năng suất cao, hoạt động vào ban đêm tránh giờ cao điểm, giảm được số lượng công nhân vận hành.
+1.2 CHỨC NĂNG VÀ ĐẶC ĐIỂM CỦA CÁC THIẾT BỊ TRONG DÂY CHUYỀN
+1.2.1 Công đoạn nhập – tồn trữ nguyên liệu
+1. Hệ thống băng tải nhập liệu
+Hạt chứa trong bao, chuyển đến nhà máy bằng xà lan hoặc xe tải.
+Nếu sử dụng xe tải vận chuyển bao: Nguyên liệu nhập trực tiếp vào dây chuyền thông qua hệ thống băng tải đến cân nhập liệu xả vào phễu nạp liệu được bồ đài chuyển đến thùng chứa nguyên liệu ® máy làm sạch và các khâu chế biến kế tiếp của dây chuyền.
+Nếu sử dụng sà lan, ghe vận chuyển bao: Ở cầu cảng có bố trí 1 băng tải kép nhập (hoặc xuất hàng bao), cho phép nhập bao trực tiếp ngay từ hầm tàu, không phải tốn thêm công bốc xếp trung chuyển, từ đây bao gạo sẽ được băng tải cao su đưa tới cân nhập liệu và nguyên liệu sẽ được tiếp nhận vào dây chuyền chế biến.
+Nếu nhập liệu đồng thời bằng 02 phương pháp trên thì sử dụng thêm băng tải dốc lưu động cho nhập bằng xe tải.
+Hệ thống là tổ hợp cụm băng tải, điều chỉnh được độ dốc của băng, cấu tạo gồm 2 đoạn băng cao su gân liên kết xoay nối tiếp với nhau và với cầu tàu, có thể điều chỉnh độc lập độ dốc của từng băng dùng để chuyển hạt chứa trong bao từ hầm sà lan, ghe lên bờ hoặc ngược lại, đảm bảo độ an toàn cao và công bốc xếp tốn ít nhất.
+Đặc tính kỹ thuật:
+Kiểu: CB60W-8+4F Năng suất: 60 t/h Công suất vận chuyển: (1,5+2,2) kW Công suất nâng hạ băng: (2,2+0,75) kW Loại dây: cao su gân nổi, bề rộng mặt băng B= 600 mm Chiều dầy dây băng : 10 mm (kể cả gân) Khả năng vận chuyển: trọng lượng bao tải (50 –100) kg Độ cao nâng hạ: ± (2 ¸ 4) m, tùy theo chiều sâu mớn nước
+
+2. Cân tự động nhập liệu
+Cân hoạt động dựa trên nguyên lý cảm biến tải định lượng tự động bằng chương trình PLC thông qua hộp van cân. Hộp van cân được chế tạo bằng thép không rỉ có độ bền và ổn định cao.
+Nguyên liệu chuyển đến cân dạng hạt, bồ đài chuyển vào thùng chứa, cân được lắp dưới phễu thùng, van cấp liệu nằm giữa phễu thùng chứa và cân sẽ hoạt động tự động theo chương trình có sẵn. Số liệu cân sẽ được cộng dồn liên tục đồng thời hiển thị trên màn hình, in phiếu và lưu trữ (kể cả khi mất điện đột xuất).
+Đặc tính kỹ thuật:
+Kiểu: AWM60 Năng suất: 60 t/h
+
+3. Thùng chứa nguyên liệu kết hợp với thông thoáng và làm mát gạo
+Kết cấu:
+Vách thùng bằng thép tấm có chấn sóng ngang để tăng độ cứng và đảm bảo thoát sạch gạo. Khung xương và chân thùng kết cấu bằng thép hình, các mođun đáy thùng có gân gia cường hợp lý và được liên kết với nhau bằng bulon cường độ cao. Đáy thùng dạng phểu dài, độ dốc lớn đảm bảo không đọng gạo. Nắp thùng có lưới bảo vệ và thoát ẩm tốt.
+Toàn bộ thùng chứa được thiết kế dựa trên phần mềm tính toán kết cấu tối ưu, đảm bảo cứng vững, ổn định và an toàn cao. Ngoài ra mỗi ngăn chứa được bố trí 1 quạt thông thoáng và làm mát với các kênh dẫn gió phân phối đều không gian chứa. Quạt được vận hành tự động thông qua hệ thống cảm biến nhiệt độ khối hạt bên trong thùng chứa.
+Nguyên liệu được nạp đầy các ngăn bằng băng tải có miệng đổ di động đặt trên đỉnh thùng, đây là thiết kế mới nhất đã được LAMICO sản xuất và lắp đặt tại ĐBSCL. Ngoài ra, băng tải có bố trí hệ thống cầu thang lan can thuận tiện và an toàn cho người vận hành và sử dụng.
+Hoạt động:
+Quá trình hô hấp tự nhiên của hạt gạo sau khi được chứa vào thùng diễn ra liên tục sẽ làm tăng nhiệt độ khối hạt. Nhiệt độ này được ghi nhận thông qua cảm biến lắp phía bên trong thùng. Khi nhiệt độ khối hạt trong thùng tăng vượt mức cho phép, quạt sẽ tự động vận hành làm mát khối hạt đến nhiệt độ tồn trữ cần thiết. Các quạt thông thoáng còn được kết hợp với bộ phận cấp nhiệt. Khi độ ẩm không khí bên ngoài cao hơn bên trong thùng chứa thì nó sẽ được gia nhiệt để làm giảm độ ẩm trước khi thổi vào khối hạt trong thùng.
+Dòng không khí sẽ thổi xuyên qua lớp hạt theo hướng từ dưới lên trên thông qua các kênh phân phối gió bố trí dưới đáy thùng chứa, hơi ẩm bám trên bề mặt hạt gạo sẽ thoát ra ngoài, do đó độ ẩm và nhiệt độ của khối hạt theo đó cũng giảm dần. Quá trình này giúp bảo quản tốt khối hạt chứa trong thùng, tránh gây biến màu và ẩm mốc hạt gạo.
+Đặc tính kỹ thuật:
+Kiểu: RB200-(2 ngăn)/RB400-(4 ngăn) Sức chứa: 200 tấn/400 tấn Quạt thông thoáng: 15 kW/ngăn
+
+1.2.2 công đoạn chế biến gạo 2x(20-25)t/h
+Nguyên liệu được từ thùng chứa đến máy làm sạch nhờ vào băng tải lắp ở dưới thùng chứa nguyên liệu và bồ đài chuyển tiếp.
+1. Máy làm sạch
+Máy được thiết kế dựa trên nguyên lý rung và sự khác biệt về kích thước và trọng lượng của các thành phần cần tách.
+Mục đích: loại bỏ các tạp chất trong gạo nguyên liệu có thể gây hư hỏng cho các thiết bị trong dây chuyền. Các thành phần được tách ra là: đá, sạn, dây bao, cát bụi …
+
+Đặc tính kỹ thuật:
+Kiểu: PCV120A Năng suất: (12-15) t/h Công suất: 1,5 kW
+2. Máy xát trắng
+Là một loại máy xát trắng gạo theo nguyên lý trái đá mài xát có dạng hình côn dài, do các kỹ sư LAMICO nhiều năm nghiên cứu, sáng chế thành công. Máy có nhiều ưu điểm nổi bật: mức xát trắng cao, độ gãy vỡ thấp, chi phí phụ tùng thấp, chi phí điện thấp, dễ sử dụng, được thị trường các tỉnh đồng bằng sông Cửu Long đặc biệt ưa chuộng. Máy đã được Cục Sở hữu trí tuệ cấp bằng độc quyền kiểu dáng công nghiệp số 7405 và giải pháp hữu ích số 395 và 421 về bộ phận xát và pát gài thanh dao cao su. Ngoài ra, máy xát trắng RW80 đã đoạt Huy chương vàng Hội chợ triển lãm Quốc tế Nông nghiệp 2004 tại thành phố Hồ Chí Minh.
+Quá trình làm trắng gạo lức chủ yếu dựa vào: ma sát giữa trái đá với gạo, giữa gạo và thanh dao cao su, ma sát giữa gạo với gạo. Trong quá trình làm việc áp lực xát của máy được điều chỉnh bằng cách thay đổi: khe hở các thanh cao su và trái đá, khe hở giữa trái đá và lưới xát. Đồng thời do trái đá có dạng hình côn nên khe hở trái đá và lưới có thể điều chỉnh theo từng loại nguyên liệu.
+Các thanh cao su được lắp trên khung lưới, do sử dụng cơ cấu pát móc gài nên khi thay thế rất đơn giản và nhanh. Trong quá trình xát, luồng gió có áp lực lớn tạo ra bởi quạt hút theo các khe gió kề bên thanh cao su, xuyên qua lớp gạo đang dịch chuyển sẽ giải nhiệt hạt gạo và tách cám sinh ra trong quá trình xát một cách triệt để đồng thời luồng gió còn làm sạch lớp lưới, nâng cao hiệu quả xát, tỉ lệ gãy vỡ thấp.
+Các thanh dao cao su được tự động điều chỉnh tiến vào hướng trái đá với vận tốc được định sẵn tương ứng với sự hao mòn thanh dao khi làm việc. Bộ phận còi sẽ báo khi phần sử dụng thanh dao mòn hết và hành trình tiến vào của các thanh dao sẽ dừng lại.
+Thời gian sử dụng thanh cao su dài: 400-500 tấn/bộ.
+Toàn bộ quá trình tự động vận hành còn được liên kết với bộ cảm ứng lắp trên thùng chứa và van đóng mở liệu bằng khí nén để kiểm soát lượng cấp liệu cho máy nên việc vận hành máy rất đơn giản.
+Máy có khả năng bóc cám cao với tỉ lệ bóc cám từ 4-8% tương ứng tỉ lệ gãy vỡ rạn nứt: 3-8%, tỉ lệ phá thóc: 60-70%.
+Sau đó, khối gạo tiếp tục đi qua thùng rê đặt phía sau máy để tách trấu phát sinh, đồng thời còn làm mát gạo.
+Trái đá tuổi thọ cao, khoảng 9000-10000 tấn gạo nhờ lớp đắp dày 16-18mm và có thành phần phối trộn đặc biệt.
+Sau thời gian hoạt động, nếu bề mặt trái đá không phẳng có thể phục hồi lại bằng cơ cấu tiện đá kèm theo máy. Trái đá khi mòn hết cần thay thế, LAMICO sẽ cung cấp như một loại phụ tùng. Đồng thời, thanh dao cao su khi thay thế có thể sử dụng các loại đang sẵn có trên thị trường.
+Đặc tính kỹ thuật:
+Kiểu: RW80 Năng suất: (6-8) t/h Công suất: 75 kW
+
+3. Thùng làm mát
+Gạo sau khi xát trắng được đưa vào thùng chứa trung gian. Tại đây gạo được làm mát và tiếp tục tách phần trấu càng, tấm mài, cám xay, ….. trước khi đưa vào máy đánh bóng nhằm tăng độ bóng gạo và giảm tỉ lệ gãy vỡ.
+Đặc tính kỹ thuật:
+Sức chứa: 10 tấn Quạt: 15 Kw
+
+4. Sàng tách tấm
+Máy được thiết kế dựa trên nguyên lý rung và sự khác biệt về kích thước và trọng lượng của các thành phần cần tách.
+Mục đích: tách cám xay, trấu càng, tấm mài, …
+Đặc tính kỹ thuật:
+Kiểu: PCV200A Năng suất: (12-15) t/h Công suất: 1,5 kW
+
+5. Máy đánh bóng
+Đây là thiết bị chủ lực trong dây chuyền, quyết định chất lượng gạo xuất khẩu. Trong hơn 20 năm qua, máy đánh bóng của LAMICO đã chiếm lĩnh thị trường Việt Nam. Ngoài ra LAMICO luôn cải tiến khắc phục các thiếu sót, nâng cao độ trắng, độ bóng hạt gạo vì thế luôn được tín nhiệm và tin tưởng của tất cả khách hàng trong và ngoài nước.
+Máy được thiết kế theo phương pháp đánh bóng nước dựa trên ma sát giữa gạo với gạo, gạo với lưới và gạo với dao xát có kết hợp phun nước dạng sương. Nước có tác dụng làm mềm lớp cám trên hạt gạo trong thời gian ngắn và được lấy ra ngay theo cám nên không làm tăng độ ẩm gạo, hạ nhiệt độ hạt gạo trong quá trình ma sát. Nhờ có nước nên lớp cám được lấy đi dễ dàng vì thế hạt gạo trở nên trong và bóng hơn.
+Máy được thiết kế phù hợp với tất cả các loại gạo, năng suất và độ bóng cao, khả năng tách cám đến 5%, tỉ lệ gãy vỡ thấp [2%.
+Tùy theo yêu cầu thành phẩm có thể đánh bóng 1 pass, 2 pass hay 3 pass. Các phụ tùng theo máy như: dao xát, lưới được chế tạo bằng thép, có nhiều loại nhằm phục vụ cho nhiều loại gạo theo từng mùa vụ trong năm, để tăng tỉ lệ thu hồi, giảm tiêu hao điện năng.
+Hệ thống tự động bằng sensor và khí nén điều khiển van gạo và nước giúp cho quá trình thao tác vận hành máy dễ dàng và thuận tiện: van nước sẽ tự động phun sau khi van đóng nhanh mở (10 -15) giây và van đóng nhanh sẽ tự đóng lại khi gạo trong thùng chứa vừa hết gạo.
+Các chi tiết quay được cân bằng, kết cấu máy vững chắc có thể hoạt động với công suất lớn hơn công suất thiết kế mà vẫn đảm bảo ổn định máy.
+Đặc tính kỹ thuật:
+Kiểu: RP80 Năng suất: (8-9) t/h Công suất: 110/132 kW
+6. Tháp sấy và làm mát
+Gồm nhiều tầng ghép lại, bên trong mỗi tầng có nhiều máng cấp nhiệt và máng thoát ẩm xen kẻ nhau. Nguyên liệu và không khí di chuyển theo đường zich–zắc nên trộn đều với nhau giúp cho hạt gạo giảm ẩm nhanh và đồng đều tại mọi vị trí, đồng thời hạt gạo không bị rạn nứt, không có mùi và không đổi màu.
+Đặc tính kỹ thuật:
+Kiểu: RCD200AS Công suất: 1,5 kW Kích thước: (2,5x3,8x11) m Quạt sấy và làm mát: (22+7,5) kW Tốc độ giảm ẩm: 2%/h
+
+1.2.3 Thiết bị phụ trợ
+1. Hố nạp liệu
+Hố có kết cấu bằng thép dày 4mm, được hàn kín đảm bảo không rò nước. Tại vị trí phểu nạp có bố trí van tự động, van này sẽ tự đóng mở tùy thuộc vào lưu lượng dòng chế biến, tránh hiện tượng quá tải dây chuyền, giúp cho hoạt động của toàn hệ thống được đều đặn, không gián đoạn.
+Kích thước: D xRxC: (1,5x1,5x1,5)m Vách đứng: rộng 2,5 m, cao 2m
+
+2. Bồ đài chuyển tải
+Bồ đài dùng để chuyển tải liên tục nguyên liệu dạng hạt theo phương thẳng đứng từ thiết bị này đến thiết bị khác. Tùy theo năng suất của từng thiết bị sẽ được lắp bồ đài có năng suất tương ứng.
+Thân bồ đài được chế tạo bằng thép tấm dày (1,2-2)mm với các ống dài: 1,25m hoặc 0,64m. Các ống được ghép bằng bulon nên thay đổi chiều cao dễ dàng, gàu múc gạo bằng nhựa hoặc bằng thép. Dây gàu bằng cao su đen, có nhiều lớp bố tăng bền bên trong.
+Đặc tính kỹ thuật:
+Kiểu: BE250 BE330 BE450 Năng suất: 15 t/h 30 t/h 60 t/h Công suất: 2,2 kW 4,0 kW 5,5 kW
+
+3. Hệ thống hút cám, hút bụi
+Hệ thống hút cám của các máy xát trắng, đánh bóng gạo được thiết kế phù hợp với từng thiết bị.
+Trong dây chuyền bố trí hệ thống hút bụi cho từng bồ đài và các vị trí phát sinh bụi, mỗi đường hút có van đóng mở khi cần thiết, bảo đảm môi trường khu vực dây chuyền hoạt động luôn trong lành.
+
+
+Chương 2
+TÍNH TOÁN, THIẾT KẾ ĐƯỜNG ỐNG CÔNG ĐOẠN CHẾ BIẾN GẠO
+Ống dẫn là thiết bị rất phổ biến và chiếm một vai trò quan trọng trong công nghiệp và đời sống.
+Trong đời sống hằng ngày, đặc biệt là ở các thành phố và các nơi tập trung đông dân cư, ống là thiết bị phổ thông và cần thiết để dẫn nước sinh hoạt; trong từng thiết bị từng máy riêng lẻ như các động cơ ôtô, máy nổ, máy phát điện diezen, đầu máy xe lửa và các máy cắt kim loại, ống làm nhiệm vụ dẫn dầu bôi trơn hoặc dung dịch làm mát máy; trong các phòng thí nghiệm và các nhà máy hóa chất, các nhà máy phân đạm, ống là thiết bị quan trọng dùng để chuyển tải hóa chất, dầu, khí, bán thành phẩm và thành phẩm của các quá trình công nghệ khác nhau.
+Trong các lò hơi của các nhà máy nhiệt điện, các trạm làm lạnh, các hệ thống ống dẫn khí và ống làm lạnh được bố trí thành từng giàn, từng cụm tập trung và cũng là thiết bị quan trọng của các công trình này.
+Trong các nhà máy chế biến lương thực, đường ống cũng đóng vai trò quan trọng trong việc rót vật liệu rời bán thành phẩm từ các gàu tải đến các thiết bị chế biến và đường ống vận chuyển vật liệu rời bằng khí động.
+2.1 SƠ ĐỒ CÔNG NGHỆ CÔNG ĐOẠN CHẾ BIẾN GẠO
+Sơ đồ công nghệ công đoạn chế biến gạo bao gồm nhiều máy móc và thiết bị. Mỗi máy móc, thiết bị thực hiện những nhiệm vụ khác nhau. Tuy nhiên, trong khuôn khổ của đồ án, tác giả chỉ đề cặp đến các loại đường ống và nhiệm vụ của từng đường ống trong công đoạn chế biến lúa gạo.
+Đường ống tự rót chỉ đơn thuần là thực hiện nhiệm vụ chuyển tải gạo bán thành phẩm từ các bồ đài (gàu tải) đến các máy móc hay các thiết bị. Đường ống tự rót có các đường kính khác nhau tùy theo năng suất làm việc của nó qua từng công đoạn. Việc tính toán và lắp đặt đường ống phải tuân theo nguyên tắc cơ bản là đảm bảo góc nghiêng và độ cao cần thiết để gạo có thể tự chảy liên tục trong đường ống.
+Đường ống hút cám nhờ quạt hút thực hiện nhiệm vụ hút cám từ 4 máy xát trắng RW80 (năng suất 8-9 tấn/giờ), 4 máy đánh bóng RP80 (năng suất 8-9 tấn/giờ) và 4 máy đánh bóng RP50 (năng suất 4-5 tấn/giờ) đưa ra hệ thống cyclone trong nhà máy cám (còn gọi là nhà tự lắng cám). Cám sau khi lắng từ cyclone được hệ thống vít tải cám đưa ra nhà máy đóng bao cám bên cạnh nhà máy cám. Cám khô được chuyển vào kho, cám ướt có thể bán ngay cho các khách hàng để ép dầu, làm thức ăn cho cá, gia súc, gia cầm...hoặc đưa vào hệ thống sấy cám năng suất 5-6 tấn/giờ.
+Đường ống bụi thông qua quạt hút bụi dây chuyền FC 45-190 hút bụi từ các bồ đài và hộp hút trấu càng đưa bụi và trấu càng ra cyclone bụi dây chuyền Æ1000 trong nhà máy cám.
+
+2.2 TÍNH TOÁN ĐƯỜNG ỐNG TỰ RÓT
+Để thiết kế được các thiết bị và các đường ống thì vấn đề đầu tiên là chúng ta phải xác định được các loại trở lực của chúng, sau đó là xác định tính chất vật lý của dòng môi chất đó. [Trang 3 – GS. TS. Hoàng Bá Chư, TS. Trương Ngọc Tuấn – Sổ tay Thủy khí động lực học ứng dụng – NXB Khoa Học & Kỹ Thuật Hà Nội].
+Trở lực mà gạo di chuyển trên đường ống do lực ma sát giữa gạo với gạo và lực ma sát giữa gạo với vật liệu chế tạo ống gây ra. Quá trình gạo tự chảy trên đường ống còn chịu lực cản của không khí, tuy nhiên gạo tự chảy trên đường ống với mức độ điền đầy khá cao nên lực cản của không khí là không đáng kể.
+Đường ống tự rót thực hiện nhiệm vụ để gạo tự chảy từ cao xuống thấp dưới tác dụng của lực trọng trường. Công ty LAMICO cung cấp ra thị trường nhiều dây chuyền chế biến gạo với các năng suất khác nhau. Để tiện lợi trong khâu chế tạo, vận chuyển và lắp đặt ta quy ước chế tạo đường ống tự rót theo 4 loại sau: Æ110, Æ125, Æ140, Æ160.
+Tổn thất năng lượng của đường ống: Tổn thất năng lượng tức là tổn thất được gây ra bởi lực ma sát giữa gạo với gạo và gạo với vật liệu chế tạo ống trong quá trình vận chuyển của gạo trên đường ống tự rót. Khi mức độ điền đầy cao thì ma sát giữa gạo với thành ống mới đáng kể, còn khi gạo chảy trong đường ống với mức độ điền đầy không cao thì ma sát giữa gạo với thành ống không đáng kể.
+Tính toán tổn thất năng lượng để rồi từ đó ta tính toán bố trí chiều cao bồ đài và góc nghiêng α cho thỏa mãn với từng vị trí đường ống.
+
+2.2.1 Thiết lập công thức tính góc α và chiều cao bồ đài
+Ta tính toán chiều cao cần thiết của 1 bồ đài để đảm bảo việc di chuyển gạo trong đường ống đạt được sự liên tục.
+Ta xét phương trình chuyển động của gạo trong đường ống:
+Phương trình chuyển động của gạo:
+N + P + Fms = m.a (1-1)
+Chiếu đẳng thức (2-1) theo phương chuyển động của gạo, ta được:
+- Fms + p.sinα = m.a (1-2)
+Chiếu đẳng thức (2-1) theo phương vuông góc với phương chuyển động của gạo, ta được:
+Fms = k. P. cosα (1-3)
+Công của lực ma sát gây ra trong quá trình vận chuyển là:
+Ams = Fms . L (1-4)
+Với L là chiều dài của ống.
+Ta xét năng lượng của gạo tại đỉnh A:
+EA = Eđ + Et = Et = mgh (1-5)
+Để gạo có thể chuyển động được thì năng lượng của gạo tại đỉnh A phải lớn hơn công của lực ma sát sinh ra trong quá trình vận chuyển, tức là:
+EA ≥ Ams (1-6)
+ó mgh ≥ mgkL.cosα ( α ≤ 900 ) (1-7)
+k = k1 + k2
+Trong đó:
+k1: là hệ số ma sát giữa gạo với gạo. k2: là hệ số ma sát giữa gạo với vật liệu làm ống.
+Þ h ≥ L(k1 + k2)cosα (1-8)
+Þ tgα ≥ (k1 + k2) (1-9)
+Theo hệ thức lượng trong tam giác vuông, ta có:
+h = b.tgα (m) (1-10)
+2.2.2 Thiết lập công thức tính chiều dài và đường kính ống rót gạo
+Từ biểu thức (1-2) ở trên, ta tính được:
+a = g(sinα – kcosα) (m/s2) (2-1)
+Chiều dài ống gạo: (m) (2-2)
+Theo công thức liên hệ giữa vận tốc, gia tốc và quãng đường đi được trong chuyển động thẳng biến đổi đều, ta tính được vận tốc trung bình của gạo di chuyển trong đường ống:
+(m/s) (2-3)
+Quãng đường trung bình gạo đi trong 1h:
+S = vtb.t = 3600 (m) (2-4)
+Năng suất gạo đi trong 1h của đường ống:
+Q = S(ЛR2) ρ (tấn/giờ) (2-5)
+Với ρ là khối lượng riêng của gạo.
+Từ công thức (2-5) bán kính R của đường ống được tính theo công thức:
+
+Đường kính ống D = 2R
+
+1. Tính chiều cao h của bồ đài E2-1, đường kính và chiều dài của ống từ bồ đài E2-1 đến cân trung gian
+Các thông số ban đầu:
+Năng suất chuyển tải gạo 30 (Tấn/giờ) [1] Khối lượng riêng của gạo thô 580 (Kg/m3) [2] Hệ số ma sát giữa gạo với gạo (gạo thô) 0,4 [3] Hệ số ma sát giữa gạo với thép 0,3153 [4] Gia tốc trọng trường 9,81 (m/s2) Khoảng cách b (theo hình 2-1) 1,976 (m)
+
+Từ biểu thức (1-9), ta có:tga ≥ (k1 + k2)
+tga ≥ (0,4 + 0,3153)
+a ≥ 36o
+Với a ≥ 36o thì gạo sẽ chảy liên tục trên đường ống.
+Bán kính của đường ống:
+R = 0,083 = 83 (mm)
+Đường kính ống:
+D = 2R = 166 (mm)
+Thiết kế theo đường kính chuẩn Æ160.
+Đường ống trong phân đoạn này đóng vai trò quan trọng trong việc chuyển tải gạo từ hố cấp liệu đến cân trung gian và xuống 2 máy làm sạch. Gạo phải đảm bảo chuyển tải liên tục để cân trung gian kiểm tra khối lượng đầu vào.
+Với khoảng cách b = 1,976m, ta chọn góc a = 60o.
+Chiều dài đường ống từ bồ đài E2-1 đến cân trung gian:
+Chiều cao h của bồ đài E2-1:
+Từ biểu thức (1-10), ta có:
+h = b.tga = 1,976.tg60 = 3,423 (m)
+Vậy lúc này chiều cao của bồ đài E2-1 là:
+H = h1 + h2 + h = 1,040 + 7,437 + 3,423 = 11,9 (m)
+2. Tính chiều cao h của bồ đài E2-2 - E2-3, đường kính và chiều dài của ống từ bồ đài E2-2 – E2-3 đến hộp hút trấu càng của bốn máy xát trắng RW80
+Các thông số ban đầu:
+Năng suất chuyển tải gạo 20 (tấn/giờ) [1] Khối lượng riêng của gạo thô 580 (kg/m3) [2] Hệ số ma sát giữa gạo với gạo (gạo thô) 0,4 [3] Hệ số ma sát giữa gạo với thép 0,3153 [4] Gia tốc trọng trường 9,81 (m/s2) Khoảng cách b (theo hình 2-1) (m)
+Bán kính của đường ống:
+R = 0,068 = 68 (mm)
+Đường kính ống:
+D = 2R = 136 (mm)
+Thiết kế theo đường kính chuẩn Æ140.
+Gạo từ cân trung gian xuống hai máy làm sạch và đưa vào hai bồ đài E2-2 và E2-3 với năng suất cho mỗi bồ đài là 20 tấn/giờ. Thực tế, tại vị trí bồ đài E2-2 và E2-3 gạo chuyển tải khá nhanh với hệ số điền đầy cao.
+Để chuyển tải gạo đạt được hiệu quả cao và hạn chế lượng gạo hồi trở về hố cấp liệu ta chọn góc nghiêng a = 45o cho đường ống từ bồ đài E2-2 – E2-3 đến hộp hút trấu càng của bốn máy xát trắng RW80.
+Chiều dài đường ống từ bồ đài E2-2 đến hộp hút trấu càng của máy xát trắng RW80 (máy số1):
+Chiều cao h của bồ đài E2-2 và E2-3:
+Từ biểu thức (1-10), ta có:
+h = b.tga = .tg45 = (m)
+Vậy lúc này chiều cao của bồ đài E2-2 và E2-3 là:
+H = h1 + h2 + h = 1,030 + 7,373 + = 11,5 (m)
+3. Tính chiều cao h của bồ đài E2-4 – E2-5 đường kính và chiều dài của ống từ bồ đài E2-4 – E2-5 đến thùng làm mát 10 tấn
+Các thông số ban đầu:
+Năng suất chuyển tải gạo 20 (Tấn/giờ) [1] Khối lượng riêng của gạo thô 515 (Kg/m3) [2] Hệ số ma sát giữa gạo với gạo (gạo thô) 0,4 [3] Hệ số ma sát giữa gạo với thép 0,3153 [4] Gia tốc trọng trường 9,81 (m/s2) Khoảng cách b (theo hình 2-1) 4.485 (m)
+Bán kính của đường ống:
+R = 0,058 = 58 (mm)
+Đường kính ống:
+D = 2R = 116 (mm)
+Thiết kế theo đường kính chuẩn Æ125.
+Để quá trình vận chuyển gạo đạt được hiệu quả và hạn chế đến mức thấp nhất tình trạng ngẹt ống, ta thiết kế góc nghiêng a = 45o cho đường ống từ bồ đài E2-4 – E2-5 đến thùng làm mát 10 tấn.
+Chiều dài của ống từ bồ đài E2-4 – E2-5 đến thùng làm mát 10 tấn:
+Chiều cao h của bồ đài E2-4 – E2-5:
+Từ biểu thức (1-10), ta có:
+h = b.tga = .tg45 = (m)
+Vậy lúc này chiều cao của bồ đài E2-1 là:
+H = h1 + h2 + h = 1,030 + 6,385 + 4,485 = 11,9 (m)
+4. Tính toán đường ống từ bồ đài E2-6 đến thùng chứa 450kg 2 miệng ra của 4
+máy đánh bóng RP80
+Đường ống chuyển tải gạo tại vị trí bồ đài E2-6 có thể đi theo hai đường:
+Đường ống 1: từ E2-6 đến hộp hút trấu càng của máy đánh bóng RP80 (máy số 1,2). Đường ống 2: từ E2-6 đến thùng chứa 450kg 2 miệng ra của máy đánh bóng RP80 (máy số 3,4).
+Bồ đài E2-6 được bố trí 2 phiễu ra gạo, tại vị trí phiễu ra gạo có gắn van để điều chỉnh gạo đi theo: hoặc là đường ống 1 hoặc là cả 2 đường 1 và 2. Theo tài liệu tại dây chuyền chế biến gạo năng suất 2x(20-25) tấn/giờ thì năng suất tối đa mà đường ống chuyển tải gạo từ bồ đài E2-6 là 30 tấn/giờ bằng với năng suất đường ống mà tại vị trí bồ đài E2-1 thực hiện.
+Từ kết quả tính toán ở mục 3.1 ta thiết kế đường kính ống cho phân đoạn này là 160.
+Giá trị b cho đường ống 1 là: b = 1,641m, chọn góc a = 60o.
+Chiều dài đường ống 1:
+Chiều cao h của bồ đài E2-6:
+Từ biểu thức (1-10), ta có:
+h = b.tga = .tg60 = (m)
+Vậy lúc này chiều cao của bồ đài E2-6 là:
+H = h1 + h2 + h = 1,040 + 6,781 + 2,842= 10,6 (m)
+Giá trị b của đường ống 2 là: b = 4,382m và chiều cao h của bồ đài E2-6 đối với đường ống 2 là h = 3,677m.
+Góc nghiêng a cho đường ống 2 là:
+=> a = 40o (> 36o)
+Chiều dài đường ống 2:
+
+5. Đường ống từ bồ đài E2-7 và E2-8 đến thùng chứa 450kg 2 miệng ra của 4 máy đánh bóng RP50
+Các thông số ban đầu:
+Năng suất chuyển tải gạo 20 (Tấn/giờ) [1] Khối lượng riêng của gạo thô 480 (Kg/m3) [2] Hệ số ma sát giữa gạo với gạo (gạo đánh bóng) 0,35 [3] Hệ số ma sát giữa gạo với thép 0,3153 [4] Gia tốc trọng trường 9,81 (m/s2)
+Đường ống chuyển tải gạo đánh bóng từ bồ đài E2-7 và E2-8 có cùng năng suất tối đa là 20 tấn/giờ và có 3 đường ống chính như sau:
+Đường ống 1: từ E2-7 đến thùng chứa 450kg 2 miệng ra của máy đánh bóng RP50 (máy số 1,2). Đường ống 2: từ E2-8 đến hộp hút trấu càng của máy đánh bóng RP50 (máy số 3,4). Đường ống 3: từ bồ đài E2-8 đến thùng chứa 450kg 2 miệng ra của máy đánh bóng RP50 (máy số 1,2).
+Giá trị b của đường ống 1 và đường ống 2 là như nhau và có giá trị là:
+b = 6,710m.
+Theo biểu thức (1-9), ta có:
+tgα ≥ (k1 + k2) = 0,35 + 0,3153 = 0,6653
+=> α ≥ 33o
+Theo lý thuyết tính toán α ≥ 33o thì gạo đánh bóng sẽ chảy liên tục trên đường ống. Nhưng trong thực tế tại nhà máy chế biến lúa gạo góc α trong phân đoạn này cho đường ống 1 và 2 là 30o gạo vẫn chảy liên tục trên đường ống.
+Do giá trị b = 6,710m là rất lớn nên ta không đưa góc nghiêng α theo góc α chuẩn là 60o hay 45o được vì khi đó chiều cao bồ đài h = b.tg α sẽ rất lớn không hợp lí trong chế tạo, lắp đặt và vận hành.
+Đường kính ống trong phân đoạn này thiết kế theo thực nghiệm là Æ140.
+Chiều dài đường ống 1 và 2:
+Chiều cao h của bồ đài E2-7 và E2-8 là:
+Từ biểu thức (1-10), ta có:
+h = b.tga = .tg30 = (m)
+Vậy lúc này chiều cao của bồ đài E2-7 là:
+H = h1 + h2 + h = 1,030 + 5,696 + 3,874 = 10,6 (m)
+Và chiều cao bồ đài E2-8 là:
+H = h1 + h2 + h = 1,030 + 6,996 + 3,874 = 11,9 (m)
+2.3 TÍNH TOÁN ĐƯỜNG ỐNG HÚT CÁM VÀ HÚT BỤI
+2.3.1 Cơ sở lý thuyết
+Trong thủy lực học người ta phân biệt 3 loại áp suất khi chất khí bắt đầu chuyển động trong đường ống.
+Áp suất tĩnh: trong bình kín là áp suất trên thành bình và như nhau tại tất cà các điểm trên bề mặt trong. Khi không khí chuyển động áp suất tĩnh dọc theo chiều đài ống thay đổi. Ta có thể nói áp suất tĩnh (pt) đặc trưng cho mức độ nén khí. Và áp suất tĩnh được coi như thế năng nén 1m3 không khí, bằng công để thực hiện 1m3 không khí khi giãn nở.
+Áp suất động: là động năng quy về cho 1m3 không khí chuyển động, tương đương với áp suất:
+
+Trong đó:
+Pđ - áp suất động (Pa) v - vận tốc (m/s) r - mật độ không khí (kg/m3)
+Áp suất toàn phần: là tổng đại số áp suất tĩnh và áp suất động. Nói cách khác là năng lượng tổng cộng (toàn phần) của 1m3 không khí:ptp = pt + pđ (2 – 2)
+Chú thích: áp suất tĩnh (pt) và áp suất toàn phần (ptp) xác định bằng phương pháp đo trực tiếp. Áp suất (pđ) được xác định như hiệu số áp suất toàn phần và áp suất tĩnh:
+pđ = ptp + pt (2 – 3)
+1. Hiệu số áp suất của máy quạt
+Máy quạt có nhiệm vụ gây ra hiệu số áp suất để thắng sức cản của đường ống, đồng thời đảm bảo dòng không khí thổi ra ngoài với vận tốc nào đó. Do đó hiệu số áp suất của máy quạt phải bằng tổng tổn thất áp suất trên đường ống hút và đường ống thổi cộng với áp suất động của dòng không khí tại miệng thổi.
+Hay nói cách khác: Hiệu số áp suất mà máy quạt cần sản sinh ra bằng tổng trị số tuyệt đối (không kể dấu đại số) của áp suất toàn phần tại các tiết diện trước và sau máy quạt.
+Trong đó:
+, - là áp suất toàn phần tại tiết diện cuối cùng của đường ống hút (trước máy quạt) và đường ống đẩy (sau máy quạt).
+2. Tính toán khí động đường ống dẫn không khí
+Nội dung của tính toán khí động hệ thống đường ống dẫn không khí là:
+Chọn đường kính ống, xác định sức cản thủy lực, cũng chính là áp suất của nó, từ đó chọn máy quạt có khả năng gây ra hiệu số áp suất để thắng sức cản của đường ống và vận chuyển không khí với vận tốc đã định. Đó gọi là bài toán thuận, hay còn gọi là bài toán thiết kế. Tổn thất áp suất đã biết (có nghĩa là quạt đã có sẵn), cần chọn đường ống sao cho sức cản phù hợp (với lưu lượng cho trước). Đây là bài toán ngược, tức bài toán kiểm tra, hiệu chỉnh.
+Tổn thất áp suất của một dịch thể chuyển động trong đường ống bao gồm 2 thành phần: tổn thất áp suất ma sát do thành ống tác dụng lên dòng chảy gây ra, và tổn thất áp suất cục bộ do dòng chảy gặp chướng ngại, vật cản.
+Tổn thất áp suất ma sát
+Tổn thất áp suất ma sát xuất hiện dọc theo chiều dài của đường ống. Ở kích thước hình học và lưu lượng xác định chúng phụ thuộc vào chế độ chảy và trạng thái bề mặt ma sát.
+Tổn thất áp suất ma sát được xác định theo công thức của Dacxi:
+Trong đó:
+- tổn thất áp suất ma sát, (Pa) U - chu vi ướt (m) F - diện tích tiết diện ngang (m2) l - chiều dài (m) v - vận tốc chuyển động (v), m/s và - mật độ (kg/m3) của dịch thể trong ống - hệ số tỉ lệ, không thứ nguyên
+Đối với đường ống tròn đường kính d, m và khi chảy đầy, tức chu vi ướt (U) bằng chu vi của tiết diện thì:
+Và công thức (5.6) sẽ trở thành:
+Nếu đặt , ta có:
+Trong đó: – hệ số ma sát, không thứ nguyên.
+Công thức là công thức cơ bản để tính tổn thất áp suất ma sát trên đoạn ống tròn đường kính d, độ dài l với vận tốc chuyển động của dịch thể bên trong ống v (dịch thể có mật độ ). Để tính toán một cách chính xác cần phải xác định đúng hệ số ma sát .
+Hệ số cản má sát , hay gọi tắt hệ số ma sát là hệ số phức tạp về bản chất, trong trường hợp chung phụ thuộc vào chế độ chảy, tức số Renion (Re) và độ nhám tương đối của thành ống (K/d, trong đó K,d – độ nhám tuyệt đối (K) và đường kính ống (d),m).
+Chế độ chuyển động của dịch thể tương của dịch thể tương ứng với định luật đồng dạng được xác định bởi chuẩn số Renion:
+Trong đó:
+v - vận tốc (m/s) d - đường kính ống (m) - hệ thống số nhớt động học (m2/s)
+Khi Re < 2300 ta có chế độ chảy tầng, hệ số chỉ phụ thuộc vào số Re và có thể xác định theo công thức:
+Khi Re>2300 ta có chế độ chảy rối.
+Chảy rối trong ống khi chiều dài của lớp chảy tầng ở sát thành ống không đủ không đủ phủ kín độ nhám thành ống: hệ số l không phụ thuộc vào số Re mà chỉ phụ thuộc vào độ nhám thành ống (K/d), có thể xác định theo công thức:
+Tổn thất áp suất cục bộ:
+Khi dòng chảy qua chướng ngại sẽ xảy ra sự va chạm lẫn nhau giữa các phần tử vật chất làm cho năng lượng (động năng) của chúng giảm xuống. Sụ hao hụt năng lượng ấy là tổn thất áp suất cục bộ.
+Tổn thất áp suất cục bộ được chia là hai nhóm:
+Với sự thay đổi lưu lượng trước và sau chướng ngại: chạc ba, miêgnj thổi và miệng hút tại thành ống dẫn; Với sự thay đổi vận tốc và lưu lượng không đổi: loa, phiễu, mở rộng và thắt nhổ đột ngột, co.
+Tổn thất áp suất cục bộ được xát định theo công thức
+Trong đó x là hệ số cản cục bộ.
+Phương pháp tính toán khí động hệ thống đường ống dẫn không khí
+Trên cơ sở nội dung của việc tính toán khí động hệ thống đường ống dẫn không khí, ta có các trường hợp (hay các bài toán) như sau:
+Biết lưu lượng, chọn đường kính (hay kích thước tiết diện ngang của ống, nếu là ống chữ nhật) để có vận tốc chuyển động của không khí nằm trong phạm vi cho phép, tính tổn thất áp suất (tức sức cản của đường ống), từ đó chọn máy quạt có khả năng gây ra hiêu số áp suất để thắng sức cản của đường ống. Biết lưu lượng và hiệu số áp suất, cũng tức là tổn thất hay sức cản, tính đường kính (hay tiết diện) ống. Khả năng gây ra hiệu số áp suất của máy quạt đã biết, đường ống đã có sẵn (tức ngoài sơ đồ và độ dài, còn biết cả đường kính (hay tiết diện) của tất cả các nhánh), cần xác định lưu lượng của tất cả các đoạn ống
+Trường hợp thứ nhất là trường hợp tính toán thiết kế đường ống dẫn của hệ thống thông gió cơ khí (làm việc nhờ máy quạt); trường hợp thứ hai – tính toán thiết
+..................................................
+Kết quả nhận được khi thay đổi thông số đầu vào:
+Giá trị đầu vào lúc này p = 150 kg/m2 và số vòng quay n = 1450 vòng/phút
+Ta nhận được các thông số của mô hình quạt ly tâm trong Solid Edge lúc này:
+Kích thước guồng quạt: D2 = 740 mm
+Kích thước miệng thổi: D = 470 mm
+Kích thước vỏ quạt
+Và lúc này quạt ly tâm mới hình thành đồng dạng với quạt ly tâm lúc trước nhưng có kích cỡ lớn hơn.
+Chương 4
+KẾT LUẬN VÀ ĐỂ NGHỊ
+4.1 KẾT LUẬN
+4.1.1 Thành quả đã đạt được
+Trong khoảng thời gian thực hiện để tài, nhóm sinh viên đã tiếp cận với thực tiễn sản xuất tại công ty Lamico kết hợp với sự hướng dẫn của GVC-Ths. Trần Thế San và kiến thức đã được trang bị trong nhà trường, nhóm sinh viên đã thực hiện được các khối lượng công việc sau:
+
+Thiết kế 3D các thiết bị chế biến lúa gạo như máy xát trắng, máy đánh bóng, sàng tách tấm, máy làm sạch, thùng chứa 250 tấn, tháp sấy làm mát… (ở kích thước bao hình). Tính toán chiều dài và đường kính đường ống tự rót gạo. Tính toán khí động hệ thống hút cám, tính toán khí động hệ thống đường ống hút bụi. Cơ bản thiết kế được bản vẽ không gian hệ thống đường ống trong công đoạn chế biến gạo. Định mức được khá cụ thể số lượng các loại ống và thiết bị đường ống tự rót, đường ống hút cám và đường ống hút bụi. Cơ bản quản lý được cơ sở dữ liệu của đường ống trong công đoạn chế biến lúa gạo.
+
+4.1.2 Khả năng ứng dụng của để tài
+Công ty Lamico với bề dày lịch sử chế tạo dây chuyền chế biến lúa gạo cung cấp cho thị trường trong và ngoài nước. Hiện nay, công ty này cung ứng cho thị trường các loại dây chuyền với năng suất 2 đến 50 tấn/giờ.
+Với việc ứng dụng công nghệ thông tin vào thiết kế cơ khí, các thiết bị chế biến gạo được thiết kế cụ thể trên phần mềm Solid Edge, có thể thay đổi kích thước lắp đặt, hoặc thay đổi năng suất dây chuyền từ đó định mức đường ống cho các loại dây chuyền có năng suất khác nhau. Có thể đồng bộ khâu thiết kế, chế tạo và lắp đặt, giảm tiêu tốn nguyên vật liệu.
+
+4.2 ĐỀ NGHỊ
+Đồ án tính toán, thiết kế, xây dựng khung cơ sở dữ liệu cho hệ thống đường ống công đoạn chế biến gạo năng suất 50 tấn/giờ là một đề tài mang tính thực tiễn. Nhóm sinh viên kính đề xuất công ty Lamico xem xét khả năng ứng dụng của đề tài vào hoạt động sản xuất của công ty.
+Ngành cơ khí nước ta rất đa dạng, trong đó lĩnh vực đường ống cũng đóng vai trò quan trọng trong nghành công nghiệp nước nhà. Đặc biệt trong nghành công nghiệp chế biến lương thực thì đường ống vận chuyển vật liệu cũng giữ nhiệm vụ quan trọng trong hoạt động của toàn dây chuyền.
+Đặc biệt, kỹ sư đường ống trên thị trường lao động của Việt Nam đang khan hiếm. Kính đề xuất Bộ môn Công nghệ chế tạo máy đẩy mạnh hơn nữa việc đào tạo kỹ sư công nghệ chế tạo máy có đủ kiến thức nền tảng và những kỹ năng nghề nghiệp để có thể góp phần kiến thức nho nhỏ của mình vào công cuộc xây dựng đất nước.
+
+
+*TÀI LIỆU THAM KHẢO
+1. Nguyễn Hữu Lộc, Cơ sở thiết kế máy, NXB ĐHQGTP Hồ Chí Minh, 2004.
+2. Nguyễn Trọng Hiệp, Chi tiết máy tập 1, 2 NXB Giáo dục, 1998.
+3. Nguyễn Hữu Lộc, Bài tập chi tiết máy, NXB ĐHQGTP Hồ Chí Minh, 2003.
+4. Nguyễn Hữu Lộc, Độ tin cậy trong thiết kế kỹ thuật , NXB ĐHQGTP Hồ Chí Minh, 2002.
+
+

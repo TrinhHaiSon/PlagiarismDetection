@@ -1,0 +1,117 @@
+THIẾT KẾ VÀ CHẾ TẠO BỘ KHUÔN SẢN PHẨM KẸP LY, CAD, file 2D, 3D thuyết minh....,file báo cáo, nguyên lý vận hành khuôn, tháo lắp, và cách bảo quản khuôn....Bản vẽ chi tiết sản phẩm, quy trình chế tạo các chi tiết trong khuôn......
+BỘ GIÁO DỤC VÀ ĐÀO TẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Trường Đại Học Sư Phạm Kỹ Thuật Tp Hồ Chí Minh Độc Lập – Tự Do – Hạnh Phúc
+& &
+Khoa Cơ Khí Chế Tạo Máy
+Bộ Môn: Công Nghệ Tự Động
+NHIỆM VỤ ĐỒ ÁN TỐT NGHIỆP
+Sinh Viên: Nguyễn Hoàng An 08112002
+Lê Quốc Anh 08112003
+Nguyễn Minh Đức 08112025
+Đề tài:
+THIẾT KẾ VÀ CHẾ TẠO BỘ KHUÔN
+SẢN PHẨM KẸP LY
+Nội dung thực hiện:
+Thiết kế 3D bộ sản phẩm kẹp ly. Tách khuôn (Creo 1.0) và lên mô hình bộ khuôn (EMX 7.0). Mô phỏng dòng nhựa (AutoDesk Mold Flow Insight 2010). Gia công các tấm khuôn.
+Nội dung thuyết minh: Tổng quan về công nghệ khuôn ép phun. Tính toán và thiết kế bộ khuôn. Ứng dụng phần mềm Creo 1.0 thiết kế sản phẩm và gia công Mô phỏng dòng nhựa. Gia công các tấm khuôn Các thành phần liên quan: Bản vẽ gồm có: Bản vẽ 2D các tấm khuôn: 7 bản vẽ Bản vẽ sản phẩm: 2 bản vẽ Bản vẽ lắp ráp phân rã 3 bản vẽ
+File tính toán và phân tích dòng nhựa. File gia công, phiếu công nghệ. Video - Hình ảnh khuôn. File Word. ....................................... LỜI NÓI ĐẦU Trong vòng mười năm trở lại đây, ngành nhựa trở thành ngành có tốc độ tăng trưởng nhanh nhất trong cả nước. Kinh ngạch xuất khẩu đứng thứ 4 chỉ sau cơ khí, hạt tiêu và cà phê. Sản phẩm nhựa Việt Nam đã có mặt trên 40 quốc gia và vẫn không ngừng tăng trưởng. Chỉ qua một vài thông số đã cho thấy sự lớn mạnh của ngành nhựa ở Việt Nam. Ngành nhựa phát triển lớn mạnh kéo theo sự ra đời của nền công nghiệp khuôn mẫu để hỗ trợ là điều tất yếu. Chính điều này đã tạo nên một cơ hội cũng như những thách thức cho đội ngũ các kỹ sư khuôn mẫu. Ra đời nhằm mục đích đi trước đón đầu công nghệ gia công tiên tiến của thế giới, ngành Công nghệ tự động trang bị cho sinh viên những kiến thức đầy đủ về gia công tiến tiến đặc biệt là trong ngành chế tạo khuôn mẫu. Tạo điều kiện cho đội ngũ sinh viên có thể phát huy tối đa khả năng của mình trong lĩnh vực sản xuất các sản phẩm nhựa, góp phần vào sự phát triển chung của đất nước. Trong quá trình học tập và thực hiện đồ án tại trường đại học Sư Phạm Kỹ Thuật Thành Phố Hồ Chí Minh, chúng em đã được các thầy cô hướng dẫn, giảng dạy tận tình và cũng như tạo điều kiện tốt nhất để chúng em có thể hoàn thành tốt chương trình học đại học. Đến nay, đồ án đã hoàn thành, chúng em xin gửi lời cảm ơn chân thành và sâu sắc đến: Thầy Trần Văn Trọn – giáo viên hướng dẫn đồ án đã hướng dẫn tận tình cũng như tạo điều kiện tốt nhất để chúng em có thể hoàn thành đồ án. Thầy......... và thầy ... đã giúp đỡ chúng em trong quá trình thực hiện đồ án và trong quá trình gia công Các thầy cô bộ môn Cơ khí Máy nói chung và bộ môn Công Nghệ Tự Động nói riêng đã cho phép chúng em sử dụng cơ sở vật chất của trường để thực hiện quá trình gia công. Các thầy cô trong trường đã truyền đạt những kiến thức vô cùng hữu ích để chúng em có thể hoàn thành chương trình học và đồ án. Tập thể anh em xưởng cơ khí CICVietNam đã hỗ trợ cho chúng em trong quá trình gia công các tấm lòng khuôn. Các bạn trong tập thể lớp Công Nghệ Tự Động 08 đã hỗ trợ nhiệt tình để chúng em hoàn thành quá trình gia công đồ án. Xin chúc quý thầy cô nhiều sức khỏe và đạt được nhiều thành công trên con đường giáo dục, tiếp tục truyền đạt những kiến thức cho các thế hệ trẻ kế tiếp để chúng ta cùng nhau xây dựng đất nước. Xin chúc các bạn lớp Công Nghệ Tự Động đạt được thành công và hạnh phúc trên con đường tương lai. MỤC LỤC Đề mục Trang CHƯƠNG I..... DẪN NHẬP. 1 1.1. Đặt vấn đề - lý do chọn đề tài. 1 1.2. Giới thiệu sản phẩm. 1 1.3. Mục tiêu của đề tài. 2 1.4. Phạm vi – giới hạn đề tài. 2 1.5. Thể thức nghiên cứu. 2 1.5.1. Thời gian nghiên cứu. 2 1.5.2. Phương pháp nghiên cứu. 3 CHƯƠNG 2.... GIỚI THIỆU CÔNG NGHỆ KHUÔN ÉP PHUN – NHỰA 4 2.1. Giới thiệu công nghệ khuôn ép phun. 4 2.1.1. Khả năng công nghệ. 4 2.1.2. Các yêu cầu kỹ thuật đối với bộ khuôn. 4 2.1.3. Chu trình ép phun. 4 2.1.4. Vật liệu trong công nghệ ép phun. 5 CHƯƠNG 3.... THIẾT KẾ SẢN PHẨM VÀ PHÂN TÍCH MOLDFLOW 7 3.1. Thiết kế sản phẩm. 7 3.1.1. Yêu cầu kỹ thuật của sản phẩm sau khi ép. 8 3.1.2. Yêu cầu thẩm mỹ của sản phẩm. 8 3.2. Ứng dụng phần mềm Moldflow phân tích vị trí đặt cổng phun nhựa và chọn khuôn cho sản phẩm. 8 3.2.1. Xác định cổng vào nhựa cho sản phẩm. 8 3.3. Tính toán hệ thống kênh dẫn nhựa. 15 3.3.1. Chọn kiểu phun. 15 3.3.2. Kích thước miệng phun. 16 3.3.3. Kênh dẫn nhựa. 16 3.3.4. Tiết diện kênh dẫn. 16 3.4. Tính toán hệ thống kênh làm mát. 18 3.5. Góc vát ở vai của sản phẩm. 20 3.6. Tính khả thi của sản phẩm ép nhựa. 21 3.8. Phân tích Moldflow với hệ thống làm nguội. 30 CHƯƠNG 4.... LẮP RÁP VÀ GIA CÔNG CÁC TẤM KHUÔN.. 32 4.5. Tính toán các chi tiết và hệ thống trong bộ khuôn. 36 4.7. Gia công tấm kẹp dưới. 41 4.8. Gia công tấm kẹp trên. 42 4.9. Gia công khuôn dương. 43 4.9.1. Mặt trên. 43 4.9.2. Mặt lòng khuôn. 44 4.10. Gia công khuôn âm. 45 4.10.1. Mặt dưới. 45 4.10.2. Mặt lòng khuôn. 46 4.11. Bộ khuôn được lắp ráp hoàn chỉnh. 47 CHƯƠNG 5.... ĐÁNH BÓNG CÁC TẤM KHUÔN.. 48 CHƯƠNG 6.... KẾT LUẬN.. 50 6.1. Kết quả và hướng phát triển. 50 6.2. Mở rộng đề tài. 51 TÀI LIỆU THAM KHẢO.. 55 DANH SÁCH CÁC HÌNH MINH HỌA Hình ảnh Trang Hình 3.1: Sản phẩm kẹp ly sau khi thiết kế và render. 7 Hình 3.2: Vật liệu nhựa phân tích. 9 Hình 3.3: Vùng đặt cổng phun. 9 Hình 3.4: Vị trí đặt cổng phun tốt nhất 10 Hình 3.5: Đặt cổng phun mặt dưới 10 Hình 3.6: Đặt cổng phun tại cạnh chi tiết 10 Hình 3.7: Thời gian điền đầy. 11 Hình 3.8: Áp suất điền đầy khuôn. 11 Hình 3.9: Lực kẹp khuôn. 12 Hình 3.10: Lỗi đường hàn. 12 Hình 3.11: Lỗi rỗ khí 12 Hình 3.12: Thời gian điền đầy. 13 Hình 3.13: Áp suất điền đầy. 14 Hình 3.14: Lực kẹp khuôn. 14 Hình 3.15: Lỗi đường hàn. 14 Hình 3.16: Lỗi rỗ khí 15 Hình 3.17: Công thức tính toán các kích thước của miệng phun. 16 Hình 3.18: Kích thước miệng phun. 16 Hình 3.19: Tính toán kênh dẫn. 17 Hình 3.20: Kích thước cuống phun cho thiết kế. 17 Hình 3.21: 1 chu kỳ ép. 18 Hình 3.22: Kích thước hệ thống làm nguội theo lý thuyết. 19 Hình 3.23: Kích thước hệ thống làm nguội theo kinh nghiệm. 19 Hình 3.24: Kênh làm mát khuôn dương. 19 Hình 3.25: Kênh làm mát khuôn âm.. 19 Hình 3.26: Góc vát thoát khuôn theo lý thuyết 20 Hình 3.27: Kích thước vai chi tiết 20 Hình 3.28: Kết quả phân tích Mold Window.. 22 Hình 3.29: Thời gian điền đầy cho bộ sản phẩm là 0.4097s. 23 Hình 3.30: Vùng điền đầy cuối cùng. 23 Hình 3.31: Bảng biểu thể hiện quá trình điền đầy khuôn. 24 Hình 3.32: Biểu đồ chuyển đổi V/P (vận tốc/áp suất). 24 Hình 3.33: Sản phẩm sau khi ép. 25 Hình 3.34: Sự phân bố nhiệt trong lòng khuôn. 25 Hình 3.35: Lỗi đường hàn. 26 Hình 3.36: Lỗi bọt khí 26 Hình 3.37: Co rút thể tích. 27 Hình 3.38: Những vùng co rút thể tích. 27 Hình 3.39: Biểu đồ lực kẹp khuôn. 28 Hình 3.40: Bảng giữ áp suất 28 Hình 3.41: Lỗi lõm bề mặt 29 Hình 3.42: Vết lõm bề mặt 29 Hình 3.43: Thời gian có thể mở khuôn. 30 Hình 3.44: Nhiệt độ chênh lệch giữa đầu vào và đầu ra. 31 Hình 4.1: Tách khuôn cho sản phẩm.. 32 Hình 4.2: Phân bố lòng khuôn. 33 Hình 4.3: Lắp ráp hoàn chỉnh bộ khuôn. 33 Hình 4.4: Tấm kẹp trên. 34 Hình 4.5: Tấm kẹp dưới 34 Hình 4.6: Tấm đẩy. 34 Hình 4.7: Tấm giữ. 34 Hình 4.8: Tấm lòng khuôn âm.. 34 Hình 4.9: Lòng khuôn dương. 34 Hình 4.10: Gối đỡ. 34 Hình 4.11: Bạc cuốngg phun. 35 Hình 4.12: Vòng định vị 35 Hình 4.13: Lò xo. 35 Hình 4.14: Bạc dẫn Ø25x30. 35 Hình 4.15: Chốt dẫn hướng Ø25x65. 35 Hình 4.16: Chốt hồi Ø16x100. 35 Hình 4.17: Ty đẩy Ø3x100. 35 Hình 4.18: Ty giật đuôi keo Ø6x100. 35 Hình 4.19: Bulông M14x29 (tấm kẹp trên). 35 Hình 4.20: Bulông M14x124 (tấm kẹp dưới). 35 Hình 4.21: Bulông M8x28 (vòng định vị). 36 Hình 4.22: Bulông M10x30 (tấm đẩy). 36 Hình 4.23: Bulông vòng. 36 Hình 4.24: Gối đỡ sau khi gia công. 38 Hình 4.25: Tấm đẩy sau khi gia công. 39 Hình 4.26: Tấm giữ sau khi gia công. 40 Hình 4.27: Tấm kẹp dưới sau khi gia công. 41 Hình 4.28: Tấm kẹp trên sau khi gia công. 42 Hình 4.29: Khuôn dương – mặt trên sau khi gia công. 43 Hình 4.30: Tấm khuôn dương – mặt lòng khuôn sau khi gia công. 44 Hình 4.31: Tấm khuôn âm – mặt dưới sau khi gia công. 45 Hình 4.32: Tấm khuôn âm – mặt lòng khuôn sau khi gia công. 46 Hình 4.33: Lắp ráp hoàn chỉnh bộ khuôn. 47 Hình 5.1: Dũa thép. 48 Hình 5.2: Dũa kim cương. 48 Hình 5.3: Dũa nhỏ - móc. 48 Hình 5.4: Máy khoan tay. 49 Hình 5.5: Đá mài các loại 49 Hình 5.6: Giấy nhám.. 49 Hình 5.7: Sáp mài 49 Hình 5.8: Hóa chất đánh bóng Metal Polish - AutoSol 49 Hình 6.1: Sản phẩm thực tế sau khi ép. 50 CHƯƠNG I DẪN NHẬP 1.1. Đặt vấn đề - lý do chọn đề tài. Trong đời sống, sản phẩm nhựa ngày đã trở nên rất thông dụng. Từ những sản phẩm đơn giản như bàn chải, rổ, thau phục vụ cho nhu cầu sinh hoạt thiết yếu cho đến những sản phẩm cao cấp, tinh xảo như vỏ điện thoại di động, vỏ màn hình nhằm phục vụ cho công việc giải trí, sản xuất của con người. Chính nhu cầu thị trường rộng lớn đã tạo ra cơ hội cho những doanh nghiệp sản xuất nói chung và đội ngũ kỹ sư thiết kế nói riêng. Tuy nhiên cơ hội lớn cũng đồng nghĩa với thách thức lớn được đặt ra, đó là đưa được sản phẩm của mình đến được tay người tiêu dùng. Điều đó đòi hỏi ở sản phẩm không những phải đẹp mắt, chất lượng tốt, giá cả phải chăng mà còn phải có sự độc đáo riêng. Với mục đích tìm hiểu và học hỏi về quá trình chế tạo một bộ khuôn hoàn chỉnh nên nhóm đã quyết định chọn đề tài “THIẾT KẾ VÀ CHẾ TẠO BỘ KHUÔN SẢN PHẨM KẸP LY” cho đồ án lần này. Đồng thời thông qua đề tài này, nhóm sinh viên thực hiện mong muốn áp dụng những kiến thức đã được học trên ghế nhà trường vào những đề tài thực tế, kiểm nghiệm lại những kiến thức bằng chính những thực nghiệm của mình, tạo điều kiện tiếp xúc, lấy kinh nghiệm trước khi ra trường và bắt đầu tham gia sản xuất. Nhóm thực hiện cũng mong muốn góp chút công sức của mình, giúp nhà trường có thêm tài liệu giảng dạy về đề tài khuôn mẫu cho những sinh viên khác có nhu cầu tìm hiểu. 1.2. Giới thiệu sản phẩm. Bộ sản phẩm kẹp ly được thiết kế đơn giản, gọn nhẹ nhưng cũng không kém phần lạ mắt đối với những khách hàng lần đầu tiên tiếp xúc. Kẹp ly có thể được sử dụng 1 cách linh hoạt cho nhiều mục đích khác nhau với nhiều vị trí khác nhau. Có thể được sử dụng trong văn phòng làm việc, trên tàu xe, phòng khách gia đình...Bộ kẹp ly được thiết kế để giải quyết vấn đề thấm ướt do nước từ trong cốc nhựa đổ ra khi ta vô tình làm ngã, khi đó có thể sẽ làm hỏng hoặc bẩn các thiết bị điện tử, giấy tờ trên bàn. Ngoài cốc nhựa, với thiết kế vững chắc thì kẹp ly còn có thể chứa các vật dùng có kích thước phù hợp khác như: điện thoại di động, móc khóa... Bên cạnh đó, bộ kẹp ly còn giúp tiết kiệm 1 khoảng không gian tại bàn làm việc của chúng ta, không những thế, còn giúp trang trí thêm bàn làm việc của chúng ta thêm xinh xắn. 1.3. Mục tiêu của đề tài. Thiết kế sản phẩm, bộ khuôn ép nhựa. Chế tạo bộ khuôn và ép thử sản phẩm.
+1.4. Phạm vi – giới hạn đề tài.
+Do những điều kiện khách quan cũng như chủ quan mà đề tài chỉ nghiên cứu những vấn đề sau:
+Thiết kế và tách khuôn sản phẩm bằng phần mềm CreO Parametric 1.0. Thiết kế và lắp ráp hoàn chỉnh kết cấu bộ khuôn bằng sự hỗ trợ của EMX 7.0. Tính toán quá trình điền đầy lòng khuôn và quá trình làm nguội bằng phần mềm MoldFlow. Gia công các tấm khuôn bằng máy CNC MIKRON UCP 600. Ép thử sản phẩm bằng máy ép nhựa W – 120B SHINE WELL.
+1.5. Thể thức nghiên cứu.
+1.5.1. Thời gian nghiên cứu.
+Quá trình thực hiện đề tài bao gồm nhiều khâu liên tiếp và có quan hệ với nhau. Thời gian thực hiện đồ án: 14 tuần.
+Tuần Công việc 1+2 Tìm ý tưởng – xác định đề tài Tham khảo tài liệu Xử lý số liệu 3+4 Nghiên cứu và hoàn chỉnh lý thuyết khuôn mẫu. 5 Thiết kế sản phẩm. 6 Phân tích sản phẩm và dòng chảy nhựa. 7+8 Thiết kế bộ khuôn Mua linh kiện, phôi, dụng cụ cắt gọt. 9+10 Hoàn chỉnh chương trình gia công. Xuất bản vẽ hoàn chỉnh. 11 Gia công hoàn chỉnh bộ khuôn 12 Lắp ráp và ép thử. 13 Hoàn chỉnh báo cáo đồ án. 14 In ấn
+1.5.2. Phương pháp nghiên cứu.
+Đồ án được thực hiện bằng các phương pháp nghiên cứu:
+Nghiên cứu tổng quan từ sách, báo, tìm hiểu và khảo sát mẫu sản phẩm có sẵn trên thị trường. Tính toán và mô phỏng trên phần mềm MoldFlow.
+CHƯƠNG 2 GIỚI THIỆU CÔNG NGHỆ KHUÔN ÉP PHUN – NHỰA
+Tóm tắt chương:
+Trong chương này sẽ giới thiệu một vài khái niệm cơ bản nhất về khuôn ép nhựa, những yêu cầu cơ bản của bộ khuôn. Bên cạnh đó trong chương này cũng giới thiệu khái quát, sơ lược một số loại nhựa được sử dụng rộng rãi trong đời sống hằng ngày.
+
+1.1. Giới thiệu công nghệ khuôn ép phun.
+Có thể hiểu một cách đơn giản: công nghệ ép phun là quá trình điền đầy lòng khuôn bằng dòng nhựa nóng chảy, sau đó làm nguội và lấy sản phẩm ra nhờ hệ thống đẩy. Trong đó không xảy ra bất kỳ phản ứng hóa học nào.
+1.1.1. Khả năng công nghệ.
+Tạo ra những sản phẩm có hình dáng phức tạp. Khả năng tự động hóa cao.
+Phù hợp với sản xuất hàng loạt và hàng khối.
+1.1.2. Các yêu cầu kỹ thuật đối với bộ khuôn.
+Do được sử dụng trong sản xuất hàng loạt nên yêu cầu kỹ thuật của bộ khuôn rất cao.
+Độ chính xác kích thước: đảm bảo cho sản phẩm sau khi ép đúng với thiết kế. Độ song song, độ phẳng giữa các bề mặt: đảm bảo cho quá trình lắp ráp khuôn và quá trình ép được chính xác, không xảy ra hiện tượng bavia. Độ bóng bề mặt: đảm bảo cho sản phẩm ép ra đạt được độ bóng (nhám) theo yêu cầu. Độ cứng vững, độ bền: vì được sử dụng trong môi trường công nghiệp, làm việc nhiều lần ở nhiệt độ cao, lực ép lớn,...
+1.1.3. Chu trình ép phun.
+Một chu trình ép phun thường bao gồm 4 giai đoạn:
+Kẹp chặt. Phun nhựa – giữ áp. Làm nguội. Đẩy sản phẩm.
+1.1.4. Vật liệu trong công nghệ ép phun.
+Vật liệu thường được sử dụng trong công nghệ ép phun là nhựa. Nhựa là sản phẩm nhân tạo dựa trên cơ sở các polyme hữu cơ. Khi nung nóng nhựa này sẽ chảy dẻo, dưới áp lực cao chúng tạo thành hình dáng nhất định và giữ nguyên hình dạng đó khi nguội lại.
+Có 2 cách phân loại vật liệu nhựa:
+Phân loại theo hiệu ứng nhiệt: có 2 loại
+Nhựa nhiệt dẻo: khi nung nóng đến nhiệt độ nóng chảy, nhựa chảy mềm ra. Khi hạ nhiệt độ thì đông cứng trở lại. Có khả năng tái sinh. Nhựa nhiệt rắn: khi gia nhiệt thì biến đổi trạng thái, chuyển sang trạng thái rắn. Khi ngừng gia nhiệt thì không về trạng thái đầu. Không tái sinh được.
+Phân loại theo ứng dụng:
+Nhựa thông dụng: là loại nhựa được sử dụng với số lượng lớn, thông dụng trong các vật dụng hằng ngày: PP, PE, PS, PVC, PET, ABS,... Nhựa kỹ thuật: loại nhựa có tính chất vượt trội hơn hẳn nhựa thông dụng, dùng trong các mặt hàng công nghiệp như PC, PA, ... Nhựa chuyên dụng: loại nhựa tổng hợp, chỉ sử dụng trong 1 số ít trường hợp riêng biệt.
+Một số loại nhựa thông dụng:
+Nhựa PP (Polypropylene)
+Độ bền cơ học cao. Trong suốt, khả năng in ấn cao. Dòn ở nhiệt độ thấp, dễ cháy ở nhiệt độ cao, dễ bị tia UV phá hủy. Khả năng ép phun tốt. Khả năng cách điện cực tốt. Dùng trong công nghiệp thực phẩm: bao bì 1 lớp, màng phủ ngoài,...
+Nhựa PE (Polyetylene)
+Màu trắng, mờ. Dễ cháy, dòn ở nhiệt độ thấp. Chống thấm nước, hóa chất. Khả năng chống ăn mòn và độ bền mỏi cao. Dùng làm thùng chứa dung môi, chai lọ,...
+Nhựa PS (Polystyrene)
+Độ bền cao, chịu va đập kém. Dễ dàng pha màu, độ giãn dài tốt. Nhiệt độ biến dạng thấp, tạo khí màu đen. Sử dụng cho những sản phẩm rẻ tiền, nhựa tái sinh... Dùng làm vỏ, hộp điện, ống,....
+Nhựa ABS (Acrylonitrile Butadene Styrene)
+Độ dai va đập cao ngay cả ở nhiệt độ thấp. Khả năng truyền nhiệt thấp, chịu được nhiệt độ cao. Khả năng chống mài mòn và ăn mòn cao. Tính co ngót thấp, trọng lượng nhẹ. Được sử dụng rộng rãi trong các sản phẩm: vỏ màn hình, xe máy, công tắc, mũ bảo hiểm.... ..............................
+CHƯƠNG 3 THIẾT KẾ SẢN PHẨM VÀ PHÂN TÍCH
+QUÁ TRÌNH ĐIỀN ĐẦY
+
+Tóm tắt chương:
+Chương 3 sẽ giới thiệu ngắn gọn quá trình thiết kế sản phẩm. Tính toán các góc vát thoát khuôn, đồng thời tách khuôn bằng phần mềm Creo 1.0. Ứng dụng phần mềm Moldflow vào quá trình phân tích tìm vị trí điểm phun tốt nhất cho bộ khuôn. Dựa vào tài liệu lý thuyết và tìm hiểu tính toán hệ thống phun, hệ thống làm nguội sản phẩm và khuôn. Từ các tính toán và thiết kế đã được thực hiện ở trên, tiến hành khảo sát tính khả thi của bộ khuôn và quá trình ép sản phẩm trên máy ép nhựa Shine Well W-120B.
+
+1.1.1. Yêu cầu kỹ thuật của sản phẩm sau khi ép.
+Vai sản phẩm lúc lấy ra khỏi khuôn không bị biến dạng, đứt gãy. Đúng với kích thước thiết kế hoặc sai lệch không quá 5%. Có góc thoát khuôn hợp lý để quá trình lấy sản phẩm ra khỏi khuôn dễ dàng.
+1.1.2. Yêu cầu thẩm mỹ của sản phẩm.
+Sản phẩm không bị bavia, cong vênh. Không bị đường hàn trên bề mặt sản phẩm. Vết của ty đẩy trên mặt sản phẩm không nhìn thấy.
+1.2. Ứng dụng phần mềm Moldflow phân tích vị trí đặt cổng phun nhựa và chọn khuôn cho sản phẩm.
+1.2.1. Xác định cổng vào nhựa cho sản phẩm.
+Yêu cầu của cổng vào nhựa:
+Cân bằng dòng chảy nhựa. Đảm bảo tính thẩm mỹ của sản phẩm. Áp suất phun, thời gian phun, thời gian làm nguội, lực kẹp khuôn là tối ưu nhất. Tối thiểu các khuyết tật như: rỗ khí, đường hàn, cháy. Đặc biệt là điền thiếu nhựa. Đảm bảo điều kiện gia công, khả năng gia công được dễ dàng, chiếm ít thời gian.
+Phân tích xác định cổng vào nhựa:
+Vì đây là bộ sản phẩm kiểu Family Mold nên cần phân tích cả 2 chi tiết trên – dưới. Sản phẩm đòi hỏi phải có tính thẩm mỹ nên không nên đặt miệng phun mặt trên của sản phẩm. Sản phẩm là đơn giản nên chỉ cần dùng 1 cổng phun. Từ những yêu cầu ở trên nên ta thực hiện quá trình phân tích Moldflow - kiểu phân tích Gate Location để tìm vị trí cổng phun tốt nhất. Các thông số thiết lập ban đầu cho quá trình phân tích:
+Thiết lập thông số chia lưới:
+Kích thước phần tử: 3 Số lượng phần tử: 11500
+Độ mở hành trình (Opening Stroke): 380mm Đường kính trục vít (Screw Diameter): 45mm Áp suất phun (Injection Pressure): 136MPa Lực kẹp (Clamping Force): 120 tấn.
+Hình 3.3: Vùng đặt cổng phun
+Vùng xanh thể hiện vùng đặt cổng phun tốt.
+Vùng đỏ thể hiện vùng không nên đặt cổng phun.
+
+Sau quá trình phân tích ta được bảng kết quả :
+Phương án 1 Phương án 2 Thời gian điền đầy 4.172s 4.168s Áp suất điền đầy 6.542 MPa 6.570 MPa Lực kẹp khuôn Khoảng 4.7 tấn Nhỏ hơn 4 tấn Đường hàn Số lượng ít Số lượng nhiều Rỗ khí Số lượng nhiều Số lượng ít
+Dựa vào bảng kết quả phân tích được ta có thể so sánh và thấy rằng: tuy kết quả từ 2 phương án chênh lệch nhau không nhiều nhưng để tối ưu hóa quá trình ép phun thì phương án 2 tốt hơn. Vì mức độ chênh lệch giữa phương án 1 và phương án 2 không nhiều lắm, bên cạnh đó đây là bộ sản phẩm gồm 2 phần nên ta không thể vội vàng đưa ra kết luận cuối cùng. Do đó ta tiếp tục tiến hành phân tích phần còn lại của bộ sản phẩm. Sau quá trình phân tích ta được bảng kết quả:
+Phương án 1 Phương án 2 Thời gian điền đầy 3.194s 3.19s Áp suất điền đầy 5.992 MPa 6.614 MPa Lực kẹp khuôn > 5 tấn < 5 tấn Đường hàn Số lượng ít Số lượng nhiều Rỗ khí Như nhau ở cả 2 phương án
+Từ kết quả trên ta thấy, cả 2 phương án đều có những ưu – nhược điểm tương đương nhau.
+Kết luận chung:
+Thông qua 2 phương án được thực hiện trên 2 tấm của bộ sản phẩm kẹp ly ta nhận thấy: phương án 2 (vị trí đặt cổng phun bên hông chi tiết) cho kết quả phân tích tốt hơn so với phương án 1 (vị trí đặt cổng phun bên dưới chi tiết).
+Do đó nhóm quyết định thực hiện bộ khuôn sản phẩm kẹp ly với vị trí đặt cổng phun là ở bên hông chi tiết.
+1.1. Tính toán hệ thống kênh dẫn nhựa.
+1.1.1. Chọn kiểu phun.
+Vì khuôn được sử dụng là khuôn 2 tấm. Sản phẩm đòi hỏi có tính thẩm mỹ, không để lại vết miệng phun trên bề mặt. Bên cạnh đó, do khả năng gia công và chi phí, thời gian có hạn.
+Từ những lý do đó nên ta chọn kiểu phun là phun cạnh. 1.1.1. Hình 3.18: Kích thước miệng phun Kênh dẫn nhựa. Để đảm bảo khả năng di chuyển của dòng nhựa, tránh mất nhiệt trên hành trình. Tốc độ nguội chậm, tổn thất ma sát ít. Tâm kênh dẫn ổn định, áp lực hiệu quả. Chọn kênh dẫn có tiết diện hình tròn.
+1.1.2. Đường kính kênh dẫn.
+Có 2 cách tính đường kính kênh dẫn nhựa
+..........................
+CHƯƠNG 4 LẮP RÁP VÀ GIA CÔNG CÁC TẤM KHUÔN
+
+Tóm tắt chương
+Sau khi hoàn thành các bước thiết kế chi tiết, tính toán hệ thống kênh dẫn và hệ thống dẫn hướng, hệ thống đẩy và phân tích dòng chảy nhựa bằng phần mềm Autodesk Moldflow Insight, ta tiến hành lắp ráp hoàn chỉnh bộ khuôn bằng phần mềm hỗ trợ EMX (Expert Mold Base Extension) và gia công các tấm khuôn trên máy CNC MIKRON UCP-600.
+
+1.1. Tách khuôn cho sản phẩm.
+
+CHƯƠNG 5 ĐÁNH BÓNG CÁC TẤM KHUÔN
+
+Tóm tắt chương
+Trong chương này sẽ giới thiệu các dụng cụ được sử dụng trong quá trình làm nguội các tấm của bộ khuôn sau khi gia công cùng với đó là các bước của quá trình gia công làm nguội.
+
+1.1. Quá trình làm nguội.
+Sau khi gia công xong các tấm của bộ khuôn trên máy CNC ta tiến hành quá trình làm nguội. Chức năng của quá trình làm nguội trong gia công khuôn:
+Loại bỏ những vùng bavia. Làm sạch bề mặt gia công. Loại bỏ những đường chạy dao do quá trình lập trình gia công chưa được hoàn hảo. Các chi tiết mua ngoài thị trường chưa đạt độ chính xác cao, do đó ta phải làm nguội lại cho phù hợp. Đánh bóng các bề mặt khuôn, các rãnh dẫn, vai.
+1.2. Đánh bóng bộ khuôn.
+
+Quá trình làm nguội bộ khuôn của nhóm được thực hiện qua các giai đoạn: 1.1. Mở rộng đề tài. Tuy đã ép thử và thành công bộ sản phẩm kẹp ly nhưng đồ án vẫn còn có những điểm hạn chế và sai sót. Ngay tại vị trí các vai của sản phẩm, có 2 phương án thay thế khác: Thay phương pháp gia công cắt gọt thông thường bằng phương pháp gia công bằng tia lửa điện, như thế sẽ đạt được độ bóng và mức độ chính xác được tốt hơn. Tìm hiểu sử dụng insert. Sản phẩm ép ra còn phải qua quá trình khoan để có thể hoàn chỉnh sản phẩm. Có thể sử dụng UnderCut tại vị trí các vai để có thể giảm thời gian khoan. Thiết kế lại hệ thống kênh dẫn, tính toán lại quá trình cân bằng dòng để quá trình phun được tốt hơn. Thiết kế lại kích thước miệng phun. Thay đổi kiểu phun, có thể thay bằng miệng phun ngầm để nâng cao thêm tính thẩm mỹ của bề mặt sản phẩm. Tìm hiểu thông số phun hợp lý để giảm thời gian chu kỳ phun. TÀI LIỆU THAM KHẢO [1] “Bài giảng Thiết kế khuôn ép nhựa”, 2012, Đại Học Sư Phạm Kỹ Thuật Tp Hồ Chí Minh. [2] Thầy Lê Trung Thực, “Gia công sản phẩm bằng Pro/ENGINEER WILDFIRE”, 2008, Đại Học Bách Khoa Tp Hồ Chí Minh. [3] Thầy Lê Trung Thực, “Thiết kế khuôn căn bản”, 2009. [4] Herbert Rees & Bruce Catoen, “Selecting Injection Molds – Weighing Cost vs Productivity”, 2006, Hanser Publisher Munich. [5] Peter Jones, “The Mould Design Guide”, 2008, Smithers Rapra Technology Limited. [6] Trần Quốc Hùng, “Dung Sai – Kỹ Thuật Đo”, 2005, Đại Học Sư Phạm Kỹ Thuật Tp Hồ Chí Minh. Địa chỉ các trang Web tham khảo: http://www.alinecomponents.com/ http://www.meslab.org/ http://www.matbase.com/ http://www.custompartnet.com/ http://vietchuan.vn/ http://www.misumi-techcentral.com/ http://www.plasticvina.com/
+THIẾT KẾ VÀ CHẾ TẠO BỘ KHUÔN SẢN PHẨM KẸP LY, CAD, file 2D, 3D thuyết minh....,file báo cáo, nguyên lý vận hành khuôn, tháo lắp, và cách bảo quản khuôn....Bản vẽ chi tiết sản phẩm, quy trình chế tạo các chi tiết trong khuôn......
+
+

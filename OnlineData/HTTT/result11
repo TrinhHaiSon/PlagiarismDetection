@@ -1,0 +1,537 @@
+ĐỒ ÁN TỐT NGHIỆP
+Đề Tài:
+BÁO ĐỘNG VÀ ĐIỀU KHIỂN THIẾT BỊ ĐIỆN QUA ĐƯỜNG DÂY ĐIỆN THOẠI CỐ ĐỊNH
+CHƯƠNG1:GIỚI THIỆU VỀ ĐỀ TÀI
+1.1/ Giới thiệu chung:
+1.1.1/Đặt vấn đề:
+Như chúng ta đã thấy, trong thực tế hiện nay kỹ thuật Điện tử và công nghệ Tự Động hóa đang trở thành một ngành khoa học đa nhiệm vụ. Điện tử đã đáp ứng được những đòi hỏi không ngừng từ các lĩnh vực trong các ngành hàng không vũ trụ, thông tin liên lạc, tự động điều khiển...đặc biệt trong các thiết bị điện tử tự động đòi hỏi sự chính xác cao trong hoạt động điều khiển đã hỗ trợ con người rất nhiều trong cuộc sống. Những thành tựu khoa học kỹ thuật đã mang đến cho con người một cuộc sống tiện nghi văn minh và hiện đại.
+Một trong những ứng dụng rất quan trọng của công nghệ Tự Động là kỹ thuật báo động điện tử. Các thiết bị báo động điện tử như: hệ thống báo cháy, hệ thống báo nước đầy, hệ thống báo quá tải trong thang máy, hệ thống báo trộm bằng chuông. …Các thiết bị này đã góp phần rất lớn trong việc bảo vệ an toàn cho các dụng cụ và tài sản của người sử dụng. Nhưng một khuyết điểm nỗi bật trong các phương pháp báo động nói trên là không thể truyền xa được.
+Xuất phát từ những nhu cầu thực tế trong cuộc sống đi cùng với cơ sở vật chất hiện có, một phương pháp báo động từ xa ra đời có thể khắc phục được khuyết điểm về khoảng cách và thể hiện được vai trò này chính là phương pháp báo động và khả năng điều khiển từ xa qua mạng điện thoại. Phương pháp này giúp người sử dụng hệ thống có thể linh hoạt hơn trong việc kiểm tra cũng như có những phương pháp giải quyết hợp lý từ một khoảng cách không giới hạn tuỳ thuộc vào khả năng phủ kín của mạng lưới điện thoại có sẵn.
+Từ những ý tưởng trên và nhìn thấy được nhu cầu thực tế, bản thân em đã mạnh dạn thực thi ý tưởng thiết kế và thi công “Hệ thống báo động và điều khiển thiết bị từ xa qua đường dây điện thoại”.
+1.1.2/Tầm quan trọng của đề tài:
+Hình thành ý tưởng từ nhu cầu thực tế xã hội, nhưng để tạo ra được một sản phẩm có giá trị ứng dụng cao thì đây chính là một điều kiện tốt nhất để người thực hiện đề tài có thể tự kiểm chứng lại năng lực của mình trong suốt 6 học kì tích luỹ từ sự tự lực của bản thân và từ trường lớp. Đòi hỏi người thực hiện đề tài phải nỗ lực trong vấn đề hệ thống hoá lại toàn bộ các kiến thức liên quan và ứng dụng nó một cách hiệu quả trong khi thực hiện đề tài.
+Đề tài “Hệ thống báo động và điều khiển thiết bị từ xa qua đường dây điện thoại” hoàn thành sẽ góp phần vào việc ổn định an ninh xã hội, giảm thiểu thời gian và chi phí cho việc bảo vệ các tài sản cá nhân, tập thể, các cơ quan, xí nghiệp…. Đồng thời đây là một giải pháp phù hợp với sự phát triển của khoa học công nghệ hiện đại ngày nay, khi mà một người từ một vị trí bất kì nơi đâu đều có thể gián tiếp điều khiển và giám sát tài sản của mình thông qua mạng điện thoại.
+1.1.3/Giới hạn của đề tài:
+Trong giới hạn thời gian cho phép để hoàn thành đề tài này kết hợp với những kiến thức tích luỹ được trong suốt khoá học không cho phép người thực hiện đề tài thực hiện được hoàn chỉnh toàn bộ các yêu cầu tạo ra một sản phẩm ưu việt. Do đó người thực hiện đề tài chỉ tập trung đi sâu nghiên cứu về :
+ØDùng vi điều khiển 89C51 để điều khiển quá trình phát
+ØDùng MT8870 chuyên dụng thu DTMF(Dial Tone Multip Frequence ) giao tiếp với vi điều khiển
+ØDùng MT8880 chuyên dụng phát DTMF giao tiếp với vi điều khiển
+ØDùng ISD_1420 phát tín hiệu báo trộm lên Line điện thoại
+Do điều kiện về vật chất , trình độ và thời gian còn thiếu nhiều nên đề tài vẫn còn tồn tại một số vấn đề chưa giải quyết được.
+1.1.4/ Mục đích nghiên cứu:
+Trước tiên với bản thân người thực hiện đề tài, đây chính là một cơ hội tốt để có thể tự kiểm tra lại kiến thức của mình, đồng thời có cơ hội để nỗ lực vận động tìm hiểu, tiếp cận nghiên cứu được với những vấn đề mình chưa biết, chưa hiểu rõ nhằm trang bị cho bản thân nhiều kiến thức bổ ích sau này có thể ứng dụng vào thực tế cuộc sống.
+Sau khi tạo ra được sản phẩm của đề tài có thể ứng dụng báo động cho những nơi như: hệ thống các phòng ban trong cơ quan xí nghiệp, các khách sạn, nhà nghỉ, hoặc các hộ gia đình có nhu cầu sử dụng…
+1.1.5/ Đối tượng nghiên cứu:
+Đề tài hướng tới một phương thức báo động từ xa có sự kết hợp của nhiều lĩnh vực liên quan như: tổng đài điện thoại, vi mạch điện tử …Do đó, để tạo ra được một sản phẩm hoàn thiện theo mục đích đặt ra của đề tài thì người thực hiện cần phải tập trung nghiên cứu chủ yếu đến đối tượng: Vi mạch điện tử: là một đối tượng giữ vai trò trung tâm trong việc liên kết và xử lý tín hiệu từ các đối tượng khác. Trong đề tài có 1 board mạch chính là: mạch giao tiếp giữa tín hiệu đầu vào với đường dây điện thoại. Board này được thiết kế và thi công từ các linh kiện điện tử đã có sẵn ngoài thị trường như: điện trở, tụ điện, các IC số… với sự điều khiển trung tâm của IC vi điều khiển lập trình AT89C51. Board này khi nhận tín hiệu điều khiển cũng như báo động sẽ điều khiển quá trình thu và phát DTMF. Khi nhận được tín hiệu của thuê bao nhận, vi xử lí sẽ điều khiển phát câu thông báo được ghi sẵn trong ISD_1420
+Tổng đài điện thoại giữ vai trò quyết định đường truyền tín hiệu, mọi tín hiệu sẽ được truyền trên đường dây điện thoại theo phương thức truyền quy ước của tổng đài và sự cho phép của tổng đài.
+1.2./Tóm tắt nội dung của đề tài:
+Các thiết bị điện được nối song song với hệ thống điều khiển từ xa bằng đường điện thoại. Muốn điều khiển thiết bị điện ta quay số điện thoại về máy điện thoại có các thiết bị cần điều khiển. Sau khi quay số xong, ta qui định nếu sau 4 hồi chuông không có ai nhấc máy thì mạch này sẽ tự động đóng tải giả để kết nối thuê bao (thông thoại) với thuê bao gọi. Sau khi kết nối thuê bao, hệ thống này sẽ thông báo mời nhập mật mã và chờ trong vòng khoảng 10s giây nếu không có phím nhấn thì hệ thống này sẽ tự động mở tải giả tắt kết nối thuê bao.
+Sau khi nhận được thông báo nhấn mã passwords để xâm nhập vào hệ thống điều khiển, nếu người điều khiển bấm sai mã passwords thì sẽ không xâm nhập được vào hệ thống điều khiển. Nếu người điều khiển nhấn sai mã passsword thì hệ thống yêu cầu người điều khiển phải nhấn lại. Sau 3 lần sai mã passwords thì hệ thống sẽ mở tải giả tắt kết nối thuê bao. Nếu đúng thì cho phép người điều khiển xâm nhập vào hệ thống điều khiển. Sau khi phát xong thông báo mời điều khiển, hệ thống sẽ chờ lệnh điều khiển trong khoảng 10giây nếu không có phím nhấn thì hệ thống này sẽ tự động mở tải giả tắt kết nối thuê bao.
+Sau khi nhấn đúng mã passwords , nếu lúc này người điều khiển muốn kiểm tra tất cả các trạng thái thiết bị trước khi muốn điều khiển thì sẽ bấm mã số để kiểm tra tất cả các trạng thái thiết bị trong hệ thống điều khiển. Sau khi nhấn đúng mã số thì người điều khiển sẽ nghe được tín hiệu phản hồi về với tiếng nói để báo trạng thái các thiết bị. Lúc này, người điều khiển biết được tất cả các trạng thái thiết bị. Sau đó, người điều khiển muốn mở hay tắt thiết bị nào phụ thuộc vào mã lệnh người điều khiển muốn điều khiển mở hay tắt. Nếu người điều khiển muốn mở thiết bị thì bấm mã số để mở thiết bị
+Trong hệ thống này các số được qui định cho các thiết bị như sau:
+Mã password là:12
+Số 1 tương ứng cho mở thiết bị 1 .
+Số 2 tương ứng cho mở thiết bị 2 .
+Số 3 tương ứng cho mở thiết bị 3.
+Số 4 tương ứng cho mở thiết bị 4.
+Số 6 tương ứng cho tắt thiết bị 1.
+Số 7 tương ứng cho tắt thiết bị 2 .
+Số 8 tương ứng cho tắt thiết bị 3.
+Số 9 tương ứng cho tắt thiết bị 4.
+Phím 0 dùng để tắt toàn bộ thiết bị.
+Phím 5 dùng để mở toàn bộ thiết bị.
+Phím “*”được chọn là lệnh kiểm tra trạng thái của thiết bị.
+Ví dụ : Muốn mở thiết bị 1 thì người điều khiển phải bấm mã 1 tức là mã mở thiết bị 1. Sau khi nhấn đúng mã 1 thiết bị 1 sẽ được mở và vi điều khiển sẽ cho truy xuất ISD_1420 báo trạng thái thiết bị 1 vừa mới điều khiển với nội dung “ 1 mở ”.
+Nếu người điều khiển muốn tắt thiết bị 1 thì bấm tiếp mã số 6 . Sau khi bấm đúng mã 6 thì thiết bị 1 sẽ được tắt và sẽ có tín hiệu phản hồi về bằng tiếng nói để báo cho người điều khiển biết kết quả điều khiển bằng tiếng nói với nội dung “ 1 tắt”.
+Sau khi điều khiển hết tất cả các thiết bị muốn điều khiển, người điều khiển muốn kiểm tra lại trạng thái tất cả các thiết bị thì chỉ việc bấm Phím “*” và sau đó vi điều khiển sẽ kích địa chỉ cho ISD_1420 để thông báo cho người điều khiển biết trạng thái của từng thiết bị.
+Sau khi điều khiển xong thì người điều khiển gác máy. Lúc này, mạch không còn nhận được lệnh điều khiển. Sau một thời gian nhất định 10s, mạch sẽ tự động ngắt mạch kết nối thuê bao và trở về trạng thái chờ gọi.
+Bên cạnh việc điều khiển bằng hệ thống thông qua máy điện thoại thì người điều khiển còn có thể tự điều khiển tại chỗ bằng công tắt đã được thiết kế sẵn. Ví dụ: người điều khiển đang ở nhà và muốn mở một thiết bị nào đó chỉ cần nhấn công tắt tương ứng với thiết bị muốn mở. Trong trường hợp người điều khiển vắng nhà nhưng công tắt này vẫn hoạt động thì vẫn có thể gọi vào hệ thống để điều khiển tắt thiết bị mà không cần tác động đến công tắt tại chỗ.
+Đặc biệt ở đây hệ thống có khả năng báo động cho chủ thuê bao biết tình hình nơi mà mình muốn cần giám sát.
+Chẳng hạn như khi muốn giám sát một căn nhà hay một phân xưởng một khi phát hiện có hiện tượng cháy thì cảm biến của hệ thống sẽ nhận được và điều khiển việc quay số gọi đến chủ thuê (hay cảnh sát chữa cháy nếu được đặt) và báo tình trạng có xãy ra cháy.
+Còn nếu có trộm đột nhập vào nơi cần giám sát thì hệ thống cũng sẽ làm công việc gọi báo động cho chủ thuê bao biết là có trộm .
+Chú ý: Trong thời gian điều khiển, nếu có người nào đó nhấc máy bên máy bị gọi thì vẫn có thể thông thoại với người điều khiển.
+CHƯƠNG 2: CÁC LÝ THUYẾT LIÊN QUAN VÀ GIỚI THIỆU VỀ LINH KIỆN
+2.1/Khái quát về tổng đài điện thoại:
+2.1.1/Định nghĩa về tổng đài :
+Tổng đài là một hệ thống chuyển mạch có hệ thống kết nối các cuộc liên lạc giữa các thuê bao với nhau, với số lượng thuê bao lớn hay nhỏ tuỳ thuộc vào từng loại tổng đài, từng khu.
+2.1.2/ Chức năng của tổng đài :
+Tổng đài điện thoại có khả năng :
+Nhận biết được khi thuê bao nào có nhu cầu xuất phát cuộc gọi. Thông báo cho thuê bao biết mình sẵn sàng tiếp nhận các yêu cầu của thuê bao. Xử lí thông tin từ thuê bao chủ gọi để điều khiển kết nối theo yêu cầu. Báo cho thuê bao bị gọi biết có người cần muốn liên lạc. Giám sát thời gian và tình trạng thuê bao để ghi cước và giải tỏa.
+Giao tiếp được với những tổng đài khác để phối hợp điều khiển.
+Cấu trúc mạng điện thoại:
+Các thành phần chính cấu trúc mạng điện thoại chuyển mạch công cộng được phân cấp như hình 1.
+Một thuê bao đầu cuối nhà riêng hay thuê bao công sở trực tiếp nối đến tổng đài đầu cuối nội hạt của mạng điện thoại, còn được gọi là lớp 5( hay tung tâm điện thoại nội hạt là nơi nối kết với các thuê bao và có thể thiết kế được 10.000 đường dây thuê bao C.O : central offic ). Những thuê bao muốn sử dụng điện thoại phải nối đến C.O qua một đôi dây xoắn đơn được gọi là đường dây thuê bao.
+Việc định tuyến giữa các C.O phải luôn đảm bảo số tổng đài càng ít càng tốt để giảm đến tối thiểu chi phí truyền dẫn lưu lượng. Tuyến thực sự được chọn phụ thuộc vào những yếu tố như khoảng cách giữa hai C.O, mưc lưu lượng của mạng hiện tại, và vào thời gian của ngày. Nếu hai người sử dụng cùng nối chung đến một C.O thì quá trình kết nối sẽ diễn ra nhanh do chỉ qua một tổng đài duy nhất. Trong trường hợp hai thuê bao được nối đến trung tâm nội hạt khác nhau và hai tổng đài lớp 5 cùng nối đến tổng đài lớp 4 thì trung tâm đường dài sẽ thực hiện cuộc liên kết hai thuê trên. Khi các C.O cách xa nhau có thể liên kết với nhau qua nhiều phân lớp và có thể qua nhiều dạng tổng đài khác nhau.
+Hình 2.1: Cấu trúc của tổng đài điện thoại
+
+2.1.3/ Phân loại tổng đài: (Phân Loại Theo Công Nghệ)
+Cùng với sự phát triển của khoa học kỹ thuật, Tổng đài điện thoại ngày càng thay đổi để phù hợp với nhu cầu của xã hội. Quá trình nâng cao hoạt động của tổng đài trải qua các hình thức sau:
+2.1.3.1/ Tổng Đài Nhân Công:
+Tổng đài nhân công ra đời từ khi mới bắt đầu hệ thống thông tin điện thoại. Trong tổng đài, việc định hướng thông tin được thực hiện bằng sức người. Nói cách khác, việc kết nối thông thoại cho các thuê bao được thực hiện trực tiếp của con người ( gọi cho các điện thoại viên ). Nhiệm vụ cụ thể của điện thoại viên trong tổng đài bao gồm:
+Nhận biết nhu cầu gọi của thuê bao bằng tín hiệu đèn báo hoặc chuông kêu, tổng đài định vị được thuê bao gọi.
+Trực tiếp thông báo cho thuê bao được gọi bằng một dòng chuông bằng cách đồng bộ chuyển mạch, cung cấp dòng điện AC đến thuê bao được gọi.
+Trong trường hợp thuê bao được gọi bận (đang bận đàm thoại) điện thoại viên sẽ thông báo cho thuê bao gọi là cuộc gọi không thể thực hiện được.
+Khi thuê bao được gọi nhấc máy, điện thoại viên nhận biết điều này và ngắt dòng chuông, rút phích cấm của thuê bao gọi và cấm vào phích thuê bao được gọi, cho phép hai thuê bao thông thoại. Công việc tiếp theo của điện thoại viên là giám sát cuộc đàm thoại.
+Nếu một trong thuê bao gác máy, điện thoại viên nhận biết được điều này và thông báo cho bên còn lại biết thuê bao đã ngắt máy.
+Trong tổng đài này các cuộc đàm thoại đều được thiết lập qua điện thoại viên bằng cách chuyển phích cấm hay khoá duy chuyển . Tại ngay tổng đài và mỗi thuê bao có một máy phát điện riêng để rung chuông và một nguồn DC để cung cấp cho cuộc đàm thoại.
+Sau đó tổng đài nhân công phát triển sang một bước mới là tổng đài nhân công cộng điện. Trong tổng đài này các thuê bao chỉ có một nguồn DC duy nhất dùng chung cho tất cả các máy.
+Nhược điểm của tổng dài nhân công:
+Thời gian kết nối lâu
+Dể bị nhầm lẫn
+Với dung lượng lớn, kết cấu và thiết bị của tổng đài này phức tạp và cần có nhiều điện thoại viên cùng một lúc mới có thể thông thoại nhiều liên kết yêu cầu cùng một lúc.
+2.1.3.2 /Tổng Đài Tự Động:
+Việc chuyển từ tổng đài nhân công sang tổng đài tự động là một bước phát triển quan trọng của kỹ thuật thông tin điện thoại. Người ta chia tổng đài tự động ra làm hai loại:
+Tổng đài cơ điện. Tổng đài điện tử.
+2.1.3.2.1/ Tổng Đài cơ điện:
+Kỹ thuật chuyển mạch trong tổng đài cơ điện nhờ vào các bộ chuyển mạch cơ khí, được điều khiển bằng các mạch điện tử bao gồm:
+Chuyển mạch quay tròn. Chuyển mạch từng nấc. Chuyển mạch ngang dọc.
+Trong tổng đài cơ điện, việc nhận dạng thuê bao gọi, xác định thuê bao bị gọi, cấp âm hiệu, kết nối thông thoại đều được thực hiện một cách tự động nhờ mạch điện tử cùng với các bộ chuyển mạch bằng cơ khí. Tổng đài có nhiều ưu điểm sau:
+Thời gian kết nối nhanh chóng hơn, chính xác hơn. Dung lượng của tổng đài có thể tăng lên nhiều. Giảm nhẹ công việc của điện thoại viên.
+Tuy nhiên tổng đài có những khuyết điểm sau:
+Thiết bị cồng kềnh Tốn nhiều năng lượng. Điều khiển kết nối phức tạp. Các nhược điểm này thể hiện khá rỏ khi dung lượng tổng đài khá lớn.
+2.1.3.2.2/ Tổng Đài Điện Tử:
+Trong các tổng đài điện tử, các bộ phận chuyển mạch gồm các linh kiện bán dẫn, vi mạch dùng các Rơle, analog switch được điều khiển bởi các vi mạch điện tử. Trong tổng đài điện tử các bộ chuyển mạch bằng bán dẫn thay thế cho các bộ chuyển mạch cơ khí của tổng đài cơ điện làm cho cơ cấu cuả tổng đài gọn nhẹ, thời gian kết nối nhanh hơn, năng lượng tiêu tán ít hơn. Tổng đài điện tử có ưu điểm là khi dung lương tổng đài tăng lên cao thì cấc trúc của tổng đài không phức tạp hơn.
+Tổng đài điện tử có những phương thức chuyển mạch sau :
+Tổng đài điện tử dùng phương thức chuyển mạch không gian (SDM : Space Devision Multiplexer) dùng cho tín hiệu tương tự
+Tổng đài điện tử dùng phương thức chuyển mạch thời gian (TDM : Timing Devision Multiplexer) Phương thức ghép kênh tương tự theo thời gian (Analog TDM) gồm có :
+Ghép kênh bằng phương thức truyền đạt cộng hưởng.
+Ghép kênh PAM (PAM : Pulse Amplitude Modulation).
+Trong kỹ thuật ghép kênh PCM người ta lại chia 2 loại : điều chế Delta và điều chế PCM.
+Ngoài ra, đối với tổng đài có dung lượng lớn và rất lớn (dung lượng lên đến cỡ vài chục ngàn số) người ta phối hợp cả hai phương thức chuyển mạch SDM và TDM thành T - S - T, T - S, S - T - S ….
+Ưu điểm của phương thức kết hợp này là tận dụng tối đa số link trống và giảm bớt số link trống không cần thiết, làm cho kết cấu của toàn tổng đài trở nên đơn giản hơn. bởi vì, phương thức ghép kênh TDM luôn luôn tạo ra khả năng toàn thông, mà thông thường đối với tổng đài có dung lượng lớn, việc dư link là không cần thiết. Người ta đã tính ra thông thường chỉ có tối đa 10% các thuê bao có yêu cầu cùng 1 lúc, nên số link trống chỉ cần đạt 10% tổng số thuê bao là đủ.
+Tổng đài điện tử dùng phương thức ghép kênh theo tần số (FDM : Frequence Devision Multiplexer).
+ïHiện nay trên mạng viễn thông Việt Nam có 4 loại tổng đài:
+Tổng đài cơ quan PABX (private automatic exchange) : được sử dụng trong các cơ quan, khách sạn và chỉ sử dụng trung kế CO- line. Tổng đài nông thôn ( rural exchange): được sử dụng ở các xã, khu dân cư đông, chợ và cá thể sử dụng các loại trung kế. Tổng đài nội hạt TE ( Toll Exchange ): dùng để kết nối các tổng đài nội hạt ở các tĩnh với nhau, chuyển mạch các cuộc gọi đường dài không có thuê bao. Tổng đài cửa ngỏ quốc tế ( Gate Way Exchange ): tổng đài này dùng để chọn hướng và chuyển mạch các cuộc gọi vào mạng quốc tế để nối các mạng quốc gia vơí nhau, có thể quá gian các cuộc gọi.
+2.1.4/ Các âm hiệu cơ bản của tổng đài:
+Các âm hiệu (Tone) là các tín hiệu âm thanh mà tổng đài gơỉ đến các thuê bao để thông báo, bao gồm các âm hiệu:
+2.1.4.1/ Âm Hiệu Mời Quay Số :( Dial Tone)
+Âm hiệu này báo cho thuê bao biết tổng đài sẵn sàng nhận số từ thuê bao. Âm hiệu này là tín hiệu hình Sin có tần số f = 425Hz ± 25Hz được tạo ra bởi hai âm thanh (Tone) với biên độ 2VRMS trên nền DC, méo hài dưới 1% và được phát liên tục cho đến khi bắt đầu quay số thứ nhất, nhưng trường hợp người gọi nhấc máy ngưng không quay số khoảng 15s thí tổng đài sẽ ngắt Dail Tone và báo Busy Tone về phía thuê bao.
+f=425± 25hz
+Hình 2.2: Tín hiệu âm mời quay số
+2.1.4.2/ Âm hiệu báo bận :( Busy Tone)
+Khi thuê bao nhấc máy để thực hiện một cuộc gọi thì thuê bao sẽ nghe một trong hai tín hiệu:
+Tín hiệu mời gọi cho phép thuê bao thực hiện ngay một cuộc gọi.
+Tín hiệu báo bận báo cho thuê bao biết đường dây đang bận không thể thực hiện cuộc gọi ngay lúc này. Thuê bao phải chờ đến khi nghe được tín hiệu mời gọi. Khi thuê bao bị gọi đã nhấc máy trước khi thêu bao gọi cũng nghe được tín hiệu này.
+Tín hiệu báo bận là tín hiệu xoay chiều có dạng xung được tổng hợp bởi hai âm có tần số từ 425± 25hz .Tín hiệu này có chu kỳ 1s ( ngắt quãng 0.5s có và 0.5s không).
+f=425± 25hz
+Hình 2.3: Dạng sóng tín hiệu bận
+Nếu các đường dây thông thoại không bị bận thì tổng đài phải nhận biết các số thuê bao gọi và xem xét:
+Nếu số đầu nằm trong tập thuê bao của tổng đài thì tổng đài sẽ phục vụ như cuộc gọi kéo dài.
+Nếu số đầu không nằm trong tập thuê bao của tổng đài thì tổng đài sẽ phục vụ như một liên đài qua một trung kế và giữ toàn bộ phần định vị số quay sang tổng đài đối phương để giải mã.
+Nếu số đầu là mã gọi chức năng đặc biệt thì tổng đài sẽ phục vụ chức năng đó cho thuê bao.
+2.1.4.3/ Âm Hiệu Hồi âm Chuông :( Ring Back Tone )
+Khi tổng đài cấp chuông cho thuê bao bị gọi và đồng thời cấp cho thuê bao gọi âm hiệu hồi chuông để báo cho thuê bao gọi biết đã kết nối với thuê bao đối phương, chờ thuê bao đối phương nhấc máy. Âm hiệu này có tần số f= 425 ±25Hz , cùng nhịp với dòng chuông.
+Khi người gọi gọi đến một thuê bao nhưng không biết đã gọi được hay chưa thì thật là khó chịu . Người gọi không nghe một âm thanh nào cho đến khi thuê bao đó trả lời. Để giải quyết vấn đề này tổng đài sẽ gửi một tín hiệu chuông hồi tiếp về cho thuê bao gọi tương ứng với tiếng chuông ở thuê bao bị gọi. Tín hiệu chuông hồi tiếp này do tổng đài cấp cho thuê bao bị gọi, được tổng hợp bởi hai âm có tần số 440Hz và 480Hz. Tín hiệu này cũng có dạng xung như tín hiệu chuông gửi đến cho thuê bao bị gọi, là tín hiệu hình sin có tần số khoảng 425 ± 25 Hz la hai tín hiệu ngắt quãng tương ứng nhịp chuông, biên độ 2VRMS trên nền DC 10V, phát ngắt quãng 2s có 4s không.
+
+Hình 2.4: Dạng sóng tín hiệu hồi tiếp
+Nếu người gọi gọi nhầm một số mà nó không tồn tại thì bạn sẽ nhận được tín hiệu xung có chu kỳ 1Hz và có tần số 200Hz–400Hz. Hoặc đối với các hệ thống điện thoại ngày nay bạn sẽ nhận được thông báo rằng bạn gọi sai số.
+Tín hiệu đảo cực:
+Hình2.5: Dạng sóng tín hiệu đảo cực
+Tín hiệu đảo cực chính là sự đảo cực tính của nguồn tại tổng đài, khi hai thuê bao bắt đầu cuộc đàm thoại, một tín hiệu đảo cực sẽ xuất hiện. Khi đó hệ thống tính cước của tổng đài sẽ bắt đầu thực hiện việc tính cước đàm thoại cho thuê bao gọi. Ở các trạm công cộng có trang bị máy tính cước, khi cơ quan bưu điện sẽ cung cấp một tín hiệu đảo cực cho trạm để thuận tiện cho việc tính cước.
+2.1.4.4/ Tín hiệu chuông:
+Hình 2.6: Tín hiệu chuông
+
+Nếu thuê bao gọi đang rỗi, tổng đài sẽ cấp dòng chuông để rung chuông cho thuê bao bị gọi. Tín hiệu chuông là dòng AC hình Sin hay xung có tần số f =20~25Hz, điện áp từ 75~95VRMS, "2s có và 3s không".
+2.1.4.5/ Tín hiệu mời quay số:
+Quay Số Bằng Xung Thập Phân (Pulse)
+Là trường hợp quay số bằng đĩa quay, mạch vòng được ngắt hay đóng bởi một chuyển mạch được kết nối đến một cơ cấu quay số. Các chuỗi xung đồng nhất được tạo ra tương ứng với các số quay.
+Số 1 : một xung Số 2 : hai xung ….. Số 9 : chín xung Số 0 : mười xung
+Mỗi chu kỳ xung là 100ms, trong đó chu kỳ làm việc là 33%. Khoảng cách giữa hai chu kỳ xung > 500ms.
+66.67 ms
+
+33.33ms inter digit time
+Hình 2.7: Giản đồ xung tín hiệu quay số
+
+Các số quay của thuê bao được truyền đến tổng đài bằng cách ngắt dòng đường dây theo tỷ số và theo thời gian quy định tạo thành chuỗi xung quay số.
+Số quay là xung điện trên đường dây, nên phương pháp này gọi là phương pháp quay số bằng xung.
+Quay số bằng tín hiệu đa tầng DTMF ( Dial Tone Multi Frequency).
+Khi sử dụng DTMF để quay số, các số được chọn bởi ma trận các nút bấm, mỗi nút bấm tương ứng với một số koặc một ký tự biểu diễn bằng một cặp tầng số. Mỗi cặp tầng số (tone) xuất hiện tối thiểu là 40ms, thời gian tối thiểu giữa hai số là 60ms.
+
+852Khz
+
+941Kh
+1209Khz 1336Khz 1477Khz 1633Khz
+Hình 2.8:Dãy tần số của phím nhấn
+Quay số bằng DTMF nhanh hơn nhiều lần ( 10 lần ) so với quay số bằng xung thập phân.
+2.1.5/Giới thiệu về máy điện thoại:
+2.1.5.1/ Các thông số cơ bản của máy điện thoại :
+Tổng đài được nối với các thuê bao qua 2 đường truyền TIP và RING. Thông qua 2 đường dây này thông tin từ tổng đài qua các thuê bao được cấp bằng nguồn dòng từ 25 mA đến 40 mA (trung bình chọn 35 mA) đến cho máy điện thoại.
+Tổng trở DC khi gác máy lớn hơn từ 20 K
+Tổng trở AC khi gác máy từ 4K đến 10K
+Tổng trở DC khi nhấc máy nhỏ hơn 1K (từ 0,2K 0,6K ).
+
+Bảng 2.1 : Bảng các thông số của mạch thuê bao điện thoại
+
+Thông số Các giá trị mẫu Giá trị sử dụng Dòng điện làm việc 20 – 80 mA 20 – 120 mA Nguồn tổng đài 48 – 60 V 47 – 109 V Điện trở vòng 0 – 1300 Ω 0 – 1600 Ω Suy hao 8 dB 17 dB Méo dạng Tổng cộng 50dB Dòng chuông 90 VRMS / 20 Hz 75 – 90 VRMS / 16 – 25 Hz Thanh áp ống nối 70 – 90 dB < 15 dB Nguồn dòng điện thoại 25 – 40 mA 35 mA
+
+2.1.5.2/ Các hoạt động trên mạng điện thoại:
+Tổng đài nhận biết trạng thái nhấc máy của thuê bao hay gác máy bằng cách sử dụng nguồn một chiều 48VDC.
+Khi gác máy tổng trở DC bằng 20K rất lớn xem như hở mạch.
+Khi ngấc máy tổng trở DC giảm xuống nhỏ hơn 1K và hai tổng đài nhận biết trạng thái này thông qua dòng DC xuất hiện trên đường dây. Sau đó, tổng đài cấp tín hiệu mời gọi lên đường dây đến thuê bao.
+2.1.5.3/ Quay số :
+Người gọi thông báo số mình muốn gọi cho tổng đài biết bằng cách gởi số máy điện thoại của mình muốn gọi đến cho tổng đài. Có hai cách gởi số đến tổng đài :
+Quay số bằng xung (Pulse - Dialing) : Được thực hiện bằng cách thay đổi tổng trở DC của mạch thuê bao tạo nên xung dòng với số xung tương đương với số muốn quay. Quay số bằng Tone (Tone - Dialing) : Máy điện thoại phát ra cùng lúc hai tín hiệu với tần số dao động khác nhau tương ứng với số muốn quay (DTMF : Dual Tone Multi Frequence) theo bảng 2
+Bảng2.2 : phân loại tần số tín hiệu Tone
+Phím Tần số thấp Tần số cao 1 2 3 4 5 6 7 8 9 * 0 # 697 697 697 770 770 770 852 852 852 941 941 942 1209 1336 1477 1209 1336 1477 1209 1336 1477 1209 1336 1477
+2.1.5.4/ Kết nối thuê bao :
+Tổng đài nhận được các số liệu sẽ xem xét :
+Nếu các đường dây nối thông thoại đều bị bận thì tổng đài sẽ cấp tín hiệu báo bận. Nếu đường dây nối thông thoại không bị bận thì tổng đài sẽ cấp cho người bị gọi tín hiệu chuông và người gọi tín hiệu hồi chuông. Khi người được gọi nhấc máy, tổng đài nhận biết trạng thái này, thì tổng đài ngưng cấp tín hiệu chuông để không làm hư mạch thoại và thực hiện việc thông thoại. tín hiệu trên đường dây đến máy điện thoại tương ứng với tín hiệu thoại cộng với giá trị khoảng 300 mV đỉnh - đỉnh. Tín hiệu ra khỏi máy điện thoại chịu sự suy hao trên đường dây với mất mát công suất trong khoảng 10 dB 25 dB. Giả sử suy hao là 20 dB, suy ra tín hiệu ra khỏi máy điện thoại có giá trị khoảng 3 V đỉnh - đỉnh.
+2.1.5.5/ Ngưng thoại :
+Khi một trong 2 thuê bao gác máy, thì tổng đài nhận biết trạng thái này, cắt thông thoại cho cả 2 máy đồng thời cấp tín hiệu báo bận cho máy còn lại
+2.1.5.6/ Tín hiệu thoại:
+Tín hiệu thoại trên đường dây là tín hiệu điện mang các thông tin có nguồn gốc từ âm thanh trong quá trình trao đổi giữa 2 thuê bao. Trong đó, âm thanh được tạo ra bởi các dao động cơ học, nó truyền trong môi trường dẫn âm.
+Khi truyền đi trong mạng điện thoại là tín hiệu thường bị méo dạng do những lý do : nhiễu, suy hao tín hiệu trên đường dây do bức xạ sóng trên đường dây với các tần số khác nhau. Để đảm bảo tín hiệu điện thoại nghe rõ và trung thực, ngày nay trên mạng điện thoại người ta sử dụng tín hiệu thoại có tần số từ 300 Hz 3400 Hz.
+2.1.6/Cách thức hoạt động giữa tổng đài và máy điện thoại:
+Tổng đài nhận dạng thuê bao gọi nhấc máy thông qua sự thay đổi tổng trở mạch vòng của đường dây thuê bao. Bình thường khi thuê bao ở vị trí gác máy điện trở mạch vòng là rất lớn. Khi thuê bao nhấc máy, điện trở mạch vòng thuê bao giảm xuống còn khoảng từ 150 đến 1500 . Tổng đài có thể nhận biết sự thay đổi tổng trở mạch vòng này (tức là thay đổi trạng thái của thuê bao) thông qua các bộ cảm biến trạng thái. Tổng đài cấp âm hiệu mời quay số (Dial Tone) cho thuê bao. Dial Tone là tín hiệu mời quay số hình sin có tần số 425 ± 25 Hz. Khi thuê bao nhận biết được tín hiệu Dial Tone, người gọi sẽ hiểu là được phép quay số. Người gọi bắt đầu tiến hành gửi các xung quay số thông qua việc quay số hoặc nhấn núy chọn số. Tổng đài nhận biết được các số được quay nhờ vào các chuỗi xung quay số phát ra từ thuê bao gọi. Thực chất các xung quay số là các trạng thái nhấc máy hoặc gác máy của thuê bao. Nếu các đường kết nối thông thoại bị bận hoặc thuê bao được gọi bị bận thì tổng đài sẽ phát tín hiệu báo bận cho thuê bao. Âm hiệu này có tần số f = 425 ± 25 Hz ngắt nhịp 0,5s có 0,5 s không. Tổng đài nhận biết các số thuê bao gọi đến và nhận xét :
+Nếu số đầu nằm trong tập thuê bao thì tổng đài sẽ phục vụ như cuộc gọi nội đài. Nếu số đầu là số qui ước gọi ra thì tổng đài phục vụ như một cuộc gọi liên đài qua trung kế và gửi toàn bộ phần định vị số quay sang tổng đài đối phương để giải mã. Nếu số đầu là mã gọi các chức năng đặc biệt, tổng đài sẽ thực hiện các chức năng đó thuê yêu cầu của thuê bao. Thông thường, đối với loại tổng đài nội bộ có dung lượng nhỏ từ vài chục đến vài trăm số, có thêm nhiều chức năng đặc biệt làm cho chương trình phục vụ thuê bao thêm phong phú, tiện lợi, đa dạng, hiệu quả cho người sử dụng làm tăng khả năng khai thác và hiệu suất sử dụng tổng đài. Nếu thuê bao được gọi rảnh, tổng đài sẽ cấp tín hiệu chuông cho thuê bao với điện áp 90Vrms (AC), f = 25 Hz, chu kì 3s có 4s không. Đồng thời, cấp âm hiệu hồi chuông (Ring Back Tone) cho thuê bao gọi, âm hiệu này là tín hiệu sin f = 425 ± 25 Hz cùng chu kì nhịp với tín hiệu chuông gởi cho thuê bao được gọi. Khi thuê bao được gọi nhấc máy, tổng đài nhận biết trạng thái máy này tiến hành cắt dòng chuông cho thuê bao bị gọi kịp thời tránh hư hỏng đáng tiếc cho thuê bao. Đồng thời, tiến hành cắt âm hiệu Ring Back Tone cho thuê bao gọi và tiến hành kết nối thông thoại cho 2 thuê bao. Tổng đài giải tỏa một số thiết bị không cần thiết để tiếp tục phục vụ cho các cuộc đàm thoại khác. Khi hai thuê bao đang đàm thoại mà 1 thuê bao gác máy, tổng đài nhận biết trạng thái gác máy này, cắt thông thoại cho cả hai bên, cấp tín hiệu bận (Busy Tone) cho thuê bao còn lại, giải tỏa link để phục vụ cho các đàm thoại khác. Khi thuê bao còn lại gác máy, tổng đài xác nhận trạng thái gác máy, cắt âm hiệu báo bận, kết thúc chương trình phục vụ thuê bao.
+Tất cả hoạt động nói trên của tổng đài điện tử đều được thực hiện một cách hoàn toàn tự động. Nhờ vào các mạch điều khiển bằng điện tử, điện thoại viên có thể theo dõi trực tiếp toàn bộ hoạt động của tổng đài ở mọi thời điểm nhờ vào các bộ hiển thị, cảnh báo.
+Điện thoại viên có thể trực tiếp điều khiển các hoạt động của tổng đài qua các thao tác trên bàn phím, hệ thống công tắc….các hoạt động đó có thể bao gồm : nghe xen vào các cuộc đàm thoại, cắt cưỡng bức các cuộc đàm thoại có ý đồ xấu, tổ chức điện thoại hội nghị…. Tổng đài điện tử cũng có thể được liên kết với máy điện toán để điều khiển hoạt động hệ thống. Điều này làm tăng khả năng khai thác, làm tăng dung lượng, cũng như khả năng hoạt động của tổng đài lên rất nhiều.
+2.2/Giới thiệu tổng quan về linh kiện:
+2.2.1/Khảo sát IC thu phát DTMF :(MT8870-MT8880)
+2.2.1.1/Khảo sát IC thu DTMF :(MT8870 )
+2.2.1.1.1/Chức năng các chân :
+Hình 2.9:Sơ đồ chân ic_8870
+- PIN 1(IN+) : Non –Investing op-amp, ngõ vào không đảo.
+- PIN 2 (IN-) : Investing op-amp, ngõ vào đảo.
+- PIN 3 (GS) : Gain Select ,giúp truy xuất ngõ ra của bộ khuếch đại vi sai đầu cuối
+qua điện trở hồi tiếp .
+- PIN 4 (Vref) : Reference Voltage (ngõ ra) thông thường bằng VDD/2.
+- PIN 5 (INH) : Inhibit (ngõ vào) khi chân này ở mức logic cao thì không nhận dạng
+được ký tự A, B, C ở ngõ ra (undelected).
+- PIN 6 (PWDN) : Power down (ngõ vào), tác động mức cao. Khi chân này tác động
+thì sẽ cấm mạch dao động và IC 8870 họat động .
+- PIN 7 (OSC 1) : Clock ngõ vào MHz .
+- PIN 8 (OSC 2) : Clock ngõ ra .
+- Nối hai chân 7 và chân 8 với thạch anh 3,58 MHz để tạo một mạch dao động nội .
+- PIN 9 (Vss) : điện áp mass.
+- PIN 10 (TOE) : Three Stage Output Enable (ngõ vào), ngõ ra Q1 – Q4 hoạt động
+khi TOE ở mức cao.
+- PIN 11 14 : từ Q1 Q4 ngõ ra, khi TOE ở mức cao các chân này cung cấp mã
+tương ứng với các cặp tone dò tìm được (theo bảng chức năng), khi TOE ở mức thấp
+dữ liệu ngõ ra ở trạng thái trở kháng cao .
+- PIN 15 (STD) : Delayed Steering (ngõ ra), ở mức cao khi gặp tần số tone đã dược
+ghi nhận và ngõ ra chốt thích hợp, trở về mức thấp khi điện áp trên ST/ GT nhỏ hơn
+điện áp ngưỡng VTST .
+- PIN 16 (EST) : Early Steering (ngõ ra), chân này lên mức [1] khi bộ thuật toán
+nhận được cặp tone và trở về mức [0] khi mất tone .
+- PIN 17 (ST/GT) : Steering Input /Guard tune output (ngõ ra), khi điện áp VC lớn
+hơn VTST thì ST sẽ điều khiển dò tìm cặp tone và chốt ngõ ra .
+- PIN 18 (VDD) : điện áp cung cấp, thường là + 5V.
+2.2.1.1.2/Chức năng các chân :
+Hình 2.10:Cấu trúc bên trong của IC_8870
+Tính năng đặc biệt của IC này là khả năng thu tín hiệu DTMF chuẩn với độ sai lệch thấp và sẽ được giới thiệu trong một IC cùng họ là MT8880.
+2.2.1.2/Khảo sát IC thu phát DTMF :(MT8880 )
+IC MT8880 là một mạch tích hợp thu- phát kèm với bộ lọc thoại (Call Progress). Nó được sản xuất theo công nghệ CMOS với mức tiêu thụ công suất thấp và độ chính xác cao. Phần thu của thiết bị dựa trên tiêu chuẩn công nghệ của MT8870 trong khi phần phát dùng một bộ biến đổi D/A cho ra tín hiệu DTMF với độ nhiễu thấp và độ chính xác cao. Bộ đếm bên trong hình thành chế độ Burst Mode nhờ đó mà các tone phát ra với thời hằng chính xác.Bộ lọc Call Progress cho phép bộ vi xử lý các tone trạng thái đường dây.
+MT8880 dùng một vi mạch bên ngoài của Intel, điều này cho phép thiết bị có thể kết nối tới một số vi mạch điều khiển với cổng logic rất nhỏ bên ngoài.
+Hình 2.11: Mô tả chân của IC 8880
+2.2.1.2.1/Chức năng các chân :
+Chân 1 (IN+): ngõ vào không đảo
+Chân 2 (IN-): ngõ vào đảo
+Chân 3 (GS): chọn độ lợi cho bộ khuếch đại Op-amp.
+Chân 4 (Vref): đầu ra điện áp tĩnh VDD/2 dùng cân bằng tĩnh ở đầu vào.
+Chân 5 (VSS): điện áp âm cung cấp.
+Chân 6 (OSC1): đầu vào bộ dao động thạch anh. Nối 1 điện trở 4.7M xuống mass nếu dùng bộ dao động thạch anh.
+Chân 7 (OSC2): ngõ vào bộ dao động. thạch anh 3.579545 MHz được nối giữa OSC1 và OSC2 tạo thành mạch dao động bên trong.
+Chân 8 (TONE): ngõ ra của bộ phát DTMF.
+Chân 9 (): chân để CPU điều khiển việc viết data.
+Chân 10 (): ngõ vào chân chọn chip. Hoạt động ở mức thấp.
+Chân 11 (RS0): ngõ vào chân chọn thanh ghi.
+Chân 12 (): chân để CPU điều khiển việc đọc data.
+Chân 13 (/CP): ngõ ra CP/đề nghị ngắt. Trong chế độ ngắt, ngõ ra chân này sẽ ở mức thấp khi một tone burst hợp lệ được phát hay nhận. Trong chế độ CP, ngõ ra chân này sẽ là một tín hiệu xung vuông thể hiện tín hiệu ngõ vào. Ngõ vào tín hiệu phải nằm trong giới hạn băng thông của bộ lọc CP.
+Chân 14 đến 17 (D0-D3): bus dữ liệu, được nối với vi điều khiển.
+Chân 18 (ESt): ngõ ra mạch steering. Cho mức logic cao khi phát hiện một cặp tone hợp lệ. bất kì tín hiệu nào không hợp lệ cũng cho ra logic thấp.
+Chân 19 (St/GT): Steering input/guard time output (2 chiều). Một mức điện áp lớn hơn VTSt xuất hiện tại chân St làm cho thiết bị ghi nhận cặp tone và ngõ ra được chốt. mức điện áp thấp hơn VTSt giải phóng để thiết bị thu nhận một cặp tone mới. Ngõ ra GT làm nhiệm vụ reset mạch định thì bên ngoài; trạng thái của nó là hàm của Est và điện áp trên chân St.
+Chân 20 (VDD): nguồn dương.
+2.2.1.2.2/Mô tả về chức năng cơ bản:
+IC thu phát DTMF MT8880 bao gồm bộ thu DTMF chất lượng cao kèm với bộ khuếch đại và bộ tạo DTMF sử dụng Burst Counter giúp cho việc tổng hợp đóng ngắt tone chính xác.Chế độ Call Progress có thể phát hiện các tần số nằm trong giải thông thoại. Các IC vi điều khiển như 8080, 80C31/51 và 8085 được truy cập tới thanh ghi bên trong của IC MT8880.
+Hình 2.12: Mô tả chức năng chân của IC 8880
+2.2.1.2.3/ Hình dạng ngỏ vào:
+Ngõ vào của IC MT8880 cung cấp một bộ khuếch đại vi sai như một ngõ vào VRef để điều chỉnh điện áp đầu vào tại chân VDD/2. Chân GS nối ngõ ra của bộ khuếch đại với một điện trở hồi tiếp để điều chỉnh độ lợi.
+2.2.1.2.4/Phần thu :
+Hai bộ lọc băng thông bậc 6 giúp tách các tone trong nhóm tone low và high của tín hiệu DTMF. Đầu ra của mỗi bộ lọc thu điện dung giúp nén tín hiệu trước khi qua điện trở hạn biên. Việc hạn biên được thực hiện bởi bộ so sánh có kèm theo bộ trễ để tránh chọn nhầm tín hiệu ở mức thấp không mong muốn. Ngõ ra của bộ so sánh cho ta các dao động có mức logic tại tần số DTMF thu được.
+Tiếp theo phần lọc là bộ giải mã sử dụng kĩ thuật đếm số để kiểm tra tần số các tone thu được và đảm bảo chúng tương ứng với các tần số DTMF. Một kỉ thuật lấy trung bình phức giúp loại trừ các tone giả tạo thành do tiếng nói trong khi vẫn đảm bảo một khoảng biến đổi cho tần số bị lệch hay thay đổi nhỏ. Kĩ thuật này phát triển để đảm bảo chắc chắn một điều kiện tốt nhất để kết hợp tín hiệu mà không chịu ảnh hưởng của những tần số không mong muốn và nhiễu. Khi bộ phận kiểm tra nhận được hai tone đúng thì đầu ra “Early Steering” sẽ lên mức Active. Khi không nhận được tín hiệu tone thì Est sẽ ở mức Inative.
+...........................................
+jmp AGAIN
+next5:
+cjne a,#6,next6
+clr tai1 ;tat tai 1
+mov p1,#01100100b ;phat cau chao'TB1 TAT'
+clr p1.5
+call delay
+setb p1.5
+call delay
+jmp exit
+next6:
+cjne a,#14,next7
+clr tai2 ;tat tai 2
+mov p1,#01100101b ;phat cau chao'TB2 TAT'
+clr p1.5
+call delay
+setb p1.5
+call delay
+jmp exit
+next7:
+cjne a,#1,next8
+clr tai3 ;tat tai 3
+mov p1,#01100110b ;phat cau chao'TB3 TAT'
+clr p1.5
+call delay
+setb p1.5
+call delay
+jmp exit
+next8:
+cjne a,#9,next9
+clr tai4 ;tat tai 4
+mov p1,#01100111b ;phat cau chao'TB4 TAT'
+clr p1.5
+call delay
+setb p1.5
+call delay
+jmp exit
+next9:
+cjne a,#5,next10
+mov p2,#0h ;tat het tai
+mov p1,#01101001b ; phat cau chao'TB TAT HET'
+clr p1.5
+call delay
+setb p1.5
+call delay
+jmp exit
+next10:
+cjne a,#3,next11
+mov p1,#01101100b ; phat cau chao'CHAO TAM BIET'
+clr p1.5
+call delay
+setb p1.5
+call delay
+CLR TAIGIA
+jmp exit
+next11:
+cjne a,#0DH,exit
+call cb_TRANGTHAI
+exit : ret
+RET
+;###################CAM BIEN TRANG THAI THIET BI ##############
+cb_TRANGTHAI:
+cb_tb1: ;cam bien thiet bi_1
+JNB P2.4,TB1_TAT
+mov p1,#01100000b ;dia chi phat cau chao'TB1 MO'
+clr p1.5
+call delay
+setb p1.5
+call delay
+jmp cb_tb2
+TB1_TAT:
+mov p1,#01100100b ;dia chi phat cau chao'TB1 TAT'
+clr p1.5
+call delay
+setb p1.5
+call delay
+cb_tb2: ;cam bien thiet bi_2
+JNB P2.5,TB2_TAT
+mov p1,#01100001b ;dia chi phat cau chao'TB2 MO'
+clr p1.5
+call delay
+setb p1.5
+call delay
+jmp cb_tb3
+TB2_TAT:
+mov p1,#01100101b ;dia chi phat cau chao'TB2 TAT'
+clr p1.5
+call delay
+setb p1.5
+call delay
+cb_tb3: ;cam bien thiet bi_3
+JNB P2.6,TB3_TAT
+mov p1,#01100010b ;dia chi phat cau chao'TB3 MO'
+clr p1.5
+call delay
+setb p1.5
+call delay
+jmp cb_tb4
+TB3_TAT:
+mov p1,#01100110b ;dia chi phat cau chao'TB3 TAT'
+clr p1.5
+call delay
+setb p1.5
+call delay
+cb_tb4:
+JNB P2.7,TB4_TAT ;cam bien thiet bi_4
+mov p1,#01100011b ;dia chi phat cau chao'TB4 MO'
+clr p1.5
+call delay
+setb p1.5
+call delay
+jmp exit1
+TB4_TAT:
+mov p1,#01100111b ;dia chi phat cau chao'TB4 TAT'
+clr p1.5
+call delay
+setb p1.5
+call delay
+exit1: ret
+RET
+;###############DOAN BAO CHAY ####################################
+BAOCHAY:
+lCALL quay_so
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+call thongbao_CHAY
+call thongbao_CHAY
+call thongbao_CHAY
+RET
+;###############DOAN BAO CHAY ####################################
+BAOTROM:
+lCALL quay_so
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+CALL DELAY_600MS
+call thongbao_TROM
+call thongbao_TROM
+call thongbao_TROM
+RET
+;###############KHOI TAO MT8880################################
+init:
+MOV P0,#11111111B ; mac dinh cho P0.7=3 , luc dau CS=1
+clr cs ; CS=0 ,ta da thuc hien xong buoc
+MOV P0,#00001110B ; chuan bi xuat du lieu ra thanh ghidk
+clr cs ; CS=0 , ta da thuc hien xong buoc 2 MOV P0,#00001110B
+clr cs ; ta da thuc hien xong buoc 3 MOV P0,#10001110B
+clr cs ; ta da thuc hien xong buoc 4 MOV P0,#00001110B
+clr cs ;ta da thuc hien xong buoc 5 MOV P0,#11111111B
+clr cs ;ta da thuc hien xong buoc 6 RET
+;********************************************************
+SET_UP:
+MOV P0,#11011110B
+clr cs ; b1) xuat 1101 ra thanh ghi dk CRA
+MOV P0,#00001110B
+clr cs ; b2) xuat 0000 ra thanh ghi dk CRB
+RET
+;############### DOAN PHAT 1 DIGIT LEN TONG DAI ##################
+Transmit_DTMF: ; Ta phai doc thanh ghi trang thai
+MOV P0,#11111111B ; chuan bi doc thanh ghi trang thai
+LOOPdt:
+CLR CS ; doc thanh ghi trang thai
+MOV C,P0.5 ; luu bit 1 cua thanh ghi trang thai vaoC
+SETB CS ; ngung doc thanh ghi trang thai
+JNC LOOPdt ; cho bit1 cua thanh ghi status set len 1
+ANL A,#00001111B ; giu nybble thap
+swap A
+ORL A,#00001010B ; nybble cao la cac chan dk, nyble thap la
+MOV P0,A ; chuan bi ghi digit ra thanh ghi data phat
+CLR CS ; tich cuc CS
+SETB CS ; ngung chon chip MT8880
+RET
+;################### thuc hien viec goi toi so dien thoai##########
+quay_so:
+MOV A,60h ;goi so_0
+CALL Transmit_DTMF
+CALL DELAY_600MS
+MOV A,61h ;goi so_9
+CALL Transmit_DTMF
+CALL DELAY_600MS
+MOV A,62h ;goi so_0
+CALL Transmit_DTMF
+CALL DELAY_600MS
+MOV A,63h ;goi so_3
+CALL Transmit_DTMF
+CALL DELAY_600MS
+MOV A,64h ;goi so_0
+CALL Transmit_DTMF
+CALL DELAY_600MS
+MOV A,65h ;goi so_4
+CALL Transmit_DTMF
+CALL DELAY_600MS
+MOV A,66h ;goi so_4
+CALL Transmit_DTMF
+CALL DELAY_600MS
+MOV A,67h ;goi so_8
+CALL Transmit_DTMF
+CALL DELAY_600MS
+MOV A,68h ;goi so_7
+CALL Transmit_DTMF
+CALL DELAY_600MS
+MOV A,69h ;goi so_1
+CALL Transmit_DTMF
+ret
+;#####################DELAY_600MS#####################
+delay_600ms: ; chuong trinh con delay
+call delay
+call delay
+RET
+;####################DELAY_300MS######################
+delay: ; chuong trinh con delay
+MOV R3,#6
+LOOP2: mov r1,#200
+loop1: mov r2,#250
+djnz r2,$
+djnz r1,loop1
+DJNZ R3,LOOP2
+ret
+;####################BAO CHAY#########################
+thongbao_CHAY:
+mov p1,#01101010b ;dia chi phat cau chao'BAO_CO CHAY'
+clr p1.5
+call delay
+setb p1.5
+ret
+;####################BAO TROM;#######################
+thongbao_TROM:
+mov p1,#01101011b ;dia chi phat cau chao'BAO_CO TROM'
+clr p1.5
+call delay
+setb p1.5
+ret
+END
+
+CHƯƠNG 5: KẾT LUẬN
+5.1/Những kết quả đạt được:
+Sau một thời gian nổ lực nghiên cứu, bãn thân tự đánh giá đã làm đuợc những việc sau:
+Điều khiển 4 thiết bị. Sử dụng tiếng nói để báo trạng thái. Tự động gọi điện thoại khi có sự cố. Có tính bảo mật cao: khi có thuê bao gọi điện và nhập password sai quá số lần qui định thì hệ thống sẽ gác máy và sẽ không nhấc máy của thuê bao này cho các lần gọi sau. Password và số điện thoại tự động gọi khi có sự cố không thay đổi được.
+5.2/Tính mới và khả thi:
+Tính mới: Có chức năng cảnh báo sự cố, có tính bảo mật cao.
+Tính khả thi: Tận dụng đường truyền có sẵn của mạng điện thoại để điều khiển thiết bị là phạm vi điều khiển và hoạt động rộng, không hạn chế về khoảng cách. Tại một nơi mà có thể điều khiển được nơi khác.
+Nhờ có điều khiển từ xa con người tiết kiệm được thời gian và quá trình đi lại, với điều kiện thi công của đề tài rất khả thi, giá thành thấp, phù hợp với điều kiện hiện tại nước nhà.
+Hơn nữa về tính khả thi trong tương lai, đề tài mang tính kích thích thúc đẩy sự phát triển của ngành công nghệ Điện Tử Viễn Thông của Việt Nam. Từ đó góp phần xây dựng đất nước ngày càng phồn vinh, vì ngành Điện - Điện Tử là ngành đóng vai trò kinh tế mũi nhọn của nước nhà.
+Với những đặc điểm và tính năng trên, đề tài có khả năng triển khai ứng dụng rộng rãi trong thưc tế và mang tính hiện đại thực tiễn cao.
+5.3/ Hướng phát triển của đề tài:
+Nếu đề tài này được cho phép về tài chính, thời gian, nhân lực, thì đề tài có thể tiếp tục theo các hướng sau:
+Tiếp tục nghiên cứu và hoàn thiện tính năng tự động trả lời điện thoại Dùng IC nhớ và bàn phím có thể thay đổi password và số điện thoại tự động gọi, Có thể tăng tính bảo mật cao hơn. mạch có thể thiết kế hiển thị LCD lưu số điện thoại gọi đến và hiển thị ngày giờ.
+PHỤ LỤC
+Cấu trúc của tổng đài điện thoại …………………………………………Trang 7
+Cấu trúc bên trong của IC MT_8870 .……………………………………Trang 21
+Cấu trúc bên trong của IC MT_8880 .……………………………………Trang 24
+Cách phát một Digit ra tổng đài ..…………………………….…………..Trang 33
+Cấu trúc bên trong của IC ISD_1420 .……………………………………Trang 38
+Giãn đồ thu phát một thông điệp ..…………………………….……….…Trang40
+Bảng sự thật của IC_74LS247 .………………………………...…………Trang 49
+Sơ đồ cấu trúc bên trong của IC_7486 ..…………………….…....………Trang 44
+Mạch nguồn ...……………………..………………………..…...………Trang 56
+Mạch cảm biến chuông .………………………….…..………..…………Trang 57
+Khối tạo tải giả .…………………………………….……...…..…………Trang 59
+Mạch chống quá áp .……………………………….…...……..…………Trang 62
+Khối thu và khối phát DTMF .……………………........……...…………Trang64
+Khối xử lý trung tâm ..……………………..………….………….………Trang 66
+Khối tải ..………………………………………………..……..…………Trang 67
+Khối khuếch đại tone ra ...……………………………………..…………Trang 68
+TÀI LIỆU THAM KHẢO
+Đồng Tử Thiên Tài_Hứa Quang Thạch. Đồ án tốt nghiệp điều khiển thiết bị qua mạng điện thoại. Đại học SPKT TPHCM. 2006. Lê Phi Yến_Lưu Phú_Nguyễn Như Anh. Kỹ thuật điện tử. Nhà xuất bản khoa học và kỹ thuật. Ngô Diên Tập, (1998), Lập trình bằng hợp ngữ, Nhà xuất bản Khoa học kỹ thuật Hà nội. Nguyễn Đình Phú. Vi điều khiển lý thuyết và thực hành. Đại học SPKT TPHCM Tống văn On_Hoàng Đức Hải . họ vi điều khie63nnha2 xuất bản lao động –xã hội Hà Nội 2001 http://www.alldatasheet .com http://www.isd.com

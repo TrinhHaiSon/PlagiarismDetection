@@ -1,0 +1,212 @@
+ĐỒ ÁN TỐT NGHIỆP CƠ ĐIỆN tử BĂNG CHUYỀN PHÂN LOẠI SẢN PHẨM BẰNG PLC
+Hiện nay sự tiến bộ khoa học kĩ thuật trên thế giới diễn ra nhanh chóng, với sự ra đời của hàng loạt những sản phẩm mới ứng dụng những tiến bộ ở những nước phát triển.Đặc biệt trong những năm gần đây kĩ thuật điều khiển phát triển mạnh mẽ, có nhiêug công nghệ điều khiển mới được ra đời để thay thế cho những công nghệ đã lỗi thời.
+Để bắt kịp với tiến bộ khoa học kĩ thuật trên thế giới cũng như đáp ứng yêu cầu CNH_HĐH đất nước thì ngành công nghiệp Việt Nam đang thay đổi nhanh chóng, công nghệ và thiết bị hiện đại đang dần dần được thay thế các công nghệ lạc hậu và thiết bị cũ. Các thiết bị công nghệ tiên tiến với hệ thống điều khiển lập trình PLC, Vi xử lý, điện khí nén, điện tử. Đang được úng dụng rộng rãi trong công nghiệp như các dây truyền xản xuất nước ngọt, chế biến thức ăn gia xúc, máy điều khiển theo chương trình CNC, các hệ thống đèn giao thông, các hệ thống báo động. Trong các trường đại học, cao đẳng và các trường trung học đã và đang đưa các thiết bị hiện đại có khả năng lập trình được vào giảng dạy. Một trong những loại thiết bị có ứng dụng mạnh mẽ và đảm bảo có độ tin cậy cao là hệ thống điều khiển tự động PLC.
+Với đề tài “Thiết kế, chế tạo hệ thống phân loại điều khiển bằng PLC S7300”. Chúng em đã vận dụng được những ưu điểm của hệ thông điều khiển này .
+Sau quá trình học tập rèn luyện và nghiên cứu tại trường chúng em đã tích luỹ được vốn kiến thức để thực hiện đề tài của mình. Cùng với sụ hướng dẫn tận tình của thầy ......., cũng như các thầy cô giáo trong khoa và các bạn sinh viện cùng khoá đến nay chúng em đã hoàn thành đề tài này
+Do thời gian nghiên cứu có hạn nên không thể tránh khỏi nhưng sai sót, chúng em rất mong nhận đựoc sự góp ý, chỉ dẫn thêm của các thầy cô cũng như ý kiến đóng góp của các bạn sinh viên để đề tài của chúng em hoàn thiện hơn, đáp ứng đầy đủ những mục tiêu đã đặt ra.
+Chúng em xin chân thành cảm ơn!
+MỤC LỤC
+Mở đầu:........
+Chương 1: Khái quát chung về hệ thống điều khiển............................................ 1
+1.1.Tổng quang về hệ thống điều khiển.................................................................. 1
+1.1.1. Khái quát chung............................................................................................... 1
+1.1.2. Phân loại phương thức điều khiển................................................................ 3
+1.2. Giới thiệu về PLC................................................................................................ 4
+1.2.1. So sánh PLC với các hệ thống khác............................................................. .4
+1.2.2. Giới thiệu PLC.................................................................................................. 5
+1.2.2.1. Khái niệm và đặc điểm của PLC............................................................... 5
+1.2.2.2. Ứng dụng và ưu nhược điểm của PLC..................................................... 6
+1.2.2.3. Phân loại Plc................................................................................................ 8
+1.2.2.4. Ưu nhược điểm PLC................................................................................... 9
+1.3 Giới Plc s7300...................................................................................................... 10
+1.3.1Giới thiệu về thiết bị điều khiển khả trình PLC.......................................... 10
+1.3.2 Cấu trúc phần cứng PLC................................................................................. 11
+1.3.3 Cấu trúc chương trình PLC............................................................................ 11
+1.3.1.1Vòng quét chương trình của PLC................................................................ 15
+13.2 Cấu trúc chương trình của PLC...................................................................... 15
+1.3.3 Khối chức năng.................................................................................................. 17
+1.3.4 Cấu trúc bộ nhớ PLC........................................................................................ 19
+1.3.4.1 Kiểu dữ liệu..................................................................................................... 19
+1.3.4.2 Phân chia bộ nhớ............................................................................................ 19
+1.3.5 Ngôn ngữ lập trình trong s7300..................................................................... 20
+1.3.5.1 Ngôn ngữ STL................................................................................................. 21
+1.3.5.2 Ngôn ngữ PBD................................................................................................ 21
+1.3.5.3 Ngôn ngữ LAD................................................................................................ 22
+1.3.5.4. Ngôn ngữ S7-GRAPH.................................................................................. 22
+Chương 2: Thiết kế và thi công đề tài : “ PHÂN LOẠI SẢN PHẨM SỬ DỤNG PLC S7300” 22
+2.1. Hệ thống băng tải................................................................................................ 22
+2.1.1 Vai trò................................................................................................................ 22
+2.1.2 Phân loại băng tài............................................................................................ 23
+2.1.3 Vật liệu và kích thước của băng tải............................................................. 23
+2.2 Cơ khí..................................................................................................................... 23
+2.2.1. Thiết kế.............................................................................................................. 24
+2.2.2. Chọn vật liệu..................................................................................................... 25
+2.2.3 Động cơ ............................................................................................................. 27
+2.2.3.1 Động cơ điện 1 chiều..................................................................................... 27
+2.2.3.2 Động cơ xoay chiều 3 pha........................................................................... 27
+2.2.4. Bộ truyền xích.................................................................................................. 28
+2.3. Điện –Điện tử ..................................................................................................... 30
+2. 3.1.Nguồn................................................................................................................. 30
+2.3.2 Khối cảm biến.................................................................................................... 30
+2.3.2.1 Đặc điểm cơ bản của diode thu phát hồng ngoại..................................... 30
+2.3.2.2 Cảm biến quang............................................................................................. 33
+2.3.2.3 Cảm biến cảm ứng từ.................................................................................... 34
+2.4.Hệ thống điều khiển Điện Khí nén.................................................................... 35
+2.4.1. Các phần tử điện: ............................................................................................ 36
+2.4.1.1. Nút ấn.............................................................................................................. 36
+2.4.1.2. Rơle.................................................................................................................. 37
+2.4 1.3. Sơ đồ khí nén.................................................................................................. 39
+2.5 Lập trình................................................................................................................ 40
+2.52 Vận hành hệ thống............................................................................................. 40
+2.53 Lưu đồ giải thuật................................................................................................ 42
+2.5.4 Lập trình trên PLC.......................................................................................... 43
+DANH MỤC CÁC BẢNG, SƠ ĐỒ, HÌNH
+Hình 1.1 Dây chuyền lên men ở nhà máy bia........................................................ 1
+Hình 1.2 Dây chuyền sản xuất nước ngọt.............................................................. 2
+Hinh 1.3 Sơ đồ khối hệ thống điều khiển................................................................ 3
+Hình 1.4 Phân biệt PLC với hệ thống điều khiển khác........................................ 4
+Hình 1.5 Hệ thống điều khiển dùng PLC................................................................ 5
+Hình 1.6 Hình ảnh về bộ PLC.................................................................................. 7
+Hình 1.7 Cấu trúc của một PLC.............................................................................. 8
+Hình 1.9 Cấu tạo phần cứng PLC............................................................................ 11
+Hình 1.10: Module nguồn của S7 300..................................................................... 11
+Hình 1.11: Cấu tạo bên ngoài của PLC S7-300.................................................... 13
+Hình 1.12 : Input/Output Digital............................................................................. 14
+Hình 1.13: Analog Input module............................................................................. 14
+Hình 1.14: Chu trình thực hiện chương trình trong S7-300.............................. 16
+Hình 1.15: Lập trình tuyến....................................................................................... 16
+Hình 1.16 Số lệnh gọi lồng nhau nhiều nhất cho phép phụ thuộc...................... 17
+Hình 1.19: Phương pháp biểu diễn chương trình bằng STL............................... 21
+Hình 1.20: Phương pháp biểu diễn chương trình bằng FBD.............................. 21
+Hình 1.21:Phương pháp biểu diễn chương trình................................................... 22
+Bảng 2.2: Danh sách các loại băng tải..................................................................... 22
+Hình 2.1 Băng tải đưa hàng vào kho...................................................................... 24
+Bảng 2.2: Danh sách các loại băng tải..................................................................... 24
+Hình 2.3 Sắt tấm......................................................................................................... 25
+Hình 2.4 Sắt hộp.......................................................................................................... 25
+Hình 2.5 Ổ bi................................................................................................................ 26
+Hình 2.6 Bu lông đai ốc.............................................................................................. 26
+Hình 2.7 Buli băng tải…............................................................................................ 27
+Hình 2.8 Động cơ 1 chiều........................................................................................... 28
+Hình 2.9 Động cơ xoay chiều 3 pha......................................................................... 28
+Hình 2.10 Bộ truyền xích.......................................................................................... 29
+Hình 2.12. Cấu tạo của photodiode........................................................................ 30
+Hình 2.11: a) Sơ đồ phân cực cho Photodiot. b) Đặc tuyến V-A của Photodiot 31
+Hình 2.13: Sơ đồ mạch nguyên lý của mạch thu phát......................................... 32
+Hình 2.14 Cảm biến quang........................................................................................ 33
+Hình 2.15. Kí hiệu cảm biến quang........................................................................ 34
+Hình 2.16. Nguyên ký hoạt động của cảm biến cảm ứng từ............................... 34
+Hình 2.17. Cách lắp và kí hiệu cảm biến cảm ứng từ.......................................... 35
+Hình 2.18- Nút ấn........................................................................................................ 36
+Hình 2.16: Rơ le MY2NJ của OMRON................................................................. 37
+Hình 2.19: Cấu trúc chung của role........................................................................ 37
+
+Chương 1: Khái quát chung hệ thống điều khiển.
+1.1 Tổng quan về hệ thống điều khiển.
+1.1.1 Khái quát chung.
+Việc ứng dụng khoa học công nghệ vào sản xuất công nghiệp nhằm mục tiêu tăng năng xuất lao động, cải thiện chất lượng sản phẩm, độ chính xác cao, giá thành hạ ...
+Các hệ thống điều khiển được đưa vào sản xuất trong các xí nghiệp, nhà máy với độ tin cậy cao, hoạt động ổn định, ít hư hỏng và giảm nhân công lao động. Điều này đòi hỏi hệ thống điều khiển có khả năng xử lý, kiểm soát được các sự cố và có thể tự khắc phục được sự cố, các sai sót khi vận hành. Một hệ thống như trên gọi là hệ thống điều khiển
+Trong tất cả mọi hoạt động của con người ở bất cứ đâu vào mọi thời điểm nào đều liên quan đến khái niệm điều khiển. Nó là tập hợp tất cả các tác động mang tính tổ chức để nhằm đạt được mục đích mong muốn. Có thể nói điều khiển là nhân tố cuối cùng quyết định mọi thành bại của các hoạt động. Trong công nghiệp, hệ thống điều khiển ảnh hưởng trực tiếp đến chất lượng sản phẩm, năng suất lao động và chi phí sản xuất. Sau đây là một số hình ảnh về các hệ thống sản xuất dùng trong công nghiệp của các nhà máy hiện
+
+Hình 1.1 Dây chuyền lên men ở nhà máy bia
+Hình 1.2 Dây chuyền sản xuất nước ngọt
+Tự động hoá là bước phát triển tiếp theo sau cơ khí hoá và điện khí hoá. Tự động hoá là quá trình sử dụngthiết bị dể thay thế chức năng kiểm tra và điều khiển của con người trong một quy trình sản xuất. Hệ thống tự động hoá bắt đầu xuất hiện với việc sử dụng các thiết bị đo lường kiểm tra các thông số công nghệ và chất lượng sản phẩm. Các hệ thông này thông báo khá chính xác các thông tin về trạng thái của thiết bị, các thông số của quy trình công nghệ v.v... Các thông tin này trước đây chỉ có những người dày dạn kinh nghiệm mới chuẩn đoán được, nhưng cũng chỉ bảo đảm ở mức độ chính xác tương đối. Các thông tin quá trình hoàn thiện quy trình công nghệ
+Hệ thống điều khiển cục bộ các chế độ riêng biệt của quy trình công nghệ là bước phát triển tiếp theo của hệ thống tự động hóa. Đây là sự kết hợp nhiều hệ thống điều chỉnh tự động dưới sự kiểm soát điều hành của một thiết bị tính toán và điều khiển để đảm bảo tối ưu một chế độ nào đó của quá trình công nghệ. Tất cả các hệ thống điều chỉnh tự động các thông số công nghệ cũng như các hệ thống điều khiển cục bộ đều được đặt dưới sự giám sát, điều hành chung của một trung tâm tính toán và điều khiển. Trung tâm này đảm bảo cho quy trình công nghệ xảy ra tốt nhất của hệ thống đo.
+. Trong một hệ thống điều khiển bao giờ cũng được tao thành từ các khối cơ bản sau: Hinh 1.3 Sơ đồ khối hệ thống điều khiển.
+- Khối vào: Chuyển đổi các tín hiệu vật lý thành các tín hiệu điện, các tín bộ chuỷên đổi thường là nút ấn, contac, sensor, ... tuỳ theo bộ chuyển đổi mà ta có tín hiệu đưa vào khối xử lý có dạng số hay dạng liên tục.
+- Khối xử lý: Nhận tín hiệu thực hiện các thao tác đảm bảo quá trình hoạt động của hệ thống. Từ thông tin của khối vào hệ thống điều khiển phải tạo ra được những tín hiệu cần thiết để điều khiển các thiết bị, hệ thống đáp ứng yêu cầu sản xuất.
+- Khối ra: Tín hiệu ra là kết quả cuối cùng của quỏ trỡnh xử lý hệ thống điều khiển. Các tín hiệu này được sử dụng điều khiển các cơ cấu, thiết bị hoạt động theo yêu cầu của hệ thống, tín hiệu ra có thể được hồi tiếp vố ngừ vào để điều khiển và ổn định hệ thống.
+1.1.2 Phân loại phương thức điều khiển.
+Có 3 phương thức điều khiển:
+- Điều khiển theo chương trình: Phương thức điều khiển theo chương trình được sử dụng khi các tác động điều khiển đã được hình thành từ trước theo một chương trình.
+- Điều khiển bù nhiễu: Phương thức điều khiển bù nhiễu tác động điều khiển được hình thành khi có nhiễu tác động lên hệ thống.
+- Điều khiển theo sai lệch: Trong công nghiệp phương thức điều khiển theo sai lệch được sử dụng rộng rãi nhất.
+1.2 Hệ thống điều khiển dùng PLC.
+1.2.1 So sánh hệ thống điều khiển PLC với hệ thống điều khiển khác.
+Khi điều khiển bằng PLC có nhiều lợi thế hơn so với các hệ thống khác không sử dụng PLC. Điều đó thể hiện qua sơ đồ sau:
+Hình 1.4 Phân biệt PLC với hệ thống điều khiển khác.
+
+Trong hệ thống điều khiển dùng PLC thì sẽ có những ưu điểm sau:
+- Thay đổi chương trình dễ dàng linh động.
+- Không gian lắp đặt thiết bị nhỏ. Có độ tin cậy cao.
+- Có khả năng đưa tín hiệu điều khiển ở ngõ ra phù hợp.
+- Dễ dàng thay đổi đối với cấu hình trong tương lai khi có nhu cầu mở rộng sản xuất.
+Sau đây là hình ảnh tổng quát về hệ thống điều khiển dùng PLC.
+Hình 1.5 Hệ thống điều khiển dùng PLC.
+
+1.2.2 Giới thiệu về PLC.
+1.2.2.1 Tổng quan về PLC.
+Thiết bị điều khiển lập trình đầu tiên đã được những nhà thiết kế cho ra đời năm 1968. Tuy nhiên, hệ thống này còn khá đơn giản và cồng kềnh, người sử dụng gặp nhiều khó khăn trong việc vận dụng và vận hành hệ thống. Vì vậy các nhà thiết kế đã từng bước cải thiện hệ thống đơn giản, gọn nhẹ, dễ vận hành, nhưng việc lập chương trình cho hệ thống gặp khó khăn, do lúc này không có các thiết bị lập trình ngoại vi hỗ trợ cho công việc lập trình.
+Để đơn giản hóa việc lập trình hệ thống điều khiển lập trình cầm tay đầu tiên được ra đời vào năm 1969. Điều này đã tạo nên sự phát triển thật sự cho kỹ thuật điều khiển lập trình. Trong giai đoạn này các hệ thống điều khiển lập trình ( PLC) chỉ đơn giản nhằm thay thế hệ thống relay và dây nối trong hệ thống điều khiển cổ điển. Quá trình vận hành, các nhà thiết kế đã từng bước tạo ra được một tiêu chuẩn mới cho hệ thống, tiêu chuẩn đó là lập trình dùng giản đồ hình thang, kí hiệu là LAD. Trong những năm đầu thập niên 1970, những hệ thống PLC có thêm khả năng khác, đó là sự hỗ trợ bởi những thuật toán, vận hành với các dữ liệu cập nhật. Mặt khác do sự phát triển của màn hình dùng cho máy tính nên việc giao tiếp giữa người điều khiển để lập trình cho hệ thống càng chở nên thuận tiện hơn.
+Sự phát triển của hệ thống phần cứng và phần mềm từ năm 1975 cho đến nay đã làm cho hệ thống PLC phát triển mạnh mẽ hơn với các chức năng mở rộng: Hệ thống ngõ vào/ ra có thể tăng lên đến 8.000 cổng vào/ ra, dung lượng bộ nhớ chương trình tăng lên hơn 128.000 từ bộ nhớ. Ngoài ra các nhà thiết kế còn tạo ra kỹ thuật kết nối với các hệ thống PLC riêng lẻ thành một hệ thống PLC chung, tăng khả năng của từng hệ thống riêng lẻ. Tốc độ xử lý tốt với những chức năng phức tạp số lượng cổng vào/ ra lớn.
+Trong tương lai hệ thống PLC không chỉ giao tiếp với các hệ thống khác thông qua CIM ( Computer Intergrated Manufacturing) để điều khiển các hệ thống: Rôbôt, Cad/ Cam … mà các nhà thiết kế còn xây dựng các loại PLC với các chức năng điều khiển thông minh gọi là các siêu PLC.
+1.2.2.2 Khái niệm và đặc điểm của PLC.
+* Khái niệm PLC.
+PLC được hình thành từ nhóm các kỹ sư hãng General Motors năm 1968. PLC (Progammable Logic Controller) – Bộ điều khiển logic khả trình. Là một thiết bị điều khiển logic lập trình được. Thiết bị này có các đầu vào logic sau quá trình xử lý theo chương trình bên trong nó cho đầu ra là các mức logic có quan hệ với các đầu vào thông qua chương trình bên trong của thiết bị. PLC được ứng dụng rộng rãi và trở nên không thể thiếu được trong các dây truyền sản xuất hiện đại.
+Hình 1.6 Hình ảnh về bộ PLC.
+Chức năng điều khiển của PLC rất đa dạng nó có thể thay thế cho cả một mảng rơle. Hơn thế nữa PLC giống như một máy tính có thể lập trình được. PLC lập trình dễ dàng, ngôn ngữ lập trình dễ hiểu, ổn định trong môi trường công nghiệp, giá cả cạnh tranh.
+* Đặc điểm PLC.
+PLC được sử dụng trong nhiều lập trình ứng dụng khác nhau và có những lợi ích như:
+- PLC dễ dàng thay đổi chương trình điều khiển để thích ứng một yêu cầu mới mà vẫn có thể giữ nguyên thiết kế phần cứng, đầu nối dây …
+- PLC có thể điều khiển nhiều chức năng khác nhau từ những thao tác đơn giản, lặp lại, liên tục đến những thao tác đòi hỏi chính xác, phức tạp.
+- PLC dễ dàng hiệu chỉnh chính xác công việc điều khiển và xử lý nhanh chóng các lệnh, từ lệnh logic đơn giản đến các lệnh đếm, định thời gian, chương trình con, …
+- Giao tiếp dễ dàng với các thiết bị ngoại vi, các module và các thiết bị phụ trợ khác như màn hình hiển thị.
+- Có khả năng chống nhiễu trong công nghiệp.
+- Ngôn ngữ lập trình cho PLC đã trở thành thiết bị chính trong việc điều khiển các thiết bị công nghiệp.
+1.2.2.3 Cấu trúc của một bộ PLC.
+Một bộ PLC có cấu trúc như sau:
+Hình 1.7 Cấu trúc của một PLC.
+Khi nghiên cứu về PLC thì điều đầu tiên là số lượng các đầu vào/ ra (I/O) đối với 1 PLC thì số đầu vào/ra có thể là 6 hoặc 8 hay nhiều hơn nữa. Số lượng đầu vào/ ra cho biết mức độ quản lý được nhiều thiết bị. Vấn đề này đặc biệt quan trọng khi ứng dụng PLC vào một dây truyền sản xuất phức tạp cần gia công nhiều biến đầu vào.
+Các biến đầu vào được đóng cắt bằng các công tắc bật tắt thông thường. Công tắc vị trí hay các sensor logic để đặt các giá trị đầu vào, các đầu vào này thường có mức điện áp cao để tăng độ chính xác khi truyền đi xa. Trong PLC có 1 bộ chuyển mức điện áp về mức chuẩn với mức logic 1 là +5V và mức logic 0 là 0V. Khi đó PLC sẽ quét các đầu vào để lấy dữ liệu sau một quá trình xử lý bên trong bằng chương trình phần mềm, sau đó dữ liệu đầu ra dạng số với mức logic tương ứng, qua mạch chuyển đổi để có mức điện áp ra phù hợp với yêu cầu điều khiển.
+Các đầu ra được nối với các cuộn hút đóng cắt rơle, động cơ máy sản xuất, …
+Với PLC thì bộ điều khiển MCU (Micro Contronller Unit) là hạt nhân của cả hệ. Bộ vi điều khiển đảm nhiệm tất cả các công việc từ thu nhập dữ liệu đầu vào, xử lý các dữ liệu đó và đưa ra đầu ra, PLC làm việc như một máy tính và quá trình hoạt động là hoàn toàn tự động.
+Ngoài các đầu vào/ ra logic thì PLC còn có các đầu vào cấp nguồn, thông thường nguồn nuôi PLC là một điện áp xoay chiều qua bộ xử lý tạo ra điện áp 1 chiều phù hợp để nuôi bộ vi điều khiển và các mạch điện tử khác.
+1.2.2.4 Ứng dụng và ưu nhược điểm của PLC.
+* ỨNG dụng PLC.
+PLC được sử dụng khá rộng rãi trong các ngành như công nghiệp chế biến thực phẩm, thiết bị y tế, ôtô, …
+- Hoá học và dầu khí: định áp suất (dầu), bơm dầu, điều khiển hệ thống ống dẫn, …
+- Chế tạo máy và sản xuất: tự động hoá trong chế tạo máy, quá trình lắp đặt máy,…
+- Thực phẩm, rượu bia, thuốc lá: đếm số lượng, kiểm tra chất lượng sản phẩm, cân, đóng gói, …
+* Ưu nhược điểm của PLC.
+- Thời gian lắp đặt công trình ngắn.
+- Dễ dàng thay đổi mà không gây tổn thất đến tài chính.
+- Có thể dễ dàng tính toán chính xác giá thành.
+- Cần ít thời gian huấn luyện.
+- Dễ dàng thay đổi phần mền.
+- Phạm vi sử dụng rất rộng rãi.
+- Dễ bảo trì, xử lý sự cố dễ và nhanh chóng.
+- Độ tin cậy cao, chuẩn hoá được phần cứng điều khiển.
+- Thích ứng với môi trường khắc nghiệt.
+Tuy nhiên với mức độ quản lý và điều khiển rộng thì PLC lại không phù hợp với những hệ thống nhỏ, đơn giản vì khi đó sẽ không tận dụng được khả năng làm việc của thiết bị này.
+1.2.3 Phân loại PLC.
+Có hai cách phân loại PLC:
+- Theo hãng sản xuất: Siemen, Omron, Misubishi, Alenbratlay, …
+- Theo version: Gồm có.
+PLC của Siemen có các họ: PLC S7-200, PLC S7-300, PLC S7-400, Logo.
+PLC của Misubishi có các họ: Fx, Fxo, Fxon.
+Trong quá trình sản xuất thực phẩm, rượu bia, thuốc lá, … thì rất phù hợp với việc sử dụng PLC để đếm số lượng sản phẩm, kiểm tra chất lượng sản phẩm, …Chính vì vậy theo đê tài được giao em thấy chọn PLC S7-300 là hợp lý nhất, như vậy sẽ tận dụng được khả năng làm việc của thiết bị mà không bị lãng phí.
+1.3 Bộ điều khiển PLC S7-300.
+1.3.1. Giới thiệu về thiết bị điều khiển khả lập trình PLC
+Một hệ thống điều khiển ưu việt mà chúng ta lựa chọn nhằm mục đích để điều khiển một máy sản xuất cần phải hội đủ các yêu cầu sau: giá thành hạ, dễ thi công, sửa chữa, chất lượng làm việc ổn định linh hoạt … Từ đó hệ thống điều khiển có thể lập trình được PLC (Programable Logic Control) ra đời đã giải quyết được vấn đề trên.
+Những đặc điểm của PLC:
+Thiết bị chống nhiễu. Có thể kết nối thêm các modul để mở rộng ngõ vào/ra. Ngôn ngữ lập trình dễ hiểu. Dễ dàng thay đổi chương trình điều khiển bằng máy lập trình hoặc máy tính cá nhân. Độ tin cậy cao, kích thước nhỏ. Bảo trì dễ dàng.
+Do các đặc điểm trên, PLC cho phép người điều hành không mất nhiều thời gian nối dây phức tạp khi cần thay đổi chương trình điều khiển, chỉ cần lập chương trình mới thay cho chương trình cũ.
+1.3.2. Cấu hình phần cứng PLC S7-300
+Hình 1.9 Cấu tạo phần cứng PLC
+Thiết bị điều khiển khả trình SIMATIC S7-300 được thiết kế theo kiểu module. Các module này sử dụng cho nhiều ứng dụng khác nhau. Việc xây dựng PLC theo cấu trúc module rất thuận tiện cho việc thiết kế các hệ thống gọn nhẹ và dể dàng cho việc mở rộng hệ thống.
+1.3.2.1. Module nguồn PS307 của S7-300
+Module PS307 có nhiệm vụ chuyển nguồn xoay chiều 120/230V thành nguồn một chiều 24V để cung cấp cho các module khác của khối PLC. Ngoài ra module nguồn còn có nhiệm vụ cung cấp nguồn cho các sensor và các thiết bị truyền động kết nối với PLC.
+1.3.2.2. Khối xử lý trung tâm -Module CPU
+Module CPU là loại module có chứa bộ vi xử lý, hệ điều hành, bộ nhớ, các bộ thời gian, bộ đếm, cổng truyền thông (RS485)…và có thể có một vài cổng vào ra số. Các cổng vào ra số có trên CPU được gọi là cổng vào ra onboard.
+Trong họ PLC S7-300 có nhiều loại module CPU khác nhau, được đặt tên theo bộ vi xử lý có trong nó như module CPU 312, module CPU 314, module CPU 315…
+a. Module mở rộng: có 5 loại chính
+PS (Power Supply): Module nguồn nuôi. Có 3 loại: 2A, 5A, 10A. SM (Signal Module): Module mở rộng cổng tín hiệu vào/ra, bao gồm:
+DI (Digital Input): Module mở rộng các cổng vào số. DO (Digital Output): Module mở rộng các cổng ra số. DI/DO: Module mở rộng các cổng vào/ra số. AI (Analog Input): Module mở rộng các cổng vào tương tự. AO (Analog Output): Module mở rộng các cổng ra tương tự. AI/AO: Module mở rộng các cổng vào/ra tương tự.
+IM (Interface module): Module ghép nối. Đây là loại module chuyên dụng có nhiệm vụ nối từng nhóm các module mở rộng lại với nhau thành một khối và được quản lý chung bởi một module CPU. CP (Communication Module): Module phục vụ truyền thông trong mạng giữa các PLC với nhau hoặc giữa PLC với máy tính.
+b. Cấu tạo bên ngoài của CPU SIMATIC S7-300
+........................................................
+Kết luận:
+Trong khoảng thời gian thực hiện đề tài đã bổ xung cho chúng em những kiến thức cần thiết về PLC và thu thập được những bài học thực tiễn về một hệ thống tự động hoá trong công nghiệp. Từ đó, chúng em rút ra được một số kết luận như sau:
+Việc ứng dụng khoa học công nghệ vào sản xuất là điều quan trọng nó không chỉ mang lại hiệu quả kinh tế mà còn góp phần đẩy mạnh công nghiệp hoá, hiện đại hoá đất nước, nâng cao đời sống nhân dân.
+Dù trong một thời gian ngắn, với khối lượng công việc nhiều,chúng em đã nỗ lực cùng với sự chỉ dẫn của thầy ... và sự góp ý của bạn bè cuối cùng đề tài đã hoàn thành được đúng tiến độ đáp ứng yêu cầu, mục đích mong muốn. Với những han chế về mặt khách quan và chủ quan một số vấn đề không được tìm hiểu quan tâm đầy đủ. Vì vậy sự thiếu sót của đề tài là không thể tránh được trong quá trình thực hiện đề tài. Chúng em rất mong có sự đóng góp ý kiến của thầy cô và các bạn để em có thể hoàn thiện hơn.Chúng em xin chân thành cảm ơn !.
+

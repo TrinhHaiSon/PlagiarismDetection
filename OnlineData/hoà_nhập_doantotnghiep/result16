@@ -1,0 +1,444 @@
+BỘ QUỐC PHÒNG CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM HỌC VIỆN KỸ THUẬT QUÂN SỰ ĐỘC LẬP - TỰ DO - HẠNH PHÚC
+KHOA: CƠ KHÍ.
+Phê chuẩn Độ mật: …………
+Ngày ….. tháng …. năm 2013 Số: ………………
+CHỦ NHIỆM KHOA
+
+
+
+NHIỆM VỤ ĐỒ ÁN TỐT NGHIỆP Thiết kế quy trình công nghệ gia công chi tiết thân bơm tay Học Viện Quân Sự
+
+Họ và tên:.......................................Lớp..............................Khóa:............................
+Ngành: .....................................................Chuyên ngành: .......................................
+1. Tên đề tài: ............................................................................................................
+........................................................................................................................................................................................................................
+2. Các số liệu ban đầu: Bươm tay dùng để hút dầu diezel với các thông số yêu cầu:....
+- Áp suất của bơm làm việc: 10at..............................................................................
+- Lưu lượng bơm: 4m3/h...........................................................................................
+- Vật liệu chế tạo bơm: Gang xám: 21-40..................................................................
+- Các chi tiết tiêu chuẩn được tra theo tiêu chuẩn Việt Nam 52-86.....................
+3. Nội dung bản thuyết minh:
+Chương 1: Tìm hiểu công dụng và nguyên lý hoạt động của bơm tay.
+1. Tìm hiểu công dụng của bơm tay.
+2. Nguyên lý hoạt động của bơm tay.
+Chương 2: Thiết kế chi tiết bơm tay.
+1. Cơ sở thiết kế.
+2. Thiết kế chi tiết bơm tay.
+Chương 3: Thiết kế quy trình công nghệ chế tạo chi tiết thân bơm.
+4. Số lượng, nội dung các bản vẽ (ghi rõ loại, kích thước và cách thực hiện các bản vẽ) và các sản phẩm cụ thể (nếu có): ...............................................................
+................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+5. Cán bộ hướng dẫn (ghi rõ họ tên, cấp bậc, chức vụ, đơn vị, hướng dẫn toàn bộ hay từng phần): ...................................................................................
+LỜI NÓI ĐẦU
+
+Hiện nay khoa học kỹ thuật ngày càng phát triển và hoàn thiện. Nền kinh tế nước ta đang đổi mới chuyển mình theo nhịp độ chung của toàn thế giới, nó đòi hỏi phải vận dụng những thành tựu khoa học kỹ thuật mới nhất, một cách linh hoạt. Trong đó có ngành cơ khí đóng vai trò then chốt, có tính chất quyết định đến công cuộc cải cách đất nước. Chúng ta không thể phát triển một cách toàn diện nếu thiếu vắng sự lớn mạnh, vững chắc của ngành cơ khí nói chung và ngành công nghệ chế tạo máy nói riêng. Đây là một lĩnh vực rất rộng, phức tạp và không ít khó khăn khi chúng ta đi sâu nghiên cứu nó, nhưng bằng trí sáng tạo, trí thông minh và tính cần cù của người Việt Nam đã có một số bước phát triển vượt bậc trong thời gian gần đây. Để đáp ứng yêu cầu của xã hội, có thể dễ dàng hoà nhập với công nghệ mới đòi hỏi mỗi kỹ sư ngành công nghệ chế tạo máy phải biết tận dụng mọi kiến thức được trang bị trong nhà trường áp dụng vào thực tế một cách hiệu quả. Việc chế tạo một sản phẩm cơ khí có chất lượng tốt, giá thành hạ có ý nghĩa to lớn đối với mỗi quốc gia cũng như các Công ty và các cơ sở sản xuất, nó ảnh hởng rất nhiều đến sự tồn tại, hưng thịnh của mỗi Công ty, mỗi đất nước. Với các nước phát triển có nền sản xuất tiên tiến, quá trình công nghiệp hoá đã tiến hành từ rất sớm, còn trong lĩnh vực này ở đất nước ta còn rất là mới mẻ.Trong những năm gần đây, nước ta cũng đã và đang tiến hành thực hiện điều đó.
+Trong khuôn khổ đồ án tốt nghiệp của ngành công nghệ chế tạo máy, tôi vận dụng những kiến thức đã được học trong nhà trường để thiết kế và chế tạo “Bơm tay”phục vụ cho ngành công nghiệp. Nội dung của đồ án tốt nghiệp gồm 3 chương chính sau:
+Chương 1: Tìm hiểu công dụng và nguyên lý hoạt động của bơm tay.
+1. Tìm hiểu công dụng của bơm tay.
+2. Nguyên lý hoạt động của bơm tay.
+Chương 2: Thiết kế chi tiết bơm tay.
+1. Cơ sở thiết kế.
+2. Thiết kế chi tiết bơm tay.
+Chương 3: Thiết kế quy trình công nghệ chế tạo chi tiết thân bơm.
+Trong thời gian làm đồ án, em đã cố gắng tận dụng kiến thức đã học vào thực tế với nỗ lực của bản thân cộng với sự hướng dẫn tận tình của thầy. Em đã hoàn thành nhiệm vụ được giao với đầy đủ khối lượng và đúng thời gian. Tuy nhiên do trình độ và thời gian có hạn nên bản đồ án không tránh khỏi thiếu xót, em mong được các thầy trong bộ môn chỉ bảo giúp em hoàn thiện hơn bản đồ án này.
+Cuối cùng với tấm lòng thành kính và sự biết ơn sâu sắc em xin bày tỏ lời cảm ơn đến thầy - người đã tận tình chỉ bảo em bằng tất cả tâm huyết của người thầy, các thầy trong khoa, chuyên ngành và các bạn đã đóng góp ý kiến giúp đỡ em hoàn thành bản đồ án này..
+CHƯƠNG 1
+TÌM HIỂU CÔNG DỤNG VÀ NGUYÊN LÝ HOẠT
+ĐỘNG CỦA BƠM TAY
+1. Công dụng của bơm tay.
+Máy bơm tay là một loại máy bơm thủy lực, dùng để hút chất lỏng từ bên ngoài (chủ yếu là dùng hút dầu Diezen và một loại dung dịch khác..). Nhận năng lượng từ bên ngoài như: cơ năng, thủy năng, điện năng... và truyền năng lượng cho dòng chất lỏng nhờ vậy đưa chất lỏng lên một độ cao nhất định hoặc dịch chuyển chất lỏng theo hệ thống đường ống xác định...
+Bơm tay là một thiết bị quan trọng trong trong các máy móc lớn sử dụng động cơ diezen. Nó được dùng để bơm dầu từ bình chứa lên bôi trơn động cơ khi mới khởi động. Bơm tay được thiết kế nhỏ gọn để có thể lắp lên khung máy.
+Bơm tay trong hệ thống động cơ diesel được dùng trong các trường hợp sau: một là chỉ dùng đối với trường hợp bị e đường nhiên liệu từ két nhiên liệu đến bơm cao áp vì thế động cơ không tự hút được nhiên liệu nên phải dùng bơm tay để bơm nhiên liệu cho đầy đường dẫn nhiên liệu từ thùng nhiên liệu đến bơm cao áp (đầy e). Nhưng trước khi bơm phải mở van (xả e) - bơm - đóng van - khởi động động cơ. Hai là dùng bơm tay để bơm chuyển két nhiên liệu hoặc bơm chuyển liệu liệu. Bơm này chỉ có tác dụng nhiều khi động cơ mới khởi động khi mà bơm thấp áp chưa kịp cấp nhiên liệu cho bơm cao áp.
+Trong các dạng bơm tay thì bơm tay dạng bơm piston là loại dùng phổ biến nhất. Bơm tay pistong là bơm thể tích, được sử dụng để làm dịch chuyển chất lỏng dưới tác dụng của piston chuyển động tịnh tiến tuần hoàn trong xi lanh. Công suất của bơm piston bằng tay vào khoảng 350 - 600 (lít/phút). Áp suất trong bơm có thể đạt được trong khoảng 100-1000 (N/cm2)…
+Bơm piston bằng tay có thể chia làm :
+- Bơm piston với cơ cấu dẫn động bằng tay.
+- Bơm piston với cơ cấu dẫn động tay quay-thanh truyền…
+Tuy nhiên về nguyên lý làm việc của chúng gần như giống nhau.
+2. Nguyên lý hoạt động của bơm tay.
+Nguyên lý hoạt động của bơm tay được thể hiện theo sơ đồ động học sau:
+2.1 Cấu tạo:
+Sơ đồ cấu tạo máy bơm tay piston tác dụng kép
+01. Cần piston 05. Buồng làm việc 09. Tay quay
+02. Xilanh 06. Van hút 10. Trục khuỷu
+03. Ống hút 07. Ống xả 11. Con trượt
+04. Van xả 08. Bể chứa
+2.2.Nguyên lý làm việc:
+Nhờ có hệ thống tay quay - thanh truyền, chuyển động của động cơ sẽ được biến thành chuyển động tịnh tiến của piston trong xilanh với hành trình: S = 2.R (R- bán kính tay quay). Hai điểm B1, B2 ứng với hai vị trí biên của tay quay. Khi piston đi từ B1 đến B2 thì khoang B1 thực hiện quá trình hút, khoang B2 thực hiện quá trình đẩy. Khi đó khoang thể tích B1 tăng lên, áp suất giảm dần và nhỏ hơn áp suất mặt thoáng Pa, do đó chất lỏng từ bể chứa qua van hút 6 vào buồng làm việc B1, trong khi đó van 4 đóng lại. Còn bên khoang B2 thì thể tích buồng làm việc giảm, áp suất tăng lên, van 6 đóng lại và van 4 mở ra, chất lỏng sẽ được đẩy qua van đẩy 4 vào ống xả 7. Khi piston tới B2 thì khoang B1 kết thúc quá trình hút, khoang B2 kết thúc quá trình đẩy.
+Quá trình ngược lại, khi piston đi từ B2 đến B1 thì khoang B2 thực hiện quá trình hút, khoang B1 thực hiện quá trình đẩy. Như vậy, mỗi vòng quay của trục chính thì bơm thực hiện được hai lần hút và hai lần đẩy (hai chu kỳ hay còn gọi là tác dụng kép). Nếu tay quay tiếp tục quay thì bơm lặp lại quá trình hút và đẩy như cũ.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CHƯƠNG 2
+THIẾT KẾ CHI TIẾT BƠM TAY
+
+1. Cơ sở thiết kế.
+Xét về mặt nguyên lý làm việc của bơm tay thì thấy bơm tay làm việc trên nguyên lý pittong xilanh dưới tác dụng lực của con người vào tay quay. Khi con người tác dụng một lực nhất định nào đó sẽ làm cho cơ cấu bên trong của bơm làm việc để tạo ra lượng áp suất chênh lệch giữa môi trường bên trong bơm và môi trường chất lỏng cần hút bên ngoài. Vì vậy để thiết kế bơm ta có thể dựa trên các thông số cơ bản sau đây để kiểm nghiệm:
+- Lưu lượng trung bình Qtb.
+- Lưu lượng tức thời Q.
+- Công suất N (kw).
+- Hiệu suất (h).
+- Cột áp H (cột nước). (m)
+- Đường đặc tính của máy bơm piston (bơm tay).
+1.1. Lưu lượng trung bình của bơm Qtb.
+Lưu lượng trung bình của bơm khi thực hiện mọi quá trình hút hoặc đẩy (Thể tích công tác của bơm):
+qtb = h.F = 2r.F
+Trong đó: - h = 2r : Là độ dài dịch chuyển của piston khi tay quay một góc 180˚.
+- r : Độ dài của tay quay. Lấy : r = 90 (mm).
+- F : Diện tích của piston. Mà : F = = = 7850 (mm).
+Thay vào (2.1) :
+qtb = 2.90.7850 = 1413000 (mm3)
+Lưu lượng trung bình sau một đơn vị thời gian là:
+Qtb= n. qtb
+Trong đó : - n : Là số vòng quay trong một đơn vị thời gian của tay quay, giả sử : n=45 (vòng/phút).
+Vậy : Qtb= 1413000.45 = 63585000 (mm3/phút)
+Qtb = 3,8 (m3/h) ≈4 (m3/h)
+1.2. Lưu lượng tức thời Qtt và lưu lượng bơm Q.
+1.2.1. Lưu lượng tức thời Qtt.
+Lưu lượng tức thời tỷ lệ với vận tốc của piston chuyển động trong xi lanh và được xác định theo công thức :
+Qtt = v.F
+Trong đó : - v : Là vận tốc tức thời của piston chuyển động trong xi lanh. Theo sơ đồ động học thì khi tay quay 9 chuyển động theo chiều mũi tên được một góc φ =180˚ thì piston số 5 dịch chuyển trong xi lanh một quãng đường là x.
+x = (r+R) - (rcos φ + Rcos)
+Trong đó : - R : Là độ dài của thanh truyền.
+- : Góc tạo bởi thanh truyền và trục xi lanh.
+Vận tốc tức thời của piston bằng đạo hàm theo thời gian t của quãng đường x mà piston di chuyển được.
+v =dx/dt
+Biết rằng vận tốc tức thời khi tay quay 15 chuyển động được xác định :
+ω = dφ/dt .
+Suy ra: v = ω (dx/dφ)
+Do độ dài của trục thanh truyền lớn hơn rất nhiều so với độ dài cảu tay quay nên vận tốc và lưu lượng tức thời của bơm tuân theo quy luật hình sin và được xác định theo công thức :
+v = rωsinφ
+Qtt = F.r. ω.sinφ
+Lưu lượng Q đạt giá trị cực đại khi : φ = 90˚
+Lưu lương Q đạt giá trị cực tiểu khi : φ = 0˚ và φ = 180˚
+Từ công thức nhận thấy rằng vận tốc chuyển động của piston và lưu lượng tức thời của bơm không phân bố đều, mang tính chất xung. Qúa trình đẩy của bơm sẽ thực hiện tuần tự sau khi tay quay quay 15 quay hết 180˚của quá trình hút, tại điểm cuối của quá trình hút (φ = 180˚) thì vận tốc của bơm bằng không (v=0) và tại vị trí trung gian khi (φ = 90˚) thì vận tốc và lưu lượng đạt giá trị cực đạt. Như vậy lưu lượng chất lỏng thay đổi trong suốt quá trình dịch chuyển của piston và có thể xây dựng dưới dạng đồ thị. Từ đó có thể xác định hệ số không đều nhau về lưu lượng bằng tỷ số giữa lưu lượng cực đại đối với lưu lượng trung bình của bơm. Như vậy đối với bơm piston tác dụng kép (bơm tay) thì hệ số không đều về lưu lượng sẽ bằng :
+Ψ = Qmax/ Qtb . Mà Ψ= = 3,14/2 = 1,57
+Vậy : Qttmax = 1,57.4 = 6,28 (m3/h).
+Qttmin =0.
+Sơ đồ xác định hệ số không đều về lưu lượng của bơm piston tác dụng kép
+Bơm tác động kép thì khi trục quay được một vòng thì bơm thực hiện được hai quá trình đẩy và hút. Nếu bỏ qua diện tích tiết diện của của cần piston, thì đường hình sin quy ước biểu diễn lưu lượng của bơm theo hình vẽ trên.
+1.2. 2.Lưu lượng của bơm Q.
+Lưu lượng của bơm là lượng chất lỏng do máy cấp được trong một đơn vị thời gian. Ký hiệu: Q
+Q = (m3/s)
+Trong đó : + F : là diện tích tiết diện ngang của lòng xi lanh (m2).
+F= (D đường kính trong của xi lanh).
+Suy ra : F = = 452,16 (m2).
++ S : Là quảng chạy của pistong (m).
++ n : Số vòng quay của trục chính (vg/ph).
+Q = = 914870 (mm3/phút)
+Q = 0,09 (m3/s)
+Piston có thể là dạng tấm tròn( khi đường kính ngoài của piston có giá trị lớn hơn chiều dài nhiều lần), khi ấy pistong phải có cán. Khi piston có dạng thoi trụ có đường kính ngoài nhỏ hơn nhiều lần chiều dài của nó thì không dùng cán.
+1.3. Cột áp của bơm H.
+1.3.1.Chiều cao hút của bơm:
+Áp dụng công thức sau:
+Hh ≤ B - (Ht+Hb+J)
+Trong đó :
+- B : Là áp suất tác dụng lên chất lỏng ở bể hút. Tra bảng 3.2- sách bơm quạt khí nén (Nhà xuất bản khoa học và kỹ thuật). B = 0.
+- Ht : Là tổn thất trợ lực trong ống hút.
+Ht = (0,2.40/30+0,3).0,0032/2.10 = 2,5507
+- Hb : Là tổn thất do bay hơi của chất lỏng. Tra bảng 3.1 sách bơm quạt khí nén (Nhà xuất bản khoa học và kỹ thuật). Hb = 0,24, vì bơm tay chủ yếu là dùng bơm các loại chất lỏng như dầu máy có nhiệt độ: t0= 200.
+- J : Là sức ì của chất lỏng : J =
+J ≈ 0,01.
+Vậy : Giá trị của chiều cao hút là : Hh ≤ 0 - (2,5507+0,24+0,01) hay Hh ≤ - 0,25 (m), khi ấy bơm phải đặt thấp hơn bể hút là : Hh ≤ 0,25(m) thì bơm sẽ làm việc hiệu quả .
+Do tính chất của bơm tay là bơm áp suất thấp ta chọn: p = 10 (at).
+1.3.2. Cột áp của máy bơm:
+Cột áp của máy bơmlà độ gia tăng năng lượng mà một dơn vị trọng lượng chất lỏng nhận từ khi vào đến khi ra khỏi máy bơm. Ký hiệu là: H.
+H = .
+1.4. Công suất của bơm.
+Công suất của bơm bao gồm:
+- Công suất chỉ thị lý thuyết : Ni
+- Công suất hiệu dụng : Nh
+- Công suất động cơ : Nđ.
+1.4.1. Công suất chỉ thị lý thuyết:
+Công suất chỉ thị lý thuyết được xác định không tính đến các tổn thất của các quá trình hút đẩy của bơm :
+Ni = Nlt =
+Trong đó :
+- Q : Là lưu lượng của bơm (m3/s).
+- H : Là cột áp của bơm (m).H=1,13m H20 =11085 (N/m3).
+- ρ : Là khối lượng riêng của chất lỏng : ρ = 898 (kg/m3).
+- g : Là gia tốc trọng trường: g = 9,8 ( m/s2).
+Ni = = 895,88 (w) =0,89 (kw).
+Công suất thủy lực là bao hàm cả tổn thất thể tích và tổn thất áp lực của bơm :
+Ntl =
+Trong đó : - ∆H : Là tổn thát áp lực(m). Với: ∆H = Hb= 0,24.
+- ∆Q : Là tổn thất thể tích (m3/s). Với: ∆Q = Q - Qb = 0.09 - 4/60 = 0,02
+Ntl = (w) = 0,13 (kw).
+1.4.2.Công suất hiệu dụng :
+Là toàn bộ gia năng lượng mà dòng chảy nhận được khi đi qua bơm trong một đơn vị thời gian. Ký hiệu là: Nh .
+Nh= (kw)
+=> Nh= (w) = 0,137 (kw).
+1.4.3. Công suất động cơ kéo của bơm :
+Trong đó: η= 0,6 ÷ 0,85, lấy = 0,8
+Nđ == = 1713,5 (kw).
+1.5. Hiệu suất của bơm η.
+Hiệu suất toàn phần của bơm được xác định theo công thức:
+
+Thông thường: h = 0,67 ¸ 0,85.
+1.6. Đường đặc tính của máy bơm piston (bơm tay).
+1.6.1. Đường đặc tính làm việc của máy bơm piston:
+
+Đường đặc tính làm việc của bơm piston
+Đồ thị biểu diễn mối quan hệ: H = f(Q) khi tốc độ quay của tay quay n là hằng số gọi là đường đặc tính của máy bơm piston.
+- Đường 1’ và đường 2’ là đường đặc tính lý thuyết ứng với tốc độ quay là n1 = const (Q1) và n2 = const (Q2).
+- Đường 1 và đường 2 là đường đặc tính thực tế ứng với n1 và n2, n1 < n2.
+Qua đồ thị ta thấy :
+- Về mặt lý thuyết, khi n = const thì việc tăng cột áp H không ảnh hưởng tới lưu lượng Q (H và Q độc lập với nhau).
+- Có sự sai khác giữa đường lý thuyết và thực tế là do khi cột áp H tăng sẽ tăng các hiện tượng rò rỉ. Sự sai khác này càng lớn khi Q càng lớn, vì lúc này không chỉ có hiện tượng rò rỉ mà các van làm việc cũng không kịp thời, gây tổn thất về lưu lượng.
+1.6.2. Đường đặc tính phụ thuộc giữa Q, N và η của máy bơm với H:
+
+
+
+
+
+
+Đường đặc tính phụ thuộc giữa Q, N và η với H
+Từ đồ thị ta thấy :
+- Khi H tăng thì Q giảm .
+- Ở đoạn H1, H2, hiệu suất không thay đổi.
+- Khi cột áp làm việc ở mức rất thấp hoặc rất cao, hiệu suất làm việc giảm. Khi H thấp, hiệu suất giảm do công suất có ích trên trục máy bơm nhỏ, khi H cao, hiệu suất giảm do hiện tượng rò rỉ.
+1.6.3. Đường đặc tính xâm thực của máy bơm:
+Hiện tượng xâm thực ở máy bơm là hiện tượng xuất hiện bọt khí ở trong chất lỏng được bơm. Nguyên nhân chính gây ra hiện tượng xâm thực là do sự xuất hiện các bọt khí, xảy ra khi:
+- Chiều cao hút quá lớn làm giảm nhiệt độ sôi.
+- Nhiệt độ chất lỏng quá cao.
+- Trong chất lỏng có khí đồng hành.
+- Đường ống hút quá nhỏ, quá dài làm tăng tổn thất thủy lực.
+Đường đặc tính xâm thực cho thấy khả năng làm việc bình thường của máy bơm ứng với số vòng quay không đổi và nhiệt độ làm việc nhất định phụ thuộc độ chân không của máy bơm.
+Đường đặc tính xâm thực của máy bơm
+K1, K2 là điểm giới hạn phạm vi làm việc an toàn của bơm ứng với trị số áp suất chân không giới hạn. Nếu độ chân không vượt quá các trị số giới hạn thì bơm sẽ làm việc trong tình trạng bị xâm thực.
+2. Thiết kế chi tiết bơm tay.
+Về cấu tạo thì một máy bơm tay gồm nhiều chi tiết tao nên như: Thân bơm, hộp van, nắp trên, con trượt, pitton, hộp van, van dưới, nắp trước, tay gạt, nắp nhồi trên……. Các bulong, ốc vít , đệm và nhồi chèn. Từ cơ sở thiết kế đã được tính toán phân trên, dưới đây tính toán thiết kế những chi tiết cơ bản của bơm piston tay còn các chi tiết phụ được lấy theo tiêu chuẩn như: bulong, đai ốc, ốc vít, đệm..
+2.1. Chi tiết thân bơm.
+2.1.1. Lý thuyết tính toán thân bơm:
+* Đường kính của xi lanh(buồng làm việc) của thân bơm:
+Áp dụng theo công thức:
+a =
+Trong đó: - L: Chiều dài hành trình piston. (mm).
+- D: Đường kính của xi lanh. (mm).
+Vì ta chọn số vòng quay là: n = 45(vòng/phút) nằm trong khoảng:
+n= 40÷45(vòng/phút).
+Bảng 1: Bảng chọn tỷ số a (Bài giảng chuyển động thủy lực và khí nén trong máy CN-HVBKTQS).
+N(vòng/phút) a=L/D n(vòng/phut) a=L/D 40÷45 2,5÷ 2,0 150÷ 300 1,2 ÷0,5 80 ÷150 2 ÷1,2 300 0,5 ÷0,2
+Suy ra: a = =2,5÷2,0
+Mặt khác: Q = ηt(2F-f).L.n
+= ηt(2D2-d2).L.n
+.....................................
+2.4.4. Nguyên công 4: Khoan, tarô M12.
+2.4.4.1. Khoan lỗ Æ11,5.
+L = 11 (mm).
+L1= 0,5¸2 mm.
+L2= 0 mm.
+Sv = 0,14 mm/vg; n = 1000 vòng/phút (bảng chế độ cắt).
+Suy ra:
+T0 = (11 + 1,5)/(0,14.1000) = 0,089 (phút).
+ÞTtc = 1,26T0 = 1,26.0,089 = 0,11 (phút).
+2.4.4.2. Taro M12 bước 0,5.
+Thời gian cơ bản:
+T0 = [(L + L1)/(S.n) + (L + L1)/(S.n)].i
+Với: L = 11 mm.
+L1 = (1¸3)S = (1¸3)0,5 = 0,5¸1,5 mm.
+S = 0,5mm.
+n = n1 = 25 vg/ph.
+i = 1.
+Suy ra:
+T0 = [(11 + 1)/(0,5.25) + (11 + 1)/(0,5.25)].1 = 1,92 (phút).
+ÞTtc = 1,26T0 = 1,26.1,92 = 2,41 (phút).
+*Thời gian toàn nguyên công:
+STtc = 0,11 + 2,41 = 2,55 (phút).
+2.4.5. Nguyên công 5: Khoét, doa lỗ Æ24.
+2.4.5.1. Khoét lỗ Æ23,91.
+L =190 (mm).
+L1 = 0,5(D - d)cotgj + (0,5¸2) = 0,5(24 -23,91).cotg30° + (0,5¸2) = 1,07 mm.
+(Công thức bảng 3.2[2]).
+L2 = 1 ¸ 3 mm (bảng 3.4[2]).
+Sp = 650 mm/ph (bảng chế độ cắt).
+Suy ra:
+T0 = (190+ 2 + 1,07)/650 = 0,33 (phút).
+ÞTtc = 1,26T0 = 1,26.0,33 = 0,42 (phút).
+2.4.5.2. Doa lỗ Æ24.
+Sp = 500 mm/ph (bảng chế độ cắt).
+Suy ra:
+T0 = (190+ 2 +1,07)/500 = 0,38 (phút).
+ÞTtc = 1,26T0 = 1,26.0,38 = 0,48 (phút).
+*Thời gian toàn nguyên công:
+STtc = 0,42 + 0,48 = 0,90 (phút).
+2.4.6. Nguyên công 6: Khoan 4lỗ Æ14.
+L = 270 (mm)
+L1= 0,5d.cotgj + (0,5¸2) = 0,5.14.cotg60° + (0,5¸2) = 5,04 mm.
+(Công thức bảng 3.2[2]).
+L2= 1 ¸ 3 mm (bảng 3.2[2]).
+Sv = 0,45mm/vg; n = 400 vòng/phút (bảng chế độ cắt).
+Suy ra:
+T0 = (270 + 14 + 2)/(0,45.400) = 1,58 (phút).
+ÞTtc = 1,26T0 = 1,26.1,58= 2,0 (phút).
+2.4.7. Nguyên công 7: Khoan 4lỗ Æ15 mặt A.
+L = 106 (mm)
+L1= 0,5d.cotgj + (0,5¸2) = 0,5.15.cotg60° + (0,5¸2) = 5,3 mm.
+(Công thức bảng 3.2[2]).
+L2= 1 ¸ 3 mm (bảng 3.2[2]).
+Sv = 0,45 mm/vg; n = 450 vòng/phút (bảng chế độ cắt).
+Suy ra:
+T0 = (106 + 15 + 2)/(0,45.450) = 0,6 (phút).
+ÞTtc = 1,26T0 = 1,26.0,6 = 0,76 (phút).
+2.4.8. Nguyên công 8: Phay 2mặt C, D.
+L = 260 (mm).
+L1 = 0,5[D - (D2 - B2) 0,5] + (0,5¸3) =
+= 0,5[100 - (100.2 – 53.2) 0,5] + (0,5¸3) = 14,3 mm.(công thức bảng 3.4[2]).
+L2 = 2 ¸ 4 mm (bảng 3.4[2]).
+2.4.8.1. Phay thô.
+Sp = 95 mm/ph (bảng chế độ cắt).
+Suy ra:
+T0 = (260 + 3 + 14,3)/95 = 2,9 (phút).
+ÞTtc = 1,26T0 = 1,26.2,9 = 3,61 (phút).
+2.4.8.2. Phay tinh.
+Sp = 60 mm/ph (bảng chế độ cắt).
+Suy ra:
+T0 = (260 + 3 + 14,3)/60 = 4,67 (phút).
+ÞTtc = 1,26T0 = 1,26.4,67 = 5,8 (phút).
+Thời gian toàn nguyên công:
+STtc = 3,61 + 5,8 = 9,4 (phút).
+2.4.9. Nguyên công 9: Khoét, doa lỗ Æ100.
+2.4.9.1. Khoét lỗ Æ99,91.
+L =318 (mm).
+L1 = 0,5(D - d)cotgj + (0,5¸2) = 0,5(100 -99,91).cotg30° + (0,5¸2) = 1,07 mm.
+(Công thức bảng 3.2[2]).
+L2 = 1 ¸ 3 mm (bảng 3.4[2]).
+Sp = 150 mm/ph (bảng chế độ cắt).
+Suy ra:
+T0 = (318+ 2 + 1,07)/150 = 2,1 (phút).
+ÞTtc = 1,26T0 = 1,26.2,1 = 2,69 (phút).
+2.4.9.2. Doa lỗ Æ100.
+Sp = 650 mm/ph (bảng chế độ cắt).
+Suy ra:
+T0 = (318+ 2 +1,07)/650 = 0,49 (phút).
+ÞTtc = 1,26T0 = 1,26.0,49 = 0,62 (phút).
+*Thời gian toàn nguyên công:
+STtc = 2,69 + 0,62 = 3,31 (phút).
+2.4.10. Nguyên công 10: Khoan, taro lỗ tra dầu M12.
+2.4.10.1. Khoan lỗ Æ11,5.
+L = 34 (mm).
+L1= 0,5¸2 mm.
+L2= 0 mm.
+Sv = 0,14 mm/vg; n = 1000 vòng/phút (bảng chế độ cắt).
+Suy ra:
+T0 = (34 + 1,5)/(0,14.1000) = 0,25 (phút).
+ÞTtc = 1,26T0 = 1,26.0,25 = 0,31 (phút).
+2.4.10.2. Taro M12 bước 1.
+Thời gian cơ bản:
+T0 = [(L + L1)/(S.n) + (L + L1)/(S.n)].i
+Với: L = 34 mm.
+L1 = (1¸3)S = (1¸3)0,5 = 0,5¸1,5 mm.
+S = 1 (mm).
+n = n1 = 25 vg/ph.
+i = 1.
+Suy ra:
+T0 = [(34 + 1)/(1.25) + (34 + 1)/(1.25)].1 = 2,8 (phút).
+ÞTtc = 1,26T0 = 1,26.2,8 = 3,5 (phút).
+*Thời gian toàn nguyên công:
+STtc = 0,31 + 3,5 = 3,83 (phút).
+2.4.11. Nguyên công 11: Khoan 4lỗ Æ13 mặt C, D.
+L = 103 (mm)
+L1= 0,5d.cotgj + (0,5¸2) = 0,5.13.cotg60° + (0,5¸2) = 4,7 mm.
+(Công thức bảng 3.2[2]).
+L2= 1 ¸ 3 mm (bảng 3.2[2]).
+Sv = 0,4 mm/vg; n = 500 vòng/phút (bảng chế độ cắt).
+Suy ra:
+T0 = (103 + 13 + 2)/(0,4.500) = 0,59 (phút).
+ÞTtc = 1,26T0 = 1,26.0,59 = 0,74 (phút).
+KẾT LUẬN
+Trong quá trình làm đồ án tốt nghiệp chế tạo máy, giúp em tổng hợp được các kiến thức đã được học trong các giáo trình và giúp em làm quen với cách sử dụng tài liệu, sổ tay, tiêu chuẩn và có khả năng kết hợp, so sánh kiến thức lý thuyết với điều kiện sản xuất. Mặt khác khi thiết kế đồ án này đã giúp em tăng thêm tính độc lập sáng tạo để giải quyết một vấn đề công nghệ cụ thể. Đồ án này cũng giúp em có thêm thiết kế chế tạo cho công việc thực tiễn sau này.
+Trong quãng thời gian làm đồ án này, mặc dù đã hoàn thành nhưng do kiến thức còn hạn chế, kinh nghiệm thực tế chưa có nên không thể tránh khỏi những sai sót. Em rất mong được sự chỉ bảo của các thầy cô đã giúp em hoàn thiện thêm những kiến thức còn thiếu để có thể làm tốt hơn trong công việc sau này.
+Đồ án này hoàn thành ngoài thời gian làm việc của bản thân em còn có sự chỉ bảo tận tình của thầy giáo hướng dẫn thầy: cùng các thầy cô trong quá trình làm đồ án cũng như quá trình học tập.
+Em xin được bày tỏ lòng biết ơn trân trọng và sâu sắc đến thầy giáo hướng dẫn: cùng các thầy cô đã chỉ bảo và góp ý cho em những kiến thức quý báu để em hoàn thành tốt đồ án tốt nghiệp này…/
+
+
+Hà nội, ngày….tháng…năm 2013.
+
+
+TÀI LIỆU THAM KHẢO
+
+1. Công nghệ chế tạo máy (Nhà xuất bản khoa học và kỹ thuật).
+
+2. Sổ tay công nghệ chế tạo máy tập I, II, III (Nhà xuất bản khoa học và kỹ thuật)
+
+3. Thiết kế đồ án môn học công nghệ chế tạo máy (Nhà xuất bản khoa học và kỹ thuật).
+
+4. Đồ gá cơ khí hoá và tự đông hoá (Nhà xuất bản khoa học và kỹ thuật).
+
+5. Át lát đồ gá (Nhà xuất bản khoa hoc và kỹ thuật).
+
+6. Chế độ gia công cơ khí (Nhà xuất bản khoa hoc và kỹ thuật).
+
+7. Công nghệ chế tạo phôi (Nhà xuất bản khoa hoc và kỹ thuật).
+
+8. Thủy lưc, máy và truyền dẫn thủy lực (Học viện kỹ thuật quân sự-Hà nội 1998).
+
+9. Bài giảng truyền dãn thủy lực và khí nén trong máy CNC. (Học viện kỹ thuật quân sự-Hà nội 2000)..
+
+
+TÀI LIỆU THAM KHẢO:
+
+[1] Giáo trình Công Nghệ Chế Tạo Máy_ Trần Văn Địch_ Nhà xuất bản khoa học và kỹ thuật Hà Nội 2008;
+[2] Giáo trình Thiết kế đồ án Công Nghệ Chế Tạo Máy_ Trần Văn Địch_ Nhà xuất bản khoa học và kỹ thuật Hà Nội 2007;
+[3] Sổ tay Công Nghệ Chế Tạo Máy tập 1_ Nguyễn Đắc Lộc_ Nhà xuất bản khoa học và kỹ thuật Hà Nội 2010;
+[4] Sổ tay Công Nghệ Chế Tạo Máy tập 2_ Nguyễn Đắc Lộc_ Nhà xuất bản khoa học và kỹ thuật Hà Nội 2010;
+[5] Sổ tay Công Nghệ Chế Tạo Máy tập 3_ Nguyễn Đắc Lộc_ Nhà xuất bản khoa học và kỹ thuật Hà Nội 2010;
+[6] Dụng cụ cắt gọt_ G.V Philipôp_ Biên dịch: Võ Trần Phúc Nhã_ Nhà xuất bản Hải Phòng;
+[7] Chế độ cắt gia công cơ khí_ Nguyễn Ngọc Đào - Trần Thế San - Hồ Viết Bình - Nhà xuất bản Đà Nẵng;
+[8] Đồ gá gia công cơ khí_ Hồ Viết Bình - Lê Đăng Hoành – Nguyễn Ngọc Đào_ Nhà xuất bản Đà Nẵng;
+[9] Giáo trình hướng dẫn thiết kế đồ gá trên máy cắt kim loại_ Nguyễn Đức Năm;
+[10] Sổ tay thiết kế cơ khí_ Hà Văn Vui- Nguyễn Chỉ Sáng- Phan Đăng Phong_ Nhà xuất bản khoa học và kỹ thuật;
+[11] Atlas đồ gá_ Trần Văn Địch_ Nhà xuất bản khoa học và kỹ thuật;
+[12] Sổ tay dung sai lắp ghép_ Ninh Đức Tốn_ Nhà xuất bản giáo dục;
+[13] Giáo trình kim loại học và nhiệt luyện_ Nghiêm Hùng;
+[14] Công nghệ kim loại;
+[15] Cở sở công nghệ chế tạo máy_ Nguyễn Ngọc Đào- Hồ Viết Bình- Phan Minh Thanh;
+[16] Vẽ kỹ thuật_ Trần Hữu Quế.
+
+TÀI LIỆU THAM KHẢO
+(1)- Hướng dẫn thiết kế đồ án CÔNG NGHỆ CHẾ TẠO MÁY
+HỒ VIẾT BÌNH-PHAN MINH THANH
+Xuất bản năm 2013
+(2)-Giáo trình CÔNG NGHỆ CHẾ TẠO MÁY
+HỒ VIẾT BÌNH-PHAN MINH THANH
+Nhà xuất bản đại học quốc gia thành phố HCM
+(3)-CHẾ ĐỘ CẮT GIA CÔNG CƠ KHÍ
+NGUYỄN TRỌNG ĐÀO
+HỒ VIẾT BÌNH
+Nhà xuất bản Đà Nẵng,2001
+(4)-Sổ tay CÔNG NGHỆ CHẾ TẠO MÁY tập 1
+NGUYỄN ĐẮC LỘC
+LÊ VĂN TIẾN
+NINH ĐỨC BỐN
+TRẦN XUÂN VIỆT
+Nhà xuất bản khoa học và kỹ thuật ,2010
+(5)-Sổ tay CÔNG NGHỆ CHẾ TẠO MÁY tập 2
+NGUYỄN ĐẮC LỘC
+LÊ VĂN TIẾN
+NINH ĐỨC BỐN
+TRẦN XUÂN VIỆT
+Nhà xuất bản khoa học và kỹ thuật
+(6)-ATLAS ĐỒ GÁ
+TRẦN VĂN ĐỊCH
+Nhà xuất bản khoa học và kỹ thuật ,2003
+(7)-Sách CÔNG NGHỆ KIM LOẠI
+NGUYỄN TÁC ÁNH
+HOÀNG TRỌNG BÁ
+(8)-Sách DUNG SAI KỸ THUẬT ĐO
+TÀI LIỆU THAM KHẢO
+THIẾT KẾ ĐỒ ÁN CÔNG NGHỆ CHẾ TẠO MÁY. – TRẦN VĂN ĐỊCH. NXB KHKT 2000 CÔNG NGHỆ CHẾ TẠO MÁY. – ĐHSPKT 2000. –HỒ VIẾT BÌNH – NGUYỄN NGỌC ĐÀO. CHẾ ĐỘ CẮT GIA CÔNG CƠ KHÍ. – NXB ĐÀ NẴNG 2001. NGUYỄN NGỌC ĐÀO – HỒ VIẾT BÌNH. SỔ TAY CNCTM TẬP 1,2. NXB KHKT 2001. –NGUYỄN ĐẮC LỘC – LÊ VĂN TIẾN. ĐỒ GÁ GIA CÔNG CƠ KHÍ. NXB ĐÀ NẴNG 2000. – HỒ VIẾT BÌNH – LÊ ĐĂNG HOÀNH – NGUYỄN NGỌC ĐÀO. SỔ TAY VÀ ATLAS ĐỒ GÁ. – NXB KHKT 2000. –TRẦN VĂN ĐỊCH. CÁC SÁCH GIÁO KHOA VỀ CÔNG NGHỆ CHẾ TẠO MÁY. CƠ SỞ CÔNG NGHỆ CHẾ TẠO MÁY. – ĐHSPKT 2002. – NGUYỄN NGỌC ĐÀO – HỒ VIẾT BÌNH – PHAN MINH THANH.
+
+TÀI LIỆU THAM KHẢO THIẾT KẾ QUY TRÌNH CÔNG NGHỆ GIA CÔNG CHI TIẾT THÂN ĐỒ GÁ RÃNH ĐUÔI ÉN ĐHCN HÀ NỘI 1] : Thiết kế đồ án công nghệ chế tạo máy [2] : Sổ tay công nghệ chế tạo máy tập 1 (bộ 3 tập) [3] : Sổ tay công nghệ chế tạo máy tập 2 (bộ 3 tập) [4] : Sổ tay công nghệ chế tạo máy tập 2 (bộ 3 tập) [5] : Sổ tay nhiệt luyện [6] : Công nghệ chế tạo máy tập 1 [7] : Sổ tay công nghệ chế tạo máy tập 1 (bộ 7 tập) [8] : Sổ tay công nghệ chế tạo máy toàn tập (trường ĐHBK
+
+
+

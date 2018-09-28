@@ -1,0 +1,52 @@
+Đứng trước thời buổi bùng nổ Công nghệ thông tin (CNTT) bắt buộc chúng ta cần có những hướng đi mới cho ngành kỹ thuật, đã có rất nhiều thành quả trong việc áp dụng CNTT vào gia công cơ khí như Công nghệ CNC,… Qua đây Nhóm nghiên cứu chúng tôi đã xây dựng dự án Phần mềm thực hiện giải pháp nâng cao hiệu quả cho việc Tra cứu chế độ gia công và Tính toán thời gian gia công trong cơ khí (hiện tại áp dụng cho nhà máy Z131), đây là phần mềm có mô-đun đơn giản, dễ thao tác, nó dùng cho 3 loại hình gia công cơ bản là Tiện, Phay và Khoan. Với phần mềm này các bạn có thể chọn được chế độ cắt “tương đối hợp lý” dựa trên các yêu cầu về sản phẩm (kích thước, hình dáng hình học và độ chính xác gia công) – nó có thể dùng để thay thế cho các Sổ tay tra cứu, từ đó phần mềm sẽ tính ra Thời gian gia công cho một nguyên công/một sản phẩm, đây là lợi ích chính trong việc làm cơ sở cho Định mức giờ công chuẩn mực, giúp cho đơn vị có thể Xây dựng được kế hoạch sản xuất trong thời gian kế tiếp (điều độ sản xuất)....
+Sau đây chúng ta sẽ đi vào tìm hiểu chương trình.
+1. Menu “Trạng thái”
+a, “Topmost”
+Topmost có nghĩa là đưa phần làm việc của chương trình (giao diện, form) hiện lên trước nhất của mọi chương trình khác, tác vụ này giúp bạn luôn làm việc với giao diện của chương trình chính, không sợ bị các ứng dụng khác che phủ, hãy thử xem, các bạn sẽ thấy rất nhiều điều thú vị từ chức năng này.
+b, “Không Topmost”
+Tác vụ này ngược lại với tác vụ chúng ta đề cập ở mục a), lúc này ứng dụng của bạn sẽ bình thường như các ứng dụng khác, khi bạn làm việc với một ứng dụng khác thì ứng dụng của bạn ngay lập tức bị che phủ.
+c, “Trong suốt”
+Với sự hiện diện của menu này các bạn hoàn toàn biến ứng dụng của mình thành một màn nước trong suốt, nếu kết hợp với tác vụ Topmost thì bạn có thể nhìn thấu nội dung của một ứng dụng khác ngay sau ứng dụng của bạn. Hy vọng đây là những điểm mới khiến cho chương trình thân thiện với người dùng.
+Nhận xét chung: Các menus trạng thái này chỉ là hình thức trang điểm cho ứng dụng, nó hoàn toàn không có ý nghĩa sử dụng vào mục đích chính của chương trình. Chúng tôi đưa vào là vì hiện nay các phần mềm hiện đại luôn có các tác vụ này, nó là mối thân thiện giữa người dùng với ứng dụng...
+2. Menu “Tuỳ chọn”
+a, “Tiện”
+Đây là menu đưa chúng ta đến một giao diện mới, đó là một tác vụ giúp người dùng có thể thao tác Tra cứu chế độ cắt, tính các thông số công nghệ (lực cắt, công suất cắt...) và thời gian gia công cho một chi tiết bằng nguyên công Tiện, chúng ta hãy nhìn giao diện của nó như sau:
+Hình 2.9: Giao diện phần tra cứu Tiện rãnh và Tiện đứt
+
+Xem hình chúng ta thấy có 4 Tabs lựa chọn, các khái niệm được dùng trong chương trình hoàn toàn giống với các khái niệm đã được định nghĩa trong sách vở, do vậy để sử dụng chương trình một cách hiệu quả và nhanh chóng thì các bạn cần phải trang bị tốt kiến thức về nó.
+Ứng với mỗi loại hình gia công Tiện, các bạn hãy nhập các thông số về Chi tiết gia công (kích thước, độ chính xác gia công, vật liệu...), các thông số về Dao cắt và Thiết bị....
+Đối với Máy tiện chúng tôi lấy chuẩn về dãy tốc độ cắt như sau:
+Hình 2.11: Một số thông số Chi tiết gia công
+Sau khi nhập đầy đủ các thông tin đầu vào, các bạn hãy click vào nút “Tính toán” ở phía phải_dưới cùng (hoặc nhấn phím Enter) để nhận kết quả, không muốn làm việc chúng ta nhấn nút “Thoát” (hoặc phím Esc) để thoát khỏi chương trình.
+b, “Phay”
+Tác vụ này giúp chúng ta giúp chúng ta thao tác với nguyên công Phay, các bạn sẽ nhận được kết quả sau khi nhập đầy đủ các yếu tố đầu vào cho chương trình, sau đó nhấp nút “Tính toán” (hoặc phím Enter), nếu không muốn thao tác có thể nhấn phím Esc để thoát (hoặc nhấn vào nút “Thoát” trên thân chương trình).
+c, “Khoan”
+Cũng tương tự như các tác vụ trên, tác vụ này giúp chúng ta giúp chúng ta thao tác với nguyên công Khoan, các bạn sẽ nhận được kết quả sau khi nhập đầy đủ các yếu tố đầu vào cho chương trình, sau đó nhấp nút “Tính toán” (hoặc phím Enter), nếu không muốn thao tác có thể nhấn phím Esc để thoát (hoặc nhấn vào nút “Thoát” trên thân chương trình).
+d, “Tra cứu tham khảo”
+Đây là chương trình tra cứu chung, có thể dùng để tra cứu các thông tin khác, chương trình này được áp dụng cho máy CNC....
+Hiện tại bước đầu các bạn vẫn phải làm việc với giao diện Tiếng Anh, trong phiên bản tới chúng tôi sẽ phiên bản sang Tiếng Việt. Chân thành cảm ơn.
+PHẦN 3:
+CÁC LỖI THƯỜNG GẶP TRONG CHƯƠNG TRÌNH
+
+Trong quá trình sử dụng chương trình các bạn sẽ thấy có thể phát sinh một số lỗi như sau:
+1. Lỗi không hiển thị đúng Font tiếng Việt:
++ Nguyên nhân:
+Bạn bị mất file Font MS Sans Serif.fon tại thư mục Font của chương trình, hoặc Font hệ thống chưa được thay đổi là font trên.
++ Cách khắc phục:
+Chú ý:
+Trước tiên hãy cài chương trình Vietkey (đã kèm theo phần mềm), sau khi cài xong, nếu bạn có nhu cầu thì dùng bộ gõ này, nếu không thích thì có thể gỡ ngay. Nhưng hãy lưu ý là phải cài chương trình này. Sau đó thực hiện một trong hai cách sau:
+Cách 1: Copy lại font trên vào thư mục Font của chương trình, sau đó chạy lại chương trình.
+Cách 2: Click chuột phải lên màn hình (Desktop), chọn Properties\Appearance\Advanced. Có một Dialog box hiện ra, trong Combo Item bạn lựa chọn 5 mục sau, tương ứng mỗi mục hãy chọn mục Font phía dưới là MS Sans Serif:
+Message Box; Menu; Active Title Bar; Selected Items; và Inactive Title Bar.
+2. Lỗi chương trình không mở được hoặc báo lỗi hệ thống:
++ Nguyên nhân:
+Không tương thích chương trình với bản Win đang dùng, điều này phát sinh là do chương trình dùng các hàm gọi trong Win32 (32 bit).
++ Cách khắc phục (khuyến cáo):
+Hãy cài bản Win32, nếu bạn dùng Win16 thì chắc chắn chương trình không thể chạy đươc đúng chức năng, tuy nhiên bản Win64 có thể cũng xảy ra các vấn đề tương tự.
+Chương trình làm việc tốt nếu độ phân giải màn hình là: 1366 x 768 pixels.
+3. Lỗi không mở được chương trình tham khảo:
++ Nguyên nhân:
+Bạn bị mất File Other.exe tại thư mục Other của chương trình, có thể do virus.
++ Cách khắc phục:
+Bạn hãy copy lại file Other.exe của bản khác vào thư mục Other của chương trình.
+Khi gặp các lỗi khác ngoài các lỗi trên bạn hãy liên hệ với tác giả để tìm được cách khắc phục hợp lý. Chúng tôi luôn lắng nghe và sẵn sàng phục vụ vì lợi ích người dùng.

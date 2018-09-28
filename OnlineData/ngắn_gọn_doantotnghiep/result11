@@ -1,0 +1,207 @@
+THIẾT KẾ QUY TRÌNH CÔNG NGHỆ GIA CÔNG CHI TIẾT CÀNG 3 LỖ ĐỐI XỨNG, THIẾT KẾ QUY TRÌNH CÔNG NGHỆ GIA CÔNG CÀNG 3 LỖ ĐỐI XỨNG, đồ án môn học CÀNG 3 LỖ ĐỐI XỨNG, bài tập lớn CÀNG 3 LỖ ĐỐI XỨNG
+
+Thiết kế qui trình công nghệ gia công chi tiết C12, THIẾT KẾ QUY TRÌNH CÔNG NGHỆ GIA CÔNG gia công chi tiết C12, đồ án môn học gia công chi tiết C12, bài tập lớn gia công chi tiết C12
+PHẦN I : PHÂN TÍCH CHI TIẾT
+I. NHIỆM VỤ THIẾT KẾ :
+Thiết kế qui trình công nghệ gia công chi tiết C12 đảm bảo các yêu cầu kĩ thuật cho trên bản vẽ.
+II. Phân tích chức năng lÀM VIỆC :
++ Chi tiết cần yêu cầu thiết kế thuộc họ chi tiết dạng càng, chi tiết này có thể được sử dụng trong các hộp tốc độ, trong các hệ truyền động cơ khí…
++ ở chi tiết này được thiết kế với các lỗ được sử dụng để có thể lắp các trục, tại mặt bên của mỗi lỗ có khoan lỗ bắt vít được sử dụng để hạn chế bậc dịch chuyển dọc trục của chi tiết lắp vào lỗ của nó.
++ Chi tiết càng C12 này còn có thể được sử dụng để xác định vị trí tương quan giữa các chi tiết lắp vào lỗ , ví dụ như khi cần đỡ (hoặc xác định vị trí) của 3 trục dài trong máy thì có thể dùng chi tiết dạng càng này để nâng cao độ cứng vững mà vẫn không ảnh hưởng đến khả năng làm việc của máy.
++ Trên chi tiết C12 có những mặt không cần gia công lại nhưng có những mặt cần gia công đạt độ chính xác cao. Các kích thước cần đảm bảo là khoảng cách giữa các lỗ.
++ Để chế tạo chi tiết càng C12 này người ta có thể dùng các loại vật liệu khác nhau như : thép 40X, thép 45, gang… ở đây có thể chọn dùng vật liệu chế tạo chi tiết là thép 45 có thành phần hóa học như sau :
+
+C Si Mn S P 3,0 ¸ 3,7 1,2 ¸ 2,5 0,25 ¸ 1,00 <0,12 0,05 ¸ 1,00
+
+
+III. PHÂN TÍCH TÍNH NGHỆ TRONG KẾT CẤU CỦA CHI TIẾT :
+Bề mặt làm việc chủ yếu của chi tiết là hai bề mặt trong của ba lỗ. Cụ thể ta cần đảm bảo các điều kiện kỹ thuật sau đây:
++ Các đường tâm của ba lỗ I, II và III phải song song với nhau và cùng vuông góc với mặt đầu của càng. Hai đường tâm của hai lỗ I và II phải đảm bảo khoảng cách 90±0,1, hai đường tâm của hai lỗ II và III phải đảm bảo khoảng cách 150±0,1 độ không song song giữa hai tâm lỗ là 0,1/100mm, độ không vuông góc của tâm lỗ so với mặt đầu là 0,1/100mm, độ không song song giữa hai mặt đầu là 0,1/100mm.
+Qua các điều kiện kỹ thuật trên ta có thể đưa ra một số nét công nghệ điển hình gia công chi tiết tay biên như sau:
++ Chi tiết dạng càng có đủ độ cứng vững để khi gia công không bị biến dạng dưới tác dụng của lực cắt, lực kẹp, do đó có thể dùng chế độ cắt cao, đạt năng suất cao.
++ Bề mặt chuẩn có đủ diện tích và đủ độ cứng vững đảm bảo chi tiết không bị biến dạng. Đồng thời cho phép thực hiện nhiều nguyên công khi dùng bề mặt đó làm chuẩn và đảm bảo quá trình gá đặt nhanh.
++ Kết cấu của càng nên chọn đối xứng qua mặt phẳng nào đó. Đối với chi tiết C12 các lỗ vuông góc cần phải thuận lợi cho việc gia công lỗ.
++ Kết cấu của càng phải thuận lợi cho việc gia công nhiều chi tiết cùng một lúc.
++ Kết cấu của càng phải thuận lợi cho việc chọn chuẩn thô và chuẩn tinh thống nhất.
+Với chi tiết càng này, nguyên công đầu tiên là gia công hai mặt đầu để đảm bảo độ song song của 2 mặt đầu và để làm chuẩn cho các nguyên công sau ( gia công hai lỗ chính ) nên chọn chuẩn thô là các mặt thân không gia công.
+IV. Xác định dạng sản xuất :
++ Có 3 dạng sản xuất trong chế tạo máy :
+Sản xuất đơn chiếc Sản xuất hàng loạt (loạt lớn, loạt vừa và loạt nhỏ)
+Mỗi dạng sản xuất có đặc điểm riêng, phụ thuộc vào nhiều yếu tố khác nhau, tuy nhiên ở đây ta không đi sâu nghiên cứu những đặc điểm của từng dạng sản xuất mà ta chỉ nghiên cứu phương pháp xác định chúng theo tính toán.
+Muốn xác định dạng sản xuất thì trước hết ta phải biết sản lượng hàng năm của chi tiết gia công. Sản lượng hàng năm của chi tiết được xác định theo công thức sau : N = N1.m.(1 + )
+Trong đó:
+N : Số chi tiết được sản xuất trong một năm;
+N1 : Số sản phẩm (số máy) được sản xuất trong một năm; N1 = 10000 ch/năm
+m : Số chi tiết trong một sản phẩm; m = 1
+b : Số chi tiết được chế tạo thêm để dự trữ (5% đến 7%) , lấy b = 6%
+a : Phế phẩm trong phân xưởng đúc a = 3% ¸ 6%, lấy a = 4%
+Như vậy ta có :
+N = 10000. 1. (1 ) =11000 (chi tiết/năm).
++ Sau khi có sản lượng hàng năm của chi tiết N = 8800 (chi tiết/năm) ta xác định trọng lượng của chi tiết. Trọng lượng của chi tiết được xác định theo công thức sau :
+Q1 = V.g (kg)
+ở đây :
+Q1 : trọng lượng của chi tiết (kg)
+g : trọng lượng riêng của vật liệu; chi tiết làm bằng thép nên có gthép = 7,825 kg/dm3
+V : thể tích của chi tiết
+V = Vphụ + Vtrụ + Vthân
+Trong đó :
+Vphụ : thể tích của 3 phần đầu khoan lỗ vít M4 x 0,2
+Vphụ » 3.VM4 = 3. p. (42 - 22).3 = 339,3 mm3
+Vtrụ : thể tích phần trụ của 3 khối trụ (cắt đi lỗ và phần giữa giáp thân)
+Vtrụ = V1 + V2 + V3
+V1 = V3 = [p.(122 - 62).30] = 10178,76 mm3
+V2 = [p.(172 - 102).30] = 17812,83 mm3
+Vtrụ = 10178,76 + 10178,76 + 17812,83 = 38170,35 (mm3)
+Vthân : thể tích phần thân (có trừ lỗ)
+Vthân = Vthân1 + Vthân2 + 2.Vthân3
+Vthân1 = 150.12.12 – 2..p.122.12 = 18885,66 mm3
+Vthân2 = .50.150.12 – .p.172.12 – 2. .p.122.12 = 40463,54 mm3
+Vthân3 = 90. .12 = 15660 mm3
+Þ Vthân = 18885,66 + 40463,54 + 2.15660 = 90699,2 mm3
+Þ V = 339,3 + 38170,35 + 90699,2 = 129178,85 mm3 » 0,13 dm3
+Suy ra : Q1 = V.g = 0,13.7,825 = 1,017 (kg)
++ Sau khi có N, Q1 dựa vào bảng 2 (Thiết kế đồ án công nghệ chế tạo máy) ta có dạng sản xuất là : Hàng loạt lớn
+V. CHỌN PHƯƠNG PHÁP CHẾ TẠO PHÔI :
++ Chọn phôi tức là chọn phương pháp chế tạo phôi, xác định lượng dư, kích thước và dung sai của phôi, có nhiều dạng phôi thường dùng như : phôi thép thanh, phôi dập, phôi, phôi rèn tự do, phôi đúc.
+Tuy nhiên, điều cơ bản khi chọn phương pháp chế tạo phôi là sao cho hình dáng của phôi gần với hình dáng của chi tiết.
++ Vật liệu chi tiết gia công là thép 45 .
++ Kết hợp với dạng sản xuất là hàng loạt lớn, hình dạng chi tiết đơn giản nên tra bảng 3 - 1 [1] chọn phương pháp chế tạo phôi là phương pháp đúc trong khuôn kim loại, chi tiết đúc đạt độ chính xác cấp I.
++ Mặt phân khuôn được thể hiện như hình vẽ sau
+VI. THIẾT KẾ BẢN VẼ CHI TIẾT LỒNG PHÔI :
++ Từ cách chế tạo phôi ở trên ta có thể tra được lượng dư theo bảng 3-94 [1] (Lượng dư gia công cho vật đúc cấp chính xác I ). Trị số lượng dư cho trong bảng có gia trị là 2,5 mm.
++ Tra bảng 3-97 [1] ta có sai lệch cho phép theo kích thước của vật đúc cấp chính xác I là 0,3 mm.
++ Các bề mặt đầu được gia công đạt yêu cầu kỹ thuật là RZ = 20; các lỗ được gia công đạt yêu cầu kỹ thuật Ra = 0,63.
++ Các giá trị dung sai về kích thước và dung sai về độ vuông góc, độ song song được ghi đầy đủ trong bản vẽ chi tiết lồng phôi.
+
+
++ Kết cấu của đồ gá thuận tiện cho việc quét dọn phoi và dung dịch trơn nguội trong quá trình gia công.
++ Khi lắp các chi tiết trên đồ gá phải có dụng cụ chuyên dùng.
+.............................................
+PHẦN II : THIẾT KẾ QUY TRÌNH CÔNG NGHỆ GIA CÔNG
+I. Xác định đường lối công nghệ :
++ Sau khi phân tích kết cấu của chi tiết, dạng sản xuất là hàng loạt lớn và trong điều kiện sản xuất nước ta hiện nay, ta chọn phương án phân tán nguyên công, sử dụng nhiều đồ gá chuyên dùng để gia công chi tiết trên các máy vạn năng thông dụng.
+II. CHỌN PHƯƠNG PHÁP GIA CÔNG :
++ Gia công mặt đầu A và B đạt kích thước 30 ± 0,05 :
+Dung sai : T = 0,1 ; tra bảng 3 – 91 [1] có cấp chính xác 10. Độ bóng : RZ20 tương ứng cấp nhẵn bóng là Ñ5 (theo bảng 5 – thiết kế đồ án môn học công nghệ chế tạo máy)
+Tra bảng 3 – 69 [1] có phương pháp gia công cuối cùng có thể là :
+Phay tinh Bào tinh
+Do bề mặt gia công không liên tục và nhỏ nên chọn phương pháp gia công cuối cùng là phay tinh qua các bước :
+Phay thô Phay tinh
+Þ Đạt cấp chính xác 10 – RZ20
++ Gia công các vấu 15 ± 0,1 và 20 ± 0,1 :
+Dung sai : T = 0,2 ; tra bảng 3 – 91 [1] có cấp chính xác 12. Độ bóng : không yêu cầu.
+Chọn phương pháp gia công là phay thô :
+Þ Đạt cấp chính xác 12 – RZ50
++ Gia công lỗ f20 ± 0,01 :
+Vật liệu gia công : thép 45 Độ nhám bề mặt : Ra = 0,63 ; Dung sai : T = 0,02 ; tra bảng 3 – 91 [1] có cấp chính xác 7. Độ bóng : RZ3,2 tương ứng cấp nhẵn bóng là Ñ8 (theo bảng 5 – thiết kế đồ án môn học công nghệ chế tạo máy)
+Tra bảng 3 – 87 [1] chọn phương pháp gia công cuối cùng là doa tinh qua các bước trung gian là khoan lỗ, khoét lỗ, doa lỗ. Các kích thước của các mũi khoan, khoét, doa được tra theo bảng 3 – 131 [1]:
+Khoan lỗ f18 Khoét lỗ f19,8 Doa lỗ f20
+Þ Đạt cấp chính xác 7 – RZ3,2.
++ Gia công lỗ f12 ± 0,01 :
+Vật liệu gia công : GX15 – 32 ; Độ nhám bề mặt : Ra = 0,63 ; Dung sai : T = 0,02 ; tra bảng 3 – 91 [1] có cấp chính xác 7. Độ bóng : RZ3,2 tương ứng cấp nhẵn bóng là Ñ8 (theo bảng 5 – thiết kế đồ án môn học công nghệ chế tạo máy)
+Tra bảng 3 – 87 [1] chọn phương pháp gia công cuối cùng là doa tinh qua các bước trung gian là khoan lỗ, khoét lỗ, doa lỗ. Các kích thước của các mũi khoan, khoét, doa được tra theo bảng 3 – 131 [1]:
+Khoan lỗ f11 Khoét lỗ f11,8 Doa lỗ f12
+Þ Đạt cấp chính xác 7 – RZ3,2.
++ Gia công lỗ f4 :
+Vật liệu gia công : thép 45 Chọn phương pháp gia công là khoan sâu bằng mũi khoan ruột gà đạt cấp chính xác 12 Tarô lỗ f4 với bước ren là 0,2mm bằng mũi tarô.
+III. LẬP THỨ TỰ CÁC NGUYÊN CÔNG, CÁC BƯỚC (VẼ SƠ đồ gá đặt, ký hiệu định vị, kẹp chặt, chọn máy, chọn dao, vẽ chiều chuyển động của dao, của chi tiết) :
++ Từ những sự phân tích trên đây ta có thể lập được quy trình công nghệ gia công chi tiết chủ yếu gồm các nguyên công sau :
+Nguyên công 1 : Phay mặt đầu thứ nhất (mặt đầu A), gia công trên máy phay đứng bằng dao phay mặt đầu, sau khi phay song dùng làm chuẩn định vị cho các nguyên công sau. Nguyên công 2 : Phay mặt đầu thứ nhất (mặt đầu B), gia công trên máy phay đứng bằng dao phay mặt đầu, sau khi phay song dùng làm chuẩn định vị cho các nguyên công sau. Nguyên công 3 : Khoan khoét và doa lỗ f20 thứ nhất,
+Trên máy khoan đứng.
+Nguyên công 4 : Khoan + Khoét + Doa hai lỗ f12 gia công trên máy khoan đứng. Nguyên công 5 : phay hai đầu vấu lỗ f8 gia công trên máy phay 6H82 bằng dao phay đĩa. Nguyên công 6 : Khoan và ta rô ren f4 thứ nhất, gia công trên máy khoan đứng. Nguyên công 7 : Khoan và Tarô lỗ f4 thứ hai, gia công trên máy khoan đứng. Nguyên công 8 : Phay mặt đầu lỗ f4 còn lại , gia công trên máy phay 6H82. Nguyên công 9 : 6H82.khoan lỗ f4 còn lai. Gia công trên máy khoan đứng Nguyên công 10 : Kiểm tra nghiệm thu sản phẩm, kiểm tra độ song song của các lỗ không được quá 0,1/100 mm, độ không vuông góc của cả các lỗ với mặt đầu không vượt quá 0,1/100 mm, độ không song song của hai mặt đầu không vượt quá 0,1/100 mm.
++ Trình tự gia công được thể hiện trong bảng sau :
+Nguyên công Tên nguyên công Máy gia công Cấp chính xác gia công Độ bóng sau gia công 1 Phay mặt đầu A 6H12 10 RZ20 2 Phay mặt đầu B 6H12 10 RZ20 3 Khoan, Khoét, Doa lỗ f20 2A135 7 RZ2,5 4 Khoan, Khoét, Doa hai lỗ f12 2A135 7 RZ2,5 5 Phay hai mặt đầu f8 6H82 7 RZ40 6 Khoan và tarô lỗ f4 thứ nhất 2A135 12 RZ2,5 7 Khoan, Tarô lỗ f4 thứ hai 2A125 12 RZ40 8 Phay mặt đầu f8 còn lại 6H82 7 RZ40
+1) NGUYÊN CÔNG 1 : PHAY MẶT đầu thứ nhất (mặt đầu A)
+.....................................
++ Định vị : chi tiết gia công được định vị trên 3 chốt tỳ khía nhám (hạn chế 3 bậc tự do), khối V ngắn (hạn chế 2 bậc tự do) và chốt chống xoay (hạn chế 1 bậc tự do).
++ Kẹp chặt : chi tiết được kẹp bằng các mỏ kẹp thông qua các đòn kẹp liên động. Vị trí của dao phay được xác định bằng cữ so dao. Các then dẫn hướng có tác dụng định vị đồ gá trên máy.
+Chọn máy :
++ Chọn máy để thực hiện nguyên công 1 là máy phay đứng vạn năng 6H12 với các thông số máy như sau :
+Công suất động cơ : N = 10 (kW) Kích thước bàn máy : 400x1600 (mm) Hiệu suất máy : h = 0,75 Giới hạn vòng quay : 30 ¸ 1500 (vòng/phút) Số cấp tốc độ : 18
+Chọn dao :
++ Dùng dao phay mặt đầu hợp kim cứng, tra bảng 4 – 3 [1] chọn vật liệu dao là BK6; tra bảng 7 (Thiết kế đồ án môn học công nghệ chế tạo máy) ta có tuổi bền danh nghĩa của dao là : T = 400 phút.
++ Tra bảng 4 – 95 [1] ta chọn thông số của dao phay mặt đầu răng chắp mảnh hợp kim cứng như sau :
+D = 100 (mm) ; B = 50 (mm) ; d = 32 (mm) ; z = 8 (răng)
+Lượng dư gia công :
++ Tra bảng 3 – 94 [1] với :
+Kích thước lớn nhất của chi tiết : 180 Vị trí bề mặt khi rót kim loại : mặt bên Kích thước danh nghĩa : 80
+Þ zb = 2,5 (mm);
+Ta chia làm hai bước công nghệ :
+Phay thô với lượng dư là 2,0 (mm) Phay tinh với lượng dư là 0,5 (mm)
+Chế độ cắt :
+Phay thô :
++ Chiều sâu cắt : t = 2,5 (mm) được lấy bằng lượng dư gia công thô.
++ Lượng chạy dao : tra bảng 5 – 33 [2] có lượng chạy dao răng SZ khi phay thô bằng dao phay mặt đầu có gắn mảnh hợp kim cứng là : SZ = 0,14 ¸ 0,24 (mm/răng) Þ chọn SZ = 0,2 (mm/răng)
+Þ lượng chạy dao vòng : S = SZ .z = 0,2.8 = 1,6 (mm/vòng).
++ Tốc độ cắt V : tốc độ cắt phụ thuộc vào nhiều yếu tố như chiều sâu cắt, lượng chạy dao, vật liệu gia công, vật liệu dụng cụ cắt…
+Vận tốc cắt V được tính theo công thức :
+Vt=Vb.k1.k2.k3.k4.k5
+Trong đó :
+Theo bảng 5 – 127[2] với D = 100 ; z = 8 ; SZ = 0,2 ; t = 2 ta có Vb = 180 (m/phút).
+k1 : hệ số điều chỉnh phụ thuộc độ cứng của gang ; k1 = 1,12.
+k2 : hệ số điều chỉnh phụ thuộc chu kỳ bền của dao ;
+= » 0,5 Þ k2 = 1,25.
+k3 : hệ số điều chỉnh phụ thuộc mác hợp kim cứng, với BK6 có k3 = 1,0.
+k4 : hệ số điều chỉnh phụ thuộc trạng thái bề mặt gia công, với bề mặt gia công thô lần đầu có lớp vỏ cứng ta có ; k4 = 0,8.
+k5 : hệ số điều chỉnh phụ thuộc chiều rộng phay ;
+= = 0,8 Þ k5 = 1,0.
+Þ Vt=Vb.k1.k2.k3.k4.k5 = 180.1,12.1,25.1,0.0,8.1,0 = 201,6 (m/phút).
++ Số vòng quay của trục chính theo tính toán là :
+ntt = 642,04 (vòng/phút).
+Þ Chọn số vòng quay theo tiểu chuẩn của máy là : nm = 600 (vòng/phút).
+Như vậy, tốc độ cắt thực tế sẽ là :
+Vtt = 188,4 (m/phút).
+Þ Lượng chạy dao phút : Sph = S.n = 1,6.600 = 960 (mm/phút).
+Þ Chọn theo tiêu chuẩn của máy có Sm = 900 (mm/phút).
+Phay tinh :
++ Chiều sâu cắt : t = 0,5 (mm) được lấy bằng lượng dư gia công tinh.
++ Lượng chạy dao : tra bảng 5 – 37 [2] có lượng chạy dao vòng S khi phay tinh mặt phẳng bằng dao phay mặt đầu có gắn mảnh hợp kim cứng, độ nhám Ra =5 suy ra : S = 0,5 ¸ 1,0 (mm/vòng) Þ chọn S = 0,8 (mm/vòng).
+Þ lượng chạy dao răng : SZ = = = 0,1 (mm/răng).
++ Tốc độ cắt V : tốc độ cắt phụ thuộc vào nhiều yếu tố như chiều sâu cắt, lượng chạy dao, vật liệu gia công, vật liệu dụng cụ cắt…
+Vận tốc cắt V được tính theo công thức :
+Vt=Vb.k1.k2.k3.k4.k5
+Trong đó :
+Theo bảng 5 – 127[2] với D = 100 ; z = 8 ; SZ = 0,1 ; t = 0,5 ta có Vb = 228 (m/phút).
+k1 : hệ số điều chỉnh phụ thuộc độ cứng của gang ; k1 = 1,12.
+k2 : hệ số điều chỉnh phụ thuộc chu kỳ bền của dao ;
+= » 0,5 Þ k2 = 1,25.
+k3 : hệ số điều chỉnh phụ thuộc mác hợp kim cứng, với BK6 có k3 = 1,0.
+k4 : hệ số điều chỉnh phụ thuộc trạng thái bề mặt gia công, với bề mặt gia công không có lớp vỏ cứng ta có ; k4 = 1,0.
+k5 : hệ số điều chỉnh phụ thuộc chiều rộng phay ;
+= = 0,8 Þ k5 = 1,0.
+Þ Vt=Vb.k1.k2.k3.k4.k5 = 228.1,12.1,25.1,0.1,0.1,0 = 319,2 (m/phút).
++ Số vòng quay của trục chính theo tính toán là :
+ntt = 1016,5 (vòng/phút).
+Þ Chọn số vòng quay theo tiêu chuẩn của máy là : nm = 950 (vòng/phút).
+Như vậy, tốc độ cắt thực tế sẽ là :
+Vtt = 298,3 (m/phút).
+Þ Lượng chạy dao phút : Sph = S.n = 0,8.950 = 760 (mm/phút).
+Þ Chọn theo tiêu chuẩn của máy có Sm = 750 (mm/phút).
+Nguyên công 1 được thu gọn lại trong bảng:
+Bước gia công t (mm) n (v/p) S (mm/ph) CCX RZ (mm) Phay thô Phay tinh 2,0 0,5 600 950 900 750 12 10 50 20
+2) NGUYÊN CÔNG 2 : PHAY MẶT đầu thứ hai (mặt đầu b)
+Sơ đồ gá đặt : ...........
+V. NHỮNG YÊU CẦU KỸ THUẬT CỦA đồ gá :
+Yêu cầu đối với thân đồ gá:
++ Tất cả thân đồ gá và đế đồ gá phải được ủ để khử ứng suất dư
+Kiểm tra đồ gá :
++ Phải kiểm tra tất cả các kích thước chuẩn
++ Kiểm tra chế độ lắp ghép của các chi tiết
++ Kiểm tra độ cứng vững của đồ gá
+Sơn đồ gá :
++ Sau khi đồ gá được kiểm tra tất cả các bề mặt không gia công cần phải được sơn dầu. Màu sơn có thể tuỳ ý, lớp sơn phải khô.
++ Các chi tiết như tay quay, chi tiết khoá, bulông, đai ốc được nhuộm lấy màu bằng phương pháp hóa học.
+Những yêu cầu an toàn về đồ gá :
++ Những chi tiết ngoài không được có cạnh sắc.
++ Không được làm xê dịch vị trí của đồ gá khi thay đổi điều chỉnh trên máy.
++ Đồ gá cần được cân bằng tĩnh và cân bằng động.
++ Kết cấu của đồ gá thuận tiện cho việc quét dọn phoi và dung dịch trơn nguội trong quá trình gia công.
++ Khi lắp các chi tiết trên đồ gá phải có dụng cụ chuyên dùng.
+..............................................
+VI. NGUYÊN LÝ LÀM VIỆC CỦA đồ gá :
++ Sau khi thiết kế và gia công xong đồ gá để gia công chi tiết càng C12 thì đồ gá làm việc như sau :
+Lắp phiến tỳ lên trên thân đồ gá, dùng tuốcnơvít xiết các vít M6 lại. Điều chỉnh độ đồng phẳng và độ vuông góc của phiến tỳ so với phương thẳng đứng. Lắp chốt trụ ngắn lên thân đồ gá, chốt trụ ngắn đi qua lỗ f12 trên phiến tỳ. Một đầu lắp với thân đồ gá, một đầu để hạn chế hai bậc tự do của chi tiết trong quá trình gia công. Lắp chốt trám lên thân đồ gá, một đầu định vị lỗ f12 thứ hai, hạn chế một bậc tự do của chi tiết. Đưa chi tiết vào và vặn đai ốc kẹp chặt chi tiết. Chú ý điều chỉnh vị trí chính xác của chi tiết so với bạc dẫn thay nhanh và mũi khoan.
+VII. BẢNG KÊ CÁC CHI TIẾT CỦA đồ gá :
+Thứ tự Tên chi tiết Số lượng 1 Thân đồ gá 1 2 Mỏ kẹp 2 3 Bulông - đai ốc 2 4 Bạc dẫn hướng 1 5 Tấm dẫn hướng 1 6 Khối kê 2 7 Phiến tỳ 2 8 Phần dẫn hướng 2 9 Tay đòn 1 10 Phiến tỳ có lỗ 1 11 Lò xo 2 12 Chốt tỳ 1
+Thiết kế qui trình công nghệ gia công chi tiết C12, THIẾT KẾ QUY TRÌNH CÔNG NGHỆ GIA CÔNG gia công chi tiết C12, đồ án môn học gia công chi tiết C12, bài tập lớn gia công chi tiết C12
+

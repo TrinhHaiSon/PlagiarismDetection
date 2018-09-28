@@ -1,0 +1,54 @@
+Đề 10:
+Thiết kế 1 máy tiện vạn năng với các yêu cầu sau đây:
+1. Hộp tốc độ kết hợp giữa động cơ có nhiều cấp vận tốc và cơ cấu bánh răng di trượt có cá thông số sau:
+-Số vòng quay nhỏ nhất của trục chính : n=8 vòng/phút
+-Số vòng quay lớn nhất của trục chính : n=2000 vòng/phút
+-Công bội của chuỗi số vòng quay :=1,41
+-Động cơ có công suất N=5 Kw ;số vòng quay n=1400 vòng/ phút
+2. Hộp chạy dao dùng cơ cấu Norton và cơ cấu bánh răng di trượt để tiện các loại ren sau:
+-Ren quốc tế : t=0,5 ; 0,75 ;1 ; 1,25 ; 1,5 ; 1,75 ; 2 ; 2,25 ; 2,5 ; 2,75 ; 3
+-Ren anh: n=48 ; 46 ; 44 ; 40 ; 36 ; 30 ; 28 ; 24 ; 22 ; 20 ; 18 ; 16 ; 15 ; 14 ; 12 ; 11 ; 10 9; 9 ;8 ; 7; 7; 6 ; 5; 5 ; 4; 4; 4 ; 3; 3; 3 ; 2; 2
+-Ren mô đun : m=0,25 ; 0,5 ; 0,75 ; 1 ; 1,25 ; 1,5 ; 1,75 ; 2 ; 2,25 ; 2,5 ; 2,75 ; 3
+-Ren Pith: p=92 ;88; 80; 76 ;72; 64; 56; 48; 44; 40; 36; 32; 28; 24; 22; 20; 18; 16; 14; 12; 11; 10; 9; 8;
+Yêu cầu các tỉ số truyền của nhóm gấp bội i
+MỤC LỤC
+Trang
+Lời nói đầu 2
+Đề bài 3
+Chương 1: THIẾT KẾ HỘP TỐC ĐỘ 4
+I . Xác định số vòng quay trục chính 4
+II. Chọn phương án không gian 4
+III. Lưới kết cấu và đồ thị số vòng quay 5
+IV. Xác định số răng của các bánh răng 6
+V. Sơ đồ động 7
+VI. Kiểm tra sai số vòng quay 8
+VII. Tính toán động lực học của các chi tiết trong hộp tốc độ 9
+1.Thiết kế bộ truyền đai 10
+2. Thiết kế bộ truyền bánh răng 11
+3. Thiết kế trục và then 25
+3.1. Thiết Kế Trục 25
+3.2. Tính then 27
+3.3. Thiết kế gối đỡ trục 29
+3.4. Thiết kế kích thước vỏ hộp và các bộ phận khác 30
+Chương 1: THIẾT KẾ HỘP CHẠY DAO 33
+I .Thiết kế nhóm cơ sở 33
+II.Thiết kế nhóm gấp bội:(Dùng cơ cấu bánh răng di trượt) 34
+III. Thiết kế nhóm truyền động bù 35
+IV .Kiểm tra sai số bước ren 39
+V.Tính toán động học cho hộp chạy dao 39
+1. Phân phối tỷ số truyền giữa các trục 40
+2. Tính sơ bộ khoảng cách trục 40
+3. Tính modul 41
+4. Tính đường kính các bánh răng 41
+5. Tính trục và chọn then 42
+6. Chọn ổ lăn 44
+
+
+LỜI NÓI ĐẦU
+Đồ án môn học thiết kế máy cắt kim loại một môn học để ứng dụng các kiến thức sau khi đã học xong môn Thiết kế máy cắt kim loại, hơn nữa nó là một môn học vận dụng rất nhiều kiến thức liên quan đến nhiều môn học như Thiết kế chi tiết máy, sức bean vật liệu, công nghệ chế tạo máy…Để làm tốt một đề tài người học phải vận dụng rất nhiều kiến thức liên quan đến ngành cơ khí,vận dụng và sáng tạo ,cải tiến,các cơ cấu cho phù hợp,vừa đơn giản, có kết cấu gọn nhẹ, có khả năng gia công…
+Là một kỹ sư chế tạo máy càng đòi hỏi nhiều về kiếm thức về máy cắt kim loại, hiểu rõ về đặc tính của máy khả năng gia công của máy. Như vậy với môn học Thiết kế máy cắt kim loại thực sự cần thiết với sinh viên ngành cơ khí chế tạo máy
+Mặc dù trong một thời gian ngắn nhưng được sự hướng dẫn tận tình của thầy giáo Trần Quốc Hùng em đã hoàn thành được một đề tài “Thiết kế mấy tiện vạn năng”
+Trong quá trình thiết kế và tính toán mặc dù đã rất cố gắng nhưng còn rất nhiều thiếu sót do kiến thức chưa sâu, kinh nghiệm còn thiếu nên không thể có một đề tài hoàn thiện ,mong rằng cùng với thời gian và sự nỗ lực học hỏi của bản thân,cùng với sự giúp đỡ của Thầy giáo ,cùng các bạn đồng nghiệp em sẽ tiến bộ hơn
+Em xin chân thành cảm ơn sự hướng dẫn tận tình của thầy giáo Trần Quốc Hùng ,cùng các bạn trong lớp đã giúp đỡ em hoàn thành đồ án này. Em xin chân thành cảm ơn.
+
+

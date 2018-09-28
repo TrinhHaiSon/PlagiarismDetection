@@ -1,0 +1,135 @@
+THIẾT KẾ MÁY PHÂN LOẠI ĐINH, thuyết minh THIẾT KẾ MÁY PHÂN LOẠI ĐINH, động học máy PHÂN LOẠI ĐINH, kết cấu máy PHÂN LOẠI ĐINH, nguyên lý máy PHÂN LOẠI ĐINH, cấu tạo máy PHÂN LOẠI ĐINH, quy trình sản xuất PHÂN LOẠI ĐINH, đồ án tốt nghiệp máy phân loại đinh.
+Chế tạo máy là một ngành then chốt, nó đóng vai trò quyết dịnh trong sự nghiệp công nghiệp hoá hiện đại hoá đất nước. Nhiệm vụ của chế tạo máy là chế tạo ra các sản phẩm cơ khí cho mọi lĩnh vực của ngành kinh tế quốc dân, việc phát triển ngành công nghệ chế tạo máy đang là mối quan tâm đặc biệt của Đảng và nhà nước ta.
+Phát triển ngành chế tạo máy phải được tiến hành đồng thời với việc phát triển
+nguồn nhân lực và đầu tư các trang bị hiện đại. Việc phát triển nguồn nhân lực là nhiệm vụ trọng tâm của các trường đại học, cao đẳng.
+Hiện nay trong các ngành kinh tế nói chung và ngành cơ khí nói riêng đòi hỏi kĩ sư cơ khí và cán bộ kĩ thuật cơ khí được đào tạo ra phải có kiến thức cơ bản tương đối rộng, đồng thời phải biết vận dụng những kiến thức đó để giải quyết những vấn đề cụ thể thường gặp trong sản xuất.
+Môn học công nghệ chế tạo máy có vị trí quan trọng trong chương trình đào tạo kĩ sư và cán bộ kĩ thuật về thiết kế, chế tạo các loại máy và các thiết bị cơ khí phục vụ các ngành kinh tế như công nghiệp, nông nghiệp, giao thông vận tải, điện lực ...v...v..
+Để giúp cho sinh viên nắm vững được các kiến thức cơ bản của môn học và giúp cho từng sinh viên làm quen với nhiệm vụ thiết kế cụ thể trong chương trình đào tạo , thiết kế đồ án tốt nghiệp và đồ án môn học công nghệ chế tạo máy là không thể thiếu được đối với sinh viên chuyên ngành công nghệ chế tạo máy, đó cũng là nhiệm vụ thường ngày của một kỹ sư công nghệ trước khi ra trường.
+Sau một thời gian tìm hiểu, và với sự chỉ bảo nhiệt tình của thầy giáo hướng dẫn .... đến nay em đã cơ bản nắm bắt được nội dung chính của đề tài tốt nghiệp đó là nghiên cứu thiết kế chế tạo máy phân loại đinh và thiết kế quy trình công nghệ gia công một vài chi tiết điển hình. Trong quá trình thiết kế và tính toán mặc dù đã rất nỗ lực cố gằng tuy nhiên không thể tránh khỏi những sai do trình độ còn hạn chế, thiếu thực tế và kinh nghiệm thiết kế, em rất mong được sự chỉ bảo của các thầy cô giáo trong bộ môn công nghệ chế tạo máy để lần thiết kế sau này và trong thực tế sau này được hoàn thiện hơn .
+MỤC LỤC
+Trang
+-Chương 1: Tổng quan....................................................................................... 8
+1.1 Giới thiệu.......................................................................................... 8
+1.2 Khó khăn và giải pháp........................................................................ 9
+-Chương 2: Giới thiệu một số máy sàng trong phân loại sản phẩm rời.................. 11
+2.1 Máy sàng lắc.................................................................................... 11
+2.2 Máy sàng rung.................................................................................. 12
+2.3 Máy sàng ống .................................................................................. 13
+2.4 Máy sàng rung có hướng................................................................... 14
+2.5 Máy sàng rung vô hướng.................................................................... 15
+2.6 Máy sàng lệch tâm............................................................................ 17
+-Chương 3:Nguyên lý hoạt động và lý thuyết tính toán máy sàng rung................... 18
+3.1 Cấu tạo, nguyên lý hoạt động của sàng rung........................................ 18
+3.2 Lý thuyết tính toán máy sàng rung....................................................... 20
+-Chương 4: Nội dung nghiên cứu tính toán.......................................................... 25
+4.1 Các dữ liệu thiết kế máy.................................................................... 25
+4.1.1 Các số liệu ban đầu................................................................. 25
+4.1.2 Các yêu cầu kỹ thuật của máy.................................................. 25
+4.1.3 Chọn mô hình thiết kế máy....................................................... 26
+4.2 Tính toán thiết kế sàng lắc rung phối hợp dùng phân loại đinh 26
+4.2.1 Tính toán chọn kích thước lưới sàng........................................ 26
+4.2.2 Xác định số vòng quay trục lệch tâm......................................... 27
+4.2.3 Tính toán độ cứng lò xo........................................................... 27
+4.2.4 Xác định năng suất của máy.................................................... 29
+4.2.5 Xác định công suất của máy.................................................... 30
+4.2.6 Tính toán bộ truyền đai............................................................ 32
+4.2.7 Tính toán trục và then.............................................................. 37
+-Chương 5: Các bản vẽ tách chi tiết máy...................................................... 45
+-Chương 6: Qui trình công nghệ gia công một số chi tiết điển hình...............
+6.1 Qui trình công nghệ gia công trục lệch tâm....................................
+6.2 Qui trình công nghệ gia công thanh truyền.....................................
+6.3 Qui trình công nghệ gia công gối đỡ trục........................................
+-Tài liệu tham khảo..........................................................................
+CHƯƠNG 1
+TỔNG QUAN
+1.1Giới thiệu .
+Hiện nay, ngành cơ khí là một ngành rất quan trọng, đóng vai trò then chốt trong tất cả các lĩnh vực của cuộc sống. Chế tạo máy thuộc một phần của ngành cơ khí, nó cũng rất quan trọng trong đời sống. Nhiệm vụ của ngành chế tạo máy là chế tạo, cải tiến các loại máy móc trong các ngành cần thiết cho cuộc sống như nông nghiệp hay công nghiệp …nhằm để nâng cao năng suất trong quá trình lao động, giúp con người giảm bớt sức lao động và tăng hiệu quả sản xuất. Đề tài nghiên cứu máy phân loại đinh :
+- Đinh là một sản phẩm rất phổ biến trong đời sống, được sử dụng rộng rãi trong các ngành xây dựng, cơ khí, mộc gia dụng…. chúng dùng để kết nối và cố định các bộ phận của vật dụng (chủ yếu là được làm bằng gỗ) hoặc dùng làm móc treo...
+- Vì vậy, đinh được sản xuất rất nhiều trong cũng như ngoài nước. Hiện nay, có rất nhiều cơ sở sản xuất đinh với sản lượng lớn. Trong dây chuyền sản xuất đinh, công đoạn đánh bóng đinh thường xuất hiện trường hợp đinh bị lẫn lộn giữa loại đinh này với đinh khác, do đinh bị lẫn trong mùn cưa ( nguyên liệu để đánh bóng đinh ) và mùn cưa được sử dụng lại để đánh bóng loại đinh khác. Hoặc đinh bị lẫn giữa loại này với loại khác vì kích thước của những loại đinh gần nhau ( Vd: đinh 3, đinh 4, đinh 5) thường không sai lệch nhiều nên dễ bị sắp xếp lẫn lộn với nhau….
+- Mục đích chúng em chọn đề tài này vì đây là đề tài được thầy hướng dẫn giao cho nhằm phục vụ cho việc nghiên cứu chế tạo một máy mới, là cơ sở để chúng em có thể tổng hợp tất cả các kiến thức mà nhóm chúng em đã được học trong thời gian ở trường Cao Đẳng Kỹ Thuật Cao Thắng và cho chúng em có thể phát triển những kỷ năng cần thiết về ngành công nghệ chế tạo máy giúp ích trong công việc sau này.
+- Máy phân loại thường được sử dụng trong các ngành công nghiệp, nông nghiệp, xây dựng... Có rất nhiều loại máy sàng như máy sàng lắc, máy sàng bán rung, máy sàng rung, máy sàng trục quay …Nghiên cứu của nhóm em thì nhóm em đã chọn cơ cấu máy sàng kết hợp giữa máy sàng lắc và máy sàng rung để phân loại đinh.
+1.2 Khó khăn và giải pháp :
+Khó khăn:
+Đây là một đề tài mới, vì vậy việc lựa chọn các phương án cơ cấu máy phù hợp với mục đích đề ra gặp nhiều khó khăn, cần phải chế tạo thử và thực nghiệm nhiều lần. Sản phẩm phân loại là đinh, có hình dạng và kích thước khá phức tạp nên gặp khó khăn trong việc thiết kế biên dạng lỗ sàng phù hợp. Nhu cầu của máy ngoài thì trường là không cao, vì số lượng đinh cần để phân loại là không nhiều...
+Giải pháp:
+Dựa vào các tài liệu tham khảo về các loại máy sàng dùng trong công nghệ sản xuất thực phẩm, trong nông nghiệp… đã được chế tạo từ trước, chúng em lựa chọn cơ cấu máy là kết hợp giữa sàng lắc và sàng rung có thể dùng để phân loại được rất nhiều sản phẩm khác nhau, nên chúng em dựa vào đó để chế tạo thử. Trong hầu hết các máy phân loại thì biên dạng của lỗ sàng là rất quan trọng, ảnh hưởng đến năng suất của máy, vì vậy việc lựa chọn đúng biên dạng lỗ sàng là rất quan trọng. Với vật liệu sàng là đinh, ban đầu chúng em thiết kế hình dạng lỗ sàng là hình , nhưng khi thực nghiệm thì thấy không phù hợp nên đổi thành hình Đây là đề tài phục vụ cho việc nghiên cứu và chế tạo máy để làm đồ án tốt nghiệp của chúng em, chủ yếu tập trung vào cơ cấu và nguyên lý hoạt động của máy đưa vào phân loại các sản phẩm mới, nhằm phục vụ cho đời sống v.v.
+** Được sự chấp thuận của Ban chủ nhiệm khoa Cơ Khí, dưới sự hướng dẫn của thầy....... ,đã giúp chúng em thực hiện đề tài này.
+Tuy được biết nhiều môn học, nhiều hình ảnh liên quan tới máy sàng rung nhưng để thiết kế và chế tạo máy sàng lắc – rung để phân loại đinh chúng em không tránh khỏi những sai sót và hạn chế trong quá trình nghiên cứu. Mong các thầy cô góp ý để chúng em có thể hoàn thành tốt công việc được giao. Chúng em xin chân thành cám ơn Ban chủ nhiệm khoa, Thầy ....... và quí thầy cô trong khoa và các bạn sinh viên trong và ngoài trường, các đơn vị sản xuất đã giúp đỡ chúng em hoàn thành đề tài này.
+CHƯƠNG 2
+GIỚI THIỆU MỘT SỐ MÁY SÀNG TRONG PHÂN LOẠI SẢN PHẨM RỜI
+2.1 Máy sàng lắc :
+Máy sàng lắc là loại máy sàng được sử dung nhiều trong đời sống hằng ngày. Máy sàng lắc được là nhờ có cơ cấu tay quay – biên, hoặc cơ cấu trục lệch tâm – biên. Khi làm việc , thì khung sàng chuyển động qua lại làm cho vận tốc và gia tốc của sàng luôn thay đổi nên khung sàng sinh ra lực quán tính tác dụng theo chiều chuyển động của khung sàng.
+2.3 Máy sàng ống :
+2.3.1 Nguyên lí hoạt động :
+Trong máy sàng ống,quá trình phân loại xảy ra khi quay ống sàng.
+Khi mặt sàng quay,hạt vật liệu được mặt sàng nâng lên cao do ma sát.Đến độ cao xác định,hạt vật liệu trượt xuống dưới,đồng thời trượt dọc theo trục của ống sàng về phía cửa xả.Trong quá trình trượt,trên mặt sàng,hạt vật liệu sẽ gặp lổ sàng và sẽ lọt qua nếu nhỏ hơn kích thước lỗ - chiều cao nâng của hạ phụ thuộc vào tốc độ quay của ống và không vượy quá giá trị giới hạn.Nếu lớn quá thì khi rơi,các hạt vật liệu sẽ đập vào nhau,làm hạt vật liệu vỡ vụn tạo phế phẩm.
+2.3.2 Ưu nhược điểm :
+* Ưu điểm :
+Mặt sàng có dạng hình trụ, hình nón hay hình lăng trụ,ống sàng hình trụ được dùng phổ biến để sàng và rửa các loại đá xây dựng khi khối lượng không lớn.
+Mặt sàng ống có cấu tạo đơn giản ,làm vịêc không tiếng ồn ,thời hạn sử dụng của mặt sàng ống cao hơn so với mặt sàng lưới.
+* Nhược điểm :
+Vì hạt vật liệu chỉ có trượt trên mặt sàng nên cường độ phân loại không cao.Diện tích làm việc của mặt sàng thấp(khoảng 20% diện tích mặt sàng).Do vậy,hiệu quả sàng thấp(40-60%),năng suất thấp trong khi kích thước,trọng lượng lớn và tổn hao năng lượng nhiều.
+2.3.3 Phạm vi sử dụng:
+Máy sàng ống ít được sử dụng,trừ trường hợp cần thiết phải kết hợp để rửa vật liệu(có độ bẩn trung bình).
+2.3.4 Cấu tạo của ống sàng rửa:
+Máy sàng gồm có hai ống sàng hình trụ lồng vào nhau:ống nhỏ đặt bên trong gồm hai đoạn mặt sàng có chiều dày 6mm và ống lớn đặt ở ngoài,bằng thép tấm dày 3mm có lỗ 6mm.Đoạn rửa đặt ở phía đầu ống cơ bản.Ở ống rửa bề mặt ống không khoan lỗ,bên trong ống rửa có hàn các vấu dọc để xúc chuyển vật liệu rửa và có vách ngăn để tạo ra buồng chứa nước.Vật liệu được đưa vào phía mặt đầu của ống rửa qua máng nạp.Nước được đưa vào đoạn ống rửa và đoạn ống sàng đầu tiên bằng đường ống nước.Phía đầu xả ống sàng được gắn chặt với một nang quay và một ngỗng trục trung tâm.Ngỗng trục trung tâm được đăt trên ổ bi tự lựa và được gắn chặt với bánh răng dẫn động làm quay ngỗng trục trung tâm.Ở vị trí làm việc,khung máy được đặt nghiêng góc 6º so với phuơng ngang về phía đầu xả.
+2.4. Máy Sàng Rung Có Hướng (máy sàng rung quán tính có mặt sàng ngang)
+2.4.1 Cấu tạo:
+-Có bộ gây rung có hướng đặt cố định trên hộp sàng .
+-Bộ gây rung gồm 2 trục cam(trên các trục có lắp ghép các bánh lệch tâm để gây rung) đặt song song .
+2.4.2 Nguyên lý hoạt động:
+-Có bộ gây rung có hướng đặt cố định trên hộp sàn g.
+-Bộ gây rung gồm 2 trục cam(trên các trục có lắp ghép các bánh lệch tâm để gây rung)đặt song song quay cung tốc độ và ngược chiều nhau,lực gây rung sẽ có hướng theo đường thẳng vuông góc với đường nối tâm của 2 trục và thay đổi theo định luật sin. Góc giữa phương của lực gây rung và mặt sàng thường từ 35º - 40º.Hộp sàng cung với các mặt sàng được tựa trên lò xo thẳng đứng,hoặc tựa trên các nhíp đặt vuông góc với hướng tác dụng của lực gây rung. Thông thường các máy sàng làm việc hiệu quả hơn khi hộp sàng tựa trên các lò xo.
+-Các máy sàng loại này thường có mặt sàng là 1250x3000 mm,tần số dao động 500-700 dđ/phút,biên độ dao động tùu 8-12 mm,công suất động cơ khoảng 5,5 KW(máy sàn rung có hướng có năng suất riêng cao(năng suất tính trên 1 mét vuông mặt sàng).
+2.4.3 Phạm vi sử dụng :
+-Dùng cho việc khai thác đá
+-Sử dụng tại các công trình xây dựng.vv...
+2.4.4 Ưu điểm:
+-Chất lượng sàng tốt hơn máy sàng rung có mặt sàng nghiêng.
+2.5.Máy Sàng Rung Vô Hướng (máy sàn rung quán tính có mặt sàn nghiêng)
+2.5.1 Cấu tạo:
+Bao gồm: -Hộp sàng, cùng với các
+-Mặt sàng tựa trên các lò xo
+-Cơ cấu dẫn động gồm động cơ, bộ truyền đai, trục dẫn động (trên trục có lắp 2 bánh lệch tâm)
+2.5.2 Nguyên lý hoạt động:
+-Hai ổ trục dẫn động được đặt trong hai thành bên của hộp sàng.Dạng dao động phụ thuộc vào vị trí đặt các khối lệch tâm và phương pháp treo hộp sàng.Quỹ đạo dao động có thể tròn hoặc elip.
+-Biên độ dao động có thể điều chỉnh bằng cách thay đổi các vạt gây rung(các bánh lệch tâm)
+2.5.3 Phạm vi sử dụng:
+-Các máy sàng loại này được dùng để sàng phân loại sản phẩm cuối cung trong những điều kiện nặng.
+-Dùng để sàng sơ bộ vật liệu có kích thước lớn trước khi đưa vào máy nghiền thô (nghiền giai đoạn 1)
+-Trong trường hợp sau, mặt sàng lưới được thay thế bằng mặt sàng thanh ghi và máy chỉ có 1 mặt sàng.Kích thước mặt sàng thường là 1780x1450 mm,tốc độ quay của trục gây rung khoảng 800 vòng/phút,biên độ dao động từ 3,7 đến 4,5mm
+2.5.4 Ưu, nhược điểm:
+* Ưu điểm:
+-Khác với máy sàng lệch tâm,trong máy sàn rung quán tính khi tải trọng tăng thì biên độ sẽ tự động giảm xuống,do đó có tác dụng bảo vệ cho máy khi máy quá tải.
+* Nhược điểm:
+-Năng suất riêng không cao như máy sàng rung có hướng
+2.6 Máy sàng lệch tâm (sàng lắc vòng) :
+2.6.1 Cấu tạo :
+-Máy sàng lệch tâm gồm hộp sàng, bên trong có các mặt sàng
+-Hộp sàng và các mặt sàng được đặt nghiêng một góc 15º – 250º . Hộp sàng được treo trên cổ lệch tâm của trục lệch tâm và dựa trên các lò xo .
+-Trên hai đầu trục lệch tâm có lắp các vật cân bằng (đối trọng) .
+2.6.2 Nguyên lý hoạt động
+Trục lệch tâm nhận chuyển động quay từ động cơ qua bộ truyền động đai. Khi trục lệch tâm quay, hộp sàng và mặt sàng cùng với vật liệu trên mặt sàng sẽ dao động theo quỹ đạo tròn với biên độ không đổi (biên độ dao động bằng hai lần độ lệch tâm của trục , không phụ thuộc vào tải trọng trên mặt sàng). Vật liệu trong hộp sàng được sàng qua các mặt sàng với các kích thước, đường kính cho trước trên mặt sàng.
+2.6.3 Thông số kỹ thuật.
+Máy sàng lệch tâm thường được chế tạo có hai mặt sàng kích thước 1500 x 3750 mm và biên độ dao động từ 3 đến 4.5 mm, tần số dao động khoảng 800 – 1400 dđ/ph.
+2.7 Một số máy sàng được sử dụng :
+Ngoài máy sàng lắc và máy sàng rung trong công nghiệp người ta còn sử dụng một số loại máy sàng như : máy sàng trục quay, máy sàng quán tính ( bán rung) , máy sàng lắc tròn …
+CHƯƠNG 3
+NGUYÊN LÝ HOẠT ĐỘNG VÀ CƠ SỞ LÝ THUYẾT TÍNH TOÁN MÁY SÀNG RUNG
+
+3.1 Cấu tạo, nguyên lí hoạt động của sàng rung.
+* Cấu tạo:
+1. Lò xo.
+2. Động cơ. 6. Máng thoát liệu.
+3. Trục quay. 7. Bulông.
+4. Cơ cấu lệch tâm. 8. Lưới sàng.
+5. Thanh truyền. 9. Khung trên.
+* Nguyên lí hoạt động:
+Khi trục quay thì đối trọng gây rung quay theo sinh ra lực ly tâm quán tính hướng thẳng góc với chiều quay. Lực ly tâm này sinh ra hai thành phần song song và vuông góc với bề mặt sàng. Thành phần vuông góc với bề mặt sàng sẽ tác dụng theo đường trục của các lò xo đỡ và gây ra dao động rung của sàng. Còn thành phần song song với bề mặt sàng sẽ tác dụng vuông góc với trục của các lò xo đỡ và gây ra dao động ngang của khung sàng. Do độ cứng của lò xo theo hai hướng khác nhau nên kết quả khung sàng sẽ lắc - rung theo quỹ đạo hình elip.
+3.2 Lý thuyết tính toán máy sàng rung.
+(Theo Tài liệu 2 )
+3.2.1 Xác định số vòng quay của trục lệch tâm.
+Nếu biên độ dao động của khung sàng bằng e, cục vật liệu trên sàng chuyển động hình elip thì lực li tâm tác dụng lên cục vật liệu bằng:
+................................................................................................
+
+THIẾT KẾ MÁY PHÂN LOẠI ĐINH, thuyết minh THIẾT KẾ MÁY PHÂN LOẠI ĐINH, động học máy PHÂN LOẠI ĐINH, kết cấu máy PHÂN LOẠI ĐINH, nguyên lý máy PHÂN LOẠI ĐINH, cấu tạo máy PHÂN LOẠI ĐINH, quy trình sản xuất PHÂN LOẠI ĐINH, đồ án tốt nghiệp máy phân loại đinh.

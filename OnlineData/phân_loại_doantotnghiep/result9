@@ -1,0 +1,77 @@
+ĐỒ ÁN TỐT NGHIỆP CƠ ĐIỆN tử đếm và phân loại sản phẩm theo kích thước dùng biến tần giám sát SCADA dùng wincc
+
+I.ĐẶT VẤN ĐỀ :
+Ngày nay với sự phát triển của công nghiệp điện - điện tử, kỹ thuật số các hệ thống điều khiển dần dần được tự động hóa. Với những kỹ thuật tiên tiến như vi xử lí, PLC, vi mạch số… được ứng dụng vào lĩnh vực điều khiển, thì các hệ thống điều khiển cơ khí thô sơ, với tốc độ xử lí chậm chạp ít chính xác được thay thế bằng các hệ thống điều khiển tự động với các lệnh chương trình đã được thiết lập trước.
+Trong quá trình hoạt động ở các nhà xưởng, xí nghiệp hiện nay, việc tiết kiệm điện năng là nhu cầu rất cần thiết,bên cạnh đó nghành công nghiệp ngày cảng phát triển các cộng ty xí nghiệp đã đưa tự động hóa vào sản xuất để tiện ích cho việc quản lý dây chuyền và sản phẩm cho toàn bộ hệ thống một cách hợp lý là yêu cầu thiết yếu(giám sát SCADA).sẽ tiết kiệm được nhiều thời gian cũng như khâu quản lý một cách dễ dàng.
+Để đáp ứng được yêu cầu đó em đã tiến hành nghiên cứu tài liệu điều khiển lập trình với PLC và đã giải quyết được vấn đề đặt ra.
+. Em đã tiến thành thực hiện đề tài: “đếm và phân loại sản phẩm theo kích thước dùng biến tần giám sát SCADA dùng wincc” .
+II.GIỚI HẠN ĐỀ TÀI :
+Với thời gian ngắn, cũng như kiến thức còn hạn hẹp.chúng em đã cố gắng hết sức để hoàn thành đề tài này, nhưng chỉ giải quyết được những vấn đề sau :
+Mô hình hoàn chỉnh. Đảm bảo đếm và phân loại giám sát tốt. Luân phiên động cơ. Có chế độ tự động và chế độ vận hành bằng tay chỉnh biến tần
+III.MỤC ĐÍCH NGHIÊN CỨU :
+Mục đích trước hết khi thực hiện đề tài này là để hoàn tất chương trình học. Đề tài này cũng có thể làm tài liệu tham khảo cho những sinh viên khóa sau. Giúp họ hiểu rõ hơn về thiết bị điều khiển khả trình PLC. Quá trình thực hiện đề tài là một cơ hội để chúng em tự kiểm tra lại những kiến thức đã được học ở trường, đồng thời phát huy tính sáng tạo, khả năng giải quyết một vấn đề theo yêu cầu đặt ra.
+TÊN ĐỀ TÀI: PHÂN LOẠI SẢN PHẨM THEO KÍCH THƯỚC
+NỘI DUNG YÊU CẦU CỦA ĐỀ TÀI :
+- Cơ khí:
++ Thiết kế , thi công hoản thiện băng tải.
++ Lắp đặt xylanh- pittông, cảm biến trên dây chuyển băng tải.
++ Truyền động băng tải bẳng động cơ AC(điều khiển tốc độ bằng biến tẩn).
+- Điện tử:
++ Sử dụng PLC S7-200.
+- Lập trình:
++ Ngôn ngữ lập trình simatic S7-200.
++ Hệ thống giám sát SCADA.
+- Mục tiêu đề tài:
++ Phân loại sản phẩm theo kích thước.
++ Giám sát dây chuyền trên SCADA.
++ Điều khiển tốc độ động cơ bằng biến tần.
+..........................................
+MỤC LỤC LỜI CẢM ƠN 2 MỤC LỤC 8 CHƯƠNG I: ĐẶT VẤN ĐỀ 10 1.1. Lý do chọn đề tài: 10 1.2. Nhiệm vụ: 10 1.3. Khó khăn của đề tài: 10 1.4. Hướng giải quyết: 11 CHƯƠNG II: THIẾT KẾ VÀ THI CÔNG 12 2.1. CƠ KHÍ: 12 2.1.1. Thiết kế: 12 2.1.2. Chọn vật liệu: 14 2.1.3. ĐỘNG CƠ: 18 2.1.4. BỘ TRUYỀN XÍCH: 19 2.1.5. PITTÔNG: 19 2.2. Điện – Điện Tử 22 2.2.1. Cảm Biến( E3ZR ) 22 2.2.2. Van khí nén: 24 2.2.3. Biến Tần(A024) 25 2.2.3.1. Mục tiêu của biến tần: 27 2.2.3.3. NGUYÊN LÝ HOẠT ĐỘNG: 28 2.2.3.4. Thông số của biến tần A024 29 2.2.3.5. Cách khắc phục lỗi biến tần: 30 2.2.3.6. Các chế độ điều chỉnh của biến tần A024: 30 2.2.4. Tổng quan về PLC S7 200 và bài toán phân loại sản phẩm. 31 2.2.4.1.Chức năng hệ PLC. 31 2.2.4.2.Sơ đồ khối. 31 2.2.4.3.Cấu hình phần cứng: 34 2.2.5. Lập Trình: 46 2.2.5.1. Đặc trưng cơ bản của WinCC. 46 2.2.5.2. Cấu hình Wincc 48 2.3. Lưu Đồ Giải Thuật: 56 CHƯƠNG III: KẾT QUẢ VÀ HƯỚNG PHÁT TRIỂN 58 3.1. Kết quả: 58 3.2. Hướng phát triển: 58 TÀI LIỆU THAM KHẢO: 59 MỤC LỤC HÌNH ẢNH 60 CHƯƠNG I: ĐẶT VẤN ĐỀ 1.1. Lý do chọn đề tài: Ngày nay với sự phát triển của công nghiệp điện - điện tử, kỹ thuật số các hệ thống điều khiển dần dần được tự động hóa. Với những kỹ thuật tiên tiến như vi xử lí, PLC, vi mạch số… được ứng dụng vào lĩnh vực điều khiển, thì các hệ thống điều khiển cơ khí thô sơ, với tốc độ xử lí chậm chạp ít chính xác được thay thế bằng các hệ thống điều khiển tự động với các lệnh chương trình đã được thiết lập trước. Trong quá trình hoạt động ở các nhà xưởng, xí nghiệp hiện nay, việc tiết kiệm điện năng là nhu cầu rất cần thiết,bên cạnh đó nghành công nghiệp ngày cảng phát triển các cộng ty xí nghiệp đã đưa tự động hóa vào sản xuất để tiện ích cho việc quản lý dây chuyền và sản phẩm cho toàn bộ hệ thống một cách hợp lý là yêu cầu thiết yếu(giám sát SCADA).sẽ tiết kiệm được nhiều thời gian cũng như khâu quản lý một cách dễ dàng. Để đáp ứng được yêu cầu đó nhóm em đã tiến hành nghiên cứu tài liệu điều khiển lập trình với PLC và đã giải quyết được vấn đề đặt ra. Vì vậy nhóm chúng em đã tiến thành thực hiện đề tài: “ĐẾM VÀ PHÂN LOẠI SẢN PHẨM THEO KÍCH THƯỚC GIÁM SÁT SCADA” . 1.2. Nhiệm vụ: Thiết kế mô hình cơ khí. Tìm hiểu động cơ AC. Tìm hiểu PLC S7-200 Nghiên cứu chương trình STEP 7. Tìm hiểu về Win CC. Kết nối Win CC với PLC. Tìm hiểu về biến tần. 1.3. Khó khăn của đề tài: Khó tìm động cơ, biến tần, PLC. Chi phí thiết kế đề tài khá cao. Khó khăn trong việc lập trình và giao tiếp PLC. 1.4. Hướng giải quyết: Tập trung làm cơ khí sớm hơn dự định. Tìm mua động cơ, PLC, biến tần, cảm biến, xy lanh. Tìm hiểu các khó khăn qua Internet để tìm ra hướng giải quyết tốt nhất. Đọc các tài liệu về biến tần, PLC. Đọc tài liệu “tự động hóa với win cc” (tài liệu trên mạng). Cách giám sát SCADA. CHƯƠNG II: THIẾT KẾ VÀ THI CÔNG Đề tài: “ĐẾM VÀ PHÂN LOẠI SẢN PHẨM THEO KÍCH THƯỚC GIÁM SÁT SCADA” . 2.1. CƠ KHÍ: 2.1.1. Thiết kế: Phương án đề ra: Hình 2.1: Mô hình được thiết kế. Đặc điểm: - Mô hình khá đơn giản, gọn đẹp, cân đối. - Dùng băng tải và động cơ. - Cảm biến quang để phân loại sản phẩm. - Dùng biến tần để điều khiển động cơ. - Dùng Win CC để giám sát. Hạn chế: - Mô hình chỉ ứng dụng phân theo kích thước. - Phụ thuộc nguồn khí cấp vào 2 van. - Truyền động xích gây tiếng ồn. Phương án thực tế: Phương án 2: Mô hình của Thành Hưng(trên mạng) ..................................................... Hình 2.9: Bô li Hình 2.10: Trục nhỏ Trong mô hình chúng em sử dụng vít và bu lông gắn các chi tiết lại với nhau. Hình 2.11: Bu lông – đai ốc Chúng em dùng 2 thanh sắt có kích thước là 6X3 và dài 980mm để làm khung cho băng tải. Hình 2.12: Thanh sắt Để cho vận chuyển được sản phẩm chúng em đã chọn loại băng tải đúng với kích thước của boly và kích thước đã chọn trước. Nếu không băng tải sẽ không căng và không vận chuyển được sản phẩm. Hình 2.13: Dây đai Băng tải hoàn thiện: Hình 2.14: Băng tải Thiết kế chân đứng cho mô hình có hình dạng chử T: Hình 2.15: Chân đứng để băng tải Hình 2.16: Part giử chắc chân đứng và mặt bàn Hình 2.17: Bàn để mô hình Trong quá trình thi công chúng em cũng gặp nhiều khó khăn như khoan trục đòi hỏi phải chính xác để gắng trục không bị lệch.về băng tải khi lắp vào khung không căng nên chúng em đã tăng băng tai căng lên ở hai đầu của thanh ngang.Nói chung mô hình cũng khá đơn giản nên việc thiết kế cũng hơi dễ dàng. -Điều chú ý ở đây khi chọn động cơ,với việc dung biến tần để chỉnh tốc độ động cơ nên khi chọn ta không cần phải chọn động cơ có hộp số. 2.1.3. ĐỘNG CƠ: Về phần động cơ thì nhóm chúng em sử dụng động cơ AC vì nhóm có sử dụng thêm biến tần. Động cơ được chọn có kí hiệu là 4IK25. Có khung hình Kích thước: 80 x 80mm.Công suất 25W, đầu vào 110/220/380VAC, tỷ số truyền từ 3 ~ 200. Hình 2.18: Động cơ AC Động cơ có sử dụng hộp số nên khi qua hợp số thì tốc độ cua vòng quay là 52/64r/min Động cơ gồm có hai phần chính là stator và rotor. Stato gồm các cuộn dây của ba pha điện quấn trên các lõi sắt bố trí trên một vành tròn để tạo ra từ trường quay. Rôto hình trụ có tác dụng như một cuộn dây quấn trên lõi thép. Khi mắc động cơ vào mạng điện xoay chiều, từ trường quay do stato gây ra làm cho rôto quay trên trục. Chuyển động quay của rôto được trục máy truyền ra ngoài và được sử dụng để vận hành các máy công cụ hoặc các cơ cấu chuyển động khác. Từ trường quay được tạo ra bằng cách cho dòng điện ba pha chạy vào ba nam châm điện đặt lệch nhau trên một vòng tròn. Cách bố trí các cuộn dây tương tự như trong máy phát điện ba pha, nhưng trong động cơ điện người ta đưa dòng điện từ ngoài vào các cuộn dây 1, 2, 3. 2.1.4. BỘ TRUYỀN XÍCH: Trong mô hình đồ án nhóm chúng em đã chọn bộ truyền xích. Để tránh hiện tượng trượt như truyền động đai, lực tác dụng lên trục nhỏ, có thể cùng một lúc truyền chuyển động cho nhiều trục Hình 2.19: Xích – bánh vít 2.1.5. PITTÔNG: Xi lanh sử dụng trong cụm chi tiết kẹp yêu cầu: Tác động nhanh Hành trình không lớn, cố định Nên chọn xi lanh tác dụng 2 chiều không có giảm chấn Hình 2.20: Xylanh Hình 2.21: pittông được vẽ Cơ sở tính toán: Áp lực tác động vào xilanh kép theo hai phí Hình 2.22: cấu tạo piston 1. Piston 2. Đêm kín piston 3. Trục piston 4. Dẫn hướng 5.Đệm kín trục 6. Vòng chắn bụi 7. Nắp xylanh 8, 13. Cửa lưu chất
+
+9. Thân xylanh 10. Buồng trục 11. Buồng Piston 12. Đế xy lanh Hình 2.23: Xilanh tác dụng 2 chiều Hình 2.24: Mô hình hoàn chỉnh Hình 2.25: Mô hình thực nghiệm hoàn chỉnh Kinh nghiệm trong quá trình thi công: Phân chia công việc cho từng thành viên trong nhóm. Thiết kế mô hình 3D là vấn đề quan trọng. Chú ý khi cảm biến, xylanh, biến tần, plc. Gia công chi tiết cần chú ý đến dung sai. Cần chú ý đến độ chính xác trong gia công và lắp ráp. Khó khăn trong việc làm quen với các dụng cụ gia công như: máy khoan, máy tiện... 2.2. Điện – Điện Tử 2.2.1. Cảm Biến( E3ZR ) KT:40x12x21(mm) Chọn kiểu đầu ra tác động theo sáng/tối . Chức năng đèn báo hiệu sự ổn định; điều chỉnh được độ nhạy. Hình 2.26: cảm biến được vẽ Hình 2.27: cảm biến thực tế Ðầu ra: NPN/ PNP 30VDC,100mA, Nguồn cấp:10-30 VDC,30mA Khoảng cách phát hiện: Thu phát: 15m: E3Z-To1/6 (o=6: NPN, o=8: PNP) Phản xạ gương : 4m: E3Z-Ro1/6 (o=6: NPN, o=8: PNP) Phản xạ khuyếch tán :1m: E3Z-Do2/,(o=6:NPN, o=8: PNP) 100mm: E3Z-Do1/6 (o=6: NPN, o=8: PNP) Đặc điểm thông số kỹ thuật Hình 2.28: Thông số kỹ thuật
+
+Nếu không tính đến lực ma sát, lực chuyển động trên cần Pittong được tính theo công thức:
+F = p.A
+A – Diện tích làm việc của Pittông.
+Diện tích làm việc của Pit tông phía khoang pittông được tính theo công thức:
+A =
+D – Đường kính của Pit tông đồng thời cũng là đường kính trong của Xy Lanh. Đối với khoang cần, diện tích làm việc Pit tông được tính theo công thức:
+A = d: Đường kính piston
+2.2.2. Van khí nén:
+Van Đảo chiều 5/2(solenoidvale 5/2):
+
+Hình 2.29: Van 5/2 được vẽ
+Van đảo chiều 5/2 gồm có 5 cửa và 2 vị trí:
+Hình 2.30: Van 5/2 thực tế
+Nguyên tắc hoạt động của van 5/2 là:
+Tại vị trí 0 R2 nối b, A nối với P, khi dòng điện vào nam châm. Qua van phụ trợ, lúc này pittong phu bị đẩy xuống, Van chuyển sang vị trí 1 cửa A nối R1, B nối với P, khi dòng đện mất đi, van trở về lại vị trí 0
+
+Hình 2.31: Cấu tạo van 5/2
+2.2.3. Biến Tần(A024)
+Trên thị trường ngày nay, có 3 loại Biến tần cơ bản: động Vôn/Hz (Mạch Hở). Truyền động Véc-tơ không cảm biến (Mạch Hở). Truyền động Véc-tơ có phản hồi (Mạch Kín).
+Hai loại đầu tiên được gọi là Mạch Hở do chúng cung cấp điện cho động cơ, nhưng không có cách nào xác minh rằng các động cơ thực sự đang chạy ở tốc độ mong muốn. Điều này Chấp nhận được cho các ứng dụng không yêu cầu điều khiển vị trí chính xác hoặc điều chỉnh tốc độ lớn.
+Loại cuối cùng là thiết bị Mạch Kín có nghĩa là nó có khả năng chấp nhận tín hiệu từ thiết bị phản hồi giám sát tốc độ và/hoặc vị trí của động cơ.
+Ví dụ: nếu tín hiệu phản hồi cho thấy rằng tốc độ quá thấp hoặc quá cao, biến tần có thể điều chỉnh đầu ra của nó để khắc phục lỗi.
+
+KẾT LUẬN
+Sau gần 4 tuần thực hiện với nhiều cố gắng và nổ lực của chúng em cùng với sự tận tình hướng dẫn của cô ………….., tập đồ án này đã hoàn thành đúng thời gian qui định theo yêu cầu đặt ra là thiết kế một hệ thống đếm và phân loại sản phẩm theo kích thước sử dụng PLC.
+Để thực hiện được yêu cầu trên chúng em đã nghiên cứu, tìm hiểu những vấn đế về điều khiển lập trình, cách lắp mạch điện và các vấn đề khác có liên quan đến đề tài.
+Nội dung chính của đề tài này bao gồm những phần chính sau:
+Phần kiến thức:
+-Khảo sát thiết bị khả trình PLC S7-200.
+-Kỹ thuật điện-điện tử.
+- Giám sát trên wincc
+Phần thiết kế thi công:
+-Thiết kế và thi công sơ đồ kết nối PLC
+- Thiết kế và thi công mô hình
+-Viết chương trình cho PLC theo dạng LAD.
+Hạn chế:
+- Điều khiển tốc độ động cơ.
+Hướng phát triển:
+- Đếm và phân loại sản phẩm theo kích thước dùng biến tần để điều khiển tốc độ động cơ.
+Mong rằng đề tài này sẽ được các bạn sinh viên khoá sau tiếp tục thực hiện những yêu cầu trên và khắc phục được những hạn chế của đề tài này, để tạo ra một sản phẩm có chất lượng cao phục vụ cho sản xuất và đời sống xã hội.
+TÀI LIỆU THAM KHẢO
+
+1.Tự động hóa với Simatic S7-200 _ Phan Xuân Minh & Nguyễn Doãn Phước _ NXB NN
+2.Diễn đàn điện tử, trang web www.dientuvietnam.net
+

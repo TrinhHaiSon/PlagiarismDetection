@@ -1,0 +1,427 @@
+PHẦN I: GIỚI THIỆU............................................................................................. 1
+Lời Mở Đầu................................................................................................................. 2
+Lời Cảm Ơn................................................................................................................ 3
+Nhận Xét Của giáo Viên Hương Dẫn.................................................................... 4
+Nhận Xét Của Giáo Viên Phản Biện ..................................................................... 5
+PHẦN II: NÔI DUNG............................................................................................... 6
+Chương 1: Chương Dẫn Nhập................................................................................... 7
+Đặt vấn đề.............................................................................................. 7 Nôi dung đề tài...................................................................................... 7 Mục đích nghiên cứu............................................................................ 7
+Chương 2: Cơ Sở Lý Thuyết...................................................................................... 8
+GIỚI THIỆU VỀ VI ĐIỀU KHIỂN PIC 16F877A
+Giới thiệu vi điều khiển Pic................................................................ 8 Vi điều khiển Pic 16F877A................................................................. 8
+2.1 Kiến trúc Pic.................................................................................. 8
+2.2 Tính năng cơ bản........................................................................... 10
+3. Sơ đồ khối và tính năng các chân Pic 167F877A............................. 13
+3.1 Sơ đồ khối...................................................................................... 13
+3.2 Sơ đồ chân..................................................................................... 14
+3.3 Tính năng các chân....................................................................... 14
+4. Tổ chức bộ nhớ....................................................................................... 16
+4.1 Bộ nhớ chương trình..................................................................... 17
+.4.2 Bộ nhớ dữ liệu............................................................................... 17
+4.3 Bộ nhớ FEPROM........................................................................... 19
+5 Các cổng xuất nhập.................................................................................. 19
+5.1 Port A.............................................................................................. 20
+5.2 Port B.............................................................................................. 20
+5.3 Port C.............................................................................................. 21
+5.4 Port D.............................................................................................. 21
+5.5 Port E............................................................................................... 21
+6 Các bộ định thời................................................................................... 21
+6.1 Timer 0............................................................................................ 21
+6.2 Timer 1............................................................................................ 23
+6.3 Timer 2............................................................................................ 23
+7 ADC........................................................................................................ 24
+8 Ngắt........................................................................................................ 25
+B. GIỚI THIỆU CÁC LINH KIỆN SỬ DỤNG TRONG MẠCH
+ĐIỆN TRỞ
+Cấu tạo................................................................................................... 29 Ký hiệu............................................................................................ 29 Đơn vị.............................................................................................. 29 Cách đọc giá trị..................................................................................... 29 Cách đọc................................................................................................ 30
+TỤ ĐIỆN
+Thông số kỷ thuật Điện dung danh định...................................................................... 31 Điện áp danh định.......................................................................... 31 Điện trở cách điện.......................................................................... 31 Đơn vị............................................................................................... 31 Phân loại tụ điện và cách đọc tụ điện Tụ hóa............................................................................................... 32 Tụ không phân cực......................................................................... 33 Tụ có dùng mã................................................................................. 33 Tụ điện biến đổi.............................................................................. 34
+DIODE
+Giới thiệu về diode....................................................................... 35 Phân loại........................................................................................ 35 Diode chỉnh lưu...................................................................... 36 Diode zenner.......................................................................... 37 Diode biến dung..................................................................... 37 Diode phát quang................................................................... 37 Kiểm tra......................................................................................... 38 Diode....................................................................................... 38 Diode zenner.......................................................................... 38 Led 7 đoạn..................................................................................... 38 Ký hiệu và hình dạng............................................................ 38 Phân loại.................................................................................. 39
+TRANSISTOR
+Transistor NPN.............................................................................. 43 Transistor PNP............................................................................... 43
+GIỚI THIỆU CHUNG VỀ IC Giới thiệu IC ổn định điện áp LM7805....................................... 45
+Khái quát................................................................................... 45 Giới thiệu IC LM7805............................................................. 45
+Giới thiệu IC giải mã 74LS248..................................................... 46 Giới thiệu IC chốt dữ liệu 74HC573............................................ 48 Giới thiệu OP-AMP LS741............................................................ 50
+Chương 3: Thiết Kế Và Thi Công Mạch.................................................................. 52
+Cấu trúc phần cứng tổng quát......................................................... 52 Sơ đồ nguyên lý ............................................................................... 53 Cấu trúc chi tiết................................................................................ 55 Khối nguồn................................................................................. 55 Khối xử lý trung tâm................................................................. 56 Khối hiển thị............................................................................... 57 Khối cảm biến............................................................................ 58 Khối điều khiển và phân loại................................................... 60 Lưu đồ giải thuật ............................................................................. 61 Chương trình .................................................................................... 62
+CHƯƠNG 1: DẪN NHẬP
+1. ĐẶT VẤN ĐỀ:
+
+Ngày nay với sự phát triển của công nghiệp vi điện tử, kỹ thuật số các hệ thống điều khiển dần được tự động hóa.Với các kỹ thuật tiên tiến như vi xử lý, vi mạch số…được ứng dụng vào lĩnh vực điều khiển, tự động hóa trong công nghiệp với công nghệ ngày càng hiện đại và tinh vi.
+Được sự đồng ý của thầy cô Khoa Điện Tử Tin Học.Nhóm chúng em quyết định làm đề tài tốt nghiệp: “MẠCH ĐẾM VÀ PHÂN LOẠI SẢN PHẨM”.
+2. NỘI DUNG ĐỀ TÀI:
+Sử dụng PIC16F877A để lập trình mạch đếm và phân loại sản phẩm theo kích thước.
+Dùng các phương pháp hiển thị ra led 7 đoạn.
+Thiết kê và thi công mạch.
+3. MỤC ĐÍCH NGHIÊN CỨU:
+Mục đích trước hết khi thực hiện đề tài này là để hoàn tất chương trình môn học để đủ điều kiện ra trường. Cụ thể khi nghiên cứu đề tài là chúng em muốn hiểu rỏ hơn việc ứng dụng vi điều khiển trong quá trình sản xuất công nghiệp.
+Ngoài ra quá trình thực hiện đề tài là một cơ hội để chúng em tự kiểm tra lại những kiến thức đã học ở trường. Đồng thời phát huy tính sáng tạo, khả năng giải quyết một vấn đề theo nhu cầu đặt ra. Và đây cũng là dịp để chúng em khẳng định mình trước khi ra trường để tham gia vào các hoạt động sản xuất của xã hội.
+CHƯƠNG 2: CƠ SỞ LÝ THUYẾT
+A. GIỚI THIỆU VỀ VI ĐIỀU KHIỂN PIC 16F877A
+
+1. Giới thiệu về vi điều khiển PIC:
+PIC là viết tắt của “Programable Intelligent Computer”, có thể tạm dịch là “máy tính thông minh khả trình” do hãng Genenral Instrument đặt tên cho vi điều khiển đầu tiên của họ. PIC1650 được thiết kế để dùng làm các thiết bị ngoại vi cho vi điều khiển CP1600. Vi điều khiển này sau đó được hãng Microchip nghiên cứu phát triển thêm và từ đó hình thành nên dòng vi điều khiển PIC ngày nay.
+Cách phân lọai PIC theo chữ cái:
+Các họ PIC xxCxxx được đưa vào một nhóm, gọi là OPT (One Time Programmable) : chúng ta chỉ có thể nạp chương trình cho nó một lần duy nhất.
+Nhóm thứ hai có chữ F hoặc LF:chúng ta gọi nhóm này là nhóm Flash ,nhóm này cho phép ghi xóa nhiều lần bằng các mạch điện tử thông thường .
+Cách phân lọai PIC theo hai con số đầu tiên của sản phẩm :
+-Loại thứ nhất là dòng PIC cơ bản (Base_line), gồm các PIC 12Cxxx, có độ dài lệnh 12 bit
+-Loại thứ hai là dòng PIC 10F, 12F , 16F, gọi là dòng phổ thông (Mid Range), có độ dài lệnh là 14 bit.
+-Loại thứ ba là dóng PIC 18F (High End) , độ dài lệnh là 16 bit.
+PIC 16F877A là dòng PIC phổ biến nhất , đủ mạnh về tính năng, bộ nhớ đủ cho các ứng dụng thông thường .
+2. Vi điều khiển PIC16F877A :
+2.1 Kiến trúc Pic
+
+Cấu trúc phần cứng của một vi điều khiển được thiết kế theo hai dạng kiến trúc: kiến trúc Von-Neumann và kiến trúc Harvard.
+Hình 2.1: Kiến trúc Harvard và kiến trúc Von-Neuman
+Tổ chức phần cứng của PIC được thiết kế theo kiến trúc Harvard. Điểm khác biệt giữa kiến trúc Harvard và kiến trúc Von-Neumann là cấu trúc bộ nhớ dữ liệu và bộ nhớ chương trình.
+Đối với kiến trúc Von-Neuman, bộ nhớ dữ liệu và bộ nhớ chương trình nằm chung trong một bộ nhớ, do đó ta có thể tổ chức, cân đối một cách linh hoạt bộ nhớ chương trình và bộ nhớ dữ liệu. Tuy nhiên điều này chỉ có ý nghĩa khi tốc độ xử lí của CPU phải rất cao,vì với cấu trúc đó, trong cùng một thời điểm CPU chỉ có thể tương tác với bộ nhớ dữ liệu hoặc bộ nhớ chương trình. Như vậy có thể nói kiến trúc Von-Neumann không thích hợp với cấu trúc của một vi điều khiển.
+Đối với kiến trúc Harvard, bộ nhớ dữ liệu và bộ nhớ chương trình tách ra thành hai bộ nhớ riêng biệt. Do đó trong cùng một thời điểm CPU có thể tương tác với cả hai bộ nhớ, như vậy tốc độ xử lí của vi điều khiển được cải thiện đáng kể. Một điểm cần chú ý nữa là tập lệnh trong kiến trúc Harvard có thể được tối ưu tùy theo yêu cầu kiến trúc của vi điều khiển mà không phụ thuộc vào cấu trúc dữ liệu. Ví dụ, đối với vi điều khiển dòng 16Fxxx, độ dài lệnh luôn là 14 bit (trong khi dữ liệu được tổ chức thành từng byte), còn đối với kiến trúc Von-Neumann, độ dài lệnh luôn là bội số của 1 byte (do dữ liệu được tổ chức thành từng byte). Đặc điểm này được minh họa cụ thể trong hình 3.1Tổ chức phần cứng của một vi điều khiển có thể thiết kế theo một trong hai kiến trúc: Harvard và Von Neumann.Tổ chức phần cứng của PIC16F877A được thết kế theo kiến trúc Harvard.
+2.2 Tính năng cơ bản :
+Đây là vi điều khiển thuộc họ PIC16Fxxx với tập lệnh gồm 35 lệnh có độ dài 14 bit. Mỗi lệnh đều được thực thi trong một chu kì xung clock. Tốc độ hoạt động tối đa cho phép là 20 MHz với một chu kì lệnh là 200ns. Bộ nhớ chương trình 8Kx14 bit, bộ nhớ dữ liệu 368 byte RAM và bộ nhớ dữ liệu EEPROM với dung lượng 256byte. Số PORT I/O là 5 với 33 pin I/O.
+Các đặc tính ngoại vi bao gồm các khối chức năng sau:
+Timer0: bộ đếm 8 bit với bộ chia tần số 8 bit.
+Timer1: bộ đếm 16 bit với bộ chia tần số, có thể thực hiện chức năng đếm dựa vào xung clock ngoại vi ngay khi vi điều khiển hoạt động ở chế độ sleep.
+Timer2: bộ đếm 8 bit với bộ chia tần số, bộ postcaler.
+Hai bộ Capture/so sánh/điều chế độ rông xung.
+Các chuẩn giao tiếp nối tiếp SSP (Synchronous Serial Port), SPI và I2C.
+Chuẩn giao tiếp nối tiếp USART với 9 bit địa chỉ.
+Cổng giao tiếp song song PSP (Parallel Slave Port) với các chân điều khiển RD, WR, CS ở bên ngoài.
+Các đặc tính Analog:
+8 kênh chuyển đổi ADC 10 bit.
+Hai bộ so sánh.
+Bên cạnh đó là một vài đặc tính khác của vi điều khiển như:
+Bộ nhớ flash với khả năng ghi xóa được 100.000 lần.
+Bộ nhớ EEPROM với khả năng ghi xóa được 1.000.000 lần.
+Dữ liệu bộ nhớ EEPROM có thể lưu trữ trên 40 năm.
+Khả năng tự nạp chương trình với sự điều khiển của phần mềm.
+Nạp được chương trình ngay trên mạch điện ICSP (In Circuit Serial Programming)
+thông qua 2 chân.
+Watchdog Timer với bộ dao động trong.
+Chức năng bảo mật mã chương trình.
+Chế độ Sleep.
+Có thể hoạt động với nhiều dạng Oscillator khác nhau.
+So sánh PIC với 8051:
+Chức năng AT9C51 PIC16F877A Bộ nhớ chương trình 4KB 8K x 14bit Bộ nhớ dữ liệu 128B RAM 368B RAM, 256B EEPROM Port vào/ra 4 port, với 32 chân vào/ra 5 port, với 33 chân vào/ra Bộ định thời 2 bộ 16 bit. 2 bộ 8 bit, 1 bộ 16 bit. Mạch giao tiếp 1 bộ UART 1 bộ USART 1 bộ giao tiếp song song PSP 1 bộ giao tiếp nối tiếp đồng bộ SSP. Capture/sosánh/PWM Không có 2 bộ. Chuyển đổi tương tự sang số Không có 8 bộ 10 bit. Tập lệnh 53 lệnh 35 lệnh Ngắt 5 nguồn tạo ngắt có ưu tiên. 15 nguồn tạo ngắt không ưu tiên.
+3. Sơ đồ khối và tính năng các chân PIC16F877A:
+3.1 Sơ đồ khối :
+Như đã nói ở trên , vi điều khiển PIC có kiến trúc Harvard, trong đó CPU truy cập chương trình và dữ liệu được trên hai bus riêng biệt, nên làm tăng đáng kể băng thông so với kiến trúc Von Neumann trong đó CPU truy cập chương trình và dữ liệu trên cùng một bus.
+Việc tách riêng bộ nhớ chương trình và bộ nhớ dữ liệu cho phép số bit của từ lệnh có thể khác với số bit của dữ liệu. Ở PIC 16F877A, từ lệnh dài 14 bit , từ dữ liệu 8 bit.
+PIC 16F877A chứa một bộ ALU 8 bit và thanh ghi làm việc WR (working register). ALU là đơn vị tính toán số học và logic, nó thực hiên các phép tình số và đại số Boole trên thanh ghi làm việc WR và các thanh ghi dữ liệu. ALU có thể thực hiện các phép cộng, trừ, dịch bit và các phép toán logic
+3.2. Sơ đồ chân PIC16F877A:
+3.3 Tính năng các chân :
+Tên Chân Loại Mô tả chức năng OSC1/CLKI 13 I Dao động tinh thể lối vào dao động ngoài OSC2/CLKO 14 O Dao động tinh thể hoặc lối ra xung nhịp MCLR/Vpp 1 I/P Lối vào reset. Lối vào điện áp nạp trình Vpp RA0/AN0 2 I/O Vào/ ra số. Lối vào analog 0 RA1/AN1 3 I/O Vào/ ra số. Lối vào analog 1 RA2/AN2/V-reff/CVRef 4 I/O Vào ra số. lối vào analog 2. Lối vào điện áp chuẩn V-ref của ADC. Lối ra Vref so sánh RA3/AN3/V+Ref 5 I/O Vào/ ra số. Lối vào analog 3. Lối vào điện áp chuẩn V-ref của ADC RA4/TOCKI/C1OUT 6 I/O Vào/ra số cực máng ngỏ. Lối vào xung ngoài cho timer. Lối ra bộ so sánh 1 RA5/SS/AN4/C2OUT 7 I/O Vào/ra số. lối vào chọn SOI. Lối vào analog 4. lối ra bộ so sánh 2 RB0/INT 33 I/O Vào/ra số. Lối vào ngắt ngoài. RB1 34 I/O Vào/ra số. RB2 35 I/O Vào/ra số. RB3/PGM 36 I/O Vào/ra số. Nạp trình LVP RB4 37 I/O Vào/ra số RB5 38 I/O Vào/ra số RB6 39 I/O Vào/ra số. Xung nhịp nạp trình ICSP RB7 40 I/O Vào/ra số. Dữ nạp trình ICSP RC0/T1OSO/T1CKI 15 I/O Vào/ra số. Tạo dao động timer. Xung nhịp ngoài cho timer 1 RC1/T1OSI/CCP2 16 I/O Vào/ra số. Tạo timer1. Lối vào Capture. Lối ra Compare2. Lối ra PWM2 RC2/CCP1 17 I/O Vào/ra số. Lối vào Vào/ra số Capture1. Lối ra PWM1 RC3/SCK/SCL 18 I/O Vào/ra số. Nhịp đồng bộ choSPI và I2C RC4/SDI/SDA 23 I/O Vào/ra số. Vào dữ liệu SPI. Vào/ra dữ liệu I2C RC5/SDO 24 I/O Vào/ra số. Ra dữ liệu SPI RC6/TX/CK 25 I/O Vào/ra số. Cổng truyền thông không đồng bộ. Xung nhịp truyền đồng bộ RC7/RX/DT 26 I/O Vào/ra số. Cổng nhận không đồng bộ. Dữ liệu đồng bộ RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 19 20 21 22 27 28 29 30 I/O I/O I/O I/O I/O I/O I/O I/O Vào/ra số. Cổng song song tớ Vào/ra số. Cổng song song tớ Vào/ra số. Cổng song song tớ Vào/ra số. Cổng song song tớ Vào/ra số. Cổng song song tớ Vào/ra số. Cổng song song tớ Vào/ra số. Cổng song song tớ Vào/ra sô. Cổng song song tớ RE0/RD/AN5 7 I/O Vào/ra số. Điều khiển RD cổng song song RE1/WR/AN6 8 I/O Vào/ra số. Điều khiển WR cổng song song RE2/CS/AN7 9 I/O Vào/ra số. Điều khiển CS cổng song song Vss 12,31 I/O Đất chung cho lối vàp/ra và analog Vdd 11,32 I/O Cấp nguồn dương
+4. Tổ chức bộ nhớ.
+Có 3 bộ nhớ riêng biệt trong vi điều khiển PIC16F877A gồm: Bộ nhớ dữ liệu, bộ nhớ chương trình , bộ nhớ EEPROM. 4.1 Bộ nhớ chương trình.
+Bộ nhớ chương trình của vi điều khiển PIC16F877A là bộ nhớ flash, dung lượng bộ nhớ 8K word (1 word = 14 bit) và được phân thành nhiều trang (từ page0 đến page 3) . Như vậy bộ nhớ chương trình có khả năng chứa được 8*1024 = 8192 lệnh (vì một lệnh sau khi mã hóa sẽ có dung lượng 1 word (14 bit).
+Khi vi điều khiển được reset, bộ đếm chương trình sẽ chỉ đến địa chỉ 0000h (Reset vector). Khi có ngắt xảy ra, bộ đếm chương trình sẽ chỉ đến địa chỉ 0004h (Interrupt vector). Bộ nhớ chương trình không bao gồm bộ nhớ stack và không được địa chỉ hóa bởi bộ đếm chương trình.
+Bộ nhớ chương trình PIC16F877A
+4.2 Bộ nhớ dữ liệu.
+Bộ nhớ dữ liệu được chia thành 4 bank, mỗi bank có dung lượng 128 byte RAM tĩnh. Mỗi bank bao gồm các thanh ghi có chức năng đặc biệt SFR (Special Function Register) nằm ở vùng địa chỉ thấp, và các thanh ghi mục đích chung GPR (General Purpose Register) nằm ở vùng địa chỉ cao. Các thanh ghi SFR thường xuyên được sử dụng như STATUS, INTCON, FSR được bố trí trên tất cả các bank giúp thuận tiện trong quá trình truy xuất.
+Sơ đồ tổ chức bộ nhớ dữ liệu PIC16F877A
+* Stack .
+Stack không nằm trong bộ nhớ chương trình hay bộ nhớ dữ liệu mà là một vùng nhớ đặc biệt không cho phép đọc hay ghi.
+Khi lệnh CALL được thực hiện hay khi một ngắt xảy ra làm chương trình bị rẽ nhánh, giá trị của bộ đếm chương trình PC tự động được vi điều khiển cất vào trong stack. Khi một trong các lệnh RETURN, RETLW hat RETFIE được thực thi, giá trị PC sẽ tự động được lấy ra từ trong stack, vi điều khiển sẽ thực hiện tiếp chương trình theo đúng qui trình định trước.
+Bộ nhớ Stack trong vi điều khiển PIC họ 16F87xA có khả năng chứa được 8 địa chỉ và hoạt động theo cơ chế xoay vòng. Nghĩa là giá trị cất vào bộ nhớ Stack lần thứ 9 sẽ ghi đè
+lên giá trị cất vào Stack lần đầu tiên và giá trị cất vào bộ nhớ Stack lần thứ 10 sẽ ghi đè lên giá trị cất vào Stack lần thứ 2.
+4.3 Bộ nhớ EEPROM .
+Một bộ nhớ dữ liệu đặc biệt kiểu EEPROM dung lương 256 byte được tích hợp trong PIC 16F877A và được xem như thiết bị ngoại vi được nối vào bus dữ liệu, bộ nhớ này có thể ghi đọc trong quá trình hoạt động dưới sự điều khiển của chương trình. Bộ nhớ EEPROM thường dùng các lưu trữ các chương trình không bị thay đổi như các hằng chuẩn, các dữ liệu của người sử dụng. và không bị mất đi khi ngắt nguồn nuôi.
+5. Các cổng xuất nhập.
+Cổng xuất nhập (I/O port) chính là phương tiện mà vi điều khiển dùng để tương tác với thế giới bên ngoài. Bên cạnh đó, do vi điều khiển được tích hợp sẵn bên trong các đặc tính giao tiếp ngoại vi nên bên cạnh chức năng là cổng xuất nhập thông thường, một số chân xuất nhập còn có thêm các chức năng khác để thể hiện sự tác động của các đặc tính ngoại vi nêu trên đối với thế giới bên ngoài.
+Vi điều khiển PIC16F877A có 5 cổng xuất nhập, bao gồm PORTA, PORTB, PORTC, PORTD và PORTE.
+Cấu trúc cơ bản của chân port.
+5.1 Port A.
+PORTA bao gồm 6 I/O pin ( RA0 –RA5) . Đây là các chân “hai chiều” (bidirectional pin), nghĩa là có thể xuất và nhập được. Chức năng I/O này được điều khiển bởi thanh ghi TRISA (địa chỉ 85h). Muốn xác lập chức năng của một chân trong PORTA là input, ta “set” bit điều khiển tương ứng với chân đó trong thanh ghi TRISA và ngược lại, muốn xác lập chức năng của một chân trong PORTA là output, ta “clear” bit điều khiển tương ứng với chân đó trong thanh ghi TRISA
+Chân RA4 dùng chung với lối vào xung nhịp cho timer0 khi dùng bộ đếm xung từ bên ngoài.
+Các chân khác của cổng A được ghép lối vào của các bộ so sánh tương tự và bộ biến đổi ADC 8 kênh .
+5.2 Port B.
+PORTB (RPB) gồm 8 pin I/O ( RB0 – RB7). Thanh ghi điều khiển xuất nhập tương ứng là TRISB. Bên cạnh đó một số chân của PORTB còn được sử dụng trong quá trình nạp chương trình cho vi điều khiển với các chế độ nạp khác nhau. PORTB còn liên quan đến ngắt ngoại vi và bộ Timer0.
+PORTB còn được tích hợp chức năng điện trở kéo lên (20k ohm) được điều khiển bởi chương trình.
+Chân RB0 có thể lựa chọn là lối vào của ngắt ngoài Extint.
+Có 3 chân của cổng B được ghép lối với chức năng ICSP là RB6, RB7, RB3 tương ứng với lối vào PGC, PGD, LVP khi nạp trình.Lối vào RB4 và RB7 làm phát sinh ngắt RBIF khi thay đổi trạng thái khi các chân này định nghĩa là các lối vào. Trạng thái hiện tại của lối vào này được so sánh với trạng thái được chốt lại tại lần đọc trước đó. Khi có sự khác nhau thì cờ ngắt RBIF được lập.
+5.3 Port C.
+PORTC (RPC) gồm 8 pin I/O (RC0 – RC7). Thanh ghi điều khiển xuất nhập tương ứng là TRISC. Bên cạnh đó PORTC còn chứa các chân chức năng của bộ so sánh, bộ Timer1, bộ PWM và các chuẩn giao tiếp nối tiếp I2C, SPI, SSP, USART.
+5.4 Port D.
+PORTD (RPD) gồm 8 chân I/O ( RD0 – RD7), thanh ghi điều khiển xuất nhập tương ứng là TRISD.
+PORTD còn là cổng xuất dữ liệu của chuẩn giao tiếp PSP (Parallel Slave Port).
+5.5 Port E.
+Port E có 3 chân RE0 , RE1 , RE2 có thể được cấu hình là các chân xuất nhập. Các chân của PORTE có ngõ vào analog , tại chế độ này khi đọc trạng thái các chân port E sẽ cho ta giá trị 0 . Bên cạnh đó PORTE còn là các chân điều khiển của chuẩn giao tiếp PSP.
+6.Các bộ định thời .
+6.1 Timer 0.
+• Bộ đếm 8 bit
+• Ghi/đọc được.
+• Có bộ chia 8 bit lập trình được.
+• Chọn xung nhịp bên ngoài hoặc bên trong.
+• Sinh ngắt TOIF khi tràn chuyền từ FFh→ 00h.
+• Chọn sườn xung khi lấy xung nhịp từ bên ngoài.
+Timer0 dùng làm bộ đếm xung nhịp của vi điều khiển vể tạo ra một bộ đếm thời gian. Chế độ đếm thời gian được chọn bằng cách đặt bit T0CS = 0 (bit OPTION<5>). Trong các chế độ đếm thời gian, thanh ghi TMR0 tăng một đơn vị sau mỗi chu kỳ máy. Thanh ghỉ TMR0 có thể được ghi đọc trong chương trình để xác lập hoặc lấy giá trị hiện thời của timer0.
+Hình : Sơ đồ khối Timer0.
+Timer0 dùng để đếm các xung từ bên ngoài cấp vào chân RA4. Chế độ đếm xung được chọn bằng cách đặt T0CS = 1. Trong chế độ này thanh ghi Timer0 tăng một đơn vị sau mỗi sườn lên hoặc sườn xuống tùy thuộc vào trạng thái của bit T0SE.
+Bộ chia trước được dùng chung cho hai khối watchdog và Timer0. Việc gắn bộ chia trước cho khối nào được chọn bằng bít PSA(OPTION<3>). Hệ số chia phụ thuộc giá trị của bit PS2:PS1:PS0 của thanh ghi OPTION.
+Ngắt timer0 xảy ra khi thanh ghi TMR0 tràn, chuyển từ FFh→00h. Sự tràn này sẽ đặt bít T0IF = 1. Ngắt T0IF có thể che bằng bit T0IE. Cờ T0IF phải được xóa bằng phần mềm.
+
+6.2 Timer 1.
+Timer1 là bộ định thời 16 bit, giá trị của Timer1 sẽ được lưu trong hai thanh ghi (TMR1H:TMR1L). Cờ ngắt của Timer1 là bit TMR1IF (PIR1<0>). Bit điều khiển của Timer1 sẽ là TMR1IE (PIE<0>). Tương tự như Timer0, Timer1 cũng có hai chế độ hoạt động: chế độ định thời (timer) với xung kích là xung clock của oscillator (tần số của timer bằng ¼ tần số của oscillator) và chế độ đếm (counter) với xung kích là xung phản ánh các sự kiện cần đếm lấy từ bên ngoài thông qua chân RC0/T1OSO/T1CKI (cạnh tác động là cạnh lên). Việc lựa chọn xung tác động (tương ứng với việc lựa chọn chế độ hoạt động là timer hay counter) được điều khiển bởi bit TMR1CS (T1CON<1>). Sau đây là sơ đồ khối của Timer1:
+Hình :Sơ đồ khối của Timer1:
+6.3 Timer 2.
+Timer2 là bộ định thời 8 bit và được hỗ trợ bởi hai bộ chia tần số prescaler và postscaler. Thanh ghi chứa giá trị đếm của Timer2 là TMR2. Bit cho phép ngắt Timer2 tác động là TMR2ON (T2CON<2>). Cờ ngắt của Timer2 là bit TMR2IF (PIR1<1>). Xung ngõ vào (tần số bằng ¼ tần số oscillator) được đưa qua bộ chia tần số prescaler 4 bit (với các tỉ số chia tần số là 1:1, 1:4 hoặc 1:16 và được điều khiển bởi các bit T2CKPS1:T2CKPS0 (T2CON<1:0>)).
+Ngoài ra ngõ ra của Timer2 còn được kết nối với khối SSP, do đó Timer2 còn đóng vai trò tạo ra xung clock đồng bộ cho khối giao tiếp SSP.
+Timer0 và Timer2 là bộ đếm 8 bit (giá trị đếm tối đa là FFh), trong khi Timer1 là bộ đếm 16 bit (giá trị đếm tối đa là FFFFh). Timer0, Timer1 và Timer2 đều có hai chế độ hoạt động là timer và counter. Xung clock có tần số bằng ¼ tần số của oscillator. Xung tác động lên Timer0 được hỗ trợ bởi prescaler và có thể được thiết lập ở nhiều chế độ khác nhau (tần số tác động, cạnh tác động) trong khi các thông số của xung tác động lên Timer1 là cố định. Timer2 được hỗ trợ bởi hai bộ chia tần số prescaler và postcaler độc lập, tuy nhiên cạnh tác động vẫn được cố định là cạnh lên. Timer1 có quan hệ với khối CCP, trong khi Timer2 được kết nối với khối SSP.
+Sơ đồ khối của Timer 2
+7. ADC
+ADC (Analog to Digital Converter) là bộ chuyển đổi tín hiệu giữa hai dạng tương tự và số. PIC16F877A có 8 ngõ vào analog (RA4:RA0 và RE2:RE0). Hiệu điện thế chuẩn VREF có thể được lựa chọn là VDD, VSS hay hiệu điện thể chuẩn được xác lập trên hai chân RA2 và RA3. Kết quả chuyển đổi từ tín tiệu tương tự sang tín hiệu số là 10 bit số tương ứng và được lưu trong hai thanh ghi ADRESH:ADRESL.
+Các thanh ghi liên quan đến bộ chuyển đổi ADC bao gồm:
+-INTCON (địa chỉ 0Bh, 8Bh, 10Bh, 18Bh): cho phép các ngắt (các bit GIE, PEIE).
+-PIR1 (địa chỉ 0Ch): chứa cờ ngắt AD (bit ADIF).
+-PIE1 (địa chỉ 8Ch): chứa bit điều khiển AD (ADIE).
+-ADRESH (địa chỉ 1Eh) và ADRESL (địa chỉ 9Eh): các thanh ghi chứa kết quả chuyển đổi
+-ADCON0 (địa chỉ 1Fh) và ADCON1 (địa chỉ 9Fh): xác lập các thông số cho bộ chuyển đổi
+-PORTA (địa chỉ 05h) và TRISA (địa chỉ 85h): liên quan đến các ngõ vào analog ở PORTA.
+-PORTE (địa chỉ 09h) và TRISE (địa chỉ 89h): liên quan đến các ngõ vào analog ở PORTE.
+Hình: khối ADC
+8. Ngắt.
+PIC16F877A có 15 nguồn ngắt được điều khiển bởi thanh ghi INTCON, ngoài ra mỗi ngắt còn được điều khiển bởi một bit cho phép và cờ ngắt riêng. Các cờ ngắt vẫn hoạt động bình thường khi thỏa mãn điều kiện ngắt, không phụ thuộc vào các bit cho phép.
+Sơ đồ logic của tất cả các ngắt trong PIC16F877A.
+- Ngắt trên chân INT
+- Ngắt tràn Timer 0
+- Ngắt tràn Timer 1
+- Ngắt tràn Timer 2
+- Ngắt thay đổi trạng thái các chân trên Port B
+- Ngắt so sánh điện thế
+- Ngắt Port song song
+- Ngắt USART
+- Ngắt nhận dữ liệu
+- Ngắt truyền dữ liệu
+- Ngắt chuyển đổi A/D
+- Ngắt màn hình LCD
+- Ngắt hòan tất ghi EEPROM
+- Ngắt module CCS
+- Ngắt module SSP.
+Bit điều khiển của ngắt RB0/INT nằm trong thanh ghi INTCON, thanh ghi này còn chứa bit cho phép ngắt toàn cục GIE (Global Interrupt Enable) INTCON<7> , bit cho phép ngắt ngoại vi PEIE (Peripheral Interrupt Enable) INTCON<6>. Bit điều khiển các ngắt khác nằm trong thanh ghi PIE1 và PIE2, cờ ngắt nằm trong thanh ghi PIR1 và PIR2. Trong một thời điểm chỉ có 1 chương trình ngắt được thực thi, chương trình ngắt kết thúc bằng lệnh RETFIE (Return from Interrupt) để trở về chương trình chính.
+Khi chương trình ngắt được thực thi, bit GIE tự động được xóa, địa chỉ tiếp theo của chương trình chính được cất vào stack và bộ đếm chương trình chỉ đến địa chỉ 0004h. Khi lệnh RETFIE được thực thi thì bit GIE được tự động set để tiếp tục cho phép các ngắt.
+Trước khi thực thi chương trình ngắt, nội dung một số thanh ghi SFR như là STATUS, PCLATH cần được lưu lại và nạp lại các nội dung đó sau khi thực thi xong chương trình ngắt. Ta phải làm như vậy vì trong khi thực hiện chương trình ngắt, nội dung các thanh ghi này có thể thay đổi và khi trở vể chương trình chính, chương trình chính có thể hoạt động không chính xác.
+Bên cạnh đó mỗi ngắt còn có một bit điều khiển và cờ ngắt riêng. Các cờ ngắt vẫn được set bình thường khi thỏa mãn điều kiện ngắt xảy ra bất chấp trạng thái của bit GIE, tuy nhiên hoạt động ngắt vẫn phụ thuôc vào bit GIE và các bit điều khiển khác. Bit điều khiển ngắt RB0/INT và TMR0 nằm trong thanh ghi INTCON, thanh ghi này còn chứa bit cho phép các ngắt ngoại vi PEIE. Bit điều khiển các ngắt nằm trong thanh ghi PIE1 và PIE2. Cờ ngắt của các ngắt nằm trong thanh ghi PIR1 và PIR2.
+Trong một thời điểm chỉ có một chương trình ngắt được thực thi, chương trình ngắt được kết thúc bằng lệnh RETFIE. Khi chương trình ngắt được thực thi, bit GIE tự động được xóa, địa chỉ lệnh tiếp theo của chương trình chính được cất vào trong bộ nhớ Stack và bộ đếm chương trình sẽ chỉ đến địa chỉ 0004h. Lệnh RETFIE được dùng để thoát khỏi chương trình ngắt và quay trở về chương trình chính, đồng thời bit GIE cũng sẽ được set để cho phép các ngắt hoạt động trở lại. Các cờ hiệu được dùng để kiểm tra ngắt nào đang xảy ra và phải được xóa bằng chương trình trước khi cho phép ngắt tiếp tục hoạt động trở lại để ta có thể phát hiện được thời điểm tiếp theo mà ngắt xảy ra.
+Đối với các ngắt ngoại vi như ngắt từ chân INT hay ngắt từ sự thay đổi trạng thái các pin của PORTB (PORTB Interrupt on change), việc xác định ngắt nào xảy ra cần 3 hoặc 4 chu kì lệnh tùy thuộc vào thời đểm xảy ra ngắt.
+
+B. GIỚI THIỆU CÁC LINH KIỆN SỬ DỤNG TRONG MẠCH
+
+Cấu tạo
+Lõi được làm bằng vật liệu trở dòng khi có dòng điên qua nó, trên thân được phủ màng (tạo giá trị ), hai đầu có bao mũ đồng, được hàng chân sơn in lên thân để phân biệt giá trị.
+1.1Kí Hiệu
+1.2Đơn Vị: W, KW, MW
+2. Cách đọc giá trị
+Ký hiệu theo quy luật vòng màu
+Bảng 2.1 Bảng Quy Ước Màu
+
+Màu Biểu Thị Trị Số Số Mũ Sai Số ĐEN 0 100 ±1% NÂU 1 101 ±2% ĐỎ 2 102 CAM 3 103 VÀNG 4 104 LỤC (XANH LÁ) 5 105 LAM ( XANH DƯƠNG) 6 106 TÍM 7 107 XÁM 8 108 TRẮNG 9 109 NHŨ VÀNG 10-1 ±5% NHŨ BẠC 10-2 ±10%
+
+3. Cách đọc:
+Điện trỏ 4 vòng màu:
+1,2: trọng số
+3: số mũ
+4: Sai số
+Chú ý : vòng 4 có thể là nhũ vàng hay nhũ bạ
+VD: Nâu, đỏ, nhũ vàng, nhũ bạc Þ giá trị R = 12.10-1 ±10% =1.2 (W)
+Điện trở 5 vòng màu
+1,2,3 là trọng số
+4 số mũ
+5 sai số
+VD:Xanh dương, xám đỏ, nâu, nhũ bạcÞ giá trị R =6820±5%(W)
+
+Ý nghĩa các vòng màu:
+Vòng 1 :chỉ số thứ nhất Vòng 2 :chỉ số thư hai Vòng 3 :chỉ con số 0 (zero ) phải thêm vào sau 2 số trên Vòng 4 :chỉ sai số Vàng kim (kim nhũ ) ±5% Bạc ±10% Không có vòng 4 ±25%
+Chú ý: Nếu vòng 3 là màu đen thì không có số 0 thêm và
+
+Tụ điện là một linh kiện điện tử được dùng khá phổ biến biến trong công nghiệp điện và điện tử.
+Tụ điện dùng để chứa điện năng với hình thức điện tích bằng cách nạp điệnvào.Điện tích có thể đổi thành dòng điện bằng cách xã điện ra. Sự nạp và xã điện được thực hiện trong một thời gian tức khắc.
+Theo nguyên tắc,một tụ điện gồm có hai má(phiến) bằng kim loại song song thân cách nhau bằng một chất cách điện gọi là điện môi.
+
+A.Thông số kỹ thuật:
+
+1.Điện dung danh định:
+Là giá trị ghi trên thân tụ bằng chữ số hoặc bằng màu.
+2.Điện áp danh định:
+Là điện áp tối đa cho phép áp dụng ở hai đầu tụ điện.Vượt qua trị số này tụ bị hư. Thường điện thế này ghi trên thân tụ.
+3.Điện trở cách điện:
+Trị số này biểu thị chất liệu của chất điện môi và cũng là biểu thị dòng điện rĩ qua tụ điện.
+4.Đơn vị:
+Đơn vị điện dung là Farad (F)
+Farad là đơn vị rất lớn nên thường ta dùng các ước số sau:
+-Micro Farad =1/1000000 F =10-6 F
+-Nano Farad =1/1000 µF = 10-9 F
+-Pico Farad =1/1000000 µF = 10-12 F
+B.Phân Loại Tụ Điện Và Cách Đọc Tụ Điện
+Tụ điện theo đúng tên gọi chính là linh kiện có chức năng tích tụ năng lượng điện, nói một cách nôm na. Chúng thường được dùng kết hợp với các điện trở trong các mạch định thời bởi khả năng tích tụ năng lượng điện trong một khoảng thời gian nhất định. Đồng thời tụ điện cũng được sử dụng trong các nguồn điện với chức năng làm giảm độ gợn sóng của nguồn trong các nguồn xoay chiều, hay trong các mạch lọc bởi chức năng của tụ nói một cách đơn giản đó là tụ ngắn mạch (cho dòng điện đi qua) đối với dòng điện xoay chiều và hở mạch đối với dòng điện 1 chiều.
+Trong một số các mạch điện đơn giản, để đơn giản hóa trong quá trình tính toán hay thay thế tương đương thì chúng ta thường thay thế một tụ điện bằng một dây dẫn khi có dòng xoay chiều đi qua hay tháo tụ ra khỏi mạch khi có dòng một chiều trong mạch. Điều này khá là cần thiết khi thực hiện tính toán hay xác định các sơ đồ mạch tương đương cho các mạch điện tử thông thường.
+Hiện nay, trên thế giới có rất nhiều loại tụ điện khác nhau nhưng về cơ bản, chúng ta có thể chia tụ điện thành hai loại: Tụ có phân cực (có cực xác định) và tụ điện không phân cực (không xác định cực dương âm cụ thể).
+Để đặc trưng cho khả năng tích trữ năng lượng điện của tụ điện, người ta đưa ra khái niệm là điện dung của tụ điện. Điện dung càng cao thì khả năng tích trữ năng lượng của tụ điện càng lớn và ngược lại. Giá trị điện dung được đo bằng đơn vị Fara (kí hiệu là F). Giá trị F là rất lớn nên thông thường trong các mạch điện tử, các giá trị tụ chỉ đo bằng các giá trị nhỏ hơn như micro fara (μF), nano Fara (nF) hay picro Fara (pF).
+1F = 106μF = 109nF = 1012pF
+1. Tụ Hoá
+Kí hiệu tụ hoá và hình dạng tụ hoá
+Tụ hóa là một loại tụ có phân cực. Chính vì thế khi sử dụng tụ hóa yêu cầu người sử dụng phải cắm đúng chân của tụ điện với điện áp cung cấp. Thông thường, các loại tụ hóa thường có kí hiệu chân cụ thể cho người sử dụng bằng các ký hiệu + hoặc = tương ứng với chân tụ.
+Có hai dạng tụ hóa thông thường đó là tụ hóa có chân tại hai đầu trụ tròn của tụ (tụ có ghi 220μF trên hình a) và loại tụ hóa có 2 chân nối ra cùng 1 đầu trụ tròn (tụ có ghi giá trị 10μF trên hình a). Đồng thời trên các tụ hóa, người ta thường ghi kèm giá trị điện áp cực đại mà tụ có thể chịu được. Nếu trường hợp điện áp lớn hơn so với giá trị điện áp trên tụ thì tụ sẽ bị phồng hoặc nổ tụ tùy thuộc vào giá trị điện áp cung cấp. Thông thường, khi chọn các loại tụ hóa này người ta thường chọn các loại tụ có giá trị điện áp lớn hơn các giá trị điện áp đi qua tụ để đảm bảo tụ hoạt động tốt và đảm bảo tuổi thọ của tụ hóa.
+Xanh da trời = 20V
+Xám = 25V
+Trắng = 30V
+Hồng = 35V
+2. Tụ Không Phân Cực :
+Tụ thường
+Các loại tụ nhỏ thường không phân cực. Các loại tụ này thường chịu được các điện áp cao mà thông thường là khoảng 50V hay 250V. Các loại tụ không phân cực này có rất nhiều loại và có rất nhiều các hệ thống chuẩn đọc giá trị khác nhau.
+Rất nhiều các loại tụ có giá trị nhỏ được ghi thẳng ra ngoài mà không cần có hệ số nhân nào, nhưng cũng có các loại tụ có thêm các giá trị cho hệ số nhân. Ví dụ có các tụ ghi 0.1 có nghĩa giá trị của nó là 0,1μF=100nF hay có các tụ ghi là 4n7 thì có nghĩa giá trị của tụ đó chính là 4,7nF
+3. Các Loại Tụ Có Dùng Mã:
+Tụ thường
+Mã số thường được dùng cho các loại tụ có giá trị nhỏ trong đó các giá trị được định nghĩa lần lượt như sau:
+- Giá trị thứ 1 là số hàng chục
+- Giá trị thứ 2 là số hàng đơn vị
+- Giá trị thứ 3 là số số không nối tiếp theo giá trị của số đã tạo từ giá trị 1 và 2. Giá trị của tụ được đọc theo chuẩn là giá trị picro Fara (pF)
+- Chữ số đi kèm sau cùng đó là chỉ giá trị sai số của tụ.
+Ví dụ: Tụ ghi giá trị 102 thì có nghĩa là 10 và thêm 2 số 0 đằng sau = 1000pF = 1nF chứ không phải 102pF
+Hoặc ví dụ tụ 272J thì có nghĩa là 2700pF=2,7nF và sai số là 5%
+4. Tụ điện biến đổi
+Tụ điện biến đổi thường được sử dụng trong các mạch điều chỉnh radio và chúng thường được gọi là tụ xoay. Chúng thường có các giá trị rất nhỏ, thông thường nằm trong khoảng từ 100pF đến 500pF.
+Kí hiệu và hình dạng của tụ xoay
+Rất nhiều các tụ xoay có vòng xoay ngắn nên chúng không phù hợp cho các dải biến đổi rộng như là điện trở hoặc các chuyển mạch xoay. Chính vì thế trong nhiều ứng dụng, đặc biệt là trong các mạch định thời hay các mạch điều chỉnh thời gian thì người ta thường thay các tụ xoay bằng các điện trở xoay và kết hợp với 1 giá trị tụ điện xác định.
+1. Giới thiệu về Diode:
+Diode là loại linh kiện bán dẫn 2 cực có cấu tạo dựa trên chuyển tiếp P-N.Điện cực nối với khối bán dẫn P gọi là Anot, điện cực nối với khối bán dẫn N gọi là Catot.Dựa vào các đặt tính của chuyển tiếp P-N người ta chế tạo :diode chỉnh lưu, diode tách sóng,diode pshát quang.
+Chất bán dẫn P chất bán dẫn N
+Nối P-N gồm hai miền bán dẫn loại P và loại N tiếp xúc nhau trong cùng một tinh thể. Trước khi tiếp xúc hai miền P-N đều ở trạng thái trung hoà điện. Khi tiếp xúc nhau hiện tượng khuyếch tán xảy ra, theo đó điện tử ở chất bán dẫn N qua mặt nối và tái hợp với lỗ trống, ngược lại một số lỗ trống ở chất bán dẫn P qua mặt nối và tái hợp với điện tử. Sự khuyếch tán đến một lúc thì ngưng lại bởi vì điện tích dương nay không cho lỗ trống khuyếch tán qua mặt nối vào chất bán dẫn N và điện tích âm nay không cho điện tử khuyếch tán qua mặt nối vào chất bán dẫn P.
+Sự phân bố điện tích hai bên mối nối tạo thành một điện thế gọi là rào điện thế và vùng này không có hạt dẫn điện gọi là vùng hiếm hay vùng điện tích không
+2. Phân loại:
+Diode nắn điện:có chữ số bắt đầu là 1N. Trên thân có vòng màu trắng là Catot.
+Diode tách sóng có thân là thủy tinh, trên thân diode có chữ số bắt đầu là 1N. Trên thân có vòng màu đen là Catot.
+Ứng dụng của Diode: chỉnh lưu, tách sóng…
+
+Coâng duïng cuûa diode: duøng ñeå naén doøng xoay chieàu thaønh doøng 1 chieàu vaø ñeå tách sóng.
+
+2.1 Diode chỉnh lưu:
+K(+)
+
+AnodCatod
+Diode Zenner có thân là thủy tinh, trên thân có ghi số Volt làm việc của Diode Zenner.
+Ứng dụng của Diode Zenner là tạo ra điện áp chuẩn ổn định tại hai chân AK.
+.
+Điện áp ổn định Vz
+Dòng điện làm việc Iz và dòng điện làm việc lớn nhất cho phép Iz max.
+Công suất tổn hao Pz=Vz.Izmax.
+Điện áp ngang qua tải được cố định khi Vi hoặc RL thay đổi.
+Vi cố định, RL thay đổi .
+RL cố định Vi thay đổi.
+2.3.Diode biến dung :
+a.Cấu tạo:
+Cũng là diode ứng dụng tính phân cực nghịch của nối P-N. Điện dung của tiếp giáp P-N giảm khi điện áp phân cực tăng lên và điện dung này tăng khi điện áp phân cực nghịch nhỏ đi.Người ta lợi dụng đặc tính đó để chế tạo ra diode biến dung.
+b.Ký hiệu:
+AnodCatod
+c.Công dụng:
+Được dùng như một tụ điện thay đổi trong các mạch cộng hưởng.
+2.4.Diode phát quang :(LED)
+Diode phát quang là loại diode bán dẫn có khả năng biến đổi điện năng sang quang năng.
+a.Cấu tạo:
+Nguyên tử khi nhận được năng lượng sẽ phóng thích điện tử, ngược lại sự tái hợp của điện tử và lỗ trống sẽ phát sinh năng lượng.
+
+b.Ký hiệu:
+Đặc tuyến volt
+Ampere
+c.Công dụng:
+Led thường được dùng trong các mạch hiển thị.Led có dòng điện làm việc từ 10mA đến 20mA, điện áp rơi ngang qua Led khi đã dẫn điện khoảng từ 1,7V đến 2,4V
+
+3. Kiểm Tra:
+3.3.1 Diode:
+Đo hai lần: một lần kim chỉ ít Ohm và một lần kim chỉ nhiều Ohm (không lên): Diode tốt.
+Nếu cả hai lần đo Ohm kế chỉ 0 Diode bị nối tắt.
+Nếu cả hai lần Ohm kế chỉ : Diode bị đứt.
+Lưu ý: Do cấu tạo bên trong của đồng hồ nên đa số:
+Que đen ở vị trí (-) được nối với dương pin. Que đỏ ở vị trí (+) được nối với âm pin. Ta xác định tên chân của Diode căn cứ vào lần đo kim lên ít Ohm(Diode phân cực thuận ).
++ Chân ở que đen là Anot.
++ Chân ở que đỏ là Catot.
+3.3.2 Diode Zenner:
+Một lần kim lên ít(nhiều Ohm)
+Loại từ 12V trở xuống
+
+4. LED 7 Đoạn :
+Led 7 ñoïan : caáu taïo töø 7 led ñôn, öùng duïng trong caùc maïch quang baùo.
+4.1 Kí hiệu và hình dạng
+Hình 2.2 Sơ đồ chân của led 7 đoạn.
+4.2. Phân loại :
+Có 2 loại:
+Loại Anode chung :
+Đối với dạng Led anode chung, chân COM phải có mức logic 1 và muốn
+sáng Led thì tương ứng các chân a – f, h sẽ ở mức logic 0.Bảng 2.3: Bảng mã cho Led Anode chung (a là MSB, h là LSB):
+Bảng 2.4: Bảng mã cho Led Anode chung (a là LSB,h là MSB):
+Loại Cathode chung :
+Đối với dạng Led Cathode chung, chân COM phải có mức logic 0 và
+muốn sáng Led thì tương ứng các chân a – f, h sẽ ở mức logic 1.
+Bảng 2.5: Bảng mã cho Led Cathode chung (a là MSB, h là LSB):
+Bảng 2.6: Bảng mã cho Led Anode chung (a là LSB, h là MSB)
+Cách xác định chân :
+Dùng VOM ở thang đo R x 1 cần xác định :
+Chân chung của Led 7 đọan . Lọai Anot chung hay Katot chung :
+• Chân ở que đen là Anot chung.
+• Chân ở que đỏ là Katot chung.
+Vị trí các đọan a, b, c, d, e, f, g, và dấu chấm. Khi đọan nào phân cực thuận thì đọan đó sẽ sáng .
+
+TRANSISTOR LƯỠNG CỰC
+( BJT: Bipolar Junction Transistor )
+
+Cấu tạo và ký hiệu:
+Transistor gồm hai mối nối P-N có chung một chất bán dẫn Silicium. Các cực ra được lấy từ ba vùng và được gọi là cực nền (Base viết tắt là B ), cực phát ( Emitter viết tắt là E ), cực thu (Collector viết tắt là C).
+
+1.Transistor PNP
+Hai mối nối P-N có chung vùng N tạo nên một transistor PNP. Transistor PNP có muỗi tên cực phát hướng vào cực nền.
+*Ký hiệu:
+2.Transistor NPN:
+Hai mối nối P-N có chung vùng P tạo nên một transistor NPN. Transistor NPN có muỗi tên cực phát hướng ra ngoài.
+Ký hiệu:
+Ba cách mắc mạch Transistor:
+1.Mắc cực phát chung:( Common-Emitter viết tắt là C-E )
+2.Mắc cực nền chung:( Common-Base viết tắt là C-B )
+3.Mắc cực thu chung:( Common-Collector viết tắt là C-C )
+Các trạng thái hoạt động của Transistor:
+Transistor có ba trạng thái hoạt động :
+-Trạng thái ngưng dẫn: còn gọi là trạng thái ngắt dòng. Điện thế VBE < V của mối nối BE tức là hai mối nối B-E và B-C đều phân cực nghịch.
+-Trạng thái khuyếch đại : mối nối B-E phân cực thuận và mối nối B-C phân cực nghịch.
+-Trạng thái bão hoà: cả hai mặt B-E và B-C đều phân cực thuận.
+C. GIỚI THIỆU CHUNG VỀ IC
+
+GIỚI THIỆU IC ỔN ĐỊNH ĐIỆN ÁP LM7805 :
+1.1 Khái quát
+Họ LM78xx được đóng gói theo kiểu TO_220 và có nhiều mức điện áp ngõ ra ổn định làm cho chúng có phạm vi sử dụng rộng trong nhiều ứng dụng.Mỗi loại được tích hợp khả năng giới hạn dòng điện,tắt nhiệt, bảo vệ khu vực hoạt động nên chúng rất bền.Nếu được tản nhiệt thích hợp chúng có thể cung cấp dòng ngõ ra hơn1A.Mặc dù chúng được thiết kế trước hết là một bộ điều chỉnh điện áp,những thiết bị này còn được sử dụng với các thiết bị ngoại vi để thu được điện áp và dòng điện điều chỉnh được.
+
+Sơ đồ khối bên trong:
+1.2 Giới thiệu IC 7805
+
+Đây là IC có tính năng ổn định điện áp ngõ ra là 5v
+Bảng đặc tính điện của LM7805:
+2. GIỚI THIỆU IC GIẢI MÃ 742LS48
+Đặc điểm ứng dụng hết sức quan trọng của chủng loại ic này là dùng biến đổi mã BCD sang mã led 7 đoạn
+Các chân 1,2,6,7 la các chân ngõ vào mã BCD
+Các chân 9,10,11,12,13,14,15 là các chân dữ liệu ngõ ra mã led 7 đoạn
+Sơ đồ chuyển đổi từ mã bcd sang mã led 7 đoạn
+3. GIỚI THIỆU IC CHỐT 74HC573
+CÁC THÔNG SỐ CỦA VI MẠCH 74HC573
+- Tốc độ truyền tín hiệu từ đầu vào sang đầu ra chỉ có 18ns.
+- Phạm vi điện áp hoạt động: 2 – 5.5V.
+- Dòng điện đầu vào thấp nhất: 1uA.
+NGUYÊN TẮC HOẠT ĐỘNG CỦA IC 74HC573
+Dựa vào bảng trạng thái ta nhận thấy dữ liệu mới chỉ được phép truyền qua IC khi cả hai chân điều khiển (LE và ) ở mức logic thích hợp: LE ở mức logic cao, ở mức logic thấp. Khi cả hai chân điều khiển ở trạng thái này thì dữ liệu ở ngõ vào sẽ được đưa vào bên trong IC (truyền qua các Flip-Flop) và đưa thẳng ra ngoài thông qua các cổng đệm ngõ ra 3 trạng thái.
+Khi chân ở mức logic thấp (cho phép) mà chân LE cũng ở mức logic thấp (cấm) thì dữ liệu ở ngõ ra của IC là dữ liệu cũ (vừa mới được truyền qua IC). Lúc này dữ liệu mới ở ngõ vào sẽ không được phép nhập vào IC.
+Ngược lại, khi chân ở mức logic cao thì ngõ ra của IC sẽ ở trạng thái tổng trở cao, bất chấp trạng thái logic của các ngõ vào còn lại. Mặc dù ngõ ra ở trạng thái tổng trở cao. nhưng dữ liệu ở ngõ vào (nếu có) vẫn được phép đưa vào IC (đưa đến ngõ ra của các Flip-Flop ở bên trong IC). Dữ liệu này sẽ được phép truyền đến ngõ ra khi chân về lại mức logic thấp.
+Khi cả hai chân điều khiển đều ở trạng thái cấm (chân ở mức logic cao, chân LE ở mức logic thấp) thì ngõ ra sẽ ở trạng thái tổng trở cao và ngõ vào sẽ không được phép nhập dữ liệu mớivào. Như vậy, ở trạng thái này thì IC hoàn toàn không giao tiếp với bất kỳ linh kiện nào khác ở cả ngõ vào và ngõ ra.
+* Ưu điểm:
+- Mở rộng số led hiển thị
+- Dữ liệu được truyền đi nhanh.
+- Lập trình đơn giản, việc xuất dữ liệu đơn giản
+- Hiển thị liên tục, rõ ràng
+* Nhược điểm:
+- Tạo bảng mã khó khăn.
+- Mạch điện phức tạp, tốn nhiều linh kiện
+GIỚITHIỆU OP-AMP LM 741
+Vi mạch khuếch đại thuật toán OP-AMP 741 có hai đầu vào:
+INVERTING (-): Đảo NON-INVERTING (+): Thuận
+Và ngỏ ra ở chân 6. * Khuyếch đại với 741 A. Khuyếch đại đảo: Chân 2 nối với tín hiệu vào và tín hiệu ra đảo B. Khuyếch đại không đảo: Chân 3 nối với tín hiệu vào và tín hiệu ra không đảo Để 741 hoạt động được, cần phải lắp thêm 2 điện trở R1, R2 vào mạch như sơ đồ ở hình dưới * Tính hệ số khuyếch đại của mạch dùng vi mạch 741 - Khuyếch đại đảo Hệ số khuyếch đại (AV) = -R2 / R1 - Khuyếch đại không đảo Hệ số khuyếch đại(AV) = 1+(R2 / R1)
+TÀI LIỆU THAM KHẢO
+GIÁO TRÌNH THAM KHẢO
+Hồ Trung Mỹ – Giáo trình Quang điện tử.Đại học Bách khoa Tp.Hồ Chí Minh. Ngô Diên Tập – Vi điều khiển với lập trình - Nhà xuất bản Khoa học và Kỹ thuật Hà Nội. Giáo trình học tập môn Vi Xử Lý –PIC16F877A Giáo trình học tập môn Mạch điện tử Giáo trình học tập môn Điện Tử Công Suất
+TRANG WEB THAM KHẢO
+www.picvietnam.net www.Microchip.com www.diendandientu.net www.datasheet4u.com www.dientuvietnam.net

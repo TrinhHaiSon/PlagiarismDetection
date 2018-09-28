@@ -1,0 +1,4 @@
+# -*- coding: utf-8 -*-
+from underthesea import chunk
+text = u"Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?"
+chunk(text)

@@ -1,0 +1,489 @@
+LỜI NÓI ĐẦU
+Trong những năm gần đây, nền kinh tế nước ta đang vươn lên hoà nhập với khu vực và thế giới. Bên cạnh sự phát triển của các ngành kinh tế khác thì ngành vận tải ô tô cũng có những chuyển biến không ngừng.
+Với xu thế phát triển của ngành ô tô như hiện nay thì mức độ đòi hỏi đối với công tác chẩn đoán kĩ thuật ô tô ngày một cao hơn. Các kết quả chẩn đoán đòi hỏi phải có tính khách quan, tính chính xác và độ tin cậy cao hơn. Có như thế thì mới đáp ứng được nhu cầu của sự phát triển đối với ngành ô tô.
+Để đáp ứng nhu cầu nói trên, biện pháp tốt nhất là áp dụng việc tự động hoá vào trong quá trình chẩn đoán. Để đảm bảo chất lượng xe trong quá trình sử dụng thì việc thường xuyên đánh giá chất lượng xe là việc làm hết sức quan trọng .Vì vậy cần thiết phải có các trạm kiểm định, với các trang thiết bị dùng cho công tác thử nghiệm và chẩn đoán tình trạng kỹ thuật của xe . Đề tài nghiên cứu đi theo hướng này : ” Thiết kế thiết bị chẩn đoán hệ thống kéo trên ô tô ’’, do GVC.TS . Nguyễn Đức Tuấn hướng dẫn nhằm mục đích giúp chúng ta hiểu thêm về cơ sở của quá trình tự động hoá việc chẩn đoán , kiểm định ôtô .
+* Phạm vi đề tài nhằm giải quyết một số nội dung sau :
+- Tổng quan về vấn đề nghiên cứu .
+- Tính toán động học và động lực học bệ thử .
+- Thiết kế truyền động .
+- Nghiên cứu xây dựng phần mềm góp phần tự động hoá quá trình chẩn đoán kiểm định ô tô .
+
+CHƯƠNG 1
+TỔNG QUAN VỀ CÁC LOẠI BĂNG THỬ VÀ LỰA CHỌN PHƯƠNG ÁN THIẾT KẾ
+1.1) TỔNG QUAN VỀ CÁC THIẾT BỊ CHẨN ĐOÁN.
+Các thiết bị chẩn đoán tình trạng kỹ thuật của ô tô và các tổng thành của nó rất đa dạng .Chúng được dùng để mô hình hoá quá trình làm việc của ôtô ,đo các thông số chẩn đoán và làm cơ sở để thiết lập quá trình chung chẩn đoán kỹ thuật .
+Ngày nay trên thế giới đã và đang sử dụng nhiều phương pháp và thiết bị chẩn đoán khác nhau .Các phương pháp và thiết bị chẩn đoán này không ngừng được hoàn thiện nhờ áp dụng những thành tựu khoa học kỹ thuật hiện đại .
+Các thiết bị chẩn đoán được dùng để xác định giá trị của các thông số chẩn đoán .Loại thiết bị chẩn đoán thường đi liền với phương pháp chẩn đoán ,do vậy thiết bị chẩn đoán cũng rất đa dạng .
+Theo phương pháp sử dụng người ta chia các thiết bị chẩn đoán ra làm 2 loại chính :
+a) Thiết bị chẩn đoán di động : Các dụng cụ này có thể là các dụng cụ xách tay hoặc các thiết bị đo(Đồng hồ đo áp lực ,lực kế ,nhiệt kế) .Loại thiết bị di động thường được mang theo xe để tiến hành chẩn đoán trên đường
+b) Thiết bị chẩn đoán cố định : Thiết bị này thường là các bệ thử đặt cố định (bệ thử công suất ,bệ thử phanh,bệ thử tổng hợp ,bệ thử dao động...). Mỗi loại bệ thử này được chia thành nhiều loại khác nhau.
+Với bệ thử công suất : Có thể thử trên bệ thử con lăn hoặc trên bệ thử băng tải(ít dùng) .Bệ thử con lăn lại được chia thành 3 loại :
+- Bệ thử dạng lực : thiết bị chất tải là phanh cơ khí ,phanh thuỷ lực hoặc phanh điện từ .Bệ thử chẩn đoán ô tô ở chế độ chuyển động đều và do lực kéo ở các bánh xe chủ động ,hiệu suất truyền lực ,suất tiêu hao nhiên liệu ở tay số truyền thẳng với chế độ mô men xoắn và công suất động cơ cực đại.
+-Bệ thử dạng quán tính : Thiết bị chất tải trên bệ thử quán tính thường có dạng bánh đà .Trên bệ thử quán tính ô tô thường được chẩn đoán ở chế độ chuyển động không đều .Trong trường hợp này công suất được xác định thông qua việc đo các đại lượng gia tốc góc ,thời gian hoặc quãng đường tăng tốc của bánh xe (hoặc con lăn trên bệ thử) khi bướm ga mở hoàn toàn trong phạm vi tốc độ đã cho ở tay số truyền thẳng.
+-Bệ thử liên hợp : Loại bệ thử này hiện nay rất ít được sử dụng nên trong phạm vi đề tài không đề cập đến
+1.2) ĐÁNH GIÁ CHUNG
+Hiện nay trên thế giới đã và đang sử dụng tất cả các loại băng thử trên .Tuy nhiên tuỳ thuộc vào diều kiện kinh tế ,kỹ thuật mà sử dụng các loại băng thử khác nhau ,có thể là loại con lăn ,loại băng tải ,loại tấm phẳng hoặc loại không sử dụng lực bám giữa bánh xe với bề mặt tựa...Nhưng xu hướng chung của các bệ thử là dùng loại bệ thử con lăn dạng lực hoặc quán tính ,đồng thời áp dụng những thành tựu khoa học kỹ thuật hiện đại để đưa ra các kết quả đo ,kiểm tra chính xác hơn.
+Ở nước ta đã và đang thừa kế những thành tựu khoa học kỹ thuật hiện đại trên thế giới .Do đó các bệ thử con lăn dạng lực hay dạng quán tính cũng đang được sử dụng phổ biến ở các trạm kiểm định ,trạm BDSC ,viện nghiên cứu .
+1.3)LỰA CHỌN PHƯƠNG ÁN THIẾT KẾ
+
+I) CÁC PHƯƠNG ÁN THỬ CHẤT LƯỢNG KÉO ĐANG ĐƯỢC SỬ DỤNG
+1.Khái niệm chung
+Chất lượng kéo của ô tô là thông số hiệu qủa có tính tổng quát ,nó đặc trưng cho tình trạng kỹ thuật của hầu hết các tổng thành trên ô tô.
+Chất lượng kéo giảm tức là giảm công suất và tăng tiêu hao nhiên liệu .Khi đó ,khả năng leo dốc và khả năng vượt đường lầy lội của ô tô là khó khăn .
+Trong quá trình sử dụng ,tình trạng kỹ thuật của các tổng thành bị biến xấu có thể dẫn tới hư hỏng và ảnh hưởng tới chất lượng kéo của ô tô .Theo thống kê , gần như 50% các nguyên nhân gây ra các tổn hao công suất và tiêu hao nhiên liệu có thể sử lý được nhờ chẩn đoán và điều chỉnh hợp lý .
+Các kết quả nghiên cứu về ứng dụng chẩn đoán trong xi nghiệp vận tải đã chỉ rõ nhờ chẩn đoán và điều chỉnh kịp thời mà mức khôi phục lực kéo tính trung bình cho các loại xe là 13% và tiêu hao nhiên liệu kiểm tra cũng giảm đến giá trị tương tự .
+Để hạn chế tốc độ biến xấu tình trạng kỹ thuật của toàn bộ ô tô nói chung và của các tổng thành mà chất lượng của hệ thống kéo liên quan đến nói riêng người ta thường sử dụng các bệ thử để chẩn đoán điều chỉnh chúng theo định kỳ .Chẩn đoán chất lượng kéo thường được tiến hành trên bệ thử động lực học .Mục đích của sử dụng bệ thử là tạo ra chế độ tải trọng và đặc tính tính tốc độ của ô tô tương tự như khi nó chuyển động trên đường nhưng chi phí về kinh tế và thời gian ít hơn nhiều.
+2.Các loại bệ thử
+Khi chẩn đoán ô tô trên bệ thử có thể xác định được lực kéo ,lực phanh ,công suất ,tốc độ ,tiêu hao nhiên liệu ,hiệu suất của hệ thống truyền lực và tình trạng kỹ thuật của các tổng thành chủ yếu(Ly hợp theo mức độ trượt ,các đăng theo độ dơ ,hộp số theo độ ồn và rung động...).
+Các bệ chẩn đoán động lực học thường gồm 3 bộ phận cơ bản : bộ phận truyền động ,bộ phận chất tải và bộ phận đo ghi.
+Bộ phận chất tải để mô hình hoá quá trình chuyển động thực tế của ô tô trên bệ thử .Theo hình thức chất tải ,bệ chẩn đoán lực kéo được chia ra làm 2 loại :
+a)Bệ thử dạng lực :
+Thiết bị chất tải thường là phanh điện từ ,phanh cơ khí hay phanh thuỷ lực .Bệ thử này thường chẩn đoán ô tô ở chế độ chuyển động đều và đo lực kéo ở các bánh xe chủ động ,đo hiệu suất truyền lực ,suất tiêu hao nhiên liệu ở tay số 1 của hộp số ứng với mômen xoắn cực đại(Memax ) .
+Kết cấu của bệ thử gồm các con lăn ,thiết bị chất tải , thiết bị đo ghi, và quạt gió để làm mát động cơ trong quá trình thử nghiệm .Số lượng con lăn trên một bánh có thể là 1 hoặc 2 .Do một số hạn chế của loại 1 con lăn mà ngày nay loại 2 con lăn được dùng phổ biến .Các con lăn được đặt song song đối xứng hoặc không đối xứng qua mặt phẳng thẳng đứng song song với trục và đi qua trục bánh xe .
+Để giảm sự trượt các con lăn được nối với nhau bằng truyền động xích ,trên mặt con lăn có tạo gân để đảm bảo hệ số bám j = 0,6¸0,7.
+Thiết bị chất tải để tạo ra chế độ tải trọng cho ô tô trên bệ thử dưới dạng phanh con lăn . Con lăn được làm bằng phanh điện thuỷ lực hay cơ khí
+*Phanh thuỷ lực : Quá trình hãm trục con lăn được tạo ra do công chi phí việc dịch chuyển chất lỏng (nước) giữa stato và roto và do ma sát giữa roto với chất lỏng và do nội ma sát của chất lỏng .
+Phanh thuỷ lực thường được đặt trên trục của 1 trong các con lăn .Rô to chính là một trong các con lăn còn stato là xi lanh treo cân bằng đặt trên nó.Thay đổi tải trọng được tạo ra bằng cách cung cấp nước nhiều hay ít vào phanh thuỷ lực .Roto truyền năng lượng nhận được qua chất lỏng đến stato và tạo ra mô men xoắn tren đó. Mô men xoắn trên stato cân bằng tương ứng với mô men kéo lên bánh xe và được đo bằng cảm biến áp lực .
+Phanh thuỷ lực có ưu điểm là khả năng quá tải tốt nhưng nhược điểm là thiết bị cồng cềnh và khả năng tự điều chỉnh kém ,không đo được hiệu quả hệ thống và vệ sinh kém .
+*Phanh cơ khí: Quá trình hãm được thực hiện nhờ phanh guốc hoặc phanh đĩa đặt trên 1 trong các con lăn ,ma sát phanh hấp thụ cơ năng của động cơ và biến thành nhiệt năng .Tải trọng thay đổi được nhờ việc thay đổi lực nén của dẫn động phanh .Giá trị mômen phanh đo được nhờ cảm biến áp lực .Phanh cơ khí có các loại phanh guốc , phanh đĩa , phanh giải .Kết cấu loại này đơn giản dễ chế tạo nhưng đường đặc tính của chúng không đạt yêu cầu và kém khả năng tự điều chỉnh vì mô men phanh gần như không phụ thuộc vào tốc độ quay
+*Phanh điện : So với 2 loại phanh trên phanh điện có ưu điểm nổi trội hơn vì tính thuận nghịch của nó ,có thể làm việc được ở cả 2 chế độ động cơ và máy phát .Ở chế độ máy phát có khả năng cung cấp điện năng cho lưới điện ,khi thử nhiều động cơ sẽ có ý nghĩa kinh tế .
+Trong phanh điện lại có phanh điện một chiều và phanh điện xoay chiều :
+- Phanh điện một chiều :Có thể thay đổi chế độ tốc độ bằng cách thay đổi dòng kích thích tạo ra mô men , phanh điện từ cân bằng với mô men xoắn trên bánh xe .
+-Phanh điện xoay chiều : Dùng động cơ không đồng bộ dây cuốn .Loại phanh này có kết cấu đơn giản ,kích thước nhỏ gọn .Nhược điểm là không đảm bảo điều chỉnh tốc độ quay trong phạm vi rộng nên phải có hộp số kèm theo .
+Khi sử dụng loại phanh điện làm thiết bị chất tải thì tuỳ thuộc vào cách hãm con lăn mà phân ra :
++ Hãm động năng: Động cơ kéo con lăn và động cơ điện quay ,toàn bộ cơ năng của động cơ ô tô cung cấp cho máy điện biến thành nhiệt năng nung nóng các động cơ trong máy phát (Tổn hao do dòng Fucô) .
++Hãm ngược : Vừa nối máy với nguồn làm cho roto quay vừa cho động cơ ô tô nổ làm quay roto theo chiều ngược lại làm sinh ra năng lượng trong máy điện là rất lớn .Năng lượng này chủ yếu biến thành nhiệt năng nung nóng máy điện .
+Hai phương pháp trên ít được sử dụng do chúng có những những nhược điểm sau:
+-Nhiệt năng tạo ra trong máy điện là rất lớn có thể dẫn tới cháy các cuộn dây .
+-Đặc tính làm việc không phù hợp với đặc tính của ô tô thử nghiệm
+-Giới hạn đo hẹp
++Hãm tái sinh:Cung cấp điện năng cho máy điện từ lưới điện đồng thời cung cấp cơ năng cho máy điện từ động cơ ô tô .Hãm tái sinh xuất hiện khi cơ năng do động cơ ô tô cung cấp lớn hơn năng lượng điện năng do lưới điện cung cấp .Lúc đó tốc độ quay của rôto lớn hơn tốc độ quay của từ trường quay stato và động cơ điện trở thành máy phát điện .Thay đổi giá trị mô men hãm bằng cách thay đổi giá trị điện trở gắn với rôto .Ưu điểm của phương pháp này là :
+-Có lợi về năng lượng :Có thể sử dụng năng lượng điện phát ra của máy điện trong quá trình thử nghiệm hoà lên mạng điện .
+-Giới hạn đo rộng .
+-Đặc tính làm việc phù hợp với đặc tính của ô tô thử nghiệm
+-Khả năng quá tải tốt : Có thể hãm được động cơ ô tô có công suất lớn hơn công suất bản thân máy điện từ 5¸ 7 lần .
+Để chẩn đoán chất lượng kéo người ta có thể sử dụng một trong các phương án trên .Giá trị lực kéo lực kéo được xác định nhờ cảm biến áp lực hoặc cơ cấu gắn với vỏ động cơ điện (Máy điện cân bằng) .Có thể chẩn đoán ô tô trên bệ thử ở trạng thái tĩnh và trạng thái động nhưng do đặc thù của từng chế độ và phương pháp thử người thường chẩn đoán chất lượng kéo ở trạng thái động .
+b/Bệ thử dạng quán tính
+Thiết bị chất tải là các bánh đà và ô tô chẩn đoán ở chế độ chuyển động không đều. Khi đó lực kéo được xác định thông qua các giá trị của các đại lượng gia tốc góc ,thời gian và quãng đường tăng tốc .
+Nguyên lý chuẩn đoán chung chất lượng kéo trên bệ thử quán tính là đo quãng đường và thời gian tăng tốc trong khoảng tốc độ (v1-v2) nhờ các dụng cụ đo chuyên dùng (máy đếm số vòng quay,đồng hồ bấm giây ,gia tốc kế...) Đặc tính phanh kéo được xây dựng nhờ việc ghi lại giá trị các tốc độ quay , mô men quán tính của con lăn (hay bánh đà )khi tăng tốc .
++Ưu điểm của các loại bệ thử dạng quán tính :
+- Có thể chuẩn đoán được ô tô ở tốc độ cao do đó mô phỏng được sát với thực tế nên hay dùng cho các phòng thí nghiệm ,viện nghiên cứu.
+- kết cấu đơn giản, dễ vận hành
++Nhược điểm :
+- Tính vạn năng kém ,mỗi loại ô tô mang chuẩn đoán lại phải có một khối lượng quán tính tương ứng .
+- Với bệ thử quán tính dùng động cơ ô tô kéo gây ồn và ô nhiễm môi trường do khí thải của động cơ ô tô .
+II) LỰA CHỌN PHƯƠNG ÁN THIẾT KẾ
+Dựa vào đặc tính kỹ thuật ,ưu nhược điểm của loại bệ thử trên kết hợp với tình hình thực tế ở Việt Nam ta có thể đưa ra một loại bệ thử có các điều kiện về kinh tế kỹ thuật có thể đáp ứng được với công tác thử nghiệm cho các loại xe không đồng đều về chủng loại ,hình dáng ,kích thước đang được sử dụng tại Việt Nam .Bệ thử được thiết kế phải đáp ứng được các nhu cầu sau :
++ Chi phí sản xuất ,lắp ráp sử dụng nhỏ .
++ Chiếm diện tích nhỏ .
++ Độ ổn định cao đòi hỏi trình độ vận hành sự dụng không cao lắm .
++ Tính vạn năng cao .
++ Dễ điều khiển .
+SƠ ĐỒ CÁC PHƯƠNG ÁN THIẾT KẾ BỆ THỬ :
+
+Từ các thực tế yêu cầu trên ta chọn phương án thiết kế trên bệ thử lực ,đo lực kéo ở trạng thái động ,bệ thử dạng con lăn ,thiết bị chất tải là phanh điện .Đo lực kéo ở chế độ tốc độ ứng với mô men xoắn cực đại của động cơ ,vận tốc ô tô khi thử kéo khoảng (10 – 20) km/h ở tay số 1.Máy điện làm việc ở chế độ hãm tái sinh.
+Các thông số của ô tô thử nghiệm : Xe E240 Elegance --- Mercedes-Benz
+
+Giá trị các thông số Ký hiệu Đơn vị Giá trị 1.Số chỗ ngồi Hành khách 4 2.Trọng lượng bản thân G0 KG 1590 3.Trọng lượng toàn bộ Ga KG 2090 4.Chiều dài toàn bộ LB mm 4818 5.Chiều rộng toàn bộ Btb mm 1799 6.Bánh xe 205/65 R15 7.Chiều rộng lốp Bl mm 205 8.Mômen xoắn cực đại Memax KG.m/v/p 24/4500 9.Công suất cực đại Nemax Kw/v/p 125/5500 10.Hiệu suất của HTTL htl 0,93 8.Vệt sau bánh xe B2 mm 1536 9.Tỷ số truyền lực chính i0 4,15 10.Tỷ số truyền tay số 1 I1 3,87
+
+SƠ ĐỒ BỆ THỬ : 1- Con lăn ; 2 ,3- Bộ truyền xích ; 4- Thiết bị nâng và phanh ; 5- Trục ; 6- Hộp giảm tốc ; 7- Khớp nối ; 8-Động cơ điện ; 9- Đồng hồ đo ;
+
+
+
+
+CHƯƠNG 2
+TÍNH TOÁN ĐỘNG HỌC VÀ ĐỘNG LỰC HỌC
+2.1) TÍNH TOÁN ĐỘNG HỌC BỆ THỬ
+I) TÍNH TOÁN BỆ THỬ :
+1) Bán kính con lăn:
+- Lốp có ký hiệu 205/65 R15 nghĩa là :
++ 205 : Bề dày lốp Bl tính theo mm ;
++ 65 : Chỉ số prôfin ;
++ R : Cấu trúc lớp xương lốp ;
++ 15 : Đường kính vành lốp d tính theo insơ ;
+Công thức tính bán kính thiết kế của lốp :
+ro = B + 25,4.d/2 = 205 + 25,4.15/2 = 395,5 (mm)
+Với lốp có áp suất cao chọn được : l = 0,945
+l : hệ số kể đến sự biến dạng của lốp
+==> bán kính làm việc của bánh xe rbx = 395,5.0,945 = 374 (mm)= 0,374 (m)
+-Bán kính con lăn được xác định theo điều kiện giảm cản lăn cho bánh xe chủ dộng
+r =0,149(m)
+2) Chiều dài con lăn:
+L=2.205 +2.150 = 710 (mm)
+Trong đó:
+- a: hệ số kể đến chủng loại xe ôtô.Với xe con lấy a=150 (mm).
+- B:Bề rộng của một lốp.
+- Knmax: Khoảng cách giữa 2 mép ngoài của lốp ;
+- Ktmin : Khoảng cách giữa 2 mép trong của lốp ;
+
+3) Chiều rộng bệ thử:
+Bbt =Kn.max + 2.a = B2 + 2(Bl + a) = 1536 + 2.(205 + 150 ) = 2246 (mm)
+4) Khoảng cách giữa các trục con lăn:
+Chọn loại bệ thử hai con lăn song song đối xứng qua tâm bánh xe.Dựa vào điều kiện ổn định của ôtô
+
+600 (mm).
+j : Hệ số bám giữa bánh xe và con lăn chọn j = 0,7
+Þ chọn Lc = 700 (mm).
+5-Góc lệch giữa con lăn với bánh xe:
+Có quan hệ giữa góc a và Lc :
+Lc = 2(rbx + rcl).sina³ 700 ==>
+sina³ 700/1046 = 0,669 => a³ 42°
+Lấy a = 450
+so sánh với điều kiện ổn định của con lăn:
+tga>jÛ 1> 0,7 => thoả mãn điều kiện ổn định của ô tô trên bệ con lăn .
+Sơ đồ Kích thước con lăn
+II) THÔNG SỐ ĐỘNG HỌC CỦA BỆ THỬ :
+1) Tốc độ thử :
+Để xác định các thông số chẩn đoán chung của ôtô trên bệ thử ta cần phải
+biết chế độ đo.Trên bệ thử dạng lực chỉ thử ở tốc độ nhỏ và ôtô chuyển động đều.
+Chọn tốc độ thử kéo là vt = (10 - 20) km ¤ h.
+2) Tính toán ở tốc độ thử :
+* Ở tốc độ thử vtmin = 10 km/h :
+- Tốc độ bánh xe chủ động :
+nbxmin
+- Tốc độ quay của con lăn :
+nclmin
+* Ở tốc độ thử vtmax = 20 km/h :
+- Tốc độ bánh xe chủ động :
+nbxmax
+- Tốc độ quay của con lăn :
+n
+3-Tỉ số truyền của hộp số:
+chọn sơ bộ tốc độ quay của động cơ là 2500 v¤ phút.
+ibx=nđc¤ ncl=4,14.
+ih=ixích.ih.số=4,14 chọn ixích=2 ta có ih.số=2,07.
+
+2.2) TÍNH TOÁN ĐỘNG LỰC HỌC BỆ THỬ
+I) CHỌN ĐỘNG CƠ ĐIỆN(PHANH ĐIỆN) :
+Khi thử kéo với tốc độ thử của ô tô vtmax = 20 (km/h) ứng với tay số 1.
+
+Nđcđ
+* Nkmax : Công suất tại bánh xe chủ động ứng với Memax ở tay số 1.
+Nkmax = Pkmax . vtmax
+Nkmax = = = 5324,8 (KG.m/s)
+Nkmax = = 52,24 (KW)
+* hbt : Hiệu suất truyền động của bệ thử
+hbt =
+Với hx : Hiệu suất của bộ truyền xích ( hx = 0,93) ;
+hk : hiệu suất của khớp nối ( hk = 1) ;
+hhs : hiệu suất của hộp số (hhs = 0.93) ;
+ho : hiệu suất của 1 cặp ổ lăn ( ho = 0.99) ;
+=> hbt =
+==> Nđcđ = 66,1 (KW)
+Chế độ làm việc của động cơ theo đề tài lựa chọn đóng vai trò là phanh điện. Có thể làm việc ở chế độ của máy phát, phương pháp hãm là hãm tái sinh.
+Do đặc thù của phương pháp hãm tái sinh làm việc được với công suất đầu vào lớn hơn 5 - 7 lần công suất phát ra của động cơ. Do đó, để tiết kiệm ta chon động cơ có ký hiệu : AO2-72-6 có N = 20 (KW) ,nđb = 1000 (v/p) ,
+nđm = 970 , Hiệu suất 0,905 .
+II) XÁC ĐỊNH TỶ SỐ TRUYỀN CỦA BỆ THỬ :
+* Tỷ số truyền từ động cơ đốt trong đến bánh xe ô tô :
+itl = i1 . io = 3,87 . 4,15 = 16
+* Tỷ số truyên của bánh xe và con lăn :
+ibx-cl = = 0,4
+* Tỷ số truyền của bệ thử
+ih = ix . ihs
++ ix= ix2 = ix3 =1
++ ihs=
+Khi thử lực kéo của ô tô trên bệ thử, máy điện làm việc ở chế độ hãm tái sinh nên tốc độ quay của động cơ điện do con lăn dẫn động phải lớn hơn tốc độ quay đồng bộ của động cơ điện được chọn ở trên .Chọn sơ bộ tốc độ quay của động cơ điện do con lăn dẫn động là ndcd = 1500 (v/p)
+=> ihs = = 0,23 => Lấy ihs = 0,25 => Hộp số ở đây là hộp tăng tốc .
+==> ih = 1 . 0,25 = 0,25
+
+III) CÁC LỰC TÁC DỤNG LÊN BÁNH XE VÀ CON LĂN:
+* Phân tích các lực tác dụng lên con lăn và bánh xe :
++ Z1 ,Z2 : Phản lực từ bánh xe tác dụng lên con lăn ;
++ Ga2 : Trọng lượng cầu chủ động sau ;
+Ở xe con có thể coi Ga2 = Ga/2 = 2090/2 = 1045 (KG) ;
++ a : Góc đặc trưng cho vị trí tương đối giữa con lăn với bánh xe ô tô
+Như tính toán ở trên đã có a = 45° ;
++ Pk1 ,Pk2 : Lực kéo tiếp tuyến do bánh xe tác dụng lên con lăn ;
++ Mkbx : Mômen xoắn của bánh xe ;
++ wbx ,wcl1 ,wcl2 : vận tốc góc chỉ chiều quay của bánh xe ,con lăn 1 ,con lăn 2 ;
+* Vì cặp con lăn là đối xứng nên có thể coi :
+Z1 = Z2 = Z và Pk1 = Pk2 = Pk
+* Từ hình vẽ có : (Z1+Z2).cosa =Ga2.
+mặt khác: Z1=Z2=Z Þ 2Z.cosa= Ga2 Þ Z = 1045/2.cos45°
+==> Z = 739 (KG) .
+* Theo điều kiện bám :
+Pj = Z.j = 739 . 0,7 = 517 (KG)
+==> Mômen bám của bánh xe :
+Mj = Pj.rbx = Pk.rbx = 517 . 0,374 = 193 (KG.m)
+* Mômen kéo tác dụng lên trục bánh xe khi đứng trên con lăn :
+Mkbx = Mj = 193 (KG.m)
+* Mômen kéo tác dụng lên trục con lăn:
+Mkcl = Pk.rcl = Pj.rcl = 517 . 0,149 = 77 (KG.m)
+* Mômen kéo tác dụng lên trục máy điện :
+Mkđcđ = Mkcl . ih = 77 . 0,25 = 19,25 (KG.m)
+Trục thông số Trục động cơ ôtô Trục bánh xe ôtô Trục con lăn Trục động cơ điện i 16 0,4 0,25 n(v/p) 4500 142 356 1424 M(KG.m) 24 193 77 19,25
+Lập được bảng :
+Có công thức tính công suất tại trục con lăn :
+Từ Me = => Ncl = = 28,7 (KW)
+Chú ý : Mcl = 77 (GK.m) = 770 (N.m)
+CHƯƠNG 3 : THIẾT KẾ BỘ PHẬN TRUYỀN ĐỘNG
+
+3.1) TÍNH TOÁN HỘP SỐ :
+Do kết cấu của bệ thử như đã trình bầy ở trên ,đồng thời do tốc độ từ con lăn đến động cơ lớn nên ta chọn hộp tăng tốc bánh răng trụ răng nghiêng một cấp .
+SƠ ĐỒ HỘP TĂNG TỐC
+I) THIẾT KẾ BỘ TRUYỀN BÁNH RĂNG NGHIÊNG MỘT CẤP :
+
+
+* Công suất trục I :
+NI = Ncl = 28,7 (KW)
+* Công suất trục II :
+NII = NI . hI-II = NI . hbr . hol = 28,7 . 0,97 . 0,99 = 27,5 (KW)
+Với : hbr : Hiệu suất của 1 cặp bánh răng hbr = 0,97
+hol : Hiệu suất của 1 cặp ổ lăn hol = 0,99
+* Công suất của động cơ điện :
+Nđc = NII . hII-đc = NII . hol . hk = 27,5 . 0,99 . 1 = 27,2 (KW)
+Với : hk : Hiệu suất của khớp nối hk = 1
+
+Bảng các thông số tính toán :
+
+Trục Thông số TRỤC I TRỤCII TRỤC ĐỘNG CƠ ĐIỆN i 0,25 1 n (v/p) 356 1424 1424 N (KW) 28,7 27,5 27,2
+
+1) Chọn vật liệu:
+* Bánh răng lớn chọn thép 35 thường hoá:
+
+HB = 180
+* Bánh răng nhỏ chọn thép 45 thường hoá:
+
+
+HB =220
+2) Xác định ứng suất tiếp và ứng suất uốn cho phép :
+a) Ứng suất tiếp xúc cho phép :
+* Bánh lớn :
+
+
+* Bánh nhỏ :
+
+Với 2,6 là hệ số ứng suất mỏi cho phép khi bánh răng làm việc ở chế độ lâu dài.
+b) Ứng suất uốn cho phép :
+Khi răng làm việc 2 mặt (Răng chịu ứng suất thay đổi đổi chiều) :
+
+Với - n : Hệ số an toàn (thép rèn) : n= 1,5 ;
+- Ks : Hệ số tập chung ứng suất chân răng : Ks= 1,8 ;
+- : Hệ số chu kỳ ứng suất uốn lấy = 1 ;
+- Giới hạn mỏi của thép ở bánh lớn :
+
+- Giới hạn mỏi của thép 45 ở bánh nhỏ:
+
+* Ứng suất uốn cho phép của bánh lớn :
+
+* Ứng suất uốn cho phép của bánh nhỏ :
+
+3) Chọn sơ bộ hệ số tải trọng : K = 1,3 .
+4) Chọn hệ số chiều rộng bánh răng : .
+5) Xác định khoảng cách trục A :
+Lấy hệ số phản ánh khả năng sự tăng tải tính theo sức bền tiếp xúc của bánh răng nghiêng so với bánh răng thẳng = 1,25 ;
+A
+A
+=> Chọn sơ bộ : A =200 mm.
+6) Tính vận tốc vòng bánh răng và chọn cấp chính xác chế tạo :
+Theo tốc độ này (3-11 trong sách Thiết kế chi tiết máy) ta chọn cấp chính xác 8 .
+7) Định chính xác hệ số tải trọng K :
+* Chiều rộng bánh răng b =
+=> Chọn b = 60 (mm) .
+* Đường kính bánh răng lớn : d1 =
+Do đó
+* Theo bảng (3-12) ta có : Ktt.bảng=1,15
+=> Hệ số tập trung tải trọng thực tế Ktt=
+Tra bảng (3-14) lại có Kđ = 1,3
+Vậy : K = Ktt . Kđ =1,075 . 1,3 = 1,39 khác ít so với hệ số chọn K =1,3
+Nên có thể lấy A = 200 (mm) .
+8) Xác định môđun ,số răng ,góc nghiêng và chiều rộng bánh răng :
+* Môđun pháp : mn = (0,01 – 0,02)A = 2 – 4 (mm) .
+chọn mn = 3 (mm) .
+* Chọn sơ bộ góc nghiêng bánh răng : = 10 => cosb = 0.985
+- Tổng số răng của 2 bánh :
+Zt = Z1 + Z2 = 131
+- Số răng bánh lớn : Z1 = = 104,4 => Lấy Z1 = 105
+-Số răng bánh nhỏ : Z2 = 0,25 . 105 = 26,25 => Lấy Z2 = 26
+* Tính chính xác góc nghiêng:
+Cos
+=> =10 < b = 60 mm.
+9) Kiểm nghiệm sức bền uốn của răng:
+* Số răng tương đương bánh lớn:
+Ztđ1= chọn Ztđ1=109
+Ztđ2= chọn Ztđ2=27
+* Hệ số dạng răng bánh lớn: Y1 = 0,517 Theo bảng (3-18)
+* Hệ số dạng răng bánh nhỏ Y2 = 0,44
+* Kiểm nghiệm ứng suất uốn tại chân răng bánh lớn :
+==>Thỏa mãn .
+Bánh răng nhỏ :
+==> Thỏa mãn .
+10) Các thông số hình học :
+* Môđun pháp : mn = 3 (mm) .
+* Số răng: Z1 = 105 (răng) ; Z2 = 26 (răng).
+* Góc ăn khớp: =20 .
+* Góc nghiêng : .
+* Khoảng cách trục : A = 200 (mm) .
+* Chiều rộng bánh răng : b = 60 (mm) .
+* Đường kính vòng chia(vòng lăn) :
+dc1 = (mm) .
+dc2 = (mm) .
+* Đường kính vòng đỉnh :
+Dc1 = 320 + 2.3 = 326 (mm) .
+Dc2 = 79 + 2.3 = 85 (mm) .
+*Đường kính vòng chân răng:
+Di1 = 320 - 2.3 = 314 (mm) .
+Di2 = 79 - 2.3 = 73 (mm) .
+11) Tính toán lực tác dụng lên trục:
+II) TÍNH TOÁN THIẾT KẾ TRỤC VÀ TÍNH THEN :
+Chọn vật liệu làm trục I là thép 35 thường hoá có ;
+Chọn vật liệu làm trục II là thép 45 thường hoá có .
+
+1) Tính sơ bộ trục :
+Tính sơ bộ trục theo công thức :
+d ³ C (mm)
+Với N : Công suất truyền (KW) ;
+n : Tốc độ quay của trục (v/p) ;
+C : Hệ số tính toán ,có thể chọn C = 120
+* Trục I: N = 28,7 KW ;
+n = 356 (v/p) ;
+c=120 ;
+d1 chọn d1 = 55 (mm) .
+* Trục II: N = 27,5 KW ;
+n = 1424 (v/p) ;
+c=120 ;
+d2 chọn d2 = 35 (mm)
+2) Tính gần đúng trục :
+Tham khảo bảng (7-1) cùng với các hình vẽ ta có thể chọn các kích thước sau :
+* Khe hở giữa các bánh răng và thành trong của hộp : l1 =10 (mm) ;
+* Khoảng cách từ thành trong của hộp tới mặt bên của ổ lăn : l2 = 10 (mm) ;
+* Chiều dầy của nắp ổ : l3 = 15 (mm ) ;
+* Chiều dầy ổ bi là : Bôl = 25 (mm) ;
+* Chiều dầy bánh răng : Bbr = 60 (mm)
+Từ những kích thước chọn ở trên ta có thể vẽ phác được sơ đồ hộp tăng tốc và xác định được các khoảng cách :
+a = b = Bbr/2 + l1 + l2 + Bôl/2 = 60/2 + 10 + 10 + 25/2 = 62,5 (mm)
+............................................
+4.3) XÂY DỰNG PHẦN MỀM CHẨN ĐOÁN HỆ THỐNG KÉO TRÊN MÁY VI TÍNH
+I) Lựa chọn thuật toán :
+1) Ước lượng khả năng tin cậy và đánh giá sai số :
+Theo nhiều đề tài nghiên cứu thì :
+* Đối với động cơ :
+Để động cơ còn khả năng hoạt động được thì :
+mà có thể coi =>
+0,8 ; Có thể tính [Ne]=0.85Nemax =>
+Vậy độ tin cậy của động cơ phải thỏa mãn : Rđc 0,68
++ : áp suất cuối kỳ cháy của động cơ ở trạng thái x.
++ : áp suất cuối kỳ cháy của động cơ ở trạng thái nguyên thuỷ
++ : Công suất của động cơ ở trạng thái x.
++ Nemax : Công suất lớn nhất của động cơ.
++ [Ne] : Công suất cho phép của động cơ.
+
+* Đối với hệ thống truyền lực :
++Hiệu suất hệ thống truyền lực xe con hxc= (0,9-0,93)
+=> lấy [hxc]=0,9 => Rhtxc 0,9
++Hiệu suất hệ thống truyền lực xe tải hxt= (0,85-0,89)
+=> lấy [hxt]=0,85=> Rhtxt 0,85
+Coi các phần tử trong hệ thống truyền lực(từ ly hợp đến bánh xe chủ động) có cùng độ tin cậy. Theo sơ đồ cấu trúc có :
+- Đối với xe con :
+Ri= R1 = R2= R3 = R4=> Ri = 0,97
+Rhtxc= R1.R2. R3. R4= =0,9
+= 0,68.0,9 = 0,612
+- Đối với xe tải :
+Ri= R1 = R2= R3 = R4=> Ri = 0,96 =>
+= 0,68.0,85 = 0,578
+2) Lựa chọn thuật toán :
+Phạm vi đề tài là chẩn đoán sâu hệ thống kéo tức là hệ thống truyền lực của ô tô nhưng đối tượng là những hư hỏng của các cụm tổng thành trong hệ thống truyền lực chứ không đi tìm hư hỏng của từng chi tiết.
+Theo phân tích sơ đồ cấu trúc động lực học thì đó chính là hư hỏng các khối 1,2,3... thông qua các hàm truyền và các tác động vào ra.
+Căn cứ vào ưu nhược điểm và phạm vi ứng dụng của thuật toán chẩn đoán đã trình bày ở trên, chọn thuật toán logíc để xây dựng thuật toán chẩn đoán. Theo thuật toán và lý thuyết này thì :
++Nếu gọi X1,X2...Xi+1 là các tác động vào và ra ở trạng thái còn dùng được của khối động lực học thứ i.
++Nếu gọi .. là các tác động vào và ra ở trạng thái không đạt yêu cầu của khối động lực học thứ i.
+Thì : Y là giá trị hàm ra ở trạng thái còn dùng được.
+là giá trị hàm ra ở trạng thái không còn dùng được.
+Ta có đối với hệ thống truyền lực ở trên :
+Y= X1ÙX2ÙX3ÙX4ÙX5
+= ÙÙÙÙ
+Trong đó X1 là tác động vào đầu tiên của hệ thống và được khống chế = const.
+Đối với lý thuyết tập hợp và thuật toán logíc trong chẩn đoán thì :
+- Mệnh đề Y là đúng khi và chỉ khi mọi giá trị Xi+1 đều đúng nghĩa là mọi phần tử đều thoả mãn :
+Xi+1 ³ Xigh
+- Mệnh đề là đúng khi và chỉ khi một trong số các giá trị Xi+1 là đúng. Nghĩa là một trong số Xi+1 £ Xigh
+Trong các chương trước đã xây dựng được quan hệ :
+Xi+1 = Ñi . Xi
+Trong đó : Xi+1 : tác động của cụm phần tử thứ i.
+Xi : Tác động của cụm phần tử thứ 2.
+Ñi : toán tử đặc trưng cho hàm truyền của cụm thứ "i".
+Vậy khi còn dùng được thì : Xi+1 ³Ñi . Ri . Xi
+Với Ri: Xác suất độ tin cậy( Xác suất không hỏng của cụm thứ i)
+=> Ñi . Ri và ngược lại.
+II) Xây dựng ngôn ngữ lập trình chẩn đoán hệ thống kéo của ô tô :
+Qua tham khảo tài liệu về tin học thì việc giải quyết vấn đề nghiên cứu đề tài hợp lý nhất là sử dụng ngôn ngữ lập trình TURBO PASCAL .
+Ta có lưu đồ thuật toán sau :
+
+..................................................
+Sơ đồ cấu trúc động lực học kéo của ô tô và những biến xấu hư hỏng thường gặp.
+
+1) Sơ đồ cấu trúc động lực học và các hàm truyền:
+
+
+
++ 1.Ly hợp; 2.Hộp số; 3.Các đăng; 4.TLC,VS; 5.Bánh xe; 6.Bàn đạp ly hợp.
++ Međc: Mômen xoắn của động cơ.
++ Melh: Mômen xoắn của ly hợp.
++ Mehs: Mômen xoắn của hộp số.
++ Mecđ: Mômen xoắn của các đăng.
++ Meo: Mômen xoắn của truyền lực chính, vi sai.
++ Pbđ: Lực bàn đạp tác dụng lên ly hợp.
++ Pđm: Lực tác dụng lên đòn mở ly hợp.
+1.1) Hệ dẫn động từ động cơ đến ly hợp :
+* Hàm truyền của hệ:
+Melh= Međc.hdc
++ hđc: hiệu suất của động cơ.
+2.1) Hệ dẫn động từ ly hợp đến hộp số :
+* Hàm truyền của hệ:
+Mehs=Melh.ilh.hlh
++ hlh: Hiệu suất của ly hợp.
+3.1) Hệ dẫn động từ hộp số đến các đăng :
+*Hàm truyền của hệ:
+Mecđ=Mehs.hhs.ihs.ip
++ hhs: Hiệu suất của hộp số.
++ ihs : tỷ số truyền của hộp số.
++ip: tỷ số truyền của hộp số phụ( hộp phân phối)
+4.1) Hệ dẫn động từ các đăng đến truyền lực chính, vi sai:
+Hàm truyền của hệ :
+Meo= Mecđ.hcđ
++hcđ: hiệu suất của các đăng.
+5.1) Hệ dẫn động từ TLC,VS đến bánh xe chủ động :
+* Hàm truyền của hệ :
+Mebx=Meo.io.ho
++ho: Hiệu suất của cụm TLC,VS.
++io: tỷ số truyền của cụm TLC,VS.
+
+
+
+S¬ ®å cÊu tróc ®éng lùc häc kÐo cña « t« vµ nh÷ng biÕn xÊu h háng thêng gÆp.
+
+1) S¬ ®å cÊu tróc ®éng lùc häc vµ c¸c hµm truyÒn:
+
+
+
++ 1.Ly hîp; 2.Hép sè; 3.C¸c ®¨ng; 4.TLC,VS; 5.B¸nh xe; 6.Bµn ®¹p ly hîp.
++ Me®c: M«men xo¾n cña ®éng c¬.
++ Melh: M«men xo¾n cña ly hîp.
++ Mehs: M«men xo¾n cña hép sè.
++ Mec®: M«men xo¾n cña c¸c ®¨ng.
++ Meo: M«men xo¾n cña truyÒn lùc chÝnh, vi sai.
++ Pb®: Lùc bµn ®¹p t¸c dông lªn ly hîp.
++ P®m: Lùc t¸c dông lªn ®ßn më ly hîp.
+1.1) HÖ dÉn ®éng tõ ®éng c¬ ®Õn ly hîp :
+* Hµm truyÒn cña hÖ:
+Melh= Me®c.hdc
++ h®c: hiÖu suÊt cña ®éng c¬.
+2.1) HÖ dÉn ®éng tõ ly hîp ®Õn hép sè :
+* Hµm truyÒn cña hÖ:
+Mehs=Melh.ilh.hlh
++ hlh: HiÖu suÊt cña ly hîp.
+3.1) HÖ dÉn ®éng tõ hép sè ®Õn c¸c ®¨ng :
+*Hµm truyÒn cña hÖ:
+Mec®=Mehs.hhs.ihs.ip
++ hhs: HiÖu suÊt cña hép sè.
++ ihs : tû sè truyÒn cña hép sè.
++ip: tû sè truyÒn cña hép sè phô( hép ph©n phèi)
+4.1) HÖ dÉn ®éng tõ c¸c ®¨ng ®Õn truyÒn lùc chÝnh, vi sai:
+Hµm truyÒn cña hÖ :
+Meo= Mec®.hc®
++hc®: hiÖu suÊt cña c¸c ®¨ng.
+5.1) HÖ dÉn ®éng tõ TLC,VS ®Õn b¸nh xe chñ ®éng :
+* Hµm truyÒn cña hÖ :
+Mebx=Meo.io.ho
++ho: HiÖu suÊt cña côm TLC,VS.
++io: tû sè truyÒn cña côm TLC,VS.

@@ -1,0 +1,364 @@
+file lập trình,.... thuyết minh, power point báo cáo, FILE lập trình, Source Code và nhiều tài liệu liên quan kèm theo đồ án ĐIỀU KHIỂN VÀ GIÁM SÁT HỆ THỐNG LƯU KHO HÀNG HÓA
+ĐỀ TÀI: ĐIỀU KHIỂN VÀ GIÁM SÁT HỆ THỐNG LƯU KHO HÀNG HÓA
+NHIỆM VỤ ĐỒ ÁN TỐT NGHIỆP
+Họ và tên :
+Ngành: Kỹ thuật Điện – Điện tử
+1. Tên đề tài : Điều khiển và giám sát hệ thống lưu kho hàng hóa.
+2. Mục tiêu giới hạn:
+Mục tiêu đề tài là điều khiển và giám sát hệ thống lưu kho hàng hóa. Cụ thể là :
+Thiết kế và thi công mô hình hệ thống kho lưu trữ hàng hóa. Sử dụng PLC để lập trình cho mô hình. Giám sát hệ thống bằng phần mềm WinCC. Điều khiển hệ thống bằng tủ điều khiển.
+TÓM TẮT ĐỀ TÀI
+
+Đây là một đề tài nghiên cứu mang tính thực tiễn trong việc vận dụng các kiến thức đã được học dưới mái trường vào trong thực tế.
+Về mặt khoa học, đề tài sẽ giúp cho nhóm sinh viên thực hiện hiểu rõ thêm về cơ cấu và nguyên lý làm việc thực tiễn cũng như phương hướng phát triển của các hệ thống lưu trữ hàng hóa trong thực tế.
+Về mặt thực tiễn, đề tài này có thể áp dụng vào thực tế để tạo ra một hệ thống lưu hàng thật sự với nguyên tắc làm việc giống nhau hoặc tương tự.
+Vậy nên với đề tài “ Điều khiển và giám sát hệ thống lưu kho hàng hóa” nhóm sinh viên thực hiện đề tài đã cố gắng hoàn thành những phần sau :
+Thiết kế và thi công mô hình hệ thống kho lưu trữ hàng hóa. Gồm có :
+ü Thiết kế và thi công nhà kho.
+ü Thiết kế và thi công xe nâng hàng.
+Lắp đặt bộ điều khiển PLC, và kết nối nút nhấn, đèn, công tắc hành trình. Sử dụng PLC để lập trình cho mô hình ở 2 chế độ:
+ü Chế độ điều khiển tự động .
+ü Chế độ điều khiển bằng tay.
+Thiết kế giao diện và điều khiển,giám sát hệ thống lưu kho hàng hóa thông qua phần mềm WINCC.
+
+
+
+ABSTRACT
+This is a practical research topic in application of the knowledge learned at University to reality.
+In scientific terms, the subject will help students have better understandings of the structure and pracitcal principles as well as the development direction of the cargo storage systems in reality. .
+In fact, this subject can be applied to practice to create a real cargo storage system with the same principles.
+Therefore, with the topic "Control and monitor the cargo storage system", our group have made effort to accomplish the following sections:
+• Design and construct the models of cargo storage system. Includes:
+üDesign and construct warehouses.
+üDesign and construct forklifts.
+• Install PLC controller, and connect buttons, lights, switches.
+• Use PLC to program a model in two modes:
+ü Automatic controller mode.
+ü Manual control mode.
+• Design Interface and control, monitor the cargo storage system via WinCC software.
+MỤC LỤC
+
+Trang bìa phụ............................................................................................................... Trang
+Nhiệm vụ đồ án tốt nghiệp. i
+Phiếu nhận xét của giáo viên hướng dẫn. ii
+Phiếu nhận xét của giáo viên phản biện 1. iii
+Phiếu nhận xét của giáo viên phản biện 2. iv
+Lời cảm ơn. v
+Tóm tắt đề tàivi
+Abstractvii
+Mục lục. viii
+Danh mục các chữ viết tắtxi
+Danh mục bảng biểu. xii
+Danh sách hình vẽ. xiii
+CHƯƠNG 1: TỔNG QUAN.. 1
+1.1Vai trò và ứng dụng của hệ thống lưu kho hàng hóa trong công nghiệp. 1
+1.2 Mục đích lựa chọn và ứng dụng của đề tài1
+1.3 Mục tiêu nghiên cứu và phạm vi nghiên cứu. 2
+1.3.1 Mục tiêu nghiên cứu. 2
+1.3.2 Phạm vi nghiên cứu. 2
+1.4 Bố cục về nội dung của đề tài3
+CHƯƠNG 2: CƠ SỞ LÝ THUYẾT.. 4
+2.1 Giới thiệu hệ thống lưu kho hàng hóa. 4
+2.1.1 Các hệ thống lưu kho hàng hóa. 4
+2.1.2 Cấu trúc của hệ thống lưu kho hàng hóa. 7
+2.2 Giới thiệu PLC S7-200. 8
+2.2.1 Đặc điểm của bộ điều khiển lập trình. 8
+2.2.2 Sơ lược lịch sử phát triển. 11
+2.2.3 Cấu trúc và nghiên cứu hoạt động của một PLC.. 12
+2.2.4 Các ưu điểm khi sử dụng hệ thống điều khiển với PLC.. 16
+2.2.5 Ứng dụng của PLC trong sản xuất17
+2.2.6 So sánh hệ điều khiển PLC với các hệ điều khiển khác. 18
+2.3 Hệ thống khí nén. 19
+2.3.1 Khả năng ứng dụng của khí nén. 19
+2.3.2 Các phần tử của hệ thống khí nén. 20
+2.3.3 Cơ cấu chấp hành. 25
+2.4 Tìm hiểu động cơ DC, Rơle nhiệt31
+2.4.1 Động cơ DC.. 31
+2.4.2 Rơle nhiệt32
+CHƯƠNG 3: THIẾT KẾ VÀ THI CÔNG MÔ HÌNH.34
+3.1 Yêu cầu của hệ thống. 34
+3.2 Sơ đồ khối của hệ thống. 34
+3.3 Thiết kế và thi công phần cơ khí35
+3.3.1 Thiết kế kho lưu trữ hàng. 35
+3.3.2 Thiết kế mô hình xe nâng. 37
+3.4 Thiết kế và thi công phần điện. 44
+3.4.1 Thiết bị điều khiển PLC S7-200. 44
+3.4.2.Động cơ DC.. 49
+3.4.3 Công tắc hành trình. 50
+3.4.4 Thiết bị khí nén. 52
+3.4.5 Rơle nhiệt55
+3.4.6 Bảng điều khiển. 56
+3.5 Sơ đồ kết nối hệ thống. 56
+3.5.1 Sơ đồ kết nối nguồn cho hệ thống. 57
+3.5.2 Sơ đồ kết nối PLC.. 57
+3.6 Kết quả mô hình. 61
+3.7 Lưu đồ giải thuật của hệ thống lưu kho hàng hóa. 62
+3.7.1 Lưu đồ giải thuật điều khiển hệ thống bằng tay (Manual). 63
+3.7.2 Lưu đồ giải thuật điều khiển tự động (AUTO). 65
+CHƯƠNG 4: ĐIỀU KHIỂN VÀ GIÁM SÁT.. 66
+4.1 Yêu cầu điều khiển và giám sát trên máy tính. 66
+4.2 Giới thiệu phần mềm WinCC.. 66
+4.2.1 Chức năng của WinCC.. 68
+4.2.2 Ưu điểm của WinCC.. 69
+4.3 Thiết kế giao diện cụ thể. 71
+4.4 Kết quả. 72
+4.4.1 Kết quả mô hình. 72
+4.4.2 Qui trình hoạt động của mô hình. 74
+4.4.3 Giám sát hệ thống. 74
+CHƯƠNG 5: KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN CỦA ĐỀ TÀI. 75
+5.1 Kết luận. 75
+5.1.1 Kết quả đạt được. 75
+5.1.2 Hạn chế và cách khắc phục. 75
+5.2 Hướng phát triển của đề tài76
+TÀI LIỆU THAM KHẢO.. 77
+
+
+
+DANH MỤC CÁC CHỮ VIẾT TẮT
+
+PLC : Programmable Logic Controller.
+WinCC : Windows Control Center.
+PC : Programmable Controller.
+PBS : Programmable Binary Systems.
+CPU : Central Processing Unit.
+ROM : Read Only Memory.
+RAM : Random Access Memory.
+EEPROM : Electrically EPROM.
+
+
+DANH MỤC BẢNG BIỂU
+
+Bảng 2.1 : Tốc độ truyền của PLC.
+Bảng 2.2 : Chức năng các chân của cổng truyền thông.
+Bảng 3.1 : Các thiết bị vào.
+Bảng 3.2 : Các thiết bị ra.
+Bảng 3.3 : Địa chỉ ngõ vào của hệ thống.
+Bảng 3.4 : Địa chỉ ngõ ra của hệ thống.
+
+DANH SÁCH HÌNH VẼ
+
+Hình 2.1 : Mô hình xếp chồng.
+Hình 2.2 : Mô hình kho chứa xe ô tô tự động hóa.
+Hinh 2.3: Mô hình kho chứa xe tự động hóa dạng ngầm.
+Hình 2.4 : Mô hình kho chứa xe dạng tròn.
+Hình 2.5: Sơ đồ cấu trúc bên trong của PLC
+Hình 2.6 : Sơ đồ khối tổng quát CPU.
+Hình 2.7: Cấu tạo máy nén khí kiểu piston.
+Hình 2.8: Cấu tạo bên trong của máy nén khí kiểu cánh gạt.
+Hình 2.9 : Cấu tạo của máy nén khí kiểu trục vít.
+Hình 2.10 : Cấu tạo máy nén khí kiểu ly tâm.
+Hình 2.11 : Sơ đồ hệ thống khí nén trong công nghiệp.
+Hình 2.12: Hệ thống khí nén sử dụng trong công nghiệp.
+Hình 2.13 : Cấu tạo bên trong của xi lanh thủy lực.
+Hình 2.14: Xilanh tác dụng đơn và cấu tạo.
+Hình2.15 : Cấu tạo bên trong xilanh kép.
+Hình 2.16 : Xilanh nhiều tầng.
+Hình 2.17 : Xy lanh ghép gu-rông.
+Hình 2.18 : Xilanh quay.
+Hình 2.19 : Xilanh quay.
+Hình 2.20 : Các loại van đảo chiều
+Hình 2.21: Sơ đồ nguyên lý cấu tạo động cơ DC.
+Hình 2.22 : Sơ đồ kết nối đảo chiều quay của động cơ DC.
+Hình 2.23: Rơle
+Hình 2.24 : Sơ đồ khối của rơle điện từ.
+Hình 3.1 : Sơ đồ khối của hệ thống.
+Hình 3.2 : Mô hình nhà kho.
+Hình 3.3 : Giá đỡ khung xe.
+Hình 3.4 : Hệ thống chuyển động tịnh tiến lên xuống.
+Hình 3.5: Hệ thống nâng hàng vào ra ô chứa hàng.
+Hình 3.6: Hệ thống valve điều khiển các xi lanh trong hệ thống.
+Hình 3.7 : CPU 226
+Hình 3.8 : Module mở rộng EM 221.
+Hình 3.9 : Cấu tạo động cơ DC có hộp giảm tốc sử dụng trong đề tài.
+Hình 3.10 : Động cơ DC 12V có giảm tốc
+Hình 3.11 : Các công tắc hành trình.
+Hình 3.12: Xi lanh đẩy,kéo hàng vào ra.
+Hình 3.13: Xi lanh dùng để nâng hạ hàng.
+Hình 3.14 : Van 5/2 và cấu tạo.
+Hình 3.15 Trạng thái ổn định van 5/2 được thiết lập bởi tín hiệu 12.
+Hình 3.16 : Trạng thái ổn định van 5/2 được thiết lập bởi tín hiệu 14.
+Hình 3.17 : Ví dụ về ứng dụng van đảo chiều 5/2- xung
+Hình 3.18 : rơle nhiệt.
+Hình 3.19 : Sơ đồ kết nối nguồn.
+Hình 3.20: Sơ đồ kết nối các thiết bị với CPU.
+Hình 3.21 : Mô hình hệ thống lưu kho hàng hóa hoàn chỉnh.
+Hình 3.22 : Lưu đồ giải thuật điều khiển hệ thống bằng tay.
+Hình 3.23 Lưu đồ giải thuật điều khiển hệ thống tự động.
+Hình 4.1 : Màn hình thiế kế giao diện điều khiển trên phần mềm WinCC.
+Hình 4.2 : Giao diện điều khiển và giám sát mô hình.
+Hình 4.3 : Mô hình hoàn chỉnh của hệ thống.
+Hình 4.4 : Giao diện SCADA điều khiển giám sát.
+
+CHƯƠNG 1: TỔNG QUAN
+1.1 Vai trò và ứng dụng của hệ thống lưu kho hàng hóa trong công nghiệp:
+Hiện nay đất nước ta đang hội nhập vào sự phát triển chung của nền kinh tế thế giới bằng nền sản xuất đa dạng và đầy tiềm năng, nền kinh tế đã và đang phát triển này không chỉ đòi hỏi số lượng về nguồn nhân lực, nhân công khổng lồ, mà còn yêu cầu về trình độ tay nghề, kỹ thuật lao động và thiết bị sản xuất. Trên đà phát triển đó vấn đề tự động hóa trong sản xuất, trong các hoạt động sinh hoạt hằng ngày của con người đã trở thành nhu cầu cần thiết. Ngày nay với sự xuất hiện của các Chip điện tử, PLC, máy tính, CNC…Cùng với việc sử dụng rộng rãi của nó đã thúc đẩy sự phát triển của tự động hóa lên một bước cao hơn.
+Cùng với sự phát triển của đất nước các loại hàng hóa ngày càng nhiều được sử dụng khá phổ biến, chính vì vậy việc xây dựng kho lưu trữ hàng hóa là cần thiết, nhất là ở các Siêu Thị,Cảng lớn,hay các nhà máy sản xuất… Nhưng với diện tích đất ngày càng bị thu hẹp thì việc xây dựng kho lưu trữ hàng hóa có diện tích lớn là việc gây khó giải quyết.
+Chính vì vậy, với sự phát triển của công nghệ hiện đại thì việc khó khăn đó được giải quyết dễ dàng. Đó là việc xây dựng các kho lưu trữ hàng hóa theo dạng tầng (hay còn gọi là dạng chung cư), một việc làm hoàn toàn có thể, phù hợp với sự phát triển của đô thị hiện đại, giúp giảm được diện tích xây dựng.
+1.2 Mục đích lựa chọn và ứng dụng của đề tài
+Mục đích trước hết của đề tài này là hoàn tất chương trình môn học để đủ điều kiện ra trường. Cụ thể là khi thực hiện đề tài này chúng em muốn phát huy những thành quả ứng dụng của PLC nhằm tạo ra những sản phẩm, thiết bị tiên tiến hơn và đạt được hiệu quả cao hơn trong quá trình sản xuất.
+Mặt khác đồ án này cũng có thể giúp những sinh viên khóa sau phát triển mô hinh cao hơn chúng em thực hiện.
+Ngoài ra quá trình nghiên cứu thực hiện đề tài, là để ứng dụng vào đời sống sản xuất của xã hội.
+Và đây cũng là cơ hội để chúng em tự kiểm tra lại những kiến thức đã học tại trường, nâng cao trình độ chuyên môn trong quá trình nghiên cứu, thi công mô hình, đồng thời phát huy tính sáng tạo, khả năng làm việc nhóm, cũng như khả năng giải quyết vần đề theo yêu cầu đặt ra. Đây cũng là dịp chúng em khẳng định mình trước khi ra trường tham gia các hoạt động xã hội.
+1.3Mục tiêu nghiên cứu và phạm vi nghiên cứu:
+1.3.1 Mục tiêu nghiên cứu:
+Đây là một đề tài nghiên cứu mang tính thực tiễn trong việc vận dụng các kiến thức đã được học dưới mái trường vào trong thực tế.
+Về mặt khoa học, đề tài sẽ giúp cho nhóm sinh viên thực hiện hiểu rõ thêm về cơ cấu và nguyên lý làm việc thực tiễn cũng như phương hướng phát triển của các hệ thống lưu trữ hàng hóa trong thực tế.
+Về mặt thực tiễn, đề tài này có thể áp dụng vào thực tế để tạo ra một hệ thống lưu hàng thật sự với nguyên tắc làm việc giống nhau hoặc tương tự.
+Vậy nên đề tài “ Điều khiển và giám sát hệ thống lưu kho hàng hóa” bao gồm những mục tiêu sau:
+Thiết kế và thi công mô hình hệ thống kho lưu trữ hàng hóa. Sử dụng PLC để lập trình cho mô hình. Điều khiển giám sát hệ thống bằng phần mềm. Điều khiển hệ thống bằng tủ điều khiển.
+1.3.2 Phạm vi nghiên cứu:
+Với thời gian tám tuần thực hiện đề tài, cũng như trình độ chuyên môn có hạn, nhóm đã cố hết sức thực hiện đề tài này và đã giải quyết được một số vấn đề sau:
+Hoàn thành tập đồ án. Thiết kế hoàn chỉnh mô hình lưu kho hàng hóa tự động bao gồm:
+ü Mô hình nhà kho.
+ü Cơ cấu chuyển động lên xuống.
+ü Cơ cấu chuyển động tịnh tiến.
+ü Cơ cấu nâng hàng.
+Hoàn thành bộ điều khiển động cơ bằng relay. Lắp đặt bộ điều khiển PLC, và kết nối nút nhấn, đèn, công tắc hành trình. Lập trình cho PLC hoạt động ở 2 chế độ:
+ü Chế độ điều khiển theo tầng.
+ü Chế độ auto.
+Giám sát hệ thống lưu kho hàng hóa thông qua phần mềm WINCC
+1.4 Bố cục về nội dung của đề tài:
+Chương 1: Tổng quan
+Trong chương này, sinh viên thực hiện sẽ nêu những khái niệm tổng quan trong đề tài về ý tưởng, lý do lựa chọn cũng như hướng giải quyết vấn đề. Để từ đó đề ra nhiệm vụ cho những phần sau.
+Chương 2: Cơ sở lý thuyết của đề tài.
+Trong chương này, nhóm sẽ trình bày những lý thuyết liên quan đến đề tài như: PLC S7-200, Phần mềm lập trình Microwin,WinCC 7.0, động cơ DC, các thiết bị khí nén,…
+Chương 3: Thiết kế và thi công mô hình.
+Trong chương này, nhóm sẽ trình bày về phần cứng của mô hình lưu kho hàng hóa. Phân tích yêu cầu của hệ thống, đưa ra sơ đồ thiết kế sơ bộ của mô hình từ đó tiến hành lựa chọn các thiết bị tương ứng, kết hợp các yếu tố đưa ra thiết kế hoàn chỉnh nhất cho mô hình.
+Chương 4: Điều khiển và giám sát mô hình.
+Từ mô hình và các phân tích yêu cầu của hệ thống trong chương 3, nội dung chính chương 4 là nêu lên yêu cầu cần điều khiển và giám sát trên máy tính, giới thiệu phần mềm WinCC, Thiết kế giao diện cụ thể.
+Chương 5: Kết quả thực hiện.
+Nội dung chương 5 tổng hợp các kết quả sau khi hoàn thành việc kết hợp mô hình và giao diện điều khiển giám sát.Trình bày cụ thể các kết quả khi vận hành mô hình, các kết quả trên màn hình máy tính, nhận xét đánh giá các kết quả thu được,...
+Chương 6: Kết luận và hướng phát triển.
+Nhận xét đánh giá kết quả nhận được sau khi hoàn thành đề tài, từ đó đưa ra các phương án phát triển và hoàn thiện về mô hình cũng như giao diện điều khiển, giám sát nhằm hướng tới tối ưu hệ thống trong tương lai, đó chính là nội dung và nhiệm vụ của chương này.
+
+CHƯƠNG 2: CƠ SỞ LÝ THUYẾT
+
+2.1 Giới thiệu hệ thống lưu kho hàng hóa:
+2.1.1 Các hệ thống lưu kho hàng hóa:
+vMô hình xếp chồng (Auto Stacker):
+Mô hình này sử dụng một hệ thống thủy lực để nâng tối đa 4 thùng hàng xếp cạnh nhau lên một tầng cao để dành chỗ cho 4 thùng hàng khác ở bên dưới.Tuy nhiên, giải pháp này chỉ phù hợp với qui mô nhỏ, hiệu quả kinh tế không cao.
+Hình 1.1: Mô hình xếp chồng.
+v Mô hình kho hàng tự động hoá (Above ground Automated Parking):
+Mô hình này là một bước cải tiến so với 2 mô hình trên,sức chứa có thể tăng gấp nhiều lần so với mô hình xếp chồng. Bố trí các hàng hóa sát nhau và thu hẹp khoảng cách giữa các tầng, các khâu nhận bảo quản và trả hàng hoàn toàn được tự động hóa,với sự trợ giúp của công nghệ hiện đại việc điều khiển, giám sát kho lưu trữ hàng hóa tự động được thực hiện khá dễ dàng.
+
+Hình 1.2: Mô hình kho chứa xe ô tô tự động hóa.
+vMô hình kholưu trữ hàng hóa tự động hoá dạng ngầm (Underground Automated Parking):
+Có cấu trúc tương tự mô hình kho lưu trữ hàng tự động hoá nhưng đươc thiết kế dạng ngầm dưới đất. Do đó ở mô hình này có thể tiết kiệm không gian nhưng thi công tương đối khó khăn.
+Hinh 1.3: Mô hình kho chứa xe tự động hóa dạng ngầm.
+
+
+
+vMô hình kho lưu trữ hàng hóa tự động hóa dạng tròn:
+Mô hình này là một trong những bước phát triển lớn của mô hình kho lưu trữ hàng tự động hóa, hàng được xếp thành nhiều tầng và những ô hay vị trí nâng hàng được xếp theo dạng vòng tròn, mức độ hiện đại cao hơn so với những mô hình trước, dùng sử dụng cho các kho có số lượng hàng lớn có mức độ hàng hóa tương đối cao,ở mô hình kho lưu trữ hàng hóa tự động dạng tròn có những ưu điểm đó là số lượng hàng hóa gửi vào tương đối lớn,mức độ tự động hóa cao,việc điều khiển giám sát dễ dàng.
+Hình 1.4: Mô hình kho chứa xe dạng tròn.
+2.1.2 Cấu trúc của hệ thống lưu kho hàng hóa:
+Cấu trúc của một hệ thống lưu kho hàng hóa gồm có 2 phần:
+Nhà kho chứa hàng Xe nâng hàng
+Xe nâng hàng được kết nối với thiết bị lập trình và các thiết bị điều khiển khác để vận hành đưa hàng tới các vị trí trong nhà kho.
+2.2 Giới thiệu PLC S7-200:
+PLC (Programmable Logic Controller) là thiết bị điều khiển lập trình được thiết kế chuyên dùng trong công nghiệp để điều khiển các tiến trình xử lý từ đơn
+giản đến phức tạp, tùy thuộc vào người điều khiển mà nó có thể thực hiện một loạt các chương trình hoặc sự kiện, sự kiện này được kích hoặc bởi các tác nhân kích thích (hay còn gọi là ngõ vào) tác động vào PLC hoặc qua các bộ định thì (Timer) hay các sự kiện được đếm qua bộ đếm. Khi một sự kiện được kích hoặc nó sẽ bật ON, OFF hoặc phát một chuỗi xung ra các thiết bị bên ngoài được gắn vào ngõ ra của PLC. Như vậy nếu ta thay đổi các chương trình được cài đặt trong PLC là ta có thể thực hiện các chức năng khác nhau, trong các môi trường điều khiển khác nhau.
+Hiện nay PLC đã được nhiều hãng khác nhau sản xuất như: Siemens, Omron, Mitsubishi, Festo, Alan Bradley, Schneider, Hitachi v.v…Mặt khác ngoài PLC cũng đã bổ sung thêm các thiết bị mở rộng khác như: Các cổng mở rộng AI (Analog Input), DI (Digital Input), các thiết bị hiển thị, các bộ nhớ Cartridge thêm vào.
+2.2.1 Đặc điểm của bộ điều khiển lập trình:
+Nhu cầu về một bộ điều khiển dễ sử dụng, linh hoặc và có giá thành thấp đã thúc đẩy sự phát triển những hệ thống điều khiển lập trình (programmable-control systems) – hệ thống sử dụng CPU và bộ nhớ để điều khiển máy móc hay quá trình hoặc động. Trong bối cảnh đó, bộ điều khiển lập trình (PLC – Programmable Logic Controller) được thiết kế nhằm thay thế phương pháp điều khiển truyền thống dùng rơ-le và thiết bị rời cồng kềnh, và nó tạo ra một khả năng điều khiển thiết bị dễ dàng và linh hoặc dựa trên việc lập trình trên các lệnh logic cơ bản. Ngoài ra, PLC còn có thể thực hiện những tác vụ khác như định thì, đếm v.v… làm tăng khả năng điều khiển cho những hoặc động phức tạp, ngay cả với loại PLC nhỏ nhất.
+Hoạt động của PLC là kiểm tra tất cả các trạng thái tín hiệu ở ngõ vào, được đưa về từ quá trình điều khiển, thực hiện logic được lập trong chương trình và kích ra tín hiệu điều khiển cho thiết bị bên ngoài tương ứng. Với các mạch giao tiếp chuẩn ở khối vào và khối ra của PLC cho phép nó kết nối trực tiếp đến những cơ cấu tác động (actuators) có công suất nhỏ ở ngõ ra và những mạch chuyển đổi tín hiệu (transducers) ở ngõ vào, mà không cần có các mạch giao tiếp hay rơ-le trung gian. Tuy nhiên, cần phải có mạch điện tử công suất trung gian khi PLC điều khiển những thiết bị có công suất lớn.
+Việc sử dụng PLC cho phép chúng ta hiệu chỉnh hệ thống điều khiển mà không cần có sự thay đổi nào về mặt kết nối dây; sự thay đổi chỉ là thay đổi chương trình điều khiển trong bộ nhớ thông qua thiết bị lập trình chuyên dùng. Hơn nữa, chúng còn có ưu điểm là thời gian lắp đặt và đưa vào hoặc động nhanh hơn so với những hệ thống điều khiển truyền thống mà đòi hỏi cần phải thực hiện việc nối dây phức tạp giữa các thiết bị rời.
+Về phần cứng, PLC tương tự như máy tính “truyền thống”, và chúng có các đặc điểm thích hợp cho mục đích điều khiển trong công nghiệp.
+Khả năng kháng nhiễu tốt. Cấu trúc dạng modul cho phép dễ dàng thay thế, tăng khả năng (nối thêm modul mở rộng vào/ra) và thêm chức năng (nối thêm modul chuyên dùng). Việc kết nối dây và mức điện áp tín hiệu ở ngõ vào và ngõ ra được chuẩn hóa. Ngôn ngữ lập trình chuyên dùng – ladder, instruction và function chart – dễ hiểu và dễ sử dụng. Thay đổi chương trình điều khiển dễ dàng.
+Những đặc điểm trên làm cho PLC được sử dụng nhiều trong việc điều khiển
+v Khái niệm cơ bản:
+Bộ điều khiển lập trình là ý tưởng của một nhóm kỹ sư hãng Ganeral Motors vào năm 1968, và họ đã đề ra các chỉ tiêu kỹ thuật nhằm đáp ứng những yêu cầu điều khiển trong công nghiệp:
+Dễ lập trình và thay đổi chương trình điều khiển, sử dụng thích hợp trong nhà máy. Cấu trúc dạng module để dễ dàng bảo trì và sửa chữa. Tin cậy hơn trong môi trường sản xuất của nhà máy công nghiệp. Dùng linh kiện bán dẫn nên có kích thước nhỏ hơn mạch rơ-le chức năng tương đương. Giá thành cạnh tranh.
+Những chỉ tiêu này tạo sự quan tâm của các kỹ sư thuộc nhiều ngành nghiên cứu về khả năng ứng dụng của PLC trong công nghiệp. Các kết quả nghiên cứu đã đưa ra thêm một số yêu cầu cần phải có trong chức năng của PLC: tập lệnh từ các lệnh logic đơn giản được hỗ trợ thêm các lệnh về tác vụ định thì, tác vụ đếm; sau đó là các lệnh xử lý toán học, xử lý bằng dữ liệu, xử lý xung tốc độ cao, tính toán số liệu số thực 32 bit, xử lý thời gian thực, đọc mã vạch, v.v… Song song đó, sự phát triển về phần cứng cũng đạt được nhiều kết quả: bộ nhớ lớn hơn, số lượng ngõ vào/ra nhiều hơn, nhiều modul chuyên dùng hơn. Vào năm 1976, PLC có khả năng điều khiển các ngõ vào/ra ở xa bằng kỹ thuật truyền thông, khoảng 200m.
+Sự gia tăng những ứng dụng PLC trong công nghiệp đã thúc đẩy các nhà sản xuất hoàn chỉnh các họ PLC với các mức độ khác nhau về khả năng, tốc độ xử lý và hiệu suất. Các họ PLC phát triển từ loại làm việc độc lập, chỉ với 20 ngõ vào/ra và dung lượng bộ nhớ chương trình 500 bước, đến các PLC có cấu trúc module nhằm dễ dàng mở rông thêm khả năng và chức năng chuyên dùng:
+Xử lý tín hiệu liên tục (analog). Điều khiển động cơ servo, động cơ bước. Truyền thông. Số lượng ngõ vào/ra Bộ nhớ mở rộng.
+Với cấu trúc dạng module cho phép chúng ta mở rộng hay nâng cấp một hệ thống điều khiển dùng PLC với chi phí và công suất thấp nhất.
+v PC hay PLC:
+Có một số thuật ngữ dùng để mô tả bộ điều khiển lập trình:
+PC Programmable Controller (Anh) PLC Programmable Logic Controller (Mỹ) PBS Programmable Binary Systems (Thụy Điển)
+Hai thuật ngữ sau đều thể hiện bộ điều khiển lập trình làm việc với tín hiệu nhị phân. Trong thực tế, tất cả bộ điều khiển trừ bộ điều khiển loại nhỏ đều có khả năng xử lý tín hiệu analog, nên các thuật ngữ đó không nói lên được hết khả năng của bộ điều khiển lập trình. Vì lý do này và một số lý do khác mà thuật ngữ Programmable Controller, viết tắt là PC, thể hiện ý nghĩa tổng quát nhất về bộ điều khiển lập trình. Tuy nhiên, để tránh sự hiểu lầm với thuật ngữ máy vi tính cá nhân ‘PC’ thì PLC thường được dùng thay cho PC.
+2.2.2 Sơ lược lịch sử phát triển:
+Thiết bị điều khiển lập trình đầu tiên (Programmable Controller) đã được những nhà thiết kế cho ra đời năm 1968 (công ty General Motor Mỹ). Tuy nhiên, hệ thống này còn khá đơn giản và cồng kềnh, người sử dụng gặp nhiều khó khăn trong việc vận hành hệ thống. Vì vậy các nhà thiết kế từng bước cải tiến hệ thống làm cho hệ thống đơn giản, gọn nhẹ, dễ vận hành, nhưng việc lập trình cho hệ thống còn khó khăn, do lúc này không có các thiết bị lập trình ngoại vi hổ trợ cho công việc lập trình.
+Để đơn giản hóa việc lập trình, hệ thống điều khiển lập trình cầm tay (Programmable Controller Handle) đầu tiên được ra đời vào năm 1969. Điều này đã tạo ra được một sự phát triển thực sự cho kỹ thuật điều khiển lập trình. Trong giai đoạn này các hệ thống điều khiển lập trình (PLC) chỉ đơn giản nhằm thay thế hệ thống Relay và dây nối trong hệ thống điều khiển cổ điển. Qua quá trình vận hành, các nhà thiết kế đã từng bước tạo ra được một tiêu chuẩn mới cho hệ thống, tiêu chuẩn đó là: Dạng lập trình dùng giản đồ hình thang (The Diagram Format). Trong những năm đầu thập niên 1970, những hệ thống PLC còn có thêm khả năng vận hành với những thuật toán hỗ trợ (arithmetic), “vận hành với các dữ liệu cập nhật” (data manipulation). Do sự phát triển của loại màn hình dùng cho máy tính (Cathode Ray Tube: CRT), nên việc giao tiếp giữa người điều khiển để lập trình cho hệ thống càng trở nên thuận tiện hơn.
+Sự phát triển của hệ thống phần cứng và phần mềm từ năm 1975 cho đến nay đã làm cho hệ thống PLC phát triển mạnh hơn với các chức năng mở rộng: Hệ thống ngõ vào/ra có thể tăng lên đến 8000 cổng vào/ra, dung lượng bộ nhớ chương trình tăng lên hơn 128000 từ bộ nhớ (word of memory) có thể gắn thêm nhiều Module bộ nhớ để có thểtăng thêm kích thước chương trình. Ngoài ra các nhà thiết kế còn tạo ra kỹ thật kết nối với các hệ thống PLC riêng lẽ thành một hệ thống PLC chung, kết nối với các hệ thống máy tính, tăng khả năng điều khiển của từng hệ thống riêng lẽ. Tốc độ xử lý của hệ thống được cải thiện, chu kỳ quét (scan) nhanh hơn làm cho hệ thống PLC xử lý tốt với những chức năng phức tạp, số lượng cổng ra/vào lớn. Một số thuật toán cơ bản dùng cho điều khiển cũng được tích hợp vào phần cứng như điều khiển PID (cho điều khiển nhiệt độ, cho điều khiển tốc độ động cơ, cho điều khiển vị trí), điều khiển mờ, lọc nhiễu ở tín hiệu đầu vào...vv
+Trong tương lai hệ thống PLC không chỉ giao tiếp với các hệ thống khác thông qua CIM (Computer Integrated Manufacturing) để điều khiển các hệ thống: Robot, Cad/Cam, … Ngoài ra các nhà thiết kế còn đang xây dựng các loại PLC với các chức năng điều khiển “thông minh” (intelligence) còn gọi là các siêu PLC (super PLC) cho tương lai.
+2.2.3 Cấu trúc và nghiên cứu hoạt động của một PLC:
+vCấu trúc:
+Một hệ thống lập trình cơ bản phải gồm có hai phần: khối xử lý trung tâm (CPU: Central Processing Unit) và hệ thống giao tiếp vào/ra (I/O).
+Trong đó:
+Thiết bị đầu vào gồm các thiết bị tạo ra tín hiệu điều khiển như nút nhấn, cảm biến, công tắc hành trình. Input, Output các cổng nối phía đầu vào ra của PLC hay các của các Module mở rộng Cơ cấu chấp hành: gồm các thiết bị được điều khiển như: chuông, đèn, contactor, động cơ, van khí nén, heater, máy bơm, LED hiển thị...vv
+
+Hình 2.5: Sơ đồ cấu trúc bên trong của PLC
+Chương trình điều khiển: định ra quy luật thay đổi tín hiệu Output đầu ra theo tín hiệu Input đầu vào như mong muốn. Các chương trình điều khiển được tạo ra bằng cách sử dụng bộ lập trình chuyên dụng cầm tay (Hand-hold programmer PG).
+Khối điều khiển trung tâm (CPU: Central Processing Unit) gồm ba phần: bộ xử lý, hệ thống bộ nhớ và hệ thống nguồn cung cấp.
+Hình 2.6: Sơ đồ khối tổng quát CPU.
+vHoạt động của một PLC:
+Về cơ bản hoặc động của một PLC cũng khá đơn giản. Đầu tiên, hệ thống các cổng vào/ra (Input/Output) (còn gọi là các Module xuất/nhập) dùng để đưa các tín hiệu từ các thiết bị ngoại vi vào CPU (như các sensor, contact, tín hiệu từ động cơ …). Sau khi nhận được tín hiệu ở ngõ vào thì CPU sẽ xử lý và đưa các tín hiệu điều khiển qua Module xuất ra các thiết bị được điều khiển.
+Trong suốt quá trình hoặc động, CPU đọc hoặc quét (scan) dữ liệu hoặc trạng thái của các thiết bị ngoại vi thông qua ngõ vào, sau đó thực hiện các chương trình trong bộ nhớ như sau: một bộ đếm chương trình sẽ nhận lệnh từ bộ nhớ chương trình đưa ra thanh ghi lệnh để thi hành. Chương trình ở dạng STL (Statement List – Dạng lệnh liệt kê) hay ở dạng LADDER (dạng hình thang) sẽ được dịch ra ngôn ngữ máy cất trong bộ nhớ chương trình. Sau khi thực hiện xong chương trình,sau đó là truyền thông nội bộ và kiểm tra lỗi sau đó CPU sẽ gởi hoặc cập nhật (update) tín hiệu tới các thiết bị, được điều khiển thông qua Module xuất. Một chu kỳ gồm đọc tín hiệu ở ngõ vào, thực hiện chương trình,truyền thông nội và tự kiểm tra lỗivà gởi cập nhật tín hiệu ở ngõ ra được gọi là một chu kỳ quét (Scanning).
+Như vậy tại thời điểm thực hiện lệnh vào/ra thì lệnh không xử lý trực tiếp với cổng vào ra mà sẽ xử lý thông qua bộ nhớ đệm. Nếu có sử dụng ngắt thì chương trình con tương ứng với từng tín hiệu ngắt sẽ được soạn thảo và cài đặt như một bộ phận chương trình. Chương trình ngắt chỉ thực hiện trong vòng quét khi xuất hiện tín hiệu ngắt và có thể xảy ra ở bất kì điểm nào trong vòng quét Trên đây chỉ là mô tả hoặc động đơn giản của một PLC, với hoặc động này sẽ giúp cho người thiết kế nắm được nguyên tắc của một PLC. Nhằm cụ thể hóa hoặc động của một PLC, sơ đồ hoạt động của một PLC là một vòng quét (scan) như sau:
+Chuyển dữ liệu từ bộ đệm ảo ra ngoại vi
+Truyền thông và kiểm tra lỗi
+Chuyển dữ liệu từ bộ đệm ảo ra ngoại vi
+Chuyển dữ liệu từ bộ đệm ảo ra ngoại vi
+
+Thực tế khi PLC thực hiện chương trình (Program Execution), PLC khi cập nhật tín hệ ngõ vào (ON/OFF), các tín hiệu này không được truy xuất tức thời để đưa ra (Update) ở ngõ ra mà quá trình cập nhật tín hiệu ở ngõ ra (ON/OFF) phải theo hai bước: khi xử lý thực hiện chương trình, vi xử lý sẽ chuyển đổi các mức logic tương ứng ở ngõ ra trong “chương trình nội” (đã được lập trình), các mức logic này sẽ chuyển đổi ON/OFF.Tuy nhiên lúc này các tín hiệu ở ngõ ra “thật” (tức tín hiệu được đưa ra tại Module out) vẫn chưa được đưa ra. Khi xử lý kết thúc chương trình xử lý, việc chuyển đổi các mức logic (của các tiếp điểm) đã hoàn thành thì việc cập nhật các tín hiệu ở ngõ ra mới thực sự tác động lên ngõ ra để điều khiển các thiết bị ở ngõ ra.
+Thường việc thực thi một vòng quét xảy ra với thời gian rất ngắn, một vòng quét đơn (single scan) có thời gian thực hiện một vòng quét từ 1ms tới 100ms. Việc thực hiện một chu kỳ quét dài hay ngắn còn phụ thuộc vào độ dài của chương trình và cả mức độ giao tiếp giữa PLC với các thiết bị ngoại vi (màn hình hiển thị…). Vi xử lý chỉ có đọc được tín hiệu ở ngõ vào chỉ khi nào tín hiệu này tác động với khoảng thời gian lớn hơn một chu kỳ quét. Nếu thời gian tác động ở ngõ vào nhỏ hơn một chu kỳ quét thì vi xử lý xem như không có tín hiệu này. Tuy nhiên trong thực tế sản xuất, thường các hệ thống chấp hành là các hệ thống cơ khí nên tốc độ quét như trên có thể đáp ứng được các chức năng của dây chuyền sản xuất. Để khắc phục khoảng thời gian quét dài, ảnh hưởng đến chu trình sản xuất, các nhà thiết kế còn thiết kế hệ thống PLC cập nhật tức thời, dùng bộ đếm tốc độ cao (High Speed Counter) các hệ thống này thường được áp dụng cho các PLC lớn có số lượng I/O nhiều, truy cập và xử lý lượng thông tin lớn.
+2.2.3.1 Cổng truyền thông:
+S7-200 sử dụng cổng truyền thông nối tiếp có 9 chân để phục vụ cho việc ghép nối với thiết bị lập trình hoặc với các trạm PLC khác. Tốc độ truyền tự do của PLC là 300 đến 38400 được set trong thanh ghi đặc biệt SM 30.2 đến SM 30.4.
+
+
+Bảng 2.1: Tốc độ truyền của PLC.
+Bảng 2.2: Chức năng các chân của cổng truyền thông.
+Chân Chức năng 1 và 5 Nối mass 3 và 8 Truyền nhận dữ liệu 4 và 9 Không sử dụng 6 Nối với nguồn 5VDC có điện trở trong là 100Ω 2 và 7 Nối với nguồn 24VDC dòng tối đa là 120mA
+
+2.2.4 Các ưu điểm khi sử dụng hệ thống điều khiển với PLC:
+Cùng với sự phát triển của phần cứng và phần mềm, PLC ngày càng tăng được các tính năng cũng như lợi ích của PLC trong hoạt động công nghiệp. Kích thước của PLC hiện nay được thu nhỏ lại để bộ nhớ và số lượng I/O càng nhiều hơn, các ứng dụng của PLC càng mạnh hơn giúp người sử dụng giải quyết được nhiều vấn đề phức tạp trong điều khiển hệ thống. Ưu điểm đầu tiên của PLC là hệ thống điều khiển chỉ cần lắp dặt một lần (đối với sơ đồ hệ thống, các đường nối dây, các tín hiệu ở ngõ vào/ra …), mà không phải thay đổi kết cấu của hệ thống sau này, giảm được sự tốn kém khi phải thay đổi lắp đặt khi đổi thứ tự điều khiển (đối với hệ thống điều khiển Relay), khả năng chuyển đổi hệ điều khiển cao hơn (như giao tiếp giữa các PLC để truyền dữ liệu điều khiển lẫn nhau), hệ thống được điều khiển linh hoạt hơn.
+PLC được thiết kế đặc biệt để hoặc động trong môi trường công nghiệp. Một PLC có thể được lắp đặt ở những nơi có độ nhiễu điện cao (Electrical Noise), vùng có từ truờng mạnh, có các chấn động cơ khí, nhiệt độ và độ ẩm môi trường cao … Không như các hệ thống cũ, PLC có thể dễ dàng lắp đặt do chiếm một khoảng không gian nhỏ hơn nhưng điều khiển nhanh, nhiều hơn các hệ thống khác. Điều này càng tỏ ra thuận lợi hơn đối với các hệ thống điều khiển lớn, phức tạp, và quá trình lắp đặt hệ thống PLC ít tốn thời gian hơn các hệ thống khác. Cuối cùng là người sử dụng có thể nhận biết các trục trặc hệ thống của PLC nhờ giao diện qua màn hình máy tính (một số PLC thế hệ sau có khả năng nhận biết các hỏng hóc (trouble shoding) của hệ thống và báo cho người sử dụng), điều này làm cho việc sửa chữa thuận lợi hơn.
+2.2.5 Ứng dụng của PLC trong sản xuất:
+Hiện nay PLC đã được ứng dụng thành công trong nhiều lĩnh vực sản xuất cả trong công nghiệp và dân dụng. Từ những ứng dụng để điều khiển các hệ thống đơn giản, chỉ có chức năng đóng/mở (ON/OFF) thông thường đến các úng dụng cho các lĩnh vực phức tạp,đòi hỏi tính chính xác cao, ứng dụng các thuật toán trong quá trình sản xuất. Các lĩnh vực tiêu biểu ứng dụng PLC hiện nay bao gồm:
+Hóa học và dầu khí: Định áp suất (dầu), bơm dầu, điều khiển hệ thống ống dẫn, cân đong trong ngành hóa … Chế tạo máy và sản xuất: Tự động hóa trong chế tạo máy, cân đong, quá trình lắp đặt máy, điều khiển nhiệt độ lò kim loại,… Bột giấy, giấy, xử lý giấy: điều khiển máy băm, quá trình ủ bột, quá trình cán, gia nhiệt, … Thủy tinh và phim ảnh: quá trình đóng gói, thử nghiệm vật liệu, cân đong, các khâu hoàn tất sản phẩm, đo cắt giấy, … Thực phẩm, rượu bia, thuốc lá: đếm sản phẩm, kiểm tra sản phẩm, kiểm soát quá trình sản xuất, bơm (bia, nước trái cây, …), cân đong, đóng gói, hòa trộn, Kim loại: điều khiển quá trình cán, cuốn (thép), quy trình sản xuất, kiểm tra chất lượng. Năng lượng: điều khiển nguyên liệu (cho quá trình đốt, xử lý trong các turbin, …), các trạm cần hoặc động tuần tự khai thác vật liệu một cách tự động (than, gỗ, dầu mỏ, …).
+2.2.6 So sánh hệ điều khiển PLC với các hệ điều khiển khác:
+vPLC với hệ thống điều khiển bằng Relay:
+Việc phát triển hệ thống điều khiển bằng lập trình đã dần dần thay thế từng bước điều khiển hệ thống bằng Relay trong các quá trình sản xuất. Khi thiết kế một hệ thống điều khiển hiện đại, người kỹ sư phải cân nhắc, lựa chọn các hệ thống, hệ thống điều khiển lập trình thường được sử dụng thay cho hệ thống điều khiển bằng Relay do các nguyên nhân sau:
+Thay đổi trình tự điều khiển một cách linh động. Có độ tin cậy cao. Khoảng không lắp đặt thiết bị nhỏ, không chiếm diện tích. Có khả năng đưa tín hiệu điều khiển ở ngõ ra cao. Sự chọn lựa dữ liệu một cách thuận lợi, dễ dàng. Dễ dàng thay đổi cấu hình (hệ thống máy móc sản xuất) trong tương lai khi có nhu cầu mở rộng sản xuất.
+Đặc trưng cho hệ thống điều khiển chương trình là phù hợp với những nhu cầu đã nêu trên, đồng thời về mặt kinh tế và thời gian thì hệ thống điều khiển lập trình cũng vượt trội hơn hệ thống điều khiển cổ điển (Relay, Contactor,…). Hệ thống điều khiển này cũng phù hợp với sự mở rộng hệ thống trong tương lai do không phải đổi, bỏ hệ thống dây nối giữa hệ thống điều khiển và các thiết bị, mà chỉ đơn giản là thay đổi chương trình cho phù hợp với điều kiện sản xuất mới.
+vPLC với máy tính:
+Cấu trúc giữa máy tính với PLC đều dựa trên bộ vi xử lý (CPU) để xử lý dữ liệu. Tuy nhiên có một vài cấu trúc quan trọng cần phân biệt để thấy rõ sự khác biệt giữa một PLC và một máy tính:
+Không như máy tính, PLC được thiết kế đặc biệt để hoạt động trong môi trường công nghiệp. Một PLC có thể được lắp đặt ở những nơi có độ nhiễu điện cao (Electrical Noise), vùng có từ truờng mạnh, có các chấn động cơ khí, nhiệt độ môi trường cao … Điều quan trọng thứ hai đó là: một PLC được thiết kế với phần cứng và phần mềm sao cho dễ lắp đặt (đối với phần cứng) đồng thời về mặt chương trình cũng phải dễ dàng để người sử dụng (kỹ sư, kỹ thuật viên) thao tác lập trình một cách nhanh chóng, thuận lợi (ví dụ: lập trình bằng ngôn ngữ hình thang… ). PLC với máy tính cá nhân PC (Personal Computer):
+Đối với một PC, người lập trình dễ nhận thấy được sự khác biệt giữa PC với PLC, sự khác biệt có thể biết được như sau:
+Máy tính không có các cổng giao tiếp trực tiếp với các thiết bị điều khiển, đồng thời máy tính cũng hoạt động không tốt trong môi trường công nghiệp. Ngôn ngữ lập trình trên máy tính không phải là dạng hình thang, máy tính ngoài việc sử dụng các phần mềm chuyên biệt cho PLC, còn phải thông qua việc sử dụng các phần mềm khác, làm “chậm” đi quá trình giao tiếp với các thiết bị được điều khiển.
+Tuy nhiên qua máy tính, PLC có thể dễ dàng kết nối với các hệ thống khác, cũng như PLC có thể sử dụng bộ nhớ (có dung lượng rất lớn) của máy tính làm bộ nhớ của PLC.
+2.3 Hệ thống khí nén:
+Với sự phát triển mạnh mẽ của năng lượng điện, vai trò sử dụng năng lượng bằng khí nén bị giảm dần. Tuy nhiên việc sử dụng năng lượng bằng khí nén vẫn đóng một vai trò cốt yếu ở những lĩnh vực mà khi sử dụng năng lượng điện sẽ nguy hiểm, sử dụng năng lượng bằng khí nén ở những dụng cụ nhỏ nhưng truyền động với vận tốc lớn, sử dụng năng lượng bằng khí nén ở những thiết bị như búa hơi, dụng cụ dập, tán đinh,… và nhiều nhất là các dụng cụ, đồ gá kẹp chặt trong các máy.
+2.3.1 Khả năng ứng dụng của khí nén:
+2.3.1.1 Trong lĩnh vực điều khiển:
+Hệ thống điều khiển bằng khí nén được sử dụng ở những lĩnh vực mà ở đó nguy hiểm hay xảy ra các vụ nổ, như các thiết bị phun sơn ; các loại đồ gá kẹp các chi tiết nhựa, chất dẻo; hoặc là được sử dụng cho lĩnh vực sản xuất các thiết bị điện tử, vì điều kiện vệ sinh môi trường rất tốt và an toàn cao. Ngoài ra hệ thống điều khiển bằng khí nén còn được sử dụng trong các dây chuyền rửa tự động, trong các
+........................................
+CHƯƠNG 5: KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN CỦA ĐỀ TÀI
+5.1 Kết luận:
+5.1.1 Kết quả đạt được:
+Sau thời gian tìm hiểu và nghiên cứu thiết kế thi công mô hình hệ thống lưu kho hàng hóa, tuy gặp không ít khó khăn, trở ngại khi thực hiện đề tài nhưng nhờ có sự trợ giúp của thấy hướng dẫn và thầy cô bộ môn nên chúng em đã đạt được những kết quả khả quan đó cũng là động lực để nhóm hoàn thiện đề tài tốt hơn như:
+Cơ khí đã đáp ứng được yêu cầu đề tài:
+Thi công được nhà kho chứa hàng theo dạng tầng, gồm có 3 tầng dùng để chứa hàng. Thi công được mô hình xe nâng hàng.
+Về chương trình phần mềm:
+Đã chạy tốt cả hai chương trình tự động và điều khiển bằng tay. Điều khiển và giám sát được hệ thống trên phần mềm WinCC.
+5.1.2 Hạn chế và cách khắc phục:
+Tuy có những kết quả khả quan bước đầu nhưng không ít những thiếu sót dần được hiện ra qua thời gian nhóm thực hiện đề tài:
+Các cơ cấu hoạt động chưa thật sự chính xác. Các công tắc hành trình hoạt động chưa thật sự hiệu quả. Giải pháp đưa ra chưa thật tối ưu.
+Những thiếu sót được nhóm sinh viên thực hiện đề tài tập trung xử lý để tìm ra nguyên nhân từ đó đưa ra các biện pháp khắc phục.
+Về cơ khí các cơ cấu hoạt động đã được nhóm không ngừng tìm hiểu sửa đổi các cơ cấu sao cho làm việc được ổn định nhất, phù hợp với yêu cầu của đề tài nhưng vẫn đảm bảo về tính thẩm mỹ của mô hình.
+Về điện tử điều chỉnh, nâng cấp tầm hoạt động của mô hình.
+Nhìn chung những mặt hạn chế trên đã khắc phục được trong thời gian thực hiện đề tài với sự hướng dẫn tận tình của Thầy Nguyễn Tấn Đời và đồng thời có sự hỗ trợ của các bạn. Càng gặp nhiều khó khăn khi thực hiện đề tài, chúng em càng học hỏi được nhiều và đó cũng là những kinh nghiệm quí báu trước khi chúng em ra trường.
+5.2 Hướng phát triển của đề tài:
+Như đã trình bày, do sự hạn chế về mặt tài chính cũng như sự hạn chế về thời gian thực hiện đề tài nên nhóm vẫn chưa nâng cấp thành công một số tính năng của đề tài, bao gồm:
+Giao tiếp giám sát hoạt động của hệ thống lưu kho qua màn hình HMI. Phát triển hệ thồng lên một bước cao hơn như thiết kế nhiều tầng hơn, dạng tròn để có thể giữ nhiều hàng hơn. Phần cơ khí cần hoàn thiện chính xác để việc gửi và lấy hàng an toàn.
+
+TÀI LIỆU THAM KHẢO
+1./ Tự động hóa với SIMATIC S7-200 Nguyễn Doãn Phước_ Phan Xuân Minh.
+2./ Tài liệu Hệ thống khí nén, thủy lực Th.s Nguyễn Phúc Đáo.
+3./ TS Trần Thu Hà, KS Phạm Quang Huy – Tự động hóa trong công nghiệp với WinCC - Nhà xuất bản Hồng Đức.
+4./PTS. Nguyễn Ngọc Phương – Hệ thống điều khiển bằng khí nén – Nhà xuất bản giáo dục.
+5./ Kỹ thuật lập trình PLC căn bản- khoa điện tử - ĐH Sư Phạm Kỹ Thuật TP.HCM.
+6./ WWW.Support......
+9./ Các tài liệu trên mạng internet về hệ thống lưu kho hàng hóa tự động.
+

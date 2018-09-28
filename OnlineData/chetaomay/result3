@@ -1,0 +1,167 @@
+Thiết kế quy trình công nghệ CHẾ TẠO MÁY CHI TIẾT CHÊM T2, THIẾT KẾ QUY TRÌNH CÔNG NGHỆ GIA CÔNG CHI TIẾT CHÊM T2, đồ án môn học CHI TIẾT CHÊM T2, bài tập lớn CHI TIẾT CHÊM T2
+
+Trong công cuộc công nghiệp hóa hiện đại hóa đất nước hiện nay. Các ngành kinh tế nói chung và ngành cơ khí nói riêng đòi hỏi nguời kĩ sư và cán bộ kĩ thuật được đào tạo có kiến thức cơ bản tương đối rộng, phải biết vận dụng những kiến thức đó để giải quyết những vấn đề cụ thể trong sản xuất và sửa chữa.
+Vì thế việc phát triển khoa học kĩ thuật trong lĩnh vực ngành chế tạo máy lại càng có ý nghĩa hàng đầu nhằm hoàn thiện và nắm vững các phương pháp chế tạo, tổ chức và điều khiển quá trình sản xuất đạt hiệu quả kinh tế cao nhất. Để đáp ứng được nhu cầu phát triển của các ngành kinh tế quốc dân về mặt trang thiết bị, ngành chế tạo máy cần được phát triển mạnh mẽ và phải đào tạo một đội ngũ cán bộ công nghệ lành nghề để phát huy hết tiềm lực của thiết bị đã có. Những thiết bị dù tinh vi mà không có sự tác động của công nghệ thì khó phát huy hết khả năng của nó.
+Đồ án môn học công nghệ chế tạo máy là một bước tập dượt đầu tiên cho công việc nghiên cứu, thiết kế ra một sản phẩm cơ khí của một kĩ sư chuyên ngành công nghệ chế tạo máy sau này. Sinh viên sẽ được làm quen với cách sử dụng tài liệu, sổ tay, tiêu chuẩn và có khả năng kết hợp, so sánh những kiến thức lý thyết với thực tế sản xuất. Trong quá trình hoàn thành đồ án môn học công nghệ chế tạo máy thiết kế quy trình gia công chi tiết càng gạt với sự hướng dẫn tận tình của thầy Phan Ngọc Ánh em đă hoàn thành đồ án môn học công nghệ chế tạo máy. Tuy nhiên do còn chưa được tiếp xúc nhiều với thực tế sản xuất cũng như các kinh nghiệm tích lũy qua thực tiễn nên trong đồ án chắc chắn không tránh khỏi thiếu xót. Mong rằng em sẽ nhận được các ý kiến chỉ dẫn của thầy hướng dẫn cũng như các thầy cô và các bạn.
+Em xin chân thành cảm ơn!
+Hưng Yên, ngày 26 tháng 4 năm 201...
+ĐỒ ÁN MÔN HỌC: CÔNG NGHỆ CHẾ TẠO MÁY CHI TIẾT CHÊM T2
+I. Phân tích chức năng và điều kiện làm việc của chi tiết:
+-Chêm là chi tiết cơ bản của cơ cấu kẹp ,có hai mặt phẳng làm việc chính không song song với nhau trong đó một bề mặt tạo với phương nằm ngang một góc: a (góc nghiêng của chêm)
+-Chi tiết chêm là cơ cấu kẹp tạo ra lực kẹp bằng bulông ,đai ốc hoặc từ các nguồn sinh lực khí nén để tác dụng tăng lực,hoặc kết hợp với một số cơ cấu khác.Cơ cấu kẹp bằng chêm thường được sử dụng trong các cơ cấu đồ gá…
+Điều kiện làm việc của chi tiết :
++ Chịu được lực kẹp lớn.
++ Chêm có hai bề mặt làm việc không song song với nhau.Khi đó chêm vào,mặt làm việc của nó tạo ra lực kẹp.Mặt vát có chiều dài là: 90mm
++ Trong quá trình làm việc,dưới tác dụng của ngoại lực,chêm không bị tụt ra nhờ lực ma sát ở hai mặt làm việc của nó.Tính chất đó gọi là tính tự hãm của chêm.
++ Mặt vát của chêm tạo với phương nằm ngang môt góc: a=100 ( Góc nghiêng của chêm.)
++ Lỗ có gia công ren dùng để tăng giảm lực kẹp,lỗ ren :M12
+Dưới đây là hình ảnh cơ bản của chêm:
+...................
+II. Phân tích tính công nghệ trong kết cấu của chi tiết:
+Từ việc phân tích chức năng làm việc của chi tiết chêm thì đây là chi tiết dạng hộp nên kết cấu của nó tương đối đơn giản.
+Cụ thể, cần đảm bảo các điều kiện kỹ thuật sau:
++ Lỗ ren dùng để tăng giảm lực nên cần đảm bảo độ vuông góc giữa mặt đầu và tâm lỗ.( Độ không vuông góc £ 0,05/100mm)
++ Độ không song song và vuông góc giữa mặt trên và mặt đáy và giữa hai mặt bên £ 0,01mm/100mm chiều dài.
++ Độ song song giữa 2 mặt đầu £0,02/100mm chiều dài
++ Từ điều kiện làm việc như vậy, cần đảm bảo được độ nhẵn bóng bề mặt ngoài của chêm : Rz20
++ Độ nhẵn của 2 mặt đầu : Rz40
++ Làm cùn các cạnh sắc.
+III. Xác định dạng sản xuất:
+Trong chế tạo máy người ta phân biệt ba dạng sản xuất.
++ Sản xuất đơn chiếc.
++ Sản xuất hàng loạt ( hàng loạt lớn, hàng loạt vừa và hàng loạt nhỏ ).
++ Sản xuất hàng khối.
+Theo số liệu đã cho: Ta có sản lượng hàng năm : 2000 ( chiếc /năm ).
+Sản lượng hàng năm được xác định theo công thức sau đây:
+
+Trong đó:
+N: Số chi tiết được sản xuất trong 1 năm;
+N : Số sản phẩm (số máy ) được sản xuất trong 1 năm;
+m : Số chi tiết trong 1 sản phẩm;
+α : Số lượng sản phẩm dự phòng do sai số hỏng khi chế tạo phôi gây ra
+α = 3% đến 6% Chọn α = 4%
+β : Số chi tiết được chế tạo thêm để dự trữ (5% đến 7%) Chọn β = 6%
+N =1500.1.(1 + 10%) = 1650 (sản phẩm )
+Sau khi xác định được sản lượng hàng năm, ta phải xác định trọng lượng của chi tiết. Trọng lượng của chi tiết được xác định theo công thức:
+Q = V.γ (kG)
+Trong đó:
+Q: Trọng lượng của chi tiết (kG);
+V: Thể tích của chi tiết (dm );
+γ: Trọng lượng riêng của vật liệu :
+γthép = 7,852 kG/dm ;
+Thể tích của chi tiết được xác định như sau :
+*V : thể tích của khối hộp chữ nhật có:
+chiều dài : 150mm
+chiều rộng: 40 mm
+chiều cao : 40 mm .
+V = 150.40.40 = 240000 (mm )
+*V : thể tích của hình khối vát có cạnh vát : 90mm , góc vát 100 ,chiều rộng : 40mm
+V2 bằng ½ khối hình hộp chữ nhật tương ứng.
+V2 = ( 90.cos 10o).40.40 = 70906 (mm3)
+*V : thể tích của phần rãnh có chiều dài : 50mm ,chiều rộng 40mm,chiều cao 5mm.
+V = 50.40.5 = 10000 ( mm )
+
+*V : thể tích của lỗ khối trụ có chiều dài 60 mm,đường kính 10mm.
+V4 = π.R2.L = π.52.60 = 4712,39 (mm3)
+Thể tích chi tiết :
+V = V1 – (V2 + V3 + V4)
+= 240000 – (70906 +10000+4712,39) = 154381,61 (mm3)
+= 0,15438161 (dm3)
+Vậy Q = V.γ = 0,15438161 . 7,852 = 1,2122 (kg)
+Theo bảng 2.6 tài liệu I trang 31 ta được dạng sản xuất: loạt vừa.
+IV. Xác định phương pháp chế tạo phôi :
++ Chi phí phôi chiếm từ 20% 50% giá thành sản phẩm. Vì vậy, chọn phương pháp chế tạo phôi, vật liệu phôi, gia công chuẩn bị phôi hợp lý góp phần nâng cao hiệu quả kinh tế kỹ thuật của quá trình sản xuất.
++ Loại phôi được xác định theo kết cấu chi tiết, vật liệu, điều kiện, dạng sản xuất và điều kiện sản xuất cụ thể của từng nhà máy, xí nghiệp, địa phương. Chọn phôi tức là chọn phương pháp chế tạo phôi, xác định lượng dư, kích thước và dung sai của phôi. Sau đây là các loại phôi thường dùng đối với đồ án công nghệ chế tạo máy.
+4.1.Phôi cán.
+Trong ngành chế tạo máy thường dùng các loại phôi cán sau đây:
+-Phôi cán thường phẩm dưới dạng thép thỏi,dùng để rèn hoặc dập
+-Phôi cán có prôphin đơn giản,thông thường là tròn,vuông ,lục lăng và các thanh hình khắc ,dùng để chế tạo các trục trơn ,trục bậc có đường kính ít thay đổi,các tay gạt ,trục then ,các mặt bích.
+-Độ chính xác của phôi cán nóng thường đạt cấp 12÷14,còn cán nguội thì đạt cấp 9÷12.
+Tóm lại:
+Từ chức năng và điều kiện: dạng sản xuất hàng loạt vừa, vật liệu thép CT45, chi tiết dạng hộp, trọng lượng chi tiết Q = 1,2122(kg). Ta sử dụng phôi cán.Do chi tiết đơn giản nên sử dụng phôi cán giảm giá thành chế tạo phôi, giảm giá thành sản phẩm.
+V. Lập thứ tự các nguyên công.
+Lập thứ tự nguyên công là xác định hợp lý tiến trình công nghệ ứng với các bề mặt của chi tiết, sao cho chu kì gia công hoàn chỉnh một chi tiết là ngắn nhất, góp phần hạn chế chi phí gia công, bảo đảm hiệu quả nhất.
+- Phân tích chuẩn định vị và gia công:
+- Ta chọn nguyên công đầu tiên là gia công mặt đáy ta chọn chuẩn thô là mặt trên của chêm. Mặt đáy sau khi gia công sẽ được dùng làm chuẩn gia công các mặt còn lại.
+- Vì phôi của ta dạng hình hộp chữ nhật gia công cả mặt phẳng đáy ta chỉ cần hạn chế 3 bậc tự do là đủ nhưng để đảm bảo độ cứng vững, năng suất gia công ta hạn chế 5 bậc tự do.
+- Việc đưa ra các phương án định vị để gia công mặt đáy này không nhiều ngoài phương án đã đưa ra ở trên.
+- Việc đưa ra các phương án gia công:
+Phương án 1: phay thô, phay tinh.
+Phương án 2: phay thô, phay tinh, mài.
+→ Vì điều kiện, yêu cầu độ nhám Rz 20 thì phương án 1 là có thể thực hiện được.
+Thứ tự các nguyên công thực hiện:
+Nguyên công I : phay mặt đáy.
+Nguyên công II : phay mặt trên.
+Nguyên công III : phay mặt bên thứ nhất
+Nguyên công IV : phay mặt bên còn lại
+Nguyên công V : phay mặt đầu thứ nhất
+Nguyên công VI : phay mặt đầu còn lại
+Nguyên công VII : khoan,vát mép, taro M12
+Nguyên công XIII : phay rãnh
+Nguyên công IX : phay mặt vát 90×100
+Nguyên công X : vát mép 5×450
+Nguyên công XI : vát mép 5×450
+Nguyên công XII : kiểm tra.
+.........................
+VI. Tính lượng dư cho một bề mặt và tra lượng dư cho các bề mặt còn lại:
+Do đồ án công nghệ tính theo dạng sản xuất hàng loạt vừa nên các nguyên công của quá trình công nghệ đều được thực hiện trên các máy đã được điều chỉnh sẵn bằng phương pháp tự động đạt kích thước. Do vậy lượng dư gia công sẽ được xác định bằng phương pháp tính toán phân tích.
+Lượng dư gia công cơ được hiểu là lớp vật liệu cần có để khắc phục các sai xuất hiện trong quá trình tạo phôi và gia công cơ, đảm bảo cho sản phẩm có được cá thông số chất lượng yêu cầu. Lớp vật liệu này sẽ được hớt bỏ trong quá trình gia công. Thông thường để đạt được độ chính xác yêu cầu, một bề mặt phải được gia công qua nhiều bước công nghệ nối tiếp nhau. Do đó lượng dư cũng phân thành lượng dư gia công trung gian và lượng dư gia công tổng cộng.
+Để xác định lượng dư trung gian, trước hết cần xác định lương dư gia công tối thiểu. Lượng dư gia công tối thiểu có thể được xác định bằng phương pháp tính toán phân tích hoặc tra bảng.
+Trong công nghệ chế tạo máy người ta dùng hai phương pháp để xác định lượng dư gia công:
++ Phương pháp thống kê kinh nghiệm.
++ Phương pháp tính toán phân tích.
+Phương pháp thống kê kinh nghiệm xác định lượng dư gia công bằng kinh nghiệm. Nhược điểm của phương pháp này là không xét đến những điều kiện gia công cụ thể nên giá trị lượng dư thường lớn hơn giá trị cần thiết.
+Ngược lại, phương pháp tính toán phân tích dựa trên cở sở phân tích các yếu tố tạo ra lớp kim loại cần phải cắt gọt để tạo ra chi tiết hoàn chỉnh.
+6.1.Tính lượng dư cho nguyên công I
+(mặt phẳng đáy dưới của chêm)
+Xác định lượng dư bằng phương pháp tính toán phân tích:
+a) Trình tự gia công ghi cột 1,các thông số Rz, h ,ρph và ε vào các cột 2,3,4,5 (bảng 6.1)
+Độ chính xác của phôi cấp hai, khối lượng phôi là 1,2122 kg, vật liệu phôi thép CT45. Quy trình công nghệ gồm có hai bước: Phay thô và phay tinh, chi tiết được định vị bởi mặt phẳng ( dùng hai phiến tỳ nhỏ ở hai đầu) và hai chốt tỳ khía nhám ở mặt bên. Quá trình tính lượng dư thực hiện như trong bảng 6.1.
+Khi gia công mặt phẳng đáy ( B ) cần đảm bảo các kích thước sau: 42,5±0.1 mm ,độ song song giữ mặt đáy B và mặt trên ≤ 0,01/100 mm chiều dài,độ vuông góc giữa mặt đáy B và hai mặt bên ≤ 0,01/100 mm.
+- Chất lượng bề mặt của phôi cán Rz = 150 và Ti = 250
+( Bảng 3.2 trang 70 ; tài liệu HDTKĐACN CTM)
+- Sau bước thứ nhất là phay thô ta có:
+Rz= 50 ; Ti= 50 .
+- Sau bước thứ hai là phay tinh ta có:
+Rz = 10 ; Ti= 15 .
+( Bảng 3.4 trang 71 ; tài liệu HDTKĐACN CTM)
+Đây là chi tiết dạng hộp. Khi gia công mặt phẳng đáy B chi tiết được định vị bằng mặt phẳng đối diện với mặt gia công và mặt bên. Sai số không gian tổng cộng với loại phôi này khi gia công mặt phẳng B: 42.5±0.1mm theo công thức;
+( Bảng 3.6 trang 72 ; tài liệu HDTKĐACN CTM)
+Trong đó là sai số do độ cong vênh của mặt phẳng sau khi cán.
+Ta có:
+Trong đó: độ cong giới hạn
+( Bảng 3.7 tài liệu HDTKĐACN CTM)
+Với chọn
+a : chiều dài của mặt gia công ( a = 155 mm ).
+b : bề rộng của mặt gia công ( b = 45 mm ).
+Do đó :
+=160 (mm)
+Vậy sai số không gian tổng cộng với loại phôi này khi gia công mặt phẳng là: 160 mm.
+b) Xác định sai số không gian còn sót lại.
+Sai số không gian còn sót lại trên bề mặt có sai số không gian ban đầu sau khi gia công chính là hệ quả của hiện tượng sao chép sai số ban đầu; hiện tượng này còn được gọi là di truyền công nghệ khi gia công. Độ lớn của sai số còn sót lại phụ thuộc vào nhiều yếu tố như phương pháp gia công, độ cứng vững của hệ thống công nghệ và tính chất cơ lý của vật liệu gia công…
+Sai số không gian còn sót lại được tính gần đúng theo công thức thực nghiệm sau
+Trong đó: Kcx - hệ số chính xác hoá;
+Sau khi gia công thô k = 0,06 ; sau khi gia công tinh k =0,4
+( Bảng 3.9 trang 77 ; tài liệu HDTKĐACN CTM)
+- sai số không gian tổng cộng của phôi ( hoặc nguyên công trước ).
+160mm
+Vậy ta có sai số không gian còn sót lại sau khi phay thô là:
+0,06.160 = 9.6 (mm).
+Sai số không gian còn sót lại sau khi phay tinh là:
+= 0,4. = 0,4. 9.6 = 3.84 .
+c) Xác định sai số gá đặt .
+Sai số gá đặt trên nguyên công đang thực hiện xuất hiện là do dịch chuyển của mặt gia công khi gá đặt và sẽ được bù vào giá trị của lượng dư theo công thức sau:
+Trong đó: - sai số do chọn chuẩn định vị;
+- sai số do kẹp chặt;
+- sai số do đồ gá.
+Do các sai số thành phần là các sai số có tính ngẫu nhiên nên ta có;
+
+Sai số đồ gá thường không liên quan đến quá trình gá đặt, do đó chúng thường được tính độc lập. Vì thế có thể coi sai số gá đặt có giá trị như sau:
+*/ Xác định sai số chuẩn định vị
+Sai số chuẩn xuất hiện trong quá trình định vị phôi trên đồ gá và có giá trị bằng khoảng giao động của kích thước tính từ chuẩn đo đến mặt tỳ theo phương kích thước gia công. Như đã biết chuẩn thiết kế và chuẩn công nghệ có thể trùng nhau hoặc không trùng nhau thì có nghĩa là đã thể hiện tốt quan điểm công nghệ khi thiết kế hay nói cách khác bản thiết kế có tính công nghệ cao.
+Sơ đồ định vị chi tiết khi gia công mặt phẳng đáy B.
+Hình 6.1:Sơ đồ đinh vị khi gia công mặt đáy B
+Từ sơ đồ định vị trên, khi gia công mặt B sẽ hình thành lên kích thước mm, thì chuẩn định vị và gốc kích thước là mặt K ( chuẩn định vị trùng với gốc kích thước. Do đó sai số chuẩn của kích thước là = 0.
+*/ Xác định sai số kẹp chặt
+Thiết kế quy trình công nghệ CHẾ TẠO MÁY CHI TIẾT CHÊM T2, THIẾT KẾ QUY TRÌNH CÔNG NGHỆ GIA CÔNG CHI TIẾT CHÊM T2, đồ án môn học CHI TIẾT CHÊM T2, bài tập lớn CHI TIẾT CHÊM T2
+

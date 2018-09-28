@@ -1,0 +1,336 @@
+100 MB Bao gồm tất cả file,.lưu đồ giải thuật... thuyết minh, bản vẽ nguyên lý, bản vẽ thiết kế, FILE lập trình, ĐỒ ÁN TỐT NGHIỆP ĐIỆN tử BỘ COUNTER – TIMER (CT6S), ENCODER (E40S6-1000-3-N-24 )
+LỜI CẢM ƠN
+Đầu tiên cho chúng em gửi lời cám ơn chân thành đến Ban Giám Hiệu, các quý Thầy, Cô Trường đã giúp đỡ chúng em rất nhiều trong quá trình học tập. Trong những ngày thực hiện đề tài tốt nghiệp là cơ hội quý báu để chúng em có thể vận dụng những kiến thức nền tảng được học tại trường cùng với sự chỉ dẫn nhiệt tình của quý Thầy cô và đặc biệt là Thầy Đoàn Minh Hải đã tận tình chỉ dạy và tạo mọi điều kiện tốt nhất để giúp chúng em hoàn thành tốt đề tài.
+Tuy nhiên, do kiến thức còn nhiều hạn chế và thời gian có hạn nên báo cáo này sẽ không tránh khỏi sai sót, nên chúng em rất mong nhận được sự thông cảm và sự đóng góp ý kiến của quý Thầy Cô và các bạn để tập luận văn này hoàn chỉnh hơn.
+Chúng em xin kính chúc Ban Gián Hiệu và quý Thầy, Cô giảng dạy tại Trường sức khỏe, thành đạt và ngày càng gặt hái được nhiều thành công.
+LỜI MỞ ĐẦU
+Ngày nay, với những ứng dụng của khoa học kỹ thuật tiên tiến, thế giới của chúng ta đã và đang ngày một thay đổi, văn minh và hiện đại hơn. Sự phát triển của công nghệ tự động đã tạo ra hàng loạt những công nghệ, thiết bị, máy móc, dây chuyền sản xuất với các đặc điểm nổi bậy như : sự chính xác cao, tốc độ nhanh, gọn nhẹ, đó là những yếu tố rất cần thiết cho cuộc sống cũng như nền công nghiệp hiện đại ngày nay,nó là yếu tố quyết định cho công việc của con người được thực hiện một cách nhanh chống và chính xác .
+Công nghệ tự động đang trở thành một ngành kỹ thuật đa nhiệm vụ và đáp ứng được những đòi hỏi không ngừng trong các lĩnh vực khác: Công nghiệp,thiết bị y học và cả trong Nông-Lâm nghiệp cho đến các nhu cầu cần thiết trong họat động đời sống hằng ngày.
+Trong lĩnh vực công nghiệp đòi hỏi phải điều khiển một cách chính xác trong các thiết bị tự động, dây chuyền sản xuất.
+Xuất phát từ những nhu cầu ứng dụng thực tế quan trọng đó, Nhóm đã hoàn thành mô hình kít thực tập Bộ đếm, Bộ đặt thời gian đa chức năng đa chức năng.
+Với tinh thần làm việc hăng say của cả Nhóm để hoàn thành đồ án. Trong tập đồ án này của Nhóm nếu có sai sót kính mong quý thầy cô và các bạn chân thành góp ý.
+MỤC LỤC
+Mở đầu: Trang
+Chương 1: Giới thiệu bộ đếm/bộ đặt thời gian đa chức năng........................................ 1
+1.1.Giới thiệu tổng quát ...................................................................................... 1
+1.1.1. Giới thiệu........................................................................................... 1
+1.1.2. Đặc điểm............................................................................................ 1
+1.1.3. Thông tin đặt hàng............................................................................ 1
+1.1.4. Thông số kỹ thuật............................................................................. 2
+1.2.Giới thiệu model CT6.................................................................................... 3
+1.2.1. Định dạng mặt trước......................................................................... 3
+1.2.2. Sơ đồ kết nối ngõ vào....................................................................... 4
+1.2.3.Lựa chọn ngõ vào logic..................................................................... 5
+1.2.4.Sơ đồ kết nối ngõ ra........................................................................... 6
+1.2.5. Hiển thị mã lỗi................................................................................... 6
+1.3.Chế độ hoạt động của bộ đếm...................................................................... 7
+1.3.1Mode hoạt động của bộ đếm............................................................. 7
+1.3.2.Thay đổi giá trị bộ đặt trong bộ đếm............................................... 9
+1.3.3.Mode chức năng của bộ đếm............................................................ 9
+1.3.4.Chế độ hoạt động ngõ vào của bộ đếm......................................... 11
+1.3.5.Chế độ hoạt động ngõ ra của bộ đếm............................................ 13
+1.4.Bộ cài đặt thời gian...................................................................................... 17
+1.4.1.Chế độ hoạt động của bộ đặt thời gian......................................... 17
+1.4.2.Thay đổi giá trị cài đặt trong bộ đặt thời gian............................. 18
+1.4.3.Chế độ cài đặt chức năng................................................................ 19
+1.4.4.Chế độ hoạt động ngõ ra................................................................. 20
+1.5.Ứng dụng....................................................................................................... 24
+1.5.1.Ứng dụng để cắt chiều dài.............................................................. 24
+1.5.2.Ứng dụng điều khiển vị trí............................................................. 25
+1.5.3.Ứng dụng điều khiển số lượng....................................................... 26
+Chương 2: Giới thiệu về encoder...................................................................................... 26
+2.1.Giới thiệu chung về encoder...................................................................... 26
+2.1.1Công dụng, phân loại, cấu tạo và nguyên lý làm việc chung..... 26
+2.2.Encoder tương đối và encoder tuyệt đối................................................... 27
+2.2.1.Encorder tương đối.......................................................................... 27
+2.2.2.Encoder tuyệt đối............................................................................ 29
+2.3.Bộ mã hóa vòng quay tương đối................................................................ 29
+2.3.1.Đặc điểm........................................................................................... 30
+2.3.2.Thông tin đặt hàng........................................................................... 30
+2.3.3.Thông số kỹ thuật............................................................................ 30
+2.3.4.Sơ đồ điều khiển.............................................................................. 33
+2.3.5.Dạng sóng ngõ ra............................................................................. 33
+2.3.6.Sơ đồ kết nối..................................................................................... 33
+2.3.7.Kích thước........................................................................................ 34
+2.4.Ứng dụng của encoder................................................................................. 35
+Chương 3: Giới thiệu kít thực tập và các bài tập ứng dụng........................................ 36
+3.1. Giới thiệu kít thực tập................................................................................. 36
+3.2. Các bài tập ứng dụng.................................................................................. 40
+3.3. Hướng dẫn làm bài tập................................................................................ 44
+Chương 4: Kết luận và hướng phát triển......................................................................... 57
+4.1. Kết luận........................................................................................................ 57
+4.2. Hướng phát triển.......................................................................................... 57
+Tài liệu tham khảo.............................................................................................................. 58
+CHƯƠNG 1: GIỚI THIỆU BỘ ĐẾM/BỘ ĐẶT THỜI GIAN ĐA CHỨC NĂNG(CT6S)
+1.1Giới thiệu tổng quát:
+1.1.1. Giới thiệu:
+Counter – timer: là một sản phẩm thông dụng bởi vì nó có nhiều chức năng được ứng dụng trong các dây chuyền công nghiệp hiện đại.
+Counter – timer: là Bộ đếm và định thời gian nó được sử dụng rất rộng rãi trong điều khiển số lượng, độ dài, vị trí nhằm phục vụ cho các ngành công nghiệp chế biến thực phẩm, ngành in ấn, dệt, bao bì, cán thép…là nhờ vào 2 chức năng: đếm tổng (Batch funtion) và chức năng đặt trước tỉ lệ (scale funtion).
+1.1.2.Đặc điểm:
+Có thể chọn chức năng Bộ đếm hoặc Bộ đặt thời gian.
+Chức năng cài đặt tỷ lệ.
+Tốc độ đếm cao lên tới 10kcps.(Cycles per second)
+Có thể lựa chọn ngõ vào có điện áp (PNP) hoặc ngõ vào không có điện áp (NPN).
+Có thể cài đặt thời gian ON/OFF riêng biệt trong Mode Flicker(FLK).
+Chức năng khóa phím.
+Chức năng đếm tổng chỉ có ở CT6 – CT6-2P.
+Có thể cài đặt ngõ ra Bộ đếm và Bộ đặt thời gian tùy theo ứng dụng.
+1.1.3.Thông tin đặt hàng:
+1.1.4.Thông số kỹ thuật:
+1.2.Giới thiệu model CT6S:
+1.2.1.Định dạng mặt trước:
+CT6S:
+Hình1.1: Định dạng mặt trước Bộ CT6S.
+: Phím cài đặt.
+: Phím MODE.
+: Phím RESET.
+: Đèn chỉ thị khóa phím.
+: Chỉ thị giá trị cài đặt đang
+hiển thị hoặc thay đổi.
+: Hiển thị giá trị cài đặt(LED vàng-xanh)
+Giá trị cài đặt (Bộ đếm) /Thời gian đặt trước(Bộ đặt thời gian) và giá trị cài đặt.
+: Hiển thị giá trị xử lý(LED đỏ)
+Giá trị đếm(Bộ đếm)/ thời gian xử lý(Bộ đặt thời gian)/ giá trị cài đặt.
+: Chỉ thị hoạt động là Bộ đặt thời gian.
+LED nháy khi Bộ đặt thời gian đang hoạt động. LED bật sáng khi thời gian ngừng hoạt động.
+: Chỉ thị hoạt động là Bộ đếm.
+: Chỉ thị hoạt động ngõ ra.
+1.2.2. Sơ đồ kết nối ngõ vào:
+Ngõ vào không có điện áp(NPN):
+Ngõ vào Solid – State (Cảm biến loại chuẩn: Cảm biến loại ngõ ra NPN).
+Mạch ngõ vào của INA, INB, INH(INHIBIT), BATCH RESET là giống nhau.
+Ngõ vào công tắc:
+Hãy chọn tốc độ đếm là 1cps hoặc 30cps khi nó được sử dụng cho Bộ đếm.
+Ngõ vào có điện áp(PNP)
+Ngõ vào Solid – State (Cảm biến loại chuẩn: cảm biến loại ngõ ra PNP).
+
+Mạch ngõ vào của INA, INB, INH (INHIBIT), BATCH RESET là giống nhau. INA là đầu nối ngõ vào khi nó được sử dụng cho Bộ đếm và có thể là đầu nối tín hiệu START khi nó sử dụng cho Bộ đặt thời gian.
+Ngõ vào công tắc
+Hãy chọn tốc độ đếm là 1cps hoặc 30cps khi nó được sử dụng cho Bộ đếm.
+1.2.3. Lựa chọn ngõ vào logic:
+Nguồn phải được tắt. Tháo vỏ hộp từ thân thiết bị.
+- Cách tháo vỏ hộp:
+Bóp theo hướng 1 và kéo theo
+hướng 2 như Hình 1.2.
+Hình 1.2: Hình tháo vỏ hộp.
+Chọn ngõ vào logic bởi S/W ngõ vào logic bên trong Bộ đếm/ Bộ đặt thời gian.
+ Chọn ngõ vào Chọn ngõ vào
+không có điện áp có điện á
+
+Hình 1.3: Hình cách chọn ngõ vào.
+Hãy gắn vào ngược với cách đã tháo vỏ hộp. Rồi cấp nguồn cho Bộ đếm và Bộ đặt thời gian hoạt động.
+1.2.4. Sơ đồ kết nối ngõ ra:
+Ngõ ra công tắc:
+Ngõ ra Solid – State:
+1.2.5. Hiển thị mã lỗi:
+1.3.Chế độ hoạt động của Bộ đếm:
+1.3.1 Mode hoạt động trong Bộ đếm:
+- Nhấn trong 3giây, nó sẽ đi vào Mode cài đặt chức năng Bộ đếm.
+- Nhấn trong 3giây, nó sẽ trở về Mode RUN Bộ đếm.
+- Nếu không có phím nào được nhấn trong 60giây thì nó sẽ trở về mode RUN Bộ đếm.
+- Khi sử dụng thiết bị này là Bộ đặt thời gian, hãy thay đổi đến Timer trong cài đặt Bộ đếm/Bộ đặt thời gian. Rồi nhấn trong 3giây để đến mode RUN Bộ đặt thời gian và thay đổi cài đặt chức năng.
+........................................
+¯Khi tín hiệu ngõ vào được nhập trong khi thay đổi giá trị cài đặt, nó đếm và điều khiển ngõ ra. Trong Mode giá trị cài đặt nếu không có phím nào được nhấn trong 60giây, Bộ đếm sẽ trở về mode RUN.
+Sau khi thay đổi giá trị cài đặt là “0” khi có ngõ ra vào phím hoặc ngõ vào RESET ở Mode RUN, ngõ ra sẽ duy trì OFF.(Nhưng trạng thái Mode ngõ ra là “T”, nếu thay đổi giá trị cài đặt thứ nhất là “0” thì ngõ ra thứ nhất sẽ duy trì là ON).
+1.3.3. Mode chức năng của Bộ đếm:
+Mode cài đặt Cách cài đặt Mode ngõ vào ¯ Khi hoặc của Mode ngõ vào được cài đặt, thì sẽ không được hiển thị. Tốc độ đếm lớn nhất ¯ Tốc độ đếm Max được xác định khi tỷ lệ nhiệm vụ của tín hiệu ngõ vào INA, INB là 1 : 1 và nó được cấp cho cả 2 INA, INB. ¯ Khi dùng cài đặt trong Mode ngõ ra, 5kcps và 10kcps không được hiển thị. Mode ngõ ra ¯Khi cài đặt ode ngõ ra là nếu giá trị đếm đạt tới giá trị cài đặt thì ngõ ra tự giữ ON. Vì thế không có thời gian ngõ ra . Thời gian ngõ ra đơn vị:ms Ngõ vào logic : Ngõ vào không có điện áp : Ngõ vào có điện áp ¯ Ngõ vào logic không được thay đổi bởi phím , bởi vì nó là dạng trạng thái xác định trật tự ngõ vào logic. Thời gian reset Min Đơn vị ms ¯Cài đặt độ rộng tín hiệu RESET bên ngoài Min. Dấu thập phân ¯ Việc cài đặt dấu thập phân được áp dụng như giá trị đếm và giá trị cài đặt. Giá trị tỉ lệ ¯ Phím dịch chuyển chữ số đang nháy. ¯Phím thay đổi giá trị tỷ lệ. Duy trì bộ nhớ ¯ : Reset giá trị đếm khi nguồn tắt. ¯ : Nhớ giá trị đếm khi nguồn tắt. Khóa phím Bộ đếm / Bộ đặt thời gian : Counter ( Bộ đếm ). : Timer ( Bộ đặt thời gian ).
+
+
+1.3.4. Chế độ hoạt động ngõ vào của Bộ đếm:
+Mode ngõ vào Biểu đồ đếm Lưu ý (UP) ¯INA: ngõ vào đếm. ¯INB: ngõ vào inhibit( hạn chế ngõ vào của INA ). ¯khi INA là “L” định dạng inhibit (INB:”L” à “H” hoặc hủy bỏ inhibit( INB : “H” à “L”). ¯INA: ngõ vào inhibit. (hạn chế ngõ vào đếm của INB). ¯INB: ngõ vào đếm. ¯khi INB là “H”. Định dạng inhibit(INB: “H” à “L” hoặc hủy bỏ inhibit (INB:”L” à “L”). (DOWN) ¯INA: ngõ vào đếm. ¯INB: ngõ vào inhibit. (Hạn chế ngõ vào đếm của INA). ¯Khi INA là “L”, định dạng inhibit (INB: “L”à “H”) hoặc hủy bỏ inhibit (INB: “H” à “L”). ¯INA: ngõ vào inhibit(hạn chế ngõ vào đếm của INB). ¯INB: ngõ vào đếm. ¯n: là giá trị cài đặt(giá trị đặt trước). ¯Khi INB là “H”, định dạng inhibit (INB: “H” à “L”). (Up/Down-A) Ngõ vào điều khiển ¯INA: ngõ vào đếm. ¯INB: ngõ vào điều khiển của đếm Up/Down. ¯Khi INB là “L”, đếm tăng; khi INB là “H”, đếm giảm. (Up/Down-B) Ngõ vào riêng lẻ. ¯INA: ngõ vào đếm Up. ¯INB: ngõ vào đếm Down. ¯Khi INA và INB được cấp từ “L” à “H” cùng thời điểm, việc đếm duy trì không thay đổi. (Up/Down-C) Ngõ vào khác pha ¯Khi sử dụng pha A, B của encoder và kết nối vào INA, INB, hãy cài đặt Mode ngõ vào . Bộ đếm :là ngõ vào khác pha .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¯ : Độ rộng tín hiệu Min. : ½ độ rộng tín hiệu Min. Nếu độ rộng tín hiệu của hoặc nhỏ hơn độ rộng tín hiệu Min, ± 1 của lỗi đếm xảy ra.
+¯ “H” và “L”.
+Bảng 1.2: Ngõ vào điện áp.
+Ngõ vào có điện áp (PNP) Ngõ vào không có điện áp (NPN) H 5 - 30VDC Ngắn mạch L 0-2VDC Hở mạch
+¯ Độ rộng tín hiệu Min, của tốc độ đếm.
+Bảng 1.3: Bảng độ rộng tín hiệu.
+Tốc độ đếm Độ rộng t/h Min 1cps 500ms 30cps 16.7ms 1kcps 0.5ms 5kcps 0.1ms 10kcps 0.05ms
+
+
+
+
+
+
+
+
+
+
+1.3.5. Chế đô hoạt động ngõ ra:
+Mode ngõ ra Mode ngõ vào Hoạt động UP DOWN UP/DOWN A,B,C (F) Sau khi giá trị đếm đến giá trị cài đặt thì ngõ ra OUT self-holding. Khi tín hiệu Reset được cấp thì giá trị đếm trở về 0, đồng thời ngõ ra OUT không giữ nữa. Giá trị đếm lên Max hoặc đếm xuống Min trong lúc ngõ ra OUT self-holding. (N) Sau khi giá trị đếm đến giá trị cài đặt thì ngõ ra OUT self-holding,đồng thời giá trị đếm và ngõ ra tự được giữ đến khi tín hiệu Reset được cấp. (C) Khi giá trị đếm đến giá trị cài đặt thì ngõ ra OUT one-shot, đồng thời giá trị đếm sẽ được reset bắt đầu sớm sau khi đếm lên. (R) Sau khi giá trị đếm đến giá trị cài đặt thì ngõ ra OUT one-shot, đồng thời giá trị đếm không tăng hoặc giảm nữa. (K) Sau khi giá trị đếm đến giá trị cài đặt thì ngõ ra OUT sẽ one-shot, đồng thời giá trị đếm tăng đến giá trị max hoặc giảm đến giá trị min khi INA là ON. khi tín hiệu Reset được cấp thì giá trị đếm tăng hoặc giảm. (P) Sau khi giá trị đếm đến giá trị cài đặt thì giá trị đếm được giữ trong khoảng thời gian one-shot của ngõ ra.Hoạt động đếm bắt đầu Reset cùng thời điểm ngõ ra OUT là ON. (Q) Sau khi giá trị đếm đến giá trị cài đặt thì ngõ ra OUT sẽ one-shot, đồng thời giá trị đếm được reset về 0. (A) Sau khi giá trị đếm đến giá trị cài đặt thì ngõ ra OUT sẽ one-shot,đồng thời giá trị đếm không tăng hoặc giảm được nửa . Reset được cấp thì giá trị đếm về 0. Mode ngõ ra Up/Down A,B,C Hoạt động (S) Khi giá trị đếm đến giá trị cài đặt thì ngõ ra OUT sẽ self-holding. Khi tín hiệu reset được cấp thì giá trị đếm về 0. (T) Khi giá trị đếm đạt đến giá trị cài đặt thì ngõ ra OUTsẽ self-holding. Khi tín hiệu reset được cấp thì giá trị đếm về 0. (D) Khi giá trị đếm đạt đến giá trị cài đặt thì ngõ ra OUTsẽ trùng hợp. Khi tín hiệu reset được cấp thì giá trị đếm về 0.
+1.4.Bộ đặt thời gian:
+1.4.1. Chế độ hoạt động của Bộ đặt thời gian:Bộ đặt thời gian:
+Thay đổi giá trị cài đặt trong trường hợp ngõ ra không là FLK.
+ Khi hai loại giá trị đặt trước đước sử dụng để cài đặt thời gian, thời gian cài đặt được giới hạn theo loại đó và chỉ có OUT2 hoạt động.
+ Khi thay đổi giá trị đặt trước, nếu không có phím nào được nhấn trong 60giây thì Bộ đếm sẽ trở về mode RUN.
+Lưu ý không nhấn phím , khi ngõ ra là không hoạt động.
+Sau khi Mode thay đổi, kết quả giống vậy xảy ra khi tắt nguồn.( Nó chỉ dành cho Mode hoạt động ngõ ra: OND.2, FLK.2).
+1.4.3.Chế độ cài đặt chức năng:
+Mode cài đặt Cách cài đặt Dải thời gian Mode Up/Down ¯ Up: thời gian xử lý từ 0 đến giá trị cài đặt. Down: Thời gian xử lý từ giá trị cài đặt đến 0. Mode ngõ ra Thời gian ngõ ra ¯Nó là hoạt động của ngõ ra điều khiển tùy theo Mode ngõ ra. Ngõ vào logic : Ngõ vào không có điện áp. : Ngõ vào có điện áp. ¯ Ngõ vào logic không được thay đổi bởi phím , bởi vì nó là dạng trạng thái xác định trật tự ngõ vào logic. Thời gian tín hiệu ngõ vào Đơn vị: ms ¯Series CTS: Độ rộng tín hiệu INA, INH, RESET bên ngoài Min. ¯ Series CT: Độ rộng tín hiệu INA, INH, RESET, BATCH RESET bên ngoài Min. Khóa phím (Lock) Bộ đếm thời gian ¯ : Counter (Bộ đếm) : Timer(Bộ đếm)
+1.4.4.Chế độ hoạt động ngõ ra:
+Mode ngõ ra Biểu đồ thời gian Hoạt động (OND) Tín hiệu ON Delay (Nguồn reset) Khi nguồn bật ON và INA ON thì sau khoảng thời gian cài đặt T thì ngõ ra (OUT) sẽ one-shot. (OND.1) Tín hiệu ON Delay 1(Nguồn Reset) Khi nguồn bật ON và INA bật ON thì sau khoảng thời gian cài đặt T thì ngõ ra (OUT) one-shot. Nếu tín hiệu INA được cấp lại thì chỉ tín hiệu ban đầu được xác nhận. (OND.2) Nguồn ON Delay(Nguồn Hold) Bộ nhớ duy trì 10 năm. Khi nguồn bật ON thì sau khoảng thời gian cài đặt T thì ngõ ra (OUT) one-shot. Trong thời gian xử lý đếm đến giá trị cài đặt mà mất nguồn thì nó nhớ giá trị xử lý. (FLK) Flicker(Nguồn reset) Thời gian bắt đầu khi tín hiệu INA bật ON. Nếu tín hiệu INA được cấp lại thì chỉ có tín hiệu ban đầu được xác nhận. Ngõ ra bật OFF trong thời gian Toff và bật ON trong thời gian Ton ( thời gian Ton và Toff phải cài đặt riêng biệt) (FLK.1) Flicker 1(Nguồn reset) Khi nguồn bật ON và INA là ON thì sau khoảng thời gian cài đặt T (tính từ xung cạnh lên của INA) thì ngõ ra OUT sẽ one-shot. Nếu tín hiệu INA được cấp lại thì chỉ tín hiệu ban đầu được xác nhận. (FLK.2) Flicker 2(Nguồn Hold) Duy trì bộ nhớ 10 năm. Khi nguồn bật ON, INA là ON thì sau khoảng thời gian cài đặt T(Tính từ xung cạnh lên của INA) thì ngõ ra OUT sẽ one-shot. Khi nguồn OFF thì thời gian xử lý được lưu lại. (INT) INTERVAL (Nguồn Reset/Tín hiệu Reset) Khi nguồn ON và INA là ON thì ngõ ra OUT sẽ ON trong khoảng thời gian cài đặt T thì giá trị xử lý và ngõ ra điều khiển tự động reset. . (INT.1) INTERVAL 1 (Nguồn Reset) Khi nguồn ON và INA là ON thì ngõ ra OUT sẽ ON trong khoảng thời gian cài đặt T thì giá trị xử lý và ngõ ra điều khiển tự động reset. Nếu tín hiệu INA được cấp lại thì chỉ có tín hiệu ban đầu được xác nhận. (OFD) Tín hiệu OFF Delay (Nguồn Reset) Khi nguồn bật ON, INA là ON thì ngõ ra OUT) sẽ ON,sau khoảng thời gian cài đặt T (tính từ INA là OFF) thì giá trị xử lý và ngõ ra điều khiển OUT tự động reset.
+1.5. Ứng dụng:
+1.5.1. Ứng dụng để cắt chiều dài:
+Điều khiển chiều dài bằng Bộ đếm (CT6S) và Encoder:
+Trường hợp cắt giấy là 300mm, sử dụng roller đường kính (D) =50mm kết hợp với Encoder 1000 xung.
+F Trả lời:
+ Chỉnh lại chiều dài chạy được của roller trên 1 xung nó là 0.157mm. Dựa vào công thức giá trị tỷ lệ:
+Giá trị tỷ lệ = = = 0.157 mm/xung
+Định dạng giá trị tỷ lệ là 0.157 và cài đặt giá trị đặt trước của Bộ đếm là 300
+Chức năng cài đặt dấu thập phân không sử dụng .
+ Bộ đếm sẽ đếm 0.157mm trên1 xung, nó là 0.157, hiển thị 300mm và xuất ra khi có 1,911 xung được nhập vào.
+Nhưng khi chọn “_ _ _ . _ _ _” trong Mode cài đặt dấu thập phân và cài đặt giá trị đặt trước trên Bộ đếm là 300.000 để giống với dấu thập phân 300.027mm được hiển thị và được xuất ra khi có 1,911 xung được nhập vào.Nó có giá trị điều khiển chính xác tùy thuộc vào dấu thập phân.
+Giá trị đếm ngõ vào Giá trị tỷ lệ = Giá trị hiển thị = 1911 0.157 = 300.02
+Hình 1.4: Ví dụ ứng dụng đo cắt chiều dài
+1.5.2.Ứng dụng điều khiển vị trí:
+Encoder được gắn vào thanh roller, khi khi thanh roller quay theo, khi encoder quay thì sẽ phát xung tín hiệu, xung này được đưa vào Bộ đếm/ Bộ đặt thời gia đa chức năng (CT6S) để đếm, Bộ đếm sẽ xuất tín hiệu OUT đến hộp điều khiển,Bộ điều khiển sẽ xử lý và để điều khiển solenoid dập khuôn dấu chính xác.
+Hình1.5: Ví dụ ứng dụng điều khiển vi trí.
+1.5.3. Điều khiển số lượng:
+Hình1.6:Ví dụ ứng dụng điều khiển số lượng.
+Chương 2 : GIỚI THIỆU VỀ ENCODER
+2.1 Giới thiệu chung về encoder:
+2.1.1Công dụng, phân loại, cấu tạo và nguyên lý làm việc chung:
+F.Công dụng:
+Encoder mục đích dùng để quản lý vị trí góc của một đĩa quay, đĩa quay có thể là bánh xe, trục động cơ, hoặc bất kỳ thiết bị quay nào cần xác định vị trí góc.
+F.Phân loại:
+Encoder được chia làm 2 loại là:
++ Encoder truyệt đối( absolute encoder).
++ Encoder tương đối( incremental encoder).
+F.Cấu tạo và nguyên lý làm việc:
+FCấu tạo:
+Có thể chia làm 4 phần:
++ Bộ phận thu và bộ phân phát
++ Đĩa tròn có khắc những rãnh.
++ Mạch điện để xử lý.
++ Bộ phận ghép nối .
+FNguyên lý làm việc:
+Nguyên lý cơ bản của encoder, đó là một đĩa tròn xoay, quay quanh trục. Trên đĩa có các lỗ (rãnh). Người ta dùng một đèn led để chiếu lên mặt đĩa. Phía mặt bên kia của đĩa, người ta đặt một con mắt thu.
+Với các tín hiệu có, hoặc không có ánh sáng chiếu qua, người ta ghi nhận được đèn led có chiếu qua lỗ hay không. 2.2 Encoder tương đối và encoder truyệt đối:
+2.2.1. Encoder tương đối (incremental encoder):
+F. Định nghĩa:
+- Encoder tương đối:là loại encoder chỉ có 1, 2 hoặc tối đa là 3 vòng lỗ(chúng ta hình dung thế này, nếu bây giờ chúng ta đục một lỗ trên một cái đĩa quay, Cứ mỗi lần đi qua một lỗ, chúng ta phải lập trình để thiết bị đo đếm lên 1. Do vậy encoder loại này có tên incremental encoder (encoder tăng lên 1 đơn vị).
+F.Hoạt động:
+- Encoder tương đối: sẽ tăng 1 đơn vị khi một lần lên xuống của cạnh xung.
+Hình2.2: Encoder không có lỗ định vị.
+- Cứ mỗi lần quay qua một lỗ, thì encoder sẽ tăng một đơn vị trong biến đếm.Tuy nhiên, một vấn đề là làm sao để biết được encoder quay hết một vòng? Nếu cứ đếm vô hạn như thế này, thì chúng ta không thể biết được khi nào nó quay hết một vòng. Nếu bây giờ chúng ta đếm số lỗ encoder để biết nó đã quay một vòng. Chưa kể, mỗi lần có những rung động nào đó mà ta không quản lý được, encoder sẽ bị sai một xung. Khi đó, nếu hoạt động lâu dài, sai số này sẽ tích lũy, ngày hôm nay sai một xung, ngày hôm sau sai một xung. Đến cuối cùng, có thể động cơ quay 2 vòng rồi mà chúng ta mới đếm được 1 vòng. Để tránh điều tai hại này xảy ra, người ta đưa vào thêm một lỗ định vị để đếm số vòng đã quay của encoder.
+- Như vậy, cho dù có lệch xung, mà chúng ta thấy rằng encoder đi ngang quy định vị này, thì chúng ta sẽ biết là encoder đã bị đếm sai ở đâu đó. Nếu vì một rung động nào đó, mà chúng ta không thấy encoder đi qua lỗ định vị, vậy thì từ số xung, và việc đi qua lỗ định vị, chúng ta sẽ biết rõ hiện tượng sai của encoder.
+Đây là hình encoder có lỗ định vị:
+Hình2.3: Encoder có lỗ định vị.
+- Tuy nhiên, một vấn đề lớn nữa là, làm sao chúng ta biết encoder đang xoay theo chiều nào? Xung A sớm pha hơn xung B 90° khi đĩa quay cùng chiều kim đồng hồ và trễ pha 90° khi đĩa quay ngược chiều kim đồng hồ .( Xem hình 2)
+Hình 2.4: Xác định chiều quay encoder.
+- Encoder tương đối có 3 đầu ra A,B,Z. Hai đầu A,B phát ra n xung/vòng còn Z chỉ phát 1 xung/vòng..Một số có ngõ ra vi sai (A, A, B, B, Z, Z ) dùng để chống nhiễu trên đường dây truyền.
+2.2.2.Encoder truyệt đối(absolute encoder):
+F Định nghĩa:
+- Encoder tương đối cho trị số nhị phân của góc quay 360 độ so với vị trí gốc. Tín hiệu ta nhận được chỉ rõ ràng vị trí của encoder, chúng ta không cần xử lý gì thêm, cũng biết chính xác vị trí của encoder
+- Độ phân giải từ 8 – 14 bit dạng mã BCD, mã GRAY hay nhị phân.
+FHoạt động:
+- Vấn đề chúng ta sẽ quan tâm ở đây, chính là vấn đề về độ mịn của encoder, có nghĩa là làm thế nào biết đĩa đã quay 1/2 vòng, 1/4 vòng, 1/8 vòng hay 1/n vòng, chứ không phải chỉ biết đĩa đã quay được một vòng.
+Ví dụ: Với một số nhị phân có 2 chữ số chúng ta sẽ có 4 trạng thái là 00, 01, 10, 11. Điều đó có nghĩa là với 2 chữ số, chúng ta có thể chia đĩa encoder thành 4 phần bằng nhau. Và khi quay, chúng ta sẽ xác định được độ chính xác đến 1/4 vòng. Tương tự như vậy, nếu với một số có n chữ số, chúng ta sẽ xác định được độ chính xác đến 1/(2^n) vòng.
+Hình 2.5: Đĩa xung 2 vòng lỗ.
+
+2.3. Bộ mã hóa vòng quay tương đối (Đường kính 40mm loại trục):
+2.3.1.Đặc điểm:
+ Dễ dàng lắp đặt ở không gian hẹp.
+ Quán tính roto nhỏ.
+ Dải nguồn cung cấp rộng: 5VDC, 12 – 24VDC ±5%.
+ Có nhiều loại ngõ ra.
+Hình2.6: Encoder E40s Series.
+2.3.2.Thông tin đặt hàng:
+2.3.3.Thông số kỹ thuật:
+Loại Bộ mã hóa vòng quay tương đối, đường kính 40mm loại trục Độ phân giải (P/R) (Note1) *1, *2, *5, 10, *12, 15, 20, 23, 25, 30, 35, 40, 45, 50, 60, 75, 100, 120, 150, 192, 200, 240, 250, 256, 300, 360, 400, 500, 512, 600, 800, 1000, 1024, 1200, 1500, 1800, 2000, 2048, 2500, 3000, 3600, 5000 Thông số về điện Pha ngõ ra Pha A, B, Z(Line Driver A, , B, ,C, ) Sự lệch pha ngõ ra Sự lệch pha giữa A và B: (T = 1 chu kỳ của pha A) Ngõ ra điều khiển Ngõ ra totempole Low: Dòng điện tải: Max. 30mA, Điện áp dư: Max 0.4 VDC Hight: Dòng điện tải: Max. 10mA, Điện áp ngõ ra(Nguồn cấp 5VDC): Min (Nguồn cấp -2.0)VDC Điện áp ngõ ra (Nguồn cấp 12 – 24VDC): Min (Nguồn cấp 3.0)VDC Ngõ ra NPN collector thường hở Dòng điện tải: Max. 30mA, Điện áp dư: Max 0.4 VDC Ngõ ra điện áp Dòng điện tải: Max. 10mA, Điện áp dư: Max 0.4 VDC Ngõ ra Line Driver Low: Dòng điện tải: Max. 20mA, Điện áp dư: 0.5 VDC  Dòng điện tải: Max. -20mA, Điện áp dư: Min 2.5 VDC Thời gian đáp ứng Ngõ ra totem pole Max 1 Phạm vi quy định: Chiều dài cáp 2m, I sink = max.20mA Ngõ ra NPN collector thường hở Max 1 Ngõ ra điện áp Max 1 Ngõ ra Line Driver Max 0.5 Tần số đáp ứng max 300KHz Nguồn cấp  5 VDC ± 5%(Dao động P-P max 5 %)  12-24 VDC ± 5%(Dao động P-P max 5 %) Dòng điện tiêu thụ Max 80mA(Không nối với tải), Line Driver Max 50mA(Không nối với tải) Điện trở cách điện Min , 100M Độ bền điện môi 750VAC 50/60Hz trong 1 phút( Giữa các đầu nối vỏ hộp) Kết nối Loại cáp có ngõ ra, loại cáp có ngõ ra 250mm bằng giắc cắm. Thông số về cơ khí Momen khởi động Loại trục: Max 40gf cm( 0.004 N m) Loại lỗ: Max 50gf cm( 0.005 N m) Quán tính Roto Max 40g ( 4 10-6kg m2) Trục chịu tải Phương ngang: Max. 2kgf, Phương dọc max 1kgf Số vòng quay cho phép max (Note 2) 5000rpm Chấn động 1.5mm biên độ tần số 10 ~ 55Hz trên mỗi phương Z, X, Y trong 2 giờ. Va chạm Max 50G Nhiệt độ môi trường -10 ~ 700C ( Ở trạng thái không đông), Lưu kho -25 ~ 850C Độ ẩm môi trường 38 ~ 85% RH, Lưu kho 35 ~ 90% RH Cấu trúc bảo vệ IP50( Chuẩn IEC) Thông số cáp 5mm, 5p, Chiều dài: 2m, cáp bảo vệ( Ngõ ra Line Driver: 5mm, 8p) Phụ kiện Loại trục: khớp nối chuẩn 6mm, khớp nối 8mm(Tùy chọn) Loại lỗ: Giá đỡ Trọng lượng Khoảng 120g Tiêu chuẩn (Ngoại trừ ngõ ra Line Driver)
+
+(Note1): Xung đánh dấu “*” chỉ có pha A, B(Ngõ ra Line Driver A, , B, )
+(Note2): Số vòng quay cho phép max. Số vòng quay đáp ứng max ( Số vòng quay đáp ứng max = giây)
+2.3.4. Sơ đồ điều khiển:
+2.3.5. Dạng sóng ngõ ra:
+Ngõ ra Totem pole/ Ngõ ra NPN collector thường hở / Ngõ ra điện áp.
+2.3.6. Sơ đồ kết nối:
+Loại thường:
+Ngõ ra Totem pole/ Ngõ ra NPN collector thường hở / Ngõ
+2.3.7.Kích thước:
+Loại thường
+Hình2.7: Ghi kích thước encoder.
+TRẢ LỜI:
+CÂU 1:
+Bước 1:Từ mode RUN ta nhấn phím trong vòng 3giây để vào Mode cài đặt chức năng của Bộ đếm (nếu ở chức năng của Bộ đặt thời gian thì phải nhấn phím cho đến khi chuyển đến Mode , ,dùng phím để chọn chức năng Bộ đếm , rồi nhấn trong vòng 3giây để vào RUN của Bộ đếm).
+Bước 2 : Nhấn trong 3 giây để vào chức năng của Bộ đếm Vào trong chế độ Bộ đếm ta thấy Mode đầu tiên là Mode ngõ vào
+,ta sử dụng phím để chọn chức năng ngõ vào đếm lên
+Tiếp theo ta nhấn để vào Mode chế độ cài đặt tốc độ đếm và dùng phím để chọn tốc độ đếm
+Bước 3: Nhấn để vào Mode ngõ ra , dùng phím để chọn Mode ngõ ra là :
+Nhấn cho đến khi vào Mode cài đặt giá trị tỷ lệ = 0,157 (tham khảo công thức)
+Giá trị tỷ lệ = = 0,157 (mm/xung)
+1xung 0,157 mm
+? 300 mm
+1911xung
+Bước 4:Nhấn cho đến khi đến mode khóa phím , dùng phím
+để chọn chức năng khóa phím để khóa phím
+Nhấn trong 3 giây để trở về Mode Run, từ đây ta nhấn phím và phím để cài đặt giá trị đếm là 300.Nhấn trở về Mode Run.
+CÂU 2:
+Bước 1: Từ Mode Run của Bộ đặt thời gian(nếu ở chức năng của Bộ đếm thì phải nhấn chuyển đến ode dùng phím
+để chọn chức năng Bộ đặt thời gian rồi nhấn trong vòng 3giây để vào Mode Run của Bộ đặt thời gian.
+Bước 2: Nhấn trong 3 giây để vào Mode cài đặt chức năng của Bộ đặt thời gian, đầu tiên là chức năng dải thời gian,sử dụng phím
+để chọn dải thời gian :
+Bước 3: Nhấn để vào mode dùng phím để chọn chế độ
+là: .
+Nhấn chuyển sang Mode ngõ ra ,dùng phím
+để chọn chế độ .
+Bước 4: Nhấn trong 3 giây để trở về Mode Run, từ đây ta nhấn phím và để cài đặt thời gian Ton= 10s,Toff=20s.
+...........................................................
+Chương 4: KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN
+4.1. Kết luận:
+Trong quá trình làm đồ án tốt nghiệp dưới sự hướng dẫn giúp đỡ của các thầy cô đặc biệt là thầy ĐOÀN MINH cùng các bạn bè đồng nghiệp nên nhóm chúng em đã cơ bản hoàn thành đồ án “ Bộ đếm bộ đặt thời gian đa chức năng”. Nội dung của đồ án là chủ yếu là tìm hiểu về chức năng, đặc điểm ứng dụng và vận hành bộ đếm bộ đặt thời gian đa chức năng.
+Nhóm đã làm được:
+Cài đặt được các chức năng cơ bản. Kết nối được với encoder.
+Chưa làm được:
+- Đây là kít thực tập và để áp dụng thì nó chưa được hoàn chỉnh.
+Tuy nhóm đã có nhiều cố gắng nhưng do điều kiện và khả năng có hạn nên khó tránh khỏi những sai sót. Nhóm chúng em rất mong sự đóng góp của các thầy cô cùng bạn bè.
+4.2. Phương hướng phát triển.
+Đây là bộ CT6S nên hạn chế về chức năng vì vậy có thể sử dụng các bộ CT6Y để có thêm nhiều chức năng ứng dụng vào thực tiễn.(Chức năng đếm tổng…)
+TÀI LIỆU THAM KHẢO
+[1] Giáo trình đo lường và điều khiển bằng máy tính.
+Nguyễn Đức Thành
+[2] Internet:
+- www.picvietnam.com
+- www.autonics.com.vn
+- www.scribd.com
+- www.en.wikipedia.org
+

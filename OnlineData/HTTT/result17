@@ -1,0 +1,328 @@
+BỘ GIÁO DỤC VÀ ĐÀO TẠO CỘNG HOÀ XĂ HỘI CHỦ NGHĨA VIỆT NAM
+TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI Độc lập - Tự do - Hạnh phúc
+KHOA CƠ KHÍ
+
+NHIỆM VỤ THIẾT KẾ ĐỒ ÁN TỐT NGHIỆP
+
+MỤC LỤC
+
+LỜI NÓI ĐẦU .....................................................................................................1
+Các thông số cho trước của xe ...........................................................................3
+
+PHẦN 1:TỔNG QUAN VỀ HỆ THỐNG TREO ............................................4
+
+I. Công dụng ........................................................................................................4
+II. Yêu cầu của hệ thống treo ............................................................................4
+III. Phân tích kết cấu của hệ thống treo ...........................................................5
+IV. Lựa chọn hệ thống treo áp dụng cho xe thiết kế .....................................10
+
+PHẦN 2: TÍNH TOÁN CÁC THÔNG SỐ CƠ BẢN CỦA HỆ THỐNG TREO TRƯỚC .................................................................................................11
+
+I. Xác định các thông số cơ bản của hệ thống treo trước ..............................11
+I.1 Độ cứng của nhíp ..........................................................................................11
+II. Tính toán các thông số cơ bản của nhíp trước ..........................................11
+II.1 Xác định độ võng tĩnh và động của nhíp ......................................................12
+II.2 Xác định chiều dài của nhíp .........................................................................12
+II.3 Xác định momen quán tính tổng cộng của nhíp ..........................................12
+II.4 Xác định chiều dày, bề rộng, số lá nhíp và chiều dài của từng lá ................13
+II.4.5 Xác định bán kính cong ở trạng thái tự do của các lá nhíp .......................18
+III. Tính kiểm tra nhíp .....................................................................................21
+III.1 Kiểm tra độ cứng và độ võng tĩnh của nhíp ................................................21
+III.2 Tính ứng suất tĩnh tại các tiết diện của từng lá ...........................................26
+III.3 Kiểm bền một số chi tiết của hệ thống treo trước .......................................29
+III.3.1 Kiểm bền tai nhíp ....................................................................................29
+III.3.2 Kiểm bền chốt nhíp .................................................................................30
+
+PHẦN 3: THIẾT KẾ NHÍP SAU ....................................................................31
+
+I. Phân tải cho nhíp sau ....................................................................................31
+II. Tính toán thiết kế nhíp chính .....................................................................33
+II.1 Xác định độ võng tĩnh và động của nhíp ......................................................33
+II.2 Xác định chiều dài của nhíp .........................................................................33
+II.3 Xác định momen quán tính tổng cộng của nhíp ..........................................34
+II.4 Xác định chiều dày, bề rộng, số lá nhíp và chiều dài của từng lá ................34
+II.4.5 Xác định bán kính cong ở trạng thái tự do của các lá nhíp .......................40
+III. Tính kiểm tra nhíp .....................................................................................42
+III.1 Kiểm tra độ cứng và độ võng tĩnh của nhíp ................................................42
+III.2 Tính ứng suất tĩnh tại các tiết diện của từng lá ...........................................47
+III.3 Kiểm bền một số chi tiết của hệ thống treo ........ .......................................50
+III.3.1 Kiểm bền tai nhíp ....................................................................................50
+III.3.2 Kiểm bền chốt nhíp ..................................................................................51
+
+PHẦN 4: THIẾT KẾ NHÍP PHỤ ....................................................................52
+
+I. Tính toán thiết kế nhíp phụ ..........................................................................52
+I.1 Xác định độ võng tĩnh và động của nhíp .......................................................52
+I.2 Xác định chiều dài của nhíp ..........................................................................52
+I.3 Xác định momen quán tính tổng cộng của nhíp ............................................53
+I.4 Xác định chiều dày, bề rộng, số lá nhíp và chiều dài của từng lá .................53
+I.4.5 Xác định bán kính cong ở trạng thái tự do của các lá nhíp ........................58
+II. Tính kiểm tra nhíp ......................................................................................60
+II.1 Kiểm tra độ cứng và độ võng tĩnh của nhíp .................................................60
+II.2 Tính kiểm tra bền nhíp .................................................................................64
+II.3 Tính ứng suất tĩnh tại các tiết diện của từng lá ............................................66
+
+PHẦN 5: THIẾT KẾ GIẢM CHẤN ỐNG .....................................................69
+
+I. Xác định các kích thước cơ bản ...................................................................69
+II. Xác định các thông số cơ bản .....................................................................70
+III. Xây dựng đồ thị đặc tính của giảm chấn .................................................72
+IV. Xác định công suất sinh ra trong giảm chấn ...........................................72
+V. Xác định công suất toả nhiệt của giảm chấn .............................................73
+VI. Xác định kích thước van trả ......................................................................73
+VI.1. Xác định kích thước van trả nhẹ khi vận tốc piston<=0,3 m/s ..................73
+VI.2. Xác định kích thước van trả mạnh .............................................................75
+VII. Xác định kích thước van nén ...................................................................76
+VII.1.Xác định kích thước van nén nhẹ ..............................................................76
+VII.2. Xác định kích thước van nén mạnh ..........................................................78
+VII. 3.Xác định kích thước van thông qua đế lưu lượng chất lỏng cần điền đầy vào khoang dưới của pistong khi giảm chấn làm việc ở hành trỉnh trả ...............79
+VIII. Xác định lò xo các van ............................................................................79
+VIII.1. Lò xo van trả ...........................................................................................79
+VIII.2. Lò xo van nén .........................................................................................81
+IX. Kiểm bền xylanh và pistong giảm chấn ...................................................81
+IX.1. Xác định chế độ tải trọng tính toán ...........................................................81
+IX.2. Tính bền xylanh giảm chấn .......................................................................82
+IX.3. Tính bền trục pistong .................................................................................83
+
+PHẦN 6: QUY TRÌNH CÔNG NGHỆ GIA CÔNG PISTONG GIẢM CHẤN ................................................................................................................85
+
+I. Chức năng làm việc của chi tiết ...................................................................85
+II. Xác định dạng sản xuất ...............................................................................85
+III. Chọn phôi ....................................................................................................86
+IV. Thiết kế bản vẽ lồng phôi ..........................................................................86
+V. Thiết kế các nguyên công gia công chi tiết pistong ...................................86
+V.1 Nguyên công 1 .............................................................................................87
+V.2 Nguyên công 2 .............................................................................................88
+V.3 Nguyên công 3 .............................................................................................89
+V.4 Nguyên công 4 .............................................................................................90
+V.5 Nguyên công 5 .............................................................................................91
+V.6 Nguyên công 6 .............................................................................................91
+
+KẾT LUẬN .......................................................................................................93
+TÀI LIỆU THAM KHẢO ................................................................................94
+
+LỜI NÓI ĐẦU
+
+Trước đây, nhu cầu đi lại là một vấn đề quan trọng trong cuộc sống vì vậy được con người hết sức quan tâm và luôn có ý thức phát triển. Từ những phương tiện dùng sức kéo của động vật cho đến những hệ thống cơ khí đơn gỉan. Chúng ta đã phát triển thành những cỗ máy hiện đại hơn nhiều luôn đáp ứng kịp thời nhu cầu phát triển của xã hội.
+Ngày nay, với sự phát triển mạnh mẽ của khoa học kĩ thuật, các ngành kinh tế làm cho mức sống của nhân loại được nâng lên, nhu cầu đi lại, vận chuyển lại càng được quan tâm hoàn thiện không ngừng. Trong các loại phương tiện giao thông hiện đang được sử dụng trên thế giới cũng như ở Việt Nam thì phương tiện giao thông đường bộ mà đặc biệt ôtô là loại phương tiện được sử dụng phổ biến nhất, do nó có nhiều ưu điểm hơn so với các loại khác: cơ động, giá thành rẻ, nhanh gọn, (ở cự ly gần và trung bình). Để đáp ứng nhu cầu sử dụng của con người thì mỗi loại xe được thiết kế phù hợp với từng ngành nghề du lịch, xây dựng, quân sự, môi trường...Và hiện nay Việt Nam là một nước đang phát triển, đất nước với địa hình trải dài từ bắc vào nam cơ sở hạ tầng, mạng lưới giao thông đường bộ còn nhiều yếu kém do đó nhu cầu vận chuyển hàng hoá trong thành phố cũng như xuyên các tỉnh lỵ là một vấn đề khá bức xúc ảnh hưởng nhiều đến nền kinh tế của nước ta. Vì vậy việc thiết kế ra một phương tiện giao thông đường bộ giải quyết được vấn đề bức xúc đó là hết sức quan trọng. Qua thực tế tôi nhận thấy xe ôtô có tải trọng 4 tấn là một phương tiện phù hợp đáp ứng được các nhu cầu đặt ra với điều kiện xã hội nước ta hiện nay. Tuy nhiên vì địa hình của Việt Nam rất phức tạp, đường đồi núi nhiều mấp mô ảnh hưởng lớn đến kết cấu, các bộ phận máy móc,và tâm lý của lái xe cũng như chất lượng của hàng hoá chuyên chở theo. Vì vậy việc thiết kế hệ thống treo của ôtô là một biện pháp tối ưu hoá cả về kỹ thuật lẫn tính kinh tế trong điều kiện xã hội Việt Nam hiện nay.
+Chính từ những nhu cầu cần thiết đó tôi đã được nhận đề tài thiết kế hệ thống treo cho xe tải có tải trọng 4 tấn làm đồ án tốt nghiệp.
+Đề tài này được thiết kế và hoàn thành tại trường Đại học Bách Khoa Hà Nội với sự giúp đỡ của các thầy cô bộ môn Ôtô - Khoa Cơ khí đặc biệt là thầy giáo hướng dẫn Trần Văn Nghĩa.
+Trong quá trình làm đồ án chắc sẽ không tránh khỏi các thiếu sót, vì vậy rất mong có được sự đóng góp ý kiến của các thầy cô và các bạn. Tôi xin chân thành cảm ơn.
+
+
+THIẾT KẾ HỆ THỐNG TREO CHO XE TẢI CÓ TẢI TRỌNG 4 TẤN
+
+CÁC THÔNG SỐ CHO TRƯỚC CỦA XE
+
+1. Chiều dài cơ sở 3700 (mm)
+2. Trọng lượng bản thân 3250 (kg)
+- Trọng lượng phân bố lên cầu trước 1460 (kg)
+-Trọng lượng phân bố lên cầu sau 1790 (kg)
+3. Trọng tải toàn bộ 7400 (kg)
+- Phân bố lên cầu trước 1810 (kg)
+- Phân bố lên cầu sau 5590 (kg)
+
+Xe tải với tải trọng 4 tấn là một loại xe tải đã và đang được sử dụng khá rộng rãi ở nước ta. Nên việc tiến hành tính toán và thiết kế các cụm chi tiết của xe như hộp số, hệ thống lái, ly hợp, cầu và đặc biệt là hệ treo có nhiều thuận lợi và có nhiều cơ sở thực nghiệm trong việc tiến hành đối chiếu tham khảo và kiểm tra lại kết quả tính toán.
+
+PHẦN 1
+TỔNG QUAN VỀ HỆ THỐNG TREO
+
+I. CÔNG DỤNG
+Hệ thống treo dùng để nối đàn hồi khung hoặc vỏ ôtô, máy kéo với hệ thống truyền động.
+Nhiệm vụ chủ yếu của hệ thống treo la giảm các va đập sinh ra trong quá trình chuyển động và làm cho ôtô, máy kéo chuyển động êm dịu khi gặp phải các bề mặt gồ gề không bằng phẳng.
+II. YÊU CẦU CỦA HỆ THỐNG TREO
+Tạo điều kiện cho bánh xe thực hiện chuyển động tương đối theo phương thẳng đứng với khung xe hoặc vỏ xe, theo yêu cầu dao động êm ái hạn chế tới mức có thể chấp nhận được những chuyển động không muốn có khác của bánh xe (như lắc ngang, lắc dọc).
+- Hệ treo phải phù hợp với điều kiện sử dụng theo tính năng kỹ thuật của xe như chạy trên nền đường tốt hoặc xe có khả năng chạy trên mọi địa hình khác nhau.
+- Bánh xe có thể chuyển động trong một giới hạn không hạn chế.
+- Có độ bền cao.
+- Không gây tải trọng lớn tại các mối liên kết với khung và vỏ.
+- Quan hệ động học của bánh xe phải hợp lý thoả mãn mục đích chính của hệ thống treo làm mềm theo phương thẳng đứng nhưng không phá hỏng các quan hệ động lực học và động học của chuyển động bánh xe.
+- Ngoài các yêu cầu nêu trên, hệ thống treo phải đảm bảo các yêu cầu đặc biệt sau đây:
++ Có tần số dao động riêng của vỏ thích hợp, tần số dao động này được xác định bằng độ võng tĩnh(ft)
++ Có độ võng động (fđ) đủ để cho không sinh ra va đập lên các ụ đỡ cao su.
++ Có độ dập tắt dao động của vỏ và bánh xe thích hợp.
++ Khi quay vòng hoặc phanh ôtô không bị nghiêng trục đứng của các bánh dẫn hướng không đổi.
++ Đảm bảo cho chiều rộng cơ sở và góc đặt các trục đứng của các bánh xe dẫn hướng không đổi.
++ Đảm bảo sự tương ứng giữa động học các bánh xe và động học của truyền độn lái.
+III. PHÂN TÍCH KẾT CẤU CỦA CÁC HỆ THỐNG TREO
+Trong ôtô thông thường sử dụng chủ yếu hai hệ thống treo phụ thuộc và độc lập, hầu hết đầu trước nhíp nối với khung bằng khớp cố định, nhíp đặt dọc thường nhíp làm bộ phận dẫn hướng truyền lực đẩy hoặc lực phanh lên khung.
+III.1. PHÂN LOẠI
+III.1.1. Theo bộ phận hướng chia làm hai loại
+- Treo phụ thuộc.
+- Treo độc lập.
+III.1.2. Theo phần tử đàn hồi chia làm các loại
+- Treo nhíp lò xo.
+- Treo có nhíp thanh xoắn.
+- Treo loại cao su.
+- Treo loại hơi.
+- Treo loại thuỷ lực.
+- Treo loại liên hợp.
+III.2. PHÂN TÍCH
+Trong ôtô thông thường sử dụng chủ yếu hai hệ thống treo phụ thuộc và độc lập, hầu hết ở các hệ thống treo phụ thuộc đầu trước nhíp nối với khung bằng khớp cố định, nhíp đặt dọc thường nhíp làm bộ phận dẫn hướng truyền lực đẩy hoặc lực phanh lên khung.Hệ thống treo phụ thuộc được sử dụng rộng rãi ở các ôtô vận tải, hành khách và một số ôtô du lịch.
+Còn hệ thống treo độc lập được sử dụng khá nhiều ở ôtô du lịch và một số loạ ôtô vận tải đời mới.
+- Ưu điểm của hệ thống treo phụ thuộc là đơn giản về kết cấu, trong khi đó vẫn đảm bảo được yêu cầu êm dịu cần thiết của ôtô nhất là những ôtô có tốc độ chuyển động không lớn.
+- Còn hệ thống treo độc lập co ưu điểm chủ yếu là tăng được khá nhiều tính êm dịu của ôtô khi chuyển động ở các điều kiện đường xá khác nhau, nhưng nó có kết cấu phức tạp nên gía thành cao nó được áp dụng cho các loại xe có vận tốc lớn, hiện đại.
+- Ở hệ treo phụ thuộc các bánh xư đặt trên dầm liền bộ phận giảm chấn và đàn hồi đặt giữa thung xe và dầm cầu liền. Qua cấu tạo hệ thống treo phụ thuộc sự dịch chuyển của một bên bánh xe theo phương thẳng đứng sẽ gây nên chuyển vị nào đó của bánh xe bên kia nên chúng phụ thuộc lẫn nhau.
+- Ở trên hệ thống treo độc lập các bánh xe gắn (độc lập) với khung vỏ thông qua các đòn, bộ phận giảm chấn, đàn hồi. Các bánh xe độc lập dịch chuyển tương đối với khung vỏ. Trong thực tế chuyển động của xe, điều này chỉ đúng khi ta coi thùng và vỏ xe đứng yên.
+Ở hệ treo nào cũng vậy bao giờ cũng gồm 3 phần chính: 1/Bộ phận hướng; 2/Bộ phận đàn hồi; 3/Bộ phận giảm chấn
+III.2.1. Bộ phận hướng
+Dùng để xác định động học và tính chất dịch chuyển của các bánh xe tương đối với khung hay vỏ ôtô và dùng để chuyền lực dọc (lực kéo tiếp tuyến, hoặc lực phanh) lực ngang cũng như các momen phản lực và momen phanh.
+ở hệ thống treo phụ thuộc nhíp vừa làm nhiệm vụ của bộ phận đàn hồi, vừa làm nhiệm vụ của bộ phận hướng
+Yêu cầu:
+- Đối với bánh xe dẫn hướng nên tránh sự thay đổi góc nghiêng.
+- Đảm bảo truyền lực và các momen từ bánh xe lên khung xe mà không gây nên biến dạng rõ rệt
+- Giữ được đúng động học của truyền động lái.
+- Bộ phận hướng phải có kết cấu đơn giản dễ bảo dưỡng thay thế, các khớp phải được bôi trơn.
+III.2.2. Bộ phận đàn hồi
+Với công dụng để truyền chủ yếu các lực thẳng đứng và để giảm tải trọng động khi ôtô chuyển động trên đường không bằng phẳng, cũng như để đảm bảo độ êm dịu chuyển động cần thiết.
+ở bộ phận đàn hồi có thể dùng loại nhíp, lò xo, thanh xoắn, cao su, loại hơi thuỷ lưc va liên hợp.
+- Nhíp:
+Được sử dụng rộng rãi ở các ôtô có dầm cầu không cắt.
+Kết cấu của nhíp gồm nhiều lá nhíp hợp lại. Các lá nhíp được nối với nhau bởi bu lông trung tâm, lá nhíp có thể dịch chuyển tương đối với nhau theo chiều dọc, do đó khi nhíp biến dạng sẽ sinh ra sự ma sát làm giảm các dao động khi ôtô chuyển động. Trong trường hợp tải trọng tác dụng lên cầu có thể thay đổi đột ngột như cầu sau của ôtô tải, người ta bố trí nhíp đôi gồm một nhíp chính và một nhíp phụ.
+Nhíp phụ có thể đặt trên hoặc dưới nhíp chính tuỳ thuộc vào vị trí giữa cầu và khung, kích thước của nhíp và biến dạng yêu cầu của nhíp.
+- Lò xo trụ:
+Được dùng nhiều ở các ôtô du lịch đòi hỏi sự êm dịu cao khi chuyển động, được áp dụng đối với hệ treo độc lập. Lò xo trụ có ưu điểm là kết cấu đơn giản kích thước gọn gàng nhất là khi bố trí giảm chấn ống ở trong lòng lò xo. Lò xo trụ trong hệ thống treo chỉ làm nhiệm vụ đàn hồi mà không làm nhiệm vụ đẩy hoặc nhiệm vụ hướng bánh xe.
+- Thanh xoắn
+Được dùng ở một số ôtô du lịch, với kết cấu của nó đơn giản nhưng có sự bố trí khó khăn vì thanh xoắn có chiều dài khá lớn.
+- Hệ thống treo loại khí:
+Ngày nay có chiều hướng phát triển nhiều hơn. Hệ thống treo loại khí được sử dụng tốt ở các ôtô có trọng lượn phần được treo thay đổi như ở ôtô tải, ôtô khách, đoàn xe.
+- Hệ thống treo loại khí:
+Hệ thống treo loại khí có bộ phận đàn hồi khi làm theo loại ống têlêscốp. ở đây áp suất của khí được truyền qua chất lỏng sẽ tiến hành dập tắt dao động. Bởi vậy bộ phận đàn hồi thuỷ khí đồng thời sẽ làm luôn nhiệm vụ của bộ phận giảm chấn. Tuy nhiên với chức năng như vậy nó có kết cấu phức tạp khó bảo dưỡng thay thế nên không được sử dụng rộng rãi.
+Do bịt kín chất lỏng dễ hơn so với bịt kín khí nên bộ phận đàn hồi thuỷ khí gọn hơn bộ phận đàn hồi khí. Bởi vì bộ phận đàn hồi thuỷ khí dùng áp suất khá cao (đến 20 MN/m).
+III.2.3. Bộ phận giảm chấn
+Bộ phận giảm chấn có hai loại. Ngoài ra còn chia bộ phận giảm chấn ra hai loại tác dụng một chiều và tác dụng hai chiều
+ở giảm chấn tác dụng một chiều dao động được dập tắt ở hành trình trả, nghĩa là khi bánh xe đi ra khỏi khung, còn ở giảm chấn tác dụng hai chiều dao động được dập tắt ở hai hành trình trả và nén.
+Ngày nay, ở các hệ thống treo thường dùng giảm chấn tác dụng hai chiều để dập tắt dao động nhanh hơn.
+Giảm chấn ống có ưu điểm hơn giảm chấn đòn là trọng lượng bé, bố trí gọn gàng hơn và áp suất chất lỏng trong giảm chấn cũng nhỏ hơn. Ngoài ra thoát nhiệt cũng tốt hơn vì nó tiếp xúc toàn bộ với buồng không khí có tốc độ lớn khi ôtô chuyển động. Giảm chấn ống trước kia chi được dùng cho ôtô du lịch nhưng ngày nay được áp dụng rộng rãi hơn cho tất cả các loại xe.
+Với nguyên lý làm việc của bộ phận giảm chấn các loại đều dựa trên nguyên tắc chuyển động chất lỏng từ buồng chứa này đến buồng chứa khác thông qua những van tiết lưu rất bé. Khi chất lỏng đi qua các van tiết lưu như thế sẽ sinh ra các lực cản lớn cho sự chuyển động của chất lỏng do đó dập tắt dao động.
+ở ôtô du lịch và ôtô hành khách giảm chấn được đặt ở cả cầu trước và cầu sau với mục đích là làm êm dịu cho hành khách. Ôtô tải thông thường chỉ bố trí giảm chấn ở cầu trước vì trên cầu trước có buồng lái còn cầu sau là thùng hàng.
+- Yêu cầu của giảm chấn:
++ Đảm bảo giảm trị số và sự thay đổi đường đặc tính của các dao động như dập tắt càng nhanh các dao động nếu tần số dao động càng lớn mục đích là để thùng xe khỏi bị lắc qua lắc lại khi qua đường mấp mô, dập tắt chậm các dao động nếu ôtô chạy trên đường ít mấp mô. Hạn chế lực truyền qua giảm chấn lên thùng xe.
++ Làm việc ổn định khi ôtô chuyển động trong các địa hình thay đổi.
++ Có tuổi thọ làm việc cao.
++ Trọng lượng kích thước nhỏ gọn giá thành hạ.
+- Đặc tính:
+Giảm chấn thuỷ lực, lực cản chấn động do giảm chấn sinh ra phụ thuộc vào vận tốc tương đối của các dao động thùng xe đối với bánh xe.
+Zg = K.Zt
+K: là hệ số của giảm chấn.
+Hàm số Zg = fx(Zt), biểu diễn đường đặc tính của giảm chấn.
+Tuỳ theo giá trị của hàm số mũ n mà đường đặc tính của giảm chấn có thể là đường thẳng nếu (n=1).
+đường cong lõm nếu (n<1).
+đường cong lồi nếu (n>1).
+Đường cong có dạng này hay dạng khác phụ thuộc vào kích thước lỗ và độ nhớt của chất lỏng và kết cấu của các van. Ta thấy giá trị lớn nhất của vận tốc tương đối, gía trị công suất tiêu hao (tỷ lệ với diện tích nằm dưới đường đặc tính). Thông thường giá trị (n) dao động trong khoảng 1.5-2.5.
+Thông thường ở ôtô hiện đại vận tốc nén trả từ (0.3-0.6)m/s.
+
+III.2.4 Sự phát triển của hệ thống treo.
+
+Ngày nay, trên thế giới các nhà thiết kế đã đi xa trong việc phát triển hệ thống treo. Dựa trên sự kết hợp giữa khoa học chuyên ngành cơ bản với sự ứng dụng các thành tựu này mà hệ thống treo ngày nay càng hoàn thiện hơn về tính năng cũng như phạm vi hoạt động của nó.
+
+Hệ thống treo với cơ cấu chấp hành là thuỷ lực và khi nén kết hợp với cơ cấu điều khiển là các mạch điện tử chính là xu hướng phát triển của hệ thống treo trong tương lai. Nó hoạt động dựa trên nguyên lý: Dùng các cảm biến để thu nhận các thông số cần thiết trong quá trình vận hành xe như tải trọng xe, gia tốc dao động thẳng đứng, góc đặt bánh xe, độ cao sàn xe,… Sau đó nó được mã hoá và đưa vào các mạch điều khiển để tự động điều khiển các cơ cấu chấp hành và như vậy ta đã có một hệ thống treo có thể điều chỉnh tự động được đường đặc tính của nó phù hợp với các điều kiện chuyển động. Đây chính là ưu điểm hơn hẳn mà các hệ thống treo cổ điển trước đó không có đựôc. Mặc dù vậy hiện nay nó chưa được sử dụng phổ biến trên thế giới và đặc biệt là ở việt Nam do giá thành đang còn rất cao và nó đòi hỏi phải có một cộng nghệ chế tạo hiện đại.
+
+IV. LỰA CHỌN HỆ THỐNG TREO ÁP DỤNG CHO XE THIẾT KẾ
+Trước hết với các số liệu ban đầu đã cho, ta nhận thấy rằng đây là loại xe tải cỡ trung bình không đòi hỏi các yêu cầu lớn về độ êm dịu. Xe tải chỉ trở hàng bình thường kết hợp với xe tham khảo và các phân tích về kết cấu cũng như tính kinh tế đã nêu ở trên ta chọn hệ thống treo áp dụng cho xe là hệ thống treo phụ thuộc với các đặc điểm cụ thể như sau:
+- Bộ phận đàn hồi: là các lá nhíp có đặc điểm sau là nhíp bán elíp ưu điểm loại này là có kết cấu đơn giản, giá thành hạ đồng thời đảm nhận êm ái các chức năng của bộ phận hướng, song nhược điểm của nó là độ êm dịu của xe chỉ đảm bảo trong một vùng tải trọng nhất định, không thích hợp với các loại xe có tải trọng thường xuyên thay đổi.
+- Bộ phận giảm chấn: chọn loại giảm chấn ống (giảm chấn hai chiều thuỷ lực) đảm bảo các yêu cầu như giá trị, trị số và sự thay đổi đường đặc tính của các dao động đặc biệt là dập tắt dao động, càng nhanh nếu các dao động có tần số lớn, hạn chế truyền các lực qua giảm chấn lên thùng xe,làm việc ổn định.
+- Trọng lượng và kích thước bé đảm bảo về tính kinh tế nhưng cũng đồng thời đảm bảo được về chất lượng tuổi thọ sử dụng cao.
+
+
+PHẦN 2
+TÍNH TOÁN CÁC THÔNG SỐ CƠ BẢN
+
+I. XÁC ĐỊNH CÁC THÔNG SỐ CƠ BẢN CỦA HỆ THỐNG TREO TRƯỚC
+I.1. ĐỘ CỨNG CỦA NHÍP (CN)
+Chọn tần số dao động thích hợp (n = 80¸115)
+Đối với xe tải cỡ trung bình ta chọn (n= 96 dao động/phút)
+Khi đó với: w =p.n/30
+Ta có w ==10,048 (1/s)
+® w2= 100,96 (1/s2)
+Khi đó áp dụng công thức tính độ cứng cho nhíp: (C = M.w2)
+Trong đó:
+C: Độ cứng của nhíp
+M: Khối lượng phần được treo
+ở đây đối với treo trước khối lượng phần không được treo lấy bằng 100 kg
+Do đó: M = 1810 -100 = 1710 (kg)
+w: Tần số dao động góc
+nên C =172,64554 (kg/cm) lấy tròn C = 173 kg/cm.
+Phần trên là tính cho trường hợp xe đầy tải, khi xe không tải M=1460 kg
+khi đó w= C/M
+® w = 10,088
+® n = w.30/p
+® n = 104 (dao động/phút)
+Với n = 104 khi xe không tải nhận thấy vẫn nằm trong khoảng điều kiện đặt ra nên độ cứng C = 173 kg/cm (thoả mãn điều kiện đặt ra đối với xe đầy tải và không tải).
+Với C =173 (kg/cm) đây là độ cứng của cả hệ thống treo trước. Mà độ cứng treo trước chủ yếu là độ cứng của nhíp. Do đó coi C chính là độ cứng của nhíp trước. Vì khối lượng phân ra cầu trước được chia đều sang hai phía bánh nên độ cứng của nhíp ở mỗi bên được xác định như sau:
+Cn =C/2= =86,5 kg/cm
+II. TÍNH TOÁN CÁC THÔNG SỐ CƠ BẢN CỦA NHÍP TRƯỚC
+II.1. XÁC ĐỊNH ĐỘ VÕNG TĨNH VÀ ĐỘNG CỦA NHÍP: FT
+= = =9,88 (cm)
+: được xác định = (0,7¸1,2)®=8,934(cm)
+Khi đó độ võng toàn bộ nhíp sẽ là =+ = 9,88 +8,934 = 18,814 cm
+II.2. XÁC ĐỊNH CHIỀU DÀI CỦA NHÍP
+Chiều dài của nhíp được xác định theo công thức:
+L =(0,26 ¸ 0,35)La
+Trong đó La: chiều dài cơ sở của xe =3700 (mm)
+L: chiều dài nhíp
+® L =(0,26¸0,35).3700 = 962¸1295 (mm)
+chọn L = 1216 (mm)
+hay L = 0,32864. La
+II.3. XÁC ĐỊNH MOMEN QUÁN TÍNH TỔNG CỘNG CỦA NHÍP
+Được xác định theo công thức:
+Ip =
+ap = (1.25 ¸ 1.4) là hệ số dạng nhíp
+L: chiều dài của nhíp
+, : chiều dài từ đầu hai phía của nhíp đến điểm giữa
+Do nhíp đối xứng nên:
+l1 = ha = 0.5L = (mm)
+Modun đàn hồi của vật liệu làm nhíp E = 2.105 MN/m2
+Độ cứng của nhíp: Cp
+II.4. XÁC ĐỊNH CHIỀU DÀY, BỀ RỘNG NHÍP, SỐ LÁ NHÍP VÀ CHIỀU DÀI CỦA TỪNG LÁ
+Như ta đã biết độ bền và chu kỳ bảo dưỡng của nhíp phụ thuộc chủ yếu vào việc lựa chọn chiều dài, bề dày nhíp. Do bề dày và chiều rộng nhíp có mối quan hệ mật thiết với nhau do đó phải tính toán một cách hợp lý sao cho nhíp có tuổi thọ cao và bền khi sử dụng.
+II.4.1. Xác định bề dày nhíp
+Được tính theo công thức sau:
+Do nhíp đối xứng nên:
+- Hệ số dạng nhíp: ap=1,34
+- ứng suất lớn nhất: dmax= 800 ¸1000 Mn/m2
+- Độ võng toàn bộ của nhíp: fp
+- khoảng cách giữa hai bu lông quang nhíp: dc =130(mm)
+- bề dày của nhíp: hp
+- chiều dài cơ sở của nhíp: L
+- modun đàn hồi của vật liệu làm nhíp E = 2.10Mn/m
+lấy =7(mm)
+II.4.2. Tính bề rộng các lá nhíp
+Ta có mối quan hệ giữa bề rộng và bề dày lá nhíp như sau:
+6 < < 10
+6 < < 10
+® 42 < b < 70
+Chọn b = 65 (mm)
+II.4.3. Tính số lượng lá nhíp
+áp dụng công thức:
+Tổng đại số momen quán tính mặt cắt tất cả các lá cần phải bằng momen quán tính tổng cộng Ip = Ic
+Trong đó:
+- Momen quán tính tổng: ip
+- Số lá nhíp: n
+- Chiều dày của các lá nhíp: h
+làm tròn n = 12 (lá)
+Ip = m
+II.4.4. Tính chiều dài các lá nhíp
+Chiều dài các lá nhíp được xác định theo công thức sau:
+ln = ln-1 - Xn-1
+Trong đó:
+- Chiều dài lá nhíp thứ n: ln
+- Momen quán tính của lá nhíp thứ n: in
+- Là momen quán tính tổng: ic
+gi =
+- Hệ số kể đến độ tăng ứng suất của lá ngắn nhất: ap
+- Xác định theo công thức dưới đây: Kp
+Là hệ số xét đến ảnh hưởng của lá nhíp cuối cùng đến sự tăng ứng suất trên các lá nhíp:
+Kp =
+- Momen quán tính của lá ngắn nhất: ip
+Trong quá trình tính toán ta coi:
+l1 = l2 =L/2
+g1 =g2 = 0.85: Các lá còn lại
+g3 = g4 = g5 = ... = g12 =1
+Ta thiết kế chiều dài lá nhíp thứ nhất bằng chiều dài lá nhíp thứ hai nên:
+Lúc này:
+- x1 =0, g1 =g2 = 0.85
+- b2 = 1
+-
+
+-

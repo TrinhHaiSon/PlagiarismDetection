@@ -1,0 +1,289 @@
+Cộng hòa xã hội chủ nghĩa Việt Nam
+Độc lập – Tự do – Hạnh phúc
+
+LỜI CAM ĐOAN
+Kính gửi : Hội đồng bảo vệ đồ án tốt nghiệp khoa Điện tử - Viễn thông.
+Đại học bách khoa – Đại học Đà Nẵng.
+Em tên là : Nguyễn Bá Phong
+Lớp : 09DT3
+Đề tài tốt nghiệp : Thiết kế và thi công thiết bị mạ điện
+Em xin cam đoan nội dung của đồ án này không phải là bản sao chép của bất cứ đồ án hoặc công trình đã có từ trước. Nếu vi phạm em xin chịu mọi hình thức kỷ luật từ thầy cô và hội đồng bảo vệ.
+
+Em xin chân thành cảm ơn
+Đà Nẵng, Ngày 31 tháng 5 năm 2014
+Ký tên
+
+
+
+
+Nguyễn Bá Phong
+
+
+PHÂN CÔNG NHIỆM VỤ
+Nhiệm vụ chung:
+- Thi công mạch.
+- Làm báo cáo.
+- Làm slide bảo vệ.
+Nhiệm vụ riêng:
+SV: Trần Mạnh Dương
+- Thiết kế mạch: thiết kế khối mạch điều khiển bao gồm các khối đo dòng điện, đo điện áp, các mạch cảnh báo, LCD16x2, mạch giao tiếp máy tính.
+- Chương trình: đọc giá trị ADC điện áp và dòng điện, giao tiếp máy tính(chương trình vi điều khiển và visual basic). Ghép nối để hoàn thiện chương trình.
+SV: Nguyễn Bá Phong
+- Thiết kế mạch: thiết kế khối mạch công suất bao gồm các khối chỉnh lưu, mạch công suất, quấn biến áp xung. Khối nguồn phụ
+- Chương trình: thuật toán nhập bàn phím, nhập các giá trị khởi tạo. Thực hiện tạo đồng hồ và tạo xung.
+MỤC LỤC
+MỞ ĐẦU.............................................................................................................................. 5
+CHƯƠNG 1: TỔNG QUAN VỀ CÔNG NGHỆ MẠ ĐIỆN....................................... 7
+1.1 Giới thiệu chương......................................................................................................... 7
+1.2 Tìm hiểu về công nghệ mạ điện.................................................................................. 7
+1.3 Các thành phần chính của một bộ mạ điện............................................................... 8
+1.3.1 Điện cực anốt:............................................................................................................ 9
+1.3.2 Điện cực catôt............................................................................................................ 9
+1.3.3 Dung dịch mạ.......................................................................................................... 10
+1.3.4 Chất phụ gia............................................................................................................. 10
+1.3.5 Nguồn điện một chiều............................................................................................ 11
+1.4 Các giai đoạn của quy trình công nghệ mạ............................................................. 11
+1.4.1 Giai đoạn chuẩn bị.................................................................................................. 11
+1.4.2 Giai đoạn mạ............................................................................................................ 11
+1.4.3 Giai đoạn hoàn thiện.............................................................................................. 11
+1.5 Các yếu tố ảnh hưởng đến chất lượng mạ.............................................................. 12
+1.6 Một số thiết bị mạ điện.............................................................................................. 14
+1.6.1 Mô phỏng thiết bị mạ điện..................................................................................... 15
+1.6.2 Thiết bị mạ điện trong phòng thí nghiệm............................................................ 15
+1.6.3 Bộ nguồn : Máy xi mạ "High Power Switch"...................................................... 16
+1.6.4 Model: AI.CL - 12V/50A.................................................................................. 18
+1.7 Kết luận chương......................................................................................................... 22
+CHƯƠNG 2: XÂY DỰNG SƠ ĐỒ KHỐI VÀ PHƯƠNG ÁN THIẾT KẾ................... 23
+2.1 Giới thiệu chương....................................................................................................... 23
+2.2 Nội dung đề tài.......................................................................................................... 23
+2.3 Xây dựng sơ đồ khối và đưa ra phương án thiết kế............................................... 23
+2.3.1 nhiệm vụ của từng khối mạch............................................................................... 24
+2.3.1.1 Nhiệm vụ khối mạch điều khiển....................................................................... 24
+2.3.1.2 Nhiệm vụ khối mạch công suất......................................................................... 24
+2.3.1.3 Sơ đồ khối tổng quát của mạch.......................................................................... 24
+2.3.2 Lựa chọn phương án thiết kế cho từng khối mạch............................................ 26
+2.3.2.1 Mạch chỉnh lưu.................................................................................................... 26
+2.3.2.2 Mạch công suất.................................................................................................... 27
+2.3.2.3 Lựa chọn vi điều khiển....................................................................................... 29
+2.3.2.4 Mạch đo dòng, đo áp.......................................................................................... 30
+2.3.2.4.1 Mạch đo dòng................................................................................................... 30
+2.3.2.4.2 Mạch đo điện áp............................................................................................... 31
+2.3.2.5 Mạch đo nhiệt độ................................................................................................ 32
+2.3.2.6 Mạch cảnh báo..................................................................................................... 34
+2.3.2.6.1 Mạch LED báo.................................................................................................. 34
+2.3.2.6.2 Mạch điều khiển loa........................................................................................ 34
+2.3.2.7 Mạch giao tiếp máy tính.................................................................................... 35
+2.3.2.8 Mạch hiển thị....................................................................................................... 36
+2.3.2.9 Mạch nguồn nuôi................................................................................................ 37
+2.4 Kết luận chương......................................................................................................... 38
+CHƯƠNG 3: THIẾT KẾ PHẦN CỨNG VÀ CHƯƠNG TRÌNH.................................. 40
+3.1 Mở đầu chương........................................................................................................... 40
+3.2 Sơ đồ mạch.................................................................................................................. 40
+3.3 Thiết kế mạch............................................................................................................. 42
+3.3.1 Mạch chỉnh lưu....................................................................................................... 42
+3.3.2 Mạch công suất....................................................................................................... 43
+3.3.2.1 Tính chọn IGBT và các tụ................................................................................... 43
+3.3.2.2 Tính toán biến áp xung....................................................................................... 45
+3.3.2.2.1 Cách chọn lõi biến áp...................................................................................... 45
+3.3.2.2.2 Tính toán số vòng dây..................................................................................... 48
+3.3.2.2.3 Tính toán đường kính cho dây cuốn.............................................................. 49
+3.3.3 Mạch nguồn nuôi.................................................................................................... 50
+3.3.4 Thiết kế mạch điều khiển...................................................................................... 51
+3.3.4.1 Mạch đo dòng điện.............................................................................................. 51
+3.3.4.2 Mạch đo điện áp.................................................................................................. 52
+3.3.4.3 Mạch cảnh báo..................................................................................................... 53
+3.4 Phần chương trình...................................................................................................... 55
+3.4.1 Lưu đồ chương trình chính:................................................................................... 56
+3.4.2 Lưu đồ chương trình con cài đặt........................................................................... 57
+3.4.4 Lưu đồ chương trình con điều khiển.................................................................... 58
+3.4.5 Thuật toán quét phím............................................................................................. 59
+3.4.6 Lưu đồ thuật toán của chương trình Visual Basic.............................................. 59
+3.5 Kết luận chương và hướng phát triển đề tài........................................................... 60
+TÀI LIỆU THAM KHẢO.................................................................................................. 62
+PHỤ LỤC........................................................................................................................... 63
+
+
+MỞ ĐẦU
+
+Thế kỷ XX đã đánh dấu nhiều phát minh quan trọng. Một trong những phát minh đó đã cho ra đời ngành công nghiệp điện tử, sử dụng các thiết bị bán dẫn có công suất lớn như : Diode, Triac, Tranzitor, chịu được điện áp cao và dòng điện lớn kể cả trong thiết bị bán dẫn cực nhỏ như : vi mạch, vi mạch đa chức năng… Ngày nay không riêng gì ở các nước phát triển , ngay ở nước ta thiết bị bán dẫn đã xâm nhập vào các ngành công nghiệp, các xí nghiệp nhà máy như xi măng, thủy điện, dệt, đóng tàu… . Công nghệ mạ đang sử dụng ngày càng nhiều những thành tựu của điện tử. Đó là những minh chứng cho sự phát triển của ngành công nghiệp. Đặc biệt là ngành công nghiệp mạ điện nó ứng dụng điện tử công suất tạo ra nguồn điện một chiều ổn định phù hợp với mạ điện tham gia vào điều khiển trong suốt quá trình mạ. Nhờ mạ điện ta tạo ra các sản phẩm có độ bền cao, nâng cao tính thẩm mỹ để phục vụ cho y tế và các ngành công nghiệp cũng như ứng dụng thực tế trong cuộc sống hàng ngày.
+Nhận thấy được vai trò của ngành công nghệ mạ điện đối với cuộc sống ngày nay nên em đã được giao nhiệm vụ thực hiện đề tài “thiết kế và thi công thiết bị mạ điện”
+Đề tài này gồm 3 chương:
++ Chương 1: Tổng quan đề tài
++ Chương 2: Xây dựng sơ đồ khối và phương án thiết kế
++ Chương 3: Thiết kế phần cứng và và lưu đồ thuật toán
+phương pháp nghiên cứu của đề tài là tính toán thiết kế mạch, xây dựng các lưu đồ thuật toán và thi công lắp ráp để kiểm chứng tính đúng đắn của phần thiết kế và các lưu đồ thuật toán vừa xây dựng.
+đề tài đã thiết kế, thi công thành công thiết bị mạ. Có thể mạ nhiều giai đoạn theo các mức điện áp khác nhau. Có thể giám sát hoạt động trực tiếp qua LCD hay qua máy tính.
+Để hoàn thành được đề tài này, em xin chân thành cảm ơn các Thầy hướng dẫn Lê Hồng Nam và Lê Xứng đã theo sát, chỉ dạy hết sức tận tình em trong suốt quá trình làm đố án, cám ơn các thầy cô trong khoa Điện tử - Viễn thông đã tạo điều kiện tốt nhất cho em thực hiện đề tài.
+
+CHƯƠNG 1: TỔNG QUAN VỀ CÔNG NGHỆ MẠ ĐIỆN
+
+1.1 Giới thiệu chương
+Ngày nay, mạ điện đóng vai trò rất quan trọng trong các ngành công nghiệp. Được sử dụng để chống ăn mòn, tăng độ dẫn điện, dẫn nhiệt, làm đồ trang sức…Mạ điện là quá trình kết tủa của kim loại lên bề mặt nền một lớp phủ có những tính chất cơ, lý, hóa… đáp ứng được các yêu cầu kỹ thuật mong muốn.
+Vật cần mạ và lớp mạ có thể là kim loại, hợp kim đôi khi còn là chất dẻo, gốm, sư hoặc composit . Mạ điện được dùng nhiều trong các nghành công nghiệp khác nhau để chống ăn mòn, phục hồi kích thước, làm đồ trang sức…
+Một bộ mạ điện bao gồm: điện cực anot, điện cực katot, dung dịch mạ, chất phô gia và nguồn một chiều. Nguồn một chiều có ảnh hưởng rất lớn đến chất lượng mạ.
+Hiện nay, trên thị trường có rất nhiều bộ nguồn dành cho mạ điện. Ta sẽ cùng tìm hiểu và phân tích một số thiết bị đó.
+1.2 Tìm hiểu về công nghệ mạ điện
+Mạ điện được dùng nhiều trong các nghành công nghiệp khác nhau để chống ăn mòn, phục hồi kích thước, làm đồ tranh sức, tăng độ cứng, độ dẫn điện, dẫn nhiệt, phản quang, dễ hàn…
+Về nguyên tắc, vật liệu nền có thể là kim loại, hợp kim, đôi khi còn là chất dẻo gốm sứ hoặc composit. Lớp mạ cũng vậy, ngoài kim loại và hợp kim ra nó còn có thể là composit của kim loại -chất dẻo hoặc kim loại –gốm…Tuy nhiên việc chọn vật liệu nền và mạ còn tuỳ thuộc vào trình độ và năng lực công nghệ, vào tính chất cần có ở lớp mạ và vào giá thành. Xu hướng chung là dùng vật liệu nền rẻ, sẵn có còn vật liệu mạ đắt, quí hiếm hơn nhưng chỉ là lơp mỏng bên ngoài.
+
+Một cách đơn giản nhất có thể hiệu mạ điện là quá trình kết tủa của kim loại lên bề mặt nền một lớp phủ có những tính chất cơ, lý, hóa… đáp ứng được các yêu cầu kỹ thuật mong muốn. Tuy nhiên chỉ có những công nghệ nào ổn đinh trong một thời gian dài để luôn cho sản phẩm có tính chất như nhau mới được ứng dụng vào trong sản xuất
+1.3 Các thành phần chính của một bộ mạ điện
+Mạ điện là quá trình điện phân. Quá trình điện phân xảy ra trên hai cực như sau:
+-Trên anốt xảy ra quá trình hoà tan kim loại .
+M - ne M (1)
+-Trên katôt cation nhận điện tử tạo thành nguyên tử kim loại mạ .
+M + ne M (2)
+Với các điều kiện điện phân thích hợp thì quá trình (1) và quá trình (2) sẽ cân bằng nhau. Do đó nồng độ ion M trong dung dịch sẽ luôn không đổi, điều này có ảnh hưởng lớn đến chất lượng lớp mạ. Trong một số trường hợp người ta dùng điện cực trơ khi đó dung dịch sẽ đóng vai trò chất nhường điện tử, vì vậy phải liên tục bổ sung vào dung dịch dưới dạng muối. Lúc đó phản ứng chính trên anốt chỉ là quá trình giải phóng ôxi .
+Các phần chính của một bộ mạ điện gồm:
+
+Hình 1.1: sơ đồ hệ thống mạ điện
+(1) Dung dịch mạ gồm có muối dẫn điện, ion kim loại sẽ kết tủa thành líp mạ, chất đệm, các chất phụ gia.
+(2) Catot dẫn điện, chính là vật cần được mạ.
+(3) Anot dẫn điện, có thể tan hoặc không tan.
+(4) Bể chứa bằng thép lót caosu, polypropylen, polyvinyclorua,...là các vật liệu chịu được dung dịch mạ.
+(5) Nguồn điện một chiều, thường dùng để chỉnh lưu
+Quá trình trên xảy ra trong bộ mạ điện có sơ đồ như sau:
+1.3.1 Điện cực anốt:
+Trong mạ điện thường dùng điện cực anốt tan bằng kim loại làm lớp mạ.Trong quá trình anốt bị tan để cung cấp ion kim loại cho dung dịch,đảm bảo nồng độ ion trong dung dịch là không đổi.Phản ứng trên anốt lúc này là:
+M - ne
+Trong trường hợp dùng anốt trơ nhơ :Platin,cacbon…thì quá trình chính trên anốt là:
+4OH - 4e 2HO + O (môI trường kiềm)
+2HO - 4e 4H +O
+Để giữ cho nồng độ các ion kim loại không đổi thì phảI bổ sung thêm hó chất thích hợp.
+1.3.2 Điện cực catôt
+Điện cực catốt là vật cần mạ ,được nối với cực âm của nguồn điện một chiều.Trên catôt xảy ra quá trình:
+M + ne M
+Thực ra quá trình này xảy ra theo nhiều bước liên tiếp:
+Cation hyđrat hoá M.mHO di chuyển từ dung dịch vào bề mặt catốt
+Catốt mất vỏ hyđrat hoá (mHO) vào tiếp xúc trực tiếp với bề mặt catốt.
+Điện tử (e) từ catốt điền vào vàn điện tử hoá trị của cation biến nó thành phân tử trung hoà.
+Các nguyên tử kim loại hoặc sẽ tham gia vào thành mầm tinh thể mới hoặc tham gia nuôI lớn mầm tinh thể đã sinh ra trước đó Mầm phát triển thành.Tinh thể kết thành lớp mạ.
+1.3.3 Dung dịch mạ.
+Dung dịch mạ giữ vai trò quyết định về năng lực mạ (tốc độ mạ ,chiều dày tối đa ,mặt hàng mạ…)và chất lượng mạ. Dung dịch mạ thường là một hỗn hợp khá phức tạp gồm ion kim loại mạ ,chất điện ly (dẫn điện) và các chất phụ gia nhằm đảm bảo thu được lớp mạ có chất lượng và tính chất mong muốn.
+- Dung dịch muối đơn:Còn gọi là dung dịch axit , cấu tử chính là các muối của các axit vô cơ hoà tan nhiều trong nước phân ly hoàn toàn thành các ion tù do. Dung dịch đơn thường dùng để mạ với tốc độ mạ cao cho các vật có hình thù đơn giản.
+- Dung dịch muối phức:Ion phức tạo thành ngay khi pha chế dung dịch. Ion kim loại mạ là ion trung tâm trong nội cầu phức.Dung dịch phức thường dùng trong trường hợpcần có khả năng phân bố cao để mạ cho vật có hình dáng phức tạp.
+1.3.4 Chất phụ gia.
+- Chất dẫn điện: Đóng vai trò dẫn dòng đi trong dung dịch .
+- Chất bóng: Chất bóng thường được dùng với liều lượng tương đối lớn (vài gam/lit) và có thể bị lẫn vào lớp mạ khá nhiều . Chúng cho lớp mạ nhẵn mịn và có thể làm thay đổi quá trình tạo mầm,làm tăng ứng suất nội và độ dòn.
+- Chất san bằng: Các chất này cho lớp mạ nhẵn, phẳng trong phạm vi khá rộng (vĩ mô). Nguyên nhân là chúng hấp phụ lên những điểm có tốc độ mạ lớn và làm giảm tốc độ ở đó xuống. Vậy là các phụ gia này đã ưu tiên hấp phụ lên các điểm lệch là chỗ có năng lượng tự do lớn hơn và lên các đỉnh lồi là chỗ có tốc độ khuếch tán lớn các phụ gia đến đó. Các phụ gia hấp phụ này sẽ làm giảm tốc độ chuyển dịch điện tử. Trong thực tế, nhiều phụ gia có cả tác dụng của chất bóng và chất san bằng.
+- Chất thấm ướt: Trên Catot thường có phản ứng phụ sinh khí Hydro. Chất này thúc đẩy bọt khí mau tách khỏi bể mạ, làm cho quá trình mạ nhanh hơn.
+- Tạp chất : Là nhữnG chất không mong muốn nhưng khó tránh khỏi. Chúng có thể phóng điện hoặc hấp thụ trên Catot và lẫn vào lớp mạ gây nhiều tác hại như : bong, dộp, dũn, gai…
+1.3.5 Nguồn điện một chiều.
+Có thể là các nguồn khác nhau như: pin, ăc quy, máy phátđiện một chiều, có thể dùng nguồn điện hoá học…để cung cấp dòng điện một chiều cho bể mạ, bể điện phân…Các nguồn điện trên có công suất nhỏ,khó tạo ra, lại không kinh tế. Do đó chỉnh lưu được sử dụng rộng rãi trong các xưởng mạ bởi vì nó đạt công suất lớn, dễ sản suất…
+1.4 Các giai đoạn của quy trình công nghệ mạ
+Quy trình công nghệ mạ bao gồm rất nhiều bước nhưng có thể chia thành ba giai đoạn sau:
+1.4.1 Giai đoạn chuẩn bị.
+Xét đến bản chất vật liệu hàng mạ (nền), mức độ nhiễm bẩn và độ nhám bề mặt của chúng. Độ nhấp nhô H của bề mặt mạ bảo vệ không được vượt quá 40mm, mạ trang
+sức _ bảo vệ H < 2,5mm, mạ tăng độ cứng và mạ cách điện H < 1,25mm. Chọn dung dịch mạ căn cứ vào đặc tính vật cần mạ.
+1.4.2 Giai đoạn mạ.
+Được tiến hành trong thời gian đã xác định trước.Giai đoạn này cần giữ cho dòng mạ không đổi.
+1.4.3 Giai đoạn hoàn thiện.
+Là giai đoạn gia công , làm đẹp, làm hoàn thiện sản phẩm.Thường là các bước trung hoà ,tẩy sáng,lấp đầy lỗ…
+Khối lượng kim loại kết tủa lên diện tích S có thể dựa váo định luật Faraday:
+m=S.D.t.H.C
+Trong đó:
+-S : diện tích mạ (dm)
+-D: mật độ dòng điện catôt (A/ dm)
+-t : thời gian mạ (h)
+-H : hiệu suất dòng điện
+-C : đương lượng điện hoá của kim loại mạ (g/Dh)
+1.5 Các yếu tố ảnh hưởng đến chất lượng mạ
+Chất lượng mạ một chiều được qui định bởi các yếu tố sau: độ bóng lớp mạ ,độ dày lớp mạ ,độ bám chặt...Chế độ dòng điện cũng ảnh hưởng rất lớn đến chất lượng mạ.
+- Tuỳ theo yêu cầu của sản phẩm :cần độ bền cơ học cao hay thấp,tránh bị ôxi hoá mà độ dày lớp mạ có thể dày hay mỏng.Để dạt độ dày cần thiết cần phảI có thời gian mạ hợp lý.
+- Độ bám là một chỉ tiêu rất quan trọng ,nó quyết định độ bền của sản phẩm ,nếu lớp mạ sau khi mạ lại có độ bám kém thì nó rất dễ bị bung ra khi đó bề mặt vật cần mạ bị lộ ra rất dễ bị ôxi hoá có thể dẫn đến hỏng,vật mạ xấu …không đáp ứng được yêu cầu của mạ.
+- Độ bóng của bề mặt lớp mạ cũng là một thông số quan trọng,nó tăng tính thẩm mỹ cho sản phẩm đặc biệt là đồ trang sức ,độ bóng cao cũng tạo cho sản phẩm tăng độ bền cơ học hơn.Để tăng độ bóng thì ta dùng mạ đảo chiều vì khi mạ thì lớp mạ phủ trên bề mặt không đều có chỗ dày có chỗ mỏng nên cần phảI có đảo chiều để cào bớt những chỗ dày hơn đi.
+Kỹ thuật mạ chỉ quan tâm đến hai trạng thái bề mặt nền là độ sạch và độ nhẵn:
+- Độ sạch của nền đảm bảo cho các nguyên tử kim loại mạ liên kết trực tiếp vào mạng tinh thể kim loại nền, đạt được độ gắn bám cao nhất.
+- Độ nhẵn của nền ảnh hưởng rất lớn đến độ nhẵn bóng và vẻ đẹp của lớp mạ. Nếu bề mặt nền nhám, xước quá thì phân bố điện thế và mật độ dòng điện sẽ không đều, chỗ lom, rãnh sâu...
+Bản chất của kim loại nền cũng ảnh hưởng đến chất lượng mạ.
+Thành phần dung dịch mạ
+Ảnh hưởng của các yếu tố điện.
+Mật độ dòng điện là đại lượng gây ra sự phân cực điện cực .Lúc đang mạ, mật độ dòng điện là yếu tố quan trọng nhất có ảnh hưởng đến chất lượng sản phẩm mạ.
+Yêu cầu kỹ thuật của nguồn mạ là phải giữ dòng mạ không đổi trong suốt quá trình mạ.Để lớp mạ được phủ đều lên bề mặt thì dòng điện phải giữ không đổi .Cường độ dòng điện I tính toán xuất phát từ mật độ dòng điện D và phụ tải y trong bể:
+I = D.y (A)
+Trong đó:
+D : mật độ dòng catôt
+y : phụ tải của bể mạ
+Mật độ dòng điện cao sẽ thu được lớp mạ có tinh thể nhỏ, mịn, sít chặt và đồng đều, bởi vỡ lỳc đó mầm tinh thể được sinh ra ồ ạt không chỉ tại các điểm lồi (điểm có lợi thế) mà cả trờn các mặt phẳng (ít lợi thế) của tinh thể. Mặt khác khi mật độ dòng điện cao làm cho ion kim loại mạ nghèo đi nhanh chóng trong lớp dung dịch sát catot, do đú phân cực sẽ tăng lên tạo điều kiện sinh ra lớp mạ có tinh thể nhỏ mịn.
+Nếu mật độ dòng điện quá cao (gần đến dòng giới hạn) cũng không được vỡ lỳc đóng
+lớp mạ sẽ bị gai, cây hoặc cháy. Ngoài ra nếu dùng anot tan thỡ nú dễ bị thụ động hơn
+và dung dịch sẽ nghèo dần ion kim loại mạ. Ngược lại nếu mật độ dòng điện quá thấp thì tốc độ mạ sẽ chậm và kết tủa thô ,không đều.Vì vậy mỗi dung dịch mạ chỉ cho lớp mạ có chất lượng mạ cao trong một khoảng mật độ dòng điện nhất định.
+Trong quá trình mạ thì điện trở của bể mạ là luôn thay đổi do có các iôn kim loại bám vào vật mạ nên nồng độ dung dịch thay đổi.
+Công thức tính điện trở dung dịch nh sau:
+R = l.(100. .c.y) (W)
+l : khoảng cách giữa các điện cực (cm)
+c : độ dẫn điện riêng của dung dịch (W-1.cm-1)
+y : phụ tải của bể mạ (dm2)
+Do đó muốn cho dòng điện không đổi thì ta phải điều chỉnh điện áp sao cho tỉ số giữa điện áp và điện trở dung dịch là không thay đổi
+Do yêu cầu công nghệ mạ mà bắt buộc phải có bộ nguồn một chiều. thông thường để thực hiện mạ ta dùng dòng điện không đảo chiều cấp vào anot và catot. Nhưng trong một số trường hợp do yêu cầu công nghệ cũng như sản phẩm mạ mà ta có thể thực hiện các phương pháp đặc biệt sau đây :
+Dùng dòng xung vài ba giây đến 30 giây đầu tiên với mật độ dòng điện gấp 2 đến 3 lần bình thường. Trong khoảnh khắc ấy có một lượng rất lớn các tinh thể được hình thành trên toàn bộ bề mặt mạ, kể cả những chỗ khe, khuất,khắc phục được hiện tượng lõi, loại bỏ mạ cục bộ, thường áp dụng dòng xung cho mạ crom nhất sau đó là mạ kẽm, sắt…
+1.6 Một số thiết bị mạ điện
+Trên thị trường hiện nay có rất nhiều các nguồn mạ điện với các thông số và tính năng khác nhau. Sau đây sẽ là một số nguồn mạ điện đang được bán trên thị trường hiện nay
+1.6.1 Mô phỏng thiết bị mạ điện
+
+Hình 1.2 : mô phỏng một thiết bị mạ điện
+1.6.2 Thiết bị mạ điện trong phòng thí nghiệm
+Một thiết bị mạ trong phòng thí nghiệm với đầy đủ nguồn mạ, các điện cực và bể chứa mini
+
+Hình 1.3: Thiết bị mạ điện trong phòng thí nghiệm
+1.6.3 Bộ nguồn : Máy xi mạ "High Power Switch"
+
+Hình 1.4 : Máy xi mạ "High Power Switch"
+Giới thiệu về máy xi mạ high power switch:
+- Máy có nguồn điện đầu vào là điệp áp ba pha với 3 đèn ở phía bên trái của máy thể hiện cho ba pha A, B, C của nguồn điện
+- Một công tắc nguồn ngay ở dưới ba đèn bên trái
+- Bên phải thân máy có 1 đèn để cảnh báo máy làm việc quá tải
+- Ở giữa phía trên đỉnh máy có 1 đèn vàng để cảnh báo máy máy bị ngắn mạch
+- Có 2 LCD hiển thị giá trị điện áp và giá trị dòng điện khi làm việc
+- Có 1 bộ hẹn giờ tự động và 1 nút vặn để điều chỉnh đến giá trị điện áp và dòng điện thích hợp
+* Thông số kỹ thuật:
+Hạng mục Chi tiết Giới thiệu chung ký hiệu CL1000A-15V Phương thức chỉnh lưu Chỉnh lưu tần số cao Phương thức làm mát Bằng gió cưỡng bức Cấp cách điện Loại E Loại định mức Định mức chạy liên tục Dòng xoay chiều Số pha – tần số 3 F 4 W 50Hz Điện áp 380V/220V + 15% Công suất 18.5 KVA Hiệu suất Trên 85% (khi chạy toàn tải) Dòng một chiều Điện áp `DC 15V Dòng điện DC 1000A Phạm vi điều chỉnh điện áp 0÷15A Hiển thị dòng điện, điện áp Hiển thị số Phương thức thao tác Tại chố hoặc điều khiển từ xa (tùy chọn) Độ chính xác 1.5% Kiểu điều chỉnh Bằng tay hoặc tự động (tùy chọn) Đặt thời gian Đặt thời gian tự động: 0.1s-100h Điều kiện làm việc Vị trí lắp đặt Trong nhà xường (không lắp đặt nơi bị dột hoặc độ ẩm cao) Nhiệt độ Dưới 45 độ C Độ ẩm tương đối Dưới 85% không ngưng tụ Yêu cầu lắm đặt Không lắp đặt nơi dễ cháy, bụi bẩn, môi trường axit, xút… Cách điện Trở kháng cánh điện Bộ thử cách điện trên 3MW/DC 1000V Khả năng chịu lực cách điện AC 2000V/1 phút (tần số thông dụng) Kích thước 420x800x780 (mm) Trọng lượng 70Kg
+
+1.6.4 Model: AI.CL - 12V/50A
+
+Hình 1.5: Model: AI.CL - 12V/50A
+Giới thiệu về máy AI.CL - 12V/50A
+
+Hình 1.6: Bên trái thân máy AI.CL - 12V/50A
+Phía bên trái thân máy có 1 lỗ cắp cấp nguồn và nút bấm mà đỏ to để khởi động máy
+Dùng công tắc để lựa chọn chế độ điều khiển bằng tay hay làm việc tự động cho máy
+Hai LCD hiển thị đo dòng điện và điện áp trong quá trình làm việc của máy để điều chỉnh cho phù hợp. Dùng nút vặn to dưới cùng để điều chỉnh mức điện áp cần thiết
+
+Hình 1.7: Bên phải thân máy AI.CL - 12V/50A
+Phía bên phải thân máy gồm có 1 bộ hiển thị thời gian làm việc, một bộ hẹn giờ làm việc và một bộ để đo nhiệt độ của máy
+Bên dưới ba bộ đó là ba công tắc để đóng/mở các bộ phận trên làm việc
+Thông số kĩ thuật:
+
+Hạng mục Chi tiết Giới thiệu chung Kí hiệu AI.CL - 12V/50A Phương thức chỉnh lưu Chỉnh lưu tần số cao Phương thức làm mát Bằng gió cưỡng bức Cấp cách điện Loại E Loại định mức Định mức chạy liên tục Dòng xoay chiều Số pha – Tần số 1 F 50Hz Điện áp 220V + 15% Công suất 800VA Hiệu suất Trên 85% (khi chạy toàn tải) Dòng một chiều Điện áp DC 12V Dòng điện DC 50A Phạm vi điều chỉnh điện áp 0 ÷ 12V Hiển thị dòng điện, điện áp Hiển thị số Phương thức thao tác Tại chỗ Độ chính xác 1.5% Kiểu điều chỉnh Bằng tay Chức năng mở rộng Chế độ điều khiển điện áp ra Liên tục, tự động theo thời gian Đặt thời gian Đặt thời gian tự động: 0,1s - 100h Đo, điểu khiển nhiệt độ ra nhiệt cho bể. Có Điều khiển bơm dung dịch tự động Có Điều kiện làm việc Vị trí lắp đặt Trong nhà xưởng (không lắp nơi bị dột hay độ ẩm cao) Nhiệt độ Dưới 45 độ C Độ ẩm tương đối Dưới 85% không ngưng tụ Yêu cầu lắp đặt Không lắp đặt nơi dễ cháy, bụi bẩn, môi trường axit, xút… Cách điện Trở kháng cách điện Bộ thử cách điện trên 3MW/ DC 1000V Khả năng chịu lực cách điện AC 2000V/1 phút (tần số thông dụng) Kích thước Trọng lượng
+
+
+Phân tích các tính các thiết bị mạ hiện nay
+Thông qua việc tìm hiểu một số thiết bị mạ điện ta rút ra được 1 vài nhận xét như sau:
+- Thông số chính là dòng điện và điện áp tối đa: Các nguồn mạ thường có dòng điện cao vì đặc tính mạ điện hóa cần dùng nhiều electron. Điện áp của các nguồn mạ có thể thấp hoặc cao tùy thuộc vào đặc điểm của dung dịch và kim loại cần mạ. Thường thì điện áp mạ thấp để giảm công suất của nguồn vì dòng điện của nguồn tương đối cao.
+- Các loại nguồn mạ đều sử dụng chỉnh lưu tần số cao(dùng biến áp xung). Vì như vậy sẽ làm tăng hiệu suất cho biến áp, giảm kích thước hơn rất nhiều so với sử dụng biến áp sắt từ.
+- Nguồn điện vào là điện lưới 1 pha 220VAC/50Hz. Các nguồn mạ có công suất không quá lớn thì việc sử dụng điện lưới 1 pha là phù hợp với công suất của nguồn. Nếu sử dụng trong các bể mạ lớn, quy mô công nghiệp có thể dùng nguồn cung vào 3 pha để tương ứng với tải công suất lớn.
+- Điện áp ra có thể điều chỉnh được từ 0 ÷ Vmax.
+- Thường có phần hiển thị dòng, áp bằng số. Phần hiển thị này thường dùng led 7 đoạn để hiển thị giá trị dòng điện và điện áp thực tế đo trên mạch. Điều này cần thiết cho người điều khiển, vận hành thiết bị.
+- Thao tác tại chỗ, điều chỉnh bằng tay: các thiết bị này không có bộ điều khiển từ xa nên mọi thao tác đều thực hiện tại chỗ và tự điều chỉnh các nút nhấn hay các nút xoay.
+- Phần mở rộng:
+Điều chỉnh điện áp ra: thay đổi điện áp cho phù hợp với yêu cầu của quá trình mạ là cần thiết và đa số các thiết bị mạ đều có được trang bị chức năng này. Đặt thời gian mạ: tùy thuộc vào độ tự động hóa của nguồn, một số nguồn mạ có thể có chức năng này để nguồn tự ngắt khi mạ xong(thời gian này do người vận hành tự nhập tùy theo yêu cầu của quá trình mạ) mà không cần công nhân phải giám sát suốt thời gian mạ. Đo và điều khiển nhiệt độ: điều này rất cần thiết để bảo vệ thiết bị khi điều kiện nhiệt độ tăng quá cao vượt quá mức chịu đựng của các linh kiện trong mạch. Vì vậy, đa số các thiết bị mạ đều có chức năng đo, điều khiển nhiệt độ. Điều khiển bơm dung dịch: thêm dung dịch vào bể mạ là chức năng của các thiết bị để tăng cường khả năng tự động hóa trong các quá trình mạ đòi hỏi thời gian dài cần thêm dung dich vào bể mạ.
+- Các điều khiện làm việc: Các nguồn mạ không yêu cầu quá khắc khe về điều kiện làm việc.
+1.7 Kết luận chương
+Ngành mạ điện đóng góp phần rất quan trọng cho các linh vực trong đời sống. Qua đây ta cũng tìm hiểu được quy trình của công nghệ mạ điện. Các yếu tốt ảnh hưởng đến chất lượng mạ điện về các mặt như dòng điện và điện áp để có thể điều chỉnh mức dòng điện và điện áp phù hợp để có sản phẩm mạ tốt nhất. Các ưu và nhược điểm còn tồn tại trong ngành mạ điện.
+Các thiết bị mạ điện trên thi trường hiện nay có bày bán với những tính năng thuận tiện cho việc điều khiển quá trình mạ. Các tong số điện của máy có thể được điều chỉnh để phù hợp với từng kiểu mạ điện.
+Từ việc tìm hiểu về quy trình mạ và các máy thiết bị mạ điện hiện nay ta có thể xây dựng lên sơ đồ khối của mạch, các chức năng phụ thêm cho máy mạ cần thiết kế sẽ được trình bày ở chương 2
+........................................
+3.4.6 Lưu đồ thuật toán của chương trình Visual Basic
+Trong nội dung của đồ án, việc truyền dữ liệu lên máy tính để theo dõi hoạt động của thiết bị. Tín hiệu được truyền lên là giá trị dòng, áp đo được ở đầu ra của thiết bị.
+
+3.5 Kết luận chương và hướng phát triển đề tài
+Kết quả: đã thiết kế và thi công được nguồn điện mạ một chiều
+- Có thể thay đổi điện áp theo yêu cầu kĩ thuật của quá trình mạ điện.
+- Dòng điện không đổi trong suốt quá trình mạ.
+- Có khả năng mạ theo nhiều giai đoạn mà người sử dụng cài đặt.
+- Giám sát điện áp và dòng điện ra.
+- Theo dõi hoạt động của thiết bị qua máy tính.
+Hướng phát triển đề tài:
+- Có thể phát triển đề tài xây dựng hệ thống điều khiển và giám sát thiết bị mạ điện từ xa qua sóng RF.
+- Quản lý, điều khiển một hoặc nhiều thiết bị mạ qua máy tính.
+- Phát triển thêm một vài chức năng phục vụ cho quá trình mạ như: tự động bơm thêm dung dịch vào bể mạ…

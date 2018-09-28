@@ -1,0 +1,247 @@
+NHIỆM VỤ ĐỒ ÁN TỐT NGHIỆP
+Tên Đề tài:Thiết kế và chế tạo mô hình hệ thống máy dán màng ly tự động
+Nhiệm vụ: Thiết kế phần cơ khí của máy dán màng ly tự động. Thiết kế phần mạch điều khiển của máy dán màng ly tự động.
+TÓM TẮT ĐỀ TÀI
+Đề tài “Thiết kế và chế tạo mô hình hệ thống máy dán màng ly tự động ” nhằm góp phần tự động hóa quá trình sản xuất. Khi hoạt động, toàn bộ qui trình nhằm tạo ra sản phẩm là ly nhựa được dán kín bằng màng ly. Dây chuyền sản xuất bắt đầu từ khâu tách ly cho tới quá trình chiết rót lưu lượng dòng chảy vào ly hoàn toàn tự động, sau đó là quá trình dập kín miệng ly và cắt đứt, ly được lấy ra thông qua cơ cấu lấy ly tự động, suốt quá trình vận hành được điều khiển bởi bộ PLC và các cảm biến để nhận tín hiệu. Điều khiển nhiệt độ ép thông qua bộ điều khiển nhiệt độ để xử lý xuất ngỏ ra phù hợp. Phần cơ khí được thiết kế phù hợp với yêu cầu chung của toàn bộ hệ thống.
+Trong suốt quá trình thực hiện đề tài nhóm chúng em đã thực hiện được :
+Sử dụng phần mềm Inventor 11 để thiết kế các chi tiết, lắp ráp và mô phỏng được nguyên lý hoạt động của mô hình. Và xuất bản vẽ để tiến hành gia công chế tạo các chi tiết cho mô hình. Tính toán được bộ truyền xích và chọn được động cơ cho mô hình. Gia công và chế tạo thành công các chi tiết cho mô hình. Thi công lắp ráp và hoàn thiện phần cơ khí cho mô hình. Thiết kế thành công mạch điều khiển cho mô hình.
+- Thi công lắp ráp mạch điều khiển
+CHƯƠNG 2: MỤC TIÊU CỦA ĐỀ TÀI
+
+2.1. Mục đích nghiên cứu của đề tài:
+Thiết kế và thi công mô hình hệ thống máy dán màng ly tự động Thi công chế tạo phần kết cấu cơ, mạch điều khiển nhằm tạo ra máy có khả năng hoạt động tự động cao với độ chính xác chấp nhận được.
+2.2. Đối tượng nghiên cứu:
+- Tìm hiểu kết cấu cơ cấu dập , tách ly và lấy ly tự động
+- Nghiên cứu cơ sở lý thuyết truyền nhiệt
+- Nghiên cứu thiết kế cơ khí mang tính tự động cao, dễ tháo lắp và thay thế.
+- Nghiên cứu sử dụng PLC,cảm biến.
+- Nghiên cứu khí nén.
+
+2.3 Giới hạn đề tài:
+- Việc chế tạo một máy mang tính tự động hóa cao vô cùng khó khăn đòi hỏi độ chính xác cao. Ở góc độ đồ án tốt nghiệp và những hạn chế về kinh phí, thời gian không cho phép nhóm làm được như mong muốn. Nhóm đề xuất thực hiện đề tài như sau:
+Thực hiện gia công cơ khí với máy móc có độ chính xác cao hơn ( như máy CNC ) cho một số chi tiết cần có độ chính xác tương đối như cơ cấu dập. Sử dụng động cơ AC tự hãm thay thế DC để quản lý tốt khoảng dừng tức thời nhằm chống bị trượt do quán tính. Đưa vào sản xuất với qui mô lớn hơn.
+2.4 Ý tưởng thực hiện đề tài:
+2.4.1 Các phương án thực hiện:
+Hệ thống máy dán màng ly tự động là cả một quá trình khép kín, từ khâu bỏ ly không vào và đầu ra là miệng ly được dán kín với dung tích nước chứa sẵn. Việc lên phương án thiết các modun làm việc ít nhiều đã được sử dụng trong thực tế sản xuất.
+Các phương án lựa chọn băng chuyền :
+Phương án 1: sử dụng băng chuyền dạng mâm quay để cấp ly. Phương án 2: sử dụng xích tải có bát làm băng chuyền di động để cấp ly.
+Phương án gá đặt cuộn keo dán màng ly:
+Phương án 1: đặt hai bên hông của băng chuyền Phương án 2: đặt dọc theo chiều tịnh tiến của băng chuyền
+Phương án sử dụng thiết bị điều hệ thống:
+Phương án 1: sử dụng vi điều khiển, kết hợp rơ le để điều khiển hệ thống Phương án 2: sử dụng bộ điều khiển PLC omron kết hợp rơ le để điều khiển
+2.4.2 Lựa chọn phương án tối ưu:
+Những phương án trên nhìn chung đều đã được áp dụng ở một số máy sản xuất ở nước ngoài cũng như trong nước. Nhìn chung thì về băng chuyền cấp ly thì nếu sử dụng mâm quay để cấp ly thì sẽ rất hạn chế về số lượng, và nếu số lượng cấp ly qua lớn thì sẽ dẫn tới đường kính mâm quá lớn, điều này sẽ gây khó khăn cho quá trình gia công, còn sử dụng xích tải thì ta có thể tăng số lượng cấp ly đáng kể chỉ cần tăng bề rộng và khoảng cách giữa hai trục thì đã cho ra một số lượng lỗ cấp ly, và phương án này cũng dễ thực hiện hơn, nên vì vậy ở mức độ đề tài tốt nghiệp nhóm quyết định chọn kiểu băng chuyền sử dụng xích tải.
+Lựa chọn phương án gá đặt cuộn keo màng ly ở đây có hai cách, cách đặt dọc theo chiều tịnh tiến của máy để áp dụng cho qui trình sản xuất lớn, còn cách đặt bên hông sườn thì để áp dụng cho sản xuất có qui mô nhỏ hơn, và cũng dễ thực hiện hơn. Nên ở đây nhóm chọn đặt bên hông sườn máy.
+Lựa chọn phương án điều khiển hệ thống thì như chúng ta đã biết, vì là hệ thống tự động nên đòi hỏi phải có độ tin cậy ổn định cao, và phải dễ xử lý trong các tình huống lập trình. Qua việc tham khảo một số người đã xử dụng qua thì nhóm chọn bộ điều khiển bằng PLC, tuy giá thành hơi mắc nhưng so với VDK thì dễ sử dụng hơn và dễ lập trình hơn.
+Từ những phương án đã chọn trên, nhóm quyết định thực hiện đề tài theo các phương án đã chọn như trên.
+.................................................................................................................
+PHẦN 2
+CHƯƠNG 3
+CƠ SỞ LÝ THUYẾT VỀ KHÍ NÉN
+3.1 KHẢ NĂNG ỨNG DỤNG CỦA KHÍ NÉN.
+3.1.1 Trong lĩnh vực điều khiển
+Hệ thống điều khiển bằng khí nén được sử dụng ở những lĩnh vực mà ở đó hay xảy ra những vụ nổ nguy hiểm như các thiết bị phun sơn, các loại đồ gá kẹp các chi tiết nhựa, chất dẻo hoặc các lĩnh vực sản xuất thiết bị điện tử, vì điều kiện vệ sinh môi trường rất tốt và an toàn cao. Ngoài ra, hệ thống điều khiển bằng khí nén còn được sử dụng trong các dây chuyền rửa tự động, trong các thiết bị vận chuyển và kiểm tra của thiết bị lò hơi, thiết bị mạ điện, đóng gói, bao bì và trong công nghiệp hóa chất.
+3.1.2 Trong các hệ thống truyền động
+- Các dụng cụ, thiết bị máy va đập:
+Các thiết bị, máy móc trong lĩnh vực khai thác như: khai thác đá, khai thác than, trong các công trình xây dựng như: xây dựng hầm mỏ, đường hầm.
+- Truyền động quay:
+Truyền động động cơ quay với công suất lớn bằng năng lượng khí nén giá thành rất cao. Nếu so sánh giá thành tiêu thụ điện của một động cơ quay bằng năng lượng khí nén và một động cơ điện có cùng công suất, thì giá thành tiêu thụ điện của một động cơ quay bằng năng lượng khí nén cao hơn 10 đến 15 lần so với động cơ điện. Nhưng ngược lại thể tích và trọng lượng nhỏ hơn 30% so với động cơ điện có cùng công suất.
+- Truyền động thẳng:
+Vận dụng truyền động bằng áp suất khí nén cho truyền động thẳng trong các
+dụng cụ, đồ gá kẹp chi tiết, trong các thiết bị đóng gói, trong các loại máy gia công
+gỗ, trong các thiết bị làm lạnh cũng như trong hệ thống phanh hãm của ôtô.
+Trong các hệ thống đo và kiểm tra ..........................
+6.2 Hoạt động của PLC:
+Về cơ bản hoạt động của PLC cũng khá đơn giản, đầu tiên hệ thống các cổng vào/ra ( output/input) dùng để đưa các tín hiệu từ các thiết bị ngoại vi vào CPU( như các sensor, contact, tín hiệu từ động cơ….) sau khi nhận các tín hiệu đầu vào thì CPU sẽ xử lý và đưa tín hiệu điều khiển qua modun xuất ra các thiết bị được điều khiển. Trong suốt quá trình hoạt động, CPU đọc quét dữ liệu hoặc trạng thái của thiết bị ngoại vi thông qua đầu vào, sau đó thực hiện các chương trình trong bộ nhớ như sau: một bộ đệm chương trình đưa ra thanh ghi lệnh để thi hành. Chương trình ở dạng STL hay Ladder sẽ được dịch ra ngôn ngữ máy cất trong bộ nhớ chương trình. Sau khi thực hiện xong chương trình, sau đó là truyền thông nội bộ và kiểm tra lỗi sau đó CPU sẽ gởi hoặc cập nhật tín hiệu tới các thiết bị, được điều khiển thông qua modun xuất. Một chu kỳ gồm đọc tín hiệu, thực hiện chương trình,truyền thông nội bộ, tự kiểm tra lỗi và gởi cập nhật tín hiệu ở đầu ra.
+6.3 Đặc điểm bộ điều khiển lập trình:
+Nhu cầu về một bộ điều khiển dễ sử dụng linh hoạt, có giá thấp đã thúc đẩy sự phát triển những hệ thống điều khiển lập trình. Trong bối cảnh đó bộ điều khiển PLC đã được thiết kế nhằm thay thế những phương pháp điều khiển truyền thống dùng rơ le và thiết bị cồng kềnh, nó tạo ra một khả năng thiết bị linh hoạt , dễ dàng dựa trên việc lập trình trên các lệnh logic cơ bản. Ngoài ra PLC, còn có thể thực hiện những tác vụ khác như định thì, đếm…v..v., làm tăng khả năng điều khiển cho những hoạt động phức tạp, ngay cả với loại PLC nhỏ nhất. Hoạt động của PLC là kiểm tra tất cả các tín hiệu đầu vào, được đưa về từ quá trình điều khiển, thực hiện logic được lập trong chương trình và kích ra tín hiệu điều khiển tương ứng cho thiết bị bên ngoài. Với các mạch giao tiếp chuẩn ở khối vào và khối ra của PLC cho phép nó kết nối trực tiếp đến những cơ cấu tác động (actuators) có công suất nhỏ ở đầu ra và những mạch chuyển đổi tín hiệu ở đầu vào, mà không cần có mạch giao tiếp hay rơ le trung gian. Tuy nhiên cần phải có mạch điện tử công suất trung gian khi PLC điều khiển những thiết bị có công suất lớn.
+Việc sử dụng PLC cho phép chúng ta hiệu chỉnh hệ thống điều khiển mà không cần có sự thay đổi nào về mặt kết nối dây, sự thay đổi chỉ là thay đổi chương trình điều khiển trong bộ nhớ thông qua thiết bị lập trình chuyên dùng. Hơn nữa, chúng còn có ưu điểm là thời gian lắp đặt và đưa vào hoạt động nhanh hơn so với những hệ thống điều khiển truyền thống mà đòi hỏi việc nối dây phức tạp giữa các thiết bị
+Về phần cứng, PLC tương tự như máy tính truyền thống, và chúng có các đặc điểm thích hợp cho mục đích điều khiển trong công nghiệp.
+Khả năng chống nhiễu tốt Cấu trúc dạng modun cho phép dễ dàng thay thế, tăng khả năng ( nối thêm modun mở rộng vào/ra ) và thêm chức năng ( modun chuyên dùng ) Việc kết nối dây và mức điện áp tín hiệu ở đầu vào và đầu ra được chuẩn hóa. Ngôn ngữ lập trình chuyên dùng – ladder, instruction và function chart- dễ hiểu và dễ sử dụng Thay đổi chương trình điều khiển dễ dàng.
+Những đặc điểm trên làm cho PLC được sử dụng nhiều trong việc điều khiển các máy móc công nghiệp và trong quá trình điều khiển.
+6.4 Ngôn ngữ lập trình:
+Các loại PLC nói chung thường có nhiều ngôn ngữ lập trình để phục vụ đối tượng sử dụng khác nhau. Tuy nhiên hầu hết đều xoay quanh 3 ngôn ngữ cơ bản, đó là:
+Ngôn ngữ kiểu liệt kê, kí hiệu STL ( statement list ). Đây là dạng ngôn ngữ assembly máy tính.
+................................................................................................................
+CHƯƠNG 7:
+CẢM BIẾN QUANG
+7.1 Cảm biến quang phản xạ
+Đối với cảm biến quang phản xạ (sơ đồ khối 5.11) ánh sáng được phát ra từ cực E (cực phát) ánh sáng cảm biến nhận được ở cực R thì được phản xạ trực tiếp từ vật O. Khi nhận được lượng ánh sáng đến một giá trị cố định đặt trước, công tắc Q ở ngỏ ra được tác động. có tầm hoạt động từ 0 đến 500mm. Đối với một số loại đặt biệt có khả năng phát hiện vật ở khoản cách lên đến 10m. Cảm biến quang phản xạ có khả năng phát hiện tất cả vật phản xạ ánh sáng nhiều. Việc điều chỉnh sẽ là nhỏ nhất khi ta chắc chắn rằng việc lắp đặt thẳng hàng. Khi sử dụng thiết bị dẫn sáng thì cảm biến có khả năng phát hiện được vật rất nhỏ.
+Với giá trị đặt ban đầu, biên độ ánh sáng nhận được trong môi trường bẩn hoặc có sự thay đổi đặc điểm của đối tượng phản xạ sẽ ảnh hưởng xấu đến xung xuất. Lượng ánh sáng nhận được khi đó sẽ rất nhỏ, vì vậy mà khoản nhận biết của cảm biến cũng sẽ rất khá nhỏ.
+Do nguyên tắc hoạt động của cảm biến quang , cụ thể là với sự ước lượng ánh sáng thì các vật trong suốt hay phản xạ ánh sáng không thể phát hiện được, hoặc chỉ phát hiện được một số
+............................................................................
+7.2 Cảm biến quang có gương
+Đối với cảm biến quang có gương ( sơ đồ khối 5.12) ánh sáng từ đầu E đi đến gương, phản xạ về đầu R. Khi đường đi của ánh sáng này bị chặn bởi vật O, thì ngỏ ra Q sẽ tác động.
+Khoản nhận biết của cảm biến từ 0.1 đến 20m và có thể lớn hơn nửa. Cảm biến quang có gương có thể phát hiện tất cả các vật không trong suốt. Để tránh sự khuyếch tán ánh sáng giống như trường hợp của cảm biến quang phản xạ, người ta dùng đầu phát công suất lớn hơn và với việc được phản xạ từ gương thì làm cho khoản nhận biết của cảm biến tăng lên. Trong môi trường bẩn và có sự thay đổi tính chất của đối tượng thì ít bị tác động hơn so với cảm biến quang phản xạ.
+Tuy nhiên việc lắp đặt và điều chỉnh đòi hỏi tốn kém nhiều hơn, đặc biệt là đối với khoản cách xa, khi đó đòi hỏi phải lắp đặc rất chính xác. Đối tượng trong suốt có thể được phát hiện một số vật, bằng cách làm giảm lượng ánh sáng phản xa, nhưng khi nó chắn ngan một phần đường đi của ánh sáng thì có khả năng cảm biến không nhận biết được. Đối với vật phản xạ ánh sáng, khi đi ngan qua tia sáng có thể tao sự nhầm lẫn cho cảm biến, vì cảm biến không biết đâu là vật và đâu là gương. Do vật cũng phản xạ giống như gương.
+...................................................................................................................
+CHƯƠNG 8
+TÍNH TOÁN THIẾT KẾ MÔ HÌNH
+
+8.1 Tính thiết bị truyền nhiệt:
+- Mục tiêu của bài toán là tính toán công suất cho thanh gia nhiệt. Những thông số đã có là : diện tích bề mặt truyền nhiệt (F ), thời gian gia nhiệt để đạt nhiệt độ mong muốn ( t ), nhiệt độ đầu ép ( T ) và các hằng số tính toán.
+ε: độ đen của vật
+:5.67 W/( x )
+α:hệ số tỏa nhiệt W/ .K
+................................................................
+8.2.1 THIẾT KẾ THÂN CHO MÔ HÌNH DÂY CHUYỀN ÉP MÀNG LY
+8.2.1.1 Nguyên lý:
+Thân máy là bộ khung để lắp và đỡ các chi tiết máy, cần độ chính xác và cứng vững cao. Vì vậy khi thiết kế và chế tạo cần phải tuân thủ những nguyên tắc kỹ thuật nghiêm ngặt. Hầu như thân máy chiếm (60¸90)% trọng lượng của máy.
+Thân máy bao gồm các mặt phẳng, lỗ lắp ghép vì vậy mà được gia công đạt độ chính xác, độ phẳng và độ bóng cao. Còn lại các bề mặt không lắp ghép thì không cần phải gia công.
+Các phần đỡ của khung phải chịu được trọng lượng các chi tiết, chịu được các lực tác động theo chu kỳ ( lực quán tính), và phải đảm bảo về độ bền mỏi, khả năng chống ăn mòn hoá học và các tính chất lý hoá khác.
+8.2.1.2 Kết cấu:
+Kết cấu thân máy cần gọn, bền, ổn định và có đủ khả năng đáp ứng được yêu cầu khi máy làm việc. Trong điều kiện làm việc máy chịu nhiều lực tác động làm cho máy bị rung, dẫn đến khả năng làm việc của máy bị giảm, dễ bị mòn và hư hỏng. Vì vậy kết cấu phải phù hợp với điều kiện làm việc và tải trọng của máy.
+Trong đó phải chú ý tới những nơi được lắp trục của băng tải, vì chịu lực kéo lớn của xích cũng như là va đập do quá trình chuyển động của băng tải.
+
+vị trí tương quan giữa các bề mặt lắp ghép phải chính xác để đảm bảo dung sai lắp ghép về độ song song, độ vuông góc
+..........................................................................
+8.2.2 PHƯƠNG PHÁP TRUYỀN ĐỘNG :
+Hiện nay trong kỹ thuật cũng như trong sản xuất công nghiệp có 2 phương pháp thông dụng nhất được sử dụng để truyền động cho băng tải là: truyền động đai và truyền động xích.
+1 Các phương pháp truyền động:
+1.1 Truyền động đai:
+Ưu điểm:
+- Có khả năng truyền chuyển động giữa các trục khá xa.
+- Làm việc êm.
+- Giữ được an tồn cho các chi tiết máy khác khi bị quá tải .
+- Đề phòng được sự quá tải nhờ có sự trượt trơn của đai và puly.
+- Kết cấu đơn giản, giá thành rẽ.
+Nhược điểm :
+- Khuôn khổ kích thước khá lớn.
+- Tỉ số truyền không ổn định vì có sự trượt đàn hồi.
+- Lực tác dụng lên trục và ổ lớn do phải căng đai.
+- Tuổi thọ thấp khi làm việc với vận tốc cao.
+1.2 Truyền động bánh răng:
+Ưu điểm:
+- Kích thước nhỏ,khả năng tải lớn.
+- Tỉ số truyền không thay đổi do không có hiện tương trượt trơn.
+- Hiệu suất cao, có thể đạt tới 0,97-0,99.
+- Làm việc với vận tốc lớn (đến 150 m/s), công suất đến chục ngàn Kw, tuổi thọ cao, làm việc với độ tin cậy cao (Lh=30000 giờ)
+Nhược điểm:
+- Chế tạo tương đối phức tạp.
+- Đòi hỏi độ chính xác cao.
+- Có nhiều tiếng ồn khi vận tốc lớn.
+1.3 Truyền động xích:
+Ưu điểm:
+- Không có hiện tượng trượt, hiệu suất cao hơn, có thể làm việc khi quá tải đột ngột.
+- Không đòi hỏi phải căng xích.
+- Lực tác dụng lên trục và ổ nhỏ hơn.
+- Kích thước bộ truyền nhỏ hơn bộ truyền đai nếu thiết kế cùng công suất.
+Nhược điểm
+Nhược điểm của bộ truyền xích là do sự phân bố của các nhánh xích trên đĩa xích không theo đường tròn mà theo hình đa giác, do đĩa bản lề xích bị mòn, gây nên tải trọng phụ, ồn khi làm việc, có tỉ số truyền tức thời thay đổi, vận tốc tức thời của xích và bánh bị dẫn thay đổi, cần phải bơi trơn thường xuyên vá phải có bộ điều chỉnh xích.
+1.4 Lựa chọn phương pháp truyền động:
+=>Sau khi phân tích ưu nhược điểm của các bộ truyền động thì bộ truyền động xích là thích hợp nhất cho các yêu cầu kỹ thuật của băng tải, do đó ta quyết định sử dụng bộ truyền động xích làm bộ truyền trong đồ án này
+1.5 Thiết kế bộ truyền xích:
+Dựa vào công dụng và điều kiện làm việc của bộ truyền, kết cấu của máy, ta thấy dùng bộ truyền xích là mang tính tối ưu và đạt hiệu quả cao. Mặt khác do vận tốc truyền động dưới 10 m/s nên ta chọn loại xích ống con lăn 1 dãy vào cơ cấu truyền động của máy.
+Việc thiết kế bộ truyền xích cần phải tính tóan các số liệu sau:
+8.2.3 TÍNH CÔNG SUẤT ĐỘNG CƠ BĂNG TẢI.
+Công suất động cơ băng tải phụ thuộc vào:
+Công suất dịch chuyển xích P1 Công suất P2 tổn thất do ma sát trong các ổ đỡ, ma sát giữa các con lăn.
+Lực cần thiết để dịch chuyển vật liệu là:
+............................................................
+8.2.8 Nguyên lý làm việc các cụm modun
+8.2.8.1 Cụm tách ly:
+Nguyên lý làm việc: cụm modun tách ly được thiết kế cho riềng ly nhựa mà trong đồ án sử dụng .
+
+Thông số của ly nhựa sử dụng như sau:
+Điểm tách ly tại độ cao 95 ( mm ) tức là khoảng cách từ thanh bợ ly tới thanh tách ly là 95
+Nguyên lý làm việc: khi băng chuyền dừng đúng vị trí ( do cảm biến đưa tín hiệu về ) động cơ kéo màng ly bắt đầu hoạt động, khi đến đúng vị trí cần cắt thì động cơ kéo màng dừng, sau đó cơ cấu dập đồng thời ép đi xuống, hành trình pitong là 20mm đủ để cắt đứt màng ly.
+
+PHẦN 3 CHƯƠNG 9 : KẾT LUẬN VÀ KIẾN NGHỊ
+9.1 Kết luận
+Trong quá trình thực hiện đồ án, nhóm thực hiện đã luôn làm việc với mức cố gắng cao nhất để hoàn thành mục tiêu nhiệm vụ đề ra.
+Sau một thời gian ngắn, nhóm thực hiện luận văn đã đạt được một số kết quả như sau:
+Sử dụng phần mềm Inventor 11 để thiết kế các chi tiết, lắp ráp và mô phỏng được nguyên lý hoạt động của mô hình. Và xuất bản vẽ để tiến hành gia công chế tạo các chi tiết cho mô hình. Tính toán được bộ truyền xích và chọn được động cơ cho mô hình. Gia công và chế tạo thành công các chi tiết cho mô hình. Thi công lắp ráp và hoàn thiện phần cơ khí cho mô hình. Thiết kế thành công mạch điều khiển cho mô hình.
+- Thi công lắp ráp mạch điều khiển
+9.2 Kiến nghị
+Với mong muốn tiếp tục phát triển đề tài hơn nữa và tạo điều kiện thuận lợi cho các sinh viên khóa sau, nhóm thực hiện kiến nghị bộ môn Công Nghệ Tự Động có định hướng tiếp tục phát triển đề tài. Rất mong nhà trường hỗ trợ sinh viên hơn nữa trong quá trình thi công đề tài.
+9.3 Hướng phát triển
+Sau thời gian nghiên cứu và thi công, đề tài đã đạt mục tiêu đề ra . Tuy hoàn thành nhưng đề tài vẫn còn nhiều hạn chế. Theo đó, nhóm thực hiện đề xuất một số vấn đề sau:
+Nâng cao độ cứng vững của hệ thống cơ khí.
+Nâng cao tốc độ băng chuyền, gia công chính xác cơ cấu ép dán màng ly và cơ cấu tách ly,dùng động cơ có khẳ năng tự hãm tốt.
+Cải thiện hệ thống chiết rót cho phù hợp với thực tế sản phẩm
+..................................................................................
+MỤC LỤC:
+PHẦN 1. 1
+CHƯƠNG 1: TỔNG QUAN TÌNH HÌNH PHÁT TRIỂN.. 1
+1.1. Trên thế giới: 1
+1.2 Trong nước: 2
+CHƯƠNG 2: MỤC TIÊU CỦA ĐỀ TÀI 3
+2.1. Mục đích nghiên cứu của đề tài: 3
+2.2. Đối tượng nghiên cứu: 3
+2.3 Giới hạn đề tài: 3
+2.4 Ý tưởng thực hiện đề tài: 4
+2.4.1 Các phương án thực hiện: 4
+2.4.2 Lựa chọn phương án tối ưu: 4
+PHẦN 2: 5
+CHƯƠNG 3. 5
+CƠ SỞ LÝ THUYẾT VỀ KHÍ NÉN.. 5
+3.1 KHẢ NĂNG ỨNG DỤNG CỦA KHÍ NÉN. 5
+3.1.1 Trong lĩnh vực điều khiển. 5
+3.1.2 Trong các hệ thống truyền động. 5
+3.2 CƠ SỞ TÍNH TOÁN KHÍ NÉN.. 6
+3.2.1 Các đại lượng vật lý. 6
+3.2.2 Phương trình trạng thái nhiệt động học. 6
+3.3 CÁC PHẦN TỬ ĐIỆN - KHÍ NÉN VÀ CƠ CẤU CHẤP HÀNH SỬ DỤNG TRONG MÔ HÌNH 8
+3.3.1 Xy lanh. 8
+3.3.2 Van đảo chiều 5/2. 8
+3.3.3 Rơ le. 8
+3.3.4 Nút nhấn. 9
+3.3.5 Van tiết lưu. 9
+CHƯƠNG 4: BỘ TRUYỀN ĐỘNG XÍCH.. 10
+4.1 NHỮNG VẤN ĐỀ CHUNG: 10
+4.1.1 Giới thiệu bộ truyền xích: 10
+4.1.2 Phân loại bộ truyền xích. 11
+4.1.3 Các thông số hình học chủ yếu của bộ truyền xích ống con lăn. 12
+4.1.4 Các thông số làm việc chủ yếu của bộ truyền xích. 14
+4.2 TÍNH TOÁN BỘ TRUYỀN XÍCH: 14
+4.2.1 Tính toán bộ truyền xích ống con lăn: 14
+4.2.2 Trình tự thiết kế bộ truyền xích: 15
+CHƯƠNG 5. 16
+TRUYỀN NHIỆT VÀ PHƯƠNG TRÌNH VI PHÂN DẪN NHIỆT.. 16
+5.1 PHƯƠNG TRÌNH VI PHÂN DẪN NHIỆT ỔN ĐỊNH MỘT CHIỀU KHÔNG CÓ NGUỒN NHIỆT BÊN TRONG: 17
+5.2 ĐIỀU KIỆN BIÊN: 17
+5.3 DẪN NHIỆT ỔN ĐỊNH MỘT CHIỀU: 18
+5.3.1 PHƯƠNG TRÌNH VI PHÂN DẪN NHIỆT: 18
+5.3.2 ĐIỀU KIỆN BIÊN.. 19
+5.4 TRAO ĐỔI NHIỆT BỨC XẠ TRONG MÔI TRƯỜNG TRONG SUỐT.. 22
+5.4.1 Định luật Planck: Định luật thiết lập mối quan hệ giữa khả năng bức xạ đơn sắc của vật đen tuyệt đối với nhiệt độ và chiều dài bước sóng. 22
+5.4.2 Định luật Stefan-boltzmann: Định luật này thiết lập mối quan hệ giữa khả năng bức xạ bán cầu của vật đen tuyệt đối phụ thuộc vào nhiệt độ. 23
+5.4.3 Định luật Kirchhof: 24
+5.4.4 Cường độ bức xạ: 25
+5.4.5 Trao đổi nhiệt bức xạ giữa hai bề mặt đen: 26
+5.4.6 Trao đổi nhiệt bức xạ giữa bề mặt xám: 26
+5.4.7 Bức xạ nhiệt giữa 2 tấm phẳng: 28
+5.4.8 Bức xạ nhiệt giữa 2 vật bọc nhau: 29
+CHƯƠNG 6: 30
+PLC S7-200. 30
+6.1 Cấu trúc: 30
+6.2 Hoạt động của PLC: 31
+6.3 Đặc điểm bộ điều khiển lập trình: 31
+6.4 Ngôn ngữ lập trình: 32
+CHƯƠNG 7: 33
+CẢM BIẾN QUANG.. 33
+7.1 Cảm biến quang phản xạ. 33
+7.2 Cảm biến quang có gương. 34
+7.3 Cảm biến quang có hai đầu phát và thu rời: 35
+7.4 Ngõ ra của cảm biến quang. 35
+CHƯƠNG 8. 36
+TÍNH TOÁN THIẾT KẾ MÔ HÌNH.. 36
+8.1 Tính thiết bị truyền nhiệt: 36
+8.2 HỆ THỐNG CƠ KHÍ 37
+8.2.1 THIẾT KẾ THÂN CHO MÔ HÌNH DÂY CHUYỀN ÉP MÀNG LY.. 38
+8.2.2 PHƯƠNG PHÁP TRUYỀN ĐỘNG : 39
+8.2.3 TÍNH CÔNG SUẤT ĐỘNG CƠ BĂNG TẢI. 41
+8.2.4 TÍNH TOÁN BỘ TRUYỀN XÍCH. 42
+8.2.5 Tính toán lực dập: 44
+8.2.6 Tính toán tiết diện xi lanh cần thiết: 46
+8.2.7 Định lượng: 47
+8.2.8 Nguyên lý làm việc các cụm modun. 49
+8.3 Hệ thống điều khiển điện_ khí nén kết hợp với PLC: 51
+8.3.1Thiết kế bảng điện giao tiếp người dùng: 52
+8.3.2 HỆ THỐNG KHÍ NÉN: 53
+8.3.3 KẾT NỐI VÀ CHƯƠNG TRÌNH PLC. 53
+PHẦN 3. 62
+CHƯƠNG 9 : KẾT LUẬN VÀ KIẾN NGHỊ 62
+9.1 Kết luận. 62
+9.2 Kiến nghị 62
+9.3 Hướng phát triển 62

@@ -1,0 +1,132 @@
+100 MB Bao gồm tất cả file,.lưu đồ giải thuật... thuyết minh, bản vẽ nguyên lý, bản vẽ thiết kế, FILE lập trình, ĐỒ ÁN TỐT NGHIỆP ĐIỆN tử MÔ HÌNH PLC MITSUBISHI
+
+LỜI NÓI ĐẦU
+&
+Nền công nghiệp thế giới đang trên đà phát triển ngày càng cao, trong đó vấn đề tự động điều khiển được đặt lên hàng đầu trong quá trình nghiên cứu cũng như ứng dụng công nghệ mới vào trong sản xuất. Nó đòi hỏi khả năng xử lý, mức độ hoàn hảo, sự chính xác của hệ thống sản xuất ngày một cao hơn,để có thể đáp ứng được nhu cầu về số lượng, chất lượng, thẩm mỹ ngày càng cao của xã hội.
+Sự xuất hiện máy tính vào những năm đầu thập niên 60, đã hỗ trợ con người làm việc tốt hơn trong nhiều lĩnh vực từ kinh tế, y tế, giáo dục, quốc phòng đến nhiều lĩnh vực khác như hàng không, vũ trụ. Với sự đòi hỏi của con người, những nhà nghiên cứu không dừng lại ở đó, nhiều thiết bị, phần mềm ra đời chuyên phục vụ cho ngành công nghiệp, tính năng ưu biệt luôn được nâng cao. Một trong những thiết bị phải kể đến đó là bộ PLC. Với khả năng ứng dụng và nhiều ưu điểm nổi bậc, PLC ngày càng thâm nhập sâu rộng trong nền sản xuất. Nhận thức được tầm quan trọng đó, nên chúng ta cần nghiên cứu, tìm hiểu về PLC, nhằm góp phần vào công nghiệp hóa, hiện đại hóa đất nước.
+Xuất phát từ thực tế và nhiều điều kiện khách quan khác, nên “MÔ HÌNH PLC MITSUBISHI FX 1N ” được chọn làm đề tài đồ án tốt nghiệp này. Quá trình thực hiện là điều kiện tốt nhất để học hỏi kinh nghiệm xây dựng một mô hình sản xuất và phương pháp lập trình điều khiển bằng PLC.
+Do hạn chế về thời gian, kinh nghiệm thực tế, vừa tìm hiểu, vừa học hỏi trong quá trình thực hiện, nên không thể tránh khỏi những thiếu sót. Rất mong sự đóng góp ý kiến quý báo của thấy cô, anh chị và các bạn để đề tài được hoàn thiện hơn.
+MỤC LỤC
+
+Trang
+Chương 1 TỔNG QUAN VỀ PLC
+1.1 Giới thiệu về PLC 1
+1.2 Phân loại .................................................... 4
+1.3 Các bộ điều khiển và phạm vi ứng dụng ....................... 4
+1.4 Các lĩnh vực ứng dụng .................................................... 5
+1.5 Các ưu điểm ....................................................... 5
+1.6 Giới thiệu các ngôn ngũ lập trình .................................... 5
+Chương 2 KHAÙI QUAÙT VEÀ PLC MITSUBISHI HOÏ FX.....8
+2.1 KHAÙI QUAÙT VEÀ HOÏ PLC FX ............................. 8
+2.1.1 Gới thiệu ................................... 8
+2.1.2 Các thiết bị trên bộ PLC FX ................................... 9
+2.1.3. Các đặc tính kỹ thuật chung .......................... 12
+2.2. Tập Lệnh Cơ Bản Trên Bộ PLC FX: ........... 14
+2.3 Các lệnh ứng dụng .......................... 19
+Chương 3 BỘ ĐẾM TỐC ĐỘ CAO (HSC) 34
+Chương 4 ANALOG VÀ THUẬT GIẢI PID 37
+CHƯƠNG 1: TỔNG QUAN VỀ PLC
+1.1. GIỚI THIỆU VỀ PLC (Programmable Logic Control) (Bộ điều khiển logic khả trình):
+Hình thành từ nhóm các kỹ sư hãng General Motors năm 1968 với ý tưởng ban đầu là thiết kế một bộ điều khiển thỏa mãn các yêu cầu sau:
+Lập trình dễ dàng, ngôn ngữ lập trình dễ hiểu. Dễ dàng sửa chữa thay thế. Ổn định trong môi trường công nghiệp. Giá cả cạnh tranh.
+Thiết bị điều khiển logic khả trình (PLC: Programmable Logic Control) (hình 1.1) là loại thiết bị cho phép thực hiện linh hoạt các thuật toán điều khiển số thông qua một ngôn ngữ lập trình, thay cho việc thể hiện thuật toán đó bằng mạch số:
+Hình 1.1
+Như vậy, với chương trình điều khiển trong mình, PLC trở thành bộ điều khiển số nhỏ gọn, dễ thay đổi thuật toán và đặc biệt dễ trao đổi thông tin với môi trường xung quanh (với các PLC khác hoặc với máy tính). Toàn bộ chương trình điều khiển được lưu nhớ trong bộ nhớ PLC dưới dạng các khối chương trình (khối OB, FC hoặc FB) và thực hiện lặp theo chu kỳ của vòng quét.
+Hình 1.2
+Để có thể thực hiện được một chương trình điều khiển, tất nhiên PLC phải có tính năng như một máy tính, nghĩa là phải có một bộ vi xử lý (CPU), một hệ điều hành, bộ nhớ để lưu chương trình điều khiển, dữ liệu và các cổng vào/ra để giao tiếp với đối tượng điều khiển và trao đổi thông tin với môi trường xung quanh. Bên cạnh đó, nhằm phục vụ bài toán điều khiển số, PLC còn cần phải có thêm các khối chức năng đặc biệt khác như bộ đếm (Counter), bộ định thì (Timer) … và những khối hàm chuyên dụng.
+1.2. PHÂN LOẠI:
+PLC được phân loại theo 2 cách:
+Hãng sản xuất: Gồm các nhãn hiệu như Siemen, Omron, Misubishi, Alenbratlay… Version:
+Ví dụ: PLC Siemen có các họ: S7-200, S7-300, S7-400, Logo.
+PLC Misubishi có các họ: Fx, Fx0, FxON
+1.3. CÁC BỘ ĐIỀU KHIỂN VÀ PHẠM VI ỨNG DỤNG:
+1.3.1. Các bộ điều khiển:
+Ta có các bộ điều khiển: Vi xử lý, PLC và Máy tính.
+1.3.2. Phạm vi ứng dụng:
+1.3.2.1. Máy tính:
+Dùng trong những chương trình phức tạp đòi hỏi độ chính xác cao. Có giao diện thân thiện. Tốc độ xử lý cao. Có thể lưu trữ với dung lượng lớn.
+1.3.2.2. Vi xử lý:
+Dùng trong những chương trình có:
+độ phức tạp không cao (vì chỉ xử lý 8 bit). Giao diện không thân thiện với người sử dụng. Tốc độ tính toán không cao. Không lưu trữ hoặc lưu trữ với dung lượng rất ít.
+1.3.2.3. PLC:
+Độ phức tạp và tốc độ xử lý không cao. Giao diện không thân thiện với người sử dụng. Không lưu trữ hoặc lưu trữ với dung lượng rất ít. Môi trường làm việc khắc nghiệt.
+1.4. CÁC LĨNH VỰC ỨNG DỤNG PLC:
+PLC được sử dụng khá rộng rãi trong các ngành: Công nghiệp, Máy nông nghiệp, Thiết bị y tế, Ô tô(xe hơi, cần cẩu…)…
+1.5. CÁC ƯU ĐIỂM KHI SỬ DỤNG HỆ THỐNG ĐIỀU KHIỂN VỚI PLC:
+Không cần đấu dây cho sơ đồ điều khiển logic như kiểu dùng rơ le. Có độ mềm dẻo sử dụng rất cao, khi chỉ cần thay đổi chương trình (phần mềm) điều khiển. Chiếm vị trí không gian nhỏ trong hệ thống. Nhiều chức năng điều khiển. Tốc độ cao. Công suất tiêu thụ nhỏ. Không cần quan tâm nhiều về vấn đề lắp đặt. Có khả năng mở rộng số lượng đầu vào/ra khi nối thêm các khối vào/ra chức năng. Tạo khả năng mở ra các lĩnh vực áp dụng mới. Giá thành không cao.
+Chính nhờ những ưu thế đó, PLC hiện nay được sử dụng rộng rãi trong các hệ thống điều khiển tự động, cho phép nâng cao năng suất sản xuất, chất lượng và sự đồng nhất sản phẩm, tăng hiệu suất, giảm năng lượng tiêu tốn, tăng mức an toàn, tiện nghi và thoải mái trong lao động. Đồng thời cho phép nâng cao tính thị trường của sản phẩm.
+1.6. GIỚI THIỆU CÁC NGÔN NGỮ LẬP TRÌNH:
+Các loại PLC nói chung thường có nhiều ngôn ngữ lập trình nhằm phục vụ các đối tượng sử dụng khác nhau. PLC S7-300 có 5 ngôn ngữ lặp trình cơ bản. Đó là:
+Ngôn ngữ “hình thang”, ký hiệu là LAD (Ladder logic):
+Ngôn ngữ “liệt kê lệnh”, ký hiệu là STL (Statement list):
+Đây là dạng ngôn ngữ lập trình thông thường của máy tính. Một chương trình được ghép gởi nhiều câu lệnh theo một thuật toán nhất định, mỗi lệnh chiếm một hàng và đều có cấu trúc chung là “tên lệnh” + “toán hạng”.
+Ngôn ngữ “hình khối”, ký hiệu là FBD (Function Block Diagram):
+Đây cũng là ngôn ngữ đồ hoạ thích hợp với những người quen thiết kế mạch điều khiển số.
+Ngôn ngữ GRAPH:
+Đây là ngôn ngữ lập trình cấp cao dạng đồ hoạ. Cấu trúc chương trình rõ ràng, chương trình ngắn gọn. Thích hợp cho người trong ngành cơ khí vốn quen với giản đồ Grafcet của khí nén.
+.........................................................
+CHƯƠNG 2 : KHÁI QUÁT VỀ PLC MITSUBISHI HỌ FX
+2.1. KHÁI QUÁT VỀ HỌ PLC FX:
+2. 1.1 Giới thiệu:
+PLC FX lá một loại PLC micro của hãng MITSIBISHI nhưng có nhiều tính năng mạnh mẽ.Loại PLC này được tích hợp sẵn các I/O trên CPU.
+PLC FX - 8 - ra đời năm 1981 đến nay đ cĩ rất nhiều chủng loại ty theo model như: F, F1(2), FX1(2), FX0(S), FX0N, FX1S, FX1N(C), FX2N(C ) v FX3U (C ). Tùy theo model mà các loại này có dung lượng bộ nhớ khác nhau. Dung lượng bộ nhớ của các loại này có thể là 2Kstep đến 8Kstep (hoặc 64 Kstep khi gắn thm bộ nhớ ngồi). Tổng số I/O của các loại này có thể lên đến 256 I/O, riêng FX3U(C ) có thể lên đến 384 I/O. Số module mở rộng có thể lên đến 8 Module.
+Loại PLC FX có thể tích hợp nhiều chức năng trne6 CPU như ng ra xung hai tọa độ, bộ đếm tốc độ cao (HSC ), PID, Đồng hồ thời gian thực….
+Module mở rộng nhiều chủng loại như Analog, xử lý nhiệt độ, điuề khiển vị trí, các Module mạng như CCLink, Profibus, …
+Ngồi ra cịn cĩ cc bo mở rộng (Extention Board ) như Analog, các bo dùng cho truyền thông các chuẩn RS232, RS422, RS485 và cả USB.
+Đề lập trình cho bộ điều khiên PLC FX ta có thể sử dụng phần mềm như PXGP_WIN_E, GPP FOR WINDOW hoặc phần mềm Developer. Các loại phần mềm này đều có thể lập trình theo cc kiểu như: Ladder, Instruction, SFC.
+2.1.2. Cc thiết bị trn bộ PLC FX:
+Cĩ 6 thiết bị lập trình cơ bản. Mỗi thiết bị có công dụng riêng. Để dễ dàng xác địng thì mỗi thiết bị gn cho một kí tự:
+X: Dùng để chỉ, ng vo vật lý gắn trực tiếp vo PC. Cc ng vo ny cĩ thứ tự điếm theo hệ điếm bát phân X0X1X2X3X4X5X6X7, X10X11…. Y: Dùng để chỉ ng ra nối trực tiếp vo PC. Cc ng vo ny cĩ thứ tự đếm theo hệ điếm bát phân. M và S: Dùng như là các cờ hoạt động trong PC
+Tất cả các thiết bị trên được gọi là các “thiết bị bit” nghĩa là các thiết bị này có 2 trạng thái ON hoặc OFF, 1 hoặc 0. Ta có thể tổ hợp các thiết bị bit lại để có thể tạo thành một dữ liệu 4bit, Byte, Word D – Word như sau:
+K1M0 = M3M2M1M0 (tương ứn dữ liệu của 4bit).
+K2M10 = M17M16M15M14M13M12M11M10 (tương ứng dữ liệu của 8bit),…..
+KnM thì chỉ cĩ n phải thỏa mn 1 ≤ n ≤ 8.
+D: Thanh ghi 16 bit / 32 bit. Đây là thiết bị word. T: Dùng để xác định thiết bị định thì cĩ trong PC. Dữ liệu trn Timer ta gọi Timer l thiết bị word (16bit) va2trang5 thi Timer ta nĩi Timer l thiết bị bit. C: Dùng để xác định thiết bị đếm có trong PC. Dữ liệu trn Counter ta gọi Counter l thiết bị word (16/32bit) v trạng thi Counter ta nĩi Counter l thiết bị bit.
+Ta có bảng các thiết bị như sau (Đối với các PLC phiên bản từ 2.0 trở lên):
+Mục FX0S(N) FX1S FX1N FX2N(C) FX3U(C) Phương php xử lý chương trình Thực hiện quét chương trình tuần hồn Phương pháp xử lý vo/ra Cập nhập ở đầu vào cuối chu kỳ quét (khi lệnh END được thi hành) Thời gian xử lý Cơ bản: 1,6à3,6 µs Ứng dụng 10à100 µs Cơ bản: 0,72 µs Ứng dụng 10à100 µs Cơ bản: 0,08 µs Ứng dụng 1,52à100 µs Cơ bản: 0,065 µs Ứng dụng 0,642à100 µs Ngơn ngữ lập trình Ngơn ngữ ladder + Instruction + SFC Dung lượng chương trình 2kSteps 8kSteps 8kSteps (16kSteps gắn thm bộ nhớ ngồi) 8kSteps (64kSteps gắn thm bộ nhớ ngồi) Cấu hình ra/vo cĩ thể 128I/O (Max In/Output 128) 30I/O Max Input (16) Max Output (14) 128I/O (Max In/Output 128) 256I/O (Max In/Output 184) 384I/O (Max In/Output 248) Rơle phụ trợ (M) Chung M0àM511 M0àM1535 M0àM3071 M0àM7679 Được chốt M384àM511 M384àM1535 M500àM3071 M500àM7679 Chuyn dng M8000àM8255 M8000àM8511 Rơle trạng thi (S) Chung S0àS127 S0àS999 S0àS4095 Được chốt S500àS999 S500àS4095 Khởi tạo S0àS9 Cờ hiệu Khơng S900àS999 S900àS999 Bộ định thì (T) 100ms T0àT62 T0àT199 10ms T32àT62 (M8028 = ON) T200àT245 1ms (được chốt) T63 T246àT249 100ms (đươc chốt) Khơng T250àT255 1ms Khơng T256àT511 Bộ đếm (C) Chung (U) 16bit C0àC31 C0àC199 Được chốt (U) 16bit C16àC31 C16àC199 C100àC199 Chung (U/D) 32bit Khơng C200àC234 Được chốt (U/D) 32bit Khơng C220àC234 Bộ đếm tốc độ cao (HSC) 1 pha (U/D) 32bit C235àC238 C235àC240 Một pha tự khởi động và Reset (U/D) 32bit C241, C242 vC244 241àC245 2 pha (U/D) 32bit C246, C247 v C249 C246àC250 Pha A/B 32bit C251, C252 v C254 C251àC255 Thanh ghi dữ liệu 16bit (D) Chung D0àD255 D0àD7999 Được chốt D128àD255 D128àD7999 D200àD7999 T/ghi tập tin D1000àD2499 D1000àD7999 Đặc biệt D8000àD8255 D8000àD8511 Thanh ghi mở rộng 16 bit (D) Khơng R0àR32767 Thanh ghi mở rộng 16 bit (ER) Khơng ER0àER32767 Thanh ghi chỉ mục 16 bit V V V0àV7 Z Z Z0àZ7 Con trỏ P v I Dng với lệnh CALL/ CJ (P) P0àP63 P0àP63 P0àP127 P0àP4095 Ngắt bởi ng vo I00∆àI30∆ Cạnh ln: ∆=1 C/xuống: ∆=0 I00∆àI50∆ Cạnh ln: ∆=1 C/xuống: ∆=0 Ngắt bởi Timer Khơng I6∆∆àI8∆∆ ∆∆: 10à99 ms Ngắt bởi Counter Khơng I010àI060 Số mức lồng 8 cho lệnh MC v MCR (N0àN7) Hằng số Thập phn K 16 bit: -32.768 à +32.767 32 bit: -2.147.483.648 à +2.147.483.647 Thập lục phn H 16 bit:0000 à FFFF 32 bit: 00000000 à FFFFFFFF Dạng dấu chấm cơng Khơng 32 bit: 0,±1.175×10-38 à ±3.403×10+38 Số thực R Khơng 32 bit
+2.1.3. Các đặc tính kỹ thuật chung:
+a. Inputs (Ng vo):
+FX bộ phận chính, FX Mođul mở rộng X0àX7 X10à∞ Điện áp ng vo 24V DC, 5mA Dịng ng vo 24V DC, 7mA 24V DC, 5mA Cơng tắc ng vo OFFàON >4,5mA >3,5mA ONàOFF <1,5mA Thời gian đáp ứng <10ms Cách ly mạch điện dùng Dng photocoupler Chỉ dẫn hoạt động Dng LED
+b. Outputs (Ng ra):
+Mơ tả Ng ra dng relay Ng ra dng transistor Điện áp <240V AC,<30V DC 5-30V DC Tỷ lệ dịng điện / N ng 2A/1 ng,8A/COM 0.5A/1ng, 0.8A/COM Cơng suất lớn nhất của tải 80VA 12W/24V DC Đèn phụ tải lớn 100W (1.17A/85V AC, 0.4A/250V AC) 1.5W/24V DC Phụ tải nhỏ Khi nguồn cung cấp <5V DC thì cho php ít nhất 2mA -------------- Thời gian đáp ứng OFFàON 10mS <0.2mS;<5µS (chỉ Y0, Y1) ONàOFF Mạch cch ly Bằng relay Photocoupler Dịng điện rỉ ------------ 0.1mA/30V DC Chỉ dẫn hoạt động LED sáng khi cuộn được kích hoạt
+c. Cách đấu Sink/Source ở ng vo:
+d. Cách đấu relay và transistor (soure/sink) ở ng ra:
+2.2. Tập Lệnh Cơ Bản Trên Bộ PLC FX:
+1. Load, Load Inverse:
+Lệnh gợi nhớ Chức năng Dạng mẫu Thiết bị Số bước LD (Load) Tc vụ logic khởi tạo – loại cơng tắc NO X, Y, M, S, T, C 1 LDI (Load Inverse) Tc vụ logic khởi tạo – loại cơng tắc NC X, Y, M, S, T, C 1
+
+
+
+
+2. Out:
+Lệnh Chức năng Dạng mẫu Thiết bị Số bước Out (Out) Tác vụ logic cuối loại điều khiển cuộn dây Y, M, S, T, C Y, M: 1 S, cuộn M Chuyn dng: 2 T: 3 C (16 bit) 3 C (32 bit) 5
+3. And, And Inverse:
+Lệnh gợi nhớ Chức năng Dạng mẫu Thiết bị Số bước AND (And) Nối tiếp cc cơng tắc NO (thường mở) X, Y, M, S, T, C 1 ANDI (And Inverse) Nối tiếp cc cơng tắc NC (thường đóng) X, Y, M, S, T, C 1
+4. Or, Or Inverse:
+Lệnh gợi nhớ Chức năng Dạng mẫu Thiết bị Số bước OR (Or) Nối song song các công tắc NO (thường mở) X, Y, M, S, T, C 1 ORI (Or Inverse) Nối song song các công tắc NC (thường đóng) X, Y, M, S, T, C 1
+5. Or Block:
+Lệnh Chức năng Dạng mẫu Thiết bị Số bước ORB (OR Block) Nối song song nhiều mạch cơng tắc Khơng cĩ 1
+6. And Block:
+Lệnh Chức năng Dạng mẫu Thiết bị Số bước ANB (And Block) Nối tiếp mạch song song Khơng cĩ 1
+7. MPS, MRD, MPP:
+Lệnh gợi nhớ Chức năng Dạng mẫu Thiết bị Số bước chương trình MPS (Piont Store) Lưu kết quả hiện hnh của tc vụ trong PC MPS Khơng cĩ 1 MRD (Read) Đọc kết quả hiện hành của tác vụ trong PC Khơng cĩ 1 MPP (pop) Lấy ra (gọi là loại bỏ) kết quả đ lưu. Khơng cĩ 1
+8. Master Control v Master Control Reset:
+Lệnh gợi nhớ Chức năng Dạng mẫu Thiết bị Số bước chương trình MC (Master Control) Chỉ ra điểm bắt đầu của một khối điều khiển chính (master control block) MC N Y, M (cho php thm cuộn M chuyn dng loại NO) N chỉ mức lồng (N0 đến N7) 3 MCR (Master Control Reset) Chỉ ra điểm kết thúc của một khối điều khiển chính MCR N NNNNNNNNNNNNN NN N N chỉ mức lồng (N0 đến N7), được đặt lại 2
+9. Set v Reset:
+Lệnh gợi nhớ Chức năng Dạng mẫu Thiết bị Số bước chương trình SET (set) Đặt lại một thiết bị (bit) lên ON (vĩnh viễn) Y, M, S Y, M: 1 S, cuộn M Chuyn dng 2 RST (reset) Đặt lại một thiết bị (bit) xuống OFF (vĩnh viễn) Y, X, M, S, D, V, Z D, thanh ghi D Chuyn dng, V v Z : 3
+10. Out v Reset:
+Lệnh gợi nhớ Chức năng Dạng mẫu Thiết bị Số bước chương trình OUT (out) Điều khiển cuộn dây bộ định thì hoặc bộ đếm Y, M, S Bộ đếm 32 bit: 5 khác: 3 RESET (reset) Đặt lại bộ định thì v bộ đếm, cuộn dây, công tắc và các gi trị hiện hnh Y, X, M, S, D, V, Z T, C: 2
+11. Xung cạnh ln v xung cạnh xuống:
+Lệnh gợi nhớ Chức năng Dạng mẫu Thiết bị Số bước chương trình PLS (PuLSe) Kích xung khi cĩ cạnh ln Y, M (khơng cho php dng cuộn M chuyn dng) 2 PLF (PuLSe Falling) Kích xung khi cĩ cạnh xuống PLF Y, M (khơng cho php dng cuộn M chuyn dng) 2
+12. No Operation:
+Lệnh gợi nhớ Chức năng Dạng mẫu Thiết bị Số bước chương trình NOP (No Operation) Không tác vụ hay bước rỗng Khơng cĩ Khơng cĩ 1
+13. End:
+Lệnh gợi nhớ Chức năng Dạng mẫu Thiết bị Số bước chương trình END (End) Buộc chương trình kết thc END Khơng cĩ 1
+2.3 CC LỆNH ỨNG DỤNG:
+1. Nhóm lệnh về điều khiển lưu trình:
+1.1. Lệnh CJ (FNC 00):
+Lệnh Chức năng Tốn hạng Số bước D CJ (FNC 00) Conditional Jump Nhảy tới một vị trí con trỏ đ định Các con trỏ đích hợp lệ có giá trị từ 0 đến 63/127 CJ, CJP: 3 Bước
+Lưu ý: Khi nhảy tới con trỏ P63 tương đương với lệnh kết thúc chương trình.
+1.2. Lệnh CALL(FNC 01):
+Lệnh Chức năng Tốn hạng D Số bước CALL (FNC 01) Call Subroutine Gọi chương trình con hoạt động Các con trỏ đích hợp lệ có giá trị từ 0 đến 62(64 – 127) CALL,CALLP: 3 Bước
+

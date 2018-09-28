@@ -1,0 +1,743 @@
+100 MB Bao gồm tất cả file orcad (max, dbk, lis, opj....lưu đồ giải thuật... thuyết minh, power point báo cáo, bản vẽ nguyên lý, bản vẽ thiết kế, FILE lập trình, và nhiều tài liệu liên quan kèm theo đồ án này ĐỒ ÁN TỐT NGHIỆP KÍT THỰC TẬP ĐẾM XUNG MP5W VÀ ENCODER
+MỞ ĐẦU
+Trong những năm gần đây, nền công nghiệp thế giới đang trên đà phát triển ngày càng cao, trong đó vấn đề tự động hóa được đặt lên hàng đầu cho việc nghiên cứu và ứng dụng trong sản xuất.
+Sự xuất hiện của các sản phẩm công nghệ cao đã hỗ trợ con người làm việc được tốt hơn và năng xuất cao hơn trong nhiều lĩnh vực như y tế, quốc phòng, giáo dục, vũ trụ... Với nhu cầu ngày càng cao của con người cũng như những đòi hỏi của công việc, các nhà nghiên cứu đã không dừng lại ở đó mà cho ra nhiều thiết bị phục vụ cho ngành công nghiệp cùng với những tính năng, ưu điểm luôn được nâng cao. Một trong những thiết bị phải kể đến là đồng hồ đo xung MP5W của Autonic đang được sử dụng rộng rãi tại nhiều nước trên thế giới và nước ta. Đây cũng là thiết bị nhóm thực hiện chọn để tìm hiểu, nghiên cứu và thực hiện “ KÍT THỰC TẬP ĐẾM XUNG MP5W ”. Đề tài này nhằm nghiên cứu các chức năng, ứng dụng pulse meter MP5W-48 .
+Quá trình thực hiện đồ án là điều kiện tốt để cho nhóm thực hiện đề tài học hỏi kinh nghiệm xây dựng và phát triển một mô hình sản xuất trong thực tế, cách sử dụng các thiết bị tự động hóa, các kỹ năng làm việc cũng như kỹ năng làm việc nhóm.
+Trong khoảng thời gian nhất định, thiếu kinh nghiệm thực tế, trình độ có hạn và nhiều phương án chưa được tối ưu nên trong quá trình thực hiện để tài này không tránh khỏi những sai sót. Rất mong nhận được sự đóng góp ý kiến của quý thầy cô, anh chị và các bạn để đề tài này được hoàn thiện hơn.
+
+Mục lục
+CHƯƠNG 1: TỔNG QUAN VỀ PULSE METER.. 1
+1.1 Giới thiệu. 1
+1.2 Đặt điểm chung. 1
+1.2.1 Chế độ đo. 1
+1.2.2 Chức năng. 2
+1.2.2.1 Chức năng ngõ ra. 2
+1.2.2.2 Chức năng cài đặt 2
+1.2.2.3 Dãy hiển thị và đơn vị đo. 2
+1.2.3 Thông số kỹ thuật chung. 2
+CHƯƠNG 2: ĐỒNG HỒ ĐO XUNG TỐC ĐỘ MP5W-48. 4
+2.1 Ý nghĩa tên gọi 4
+2 .2 Kích thước và sơ đồ kết nối 4
+2.2.1 Kích thước. 4
+2.2.2 Sơ đồ kết nối 4
+2.2.2.1 Kết nối với cảm biến bên ngoài 4
+2.2.2.2 Kết nối các ngõ ra. 5
+2.3 Thông số ngõ vào. 6
+2.3.1 Tín hiệu ngõ vào là bán dẫn Solid-sate: 6
+2.3.2 Tín hiệu ngõ vào là tiếp điểm relay. 6
+2.3.3 Loại ngõ vào. 6
+2.4 Các thông số ngõ ra. 7
+2.4.1 Ngõ ra chính ( npn collector thường hở ). 7
+2.4.2 Ngõ ra phụ ( truyền thông RS485 ). 7
+2.5 Biểu đồ thông số nhóm cho mode hoạt động. 7
+2.6 Cài đặt thông số. 10
+2.6.1 Thông số nhóm 0. 10
+2.6.2 Thông số nhóm 1. 12
+2.6.3 Thông số nhóm 2. 14
+2.6.4 Thông số nhóm 3. 16
+2.7 CÁC MODE ĐO CỦA MP5W... 18
+2.7.1 Mode F1: Đo tần số, đo tốc độ, đo số vòng quay. 18
+2.7.2 Mode F2: Đo tốc độ di chuyển. 19
+2.7.3 Mode F3: Đo chu kỳ. 20
+2.7.4 Mode F4: Đo thời gian di chuyển. 21
+2.7.5 Mode F5: Độ rộng thời gian. 22
+2.7.6 Mode F6: Khoảng thời gian. 23
+2.7.7 Mode F7: Tỷ lệ tuyệt đối 24
+2.7.8 Mode F8: Tỷ lệ lỗi 25
+2.7.10 Mode F10: lỗi 27
+2.7.11 Mode F11: Đo chiều dài 27
+2.7.12 Mode F12: Đo khoảng cách. 28
+2.8 Mode ngõ ra chính. 30
+2.8.1 Mode ngõ ra S(Standard). 31
+2.8.2 Mode ngõ ra H(High)[out-h]. 31
+2.8.3 Mode ngõ ra L(Low) [out-l). 31
+2.8.4 Mode ngõ ra B (Block) [out-b]. 32
+2.8.6 Mode ngõ ra F(Deflection) (out-f). 33
+2.9 Các chức năng. 33
+2.9.1 Lựa chọn khoảng thời gian hiển thị 33
+2.9.3 Chức năng kiểm tra giá trị đỉnh. 34
+2.9.4 Chức năng trì hoãn kiểm tra. 34
+2.9.4.1 Chức năng định thời chính xác Start. 34
+2.9.4.2 Chức năng so sánh ngõ ra giới hạn. 35
+2.9.5 Chức năng trễ. 36
+2.9.6 Chức năng cài đặt thời gian tự động trở về Zero. 37
+2.9.7 Chức năng cài đặt khóa. 37
+2.9.8 Chức năng cài đặt khóa phần cứng bên trong. 37
+2.9.9 Chức năng chuyển ngân hàng dữ liệu. 37
+2.9.10 Chức năng lựa chọn đơn vị thời gian. 38
+2.10 Cách tháo vỏ hộp. 38
+2.11 Truyền thông RS 485-232. 39
+2.11.1 Giới thiệu. 39
+2.11.2 Hướng dẫn sử dụng phần mềm.. 40
+2.11.2.1 Giới thiệu. 40
+2.11.2.2 Cách sử dụng chương trình. 41
+CHƯƠNG 3: LÝ THUYẾT VỀ ROTARY ENCODER.. 46
+3.1 Giới thiệu rotaryencoder. 46
+3.1.1 Giới thiệu chung. 46
+3.1.2 Phân loại encoder. 47
+3.1.2.1 Encoder tuyệt đối (absolute encoder). 47
+3.1.2.2 Encoder gia tăng (incremental encoder). 47
+3.2 Rotary encoder E59S8-1024-N-3. 48
+3.2.1 Công dụng. 48
+3.2.2 Thông tin của mã sản phẩm: 48
+3.2.3 Thông số kỹ thuật 49
+3.2.4 Sơ đồ ngõ ra điều khiển. 50
+3.2.5 Biểu đồ xung ngõ ra. 50
+3.2.6 Sơ đồ kết nối 50
+3.2.7 Kích thước. 51
+3.2.8 Ứng dụng của Encoder. 52
+CHƯƠNG 4: CẢM BIẾN TỪ (PROXIMITY). 55
+4.1 Giới thiệu về cảm biến từ. 55
+4.1.1 Giới thiệu. 55
+4.1.2 Nguyên lý hoạt động. 55
+4.1.3 Ưu điểm.. 56
+4.1.4 Nhược điểm.. 56
+4.2 Cảm biến Riko SN04-N.. 56
+4.2.1 Thông số kỹ thuật. 56
+4.2.2 Sơ đồ kết nối 56
+4.2.3 Kích thước. 56
+CHƯƠNG 5: KÍT THỰC TẬP ĐẾM XUNG MP5W VÀ ENCODER.. 57
+5.1 Giới thiệu. 57
+5.2 Chức năng từng phần. 58
+5.2.1 Đồng hồ đo xung tốc độ. 58
+5.2.2 Encoder. 58
+5.2.3 Cảm biến (proximity sensor). 58
+5.2.4 Băng tải 58
+5.2.5 Led mô phỏng. 58
+5.3 Hướng dẫn sử dụng kít 59
+5.3.1 Giới thiệu các modun của kít. 59
+5.3.2 Giới thiệu modun gắn ngoài 60
+5.3.3 Cách đấu dây giữa các modun. 60
+5.3.4 Đấu dây bên trong kít 62
+CHƯƠNG 6: HỆ THỐNG BÀI TẬP ỨNG DỤNG.. 63
+Bài 1: 63
+Bài 2: 64
+Bài 3: 65
+Bài 4: 66
+Bài 5: 67
+Bài 7: 68
+Bài 8: 69
+Bài 9: 70
+Bài 10: 75
+Bài 11: 76
+CHƯƠNG 7: KẾT LUẬN.. 78
+DANH MỤC HÌNH
+Hình 1.1: Các bộ đồng hồ đo xung trên thực tế. 1
+Hình 2.1: Các thông số kích thước của MP5W-48. 4
+Hình 2.2: kết nối với cảm biến hoặc encoder. 5
+Hình 2.3: Sơ đồ ngõ ra. 5
+Hình 2.4: Sơ đồ đấu dây cho ngõ ra chính. 6
+Hình 2.5: Thông số ngõ vào. 6
+Hình 2.6: Loại ngõ vào là NPN. 7
+Hình 2.7: Loại ngõ vào là PNP. 7
+Hình 2.8: Mô hình mode đo F1. 19
+Hình 2.9: Biểu đồ thời gian mode đo F1. 19
+Hình 2.10: Mô hình mode đo F2. 20
+Hình 2.11: Biểu đồ thời gian mode đo F2. 20
+Hình2.12: Mô hình mode đo F3. 21
+Hình 2.13: Biểu đồ thời gian mode đo F3. 21
+Hình 2.14: Mô hình mode đo F4. 22
+Hình 2.15: Biểu đồ thời gian mode đo F4. 22
+Hình 2.16: Mô hình mode đo F5. 23
+Hình 2.17: Biểu đồ thời gian mode đo F5. 23
+Hình 2.18: Mô hình mode đo F6. 24
+Hình 2.19: Biểu đồ thời gian mode đo F6. 24
+Hình 2.20: Mô hình mode đo F7. 25
+Hình 2.21: Mô hình mode đo F8. 26
+Hình 2.22: Biểu đồ thời gian mode đo F8. 26
+Hình 2.23: Mô hình mode đo F9. 26
+Hình 2.24: Biểu đồ thời gian mode đo F9. 27
+Hình 2.25: Mô hình mode đo F10. 27
+Hình 2.26: Mô hình mode đo F11. 28
+Hình 2.27: Biểu đồ thời gian mode đo F11. 28
+Hình 2.28: Mô hình mode đo F12. 29
+Hình 2.29: Biểu đồ thời gian mode đo F12. 29
+Hình 2.30: Mô hình mode đo F13. 30
+Hình 2.31: Biểu đồ thời gian mode đo F13. 30
+Hình 2.32:Biểu đồ so sánh ngõ ra S. 31
+Hình 2.33: Biểu đồ so sánh ngõ ra H. 31
+Hình 2.34: Biểu đồ so sánh ngõ ra L. 32
+Hình 2.35: Biểu đồ so sánh ngõ ra B. 32
+Hình 2.36: Biểu đồ so sánh ngõ ra I. 32
+Hình 3.37: Biểu đồ so sánh ngõ ra F. 33
+Hình 2.38: Biểu đồ sự lấy mẫu của đồng hồ. 34
+Hình 2.39: Trình tự kết nối với hệ thống Rs. 39
+Hình 2.40: Chương trình kết nối máy tính. 40
+Hình 2.41: Cài đặt thông số kết nối 41
+Hình 3.1: Nguyên lý hoạt dộng của encoder. 46
+Hình 3.2: Cấu tao bên trong của encoder. 46
+Hình 3.3 Encoder tuyệt đối. 47
+Hình 3.4 Encoder gia tăng. 47
+Hình 3.5: Cấu tạo bên trong encoder để tạo xung vuông . 48
+Hình 3.6: Sơ đồ ngõ ra. 50
+Hình 3.7: Biểu đồ xung 3pha ra quay CW (theo chiều kim đồng hồ). 50
+Hình 3.8: Sơ đồ kết nối . 50
+Hình 3.9: Kích thước của encoder. 51
+Hình 3.10: Kích thước khớp nối. 52
+Hình 3.11:Kết nối khớp với động cơ. 52
+Hình 4.1: Nguyên lý hoạt động của cảm biến. 55
+Hình 4.2: Cấu tạo cảm biến từ. 55
+Hình 5.1: Sơ đồ khối bộ thí nghiệm. 57
+Hình 5.2: Mô hình thực tế. 58
+Hình 5.3: Đấu dây bên trong kít. 62
+Hình 5.4: Đấu dây bên băng tải 62
+DANH MỤC BẢNG
+Bảng 1.1: Các mode đo và công dụng. 2
+Bảng 1.2: Thông số kỹ thuật chung. 3
+Bảng 2.1: Thông số nhóm 0. 8
+Bảng 2.2: Thông số nhóm 1. 8
+Bảng 2.3: Thông số nhóm 2. 9
+Bảng 2.4: Thông số nhóm 3. 9
+Bảng 2.5: Dải cài đặt cho nhóm 0. 10
+Bảng 2.6: Cảm biến ngõ vào: 13
+Bảng 2.7: Dải thời gian cho đơn vị thời gian. 15
+Bảng 2.8: Dải cài đặt của giá trị so sánh mode ngõ ra. 15
+Bảng 2.9: Thông số mặc định sẵn của sản phẩm: 17
+Bảng 2.10: Giá trị hiển thị và đơn vị hiển thị mode đo F1. 18
+Bảng 2.11: Giá trị hiển thị và đơn vị hiển thị mode đo F2: 19
+Bảng 2.12: Giá trị và đơn vị hiển thị mode đo F3. 20
+Bảng 2.13: Giá trị và đơn vị hiển thị mode đo F4. 22
+Bảng 2.14: Giá trị và đơn vị hiển thị mode đo F5. 23
+Bảng 2.15 Giá trị và đơn vị hiển thị mode đo F6. 24
+Bảng 2.16: Giá trị và đơn vị hiển thị mode đo F7. 25
+Bảng 2.17: Giá trị và đơn vị hiển thị mode đo F8. 25
+Bảng 2.18: Giá trị và đơn vị hiển thị mode đo F9. 26
+Bảng 2.19: Giá trị và đơn vị hiển thị mode đo F10. 27
+Bảng 2.20: Giá trị và đơn vị hiển thị mode đo F11. 28
+Bảng 2.21: Giá trị và đơn vị mode đo F12. 29
+Bảng 2.22: Giá trị hiển thị và đơn vị hiển thị mode đo F12: 30
+Bảng 2.23: Dãy đơn vị cài đặt. 38
+Bảng 2.24: Bảng CRC-8. 43
+Bảng 2.25: Mã ASCII của lệnh header code. 43
+Bảng 2.26: Các giá trị đọc ghi của lệnh truyền thông. 44
+Bảng 3.1: Thông số kỹ thuật của encoder E50S8. ….49
+CHƯƠNG 1: TỔNG QUAN VỀ PULSE METER
+1.1 Giới thiệu
+Đồng hồ đo xung (tốc độ) là một thiết bị chuyên ứng dụng cho các giải pháp đo, đếm liên quan tới xung. Nó là một thiết bị xử lý các tín hiệu ngõ vào từ cảm biến hoặc encoder cho ra giá trị tương ứng với tỷ lệ cài đặt.
+Mục đích sử dụng pulse meter để đo tần số, vận tốc, chu kỳ, số vòng quay… tùy theo chế độ cài đặt và mục đích sử dụng.
+
+Hình 1.1: Các bộ đồng hồ đo xung trên thực tế.
+
+1.2 Đặt điểm chung
+1.2.1 Chế độ đo
+Pulse meter có tới 13 chế độ đo, tương ứng là 13 mode hoạt động đo của đồng hồ. Các chế độ đo l
+
+Bảng 1.1: Các mode đo và công dụng.
+MODE CÔNG DỤNG F1 Tần số, số vòng quay, tốc độ F2 Tốc độ di chuyển F3 Chu kỳ F4 Thời gian di chuyển F5 Độ rộng thời gian F6 Khoảng thời gian F7 Tỷ lệ tuyệt đối F8 Tỷ lệ lỗi F9 Tỷ trọng F10 Lỗi F11 Đo chiều dài F12 Khoảng cách F13 Tính nhân
+
+
+1.2.2 Chức năng
+1.2.2.1 Chức năng ngõ ra
+Ngõ ra relay, ngõ ra NPN/PNP collector thường hở (12~24VDC,20mA max).
+Chức năng ngõ ra transmission PV ( process value).
+Chức năng ngõ ra truyền thông RS485 (có 32 kênh truyền thông).
+Các chức năng ngõ ra còn tùy thuộc vào những sản phẩm khác nhau, có thể một sản phẩm thiếu đi một vài chức năng ngõ ra. Ví dụ như MP5W thì có chức năng ngõ ra là RS485, còn MP5S4N chỉ là loại hiển thị không có chức năng ngõ ra RS485.
+1.2.2.2 Chức năng cài đặt
+Chức năng cài đặt tỷ lệ.
+Chức năng kiểm tra dữ liệu, kiểm tra giá trị max, min.
+Chức năng cài đặt thời gian tự động trở về zero.
+Chức năng cài đặt khóa bảo vệ.
+Chức năng chuyển ngân hàng dữ liệu.
+Chức năng so sánh ngõ ra (HH, H, GO, L, LL).
+1.2.2.3 Dãy hiển thị và đơn vị đo
+Dãy hiển thị từ: (-19999~99999 ) riêng MP5M có dãy hiển thị từ ( 0~99999 ).
+Đơn vị hiển thị đo: có nhiều đơn vị hiển thị đo như rpm, rps, hz, sec, min, m/s , %, counts…
+1.2.3 Thông số kỹ thuật chung
+Nguồn cấp cho pulse meter: 110VAC~220VAC, 50/60 Hz. Dãy điện áp hoạt động tốt nhất của pulse meter là từ 90~110% nguồn cấp.
+Nguồn cho cảm biến gắn ngoài: 12VDC±10%, 80mA.
+Dãy đo:
+Mode F1, F2, F7, F8, F9, F10: [0.0005Hz~50kHz].
+Mode F3: [0.02s~3.200s].
+Mode F4, F5, F6: [ 0.01s~3.200 ].
+Mode F11, F12, F13: [ 0~4* count].
+CHƯƠNG 2: ĐỒNG HỒ ĐO XUNG TỐC ĐỘ MP5W-48
+2.1 Ý nghĩa tên gọiCó 5 ngõ ra NPN collector thường hở ( ngõ ra chính ) và truyền thông RS485 (ngõ ra phụ).
+2 .2 Kích thước và sơ đồ kết nối
+2.2.1 Kích thước
+Hình 2.2: kết nối với cảm biến hoặc encoder.
+Nó được dùng làm đầu nối reset khi Mode F13 hoạt động.
+2.2.2.2 Kết nối các ngõ ra
+Sơ đồ ngõ ra NPN collector thường hở và ngõ ra truyền thông RS485.
+Hình 2.4: Sơ đồ đấu dây cho ngõ ra chính.
+
+2.3 Thông số ngõ vào
+2.3.1 Tín hiệu ngõ vào là bán dẫn Solid-sate:
+Tần số ngõ vào là 50kHz ( Max ).
+Độ rộng xung On/Off ngõ vào phải lớn hơn 10μs.
+Tỷ lệ nhiệm vụ chuẩn của tín hiệu ngõ vào là 1:1.
+Mức điện áp ngõ vào: High → 4.5-24VDC.
+Low → 0-1.0VDC
+
+Hình 2.5: Thông số ngõ vào.
+2.3.2 Tín hiệu ngõ vào là tiếp điểm relay
+Tần số ngõ vào: 45Hz Max.
+Độ rộng xung On/Off phải trên 11ms.
+Chú ý phải sử dụng tiếp điểm Relay có thể chịu dòng tải ( min 12VDC 2mA ).
+2.3.3 Loại ngõ vào
+Đồng hồ đo xung MP5W-48 có hai loại ngõ vào: ( ngõ vào không điện áp ) NPN và ( ngõ vào điện áp ) PNP.
+Có thể lựa chọn ngõ vào điện áp PNP hoặc không điện áp NPN trong thông số nhóm 1.
+
+Hình 2.6: Loại ngõ vào là
+Hình 2.7: Loại ngõ vào là PNP.
+2.4 Các thông số ngõ ra
+2.4.1 Ngõ ra chính ( npn collector thường hở )
+Đây là ngõ ra giá trị so sánh. Nghĩa là ngõ ra này sẽ hoạt động khi tín hiệu vào được so sánh với tỉ lệ cài đặt, nếu thỏa một điều kiện nào đó thì các ngõ ra tương ứng với điều kiện đó sẽ hoạt động.
+Ví dụ: Ngõ ra này được dùng để điều khiển một thanh gạt trên băng tải, khi đồng hồ đo chiều dài của vật được 200mm dài hơn chiều dài chuẩn thì ngõ ra H sẽ được kích thì thanh gạt sẽ được hoạt động. (cài dặt giá trị so sánh trong thông số nhóm 2 với H=200).
+Các đặc điểm của ngõ ra so sánh:
+So sánh với giá trị hiển thị rổi mới hoạt động ( xem trong Mode ngõ ra ). Loại ngõ ra : NPN collector thường hở. Tỷ lệ điện áp tải : 12 ~24 VDC. Dòng tải Max : 20mA. Tên của các ngõ ra là: HH, H, GO, L, LL.
+2.4.2 Ngõ ra phụ ( truyền thông RS485 )
+Ngõ ra RS485 trên đồng hồ đo xung tốc độ MP5W-48 có công dụng truyền và nhận tín hiệu từ máy tính. Sau khi kết nối thiết bị với máy tính bằng thiết bị và phần mềm chuyên dụng thì từ máy tính ta có thể xem được các thông số cài đặt trên pulse-meter và ngược lại ta có thể điều khiển pulse-meter từ máy tính.
+2.5 Biểu đồ thông số nhóm cho mode hoạt động
+●: Khi mode hoạt động, thông số sẽ được hiển thị.
+×: Khi chọn mode hoạt dộng, thông số sẽ không được hiển thị.
+○: Chỉ cài đặt loại cảm biến tại In-b là nPn.h.F hoặc PnP.h.F trong mode F11, F12 ,F13.
+Bảng 2.1: Thông số nhóm 0.
+Parameter 0 F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 F13 Pst.hh ● ● ● ● ● ● ● ● ● ● ● ● ● Pst.h ● ● ● ● ● ● ● ● ● ● ● ● ● Pst.L ● ● ● ● ● ● ● ● ● ● ● ● ● Pst.LL ● ● ● ● ● ● ● ● ● ● ● ● ● h.PEK ● ● ● ● ● ● ● ● ● ● ● ● × L.PEK ● ● ● ● ● ● ● ● ● ● ● ● ×
+Bảng 2.2: Thông số nhóm 1.
+Parameter 1 Submode F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 F13 Mode ● ● ● ● ● ● ● ● ● ● ● ● ● In-A ● ● ● ● ● ● ● ● ● ● ● ● ● In-B × ● × × × ● ● ● ● ● ○ ○ ○ Out-t ● ● ● ● ● ● ● ● ● ● ● ● ● hyS ● × × × × × ● ● ● ● × × × Guard F.dEFy ● ● ● ● ● ● ● ● ● ● ● ● × Star.t ● ● ● ● ● ● ● ● ● ● ● ● × Auto.A ● × × ● × × ● ● ● ● × × × Auto.B × × × × × × ● ● ● ● × × × Memo × × × × × × × × × × × × ●
+
+Bảng 2.3: Thông số nhóm 2.
+Parameter 2 Submode F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 F13 P.bank ● ● ● ● ● ● ● ● ● ● ● ● ● dot ● ● × × × × ● ● ● ● ● ● ● t.unt × × ● ● ● ● × × × × × × × Pst.hh ● ● ● ● ● ● ● ● ● ● ● ● ● Pst.h ● ● ● ● ● ● ● ● ● ● ● ● ● Pst.L ● ● ● ● ● ● ● ● ● ● ● ● ● Pst.LL ● ● ● ● ● ● ● ● ● ● ● ● ● Psc.Ax ● ● × ● × × ● ● ● ● ● ● ● Psc.Ay ● ● × ● × × ● ● ● ● ● ● ● Psc.bx × × × × × × ● ● ● ● × × × Psc.by × × × × × × ● ● ● ● × × × diSP.t ● × × × × × ● ● ● ● × × ×
+
+Bảng 2.4: Thông số nhóm 3.
+Parameter 3 Submode F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 F13 FS-h Khi nó là ngõ ra transmission PV,nó sẽ hoạt động ở tất cả các mode FS-L Addr Khi nó là ngõ ra truyền thông RS485,nó sẽ hoạt động ở tất cả các mode bPS remot LoC ● ● ● ● ● ● ● ● ● ● ● ● ●
+
+
+2.6 Cài đặt thông số
+2.6.1 Thông số nhóm 0
+Nhấn trong chế độ RUN, nó sẽ khởi động. Nhấn để sửa và di chuyển đến thông số kế tiếp.
+→ Cài đặt giá trị so sánh HH. Nhấn để dời chữ số cài đặt, nhấn ( ) để thay đổi giá trị cài đặt .
+→ Cài đặt giá trị so sánh H. Nhấn để dời chữ số cài đặt, ( ) để thay đổi giá trị cài đặt.
+→ Cài đặt giá trị so sánh L. Nhấn để dời chữ số cài đặt, ( ) để thay đổi giá trị cài đặt.
+→ Cài đặt giá trị so sánh LL. Nhấn để dời chữ số cài đặt, ( ) để thay đổi giá trị cài đặt.
+→ Hiển thị giá trị cao nhất của các giá trị đo được.
+→ Hiển thị giá trị thấp nhất của các giá trị đo được.
+Bảng 2.5: Dải cài đặt cho nhóm 0
+Mode hoạt động Dải cài đặt F1,F2,F7,F9,F11,F12,F13 0~99999 F3,F4,F5,F6 0~Dải thời gian cài đặt F8,F10 -19999~99999
+Dải cài đặt được thay đổi bằng việc cài đặt vị trí dấu thập phân.
+Dời chữ số cài đặt.
+Thay đổi giá trị cài đặt.
+Sửa và chuyển sang giá trị cài đặt tiếp theo.
+Reset: Nếu nhấn trong 3 giây, khi h.Pek hoặc L.PEk đang ở chưa ổn định ( nghĩa là chưa phải giá trị cao nhất ) thì giá trị cao nhất sẽ bị reset và nó sẽ hiển thị giá tri đo hiện thời. Nếu nhấn trong chế đô RUN nó sẽ đăng nhập vào Thông số nhóm 0. Khi đăng nhập vào Thông số nhóm 0, thông số và giá trị dữ liệu cài đặt trước sẽ nháp nháy trong vòng 1 sec.
+Thông số thể hiện trong đường chấm chấm chỉ được hiển thị trong loại cài đặt so sánh.
+Nếu chọn mode F trong ngõ ra, nó chỉ có thể cài đặt độ lệch H và L, vì thế thông số [PSt.hh] và [PSt.LL] sẽ không xuất hiện.
+Sau khi thay đổi dữ liệu cài đặt trong mỗi thông số, dữ liệu sẽ được lưu lại bằng cách nhấn trong 3 giây và trở về chế độ RUN. Nhưng nếu không có phím nào được nhấn trong 60 sec trong khi chờ thay đổi dữ liệu, nó sẽ tự động trở về chế độ RUN với giá trị cài đặt trước đó.
+Lưu ý khi chức năng Remote trong thông số nhóm PArA.3 được bật on thì thông số nhóm PArA.0 sẽ không được hiển thị lên.
+2.6.2 Thông số nhóm 1
+→ Đây là thông số nhóm 1. Hiển thị PArA.1 trong 2s và di chuyển đến Mode . Nhấn để sửa và di chuyển đến thông số kế tiếp.
+→ Chọn mode hoạt động ( ) thay đổi mode hoạt động.
+→ Cài đặt loại cảm biến cho ngõ vào A. Nhấn ( ) để thay đổi loại cảm biến.
+→ Cài đặt loại cảm biến cho ngõ vào B. Nhấn ( ) để thay đổi loại cảm biến.
+→ Cài đặt mode ngõ ra. Nhấn ( ) để thay đổi mode ngõ ra.
+→ Cài đặt độ trễ cho ngõ ra. Nhấn ( )để thay đổi giá trị cài đặt. Dải cài đặt: 0 ~ 9999 (dải độ trễ khác nhau là bởi việc cài đặt vị trí dấu thập phân).
+→ Chức năng định thời khởi động bảo vệ (Start) hoặc chức năng (F.dEFy) so sánh ngõ ra giới hạn ( L, LL ). Nhấn ( )để thay đổi giá trị cài đặt.
+Cài đặt thời gian bảo vệ khi chức năng định thời khởi động bảo vệ Start. Dải cài đặt: 0.0~99.9 sec.
+( : Dời chữ số , : Thay đổi giá trị cài đặt ).
+→ Cài đặt thời gian tự động về Zero cho ngõ vào INA
+Dải cài đặt : ( 0.1~9999.9 ) sec. Nhấn để dời chữ số cài đặt. Nhấn để thay đổi giá trị cài đặt.
+→ Cài đặt thời gian tự động về Zero cho ngõ vào INB
+Dải cài đặt :0.1~9999.9 sec. . Nhấn để dời chữ số cài đặt. Nhấn để thay đổi giá trị cài đặt.
+→ Cài đặt duy trì bộ nhớ
+oFF: Không cho phép duy trì bộ nhớ.
+On: Cho phép duy trì bộ nhớ.
+( ) để thay đổi giá trị cài đặt.
+Bảng 2.6: Cảm biến ngõ vào:
+Loại ngõ vào NPN Ngõ vào Transistor : nPn.h.F Ngõ vào tiếp điểm : nPn.l.F Loại ngõ vào PNP Ngõ vào Transisitor : PnP.h.F Ngõ vào tiếp điểm : PnP.l.F
+
+
+Nếu nhấn trong vòng 3 sec ở chế độ Run, nó sẽ đăng nhập vào thông số nhóm 1. Khi đăng nhập vào thông số nhóm 1, các thông số và giá trị dữ liệu sẽ nhấp nháy trong vòng 1sec cho chúng ta thay đổi. Thông số thể hiện trong đường chấm chấm là không được hiển thị trong mode hoạt động ( tham khảo biểu đồ thông số nhóm cho mode hoạt động ). Chẳng hạn như chức năng duy trì bộ nhớ chỉ có ở mode đo F13. thông số được hiển thị trong trường hợp chỉ là loại cài đặt giá trị so sánh. Lựa chọn chức năng bộ nhớ duy trì được hiển thị khi mode là F13.
+Sau khi thay đổi dữ liệu cài đặt trong mỗi thông số, dữ liệu sẽ được lưu lại bằng cách nhấn trong 2 giây và trở về chế độ RUN. Nhưng nếu không có phím nào được nhấn trong 60 sec trong khi chờ thay đổi dữ liệu, nó sẽ trở về chế độ RUN với giá trị cài đặt trước đó.
+2.6.3 Thông số nhóm 2
+→Đây là thông số nhóm 2, hiển thị PArA.2 trong 2s. Nhấn để sửa và di chuyển đến thông số kế tiếp.
+→ Chọn data bank ( ngân hàng dữ liệu)
+( ) Thay đổi giá trị cài đặt.
+→ Cài đặt vị trí dấu thập phân của giá trị hiển thị
+→ Chỉ hiển thị trong mode F3, F4, F5, F6 và cài đặt đơn vị thời gian. ( ) để thay đổi giá trị cài đặt.
+→ Cài đặt dải thời gian
+→ Cài đặt giá trị so sánh HH. Nhấn để dời chữ số cài đặt, nhấn ( ) để thay đổi giá trị cài đặt.
+→ Cài đặt giá trị so sánh H. Nhấn để dời chữ số cài đặt, nhấn ( ) để thay đổi giá trị cài đặt.
+→ Cài đặt giá trị so sánh L. Nhấn để dời chữ số cài đặt, nhấn ( ) để thay đổi giá trị cài đặt.
+→ Cài đặt giá trị so sánh LL. Nhấn để dời chữ số cài đặt, nhấn ( ) để thay đổi giá trị cài đặt.
+→ Cài đặt giá trị tỷ lệ của ngõ vào A, phần định trị X.
+Dải cài đặt : 0.0001 ~ 9.9999. Nhấn để dời chữ số cài đặt, nhấn ( ) để thay đổi giá trị cài đặt.
+→ Cài đặt giá trị tỷ lệ của ngõ vào A, phần mũ Y
+Dải cài đặt : 10 -9 ~ 10 09 ( 10-9 ~ 1009 ).
+→ Cài đặt giá trị tỷ lệ của ngõ vào B, phần định trị X.
+Dải cài đặt : 0.0001 ~ 9.9999. Nhấn để dời chữ số cài đặt, nhấn ( ) để thay đổi giá trị cài đặt.
+→ Cài đặt giá trị tỷ lệ của ngõ vào B, phần mũ Y
+Dải cài đặt : 10 -9 ~ 10 09 ( 10-9 ~ 1009 ).
+→ Chọn chu kì hiển thị
+Nhấn ( ) để thay đổi giá trị cài đặt.
+Bảng 2.7: Dải thời gian cho đơn vị thời gian
+
+SEC MIN 999.99 sec 999.99 min 9999.9 sec 9999.9 min 99 min 59.9 sec 99 hour 59.9 min 9 hour 59 min 59 sec 999 hour 59 min 99999 sec 99999 min
+
+Bảng 2.8: Dải cài đặt của giá trị so sánh mode ngõ ra
+Mode hoạt động Dải cài đặt F1,F2,F7,F9,F11,F12,F13 0~99999 F3,F4,F5,F6 0~Dải thời gian cài đặt F8,F10 -19999~99999
+Dải cài đặt khác nhau bởi việc cài đặt vị trí dấu thập phân .
+
+Nếu nhấn trong 4sec ở chế độ Run, PArA.2 sẽ được hiển thị sau PArA.1. Nếu phím được nhả ra, nó đăng nhập đến thông số nhóm 2. Khi đăng nhập đến thông số nhóm 2, thông số và giá trị dữ liệu cài đặt nhấp nháy trong vòng 1sec. Nó được hiển thị trong các mode F3, F4, F5, F6. Nếu chọn mode F trong mode ngõ ra, nó chỉ cài đặt được độ lệch H và L, vì thế thông số Pst.hh và Pst.LL sẽ không xuất hiện. Nó sẽ được hiển thị ở các mode F7, F8, F9, F10. Sau khi thay đổi dữ liệu cài đặt trong mỗi thông số, dữ liệu sẽ được lưu lại bằng cách nhấn trong 3 giây và trở về chế độ RUN. Nhưng nếu không có phím nào được nhấn trong 60 sec trong khi chờ thay đổi dữ liệu, nó sẽ trở về chế độ RUN với giá trị cài đặt trước đó.
+2.6.4 Thông số nhóm 3
+→ Đây là thông số nhóm 3. Hiển thị PArA.3 trong 2s và di chuyển đến thông số Addr .
+Nhấn để sửa và di chuyển đến thông số kế tiếp.
+→ Cài đặt địa chỉ truyền thông. Dải cài đặt :
+( 00~ 99 ) 32 kênh. Nhấn để dời chữ số cài đặt. Nhấn ( ) để thay đổi giá trị cài đặt.
+→ Cài đặt tốc độ truyền thông
+. Nhấn để dời chữ số cài đặt. Nhấn ( ) để thay đổi giá trị cài đặt.
+→ Chọn Remote và Local
+( oFF: không sử dụng, On: sử dụng).
+→ Cho phép khóa phím cho mỗi thông số
+
+oFF:hủy bỏ khóa phím.
+LoC.0:khóa P0~3.
+LoC.1:khóa P1~3.
+LoC.2:khóa P2~3.
+LoC.3: chỉ khóa P3.
+Nhấn để dời chữ số cài đặt. Nhấn ( ) để thay đổi giá trị cài đặt.
+Nhấn phím trong 5sec ở chế độ Run, ParA.3 sẽ hiển thị sau ParA.1 và ParA.2. Nếu nhả phím , nó đăng nhập đến thông số nhóm 3. Khi đi vào thông số nhóm 3, thông số và giá trị dữ liệu nhấp nháy trong vòng 1 sec. Sau khi thay đổi dữ liệu cài đặt trong mỗi thông số, dữ liệu sẽ được lưu lại bằng cách nhấn trong 2 giây và trở về chế độ RUN. Nhưng nếu không có phím nào được nhấn trong 60 sec trong khi chờ thay đổi dữ liệu, nó sẽ trở về chế độ RUN với giá trị cài đặt trước đó.
+Nếu như cài đặt sai thông số thì có thể cài đặt lại các thông số theo mặc định của nhà máy sản xuất
+Bảng 2.9: Thông số mặc định sẵn của sản phẩm:
+Thông số nhóm 1:
+Mode Giá trị cài đặt Giải thích Mode F1 Mode đo là F1. In-A nPn.hF Cài đặt thông số ngõ vào A. Out-t Stard Ngõ ra là stard. hYS 0001 Độ trễ của ngõ ra. GuAr.d F.dEFy Chức năng ngõ ra giới hạn. Auto.A 9999.9 Thời gian tự động về 0 của ngõ vào A. Memo oFF Trạng thái cho phép duy trì bộ nhớ hay không.
+Thông số nhóm 2:
+Mode Giá trị cài đặt Giải thích P.bank 1 Ngân hàng dữ liệu của đồng hồ. Dot 00000 Độ phân giải . Pst.hh 99999 Giá trị cài đặt ngõ ra HH. Pst.h 99999 Giá trị cài đặt ngõ ra H. Pst.L 00000 Giá trị cài đặt ngõ ra L. Pst.LL 00000 Giá trị cài đặt ngõ ra HH. Psc.Ax 6.000 Giá trị tỷ lệ ngõ vào A phần định trị X. Psc.Ay 10 01 Giá trị tỷ lệ ngõ vào A phần số mũ Y. diSp.t 0.05 Chu kỳ hiển thị.
+Thông số nhóm 3:
+Mode Giá trị cài đặt Giải thich Addr 01 Địa chỉ của bộ trong hệ thống mạng . bPS 9600 Tốc độ truyền thông. Remot oFF Cho phép hoặc cấm truyền thông. LoC oFF Cho phép khóa phím cho mỗi thông số.
+2.7 Các mode đo của MP5W
+2.7.1 Mode F1: Đo tần số, đo tốc độ, đo số vòng quay
+Mode này là để hiển thị tần số, số vòng quay hoặc tốc độ do tần số của ngõ vào A cung cấp. Ứng dụng thực tế mode F1 là dùng để đo tốc độ hay số vòng quay của băng tải hay dùng trong hệ thống máy trộn. Nguyên lý đo của mode F1 là nghịch đảo thời gian từ lúc xung thứ nhất của ngõ vào A là ON đến lúc xung thứ hai của ngõ vào A là ON.
+[ α = 60 x L (m) ] Số target α = 60 *πD/1000N
+L : Chiều dài của băng tải di chuyển trong 1 chu kì xung (m). N : Số lần phát hiện target trên xung. α : giá trị tỉ lệ. D : đường kính trục.
+Bảng 2.10: Giá trị hiển thị và đơn vị hiển thị mode đo F1.
+Giá trị hiển thị Đơn vị hiển thị α (giá trị tỷ lệ) Tần số Hz 1 kHz 0.001 Số vòng quay rps 1 rpm 60 Tốc độ mm/sec 1000L cm/sec 100L m/min 60L km/hour 3.6L
+Với băng tải của nhóm thì:
+L=90 (mm) chiều dài băng tải trong một chu kỳ xung. N= 1024 (lần) số lần phát hiện target trong một chu kỳ xung. D=28.5 (mm) đường kính con lăn trục băng tải.
+Như vậy nếu đo vòng quay thì giá trị α sẽ được tính như sau:
+α = = =0.0586
+............................................
+→ Đây là thông số nhóm PArA.2. Hiển thị PArA.2 trong 2s và di chuyển đến Bank .
+Nhấn để sửa và di chuyển đến thông số kế tiếp.
+→ Nhấn để dời chữ số cài đặt giá trị tỷ lệ của ngõ vào A, nhấn ( ) để thay đổi và cài phần định trị X là 0.0586.
+→ Nhấn để dời chữ số cài đặt giá trị tỷ lệ của ngõ vào A, nhấn ( ) để thay đổi và cài phần định trị Y là 10^0.
+Bài 3:
+Anh (chị) hãy thực hiện các yêu cầu sau trên kít thực tập:
+Đo tốc độ quay của băng tải(m/min) với các dữ liệu cho dưới đây:
+Đường kính con lăn (kéo băng tải) D=28.5(mm).
+Encoder có N=1024 xung/vòng.
+Loại ngõ ra của encoder là NPN.
+Hướng dẫn thực hiện:
+Đo tốc độ quay của băng tải ta cài đặt dồng hồ mode đo F1 trong thông số nhóm PArA.1. Cài đặt loại ngõ vào của encoder là NPN trong thông số nhóm 1. Tính toán:
+Tốc độ= f* α
+α =60*L
+=60*
+
+=60*
+=5.2435*
+Có được thông số α ta vào thông số nhóm PArA.2 cài đặt:
+PSC.AX=5.2435
+PSC.AY=10^-3.
+→ Cài đặt thông số nhóm PArA.1. Hiển thị PArA.1 trong 2s và di chuyển đến Mode .
+Nhấn để sửa và di chuyển đến thông số kế tiếp.
+→ Chọn mode hoạt động ( ) thay đổi mode hoạt động cho đến khi hiện chữ F1 như hình bên.
+→ Chọn loại ngõ vào A cho encoder. Nhấn ( ) để thay đổi loại cảm biến, chọn loại nPn.h.F.
+Sau đó nhấn trong 3 giây để đồng hồ lưu giá trị và trở về màn hình RUN. Các bạn thực hiện việc cài đặt giống như hình bên.
+→ Cài đặt thông số nhóm PArA.2. Nhấn để sửa và di chuyển đến thông số kế tiếp.
+→ Nhấn để dời chữ số cài đặt giá trị tỷ lệ của ngõ vào A, nhấn ( ) để thay đổi và cài phần định trị X là 5.2435.
+→ Nhấn để dời chữ số cài đặt giá trị tỷ lệ của ngõ vào A, nhấn ( ) để thay đổi và cài phần định trị Y là 10^-3.
+Các bạn phải cài đặt các thông số giống như hình bên
+Bài 4:
+Anh (chị) hãy thực hiện các yêu cầu sau trên kít thực tập:
+Đo tôc độ di chuyển của vật trên băng tải với các dữ liệu cho dưới đây:
+2 cảm biến từ (proximity) ngõ ra dạng NPN.
+Khoảng cách 2 cảm biến là L=22.5(cm).
+Hướng dẫn thực hiện
+Đo tốc độ di chuyển của vật ta cài đặt dồng hồ mode đo F2 trong thông số nhóm PArA.1. Chú ý: ta xác định yêu cầu đề bài và phải luôn luôn cài đặt các mode đo trước khi cài đặt các thông số khác. Cài đặt thông số ngõ vào inA, in B trong thông số nhóm PArA.1. chọn NPN. Tốc độ di chuyển= f* α với (α =L)
+L=22.5(cm)
+Có được thông số α ta vào thông số nhóm PArA.2 cài đặt:
+PSC.AX=2.2500 PSC.AY=10^1.
+→ Cài đặt thông số nhóm PArA.1. Hiển thị PArA.1 trong 2s và di chuyển đến Mode .
+Nhấn để sửa và di chuyển đến thông số kế tiếp.
+→ Chọn mode hoạt động ( ) thay đổi mode hoạt động cho đến khi hiện chữ F2 như hình bên.
+→ Chọn loại ngõ vào A cho cảm biến A. Nhấn ( ) để thay đổi loại cảm biến, chọn loại nPn.h.F.
+→ Chọn loại ngõ vào B cho cảm biến B. Nhấn ( ) để thay đổi loại cảm biến, chọn loại nPn.h.F.
+Sau đó nhấn trong 3 giây để đồng hồ lưu giá trị và trở về màn hình RUN. Các bạn thực hiện việc cài đặt giống như hình bên.
+→ Cài đặt thông số nhóm PArA.2. Nhấn để sửa và di chuyển đến thông số kế tiếp.
+→ Nhấn để dời chữ số cài đặt giá trị tỷ lệ của ngõ vào A, nhấn ( ) để thay đổi và cài phần định trị X là 2.2500.
+→ Nhấn để dời chữ số cài đặt giá trị tỷ lệ của ngõ vào A, nhấn ( ) để thay đổi và cài phần định trị Y là 10^1
+Các bạn phải cài đặt các thông số giống như hình bên.
+Sau đó nhấn trong 3 giây để đồng hồ lưu giá trị và trở về màn hình RUN. Các bạn thực hiện việc cài đặt giống như hình bên.
+Bài 5:
+Anh (chị) hãy thực hiện các yêu cầu sau trên kít thực tập:
+Đo chu kỳ các vật chạy trên băng tải dùng cảm biến từ (proximity) ngõ ra dạng NPN.
+Hướng dẫn thực hiện:
+Đo chu kỳ của vật ta cài đặt dồng hồ đo mode F3 trong thông số nhóm PArA.1. Chú ý: ta xác định yêu cầu đề bài và phải luôn luôn cài đặt các mode đo trước khi cài đặt các thông số khác. Có thể chọn đơn vị hiển thị là sec hay min trong t.unt thông số nhóm PArA.2.
+Nhấn MD 3s để về màn hình chính và thực hiện phép đo.
+→ Cài đặt thông số nhóm 1. Hiển thị PArA.1 trong 2s và di chuyển đến Mode .
+Nhấn để sửa và di chuyển đến thông số kế tiếp.
+→ Chọn mode hoạt động ( ) thay đổi mode hoạt động cho đến khi hiện chữ F3 như hình bên.
+→ Chọn loại ngõ vào A cho cảm biến A. Nhấn ( ) để thay đổi loại cảm biến, chọn loại nPn.h.F.
+Bài 6:
+Anh (chị) hãy thực hiện phép đo độ rộng thời gian mà vật đi qua cảm biến trên băng tải với cảm biến từ (proximity) ngõ ra dạng NPN.
+Hướng dẫn thực hiện:
+Đo độ rộng thời gian vật đi qua cảm biến ta cho mode đo F5 trong thông số nhóm PArA.1. Chú ý: ta xác định yêu cầu đề bài và phải luôn luôn cài đặt các mode đo trước khi cài đặt các thông số khác. Có thể chọn đơn vị hiển thị là sec hay min trong t.unt thông số nhóm PArA.2.
+→ Cài đặt thông số nhóm PArA.1. Hiển thị PArA.1 trong 2s và di chuyển đến Mode .
+Nhấn để sửa và di chuyển đến thông số kế tiếp.
+→ Chọn mode hoạt động ( ) thay đổi mode hoạt động cho đến khi hiện chữ F5 như hình bên.
+→ Chọn loại ngõ vào A cho cảm biến A. Nhấn ( ) để thay đổi loại cảm biến, chọn loại nPn.h.F.
+Bài 7:
+Anh (chị) hãy thực hiện các yêu cầu sau trên kít thực tập:
+Đo khoảng thời gian vật đi qua 2 cảm biến với 2 cảm biến từ (proximity) dạng ngõ ra là NPN.
+Hướng dẫn thực hiện:
+Đo khoản thời gian qua 2 cảm biến chọn mode đo F6 trong thông số nhóm 1. Cài đặt loại ngõ vào INA và INB là NPN trong nhóm 1.
+→ Đây là thông số nhóm 1. Hiển thị PArA.1 trong 2s và di chuyển đến Mode .
+Nhấn để sửa và di chuyển đến thông số kế tiếp.
+→ Chọn mode hoạt động ( ) thay đổi mode hoạt động cho đến khi hiện chữ F6 như hình bên.
+→ Chọn loại ngõ vào A cho cảm biến A. Nhấn ( ) để thay đổi loại cảm biến, chọn loại nPn.h.F.
+→ Chọn loại ngõ vào B cho cảm biến B. Nhấn ( ) để thay đổi loại cảm biến, chọn loại nPn.h.F.
+Bài 8:
+Anh (chị) hãy thực hiện các yêu cầu sau trên kít thực tập:
+Đo chiều dài của 2 vật mẫu với các dữ liệu cho dưới đây tính bằng đơn vị (mm):
+Đường kính con lăn D=28.5 (mm).
+Cảm biến từ (proximity) dạng ngõ ra NPN.
+Encoder có N=1024, dạng ngõ ra là NPN.
+Hướng dẫn thực hiện:
+Đo chiều dài của vật ta cài đặt dồng hồ đo mode F11 trong thông số nhóm PArA.1. Chú ý: ta xác định yêu cầu đề bài và phải luôn luôn cài đặt các mode đo trước khi cài đặt các thông số khác. Cài đặt thông số ngõ vào IN A,IN B trong thông số nhóm PArA.1. chọn NPN.
+Chú ý là INA là ngõ vào của encoder còn INB là ngõ vào của cảm biến.
+Chiều dài= P* α
+α
+=0.0874
+Với P là số xung đồng hồ đo được.
+Có được thông số α ta vào thông số nhóm PArA.2 cài đặt:
+PSC.AX=0.0874
+PSC.AY=10^0
+Nhấn Run 3s để về màn hình chính và thực hiện phép đo.
+→ Cài đặt thông số nhóm PArA.1. Hiển thị PArA.1 trong 2s và di chuyển đến Mode .
+Nhấn để sửa và di chuyển đến thông số kế tiếp.
+→ Chọn mode hoạt động ( ) thay đổi mode hoạt động cho đến khi hiện chữ F11 như hình bên.
+→ Chọn loại ngõ vào A cho encoder. Nhấn ( ) để thay đổi loại cảm biến, chọn loại nPn.h.F.
+→ Chọn loại ngõ vào B cho cảm biến B. Nhấn ( ) để thay đổi loại cảm biến, chọn loại nPn.h.F.
+Chú ý: Cài đặt các thông số giống như hình bên.
+Sau đó nhấn trong 3 giây để trở về màn hình RUN.
+Tiếp tục cài giá trị tỷ lệ α trong thông số nhóm 2.
+→ Cài đặt thông số nhóm 2. Nhấn để sửa và di chuyển đến thông số kế tiếp.
+→ Nhấn để dời chữ số cài đặt giá trị tỷ lệ của ngõ vào A, nhấn ( ) để thay đổi và cài phần định trị X là 0.0874
+→ Nhấn để dời chữ số cài đặt giá trị tỷ lệ của ngõ vào A, nhấn ( ) để thay đổi và cài phần định trị Y là 10^0
+Chú ý: Các anh (chị) phải cài đặt các thông số giống như hình bên. Sau đó nhấn trong 3 giây để đồng hồ lưu giá trị và trở về màn hình RUN. Các bạn thực hiện việc cài đặt giống như hình bên.
+Bài 9:
+Anh (chị) hãy thực hiện các yêu cầu sau trên kít thực tập:
+Đếm số lượng sản phẩm dùng cảm biến từ (proximity) dạng ngõ ra NPN.
+Kết nối truyền thông với máy tính.
+Hướng dẫn thực hiện:
+Đếm số lượng sản phẩm thì ta cài đặt dồng hồ mode đo F13 trong thông số nhóm PArA.1. Chú ý: ta xác định yêu cầu đề bài và phải luôn luôn cài đặt các mode đo trước khi cài đặt các thông số khác. Cài đặt thông số ngõ vào INA,INB trong thông số nhóm PArA.1 chọn NPN. Thiết lập các thông số truyền thông trong thông số nhóm PArA.3 như sau:
+Địa chỉ: 01(hệ thống chỉ có 1 pulse meter).
+Tốc độ truyền thông: 9600.
+
+Cài đặt trong nhóm 1:
+→ Chọn mode hoạt động ( ) thay đổi mode hoạt động cho đến khi hiện chữ F13 như hình bên.
+→ Chọn loại ngõ vào A cho encoder. Nhấn ( ) để thay đổi loại cảm biến, chọn loại nPn.h.F.
+→ Chọn loại ngõ vào B cho cảm biến B. Nhấn ( ) để thay đổi loại cảm biến, chọn loại nPn.h.F.
+Chú ý: Cài đặt các thông số giống như hình bên.
+→ Đây là thông số nhóm 3. Hiển thị PArA.3 trong 2s và di chuyển đến thông số Addr .
+Nhấn để sửa và di chuyển đến thông số kế tiếp.
+→ Cài đặt địa chỉ truyền thông. Cài địa chỉ 01
+. Nhấn để dời chữ số cài đặt. Nhấn ( ) để thay đổi giá trị cài đặt.
+→ Cài đặt tốc độ truyền thông, ta cài tốc độ truyền cao nhất của đồng hồ là 9600. Nhấn để dời chữ số cài đặt. Nhấn ( ) để thay đổi giá trị cài đặt.
+→ Chọn on. Đây là chức năng cho phép ta điều khiển đồng hồ bằng máy tính.
+Sau đó nhấn trong 3 giây để lưu giá trị cài đặt và trở ra màn hình RUN.
+Chú ý: Kết nối đồng hồ với bộ SCM để truyền thông lên máy tính và quan sát .
+Hướng dẫn cài đặt chương trình kết nối:
+Kết nối cáp vào PC sau đó cài driver cho máy tính nhận ra thiết bị(nếu dùng dây “USB TO COM”. Right click Computer/Manage.
+Tiếp theo chon Device Manager (1). Right click (2) / Properties.
+Sau đó chọn Port Setting (3) cài đặt các thông số như:
+Bít per second: 9600.
+Data bits : 8.
+Parity : None.
+Stop bits : 1.
+Tiếp theo chọn dvanced(4)
+Click vào 5 chọn COM 1.
+Sau đó mở chương trinh kết nối lên và thực hiện truyền thông.
+Bài 10:
+Anh (chị) hãy thực hiện các yêu cầu sau trên kít thực tập:
+Đo chiều dài của 2 vật mẫu với các dữ liệu cho dưới đây tính bằng đơn vị (mm):
+Đường kính con lăn D=28.5 (mm).
+Cảm biến từ (proximity) dạng ngõ ra NPN.
+Encoder có N=1024, dạng ngõ ra là NPN.
+Cài đặt mode ngõ ra so sánh stand.
+Nếu vật >= 110mm thì ngõ ra H on.
+Nếu vât thuộc khoảng (80~109) thì GO on.
+Nếu vật =< 80 thì ngõ ra L on.
+Sau đó truyền thông với máy tính và đọc các thông số cài đặt trên máy tính.
+Hướng dẫn thực hiện:
+Cài đặt mode đo và tỷ lệ α giống như bài 8. Cài đặt chức năng ngõ ra so sánh là stand trong thông số nhóm PArA.1 Cài đặt giá trị H và L trong thông số nhóm PArA.2. Kết nối với PC để truyền thông.
+→ cài đặt thông số nhóm PArA.1
+→ Chọn mode hoạt động theo yêu cầu là mode đo F11 nhấn ( ) để thay đổi mode hoạt động cho đến khi hiện chữ F11 như hình bên.
+→ Chọn loại ngõ vào A cho encoder. Nhấn ( ) để thay đổi loại cảm biến, chọn loại nPn.h.F.
+→ Chọn loại ngõ vào B cho cảm biến B. Nhấn ( ) để thay đổi loại cảm biến, chọn loại nPn.h.F.
+→ Chọn chức năng ngõ ra so sánh mode Standard.
+→ Đây là thông số nhóm 3. Hiển thị PArA.3 trong 2s và di chuyển đến thông số Addr .
+Nhấn để sửa và di chuyển đến thông số kế tiếp.
+→ Cài đặt địa chỉ truyền thông. Cài địa chỉ 01
+. Nhấn để dời chữ số cài đặt. Nhấn ( ) để thay đổi giá trị cài đặt.
+→ Cài đặt tốc độ truyền thông, ta cài tốc độ truyền cao nhất của đồng hồ là 9600. Nhấn để dời chữ số cài đặt. Nhấn ( ) để thay đổi giá trị cài đặt.
+→ Chọn on. Đây là chức năng cho phép ta điều khiển đồng hồ bằng máy tính.
+Sau đó nhấn trong 3 giây để lưu giá trị cài đặt và trở ra màn hình RUN.
+Chú ý: Kết nối đồng hồ với bộ SCM để truyền thông lên máy tính và quan sát .
+Bài 11:
+Anh (chị) hãy thực hiện các yêu cầu sau trên kít thực tập:
+Thực hiện truyền thông lên máy tính và cài đặt giá trị trên PC với các yêu cầu sau:
+Đo chiều dài của 2vật mẫu với các dữ liệu cho dưới đây tính bằng đơn vị (mm)
+Đường kính con lăn D=28.5(mm).
+Cảm biến từ (proximity) dạng ngõ ra NPN.
+Encoder có N=1024, dạng ngõ ra là NPN.
+Cài đặt mode ngõ ra so sánh stand.
+Nếu vật >= 110mm thì ngõ ra H on.
+Nếu vât thuộc khoảng (80~109) thì GO on.
+Nếu vật =< 80 thì ngõ ra L on.
+Sử dụng ngân hàng dữ liệu 2 để đo chiều dài của vật tính bằng đơn vị (m).
+Hướng dẫn thực hiện:
+Cài đặt mode đo là mode F11 để đo chiều dài. Chọn ngõ ra là stand, cài đặt ngõ vào của cảm biến và encoder là NPN. Sau đó kết nối đồng hồ với máy tính và bắt đầu gõ lệnh điều khiển như sau:
+Cài dặt H= 110 →01WX0C1+0001100
+Cài đặt L=80 →01WX0C2+0000800
+Cài đặt giá trị tỷ lệ α ở BANK 1 đơn vị tính là (mm):
+Cài phần định trị X là 0.0874 →01WX0X0+0008740
+Cài phần định trị Y là 10^0 →01WX0Y0+0000000
+Cài đặt giá trị tỷ lệ α ở BANK 2 đơn vị tính là (m):
+Cài phần định trị X là 0.0874 →01WX0X0+0008740
+Cài phần định trị Y là 10^-3 →01WX0Y0-0000030
+Bắt đầu đo và chuyển ngân hàng dữ liệu bằng nút nhấn BANK.
+→ Chọn mode hoạt động theo yêu cầu là mode đo F11 nhấn ( ) để thay đổi mode hoạt động cho đến khi hiện chữ F11 như hình bên.
+→ Chọn loại ngõ vào A cho encoder. Nhấn ( ) để thay đổi loại cảm biến, chọn loại nPn.h.F.
+→ Chọn loại ngõ vào B cho cảm biến B. Nhấn ( ) để thay đổi loại cảm biến, chọn loại nPn.h.F.
+→ Chọn chức năng ngõ ra so sánh mode Standard.
+CHƯƠNG 7: KẾT LUẬN
+Sau một khoảng thời gian thực hiện đề tài đến nay thì đề tài đã tương đối hoàn chỉnh, có thể là một kít thực tập mini cho các bạn học tập và tìm hiểu thiết bị.
+Với kit thực tập này chúng ta có thể :
+Có thể đo được các mode như: F1, F2, F3, F4, F5, F11, F12, F13. Thực hiện được các chức năng ngõ ra. Giao tiếp truyền thông với máy tính.
+Tuy nhiên vì thời gian và kinh phí không cho phép nên đề tài còn rất nhiều khiếm khuyết như: Chưa thể đo các mode F7, F8, F9, F10 vì cần phải gắn thêm thiết bị nên hệ thống bài tập chưa hoàn toàn khai thác hết tất cả các chức năng của đồng hồ, chỉ xây dựng trên lý thuyết ở các mode đo này.
+Hướng mở rộng đề tài: Trên thực tế thì đồ hồ đếm xung này có thể đo các thông số khác vì thế cần trang bị thêm các thiết bị như encoder, đồng hồ lưu lượng… cho kit để hoàn thiện tất cả các mode đo.
+Có thể dùng kít như một modun kết hợp với các kít thực tập khác như biến tần, PLC…
+DANH MỤC TÀI LIỆU THAM KHẢO
+User manual Pulse meter Autonic
+www.autonic.com
+www.wikipedia.cpm.vn
+www.riko.com
+www.alldatasheet.com
+
+MỤC LỤC
+CHƯƠNG 1: TỔNG QUAN VỀ PULSE METER.. 1
+1.1 Giới thiệu. 1
+1.2 Đặt điểm chung. 1
+1.2.1 Chế độ đo. 1
+1.2.2 Chức năng. 2
+1.2.2.1 Chức năng ngõ ra. 2
+1.2.2.2 Chức năng cài đặt 2
+1.2.2.3 Dãy hiển thị và đơn vị đo. 2
+1.2.3 Thông số kỹ thuật chung. 2
+CHƯƠNG 2: ĐỒNG HỒ ĐO XUNG TỐC ĐỘ MP5W-48. 4
+2.1 Ý nghĩa tên gọi 4
+2 .2 Kích thước và sơ đồ kết nối 4
+2.2.1 Kích thước. 4
+2.2.2 Sơ đồ kết nối 5
+2.2.2.1 Kết nối với cảm biến bên ngoài 5
+2.2.2.2 Kết nối các ngõ ra. 5
+2.3 Thông số ngõ vào. 6
+2.3.1 Tín hiệu ngõ vào là bán dẫn Solid-sate: 6
+2.3.2 Tín hiệu ngõ vào là tiếp điểm relay. 6
+2.3.3 Loại ngõ vào. 7
+2.4 Các thông số ngõ ra. 7
+2.4.1 Ngõ ra chính ( npn collector thường hở ). 7
+2.4.2 Ngõ ra phụ ( truyền thông RS485 ). 7
+2.5 Biểu đồ thông số nhóm cho mode hoạt động. 7
+2.6 Cài đặt thông số. 10
+2.6.1 Thông số nhóm 0. 10
+2.6.2 Thông số nhóm 1. 12
+2.6.3 Thông số nhóm 2. 14
+2.6.4 Thông số nhóm 3. 16
+2.7 Các mode đo của MP5W... 18
+2.7.1 Mode F1: Đo tần số, đo tốc độ, đo số vòng quay. 18
+2.7.2 Mode F2: Đo tốc độ di chuyển. 19
+2.7.3 Mode F3: Đo chu kỳ. 20
+2.7.4 Mode F4: Đo thời gian di chuyển. 21
+2.7.5 Mode F5: Độ rộng thời gian. 22
+2.7.6 Mode F6: Khoảng thời gian. 23
+2.7.7 Mode F7: Tỷ lệ tuyệt đối 24
+2.7.8 Mode F8: Tỷ lệ lỗi 25
+2.7.9 Mode F9: Tỷ trọng. 26
+2.7.10 Mode F10: lỗi 27
+2.7.11 Mode F11: Đo chiều dài 27
+2.7.12 Mode F12: Đo khoảng cách. 28
+2.8 Mode ngõ ra chính. 30
+2.8.1 Mode ngõ ra S(Standard). 31
+2.8.2 Mode ngõ ra H(High)[out-h]. 31
+2.8.3 Mode ngõ ra L(Low) [out-l). 31
+2.8.4 Mode ngõ ra B (Block) [out-b]. 32
+2.8.5 Mode ngõ ra I (One-Shot) [out-i]. 32
+2.8.6 Mode ngõ ra F(Deflection) (out-f). 33
+2.9 Các chức năng. 33
+2.9.1 Lựa chọn khoảng thời gian hiển thị 33
+2.9.3 Chức năng kiểm tra giá trị đỉnh. 34
+2.9.4 Chức năng trì hoãn kiểm tra. 34
+2.9.4.1 Chức năng định thời chính xác Start. 34
+2.9.4.2 Chức năng so sánh ngõ ra giới hạn. 35
+2.9.5 Chức năng trễ. 36
+2.9.6 Chức năng cài đặt thời gian tự động trở về Zero. 37
+2.9.7 Chức năng cài đặt khóa. 37
+2.9.8 Chức năng cài đặt khóa phần cứng bên trong. 37
+2.9.9 Chức năng chuyển ngân hàng dữ liệu. 37
+2.9.10 Chức năng lựa chọn đơn vị thời gian. 38
+2.10 Cách tháo vỏ hộp. 38
+2.11 Truyền thông RS 485-232. 39
+2.11.1 Giới thiệu. 39
+2.11.2 Hướng dẫn sử dụng phần mềm.. 40
+2.11.2.1 Giới thiệu. 40
+2.11.2.2 Cách sử dụng chương trình. 41
+CHƯƠNG 3: LÝ THUYẾT VỀ ROTARY ENCODER.. 46
+3.1 Giới thiệu rotaryencoder. 46
+3.1.1 Giới thiệu chung. 46
+3.1.2 Phân loại encoder. 47
+3.1.2.1 Encoder tuyệt đối (absolute encoder). 47
+3.1.2.2 Encoder gia tăng (incremental encoder). 47
+3.2 Rotary encoder E59S8-1024-N-3. 48
+3.2.1 Công dụng. 48
+3.2.2 Thông tin của mã sản phẩm: 48
+3.2.3 Thông số kỹ thuật 49
+3.2.4 Sơ đồ ngõ ra điều khiển. 50
+3.2.5 Biểu đồ xung ngõ ra. 50
+3.2.6 Sơ đồ kết nối 50
+3.2.7 Kích thước. 51
+3.2.8 Ứng dụng của Encoder. 52
+CHƯƠNG 4: CẢM BIẾN TỪ (PROXIMITY). 55
+4.1 Giới thiệu về cảm biến từ. 55
+4.1.1 Giới thiệu. 55
+4.1.2 Nguyên lý hoạt động. 55
+4.1.3 Ưu điểm.. 56
+4.1.4 Nhược điểm.. 56
+4.2 Cảm biến Riko SN04-N.. 56
+4.2.1 Thông số kỹ thuật. 56
+4.2.2 Sơ đồ kết nối 56
+4.2.3 Kích thước. 56
+CHƯƠNG 5: KÍT THỰC TẬP ĐẾM XUNG MP5W VÀ ENCODER.. 57
+5.1 Giới thiệu. 57
+5.2 Chức năng từng phần. 58
+5.2.1 Đồng hồ đo xung tốc độ. 58
+5.2.2 Encoder. 58
+5.2.3 Cảm biến (proximity sensor). 58
+5.2.4 Băng tải 58
+5.2.5 Led mô phỏng. 58
+5.3 Hướng dẫn sử dụng kít 59
+5.3.1 Giới thiệu các modun của kít. 59
+5.3.2 Giới thiệu modun gắn ngoài 60
+5.3.3 Cách đấu dây giữa các modun. 60
+5.3.4 Đấu dây bên trong kít 62
+CHƯƠNG 6: HỆ THỐNG BÀI TẬP ỨNG DỤNG.. 63
+Bài 1: 63
+Bài 2: 64
+Bài 3: 65
+Bài 4: 66
+Bài 5: 68
+Bài 7: 69
+Bài 8: 69
+Bài 9: 71
+Bài 10: 75
+Bài 11: 76
+CHƯƠNG 7: KẾT LUẬN.. 78

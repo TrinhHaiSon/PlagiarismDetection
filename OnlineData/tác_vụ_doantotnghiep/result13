@@ -1,0 +1,755 @@
+
+MỤC LỤC LUẬN VĂN TỐT NGHIỆP ĐẠI HỌC KHOA CƠ KHÍ BỘ MÔN CƠ ĐIỆN TỬ
+LỜI CẢM ƠN.. i
+TÓM TẮT LUẬN VĂN.. ii
+MỤC LỤC.. iii
+DANH SÁCH HÌNH ẢNH.. vii
+DANH SÁCH BẢNG BIỂU.. x
+CHƯƠNG 1: TỔNG QUAN.. 1
+1.1 Giới thiệu chung.1
+1.2 Cấu tạo của máy cắt chữ xốp.2
+1.3 Hiện trạng các loại máy có sẵn trên thị trường.3
+1.3.1 Cutlas HK4.3
+1.3.2 JCW1325HL. 4
+1.3.3 Cut2500S.6
+1.4 Mục tiêu, nhiệm vụ và phạm vi đề tài.7
+1.4.1 Mục tiêu đề tài.7
+1.4.2 Nhiệm vụ đề tài.7
+1.4.3 Phạm vi đề tài.7
+1.5 Tổ chức luận văn.8
+CHƯƠNG 2: LỰA CHỌN PHƯƠNG ÁN THIẾT KẾ. 10
+2.1 Lựa chọn dạng kết cấu bàn máy.10
+2.1.1 Dạng bàn máy cố định, đầu công tác di chuyển (dạng 1).10
+2.1.2 Dạng bàn máy và đầu công tác di chuyển (dạng 2).11
+2.2 Lựa chọn cơ cấu truyền động các trục.13
+2.2.1 Bộ truyền vít me – đai ốc.13
+2.2.2 Bộ truyền đai răng.15
+2.3 Lựa chọn động cơ truyền động.16
+2.3.1 Động cơ bước (Stepper Motor).17
+2.3.2 Động cơ Servo.18
+2.4 Lựa chọn cảm biến.19
+2.4.1 Công tắc hành trình.19
+2.4.2 Cảm biến tiệm cận.20
+2.5 Lựa chọn bộ điều khiển.21
+2.5.1 Motion control card. 21
+2.5.2 Vi điều khiển.22
+2.5.3 Bộ điều khiển PLC.23
+2.6 Lựa chọn cấu trúc điều khiển.24
+2.7 Lựa chọn giải thuật điều khiển.25
+2.8 Kết luận. 26
+CHƯƠNG 3: TÍNH TOÁN VÀ THIẾT KẾ CƠ KHÍ27
+3.1 Yêu cầu.27
+3.2 Tính toán và lựa chọn động cơ cho trục X, Y, Z.28
+3.2.1 Tính toán chọn động cơ bước cho trục X.28
+3.2.2 Tính toán chọn động cơ bước cho trục Y.30
+3.2.3 Tính toán chọn động cơ bước cho trục Z.31
+3.3 Tính toán bộ truyền.33
+3.3.1 Tính toán bộ truyền đai răng trục X.33
+3.3.2 Tính toán bộ truyền đai răng trục Y.35
+3.3.3 Tính toán bộ truyền vít me – đai ốc bi trục Z.36
+3.4 Tính toán và lựa chọn thiết kế con trượt tròn và thanh trượt tròn.38
+3.4.1 Tính toán cho trục X.38
+3.4.2 Tính toán cho trục Y.40
+3.5 Tính toán trục và ổ lăn.42
+3.5.1 Tính toán trục chính.42
+3.5.2 Tính toán ổ lăn.44
+3.6 Thiết kế tấm gá động cơ.45
+3.6.1 Tấm gá động cơ trục X, Y.45
+3.6.2 Tấm gá động cơ trục Z.48
+3.7 Kết luận.50
+CHƯƠNG 4: THIẾT KẾ HỆ THỐNG ĐIỆN.. 51
+4.1 Sơ đồ khối hệ thống điện.51
+4.2 Bộ điều khiển.51
+4.3 Cảm biến.53
+4.4 Động cơ.54
+4.5 Mạch công suất động cơ (Driver).55
+4.6 Relay. 57
+4.7 Bộ phận công tác dao nhiệt tỉa xốp.57
+4.8 Nguồn điện.58
+4.9 Sơ đồ nguyên lý hệ thống điện.60
+4.10 Board mạch thực tế.61
+4.11 Kết luận. 62
+CHƯƠNG 5: THIẾT KẾ BỘ ĐIỀU KHIỂN.. 63
+5.1 Giải thuật xử lý ảnh.63
+5.1.1 Giải thuật xử lý xác định chiều cao chữ.63
+5.1.2 Giải thuật bù trừ bán kính dao và ảnh hưởng của nhiệt độ đầu cắt đến xốp.65
+5.1.3 Giải thuật xác định tọa độ điểm bắt đầu và kết thúc quá trình cắt.68
+5.2 Giải thuật di chuyển.73
+5.2.1 Giải thuật Set Home cho máy cắt.73
+5.2.2 Giải thuật nội suy bậc thang.74
+5.3 Xây dựng giao diện điều khiển bàn máy.76
+5.4 Thực nghiệm.80
+5.4.1 Mô hình thực nghiệm.80
+5.4.2 Kết quả thực nghiệm và đo sai số. 81
+5.5 Tổng kết.86
+CHƯƠNG 6: TỔNG KẾT VÀ ĐỊNH HƯỚNG PHÁT TRIỂN CHO ĐỀ TÀI87
+6.1 Tổng kết.87
+6.2 Định hướng phát triển đề tài.88
+TÀI LIỆU THAM KHẢO.. 89
+
+DANH SÁCH HÌNH ẢNH
+Hình 1.1: Các sản phẩm làm từ xốp [5].1
+Hình 1.2: Sơ đồ cấu trúc máy cắt chữ xốp tự động [1].3
+Hình 1.3: Máy cắt xốp Cutlas HK4 [2].4
+Hình 1.4: Máy cắt xốp JCW1325HL [3].5
+Hình 1.5: Máy cắt xốp Cut2500S [4].6
+Hình 1.6: Máy tỉa xốp 3D cầm tay F1 10cm [5].8
+Hình 2.1: Sơ đồ khối các cụm chức năng của máy.10
+Hình 2.2: Kết cấu dạng bàn máy cố định, đầu công tác di chuyển.11
+Hình 2.3: Kết cấu dạng bàn máy và đầu công tác di chuyển.12
+Hình 2.4: Vít me – đai ốc với ma sát trượt [8].14
+Hình 2.5: Vít me – đai ốc với ma sát lăn [9].14
+Hình 2.6: Bộ truyền đai răng [10].16
+Hình 2.7: Động cơ bước TaoNEMA17 60600 của Cty TNHH MTV TVG [11].17
+Hình 2.8: Động cơ AC Servo Yaskawa Sigma II SGMSH của Nhật Bản [12].18
+Hình 2.9: Công tắc hành trình KW11 – 3Z 5A 250VAC [13].20
+Hình 2.10: Cảm biến tiệm cận LJ18A3 [14].20
+Hình 2.11: Motion control card PCI-8163 [15].22
+Hình 2.12: Board arduino Mega2560 [16].22
+Hình 2.13: PLC FX3GE-40MR/ES của hãng Mitsubishi Electric [17].23
+Hình 2.14: Cấu trúc điều khiển phân cấp.24
+Hình 2.15:Cấu trúc điều khiển tập trung.25
+Hình 3.1: Sơ đồ truyền động của máy cắt chữ xốp tự động.27
+Hình 3.2: Sơ đồ truyền động của cụm công tác.28
+Hình 3.3: Đồ thị thể hiện mối quan hệ giữa tốc độ và khả năng tải của động cơ step KH56KM2 – 902 [18].30
+Hình 3.4: Sơ đồ phân bố lực tác dụng lên con trượt theo trục X.38
+Hình 3.5: Thanh trượt tròn và con trượt LM10UU [20].40
+Hình 3.6: Sơ đồ phân bố lực tác dụng lên con trượt theo trục Y.40
+Hình 3.7: Biểu đồ phân bố lực trên trục Y.43
+Hình 3.8: Thông số kích thước mặt bích động cơ KH56KM2 – 902.45
+Hình 3.9: Hình dạng và kích thước tấm gá động cơ trục Y.46
+Hình 3.10: Hình dạng và kích thước tấm gá động cơ X.47
+Hình 3.11: Hình ảnh thực tế của cụm động cơ Y.48
+Hình 3.12: Hình ảnh thực tế của cụm động cơ X.48
+Hình 3.13: Thông số kích thước mặt bích động cơ 4S56Q – 02542S.49
+Hình 3.14: Hình dạng và kích thước tấm gá động cơ Z.49
+Hình 3.15: Hình ảnh thực tế của cụm động cơ Z.50
+Hình 3.16: Hình ảnh thực tế và mô hình 3D được thiết kế bằng SolidWorks của máy cắt chữ xốp tự động.50
+Hình 4.1: Sơ đồ khối hệ thống điện của máy cắt chữ xốp.51
+Hình 4.2: Board Arduino Mega2560.52
+Hình 4.3: Công tắc hành trình KW11 – 3Z 5A 250VAC.53
+Hình 4.4: Động cơ KH56KM2 – 902.54
+Hình 4.5: Động cơ 4S56Q – 02542S.55
+Hình 4.6: Driver a4988 [22].55
+Hình 4.7: Relay 4 kênh 5V10A RL4 – 0510.57
+Hình 4.8: Dao nhiệt tỉa xốp 3D cầm tay F1 10cm [5].58
+Hình 4.9: Nguồn máy tính ATX 700W – P4/24Pin [24].59
+Hình 4.10: Sơ đồ nguyên lý hệ thống mạch điện.60
+Hình 4.11: Mạch in thực tế được thiết kế bằng Eagle.61
+Hình 4.12: Hình ảnh thực tế của hệ thống điện – điện tử.62
+Hình 5.1: Trình tự thực hiện ứng dụng cắt chữ.63
+Hình 5.2: Giao diện điều khiển chọn font, font size và font style.64
+Hình 5.3: Chiều cao chữ trong hệ tọa độ pixel.65
+Hình 5.4: Biên dạng mới sau khi “offset” từ biên dạng cho trước.67
+Hình 5.5: Biên dạng ngoài được “offset”. 67
+Hình 5.6: Biên dạng trong được “offset”.67
+Hình 5.7: Sản phẩm lỗi của quá trình cắt.68
+Hình 5.8: Kết quả của quá trình chuyển đổi ảnh màu sang ảnh nhị phân.69
+Hình 5.9: Kết quả của quá trình tách biên theo phương pháp Contours.69
+Hình 5.10: Chữ với một biên dạng.70
+Hình 5.11: Chữ với 1 biên ngoài và 1 biên trong.71
+Hình 5.12: Chữ với 1 biên dạng ngoài và 2 biên dạng trong.73
+Hình 5.13: Lưu đồ giải thuật Set Home.74
+Hình 5.14: Mô tả giải thuật của phương pháp.75
+Hình 5.15: Mô tả giải thuật và sai số của phương pháp [1].76
+Hình 5.16: Giao diện lập trình điều khiển trên C#.78
+Hình 5.17: Mô hình 3D được thiết kế bằng SolidWorks.80
+Hình 5.18: Mô hình thực nghiệm thực tế.81
+Hình 5.19: Ảnh biên và hình ảnh thực tế của chữ “B” sau khi cắt.82
+Hình 5.20: Ảnh biên và hình ảnh thực tế của chữ “O” sau khi cắt.83
+Hình 5.21: Ảnh biên và hình ảnh thực tế của hình vuông a = 120 mm sau khi cắt.84
+Hình 5.22: Ảnh biên và hình ảnh thực tế của hình tròn d = 140 mm sau khi cắt.85
+DANH SÁCH BẢNG BIỂU
+Bảng 2.1: Tiêu chí lựa chọn phương án kết cấu bàn máy theo trọng số.13
+Bảng 2.2: Tiêu chí lựa chọn phương án cơ cấu truyền động theo trọng số.16
+Bảng 2.3: Tiêu chí lựa chọn phương án động cơ theo trọng số.18
+Bảng 2.4: Tiêu chí lựa chọn phương án cảm biến theo trọng số.21
+Bảng 2.5: Tiêu chí lựa chọn phương án bộ điều khiển theo trọng số.23
+Bảng 2.6: Tiêu chí lựa chọn phương án cấu trúc điều khiển theo trọng số.25
+Bảng 3.1: Các thông số động cơ step 2 pha – KH56KM2.30
+Bảng 3.2: Các thông số động cơ step 2 pha – 4S56Q [19].33
+Bảng 3.3: Các thông số kích thước của cụm X.39
+Bảng 3.4: Các thông số kích thước của cụm Y.41
+Bảng 3.5: Trị số xác định tải trong động quy ước [21].44
+Bảng 3.6: Thông số của ổ bị một dãy 1000900.45
+Bảng 4.1: Nhiệm vụ các cụm chức năng chính của board Arduino Mega2560.53
+Bảng 4.2: Chế độ hoạt động của động cơ bước [22].56
+Bảng 4.3: Công suất cần cung cấp cho các thiết bị.58
+Bảng 4.4: Thông số kỹ thuật của nguồn máy tính ATX [22].59
+Bảng 5.1: Kết quả khảo sát ảnh hưởng của nhiệt độ dao.66
+Bảng 5.2: Kết quả thực nghiệm chữ xốp “B” cao 300 mm.82
+Bảng 5.3: Kết quả thực nghiệm chữ xốp “O” cao 150 mm.83
+Bảng 5.4: Kết quả thực nghiệm hình vuông a = 120 mm.84
+Bảng 5.5: Kết quả thực nghiệm hình tròn d = 140 mm.86
+
+CHƯƠNG 1: TỔNG QUAN
+1.1 Giới thiệu chung.
+Hiện nay, cùng với sự phát triển của khoa học kỹ thuật, các máy tự động xuất hiện và phát triển ngày càng nhiều không chỉ về số lượng mà còn về chủng loại trong hầu hết các lĩnh vực sản xuất, trong đó có máy cắt chữ xốp tự động. Trên thị trường hiện nay nhu cầu sử dụng vật liệu xốp tương đối lớn. Xốp - nhựa EPS (Expandable Polystyrene) là tên gọi của loại nhựa Polystyrene giãn nở, được sản xuất dưới dạng hạt có chứa khí Bentan (C5H12) dễ cháy. Các ứng dụng từ xốp trong hình 1.1 thường được dùng làm trang trí nội thất, chữ trang trí trong các đám tiệc và hội nghị, làm thùng xốp cách nhiệt, đặc biệt là phục vụ nghệ thuật như mô hình xốp 3D…
+a. Trang trí nội thất b. Chữ trang trí
+c. Thùng xốp cách nhiệt d. Mô hình xốp 3D
+Hình 1.1: Các sản phẩm làm từ xốp [5].
+Bên cạnh đó với những mục đích sử dụng xốp và nhu cầu thẩm mỹ ngày càng cao thì việc cắt chữ xốp sẽ phức tạp nên cực kì khó khăn. Đồng thời, việc gia công bằng tay không đảm bảo độ chính xác, tốn nhiều thời gian, dễ gây hư hao vật liệu mà năng suất lại thấp. Vì vậy, máy cắt chữ xốp ra đời là giải pháp cho vấn đề này. Tuy nhiên, hầu hết các máy cắt chữ xốp tự động trên thị trường có nguồn gốc từ nước ngoài, giá thành cao cho nên việc ứng dụng vào sản xuất gặp nhiều khó khăn.
+Khả năng, cơ hội và thách thức của ngành công nghiệp cắt chữ xốp trang trí trong tương lai là rất có tiềm năng. Nguồn cầu càng lúc càng tăng song do phương tiện và máy móc còn phụ thuộc vào sức người nên lượng cung vẫn không đủ cho lượng cầu. Do đó giải pháp là cần đưa điều khiển tự động vào trong việc sản xuất.
+Công đoạn cắt chữ xốp là một trong những kỹ thuật đòi hỏi sự tỉ mỉ, bởi việc cắt đúng tỉ lệ thiết kế đã đưa ra và đúng yêu cầu kỹ thuật sẽ tiết kiệm xốp, giá thành sẽ giảm và sẽ nhanh chóng đáp ứng được lượng nhu cầu ngày càng tăng của xã hội.
+Ở nội dung đề tài này, tập trung tìm hiểu các vấn đề liên quan đến máy cắt chữ xốp tự động. Để thiết kế và vận hành máy cắt chữ xốp tự động, tất cả các yếu tố cấu thành của máy đều cần được quan tâm: cấu tạo, phân loại, sơ đồ nguyên lý, động cơ, cơ cấu truyền động, cấu trúc điều khiển, hệ thống điện – điện tử và giải thuật điều khiển. Từ các yếu tố này, các chữ xốp trong hình 1.1b là sản phẩm cuối cùng mà đề tài cần tạo ra.
+1.2 Cấu tạo của máy cắt chữ xốp.
+Máy cắt chữ xốp có cấu tạo giống như một máy công cụ CNC (Computer Numerical Control) gồm 6 bộ phận được thể hiện trong hình 1.2:
+a. Chương trình gia công (Part program): là một chuỗi chỉ thị các tập lệnh gia công.
+b. Thiết bị đọc chương trình (Program input device): là bộ phận trung gian chuyển chương trình gia công vào bộ điều khiển thông qua máy tính.
+c. Bộ điều khiển (Machine control unit - MCU): đọc và giải mã chương trình, đưa ra các lệnh điều khiển và nhận các tín hiệu phản hồi và xử lý.
+d. Hệ thống truyền động (Drive system): là hệ thống điều khiển truyền động hở (open loop) hoặc kín (closed loop). Sự khác nhau cơ bản là hệ thống điều khiển kín có phản hồi nhằm đảm bảo độ chính xác yêu cầu.
+e. Hệ thống phản hồi (Feedback system): dùng để xác định vị trí và vận tốc của máy và gửi tín hiệu về MCU để xử lý (có thể có hoặc không).
+f. Máy công cụ (Machine tool): như các máy công cụ thông thường, nhưng các chuyển động của từng trục được thực hiện bởi động cơ Servo hoặc động cơ bước thông qua truyền động đai hoặc vít me đai ốc bi.
+
+
+
+
+
+
+
+
+
+
+Hình 1.2: Sơ đồ cấu trúc máy cắt chữ xốp tự động [1].
+1.3 Hiện trạng các loại máy có sẵn trên thị trường.
+Sau quá trình tìm hiểu về cấu tạo thì các sản phẩm máy hiện có trên thị trường cũng được tìm hiểu nhằm tạo cơ sở cho việc phân tích và thiết kế máy cắt chữ xốp sau này.
+1.3.1 Cutlas HK4.
+Máy cắt xốp Cutlas HK4 được sản xuất bởi công ty Deman Products Inc. Cutlas HK4 là bàn máy CNC được dẫn động bởi 3 trục X, Y, Z. Đầu công tác là một lát cắt (dao) có kích thước dài 2453,6 mm, rộng 3,1 mm, dày 0,5 mm. Ưu điểm của loại máy này là tốc độ và gia tốc cao vì động cơ chuyển động độc lập, do đó hạn chế bớt khối lượng mà động cơ phải mang cũng như là tác động của lực quán tính sinh ra khi bàn máy di chuyển, nhờ đó có thể gia công hàng loạt và cho năng suất cao. Độ chính xác máy tương đối cao, chất lượng gia công ổn định, thời gian hiệu chỉnh máy ngắn. Tuy nhiên, nhược điểm lớn nhất của loại máy này là không thể cắt lỗ hay rãnh bên trong chi tiết. Máy cắt được lỗ bên trong chỉ khi máy cắt đường biên ngoài để đi vào bên trong chi tiết do đó sẽ làm chi tiết bị xấu đi và không còn giống thiết kế lúc ban đầu, nhược điểm thứ hai là máy chỉ cắt được những vật thể đối xứng hai đầu . Hình ảnh thực tế của Cutlas HK4 được mô tả trong hình 1.3.
+
+Hình 1.3: Máy cắt xốp Cutlas HK4 [2].
+- Một số thông số kỹ thuật:
+s Vùng làm việc X, Y, Z: 118’’(L) x 91’’(W) x 51’’(H).
+s Khối lượng máy: 2900 lbs.
+s Tốc độ cắt: 0 – 248 in/min.
+s Kích thước nhỏ nhất có thể cắt: 0.2 in.
+s Nguồn điện cung cấp: AC 380 V, 60 Hz.
+s Hệ thống động cơ servo: 2400 – 2800 rpm.
+s Sai số: ± 0.02 in.
+1.3.2 JCW1325HL
+Máy cắt xốp JCW1325HL được sản suất bởi công ty Nam Mỹ. JCW1325HL là bàn máy CNC được dẫn động bởi 4 trục X, Y, Z và 1 trục xoay phôi. Về cơ bản, JCW1325HL là máy phay được ứng dùng để để xốp. Ưu điểm của loại máy này tương tự như Cutlas HK4 của công ty Deman Products Inc nhưng vượt trội hơn hẳn là JCW1325HL sử dụng 4 trục nên cắt được các chi tiết 3D tinh xảo và phức tạp trong khi Cutlas HK4 chỉ cắt được các chi tiết 3D đơn giản. Vì sử dụng dao phay thay vì sử dụng dây trở nhiệt nên chi tiết không bị biến dạng khi cắt, vết cắt mịn và đẹp. Máy cắt được lỗ hay rãnh bên trong chi tiết một cách dễ dàng. Tuy nhiên, kết cấu máy phức tạp, cồng kềnh, và giá khá đắt nên chỉ dùng để cắt xốp thì không được đánh giá cao. Hình ảnh thực tế của máy được thể hiện trong hình 1.4.
+
+
+
+
+
+
+Hình 1.4: Máy cắt xốp JCW1325HL [3].
+Một số thông số kỹ thuật:
+s Vùng làm việc X, Y, Z: 1300 x 2500 x 1000 mm.
+s Công suất nguồn: 100 W.
+s Tốc độ không tải: 50 m/min.
+s Tốc độ làm việc: 30 m/min.
+s Sai số: ±0.02 mm.
+s Tốc độ quay trục chính: 6000-24000 rpm.
+s Làm mát bằng không khí.
+s Nguồn điện cung cấp: AC380 V, 3 phase, 50 – 60 Hz.
+s Hỗ trợ các định dạng: PLT, MMG, UOO, BMP.
+s Phần mềm hỗ trợ: PowerMill, type3, ArtCam, Ucancam.
+1.3.3 Cut2500S.
+Máy cắt xốp Cut2500S được sản suất bởi công ty Đức CNC - Multitool. Cut2500S là bàn máy CNC được dẫn động bởi 4 trục. Đầu công tác là một sợi dây trở nhiệt có đường kính 0,25 mm đến 0,5 mm. Những ưu, nhược điểm của Cut2500S tương tự như Cutlas HK4 nhưng có phần vượt trội hơn, đó là khắc phục được nhược điểm thứ hai của Cutlas HK4, Cut2500S sử dụng hai động cơ dùng để dẫn động dây nhiệt đi lên/xuống chuyển động độc lập nên có thể cắt được những vật thể bất đối xứng ở hai đầu. Tuy nhiên, một nhược điểm phụ của loại máy này là chất lượng bề mặt gia công sẽ bị ảnh hưởng bởi dây trở nhiệt nên cần phải hiệu chỉnh nhiệt độ thích hợp cho từng loại xốp. Hình ảnh thực tế của Cut2500S được thể hiện trong hình 1.5.
+
+
+
+
+
+
+Hình 1.5: Máy cắt xốp Cut2500S [4].
+Một số thông số kỹ thuật:
+s Vùng làm việc X, Y: 1300 x 1100 mm.
+s Chiều dài dây: 1300 mm.
+s Tốc độ cắt: 900 mm/min.
+s Sai số: ±0.1 mm.
+s Khối lượng: 95 kg.
+s Nguồn điện cung cấp: AC220 V, 50 – 60Hz.
+s Kết nối bằng USB.
+s Sử dụng động cơ bước để truyền động.
+s Giá của hãng: 7000 €.
+1.4 Mục tiêu, nhiệm vụ và phạm vi đề tài.
+1.4.1 Mục tiêu đề tài.
+Với những nhu cầu sử dụng xốp và tự động hoá quá trình cắt xốp ngày càng cao, đề tài này sẽ tập trung vào việc phân tích, thiết kế và chế tạo bàn máy cắt chữ tự động bằng vật liệu xốp EPS và xây dựng giao diện chương trình trên máy tính phục vụ cho việc cắt chữ xốp.
+1.4.2 Nhiệm vụ đề tài.
+Để thực hiện mục tiêu đề tài, các nhiệm vụ cụ thể cần phải thực hiện như sau:
+- Tìm hiểu bàn máy CNC:
++ Tìm hiểu kết cấu cơ khí, phân loại, sơ đồ nguyên lý, động cơ, driver của bàn máy và vẽ bản vẽ lắp.
++ Phân tích phương án và thiết kế cơ khí các cụm thành phần.
++ Tìm hiểu sơ đồ lắp mạch điện, kết nối thiết bị và vẽ bản vẽ điện.
++ Xác định sai số hệ thống và chương trình điều khiển.
+- Khảo sát nhiệt độ và tốc độ que nhiệt ảnh hưởng đến xốp.
+- Xây dựng chương trình điều khiển bàn máy:
++ Tìm hiểu và lựa chọn giải thuật nội suy.
++ Thiết kế giao diện chương trình bằng C#, lập trình chuyển đổi từ dữ liệu nhập sang file ảnh và xuất sang toạ độ điểm điều khiển bàn máy.
+- Thực nghiệm:
++ Thực nghiệm cho từng ký tự với những font chữ và kích thước khác nhau.
++ Đánh giá chất lượng sản phẩm và sai số hệ thống.
+1.4.3 Phạm vi đề tài.
+- Đề tài sử dụng máy tỉa xốp 3D cầm tay F1 10cm với nhiệt độ cao nhất đạt được
+là 2000C. Đây là sản phẩm của công ty Hornet Shop. Hình ảnh thực tế được thể hiện trong hình 1.6.
+
+
+
+
+
+
+
+Hình 1.6: Máy tỉa xốp 3D cầm tay F1 10cm [5].
+- Vật liệu cắt là xốp tấm, kích thước chữ tối đa cắt được có chiều cao không quá 350 mm.
+- Chiều dày xốp tấm không vượt quá 50 mm.
+- Đối tượng của đề tài là điều khiển bàn máy cắt chữ xốp.
+- Tốc độ di chuyển tối đa của đầu công tác là 20 mm/s.
+- Số lượng chữ cái hoàn thành 1 lần cắt: 1.
+1.5 Tổ chức luận văn.
+Với các mục tiêu và nhiệm vụ đề ra, đề tài được phân làm 6 chương. Các chương tiếp theo có nội dung như sau:
+- Chương 2 trình bày các phương án thiết kế được lựa chọn để thực hiện mục tiêu đề tài đặt ra.
+- Chương 3 tiến hành thiết kế sơ đồ nguyên lý, sơ đồ động học, tính toán và lựa chọn động cơ, con trượt, bộ truyền đai răng, trục và ổ lăn.
+- Chương 4 tìm hiểu và lựa chọn linh kiện sử dụng trong mạch (vi điều khiển, module driver, cảm biến, …), thiết kế mạch hệ thống điện – điện tử điều khiển chuyển động của các động cơ theo các trục.
+- Chương 5 thiết lập lưu đồ giải thuật, viết giao diện chương trình chuyển đổi từ dữ liệu nhập sang file ảnh và xuất sang toạ độ điểm điều khiển bàn máy cắt chữ xốp và thực nghiệm đánh giá sai số.
+- Chương 6 tổng kết những kết quả đạt được cùng với những hạn chế và hướng phát triển của đề tài.
+
+CHƯƠNG 2: LỰA CHỌN PHƯƠNG ÁN THIẾT KẾ
+Để điều khiển được bàn máy thực hiện việc di chuyển đầu công tác để cắt ra chữ xốp như mong muốn trước hết phải tìm hiểu và xây dựng sơ đồ nguyên lý cũng như là cách thức điều khiển bàn máy. Sơ đồ nguyên lý này thể hiện được nguyên lý hoạt động về mặt cơ khí của máy cũng như là cơ sở để tính toán các bộ truyền và chi tiết máy ở chương 3. Vì vậy, chương 2 sẽ tiến hành đưa ra các phương án lựa chọn kết cấu bàn máy, động cơ, cơ cấu truyền động, cảm biến, bộ điều khiển, cấu trúc và giải thuật điều khiển sau đó tiến hành phân tích, so sánh ưu – nhược điểm và lập bảng chỉ tiêu trọng số để lựa chọn phương án phù hợp nhất với yêu cầu đề tài.
+Xây dựng sơ đồ khối cụm chức năng dựa trên các bàn máy CNC cơ bản. Chương này sẽ lựa chọn từng bộ phận trong phần cứng và phần mềm của máy cắt xốp tự động, các thành phần chính được miêu tả như sơ đồ hình 2.1.
+
+
+Hình 2.1: Sơ đồ khối các cụm chức năng của máy.
+2.1 Lựa chọn dạng kết cấu bàn máy.
+Dựa vào các kết cấu bàn máy trong các máy CNC cơ bản, bàn máy trong thực tế thường có 2 dạng kết cấu sau:
+2.1.1 Dạng bàn máy cố định, đầu công tác di chuyển (dạng 1).
+
+Đặc điểm:
+Để trục Y có thể trượt được trên bệ đỡ vừa nâng được các trục X và Z thì nó phải có kết cấu vững chắc và có các thanh giằng ngang để toàn bộ phần trượt Y không bị vênh, xộc xệch khi di chuyển. Trục X trượt trên trục Y và có gắn thanh trượt, cơ cấu truyền động, động cơ... Tất cả các bộ phận này chuyển động cùng với trục Y. Trục Z trượt trên trục X và có gắn động cơ di chuyển đầu công tác. Trục Z cũng gắn thanh trượt, cơ cấu truyền động, động cơ... chuyển động cùng với trục X.Trên bệ đỡ có thanh trượt trục Y và phôi cần gia công. Một ví dụ thực tế về máy có kết cấu dạng 1 và sơ đồ nguyên lý được thể hiện trong hình 2.2a và 2.2b.
+Ưu điểm:
+- Do bàn máy nằm cố định nên có thể mang được phôi nặng hơn dạng bàn máy di chuyển.Đồng thời, kích thước bàn máy nhỏ gọn do đó tiết kiệm chi phí.
+Nhược điểm:
+- Dokết cấu trục này nâng trục kia nên động cơ dưới cùng mang khối lượng lớn nhất dẫn đến đầu cắt bị rung, gây thiếu chính xác trong quá trình cắt.
+a. Máy công cụ CNC dạng 1 [6]. b. Sơ đồ nguyên lý dạng 1.
+Hình 2.2: Kết cấu dạng bàn máy cố định, đầu công tác di chuyển.
+2.1.2 Dạng bàn máy và đầu công tác di chuyển (dạng 2).
+Đặc điểm:
+- Dạng 2 có đặc điểm phôi di chuyển trên trục Y, dụng cụ gia công di chuyển theo trục X và Z. Phần cố định bao gồm khung máy (hay bệ đỡ), các trục trượt, động cơ và cơ cấu truyền động của trục X và trục Y gắn cố định vào khung máy. Trục X và trục Y đều trượt trên các thanh trượt cố định ở khung, trục Z trượt trên trục X, do đó trên trục X có gắn các thanh trượt, động cơ và cơ cấu truyền động trục Z. Một ví dụ thực tế về máy có kết cấu dạng 2 và sơ đồ nguyên lý được thể hiện trong hình 2.3a và 2.3b.
+
+Máy công cụ CNC dạng 2 [7]. b. Sơ đồ nguyên lý dạng 2.
+Hình 2.3: Kết cấu dạng bàn máy và đầu công tác di chuyển.
+Ưu điểm:
+- Do kết cấu động cơ trục Y không phải mang theo trục X, Z nên hệ thống ổn định hơn, đầu cắt cứng vững hơn so với dạng bàn máy cố định.
+Nhược điểm:
+- Do động cơ trục Y trực tiếp mang phôi nên tải đặt lên bàn máy có giới hạn tuỳ thuộc vào khối lượng mang tải tới hạn của động cơ, vì thế, động cơ trục Y cần moment lớn.
+Bảng 2.1 sau đây liệt kê một số tiêu chí và kết quả đánh giá cho hai phương án. Mỗi tiêu chí được gán cho một trọng số, số điểm trọng số sẽ bằng với số tiêu chí, và được đánh giá bằng số nguyên ( ví dụ: có 5 tiêu chí thì trọng số sẽ bằng 1, 2, 3, 4, 5). Tiêu chí nào được đánh giá quan trọng hơn tương ứng số điểm trọng số cao hơn. Các tiêu chí này được chấm điểm nhỏ nhất là 1, phương án có tiêu chí tối ưu hơn thì được chấm điểm cao hơn. Thông qua việc tính tổng điểm của từng phương án, từ đó có thể xác định được phương án tối ưu, phù hợp với yêu cầu đặt ra.
+Bảng 2.1: Tiêu chí lựa chọn phương án kết cấu bàn máy theo trọng số.
+Phương án Tiêu chí & Trọng số Dạng bàn máy cố định, đầu công tác di chuyển Dạng bàn máy và đầu công tác di chuyển Kích thước nhỏ gọn 4 2 1 Độ cứng vững cao 3 1 2 Khối lượng tải lớn 1 2 1 Độ ổn định cao 2 1 2 Giá thành rẻ 5 2 1 Tổng điểm = 25 20
+Kết luận: Tiêu chí giá thành được ưu tiên nên trọng số sẽ cao nhất, dựa vào tổng điểm từ bảng trên thì kết cấu dạng bàn máy cố định, đầu công tác di chuyển được lựa chọn, giúp cho máy có kích thước nhỏ gọn với cùng kích thước vùng làm việc. Song song đó, đối với đầu công tác là dao tỉa nhiệt có khối lượng tương đối nhỏ do đó sẽ đảm bảo cho dao tỉa không bị rung lắc, đảm bảo độ chính xác cho máy.
+2.2 Lựa chọn cơ cấu truyền động các trục.
+Hệ thống truyền động ở các trục trong các máy cắt chữ xốp tự động thường là bộ truyền vít me – đai ốc hoặc bộ truyền đai răng:
+2.2.1 Bộ truyền vít me – đai ốc.
+- Bộ truyền vít me – đai ốc làm việc theo nguyên lý ăn khớp của cặp ren (giữa ren trong trên đai ốc với ren ngoài trên vít me) để biến đổi chuyển động quay thành tịnh tiến.
+- Tuỳ theo tính chất tiếp xúc của cặp ren có thể chia bộ truyền làm 2 loại: ma sát trượt và ma sát lăn.
+a) Bộ truyền vít me – đai ốc với ma sát trượt.
+Vít me được gắn đồng trục với động cơ thông qua khớp nối. Động cơ và vít me gắn cố định. Khi động cơ quay, vít me quay làm cho đai ốc di chuyển dọc theo trục vít me. Đai ốc được gắn chặt vào bộ phận cần chuyển động (trục X, Y , Z). Hình ảnh thực tế được thể hiện trong hình 2.4.
+
+
+
+Hình 2.4: Vít me – đai ốc với ma sát trượt [8].
+Tốc độ di chuyển của đai ốc phụ thuộc vào tốc độ của động cơ và bước ren của trục vít. Độ chính xác khi chuyển động không cao vì có độ rơ của đai ốc. Khi động cơ quay 1 vòng thì đai ốc sẽ dịch chuyển 1 đoạn thẳng bằng bước ren của trục vít. Do đó, dùng động cơ bước có bước góc càng nhỏ và trục vít có bước ren càng nhỏ thì độ chính xác di chuyển của đai ốc càng cao.
+b) Bộ truyền vít me – đai ốc với ma sát lăn.
+
+
+
+
+
+Hình 2.5: Vít me – đai ốc với ma sát lăn [9].
+Trong bộ truyền vít – đai ốc với ma sát lăn như hình 2.5, giữa các bề mặt làm việc của vít và đai ốc là các con lăn bằng thép. Điều này đem đến một ưu điểm: chỉ cần một lực quay rất nhỏ đã có thể làm cho đai ốc chuyển động. Bộ truyền này hiện nay được sử dụng rộng rãi, đặc biệt là trong các cơ cấu chuyển động chính xác, hệ thống điều khiển và các bộ truyền lực quan trọng. Hiệu suất cao, lực ma sát phụ thuộc vào vận tốc. Trên vít và đai ốc có các rãnh xoắn ốc và các con lăn sẽ lăn trên rãnh này.
+Để luôn tồn tại các con lăn giữa các bề mặt ren của vít và đai ốc thì trên các đầu đai ốc hoặc vít người ta nối các rãnh thu hồi. Rãnh thu hồi có thể nằm trên đai ốc hoặc vít. Độ chính xác di chuyển cao do không có độ rơ giữa vít me và đai ốc.
+c) Các ưu, nhược điểm chính:
+Ưu điểm:
+- Bộ truyền vít me – đai ốc có kết cấu đơn giản, nhỏ gọn và dễ chế tạo phù hợp cho các máy có kích thước nhỏ. Khả năng tải của bộ truyền lớn, độ tin cậy cao, làm việc êm và không ồn do đó có thể chuyển động chậm với độ chính xác cao.
+Nhược điểm:
+- Do ma sát lớn nên ren sẽ mòn nhanh. Bộ truyền vít me – đai ốc với ma sát lăn có hiệu suất thấp hơn so với vít me – đai ốc ma sát trượt.
+2.2.2 Bộ truyền đai răng.
+Bộ truyền đai răng làm việc theo nguyên lý ăn khớp. Bộ truyền đai bao gồm 2 bánh đai: bánh dẫn và bánh bị dẫn được lắp lên 2 trục và dây đai bao quanh các bánh đai. Tải trọng được truyền đi nhờ vào sự ăn khớp giữa dây đai và các bánh đai. Đai răng được chế tạo từ cao su trộn với nhựa nairit hoặc được đúc từ cao su poliuretan. Lớp chịu tải là dây thép, sợi thuỷ tinh hoặc sợi poliamit. Bộ truyền đai răng làm việc với vận tốc tối đa là 80 m/s và tỉ số truyền umax = 30. Một ví dụ về hình ảnh thực tế của bộ truyền đai răng được thể hiện trong hình 2.6. Bộ truyền có những ưu điểm và nhược điểm sau:
+Ưu điểm:
+- Do làm việc theo nguyên lý ăn khớp nên bộ truyền đai răng không có hiện tượng trượt giữa dây đai và bánh đai. Tỷ số truyền lớn, thông thường (có thể đến 20).
+- Hiệu suất cao đồng thời lực tác dụng lên trục và ổ nhỏ. Bộ truyền có thể truyền công suất đến 200 kW (có thể đến 750 kW).
+Nhược điểm:
+- Do mòn đai trong quá trình chuyển động nên tuổi thọ đai khá thấp (từ giờ). Thêm vào đó, do làm việc theo nguyên lý ăn khớp nên khi quá tải, bộ truyền đai răng vẫn làm việc do đó không thể bảo vệ các bộ phận phía sau.
+
+
+
+
+
+Hình 2.6: Bộ truyền đai răng [10].
+Tương tự như cách đánh giá trọng số ở bảng 2.1, bảng 2.2 sau đây liệt kê một số tiêu chí và kết quả đánh giá cho hai phương án. Tiêu chí giá thành được đánh giá ưu tiên hơn các tiêu chí còn lại vì phù hợp với điều kiện cũng như mục tiêu đề tài.
+Bảng 2.2: Tiêu chí lựa chọn phương án cơ cấu truyền động theo trọng số.
+Phương án Tiêu chí & Trọng số Bộ truyền đai răng Bộ truyền vít me – đai ốc Làm việc êm, không ồn 4 1 2 Kết cấu đơn giản, nhỏ gọn 1 1 2 Tuổi thọ cao 2 1 2 Hiệu suất làm việc cao 3 2 1 Giá thành rẻ 5 2 1 Tổng điểm = 23 22
+Kết luận: Dựa vào tổng điểm từ bảng trên, lựa chọn bộ truyền đai răng dẫn động 2 trục X – Y do bộ truyền đai răng cho phép hành trình đi được ở các trục dài hơn và lựa chọn bộ truyền vít me – đai ốc bi dẫn động trục Z chuyển động tịnh tiến lên xuống đầu công tác của máy.
+2.3 Lựa chọn động cơ truyền động.
+Động cơ truyền động được sử dụng trong máy cắt chữ xốp tự động có thể kể đến là động cơ servo và động cơ bước.
+2.3.1 Động cơ bước (Stepper Motor).
+Động cơ bước là một động cơ đồng bộ dùng để biến đổi các tín hiệu điều khiển dưới dạng các xung điện rời rạc kế tiếp nhau thành các chuyển động góc quay hoặc các chuyển động của roto và có khả năng cố định roto vào những vị trí cần thiết. Hệ điều khiển động cơ bước là một hệ thống khá đơn giản vì không hề có phần tử phản hồi. Có được điều này là vì động cơ bước trong quá trình hoạt động không gây ra sai số tích luỹ, sai số của động cơ là do sai số trong khi chế tạo. Đa số các động cơ bước công suất bé có hình dạng thực tế giống hình 2.7.
+
+
+
+
+Hình 2.7: Động cơ bước TaoNEMA17 60600 của Cty TNHH MTV TVG [11].
+Ưu điểm:
+- Động cơ bước trên thị trường hiện nay có giá thành khá rẻ. Tuy điều khiển vòng hở nhưng điều khiển chính xác với chế độ full step là 0,10/step và có thể chỉnh thông số vi bước lên đến 1/250 nhờ vào driver nên giá trị một bước là 0,00040/step.
+- Do không có chổi quét nên chi phí bảo dưỡng thấp. Động cơ duy trì moment rất tốt (không cần phanh, biến tốc).
+Nhược điểm:
+- Động cơ bị nóng vì dùng 1 dòng DC duy nhất để điều khiển tải do đó cần có cơ cấu làm mát động cơ khi hoạt động. Nếu dòng không đủ thì động cơ có thể không làm việc được và bị hư, động cơ sẽ toả nhiệt rất nhiều.
+- Do không có hệ thống phản hồi, nên không thể biết được vị trí hiện tại của động cơ nên có thể xảy ra các sai số (điều này có thể khắc phục được thông qua giải thuật điều khiển). Một điều tất yếu, các động cơ bước đều làm việc ồn và rung.
+2.3.2 Động cơ Servo.
+Động cơ Servo là động cơ được thiết kế cho hệ thống điều khiển vòng kín. Vận tốc và vị trí sẽ được hồi tiếp về mạch điều khiển. Do đó, đáp ứng được một cách chính xác các lệnh điều khiển vị trí, vận tốc dựa trên xử lý sai lệch giữa giá trị đặt và giá trị hồi tiếp. Một ví dụ về hình ảnh thực tế động cơ servo được mô tả trong hình 2.8.
+
+
+
+Encoder
+
+Hình 2.8: Động cơ AC Servo Yaskawa Sigma II SGMSH của Nhật Bản [12].
+Ưu điểm:
+- Khi sai số phản hồi về lớn, cung cấp được moment lớn, dòng điện lớn để cấp cho động cơ quay nhanh tới vị trí mong muốn. Khi càng về gần vị trí mong muốn dòng nhỏ lại để động cơ quay chậm => điều khiển chính xác, nhiệt toả ra cũng giảm dần.
+- Khi tải thay đổi đột ngột, dòng điện cũng sẽ tăng nhằm điều khiển đúng đáp ứng mong muốn.
+Nhược điểm:
+- Động cơ servo trên thị trường có giá thành cao, bảo dưỡng tốn kém hơn động cơ bước. Không làm việc ở chế độ mạch điều khiển hở, yêu cầu phải có hệ thống phản hồi, yêu cầu phải điều chỉnh các thông số vòng điều khiển.
+Tương tự như cách đánh giá trọng số ở bảng 2.1, bảng 2.3 sau đây liệt kê một số tiêu chí và kết quả đánh giá cho hai phương án. Tiêu chí giá thành vẫn được đánh giá ưu tiên hơn các tiêu chí còn lại vì phù hợp với điều kiện cũng như mục tiêu đề tài.
+Bảng 2.3: Tiêu chí lựa chọn phương án động cơ theo trọng số.
+Phương án Tiêu chí & Trọng số Động cơ bước Động cơ servo Điều khiển chính xác 2 1 2 Chi phí bảo dưỡng thấp 4 2 1 Làm việc êm và không nóng 3 1 2 Có hệ thống phản hồi 1 1 2 Giá thành rẻ 5 2 1 Tổng điểm = 24 21
+Kết luận: Dựa vào tổng điểm từ bảng trên, động cơ bước được lựa chọn để truyền động các trục của máy cắt chữ xốp tự động, đảm bảo được tốc độ và độ ổn định được đặt ra. Mặt khác, tải là xốp tấm khá nhẹ nên không cần động cơ có moment lớn, phù hợp với những máy thực tế thị trường đã có. Bên cạnh đó, với giá thành động cơ bước thấp hơn rất nhiều so với đồng cơ servo thì động cơ bước thích hợp để thực hiện làm mô hình kiểm nghiệm giải thuật và điều khiển để cắt ra chữ cái hoàn chỉnh mà mục tiêu đầu bài đặt ra.
+2.4 Lựa chọn cảm biến.
+Cảm biến được sử dụng trong máy CNC được dùng làm cảm biến home và giới hạn hành trình. Cảm biến thường được sử dụng trong thực tế là công tắc hành trình hoặc cảm biến tiệm cận.
+2.4.1 Công tắc hành trình.
+Ưu điểm:
+- Công tắc hành trình trên thị trường có giá thành rất rẻ so với cảm biến tiệm cận, và có khả năng chịu đựng được dòng lớn.
+- Việc sử dụng rất dễ dàng, độ bền cao trong môi trường công nghiệp, không có dòng rò, sụt áp qua tiếp điểm nhỏ, không bị ảnh hưởng bởi nhiễu.
+Nhược điểm:
+- Tuổi thọ ngắn hơn so với cảm biến công nghệ bán dẫn, nhanh bị hao mòn, do đó, phải dừng máy nhiều lần.
+- Thời gian đáp ứng chậm và cần có sự tác động của vật đối với công tác hành trình dẫn đến việc “Set Home” sẽ không còn đúng vị trí về sau. Đa số các công tắc hành trình trên thị trường hiện nay có hình dạng thực tế giống như trong hình 2.9.
+
+
+
+
+Hình 2.9: Công tắc hành trình KW11 – 3Z 5A 250VAC [13].
+2.4.2 Cảm biến tiệm cận.
+Ưu điểm:
+- Độ chính xác cao, Tốc độ đóng ngắt nhanh, có thể phát hiện được cả vật liệu kim loại và không phải là kim loại.
+- Tuổi thọ khá cao và dễ dàng trong việc lắp đặt.
+Nhược điểm:
+- Rất nhạy với những tác động của môi trường. Khoảng cách nhận biết ngắn (khoảng dưới 25 mm). Hầu hết các cảm biến tiệm cận trong công nghiệp có hình dạng thực tế giống như trong hình 2.10.
+
+
+
+
+Hình 2.10: Cảm biến tiệm cận LJ18A3 [14].
+Thông số kỹ thuật:
+- Model: LJ18A3 – 8 – Z/BX.
+- Phát hiện: kim loại.
+- Nguồn: 6 – 36 VDC.
+- Dòng tiêu thụ: 300 mA.
+- Khoảng đo: 0 – 8 mm.
+- Ngõ ra: NPN cực thu hở.
+- Đường kính: 18 mm.
+Tương tự như cách đánh giá trọng số ở bảng 2.1, bảng 2.4 sau đây liệt kê một số tiêu chí và kết quả đánh giá cho hai phương án. Tiêu chí giá thành vẫn được đánh giá ưu tiên hơn các tiêu chí còn lại vì phù hợp với điều kiện cũng như mục tiêu đề tài.
+Bảng 2.4: Tiêu chí lựa chọn phương án cảm biến theo trọng số.
+Phương án Tiêu chí & Trọng số Cảm biến tiệm cận Công tắc hành trình Sử dụng dễ dàng 3 1 2 Ít bị ảnh hưởng bởi nhiễu 4 1 2 Tuổi thọ cao 1 2 1 Thời gian đáp ứng nhanh 3 2 1 Giá thành rẻ 5 1 2 Tổng điểm = 20 28
+Kết luận: Dựa vào tổng điểm của bảng trên, lựa chọn công tắc hành trình KW11 – 3Z 5A 250VAC có hình dạng như hình 2.9 làm cảm biến cho hệ thống.
+2.5 Lựa chọn bộ điều khiển.
+Bộ điều khiển được xem như là linh hồn của máy. Những bộ điều khiển thường dùng trong máy cắt chữ xốp tự động có thể kể đến là: motion control card (hình 2.11), vi điều khiển (hình 2.12) và PLC (Programmable Logic Controllers) (hình 2.13).
+2.5.1 Motion control card
+Một trong những motion control card điển hình để làm bộ điều khiển trong hầu hết các robot hiện nay phải kể đến là card PCI-8163 của công ty Adlink như hình 2.11.
+
+
+
+
+Hình 2.11: Motion control card PCI-8163 [15].
+Ưu điểm:
+- Motion control card có tốc độ xử lý rất cao. Đồng thời, có hỗ trợ các thư viện nội suy và các module chuyên dụng cho điều khiển chuyển động. Motion control card thường được dùng trong công nghiệp.
+Nhược điểm:
+- Do dùng trong công nghiệp và chuyên môn hoá cao nên giá thành của card trên thị trường cao và thường được tích hợp trong máy tính nên có kích thước lớn.
+2.5.2 Vi điều khiển.
+
+
+
+Hình 2.12: Board arduino Mega2560 [16].
+Ưu điểm:
+- Board arduino Mega2560 như hình 2.12 có tốc độ xử lý cao, kích thước rất nhỏ gọn, tính chuyên biệt dùng cho xử lý, điều khiển, tính toán, giá thành tương đối rẻ nên được ứng dụng cho rất nhiều trong các máy nhỏ và mô hình.
+Nhược điểm:
+- Do bản chất là tiền tố của PLC nên lập trình phức tạp, khả năng chống nhiễu kém nên cần phải hiểu sâu để xử lý phần cứng chống nhiễu.
+2.5.3 Bộ điều khiển PLC.
+
+
+
+
+Hình 2.13: PLC FX3GE-40MR/ES của hãng Mitsubishi Electric [17].
+Ưu điểm:
+- PLC với hình dạng thực tế như hình 2.13 có tốc độ xử lý rất cao. Kích thước tuy lớn hơn nhiều so với vi điều khiển nhưng nhìn chung đã rất nhỏ gọn. PLC hiện nay được ứng dụng rất nhiều trong công nghiệp do khử nhiễu tốt, có sẵn các module chuyên dùng, gắn vào dễ dàng, đặc biệt là rất dễ lập trình cho những người mới học.
+Nhược điểm:
+- PLC có nhược điểm chính là giá thành tương đối cao hơn nhiều so với vi điều khiển.
+Tương tự như cách đánh giá trọng số ở bảng 2.1, bảng 2.5 sau đây liệt kê một số tiêu chí và kết quả đánh giá cho ba phương án.
+Bảng 2.5: Tiêu chí lựa chọn phương án bộ điều khiển theo trọng số.
+Phương án Tiêu chí & Trọng số Motion control Card PCI-8164 Arduino Mega2560 PLC FX3GE-40MR/ES Tốc độ xử lý cao 3 3 1 2 Kích thước nhỏ gọn 4 1 3 2 Hỗ trợ module gắn thêm 1 3 2 1 Khả năng chống nhiễu cao 2 3 1 2 Giá thành rẻ 5 2 3 1 Tổng điểm = 32 34 24
+Kết luận: Dựa vào sự phân tích ở trên, board arduino Mega2560 được lựa chọn làm linh hồn của máy cắt chữ xốp tự động.
+2.6 Lựa chọn cấu trúc điều khiển.
+Máy cắt chữ xốp tự động có các phần cơ bản chính bao gồm mạch cảm biến, mạch công suất và mạch điều khiển động cơ. Trong đó có hai phương pháp chính để kết nối các bộ phận đó với nhau là phương pháp điều khiển tập trung và phân cấp:
+Hình 2.14: Cấu trúc điều khiển phân cấp.
+Trong phương pháp điều khiển phân cấp nhưhình 2.14, không thể chỉ có một MCU (Micro – controller Unit) được sử dụng trong hệ thống, mà bên cạnh MCU có vai trò là master đảm nhiệm việc tính toán tổng thể, thì các MCU Slave sẽ đảm nhiệm việc điều khiển từng bộ phận riêng lẻ trong máy. Cấu trúc này giúp giảm nhẹ khối lượng tính toán cho master và cho phép máy thực hiện nhiều tác vụ cùng lúc. Cấu trúc điều khiển phân cấp có đặc điểm phần cứng phức tạp hơn, phải quan tâm đến vấn đề giao tiếp giữa các MCU, tuy nhiên có khả năng xử lý nhiều tác vụ cùng lúc, giúp cho thời gian xử lý của hệ thống nhanh hơn khi sử dụng cấu trúc tập trung.
+Trong phương pháp điều khiển tập trung như hình 2.15, một MCU duy nhất đồng thờinhận và xử lý tín hiệu từ cảm biến, thực hiện chường trình chính và truyền tín hiệu điều khiển cho cơ cấu tác động. Cấu trúc điều khiển tập trung có đặc điểm phần cứng đơn giản, tuy nhiên MCU phải xử lý tất cả thông tin trước khi cập nhật thông tin mới.
+
+Hình 2.15: Cấu trúc điều khiển tập trung.
+Tương tự như cách đánh giá trọng số ở bảng 2.1, bảng 2.6 sau đây liệt kê một số tiêu chí và kết quả đánh giá cho hai phương án.
+Bảng 2.6: Tiêu chí lựa chọn phương án cấu trúc điều khiển theo trọng số.
+Phương án Tiêu chí & Trọng số Điều khiển phân cấp Điều khiển tập trung Tiết kiệm số lượng MCU 4 1 2 Phần cứng đơn giản 2 1 2 Thời gian xử lý nhanh 3 2 1 Giao tiếp giữa các MCU phức tạp 1 1 2 Tổng điểm = 13 17
+Kết luận: Dựa vào tổng điểm bảng trên, máy cắt chữ xốp tự động được lựa chọn cấu trúc điều khiển tập trung là vì phù hợp với năng lực cũng như là điều kiện thực hiện đề tài mà vẫn đảm bảo thực hiện đúng mục tiêu đã đặt ra ở đầu bài.
+2.7 Lựa chọn giải thuật điều khiển.
+Phương pháp điều khiển point to point thường được sử dụng để di chuyển đầu công tác đến một vị trí mong muốn. Phương pháp này có thể được áp dụng để thực hiện việc điều khiển dao tỉa nhiệt di chuyển đến một vị trí mong muốn. Để thực hiện phương pháp này, chuyển động của dao tỉa nhiệt được chia thành những phần tương ứng với từng trục từ đó quỹ đạo của dao tỉa nhiệt được tạo thành thông qua việc kết hợp của những chuyển động riêng lẻ của từng trục. Vì thế các phương pháp nội suy phần mềm cũng như nội suy phần cứng đã được áp dụng để hổ trợ thực hiện nhiệm vụ trên. Ở đây, chỉ xét nội suy phần mềm. Phương pháp nội suy phần mềm được phân thành hai loại sau:
++ Phương pháp nội suy dạng xung tham chiếu: khoảng cách cần dịch chuyển sẽ được tính toán thông qua xung tham chiếu ngoài, các xung sau khi được tính toán sẽ được cấp cho từng trục. Phương pháp này thích hợp với các máy có độ chính xác cao tuy nhiên tốc độ di chuyển của các trục lại phụ thuộc vào tần số của tín hiệu ngắt ngoài nên đòi hỏi một bộ xử lý trung tâm có tính năng tốt, hiệu suất cao. Các phương pháp nội suy thường được sử dụng: phương pháp nội suy DDA (Digital Differential Analyzer), phương pháp xấp xỉ bậc thang, phương pháp tìm hướng.
++ Phương pháp nội suy dạng lấy mẫu dữ liệu: các điểm tọa độ cần di chuyển trên đơn vị thời gian lấy mẫu sẽ được tính toán sau đó các dữ liệu này sẽ được truyền xuống trục. Phương pháp này thích hợp với các máy có tốc độ cao và không thích hợp với các máy yêu cầu độ chính xác cao. Các phương pháp nội suy thường được sử dụng: nội suy Euler, nội suy Euler cải tiến, nội suy Taylor, nội suy Tustin, nội suy Tustin cải tiến.
+Kết luận: Để đạt được mục tiêu đặt ra ở đầu bài, phương pháp điều khiển point to point được lựa chọn. Ở đây lựa chọn bộ điều khiển Arduino Mega2560, do đó không thể bắn xung đồng thời cho cả 2 trục X, Y. Do đó, giải thuật nội suy bậc thang được lựa chọn.
+2.8 Kết luận
+Chương 2 đã lựa chọn được các cụm phần cứng và phần mềm để thực hiện mô hình cơ khí. Từ những kết quả phân tích đã cho thấy rằng không chỉ phần mềm mới ảnh hưởng sai số hệ thống mà phần cứng cũng đóng góp một phần không nhỏ do sai số chế tạo chi tiết và độ rung động, cứng vững của bàn máy. Những kết quả đạt được ở chương 2 sẽ là các yếu tố cơ bản cho các chương sau giúp hoàn thành bàn máy cắt chữ xốp tự động.
+
+CHƯƠNG 3: TÍNH TOÁN VÀ THIẾT KẾ CƠ KHÍ
+Sau khi phân tích, lựa chọn các phương án cơ khí như đã phân tích ở chương 2, chương này sẽ đi vào phân tích, tính toán bền, thiết kế các cụm chi tiết của máy, phục vụ cho việc gia công, chế tạo các chi tiết, và để phục vụ cho việc bảo trì máy về sau. Việc tính toán, thiết kế các cụm chi tiết một cách chuẩn xác sẽ giúp cho máy hoạt động ổn định và hiệu quả hơn.
+3.1 Yêu cầu.
+Ban đầu, chọn chế độ làm việc cho máy như sau: Thời gian phục vụ 5 năm, mỗi năm làm việc 300 ngày, mỗi ngày 2 ca, mỗi ca 4 tiếng. Sơ đồ truyền động của hệ thống máy như hình 3.1 và của cụm công tác như hình 3.2 thể hiện vị trí cũng như là mối tương quan của các chi tiết. Dựa vào sơ đồ này, tiến hành tính toán, thiết kế động cơ, bộ truyền đai, vít me – đai ốc bi, con trượt tròn, trục chính và ổ lăn.
+
+1 – Động cơ trục Z; 2 – Bộ truyền vít me – đai ốc bi; 3 – Đầu công tác.
+Hình 3.2: Sơ đồ truyền động của cụm công tác.
+3.2 Tính toán và lựa chọn động cơ cho trục X, Y, Z.
+Máy cắt chữ xốp tự động gồm 3 trục: tịnh tiến theo phương X, tịnh tiến theo phương Y và tịnh tiến theo phương Z. Đồng thời, sử dụng các cơ cấu truyền động: bộ truyền đai răng dẫn động 2 trục X và Y, bộ truyền vít me – đai ốc bi dẫn động trục Z.
+Lựa chọn động cơ bước cho 3 trục theo 3 tiêu chí chính:
+- Momen quán tính.
+- Tốc độ.
+- Momen để kéo tải.
+3.2.1 Tính toán chọn động cơ bước cho trục X.
+Thông số đầu vào:
+- Vận tốc lớn nhất: 02 m/s.
+- Gia tốc: 2 .
+- Khối lượng đầu công tác: kg.
+- Gia tốc trọng trường .
+- Hệ số ma sát của ti trượt và con trượt tròn: μ = 0,03.
+Momen cần để kéo tải:
+(3.1)
+Với hệ số an toàn: .
+Khối lượng bánh đai răng:
+(3.2)
+Trong đó:
+= 2780 : khối lượng riêng của hợp kim nhôm (vật liệu làm bánh đai).
+: bề dày của bánh đai răng với bề rộng của đai là 10 m.
+Momen quán tính của bánh đai răng:
+(3.3)
+Momen quán tính đặt vào trục động cơ:
+- Với 80% momen định mức của động cơ phải lớn hơn momen tải đặt vào trục động cơ thì động cơ mới đủ khả năng để kéo tải:
+Từ đó, chọn động cơ KH56KM2 - 902 với các thông số được cung cấp trong bảng 3.1. Dựa vào đồ thị hình 3.3, với số vòng quay n = 12 vg/ph sẽ ứng với torque tối đa của động cơ để tải được ~0,6 Nm.
+Bảng 3.1: Các thông số động cơ step 2 pha – KH56KM2.
+
+Hình 3.3: Đồ thị thể hiện mối quan hệ giữa tốc độ và khả năng tải của động cơ step KH56KM2 – 902 [18].
+3.2.2 Tính toán chọn động cơ bước cho trục Y.
+Thông số đầu vào:
+- Tốc độ lớn nhất: m/s.
+- Gia tốc: 2.
+- Khối lượng đầu công tác: kg.
+- Gia tốc trọng trường .
+- Hệ số ma sát của thanh trượt và con trượt: μ = 0,03.
+Momen cần để kéo tải tương tự được tính từ công thức (3.1):
+Với hệ số an toàn: .
+Khối lượng bánh đai răng tương tự được tính từ công thức (3.2):
+Trong đó:
+- = 2780 : khối lượng riêng của hợp kim nhôm (vật liệu làm bánh đai).
+- : bề dày của bánh đai răng với bề rộng của đai là 10 mm.
+Momen quán tính của bánh đai răng tương tự được tính từ công thức (3.3):
+Momen quán tính đặt vào trục động cơ:
+- Với 80% momen định mức của động cơ phải lớn hơn momen tải đặt vào trục động cơ thì động cơ mới đủ khả năng để kéo tải:
+Từ đó, chọn động cơ KH56KM2 - 902 với các thông số được cung cấp trong bảng 3.1.
+3.2.3 Tính toán chọn động cơ bước cho trục Z.
+Thông số đầu vào:
+- Vận tốc lớn nhất: Vmax = 0,02 m/s.
+- Gia tốc: a = 2 m/s2.
+- Khối lượng tải: m = 0,5 kg.
+- Gia tốc trọng trường: g = 9,81 m/s2.
+- Lực dọc trục: Fa = 0,5.9,81.0,03 + 0,5.2 + 0,5.9,81 = 6,05215 N.
+- Chiều dài trục vít me: LB = 95 mm.
+- Đường kính của trục vít me: DB = 15 mm.
+- Bước ren: PB = 5 mm.
+- Vật liệu làm vít me:.
+- Quãng đường dịch chuyển cho một vòng quay của vit me: .
+- Hiệu suất của vit me: .
+- Hệ số ma sát của vit me: .
+Momen cần để kéo trục Z tương tự được tính từ công thức (3.1):
+Với hệ số an toàn: .
+Momen quán tính của trục vít me:
+(3.4)
+Momen quán tính của tải:
+(3.5)
+Momen quán tính đặt lên trục động cơ:
+(3.6)
+- Với 80% momen định mức của động cơ phải lớn hơn momen tải đặt vào trục động cơ thì động cơ mới đủ khả năng để kéo tải:
+Từ đó, chọn động cơ 4S56Q – 02542S với các thông số cho trong bảng 3.2.
+Bảng 3.2: Các thông số động cơ step 2 pha – 4S56Q [19].
+3.3 Tính toán bộ truyền.
+3.3.1 Tính toán bộ truyền đai răng trục X.
+Môđun đai răng được xác định theo công thức (3.7):
+(3.7)
+Trong đó:
+- Công suất trên bánh đai chủ động:
+. (3.8)
+là số vòng quay của bánh đai chủ động.
+Chọn mô-đun m = 1,5 và bước răng p = 4,71.
+- Chiều rộng đai được tính theo công thức (3.9):
+(3.9)
+Chọn chiều rộng đai răng b = 10 mm.
+Chọn số răng trên bánh đai chủ động và bị động: răng.
+Theo yêu cầu thiết kế, khoảng cách trục là a = 612 mm.
+Số răng của đai răng là:
+(3.10)
+Đường kính vòng chia của các bánh đai:
+(3.11) (3.12)
+Đường kính ngoài của bánh đai:
+(3.13) (3.14)
+Trong đó, δ là khoảng cách từ đáy răng đến đường trung bình của lớp chịu.
+Kiểm nghiệm đai về lực vòng riêng để tránh cắt chân răng và đứt dây đai khi đó lực vòng riêng trên đai phải thỏa mãn điều kiện:
+(3.15)
+Trong đó:
+- Lực vòng:
+(3.16)
+- Vận tốc đai:
+(3.17)
+: hệ số tải trọng động.
+: khối lượng 1m đai có chiều rộng 1 mm.
+Từ đây tính được:
+(3.18)
+Trong đó:
+- : lực vòng riêng cho thép (Nmm).
+- : hệ số kể đến ảnh hưởng của số răng đồng thời ăn khớp.
+- : hệ số kể đến ảnh hưởng của truyền động tăng tốc.
+Như vậy, điều kiện lực vòng riêng của đai được thỏa mãn.
+Lực tác dụng lên trục:
+(3.19)
+3.3.2 Tính toán bộ truyền đai răng trục Y.
+Tương tự như tính toán bộ truyền đai răng của trục X:
+Với:
+Công suất trên bánh đai chủ động tương tự được tính từ công thức (3.8):
+là số vòng quay của bánh đai chủ động.
+Thì:
+- Môđun đai m = 1,5 và bước răng p = 4,71.
+- Chiều rộng đai răng b = 10 mm.
+- Bánh đai chủ động và bị động: răng.
+- Từ yêu cầu thiết kế, khoảng cách trục là a = 665 mm.
+- Số răng của đai răng là 302 răng.
+Đường kính vòng chia của các bánh đai tương tự được tính từ công thức (3.11), (3.12):
+Đường kính ngoài của bánh đai tương tự được tính từ công thức (3.13), (3.14):
+Kiểm nghiệm đai về lực vòng riêng tương tự được tính từ công thức (3.15) phải thỏa mãn điều kiện:
+Trong đó:
+- Lực vòng tương tự được tính từ công thức (3.16):
+- Vận tốc đai tương tự được tính từ công thức (3.17):
+: hệ số tải trọng động.
+: khối lượng 1m đai có chiều rộng 1 mm.
+Từ đây tính được:
+Như vậy, điều kiện lực vòng riêng của đai được thỏa mãn.
+Lực tác dụng lên trục tương tự được tính từ công thức 3.19:
+3.3.3 Tính toán bộ truyền vít me – đai ốc bi trục Z.
+Thông số đầu vào:
+- Khối lượng tải trục Z: m = 0,5 kg.
+- Vận tốc tối đa trục Z: .
+- Lực dọc trục Fa = 6,05215 N.
+- Hệ số ma sát của vit me: .
+- Vật liệu vít là C45.
+Đường kính trong d1 của ren được tính theo độ bền kéo (hoặc nén):
+(3.20)
+Trong đó:
+Fa = 6,05215 N: là lực dọc trục.
+(3.21)
+Với [] là giới hạn chảy của C45.
+Chọn d1 = 15 mm.
+Đường kính bi db = (0,08 … 0,15)d1 = (0,08 … 0,15).15 = 1,2 … 2,25 mm. (3.22)
+Chọn db = 2 mm.
+Bước vít p = db + (1 … 5) mm = 3 … 7 mm. Chọn bước vít p = 5 mm. (3.23)
+Bán kính rãnh lăn r1 = 0,51 … 0,53 mm. Chọn r1 = 0,51 mm.
+Khoảng cách từ tâm rãnh lăn đến tâm bi:
+(3.24)
+Trong đó là góc tiếp xúc.
+Đường kính vòng tròn qua các tâm bi.
+Dtb = d1 + 2(r1 - c) = 15,32 mm (3.25)
+Đường kính trong của đai ốc:
+D1 = Dtb +2(r1 - c) = 15,64 mm (3.26)
+Số bi trong các vòng ren làm việc:
+(3.27)
+Với K = 1 là số vòng ren làm việc.
+Chọn khe hở hướng tâm:
+trong trường hợp không quy định khe hở hướng tâm.
+Khe hở tương đối . (3.28)
+Kiểm nghiệm về độ bền:
+Tải trọng riêng dọc trục được xác định theo công thức:
+(3.29)
+Với là hệ số phân bố không đều tải trọng cho các viên bi.
+Từ khe hở hướng tâm đã chọn và tải trọng riêng dọc trục, xác định được ứng suất lớn nhất đối với mặt làm việc của vít và đai ốc đạt độ rắn và của bi: .
+3.4 Tính toán và lựa chọn thiết kế con trượt tròn và thanh trượt tròn.
+Việc lựa chọn con trượt tròn phụ thuộc vào đường kính thanh trượt tròn. Vì thế, tiến hành tính toán đường kính cho các thanh trượt tròn dẫn hướng ở các trục. Dựa theo bản thiết kế thì chiều dài các thanh trượt tròn trên các trục X, trục Y lần lượt là 510 mm và 615 mm.
+3.4.1 Tính toán cho trục X.
+Các thông số đầu vào để tính toán:
+- Tốc độ di chuyển: Vmax = 0,02 m/s.
+- Gia tốc: a = 2 m/s2.
+- Khối lượng đầu gắp đặt: mX 3,2 kg.
+Đề tải sử dụng 4 con trượt tròn cho hai cụm X để dẫn hướng cho hai trục được miêu tả như hình 3.4. Các thông số trong hình bên dưới được thể hiện trong bảng 3.3.
+
+
+
+
+
+
+
+
+
+Hình 3.4: Sơ đồ phân bố lực tác dụng lên con trượt theo trục X.
+Bảng 3.3: Các thông số kích thước của cụm X.
+Thông số Ý nghĩa l1x = từ 75 đến 125 mm Phạm vị dao tỉa nhiệt di chuyển. l2x = 54 mm. Khoảng cách theo chiều dọc từ tâm con trượt tròn đến đầu công tác. l3x = 70 mm. Khoảng cách giữa hai trục định hướng. l4x = 42,5 mm. Khoảng cách theo chiều ngang từ tâm con trượt tròn đến đầu công tác.
+Tiến hành tính toán lực và moment để chọn con trượt và thanh trượt tròn.
+Lực tĩnh tác dụng vào con trượt:
+(3.30)
+Lực quán tính sinh ra khi tăng tốc:
+(3.31)
+Lực tác dụng lên con trượt theo phương ngang:
+Momen lớn nhất tác dụng lên con trượt:
+(3.32) (3.33) (3.34)
+......................................
+CHƯƠNG 6: TỔNG KẾT VÀ ĐỊNH HƯỚNG PHÁT TRIỂN CHO ĐỀ TÀI
+Sau khi kết thúc quá trình phân tích và thiết kế máy cắt chữ xốp tự động, chương 6 sẽ tổng kết lại những công việc đã hoàn thành và những hạn chế chưa giải quyết được trong quá trình thực hiện luận văn, đồng thời đề xuất phương án khắc phục và hướng phát triển đề tài trong tương lai.
+6.1 Tổng kết.
+Đề tài đã hoàn thành được các công việc sau:
+- Tìm hiểu tổng quan về các loại máy cắt xốp trên thị trường, từ đó đưa ra được nhu cầu cần phải có một loại máy cắt chữ xốp để có thể cắt được những font chữ phức tạp với các kích thước khác nhau và có giá thành rẻ hơn so với các máy ngoại nhập.
+- Phân tích và đưa ra các phương án lựa chọn kết cấu cơ khí, cơ cấu truyền động, lựa chọn động cơ, mạch công suất driver, các loại cảm biến, cấu trúc điều khiển và bộ điều khiển của bàn máy. Đánh giá và so sánh giữa các phương án với nhau, từ đó lựa chọn được phương án phù hợp.
+- Phân tích, tính toán và thiết kế cơ khí các cụm chi tiết để cấu thành nên bàn máy cắt chữ xốp tự động. Tính toán, lựa chọn động cơ có công suất phù hợp. Tính bền bộ truyền đai răng, bộ truyền vít me – đai ốc bi, trục chính và ổ lăn. Xây dựng mô hình 3D bằng phần mềm SolidWorks và hoàn thành sản phẩm máy thực tế.
+- Tìm hiểu và phân tích các thành phần thiết bị điện như: Arduino, cảm biến, mạch công suất động cơ, relay, dao nhiệt tỉa xốp và nguồn điện. Thiết kế sơ đồ nguyên lý và sơ đồ khối hệ thống mạch điện để kết nối các thiết bị đó lại với nhau. Từ đó, thiết kế được board mạch dành riêng cho máy cắt chữ xốp tự động.
+- Xây dựng giải thuật xác định chiều cao chữ cho mục đích chuyển đổi hệ tọa độ pixel của chữ sang hệ tọa độ milimet của bàn máy.
+- Thiết kế và xây dựng giải thuật xác định tọa độ điểm bắt đầu và kết thúc của quá trình cắt cho cả ba trường hợp của chữ.
+- Tìm hiểu và áp dụng thành công giải thuật nội suy bậc thang để bàn máy di chuyển từ điểm tới điểm cho mục đích cắt đường biên của chữ.
+- Xây dựng chương trình điều khiển cho bàn máy trên C# và tiến hành thực nghiệm kiểm tra các giải thuật. Khảo sát được ảnh hưởng nhiệt độ của dao đến xốp và bù dao. Kết quả thực nghiệm cho thấy bàn máy có thể cắt được tất cả các font chữ dành cho Windows với các kích thước chiều cao khác nhau.
+Những hạn chế của đề tài:
+- Sử dụng động cơ và bộ điều khiển có chất lượng không tốt nên việc điều khiển không mượt và chạy ở tốc độ thấp.
+- Do không đủ kinh phí nên mô hình có một số chi tiết làm bằng nhựa và mica nên độ bền và độ cứng vững không cao. Đầu công tác còn bị rung động khi di chuyển.
+- Do đặc trưng của giải thuật nội suy bậc thang nên sản phẩm được cắt ra không mượt và mịn, bề mặt cắt của sản phẩm còn bị thô và xấu.
+- Công suất của dao nhiệt tỉa xốp chưa cao nên làm tăng thời gian cắt chữ.
+- Mùi của xốp bị cắt ra có hại cho phổi nhưng máy cắt chưa có bộ phận bảo vệ người khỏi khói của xốp.
+6.2 Định hướng phát triển đề tài MÁY CẮT CHỮ XỐP DẠNG TRỤC ĐỨNG.
+Dựa vào những kết quả đạt được và hạn chế còn tồn tại nêu trên, đề tài có những định hướng phát triển để khắc phục như sau:
+- Để bề mặt cắt của sản phẩm mịn và mượt bằng cách sử dụng bộ điều khiển có cấu hình cao hơn và phát triển giải thuật điều khiển vận tốc động cơ thay vì bắn từng xung như đề tài đã thực hiện.
+- Phát triển ứng dụng cắt hình 2D và 3D bằng xốp vì trên bàn máy đã được thiết kế sẵn ba trục và ứng dụng này hoàn toàn có thể thực hiện được.
+- Thay thế dao nhiệt tỉa xốp bằng đầu dao khác có công suất mạnh hơn để giảm thời gian cắt. Dao nhiệt tỉa xốp có thể được thay thế bằng đầu công tác khác để phục vụ cho từng mục đích khác nhau (ví dụ: máy viết chữ, máy phay CNC mini, máy cắt vải…).
+- Thiết kế thêm bộ phận hút khói cho máy cắt để bảo vệ người sử dụng trong quá trình máy làm việc.
+ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH
+TRƯỜNG ĐẠI HỌC BÁCH KHOA
+KHOA CƠ KHÍ
+BỘ MÔN CƠ ĐIỆN TỬ
+
+LUẬN VĂN TỐT NGHIỆP ĐẠI HỌC
+
+PHÂN TÍCH VÀ THIẾT KẾ
+MÁY CẮT CHỮ
+LỜI CẢM ƠN
+Qua quá trình học tập tại trường Đại học Bách Khoa TPHCM, em đã tiếp thu được rất nhiều kiến thức hay từ quý thầy cô và bạn bè. Luận văn tốt nghiệp là giai đoạn cuối của một sinh viên cần phải trải qua sau những năm tháng học tập, là dịp để sinh viên áp dụng những kiến thức đã học và việc giải quyết các vấn đề kỹ thuật. Để hoàn thành luận văn tốt nghiệp, đó không chỉ là sự cố gắng của bản thân sinh viên mà còn nhờ vào sự chỉ dẫn, ủng hộ của thầy cô, gia đình và bạn bè. Thông qua luận văn tốt nghiệp, em xin gửi lời cảm ơn đến tất cả những người đã quan tâm và giúp đỡ em trong những năm tháng học đại học:
+Lời đầu tiên, em xin gửi lời cảm ơn chân thành và sâu sắc nhất đến thầy Phạm Công Bằng, người đã tận tình hướng dẫn chỉ bảo em trong suốt quá trình thực hiện luận văn tốt nghiệp. Những ý tưởng và lời nhận xét quý báu của thầy đã giúp em nhận ra được những thiếu sót để hoàn thiện luận văn tốt nghiệp của mình.
+Tiếp theo, em xin gửi lời cảm ơn đến tất cả quý thầy/cô trong khoa cơ khí cũng như quý thầy/cô ở trường Đại học Bách Khoa TPHCM đã giúp đỡ em trang bị được những kiến thức quý báu trong suốt quá trình học tập tại trường.
+Bên cạnh đó, em xin gửi lời cảm ơn đến tất cả các bạn trong lớp CK13KSCD, CK13KSTN và CK13CK11. Người xưa có câu: “Học thầy không tày học bạn”. Quả thật là như vậy! Các bạn đã rất nhiệt tình giúp đỡ, bổ túc kiến thức và động viên em trong suốt quá trình học tập tại trường và làm luận văn.
+Lời sau cùng, con xin gửi lời cảm ơn sâu sắc nhất đến Ba và Mẹ. Gia đình luôn là nguồn động lực của con để con có thể tiếp tục cố gắng và hoàn thiện mình trong suốt quá trình học tập từ nhỏ đến lớn và trên những con đường tiếp theo trong cuộc sống này.
+
+TÓM TẮT LUẬN VĂN MÁY CẮT CHỮ XỐP DẠNG TRỤC ĐỨNG
+Đề tài: “Phân tích và thiết kế máy cắt chữ”
+Hiện nay, nhu cầu sử dụng vật liệu xốp để cắt chữ phục vụ cho ngành công nghiệp trang trí đang ngày càng cao và rất có tiềm năng. Các máy cắt chữ xốp trên thị trường hiện nay thường có nguồn gốc ngoại nhập và khá đắt tiền. Do đó, nhu cầu được đặt ra về một máy cắt chữ xốp có giá thành rẻ những vẫn đảm bảo được yêu cầu sản phẩm. Chính vì thế, luận văn này tập trung vào việc phân tích, thiết kế và chế tạo bàn máy có thể cắt ra được những chữ cái bằng vật liệu xốp có các font chữ đa dạng với các kích thước khác nhau và xây dựng giao diện chương trình điều khiển phục vụ cho việc cắt chữ xốp.
+
+LUẬN VĂN TỐT NGHIỆP ĐẠI HỌC KHOA CƠ KHÍ BỘ MÔN CƠ ĐIỆN TỬ

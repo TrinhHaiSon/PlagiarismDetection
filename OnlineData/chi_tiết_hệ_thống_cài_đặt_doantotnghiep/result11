@@ -1,0 +1,470 @@
+ĐỒ ÁN TỐT NGHIỆP
+BỘ THÍ NGHIỆM MULTILAB KỸ THUẬT ĐO CÁC THÔNG SỐ ĐIỆN
+MỞ ĐẦU
+Đo lường là một trong những lĩnh vực hết sức quan trọng và cần thiết trong các ngành khoa học công nghệ và đời sống. Đặt biệt trong lĩnh vực đo lường và điều khiển nó càng thể hiện tầm quan trọng của mình. Nhận thấy tầm quan trọng này, vừa qua bộ môn đã nhập hàng loạt các thiết bị thí nghiệm về đo lường và điều khiển của Lucas-Nülle nhằm giúp sinh viên - học sinh hiểu rõ hơn về các kỹ thuật đo lường và điều khiển .
+Do đây là thiết bị mới được nhập về còn tương đối mới và chương trình được soạn bằng tiếng Anh nên gây không ít khó khăn cho viêc nghiên cứu học tập của sinh viên – học sinh. Vì vậy em chọn đề tài này làm đồ án tốt nghiệp. Với nhiệm vụ tạo ra phiên bảng tiếng Việt và đáp án chuẩn nhằm giúp các bạn sinh viên thuận lợi hơn trong quá trình học tập nghiên cứu, đồng thời nó còn giúp em có cơ hội cũng cố lại các kiến thức đã được học trước khi ra trường.
+Trong quá trình thực hiện dù đã hết sức cố gắng, tuy nhiên do hạn chế về trình độ ngoại ngữ, về thời gian và trình độ chuyên môn nên trong quá trình làm đồ án không tránh khỏi những sai sót nhất định. Rất mong nhận được sự thông cảm, góp ý và chỉ bảo chân tình của quý thầy cô và các bạn.
+MỤC LỤC
+
+Mở đầu: Trang
+Chương 1. GIỚI THIỆU TỔNG QUÁT VỀ ĐO CÁC THÔNG SỐ ĐIỆN ............................... 1
+1.1 MỤC TIÊU ĐÀO TẠO................................................................................................... 1
+1.2 THIẾT BỊ ......................................................................................................................... 3
+1.2.1 THẺ SO4203-5J.................................................................................................. 4
+1.2.2 THẺ SO4203-5K................................................................................................. 6
+1.3 ĐO GIÁ TRỊ ĐIỆN ......................................................................................................... 8
+1.4 HỆ THỐNG ĐO LƯỜNG SI.......................................................................................... 9
+Chương 2. THIẾT BỊ ĐO DÒNG ĐIỆN VÀ ĐIỆN ÁP Ở DẠNG ANALOG.......................... 11
+2.1 ĐIỆN KẾ CÓ CUỘN DÂY ĐỘNG............................................................................. 12
+2.1.1 TÌM HIỂU VỀ ĐIỆN KẾ CÓ CUỘN DÂY ĐỘNG ..................................... 12
+2.1.2 ĐIỆN KẾ CÓ CUỘN DÂY ĐỘNG VÀ ĐIỆN AC....................................... 13
+2.1.3 THÍ NGHIỆM ĐIỆN KẾ CÓ CUỘN DÂY ĐỘNG ...................................... 14
+2.2 ĐIỆN KẾ CÓ LÕI SẮT ĐỘNG .................................................................................. 17
+2.2.1 TÌM HIỂU VỀ ĐIỆN KẾ CÓ LÕI SẮT ĐỘNG ........................................... 17
+2.2.2 THÍ NGHIỆM ĐIỆN KẾ CÓ LÕI SẮT ĐỘNG ............................................ 18
+2.3 ĐO ĐIỆN ÁP VÀ DÒNG ĐIỆN................................................................................... 21
+2.3.1 KẾT NỐI CÁC AM-PE KẾ VÀ VOL KẾ...................................................... 21
+2.3.2 ĐO ĐIỆN ÁP.................................................................................................... 21
+2.3.2.1 CHỌN LỰA TẦM ĐO ĐIỆN ÁP..................................................... 21
+2.3.2.2 ĐA TẦM ĐO ĐIỆN ÁP.................................................................... 22
+2.3.2.3 THÍ NGHIỆM - ĐO ĐIỆN ÁP......................................................... 23
+2.3.3 ĐO DÒNG ĐIỆN ............................................................................................ 26
+2.3.3.1 LỰA CHỌN TẦM ĐO DÒNG ĐIỆN.............................................. 26
+2.3.3.2 ĐA TẦM ĐO DÒNG ĐIỆN............................................................. 27
+2.3.3.3 THÍ NGHIỆM - ĐO DÒNG ĐIỆN.................................................. 28
+2.4 DẠNG SÓNG VÀ ĐO LƯỜNG................................................................................... 31
+2.4.1 ẢNH HƯỞNG CỦA CÁC DẠNG SÓNG KHÁC NHAU............................ 31
+2.4.2.1 GIÁ TRỊ TRUNG BÌNH CỘNG...................................................... 32
+2.4.2.2 GIÁ TRỊ TRUNG BÌNH CHỈNH LƯU........................................... 32
+2.4.2.3 GIÁ TRỊ HIỆU DỤNG..................................................................... 33
+2.4.2.4 HỆ SỐ HÌNH DẠNG VÀ HỆ SỐ ĐỈNH........................................ 34
+2.4.3 THÍ NGHIỆM - DẠNG SÓNG....................................................................... 35
+2.5 TRỞ NỘI......................................................................................................................... 38
+2.6 ĐO CHÍNH XÁC DÒNG ĐIỆN HOẶC ĐIỆN ÁP
+2.6.1 CÁC CẤP CHÍNH XÁC................................................................................. 39
+2.6.2 MẠCH TỐI ƯU HÓA DÒNG ĐIỆN HOẶC ĐIỆN ÁP................................ 40
+2.6.3 THÍ NGHIỆM - HIỆU CHỈNH ĐO ĐIỆN ÁP CHÍNH XÁC TRONG MẠCH TỐI ƯU HÓA DÒNG ĐIỆN..................................................................................................................................... 41
+2.7 ĐIỆN KẾ ĐIỆN ĐỘNG HỌC...................................................................................... 44
+2.8 KIỂM TRA - ĐỒNG HỒ ANALOG VÀ ĐIỆN KẾ.................................................. 45
+Chương 3 ĐO CÔNG SUẤT.......................................................................................................... 47
+3.1 ĐO CÔNG SUẤT ĐIỆN .............................................................................................. 47
+3.2 CÔNG SUẤT TRONG MẠCH DC............................................................................. 48
+3.3 CÔNG SUẤT TRONG MẠCH AC............................................................................. 50
+3.4 THÍ NGHIỆM - CÔNG SUẤT TRONG MẠCH AC................................................ 51
+3.5 ĐO CÔNG SUẤT VỚI DAO ĐỘNG KẾ.................................................................... 54
+3.6 KIỀN TRA - ĐO CÔNG SUẤT................................................................................... 58
+Chương 4 ĐO ĐIỆN NĂNG........................................................................................................... 60
+4.1 ĐO ĐIỆN NĂNG........................................................................................................... 60
+4.2 NGUYÊN TẮC ĐO....................................................................................................... 61
+4.3 THÍ NGHIỆM- ĐO ĐIỆN NĂNG................................................................................ 62
+4.4 KIỂM TRA - ĐO ĐIỆN NĂNG................................................................................... 64
+Chương 5 ĐO HỆ SỐ CÔNG SUẤT ........................................................................................... 66
+5.1 ĐO HỆ SỐ CÔNG SUẤT ............................................................................................. 66
+5.2 NGUYÊN TẮC ĐO HỆ SỐ CÔNG SUẤT................................................................. 68
+5.3 THÍ NGHIỆM - ĐO HỆ SỐ CÔNG SUẤT................................................................. 69
+5.4 KIỂM TRA - ĐO HỆ SỐ CÔNG SUẤT..................................................................... 73
+Chương 6 ĐO TẦN SỐ.................................................................................................................... 74
+6.1 ĐO TẦN SỐ.................................................................................................................... 74
+6.2 NGUYÊN TẮC ĐO TẦN SỐ....................................................................................... 75
+6.3 THÍ NGHIỆM ĐO TẦN SỐ......................................................................................... 76
+6.4 KIỂM TRA - ĐO TẦN SỐ............................................................................................ 70
+Chương 7 VẤN ĐỀ BẢN QUYỀN ............................................................................................... 80
+Chương 8 KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN ĐỀ TÀI................................................... 82
+DANH MỤC CÁC BẢNG, SƠ ĐỒ, HÌNH
+BẢNG
+Bảng 1.1: Hệ thống các đơn vị SI ................................................................................................... 9
+Bảng 1.2 : Các đơn vị mở rộng từ hệ SI....................................................................................... 10
+Bảng 2.2 : Cách chia loại thiết bị ................................................................................................. 40
+Bảng 3.1 : Ba loại công suất ......................................................................................................... 50
+HÌNH
+Hình 1.1 : Thẻ SO4203-5J................................................................................................................ 4
+Hình 1.2 : Thẻ SO4203-5K ............................................................................................................. 6
+Hình 2.1 : Điện kế có cuộn dây động .......................................................................................... 12
+Hình 2.2 : Thiết lập thí nghiệm điện kế có cuộn dây động ..................................................... 14
+Hình 2.3 : Nguồn DC .................................................................................................................... 14
+Hình 2.4 : Máy phát hàm ............................................................................................................... 16
+Hình 2.5 : Điện kế có lõi sắt động ............................................................................................... 17
+Hình 2.6 : Thiết lập thí nghiệm điện kế có lõi sắt động .......................................................... 18
+Hình 2.7 : Điện kế ảo có lõi sắt động ...................................................................................... 18
+Hình 2.8 : Nguồn DC ảo ................................................................................................................ 19
+Hình 2.9 : Máy phát hàm .............................................................................................................. 20
+Hình 2.10 : Cách mắc vol kế đo điện áp ..................................................................................... 21
+Hình 2.11 : Cách mắc vol kế đo điện áp ..................................................................................... 21
+Hình 2.12 : Cách mắc các trỏ nội trong vol kế. ......................................................................... 22
+Hình 2.13 : Thiết lập thí ngiệm đo điện áp ................................................................................. 23
+Hình 2.14 : Nguồn DC ảo. ............................................................................................................. 24
+Hình 2.15 : Cách mắc trở nội trong ampe kế. ............................................................................. 27
+Hình 2.16 : Thiết lập thí nghiệm đo dòng điện . ........................................................................ 29
+Hình 2.17 : Các dạng sóng khác nhau ......................................................................................... 32
+Hình 2.18 : Hệ số hình dạng với các dạng sóng ........................................................................ 34
+Hình 2.19 : Thiết lập thí nghiệm dạng sóng................................................................................ 35
+Hình 2.20 : Điện kế có lõi sắt động ảo......................................................................................... 37
+Hình 2.21 : Máy phát hàm tùy chọn............................................................................................. 37
+Hình 2.22 : Một thiết bị đo ........................................................................................................... 38
+Hình 2.23 : Một thiết bị đo ........................................................................................................... 39
+Hình 2.24 : Mạch tối ưu hóa dòng điện ...................................................................................... 40
+Hình 2.25 : Mạch tối ưu hóa điện áp ........................................................................................... 40
+Hình 2.26 : Sơ đồ nguyên lý ........................................................................................................ 41
+Hình 2.27 : Thiết lập đo điện áp chính xác ................................................................................ 42
+Hình 2.28 : Vol kế A ...................................................................................................................... 42
+Hình 2.29 : Điện kế điện động học .............................................................................................. 45
+Hình 3.1 : Sơ đồ nguyên lý trong thí nghiệm đo công suất..................................................... 49
+Hình 3.2 : Thiết lập thí nghiệm đo công suất ............................................................................ 50
+Hình 3.3 : Nguồn DC ..................................................................................................................... 50
+Bảng 3.1 : Ba loại công suất. ........................................................................................................ 50
+Hình 3.4 : Sơ đồ nguyên lý trong thí nghiệm đo công suất mạch AC .................................... 51
+Hình 3.5 : Thiết lập trong thí nghiệm đo công suất AC............................................................. 52
+Hình 3.6 : Máy phát hàm .............................................................................................................. 52
+Hình 3.7 : Đồng hồ đo công suất ................................................................................................. 52
+Hình 3.8 : Sơ đồ nguyên lý khi đo công suất bằng dao động kế ............................................. 54
+Hình 3.9 : Thiết lập khi đo công suất bằng dao động kế .......................................................... 55
+Hình 3.10 : Máy phát hàm ............................................................................................................ 55
+Hình 3.11 : Dao động kế .............................................................................................................. 55
+Hình 3.12 : Dạng sóng của dòng điện và điện áp ,công suất và điện áp qua tải trở ............. 56
+Hình 3.13 : Dạng sóng của dòng điện và điện áp ,công suất và điện áp qua tải dung.......... 56
+Hình 3.14 : Dạng sóng của dòng điện và điện áp ,công suất và điện áp qua tải cảm ........... 57
+Hình 4.1 : Thiết bị đo điện năng ................................................................................................. 60
+Hình 4.2 : Nguyên tắc đo điện ...................................................................................................... 61
+Hình 4.3 : Cách kết nối trong thí nghiệm đo điện năng ............................................................ 62
+Hình 4.4 : Thiết lập trong thí nghiệm đo điện năng................................................................... 62
+Hình 4.5 : Máy phát hàm ............................................................................................................... 63
+Hình 4.6 : Đồng hồ điện ................................................................................................................ 63
+Hình 5.1 : Nguyên tắc đo hệ số công suất .................................................................................. 68
+Hình 5.2 : Cách kết nối trong thí nghiệm đo hệ số công suất . ................................................ 69
+Hình 5.3 : Thết lập trong thí nghiệm đo điện áp ........................................................................ 70
+Hình 5.4 : Máy phát hàm .............................................................................................................. 70
+Hình 5.5 : Dao dộng kế .................................................................................................................. 71
+Hình 6.1 : Thiết bị đo tần số ......................................................................................................... 74
+Hình 6.2 : Sơ đờ đo tần số ............................................................................................................. 75
+Hình 6.3 : Thiết lập trong thí nghiệm đo tần số ......................................................................... 76
+Hình 6.4 : Máy phát hàm .............................................................................................................. 76
+Hình 6.5 : Dao động kế ................................................................................................................. 77
+Chương 1. GIỚI THIỆU TỔNG QUÁT VỀ ĐO CÁC THÔNG SỐ ĐIỆN
+
+MỤC TIÊU ĐÀO TẠO
+Chào mừng đến với UniTrain-I hướng đi số 1 của công nghệ đo lường: Đo các đại lượng điện. Nhóm Lucas-NÜLLE mong muốn mang đến cho bạn nhiều niềm vui và thành công trong công việc thông qua các khóa học và thực hiện các bài thí nghiệm. Các trang theo sau cung cấp cho bạn một bản tóm tắt nội dung khóa học và trang thiết bị cần thiết
+Khóa học cung cấp một bản tóm tắt chung của cả hai kỹ thuật đo lường cổ điển và hiện đại được sử dụng để đo lường điện. Điều này bao gồm giải thích về tất cả lý thuyết các bài có liên quan, nguyên tắc đo và được giải thích trong các phần giảng giải cũng như trong các thí nghiệm kiểm tra.
+Nội dung đào tạo
+Hiểu được cách làm việc của điện kế Phân biệt giữa phương pháp đo bằng độ lệch và đo bằng cầu Sự khác biệt giữa các phép đo tương tự và kỹ thuật số. Sự khác biệt giữa điện kế có lỗi sắt và điện kế có cuộn dây Máy đo điện làm việc như thế nào Thay đổi thang đo với đo điện áp và đo dòng điện. Nguyên tắc đo điện Đo công suất biểu kiến, đo công suất phản kháng và công suất tác dụng Nguyên tắc đo hệ số công suất Đo hệ số công suất Hiểu về công việc đo lường điện Công việc đo lường điện. Hiểu về tần số được đo. Đo tần số.
+Yêu cầu cho việc hoàn tất khóa học
+Nguyên tắc cơ bản của kĩ thuật AC và DC Nguyên tắc cơ bản của công nghệ kỹ thuật số
+THIẾT BỊ
+Thẻ SO4203-2A UniTrain-I giao diện Thẻ SO4203-2B 2 x UniTrain-I thí nghiệm Thẻ SO4203-5J UniTrain-I "Đo dòng điện và điện áp " Thẻ O4203-5K UniTrain-I "Đo công suất, cosφ và tần số" Thẻ SO5146-1L UniTrain-I bộ dây cáp Thẻ SO5124-7B Kết nối phích cắm
+THẺ SO4203-5J
+Thẻ SO4203-5 J " Đo dòng điện và điện áp" mạch chứa đựng những thành phần cho mục đích sau đây :
+Đo điện áp và dòng điện với một dụng cụ đo lường tương tự (analog) Mở rộng phạm vi đo Các tải trở, tải dung và tải kháng khác nhau
+Cảnh báo:
+Thẻ và thiết bị đo chỉ được thiết kế để sử dụng cho an toàn với điện áp thấp. Vì lý do này bạn chỉ nên sử dụng điện áp cung cấp bởi hệ thống UniTrain I. Không bao giờ kết nối với nguồn điện áp khác với nguồn được cung cấp bởi hệ thống Unitrain I-.
+Thành phần trong thẻ
+Tải gồm hai bóng đèn sợi đốt độc lập được kết nối 12 V / 2 W Tải gồm hai điện trở độc lập được kết nối là
+Hình 1.1 : Thẻ SO4203-5J
+100 Ω và 470 Ω
+Tải gồm hai tụ điện độc lập được kết nối là 2.2µF và 4.7µF Tải gồm hai cuộn dây độc lập được kết nối là 2 x 100mH Điện kế có cuộn dây với lõi từ hiển thị cả dạng số và dạng analog Được sử dụng như một dụng cụ analog trong những thí nghiệm để đo dòng điện, điện áp, công suất và hệ số công suất Ngõ vào của điện kế được đưa qua một mạch bảo vệ quá dòng và có tầm đo được mở rộng. Mở rộng phạm vi cho phép đo điện áp, cung cấp thêm bốn thang đo: 1 V, 2 V, 5 V và 10 V Mở rộng phạm vi cho phép đo dòng điện ,cung cấp thêm bốn thang đo : 50 mA, 100 mA, 200 mA và 500 mA
+Thông số kỹ thuật
+Điện kế :
+Điện kế sử dụng điện kế có cuộn dây động Trở nội1180 W Định mức đo được dòng điện lớn nhất 400 µA Định mức đo được điện áp lớn nhất 0.472 V Diode hạn dòng và điện trở bảo vệ Thiết bị chịu được điện áp lên tới 24V Sai số Max 10% của giá trị lớn nhất trên bề mặt đo
+Mạch bảo vệ và mở rộng phạm vi đo:
+Điện trở phụ kèm theo là để mở rộng phạm vi đo và dode là để bảo vệ quá dòng lên đến 0.7 A
+Kích thước:
+160 x 100 mm (chiều rộng x chiều cao)
+1.2.2 THẺ SO4203-5K
+Thẻ SO4203-5K "đo công suất, cos φ ( hệ số công suất ), và tần số" có ba bảng mạch cho các thí nghiệm trên để đo lường các biến sau .
+Công suất phản kháng, công suất biểu kiến và công suất thực Hệ số công suất Cos Tần số
+Cảnh báo:
+Thẻ và thiết bị đo chỉ được thiết kế để sử dụng cho an toàn với điện áp thấp. Vì lý do này bạn chỉ nên sử dụng điện áp cung cấp bởi hệ thống UniTrain I-. Không bao giờ kết nối với nguồn điện áp bên ngoài khác với nguồn được cung cấp bởi của hệ thống Unitrain I .
+Hình 1.2 : Thẻ SO4203-5K
+Các thành phần trong thẻ
+Bộ phát xung với f=1Hz để tạo ra chu kỳ lựa chọn Tín hiệu kích Schimtt để đo hệ số cos φ. điện trở 10Ω giữa tín hiệu vào và nối đất Cổng AND cho tín hiệu điện áp và dòng điện . Chốt điện cảm/điện dung và LED hiển thị Dòng điện vào để đo công suất. Một điện trở 10Ω giữa tín hiệu vào và nối đất. Dòng điện vào được khuếch đại dến 10 lần . Bộ nhân tín hiệu từ hai ngỏ ra để kết nối với thiết bị hiển thị . Điện áp vào kích Schmitt để đo cos φ . Mạch lấy trung bình hệ số cos φ để kết nối điện kế analog Điện áp vào kích Schmitt để đo tần số . Bộ chuyển đổi BCD/Led 7 đoạn- hiển thị Led 7 đoạn Ngỏ vào của bộ đếm Hai bộ đếm thập phân với bộ chuyển đổi Điện áp vào để đo công suất .
+Thông số kỹ thuật
+Điện áp vào :
+Đo điện áp 0... 10 V
+Chiu quá áp lên đến 15V
+Dòng điện vào :
+Đo dòng điện 0... 100 mA
+Chịu quá dòng lên đến 250 mA
+Đo công suất:
+Đầu ra : u1 = u·i·k; khi k = 10/A
+0 ... 1 VA ứng với 0 ... 10 V
+Đo hệ số Cos φ (hệ số công suất):
+Nguyên tắc: xác định mức offset vượt so với ngưỡng zero
+Đo giá trị hệ số công suất từ 0….1 theo cả 2 chiều(± 90°)
+Đo tần số :
+Đo tần số từ 0...99 Hz
+Kích thước : 160 x 100 mm (rộng x cao)
+1.3 ĐO GIÁ TRỊ ĐIỆN
+Từ Hy Lạp cổ đại đến thế kỹ XX
+Thậm chí vào đầu thế kỷ thứ VI trước công nguyên người Hy Lạp cổ đại đã quan sát được lực và quá trình giữa điện và từ. Tuy nhiên, phải mất hơn một ngàn năm trước khi loài người thành thạo việc sử dụng các dụng cụ điện đầu tiên là la bàn. Vào cuối thế kỷ XIX, khi kỹ thuật điện đã đạt được tầm quan trọng trong kinh tế với việc giới thiệu động cơ điện và ánh sáng điện, sự sẵn sàng của dụng cụ đo điện như ampe kế, vol kế , ohm kế và wat kế là một trong những điều kiện tiên quyết quan trọng .
+Ngày nay hầu như không có bất kỳ quy trình kỹ thuật, sản xuất công nghiệp hoặc các cơ chế kiểm soát chất lượng nào có thể làm việc mà không đo lường giá trị điện. Cũng giống với sự nghiên cứu và phát triển các ở phòng thí nghiệm
+Những giá trị điện và đặc điểm thành phần sẽ được đo trong những bài học của khóa học này bằng cách sử dụng các kỹ thuật đo lường
+Phương pháp độ lệch dùng điên kế analog không nguồn (thụ động)
+Dòng điện một chiều và dòng điện xoay chiều. Điện áp AC và DC
+Analog, phương pháp điện tử bằng cách sử dụng một điện kế analog
+Công sất biểu kiến, công suất hư kháng và công suất thực Hệ số công suất
+Lượng tử và hiển thị số
+Tần số
+Analog, phương pháp điện tử bằng cách sử dụng máy đếm hiện số
+Hoạt động
+1.4 HỆ THỐNG ĐO LƯỜNG SI (SI system )
+Ngay cả các giá tri điện, đo lường bao gồm so sánh nó với các giá trị đã được biết
+Các giá trị để so sánh là chính xác và không đổi. Nó được xác định trong một hệ thống của đơn vị quốc tế.
+Hệ thống các đơn vị đươc gọi là hệ thống SI (Systéme International d'Unités-Hệ thống đo lường quốc tế).
+Các giá trị cơ bản, đơn vị và định nghĩa cho các hệ thống đo lường SI
+Biến Đơn vị Ký hiệu Định nghĩa Đô dài Mét m Chiều dài quãng đường đi được của một tia sáng trong chân không trong khoảng thời gian 1 / 299 792 458 giây Khối lượng Kilogram kg Xác định bởi một kilôgam nguyên mẫu (mẫu đầu tiên) (Quả cân hình trụ bằng bạch kim) Thời gian Giây s Chu kỳ được xác định bởi bức xạ từ một nguyên tử nhất định. Dòng điện Ampe A Xác định dưới dạng lực từ giữa hai dây Nhiệt độ tuyệt đối Kelvin K 1/273.16 nhiệt độ nhiệt động học tại điểm cân bằng ba trạng thái của nước Cường đô ánh sáng Candela cd Độ sáng của một vật đen Số hạt Mole Mol Số lượng của các hạt carbon 12
+
+Bảng 1.1: Hệ thống các đơn vị SI
+Các đơn vị khác có nguồn gốc từ các đơn vị cơ bản. Dưới đây là một số ví dụ trong kỹ thuật điện :
+Đại lượng vật lý Đơn vị Ký hiệu Định nghĩa Điện áp Volt V 1 V = 1 J / C Điện tích Culông - Coulomb C 1 C = 1 A· s Điện dung Farad F 1 F = 1 A· s / V
+
+Bảng 1. 2 :Các đơn vị mở rộng từ hệ SI
+Chương 2. THIẾT BỊ ĐO DÒNG ĐIỆN VÀ ĐIỆN ÁP Ở DẠNG ANALOG
+Điện kế analog vẫn còn được dùng để hiển thị cho các phép đo khác nhau. Điện kế như vậy thì tốt hơn các màn hình kỹ thuật số, vì nó rất dễ để xác định hướng. Một số loại thiết bị số sau đây thường được sử dụng .
+Điện kế có cuộn dây động Điện kế có lõi sắt động Điện kế điện động
+Hình trên cho thấy một đồng hồ vạn năng trong "lịch sử", ngày nay nó không còn sử dụng vì nó không đáp ứng được các tiêu chuẩn về an toàn .
+Các đặt tính của của điện kế sẽ được trình bày cụ thể trong các phần sau.
+2.1 ĐIỆN KẾ CÓ CUỘN DÂY ĐỘNG
+2.1.1 TÌM HIỂU VỀ ĐIỆN KẾ CÓ CUỘN DÂY ĐỘNG
+Nó hoạt động hư thế nào?
+Điện kế có cuộn dây động hiển thị dòng điện bằng cách chuyển đổi cường độ dòng điện thành một lệch tương ứng của cây kim trên bề mặt. Một cuộn dây quay (9) được đặt bên trong các cực của một nam châm (5 = cực nam, 6 = cực bắc). Hai lò xo tạo (3, 4) không chỉ cho dòng điện đi vào mà còn cung cấp lực phục hồi trở lại cho cuộn dây vào vị trí ban đầu khi nó không hoạt động. Nếu dòng điện đi
+qua các cuộn dây thông qua các ổ cắm đầu vào Hình 2.1: Điện kế có cuộn dây động
+(1, 2), lực tác dụng trên các cuộn dây (lực Lorentz) để nó quay quanh trục của nó cho đến khi lực của lò xo ngăn chặn nó quay xa hơn nữa. Lực đó làm cho cuộn dây dừng lại và dòng điện được hiển thị trên mặt quay có số bởi một cây kim gắn liền với cuộn dây. Nếu dòng điện bị ngắt, lực lò xo làm kim trở về số 0.
+Đo điện áp
+Mặc dù độ lệch của điện kế có cuộn dây động là tỷ lệ thuận với dòng điện, điện áp cũng có thể được đo từ đó vì các trở nội của cuộn dây là không đổi. Định luật Ohm cho phép điện áp có thể được tính từ dòng điện
+Ký hiệu
+Ký hiệu này được miêu tả trên mặt số của vôn kế để chỉ rằng đây là một đồng hồ đo điện kế có cuộn dây động .
+Thuộc tính
+Điện kế có cuộn dây động, kim dịch chuyển tuyến tính. Điện kế hiển thi giá trị trung bình của dòng điện . Điện kế có cuộn dây động phụ thuộc vào sự phân cực, tức là nếu cực được đảo ngược, thì kim cũng đảo ngược lại. Trên một số điện kế có số 0 ở giữa mặt số để cho các dòng điện ngược chiều nhau cũng có thể được hiển thị. Nếu số 0 ở một đầu của măt số, điện kế chỉ có thể được dùng để đo dòng điện một chiều. Điện kế có cuộn dây động chỉ thích hợp để đo dòng điện một chiều.
+2.1.2 ĐIỆN KẾ CÓ CUỘN DÂY ĐỘNG VÀ ĐIỆN AC.
+Khi ở tần số rất thấp, kim điện kế cho thấy sự thay đổi các giá trị tức thời của dòng điện. Tại các tần số đủ cao, ví dụ, các tần số lưới điện 50-60 Hz với tần số cao như vậy do quán tính cơ học của kim nó không còn thể hiện chính xác dòng điện, vì vậy kim sẽ ở một giá trị tương ứng với một giá trị trung bình theo thời gian. Đối với các phép đo AC, giá trị trung bình này là số 0.
+Tuy nhiên, biên độ của dòng và điện áp xoay chiều vẫn có thể được đo bằng cách kết nối với một mạch chỉnh lưu. Mạch này chuyển đổi tín hiệu AC thành tín hiệu DC với một số gợn sóng. Các doiod chỉnh lưu tạo thành một cầu chỉnh lưu (Gratz mạch) và có điện áp ngưỡng nhỏ nhất có thể.
+Sau đó điện kế đo các giá trị DC, tức là giá trị trung bình theo thời gian của các dòng điện đã chỉnh lưu. Khi thay đổi các biến theo giá trị hình sin, giá trị hiệu dụng có thể được tính từ giá trị trung bình bằng lấy giá trị trung bình nhân với hệ số F = 1,11, giá trị hiệu dụng thường được mô tả trên mặt của điện kế có cuộn dây động.
+Ký hiệu :
+Ký hiệu này được mô tả trên bề mặt của Vol kế và nó chỉ ra đây là điện kế có cuộn dây động có chỉnh lưu.
+Cảnh báo :
+Điện kế có cuộn dây động có chỉnh lưu chỉ hiển thị giá trị hiệu dụng của dòng điện xoay chiều .
+Cảnh báo :
+Sai số cộng có thể do giá trị ngưỡng của diode gây nên. Đặc biệt trong trường hợp điện áp thấp
+2.1.3 THÍ NGHIỆM ĐIỆN KẾ CÓ CUỘN DÂY ĐỘNG
+Kết nối điện kế có cuộn dây động với một nguồn điện áp và quan sát sự lệch của kim với các điện áp DC khác nhau. Sau đó bạn nên nghiên cứu bản chất của việc đo điện áp AC
+Thiết lập bài thí nghiệm như dưới đây
+Hình 2.2 :Thiết lập thí nghiệm điện kế có cuộn dây động
+Mở công cụ nguồn DC ảo từ nemu công cụ hoặc click vào hình bên. Cài đặt công cụ như bên dưới:
+Range = 1 V
+POWER ON
+Điện áp DC (DC voltage) : thiết lập theo hướng dẫn
+Hình 2.3: Nguồn DC
+Điền vào các ô trong bảng.
+Tăng điện áp từ nguồn DC cho đến khi cây kim được chệch hướng đến mức nêu trong bảng. Sau đó nhập điện áp hiển thị trên công cụ nguồn DC vào các ô tương ứng.
+Instrumemt / % DC source /V 00.00 0.00 20.00 0.12 40.00 0.20 60.00 0.27 80.00 0.36 100.00 0.48
+
+1/ Mối quan hệ giữa lệch của kim và điện áp là gì? Các cách tăng đối với điện áp được áp dụng.........................
+Bình phương Không thay đổi; nó là hằng số. Tuyến tính
+Kết quả : Tuyến tính
+2/ Thiết lập nguồn DC đến một hiệu điện thế âm là - 0,2 V. Điều gì sẽ xảy ra với thiết bị điện kế có cuộn dây động khi thiết lập điện áp âm?
+Kim di chuyển theo hướng tương tự như với điện áp dương Kim di chuyển theo hướng đối xứng với điện áp dương Kim không lệch ở tất cả các trường hợp
+Kết quả : Kim di chuyển theo hướng đối xứng với điện áp dương
+Đóng nguồn DC. Mở chức năng máy phát hàm ảo từ menu công cụ hoặc nhấp vào hình ảnh bên cạnh :
+Dãy (Range) = 1 : 10
+Biên độ (Amplitude) 25%
+Tần số, dãy (range )1: 1 Hz
+SINE
+POWER ON
+Bây giờ tăng từ từ tần suất lên đến 50 Hz và quan sát sự chuyển động của kim.
+Hình 2.4: Máy phát hàm .
+3/ Hoàn thành các báo cáo về điện kế có cuộn dây động :
+Với AC tần số 1 Hz The needle moves once a second (1 Hz) but to the left Với AC tần số 10 Hz It deflects only slightly ten times per second (10 Hz). Với AC tần số >20 Hz The needle no longer moves at all.
+4/ Điện kế có cuộn dây động đo được giá trị ?
+Giá trị hiệu dụng Trung bình cộng Ttrung bình chỉnh lưu
+Kết quả: Trung bình cộng
+................................................
+Mở Function generator ảo từ menu công cụ hoặc click vào hình kế bên. Thiết lập công cụ như bên dưới :
+Sine
+Amplitude: 1:1 and 50%
+Frequency: 50 Hz
+POWER: ON
+Hình 4.5 : Máy phát hàm.
+Mở Electricity meter A ảo từ menu công cụ hoặc click vào hình kế bên.
+Hình 4.6 : Đồng hồ điện .
+1/ Phát biểu nào chính xác nhất mô tả kết quả của đồng hồ điện?
+Bộ đếm dừng lại ở một giá tri bị kẹt Bộ đếm đồng hồ đếm lên đến giá trị cuối cùng Đồng hồ tiếp tục đếm
+Kết quả : Đồng hồ tiếp tục đếm
+2/ Hiệu chinh biên độ của máy phát hàm về số 0. Những phát biểu nào sao đây mô tả đúng với điện năng kế ?
+Đồng hồ đếm đến một giá trị rồi dừng lại và duy trì giá trị đó Đồng hồ đếm đến một giá trị dừng và đặt lại số 0 Bộ đếm của đồng hồ tiếp tục đếm.
+Kết quả : Đồng hồ đếm đến một giá trị rồi dừng lại và duy trì giá trị đó
+3/ Thiết lập lại biên độ của máy phát hàm là 71%. Những phát biểu nào đúng về bộ đếm điện ?
+Đồng hồ bắt đầu đếm và lặp lại với vân tốc cũ Đồng hồ điếm bắt đầu ở lần 2 nhanh như thiết lập biên độ là 50% Đồng hồ không đếm trong tất cả trường hợp.
+Kết quả : Đồng hồ điếm bắt đầu ở lần 2 nhanh như thiết lập biên độ là 50%
+4.4 KIỂM TRA - ĐO ĐIỆN NĂNG
+1/ Đồng hồ đo giá trị gì của điện AC và điện 3 pha ?
+Sự tiêu thụ năng lượng Sự tiêu thụ dòng điện của điện AC và điện 3 pha Sự tiêu thụ công suất
+Kết quả : Sự tiêu thụ năng lượng
+2/ Định nghĩa điện năng là gì?
+W = P / t W = t / P W = P * t
+Kết quả : W = P * t
+3/ Thường đồng hồ đo sự tiêu thụ điện AC và điện 3 pha thể hiện giá trị KWh nhưng đồng hồ lại đo giá trị Ws. Sự khác nhau đó là gì?
+Hai đồng hồ tính khác nhau. Cơ bảng về cách tính là chúng giống nhau, nhưng chúng được thiết kế cho các cấp độ công suất khác nhau Bộ đếm của đồng hồ điện là giống nhau và hoạt động giống nhau.
+Kết quả : Cơ bảng về cách tính là chúng giống nhau, nhưng chúng được thiết kế cho các cấp độ công suất khác nhau
+4/ Làm thế nào để chuyển đổi kWh thành Ws?
+1 kWh = 3600000 Ws 1 kWh = 3.6 Ws 1 kWh = 1 / 3.6 Ws
+Kết quả : 1 kWh = 3600000 Ws
+Chương 5 ĐO HỆ SỐ CÔNG SUẤT
+
+5.1 ĐO HỆ SỐ CÔNG SUẤT
+Như đã thấy trong các ví dụ đo điện, lệch pha giữa điện áp và dòng điện xuất hiện ở tải có các thành phần điên cảm và điện dung .
+Góc pha φ bằng 0 ° nếu một tải thuần trở, và 90 ° cho tải thuần dung hoặc tải thuần cảm. Tải được sử dụng trong thực tế thường bao gồm hỗn hợp các thành phần và kết quả là tất cả các giá trị trung gian có thể phát sinh. Trong tải hỗn hợp một phần công suất phản kháng được thêm vào công suất tác dụng.
+Như vậy hệ số công suất cos φ như mô tả là tỷ lệ giữa công suất hoạt động và công suất phản kháng. Đặc biệt, nó có ý nghĩa đáng kể khi sử dụng cùng với máy điện không đồng bộ và đó là lý do mà nó được dánh giá trên biển thông số.
+Từ tam giác vuông tạo thành từ các giá trị của công suất
+Do đó hệ số cos φ có thể được sử dụng để tính toán công suất hoạt động và công suất phản kháng nếu biết được công suất biểu kiến - Ví dụ từ phép đo đơn giản là đo điện áp và dòng điện.
+Công suất biểu kiến S = U · I công suất họat động P = U · I · cosφ = S · cosφ công suất phản kháng Q = U · I · sin φ = S · sin φ
+5.2 NGUYÊN TẮC ĐO HỆ SỐ CÔNG SUẤT
+Có một vài khả năng để đo hệ số công suất. Một phương pháp rất minh họa là đo sự thay đổi pha giữa điện áp và dòng điện bằng cách sử dụng một dao động kế. Căn cứ vào góc thu được bạn dễ dàng tính cos φ.
+Hình 5.1 nguyên tắc đo hệ số công suất
+Nếu bạn muốn hiển thị giá trị cos φ trực tiếp trên hệ thống đo tương tự, thì phương pháp này không hổ trợ. Khi dó, trong ví dụ, phương pháp điện tử đơn giản sau đây được sử dụng.
+Các tín hiệu đo lường analog có dòng điện I và điện áp U được chuyển đổi thành tín hiệu số I’ và U' sử dụng như một tín hiệu kích hoạt Schmitt và cả hai tín hiệu được đưa vào một cổng AND. Lúc này, các tín hiệu số chỉ chứa các thông tin về các số chéo nhau. Điều đó có nghĩa là một tín hiệu 1 sẽ xuất hiện ở đầu ra của AND nếu cả hai điện áp và dòng điện là dương
+Khi dòng điện và điện áp là trùng pha, tức là không có dịch pha, lâu một mức tín hiệu logic 1 được duy trì tại đầu ra. Càng có nhiều pha được dịch thì thời gian overlap càng ngắn. Vì vậy thời gian overlap được giảm một nửa tại +90° hay -90°
+Giá trị đầu ra của cổng AND là tỉ lệ với cosφ. Bằng một quá trình lấy trung bình, bù trừ và khuếch đại điện áp thích hợp, một điện kế có thể được kết nối với một đầu ra loại này sau đó nó có thể hiển thị trực tiếp giá trị cos φ (với 5V cos φ = 1)
+A D-flip flop xác định xem chuyển pha dương hay chuyển pha âm có liên quan.Tín hiệu I' được đưa vào đầu vào của đồng hồ. Khi tín hiệu đồng hồ là cạnh lên tích cực một tình trạng dữ liệu dòng điện được áp dụng cho D là giả định. Nếu đang có một điện áp dương (D = 1) của dòng chéo nhau ( thay đổi từ mức thấp lên mức cao ), sự chuyển đổi pha là dương khi làm việc với một tải có tính cảm.
+Nhưng nếu có điện áp ở mức thấp (D = 0) vào thời điểm đó, sự chuyển pha là âm khi làm viêc với một tải dung.
+
+5.3 THÍ NGHIỆM - ĐO HỆ SỐ CÔNG SUẤT
+
+Xác định hệ số công suất cho bốn tải khác nhau bằng cách sử dụng hai phương pháp khác nhau.
+Làm quen với các sơ đồ mạch điện, trước khi bạn bắt đầu nối dây thực tế.
+Hình 5.2 : Cách kết nối trong thí nghiệm đo hệ số công suất .
+Click vào nút màu xanh lá cây để xem cách nối với đồng hồ đo hệ số công suất.
+Click một lần nữa vào nút màu xanh lá cây để xem làm thế nào để kết nối cho dồng hồ đo hệ số công suất được sử dụng trong khóa học này.
+Click vào nút này một lần nữa để xem làm thế nào để kết nối một thêm dao động kế.
+Hình 5.3 : thết lập trong thí nghiệm đo điện áp
+Mở công cụ ảo từ nemu công cụ hoặc click vào hình bên. Cài đặt công cụ như bên dưới:
+Sine
+Amplitude: 1:1 and 45%
+Frequency: 50 Hz
+POWER: ON
+Hình 5.4 : Máy phát hàm
+Mở công cụ Oscilloscope ảo từ nemu công cụ hoặc click vào hình bên. Cài đặt công cụ như bên dưới:
+Voltage, channel A: 1 V/DIV; DC;
+Current, channel B: 100 mV/DIV; DC;
+Time base 2 ms/DIV
+Trigger A at 0 V
+Đường zero trung tâm
+Hình 5.5 : Dao dộng kế
+a) Với tải điện trở R = 100 Ω, sử dụng dao động để vẽ dạng sóng của điện áp và dòng điện. Sao chép kết quả vào khung dưới đây
+1/ Góc trong dao động kế là? Với cài đặt dao động kế: 1 DIV = 360
+φ = ?? 0
+2/ Tính toán hệ số cosφ trong dao động kế: Dùng máy tính
+cos φ = ???
+3/ Hệ số cos φ đọc từ điện kế có cuộn dây động ? Chú ý :100% = 1
+cos φ = ????
+b) Đối với một tải dung C = 4,7 μF sử dụng dao động kế vẽ dạng sóng của điện áp và dòng điện. Sao chép kết quả vào lưới dưới đây. Trước khi thay đổi, cài đặt dao động kế như sau: Kênh B đến 50 mV / DIV.
+4/ Góc trong dao động kế là? Với cài đặt dao động kế: 1 DIV = 360
+φ = ?? 0
+5/ Tính toán hệ số cosφ trong dao động kế: Dùng máy tính
+cos φ = ??
+6/ Hệ số cos φ đọc từ điện kế có cuộn dây động ? Chú ý :100% = 1
+cos φ = ??
+c) Đối với một tải trở - dung có C =2.2 μF và R=470Ω sử dụng dao động kế vẽ dạng sóng của điện áp và dòng điện. Sao chép kết quả vào lưới dưới đây. Trước khi thay đổi cài đặt dao động kế như sau: Kênh B đến 20 mV / DIV
+7/ Góc trong dao động kế là? Với cài đặt dao động kế: 1 DIV = 360
+φ = ?? 0
+8/ Tính toán hệ số cosφ trong dao động kế: Dùng máy tính
+cos φ = ??
+9/ Hệ số cos φ đọc từ điện kế có cuộn dây động ? Chú ý :100% = 1
+cos φ = ??
+d) Đối với một tải cảm L = 100 mH sử dụng dao động kế vẽ dạng sóng của điện áp và dòng điện. Sao chép kết quả vào lưới dưới đây.
+Trước khi thay đổi thang đo, cài đặt máy phát hàm như sau: Biên độ 1:1 và 20%
+Thay đổi cài đặt dao động kế như sao:
+Channel A to 500 mV / DIV and
+Channel B to 100 mV / DIV
+10/ Góc trong dao động kế là? Với cài đặt dao động kế: 1 DIV = 360
+φ = ?? 0
+11/ Tính toán hệ số cosφ trong dao động kế: Dùng máy tính
+cos φ = ??
+12/ Hệ số cos φ đọc từ điện kế có cuộn dây động ? Chú ý :100% = 1
+cos φ = ??
+5.4 KIỂM TRA - ĐO HỆ SỐ CÔNG SUẤT
+1/ Hoàn thành bài báo cáo dưới dây cho phù hợp :
+Cos φ có nghĩa là ? power factor Thời gian chuyển pha giữa điện áp và dòng điện được gọi là : phase shift Công suất biểu kiến và cosφ phát sinh ra cái gì sau đây? reactive power
+2/ Sự chuyển pha có liên hệ với góc chuyển giữa :
+Dòng điện và điện áp Công suất biểu kiến và công suất hư kháng Công suất thực và công suất hư kháng Công suất thực và công suất biểu kiến
+Kết quả : Dòng điện và điện áp, Công suất thực và công suất biểu kiến
+3/ Nếu dòng điện trể pha hơn so với điện áp thí góc φ là :
+Đai lượng dương Đại lương âm
+Kết quả : Đại lương âm
+4/ Góc chuyển pha =+90° thành phần tải là:
+Có tính cảm Có tính dung
+Kết quả : Có tính dung .
+Chương 6 ĐO TẦN SỐ
+
+6.1 ĐO TẦN SỐ
+Hình 6.1: Thiết bị đo tần số
+Một trong những công việc quan trọng nhất của kỹ thuật điện là xác định độ chính xác cao của các tần số hoặc chu kỳ của các tín hiệu analog bất kỳ. Ngày nay điều này được thực hiện bằng cách sử dụng các phương pháp kỹ thuật số, nó cung cấp kết quả rất chính xác và lập lại ở tầm tần số rất cao ở các ngõ vào.
+Kỹ thuật số dùng đo tần số có thể được chia thành đo tần số và đo chu kỳ. Mạch dùng trong hai phương pháp này về cơ bản là giống nhau, nó bao gồm máy phát tín hiệu xung, một cổng, bộ đếm và bộ hiển thị.
+6.2 NGUYÊN TẮC ĐO TẦN SỐ
+Hình 6.2: Sơ đờ đo tần số
+Để thu được tần số f của tín hiệu cần dựa trên các mối quan hệ sau đây:
+
+số xung đếm được N (number of pulses counted N)
+Tầng số f = ————————————————————————
+Thời gian đo được (measured time) TGate
+Trong đo tần số tín hiệu đầu vào hình dạng ngẫu nhiên được chuyển thành xung vuông bên trong bộ chuyển đổi xung thành xung vuông ( kích hoạt Schmitt ). Sau đó tín hiệu được đo đi đến bộ đếm qua một cổng. Việc kiểm soát bảo đảm rằng, cổng chỉ được mở trong khảng thời gian xác định TGate và số xung N chỉ được đếm trong khảng thời gian này
+Một bộ sắp thứ tự đảm bảo rằng kết quả bộ đếm điện chốt lại và hiển thị. Sau đó bộ đếm được thiết lập lại để bắt đầu quá trình đếm lần nữa.
+6.3 THÍ NGHIỆM ĐO TẦN SỐ
+Đo tần số của một tín hiệu tương tự và dạng sóng đặc trưng của nó bằng cách sử dụng dao động kế. Bạn cũng sẽ biết làm thế nào để đọc một sơ đồ mạch điện. Bạn cũng sẽ nghiên cứu các điều kiện dẫn đến không đảm bảo đo của 1 bit.
+Thiết lập các thử nghiệm sau đây:
+Hình 6.3: Thiết lập trong thí nghiệm đo tần số
+Mở công cụ Function generator ảo từ nemu công cụ hoặc click vào hình bên. Cài đặt công cụ như bên dưới:
+
+Sine
+Amplitude: 1:1 and 45%
+Frequency: 10 Hz
+POWER: ON
+Hình 6.4: máy phát hàm
+Mở công cụ Oscilloscope ảo từ nemu công cụ hoặc click vào hình bên. Cài đặt công cụ như bên dưới:
+Channel A: 5 V/DIV; DC;
+Channel B: 5 V/DIV; DC;
+Time base 200 ms/DIV
+Di chuyển đường đang ở zero lên gần 2DIV
+Trigger A at 2.5 V
+Pretrigger 25%
+LED có màu xanh nhấn "STOP" thoát
+Hình 6.5: Dao động kế
+1/ Ngay sau khi dao động được kích hoạt, sao chép các dạng sóng vào khung dưới đây:
+2/ Kết nối kênh B sau cổng AND và đo lập lại 10 lần . Đếm số xung cạnh lên trên kênh B như được thấy trên màn hình. Sao chép những dạng sóng vào khung
+3/ Có bao nhiêu cạnh lên bạn đếm được ?
+8 9 10 Có hợn một câu trả lời đúng. Đọc kết quả ở kênh B của dao động kế 11 12
+4/ Quan sát kết quả trên LED 7 đoạn khoảng 10s ,kết quả đếm được là?
+8 9 10 Có hơn 1 kết quả đúng 11 12
+5/ Lý do cho các kết quả bị dao động là gì?
+Xung và đồng hồ đo tần số không đồng bộ Xung kích không chính xác Nhiễu từ bộ tạo hàm
+6/ Cài đặt máy phát hàm lên tần số 97 Hz. Sau đó tăng tần số mỗi bước 1 Hz lên đến khoảng 103 Hz và quan sát màn hình hiển thị. Mệnh đề nào sau đây là chính xác về đặc trưng của bộ đếm?
+Bộ đếm này cho kết quả ngẫu nhiên. Bô đếm không thể đáp ứng với các tần số đo lường. Máy đếm vượt hơn giới hạn của nó và không thể hiển thị vị trí 100ths
+6.4 KIỂM TRA - ĐO TẦN SỐ
+
+1/ Những yếu tố nào sau đây tạo thành mạch đo tần số ?
+Ngỏ vào Bộ đếm Có hơn môt đáp án đúng Bộ hiển thị Tín hiệu xung Đường kết nối
+
+2/ Chức năng của bộ chuyển đổi xung ở đầu vào thành dạng bậc là tạo ra?
+Điện áp sóng hình sin Điện áp sóng vuông Điện áp an toàn cực thấp
+3/ Tần số là ?
+1/ chu kỳ Thời gian đếm trên xung Số xung trên thời gian đếm được Chương 7 VẤN ĐỀ BẢN QUYỀN
+
+BẢN QUYỀN © 2002-2005 LUCAS-NÜLLE GmbH
+Xin chúc mừng !
+Đây là trang cuối. Bạn đã hoàn thành khóa học "khí cụ đo kiểm 1".
+Đây là khóa học L@Bsoft " Khí cụ đo kiểm 1: Đo lường các đại lượng điện" được bảo vệ bản quyền. Tất cả những quyền có liên quan phải được bảo mật . Bất kỳ bản sao của các tài liệu như là một tập tin hoặc bằng văn bản được photocopy từ nó, micro-film hay phương pháp nào khác hoặc chuyển đổi thành một ngôn ngữ máy tương thích, đặc biệt cho hệ thống xử lý dữ liệu, mà LUCAS-NÜLLE GmbH không thể hiện sự chấp thuận bằng văn bản của điều bị nghiêm cấm.
+
+Các phần mềm như mô tả ở trên được thực hiện trên cơ sở thỏa thuận cấp phép chung hoặc dưới hình thức một giấy phép duy nhất. Việc sử dụng hoặc sao chép phần mềm chỉ được phép làm theo đúng các điều khoản ghi trong hợp đồng.
+
+Nếu đã thực hiện thay đổi trong một cách nào đó không đúng ủy quyền của LUCAS-NÜLLE GmbH, bất kỳ trách nhiệm bảo hành sản phẩm hoặc liên quan đến khiếu nại giải quyết bị vô hiệu.
+Chương 8 KẾT LUẬN VÀ HƯỚNG MỞ PHÁT TRIỂN ĐỀ TÀI
+
+Multilab là bài thí nghiệm hay, có tính tổng quát nhưng chi tiết được sắp xếp hợp lý. Qua bài thí nghiệm này có thể giúp sinh viện hệ thống lại kiến thức đã học, đồng thời nó cũng yêu cầu sinh viên tìm hiểu sâu sắc để có thể nắm bắt được vấn đề .
+Do đề tài được hoàn thành trong thời gian ngắn, trình độ ngọai ngữ, tin học chưa cao nên đồ án còn một số bài chưa thật sự chính xác cũng như chưa tối ưu hóa chương trình giúp cho việc dạy học của giáo viên được tốt hơn. Nếu đề tài sau này còn tiếp tục sinh viên có thể phát triển thêm các tính năng sau đây.
+Thực hiện tìm hiểu giải đáp các vấn đề còn lại.
+Phát triển, tạo thêm một số bài tập mang tính mở rộng và chuyên sâu.
+Giới hạn quyền truy cập thư mục “check answer ” cho sinh viên và giáo viên.
+DANH MỤC TÀI LIỆU THAM KHẢO
+[1] http://baigiang.violet.vn/ truy nhập cuối cùng ngày 14/8/2010.
+[2] http://cdtvn.net/ truy nhập cuối cùng ngày 14/8/2010
+[3] http://www.dientuvietnam.net/forums/ truy nhập cuối cùng ngày 14/8/2010.
+[4] http://www.educypedia.be/electronics/multimeter.htm , truy nhập cuối cùng ngày 14/8/2010.
+[5]http://translate.googleusercontent.com/translate_c?hl=vi&langpair=en|vi&u=http://steiniche.dk/projekter/Komponenter/using%2520a%2520multimeter.htm&rurl=translate.google.com.vn&usg=ALkJrhgZlbgk9I3ya98enNi221RR1rRsUw#analogue truy nhập cuối cùng ngày 1/8/2010.
+

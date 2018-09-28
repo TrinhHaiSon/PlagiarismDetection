@@ -1,0 +1,105 @@
+ĐỒ ÁN TỐT NGHIỆP CƠ ĐIỆN tử ĐỒ ÁN TỐT NGHIỆP MÔ HÌNH PHÂN LOẠI LED
+MỤC LỤC CHƯƠNG 1: ĐẶT VẤN ĐỀ.. 1 1.1 KHÁI NIỆM... 1 1.2 MỤC ĐÍCH CHẾ TẠO MÔ HÌNH PHÂN LOẠI LED.. 7 1.3 MỘT SỐ ỨNG DỤNG HAY CỦA LED.. 4 CHƯƠNG 2: THIẾT KẾ VÀ THI CÔNG.. 9 2.1 CƠ KHÍ. 6 2.1.1 Vật liệu. 6 2.1.2 Kết cấu mô hình. 10 2.2 ĐỘNG CƠ.. 17 2.3 MẠCH ĐIỆN TỬ.. 22 2.4 LẬP TRÌNH.. 33 2.4.1 Lưu đồ giải thuật tổng quát 33 CHƯƠNG 3: KẾT QUẢ VÀ HƯỚNG PHÁT TRIỂN.. 13 3.1 NHỮNG KẾT QUẢ ĐẠT ĐƯỢC: 50 3.2 NHỮNG HẠN CHẾ CỦA ĐỀ TÀI. 50 3.3 HƯỚNG PHÁT TRIỂN.. 50 DANH MỤC CÁC BẢNG, SƠ ĐỒ, HÌNH HÌNH 1.1: Cấu tạo của LED HÌNH 1.2: Các loại LED HÌNH 2.1: Các tấm MICA HÌNH 2.2: Cấu trúc phân tử HÌNH 2.3: Bàn máy HÌNH 2.4: Dàn sàn lọc LED HÌNH 2.5: Dàn sàn HÌNH 2.6: Bánh xe lấy led HÌNH 2.7: Lấy LED từ dàn sàn đến buồng phân loại HÌNH 2.8: Bánh răng HÌNH 2.9: Kết cấu hứng led HÌNH 2.10: Phân loại led HÌNH 2.11: Động cơ dc HÌNH 2.12: Động cơ dc để tạo rung HÌNH 2.13: Động cơ rc servo HÌNH 2.14: Động cơ bước Hình 2.15: Mạch vi điều khiển Hình 2.16: IC 7805 Hình 2.17: Thạch anh Hình 2.18: Pic 16f887 Hình 2.19: Mạch nguồn Hình 2.20: TIP42 Hình 2.21: Mạch L298 Hình 2.22: L298 Hình 2.23: Cảm biến màu TCS3200 Hình 2.24: Lưu đồ giải thuật cùa mô hình
+
+CHƯƠNG 1: ĐẶT VẤN ĐỀ
+
+Hiện nay LED được sử dụng rất rộng rãi và ngày càng phát triển mạnh mẽ, đặc biệt trong lĩnh vực quảng cáo. Tuy nhiên việc phân loại màu LED cũng như phân loại LED còn hoạt động không thì chưa có. Vì thế nhóm chúng em đã thực hiện đề tài MÔ HÌNH PHÂN LOẠI LED.
+GIỚI THIỆU VỀ MÔ HÌNH
+1.1KHÁI NIỆM
+Giới thiệu về đèn LED
+Công nghệ đèn LED (diot phát quang) đã và đang phát triển mạnh mẽ, đặc biệt là trong lĩnh vực quảng cáo. Đèn LED có hiệu suất phát sáng cao, có nhiều màu sắc đẹp, tiết kiệm điện năng, tuổi thọ cao (hơn 100.000 giờ sáng liên tục), chịu được nắng mưa, va đập nhẹ.
+LED là gì?
+LED (viết tắt của Light Emitting Diode, có nghĩa là điốt phát quang) là các điốt có khả năng phát ra ánh sáng hay tia hồng ngoại. Cũng giống như điốt, LED được cấu tạo từ một khối bán dẫn loại p ghép với một khối bán dẫn loại n.
+
+Lịch sử hình thành và phát triển của đèn LED:
+Đèn LED đã có mặt từ những thập niên 60, nhưng mà hầu hết chỉ dùng hiển thị thời gian của đồng hồ báo thức hay dung lượng pin của máy ghi hình.
+Một thời gian dài, đèn LED đã không được dùng làm nguồn sáng bởi vì chúng chỉ cho ánh sáng đỏ, xanh lá cây và vàng mà không cho ánh sáng trắng. Đến năm 1993, công ty hoá chất Nichia của Nhật Bản cho ra đời loại đèn LED xanh dương, là sự kết hợp giữa ánh sáng đỏ và xanh lá cây để cho ra ánh sáng trắng. Sự kiện này đã mở ra một lĩnh vực mới về công nghệ LED.
+Đèn LED dựa trên công nghệ bán dẫn ngày càng tăng về độ chiếu sáng, hiệu suất và tuổi thọ, giống như bộ xử lý của máy tính, phát triển ngày càng nhanh và giá thành ngày càng giảm theo thời gian.
+Ứng dụng của đèn LED:
+Với các ưu điểm: ánh sáng lớn, độ bền cao và ít tiêu tốn điện năng, Led được ứng dụng rộng rãi trên các lĩnh vực: bảng quảng cáo ngoài trời , bảng quảng báo, đồng hồ cỡ lớn đặt tại các biển quảng cáo tấm lớn trên đường cao tốc, hệ thống đèn giao thông, biển chỉ dẫn, và các sản phẩm khác như bảng chạy chữ điện tử, bảng hệ thống giờ, Bảng tỷ giá, bảng chứng khoán, hệ thống xếp hàng tự động… Việc sử dụng rộng rãi thiết bị chiếu sáng bằng loại đèn này có thể giúp chúng ta tiết kiệm đuợc nhiều năng lượng.
+Hiện tại đèn LED trắng có tuổi thọ tới 50.000 giờ sử dụng, gấp 50 lần so với bóng đèn 60W. Điều này có nghĩa là chúng có thể thắp sáng liên tục trong vòng 6 năm.
+Điểm hấp dẫn ở loại đèn này là nó có thể sử dụng để lắp đặt ở những nơi khó thay lắp chẳng hạn như bên ngoài toà nhà, bể bơi v.v… với nhiều mầu sắc phong phú như: đỏ, xanh lá, xanh da trời, mầu hổ phách... thay vì phải sử dụng bóng đèn thông thường.
+Đèn LED thay thế đèn sợi đốt và đèn huỳnh quang bởi những ưu điểm như tiết kiệm năng lượng, tuổi thọ cao, kích cỡ nhỏ, nhiệt năng sinh ra trong quá trình hoạt động không đáng kể, hoạt động tốt trong điều kiện nhiệt độ thấp, không sử dụng thủy ngân giống như các loại bóng huỳnh quang thông thường.
+Ánh sáng phát của đèn LED có màu sắc phụ thuộc vào chất liệu làm ra nó. Ví dụ như đèn LED màu đỏ được làm từ các thành phần hóa học như nhôm, gali, a-xen. Đèn LED màu trắng được tạo ra bằng cách bao phủ một lớp photphorơ màu vàng bên ngoài đèn LED xanh da trời.
+Lượng nhiệt sinh ra trong quá trình hoạt động của đèn LED cũng thấp hơn rất nhiều (gần như không đáng kể) so với các loại bóng đèn thông thường hiện nay, đó cũng chính là một trong những lý do khiến đèn LED tiết kiệm điện năng hơn các loại bóng đèn khác.
+Cũng giống như tất cả các loại bóng đèn khác, hiệu năng của đèn LED được đo bằng công thức lumen/Watt. Loại đèn LED ánh sáng trắng ấm có hiệu năng vào khoảng 25-44 lumens/watt trong khi đó loại LED ánh sáng trắng lạnh có hiệu năng tốt hơn 47-64 lumens/watt, còn loại bóng đèn huỳnh quang thông thường được sử dụng trong các gia đình có hiệu năng thấp hơn với 10-18 lumens/watt.
+Đèn LED không sử dụng nguồn điện xoay chiều 220V thông thường mà chỉ sử dụng dòng điện một chiều với hiệu điện thế nhỏ nên thường có bộ lọc và bộ điều khiển đi kèm.
+Bên cạnh đó đèn LED còn có những ưu điểm khác như khi hoạt động không sinh ra các tia hồng ngoại hay tia cực tím. Những ưu điểm của loại đèn này là không thể phủ nhận, những thiết kế với nhiều phong cách khác nhau đã và đang biến đèn LED trở thành một thiết bị chiếu sáng đáng được lựa chọn cho không gian sống của mỗi gia đình và các công trình xây dựng.
+Tính năng và đặc điểm của đèn LED:
+Tính năng và đặc điểm:
+Tiết kiệm điện: Tiết kiệm mức thấp nhất, hiệu suất chiếu sáng cao hơn nữa tiết kiệm khoảng 75% điện so với đèn chiếu sáng thông thường.
+Bảo vệ màu xanh môi trường: Không tia cực tím, không bức xạ tia hồng ngoại, phát nhiệt của ánh sánh thấp, không chứa thuỷ ngân và những chất có hại…, không gây ô nhiễm môi trường.
+Tuổi thọ cực lâu: Vượt quá 50,000 giờ (tương đương với 6 năm thắp sáng liên tục.
+Hiệu quả ánh sáng cao.
+Nhiệt độ làm việc thấp: Nhiệt độ làm việc của bóng đèn LED cao hơn nhiệt độ môi trường khoảng 5 – 80C, thấp hơn so với đèn huỳnh quang thông thường là khoảng 13 – 250C.
+Độ an toàn: Không nhấp nháy, hiển thị màu sắc tốt, có hiệu quả trong việc làm giảm mệt mỏi khi nhìn và bảo vệ mắt.
+Hình 1.1: Cấu tạo của LED
+LED đầu tiên được thương mại hóa để thay thế cho đèn chỉ thị làm bằng đèn dây tóc, nê-on và màn hình bảy đoạn. Đầu tiên là các thiết bị mắc tiền trong phòng thí nghiệm. Sau đó là tivi, rađiô, điện thoại, máy tính và thậm chí là đồng hồ. Đến năm 1968, LED cực kì mắc, cỡ 200 đôla Mỹ mà lại ít ứng dụng. Năm 1968, Công ty Monsanto là công ty đầu tiên sản xuất LED hàng loạt dùng gali asen phốt pho (GaAsP). Năm này, Hewlett Packard cũng giới thiệu LED làm từ GaAsP do công ty Monsanto cung cấp. Các LED này là LED đỏ và có thấu kính nhựa đi kèm trên từng chữ số để có thể dùng trong màn hình máy tính và chỉ đủ sáng để làm đèn chỉ thị. Thời gian sau đó thì LED vàng, cam.. cũng trở nên phổ biến. Năm 1970, LED thật sự đã được thương mại hóa thành công khi công ty Fairchild Semiconductor bán ra thị trường 5 xu Mỹ cho mỗi bóng LED. Công ty này đã sản xuất bằng quy trình Planar do tiến sĩ Jean Hoerni phát minh khi làm việc cho họ. Sự kết hợp giữa quy trình Planar và các phương pháp đóng gói giúp nhóm trưởng Thomas Brandt của công ty Fairchild đã có được khả năng giảm thiểu giá thành cần thiết. Các phương pháp này vẫn được các công ty dùng để sản xuất LED hiện nay.
+Ngành công nghệ vật liệu cho LED đã phát triển ngày càng mạnh mẽ. Công suất ngày càng tăng nhưng hiệu suất, độ tin cậy vẫn đạt được mức có thể chấp nhận. Việc phát minh và phát triển LED trắng công suất cao nhanh chóng thay thế đèn dây tóc, đèn huỳnh quang. LED ngày này đa số là cỡ 5mm T1¾ và 3mm T1. Tuy nhiên, xu hướng công suất ngày càng lớn nên các kiểu đóng gói khác cũng được phát triển để đáp ứng yêu cầu tỏa nhiệt. LED công suất cao ngày nay cấu trúc bên trong rất phức tạp nhưng bề ngoài thì như các LED thời ban đầu.
+LED xanh da trời và LED trắng
+LED xanh da trời làm từ InGaN được phát minh đầu tiên do Shuji Nakamura của công ty Nichia Corporation vào năm 1994. Hai kỹ thuật mấu chốt là cấy GaN trên lớp nền Saphia và tạo lớp bán dẫn P từ GaN(do Isamu Akasaki và H. Amano phát triển ở Nagoya). Năm 1995, Alberto Barbieri tại phòng thí nghiệm ĐH Cardiff đã nghiên cứu và giới thiệu LED "tiếp xúc trong suốt" có công suất, hiệu suất cao bằng cách dùng Indi thiếc ôxít. Sự ra đời của LED xanh da trời cộng với LED hiệu suất cao nhanh chóng dẫn đến sự ra đời LED trắng đầu tiên dùng Y3Al5O12:Ce. Hợp chất này có tên khác là YAG, là lớp phủ để trộn ánh sáng vàng với ánh sáng xanh da trời cho ra ánh sáng trắng. Năm 2006, Nakamura được trao giải thưởng công nghệ thiên nhiên kỷ cho phát minh này.
+Hiệu suất, công suất của LED tăng theo hàm mũ, gấp đôi sau mỗi 3 năm kể từ năm 1960, tương tự như định luật Moore. Sự phát triển LED nói chung đã đóng góp cho sự phát triển song song giữa các công nghệ bán dẫn, khoa học vật liệu và quang học. Người ta đã đặt tên nó là định luật Haitz, lấy từ tên của tiến sĩ Roland Haitz.
+Năm 2001 và 2002, quy trình cấy GaN lên chất nền SiO2 được hiện thực. Tháng 1 năm 2012, LED công suất lớn theo công nghệ này được thương mại hóa. Tin đồn là dùng tấm đế SiO2 6inch(15.24 cm) thay vì tấm đế Saphia(Nhôm ôxít) 2inch(5.08 cm) sẽ làm giảm 90% giá thành.
+Hoạt động
+·Về mặt điện tử:
+Hoạt động của LED giống với nhiều loại điốt bán dẫn.
+Khối bán dẫn loại p chứa nhiều lỗ trống tự do mang điện tích dương nên khi ghép với khối bán dẫn n (chứa các điện tử tự do) thì các lỗ trống này có xu hướng chuyển động khuếch tán sang khối n. Cùng lúc khối p lại nhận thêm các điện tử (điện tích âm) từ khối n chuyển sang. Kết quả là khối p tích điện âm (thiếu hụt lỗ trống và dư thừa điện tử) trong khi khối n tích điện dương (thiếu hụt điện tử và dư thừa lỗ trống).
+Ở biên giới hai bên mặt tiếp giáp, một số điện tử bị lỗ trống thu hút và khi chúng tiến lại gần nhau, chúng có xu hướng kết hợp với nhau tạo thành các nguyên tử trung hòa. Quá trình này có thể giải phóng năng lượng dưới dạng ánh sáng (hay các bức xạ điện từ có bước sóng gần đó).
+Hầu hết các vật liệu làm LED có chiết suất rất cao, tức là hầu hết ánh sáng phát ra sẽ quay ngược vào bên trong thay vì phát ra ngoài không khí. Do đó công nghệ trích xuất ánh sáng từ LED cũng rất quan trọng, cần rất nhiều sự nghiên cứu và phát triển.
+Chiết suất
+Các chất bán dẫn như SiO2 có chiết suất rất cao khi chưa có lớp tráng phủ. Điều này sẽ ngăn cản phô ton đi ra khỏi chất bán dẫn. Đặc điểm này ảnh hưởng đến hiệu suất LED và tế bào quang điện. Chiết suất của SiO2 là 3.96(590 nm), còn không khí là 1.0002926.
+Nói chung, chỉ có những phô ton vuông góc với mặt bán dẫn hoặc góc tới cỡ vài độ thì mới có thể thoát ra ngoài. Những phô ton này sẽ tạo thành 1 chùm sáng dưới dạng hình nón. Những phô ton không thể thoát ra ngoài sẽ chui ngược vào bên trong chất bán dẫn.
+Những phô ton phản xạ toàn phần có thể thoát ra ngoài qua các mặt khác của chất bán dẫn nếu góc tới đủ nhỏ và chất bán dẫn đủ trong suốt để không hấp thụ hoàn toàn các phô ton. Tuy nhiên, với LED đều vuông góc ở tất cả các mặt thì ánh sáng hoàn toàn không thể thoát ra và sẽ biến thành nhiệt làm nóng chất bán dẫn.
+Hình dáng lý tưởng cho phép tối đa phát sáng là dạng vi cầu, là các hình cầu có kích thước siêu nhỏ từ 1 μm đến 1000 μm. Ánh sáng sẽ phát ra từ điểm trung tâm và điện cực cũng phải chạm điểm trung tâm. Tất cả ánh sáng phát ra sẽ vuông góc toàn bộ bề mặt quả cầu , do đó sẽ không có phản xạ. Bán cầu cũng có thể cho kết quả tương tự nếu mặt lưng hoàn toàn phẳng để phản xạ hoàn toàn các tia phát về phía mặt lưng.
+Hiệu suất và các thông số hoạt động
+LED dùng làm chỉ thị có công suất chỉ cỡ 30-60 mili oát. Năm 1999, Philips Lumileds giới thiệu LED có thể hoạt động liên tục với công suất 1W. Nó dùng 1 đế bán dẫn lớn hơn rất nhiều so với LED chỉ thị. Thêm nữa là có bộ phận tản nhiệt bằng kim loại.
+Một trong những ưu điểm của LED là có hiệu suất chiếu sáng cao. LED trắng nhanh chóng bắt kịp và vượt qua hiệu suất của đèn dây tóc.
+Năm 2002, Lumileds chế tạo thành công LED 5W với hiệu suất chiếu sáng từ 18-22 lumen/oát. Để so sánh, đèn dây tóc 60-100W có hiệu suất cỡ 15lm/W, còn đèn huỳnh quang tốt thì 100lm/W. Một vấn đề khá cũ là hiệu suất giảm nhanh khi tăng dòng qua LED
+Tháng 9 năm 2003, một loại LED xanh da trời được công ty Cree giới thiệu phát ra 24 mW với dòng điện là 20mA. Điều này có nghĩa là 1 bóng LED trắng sẽ có 65lm/W với dòng 20mA. Đây chính là LED trắng có hiệu suất cao nhất thời đó, hơn 4 lần so với đèn dây tóc.
+Năm 2006, họ giới thiệu sản phẩm mẫu đạt kỷ lục mới cho hiệu suất của LED trắng là 131lm/W với dòng điện 20mA. Năm này, công ty Nichia Corporation giới thiệu LED trắng với hiệu suất 150lm/W cũng với dòng điện 20mA.
+Năm 2011, Xlamp XM-L , 1 dòng sản phẩm của hãng Cree phát ra 100lm/W với công suất 10W, hiệu suất là 160lm/W nếu công suất là 2W.
+Năm 2012, Cree giới thiệu LED trắng hiệu suất 254lm/W. Trong thực tế, LED chiếu sáng có công suất từ 1W trở lên, dòng tiêu thụ điển hình là 350mA.
+Chú ý là hiệu suất nói trên chỉ tính riêng cho LED và dưới môi trường nhiệt độ thấp trong phòng thí nghiệm. Trên thực tế, nhiệt độ cao và mạch nguồn cho LED cũng có thất thoát năng lượng nên hiệu suất thấp hơn nhiều.
+Tháng 3 năm 2012, cree tuyên bố LED mẫu đã đạt được 208lm/W với nhiệt độ phòng, nhiệt độ màu là 4579K
+
+MỤC ĐÍCH CHẾ TẠO MÔ HÌNH PHÂN LOẠI LED
+Hiện nay, LED xuất hiện ngày càng nhiều,đặc biệt trong các lĩnh vực quảng cáo và điện tử. Bên cạnh đó LED cũng xuất hiện ngày càng nhiều trong các hoạt động vui chơi giải trí và học tập.
+Hình 1.2: Các loại LED
+Để đáp ưng nhu cầu giải trí và học tập của con người các nhà nghiên cứu đã cho ra đời nhiều loại LED đặc biệt là LED đơn. Vì thế việc phân biệt màu LED và xác định LED có bị hư khá phức tạp và từ lý do đó mô hình của nhóm em ra đời nhằm giúp cho con người dễ dàng sử dụng LED mà không cần dùng đến VOM để phân biệt màu của chúng nữa. Mô hình của nhóm em ra đời nhằm giúp cho các bạn học sinh, những cửa hàng nghiên cứu và quản lí tốt hơn .
+1.3MỘT SỐ ỨNG DỤNG HAY CỦA LED
+Ngày nay người ta muốn dùng Led làm nguồn chiếu sáng mạnh để thay thế các đèn chiếu sáng cổ điển, vì Led có hiệu suất rất cao, an toàn, tuổi thọ dài, ít hao điện và rất dễ dùng. Hình trên đây cho thấy hình dạng của các Led công suất lớn, hiện nó đã là nguồn sáng lạnh rất mạnh và trong một tương lai gần thôi nó sẽ thay thế các đèn chiếu sáng nóng như loại đèn sợi nung, loại đèn chiếu sáng ồn, gây nhiều nhiễu, như đèn ống huỳnh quang. Do Led có quán tính nhỏ, nghĩa là nó có thể nhấp nháy với nhịp nhanh, nói cho dễ hiểu, là nó tắt nhanh và sáng nhanh, không như loại đèn sợi nung có quán tính nhiệt quá chậm. Với Led người ta có thể dùng làm loại đèn số theo mã 7 đoạn, dùng loại đèn này để làm các mạch đếm rất tiện (Bạn xem hình, một khối đèn số 7 đoạn có thể cho hiện ra các số thập lục phân). Nhiều Bạn trẻ thích "ngông", dùng Led tạo hình rồi dùng transistor điều khiển cho các hình nhấp nháy, tạo ra các hình đèn động rất ngộ nghĩnh, như hình đứa trẻ, hình người đạp xe...Còn hình gì nữa, tôi nghĩ chắc Bạn sẽ tự nghĩ ra thôi. Người ta còn dùng Led để tạo ra hình khối 3D và dùng mạch điện tử làm cho các Led này sáng nhấp nháy rất sinh động.
+Trước mắt cho dùng nhiều Led siêu sáng ghép lại để làm đèn chiếu sáng mạnh, thay thế các đèn chiếu sáng cổ điển (sắp vào viện bảo tàng).
+Như đã nói ở trên thì LED có rất nhiều ứng dụng, vì thế việc phân loại LED càng rất hữu ích.
+CHƯƠNG 2: THIẾT KẾ VÀ THI CÔNG
+2.1CƠ KHÍ
+Vật liệu
+Ở mô hình này, nhóm em sử dung nhựa MICA vì rất dễ gia công và có độ kháng hoá chất
+Hình 2.1: Các tấm MICA
+Sàn phẩm MICA tấm được cấu thành bởi thành phần chính là Methyl methalcrylate. Cấu trúc phân từ như sau
+Hình 2.2: Cấu trúc phân tử
+Những năm gần đây có rất nhiều sang chế và phát triển về nhựa tổng hợp nó mang lại cho ngành nhựa dẻo một kỉ nguyên rực rỡ, tuy nhiên nhựa MICA vẫncòn được coi là một vật liệu dẻo hàng đầu.
+Đặc tính:
+Không độc Độ chiếu sáng cao Độ trong suốt cao Đề kháng hoá chất Độ cách nhiệt tốt Bền với thời tiết Dễ gia công Màu đẹp và phong phú
+Ứng dụng:
+Bảng hiệu quảng cáo Kệ đựng giấy Bảng menu Kệ đựng tivi Kệ đựng máy tính
+Kết cấu mô hình
+Bàn máy
+Hình 2.3: Bàn máy
+
+Ở đây em sử dụng MICA 1 mm để bàn máy để cố định dàn sàn lọc LED ở trên đó
+Dàn sàn lọc LED
+Hình 2.4: Dàn sàn lọc LED
+
+Để sàn lọc dược LED nhóm em sử dụng 6 ống nhôm có đường kính là 8 mm khoảng cách giữ mỗi ống là 3 mm sao cho đầu LED không qua được khe hở đó mà chỉ có chân LED mới qua được. Dàn sàn LED được nối liên kết với động cơ. Khi động cơ hoạt động thì những ống nhôm sẽ di chuyển tịnh tiến liên tục làm cho LED ở trên đó di chuyển xuống khâu lấy LED.
+Với dàn sàn này nhóm em sử dụng các ống nhôm 8 mm với 6 ống nhôm
+Hình 2.5: Dàn sàn
+
+Cơ cấu lấy LED từ dàn sàn LED
+Cơ cấu lấy LED từ dàn sàn LED nhóm em dùng hai bánh dao, một bánh xe cố định và một bánh xe nối với động cơ. Hai bánh xe được liên kết với nhau bằng dây đai. Dao (dao rọc giấy) được đặt nằm ngang với hai thanh dao được nối với nhau thành hình chữ T.
+Trục bánh xe cố định, nhóm em sử dụng thanh ốc 6mm để cố định bánh xe sao cho bánh xe quay dễ dàng
+Dao được cố định trên một thanh MICA nằm ngang, hai đầu thanh MICA được gắn vào hai bánh xe
+Khi động cơ hoạt động bánh xe được kết nối với động cơ sẽ quay kéo theo bánh xe cố định nhờ có sự liên kết bằng dây đai, đồng thời dao cũng sẽ quay. Do dao có kích thước mỏng hơn so với khoảng cách giữa hai chân LED, nên dao có thể dễ dàng hớt LED ra khỏi dàn sàn để đưa LED xuống khâu phân loại
+Hình 2.6: Bánh xe lấy led
+........................................................
+CHƯƠNG 3: KẾT QUẢ VÀ HƯỚNG PHÁT TRIỂN NHỮNG KẾT QUẢ ĐẠT ĐƯỢC: Toàn bộ yêu cầu đối với một bài tập lớn môn học đã được trình bày với đầy đủ nội dung chính và cơ bản. Trong bản thuyết minh này đã giải quyết được những vấn đề sau: Tìm hiểu động cơ dc và các phương pháp điều khiển. Ứng dụng được vi điều khiển pic16f877a. Phân tích chức năng , nhiệm vụ, mạch nguyên lý, …từ đó đề ra các phương án thiết kế . Đề ra giải thuật điều khiển và chương trình điếu khiển đầy đủ. Thành công và kết quả của bài tập lớn môn học này đã giúp chúng em nắm rỏ được kiến thức lý thuyết đã được học ở môn học…Và nhất là có thêm những kỉ năng mới để chuẩn bị cho các đồ án sắp tới. NHỮNG HẠN CHẾ CỦA ĐỀ TÀI -Vì đây là đồ án đầu tiên chúng em làm nên không tránh khỏi sự bở ngở cũng như rất nhiều sai sót. Do thời gian cho phép có hạn, kiến thức còn hạn chế gặp nhiều bỡ ngỡ vế thực tế cũng như kiến thức còn chưa vững chắc và do một số nguyên nhân khách quan và chủ quan khác nên bài tập lớn không thể tránh được những thiếu sót. HƯỚNG PHÁT TRIỂN -Những vấn đề mới nẩy sinh trong quá trình thực hiện đề tài này không chỉ là động lực kích thích niềm say mê trong quá trình nghiên cứu mà còn là sự thách thức về khả năng của bản thân chúng em. -Đề tài của chúng em hiện đang dừng lại ở mô hình cơ khí, chúng em sẽ tiếp tục phát triển mô hình lên thành mô hình làm việc tự động với các chức năng như: đóng gói, phân loại,….Chúng em xin chân thành cám ơn các thầy cô bộ môn Cơ Điện tử và các bạn trong lớp đã nhiệt tính giúp đỡ, tạo điều kiện để chúng em có thể hoàn thành tốt bài tập lớn.
+

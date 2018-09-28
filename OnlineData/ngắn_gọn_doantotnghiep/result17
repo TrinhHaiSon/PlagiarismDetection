@@ -1,0 +1,638 @@
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+ĐẠI HỌC QUỐC GIA TP. HCM
+TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT
+KHOA ĐIỆN – ĐIỆN TỬ
+BỘ MÔN ĐIỆN TỬ
+
+LUẬN VĂN TỐT NGHIỆP KHẢO SÁT TÍN HIỆU ĐIỀU CHẾ DÙNG MATLAB, thuyết minh ĐIỀU KHIỂN THIẾT BỊ ĐIỆN TỪ XA, thuyết minh, quy trình sản xuất, bản vẽ nguyên lý, bản vẽ thiết kế, FILE lập trình, và nhiều tài liệu liên quan kèm theo đồ án này
+ĐỀ TÀI: KHẢO SÁT TÍN HIỆU ĐIỀU CHẾ DÙNG MATLAB
+Giáo viên hướng dẫn: NGUYỄN THANH HẢI
+Sinh viên thực hiện
+Lớp :
+TP. HỒ CHÍ MINH 3 - 2012
+CHƯƠNG 1
+ĐIỀU BIÊN (AM: Amplitude modulation)
+Phổ của tín hiệu điều biên:
+Điều biên là quá trình làm cho biên độ tải tin biến đổi theo tin tức.
+Giả thiết tin tức là tín hiệu âm tần có phạm vi biến đổi tần số từ Wmin¸Wmax, ta có:
+VW = VW.cosWt (1.1)
+Tải tin là dao động cao tần:
+Vwo = V0.cosw0t (1.2)
+Từ (1-1) và (1-2) ta được tín hiệu điều biên có dạng:
+Trong đó: là hệ số điều chế hay còn gọi là độ sâu điều chế. Hệ số điều chế “m” phải thỏa mãn điều kiện m £ 1. Nếu m > 1 thì mạch có hiện tượng điều chế và tín hiệu méo trầm trọng (hình 1-1).
+Trong thực tế mmax = 0,7 ¸ 0,8 để đảm bảo thu tín hiệu không bị méo. Ta xác định “m” trong thực tế bằng cách đo các giá trị Vmax, Vmin và áp dụng công thức:
+Khi m = 1 ta có Vmax = 2V0 và Vmin = 0.
+Biến đổi lượng giác công thức (1.3) ta có
+Như vậy khi điều chế đơn âm phổ của tín hiệu điều biên AM có ba thành phần: Tải tin có tần số w0 và có biên độ V0; hai dao động biên có tần số w0 ± W và có biên độ như hình 1-2,a. Khi m=1 thì
+Nếu ta điều chế một dãi âm tần (Wmin¸Wmax) vào tải tin, ta sẽ có phổ của tín hiệu AM như hình 1-2,c.
+Ta thấy ngoài tải tin w0 có biên độ V0 còn có hai biên tần: biên tần trên có tần số từ (w0 - Wmin) đến (w0 + Wmax) và biên tần dưới có tần số từ (w0 - Wmax) đến (w0 + Wmin) đối xứng qua tải tin.
+Thực chất phổ của các dao động hai biên không đồng điều nhau mà càng xa w0 thì biên độ càng giảm do đặc tuyến lọc của bộ cộng hưởng không phải là hình chữ nhật lý tưởng.
+Quan hệ năng lượng trong điều biên:
+Trong tín hiệu đã điều biên, các biên tần chứa tin tức, còn tải tin không mang tin tức. Như vậy công suất tải tin là công suất tiêu hao vô ích, còn công suất biên tần là công suất hữu ích.
+Công suất tải tin là công suất bình quân trong một chu kỳ tải tin:
+Công suất biên tần
+Khi điều chế sâu (100%): m = 1 thì (1.9)
+Từ (1.3) ta có: VAmmax = V0(1+m)
+Do đó: (1.10)
+Khi m = 1 thì PAMmax = 4Pwo (1.11)
+Vậy công suất trung bình trong một chu kỳ điều chế:
+Nếu m = 1 thì PAM = 3/2 Pwo (1.13)
+Þ Pbt = 1/3 PAM (1.14)
+Hệ số lợi dụng công suất
+Khi điều chế sâu nhất m = 1 thì có nghĩa là công suất hữu ích chỉ bằng một phần ba tổng công suất phát đi.
+
+Trong thực tế để tín hiệu không méo m = 0,7 ¸ 0,8 thì. Đây chính là nhược điểm của tín hiệu AM so với tín hiệu điều biên (SSB).
+Các chỉ tiêu cơ bản của dao động đã điều biên:
+Hệ số méo phi tuyến:
+Trong đó:
+I(wt ± nws) (n ³ 2) là biên độ các thành phần dòng điện ứng với hài bậc cao của tín hiệu điều chế;
+I(wt ± ws) là biên độ các thành phần biên tần.
+Để đặc trưng cho méo phi tuyến trong mạch điều khiển, người ta dùng đặc tuyến điều chế tĩnh (hình 1.3). Đặc tuyến điều chế tĩnh cho biết quan hệ giữa biên độ tín hiệu ra và giá trị tức thời của tín hiệu điều chế ở đầu vào.
+Dạng tổng quát của đặc tuyến điều chế tĩnh được biểu diễn trên hình 1-3.
+Đường đặc tuyến điều chế tĩnh lý tưởng là một đường thẳng từ C đến A. Đặc tuyến điều chế tĩnh không thẳng sẽ làm cho lượng biến đổi của biên độ dao động cao tần đầu ra so với giá trị ban đầu (điểm B) không tỷ lệ đường thẳng với trị tức thời của điện áp điều chế. Do đó trên đầu ra thiết bị điều biên, ngoài các thành phần hữu ích (các biên tần), còn có các thành phần bậc cao không mong muốn khác. Trong đó đáng lưu ý nhất là thành phần của tần số wt ± 2ws có thể lọt vào các biên tần mà không thể lọc được.
+Để giảm méo phi tuyến, cần hạn chế phạm vi làm việc của bộ điều chế trong đoạn đường thẳng của đặc tuyến điều chế tĩnh. Lúc đó buộc phải giảm độ sâu điều chế.
+Hệ số méo tần số:
+Để đánh giá độ méo tần số, ngươì ta căn cứ vào đặc tuyến biên độ – tần số:
+M = f(Fs)½Us = const
+Hệ số méo tần số được xác định theo biểu thức:
+Trong đó:
+m0 – hệ số điều chế lớn nhất;
+m – hệ số điều chế tại tần số đang xét;
+Méo tần số xuất hiện chủ yếu trong các tầng khuyếch đại âm tần (khuyếch đại tín hiệu điều chế), nhưng cũng có thể xuất hiện trong các tầng điều chế và sau điều chế, khi mạch lọc đầu ra của các tầng này không đảm bảo băng thông cho phổ của tín hiệu đã điều biên(2Fmax)
+Phương pháp tính toán mạch điều biên:
+Các mạch điều biên được xây dựng dựa vào hai nguyên tắc sau đây:
+Dùng phần tử phi tuyến : cộng tải tin và tín hiệu điều chế trên đặc tuyến của phần tử phi tuyến đó. Dùng phần tử phi tuyến có tham số điều khiển được: nhân tải tin và phi tín hiệu điều chế nhờ phần tử phi tuyến đó.
+Điều biên dùng phần tử phi tuyến:
+Các phần tử phi tuyến được dùng để điều biên có thể là đèn điện tử, bán dẫn, các đèn có khí, cuộn cảm có lõi sắt hoặc điện trở có trị số biến đổi theo điện áp đặt vào.
+
+Tùy thuộc vào điểm làm việc được chọn trên đặc tuyến phi tuyến, hàm số đặc trưng cho phần tử phi tuyến, có thể biểu diễn gần đúng theo chuỗi Taylor khi chế độ làm việc của mạch là chế độ A(q = 1800) hoặc phân tích theo chuỗi Fourier khi mạch làm việc ở chế độ mà góc cắt q < 1800 (chế độ lớp AB, B, C). phương pháp tính toán cho hai trường hợp đó như sau:
+a). Trường hợp 1: q = 1800 .
+Giả thiết mạch điều biên dùng Diode (hình 1-5). Nếu các tín hiệu vào thỏa mãn điều kiện ½V0½ + ½VW½ < ½E½ (2.18)
+thì mạch làm việc ở chế độ A (q = 1800) Hàm số đặt trưng cho phần tử phi tuyến (diode) xung quanh điểm làm việc được biểu diễn theo chuỗi Taylor:
+iD = a1uD + a2uD2 + a3uD3 +… (1.18)
+với uD = ED + U0cos0t + UWcosWt
+Thay uD vào biểu thức (1.18), nhận được:
+ID = a1(E + U0 cosw0t + UWcoswWt) + a2(E + U0 cosw0t + UWcoswWt)2 + + a3(E + U0 cosw0t + UWcoswWt)3 +… (1.19)
+Khai triển (1.18) và bỏ qua các số hạng bậc cao n ³ 4 sẽ có kết quả mà phổ của nó được biểu diễn trên hình 1.6. Phổ của tín hiệu ra trong trường hợp này gồm thành phần phổ mong muốn. Các thành phần phụ bằng không khí.
+A3 = a4 = a5 = … = a2n+1 = 0 (n = 1, 2, 3,…)
+Nghĩa là nếu đường đặc tính của phần tử phi tuyến là một đường cong bậc hai thì tín hiệu đã điều biên không có méo phi tuyến. Phần tử phi tuyến có đặc tính gần với dạng lý tưởng (bậc 2) là FET.
+Để thỏa mãn điều kiện (1.18), tải tin và tín hiệu điều chế phải có biên độ bé, nghĩa là phải hạn chế công suất ra. Vì lý do đó, rất ít dùng điều biên chế độ A.
+b) Trường hợp 2: q < 1800
+Khi q < 1800, nếu biên độ điện áp đặt vào diode đủ lớn thì có thể coi đặc tuyến của nó là một đường gấp khúc (hình 1-7). Phương trình biểu diễn đặt tuyến của diode trong trường hợp này như sau:
+S: hỗ dẫn của đặc tuyến diode
+Chọn điểm làm việc ban đầu trong khu tắc của diode (ứng với chế độ C)
+Vì dòng qua diode là một dãy xung hình sin (hình 1-7b), nên có thể biểu diễn iD theo chuỗi Fourier như sau:
+ID = I0 + i1 + i2 +…+ in +…= Io + I1cosw0t + I2cos2w0t +..+ Incosnw0t (1.21)
+Trong đó:
+I0: thành phần dòng điện một chiều;
+I1: biên độ thành phần dòng điện cơ bản đối với tải tin;
+I2, I3,…,In: biên độ thành phần dòng điện bậc cao (hài bậc cao) đối với tải tin;
+I0, I1, I2,…, In được tính toán theo các biểu thức xác định hệ số của chuỗi Furier:
+Theo biểu thức (1.20):
+iD = SuD = S(E + UWcoswWt + U0cosw0t) (1.23)
+Khi w0t = q thì ID = 0 (hình 2-6), do đó ta có:
+0 = S(E + UWcoswWt + U0cosq) (1.24)
+Lấy (2-22) trừ (2-23) ta có :
+iD = SU0 (cosw0t - cosq) (1.25)
+Biểu thức (1.25) là một dạng khác của (1.23), nó biểu diễn sự phụ thuộc của iD vào chế độ công tác (góc cắt q).
+Biên độ thành phần cơ bản I1 (thành phần hữu ích):
+Ơ đây q xác định được từ biểu hức (1-24)
+Điều biên dùng phần tử tuyến tính có tham số Thay đổi:
+Thực chất quá trình điều biên này là quá trình nhân tín hiệu. Ví dụ về mạch điện loại này là điều biên dùng bộ nhân tương tự (hình 1-7). Trong mạch điện này, quan hệ giữa điện áp ra udb và điện áp vào u0 là quan hệ tuyến tính. Tuy nhiên, khi uW biến thiên thì điểm làm việc chuyển từ đặc tuyến này sang đặc tuyến khác làm cho biên độ tín hiệu ra thay đổi để có điều biên.
+Căn cứ vào tính chất của mạch nhân, ta viết được biểu thức của điện áp ra sau đây:
+Uđb = (E + UWcoswWt)U0cosw0t
+Hoặc
+Theo (1-28) phổ của tín hiệu ra có tải tin và hai biên tần mong muốn.
+Các mạch điều biên cụ thể:
+Để thực hiện theo nguyên tắc thứ nhất, có thể dùng mọi phần tử phi tuyến, nhưng nếu dùng bán dẫn, đèn điện tử thì đồng thời với điều biên, còn có thể khuyếch đại tín hiệu. Về mạch điện, người ta phân biệt các loại mạch điều biên sau: mạch điều đơn biên, mạch điều biên cân bằng và mạch điều biên vòng.
+1. Mạch điều biên đơn:
+Mạch điều biên đơn là mạch chỉ dùng một phần tử tích cực để điều chế. Các mạch điện trên hình 1-5 và 1-6 là các mạch điều biên đơn dùng diode. Như đã xét trong hai mạch điều biên, dòng điện ra tải ngoài các thành phần hữu ích (các biên tần) còn có đủ mọi thành phần không mong muốn khác (tải tần và các hài bậc cao). Đó là đặc điểm cơ bản của các mạch điều biên đơn.
+Đặt tuyến Volt-ampe của diode, Transistor hay đèn điện tử chỉ được coi là gần đúng là thẳng khi tín hiệu vào đủ lớn. Chính vì vậy đối với máy phát AM quá trình điều chế thường được tiến hành ở đầu cuối, hay trước cuối. Nếu chỉ dùng Diode ta chỉ thực hiện được điều biên. Còn nếu dùng Transistor, FET hay đèn điện tử ta thực hiện được điều biên, lại vừa khuyếch đại được tín hiệu.
+Khi tín hiệu vào nhỏ, đặc tuyến Volt-ampe của diode, transistor, đèn điện tử được gọi gần đúng là một đường cong:
+i = f(V) = a0 + a1V + a2V2 + a3V3 +… (1.30)
+Sự biểu diễn càng chính xác nếu ta lấy lũy thừa càng cao. Thực tế ta chỉ xét đặc tuyến đến bậc 3, vì các bậc n > 3 có biên độ rất nhỏ.
+Gọi V1 = Vwo và V2 = VW, cho chúng tác dụng vào phần tử phi tuyến ta có:
+i=f(V1+V2)=a0+a1V1+a1V2+a2V12+ a2V22+2a2V1V2+a3V13+3a3V12V2+3a3V1V22+a3V23+… (1.31)
+Để có tín hiệu điều biên ở ngõ ra, chúng ta cần lấy ra:
+a1V1 là thành phần tần số sóng mang (tải tin): w0
+2a2V1V2 là thành phần hai dải biên trên (w0 + W) và biên dưới (w0 - W)
+Nếu ta dùng mạch lọc có tần số cộng hưởng: wCH = w0 như ở hình 1-9 và dải thông có bề rộng D = 2W, ta sẽ lọc được hai thành phần trên và có tín hiệu điều biên thông thường. Nhưng các số hạng 3a3V1V22 sẽ gồm hai thành phần tần số w0 và w0 ± 2W vì cos2x = ½(1 + cos2x). Do W <<w0 nên các thành phần này cũng đi qua mạch cộng hưởng và gây ra sự méo điều chế không tuyến tính. Còn các thành phần khác không đi qua được mạch lọc vì W, 2W << w0 , còn 2w0, 3w0 >> w0 Để khử méo không tuyến tính ta có hai phương pháp:
+Đặc tuyến volt-ampe của phần tử không tuyến tính phải có dạng bậc 2 để không có các số hạng bậc 3 (hoặc a3 rất nhỏ). Muốn vậy ta phải dùng FET.
+Khử méo bằng cách cải tiến mạch, thực hiện điều chế cân bằng như sau:
+Trong hình 1-9a, điện áp đặt trên D1 và D2 lần lược là:
+u1 = UWcoswWt + U0cosw0t
+u2 = - UWcoswWt + U0cosw0t
+Dòng điện qua các diode được biểu diễn thành chuỗi Taylor:
+i1 = a0 + a1u1 + a2u12 + a3u13 +…
+i2 = a0 + a1u2 + a2u22 + a3u23 +…
+Dòng điện ra: i = i1-i2 (1.34)
+Thay (2-32), (2-33) vào (2-34) ta có:
+i = AcoswWt+ Bcos3wWt+ C[cos(w0+wW)t+ cos(w0-wW)t]+ D[cos(2w0+wW)+ cos(2w0-wW)t] (1.35)
+Trong đó:
+A = UW2a1+3a3U02+½(a3UW2)
+B = ½(a3UW3)
+C =2a2UWU0
+D=3/2(a3UWU0)
+Tương tự như vậy cũng chứng minh kết quả đó trên mạch điện hình 1-9b, Trong trường hợp cần có tải tin ở đầu ra, sau khi điều chế có thể đưa thêm tải tin vào phổ của tín hiệu ra của mạch điều biên đã cân bằng được biểu diễn trên hình 1-9c.
+Một dạng khác của mạch điều chế cân bằng là mạch điều chế vòng, thực chất đây là hai mạch điều chế cân bằng có chung tải. Sơ đồ mạch điều biên biểu diễn trên hình 1-10.
+Gọi phần điện ra của mạch điều chế cân bằng gồm D1, D2 là i1 và dòng điện ra của mạch điều chế cân bằng gồm D3, D4 là iII . Theo 1.35:
+II= AcoswWt+ Bcos3wWt+ C[cos(w0+wW)t+ cos(w0-wW)t]+ D[cos(2w0+wW)+ cos(2w0-wW)t] (1.37a)
+III = iD3- iD4 (1.37b)
+Trong đó:
+iD3= a0 +a1u3+a2u32+a3u33+…
+iD4= a0 +a1u4+a2u42+a3u43+…
+Với u3và u4 là điện áp đặt lên D3và D4, được xác định như sau:
+u3=-U0cosw0t-UWcoswWt
+u4=-U0cosw0t-UWcoswWt
+Thay (1.38), (1.39) vào (1-37b) ta được:
+iII=- AcoswWt - Bcos3wWt+ C[cos(w0+wW)t+ cos(w0-wW)t]- D[cos(2w0+wW)+ cos(2w0-wW)t] (1.40)
+A, B, C, D trong các biểu thức (1.37a), (1.40) được xác định theo biểu thức (1.36). Từ (2.37a) và (1.40) xác định được dòng điện ra:
+iđb = iI+iII= 2 C[cos(w0+wW)t+ cos(w0-wW)t] (1.41)
+Vậy dùng mạch điều chế vòng còn có thể khử được các hài bậc lẻ của wW và các biên tần của 2w0, do đó méo phi tuyến rất nhỏ. Phổ tín hiệu ra của mạch điều chế vòng được biểu diễn trên hình 1-10b. Mạch điều chế
+..................................
+Mạch điều chế bằng Transistor:
+Về nguyên lý điều biên bằng Transistor cũng gồm các loại :
+Trong trường hợp Tranzistor lưỡng cực, FET, đèn điện tử để điều biên, người ta phân biệt các loại mạch điều biên sau đây: điều biên base, điều biên collector, điều biên cửa, điều biên máng, điều biên anot, điều biên lưới,… Các loại mạch điều biên có tên gọi tương ứng với cực mà điện áp điều chế được đặt vào.
+Các Transistor cũng hoạt động ở chế độ kém áp (x= 0,85 ¸0,95xth) và được chọn sao cho có thể duy trì độ tuyến tính của đặc tính điều chế.
+Người ta thường sử dụng việc tạo thiên áp hỗn hợp cho base để duy trì điều chế tuyến tính và giữa góc cắt q = 900. Trên hình 1-13 là một mạch điều biên collector biến đổi theo điện áp âm tần:
+V*CC =VCC + VWcosWt (1.42)
+VCC: điện áp nguồn cung cấp trong trường hợp sóng mang không điều chế.
+VW:Biên độ điện áp âm tần từ bộ khuếch đại công suất âm tần.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Đối với Transistor, điện áp của Collector không được tăng quá giá trị an toàn cực đại dù trong thời gian ngắn. Bởi vậy cần phải thỏa mãn điều kiện:
+Vwo + VW < VCemax= BVCEO (1.43)
+Trong đó :
+Vwo: điện áp cao tần cực đại ở collector khi m=1; BVCEO: điện áp đánh thủng cho phép cực đại;
+Khác với đèn điện tử, điều biên Collector có công suất đánh giá bằng công suất đỉnh:
+PTB = Pwo(1+m)2/hCH (1.44)
+hCH: hiệu suất của mạch cộng hưởng.
+Trong trường hợp tổng quát, đặt tuyến điều chế IC1(VCC) là phi tuyến như hình 2-14. Khi đó: IC1 = IC1max(VCC/VCcmax)1-d (1.45)
+d : hệ số biến thiên 0 £ d £ 0,25
+Đặc tuyến điều chế Collector có thể được tuyến tính hóa nhờ điều chế phụ base.
+Khi điện áp Collector thấp mối nối Collector được phân cực thuận bởi điện áp đầu vào. Do vậy dao động cao tần trực tiếp đi qua mối nối Collector phân cực thuận. Sự thay đổi của dòng Collector trong vùng 0-a xuất hiện bởi điều chế quá mức khi tín hiệu lớn. Để tránh méo phi tuyến gây ra người ta áp dụng điều chế Collector phụ được thực hiện ở Collector của tầng trước đó.
+Ta có thể thực hiện điều chế cân bằng không có mạch lọc đầu ra dùng Transistor (hình 1-14). Ưu điểm của nó là méo phi tuyến nhỏ, biên độ điều biên ở đầu ra lớn.
+VÍ DỤ MINH HỌA:
+Cho tín hiệu điều biên với hệ số điều chế m=2, tần số điều chế W =10Khz. Tín hiệu tải tin có biên độ V0=5mV và tần số w0=1Mhz
+Viết phương trình tín hiệu điều chế và tín hiệu đã điều chế. Vẽ dạng tín hiệu đã điều chế.
+Giải:
+Ta có: V0(t) = 0.005 cos (2p*106) t
+Ta lại có: Þ VW = mV0 = 2*0.005 =0.01
+Tín hiệu điều chế:
+VW = 0.01 cos (2p*104) t
+Tín hiệu đã điều chế:
+VAM (t) = 0.005 [cos (2p*106) *t]*[ 1+ 2 cos(2p*104) *t].
+Mô phỏng dạng tín hiệu đã điều chế:
+fc=10^6;fm=10^4;
+T=1/fc;
+t=0:T/200:100*T;
+VAM(t)=0.005*cos(2*pi*fc*t).*[1+2*cos(2*pi*fm*t)];
+plot(t,VAM(t))
+Title('DC-AM,m>1')
+Có tín hiệu tải tin: V0 (t) = 10 cos (2p *106) t
+Và tín hiệu điều chế: VW (t) =7 cos (p*104) t
+Hãy tìm giá trị của hệ số điều chế m và biểu thức của tín hiệu đã điều chế.Vẽ dạng tín hiệu đã điều chế.
+Giải:
+Hệ số điều chế m: m = Biểu thức của tín hiệu đã điều chế:
+VAM (t) = 10 cos (2p*106) t *[ 1+ 0.7* cos (2p*104) t]
+Mô phỏng dạng tín hiệu đã điều chế:
+fc=10^6;fm=10^4;
+T=2/fc;
+t=0:T/50:100*T;
+VAM(t)=10*cos(pi*fc*t).*[1+.7*cos(2*pi*fm*t)];
+plot(t,VAM(t))
+title('DC-AM,m<1')
+.......................................
+CHƯƠNG 2
+ĐIỀU CHẾ ĐƠN BIÊN (SSB: single sideband)
+1. Ưu khuyết điểm của điều chế đơn biên:
+Ta biết tin tức chỉ chứa trong biên tần, nên chỉ cần truyền đi một biên tần là đủ thông tin về tin tức. Quá trình điều chế nhằm tạo ra một dải biên tần gọi là điều chế đơn biên. Tải tần chỉ cần dùng để tách sóng do đó có thể nén toàn bộ hoặc một phần tải tin trước khi truyền đi.
+Một số ưu điểm của điều chế đơn biên (SSB) so với điều biên
+Độ rộng dải tần giảm một nữa :
+DSSB <1/2DAM
+Bởi vậy trong cùng một dải tần số thì số đài có thể bố trí tăng gấp đôi.
+Hiệu suất rất cao đối với điều chế AM:
+Phữu ích= Pbt = 1/3PAM khi m=1
+Đối với điều chế đơn biên Phữu ích = Pbt = PSSB .
+Xét hệ số lợi dụng công suất :
+kAM =1/3 và kSSB =1 khi m = 1
+kAM = 1/9 và kSSB =1 klhi m = 0,5
+Vậy khi m càng nhỏ thì máy phát đơn biên càng có công suất hữu ích lớn hơn nhiều lần so với Phữu ích của máy phát điều biên.
+(3) Do DSSB £ 2DAM nên đối với các loại nhiễu nói chung (S/N)SSB > (S/N)AM và riêng đối với nhiễu trắng (nhiễu có cường độ như nhau) thì (S/N)SSB ³
+Như vậy để máy phát AM và SSB có cùng S/N, ta phải tăng PAM lên hai lần
+Do hiện tượng pha đinh trong truyền sóng mà tần số sóng mang f0 có thể bị suy giảm. Đối với máy thu AM có lúc m > 1 sẽ gây méo do quá điều chế. Nếu pha đinh rất lớn làm mất hẳn tần số sóng mang thì máy thu sẽ không thu được gì. Còn đối với máy thu SSB pha đinh làm suy giảm hay triệt tiêu tần số sóng mang không gây ảnh hưởng gì. Đối với tín hiệu AM trong giải truyền sóng ngắn, do sự phân tán của đặc tuyến pha mà xẩy ra sự chia pha các dao động trong dải biên. Điều đó làm méo tín hiệu truyền và làm giảm biên độ điện áp ở đầu vào bộ tách sóng của máy thu AM. Tổn hao công suất ở đầu ra, do đó được đánh giá là 50%. Còn đối với tín hiệu SSB thì mọi tin tức điều được phát trong một dải biên nên không có hiện tượng chia pha. Dùng tín hiệu SSB sẽ thực hiện được sự bảo mật tốt, do nếu không biết tần số sóng mang thì sẽ không thu được tin tức. Do vậy máy phát và máy thu SSB được sử dụng rất nhiều trong lĩnh vực quân sự.
+Tuy có nhiều ưu điểm nhưng do yêu cầu kỹ thuật khá cao như mạch lọc dải phải rất hẹp và dốc đứng; việc tạo lại tần số sóng mang f0 trong máy thu phải rất chính xác mới không méo tín hiệu… nên máy phát và máy thu hiệu SSB cấu tạo phức tạp hơn so với máy phát và máy thu AM. Bởi vậy nó chỉ được dùng trong các máy thu phát thông tin chuyên dụng như trong máy phát thoại và phát tín hiệu nhiều kênh.
+Trong đó:
+Trong biểu thức (2-1), m không mang ý nghĩa về độ sâu điều chế nữa và gọi là hệ số nén tải tin.
+Đồ thị vecto của tín hiệu đơn biên được biểu diễn trên hình 2-2. Ta thấy, vectơ đặc trưng cho dao động điều chế đơn biên thay đổi cả về biên độ lẫn góc pha, nghĩa là điều chế đơn biên bao giờ cũng kèm theo điều chế pha. Tải tin bị nén một phần hoặc bị nén hoàn toàn, do đó vectơ tải tin U0 có thể nhỏ hơn vectơ biên tần UW. Trong kỹ thuật truyền hình tín hiệu điều chế video một phần là tín hiệu điều biên (khi fs £ 0,75MHz), phần còn lại (0,75 MHz £ fS£ 5 MHz) là tín hiệu điều chế đơn biên (hình2-3). Bằng cách đó giảm được dải tần của tín hiệu điều chế video. Nếu cắt bỏ hoàn toàn một tín hiệu biên tần thì vấn đề lọc dải sẽ khó khăn, hơn nữa sẽ xuất hiện sai pha.
+2 . Các phương pháp điều chế đơn biên:
+Phương pháp đầu tiên để tạo ra tín hiệu đơn biên SSB là từ tín hiệu điều biên AM người ta dùng bộ lọc dải để tách một biên tần cần thiết của tín hiệu ra. Nhưng do yêu cầu chất lượng cao nên bộ lọc dải rất phức tạp. Bởi vậy người ta tạo hai phương pháp tạo tín hiệu SSB khác nhau: phương pháp quay pha và phương pháp lọc-pha
+Nhưng do hai phương pháp này lại tạo ra một số sản phảm không cần thiết như tần số sóng mang f0 , dải biên thứ hai..
+Mặt kác hai phương pháp này không thể tạo ra bộ điều chế có chỉ tiêu kỹ thuật cao và ổn định, bởi vậy nó cũng ít được dùng. Ngày nay phương pháp tạo tín hiệu SSB đã được sử dụng rộng rãi nhất là phương pháp tổng hợp: tạo tín hiệu SSB bằng các tần số sóng mang khác nhau. Đặc biệt là khi bộ lọc thạch anh ra đời thì phương pháp này được sử dụng rất rộng rãi.Điều chế đơn biên theo phương pháp lọc:
+Tín hiệu điều chế VW và tải tin Vwđược đưa vào bộ điều chế cân bằng. Sau bộ điều chế cân bằng ta thu được hai dải biên (DSB). Sau đó dùng bộ lọc dải ta sẽ thu đuợc biên trên hoặc biên dưới như hình 2-4. Nhưng do W << w0 nên w0 ± W rất gần w0, vì vậy việc lọc rất khó khăn. Ta có tỷ số lọc:
+w0 :tần số sóng mang.
+D: khoảng cách giữa tần số cần lọc và tần số cho qua.
+Ta thấy X càng lớn, càng dễ lọc có nghĩa là tần số sóng mang f0 càng gần tần số điều chế W càng dễ lọc. Trong thực tế ta chọn tần số trung gian nằm trong khoảng (100 ¸ 500MHz) vì ở dải tần số đó ta có bộ lọc thạch anh và bộ lọc cơ điện tốt nhất. Sau đó để chuyển fTG lên tần số tải tin f0 ta dùng thêm một vài bộ điều chế cân bằng và bộ lọc dải ở các tần số khác nhau. Mỗi lần lọc thì tỷ số X lớn hơn nên dễ thực hiện lọc hơn. Phương pháp đó gọi là phương pháp tổng hợp.
+Phương
+Bộ lọc 1 thường là bộ lọc thạch anh hay bộ lọc cơ điện chất lượng cao vì D rất nhỏ. Tần số sóng mang thứ 2 có f1>>f0 và D = w1 + Wmin khá lớn nên dễ lọc hơn. Vì vậy bộ lọc 2 thường là bộ lọc L, C đơn giản. Nếu f2 chưa ở trong dải tần số làm việc thì ta lại dùng tới tần số thứ 2 : dùng bộ điều chế cân bằng 3. Bộ lọc 3 cũng đơn giản như bộ lọc 2 vì D lớn:
+D = w1 +w2 + Wmin
+Cứ thế cho đến khi nào ta đạt được tần số làm việc f0. (tần số tải tin)
+c) Phương pháp quay pha:
+Nguyên tắc tạo tín hiệu đơn biên bằng phương pháp quay pha được minh họa trên đồ thị vectơ hình 2-6
+Tín hiệu âm tần VW và dải tin Vwo trước khi đưa vào bộ ĐCCB II được di pha một góc 900. Còn tín hiệu âm tần VW và tải tin Vwo được đưa thẳng vào bộ ĐCCB I. Tín hiệu ở đầu ra của hai bộ ĐCCB sẽ qua bộ tổng (hoặc hiệu) và ở đầu ra của bộ tổng (hoặc hiệu) là tín hiệu đơn biên SSB như hình 2-
+Ở đầu ra bộ tổng ta nhận được:
+VSSB = VwoVWcos(w0 - W)t (2.2)
+Đây chính là biên tần dưới của tín hiệu SSB. Nếu ta thay mạch tổng bằng mạch hiệu ta sẽ nhận được biên tần trên.
+Phương pháp này có thể mở rộng cho trường hợp hệ thống điều chế có số lượng bộ điều chế n ³ 3, lúc đó sẽ có n mạch quay pha P/n.
+Biểu thức 2.2 chỉ đúng khi hai bộ ĐCCB hoàn toàn giống nhau để VI, VII có biên độ như nhau và hai bộ di pha phải tạo ra di pha chính xác (đúng 900). Nếu không ở đầu ra ta sẽ thu được cả hai biên tần. Đây là khó khăn lớn vì thực hiện quay pha chính xác đối với một tín hiệu có dải tần rộng (Wmin + Wmax) không phải đơn giản. Vì vậy phương pháp này ngày nay ít được sử dụng.
+Phương pháp lọc và quay pha kết hợp:
+.....................................
+CHƯƠNG 2 ĐIỀU TẦN & ĐIỀU PHA
+(FM: Frequency Modulation - PM: Pules Modulation)
+Quan hệ giữa điều tần và điều pha:
+Vì giữa tần số và góc pha của một dao động có quan hệ với nhau, nên dễ dàng chuyển đổi sự biến thiên tần số thành biến thiên về pha và ngược lại:
+Điều tần và điều pha là quá trình ghi tin tức vào tải tin, làm cho tần số hoặc pha tức thời của tải tin biến thiên theo dạng tín hiệu điều chế (tín hiệu âm tần).
+Tải tin là dao động điều hòa:
+V0(t) = V0cos(w0t +j0) = V0cosj(t) (3.2)
+Từ 3.1 ta có :
+Thay (3.3) vào (3.2) ta nhận được biểu thức:
+Giả thiết tín hiệu điều chế là tín hiệu đơn âm :
+VW(t)= VWcosWt (3.5)
+Khi điều chế tần số hoặc điều chế pha thì tần số hoặc góc pha của tải tin biến thiên tỷ lệ với tín hiệu điều chế và chúng được xác định theo các biểu thức sau:
+w(t) = w0 + DwcosWt (3.6)
+Dw: lượng di tần cực đại.
+Khi đó ta có chỉ số điều tần:
+k: hệ số tỷ lệ
+j(t) = j0 + Dj cosWt (3.8)
+Dj: lượng di pha cực đại. Khi đó ta có chỉ số điều pha:
+mp= kVW = Dj (3.9)
+Từ (3.6) ta có:
+Dw = kVW (3.10)
+Nên khi VW = const thì Dw= const nhưng khi W thay đổi thì mf cũng thay đổi.
+Từ (3-8) ta nhận thấy khi VW = const thì mp = const, nhưng độ di tần khi điều pha thì tăng tỷ lệ với tần số điều chế theo biểu thức:
+Như vậy điều khác nhau cơ bản giữa điều tần và điều pha là lượng di tần khi điều pha tỷ lệ với biên độ điện áp điều chế và tần số điều chế, còn lượng di tần khi điều chế tần số chỉ tỷ lệ với biên độ điện áp điều chế mà thôi.
+Thay (3.6) và (3.8) vào (3.3) ta nhận được tín hiệu đã điều tần và điều pha như sau:
+VFM(t) = V0cos(w0t + sinWt + j0) (3.12) VPM(t) = V0cos(w0t + DjcosWt + j0) (3.13)
+Ta nhận thấy nếu ta đưa tín hiệu điều chế qua một mạch tích phân, rồi vào mạch điều chế pha thì ở đầu ra ta sẽ nhận được tín hiệu điều chế tần số. Ngược lại, nếu ta đưa tín hiệu điều chế qua một mạch vi phân, rồi vào mạch điều chế tần số thì ở đầu ra ta nhận được tín hiệu điều chế pha (hình 3-1)
+Phổ của dao động điều tần và điều pha:
+Công thức (3.12) và (3.13) có thể viết lại như sau với j0 = 0:
+VFM(t) = V0cos(w0t + mfsinWt) (3.14)
+VPM(t) = V0cos(w0t + mpsinWt) (3.15)
+Khi điều chế đơn âm, phổ của tín hiệu điều tần và điều pha chỉ chứa thành phần w0 và nhiều thành phần tần số biên (w0 ± nW) với n = 1, 2, 3 (được cho trong bảng 2-1). Biên độ của các thành phần tần số biên tỷ lệ với hàm số Bessel loại 1 bậc n như hình (3-2)
+...................................
+Mạch điều tần và điều pha:
+Về nguyên tắc có thể phân biệt mạch điều tần gián tiếp cà mạch điều tần trực tiếp, cũng như mạch điều pha gián tiếp và mạch điều pha trực tiếp. Trong đó điều tần gián tiếp là điều tần thông qua điều pha (hình 3-1a) và ngược lại điều pha gián tiếp là điều pha thông qua điều tần (hình 3-1b). Như vậy ta chỉ cần nghiên cứu các mạch điều tần trực tiếp và mạch điều pha trực tiếp, rồi dựa vào sơ đồ khối trên hình 3-1 suy ra được điều tần gián tiếp và điều pha gián tiếp.
+Xét phổ âm thanh của người, ta thấy thực tế ở tần số cao biên độ âm bị giảm nhỏ. Do đó ở tần số cao độ di tần nhỏ vì Dw = kVW nghĩa là tín hiệu điều tần bị méo.
+Để khắc phục ở phía máy phát trước khi đưa tín hiệu điều chế VW vào bộ điều tần, ta phải đưa qua bộ khuếch đại nâng tần số cao (emphasis) để trong dải tần số điều chế ta có Dw » const.
+Ngược lại trong máy thu ở tần đầu của bộ khuếch đại âm tần ta phải cho tín hiệu đã điều chế qua bộ suy giảm tần số (deemphasis) để nhận được tín hiệu trung thực ở loa. (hình 3-6)
+Mạch điều tần trực tiếp:
+Khi điều tần trực tiếp, tần số dao động riêng của mạch tạo dao động được điều khiển theo tín hiệu điều chế.
+Mạch điều tần trực tiếp thường được thực hiện bởi các mạch tạo dao động mà tần số dao động riêng của nó được điều khiển bởi dòng điện hoặc áp (VCO: Voltage controlled oscillator và CCO: Circuit controlled oscillator) hoặc bởi các mạch biến đổi điện áp – tần số. Các mạch tạo dao động biến đổi theo điện áp đặt vào có thể là mạch tạo dao động xung hoặc các mạch tạo dao động điều hòa LC. Các mạch tạo dao động LC cho khả năng biến đổi tần số khá rộng và có tần số trung tâm cao. Nguyên tắc thực hiện điều tần trong các bộ tạo dao động theo điện áp đặt vào. Phương pháp phổ biến nhất là dùng diode biến dung (varicap) và transistor điện kháng.
+Điều tần dùng trasistor điện kháng:
+Phần tử điện kháng: dung tính hoặc cảm tính có trị số biến thiên theo điện áp điều chế đặt trên nó được mắc song song với hệ dao động của bộ tạo dao động làm cho tần số dao động thay đổi theo tín hiệu điều chế. Phần tử điện kháng được thực hiện nhờ một mạch di pha mắc trong mạch hồi tiếp của một transistor. Có 4 cách mắc mạch phần tử điện kháng như biểu diễn trong bảng 3.1
+Với mạch phân áp RC ta tính được:
+S: hỗ dẫn
+Nếu chọn các linh kiện sao cho thì trở kháng Z có thể xác định theo biểu thức:
+..............................
+Rõ ràng khi VW thay đổi thì Dw thay đổi, do góc pha j biến thiên một lượng tương ứng. Do ½ZK½cũng biến thiên theo Dw nên mạch này có điều biên ký sinh. Nếu chọn các mạch cộng hưởng lọc LC hợp lý (mỗi mắc lọc di pha 600), có thể làm cho đặt tuyến j = f(VW) tuyến tính hơn, do đó đạt được lượng di pha tương đối lớn Dj = P và méo phi tuyến nhỏ g £ 1%.
+Trên hình 3-19. Các tụ ghép C để ngăn điện áp một chiều và cho điện áp cao tần đi qua; Các tụ thoát C’ để ngăn điện áp một chiều và điện áp cao tần, chỉ cho điện áp âm tần VW đi qua. Do đó C’ >> C. Một dạng điều chế pha khác:
+Trong sơ đồ, R1 làm giảm bớt biên độ đa cao tần Vwo. R2, R3, R4, R5, R6 để tạo phân cực ngược cho Varicap V1, V2. Để V2 phân cực ngược thì R3 >> R4. Các tụ C ngăn điện áp một chiều, cho tín hiệu cao tần qua. C’ ngăn điện áp một chiều và tín hiệu cao tần, chỉ cho tín hiệu âm tần qua nên C’ >> C.
+Các phần tử điện kháng tạo thành một mạng 4 cực di pha như hình 3.19b. Dưới tác dụng của điện áp điều chế VW thì CV1 và CV2 sẽ thay đổi. Mặc dù sự thay đổi của điện dung là nhỏ nhưng do biên độ của hệ số truyền đạt thay đổi không đáng kể nên sự thay đổi pha có thể đạt tới ± 7%.
+Trong thực tế, các mạch điều pha thường được dùng kết hợp với mạch tích phân để thực hiện điều tần gián tiếp. Mạch điều tần gián tiếp so với mạch điều tần trực tiếp thì lượng di tần nhỏ hơn vì Dj nhỏ, nhưng có độ ổn định tần số trung tâm cao, vì có thể dùng thạch anh trong tầng dao động. Để độ di tần lớn ta phải mắc thêm một số tầng Naha như hình 3-34.
+2. Ổn định tần số trung tâm của tín hiệu điều tần:
+Trong máy phát điều tần, nếu tần số trung tâm không ổn định thì nó trực tiếp làm méo và làm sai lệch tín hiệu điều chế vì tín hiệu chứa đựng trong độ di tần. vì vậy chúng ta phải đưa ra các biện pháp ổn định tần số trung tâm f0.
+Điều tần trực tiếp bằng thạch anh:
+Cho thạch anh dao động ở tần số cộng hưởng riêng wq = const. Thay đổi Cp theo điện áp điều chế VW , ta sẽ tạo ra độ di tần: Vw = wp - wq = Cp/2Cp.Thay đổi Cp bằng cách thay đổi điện dung tiếp giáp của đèn điện tử, Transistor hoặc FET; mắc Varicap hay đèn điện kháng song song với thạch anh. Nhưng do độ di tần tương đối nhỏ (Dw/w0 £ 0,01) nên điều tần trực tiếp bằng thạch anh chỉ được sử dụng trong các máy phát thoại quốc tế (Df £ 6 KHz).
+Sử dụng thạch anh dùng bộ tạo dao động để w0 = const. Sau đó dùng bộ điều chế pha để tạo tín hiệu điều tần. Khi đó ta đạt được độ méo phi tuyến nhỏ (g£1%), nhưng độ di tần vẫn còn khá nhỏ. Vì vậy phương pháp này chỉ dùng trong các máy phát thoại quốc tế có độ di tần nhỏ (Df £ 6KHz) và độ méo phi tuyến nhỏ (g £ 1%) Trong bộ điều tần sử dụng các nguồn cung cấp được ổn ịnh và được bù nhiệt bởi các điện trở hoặc các linh kiện có hệ s61 nhiệt âm (khi nhiệt độ tăng thì C giảm, R giảm). Vì khi điện áp nguồn cung cấp thay đổi, làm điện dung ký sinh của Transistor thay đổi, dẫn tới làm tần số cộng hưởng trung tâm thay đổi theo. Hoặc khi điện áp phân cực cho Varicap thay đổi , làm điện dung CV thay đổi. Nhưng phương pháp này chỉ ổn định được tần số trung tâm f0 khi nhiệt độ thay đổi, còn khi nhiệt độ ghép hay điện trở tải thay đổi thì f0 vẫn thay đổi. Hạ thấp tần số trung gian của bộ điều tần để nâng cao độ ổn định tần số (hình 3-22). Khi đó độ bất ổn định tần số của tín hiệu sẽ là:
+
++ f0 , e0 là tần số cộng hưởng riêng của thạch anh và độ bất ổn định của nó (e0£10-6)
++ ftg, etg là tần số cộng hưởng của mạch dao động LC và độ bất ổn định của nó. (etg£10-3).
+Nếu ta chọn ftg << f0 thì (ftg/f0 ) << 1 nên e ® e0 nghĩa là mạch sẽ có độ ổn định tần số gần bằng độ ổn định của thạch anh mà độ di tần vẫn lớn.
+Sử dụng hệ thống tự động điều chỉnh tần số (AFG)
+Để có độ di tần lớn ta phải dùng bộ tạo dao động bằng LC. Nhưng khi đó độ mất ổn định sẽ lớn (eLC £ 10-3). Vì vậy ta phải dùng hệ thống AFC để ổn định tần số trung tâm.
+Bộ dao động thạch anh tạo ra ftg có độ ổn định cao (e £ 10-6) Nguyên lý hoạt động:
+Nếu do VCC thay đổi hay T0 thay đổi làm cho f0 thay đổi dẫn tới fra thay đổi (fra= f0 ± DfSS). Tần số ra fra được đưa vào bộ đổi tần để so sánh với tần số chuẩn fTA. Bộ đổi tần dùng để hạ thấp fra để dễ tách sóng. Ở đầu ra bộ đổi tần cũng có mạch lọc để chỉ giữ lại thành phần tần số trung gian.
+ftg = fa - fTA = f0 ± DfSS - fTA.
+Bộ tách sóng được điều chỉnh cộng hưởng tại:
+ftgo = f0 - fTA
+Do đó:
++ Nếu ftg = ftgo thì VTS = 0, do đó VĐC = 0, nghĩa là f0 = const;
++ Nếu ftg = ftgo ± DfSS thì ở đầu ra bộ tách sóng có VTS = f(DfSS).
+Hình 3-24: a) Đặc tuyến tách sóng VTS = f (Dfss). b) Đặc tuyến điều chỉnh DfĐC = f (VĐC); c) Đặc tuyến tách sóng sau khi điều chỉnh
+
+
+
+
+
+Mặc khác khi điện áp điều chế VW thay đổi thì fra cũng thay đổi: fra = f0 ± DfW. Nếu ta thiết kế bộ lọc thông thấp sao cho chỉ cho qua các thành phần tần số biến thiên chậm: f = 0 ¸ 20 Hz thì VĐC chỉ thay đổi tỷ lệ với tần số trung tâm VĐC sau bộ lọc thông thấp tác động Varicap làm cho fra thay đổi về đúng tần số trung tâm f0 (fra ® f0)
+Nếu đem xếp chồng đặc tuyến (hình 3-24a và b) ta thu được đặc tuyến sau điều chỉnh Dfcòn = f(VĐC). Nghĩa là nhờ hệ thống AFC mà sai số ban đầu Dfđầu giảm xuống còn Dfcòn:
+Hệ số điều chỉnh của AFC:
+KAFC = Dfđầu / Dfcòn = 1+ ½STS .SĐC½ (3.32)
+STS , SĐC là độ dốc của đặc tuyến tách sóng và đặc tuyến điều chỉnh.
+Độ bất ổn định của sơ đồ này là:
+Trong đó:
+DfTA / fTA: là độ bất ổn định tần số của thạch anh thường rất nhỏ (£ 10-6) DfTS / ftg: là độ bất ổn định tương đối của bộ tách sóng. Để giảm nhỏ nó ta cần phải ổn định các tham số của bộ tách sóng. Mặc khác ta chọn ftg << fra để tỷ số ftg / fra giảm. Dfđầu / fra: độ bất ổn định tương đối ban đầu của máy phát. (e £ 10-3)
+Như vậy để Dfcòn / fra nhỏ thì kAFC phải rất lớn. Trong thực tế kAFC £ 100 vì còn phụ thuộc hằng số thời gian của mạch lọc thông thấp.
+IV. Ví dụ minh họa
+Cho tín hiệu tải tin có biên độ 5V, tần số 90Mhz và một tín hiệu điều chế có biên độ 5V, tần số 15Khz. Hệ số tỷ lệ k = 1Khz/V.
+Hãy tìm biểu thức của tín hiệu điều chế và tín hiệu đã điều chế Vẽ dạng sóng của tín hiệu đã điều chế.
+Giải:
+a) Ta có: mf.
+Biểu thức của tín hiệu điều chế:
+VW = 5 cos (2p 15*103) t
+Biểu thức của tín hiệu điều tần:
+VFM (t) = 5 cos [ (2p*90*106 ) t + 0.3 sin (2p*15*103) t]
+Mô phỏng dạng tín hiệu điều tần:
+........................
+
+Cho tín hiệu tải tin có biên độ 5V, tần số 25Khz và một tín hiệu điều chế có biên độ 5V, tần số 1000Hz. Hệ số tỷ lệ k = 2.5Hz/V.
+a. Hãy tìm biểu thức của tín hiệu điều chế và tín hiệu đã điều chế (PM)
+b. Vẽ dạng sóng của tín hiệu đã điều chế (PM).
+
+Giải:
+a. Ta có: mp = k*VW = 2.5*5 = 12.5
+Biểu thức của tín hiệu điều chế:
+VW (t) = 5 cos (2p*103) t
+Biểu thức của tín hiệu đã điều chế:
+VPM (t) = 5 cos [(2p*25*103) t+12.5 cos (2p*103) t]
+b. Mô phỏng dạng tín hiệu đã điều chế (PM):
+fc=25*10^3;fm=10^3;
+T=1/fc;
+t=0:T/20:10*T;
+CHƯƠNG 3
+ĐIỀU CHẾ KHÓA DỊCH PHA BIÊN ĐỘ (ASK)
+I. Điều chế khóa dịch pha biên độ (ask):
+Hình 1-1 minh họa quá trình điều chế biên độ một sóng mang với tín hiệu nhị phân 10101101. Nếu nguồn số có M trạng thái hoặc mức, và mỗi một mức đại diện cho một chu kì T, thì dạng sóng đã điều chế tương ứng với trạng thái thứ I là Si(t) đối với diều biên xung (PAM) hoặc theo kiểu khóa dịch pha biên độ (ASK) sẽ là:
+Si(t) = Di(t)Aocosvot (1.1)
+Di(t) là mức thứ I của dạng sóng nhiều mức có độ rộng T. Giả sử số mức giới hạn là 2, như là tín hiệu số nhị phân và như vậy tần số sóng mang tương quan đến độ rộng T của dạng sóng vuông nhị phân sau:
+vg = 2np/T (1.2)
+Dẫn tới mật độ phổ công suất (psd) có biểu thức:
+Chú ý rằng nếu sử dụng một bộ lọc tương ứng, trong đó fo = 0, thì nói chung phổ ra sẽ không có bất kì một sự suy hao nào, sẽ là:
+Phổ đối với biểu thức 1.3 và 1.4 có hai phần. Phần thứ nhất gồm các hàm delta Dirac bao hàm các thành phần phổ gián đoạn cách nhau những khoảng tần số 1/T. Những thành phần tần số gián đoạn này biến mất nếu như chuỗi nhị phân có giá trị trung bình bằng không, hoặc một tín hiệu M mức khi mỗi mức M hầu như bằng nhau. Điều đó cho phép tín hiệu phổ của tín hiệu điều chế số được chọn trong khi thiết kế hệ thống bằng cách chọn thích hợp chuỗi tín hiệu được truyền đi. Phần thứ hai là phổ liên tục mà dạng của nó chỉ phụ thuộc vào đặc tính phổ của xung tín hiệu. Đối với trường hợp đơn giản digit nhị phân được biểu thị trong phương trình 1.3, xung của thành phần phổ gián đoạn chỉ tồn tại ở tần số sóng mang do các điểm không của phổ cách nhau những khoảng tần số 1/T.
+Phổ vẽ trên hình 1-2 chứa 95% công suất của nó trong độ rộng băng 3/T hoặc 3X (tốc độ bit). Độ rộng băng có thể giảm bằng cách dùng xung cosin tăng. Kết quả là các điểm không của phổ xuất hiện ở những khoảng fo 6 n/T, ở đây n = 1, 2, … Do đó tất cả các thành phần phổ gián đoạn bị biến mất, trừ khi f = fo và f = fo6 1/T. Phổ của xung cosin tăng có búp chính rộng hơn làm cho độ rộng băng ASK bằng xấp xỉ 2/T. Việc thu tín hiệu ASK đã phát đi có thể đạt được bằng hai cách. Cách thứ nhất là dải điều chế kết hợp dùng các mạch phức hợp để duy trì kết hợp pha giữa sóng mang phát và sóng mang nội. Cách thứ hai là quá trình dải điều chế hình bao không kết hợp. Trong khi bàn về những phương pháp này, xác suất lỗi sẽ nêu cho trong từng trường hợp.
+II. Ask kết hợp:
+Với tách sóng kết hợp, máy thu được đồng bộ với máy phát. Điều đó có nghĩa là độ trễ phải được máy thu nhận biết. Sự đồng bộ lấy từ thời gian đo được thiết lập trong tín hiệu thu và thường chính xác đến 6 5% của chu kì bit T. Thêm vào thời gian trễ t, pha sóng mang f = vot cũng phải được xét đến khi xử lí tín hiệu thu. Vì độ trễ t biến thiên theo tần số sóng mang của máy phát, ước tính 5% T và những biến đổi trong thời gian truyền sóng đối với sóng mang đến máy thu là giá trị không thể xác định được đối với bất kì trường hợp nhất định nào. Đối với những hệ thống tách sóng kết hợp thực tế, pha sóng mang một lượng ước tính ở những nơi các dạng song tín hiệu M khả năng có thể phát đi, thì bộ dải điều chế phải quyết định xem khả năng nào thực tế được phát đi. Vì tạp âm cộng vào với tín hiệu, nên có xác suất vô định, có thể trạng thái tín hiệu thứ i bị nhầm sang các trạng thái bên cạnh gần nhất. Xác suất của lỗi được xác định là cực tiểu nếu như bộ dải điều chế lựa chọn tín hiệu thu được có xác suất lớn nhất của tín hiệu Si và xử lí như là tín hiệu đã được phát đi. Chiến lược quyết định này gọi là “tiêu chuẩn cực đại hóa hậu xác suất” (MAP) và đã chứng tỏ là tối ưu đối với tạp âm Gaussian” trung bình – không” và các trạng thái có khả năng như nhau. Có hai loại dải điều chế tối ưu.
+Loại thứ nhất là loại tương quan – chéo và loại thứ hai là loại lọc phối hợp. Hình 1-3 minh họa loại điều chế này.
+Với một tín hiệu ASK nhị phân, máy thu trên hình 1-4 có thể dùng để tách sóng kết hợp. Mạch thích hợp là bộ dải điều chế lọc – có tín hiệu đầu vào thu được Si(t) cùng với tạp âm trắng n(t) đã thêm vào trong quá trình truyền dẫn. Máy thu sau khi lọc bỏ tạp âm và hạn chế giữ lại tín hiệu theo độ rộng tín hiệu băng yêu cầu (2/T đến 3/T), sau đó nhân với tín hiệu nội Accoswot. Bộ dao động nội có thể được biểu thị bằng hiệu số của trạng thái dạng sóng tín hiệu S1(t) –S0(t) được đồng bộ một cách can than với tần số và pha của sóng mang thu được. Tín hiệu San phẩm này sau đó được tổ hợp nhờ mạch “tổ hợp và gom lại”. Sử dụng mạch này vì một bộ tích phân hoàn hảo khó có thể xảy ra được. Đầu ra của mạch tổ hợp được so với ngưỡng đặt ở giữa trị số u1 vào u0, là những mức đi vào mạch quyết định với đầu vào “1” hoặc “0”. Đối với trường hợp khi S1(t) thu được không có tạp âm, bộ tổ hợp tính toán và đưa qua bộ tách sóng quyết định.
+Trị số của u1:
+Và khi S0(t) đã thu được:
+Nếu u1 > u0 tức là mức vào lớn hơn mức ngưỡng thì bộ tách sóng sẽ xác định là s1(t) là tín hiệu được phát đi. Tương tự nếu mức vào nhỏ hơn mức ngưỡng, quyết định So(t) được phát đi.
+S1(t) = A1cosv0t
+So(t) = A0cosv0t
+Phân biệt những sóng này ở đầu ra của bộ tích phân, xác định độ chênh lệch D về mức cũng như xác định độ chênh lệch các mức lượng tử.
+Như vậy:
+Trị số u1vượt quá ngưỡng D/2 và uo nằm dưới ngưỡng D/2.Thay biểu thức 1.6 vào biểu thức 1.7 có thể tìm được trị số D đối bởi tín hiệu ASK:
+D = (A1 – Ao)2 cos2vot = (A1 – Ao)2.(T/2)
+= Ac2.T/2 trong trường hợp không có tổn hao biên độ (1.8)
+Như vậy việc đặt ngưỡng tách sóng tối ưu là:
+(Ngưỡng)opt = (u1 + u0) / 2 = = D / 2 (1.9)
+Vì tín hiệu s1(t) có ở đầu vào máy thu trung bình, công suất tín hiệu thu trung bình:
+Sav = Ac2/4 (1.10)
+xác suất lỗi Pe:
+Khi tạp âm gaussian của phương sai s2 được đưa vào mạch quyết định , một mức sai có thể được tách ra .phương trình 1.* cho ta xác suất như sau:
+Nên:
+Trong đó n là công suất tạp âm.
+Giả sử các digit có xác suất như nhau ta có phương trình:
+Trong đó s2 là phương sai của phân bố công suất tạp âm.
+Điều này phải liên hệ đến ngưỡng tách sóng tối ưu để biểu thị xác suất lỗi dưới dạng tỉ số của sóng mang vào chưa điều chế trên tạp âm C/N. Công suất tạp âm có mặt ở đầu vào của máy thu càng biểu thị thích hợp hơn như công suất trên tần số đơn vị sẽ đảm bảo dù cho có bộ lọc tồn tại mật độ phổ tạp âm đi qua chúng cũng không tác dụng. Tạp âm được xem như nhau trong toàn dải phổ, mật độ phổ song biên là giá trị không đổi trong toàn băng như vậy công suất tạp âm đi qua bộ lọc lý tưởng với tăng ích bằng 1và độ rộng song biên là 2B=W. điều này cũng tương đương với độ rộng băng đơn biên B được nhân lên với mật độ phổ tạp âm
+Để thực hiện so sánh với các điều chế khác công suất này được nhân đôi với các đường cong hình 1.5 và phương trình 1.17a
+Tạp âm đi vào mạch quyết định như trong hình 6.4, lấy từ:
+vì tạp âm này có bình quân không, nên phương sai được lấy ra từ:
+Như vậy:
+Từ (1.12) và (1.14) ta có :
+Pe=1/2erfc[(D/2h)1/2 (1.15)
+Giả sử công suất sóng mang chưa điều chế là Ac2/2 và như phân tích ngắn gọn ở trên, suy ra là tạp âm gaussian cộng thêm vào tín hiệu đã điều chế sẽ nằm trong một độ rộng băng bằng độ rộng băng Nyquist song biên, là
+Từ đó việc biểu diễn xác suất lỗi của một tín hiệu ASK nhằm mục đích so sánh:
+PeASK nhị phân (1.17a)
+Phương trình này được vẽ trên hình 1.5, đối với độ rộng băng tạp âm w, tốc độ bit rb xác suất thực khi dùng nữa công suất sóng mang cho trong phương trình 1.10 là:
+PeASK nhị phân (1.17b)
+III. ASK KHÔNG KẾT HỢP:
+Xét sơ đồ khối của một bộ điều chế không kết hợp ASK ở hình 1.6 hệ thống tách sóng gồm một bộ lọc băng thông phối hợp với dạng sóng vào nhị phân ASK như trên hình 1-1 theo sau là một bộ tách sóng hình bao và một bộ tách ngưỡng (chuyển đổi A/D)..giả sử bộ lọc băng bằng 2 lần tốc độ bit ,là 2/T, và tần số trung tâm là w0 thì dạng sóng nhị phân vào ASK không bị méo quá mức công suất tạp âm ở đầu ra của bộ lọc là:
+n(t)=s2=Bh =2h/T (1.18)
+tính xác suất lỗi gồm 2pdfs. Khi một zero ASK được phát đi, hình bao sẽ đạt được ở đầu ra của bộ tách sóng hình bao có pdf (f0) Rayleigh cho trong phương trình là:
+f0=(x/s2)exp(-x2/2s2), x>0 ( 1.19)
+pdf thứ hai là Rice pdf(f1) khi có một nhị phân 1 ASK được phát đi, và được biểu thị:
+f1=(x/s2)I0(xAc/s2)exp[-(x2+Ac2)], x>0 (1.20)
+trong đó Io=Io(u) là hàm bessel cải ến của loại thứ nhất và cấp zero xác định:
+Hình 1-7 minh họa hai loại pdf và trị số của x sinh ra tạp âm thấp nhất ở đầu ra tách sóng hình bao và do đó xác suất thấp nhất của lỗi xác suất cực tiểu của lỗi xuất hiện khi :
+Xmin=(Ac/2)[1+8s2/Ac2]1/2 (1.22)
+Xác suất lỗi cho trong biểu thức :
+Pe(ASK không kết hợp) >(1/2)[1+(1/sAc)(2/p)1/2]exp(-Ac2/8s2)
+>(1/2) exp(-Ac2/8s2) nếu Ac>>s (tạp âm song biên)
+
+Cũng có thể tìm được giới hạn đường biên thấp hơn, và do đó Pe đối với trường hợp tạp âm song biên cho trong biểu thức
+
+nếu Ac>>s
+Biểu thức 1-23 được biểu diễn trong hình 1.5 đối với độ rộng băng tạp âm dải điều chế w bằng tốc độ bit rb. VÌ sóng mang mở và đóng theo dạng sóng nhị phân, nên loại điều chế này được hiểu là khóa tắc – mở (OOK), hoặc sóng , mang được mở, hoặc đóng hoàn toàn. Như đã mô tả trong mục 1.3, nếu tín hiệu nhị phân hai cực sinh ra một sự đảo về biên độ sóng mang sao cho nhị phân 1 tạo ra được một sóng mang với biên độ + Ac và nhị phân không tạo một sóng mang với biên độ – Ac. Kết quả sẽ có một loại điều chế khác quan trọng như đã biết là khóa dịch pha (PSK). (Được mô phỏng ở trang mô phỏng – ASK)
+Ta có thể thấy trên hình 1-5 là phương pháp tách sóng ASK kết hợp và không kết hợp tạo ra một kết quả như nhau sự khác nhau về hai trị số C/N nhỏ hơn 1,5 dB khi Pe gần bằng 10-3. Và sẽ cải thiện 0,5 dB ở những giá trị nhỏ nhất của Pe.
+Phương pháp tách sóng không kết hợp hay tách sóng hình bao yêu cầu một tỷ số C/N cao hơn đối với cùng tỷ lệ lỗi bit như loại ASK kết hợp, không phải là phương pháp điều chế dùng rộng rãi, vì như phương trình 1-10 chỉ ra công suất trung bình của tín hiệu điều chế bị giảm. Khi ASK kết hợp so sánh với khóa dịch pha và tần số vấn đề trở nên rõ ràng hơn vì những kỹ thuật điều chế này sử dụng hoàn toàn đầy đủ sóng mang. Xét thêm về công suất xác suất lỗi kém hơn khoảng 3 cấp so với một hệ thống băng gốc được thiết kế cẩn thận. Sự lọc không hoàn hảo, Đồng bộ kém và những chi phí cộng thêm, những khó khăn kết hợp cùng với việc tạo nên bộ lọc băng thông phối hợp, tất cả những cái đó dẫn đến sản phảm ra không tốt khi so sánh với những hệ thống điều chế khác.
+IV. ASK M trạng thái (M – ary):
+Vì những lý do nói trên, các hệ thống ASK M trạng thái điều không thông dụng và ít khi tìm thấy trong danh mục của các hãng chế tạo. Xác suất lỗi P của các hệ này dựa trên các lỗi ký hiệu và không phải lỗi bit. Vì mỗi ký hiệu gồm có log2M bit, tỷ số lỗi bit nằm giữa và Pe, mối tương quan tùy thuộc vào loại mã đã sử dụng. Cũng vậy, do tốc độ bit cao hơn những hệ thống M trạng thái, để nhằm mục đích so sánh, độ rộng băng phải hạ tỷ lệ xuống, và cả tỷ số sóng mang trên tạp âm và Pe cũng điều hạ tỷ lệ xuống với cùng một lượng.
+Đối với trường hợp “kết hợp”:
+Trong đó M là hệ số méo của biên độ sóng mang mà tín hiệu số đã mã vào đó. Với tín hiệu nhị phân M = 2 và phương trình (1.24) rút ngắn lại như (1.17a). Trong (1.24) là tỷ số giữa sóng mang chưa điều chế với tạp âm có độ rộng băng Nyquyts song biên và không phải là một trị số logarit. Nếu cho theo trị số logarit cần phải sử dụng biểu thức:
+để chuyển thành một tỷ số.
+Như đã nói ở trước, trong hình 1.5, công suất tạp âm song biên được sử dụng vì kì vọng rằng sóng mang sẽ nằm ở giữa băng của bộ lọc thông băng thu, và có độ rộng băng bằng hai lần băng tín hiệu tin tức, đó là:
+Đối với trường hợp không kết hợp:
+Pe ASK không kết hợp
+Pe ASK không kết hợp >
+Với Ac >>s (1.25)
+Trở lại với trường hợp nhị phân ở đó M = 2, phương trình 1.25 rút ngắn như ở phương trình 1.23.
+V. Ví dụ minh họa
+1.Cho một chuỗi bit nhị phân với 5 bit đầu tiên b = [ 10010 ]. Dữ liệu bit nhị phân có tốc độ bit bằng 1Kbps và biên độ đỉnh - đỉnh của dạng sóng điều chế là 1V.
+Mô phỏng dạng tín hiệu ASK với 500 mẫu đầu tiên đại diện cho chuỗi nhị phân b với tần số sóng mang là 8Khz. Biết tín hiệu phát sinh từ chuỗi nhị phân b là: Unipolar_nrz Mô phỏng mật độ phổ công suất của tín hiệu điều chế ,biết phạm vi tần số điều chế là[ 0,20Khz].
+Giải:
+a. Mô phỏng dạng tín hiệu ASK:
+start
+b=[1 0 0 1 0 binary(5)];
+x=wave_gen(b,'unipolar_nrz');
+xa=mixer(x,osc(8000));
+Mô phỏng mật độ phổ công suất của tín hiệu
+start
+b=[1 0 0 1 0 binary(5)];
+x=wave_gen(b,'unipolar_nrz');
+xa=mixer(x,osc(8000));
+f=[0,20000];
+subplot(211),psd(x,f)
+subplot(212),psd(xa,f)
+2. Cho một chuỗi bit nhị phân với 5 bit đầu tiên b = [ 11010 ]. Dữ liệu bit nhị phân có tốc độ bit bằng 1Kbps và biên độ đỉnh - đỉnh của dạng sóng điều chế là 1V.
+Mô phỏng dạng tín hiệu ASK với 300 mẫu đầu tiên đại diện cho chuỗi nhị phân b với tần số sóng mang là 5Khz. Biết tín hiệu phát sinh từ chuỗi nhị phân b là: Manchester. Mô phỏng mật độ phổ công suất của tín hiệu điều chế ,biết phạm vi tần số điều chế là[ 0, 10Khz].
+Giải:
+a. Mô phỏng dạng tín hiệu ASK:
+start
+b=[1 1 0 1 0 binary(5)];
+x=wave_gen(b,'manchester');
+b=[1 1 0 1 0 binary(5)];
+x=wave_gen(b,'manchester');
+xa=mixer(x,osc(5000));
+3. Cho một chuỗi bit nhị phân với 5 bit đầu tiên b = [ 10111]. Dữ liệu bit nhị phân có tốc độ bit bằng 1Kbps và biên độ đỉnh - đỉnh của dạng sóng điều chế là 1V.
+Mô phỏng dạng tín hiệu ASK với 200 mẫu đầu tiên đại diện cho chuỗi nhị phân b với tần số sóng mang là 7Khz. Biết tín hiệu phát sinh từ chuỗi nhị phân b là: Manchester. Mô phỏng mật độ phổ công suất của tín hiệu điều chế ,biết phạm vi tần số điều chế là[ 0, 10Khz].
+Giải:
+a. Mô phỏng dạng tín hiệu ASK:
+start
+b=[1 0 1 1 1 binary(5)];
+x=wave_gen(b,'duobinary');
+xa=mixer(x,osc(7000));
+t=[1:200];
+subplot(211),waveplot(x(t))
+subplot(212),waveplot(xa(t))
+b. Mô phỏng mật độ phổ công suất của tín hiệu
+start
+b=[1 0 1 1 1 binary(5)];
+x=wave_gen(b,'duobinary');
+xa=mixer(x,osc(7000));
+f=[0,15000];
+CHƯƠNG 4
+ĐIỀU CHẾ KHÓA DỊCH TẦN FSK
+Điều chế khóa dịch tần số (FSK).
+Ta sẽ thảo luận hoàn chỉnh các dạng điều chế cơ bản, trước khi xét tổ hợp ASK và PSK và những sơ đồ điều chế đặc biệt hiện nay.
+FSK có thể xem như tín hiệu trực giao. Các sơ đồ tín hiệu chủ yếu đều được sử dụng cho truyền số liệu số tốc độ thấp, lý do để dùng rộng rãi các Modem số liệu là tương đối dễ dàng tạo tín hiệu và dùng giải điều chế không kết hợp. Nhưng các sơ đồ FSK không có hiệu quả như sơ đồ PSK về mặt công suất và độ rộng băng sử dụng. Như tên gọi, tin tức số được truyền đi một cách đơn giản bằng cách dịch tần số sóng mang một lượng nhất định tương ứng với mức nhị phân 1 và 0. Hình 3-1. vẽ quá trình điều tần một sóng mang với tín hiệu nhị phân 10101101. Trong FSK hai trạng thái, hai dạng tín hiệu có thể được biểu thị bởi:
+S1(t) = A cos(w0 + wd)t
+S0(t) = A cos(w0 - wd)t (3.1)
+Giống như dạng sóng PSK, biên độ sóng mang A giữ không đổi còn tần số bị dịch đi giữa các giá trị w0 + wd và w0 - wd. Trong khi xét đặc tính phổ của FSK, phân biệt hai trường hợp xuất phát từ hành vi của góc pha l trong biểu thức của tín hiệu S1(t) vào máy thu:
+Trong đó ak là hệ số đối trọng số đối với khoảng thứ k và là các biến số ngẫu nhiên gián đoạn. Nếu giả sử như l là ngẫu nhiên và phân bố đồng đều trong 2p, thì không có quan hệ với điều chế và có thể ở những chuyển tiếp th lấy bất kỳ một giá trị ngẫu nhiên nào.
+Điều đó dẫn đến khả năng pha không liên tục như trên hình 6.17b, và điều chế được hiểu là FSK-pha không liên tục. FSK-pha liên tục có thể đạt được bằng cách bắt l phải có một tương quan nhất định với tín hiệu điều chế. Truyền dẫn số liệu nhị phân có độ ổn định cao và nhiễu giữa các ký hiệu không đáng kể là một điều khó đạt được trong hệ thống FM hai trạng thái pha liên tục. Lý do là FSK hai trạng thái yêu cầu vốn có hai tần số phải biểu thị hai trạng thái nhị phân, và để xây dựng một hệ thống pha liên tục sử dụng hai bộ dao động riêng biệt, yêu cầu về mạch rất phức tạp. Phương án chọn là FM khóa chỉ dùng một bộ dao động điều khiển bằng điện áp. Trong khi một hệ thống với pha liên tục ở những điểm chuyển tiếp bit, độ chính xác tần số tương đối thấp và tốc độ bit sẽ không bị khóa ở một trong hai tần số đại diện cho các trạng thái logit 1 và 0. Một hệ thống FM hai trạng thái lý tưởng đã được công nhận, trong đó sự chênh lệnh giữa các tầng số 1 và 0, tức là độ di tần đỉnh – đỉnh là 2fd, bằng tốc độ bit rb, tức 2fd=rb. Hơn nữa các tần số 1 và 0 đã được khóa theo tốc độ bit. Một hệ thống đã được công nhận, trong đó chỉ một nguồn tần số điều khiển hệ thống và cung cấp cho ra các tín hiệu 1 và 0 theo tốc độ bit. Biểu thị phổ FSK gồm một chuỗi (Serie) bằng dạng đồ thị tốt hơn là toán học.
+FSK kết hợp (CFSK).
+Tách sóng tương quan FSK đạt được bằng cách dùng bộ giải mã điều chế tối ưu có hàm tương quan – chéo, minh họa cho hình 1.3-loại tách sóng này ít dùng trong thực tế, do khó không về liên kết với các tần số rẽ ở máy thu giống như ở máy phát. Khoảng cách biệt tần số tối thiểu hay độ di tần đỉnh – đỉnh cực tiểu: 2Fd, khi trực giao (tương quan – chéo = 0) với tách sóng kết hợp là 2Fd = rb/2.
+Xác suất lỗi của CFSK hai trạng thái.
+Biểu thức xác suất lỗi Pe:
+PeFSK = ½ erfc [(1/2) (W/rb) (C/N)]1/2 (3.3)
+Hình 3-12 là đồ thị của phương trình với độ rộng tạp âm song biên.
+So sánh xác suất lỗi của FSK theo phương trình 3.3 với PSK trong phương trình 2.7 ta thấy xác suất lỗi bằng nhau nếu như công suất sóng mang của FSK tăng thêm 3dB. Với FSK kết hợp, 99% độ rộng băng yêu cầu tuân theo quy luật “Carlson”, tức là bằng hai lần độ di tần đỉnh – đỉnh cộng với hai lần tần số điều chế cao nhất. Nếu tần số điều chế cao nhất tính từ 0 (từ DC), có thể xem bằng một nửa độ rộng băng trung tần W. Độ di tần đỉnh – đỉnh chia hết cho tần số điều chế cao nhất được định nghĩa là chỉ số điều chế m, và có thể xem như là độ di tần đỉnh – đỉnh chia hết cho độ rộng băng W; 99% độ rộng băng truyền dẫn là 2(1+m)W.
+Bảng 1-2 dưới đây nêu lên các chỉ số điều chế m ứng với các chỉ số 99% độ rộng băng truyền dẫn có tốc độ bit tiêu chuẩn hóa rb, với các bộ lọc có đặc tuyến dốc.
+Bảng 1-2: Độ rộng băng FSK 99% ứng với các chỉ số điều chế khác nhau
+Chỉ số điều chế m Độ rộng băng rb 0,2 0,78 0,3 1,00 0,4 1,10 0,5 1,17 0,6 1,25 0,7 1,80 0,8 1,94 0,9 12,05
+Từ bảng 1-2, ta có thể chọn được độ di tần càng nhỏ càng tốt. Nhưng xác suất lỗi Pe cũng là một hàm của độ di tần. Giảm độ di tần, Pe sẽ tăng lên. Giá trị tối ưu của độ di tần đã được xác định xấp xỉ 0,7 và giảm độ di tần xuống 0,5 sẽ dẫn đến
+C/N chịu thiệt đi 1,6 dB khi Pe bằng 10-6 và W = rb. Độ rộng băng W = rb cũng là tối ưu trong trường hợp này.
+Hình 3-3 vẽ sơ đồ khối hệ thống của máy thu FSK kết hợp, như mô tả dưới đây, trong đó đầu ra của mỗi bộ lọc băng thông sẽ chứa mức âm có quan hệ kết hợp với các tần số mang thông tin. Mức âm này sẽ xuất hiện chính xác cho những tần số 1 và 0. Hơn nữa chúng chiếm nữa công suất tổng và độ chênh lệch của chúng cung cấp tần số nhịp bit với pha phù hợp.
+FSK không kết hợp (NCFSK)
+Phổ tần của FSK khi độ di tần đỉnh – đỉnh 2fd = krb, trong đó k là số nguyên xuất hiện giống như hai lần phổ ASK, có các tần số mang là f0 – fd và f0 + fd, mỗi phổ tương tự như vẽ trên hình 6.2. Điều đó nói lên rằng tín hiệu mang tin dưới những điều kiện như vậy sẽ có thể tách ra nhờ hai bộ lọc thông băng với tần số trung tâm là f0 – fd và f0 + fd. Mạch tách sóng điển hình minh họa trong hình 6.19. Khi giữa tần số mang và tốc độ bit có quan hệ đơn trị, như f0 = nrb thì có nghĩa là sóng mang có quan hệ kết hợp (duy nhất) với tốc độ bit của th mang tin. Có thể có ba loại quá trình tách sóng. Loại thứ nhất đã được mô tả chính là tách sóng kết hợp, loại thứ hai là tách sóng không kết hợp, loại thứ ba là tách sóng kết hợp vi sai dùng để trễ như trong hình 6.19.
+Xác suất lỗi Pe của FSK không kết hợp hai trạng thái.
+Biểu thức của xác suất lỗi Pe là:
+Pe = ½ exp [-(1/2) (W/rb) (C/N)] (6.57)
+Biểu thức này rút ra từ tài liệu tham khảo 2.4. và phương trình 6.57 đã được minh họa trên hình 6.18 với độ rộng băng tạp âm sóng biên.
+Nó có thể có giá trị ở chỗ sau bộ tách sóng hình bao có các bộ lọc băng thông và một thiết bị quyết định, khoảng cách tần số 2fd phải bằng ít nhất là 1/T (hay m³1); Để tránh băng thông của hai bộ lọc chồng lấn lên nhau. Có thể dùng bộ tách sóng tần số để chuyển đổi những biến thiên tần số thành những biến thiên độ sao cho tách sóng hình bao điều biên có thể thực hiện được. Phương pháp này hạn chế những nhược điểm đã nói ở trên với chỉ số điều chế m³1.
+
+FSK M trạng thái:
+Tách sóng kết hợp:
+Xác suất lỗi trong cáchệ thống ghép kênh FSK với tách sóng kết hợp không được biểu thị bằng “hàm hiệu” đơn giản.
+Nói chung, biểu thức chấp nhận được đối với xác suất lỗi như sau:
+Trong đó M là số lượng tần số khóa và C/N là tỷ số tín hiệu trên tạp âm trong độ rộng băng tạp âm song biên. Những trị số Pe đối với các trị số M khác nhau đều cho trong hình 3-2. Vì M dạng tín hiệu bất kỳ. Mỗi cái có tần số khác nhau, biểu thức 3.5 là xác suất trung bình củalỗi ký hiệu. Như phương trình 3.6 chỉ rõ, chất lượng của các sơ đồ điều chế khác nhau có thể so sánh theo Eb / h hơn là C/N, cho phép ta có một đánh giá các sơ đồ điều chế M trạng thái khác nhau dùng các giá trị của M.
+a: hệ số uốn của cosin-tăng
+Như đã nói ở trên, đối với M dạng sóng hoặc trạng thái, mỗi ký hiệu mã hóa cần có log2M bit mã nhị phân, do đo từ phương trình (3.6) đối với bộ lọc cosin tăng:
+Để chuyển đổi xác suất ký hiệu đã cho trong (3.5) thành xác suất tương đương của một bit lỗi nhị phân, ta phải xét đến bằng cách các lỗi xuất hiện trong hệ thống lỗi trực giao. Số lượng tổng hợp của log2M Cn là số khả năng nbit nhị phân ngoài log2M bit có thể bị lỗi.
+Đối với các tín hiệu trực giao cùng khả năng, tất cả các lỗi bit tín hiệu cùng đều cùng khả năng:
+Xác suất của lỗi ký hiệu xẩy ra = Pe/(M-1) (3.8)
+Do đó số lỗi bit trên log2M là:
+Khoảng cách tần số cần thiết đối với giải điều chế kết hợp được cho bởi . Mỗi tín hiệu chiếm một độ rộng bằng xấp xỉ 2fd, nên độ rộng kênh yêu cầu để truyền dẫn các dạng sóng M được biểu thị:
+Độ rộng băng FSKkết hợp = 2Mfd = (3.10)
+Độ rộng băng hiệu dụng tính theo tốc độ tin bit /s chia cho độ rộng băng yêu cầu:
+Độ rộng băng hiệu dụng FSKkết hợp = 2 (3.11)
+Tách sóng không kết hợp:
+Xác suất lỗi trong các hệ thống FSK với tách sóng không kết hợp được biểu thị:
+PeFSK không kết hợp =
+Trong đó I0(u) là hàm Bessel cải tiến của loại đầu tiên thứ 0 trong phương trình 1.21. Hình 3-2 cho các trị số Pe tương ứng với các trị số M khác nhau và tỷ số tạp âm son biên. So sánh xác suất lỗi giữa các hệ thống FSK kết hợp và không kết hợp ta thấy rõ ràng là tách sóng kết hợp luôn luôn là hệ thống tách sóng trội hơn các trị số M nhỏ. Hai hệ thống sẽ không khác nhau mấy khi số lượng tần số khóa M tăng lên. Tính trực giao của các daạng sóng FSK tách sóng không kết hợp yêu cầu khoảng cách tần số là . Do đó, ta có độ rộng kênh yêu cầu để truyền dẫn là:
+Độ rộng băng FSK không kết hợp M trạng thái (3.13)
+Điều này chứng tỏ kà khi số lượng của mức M tăng lên, độ rộng băng sẽ tăng lên, thế nhưng từ hình 3-2 C/N tiến tới một giới hạn. Vì tốc độ truyền dẫn là (log2M)/TS, ta có:
+Hiệu dụng của độrộng băng FSK không kết hợp = (log2M)/M (3.14)
+Bằng một nữa so với trường hợp tách sóng không kết hợp.
+Từ hình 3-2 ta thấy rằng, nếu công suất tạp âm giữ nguyên, công suất phát không tăng theo M tăng. Tỉ lệ lỗi bit tự do cực đại rb với số liệu có thể được truyền đi theo sơ đồ tín hiệu FSK trực giao M trạng thái đượccho bởi dung lượng kênh C’ của một kênh Gaussian có độ rộng vô hạn:
+rb = W. C/N. Log2e (3.15)
+D(iều này có nghĩa là nếu như tấc độ bit rb nhỏ hơn dung lượng kênh, xác suất lỗi có thể xem như nhỏ.
+Biểu đồ hình sao của hệ thống FSK M trạng thái có thể được biểu thị bằng M tọa độ vuông góc với đại lượng vector . Với M = 3, ta dễ dàng nhận thấy hệ tọa độ ba chiều vì các trục dương x, y, z đại diện cho f1, f2, f3.
+MSK – khóa di tần cực tiểu:
+MSK là một trường hợp đặc biệt của FSK pha liên tục (CP - FSK), với độ do tần 2fd bằng 0, 5 và sử dụng tách sóng kết hợp. Kỹ thuật này đạt được chất lượng cũng như PSK kết hợp,và có đặc tính phổ cao hơn.CP – FSK. MSK có ưu điểm là thực hiện tự đồng bộ tương đối đơn giản hơn CP – FSK kết hợp với độ di tần 0,7.
+Nếu các xung đi vào mạch máy phát đều được lọc để tạo các xung hình sin “độ dài toàn bộ”. Trước khi điều chế với sóng mang, FSK có thể coi như OQPSK cải biến. Người ta đã chứng minh rằng có thể cấu tạo một bộ tách sóng đơn giản và tối ưu với tính chất xác suất lỗi bằng bộ thu PSK hai trạng thái. Do tính chất xác suất lỗi Pe và hiệu dụng băng thông (2 bit/s Hz), nên kỹ huật này đã được sử dụng trng thiết bị có trên thị trường như vi ba số “Telenokia” 0,7; 2 và 8M bit / s.
+Tách sóng kết hợp MSK cũng như tách sóng kết hợp của tín hiệu PSK, có sự suy giảm tính chất xác suất lỗi Pe so với lý tưởng vì pha giữa sóng mang tín hiệu mang tín hiệu thu và sóng mang chuẩn nội không đồng nhất. Trong các hệ thống PSK truyền thống, Cả BPSK và QPSK hầu như đều có chất lượng Pe như nhau với cùng (C/N) / bit, với chuẩn pha hoàn chỉnh, với một chuẩn pha bị tạp âm, chất lượng của những hệ thống này bị xấu đi nhiều hơn QPSK vì sự ghép giữa các thành phần cầu phương. Người ta đã chứng ming rằng OPQSK có xác suất lỗi trong tách sóng nằm ở giữa chất lượng tách sóng của BPSK và QPSK. Vì tần số không ổn định trong hệ thống thông tin và các khó khăn kết hợp trong việc thu nhận đồng bộ sóng mang có trực đủ thấp để ngăn ngừa các tổn thất tách sóng, OPQSK có ưu điểm hơn BPSK và QPSK là cho phép C/N thấp hơn 3 dB so với mức chuẩn pha đồng bộ để thõa mãn một giá trị tổn hao tách sóng cho phép đã xác định. Biểu thức của mật độ phổ công suất chưa lọc của MSK là:
+P (f) MSK = [ 8CT(1+cos4pfT)]/[p (1-16T2f2)]2 (3.15)
+Trong đó f là tần số dịch so với sóng mang;
+C là công suất sóng mang;
+T là thời gian bit đơn vị trong máy thu;
+Phổ được minh họa trên hình 3-4c.
+So sánh phổ của MSK với phổ của OQPSK trong hình 3-4d, ta thấy rằng dộ rộng của búp chính phổ MSK lớn hơn của OQPSK là 1,5 lần. Ta có thể chứng minh rằng với lọc đúng, hiệu dụng băng thông cực đại của MSK cũng như của OQPSK là 2 bit/s/Hz. Hình 3-4 cũng minh họa sơ đồ khối của bộ điều chế và giải điều chế, cùng với biểu đồ thời gian của luồng số liệu mong muốn.
+Các tín hiệu FSK cũng giống như các hệ thống FM khác đều là những quá trình phi tuyến tính, nên mô tả hoàn toàn bằng toán học rất khó khăn. Nhưng các tín hiệu FSK đã được tính toán để có độ di tần đỉnh – đỉnh hay độ dịch tần số ‘h’ bằng 2fd bằng bội số tích phân tốc độ bit, có thể xem như tổng của hai tín hiệu AM.
+Nhờ đó, ta dễ dàng mô tả đặc tính tần số – thời gian. Mật độ phổ của những tín hiệu như vậy gồm hai thành phần gián đoạn và liên tục với năng lượng chia đều giữa chúng. Vì thành phần gián đoạn không chứa bất kỳ thông tin nào, nên chúng lãng phí về năng lượng. Một trong những ưu điểm của MSK là khi chỉ số điều chế của tín hiệu FSK bằng một nữa (tức là độ di tần đỉnh – đỉnh h bằng một nữa tốc độ bit), Mật độ phổ chỉ chứa các thành phần liên tục mang thông tin. Một ưu điểm khác của MSK so với FSK khi độ di tần bằng một đơn vị, độ rộng băng sẽ nhỏ hơn với cùng tốc độ bit, đặc biệt với FM tốc độ bit nhị phân kép.
+Hình 3-4 cho ta thấy: Đối với MSK, hầu hết năng lượng tín hiệu được chứa trong miền tần số hẹp bằng 1,5 lần tốc độ bit và đường viền của phổ có độ dốc trung bình là 12 dB/octa. Trong trường hợp FM nhị phân kép, độ rộng băng sau khi điều chế được bộ lọc cosin tăng giới hạn đến điểm 0 của tín hiệu nhị phân FSK. Nhưng, tạp âm xuyên ký hiệu có thể lấy một dạng như thế mà việc tách tín hiệu có thể được như tín hiệu ngẫu nhiên bậc 3.
+Một ưu điểm khác của MFK là sóng mang được tín hiệu digital ngẫu nhiên điều chế, có hình bao liên tục, nên klhông phải tính đến việc chuyển đổi AM/PM làm biến dạng phổ. Vì những tính chất đó, MSK ứng dụng rất đắc lực đối với hệ thống phi tuyến tính và công suất hạn chế như các hệ thống thông tin vệ tinh.
+Hai kỹ thuật chung để điều chế và giải điều chế MSK đã được mở ra. Những phương pháp này đều dựa vào phương pháp song song và nối tiếp. Ccả hai tương đương hoàn toàn về chiếm độ rộng băng và đặc tính xác suất lỗi.
+Phương pháp song song là thực chất là phương pháp ghép cầu phương những luồng số liệu dạng xung nữa hình sin sắp xếp trong một chu kỳ nữa ký hiệu của sóng mang như hình 3-4a. thực hiện những modem dùng phương án này trong thực tế cần phải cân bằng chặt chẽ và đồng bộ các tín hiệu số liệu kênh đồng pha và cầu phương trêb những sóng mang đã tự cân bằng và pha của chúng đều cầu phương. Tương tự ở máy thu duy trì và cân bằng chặt chẽ cầu phương pha, cần thiết để cực tiểu hóa độ méo và xuyên âm.
+Với phương án nối tiếp, tín hiệu được tạo ra từ tín hiệu hai pha bằng cách lọc qua một bộ lọc chuyển đổi đã thiết kế phù hợp. Nên vấn đề cân bằng và di trùy sóng mang cầu phương pha ở phương án song song được thay thế bằng nhiệm vụ xây dựng một bộ lọc chuyển đổi với đặc tuyến sin kết hợp. Bộ giải điều chế gồm một bộ lọc phối hợp với phổ tín hiệu phát, tiếp theo là giải điều chế kết hợp và tách bit. Thực hiện bộ giải điều chế nối tiếp yêu cầu sự tổng hợp của bộ lọc thông băng phối hợp chặt chẽ với tín hiệu MSK để đảm bảo chất lượng gần đến lý tưởng. Các tín hiệu MSK cũng như PSK, có thể được tách sóng kết hợp hoặc vi sai. Tách sóng vi sai là kỹ thuật điều chế hấp daẫn trong truyền dẫn phương thức “burst” như các hệ thống ghép kênh chia theo thời gian (TDMA) vì cấu tạo mạch đơn giản và không cần khôi phục sóng mang. Phương thức này sử dụng tách sóng không kết hợp như trong hình 3-2. Các tín hiệu MSK có đặc tính không kết hợp, pha tuyệt đối ở hai thời điểm bất kỳ đều lệ thuộc và là một hàm của số liệu được truyền giữa hai thời điểm đó. Ký hiệu được tách ra từ sự kết hợp về pha của hai khoảng tín hiệu kè nhau là số liệu được truyền đi trong điều kiện không có tạp âm. Tương tự, hai ký hiệu được tách từ sự lệch pha của hai khoảng tín hiệu thay đổi dấu có thể xem như kiểm tra tổng chẳn lẽ của hai phần tử số liệu được truyền kế tiếp nhau. Tính chất tỷ lệ loại có thể được thể hiện nhờ bộ giải mã với mã sửa sai gồm có số liệu và bit chẳn lẽ.
+Xác suất lỗi của MSK kết hợp.
+Xác suất lỗi MSK kết hợp cũng giống như điều chế khóa dịch pha đối với cực kết hợp PSK như đã cho trong phương trình 2.9 ở những nơi chuẩn thu đồng pha chính xác với phát, f = 0 và Pe ở phưong trình 2.9 giảm xuống như phương trình 2.8. Hình 1-5 là đồ thị của PeMSK kết hợp mang ký hiệu BPSK, và hình 3-2 là đồthị minh họa đường cong như mang ký hiệu MSK kết hợp.
+PeMSK kết hợp = (3.16)
+Xác suất lỗi của MSK tách sónh kết hợp hoặc vi sai
+Cũng giống như không kết hợp hoặc DPSK, và được minh họa trên hình 1-5 theo C/N như DPSK.
+PeMSK vi sai = (3.17)
+Dạng phổ của hệ thống MSK
+Yêu cầu đòi hỏi tăng lên đối với tốc độ bit cao hơn, nên độ rộng băng hiệu dụng của hệ thống vi ba số vẫn đang được ngiên cứu phát triển một số nghiên cứu như thế đã thực hiện là các phương thức điều chế MSK khác nhau nhằm để đạt được một phổ tín hiệu dày đặc. Quá trình liên quan chặt chẽ đến dạng phổ của xung số liệu vào, điều chế tần số hình sin digital (SFSK) và điều chế dịch cực tiểu biên độ nhiều mức (MAMSK). SFSK có đặc tính công suất ngoài băng cực kỳ nhỏ. SFSk cũng được nghiên cức chú ý đến tác động của xuyên âm và đượcxem là phương thức điều chế khá tốt với gọn nhiều tín hiệu rong một giải băng hạn chế khi các tín hiệu không được đồng bộ theo địng thời gian bit. Một số ứng dụng yêu cầu các tín hiệu được gói gọn sít sao về tần số khi không có chuẩn pha tuyệt đối có sẵng ở máy thu (thu không kết hợp). Những ứng dụng như cậy đã nghiên cức có kết quả trong việc giải quyết xuyên âm của phương án so sánh pha của FSFK, được gọi là FSFK so sánh pha (PC SFSK). Kết quả cho ta thấy rằng PCFSFK cho phép gọi sít sao hơn những tín hiệu không đồng bộ so với DQPSK. Xác suất lỗi cũng được chứng minh là tốt hơn một ít so với DQPSK khi , và sẽ hơi kém hơn.
+Sự cái biến khác đối với đường biên phổ sơ đồ MSK là phổ cũng được tạo ra do khóa dịch tần hình sin kép (DPFSK) với đuôi của phổ có độ dốc trung bình là 36dB/octa vượt qua f = 4,75/T thay vì 24dB/octa đối với SFSK.
+VI. Ví dụ minh họa:
+1. Cho một chuỗi bit nhị phân với 5 bit đầu tiên b = [ 1 0 0 1 0 ]. Dữ liệu bit nhị phân có tốc độ bit bằng 1Kbps và biên độ đỉnh-đỉnh của dạng sóng điều chế là 1V.
+Mô phỏng dạng tín hiệu FSK với 500 mẫu đầu tiên đại diện cho chuỗi nhị phân b với tần số sóng mang là 8Khz. Biết tín hiệu phát sinh từ chuỗi nhị phân b là: POLAR_NRZ Mô phỏng mật độ phổ công suất của tín hiệu điều chế ,biết phạm vi tần số điều chế là[ 0, 20Khz].
+Giải:
+Mô phỏng dạng tín hiệu điều chế:
+t=[1:500];
+b=[1 0 0 1 0 binary(5)];
+xp=wave_gen(b,'polar_nrz');
+sf=vco(xp);
+subplot(211), waveplot(xp(t))
+subplot(212), waveplot(sf(t))
+Mô phỏng mật độ phổ của tín hiệu điều chế:
+start
+t=[1:500];
+b=[1 0 0 1 0 binary(5)];
+xp=wave_gen(b,'polar_nrz');
+sf=vco(xp);
+clf
+f=[0,20000];
+subplot(211),psd(xp,f)
+subplot(212),psd(sf,f)
+2. Cho một chuỗi bit nhị phân với 5 bit đầu tiên b = [ 0 1 0 1 0 ]. Dữ liệu bit nhị phân có tốc độ bit bằng 1Kbps và biên độ đỉnh-đỉnh của dạng sóng điều chế là 1V.
+Mô phỏng dạng tín hiệu FSK với 400 mẫu đầu tiên đại diện cho chuỗi nhị phân b với tần số sóng mang là 6Khz. Biết tín hiệu phát sinh từ chuỗi nhị phân b là: BIPOLAR_NRZ Mô phỏng mật độ phổ công suất của tín hiệu điều chế ,biết phạm vi tần số điều chế là[ 0, 10Khz].
+Giải:
+a. Mô phỏng dạng tín hiệu điều chế:
+start
+t=[1:400];
+b=[0 1 0 1 0 binary(5)];
+xp=wave_gen(b,'bipolar_nrz');
+sf=vco(xp);
+subplot(211), waveplot(xp(t))
+subplot(212), waveplot(sf(t))
+b.Mô phỏng mật độ phổ công suất của tín hiệu điều chế:
+start
+t=[1:400];
+b=[0 1 0 1 0 binary(5)];
+xp=wave_gen(b,'bipolar_nrz');
+sf=vco(xp);
+clf
+f=[0,10000];
+subplot(211),psd(xp,f)
+subplot(212),psd(sf,f)
+3. Cho một chuỗi bit nhị phân với 5 bit đầu tiên b = [ 1 1 0 0 1 ]. Dữ liệu bit nhị phân có tốc độ bit bằng 1Kbps và biên độ đỉnh-đỉnh của dạng sóng điều chế là 1V.
+Mô phỏng dạng tín hiệu FSK với 600 mẫu đầu tiên đại diện cho chuỗi nhị phân b với tần số sóng mang là 6Khz. Biết tín hiệu phát sinh từ chuỗi nhị phân b là: MANCHESTER Mô phỏng mật độ phổ công suất của tín hiệu điều chế ,biết phạm vi tần số điều chế là[ 0, 15Khz].
+Giải:
+Mô phỏng dạng tín hiệu điều chế:
+start
+t=[1:600];
+b=[1 1 0 0 1 binary(5)];
+xp=wave_gen(b,'bipolar_nrz');
+sf=vco(xp);
+subplot(211), waveplot(xp(t))
+subplot(212), waveplot(sf(t))
+Mô phỏng mật độ phổ công suất của tín hiệu:
+start
+t=[1:600];
+b=[1 0 0 1 0 binary(5)];
+xp=wave_gen(b,'manchester');
+sf=vco(xp);
+clf

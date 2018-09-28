@@ -1,0 +1,245 @@
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+TRƯỜNG ĐẠI HỌC KỸ THUẬT CÔNG NGHIỆP THÁI NGUYÊN
+KHOA CƠ KHÍ
+BỘ MÔN: CÔNG NGHỆ VẬT LIỆU
+--------- ² ---------
+ĐỒ ÁN TỐT NGHIỆP
+Thiết kế QTCN dập và khuôn dập trục khuỷu
+Thiết kế QTCN gia công trục khuỷu D20
+
+
+Đề tài thiết kế :
+Thiết kế QTCN dập, khuôn dập trục khuỷu.
+Thiết kế quy trình công nghệ gia công trục khuỷu D20
+Các số liệu ban đầu:
+- Bản vẽ chi tiết trục khuỷu D20.
+- Sản lượng 10 000(chiếc/năm) .
+- Điều kiện sản xuất tự chọn.
+Nội dung thuyết minh tính toán:
+- Thiết kế công nghệ dập trục khuỷu D20 .
+- Thiết kế quy trình công nghệ gia công trục khuỷu D20.
+Số lượng và kích thước bản vẽ :
+- Bản vẽ chi tiết lồng phôi (1 bản Ao)
+- Bản vẽ sơ đồ nguyên công chế tạo trục khuỷu D20. (6 bản Ao)
+- Bản vẽ phôI tính toán, biểu đồ tiết diện và các lòng khuân (1 bản Ao)
+- Bản vẽ chi tiết trục khuỷu động cơ D20 và bản vẽ vật dập. (1 bản Ao)
+LỜI NÓI ĐẦU
+
+Đồ án tốt nghiệp đóng vai trò hết sưc quan trọng trong quá trình đào tạo trở thành người kỹ sư. Qua quá trình làm đồ án tốt nghiệp giúp cho sinh viên hiểu rõ hơn về những kiến thức đã được tiếp thu trong quá trình học tập, đồng thời nâng cao khả năng vận dụng sáng tạo những kiến thức này để làm đồ án cũng như công tác sau này.
+
+Là một sinh viên chuyên ngành cơ khí. Trong thời gian làm đồ án tốt nghiệp em được giao nhiệm vụ: ''Thiết kế QTCN dập và khuôn dập trục khuỷu . Thiết kế QTCN gia công trục khuỷu D20.''. Đây là một đề tài mới và khó đối với em. Tuy nhiên trong thời gian đi thực tập và làm đồ án tốt nghiệp được sự chỉ bảo tận tình của thầy giáo hướng dẫn: Thạc sĩ Vũ Đình Trung và Nguyễn Anh Tú .Vơí sự học hỏi của bản thân em đã đưa ra một phương án gia công trục khuỷu D20 , theo em phương án này sẽ đảm bảo độ chính xác và yêu cầu kỹ thuật.
+
+Đồ án tốt nghiệp của em gồm có phần thuyết minh và phần bản vẽ mà ở đó đã trình bày đầy đủ quy trình công nghệ gia công, chế độ cắt và đồ gá dùng để gia công .
+
+Tuy nhiên do trình độ hiểu biết về lý thuyết và thực tế còn hạn chế, do đó trong đồ án này không thể tránh khỏi sai sót . Vậy em rất mong nhận được sự chỉ bảo của các thầy và các bạn để em có thể hiểu sâu hơn về môn học cũng như các phương án khác hợp lý hơn.
+
+Em xin chân thành cảm ơn thầy giáo hướng dẫn ThS.Vũ Đình Trung, Nguyễn Anh Túcùng các thầy giáo trong khoa cơ khí Trường ĐHKTCNTN đã tận tình hướng dẫn em hoàn thành đồ án đúng thời hạn. Đồng thời cũng bày tỏ lòng biết ơn chân thành tới các thầy cô giáo và các bạn đã giúp đỡ em trong gần 5 năm học qua cũng như trong thời gian làm đồ án tốt nghiệp .
+
+
+PHẦN I
+PHÂN TÍCH TÍNH CÔNG NGHỆ CỦA CHI TIẾT CHỌN PHƯƠNG ÁN CHẾ TẠO PHÔI
+
+I. Chức năng, điều kiện làm việc, công dụng và yêu cầu kỹ thuật của chi tiết.
+1. Chức năng, điều kiện làm việc, công dụng của chi tiết.
+Trục khuỷu là một trong những chi tiết máy quan trọng nhất trong động cơ, cường độ làm việc lớn nhất và giá thành cao nhất. Công dụng của trục khuỷu là tiếp nhận lực tác dụng trên pitston chuyền qua thanh truyền và biến chuyển động tịnh tiến cuả pitston thành chuyển động quay của trục để đưa công suất ra ngoài (dẫn động các máy công tác khác).
+Khối lượng của trục khuỷu thường chiếm từ 7 ¸ 15% khối lượng của động cơ. Giá thành của trục khuỷu thường chiếm từ 25 ¸ 30% giá thành toàn bộ động cơ.
+Trạng thái làm việc của trục khuỷu rất nặng:
+-Trong quá trình làm việc, trục khuỷu chịu tác dụng của lực khí thể, lực quán tính (quán tính chuyển động tịnh tiến và chuyển động quay).
+Những lực này có giá trị rất lớn và thay đổi theo chu kỳ nhất định nên có tính chất va đập rất mạnh.
+Các lực tác dụng gây ra ứng suất uốn và xoắn, đồng thời còn gây ra hiện tượng dao động dọc và xoắn, làm động cơ rung động, mất cân bằng.
+Ngoài ra các lực tác dụng nói trên còn gây ra hao mòn lớn trên các bề mặt ma sát cổ trục và chốt khuỷu.
+Tuổi thọ của cơ cấu trục khuỷu thanh truyền phụ thuộc và tuổi thọ của trục khuỷu vì vậy đối với kết cấu trục khuỷu, phải đảm bảo các yêu cầu sau:
+- Có sức bền lớn, độ cứng lớn trọng lượng nhỏ và ít hao mòn.
+- Có độ chính xác gia công cao, bề mặt làm việc của trục cần có độ bóng bề mặt và độ cứng cao.
+Không xẩy ra hiện tượng cộng hưởng trong phạm vi tốc độ sử dụng.
+Kết cấu của trục khuỷu phải đảm bảo tính cân bằng và tính đồng đều của động cơ nhưng đồng thời phải dễ chế tạo.
+
+2. Yêu cầu kỹ thuật của chi tiết.
+- Tôi cao tần phần cổ trục F40 và F58 độ cứng đạt 52 ¸ 58 HRC. Độ cứng bề mặt còn lại đạt 20 ¸ 26HRC.
+- Lỗ thoát dầu trên cổ trục phải trơn, vát mép hai đầu F5 x 50o40’.
+- Không cho phép có vết nứt, vét lõm, phân tầng, vẩy sắt, gấp nếp và các hư hỏng cơ khí khác.
+- Tổ chức kim loại không được xốp, đốm trắng, phân tầng, lớp dạng gẫy.
+- Dùng áo côn để kểm tra mặt côn, diện tích tiếp xúc ³ 70%.
+- Đường tâm đối xứng của rãnh then 12+0.027 và 8+0.036 cho phép lệch với đường tâm cổ trục chính không quá 0.2 mm. Độ lệch góc là ±0,1.
+- Độ không song song của đường sinh cổ biên so với đường tâm khuỷu không quá 0,05/100.
+- Độ côn, ô van, tang trống của bề mặt F40 và F58 không quá 0,15.
+- Độ không vuông góc của đờng tâm lỗ lắp đối trọng M16 so với trục khuỷu không quá 0,15.
+II. Phân tích chi tiết gia công và xác định dạng sản xuất.
+1. Phân tích chi tiết gia công.
+Căn cứ vào kết cấu của chi tiết trục khuỷu, căn cứ vào cách phân loại vật dập theo bảng 64(tr. 164) [II]. Trục khuỷu là chi tiết có trục chính cong thuộc phân nhóm 2, nhóm I.
+Trên chi tiết các bậc giữa chốt khuỷu và má khuỷu là nhỏ nên có thể dập liền sau đó gia công cơ. Các bậc còn lại đều dập đựơc.Các lỗ dầu bôi trơn, lỗ bu lông đối trọng, rãnh then, lỗ lắp điều tốc không thể dập được mà phải dập liền sau đó gia công cơ.
+
+
+2. Xác định dạng sản xuất.
+Dạng sản xuất là một khái niệm kinh tế kỹ thuật tổng hợp, nó phản ánh mối quan hệ tác động qua lại giữa tính chất và nhiệm vụ sản xuất với đặc trưng các biện pháp công nghệ sản xuất cùng các biện pháp tổ chức kế hoạch trong quản lý, sản xuất để đạt hiệu quả cao nhất.
+a) Xác định sản lượng cơ khí.
+Theo công thức:
+Nck = NKH.mi(1+).
+Trong đó: Nkc sản lượng cơ khí chi tiết cần gia công Nkh sản lượng theo kế hoạch Nkh=10000(C/năm)
+mi = Số chi tiết cùng tên trong mỗi sản phẩm mi =1.
+a: hệ số dự phòng mất mát, hư hỏng do chế tạo, a = (3¸6)%. Chọn a = 4%.
+Nck = 10000.1.(1+4/10) = 14000 (chiếc /năm)
+b) Xác định khối lượng chi tiết.
+
+(Hình vẽ : Thể tích chi tiết)
+
+Khối lượng của chi tiết được tính theo công thức:
+G.g =V
+Trong đó:
+V: thể tính của chi tiết (dm3);
+g - trọng lượng riêng của vật liệug=7,852(kg/dm3).
+V=v1+v2+v3+v4+v5+v5v6+v7+v8-v9
+Ta có:
+v1= pd2.l1/4=3,14.402.16/4=20106,19 mm3
+v2=pd2.l2/4=3,14. 582.60/4=158524,76 mm3
+v3= v5= 115x90x36 =372600 mm3
+v4=pd2.l1/4=3,14. 582.57/4=150598,52 mm3
+v6=pd2.l6/4=3,14. 582.82/4=2924781,91mm3
+v7=pd2.l7/4=3,14. 542.60/4= 137413,26 mm3
+v8=pd2.l8/4=3,14. 392.32/4=38226,89 mm3
+v9=pd2.l9/4=2.3,14. 162.37/4=14878,58 mm3
+V= 1480394 mm3=1,480 dm3
+G = v. =1,480.7,8=11,5 kg
+Với sản lượng cơ khí 14000 chiếc/năm và khối lượng chi tiết là
+11,5 (kg). Tra bảng 2(tr.13).[I]. ta có dạng sản xuất hàng khối
+III. Chọn phương án chế tạo phôi.
+1/ Phương pháp tạo phôi trục khuỷu D20.
+Việc chế tạo trục khuỷu D20 để đạt được những yêu cầu kỹ thuật và kinh tế, người kỹ sư công nghệ phải xác định được kích thước phôi và chọn phôi thích hợp với điều kiện sản xuất nên việc chọn phôi dựa trên những cơ sở sau:
+- Vật liệu chế tạo phôi và cơ tính của vật liệu .
+- Hình dáng và kết cấu của chi tiết.
+- Khả năng đạt độ bóng của phương pháp tạo phôi .
+- Điều kiện cụ thể sản xuất của nhà máy ở đây chi tiết trục khuỷu D20 vật liệu là thép 45X, với loại vật liệu này có độ dẻo độ dai tốt phù hợp với các phương pháp gia công cắt gọt sau này.
+Do những yêu cầu kỹ thuật của chi tiết đòi hỏi độ chính xác ,độ bền cơ tính và độ bóng bề mặt. Để thoả mãn các yêu cầu trên việc sản xuất phôi trục khuỷu D20 có các phương pháp như đúc, gia công áp lực: cán,rèn,dập nóng. Ta phải so sánh lựa chọn giữa các phương pháp để đưa ra phương án tạo phôi hợp lý đảm bảo cả về hai mặt kinh tế và kỹ thuật.
+1. Rèn tự do hoặc rèn khuôn.
+Thường dùng cho các loại thép các bon, thép hợp kim để rèn.
+Ư điểm:
+- Thích hợp với điều kiện sản xuất loạt vừa và nhỏ.
+- Chi phí về trang bị công nghệ không đắt.
+Nhược điểm: Lượng dư công nghệ lớn, khi gia công cắt gọt các thớ kim loại bị cắt đứt , không liên tục do đó ảnh hưởng đến sức bền của trục khuỷu.
+2. Đúc.
+Ưu điểm:
+Trọng lưọng phôi và lượng dư gia công nhỏ, đồng thời có thể đúc được những kết cấu phức tạp khiến cho việc phân bố kim loại bên trong
+của trục khuỷu có thể thực hiện theo ý muốn để đạt được sức bền cao nhất.
+Nhược điểm:
+- Thành phần kim loại đúc khó đồng đều.
+- Khi đúc thép kết tinh không đều.
+- Tinh thể phía trong thô hơn tinh thể mặt ngoài.
+- Dễ xẩy ra các khuyết tật đúc như rỗ khí, thiên tích, rạn nứt ...
+3. Dập nóng thể tích.
+a) Dập nóng thể tích trên máy búa dập.
+Thực chất quá trình dập trên máy búa là sự điền đầy kim loại vào phần rỗng của khuôn nhờ lực va đập.
+Ưu điểm:
+- Lưọng dư gia công nhỏ vì dập trên búa máy có nhiều mức độ chính xác khác nhau. Lưọng dư gia công bé nên tiết kiệm được kim loại, giảm giờ gia công cơ, giữ được mặt ngoài cơ tính cao.
+- Năng suất lao động tương đối cao.
+- Thao tác máy dễ dàng.
+Nhược điểm:
+- Máy làm việc ồn.
+- Hoàn thành một bước hay nguyên công phải cần vài nhát đập tăng thời gian phụ.
+b) Dập trên máy ép trục khuỷu.
+Ưu điểm:
+- Máy làm việc êm, thân máy và cụm trục khuỷu thanh truyền cứng vững tốt, dẫn hướng êm chính xác.
+- Chất lượng vật rèn trên máy ép cao, tiết kiệm lượng hao kim loại, năng xuất cao.
+Nhược điểm:
+- Giá thành của máy ép cao.
+- Khi quá tải thường xẩy ra hiện tượng kẹt máy, nhiều trường hợp rất khó giải quyết.
+- Kích thước phôi ban đầu phải chính xác
+- Khó đánh sạch lớp ôxy hoá nên yêu cầu thiết bị nung phải không có hoặc ít ôxy hoá.
+- Tính chất vạn năng so với máy búa kém hơn nên phải có thiết bị phụ để tạo phôi.
+
+2/Chọn phương pháp chế tạo phôi.
+Dựa vào những phân tích ưu nhược điểm của các phương pháp tạo phôi trên, với chi tiết trục khuỷu D20 vật liệu là thép 45X nên ta chọn phương án tạo phôi là dập nóng thể tích trên máy búa dập.
+
+PHẦN II
+THIẾT KẾ CÔNG NGHỆ TRÊN MÁY BÚA
+
+I. Phân loại vật dập.
+Dựa vào bảng 64 (tr.166) [II], ta xác định được vật dập là chi tiết có trục chính cong thuộc phân nhóm 2 nhóm I
+II. Thiết kế vật dập.
+1. Mặt phân khuôn - Đường phân khuôn.
+Điều kiện cơ bản để chọn mặt phân khuôn là dễ lấy vật dập ra khỏi lòng khuôn. Với điều kiện như vậy ta có các phương án sau:
+-Mặt phân khuôn là một mặt phức tạp bao gồm các mặt phẳng ngang nghiêng và cong như hình a.
+Phương án này có nhược điểm là chế tạo khuôn rất khó khăn, khả năng điền đầy khuôn là khó nên không dùng.
+-Mặt phân khuôn như hình b. Là mặt phẳng chia đôi vật dập ra làm 2 phần bằng nhau. Với phương án này thì việc chế tạo khuôn đơn giải hơn, khả năng điền đầy khuôn là tốt hơn.
+Vậy ta chọn phương án như hình b.
+
+Hình a:
+
+Hình b
+
+2. Xác định lượng dư và dung sai.
+Dựa vào kích thước của chi tiết :
+B=90 mm
+L =377 mm
+Với cấp chính xác cấp 1. Theo bảng 70 (tr.201) [II] ta tra lượng dư và dung sai:
+F40 + 5 = F45
+F58 + 5 = F63
+F36 + 5 = F41
+90 + 5 = 95
+115 + 5 = 120
+377 + 5,5 = 382,5
+
+3. Xác định góc nghiêng và lòng khuôn.
+Thực tế không thể dập được vật dập trên máy búa có bề mặt phẳng không thẳng đứng vì không thể nào lấy được vật dập ra khỏi lòng khuôn. Chỉ có thể lấy được vật dập có thành bên thẳng đứng hay có góc nghiêng bé bằng cơ cấu đẩy phôi riêng, những cơ cấu này thực hiện trên máy búa rất khó khăn.
+Người ta xác định góc nghiêng lòng khuôn phụ thuộc vào kết cấu của vật dập. Cụ thể góc nghiêng phụ thuộc vào kính thước và tỷ số truyền sau:
+b -chiều rộng; h -chiều cao; l -chiều dài của vật dập ở đoạn có góc nghiêng. Dựa vào tỷ số và sẽ xác định được góc nghiêng.
+Ta có tại má khuỷu phần lắp đối trọng:
+h = , b = 120, l = 36. tra bảng 71.(tr205).[II] ta có a =50.
+Như vậy ta chọn góc nghiêng thành ngoài là 70 còn góc nghiêng thành trong lấy tương ứng là 100 .
+Góc nghiêng thành 2 đầu lấy tương ứng là 150.
+
+4. Bán kính lượn.
+Khi dập trên máy búa nếu vật dập vuông thành sắc cạnh thì dập rất khó khăn. Bán kính góc lượn trong R và ngoài r càng lớn càng dễ dập.
+Bán kính lượn ngoài r càng nhỏ thì điền đầy lòng khuôn càng khó, ngoài ra ở những chỗ đó tạo thành ứng suất tâp trung nên rãnh lòng khuôn có thể bị nứt, toét thậm chí có thể bị vỡ khuôn. Đồng thời góc nhọn gây nhiều khó khăn trong quá trình nhiệt luyện và có thể tạo nên vết nứt.
+Bán kính lượn trong R nhỏ dẫn tới kim loại chảy rất khó thậm chí bị đứt, tạo thành xoắn và gấp nếp ở các rãnh sâu và sắc cạnh.
+Dựa vào bán kính lượn của chi tiết và bảng 72.(tr.210).[II] ta có các góc lượn trên bản vẽ vật dập.
+Dựa vào lượng dư và dung sai, góc nghiêng thành lòng khuôn, góc lượn ta xây dựng được bản vẽ vật dập như hình vẽ.
+
+(Bản vẽ vật dập ở trạng thái nóng)
+(Bản vẽ vật dập ở trạng thái nguội)
+
+5. Vành biên và xác định kích thước rãnh vành biên.
+Vành biên là vành kim loại thừa xung quanh vật rèn trên mặt phân khuôn nó ảnh hưởng lớn đến quá trình dập.
+Có ba ý nghĩa và vai trò cơ bản của vành biên trong khi dập trên máy búa.
+- Vào cuối quá trình dập vành biên tạo ra xung quanh vật dập ngăn cản kim loại chảy ra mặt phân khuôn mà bức kim loại chảy vào lòng khuôn điền đầy vật dập.
+- Trongthực tế khó tạo ra kích thước của phôi và lòng khuôn trùng nhau, diện tích của các tiết diện ngang là không trùng nhau được. Vì thế cần phải cho thể tích của phôi lớn hơn thể tích của lòng khuôn, do đó sẽ có một ít kim loại chảy ra vành biên.
+*) Dạng vành biên: Có nhiều kiểu dạng vành biên.
+Dựa vào hình 75(tr.175) [II] ta chọn rãnh vành biên dạng một như hình vẽ.
+Chọn kết cấu rãnh vành biên như vậy làm cầu vành biên có độ bên lớn vì nửa khuôn trên bị đốt nóng ít hơn nửa khuôn dưới.
+....................................................
+
+
+TÀI LIỆU THAM KHẢO
+(1)- Hướng dẫn thiết kế đồ án CÔNG NGHỆ CHẾ TẠO MÁY
+HỒ VIẾT BÌNH-PHAN MINH THANH
+Xuất bản năm 2013
+(2)-Giáo trình CÔNG NGHỆ CHẾ TẠO MÁY
+HỒ VIẾT BÌNH-PHAN MINH THANH
+Nhà xuất bản đại học quốc gia thành phố HCM
+(3)-CHẾ ĐỘ CẮT GIA CÔNG CƠ KHÍ
+NGUYỄN TRỌNG ĐÀO
+HỒ VIẾT BÌNH
+Nhà xuất bản Đà Nẵng,2001
+(4)-Sổ tay CÔNG NGHỆ CHẾ TẠO MÁY tập 1
+NGUYỄN ĐẮC LỘC
+LÊ VĂN TIẾN
+NINH ĐỨC BỐN
+TRẦN XUÂN VIỆT
+Nhà xuất bản khoa học và kỹ thuật ,2010
+(5)-Sổ tay CÔNG NGHỆ CHẾ TẠO MÁY tập 2
+NGUYỄN ĐẮC LỘC
+LÊ VĂN TIẾN
+NINH ĐỨC BỐN
+TRẦN XUÂN VIỆT
+Nhà xuất bản khoa học và kỹ thuật
+(6)-ATLAS ĐỒ GÁ
+TRẦN VĂN ĐỊCH
+Nhà xuất bản khoa học và kỹ thuật ,2003
+(7)-Sách CÔNG NGHỆ KIM LOẠI
+NGUYỄN TÁC ÁNH
+HOÀNG TRỌNG BÁ
+(8)-Sách DUNG SAI KỸ THUẬT ĐO
+TÀI LIỆU THAM KHẢO
+THIẾT KẾ ĐỒ ÁN CÔNG NGHỆ CHẾ TẠO MÁY. – TRẦN VĂN ĐỊCH. NXB KHKT 2000 CÔNG NGHỆ CHẾ TẠO MÁY. – ĐHSPKT 2000. –HỒ VIẾT BÌNH – NGUYỄN NGỌC ĐÀO. CHẾ ĐỘ CẮT GIA CÔNG CƠ KHÍ. – NXB ĐÀ NẴNG 2001. NGUYỄN NGỌC ĐÀO – HỒ VIẾT BÌNH. SỔ TAY CNCTM TẬP 1,2. NXB KHKT 2001. –NGUYỄN ĐẮC LỘC – LÊ VĂN TIẾN. ĐỒ GÁ GIA CÔNG CƠ KHÍ. NXB ĐÀ NẴNG 2000. – HỒ VIẾT BÌNH – LÊ ĐĂNG HOÀNH – NGUYỄN NGỌC ĐÀO. SỔ TAY VÀ ATLAS ĐỒ GÁ. – NXB KHKT 2000. –TRẦN VĂN ĐỊCH. CÁC SÁCH GIÁO KHOA VỀ CÔNG NGHỆ CHẾ TẠO MÁY. CƠ SỞ CÔNG NGHỆ CHẾ TẠO MÁY. – ĐHSPKT 2002. – NGUYỄN NGỌC ĐÀO – HỒ VIẾT BÌNH – PHAN MINH THANH.
+
+TÀI LIỆU THAM KHẢO THIẾT KẾ QUY TRÌNH CÔNG NGHỆ GIA CÔNG CHI TIẾT THÂN ĐỒ GÁ RÃNH ĐUÔI ÉN ĐHCN HÀ NỘI 1] : Thiết kế đồ án công nghệ chế tạo máy [2] : Sổ tay công nghệ chế tạo máy tập 1 (bộ 3 tập) [3] : Sổ tay công nghệ chế tạo máy tập 2 (bộ 3 tập) [4] : Sổ tay công nghệ chế tạo máy tập 2 (bộ 3 tập) [5] : Sổ tay nhiệt luyện [6] : Công nghệ chế tạo máy tập 1 [7] : Sổ tay công nghệ chế tạo máy tập 1 (bộ 7 tập) [8] : Sổ tay công nghệ chế tạo máy toàn tập (trường ĐHBK
+

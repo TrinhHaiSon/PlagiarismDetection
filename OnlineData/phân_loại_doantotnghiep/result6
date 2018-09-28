@@ -1,0 +1,203 @@
+ĐỒ ÁN TỐT NGHIỆP MÔ HÌNH ĐẾM VÀ PHÂN LOẠI SẢN PHẨM THEO MÀU SẮC
+MỞ ĐẦU
+Trong nền kinh tế hiện nay, việc ứng dụng khoa học kỹ thuật vào sản xuất và đời
+sống ngày càng phổ biến. Nhung các ứng dụng sáng tạo và khoa học kỹ thuật thuờng
+chỉ áp dụng đuợc cho những nhà máy có mô hình sản xuất tiên tiến với qui mô kinh
+doanh lớn. Tuy nhiên, tại những nhà máy, xí nghiệp nhỏ hay các hợp tác xã nông thôn
+ở địa phương vẫn còn sản xuất theo mô hình thủ công, chủ yếu dựa vào sức người lao
+động. Do đó, nhóm chúng em quyết định nghiên cứu về mạch đếm sản phẩm nhằm đưa
+việc ứng dụng khoa học kỹ thuật vào mô hình sản xuất thô sơ tại địa phương. Bên cạnh
+mạch đếm sản phẩm thông thuờng, nhóm chúng em còn nghiên cứu thêm cách nhận
+dạng màu sản phẩm (phân loại sản phẩm theo màu sắc). Với sự kết hợp hai mạch này
+vào mô hình sản xuất sẽ góp phần làm tăng chất luợng sản phẩm và lợi nhuận kinh tế.
+Bài báo cáo này trình bày cách thiết kế mạch đếm và nhận dạng màu sản phẩm
+dùng hai loại cảm biến: cảm biến quang điện trở và photodiode.
+Trong quá trình thiết kế không tránh khỏi thiếu sót, rất mong nhận được ý kiến
+đóng góp của thầy cô và các bạn.
+CHƯƠNG 1: TỔNG QUAN
+Ðặt vấn đề
+Yêu cầu đặt ra: ngoài việc sử dụng cảm biến, mạch được thiết kế sử dụng các loại
+ic số. Tính ổn định cao, gọn nhẹ. Cho kết quả chính xác, trong đó kết quả đếm đuợc
+hiển thị trên led 7 đoạn và kết quả nhận dạng màu được hiển thị trên led đơn.
+Phạm vi của đề tài:
+Thiết kế mạch đếm số luợng sản phẩm tối đa là 9999 và hiển thị trên led 7 đoạn
+bằng phương pháp quét. Ðồng thời, mạch phải nhận dạng đuợc 3 màu khác nhau của
+sản phẩm và hiển thị lên led đơn.
+
+Huớng giải quyết vấn đề:
+- Lập so đồ khối tổng quát cho mạch cần thiết kế.
+Ðể thiết kế mạch này chúng ta cần hai bộ phận: bộ phận cảm biến và bộ phận hiển thị.
++ Bộ phận cảm biến: gồm phần thu và phần phát. Chúng ta dùng led phát hồng ngoại để phát tín hiệu và photodiode thu tín hiệu.
++ Bộ phận hiển thị: có nhiều phương pháp để thiết kế mạch hiển thị như: sử dụng IC số, vi xử lý, vi điều khiển. Mỗi phương pháp có những ưu và nhược điểm riêng. Căn cứ vào tình hình thực tế tại các cơ sở nghiên cứu và khả năng thực hiện, nhóm quyết định
+chọn phương pháp thiết kế dùng IC số.
+- Tìm hiểu một số kiến thức cần thiết nhu: nguyên tắc hoạt động và thông số kỹ thuật
+của các cảm biến đuợc sử dụng, sự hấp thụ và phản xạ của ánh sáng, phương pháp quét
+để hiển thị trên led 7 đoạn, phương pháp hiển thị kết quả nhận dạng màu.
+- Khảo sát ảnh huởng của sự hấp thụ và phản xạ ánh sáng trên các sản phẩm có màu
+khác nhau đối với quang trở. Sau đó lập bảng kết quả khảo sát rồi đưa ra kết luận, lựa
+chọn màu thích hợp nhận dạng trong phạm vi đề tài.
+- Thiết kế theo từng khối với trình tự: lập sơ đồ khối chi tiết, suy ra sơ đồ nguyên lý
+cho mỗi khối, kết nối các khối và mô phỏng. Sau đó thiết kế mạch theo đúng yêu cầu
+đề tài dựa trên sơ đồ nguyên lí và mô phỏng. Cuối cùng là ráp mạch thực tế, chạy thử
+và kiểm tra.
+CHƯƠNG 2: CƠ SỞ LÝ THUYẾT
+2.1 Lý thuyết về ánh sáng - sự hấp thụ và phản xạ ánh sáng
+2.1.1 Lý thuyết về ánh sáng
+Ánh sáng có 2 tính chất cơ bản là sóng và hạt.
+- Dạng sóng ánh sáng là sóng điện từ phát ra khi có sự chuyển điện tử giữa các mức
+năng lượng của nguyên tử nguồn sáng. Các sóng này có vận tốc truyền đi trong chân
+không là c=299792 km/s, trong môi truờng vật chất là: v = (n: chiết suất của môi
+trường). Tần số f và bước sóng λ của ánh sáng liên hệ với nhau qua biểu thức: λ = trong chân không λ =
+Phổ ánh sáng được biểu diễn như hình 1:
+Hình 1
+- Tính chất hạt thể hiện qua sự tương tác của nó với vật chất. Ánh sáng bao gồm các
+hạt photon mang năng lượng Wϕ phụ thuộc duy nhất vào tần số.
+Wϕ = hλ
+Với: h = 6,6256.10-24 Js: hằng số Planck
+Một điện tử được liên kết có năng lượng Wl, để giải phóng các điện tử khỏi
+nguyên tử cần cung cấp cho nó năng lượng bằng với năng lượng liên kết Wl.
+Vậy một điện tử sẽ được giải phóng nếu nó hấp thụ một photon có năng luợng Wϕ=W1, nghiã là f hay
+Buớc sóng ngưỡng (bước sóng lớn nhất) của ánh sáng có thể gây nên hiện tượng giải phóng điện tử được tính từ biểu thức: λs =
+Hiện tuợng hạt dẫn điện đuợc giải phóng dưới tác dụng của ánh sáng làm thay đổi
+tính chất điện của vật liệu gọi là hiệu ứng quang điện. Ðây là nguyên lý cơ bản của cảm
+biến quang.
+2.1.2 Sự hấp thụ và phản xạ ánh sáng
+Hiện tuợng hấp thụ ánh sáng là hiện tuợng môi truờng vật chất làm giảm cuờng
+độ (hay năng lượng) của dòng ánh sáng truyền qua nó. Phần quang năng bị hấp thụ sẽ
+biến thành nội năng của môi truờng. Sự hấp thụ ánh sáng không những phụ thuộc vào
+màu sắc (bước sóng) ánh sáng, bản chất môi truờng, mà còn phụ thuộc vào độ dài của
+đường đi tia sáng trong môi truờng.
+Sự phản xạ ánh sáng xảy ra khi sóng ánh sáng chạm phải một bề mặt hoặc một
+ranh giới khác không hấp thụ năng lượng bức xạ và làm bật sóng ánh sáng ra khỏi bề
+mặt đó. Khả năng phản xạ (hoặc tán xạ) của các vật mạnh hay yếu phụ thuộc vào buớc
+sóng ánh sáng.
+
+Màu sắc của đồ vật vừa phụ thuộc vào khả năng hấp thụ và khả nang phản chiếu
+của các vật đó, vừa phụ thuộc vào cấu tạo của ánh sáng chiếu vào các đồ vật. Vật có
+màu trắng không hấp thụ bất kỳ ánh sáng nào mà lại phản chiếu tất cả các ánh sáng có bước sóng khác nhau.Vật màu đen có khả năng hấp thụ tất cả các buớc sóng mà không
+phản chiếu bất kỳ ánh sáng nào.
+2.2 Cảm biến:
+Trên sự phát triển mạnh mẽ của công nghệ điện tử, cảm biến ngày càng được sử
+dụng nhiều trong các dây chuyền sản xuất tự động hóa. Cảm biến có rất nhiều loại và
+nhiều ứng dụng đa dạng, đáp ứng tốt cho quá trình tự dộng.
+Trong bài báo cáo này ta chỉ tìm hiểu về hai loại cảm biến được sử dụng là cảm
+biến hồng ngoại và cảm biến quang (photodiode và quang trở). Cảm biến quang được
+sử dụng để chuyển thông tin từ ánh sáng nhìn thấy hoặc tia hồng ngoại (IR) và tia tử
+ngoại (UV) thành tín hiệu điện.
+2.2.1. Photodiode
+2.2.1.1. Cấu tạo
+Photodiode là một tiếp giáp p-n được tạo bởi các vật liệu như: Ge, Si cho vùng
+ánh sáng trông thấy và gần hồng ngoại; GaAs, InAs, CdHgTe, InSb cho vùng ánh sáng
+hồng ngoại.
+Hình 2: Cấu tạo của photodiode
+Hình 3
+2.2.1.2. Nguyên tắc làm việc:
+Khi không có điện áp bên ngoài đặt lên nối P-N, đòng điện qua nối I = 0. Thực tế
+có tồn tại dòng I gồm các thành phần:
+- Dòng khuếch tán các hạt dẫn điện đa số có năng lượng đủ lớn vuợt qua rào điện thế.
+- Dòng hạt dẫn điện thiểu số chuyển động đuới tác động của điện trường
+Khi đặt điện áp Vd lên diode, chiều cao của hàng rào thế sẽ thay đổi kéo theo thay
+đổi độ rộng vùng hiếm. Dòng qua nối:
+Khi điện áp ngược Vd đủ lớn (ở 300K), dòng khuếch tán các hạt dẫn đa số rất nhỏ có thể bỏ qua. Dòng ngược Ir = I0.
+Khi chiếu sáng diode bằng ánh sáng có buớc sóng λ<λS sẽ xuất hiện thêm các
+cặp điện tử - lỗ trống. Ðể ngăn cản quá trình tái hợp phải tách cặp điện tử - lỗ trống
+duới tác dụng của điện truờng. Ðiều này chỉ xảy ra trong vùng hiếm làm tang dòng
+ngược Ir.
+Ðể đến được vùng hiếm, ánh sáng phải đi qua một bề dầy của chất bán dẫn và tiêu hao năng lượng theo biểu thức
+Trong đó , thông lượng giảm 63% khi di qua bề dầy 103 A .
+Có hai chế độ hoạt dộng là: chế độ quang dẫn và chế độ quang thế. Vì trong đề tài
+này photo diode làm việc ở chế độ quang dẫn nên chúng em chỉ trình bày chế độ quang dẫn.
+Chế độ quang dẫn
+Hình 4 là sơ đồ nguyên lý gồm nguồn ES phân cực ngược diode, Rm dùng dể đo
+tín hiệu
+Hình 4
+Đặt điện áp Vd <0 lên diode, dòng ngược Ir chạy qua diode:
+Ip: dòng điện sinh ra khi ánh sáng đi đến vùng hiếm.
+Khi điện áp ngược đủ lớn:, nghĩa là .
+
+Phương trình mạch điện mà Vr=RmIr ⇒.
+Chế độ này là tuyến tính, Ir tỉ lệ với thông lượng (như hình 5).
+2.2.2. Quang trở
+Hiện tuợng quang điện trong là hiện tượng tạo thành các electron dẫn và lỗ trống trong bán dẫn, đo tác dụng của ánh sáng có buớc sóng thích hợp(λ với λ0 là giới hạn quang điện của bán dẫn).
+Hiện tượng quang dẫn là hiện tượng giảm điện trở suất, tức là tăng độ dẫn điện
+của bán dẫn khi có ánh sáng thích hợp chiếu vào. (do hiện tuợng quang điện trong làm
+mật độ hạt tải điện tang lên, độ dẫn điện tăng tức là điện trở suất giảm. Cuờng độ ánh
+sáng càng lớn thì điện trở suất càng nhỏ).
+Quang điện trở là điện trở có trị số càng giảm khi đuợc chiếu sáng càng mạnh. Khi không được chiếu sáng, giá trị điện trở thường trên 1MΩ. Khi không được chiếu sáng, giá trị điện trở thường trên 100MΩ khi được chiếu sáng mạnh.
+Nguyên lí làm việc của quang điện trở (dựa trên hiện tuợng quang điện trong): khi
+ánh sáng chiếu và chất bán dẫn (có thể là Cadmium – CdS, Cadmium selenide – CdSe)
+làm phát sinh các điện tử tự do, tức sự dẫn tang lên làm giảm điện trở của chất bán dẫn.
+Các dặc tính điện và độ nhạy của quang trở tùy thuộc vào vật liệu dùng trong chế tạo.
+Ðộ nhạy của quang trở được xác định:
+Trong đó.
+sự thay đổi cảu cuờng độ ánh sáng.
+sự thay đổi diện trở.
+Hình 6: Ðặc tuyến của quang trở
+Hình 7 là hình dạng thực tế của quang trở:
+Hình 7
+Các đường dữ liệu của led 7 đoạn phải nối chung với nhau, khi đó các led không
+thể sáng đồng thời mà phải thực hiện quét led. Nghiã là tại mỗi thời điểm chỉ có một
+led sáng và các led còn lại tắt. Tuy nhiên, do hiện tuợng luu ảnh của mắt ta sẽ thấy các
+led sáng đồng thời.
+Ưu điểm của phương pháp này là làm tăng tuổi thọ của led.Hình 8: Sơ đồ mạch
+
+Mạch chỉ hoạt động khi cổng logic thuộc họ CMOS hoặc có tính Schmitt trigger.
+Tùy theo điện thế ngõ ra ở mức 1 và ở mức 0, tùy theo điện thế các mức ngưỡng
+mà chu kỳ của mạch sẽ khác nhau. Ta có thể uớc tính chu kỳ của tín hiệu nằm trong khoảng từ RC dến 2RC.
+Bảng 1: Tóm tắt hoạt động của mạch tạo xung.
+
+1 2 Tụ C 0 1 Tụ nạp, V1 tăng 1 0 Tụ phóng, V1 giảm 0 1 Tụ nạp, V1 tăng
+Hình 9: Dạng tín hiệu ngỏ ra của mạch tạo xung.
+
+CHƯƠNG 3: NỘI DUNG VÀ KẾT QUẢ NGHIÊN CỨU
+
+3.1. Sơ đồ khối chi tiết
+3.2. Phân tích và thiết kế theo sơ đồ khối
+3.2.1. Khối phát hiện sản phẩm
+Ở khối này, ta sử dụng Led phát hồng ngoại và photodiode để làm nguồn phát và thu tín hiệu kết hợp mạch dao động đa hài phi ổn có tần số thay đổi để điều khiển tần số
+phát – thu được mắc theo sơ đồ hình 10:
+Hình 10
+Ở ngỏ ra 1 ta dùng cổng logic thuộc họ CMOS hoặc có tính Schmitt trigger để sửa
+dạng tín hiệu và lọc nhiễu.
+
+Bảng 2: Tóm tắt hoạt động khôi nhận biết sản phẩm.
+3.2.2. Khối điều khiển
+Mục tiêu của khối điều khiển sẽ thực hiện công việc điều khiển chọn dữ liệu (số
+hàng ngàn, trăm, chục và hàng đơn vị) và chọn led 7 đoạn tương ứng để hiển thị đúng
+theo phương pháp quét đã nói ở chương 2. Ngoài ra, tần số quét led có thể hiệu chỉnh
+được.
+
+Ở khối này bao gồm 3 phần: mạch tạo xung vuông (mạch dao động đa hài phi ổn
+dùng cổng logic) có tần số điều chỉnh được, mạch đếm 4 và mạch giải mã 2 sang 4 (do
+phương pháp quét chỉ cho phép hiển thị mỗi lần một số mà theo yêu cầu đặt ra, ta cần
+thiết kế mạch đếm số luợng sản phẩm tối đa là 9999 (tức 4 chữ số). Vậy nghiã là ta cần4 ngõ điều khiển chọn dữ liệu đồng thời chọn led 7 đoạn tương ứng để hiển thị kết quả
+đếm).
+
+Tần số của mạch xung vuông chính là tần số quét trong cách hiển thị bằng
+phương pháp quét. Mạch xung vuông làm xung Ck cho mạch đêm 4, ngỏ ra mạch đếm
+sẽ là địa chỉ cho mạch giải mã.
+Hình 11 trình bày sơ đồ mạch của khối:
+...................................................
+Thời gian ‐‐>
+4.2. Mạch điều khiển động cơ
+Dựa theo nguyên lý cấu tạo như phần 4.1. chúng ta cần điều khiển sự đóng ngắt chân 1a, 1b,2a, 2b với đất.
+
+Mạch dùng cách ly quang PC521 cách ly điện áp giữa bo mạch Spartan 3E và mạch lực bên ngoài.
+Điều khiển đóng ngắt các chân dùng Transtor Darlington TIP122 (NPN) có tần suất đóng cắt lớn.
+Hình 18: Mạch điều khiển
+
+Khi có tín hiệu tích cực 1 ở chân Phase 1_in thì PC521 thông dẫn đến TIP122 thông và chântương ứng của stepper motor được nối với đất khi đó phần dây đó sẽ có dòng chạy qua, sinh ra từ thông. Do đó, tín hiệu đưa vào mạch sẽ giống hệt như các sơ đồ ở 4.1.
+Hình 19: Sơ đồ mắc các chân của động cơ
+
+Động cơ có 6 dây với 2 dây đầu được nối lên nguồn dương, các chân còn lại nối với mạch điều khiển ở trên, ngoài ra mỗi chân này nối với 2 diode để đảm bảo trong trường hợp đóng ngắt đột ngột các nửa cuộn dây.
+CHƯƠNG 5: ƯU VÀ NHƯỢC ĐIỂM VÀ HƯỚNG PHÁT TRIỂN CỦA MÔ HÌNH
+Ưu điểm:
+Tiện lợi có thể ứng dụng vào nhưng kiểu sản xuất thủ công là tăng số lượng thành phâm. Chi phí thấp.
+Nhược điểm
+Còn hạn chế về thời gian hoạt đông.
+Hướng phát triển
+Có thể phá triển thêm tay gấp Tự đóng gói sản phẩm
+Tài liệu tham khảo
+[1] Lương Văn Sơn và Nguyễn Khắc Nguyên. Giáo trình Kỹ thuật xung. Chương 5.
+[2] Nguyễn Hữu Cường. Giáo trình Cảm biến. Chương 3, 4 và 5.
+[3] Nguyễn Trung Lập. Giáo trình Kỹ thuật số. Chương 5

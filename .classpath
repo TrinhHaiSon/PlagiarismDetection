@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="vnTagger-master/src/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/vnTagger-master/src"/>
+	<classpathentry kind="lib" path="commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="commons-lang3-3.6.jar"/>
+	<classpathentry kind="lib" path="dist/lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="dist/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="dist/lib/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="dist/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/edu.stanford.nlp.tagger-2.0.jar"/>
+	<classpathentry kind="lib" path="dist/lib/jsoup-1.11.3.jar"/>
+	<classpathentry kind="lib" path="dist/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="dist/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="dist/lib/mysql-connector-java-5.1.39-bin.jar"/>
+	<classpathentry kind="lib" path="dist/lib/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="dist/lib/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="dist/lib/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="dist/lib/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="dist/lib/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="dist/lib/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="dist/lib/vn.hus.nlp.fsm-1.0.0.jar"/>
+	<classpathentry kind="lib" path="dist/lib/vn.hus.nlp.tagger-4.2.0.jar"/>
+	<classpathentry kind="lib" path="dist/lib/vn.hus.nlp.tokenizer-4.1.1.jar"/>
+	<classpathentry kind="lib" path="dist/lib/vn.hus.nlp.utils-1.0.0.jar"/>
+	<classpathentry kind="lib" path="dist/lib/VnCoreNLP-1.0.1.jar"/>
+	<classpathentry kind="lib" path="dist/lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="dist/PlagiarismDetection.jar"/>
+	<classpathentry kind="lib" path="jsoup-1.11.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/edu.stanford.nlp.tagger-2.0.jar"/>
+	<classpathentry kind="lib" path="lib/vn.hus.nlp.fsm-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/vn.hus.nlp.tokenizer-4.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/vn.hus.nlp.utils-1.0.0.jar"/>
+	<classpathentry kind="lib" path="mysql-connector-java-5.1.39-bin.jar"/>
+	<classpathentry kind="lib" path="vn.hus.nlp.tagger-4.2.0.jar"/>
+	<classpathentry kind="lib" path="/home/trinhhaison/Downloads/jsch-0.1.54.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,288 @@
+TÍNH TOÁN Thiết kế Và Chế Tạo Máy Rang Cà Phê Dùng Khí Nóng Trực Tiếp, thuyết minh THIẾT KẾ DÂY CHUYỀN SẢN XUẤT Máy Rang Cà Phê, quy trình sản xuất , bản vẽ nguyên lý Máy Rang Cà Phê, bản vẽ THIẾT KẾ MÁY Máy Rang Cà Phê, THIẾT KẾ VÀ CHẾ TẠO MÁY ,
+NHIỆM VỤ ĐỒ ÁN TỐT NGHIỆP Thiết kế Và Chế Tạo Máy Rang Cà Phê Dùng Khí Nóng Trực Tiếp
+Tên đề tài: Thiết kế Và Chế Tạo Máy Rang Cà Phê Dùng Khí Nóng Trực Tiếp
+Các yêu cầu cho trước
+1 – Máy rang kiểu Hot air
+2 – Năng suất: 02 kG/mẻ
+Nội dung thuyết trình và tính toán
+1 – Tìm hiểu nguyên lý các loại thiết bị rang hạt
+2 – Tìm hiểu công nghệ rang cà phê
+3 – Nguyên lý máy rang cà phê (dạng hot air)
+4 – Tính toán, thiết kế phần cơ khí
+5 – Tính toán, thiết kế cấp nhiệt
+6 – Tính toán phần điều khiển
+7 – Thi công
+Bản vẽ
+Bản vẽ các phương án rang (A0) Bản vẽ nguyên lý máy rang cà phê (A0) Bản vẽ lắp (A0); - bản vẽ 3D toàn máy; - Tập bản vẽ chi tiết (A3)
+Sản phẩm
+Máy rang cà phê
+.......................................
+
+MỤC LỤC
+Trang
+NHIỆM VỤ ĐỒ ÁN .....................................................................................................................
+LỜI NÓI ĐÂU...............................................................................................................................
+NHẬN XÉT GVHD.......................................................................................................................
+NHẬN XÉT GV PHẢN BIỆN......................................................................................................
+
+A .TÌM HIỂU THÀNH PHẦN CÀ PHÊ, CÔNG NGHỆ RANG VÀ THIẾT BỊ RANG CÀ PHÊ
+CHƯƠNG 1: GIỚI THIỆU CÁC LOẠI CÀ PHÊ ĐẶC TRƯNG
+1.1 Phân loại theo giống cà phê......................................................................................................
+1.1.1 Cà phê chè (arabica)...............................................................................................................
+1.1.2 Cà phê vối (canephora)...........................................................................................................
+1.1.3 Cà phê mít (excelsa)...............................................................................................................
+1.2 Phân loại theo dạng hạt.............................................................................................................
+1.2.1 Phân loại theo kích thước.......................................................................................................
+1.2.2 Phân loại theo trọng lượng riêng............................................................................................
+1.2.3 Phân loại theo màu sắc...........................................................................................................
+CHƯƠNG 2: PHÂN TÍCH THÀNH PHẦN HẠT CÀ PHÊ
+2.1 Phân tích vật liệu hạt cà phê......................................................................................................
+2.1.1 Cấu tạo hạt cà phê tươi..........................................................................................................
+2.1.2 Tỉ lệ giữa các thành phần cấu tạo của quả cà phê...................................................................
+2.1.3 Thành phần của nhân cà phê..................................................................................................
+2.1.4 Thành phần hạt cà phê sau rang.............................................................................................
+2.1.5 Tính chất vật lý của cà phê nhân............................................................................................
+CHƯƠNG 3: CÔNG NGHỆ RANG CÀ PHÊ
+3.1 Phân tích công nghệ rang cà phê...............................................................................................
+3.2 Nhiệt độ rang và đặc điểm các loại cà phê trên thế giới............................................................
+3.3. Biểu đồ quá trình rang các loại cà phê......................................................................................
+3.4. Thông số kích thước hạt, trọng lượng......................................................................................
+CHƯƠNG 4: GIỚI THIỆU CHUNG VỀ CÁC PHƯƠNG PHÁP RANG CÀ PHÊ HIỆN NAY
+4.1Giới thiệu các phương pháp rang cà phê....................................................................................
+4.1.1 Phương pháp rang thủ công..................................................................................................
+4.1.2 Phương pháp rang thùng quay..............................................................................................
+4.1.3 Phương pháp rang dòng khí nóng trực tiếp.........................................................................
+4.2 Ưu nhược điểm của các phương pháp rang dòng khí nóng......................................................
+4.3 So sánh rang bằng thùng quay và rang bằng dòng khí nóng
+B. PHẦN TÍNH TOÁN
+CÁC YÊU CẦU KHI THIẾT KẾ MÁY RANG CÀ PHÊ DÒNG KHÍ NÓNG TRỰC TIẾP
+CHƯƠNG 1 : NGUYÊN LÝ CÁC THÔNG SỐ CƠ BẢN
+CHƯƠNG 2 : TÍNH TOÁN NĂNG SUẤT TÁCH ẨM
+CHƯƠNG 3 : TÍNH TOÁN VẬN TỐC VÀ THỜI GIAN RANG
+CHƯƠNG 4 : TÍNH TOÁN NHIỆT
+CHƯƠNG 4 : TÍNH TOÁN QUẠT THỔI VÀ CHỌN QUẠT
+CHƯƠNG 5: TÍNH TOÁN THIẾT KẾ PHẦN CƠ KHÍ
+CHƯƠNG 6 : BẢN VẼ THIẾT KẾ CÁC CHI TIẾT MÁY
+CHƯƠNG 7: KẾT LUẬN VỀ MÁY RANG CÀ PHÊ DÒNG KHÍ NÓNG
+CHƯƠNG 8: HƯỚNG DẪN SỬ DỤNG VÀ BẢO QUẢN MÁY
+8.1 Hướng dẫn sử dụng máy …………………………………..............…
+8.2 Hướng bảo quản máy .....…………………………………..............…
+CHƯƠNG 9 :TÀI LIỆU THAM KHẢO
+DANH MỤC BẢNG BIỂU
+
+Trang
+Báng 1.1: ............................................................................................................ 23
+Báng 1.2: ............................................................................................................ 25
+Báng 1.3: ............................................................................................................ 24
+…
+Báng 3.4: ............................................................................................................ 34
+Ghi chú:
+Chữ số thứ nhất chỉ tên chương Chữ số thứ hai chỉ thứ tự bảng biểu trong mỗi chương Ở cuối mỗi bảng biểu trong mỗi chương phải có ghi chú, giải thích, nêu rõ nguồn trích hoặc sao chụp, …
+DANH MỤC SƠ ĐỒ, HÌNH VẼ
+
+Trang
+Sơ đồ 1.1: ......................................................................................................... 11
+Sơ đồ 1.2: ......................................................................................................... 12
+Sơ đồ 1.3: ......................................................................................................... 16
+…
+Sơ đồ 3.7: ......................................................................................................... 37
+…
+Hình 1.1: ............................................................................................................ 13
+Hình 1.2: ............................................................................................................ 15
+Hình 1.3: ............................................................................................................ 18
+…
+Hình 4.3: ............................................................................................................ 43
+
+
+Ghi chú:
+Chữ số thứ nhất chỉ tên chương Chữ số thứ hai chỉ thứ tự sơ đồ, hình, … trong mỗi chương Ở cuối mỗi sơ đồ, hình, … trong mỗi chương phải có ghi chú, giải thích, nêu rõ nguồn trích hoặc sao chụp, …
+A.TÌM HIỂU THÀNH PHẦN CÀ PHÊ, CÔNG NGHỆ RANG
+VÀ THIẾT BỊ RANG CÀ PHÊ
+CHƯƠNG 1: GIỚI THIỆU CÁC LOẠI CÀ PHÊ ĐẶC TRƯNG
+Cà phê nhân là nguyên liệu chính trong ngành công nghiệp chế biến cà phê rang xay, hòa tan... Là chất phụ gia cho một số ngành chế biến thực phẩm và đồ uống…
+
+1.1 Phân loại theo giống cà phê
+Trên thế giới, cà phê có rất nhiều loại, đây là một loại cây có khả năng thích nghi với môi trường. Hiện nay, các nước trên thế giới cũng như ở nước ta đều trồng ba loại cà phê là: arabica (cà phê chè), canephora (cà phê vối), excelsa (cà phê mít).
+1.1.1 Cà phê chè (arabica)
+Là loại cà phê được trồng và tiêu thụ nhiều nhất trên thế giới, chiếm 9/10 tổng sản lượng cà phê. Cây cao 3 ÷ 5 m, có khi 7 ÷ 10 m, thời gian ra hoa ở nước ta từ tháng 2 đến tháng 4. Quả hình trứng hay hình tròn, khi chín có màu đỏ tươi, kích thước quả: dài 17 ÷ 18 mm, đường kính tiết diện 10 ÷ 15 mm, 500 ÷ 700 quả/kg, thời gian từ lúc có quả đến lúc chín 6 ÷ 7 tháng, thời vụ thu hoạch từ tháng 9 đến tháng 2.
+Hạt có vỏ lụa màu bạc, ít bám vào nhân, kích thước: dài 5 ÷ 10 mm, rộng 4 ÷ 7 mm, dày 2 ÷ 4 mm, kích thước này thay đổi theo từng loại và theo điều kiện môi trường. Khối lượng 500 ÷ 700 hạt/100g, hàm lượng cafein 1,3 %, hạt có màu xám xanh, xanh lục tùy theo chủng và cách chế biến, năng suất 400 ÷ 500kg cà phê nhân/ha. Tỉ lệ thành phẩm (cà phê nhân) so với nguyên liệu (cà phê quả tươi) là 14 ÷ 20 %.
+Cà phê chè là loại cà phê được ưa chuộng nhất do hương thơm và mùi vị tốt.
+1.1.2 Cà phê vối (canephora)
+Cây cao từ 3 ÷ 8 m, mùa hoa từ tháng 4 đến tháng 6. Quả hình tròn hoặc hình trứng, khi chín có màu đỏ hoặc hồng, trên quả thường có đường gân dọc, vỏ quả mỏng so với cà phê chè, thời gian từ khi có quả đến lúc chín 10 ÷ 12 tháng, thời vụ thu hoạch từ tháng 1 đến tháng 4.
+Hạt hình bầu dục hay tròn, vỏ lụa trắng dễ bong, khoảng 600 ÷ 900 hạt/100g, hạt dài 5 ÷ 8 mm, hạt có màu xanh bạc, xanh lục hoặc xanh nâu tùy theo chủng và cách chế biến, hàm lượng cafein 2 ÷ 3 %, đây là loại cà phê có nhiều cafein nhất.
+Năng suất trồng trọt 500 ÷ 600 kg cà phê nhân/ha, ít hương thơm, thường dùng để pha trộn với cà phê chè hay để chế biến cà phê hòa tan và bánh kẹo cà phê.
+Loại cà phê này giá trị thương phẩm kém nhưng lại chịu được hạn, ít kén đất và ít bị sâu bệnh.
+1.1.3 Cà phê mít (excelsa)
+Cây cao từ 6 ÷ 15 m, quả chín có màu đỏ, to và dày. Khối lượng 500 ÷ 700 quả/kg. Hình dạng hạt cà phê mít giống như hạt cà phê chè, màu vàng xanh hay màu vàng rạ, vỏ lụa dính sát vào nhân, khó bong, khoảng 700 ÷ 1000 hạt/100g, hàm lượng cafein 1 ÷ 1,2 %.
+Năng suất 500 ÷ 600 kg cà phê nhân/ha, tỉ lệ thành phẩm (cà phê nhân) so với cà phê quả tươi khoảng 10 ÷ 15 %.
+Giá trị thương phẩm không cao do hạt không đều, khó chế biến, hương vị thất thường, tuy nhiên đây là loại cà phê chịu được hạn, ít kén đất và ít bị sâu bệnh.
+1.2 Phân loại theo dạng hạt
+Gồm các loại hạt: hạt >6,3 mm(70%); hạt >5,6 mm(20%); hạt >5,0 mm(10%).
+CHƯƠNG 2: PHÂN TÍCH THÀNH PHẦN HẠT CÀ PHÊ
+2.1 Phân tích hạt cà phê
+2.1.1 Cấu tạo hạt cà phê tươi
+
+Hình 2.1: Cấu tạo hạt cà phê tươi
+Quả cà phê đưa vào chế biến gồm có các phần sau: lớp vỏ quả, lớp nhớt (vỏ nhớt), lớp vỏ trấu (lớp vỏ thóc), lớp vỏ lụa và nhân.
+Lớp vỏ quả: là lớp vỏ ngoài mềm, ngoài bì có màu đỏ vỏ quả cà phê chè mềm hơn cà phê vối và cà phê mít.
+Dưới lớp vỏ mỏng là lớp vỏ thịt, gọi là trung bì, vỏ thịt cà phê chè mềm, chứa nhiều chất ngọt, dễ xay sát hơn, vỏ cà phê mít cứng và dày hơn.
+Hạt cà phê sau khi loại từ các chất nhờn và phơi khô gọi là cà phê thóc. Bao bọc nhân là một lớp vỏ cứng, nhiều chất xơ gọi là "vỏ trấu" tức là nội bì vỏ trấu của cà phê chè mỏng hơn và dễ đập vỡ hơn cà phê vối và cà phê mít.
+Xát cà phê thóc còn một lớp mỏng, mềm gọi là vỏ lụa, chúng có màu sắc và đặc tính khác nhau tuỳ theo loại cà phê vỏ lụa cà phê chè có màu sắc và đặc tính khác nhau tùy theo loại cà phê vỏ lụa cà phê chè có màu trắng bạc rất mỏng và dễ long ra khỏi hạt trong quá trình chế biến vỏ cà phê vối có màu nâu nhạt, vỏ lụa cà phê mít có màu vàng nhạt bám sát vào nhân của cà phê.
+Trong cùng là nhân cà phê, lớp tế bào phần ngoài của nhân cứng có những tế bào nhỏ, trong có chứa những chất dầu, phía trong có những tế bào lớn và mềm hơn một quả cà phên thường có 1, 2 hoặc 3 nhân, thông thường có 2 nhân.
+2.1.2 Tỉ lệ giữa các thành phần cấu tạo của quả cà phê
+Bảng 2.1: Tỉ lệ giữa các thành phần cấu tạo của quả cà phê (tính theo % quả tươi)
+Thành phần Cà phê chè (arabica) % Cà phê vối (canephora) % Vỏ quả 43 ÷ 45 42 Lớp nhớt 20 ÷ 23 23 Vỏ trấu 6 ÷ 8 6 ÷ 8 Nhân và vỏ lụa 26 ÷ 30 29
+
+Độ pH của lớp nhớt tùy theo độ chín của quả, thường từ 5,6 ÷ 5,7, có khi lên đến 6,4. Trong lớp nhớt còn có men pectinaza phân giải pectin.
+Thành phần chủ yếu của lớp vỏ trấu là xenlulo và tro, trong thành phần của tro chủ yếu là silic, canxi, kali, magiê...
+Thành phần của nhân cà phê
+Trong nhân cà phê còn có một ít vitamin, thành phần hóa học của nhân cà phê chịu ảnh hưởng nhiều của chủng cà phê, độ chín của quả, điều kiện canh tác.
+Để đánh giá tác dụng của thành phần hóa học nhân cà phê đến phẩm chất của nước pha cà phê thì cần phải biết những biến đổi của chúng trong quá trình chế biến, đặc biệt là quá trình rang cà phê.
+Bảng 2.2: Thành phần của nhân cà phê
+Thành phần g/100g mẫu Nước 8 12 Chất béo 4 18 Đạm 11 19 Cafein 0 2 Axitcafetanic 8 9 Tanin 2 Tinh bột 5 23 Dextrin 1 Đường 5 10 Xenlulo 10 20 Hemixenlulo 20 Tro 2,5 4,5
+2.2 Thành phần hạt cà phê sau rang
+Hydratcarbon: Hàm lượng hydratcarbon trong cà phê khô khoảng 60%. Phần lớn là các polysaccharide hòa tan hoặc không hòa tan trong nước và một phần nhỏ là các đường saccharose, glucose...
+Trong quá trình rang các hydratcarbon biến đổi nhiều, chúng có thể phân hủy thành các hợp chất khác nhau hoặc biến mất hầu như hoàn toàn như các chất đường đã nói trên. Các đường khử tham gia một số phản ứng tạo màu và mùi cho cà phê rang. Các polysaccharide không hòa tan trong nước, chúng tạo nên những thành tế bào của hạt cà phê và sau khi pha trở thành bã cà phê.
+Các chất béo: Trong cà phê nhân tổng hàm lượng chất béo chiếm khoảng 13%. Trong quá trình rang các hợp chất béo mất đi 1 – 2%. Các chất béo chủ yếu tạo thành dầu cà phê là trigliceride và diterpene.
+Các acid: Đại diện quan trọng nhất của nhóm acid là các loại acid chlorogenic. Đây là những loại acid đặc trưng đối với cà phê. Trong quá trình rang chúng bị phân hủy 30 – 70%, sau khi rang có sự hình thành một số acid dễ bay hơi. Tất cả các acid này đều góp phần tạo vị chua của cà phê.
+Các loại protein: Hầu như không có mặt trong cà phê rang, do rang ở nhệt độ cao nên một phần bị phân hủy, phần còn lại kết hợp với hydratcarbon và các acid chlorogenic tạo thành những chất màu nâu. Bằng phương pháp thủy phân, người ta thấy trong thành phần protein của cà phê có những acid amin sau: cysteine, alanine, phenylalanine, histidine, leucine, lysine.
+Khi gia nhiệt, các mạch polypeptide bị phân cắt, các acid amin được giải phóng ra tác dụng với nhau hoặc tác dụng với những chất tạo mùi và vị cho cà phê rang. Trong số các acid amin kể trên đáng chú ý nhất là những acid amin có chứa lưu huỳnh như cystein, methionine và proline, chúng góp phần tạo nên hương vị đặc trưng của cà phê sau khi rang.
+Đặc biệt, methionine và proline có tác dụng làm giảm tốc độ oxi hóa các chất thơm, làm cho cà phê rang giữ được mùi vị khi bảo quản.
+Các loại alkaloid: Trong quá trình rang, hàm lượng caffein hầu như không thay đổi. Trigoneline giảm khoảng 75%, tạo thành các sản phẩm gồm acid nicotinic (niacin), nicitinamide và các chất thơm bay hơi như pyrine và pyrol. Trong đó đáng chú ý nhất là niacin, trong cơ thể con người có tác dụng như một loại vitamine.
+Các chất thơm: Trong thành phần của các hợp chất thơm có khoảng 50% aldehyde, 20% ketone, 8% ester, 7% heterocylic, 2% dimethylsulfide, một lượng ít hơn là các sulfide hữu cơ khác, còn có một lượng nhỏ nitrile, alcohol hoặc các hydrocarbon đã bão hòa và chưa bão hòa có trọng lượng phân tử thấp như isoprene.
+Các chất khoáng: Hàm lượng chất khoáng trong cà phê khoảng 3 – 5%, chủ yếu là kali, nitơ magie, photpho, clo.
+2.3 Tính chất vật lý của cà phê nhân
+Hình 2.2: Tính chất vật lý của hạt cà phê nhân
+Cà phê nhân được bóc ra từ cà phê thóc. Càphê nhân có hình dáng bầu dục, có chiều dài khoảng 11,05 mm,chiều rộng khoảng 7,4 mm.
+Khối lượng riêng: ρ= 650 kg/ .
+Nhiệt dung riêng: c= 0,37 (kcal/kg ).
+Độ ẩm cà phê sau khi sấy 12 %
+Độ ẩm căn bản của vật liệu trước và sau khi rang: ω1 = 12 % ; ω2 = 0,5-1 %.
+CHƯƠNG 3: CÔNG NGHỆ RANG CÀ PHÊ
+Phân tích công nghệ rang cà phê
+Giai đoạn rang cà phê từ nhiệt độ 150 0C - 2200C. Trong khoảng thời gian 35 đến 40 phút. Sau khi rang hạt cà phê nở ra khoảng 40 đến 60% . Nhưng bù lại hạt cà phê mất 14 đến 23% trọng lượng. Khi rang độ ẩm chỉ còn 0,5 % vừa tạo ra phản ứng ester hóa có mùi thơm.
+Quá trình rang cà phê nguyên chất được chia làm các giai đoạn sau:
+Giai đoạn 1: Rang ở nhiệt độ 100 độ C
+Trong giai đoạn đầu này, chúng ta làm nóng dần hạt cà phê lên, nhằm làm bay hơi nước trong hạt cà phê, và hạt cà phê sẽ teo nhỏ lại (tuy có ít thay đổi về hình dáng, vì hạt cà phê được phơi khô). Giai đoạn này rất quan trọng, phải biết cách rang sao cho dòng khí nóng đối lưu nhiệt được tối đa, có nghĩa là các hạt cà phê phải đầy đủ nhiệt, không được hạt ít hạt nhiều sẽ ảnh hưởng đến quá trình rang và chất lượng hương vị của cà phê sau này.
+
+Hình 2.3: Cà phê xanh chưa rang
+Giai đoạn 2: Tăng nhiệt độ 150 độ C – hạt cà phê chuyển sang màu vàng nhạt
+Trong giai đoạn này, quá trình hấp thu nhiệt và bốc hơi nước trong hạt cà phê vẫn diễn ra, và có sự thay đổi về thể tích hạt. Và giai đoạn này, mùi thơm đặc trưng của hạt cà phê bắt đầu với mùi thơm nồng của rơm khô và cỏ tươi hòa quyện vào nhau, rất là đặc trưng và kích thích khướu giác người dung. Và đây là giai đoạn chuẩn bị cho hạt cà phê nổ lần đầu tiên.
+
+Hình 2.4: Hạt cà phê chuyển sang màu vàng nhạt
+Giai đoạn 3: Nhiệt độ 170 độ C – hạt cà phê chuyển qua màu vàng đậm
+Giai đoạn này hình dáng của hạt cà phê bắt đầu thay đổi, hạt chuyển sang màu vàng đậm và thể tích tăng lên 20 đến 30%. Bề mặt của hạt cà phê bắt đầu hiện lên những đường gân và có mùi hương như mùi của gỗ cháy, mùi hôi đất như lần đầu tiên mưa xuống sau những ngày nắng nóng ( cơn mưa đầu mùa ) và một chút hương vị của mùi khoai lang nướng, rất là quyến rủ, say mê lòng người.
+
+Hình 2.5: Hạt cà phê chuyển qua màu vàng đậm
+Giai đoạn 4: Nhiệt độ 180 độ C – hạt cà phê chuyển sang màu nâu nhạt
+Giai đoạn này, thể tích của hạt cà phê tăng lên đáng kể, và gần như muốn nổ tung ra. Mùi thơm chuyển qua mùi ngọt ngào như mùi mật ong, quyến rủ như dòng sữa và chocolate, pha chút hương vị của lúa chin ( mạch nha ). Tuy nhiên, giai đoạn này quá trình hóa học vẫn chưa hoàn tất, các phân tử và cấu trúc sợi của hạt cà phê vẫn chưa thể tách rời. Hạt cà phê trong giai đoạn này, đem xay thành bột để uống thì hương vị vẫn chưa tinh tế, có mùi nồng nồng hạt trái cây chưa chin hẳn.
+
+Hình 2.6: Hạt cà phê chuyển qua màu vàng đậm
+Giai đoạn 5: Trên 190 độ C – hạt cà phê chuyển sang màu nâu
+Giai đoạn này đúng là sự thăng hoa của hạt cà phê, những tiếng nổ được phát ra như những bản giao hưởng vĩ đại, như tiếng pháo hoa của đêm giao thừa, làm sao xuyến lòng người. Đây cũng là giai đoạn mà các phản ứng hóa học đạt đến sự tinh luyện, qua nhiệt độ cao, bắt đầu đốt cháy các tinh thể đường trong hạt cà phê tạo ra màu nâu Caramen, mùi của mạch nha ngày càng quyến rủ. Quá trình tạo nên mùi thơm hơn và màu sắc đậm hơn được gọi là phản ứng Maillard.
+
+Hình 2.7: Hạt cà phê chuyển qua màu nâu, xuất hiện tiếng nổ lần một
+Giai đoạn 6: Nhiệt độ 195 độ C – hạt cà phê ngưng nổ
+Giai đoạn nổ đầu tiên là một phản ứng tỏa nhiệt. Sau 1 thời gian hấp thu nhiệt thì qua việc nở lớn đột ngột về thể tích, tăng lên đến khoảng 150%, trọng lượng giảm từ 10 - 17% và tạo ra hàng loạt tiếng nổ giòn tan rộn rã, nhiệt lượng bên trong hạt thoát ra nhanh chóng.
+Tiếp đó, ngay lập tức hạt cà phê lại bắt đầu giai đoạn thu nhiệt. Do đó trong quá trình rang, sau lần nổ thứ nhất, sẽ cần có thêm 1 giai đoạn ngắn để hạt cà phê thu thêm nhiệt lượng nhằm tiếp tục được nung nóng và được biến đổi.
+Vì thế, trong quá trình rang, tiếng nổ reo vui lần thứ nhất bỗng nhiên giảm xuống rồi ngưng lại. Lúc nầy phản ứng caramen xảy ra nhanh chóng.các phản ứng hóa học làm phát sinh mùi vị thơm ngon của cà phê cũng xảy ra, khói bốc lên khá nhiều. Về hình thức hạt cà phê sau khi nở rộng kích thước thì hơi thu lại và xuất hiện các vết nhăn, nứt phía bên mặt dưới của hạt.
+
+Hình 2.8: Hạt cà phê chuyển qua màu nâu, ngưng tiếng nổ lần một
+Giai đoạn 7: Nhiệt độ 200 độ C – hạt cà phê ngưng tiếng nổ lần một
+Ở giai đoạn này, khói của hạt cà phê bắt đầu bốc nhiều hơn vì để thoát lượng khí Carbon Dioxide. Trọng lượng hạt càng ngày càng giảm xuống và bốc ra mùi hương của bánh nướng, mùi các loại hạt rang đặc trăng.
+
+Hình 2.9: Hạt cà phê chuyển qua màu nâu, sau khi ngưng tiếng nổ lần một
+
+
+
+Giai đoạn 8: Nhiệt độ từ 200 đến 220 độ C – Giai đoạn nổ lần hai
+Giai đoạn này, hạt cà phê bắt đầu tiết ra nhiều chất dầu, bao quanh hạt cà phê, làm cho hạt cà phê sáng bóng hơn và như đang tẩm ướt gia vị cho một món ăn ngon nào đó. Mùi thơm càng ngày càng tinh tế và đậm chất hơn.
+Và tiếng nổ lần hai bắt đầu như bản giao hưởng 02, đó là quá trình cấu trúc Cellose bị bẻ gảy trong hạt cà phê. Do tính chất cầu trúc của từng loại cà phê khác nhau cho nên tiếng nổ với âm thanh, tần suất, cường độ và âm vực khác nhau. Ví như những âm hưởng của chiếc đàn guitar với nhưng gam màu khác nhau, tạo nên một bản tình ca làm say đắm lòng người.
+
+Hình 2.9: Hạt cà phê chuyển qua màu nâu, tiếng nổ lần hai
+Giai đoạn 9: Nhiệt độ ở 220 độ C – hạt cà phê ngưng nổ lần hai
+Lúc này hạt cà phê đã chuyển sang màu nâu đậm, thể tích đạt đến tối đa, tùy vào mỗi loại mà hạt cà phê có thể tích khác nhau. Đối với cà phê Moka thì thể tích chiếm ưu thế hơn các loại cà phê khác, nó có thể đạt đến kích thước gấp đôi so với bình thường, nhưng đổi lại trọng lượng giảm đến 20 – 30 % và mùi thơm đạt đến sự tinh tế nhất của hạt cà phê.
+
+Hình 2.10: Hạt cà phê chuyển qua màu nâu, ngưng tiếng nổ lần hai
+Theo như kinh nghiệm của những người rang, thì giai đoạn này hạt cà phê đã kết thúc các phản ứng hóa học, quá trình trao đổi chất đã hoàn thành, tạo nên một sản phẩm tuyệt vời với hương vị đậm đà bản sắc, có thể chiếm được trái tim của người sử dụng. Thật là tuyệt vời.
+Kết thúc cho giai đoạn thăng hoa này, hạt cà phê nhanh chống được làm nguội, tránh cho việc bay mất hương thơm quyến rủ và đậm đà vốn có của cà phê. Ngoài ra còn phối trộn các loại rượu thơm ngon khác nhau để tẩm vào hạt cà phê còn nóng.
+
+Hình 2.11: Cà phê trên bàn làm nguội
+3.2 Biểu đồ phân loại cà phê khi rang
+Bảng 2.3: Biểu đồ phân loại cà phê rang
+Màu sắc rang Tên rang Bề mặt hạt Nhiệt độ hạt Mật độ axit Vật thể Độ thơm Độ ngọt Nâu sáng/ Cinnamon Khô 380 – 400 0F Vết nứt lần 1 Cao Yếu Trunh bình Thấp Nâu sáng trung bình/ American Khô 400 – 415 0F Cao Đầy đủ Đầy Ôn hòa Nâu trung bình/City Khô 415 – 435 0F Vết nứt lần 2 Cao Đầy đủ Mạnh Ôn hòa Nâu đen trung bình/ full city, Áo, Pháp Bề mặt dầu nhẹ 435 – 445 0F Trung bình Rất đầy đủ Rất mạnh Mạnh Nâu đen/Pháp/espresso Bề mặt sáng bóng 445 – 460 0F Thấp Đầy đủ Trung bình Đầy Rất đen/ Pháp, Tây Ban Nha Bề mặt rất sáng bóng 460 – 480 0F Rất thấp Yếu Nhẹ Thấp
+
+3.3 Nhiệt độ rang và đặc điểm các loại cà phê trên thế giới
+Theo khảo sát thực tế của Neuhaus neotec roaster
+(http://www.neuhaus-neotec.de/kaffee/en/home/)
+
+Biểu đồ 2.1: Nhiệt độ và thời gian rang các loại cà phê trên thế giới
+Rang theo kiểu Bắc Âu,nâu sáng, axit cao, thời gian t = (5 – 10) phút, nhiệt độ
+T = (200 – 230) 0C.
+Rang theo kiểu Espress, bề mặt sáng bóng, ít axit, thời gian t = (6,3 – 13,3) phút, nhiệt độ T = (120 – 155) 0C.
+Rang theo Đức, bề mặt dầu nhẹ, axit trung bình, thời gian t = (1,5 – 6) phút, nhiệt độ
+T = (160 –195) 0C.
+Rang theo nhiều thành phố, bề mặt dầu nhẹ, năng suất cao, thời gian t = (1 – 2,8) phút, nhiệt độ T = (125 –170) 0C.
+Rang thời gian ngắn, bề mặt khô, axit cao, thời gian t = (2 – 4) phút, nhiệt độ
+T = (115 –175) 0C.
+Rang theo kiểu Pháp, bề mặt rất sáng bóng, thời gian t = (5 – 10) phút, nhiệt độ
+T = (80 –115) 0C.
+Rang theo nhiều thành phố, Bề mặt dầu nhẹ, chất lượng tốt, thời gian t = (3,3 – 10,3) phút, nhiệt độ T = (135 –195) 0C.
+Rang theo Thỗ Nhị Kỳ,bề mặt khô, sáng, thời gian t = (5,5 – 9,5) phút, nhiệt độ
+T = (175 –200) 0C.
+Rang theo nhiều thành phố, bề mặt dầu nhẹ, năng suất cao, thời gian t = (6 – 14) phút, nhiệt độ T = (120 –145) 0C.
+
+
+3.4 Biểu đồ quá trình rang các loại cà phê ttham khảo thực tế
+(http://dennisrsimpson.blogspot.com/2011/09/bottom-vent-popcorn-popper-roasting.html)
+Biểu đồ 2.2: Quá trình rang các loại cà phê
+Thấp: Nâu nhạt tới nâu vàng. Độ chua thấp, độ đậm đặc thấp. Hạt khô. Kiểu rang này quá nhẹ khiến hợp chất hương vị có trong hạt không được giải phóng hết.
+Thấp - Vừa: Nâu nhạt vừa. Độ chua tăng và kích cỡ tăng. Hạt vẫn khô.
+Vừa: Nâu vừa. Độ chua tiếp tục tăng. Hạt hầu như vẫn còn khô.
+Vừa Cao: Nâu đậm. Một số giọt dầu xuất hiện trên bề mặt hạt. Độ chua giảm dần. Đây là nhiệt độ lí tưởng để trộn với cà phê Espresso.
+Cao: Nâu rất đậm – đen. Dầu phủ đầy bề mặt hạt. Những vị nhạt trong hạt biến mất. Vị giảm, trong khi độ đậm đặc tăng.
+Rất cao: Hạt có màu đen và được phủ đầy dầu. Mọi vị nhạt đã mất hết. Hương cà phê giảm. Độ đậm đặc rất ít. Đây là đặc trưng của Espresso châu Mỹ.
+3.5 Thông số kích thước hạt, trọng lượng khảo sát thực tế
+Bảng 2.3: Khảo sát hạt cà phê trước khi rang
+STT Loại Khối lượng (g) Chiều dài Chiều rộng Chiều dày 1 Loại 1 2,3 14,6 8,7 5,0 2 12,0 9,0 5,5 3 11,5 8,0 5,4 4 11,9 7,9 5,4 5 12,4 8,2 5,5 6 10,6 7,9 5,0 7 10,5 8,0 4,9 8 11,9 7,8 5,0 9 10,0 8,0 5,0 10 10,5 8,0 4,7 TỔNG 11,59 7,259 5,14 1 Loại 2 1,6 11,3 8,0 4,9 2 10,5 7,5 3,9 3 10,0 8,4 4,2 4 10,4 7,6 4,6 5 11,0 7,7 5,0 6 9,8 7,3 4,0 7 11,4 7,3 4,3 8 9,3 7,2 4,3 9 11,0 7,5 4,3 10 10,5 7,4 4,0 TỔNG 10,52 7,59 4,35
+
+
+
+Bảng 2.4: Khảo sát hạt cà phê sau khi rang
+STT Loại Khối lượng (g) Chiều dài Chiều rộng Chiều dày 1 Loại 1 1,5 13,8 8,4 5,0 2 12,5 8,9 5,4 3 12,4 8,6 4,8 4 12,7 8,8 5,0 5 12,4 8,9 5,4 6 13,0 9,0 4,8 7 11,5 8,8 4,9 8 13,0 8,0 5,0 9 12,4 8,0 5,0 10 12,0 7,9 5,0 TỔNG 12,57 8,53 5,03 1 Loại 2 1,3 10,9 8,0 4,7 2 10,5 8,2 5,2 3 12,0 8,2 5,0 4 10,9 8,0 4,9 5 11,0 7,7 5,0 6 11,2 7,9 4,4 7 10,6 8,0 4,9 8 11,7 8,5 4,9 9 11,2 7,8 4,0 10 9,8 7,4 4,0 TỔNG 10,98 7,97 4,7
+
+Vì vậy, theo khảo sát thực tế nên chọn đường kính của vỉ lưới là 7,5m.
+
+
+
+
+CHƯƠNG 4: GIỚI THIỆU CHUNG VỀ CÁC PHƯƠNG PHÁP RANG CÀ PHÊ HIỆN NAY
+4.1 Giới thiệu các phương pháp rang cà phê
+4.1.1. Phương pháp rang thủ công
+
+Hình 2.4: Rang cà phê thủ công bằng chảo
+Nguyên liệu gồm:
+Một cái chảo. Một ít nước mắm. Một ít bơ (nhằm mục đích tạo sự thẩm thấu cho cà phê, chống “ngẹt phin”, giữ mùi và không bị “lên dầu”-oxy hóa…). Một ít rượu. Đường. Cà phê nhân.
+Rang cà phê ở nhiệt độ từ 190-230 và thời gian là khoảng 30-35 phút.
+Sau khi rang hạt cà phê mất từ 14-23% trọng lượng (lượng hơi nước bị bốc hơi) nhưng lại có thể tích hạt nở ra khoảng 40-60% so với hạt còn xanh.
+Kết quả là một loạt các chất được hình thành như dầu cà phê, mạch olysaccharides phức hợp đường, chất béo không no, hương cà phê….
+Khi quá trình rang kết thúc thì cà phê phải được làm nguội thật nhanh để không làm mất mùi hương.
+Cà phê sau khi rang ra một cái máng lớn bằng nhôm và bật quạt máy công xuất cà phê sẽ nguội nhanh hơn.
+
+
+4.1.2 Phương pháp rang thùng quay
+Rang cà phê bằng thùng quay sử dụng nhiệt bằng thanHình 2.5: Rang cà phê bằng thùng quay sử dụng nhiệt bằng than
+Lò than đá thường ở mức 500-600 . Thân lò có bể thổi lửa, đưa máy rang qua nằm trọng tâm với lò, cho cà phê vào buồng rang rồi khởi động.
+Motor kéo đầu giảm tốc qua đến nhông truyền kéo thùng rang và có cần gạt để giữ thùng quay đứng lại khi rang xong, nòng trộn quay 30 tua/phút.
+Khoảng 40-45 phút, hạt cà phê chín, giảm lửa, đưa nòng rang qua máy trộn, cho hạt cà phê xuống để vừa trộn đều vừa giải nhiệt.
+Khi hạt cà phê giảm còn 20-25 ., cho gia vị vào tẩm rồi đưa vào ủ 12-24 giờ.
+Ngoài ra, máy này còn có thể rang đậu nành, đậu đỏ, đậu xanh, hạt dưa… Máy cao 4m, ngang 1,6m, dài 4m.
+Rang cà phê bằng thùng quay sử dụng nhiệt bằng gas................ ........................ Rang tầng sôi là một trong các phương thức sấy thuộc nhóm sấy đối lưu, thích hợp cho việc rang các hạt nông sản.
+Bộ phận chính của thiết bị rang tầng sôi là một buồng rang, phía dưới buồng rang đặt ghi lò. Ghi buồng rang là một tấm thép có đục nhiều lỗ thích hợp hoặc lưới thép để tác nhân rang đi qua nhưng hạt không lọt xuống được. Tác nhân rang có nhiệt độ cao, độ ẩm thấp được thổi từ dưới lên để đi qua lớp vật liệu. Với tốc độ đủ lớn, tác nhân rang nâng các hạt vật liệu lên và làm cho lớp hạt xáo trộn. Quá trình sôi này là quá trình trao đổi nhiệt ẩm mãnh liệt nhất giữa tác nhân rang và vật liệu rang. Các hạt vật lịêu khô hơn nên nhẹ hơn sẽ nằm ở lớp trên của tầng hạt đang sôi; và ở một độ cao nào đó hạt khô sẽ được đưa ra ngoài qua đường tháo liệu.
+4.2 Ưu nhược điểm của các phương pháp rang dòng khí nóng
+*TÀI LIỆU THAM KHẢO
+1. Nguyễn Hữu Lộc, Cơ sở thiết kế máy, NXB ĐHQGTP Hồ Chí Minh, 2004.
+2. Nguyễn Trọng Hiệp, Chi tiết máy tập 1, 2 NXB Giáo dục, 1998.
+3. Nguyễn Hữu Lộc, Bài tập chi tiết máy, NXB ĐHQGTP Hồ Chí Minh, 2003.
+4. Nguyễn Hữu Lộc, Độ tin cậy trong thiết kế kỹ thuật , NXB ĐHQGTP Hồ Chí Minh, 2002.
+

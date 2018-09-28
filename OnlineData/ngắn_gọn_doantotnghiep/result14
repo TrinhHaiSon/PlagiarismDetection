@@ -1,0 +1,294 @@
+100 MB Bao gồm tất cả file,.lưu đồ giải thuật... thuyết minh, bản vẽ nguyên lý, bản vẽ thiết kế, FILE lập trình, ĐỒ ÁN TỐT NGHIỆP ĐIỆN tử Thiết kế và thi công hệ thống thuyết minh tự động hướng dẫn khách tham quan, du lịch sử dụng GPS và RF
+MỤC LỤC
+LỜI CAM ĐOAN........................................................................................
+MỤC LỤC.. 2
+THUẬT NGỮ VIẾT TẮT. 4
+LỜI NÓI ĐẦU.. 5
+CHƯƠNG 1: KHÁI NIỆM CHUNG VỀ QUÁ TRÌNH TRUYỀN TIN.. 7
+1.1 Giới thiệu chương. 7
+1.2 Truyền tin số. 7
+1.3 Kênh truyền tin. 9
+1.4 Tín hiệu băng cơ sở. 11
+1.5 Kết luận chương. 11
+CHƯƠNG 2: TRUYỀN DẪN SỐ QUA KÊNH CÓ BĂNG THÔNG HỮU HẠN.13
+2.1. Giới thiệu chương. 13
+2.2. Phổ công suất của tín hiệu số trên kênh truyền dẫn. 13
+2.3. Đặc trưng của kênh có độ rộng băng thông hữu hạn và méo kênh. 15
+2.4. Ảnh hưởng của ISI.20
+2.4.1. Xuyên nhiễu giữa các dấu (ISI).20
+2.4.2. Đặc trưng của xuyên nhiễu giữa các dấu.21
+2.5. Các giải pháp hạn chế nhiễu ISI.24
+2.5.1. Cưỡng bức ISI bằng không.24
+2.5.2. Kiểm soát lượng ISI.29
+2.5.3. Sử dụng bộ san bằng.30
+2.6 Kết luận chương. 34
+CHƯƠNG 3: NHIỄU ISI VÀ GIẢI PHÁP TRIỆT NHIỄU HOẶC KIỂM SOÁT LƯỢNG ISI35
+3.1. Giới thiệu chương. 35
+3.2. Nguyên tắc chung thiết kế hệ thống băng thông hữu hạn. 35
+3.3. Thiết bộ lọc để ISI bằng không.37
+3.4. Các giải pháp xử lý tín hiệu để có ISI kiểm soát được.39
+3.4.1. Thiết kế bộ lọc để có ISI kiểm soát được.39
+3.4.2. Giải pháp tiền mã hóa.43
+3.5 Kết luận chương. 45
+CHƯƠNG 4: PHÂN TÍCH ISI VÀ MÔ PHỎNG BER CỦA HỆ THỐNG.. 46
+4.1. Giới thiệu chương. 46
+4.2. Mô phỏng về tín hiệu truyền dẫn trên kênh có băng thông hữu hạn. 46
+4.2.1. Tín hiệu PAM với độ tương quan bằng không. 46
+4.2.2. Tín hiệu PAM với độ tương quan khác không.47
+4.3. Mô phỏng kênh truyền dẫn có băng thông hữu hạn. 48
+4.4. Mô phỏng xuyên nhiễu giữa các ký hiệu(ISI)50
+4.5. Mô phỏng thiết kế bộ lọc để ISI bằng không.54
+4.6. Mô phỏng thiết kế bộ lọc để có ISI kiểm soát được.56
+4.7 Mô phỏng tín hiệu và BER của hệ thống. 59
+KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN ĐỀ TÀI65
+TÀI LIỆU THAM KHẢO.. 67
+PHỤ LỤC.. 68
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+THUẬT NGỮ VIẾT TẮT
+
+ISI intersymbol interfrence Nhiễu xuyên kí tự
+PAM pulse amplitude modulation Điều chế xung mã
+M-QAM Quadratureamplitudemodulation Điều chế cầu phương
+PSK phase shift keying Dịch khóa pha
+BPSK Bit phase shitf key Điều chế pha nhị phân
+MMSE Minimum Mean-Square Error Tối thiểu lỗi bình phương trung bình
+BER Bit error Rate Tỉ lệ lỗi bit
+QPSK Quadrature phase shift keying Khóa dịch pha 4 trạng thái
+AWGN Additive white Gaussian noise Nhiễu Gauss
+FIR Finite impulse response Đáp ứng xung hữu hạn
+HF high frequency Tần số cao
+RRC Root raise cosine filter Bộ lọc cosine nâng
+MC MONTE-CARLO Mô phỏng Monte-Carlo
+
+
+
+
+
+
+
+
+
+
+
+LỜI NÓI ĐẦU
+
+Trong truyền dẫn thông tin số việc chuyển thông tin qua phương tiện truyền dẫn số có tầm quan trọng rất đặc biệt do các thông số của kênh bị tác động bởi môi trường truyền rất lớn. Các tác động này ảnh hưởng rất lớn đến chất lượng truyền dẫn. Cùng với sự phát triển của công nghệ vật liệu và phát triển công nghệ thông tin số, dung lượng thông tin tăng lên, môi trường truyền dẫn sẽ bị bó hẹp do có nhiều thông tin hơn và do đó ảnh hưởng của các thông tin trên cùng một kênh truyền dẫn cũng tăng cao.
+Trong khi đó việc phát triển cơ sở hạ tầng cũng có giới hạn và nhiều nơi phát triển trên cơ sở các đường truyền thông dụng đã có sẵn (đường điện thoại, thông tin di động) việc truyền thông các thông tin số trên các đường truyền dẫn có độ rộng băng thông hữu hạn đòi hỏi phải nghiên cứu và đưa ra các giải pháp giảm ảnh hưởng của môi trường truyền dẫn.
+Vấn để đặc thù của truyền dẫn tín hiệu số trên các kênh có băng thông hữu hạn là xuyên nhiễu giữa các ký hiệu (ISI: InterSymbol Interference). Sự tồn tại của ISI có thể dẫn đến tín hiệu thu được bị méo rất lớn và tin tức có thể nhận sai. Vì vậy, việc tìm ra các giải pháp thiết kế tín hiệu để hạn chế các tác động của ISI là hết sức cần thiết.
+Đề tài: “Các giải pháp kiểm soát hoặc triệt nhiễu ISI trong truyền dẫn số qua kênh có băng tần hữu hạn”
+Đề tài của em gồm 4 chương:
+Chương 1: Khái niệm chung về quá trình truyền tin
+Chương 2: Truyền dẫn số qua kênh có băng thông hữu hạn
+Chương 3: Nhiễu ISI và giải pháp triệt nhiễu hoặc kiểm soát lượng ISI
+Chương 4: Phân tích ISI và mô phỏng BER của hệ thống
+Trong quá trình làm đồ án tôt nghiệp, mặc dù em đã cố gắng nhiều nhưng do trình độ có hạn nên không thể tránh khỏi những sai xót, em rất mong nhận được sự phê bình, hướng dẫn và sự giúp đỡ của thầy cô, bạn bè.
+Em xin chân thành cảm ơn sự giúp đỡ tận tình của cô giáo tiến sỹ Bùi Thị Minh Tú cùng các thầy cô trong bộ môn Điện tử viễn thông đã giúp em hoàn thành đồ án tốt nghiệp.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CHƯƠNG 1: KHÁI NIỆM CHUNG VỀ QUÁ TRÌNH TRUYỀN TIN
+1.1 Giới thiệu chương
+Quá trình truyền tin là quá trình truyền thông tin từ nơi này đến nơi khác theo yêu cầu xa, nhanh, đúng đủ (chính xác). Ba yêu cầu giản dị này không phải luôn được mọi người hiểu chính xác và lịch sử cũng đòi hỏi bao cuộc cách mạng kỹ thuật mới ngày càng thực hiện tốt hơn những điều này.
+Hạn chế và cản trở và 3 yêu cầu truyền tin nói trên chính là các yếu tố công suất, độ rộng băng tần kênh truyền và can nhiễu (ở đây mới đề cập đến can nhiễu do ồn chứ chưa nói đến các can nhiễu đặc thù khác ảnh hưởng đến truyền tin như can nhiễu do chuyển động, do hiệu ứng đa đường truyền…sẽ được nghiên cứu trong một chuyên đề khác). Công suất phát tin càng lớn, thì càng truyền tin đi xa. Băng tần truyền dẫn càng rộng thì tốc độ thông tin càng nhanh và cuối cùng càng ít can nhiễu càng ít lỗi truyền tin xảy ra. Vấn đề là những yếu tố trên đã hạn chế và cản trở 3 yêu cầu truyền tin thế nào, và bằng cách nào với kỹ thuật truyền tin số có thể khắc phục và vượt qua những cản trở này.
+Để bắt đầu ta nêu ra một hệ thống truyền tin tiêu biểu (hình 1.1). Hệ thống này luôn có 3 phần cơ bản đó là: bộ phát, kênh truyền và bộ thu. Bộ phát chuyển tín hiệu tin tạo ra từ một nguồn tin thành tín hiệu phát dạng thích hợp để truyền được trên kênh truyền. Tín hiệu thu được sau kênh truyền là một phiên bản của tín hiệu phát bị làm méo do kênh truyền. Nhiệm vụ của bộ thu là phải tạo lại tín hiệu gốc (tín hiệu tin) như bên phát từ phiên bản nhận được này, rồi từ đó tạo lại bản tin.
+1.2 Truyền tin số
+Truyền tin số có nhiều ưu điểm hơn kỹ thuật tương tự, trong đó chỉ sử dụng một số hữu hạn dạng sóng (ký hiệu truyền tách biệt nhau) để truyền tin. Mỗi dạng sóng truyền trong một khoảng thời gian xác định gọi là chu kỳ ký hiệu và là đại diện truyền của một dữ liệu tin (hay một tổ hợp bit) còn gọi là báo hiệu (Signalings). Kỹ thuật này có ưu điểm nổi bật là: chống nhiễu trên đường truyền tốt (vì nếu nhiễu không đủ mạnh sẽ không thể làm méo dạng sóng này thành dạng sóng kia, gây nên nhầm lẫn ở nơi thu), song đòi hỏi bản tin nguồn cũng phải được số hóa (biểu diễn chỉ bằng một số hữu hạn ký hiệu). Ví dụ: văn bản tiếng Việt dùng 24 chữ cái, bộ đếm dùng 10 số, bản nhạc dùng 7 nốt và vài ký hiệu bổ sung…Trong đồ án này ta coi rằng bản tin nguồn đã được số hóa và ta chỉ nghiên cứu kỹ thuật truyền số qua kênh.
+Việc số hóa một bản tin tương tự phải trả giá bằng một sai số nào đó ( Gọi là sai số lượng tử, tuy nhiên sai số này lại có thể điều khiển được). So sánh với kỹ thuật truyền tin tương tự, ở đó bản tin không mắc sai số khi số hóa, song do dùng vô số dạng sóng (tín hiệu liên tục) trên đường truyền nên can nhiễu sẽ làm thay đổi dạng sóng, gây nên sai số khi quyết định tại nơi thu mà ở góc độ nào đó khó điều khiển được. Ngoài ra việc số hóa kỹ thuật truyền tin còn tạo nên những tiêu chuẩn có thể thay đổi linh hoạt bằng chương trình phần mềm và tạo ra những dịch vụ chưa từng có trong truyền tin tương tự. Nói như vậy ta cũng không quên rằng, kỹ thuật truyền tin tương tự đã có những đỉnh cao vĩ đại như tạo ra truyền hình màu hay điều khiển đưa người lên mặt trăng và hiện nay trong một số kỹ thuật điều khiển tốc độ cực nhanh vẫn dùng đến kỹ thuật tương tự.
+Khi vận dụng lý thuyết thông tin vào kỹ thuật truyền tin số thường có những vấn đề sau đây đặt ra:
+- Bản tin phải được biểu diễn (mã nguồn) với một số it ký hiệu nhất, theo mã nhị phân thì tức là cần ít bit nhất. Lý thuyết thông tin cho một giới hạn dưới về số bít tối thiểu cần để biểu diễn. Tức là nếu ít hơn số bít tối thiểu không thể biểu diễn đầy đủ bản tin (làm méo bản tin)
+- Khi truyền tin mã nguồn cần được bổ sung thêm các bit (dư thừa), mà điều này làm tăng tốc độ bit, để có thể giảm được lỗi truyền bản tin (gọi là kỹ thuật mã kênh điều khiển lỗi), song có một giới hạn trên về tốc độ truyền mà vượt qua nó không thể điều khiển lỗi được, đó là dung năng kênh qui định bởi độ rộng băng tần kênh truyền và tỷ số tín hiệu /ồn.
+C=Blog2(1+SNR) b/s (1.1)
+Ở đó B là độ rông băng tần kênh truyền, SNR là tỷ số công suất tín hiệu trên công suất ồn và C chính là giới hạn trên đối với tốc độ truyền tin cậy tính bằng bit/ giây. Công thức này cho thấy có sự chuyển đổi giữa B và SNR. Đồng thời cả 3 yếu tố: công suất, độ rộng băng tần và ồn kênh cùng tham gia qui định mức độ “nhanh” của truyền tin như đã nói ở đầu. Đây là công thức rất điển hình (do Shannon tổng kết từ năm 1948) đặc trưng cho một hệ thống truyền tin số.
+Hình 1.1 Các bộ phận của một hệ truyền tin
+
+1.3 Kênh truyền tin
+Kênh truyền tin ta nói đến ở đây là môi trường vật lý để truyền sóng điện từ mang tin, là vấn đề trung tâm của một hệ truyền tin. Nó xác định dung lượng truyền thông tin của hệ cũng như chất lượng dịch vụ truyền tin.
+Có 6 loại kênh tiêu biểu trên thực tế: Đường điện thoại - Cáp đồng trục - Sợi quang Kênh viba - Kênh vô tuyến di động - Kênh vệ tinh
+Đường điện thoại: Là đường truyền tín hiệu điện, tuyến tính, băng giới hạn, thích hợp cho truyền tiếng nói băng cơ sở hoặc thông dải (độ rộng từ 300-3100Hz) có tỷ số tín hiệu/ồn cao ~30dB. Kênh truyền này có đáp ứng độ lớn theo tần số bằng phẳng, không chú ý đến đáp pha theo tần số (do tai người không nhạy với trễ pha), song khi truyền ảnh hay dữ liệu thì phải chú ý đến điều này và cần dùng bộ cân bằng thích nghi kết hợp phương pháp điều chế có hiệu suất phổ cao
+Cáp đồng trục: Có sợi dẫn ở trung tâm cách điện với vỏ xung quanh; vỏ cũng là vật liệu dẫn điện. Cáp đồng trục có 2 ưu điểm lớn là độ rộng băng tần lớn và chống được can nhiễu từ bên ngoài. Song cáp đồng trục cần những bộ phát lặp gần nhau vì suy giảm nhanh (Ở tốc độ khoảng 274Mbit/s thì khoảng cách phát lặp là 1km)
+Sợi quang: Gồm lõi là thủy tinh, lớp vỏ xung quanh cũng là thủy tinh đồng tâm có hệ số phản xạ nhỏ hơn 1 chút. Tính chất cơ bản của sợi quang là khi tia sáng đi từ môi trường có hệ số phản xạ cao sang môi trường có hệ số phản xạ thấp thì sẽ bị uốn về phía môi trường hệ số phản xạ cao, nên xung ánh sáng được “dẫn đi” trong sợi quang. Sợi quang là vật liệu cách điện, chỉ truyền dẫn ánh sáng. Dùng tần số mang ánh sáng cỡ 2x1014Hz sẽ cho độ rộng băng tần cỡ 10%=2x1013Hz. Mất mát trong sợi quang nhỏ: 0.2dB/km và không chịu ảnh hưởng của giao thoa sóng điện từ ( vì có bản chất ống dẫn tĩnh điện).
+Kênh vi ba: Hoạt động ở dải tần 1-30GHz cho 2 anten nhìn thấy nhau. Anten phải đặt trên tháp đủ cao, điều kiện kênh có thể coi là tĩnh, kênh truyền này tin cậy. Tuy nhiên khi điều kiện khí tượng thay đổi có thể làm giảm cấp chất lượng đường truyền
+Kênh di động : Đây là kênh kết nối với người dùng di động. Kênh có tính chất tuyến tính thay đổi theo thời gian cùng hiệu ứng đa đường gây nên sự đồng pha, hoặc ngược pha của các tín hiệu thành phần làm tín hiệu tổng cộng thăng giáng (fading). Đây là loại kênh phức tạp nhất trong truyền thông vô tuyến.
+Kênh vệ tinh: Đô cao vệ tinh địa tĩnh 22 300 dặm (30 nghìn Km). Tần số thường dùng cho phát lên là 6GHZ và cho phát xuống là 4 GHZ. Độ rộng băng tần của kênh truyền lớn cỡ 500MHz chia thành các dải do 12 bộ phát đáp trong vệ tinh đảm nhiệm, mỗi bộ phát đáp dùng 36MHz truyền được ít nhất một chương trình truyền hình màu, 1200 mạch thoại, tốc độ dữ liệu it nhất 50Mbit.
+Ngoài cách phân loại cụ thể trên có thể phân loại kênh truyền theo tính chất như sau:
+- Kênh tuyến tính hay phi tuyến : Kênh điện thoại là tuyến tính trong khi kênh vệ tinh thường là phi tuyến (nhưng không phải luôn luôn như vậy)
+- Kênh bất biến hay thay đổi theo thời gian : Sợi quang bất biến trong khi kênh di động là thay đổi theo thời gian
+- Kênh băng tần giới hạn hay công suất giới hạn: Đường điện thoại là kênh băng tần giới hạn trong khi cáp quang và vệ tinh là công suất giới hạn.
+1.4 Tín hiệu băng cơ sở
+Thuật ngữ băng cơ sở chỉ miền tần số của tín hiệu bản tin và thường đó là tin hiệu băng thông thấp. Tín hiệu băng cơ sở có thể ở dạng số hay tương tự.
+Đối với tín hiệu tương tự: cả thời gian và biên độ là liên tục
+Đối với tín hiệu số: Thời gian và biên độ (dạng sóng) đều rời rạc ( ví dụ lối ra của máy tính có thể coi là tín hiệu số băng cơ sở). Để truyền dẫn, tín hiệu bản tin phải được chuyển thành tín hiệu phát có tính chất phù hợp với kênh truyền,
+Trong truyền dẫn băng cơ sở: Băng tần kênh hỗ trợ phù hợp với băng tần tín hiệu bản tin, nên có thể truyền trực tiếp tín hiệu bản tin
+Liên hệ nghịch đảo giữa thời gian và tần số:
+Theo những tính chất của biến đổi Fourier trong lý thuyết xử lý tín hiệu có thể rút ra những tính chất căn bản sau:
+- Mô tả miền thời gian của một tín hiệu thay đổi có chiều ngược với mô tả miền tần số của tín hiệu: ví dụ chu kỳ của tín hiệu tăng thì tần số của nó giảm , xung càng hẹp thì phổ càng rộng.
+- Nếu tín hiệu là giới hạn trên miền tần số, thì mô tả trên miền thời gian sẽ là vô hạn dù biên độ của nó ngày càng nhỏ (xung sinc(t) là một ví dụ). Ngược lại nếu tín hiệu bị giới hạn trong miền thời gian thì phổ của nó rộng vô cùng. ( chú ý là không có tín hiệu đồng thời giới hạn cả về tần số lẫn thời gian song lại có thể có tín hiệu vô hạn cả về tần số lẫn thời gian).
+1.5 Kết luận chương
+Nội dung chương này trình bày tổng quan về khái niệm truyền tin.Đồng thời nội dung của chương cũng trình bày về những yêu cầu của hệ thống truyền tin và những
+yếu tố ảnh hưởng đến chất lượng truyền tin qua đó giúp ta có cái nhìn tổng quan về quá trình truyền tin.
+
+CHƯƠNG 2: TRUYỀN DẪN SỐ QUA KÊNH CÓ BĂNG THÔNG HỮU HẠN
+2.1. Giới thiệu chương
+Độ rộng băng tần của kênh truyền là hữu hạn, việc truyền một tín hiệu có băng thông lớn hơn băng thông của kênh truyền sẽ nảy sinh nhiều vấn đề về nhiễu dẫn đến tín hiệu thu quyết định sai mà cụ thể ở đây là nhiễu ISI.Trong chương này ta sẽ đi sâu phân tích các đặc trưng của nhiễu ISI và cho thấy được thành phần nhiễu ISI tồn tại ISI khi truyền qua kênh có băng thông hữu hạn để từ đó có biện pháp khắc phục nhiễu
+2.2. Phổ công suất của tín hiệu số trên kênh truyền dẫn
+Trong một hệ thống truyền tin nhị phân, tín hiệu nhị phân gồm 1 dãy các số 0 và 1 (mỗi con số được gọi là 1 bit) được truyền đi bằng 2 dạng sóng tín hiệu s0(t) và s1(t).
+Đối với hệ thống truyền tin số nói chung, tín hiệu truyền đi là dãy các symbol (mỗi symbol gồm bit) được mã hóa thành dạng sóng tín hiệu là .
+Như vậy đặc trưng chung của tín hiệu là dãy các xung vuông có dạng tổng quát là:
+(2.1)
+Với là chuỗi các biên độ tưong ứng với các symbol thông tin đến từ nguồn tin, g(t) là một dạng sóng còn T là ký hiệu chung chỉ thời gian kéo dài của một bit hay một symbol . Mỗi một phần tử của chuỗi {} được chọn từ một trong các giá trị biên độ có thể là:
+(2.2)
+trong đó d là tỷ số xác đình khoảng cách Euclide giữa một cặp bất kỳ nào đó của các biên độ tín hiệu. (2d là khoảng cách Euclide giữa hai mức biên độ tín hiệu cạnh nhau).
+Vì chuỗi thông tin là một chuỗi ngẫu nhiên nên chuỗi biên độ {} tương ứng với các symbol thông tin đến từ nguồn cũng ngẫu nhiên. Do đó, tín hiệu PAM v(t) la một hàm mẫu của một quá trình ngẫu nhiên V(t). Để xác định các đặc tính phổ của quá trình ngẫu nhiên V(t), chúng ta phải xác định phổ công suất.
+Trước hết, chúng ta hãy để ý rằng giá trị trung bình của V(t) là:
+(2.3)
+Bằng cách chọn các biên độ tín hiệu để chúng đối xứng quanh 0 như đã cho trong (1.2) và đồng khả năng, chúng ta có E()=0, và vì vậy E[V(t)] = 0.
+Hàm tự tương quan của V(t) là:
+(2.4)
+Ngoài ra chỉ ra trong nhiều tài liệu chuẩn mực về thông tin số rằng, hàm tự tương quan này là một hàm tuần hoàn theo biến t với chu kì T. Biến thời gian t có thể loại bỏ được bằng cách lấy trung bình trên một chu kì, nghĩa là:
+(2.5)
+Hàm tự tương quan trung bình đối với các tín hiệu PAM có thể biểu diễn theo:
+(2.6)
+trong đó = E() là hàm tự tương quan của dãy {} còn ) được xác định theo:
+(2.7)
+Phổ công suất của V(t) đơn giản là biến đổi Fourier của hàm tự tương quan trung bình , nghĩa là:
+(2.8)
+với là phổ công suất của dãy biên độ {}, còn là biến đổi Fourier của xung g(t), được xác định theo:
+(2.9)
+Từ (1.8) chúng ta thấy rằng phổ công suất của tín hiệu PAM là một hàm của phổ công suất của dãy symbol thông tin {} và phổ công suất của xung g(t). Trong trường hợp đặc biệt trong dãy đó dãy {} không tương quan, tức là:
+(2.10)
+trong đó , thì trên mọi tần số và
+(2.11)
+Trong trường hợp này, phổ công suất của V(t) phụ thuộc hoàn toàn vào các đặc tính của xung g(t).
+2.3. Đặc trưng của kênh có độ rộng băng thông hữu hạn và méo kênh
+Nhiều kênh thông tin, bao gồm các kênh điện thoại và một số kênh vô tuyến, có thể đặc trưng được một cách tổng quát như các bộ lọc tuyến tính có băng thông hữu hạn. Các kênh như thế mô tả được bằng đáp ứng tần số của chúng mà nó có thể biểu diễn được theo:
+(2.12)
+Trong đó được gọi là đáp ứng biên độ còn gọi là đáp ứng pha. Một đặc trưng khác đôi khi cũng được sử dụng thay thế cho đáp ứng pha là trễ đườngbao (envelope delay) hay trễ nhóm (group delay) được định nghĩa như sau:
+(2.13)
+Một kênh được gọi là không méo hoặc lý tưởng nếu bằng hằng số còn là một hàm tuyến tính của tần số (hoặc trễ đường bao không đổi) trong độ rộng băng chiếm bởi tín hiệu phát .Ngược lại nếu và không phải là hằng số trong độ rộng băng chiếm bởi tín hiệu phát, kênh sẽ gây ra méo tinh hiệu. Nếu không phải là hằng số, méo được gọi là méo biên độ còn nếu thay đổi, méo đối với tín hiệu đã truyền đi được gọi là méo trễ.
+Như một hệ quả của méo biên độ và méo trễ gây bởi đặc tính đáp ứng tần số của kênh không lý tưởng , một chuỗi các xung được truyền qua kênh ở tốc độ tương ứng độ rộng băng W bị nhòe đến nỗi chúng không thể phân biệt được như các xung được xác định đúng tại máy đầu cuối thu.Thay vào đó, chúng lấn lên nhau vì vậy chúng ta có xuyên nhiễu giữa các dấu( ISI: InterSymbol Interference). Như một thí dụ về tác động của méo trễ tới một xung được truyền, hình 2.1(a) minh họa một xung có độ rộng băng tần hữu hạn có các giá trị bằng không tại các điểm được đánh dấu , , ...Khi thông tin được tải bằng biên độ xung, như trong PAM chẳng hạn, ta có thể truyền một dãy các xung, mỗi một trong chúng đều có giá trị đỉnh tại các điểm bằng không tuần hoàn của các xung khác. Tuy nhiên, việc truyền xung qua một kênh được mô hình hóa là có một đặc tính trễ đường bao tuyến tính (tức là có đặc tính pha bậc hai) sẽ gây ra xung thu được như thể hiện ở hình 2.1(b) có các điểm cắt qua giá trị bằng không không còn được phân bố một cách tuần hoàn nữa. Hệ quả là, một dãy các xung liên tiếp sẽ nhòe lẫn lên nhau và các giá trị đỉnh của các xung sẽ không còn phân biệt được nữa. Như vậy, méo trễ của kênh gây ra xuyên nhiễu giữa các dấu (ISI). Như sẽ được bàn bạc trong chương này, có thể bù được đặc tính đáp ứng tần số không lý tưởng của kênh bằng cách sử dụng một mạch lọc hay mạch san bằng tại bộ giải điều chế. Hình 2.1(c) minh họa lối ra của một bộ san bằng tuyến tính mà nó bù khử đối với méo tuyến tính trong kênh.
+
+.
+Hình 2.1: Ảnh hưởng méo kênh: (a) Đầu vào kênh; (b) Đầu ra kênh; (c) Đầu ra bộ cân bằng
+Như một ví dụ, chúng ta hãy xét ISI trên một kênh thoại. Hình 2.2 biểu diễn biên độ và trễ đo được trung bình theo tần số đối với một kênh thoại của mạng viễn thông có chuyển mạch. Chúng ta thấy rằng băng thông khả dụng của kênh mở ra từ quãng 300 Hz tới quãng 3200 Hz. Đáp ứng xung tương ứng của kênh trung bình này được cho bởi hình 2.3. Khoảng thời gian tồn tại của nó vào khoảng 10 ms. Tương ứng, các tốc độ symbol truyền trên một kênh như thế có thể vào bậc 2500 xung hay symbol trên một giây. Do đó ISI có thể trải rộng trên 20-30 symbol.
+Hình 2.2: Các đặc tuyến biên độ và trễ trung bình của một kênh điện thoại cự ly trung bình.
+
+Hình 2.3: Đáp ứng xung của kênh trung bình với biên độ và trễ được cho trên hình 2.2
+Bên cạnh các kênh điện thoại còn có các kênh vật lý khác cũng biểu hiện một dạng nào đó của phân tán về thời gian (time dispersive) và do vậy cũng gây nên ISI. Các kênh vô tuyến, như các kênh sóng ngắn tầng điện ly (HF), các kênh đối lưu và các kênh vô tuyến di động tế bào, là ba thí dụ về các kênh vô tuyến phân tán về thời gian. Trong các kênh này, sự phân tán về thời gian – và do đó là ISI – là kết quả của nhiễu đường truyền lan sóng có độ trễ đường truyền khác nhau. Số lượng các đường truyền và độ trễ thời gian tương đối giữa các đường thay đổi theo thời gian, do đó các kênh vô tuyến này thường được gọi là các kênh đa đường biến đổi theo thời gian. Các điều kiện truyền dẫn đa đường biến đổi theo thời gian làm cho các đặc tính đáp ứng tần số thay đổi mạnh. Do đó, đặc trưng đáp ứng tần số được sử dụng cho kênh thoại thì không thích hợp đối với các kênh đa đường biến đổi theo thời gian. Thay vào đó, các kênh vô tuyến này được đặc trưng thống kê bằng hàm tán xạ mà nói một cách ngắn gọn thì nó là một biểu diễn hai chiều của công suất tín hiệu nhận được trung bình như một hàm của trễ thời gian tương đối và độ trải phổ Doppler.
+Hình 2.4: Hàm tán xạ của một kênh tán xạ tầng đối lưu cự ly trung bình.
+Nhằm các mục đích của minh họa, một hàm tán xạ đo được trên một kênh vô tuyến đối lưu cự ly trung bình (150 dặm) được cho thấy trên hinh 2.4. Thời gian tồn tại tổng cộng trung bình (trải đa đường) của đáp ứng kênh là xấp xỉ còn độ trải tần số Doppler giữa hai điểm nửa công suất thì nhỏ hơn 1Hz một chút đối với đường truyền dài nhất và lớn hơn thế đôi chút đối với các đường truyền lan khác. Một cách tiêu biểu, nếu việc truyền dẫn diễn ra với một tốc độ là symbol trên một kênh như thế thì độ trải đa đường sẽ gây nên ISI trải rộng trên khoảng bảy symbol.
+2.4. Ảnh hưởng của ISI
+2.4.1. Xuyên nhiễu giữa các dấu (ISI)
+..................................
+Hình 4.24 tín hiệu phát và tín hiệu thu được
+Hình 4.24 cho thấy tín hiệu ban đầu và tín hiệu sau cùng nhận được khi truyền tín hiệu qua hệ thống băng thông cơ sở.Dựa vào hình trên ta thấy tín hiệu truyền đi không bị mắc lỗi
+Hình 4.25 mô phỏng BER của hệ thống
+Hình 4.25 mô phỏng BER của hệ thống truyền tin qua kênh có băng tần hữu hạn,ta thấy BER tiến tới 10^-3 do đó hệ thống này là khả quan và có thể ứng dụng được
+
+KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN ĐỀ TÀI
+Kết luận :
+
+Việc truyền dữ liệu số phụ thuộc rất nhiều vào các đặc trưng của kênh có băng tần hữu hạn. Một trong những hậu quả nghiêm trọng là hiện tượng xuyên nhiễu giữa các ký hiệu ISI. Ảnh hưởng của ISI và nhiễu đến chất lượng tín hiệu: Khi nhiễu tăng lên tín hiệu phía thu bị ảnh hưởng rất lớn, dạng tín hiệu thu được bị yếu đi và khi nhiễu đủ lớn thì không thể thu được. ISI làm cho hệ thống nhạy cảm hơn đối với lỗi về đồng bộ. Các giải pháp khắc phục ISI có thể phân thành 2 hướng: giải pháp thụ động là thiết kế tín hiệu có độ rộng phổ hữu hạn và giải pháp sử dụng bộ san bằng. Đối với việc thiết kế tín hiệu để có ISI bằng không ta phải trả giá bằng bề rộng phổ tín hiệu lớn hơn tần số Nyquist (, trong đó là thời gian kéo dài của 1 symbol), mà phần lớn hơn này được gọi là đoạn băng dôi. Ngược lại, thiết kế tín hiệu để có ISI kiểm soát được ta cố gắng ép bề rộng phổ tín hiệu lại tối thiểu bằng với tần số Nyquist nhưng sẽ chịu một lượng ISI nhất định, mà nó có thể được xác định trước. Trong trường hợp có tính đến tác động của tạp âm thì đối với các tín hiệu phản ứng cục bộ tồn tại hiện tượng lan sai và được khắc phục bằng cách mã hóa trước các tín hiệu trước khi phát đi. Để tránh ảnh hưởng của môi trường truyền tín hiệu người ta thiết kế ra các bộ san bằng có tác dụng bù méo gây bởi các kênh có độ rộng băng thông hữu hạn. Méo kênh gây ra xuyên nhiễu giữa các ký hiệu (ISI), mà nó gây nên các lỗi trong giải điều chế tín hiệu. Về thực chất có thể xem bộ san bằng như một bộ lọc số. Nếu mô phỏng kênh có băng tần hữu hạn như một bộ lọc thì bộ lọc san bằng chính là một bộ lọc nghịch đảo của bộ lọc kênh. Một bộ san bằng kênh là một thiết bị làm giảm xuyên nhiễu giữa các ký hiệu và do đó làm giảm tỷ lệ lỗi trong chuỗi số liệu sau giải điều chế
+Kết quả đạt được của đề tài:
+Đề tài đã trình bày khá đầy đủ về nhiễu ISI trong truyền dẫn số qua kênh có băng thông hữu hạn.Ngoài ra, đề tài cũng đi sâu phân tích quá trình hình thành nhiễu và đưa ra các giải pháp triệt nhiễu hoặc kiểm soát lượng nhiễu khi truyền tín hiệu qua kênh có băng thông giới hạn. Về chương trình mô phỏng: cho thấy được hoạt động chính xác của các khối trong hệ thống thông qua việc so sánh chuỗi tín hiệu vào và tín hiệu thu được.Tuy nhiên, đồ án chỉ dừng ở mức mô phỏng tín hiệu vào và bộ san bằng kênh chưa tối ưu.
+Hướng phát triển đề tài :
+Trong tương lai đồ án sẽ được phát triển nghiên cứu một cách chi tiết hơn và phát triển lên hệ thống thông tin số truyền dẫn số qua điều chế sóng mang.Tín hiệu vào được nâng lên thành tín hiệu nhiều mức chứ không phải dừng lại ở mức đơn giản như BPSK.sử dụng bộ RRC thay cho bộ raise cosine filter và bộ san bằng kênh được thiết kế là bộ san bằng kênh thích nghi theo tiêu chí MMSE và thực hiện mô phỏng MONTE-CARLO một hệ thống truyền tin nhị phân.
+
+TÀI LIỆU THAM KHẢO
+[1] Nguyễn Quốc Bình, “Kỹ thuật truyền dẫn số”, NXB Quân đội nhân dân, 2001.
+[2] Nguyễn Quốc Bình, “Các hệ thống thông tin hiện nay trình bày thông qua sử dụng MATLAP”, Học viện kỹ thuật quân sự, 2003.
+[3] Thái Hồng Nhị - Phạm Minh Việt , “Hệ thống viễn thông” - tập một, Nhà xuất bản giáo dục, 2004.
+[4] Đặng Văn Chuyết – Nguyễn Tuấn Anh,”Cơ sở lí thuyết truyền tin”, Tập 2, NXB Giáo dục, 2000.
+[5] Nguyễn Quốc Trung, ”Xử lí tín hiệu và lọc số"; Tập 2 ", NXN Khoa học và kỹ thuật, 1998.
+[6] Proakis J.G & Ingle V.K, "Digital Signal Processing Using Matlab", Book/Cole, Thomson Learning, 2000.
+[7] Proakis J.G, "Digital Communications", 3nd edition., New York. MeGraw-Hill, 1995.
+[8]Proakis J.G & Manolakis D.G, “Digital Signal Processing: Principles, Algorithms and Applications”, Macmillan, New York, NY, third edition, 1996.
+[9] Jackson L.B, “DigitalFilters and Signal Processing”, Kluwer, Boston MA, 1996.
+...................................
+m1 = 2*bit-1; % BPSK modulation 0 -> -1; 1 -> 0
+oversampling=upsample(m1,T/Ts);
+h=hh;
+% get the frequency response characteristics
+s=filter(h,1,oversampling);
+Q=fft(s,length(s));
+kk=filter(kenh,1,s);
+%// mô phỏng tín hiệu cộng nhiễu
+%io=ifft(kk);
+noise = sqrt(No)*(randn(1,length(kk))+ j*randn(1,length(kk)))*sqrt(1/2);
+y9= kk + noise ;
+w=fft(y9,length(y9));
+% ///tin hieu qua mach loc thu Rx
+mlop=conj(h);
+z=filter(mlop,1,y9);
+w1=fft(z,length(z));
+%%% tín hiệu qua bộ equalizer
+kenh_conv1=convmtx(transpose(kenh),L);
+kenh_conv=kenh_conv1(1:L,:);
+gf=eye(L);
+milo1=pinv(kenh_conv'*kenh_conv)*kenh_conv'*gf;
+milo = milo1(:,1);
+equalized_z=filter(milo,1,z);
+for i=1:length(equalized_z),
+downsampled_equalizer_output((i+1))=equalized_z(i);
+echo off;
+end;
+qp=fft(equalized_z,length(equalized_z));
+kl=downsample(equalized_z,T/Ts);
+bit1=real(kl)>0; %Giai dieu che BPSK
+err=err+length(find(xor(bit1,bit)));
+end
+BER(ss)=err/(NR*M);
+end
+figure
+subplot(2,1,1)
+stem(bit)
+subplot(2,1,2)
+stem(bit1)
+figure
+semilogy(SNR,BER)
+grid on
+Tạo hàm cosine nâng :
+function [y]=xrc(f,alpha,T);
+% [y]=xrc(f,alpha,T)
+% evaluates the expression Xrc(f). The paraneters alpha and T
+% must also be given as inputs to the function.
+if (abs(f)>((1+alpha)/(2*T))),
+y=0;
+elseif (abs(f)>((1-alpha)/(2*T))),
+y=(T/2)*(1+cos((pi*T/alpha)*(abs(f)-(1-alpha)/(2*T))));
+else
+y=T;
+end;
+

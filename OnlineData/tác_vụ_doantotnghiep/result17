@@ -1,0 +1,526 @@
+Trường Đại học Xây dựng Hà Nội
+Khoa Cơ Khí Xây Dựng
+Bộ Môn Máy Xây Dựng
+
+Đề cương đồ án tốt nghiệp
+THIẾT KẾ TRẠM TRỘN CẤP PHỐI NĂNG SUẤT 80T/H PHỤC VỤ THI CÔNG MÓNG ĐƯỜNG THEO TIÊU CHUẨN AASHTO với đặc điểm:
+- Tháo lắp nhanh dạng hệ bậc
+- Làm việc chu kỳ
+- Máy trộn cưỡng bức loại rô to
+
+Chương 1. Lựa chọn phương án thiết kế trạm trộn
+
+1.1 Giới thiệu chung về bê tông.
+1.2 Phân loại về bê tông.
+1.3 Lựa chọn phương án thiết kế trạm trộn bê tông.
+1.3.1 Khái niệm chung về trạm trộn bê tông.
+1.3.2 Phân loại trạm trộn bê tông.
+Theo phương pháp bố trí thiết bị trạm trộn. Theo nguyên lý làm việc của trạm trộn. Theo khả năng di động của trạm trộn. Theo năng suất của trạm trộn. Theo phương pháp điều khiển trạm trộn
+1.3.3 Lựa chọn phương án thiết kế trạm trộn bê tông.
+Trạm trộn bê tông dạng tháp làm việc chu kỳ. Trạm trộn bê tông dạng tháp làm việc liên tục. Trạm trộn bê tông dạng bậc làm việc chu kỳ. Trạm trộn bê tông dạng bậc làm việc liên tục. Ô tô máy trộn bê tông.
+Chương 2. Tính chọn một số thiết bị của trạm trộn
+
+2.1 Lựa chọn sơ đồ làm việc của trạm trộn
+*Sơ đồ dây truyền công nghệ.
+*Chu kỳ làm việc của trạm dẫn động.
+2.2 Tính chọn một số thiết bị của trạm trộn
+2.2.1 Tính chọn một số thiết bị định lượng nước và ximăng
+Tính chọn thiết định lượng nước Tính chọn thiết bị định lượng ximăng Tính chọn thiết bị định lượng cốt liệu
+2.2.2 Xác định dung tích của bun ke chứa các thành phần phối liệu của trạm trộn.
+Tính dung tích của bun ke chứa đá Tính dung tích của bunke chứa cát
+Chương 3. Tính toán về băng tải cân cốt liệu.
+3.1 Khái niệm
+3.2 Tính toán băng tải cân
+3.2.1 Tính toán một số thông số của băng tải cân
+Xác định năng suất của băng tải cân Xác định các thông số kỹ thuật
+3.2.2 Công suất động cơ cụm đẫn động
+3.2.3 Tính bền một số chi tiết băng tải cân
+Kiểm tra bền tang Tính trục tang Tính các con lăn
+3.3 Tính kết cấu cụm đỡ băng tải
+3.3.1 Tính thanh ngang đỡ các con lăn lòng máng
+3.3.2 Kiểm tra bền dầm chính đỡ băng tải
+3.3.3 Kiểm tra bu lông treo băng tải và khung
+3.3.4 Chọn phương án cân băng tải
+
+Chương 4. Tính toán về băng tải nạp liệu
+
+4.1 Khái niệm
+4.2 Tính toán băng tải nạp
+4.2.1 Xác định năng suất và các thông số của băng tải
+Tính toán về năng suất Tính toán các kích thước chính
+4.2.2 Tính công suất động cơ và hộp giảm tốc cụm dẫn động
+4.2.3 Tính kiểm tra bền một số chi tiết băng tải nạp
+( tang dẫn động, tang bị động, con lăn đỡ dưới băng tải, con lăn lòng ống)
+4.3 Tính kết cấu cụm đỡ băng tải nạp
+4.3.1 Thanh ngang đỡ các con lăn lòng máng
+4.3.2 Kiểm tra bền dầm chính đỡ toàn bộ băng tải
+4.3.3 Tính bulông lắp ghép các đoạn dầm đỡ chính
+
+Chương 5. Tính Silô chứa ximăng
+5.1 Giới thiệu chung về Silô
+5.2 Tính toán thiết kế Silô chứa ximăng
+5.2.1Một số tính toán chung về Silô
+5.2.2 Tính tải trọng tác dụng lên Silô
+Phân tích lực tác dụng Tính toán với thân trên
+5.2.3 Kiểm tra ổn định Silô
+ổn định của thân Silô do tải trọng đều theo phương đường
+sinh
+Kiểm tra ổn định thân Silô do ứng suất nén đều theo phương ngang Kiểm tra ổn định của thân Silô do tác dụng đồng thời của và
+5.2.4 Tính toán cột dỡ Silô
+Phân tích lực Xác định trọng tâm Silô
+Chương 6. Tính toán thiết kế vít tải
+
+6.1 Giới thiệu về vít tải xiên
+6.2 Tính những thông số kỹ thuật và các kích thước của vít tải
+6.2.1 Tính công suất động cơ vít tải
+6.2.2 Tính bộ truyền cấp nhanh
+6.2.3 Tính bộ truyền cấp chậm
+6.3 Tính toán về tải trọng tác dụng lên vít tải
+6.3.1 Mômen xoắn trên trục vít tải
+6.3.2 Lực dọc trục vít
+6.3.3 Lực hướng tâm tác dụng lên trục vít
+6.4 Tính toán những kích thước còn lại của vít tải
+6.4.1 Tính đường kính trục vít xoắn
+a.Tính sơ bộ trục
+b.Tính gần đúng trục
+Tính chính xác trục
+Xác định đường kính trục lắp với ổ
+6.4.2 Tính toán phôi cánh vít xoắn
+6.4.3 Tính toán bulông chốt
+Chương 7. Tính toán thiết kế về mạng điện điều khiển
+7.1 Giới thiệu
+
+LỜI MỞ ĐẦU
+Nước ta đang trong thời kỳ đổi mới, với ý chí quyết tâm thực hiện Công nghiệp hoá Hiện đại hoá đất nước, chủ trương xây dựng một nền Công nghiệp vững mạnh. Để đạt được việc đó, chúng ta phải tiến hành việc hiện đại hoá cơ giới hoá và tự động hoá sản xuất trong các xí nghiệp. Trong công cuộc đổi mới, mở cửa, nghành công nghiệp Xây dựng đã trở thành trụ cột của nền kinh tế quốc dân, nghành đã trưởng thành về số lượng và chất lượng. Nhiều công nghệ tiến đã được áp dụng vào Việt Nam. Hoạt động xây dựng đã và đang chuyển biến theo xu thế Công nghiệp hoá Hiện đại hoá.
+Các công trình xây dựng đã thoả mãn yêu cầu ngày càng cao về chất lượng với việc sử dụng hàng trăm chủng loại vật liệu khác nhau, từ thông dụng đến cao cấp, từ vật liệu silicát đến vật liệu vô cơ, vật liệu hữu cơ đến vật liệu tổng hợp, tổ hợp. Tuy nhiên vật liệu bêtông cốt thép trong thơi gian vừa qua và trong tương lai vẫn còn giữ vai trò chủ đạo trong nghành xây dựng nước ta bởi tính năng ưu việt của nó.
+Bê tông thương phẩm đã được sử dụng trong hầu hết các công trình xây dựng đòi hỏi chất lượng cao như: công trình thuỷ điện,
+cầu cảng, sân bay, công trình thuỷ lợi, nhà cao tầng. Điều đó chứng tỏ ưu thế về chât lượng của sản phẩm bêtông thương phẩm. Để đạt được được chất lượng như vậy thì phải trộn bằng máy. Trạm trộn bêtông đã có mặt ở Việt Nam từ những năm 60, nó được phát triển qua nhiều giai đoạn. Hiện nay yêu cầu về chất lượng bêtông ngày càng cao, do vậy nhiều nhà máy bêtông đã mạnh dạn đổi mới thiết bị và công nghệ sản xuất của mình băng cách nhập các trạm trộn của nước ngoài. Đặc điểm các trạm trộn của nước ngoài là gọn nhẹ, độ chính xác cao, hiệu quả công việc lớn khai thác triệt để công suất của động cơ. Nhưng chúng có nhược điểm là giá thành quá đắt, thời gian đưa vào sử dụng dài, đôi khi một số thiết bị làm việc không hiệu quả trong điêu kiện khí hậu tại Việt Nam.
+Do vậy việc thiết kế các trạm trộn bêtông làm sao cho phù hợp các yêu cầu về kinh tế, kỹ thuật là yêu cầu rất quan trọng đang được các nhà đầu tư quan tâm và chú ý. Nhu cầu về bêtông thương phẩm ngày càng cao, các trạm trộn với công suất nhỏ và vừa thì không đáp ứng được.
+Trên cơ sở phát huy những ưu điểm của các trạm trộn nươc ngoài, hạn chế những nhược điểm của chúng, ta có thể thiết ké chế tạo những trạm trộn có tính năng ưu việt, đồng thời phù hợp với đặc điểm khí hậu và điều kiện làm việc của nước ta. Xuất phát từ nhu cầu đó, Đồ án tốt nghiệp của tôi tập trung vào nghiên cưú tính toán, thiết kế trạm trộn mới hoàn thiện về công nghệ trên cơ sở tiếp thu những ưu điểm về trạm trộn của CHLB Đức với tên Đồ án: THIẾT KẾ TRẠM TRỘN BÊTÔNG DẠNG BẬC LÀM VIỆC CHU KỲ VỚI NĂNG SUẤT 45M3/H
+Được sự giúp đỡ hướng dẫn tận tình của thầy giáo TS Nguyễn Thiệu Xuân và Thạc sĩ Trịnh Minh Sơn cùng với sự cố gắng của bản thân tôi đồ án đã hoàn thành đúng kế hoạch. Do thời gian và tài liệu còn hạn chế nên trong đồ án này không tránh khỏi nhưng sai sót, rất mong được sự góp ý của các thầy cô, của các bạn Sinh viên để đồ án này được hoàn thiện hơn.
+Tôi xin chân thành cám ơn sự giúp đỡ của TS Nguyễn Thiệu Xuân, Thạc sĩ Trịnh Minh Sơn ở ban cơ yếu Chính phủ, nhà máy sản suất bêtông Xuân mai, nhà máy sản xuất bêtông Vĩnh tuy cùng các bạn sinh viên lớp 44M và chân thành cảm ơn sự giúp đỡ của các thầy cô giáo trong khoa Cơ Khí Xây Dựng -Trường Đại học Xây dựng đã giúp tôi hoàn thành Đồ án này.
+
+CHƯƠNG1.
+LỰA CHỌN PHƯƠNG ÁN THIẾT KẾ TRẠM TRỘN
+
+1.1. Giới thiệu chung về bê tông.
+Bê tông là loại đá nhân tạo được hình thành từ hỗn hợp gồm: Chất kết dính vô cơ ( ximăng, thạch cao, vôi...), với cốt liệu (sỏi, cát, đá,...), và nước trải qua quá trình đông kết tự nhiên hay nhân tạo.
+Ngoài thành phần kể trên trong quá trình sản xuất bê tông người ta con đưa thêm vào bê tông các chất phụ gia vô cơ hoặc hữu cơ để tăng cường một số tính chất của bê tông đảm bảo yêu cầu sử dụng. Các chất phụ gia được lựa chọn theo tỉ lệ thích hợp . Trong hỗn hợp bê tông, ximăng, phụ gia và nước là những thành phần chúng tác dụng với nhau tạo thành hồ kết dính. Cốt liệu( cát, đá, sỏi, xỉ...) liên kết với nhau tạo thành bộ khung chịu lực của bêtông. Cấp phối cốt liệu được lựa chọn một cách hợp lý để được hỗn hợp bêtông như ý.
+Hồ kết dính có nhiệm vụ bao bọc các hạt cốt liệu và lấp đầy lỗ rỗng giữa các hạt cốt liệu đồng thời hồ kết dính còn đóng vai trò là chất nhờn giúp cho hỗn hợp bê tông có độ dẻo. Sau khi đông kết hồ kết dính còn có khả năng đông kết các hạt cốt liệu với nhau tạo thành đá nhân tạo là bêtông. Bêtông là một loại vật liệu được sử dụng rộng rãi trong các ngành: Xây dựng dân dụng, giao thông, thuỷ lợi,... vì bêtông có các ưu điểm sau:
+- Cường độ chịu nén tương đối cao
+- Vật liệu sản xuất dễ khai thác và sử dụng ngay tại địa phương
+- Khả năng linh hoạt cao có thể atọ thành các dạng khác nhau và tính chất khác nhau
+- Bêtông kết hợp với cốt thép tạo ra vật liệu có khả năng chịu lực rất cao
+Các nhược điểm của bêtông:
+- khối lượng riêng = 2000... 2500 (kg/m3)
+- cách âm cách nhiệt kém
+- khả năng chống ăn mòn yếu
+1.2. Phân loại về bê tông
+Hiện nay có rất nhiều loại bê tông ứng với mỗi loại công trình thì có một loại bê tông tương ứng. Vì vậy bêtông được phân loại theo các loại sau:
+-Theo dạng cốt liệu phân ra: Bêtông cốt liệu đặc, cốt liệu rỗng, bêtôngcốt liệu đặc biệt( chống phóng xạ , chịu nhiệt, chịu axít)
+-Theo khối lượng thể tích phân ra:
++ Bêtông đặc biệt nặng ( > 2500kg/m3), dùng cho những kết cấu đặc biệt
++ Bêtông nặng = 2200 ... 2500(kg/m3), chế tạo từ đá sỏi bình thường, dùng cho kết cấu chịu lực.
++ Bêtông tương đối nặng = 1800 ... 2200(kg/m3), dùng chủ yếu cho kết cấu chịu lực.
++ Bêtông nhẹ = 500 ... 1800 (kg/m3), gồm có bêtông cốt liệu rỗng, bêtông tổ ong (bêtong khí và bêtông bọt) chế tạo từ hỗn hợp chất kết dính, nước cấu tử silíc nghiền mịn và chất tạo rỗng
++ Bêtông đặc biệt nhẹ cũng là loại bêtông tổ ong và bêtông cốt liệu rỗng nhưng có < 500(kh/m3)
+- Theo công dụng bêtông được phân ra:
++ Bêtông thường, các kết cấu bêtong cốt thép(móng, cột, dầm...)
++ Bêtông thuỷ thuỷ công, dùng để xây đập, phủ lớp mái kênh...
++ Bêtông dùng cho mặt đường sân bay lát vỉa hè.
++ Bêtông dùng cho kết cấu bao che.
++ Bêtông công dụng đặc biệt như bêtông chịu nhiệt, chịu axít chống phóng xạ...
++ Bêtông trang trí.
+Trạm trộn bêtông ngày nay phải đáp ứng nhu cầu của khách hàng về: Mác bêtông, thành phần cấp phối bêtông,...Do đó để tính chọn thiết bị định lượng cho trạm trộn bêtông cần phải xác định khối lượng tối đa của các thành phần cốt liệu cho 1m3 bêtông. Theo kinh nghiệm thực tế định ra khối lượng tối đa của các thành phần phối liệu cho một m3 hỗn hợp bêtông như sau:
+- Khối lượng đá dăm( = 1800kg/m3)
+mdmax= 1500kg; Vdmax= 0.83m3
+- Khối lượng cát(= 1600kg/m3)
+mcmax= 1000kg/m3; Vcmax= 0.62m3
+- Khối lượng nước (= 1000kg/m3)
+mnmax= 400 kg/m3; Vnmax= 0.4m3
+- Khối lượng ximăng PC – 30 (= 1400kg/m3)
+mxmax= 700kg/m3; Vxmax= 0.5m3
+1.3. Lựa chọn phương án thiết kế trạm trộn bêtông
+1.3.1 Khái niệm chung về trạm trộn bêtông
+Trạm trộn bêtông dùng để sản sản xuất hỗn hợp bêtông(dạng khô hoặc ướt) để cung cấp cho các phân xưởng tạo hình hoặc cho các công trình xây dựng cơ bản, trạm trộn bêtông thường gồm ba bộ phận chính: Kho chứa nguyên liệu cát, đá,...,các thiết bị định lượng và các máy trộn bêtông. Giữa các bộ phận này có các thiết bị nâng- vận chuyển và các phễu chứa trung gian...
+1.3.2 Phân loại trạm trộn bêtông
+a) Theo phương pháp bố trí thiết bị trạm trộn
+- Trạm trộn bêtông dạng tháp
+Tất cả các phối liệu vận chuyển một lần lên cao nhờ các thiết bị nâng vận chuyển (băng tải, gàu tải, vít tải, máy bơm ximăng...). Trên đường rơi tự do của chúng các quy trình công nghệ được tiến hành( định lượng, nạp vào máy trộn, nhào trộn và nhả vào các thiết bị vận chuyển hỗn hợp bêtông).
++ Ưu điểm của trạm trộn này là có thời gian chu kỳ làm việc nhỏ nhất, có thể bố trí nhiều máy trộn trên một tầng, tự động hoá, tiện lợi và năng suất cao( Q 240m3/h).
++ Nhược điểm của trạm trộn này là quá cồng kềnh, các bunke chứa các phối liệu khô phải có sức dự trữ đảm bảo cho trạm trộn làm việc trong vòng hai giờ, vốn đầu tư ban đầu rất lớn và khó khăn trong việc rời chuyển.
+- Trạm trộn bêtông dạng bậc
+Các thiết bị công tác được bố trí theo các khối chức năng độc lập trên mặt bằng riêng và được liên hoàn nhau bằng các thiết bị nâng- vận chuyển, bunke chứa định lượng và bunke tập kết các phối liệu khô đã định lượng. Khối nhào trộn gồm các thiết bị định lượng chất lỏng( nước và phụ gia), các máy trộn bêtông và phễu nạp hỗn hợp bêtông cho cho các thiết bị vận chuyển.
++ Ưu điểm của trạm trộn này là: vốn đầu tư ban đầu không cao, tháo lắp di chuyển dễ dàng, gọn nhẹ và năng suất tương đối cao, Q 120m3/h
++ Nhược điểm của trạm trộn này là: khó khăn trong việc bố trí nhiều máy trộn, chỉ đảm bảo số lượng máy trộn tối đa là hai, thời gian chu kỳ làm việc của trạm tương đối lớn và khá phức tạp về việc tự động hoá trong điều khiển trạm trộn.
+b) Theo nguyên lý làm việc của trạm trộn
+- Trạm trộn bêtông làm việc chu kỳ: có khả năng dễ thay đổi mác bêtông và thành phần cấp phối cũng như đáp ứng đầy đủ nhu cầu của moị đối tượng phục vụ.
+- Trạm trộn bê tông làm việc liên tục: Loại trạm trộn này làm việc có hiệu quả khi nhu cầu về hỗn hợp bêtông cùng mác có khối lượng lớn như phục vụ cho các công trình thuỷ điện, các công trình giao thông...
+c) Theo khả năng di động của trạm trộn
+-Trạm trộn cố định: phục vụ cho công tác xây lắp của một vùng lãnh thổ, đồng thời cung cấp bêtông thương phẩm cho một vùng bán kính hiệu quả. Thiết bị của trạm trộn cố định thường được bố trí theo dạng tháp .
+- Trạm trộn dạng tháo lắp nhanh: Được trang bị cho công trình có thời hạn khai thác trạm trộn tại mỗi nơi ngắn (từ một năm tới vài năm).Để khai thac có hiệu quả trạm trộn này thì trạm trộn phải có thời gian tháo lắp nhanh với chi phí cho tháo lắp và vận chuyển là nhỏ nhất. Các thiết bị của trạm trộn được bố trí theo dạng bậc với các mô đun vận chuyển tiện lợi.
+- Trạm trộn di động: thường được thiết kế theo dạng bậc, các khối chức năng của trạm trộn thường được bố trí trên các hệ thống di chuyển. Loại trạm trộn này thường được thiết kế với năng suất nhỏ( Q 30m3/h) để phục vụ cho các công trình giao thông, thuỷ lợi và các công trìng xây dựng cần khối lượng bê tông nhỏ và không tập trung.
+d) Theo năng suất của trạm trộn.
+- Loại nhỏ: Q 30 m3/h
+- Loại vừa : Q 60 m3/h
+- Loại lớn : 70m3/h Q 120 m3/h
+e) Theo phương pháp điều khiển trạm trộn ta có
+Hệ thống điều khiển bằng tay, hệ thống điều khiển bán tự động và hệ thống điều khiển tự động. Trạm trộn hiện đại ngày nay thường được trang bị thiết bị điều khiển có khả năng làm việc ở cả ba chế độ điều khiển như trên.
+1.3.3 Lựa chọn phương án thiết kế trạm trộn bêtông
+Trạm trộn bêtông phải có khả năng sản xuất được bêtông hỗn hợp (dạng khô dạng ướt) có nhiều mác bêtông với các thành phần cấp phối khác nhau với thời gian điều chỉnh là nhỏ nhất.
+Trạm trộn bêtông phải được trang bị hệ thống điều khiển có thể làm việc ở cả ba chế độ điều khiển: Bằng tay, bán tự động và tự động. Trạm trộn phải đảm bảo xả hỗn hợp bêtông dễ dàng, tiện lợi cho các phương tiện vận chuyển khác. Việc vận chuyển bêtông phải khoa học tiện lợi và dễ dàng để tránh hiện tượng dồn ứ ách tắc giao thông. Tuỳ thuộc vào mục đích chức năng, công suất và đặc tính của đối tượng tiêu thụ hỗn hợp bêtông mà lựa chọn phưong án thiết kế trạm trộn bêtông sao cho phù hợp và hiện đại.
+Phương án thiết kế trạm trộn được lựa chọn theo các trạm trộn đặc trưng và phổ biến dưới đây.
+a) Trạm trộn bêtông dạng tháp làm việc chu kỳ
+Cốt liệu (đá dăm, cát) từ kho chứa nhờ băng tải 1 được vận chuyển lên phễu nạp quay 2 để đưa vào các bun ke chứa cốt liệu tương ứng. Ximăng từ các kho chứa Siclôn 15 được phân tách ra khỏi khí nén và được đưa vào thiết bị lọc bụi 13, sau khi làm sạch không khí thoát ra ngoài còn xi măng lọc tách được vít tải vận chuyển vào bunke chứa.
+Để đảm bảo chế độ làm việc tự động của trạm trộn, tất cả các bunke chứa cốt liệu và xi măng đều phải trang bị thiết bị báo mức trên 15 và báo mức dưới 5. Phía dưới các bunke chứa có bố trí ba thiết bị vận chuyển cốt liệu nạp cho các bunke chứa.
+Trong sơ đồ trên ta có:
+1- Băng tải vận chuyển cốt liệu nạp cho các bunke chứa
+2- Phễu quay
+3- Thiết bị phá vòm cát
+4- Máng chuyển
+5- Thiết bị báo mức dưới
+6- Các máng chuyển tới các thiết bị định lượng cốt liệu
+7- Các thiết bị định lượng cốt liệu
+8- Máng rót
+9- Phễu tiếp nhận có đáy xả lật phân phối
+10- Thiết bị phân phối nước
+11- Máy trộn bêtông cưỡng bức làm việc chu kỳ
+12- Bunke nạp hỗn hợp bêtông vào thiết bị vận chuyển
+13- Thiết bị lọc bụi
+
+
+Hình 1.1 Trạm trộn bêtông dạng tháp làm việc chu kỳ
+
+14- Palăng điện
+15- Siclôn
+16- Máng hứng
+17- Vít tải
+18- Thiết bị báo mức trên
+19- Máng chuyển tới thiết bị định lượng ximăng
+20- Thiết bị định lượng ximăng
+21- Các máng nạp ximăng vào các thùng trộn
+22- Máy hút bụi
+23- Thiết bị báo tín hiệu
+24- Thùng chứa phụ gia lỏng
+25- Thiết bị định lượng chất lỏng
+26- Ông dẫn khí nén
+27- Thùng chứa nước
+Quá trình làm việc của trạm trộn được tiến hành như sau:
+Các thành phần cốt liệu được định lượng bằng thiết bị định lượng cốt liệu 7 và thiết bị định lượng ximăng 20.
+Cốt liệu ximăng sau khi định lượng xong được xả vào phễu tiếp nhận có đáy phân phối 9 để nạp vào từng máy trộn bêtông 11 tương ứng theo chương trình làm việc của trạm trộn. Nước và phụ gia sau khi định lượng xong bởi thiết bị định lượng 24 được đưa vào máy trộn bêtông tương ứng nhờ thiết bị phân phối chất lỏng 10 làm việc đồng bộ với đáy lật phân phối các phối liệu khô 9. Sau khi trộn xong, hỗn hợp bêtông chứa được xả vào bunke chứa 12 để nạp cho các thiết bị vận chuyển. Các bunke chứa cốt liệu và xi măng phải chứa đủ lượng vật liệu để đảm bảo cho trạm trộn làm việc thường xuyên trong vòng 2—2,5 giờ
+b) Trạm trộn bêtông dạng tháp làm việc liên tục
+Cốt liệu (đá dăm, cát ) từ các bunke chứa được đưa vào 8 bun ke chứa cốt liệu nhờ băng tải nghiêng 5 và băng tải quay 7. Ximăng từ kho chứa được đưa vào bốn bunke chứa nhờ gầu tải và vít tải 1. Các cốt liệu được định lượng bởi các thiết bị định lượng liên tục 12 được vận chuyển liên tục vào phễu tập kết phối liệu khô 13
+Nhờ các băng tải 7.
+Ximăng được định lượng bởi thiết bị định lượng liên tục và được nạp vào phễu 13
+Các bộ phận của sơ đồ hình 1.2 dưới đây:
+
+
+Hình 1.2 Trạm trộn bêtông dạng bậc làm việc liên tục
+Các phối liệu khô được nạp liên tục vào máy trộn bêtông hai trục nằm ngang làm việc liên tục 14, 16 cùng với nước và phụ gia được định lượng bởi máy bơm định lượng liên tục 17. Hỗn hợp bêtông được xả liên tục vào bunke nạp 15 phân phối cho các thiết bị vận chuyển. Các bunke chứa cốt liệu và xi măng đều được trang bị mức báo trên và mức báo dươí vậtm liệu phải chứa đủ lượng vật liệu để đảm bảo cho trạm trộn làm việc liên tục trong vòng từ 2- 2,5
+1- Vít tải
+2- Thiết bị lọc bụi
+3- Siclôn lọc bụi
+4- Trạm lọc bụi
+5- Băng tải vận chuyển cốt liệu( các loại đá dăm và cát) nạp cho các bun ke chứa
+6- Đường ray đơn
+7- Băng tải quay
+8- Phễu nạp
+9,10 – Các thiết bị báo mức trên và dưới
+11- Thiết bị phá vòm cát
+12- Thiết bị định lượng cốt liệu làm việc liên tục
+13- Phễu tập kết ximăng và các phối liệu
+14,16- Các máy trộn bêtông cưỡng bức làm việc liên tục
+15 – Bun ke nạp các hỗn hợp bêtông vào các thiết bị vận chuyển
+17- Thiết bị định lượng nước làm việc liên tục
+c) Trạm trộn bêtông dạng bậc làm việc chu kỳ
+Sơ đồ trạm trộn bêtông như hình 1.3
+1- Buồng máy trộn 8- Khung sàn buồng trộn
+2- Các khoang chứa cốt liệu 9- Silô chứa ximăng
+3- Máy trộn bêtông 10- Vít tải
+4- Cabin điều khiển 11- Thiết bị lọc bụi
+5- Thiết bị định lượng cốt liệu 12- Gầu cào
+6- Thiết bị định lượng ximăng 13- Tời kéo gàu nạp cốt liệu
+7- Thiết bị định lượng nước 14- Gỗu nạp cốt liệu
+
+
+
+
+Hình 1.3 Trạm trộn bêtông dạng bậc làm việc chu kỳ
+Cốt liệu đá dăm, cát được tập kết vào khoang chứa 2 có các vách ngăn bằng tấm bêtông đúc sẵn ( một khoang chứa cát và 4 khoang chứa đá dăm ) và được gầu cào 12 thu nạp về khoang trung tâm, khu vực có bố trí các cửa xả liệu để nạp cho các thiết bị định lượng cốt liệu 5 làm việc theo nguyên lý cộng dồn. Sau khi định lượng xong, cốt liệu được xả vào gầu nạp có đáy tự động đóng mở 14 để vận chuyển lên nạp vào nồi trộn bêtông làm việc chu kỳ 3, nhờ tời kéo 13 bố trí trên đỉnh đường ray dẫn hướng gầu nạp cốt liệu.
+Ximăng từ kho chứa được vận chuyển lên các silô nhờ các thiết bị nâng – vận chuyển (máy bơm xi măng, gầu tải vít tải). Khí bụi được làm sạch nhờ thiết bị lọc bụi 11 trước khi thoát ra ngoài. Ximăng được nạp vào thiết bị định lượng ximăng 6 nhờ vít tải 10 bố trí ở đáy silô vít tải và được nạp vào máy trộn theo đường ống mềm.
+Nước được bơm lên nạp vào thiết bị định lượng chất lỏng 7, sau khi định lượng xong được nạp vào máy trộn theo đường ống dẫn nước. Hỗn hợp bêtông sau khi trộn xong được xả vào phễu nạp để rót vào các thiết bị vận chuyển. Các khoang chứa cốt liệu và silô chứa ximăng phải đủ lượng vật liệu đảm bảo cho trạm trộn làm việc liên tục trong 2-2,5giờ. Hệ thống điều khiển trạm trộn và các thiết bị phụ trợ được bố trí trong cabin điều khiển 4.
+d) Trạm trộn bêtông dạng bậc làm việc liên tục
+Sơ đồ trạm trộn bêtông dạng bậc làm việc liên tục hình 1.4
+1- Các bunke chứa cốt liệu ( ba bunke chứa các loại đá và một bunke chứa cát )
+2- Các thiết bị định lượng cốt liệu làm việc liên tục .
+3- Băng tải đón cốt liệu để nạp vào băng tải nghiêng
+4- Băng tải nghiêng để vận chuyển cốt liệu lên phễu quay
+5- Bunke chứa các phối liệu hỗn hợp bêtông khô
+6- Thiết bị định ximăng làm việc liên tục
+7- Silô chứa ximăng
+8- Thiết bị lọc bụi tay áo
+9- Phễu quay nạp phối liệu cho bêtông khô
+10- Máy trộn bêtông cưỡng bức làm việc liên tục
+11- Cabin điều khiển trạm trộn
+
+
+Hình 1.4 Sơ đồ trạm trộn bêtông dạng bậc làm việc liên tục
+12- Thiết bị máy bơm định lượng làm việc liên tục
+Cốt liệu được nạp vào các ben ke chứa một dung tích nhỏ, đảm bảo cho trạm trộn làm việc liên tục trong vòng 15-30 phút bằng máy xúc lật hoặc bằng các băng tải di động.
+Phía dưới mỗi bunke chứa có bố trí thiết bị định lượng cốt liệu cốt liệu làm việc liên tục 2. Cốt liệu đã được định lượng nạp vào phễu quay 9 nhờ băng tải đón 3 và băng tải nghiêng 4. Ximăng từ các kho chứa được vận chuyển lên silô chứa 7
+có thiết bị lọc bụi 8 nhờ thiết bị nâng chuyển. Ximăng được định lượng nhờ thiết bị định lượng ximăng làm việc liên tục 6 rồi nạp vào phễu quay 9.
+Nước được định lượng bởi thiết bị máy bơm - định lượng làm việc liên tục 12 và với c nạp liên tục cho máy trộn bêtông hai trục trộn nằm ngang làm việc liên tục 10 cùng ác phối liệu khô từ phễu quay nạp liệu 9.
+Phối liệu khô đã được định lượng hoặc được nạp liên tục vào máy trộn 10 hoặc được đưa vào bunke chứa các phối liệu hỗn hợp bêtông khô để nạp cho các ôtô - máy trộn nhờ phễu quay nạp hỗn hợp bêtông khô.
+* Qua những nghiên cứu ở trên ta nhận thấy mỗi loại trạm trộn đều có những ưu nhược điểm riêng. Để thiết kế trạm trộn có những thông số phù hợp với những yêu cầu mà đồ án nêu ra thì ta phải thiết kế, lựa chọn những mặt tích cực của các trạm trộn nêu trên để tạo ra một sản phẩm như ý.
+Nghiên cứu các giải pháp kỹ thuật để khắc phục nhược điểm của trạm trộn cho phù hợp với yêu cầu của công việc. Hạn chế đến mức tối thiểu các thiết bị cần nhập từ nước ngoài nhằm tiết kiệm tối đa nguồn ngoại tệ mạnh cho quốc gia. Mặt khác tận dụng được đội ngũ cán bộ kỹ thuật công nhân lành nghề có trình độ kỹ thuật, sẽ tạo ra sản phẩm với giá cả phải chăng góp phần phát triển cho sự nghiệp Công nghiệp hoá Hiện đại hoá đất nước.
+Vậy ta chọn phương án thiết kế trạm trộn bêtông dạng bậc làm việc chu kỳ gàu kéo skip có sơ đồ chung như hình 1.3phù hợp với yêu cầu thiết kế.
+Ta có sơ nguyên lý của trạm trộn như hình 1.5:
+
+
+
+
+
+
+
+
+
+
+Hình 1.5
+
+
+
+
+
+
+
+
+CHƯƠNG 2. TÍNH CHỌN CÁC THIẾT BỊ CHÍNH CỦA TRẠM TRỘN
+2.1 Thiết lập lưu đồ công nghệ
+Với năng suất yêu cầu 45 m3/h, ta chọn phương pháp sản xuất bê tông theo phương pháp trộn cưỡng bức làm việc chu kỳ là phù hợp hơn cả.
+* Sơ đồ dây truyền công nghệ như sau:
+
+
+* Chu kỳ làm việc của trạm trộn .
+Các thành phần phối liệu của một mẻ trộn gồm có :
+Đá 1, đá 2, cát vàng, ximăng, phụ gia nếu có.
+Chu kỳ làm việc của một mẻ trộn là khoảng thời gian Tck giữa hai mẻ trộn liên tiếp.
+- Cân đá 1: 8s
+- Cân cát : 10s
+Trong thời gian cân cốt liệu thì cũng bắt đầu cân ximăng, cân nước, cân phụ gia, thời gian - Cân đá 2: 9s
+như sau:
+- Cân ximăng: 25s
+- Cân nước :25s
+- Cân phụ gia : 25s
+Sau khi cân xong thì kéo gầu lên trong 20s , đổ cốt liệu vào nồi trộn 10s. Sau khi bắt đầu đổ cốt liệu 5s thì đổ nước, ximăng, phụ gia đồng thời trong 10s, thời gian trộn 30s, xả bêtông 22s. Ta có lưu đồ làm việc của trạm trộn như (hình 2.1)
+
+
+
+Hình 2.1 Lưu đồ công nghệ của trạm trộn dạng bậc làm việc chu kỳ
+
+Từ biểu đồ trên ta thấy mẻ trộn đầu tiên hết 114s, mẻ trộn tiếp theo 77s. Vậy Tck=77s
+2.2 Thiết lập sơ đồ khối điều khiển trạm trộn
+Hệ thống điều khiển trạm trộn bêtông phải có khả năng điều khiển tự động việc định lượng một cách chính xác và tin cậy theo tỷ lệ cho trước giữa các thành phần cát, đá, ximăng, nước, phụ gia. Ngoài ra hệ thống cần phải phối hợp điều khiển các cơ cơ cấu thao tác theo sơ đồ công nghệ định trước.
+Trên cơ sở công thức cấp phối do người sử dụng đặt sẵn, hệ thống điều khiển sẽ điều khiển các van cấp liệu một cách thích hợp sao cho các thành phần được đưa vào cối trộn theo đúng khối lượng và thứ tự theo yêu cầu công nghệ. Việc thay đổi công thức cấp phối phải được thực hiện một cách dễ dàng và nhanh chóng. Hệ thống phải có phần hiển thị để giúp người vận hành dễ dàng theo dõi sự hoạt động và khả năng can thiệp kịp thời khi cần thiết. Ngoài ra do nhu cầu sử dụng ngoài trời, hệ thống điều khiển phải có khả năng hoạt động ổn định trong môi trường có nhiệt độ và độ ẩm tương đối lớn, nhiều bụi và nhiễu công nghiệp. Hơn nữa trong quá trình định lượng những sai sót trong việc đóng mở sớm, hoặc chậm của cơ cấu chấp hành là không thể tránh khỏi, do vậy các trạm trộn hiện đại còn có thêm bộ so sánh.
+Dưới đây là sơ đồ khối hệ thống điều khiển và quá trình điều khiển được xây dựng như (hình 2.2).
+Điều kiện để định lượng cốt liệu, ximăng, nước, phụ gia là số mẻ đưa về không. Điều kiện để định lượng đủ các thành phần là:
+Nếu thiếu(nhánh sai) thì tiếp tục định lượng, nếu đủ(nhánh đúng) thì đóng cửa xả bunke, ngừng vít tải hoặc bơm. Khi cụm gầu kéo skíp ở vị trí thấp cửa xả bunke mở, cốt liệu được xả xuống gầu
+Khi nồi trộn quay thì cụm gầu skíp mới được kéo lên. Vì nếu xảy ra trường hợp nồi trộn chưa quay mà cụm gầu skip đã kéo lên và xả
+liệu vào nồi trộn sẽ xảy ra hiện tượng quá tải (nhánh sai).
+Khi trong nồi không có bêtông và cửa xả của nồi trộn đã đóng thì mới được kéo theo cụm gầu skíp lên tiếp. Vì không sẽ xảy ra hiện tượng xả cốt liệu ra ngoài thông qua cửa xả của nồi trộn.
+Khi cụm gầu skíp đến vị trí xả mới được phép xả liệu, khi xả xong mới được phép hạ gầu xuống. Việc ấn định thời gian xả ximăng, nước, phụ gia là theo công nghệ vật liệu. Khi trộn mới được mở cửa nồi trộn xả bêtông để đảm bảo chất lượng bêtông. Khi xả hết bêtông thì mới được đóng cửa nồi trộn. Khi đã đủ số mẻ trộn( nhánh đúng) thì hệ thống tự động dừng việc định lượng lại, thực hiện trộn và xả bêtông của mẻ cuối cùng in hoá đơn. Tất cả các điều kiện của lưu đồ điều khiển liên quan chặt chẽ với nhau, không thể thiếu một điều kiện nào trên lưu đồ đó.
+
+Hình 2.2 Sơ đồ điều khiển trạm trộn
+CHƯƠNG 3. TÍNH TOÁN CHỌN CÁC THIẾT BỊ CHÍNH CỦA TRẠM
+3.1 Tính toán lựa chọn các thiết bị định lượng
+3.1.1 Tính chọn thiết bị định lượng nước
+Khối lượng nước tối đa dùng cho một mẻ trộn:
+Mnmax = 400.f. VSX(kg)
+Trong đó:
+f- là hệ số xuất liệu, f= 0,65 – 0,7, chọn f= 0,7.
+VSX- là dung tích nạp liệu của một mẻ trộn trước khi trộn
+VSX=
+Trong đó: Qtk=45(m3/h)- là năng suất trạm trộn trong một giờ
+m- là số mẻ trộn trong một giờ, m= = =47 (mẻ)
+Vậy VSX= = 1,38 (m3)
+Do đó mnmax = 400.0,7.1,38 =386,4(kg)
+
+Suy ra Vnmax = 0,386(m3)
+Hình 3.1 Thùng chứa nước
+Ta chọn sơ bộ các kích thước của thùng chứa nước như (hình 3.1), với chiều dày thép 3mm. Do đó ta có khối lượng của thùng là mth= 27(kg), lấy tròn với các thiết bị khác là 30kg.
+Ta tính toán được Vth= 0,394m3.
+Vậy khối lượng thùng cộng với nước mth+n=416kg
+Do đó ta chọn thiết bị định lượng nước là một đầu cân địên tử loại ngàm công xônZ6
+Ký hiệu Z6 /500của hãng HBM có trọng lượng cân tối đa 500KG
+3.1.2 Tính toán chọn thiết bị định lượng ximăng
+Lượng ximăng lớn nhất của một mẻ trộn
+mXmax= 700.f.VSX =700.0,7. 1,38 = 676(kg)
+Suy ra VXmax = = 0,482 (m3), ta chọn thùng cân ximăng có kích thước
+
+như (hình 3.2)
+
+Hình 3.2 Thùng chứa ximăng
+Chọn thép làm thùng có bề dày 4mm. Thể tích thùng chứa Vth = 0,742(m3)
+Khối lượng vỏ thùng mV =190 (kg). Như vậy tổng trọng lượng của thùng và ximăng: mth+x = 866 (kg)
+* Lựa chọn đầu cân:
+Thùng chứa ximăng được treo trên 3 đầu cân, mỗi đầu cân chịu một lực
+là: 886/3 =296(kg).
+Vậy ta chọn đầu cân điện tử loại ngàm côngxôn Z6 của hãng HBM với ký hiệu
+Z6/500, có tải trọng cân tối đa 500KG
+3.1.3 Tính chọn thiết bị định lượng cốt liệu
+Khối lượng cốt liệu lớn nhất mà thiết bị định lượng cốt liệu phải định lượng là:
+m(đ1+đ2+c) = 2000.f.VSX = 2000.0,7.1,38 = 1932(kG)
+Trong đó: mđ1 + mđ2 + mc = 2000(kG).
+Ta chọn sơ bộ khối lượng của gầu là 315 kG của khung cân là 247 kG. Như vậy tổng trọng lượng của khung, gầu, cốt liệu là 2494kG.
+Ta chọn thiết bị định lượng cốt liệu làm việc theo nguyên lý cộng dồn. Gỗu chứa cốt liệu được nằm trên ray trong khung cân, khung cân tỳ lên 3 đầu cân điện tử
+loại ngàm côngxôn Z6 có ký hiệu Z6/1000 của hãng HBM, với tải trọng cân tối đa là 1000KG.
+Như vậy tải trọng mà mỗi đầu cân phải cân là 2494/3 = 831 (kG)
+3.2. Tính toán chọn máy bơm ximăng
+Máy bơm ximăng là thiết bị vận chuyển ximăng từ kho chứa lên silô chứa ximăng
+Năng suất của máy bơm ximăng được xác định từ điều kiện sau:
+QB QXimăng
+Trong đó:
+QXimăng- là lượng ximăng cần dùng cho trạm trộn ximăng trong 1h
+QXimăng = 700.Qtk= 700. 45 =31500 KG/h= 31,5(T/h)
+Với Qtk – là năng suất thiết kế của trạm trộn, Qtk = 45m3/h
+Chọn máy bơm ximăng trong tài liệu
+Với các thông số kỹ thuật của máy như sau:
+- Năng suất QB(t/h) : 36
+- Cự ly vận chuyển theo phương đứng(m) : 35
+- Cự ly vận chuyển theo phương ngang (m) : 200
+- áp suất làm việc (Mpa) : 0,12
+- Khí nén tiêuu hao (m3/h) : 5,6
+- Công suất động cơ(KW) : 17
+- Kích thước bao máy(m) :
++ Chiều dàI (mm) : 2150
++ Chiều rộng (mm) : 710
++ Chiều cao(mm) : 935
++ Khối lượng(kg) : 670
+3.3. Xác định dung tích của bunke chứa các thành phần cốt liệu
+Việc tính toán dung tích của bun ke dựa trên số mẻ trộn cần thiết kế. Kết cấu của bunke phảI hợp lý dựa trên nguyên tắc đảm bảo xả cốt liệu không bị tắc ngẽn trong quá trình cân cốt liệu. Trong mục này tacó các kích thước sơ bộ của bunke như (hình 3.3)
+3.3.1. Dung tích của bunke chứa đá dăm
+Khối lượng đá dăm lớn nhất dùng cho một mẻ trộn là:
+Mđmax = 1500. f.VSX =1500.0,7. 1,38 =1449(kg)
+Thể tích của bunke chứa đá được xác định theo công thức:
+VBke = VVL.Kd
+Trong đó:
+VVL – là lượng cốt liệu đá cần dùng cho 30 mẻ
+Kd – hệ số dự trữ vật liệu, Kd = 0,25 0,5
+chọn Kd = 0,4.
+Khối lượng đá của 30 mẻ trộn:
+Mđ = 1449. 30 = 43470 (kg)
+Với khối lượng riêng của đá = 1800(kg/m3)
+VVL = = = 24,15 (m3)
+Thể tích của lượng đá trên là:
+VBke = VVL.Kd = 24,15.0,4 = 9,66(m3)
+Chọn VBke = 10(m3)
+Chọn bunke chứa đá gồm có hai ngăn với hai cửa xả, mỗi ngăn có thể tích 5 m3
+3.3.2 Tính toán dung tích của bunke chứa cát
+Dung tích của bunke chứa cát xác định theo công thức:
+VBke = VVL.Kd
+Trong đó :
+VVL – lượng cát vàng dùng trong 20 mẻ (m3)
+Kd – hệ số dự trữ vật liệu, chọn k = 0,4
+Khối lượng của cát vàng dùng cho một mẻ trộn được tính theo công thức:
+MCmax = 1000. f.VSX = 1000.0,7. 1,38 = 966 (kg)
+Khối lượng riêng của cát vàng = 1600(kg/m3)
+Khối lượng cát vàng dùng cho 20 mẻ
+MC = 20.966 =19320(kg)
+VVL = = 12,1(m3)
+Dung tích của bunke chứa cát: VBke = 12,1. 0,4 = 4,84(m3)
+Chọn VBke = 5(m3)
+Các bunke chứa cát và đá được gắn liền và được ngăn đều ra làm 3 ngăn
+Chọn sơ bộ kích thước của bunke chứa cốt liệu là đá và cát như (hình 3.3)
+Coi các mặt bên của bunke là hình thang cân, thế thì thể tích tổng cộng của bunke: VBke = = 16,5 (m3) .
+Vậy với các kích thước bunke mà ta chọn là hoàn toàn phù hợp với số mẻ trộn đã nêu ra.
+
+
+
+Hình 3.3 Dung tích của bunke chứa cát
+3.4. Tính toán chọn vít tải
+3.4.1. Giới thiệu chung, đặc điểm sử dụng vít tải.
+Vít tải thuộc nhóm máy vận chuyển không có bộ phận kéo, dùng để vận chuyển vật liệu ở dạng bột, hạt nhỏ theo phương ngang, hơi nghiêng hoặc thẳng đứng. Chiều dài vận chuyển của vít tảicó thể đạt đến 40m, năng suất đến 380 m3/h. Vít tải dạng di động hoặc dạng treo có chiều dài vận chuyển thường nhỏ hơn 12m
+Ưu điểm của vít tải là khoảng không gian chiếm chỗ nhỏ, giá thành thấp, dễ bảo dưỡng sửa chữa, cho phép cấp và dỡ tải ở vị trí bất kỳ trên tuyến vận chuyển.
+Nhược điểm của vít tải là công suất tiêu hao lớn do ma sát giữa vật liệu chuyển với cánh vít và máng khi làm việc. Vít tải không phù hợp cho vận chuyển vật liệu dễ bị vỡ nát hoặc cứng.
+Trục mang cánh xoắn dạng vít chuyển động trong máng nhờ cơ cấu dẫn động thông qua khớp nối. Trục được đỡ bởi các gối đỡ gắn trên máng và nắp đậy của máng. Khoảng cách giữa các gối đỡ khoảng 3m
+
+
+Khi trục quay, cánh xoắn đẩy vật liệu di chuyển trong máng. Vật liệu chuển không bám vào cánh xoắn là nhờ trọng lượng của nó và lực ma
+
+sát giữa vật liệu và máng. Chất tải cho vít tải qua lỗ trên nắp máng, dỡ tải qua lỗ ở phía dươí của máng.
+
+Theo dạng của cánh xoắn phân ra loại vít tải có cánh xoắn liên tục liền trục (hình 3.5.a), cánh xoắn liên tục không liền trục(hình 3.5b) và cánh xoắn dạng lá và cánh xoắn dạng lá(hình 3.5.c)
+Vít tải cánh xoắn liên tục dùng để vận chuyển vật liệu dạng bột khô, vật liệu dạng hạt nhỏ và trung bình. Vít tải cánh xoắn liên tục không liền trục dùng để vận chuyển vật liệu dạng hạt cỡ lớn hoặc dính. Loại này còn dùng để vận chuyển vật liệu dạng dính kết hoặc dùng để nhào trộn kết hợp với quá trình vận chuyển. Khi thay đổi chiều quay của trục mang cánh vít, chiều chuyển động của dòng vật liệu cũng thay
+
+
+đổi, ngoài ra trên một trục bố trí cánh vít theo hai chiều trái và phải thì cũng có được chiều phương án vận chuyển khác nhau(hình 3.6)
+3.4.2 Tính toán động cơ và năng suất của vít tải
+Các thông số cơ bản về vít tải :
+- Vít tải có chiều dài 9(m), được chia làm 3 đoạn mỗi đoạn 3(m).
+- Đường kính bao ngoài của vít tải
+Dv = 280(mm).
+- Chọn đường kính cánh xoắn
+D = 250(mm)
+- Góc nghiêng của trục vít so với phương ngang
+- Đường kính trục mang cánh xoắn
+d= (0,14 0,0,33 )D
+Chọn d = 0,24D = 0,24 0250 = 60(mm)
+-Bước vít S =(0,5 1,0)D
+Chọn S = D = 250(mm)
+a) Năng suất của vít tải
+Dạng cánh xoắn của vít tải là cánh xoắn liên tục liền trục nên theo công thức(4.9) trang 238 TL[2] ta có:
+Qvtải = 60. (T/h)
+Trong đó:
+D - Là đường kính cánh xoắn (m), D = 0,25(m)
+S - Bước vít, S = 0,25(m)
+n - Tốc độ quay của trục, n chọn theo bảng 3.58 trang 239,
+TL[2] chọn n = 90 (v/ph)
+Hệ số đầy vít, theo bảng 3.57
+Bảng 3.57. Hệ số đầy
+Đặc tính của vật liệu chuyển Vật liệu nặng, sắc cạnh Vật liệu nặng và ít sắc cạnh Vật liệu nhẹ và ít sắc cạnh Vật liệu nhẹ và không sắc cạnh 0,125 0,25 0,32 0,4
+
+Chọn = 0,4
+K _ Hệ số kể đến sự giảm năng suất khi vận chuyển nghiêng,
+
+Góc nghiêng 00 50 100 150 200 K 1,0 0,9 0,8 0,7 0,65
+Vậy K = 0,65.
+- Trọng lượng riêng của vật liệu, = 1,4(T/m3)
+C – Hệ số kể đến ảnh hưởng của vận tốc, C = 1.
+Mặt khác năng suất của vít tải trong một giờ phải đảm bảo điều kiện sau:
+Qvtải Qxm
+
+*TÀI LIỆU THAM KHẢO
+1. Nguyễn Hữu Lộc, Cơ sở thiết kế máy, NXB ĐHQGTP Hồ Chí Minh, 2004.
+2. Nguyễn Trọng Hiệp, Chi tiết máy tập 1, 2 NXB Giáo dục, 1998.
+3. Nguyễn Hữu Lộc, Bài tập chi tiết máy, NXB ĐHQGTP Hồ Chí Minh, 2003.
+4. Nguyễn Hữu Lộc, Độ tin cậy trong thiết kế kỹ thuật , NXB ĐHQGTP Hồ Chí Minh, 2002.
+
+Thiết kế hệ thống điều khiển tự động cho trạm trộn bê tông
+
+1, Yêu cầu kỹ thuật đối với hệ thống điều khiển trạm trộn: Hệ thống điều khiển trạm trộn bê tông, phải là một hệ thống thiết bị điện hoàn chỉnh, làm việc với điện lưới công nghiệp 380V. Có khả năng định lượng tự động một cách chính xác khối lượng cấp phối các thành phần: Xi măng, cát, đá, nước.. cho từng mẻ trộn cũng như tỷ lệ cấp phối cho từng loại mác bê tôn. Để đáp ứng yêu cầu công nghệ phù hợp với hệ thống cơ khí, cần phải phối hợp điều khiển các cơ cấu công tác chấp hành như các động cơ, xilanh khí nén..
+Trên cơ sở công thức phối liệu do người sử dụng đặt vào trước đó, hệ thống điều khiển sẽ tiến hành đóng mở các van khí cấp liệu một cách thích hợp sao cho các thành phần phối liệu được đưa vào buồng trộn theo đúng khối lượng và công nghệ yêu cầu. Việc thay đổi tỷ lệ của từng loại mác bêtôn cần được thao tác thuận tiện và nhanh chóng, không quá phức tạp đối với người sử dụng. Hệ thống cũng cần phải có đầy đủ phần hiển thị tình trạng hoạt động của trạm, giúp người vận hành dễ dàng theo dõi, can thiệp trong khi hoạt động, cũng như đảm bảo các thiết bị đóng cắt an toàn, cho cả hệ thống điều khiển và các cơ cấu chấp hành của trạm.
+Ngoài ra về mặt công nghệ, do nhu cầu sử dụng ngoài trời, trong môi trường công nghiệp khắc nghiệt với nhiệt độ và độ ẩm tương đối lớn, nên hệ thống điều khiển cần có độ tin cậy của các thiết bị thành phần, nhất là các bộ xử lý, các hệ thống đo lường, cảm biến..
+2, Nguyên lý làm việc và cấu tạo của hệ thống.
+Từ những yêu cầu trên, hệ thống điều khiển được hoặc định thành các khối chính như sau:
+Cụm cân (đo trọng lượng các thành phần phối liệu): bao gồm các đầu cân(cảm biến trọng lượng: Load cell), các cơ cấu chấp hành liên quan như các van khí nén đóng mở các cửa cấp liệu, vít tải bơm xi măng, bơm cấp nước. Cụm gầu kéo: các công tắc hành trình, đông cơ kéo gầu Cụm cửa xả: các cửa xả nước, xi măng, bêtôn sau khi đã trộn.. Khối xử lý khả lập trình (PLC): xử lý logíc các hành trình, theo qui trình công nghệ được lập sẵn.
+Sơ đồ nguyên lý của trạm được trình bày như trên hình.. ( H1 – IMI)
+Cấu hình của hệ thống bao gồm:
+Cụm cân:
+01 bộ BUCODAT – 2 dùng cho cân cốt liệu và cân xi măng
+01 bộ WE 31-82 dùng cho cân nước
+Tủ điều khiển trung tâm:
+Bộ máy tính công nghiệp PLC S7-200: điều khiển toàn bộ quá trình hoạt động của trạm trong chế độ tự đông.
+Các khối rele trung gian, các công tắc điều khiển, các đèn tín hiệu theo sơ đồ công nghệ đã đặt ra.
+Tủ điều khiển động lực: các thiết bị đóng cắt, các thiết bị bảo vệ ngắn mạch và quá tải..
+
+Sơ đồ điều khiển: h2 IMI
+Cụm cân: hệ thống làm việc ở hai chế độ: chế độ cân tự động và chế độ cân băng tay. Chế độ bằng tay: đường 67 có điện áp 24V đến điểm giữa của công tác 4 vị trí 1L. Khi cần xả thành phần1(TP1: ví dụ đá 1), công tắc bật đến đường 100, cấp 24V một chiều qua diode đến điểm 200, đặt áp điều khiển lên rele trung gian R1. Khi ben cốt liệu ở vị trí cuối, công tắc hành trình ĐT0 (Điểm Trên 0) được nối, rele R1 làm việc qua đường 67-1L-100-200-57, tiếp điểm của nó nối đường 66-300-56, đặt 220V lên cuộn hút của van VTP1 (Van Thành Phần 1), mở của cấp liện đá 1 đổ xuống gầu cân. Người vận hành nhìn chỉ số cân trên đồng hồ để điều khiển, khi nào thì chuyền đến TP2. Tương tự như vậy, R2 làm việc qua dường 101-203-57, sẽ đóng van VTP2..
+Khi ở chế độ tự động, chuyển mạch T-ĐT nối 24V từ đường 67 đến 151, cấp điện đến khối chấp hành của PLC, khi các các đầu ra của PCL hoạt động, Q0.0, Q0.1.. sẽ đóng các rele R1, R2.. tương ứng. Các cơ cấu chấp hành (VTP1, VXN..) sẽ hoạt động theo đúng qui trình đã lập sẵn, người vận hành chỉ theo dõi, không phải trực tiếp điều khiển cân.
+Các cụm cửa xả, cụm gầu kéo cũng tương tự, hoặc là được điều khiển bởi công tắc chuyển mạch trên bàn điều khiển( 3L-110, 3L-111.. 4L-114, 4L115..) trông chế độ bằng tay, hoặc điều khiển bởi đầu ra của PLC Q1.0, Q1.1.. Q1.6 trong chế độ tự động.
+Sơ đồ động lực: H3 IMI
+để điều khiển gầu lên, Rele R15 đóng K21, đóng 3fa 380 cho đông cơ D1, tiếp điểm thường đóng R15 ngắt mạch 255 của R16, khoá lẫn chiều xuống, động cơ chạy đến điểm hành trình trên, chạm công tắc ĐT1 thì dừng lại. Tiếp điểm của nó báo đến đầu vào I2.6 của PLC qua đường 67-26, chuyển trạng thái tiếp theo trong chế độ tự động, còn trong chế độ bằng tay thì nó ngắt tác dụng của chuyển mạch L4-114. Qui trình hoạt động tương tự như thế với hành trình xuống của gầu qua R16, K20, đặt áp 380 đảo fa cho động cơ D1 quay theo chiều ngược lại. Các động cơ khác như bơm nước, vít tải, đầm rung làm việc theo chế độ on/off, cũng được điều khiển qua các rele trung gian R6, R7.. đóng các K12, 15..
+
+
+
+
+
+

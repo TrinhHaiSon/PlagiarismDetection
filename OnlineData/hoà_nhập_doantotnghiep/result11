@@ -1,0 +1,258 @@
+THIẾT KẾ QUY TRÌNH CÔNG NGHỆ GIA CÔNG MẶT BÍCH CĐKT CAO THẮNG
+LỜI NÓI ĐẦU
+
+Hiện nay khoa học kỹ thuật càng ngày càng phát triển và hoàn thiện. Nền kinh tế của nước ta đang đổi mới, phát triển theo nhịp độ chung của toàn thế giới, nó đòi hỏi phải vận dụng những thành tựu khoa học kĩ thuật một cách linh hoạt nhất.Trong đó ngành cơ khí đóng vai trò then chốt, có tính chất quyết định đến công cuộc đổi mới đất nước. Nền công nghiệp nước nhà không thể phát triển toàn diện được nếu thiếu vắng sự lớn mạnh của ngành cơ khí mà điển hình là công nghệ chế tạo máy.
+Đây là một lĩnh vực rất rộng, phức tạp và không ít khó khăn khi chúng ta đi sâu vào nghiên cứu nó nhưng bằng sự sáng tạo, trí thông minh và tính cần cù của con người chúng ta đã đạt được một số thành tựu đáng kể trong những năm gần đây để đáp ứng được những nhu cầu của xã hội có thể dễ dàng hoà nhập với công nghệ mới đòi hỏi mỗi kĩ sư thực hành ngành chế tạo máy phải biết vận dụng mọi kiến thức được học trong trường để áp dụng có hiệu quả .
+Trong việc làm đồ án tốt nghiệp về thiết kế quy trình công nghệ chế tạo máy của ngành chế tạo máy chúng em đã góp một phần nhỏ bé của mình vào việc :
+
+“ Tính toán thiết kế quy trình công nghệ gia công chi tiết MẶT BÍCH ”.
+MỤC LỤC
+Phân tích chi TIẾT gia công.. 1 ChỌn phôi, phương pháp chẾ tẠo phôi và xác đỊnh lưỢng dư gia công.10 LẬP BẢNG QUY TRÌNH CÔNG NGHỆ GIA CÔNG CƠ.. 15 BIỆN LUẬN QUY TRÌNH CÔNG NGHỆ GIA CÔNG.. 16 THIẾT KẾ ĐỒ GÁ.. 49 TÀI LIỆU THAM KHẢO, TRA CỨU.. 62
+
+Phần 1
+Phân tích chi TIẾT gia công
+1.1 Phân tích công dụng và điều kiện làm việc của CTGC:
+- Công dụng: CTGC là nắp bích của hộp bước tiến máy tiện T616, được lắp cố định bên thành hộp nhằm chặn chuyển động dọc trục của ổ lăn, định vị kết cấu trục và che bụi xâm nhập từ bên ngoài.
+- Điều kiện làm việc của mặt bích: mặt bích là chi tiết tĩnh với 2 bề mặt làm việc trong môi trường khác nhau. Mặt ngoài của chi tiết tiếp xúc với không khí ở nhiệt độ môi trường nên bị bám nhiều bụi bẩn, ngược lại mặt trong tiếp xúc với thành hộp, vòng ngoài ổ lăn sẽ chịu nhiệt độ cao và có dầu. Qua phân tích công dụng và điều kiện làm việc có thể nhận thấy chế tạo mặt bích không đòi hỏi quá khắt khe về vật liệu và yêu cầu kỹ thuật.
+
+1.2 Phân tích vật liệu chế tạo chi tiết gia công:
+- Vật liệu chọn để gia công chi tiết là thép C45.
+- Thành phần hóa học của thép C45, % (theo khối lượng)
+- Tính chất cơ học của thép C45:
+- Khái niệm lý hóa của thép cacbon như sau: Thép cacbon là một hợp kim có hai thành phần cơ bản chính là sắt và cacbon, trong khi các nguyên tố khác có mặt trong thép cacbon là không đáng kể. Thành phần phụ trợ trong thép cacbon là mangan (tối đa 1,65%), silic (tối đa 0,6%) và đồng (tối đa 0,6%). Lượng cacbon trong thép càng giảm thì độ dẻo của thép cacbon càng cao. Hàm lượng cacbon trong thép tăng lên cũng làm cho thép tăng độ cứng, tăng thêm độ bền nhưng cũng làm giảm tính dễ uốn và giảm tính hàn. Hàm lượng carbon trong thép tăng lên cũng kéo theo làm giảm nhiệt độ nóng chảy của thép.
+- Và thép được phân loại như sau:
++ Thép mềm (ít cacbon): Lượng cacbon trong khoảng 0,05–0,29% (Ví dụ theo tiêu chẩn AISI có thép 1018). Thép mềm có độ bền kéo vừa phải, nhưng lại khá rẻ tiền và dễ cán, rèn; Thép mềm sử dụng nhiều trong xây dựng, cán tấm…
++ Thép cacbon trung bình: Lượng cacbon trong khoảng 0,30–0,59% [(Ví dụ theo tiêu chuẩn AISI có thép 1040). Có sự cân bằng giữa độ mềm và độ bền và có khả chống bào mòn tốt; phạm vi ứng dụng rộng rãi.
++ Thép cacbon cao: Lượng cacbon trong khoảng 0,6–0,99%. Rất bền vững, sử dụng để sản xuất nhíp, lò xo, kéo thành sợi dây thép chịu cường độ lớn.
++ Thép cacbon đặc biệt cao: Lượng cacbon trong khoảng 1,0–2,0% . Thép này khi tôi sẽ đạt được độ cứng rất cao. Dùng trong các việc dân dụng: dao cắt, trục xe hoặc đầu búa. Phần lớn thép này với hàm lượng 1,2%C được sử dụng trong công nghệ luyện kim bột và luôn được xếp loại vào với thép cacbon có hợp kim cao.
+- Tính chất và công dụng của thép vừa trình bày đáp ứng tất cả các yêu cầu kỹ thuật về vật liệu CTGC ở phần 1.1 . Do vậy vật liệu thép C45 đã cho là hợp lý có thể sử dụng gia công.
+
+1.3.Kết cấu hình dạng chi tiết gia công.
+Hình 1.1 Hình dạng, yêu cầu kỹ thuật của CTGC
+- CTGC hình 1.1 có dạng bạc, cấu tạo đơn giản .Công dụng của các mặt như sau:
++ Kích thước dùng để định vị CTGC vào lỗ hộp.
++ Kích thước dùng để lắp bạc trung gian.
++ Mặt D tiếp xúc với thành hộp.
++ Kích thước Ø82 không làm việc.
++ Mặt E và các lỗ Ø10, Ø6 dùng để lắp bu lông cố định mặt bích với thành hộp.
++ Mặt E và F là mặt thoát, giúp mặt bích không bị cấn các chi tiết khác khi lắp ghép.
+
+1.4.Phân tích độ chính xác gia công.
+- Độ chính xác về kích thước:
++ Kích thước Ø40
+Sai lệch trên ES =0.025
+Sai lệch dưới EI = 0
+Dung sai IT = ES – EI = 0.025 – 0 = 0.025
+Chọn phương pháp tiện tinh [bảng 3.1/tr38 , sách HD TKDA CN CTM] nên có ccx 7
++ Kích thước Ø6
+Sai lệch trên ES = 0.12
+Sai lệch dưới EI = 0
+Dung sai IT = ES – EI = 0,12 – 0 = 0,12
+Chọn phương pháp khoan [bảng 3.1/tr38 , sách HD TKDA CN CTM] nên có ccx 12
++ Kích thước 38
+Sai lệch trên ES = +0.25
+Sai lệch dưới EI = -0.25
+Dung sai IT = ES – EI = +0.25 – (-0.25)= 0, 5
+Chọn phương pháp tiện thô [bảng 3.1/tr38 , sách HD TKDA CN CTM] nên có ccx 12
++ Kích thước 76
+Sai lệch trên ES = +0.3
+Sai lệch dưới EI = -0.3
+Dung sai IT = ES –EI = +0.3 – (-0.3)= 0,6
+Chọn phương pháp tiện thô [bảng 3.1/tr38 , sách HD TKDA CN CTM] nên có ccx 12
++ Kích thước 33
+Sai lệch trên ES = +0.25
+Sai lệch dưới EI = -0.25
+Dung sai IT = ES – EI = +0.25 – (0.25)= 0.5
+Chọn phương pháp tiện thô [bảng 3.1/tr38 , sách HD TKDA CN CTM] nên có ccx 12
++ Kích thước 20
+Sai lệch trên ES = +0.21
+Sai lệch dưới EI = -0.21
+Dung sai IT = ES – EI = +0.21 – (-0.21)= 0,42
+Chọn phương pháp tiện thô [bảng 3.1/tr38 , sách HD TKDA CN CTM] nên có ccx 12
++ Kích thước 30
+Sai lệch trên ES = +0.25
+Sai lệch dưới EI = -0.25
+Dung sai IT = ES – EI = +0.25 – (-0.25)= 0,5
+Chọn phương pháp tiện thô [bảng 3.1/tr38 , sách HD TKDA CN CTM] nên có ccx 12
++ Kích thước 8
+Sai lệch trên ES = +0.15
+Sai lệch dưới EI = 0
+Dung sai IT = ES – EI = +0.15 – 0= 0,15
+Chọn phương pháp khoan [bảng 3.1/tr38 , sách HD TKDA CN CTM] nên có ccx 12
++ Kích thước 16
+Sai lệch trên ES = +0.18
+Sai lệch dưới EI = -0.18
+Dung sai IT = ES – EI = +0.18 – (-0.18)= 0,36
+Chọn phương pháp khoét thô [bảng 3.1/tr38 , sách HD TKDA CN CTM] nên có ccx 12
++ Kích thước 13
+Sai lệch trên ES = +0.18
+Sai lệch dưới EI = -0.18
+Dung sai IT = ES – EI = +0.18 – (-0.18)= 0,36
+Chọn phương pháp khoan [bảng 3.1/tr38 , sách HD TKDA CN CTM] nên có ccx 12
++ Kích thước 58
+Sai lệch trên ES = +0.025
+Sai lệch dưới EI = 0
+Dung sai IT = ES – EI = +0.025 – 0= 0,025
+Chọn phương pháp tiện tinh [bảng 3.1/tr38 , sách HD TKDA CN CTM] nên có ccx 7
++ Kích thước 9
+Sai lệch trên ES = +0.15
+Sai lệch dưới EI = -0.15
+Dung sai IT = ES – EI = +0.15 – (-0.15)= 0.3
+Chọn phương pháp khoan [bảng 3.1/tr38 , sách HD TKDA CN CTM] nên có ccx 12
++ Kích thước 10
+Sai lệch trên ES = +0.15
+Sai lệch dưới EI = 0
+Dung sai IT = ES – EI = +0.15 – 0= 0,15
+Chọn phương pháp khoét thô [bảng 3.1/tr38 , sách HD TKDA CN CTM] nên có ccx 12
++ Kích thước 4
+Sai lệch trên ES = +0.12
+Sai lệch dưới EI = 0
+Dung sai IT = ES – EI = +0.12 – 0= 0,12
+Chọn phương pháp khoan [bảng 3.1/tr38 , sách HD TKDA CN CTM] nên có ccx 12
+- Tra bảng 1.4 trang 4 BTDSLG.
+o Độ chính xác về hình dáng hình học.
+- CTGC không có yêu cầu đặc biệt về độ chính xác hình dáng hình học.
+o Độ chính xác về vị trí tương quan.
+- Dung sai độ đồng tâm giữa lỗ ∅40 và trụ ∅58 ≤ 0.016mm
+o Chất lượng bề mặt
+- Độ nhám bề mặt của CTGC như sau:
++ Bề mặt lỗ có độ nhám 1,25 cấp độ nhám 6
++ Bề mặt trục có độ nhám 2,5 cấp độ nhám 6
++ Các bề mặt không gia công cơ có độ nhám Rz = 40 µm
+Yêu cầu cơ về lý tính:
+- CTGC không có yêu cầu đặc biệt về cơ lý tính.
+èKết luận:
+- Chi tiết gia công có các bề mặt làm việc trong điều kiện lắp ghép, cần độ chính xác cao, nên cấp chính xác của các kích thước phải phù hợp.Các vị trí tương quan như là: độ phẳng, độ vuông góc,độ song song của các bề mặt làm việc phải xác định được dung sai để khi lắp ghép chi tiết. Chi tiết là thép cacbon nên chất lượng bề mặt của bề mặt làm việc thường có cấp chính xác là 7, còn các bề mặt còn lại thì có cấp độ nhám Rz =40µm.
+
+1.5 Xác định sản lượng năm.
+Dùng phần mềm Creo Parametric 2.0 tính
+V = 0,1149 dm3
+thép = 7,85 kg/dm3
+Khối lượng chi tiết :
+Mct = . V = 7,85.0,1149 = 0,9 kg
+Tra bảng 2.2/tr20 HDTK DA CNCTM với dạng sản xuất hàng loạt vừa
+Khối lượng Mct = 0.9 < 4 Kg => sản lượng hàng năm 500 ÷ 5000 chiếc/năm
+
+Phần 2
+ChỌn phôi, phương pháp chẾ tẠo phôi và xác đỊnh lưỢng dư gia công.
+2.1 Chọn phôi.
+- Trong cơ khí, một chi tiết có thể chọn những phương pháp chế tạo phôi liệu khác nhau như: rèn, đúc, cán…Mỗi phương pháp đều có công dụng và ưu thế riêng.
+- Phôi đúc: kim loại nóng chảy được rót vào khuôn nên dễ điền đầy vào các góc ngạnh phức tạp với kích thước từ nhỏ đến lớn mà các phương pháp khác khó đạt được. Tuy nhiên nhược điểm của đúc là khó kiểm soát được thành phần hoá học bên trong kim loại và rỗ khí làm ảnh hưởng đến chất lượng phôi. Đúc được sử dụng trong các dạng phôi như: đế, vỏ máy, dạng tròn xoay, cánh tua- bin, chạc…
+- Phôi cán: là sản phẩm của nhà máy luyện kim liên hợp để chế tạo trực tiếp bằng phương pháp gia công có phôi trên các máy cắt gọt kim loại. Ưu điểm lớn nhất của phôi cán là nếu CTGC có hình dạng, kích thước gần giống như các loại phôi có sẵn thì không cần phải gia công nhiều và cơ tính đảm bảo hơn so với đúc. Nhược điểm phương pháp cán là không tạo được phôi có hình dạng phức tạp. Cán được sử dụng để tạo các trục trơn, trục bậc có đường kính ít thay đổi, các tay gạt, trục then..
+- Phôi rèn: khởi phẩm của phôi rèn là những thỏi thép đúc hay phôi cán. So với đúc và cán thì phôi rèn có kết cấu bền chặt hơn, do đó đối với những trục quan trọng như trục chính máy cắt kim loại, trục khuỷu các loại động cơ đốt trong thường dùng phôi rèn. Nhược điểm phôi rèn là: không tạo được phôi có hình dạng phức tạp và giá thành cao.
+- Việc lựa chọn phương pháp tạo phôi phụ thuộc vào nhiều yếu tố như: hình dạng, kích thước, trọng lượng của chi tiết, nguyên liệu làm chi tiết, sản lượng, dạng sản xuất…CTGC có các đặc điểm sau:
++ Dạng sản xuất: hàng loạt vừa, trang thiết bị tự chọn.
++ Đặc điểm hình dạng: dạng bạc, hình dạng, cấu tạo đơn giản.
++ Vật liệu: Thép C45
+- Dựa vào đặc điểm CTGC và phân tích các loại phôi thì công nghệ đúc là lựa chọn hợp lý nhất.
+
+2.2 Phương pháp chế tạo phôi đúc.
+- Tuỳ theo công dụng, hình dạng và kích thước của chi tiết sẽ có nhiều phương pháp đúc khác nhau:
++ Đúc bằng khuôn tay.
++ Đúc bằng khuôn máy.
++ Đúc bằng khuôn chân không.
++ Đúc bằng khuôn vỏ mỏng.
++ Đúc chính xác.
++ Đúc đầy.
++ Đúc áp lực.
++ Đúc khuôn kim loại.
++ Đúc ly tâm.
+- CTGC phù hợp phương pháp đúc có thể lấy được mẫu ra và cấp chính xác đạt được là 16. Do vậy những phương pháp sau đây là khả thi:
+- Đúc mẫu gỗ làm khuôn bằng tay: phương pháp này có độ chính xác kích thước thấp vì quá trình làm khuôn có sự xê dịch của mẫu trong chất làm khuôn và sai số chế tạo mẫu. Năng suất cực thấp vì quá trình thực hiện bằng tay. Do đó dùng trong sản xuất đơn chiếc hoặc đúc những chi tiết có trọng lượng lớn như bệ máy, thân máy cắt gọt kim loại.
+- Đúc mẫu gỗ làm khuôn bằng máy: phương pháp này có năng suất và độ chính xác cao hơn phương pháp trên vì đảm bảo sự đồng nhất của khuôn, giảm sai số của qua trình làm khuôn gây ra. Muốn khuôn ép sát người ta có thể dùng đầm hay rung động để dồn khuôn. Phương pháp này dùng sản xuất hàng loạt nhỏ với trọng lượng chi tiết không lớn lắm.
+- Đúc mẫu kim loại làm khuôn bằng máy: phương pháp này có năng suất và độ chính xác cao hơn các phương pháp trên vì đảm bảo sư đồng nhất của khuôn, giảm sai số do quá trình làm khuôn gây ra, phương pháp này dung sản xuất loạt vừa trở lên.
+- Vật đúc cấp chính xác ΙII thường đạt được trong sản xuất đơn chiếc. Độ chính xác tương ứng cấp chính xác 14 đối với kích thước < 500 mm, và 15-16 với kích thước > 500 mm.
+- Vật đúc cấp chính xác II thường đạt được trong sản xuất hàng loạt. Độ chính xác tương ứng cấp chính xác 13-14 đối với kích thước < 500 mm, và 14-15 với kích thước > 500 mm.
+- Vật đúc cấp chính xác I thường đạt được trong sản xuất hàng loạt. Độ chính xác tương ứng cấp chính xác 12.
+- Đúc khuôn chân không: khuôn chân không được tạo ra từ cát không có chất kết dính. Hai nửa mẫu vật có những lỗ khoan nhỏ thông với thùng rỗng của hộp khuôn chân không. Một tấm màng co được phủ lên vật mẫu. Dưới sức nóng của hộp sưởi điện bên trên và do sức hút chân không từ mặt dưới, tấm màng co biến dạng theo hình thù của vật mẫu. Đổ cát lên tấm màng. Qua quá trình rung khuôn cát bên trong dồn sít lại, sau đó phủ lên tấm màng co thứ hai. Dưới sức hút chân không, cát trong lòng khuôn bị nén chặt. Khi tắt máy hút chân không khuôn đúc được tách ra khỏi mẫu. Sau khi tạo xong nửa kia của khuôn, hai nửa trên dưới được ghép lại với nhau, gài chắc và đúc. Trong khi đó vẫn giữ toàn bộ hộp khuôn trong tình trạng bị hút chân không áp suất âm. Khi kim loại được rót vào, tấm màng co sẽ bị bốc hơi. Sau khi vật đúc đã đông đặc lại, tắt máy hút chân không, vật đúc tự động rơi ra khỏi khuôn. Cát làm khuôn có thể sử dụng lại. Phương pháp này được sử dụng để đúc bệ máy công cụ và tấm thành khung hai bên của máy in.
+- CTGC sản xuất dạng loạt vừa và có cấp chính xác thấp nhất là 16 nên đúc phôi theo phương pháp “đúc mẫu kim loại làm khuôn bằng máy” là phù hợp.
+2.3 Xác định lượng dư:
+- Với kích thước lớn nhất của chi tiết là R41, tra bảng 3-102 trang 255 sổ tay CNCTM1 ta được lượng dư chi tiết đúc như sau:
+Mặt Kích thước danh nghĩa Lượng dư Dung sai Lỗ 3 0,8 Trụ 3 1 Mặt Ø82 3 A 38 3 0,8 C 38 3,5 0,8 D 30 3,5 0,8 E, F 76 3 0,1
+
+Hình 2.1 Bản vẽ chi tiết lồng phôi.
+2.4 Tính hệ số sử dụng vật liệu.
+Dùng phần mềm Creo Parametric 2.0 tính
+- Khối lượng của phôi là : 1,15kg
+- Khối lượng của chi tiết là : 0.9kg
+- Hệ số sử dụng vật liệu:
+K = = = 0,78
+- Do K = 0,78> 0,7 chi tiết đạt yêu cầu.
+
+Phần 3
+LẬP BẢNG QUY TRÌNH CÔNG NGHỆ GIA CÔNG CƠ
+3.1 Mục đích
+- Xác định các trình tự gia công hợp lý nhằm đảm bảo chính xác về kích thước, vị trí tương quan, hình dáng hình học, độ nhám bề mặt theo yêu cầu chi tiết cần chế tạo.
+3.2 Nội dung
+- Chọn phương pháp gia công các bề mặt phôi.
+- Chọn chuẩn công nghệ và sơ đồ gá đặt.
+- Chọn trình tự gia công các chi tiết.
+Phần 4
+BIỆN LUẬN QUY TRÌNH CÔNG NGHỆ GIA CÔNG
+- Quy trình gia công chi tiết được thực hiện theo quy trình gia công theo chi tiết dạng bạc, chuẩn tinh chính được chọn là lỗ .
+- Trình tự gia công chi tiết do nhà thiết kế lựa chọn sao cho phù hợp với yêu cầu của chi tiết dạng bạc và đạt được năng suất cao.
+4.1 Nguyên công I: Chuẩn bị phôi
+Hình 4.1Kích thước phôi ban đầu
+
+- Làm sạch phôi.
+- Kiểm tra khuyết tật phôi: Kiểm tra hình dáng chi tiết khi đúc ra có đúng với hình dáng theo yêu cầu không, kiểm tra bề mặt có bị nứt, bằng phẳng hay không.
+- Cắt bỏ bavia, đậu ngót, đậu rót, đậu hơi: Khi đúc ra, chi tiết sẽ còn lại đậu ngót và đậu rót ta cần cắt bỏ nó đi và mài lại.
+- Kiểm tra kích thước phôi: Đo đạt từng kích thước chi tiết gia công cho phù hợp với yêu cầu ban đầu.
+- Thường hóa phôi : Ủ phôi ( mục đích làm ổn định mạng tinh thể và khử ứng suất dư ).
+Hình 4.2Sơ đồ ủ phôi
+
+4.2 Nguyên công II: Tiện thô mặt C, tiện thô lỗ Ø39, tiện trụ bậc Ø60 dài 8, tiện rãnh Ø56 rộng 3, vát mép 1x.
+
+
+I. Chuẩn định vị khi gia công
+- Mặt B khử 3 bậc tự do :
++ Chống xoay theo phương Ox và Oz
++ Chống tịnh tiến theo phương Oy
+- Trụ Ø88 khử 2 bậc tự do :
++ Tịnh tiến theo phương Oz và Ox
+II. Chọn bề mặt kẹp chặt : mặt trụ ngoài Ø88
+Chọn máy :
+- Máy tiện 1K62, có các thông số cơ bản của máy như sau:
++ Cấp tốc độ trục chính : 12,5-16-20-25-31,5-40-50-63-80-100-125-160-200-250-315-400-500-630-800-1000-1250-1600-2000 vòng/phút.
++ Công suất động cơ trục chính : 7,5 kW .
++ Bước tiến bàn máy ( mm/vòng ): 0,07÷4,16
++ Khoảng dịch chuyển bàn dọc: 640 (mm)
++ Khoảng dịch chuyển bàn ngang: 250 (mm)
++ Kích thước máy (mm) : 2522x1166x1324 mm.
+4.2.1 Bước 1: Tiện thô mặt C đạt cấp chính xác 12, kích thước 41±0,25, độ nhám = 40 µm.
+Chọn dao: Dao tiện ngoài đầu cong có góc nghiêng chính , gắn mảnh hợp kim cứng . Tra bảng 4-4 trang 295 sổ tay CNCTM1 ta được: H = 20mm, B = 16mm, L = 120mm, n = 6. Dụng cụ: Thước cặp 1/50. Đồ gá: chuyên dùng. Bậc thợ: công nhân 2/7. Chọn chế độ cắt:
+Chọn t: Gia công thô nên chọn t = 2,5 mm Chọn lượng chạy dao: Theo bảng 5.11 trang 11 sổ tay CNCTM 2 ta được: S =(0,8 -1,2) mm/vòng. Phôi có đường kính d = 88 mm nên chọn S = 1 mm/vòng. Tốc độ cắt theo công thức:
+(m/phút) (*)
+Theo bảng 5.17 trang 14 sổ tay CNCTM2 ta có :
+x y m 292 0,3 0,15 0,18
+Theo trang 10 của [1]: T = 50 phút.
+Bảng 5.1 trang 6 sổ tay CNCTM2:
+Theo bảng 5.5 trang 8 sổ tay CNCTM2: Knv = 0,8
+Theo bảng 5-6 trang 8 sổ tay CNCTM2: Kuv = 1
+Kv = Kmv . Knv . Kuv = 1 . 0,8 . 1 = 0,8
+Thay vào (*) ta có: 87,7 m/phút
+Số vòng quay trong 1 phút của dao:
+(vg/phút).
+Chọn n = 315 vg/phút . Lúc này tốc độ cắt thực tế:
+(m/phút).
+Tính lực cắt theo công thức:
+(N)
+Theo bảng 5.23 trang 122 của [1] ta được:
+x y n 384 0.9 0,9 -0.15
+Theo bảng 5.22 trang 17 của [1]
+0.89 1 1 0,93
+Thay vào công thức:
+Công suất cắt:
+5,2 kW
+So với công suất máy = 7,5 kW, máy làm việc đảm bảo an toàn.
+Thời gian chạy máy:
+Trong đó:
++ L = 32 mm: chiều dài gia công.
++ mm: khoảng dao trước khi chạm phôi.
+3mm: khoảng thoát dao.
++ : tốc độ trục chính.
++ S = 1 mm/vòng: lượng chạy dao.
+
+
+
+

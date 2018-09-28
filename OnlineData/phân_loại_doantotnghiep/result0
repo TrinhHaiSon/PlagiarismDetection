@@ -1,0 +1,132 @@
+THIẾT KẾ MÁY PHÂN LOẠI SẢN PHẨM THEO KÍCH THƯỚC CHIỀU DÀI. , thuyết minh, động học máy, kết cấu máy, nguyên lý máy, cấu tạo máy, quy trình sản xuất
+NỘI DUNG
+Thiết kế máy: Máy phân loại sản phẩm theo kích thước chiều dài.
+Với các yêu cầu sau:
+Phần BẢN VẼ
+Bản vẽ sơ đồ nguyên lý
+Bản vẽ lắp / cụm của máy
+Bản vẽ các chi tiết gia công của máy
+Bản vẽ sơ đồ nguyên công của qui trình công nghệ gia công (nếu khối lượng công việc ít)
+Phần THUYẾT MINH
+1 - Tổng quan
++ Yêu cầu xã hội
++ Phân tích sản phẩm (Cơ lý tính)
++ Yêu cầu của máy
+2 - Thiết kế máy
++ Lựa chọn nguyên lý làm việc
+3. kết luận
++ Nhận xét đánh giá máy
++Hướng dẫn sử dụng bảo quản
+4 - Sản xuất thử mô hình, điều chỉnh, sửa chữa lại thiết kế (nếu có)
+
+Chương 1: Đại Cương
+
+1.1 Yêu Cầu Xã Hội:
+Hiện nay do quá trình công nghiệp hóa – hiện đại hóa, cũng nước ta bước vào thời kì hội nhập, nhu cầu hiện đại hóa là rất cần thiết, mà tiêu biểu là trong nghành kỹ thuật. Ví dụ như trong các phương pháp gia công cơ khí từ tiện, khoan, phay trước đây đều gia công bằng cách truyền thống trên máy công cụ. Nhưng giờ đây người ta phát triển từ việc gia công truyền thống sang gia công bán tự động và giờ đây là gia công hoàn toàn tự động. Cũng dựa trên nhu cầu đó, từ việc đo kiểm tra kích thước bằng phương pháp truyền thống là bằng các thiết bị đo cơ bản như thước cặp, panme. Sau đó phát triển lên là đo bằng thước cặp điện tử và panme điện tử và sau này là phát triển việc đo kiểm tra bằng phương pháp tự động và đó là lí do tại sao chúng em phát triển mô hình đo kiểm tra kích thước tự động. Với phương pháp đo này chúng ta có thể tiết kiệm được thời gian, không giới hạn về kích thước, nhưng giới hạn của phương pháp này là chi tiết cần đo phải được gia công hoàn chỉnh và có độ đồng phẳng, chi phí đầu tư ban đầu cho máy cao.
+1.2. Giới thiệu chung về đề tài : Hiện nay đất nước ta đang trong quá trình Công nghiệp hoá, hiện đại hoá. Chính vì vậy có rất nhiều khu công nghiệp đã và đang được hình thành với nhiều dây chuyền thiết bị hoạt động hiện đại cùng với sự đầu tư và góp vốn đến từ các nước khác trến thế giới. Trong những thập niên gần đây, các thiết bị điện tử được ứng dụng rộng rãi trên khắp thế giới. Sự đa dạng và phát triển của ngành này không ngừng biến đổi. Điện tử là một trong những ngành kỹ thuật tinh vi của Thế giới, nó là một phương tiện dường như không thể thiếu trong mọi lĩnh vực như : viễn thông, y khoa, các phòng thí nghiệm, nghiên cứu, v…v.. Nó đảm bảo hiệu suất trong công việc cũng như độ tin cậy thỏa mãn cho người sử dụng, điện tử là một ngành mà tín hiệu vận động đặt trên cơ sở dòng điện và điện áp. Từ những linh kiện nhỏ và đơn giản ta có thể tạo ra các thiết bị thật sự hữu dụng trong cuộc sống hằng ngày và đặc biệt trong sản xuất. Những thiết bị tinh vi giúp giải phóng sức lao động, tạo ra hiệu suất lao động chưa từng có, một máy họat động có thể thay thế cho vài chục nhân công, thậm chí còn hơn thế nữa. Sự kết hợp giữa ngành điện – điện tử và ngành cơ khí là một bước tiến quan trọng trong sự phát triển của tự động hóa trong công nghiệp. Hiện nay đất nước ta đang trong quá trình phát triển và hội nhập, chính vì thế các mặt hàng được sản xuất ra không những đạt tiều chuẩn về chất lượng, mà còn đòi hỏi phải có độ chính xác cao về hình dạng, kích thước, trọng lượng…Cho nên từ đó các khu công nghiệp được hình thành với nhiều dây chuyền thiết bị máy móc hiện đại để phối hợp với nhu cầu sản xuất, để tạo ra năng suất cao hơn trong quá trình sản xuất. Trong các Nhà máy, các sản phẩm được sản xuất ra trước khi được xuất xưởng thì phải trải qua nhiều giai đoạn kiểm tra sản phẩm. Tuỳ theo sản phẩm được sản xuất ra mà nó phải được kiểm tra qua các khâu khác nhau, chẳng hạn như kiểm tra về chất lượng, kích thước, hình dạng, hoặc trọng lượng …Trong đề tài : PHÂN LOẠI SẢN PHẨM THEO CHIỀU DÀI. Đề tài này sẽ giúp cho chúng em phần nào hiểu rõ hơn về cách thức hoạt động của các dây chuyền thiết bị được dùng trong việc phân loại sản phẩm Ngày nay, việc tập trung hóa - tự động hóa công tác quản lý, giám sát và điều khiển các hệ thống tự động nhằm nâng cao hiệu quả sản xuất, tránh rủi ro, tiết kiệm chi phí, hạn chế nhân công là một xu hướng tất yếu của quá trình sản xuất. Cùng với tốc độ phát triển nhanh chóng của kỹ thuật vi điện tử, kỹ thuật truyền thông và công nghệ phần mềm trong thời gian qua, điều khiển tự đông đã ra đời và phát triển càng ngày càng đa dạng đáp ứng các yêu cầu, đòi hỏi quá trình tự động trong các lĩnh vực công nghiệp. Chính vì vậy phải lựa chọn quá trình điều khiển nào cho phù hợp với yêu cầu thực tế, điều kiện cơ sở vật chất cho phép, tiết kiệm chi phí vận hành, nâng cao hiệu quả sản xuất, dễ dàng bảo trì, sửa chữa hệ thống khi có sự cố. Thực tiễn đó đã đặt ra vấn đề là làm sao để quản lý các nhà máy sản xuất hiệu quả nhất, tiết kiệm nhất và an toàn nhất. 1.3. Đặt vấn đề : Ngày nay cùng với sự phát triển của các ngành khoa học kỹ thuật, kỹ thuật điện tử mà trong đó điều khiển tự động đóng vai trò hết sức quan trọng trong mọi lĩnh vực khoa học kỹ thuật, quản lí, công nghiệp tự động hóa, cung cấp thông tin…. do đó chúng ta phải nắm bắt và vận dụng nó một cách có hiệu quả nhằm góp phần vào sự phát triển nền khoa học kỹ thuật thế giới nói chung và trong sự phát triển kỹ thuật điều khiển tự động nói riêng. Xuất phát từ những đợt đi thực tập tốt nghiệp tại nhà máy, các khu công nghiệp và tham quan các doanh nghiệp sản xuất, chúng em đã được thấy nhiều khâu được tự động hóa trong quá trình sản xuất. Một trong những khâu tự động trong dây chuyền sản xuất tự động hóa đó là số lượng sản phẩm sản xuất ra được các băng tải vận chuyển và sử dụng hệ thống nâng gắp sản phẩm để đưa vào hệ thống cân một cách tự động nhờ hệ thống cân định lượng. Tuy nhiên đối với những doanh nghiệp vừa và nhỏ thì việc tự động hóa hoàn toàn chưa được áp dụng trong những khâu cân sản phẩm, đóng bao bì mà vẫn còn sử dụng nhân công, chính vì vậy nhiều khi cho ra năng suất thấp chưa đạt hiệu quả. Từ những điều đã được nhìn thấy trong thực tế cuộc sống và những kiến thức mà chúng em đã học được ở trường muốn tạo ra hiệu suất lao động lên gấp nhiều lần, đồng thời vẫn đảm bảo được độ chính xác cao về trọng lượng cũng như kích thước. Nên chúng em đã quyết định thiết kế và thi công một mô hình sử dụng hệ thống cân để phân loại sản phẩm vì nó rất gần gũi với thực tế, vì trong thực tế có nhiều sản phẩm được sản xuất ra đòi hỏi phải có trọng lượng tương đối chính xác và nó thật sự rất có ý nghĩa đối với chúng em, góp phần làm cho xã hội ngày càng phát triển mạnh hơn, để xứng tầm với sự phát triển của thế giới.
+2.1.1 Động cơ bước là một loại động cơ điện có nguyên lý và ứng dụng khác biệt với đa số các động cơ điện thông thường. Chúng thực chất là một động cơ đồng bộ dùng để biến đổi các tín hiệu điều khiển dưới dạng các xung điện rời rạc kế tiếp nhau thành các chuyển động góc quay hoặc các chuyển động của rôto có khả năng cố định rôto vào các vị trí cần thiết.
+Về cấu tạo, động cơ bước có thể được coi là tổng hợp của hai loại động cơ: động cơ một chiều không tiếp xúc và động cơ đồng bộ giảm tốc công suất nhỏ.
+Hoạt động
+Động cơ bước không quay theo cơ chế thông thường, chúng quay theo từng bước nên có độ chính xác rất cao về mặt điều khiển học. Chúng làm việc nhờ các bộ chuyển mạch điện tử đưa các tín hiệu điều khiển vào stato theo thứ tự và một tần số nhất định. Tổng số góc quay của rôto tương ứng với số lần chuyển mạch, cũng như chiều quay và tốc độ quay của rôto phụ thuộc vào thứ tự chuyển đổi và tần số chuyển đổi.
+2.1.2 Ứng Dụng
+Trong điều khiển chuyển động kỹ thuật số, động cơ bước là một cơ cấu chấp hành đặc biệt hữu hiệu bởi nó có thể thực hiện trung thành các lệnh đưa ra dưới dạng số.
+Động cơ bước được ứng dụng nhiều trong ngành Tự động hoá, chúng được ứng dụng trong các thiết bị cần điều khiển chính xác. Ví dụ: Điều khiển robot, điều khiển tiêu cự trong các hệ quang học, điều khiển định vị trong các hệ quan trắc, điểu khiển bắt, bám mục tiêu trong các khí tài quan sát, điều khiển lập trình trong các thiết bị gia công cắt gọt, điều khiển các cơ cấu lái phương và chiều trong máy bay...
+Trong công nghệ máy tính, động cơ bước được sử dụng cho các loại ổ đĩa cứng, ổ đĩa mềm, máy in...
+Các loại động cơ bước Động cơ bước được chia làm hai loại, nam châm vĩnh cửu và biến từ trở (cũng có loại động cơ hỗn hợp nữa, nhưng nó không khác biệt gì với động cơ nam châm vĩnh cửu). Nếu mất đi nhãn trên động cơ, các bạn vẫn có thể phân biệt hai loại động cơ này bằng cảm giác mà không cần cấp điện cho chúng. Động cơ nam châm vĩnh cửu dường như có các nấc khi bạn dùng tay xoay nhẹ rotor của chúng, trong khi động cơ biến từ trở thì dường như xoay tự do (mặc dù cảm thấy chúng cũng có những nấc nhẹ bởi sự giảm từ tính trong rotor). Bạn cũng có thể phân biệt hai loại động cơ này bằng ohm kế. Động cơ biến từ trở thường có 3 mấu, với một dây về chung, trong khi đó, động cơ nam châm vĩnh cửu thường có hai mấu phân biệt, có hoặc không có nút trung tâm. Nút trung tâm được dung trong động cơ nam châm vĩnh cửu đơn cực. Động cơ bước phong phú về góc quay. Các động cơ kém nhất quay 90 độ mỗi bước, trong khi đó các động cơ nam châm vĩnh cửu xử lý cao thường quay 1.8 độ đến 0.72 độ mỗi bước. Với một bộ điều khiển, hầu hết các loại động cơ nam châm vĩnh cửu và hỗn hợp đều có thể chạy ở chế độ nửa bước, và một vài bộ điều khiển có thể điều khiển các phân bước nhỏ hơn hay còn gọi là vi bước. Đối với cả động cơ nam châm vĩnh cửu hoặc động cơ biến từ trở, nếu chỉ một mấu của động cơ được kích, rotor (ở không tải) sẽ nhảy đến một góc cố định và sau đó giữ nguyên ở góc đó cho đến khi moment xoắn vượt qua giá trị moment xoắn giữ (hold torque) của động cơ.
+Nếu motor của bạn có 3 cuộn dây, được nối như trong biểu đồ hình 1.1, với một đầu nối chung cho tất cả các cuộn, thì nó chắc hẳn là một động cơ biến từ trở. Khi sử dụng, dây nối chung © thường được nối vào cực dương của nguồn và các cuộn được kích theo thứ tự liên tục. Dấu thập trong hình 1.1 là rotor của động cơ biến từ trở quay 30 độ mỗi bước. Rotor trong động cơ này có 4 răng và stator có 6 cực, mỗi cuộn quấn quanh hai cực đối diện. Khi cuộn 1 được kích điện, răng X của rotor bị hút vào cực 1. Nếu dòng qua cuộn 1 bị ngắt và đóng dòng qua cuộn 2, rotor sẽ quay 30 độ theo chiều kim đồng hồ và răng Y sẽ hút vào cực 2. Để quay động cơ này một cách liên tục, chúng ta chỉ cần cấp điện liên tục luân phiên cho 3 cuộn. Theo logic đặt ra, trong bảng dưới đây 1 có nghĩa là có dòng điện đi qua các cuộn, và chuỗi điều khiển sau sẽ quay động cơ theo chiều kim đồng hồ 24 bước hoặc 2 vòng: Cuộn 1 1001001001001001001001001 Cuộn 2 0100100100100100100100100 Cuộn 3 0010010010010010010010010 thời gian ‐‐> Phần Điều khiển mức trung bình cung cấp chi tiết về phương pháp tạo ra các dãy tín hiệu điều khiển như vậy, và phần Các mạch điều khiển bàn về việc đóng ngắt dòng điện qua các cuộn để điều khiển động cơ từ các chuỗi như thế. Hình dạng động cơ được mô tả trong hình 1.1, quay 30 độ mỗi bước, dùng số răng rotor và số cực stator tối thiểu. Sử dụng nhiều cực và nhiều răng hơn cho phép động cơ quay với góc nhỏ hơn. Tạo mặt răng trên bề mặt các cực và các răng trên rotor một cách phù hợp cho phép các bước nhỏ đến vài độ.
+...............................................................................................
+2.3.1 Nguyên lý của cảm biến:
+Cảm bien tiệm cận dung dể phát hiện kim loai từ tính, kim loại không từ tính (như nhôm, đồng ..) sử dụng cảm biến loại điện cảm ( inductivity promixity sensor) và phát hiện vật phi kim sử dụng loại cảm biến tiệm cận kiểu điện dung (capacitve promixity sensor). Đồng thời có sẵn model đáp ứng được hầu hết các điều kiện môi trường lắp đặt: nhiệt độ cao , nhiệt độ thấp, chống nước chống hóa chất…
+2.3.2 Cảm biến tiệm cận là gì?
+Bao biến tiệm cận bao gồm tất cả các loại cảm biến phát hiện vật thể không cần tiếp xúc như công tắc hành trình mà dựa trên những mối quan hệ vật lý giữa cảm biến và vật thể cần phát hiện. cảm biến tiệm cận chuyển đổi tín hiệu về sự chuyển động hoặc xuất hiện của vật thể thành tín hiệu điện. có 3 hệ thống phát hiện đệ thực hiện công việc chuyển đổi này: hệ thống sử dụng dòng điện xoáy đươc phát ra trong vật thể kim loại nhờ hiện tượng cảm ứng điện từ , hệ thống sử dụng sự thay đổi điện dung khi đến gần vật thể cần phát hiện hệ thống sử dụng nam châm và hệ thống chuyển mạch cộng từ.
+Theo tiêu chuẩn công nghiệp của Nhật (JIS) định nghĩa cảm biến tiệm cận (JIS C 8201-5-2) phù hợp với chuẩn IECn60947-5-2 là bộ chuyển mạch phát hiện vị trí không tiếp xúc.
+..............................................................................................
+Cảm biến tiệm cận kiểu điện dung phát hiện sự thay đổi về điện dung giữa cảm biến và đối tượng cần phát hiện. giá trị điện dung phụ thuộc vào kích thước va khoảng cách của đối tượng. một cảm biến tiệm cận của điện dung thông thường như tụ điện với hai bản điện cực song song, và điện dung thay dổi giữa hai bản diện cục đó sẽ được phát hiện. một tấm điện cực là đối tượng cần phát hiện và một tấm kia là một bề mặt của cảm biến. đối tượng có thể được phát hiện phụ thuộc vào giá trị điện môi của chúng.
+2.3.4 Yêu cầu chung của máy.
+- Đảm bảo các chỉ tiêu, hiệu quả sử dụng. Có năng suất cao, hiệu suất cao, ít tốn năng lượng, độ chính xác cao, chi phí cho lao động vận hành máy thấp,...
+- Độ tin cậy cao.
+- An toàn khi sử dụng.
+- Tính công nghệ và tính kinh tế. Đảm bảo máy nhỏ gọn, chi phí chế tạo thấp nhất.
+- Những yêu cầu về công nghệ tháo lắp:
++ Tháo lắp và điều chỉnh thuận lợi.
++ Giảm số lượng các nguyên công lắp bằng tay.
+.....................................................................................
+Chương 3: Thiết Kế
+3.1 Yêu cầu đối với máy cần thiết kế
+3.1.1 Các chỉ tiêu về hiệu quả sử dụng
+- Máy thiết kế phải có năng suất và hiệu suất tương đối cao, ít tốn năng lượng, kích thước máy cố gắng thật nhỏ, gọn, chi phí đầu tư thấp, vận hành tương đối dễ dàng …
+- Để làm được điều này người thiết kế cần hoàn thiện về sơ đồ kết cấu của máy đồng thời chọn các thông số thiết kế và các quan hệ về kết cấu hợp lý.
+3.1.2 Khả năng làm việc
+- Máy có thể hoàn thành các chức năng đã định mà vẫn giữ được đồ bền, không thay đổi kích thước cũng như hình dạng của máy, ngoài ra vẫn giữ được sự ổn định, có tính bền mòn, chịu được nhiệt và chấn động.
+- Để máy có đủ khả năng làm việc cần xác định hợp lý hình dạng, kích thước chi tiết máy, chọn vật liệu thích hợp chế tạo chúng và sử dụng các biện pháp tăng bền như nhiệt luyện, …
+3.1.3 Độ tin cậy
+- Độ tin cậy là tính chất của máy vừa thực hiện chức năng đã định đồng thời vẫn giữ được các chỉ tiêu về sử dụng (như năng suất, công suất, mức độ tiêu thụ năng lượng, độ chính xác, …) trong suốt quá trình làm việc hoặc trong quá trình thực hiện công việc đã quy định.
+- Độ tin cậy được đặc trưng bởi xác suất làm việc không hỏng hóc trong một thời gian quy định hoặc quá trình thực hiện công việc.
+3.1.4 An toàn trong sử dụng
+Một kết cấu làm việc an toàn có nghĩa là trong điều kiện sử dụng bình thường thì kết cấu đó không gây ra tai nạn nguy hiểm cho người sử dụng, cũng như không gây hư hại cho thiết bị, nhà cửa và các đối tượng xung quanh.
+3.2 Tính công nghệ và tính kinh tế
+- Đây là một trong những yêu cầu cơ bản đối với máy để thỏa mãn yêu cầu về tính công nghệ và tính kinh tế thì máy được thiết kế có hình dạng, kết cấu, vật liệu chế tạo phù hợp với điều kiện sản suất cụ thể, đảm bảo khối lượng và kích thước nhỏ nhất, ít tốn vật liệu nhất, chi phí về chế tạo thấp nhất kết quả cuối cùng là giá thành thấp.
+- Máy nên thiết kế với số lượng ít nhất các chi tiết, kết cấu đơn giản, dễ chế tạo và lắp ráp, chọn cấp chính xác chế tạo cho phù hợp nhưng vẫn đảm bảo được điều kiện và quy mô sản xuất cụ thể.
+3.3 Yêu cầu chung của công việc thiết kế máy.
+- Đảm bảo các chỉ tiêu, hiệu quả sử dụng. Có năng suất cao, hiệu suất cao, ít tốn năng lượng, độ chính xác cao, chi phí cho lao động vận hành máy thấp,...
+- Độ tin cậy cao.
+- An toàn khi sử dụng.
+- Tính công nghệ và tính kinh tế. Đảm bảo máy nhỏ gọn, chi phí chế tạo thấp nhất.
+- Những yêu cầu về công nghệ tháo lắp:
++ Tháo lắp và điều chỉnh thuận lợi.
++ Giảm số lượng các nguyên công lắp bằng tay.
++ Giảm thời gian lắp.
+3.3.1 Chọn phương án phân loại:
+Có hai phương án để đưa sản phẩn phân loại vào:
+Thiết kế băng chuyền cấp sản phẩm phân loại vào, với phương án này thì ưu điểm là nhanh, tự động nhưng phương án này rất khó và tốn kém
+Thiết kế đĩa quay cáp sản phẩm phân loại vào, với phương án này thi ưu điểm là đơn giản và ít tốn kém.
+Ta chọn phương án cung cáp sản phẩm bằng đĩa quay.
+Mục Lục
+Lời nói đầu............................................................................................... 1
+Mục lục ................................................................................................. 3
+Nhiệm vụ đồ án........................................................................................ 5
+Nhận xát của giáo viên hướng dẫn......................................................... 6
+Nhận xát của hội đồng chấm thi............................................................. 7
+Lời cảm ơn............................................................................................... 8
+Dẫn nhập 9
+Phần 1: Tổng Quan........................................................................................ 10
+Chương 1: Đại Cương............................................................................. 10
+1.1 Yêu cầu xã hội.......................................................................... 10
+1.2 Giới thiệu chung về đề tài........................................................ 10
+1.3 Đặt vấn đề................................................................................. 12
+Chương 2: Nội dung............................................................................... 14
+2.1 Phần tích sản phầm.................................................................. 14
+2.1.1 Động cơ bước................................................................. 14
+2.1.2 Ứng dụng........................................................................ 15
+2.1.3 Các mạch điệu khiển động cơ bước.............................. 20
+2.2 Giới thiệu.................................................................................. 20
+2.2.1 Động cơ hỗn hợp và nam châm vĩnh cửu đơn cực....... 24
+2.2.2 Động cơ hai cực và mặt cầu H....................................... 29
+2.2.3 Mạch điều khiển động cơ hai cực thực tế...................... 32
+2.3 Cảm biến................................................................................... 36
+2.3.1 Nguyên lý của cảm biến................................................. 37
+2.3.2 Cảm biến tiệm cận là gì?................................................ 37
+2.3.3 Nguyên lý hoạt động...................................................... 38
+2.3.4 Yêu cầu chung của máy................................................. 39
+Chương 3: Thiết kế máy................................................................................. 40
+3.1 Yêu cầu đối với máy cần thiết kế............................................. 40
+3.1.1 Các chỉ tiêu về hiệu quả sử dụng................................... 40
+3.1.2 Khả năng làm việc......................................................... 40
+3.1.3 Độ tin cậy........................................................................ 40
+3.1.4 An toàn trong sử dụng................................................... 40
+3.2 Tính công nghệ và tính kinh tế................................................ 41
+3.3 Yêu cầu chung của việc thiết kế máy....................................... 41
+3.3.1 Chọn phương án phân loại........................................... 41
+Chương 4: Mô hình............................................................................... 42
+4.1 Sơ đồ nguyên lý
+Chương 5: Qui trình công nghệ............................................................ 44
+5.1 Qui trình công nghệ gia công chi tiết lắp xi lanh.................... 44
+5.2 Qui trình công nghệ gia công chi tiết nắp............................... 45
+5.2 Qui trình công nghệ gia công chi tiết đế 1............................... 46
+Chương 6: Hướng dẫn sử dụng và bảo dưỡng máy............................ 47
+6.1 Hướng dẫn sử dụng................................................................. 47
+6.2 Bảo dưỡng máy........................................................................ 48
+Phần 2: Kết luận............................................................................................. 49
+Công dụng của máy.................................................................. 49 Những khiếm khuyết khi thiết kế............................................. 49 Hướng phát triển của đề tài...................................................... 49
+
+@. Tài liệu tham khảo.................................................................................... 50

@@ -1,0 +1,359 @@
+MỤC LỤC
+NHẬN XÉT CỦA GIÁO VIÊN HƯỚNG DẪN............................................................... 05
+NHẬN XÉT CỦA GIÁO VIÊN PHẢN BIỆN.................................................................. 06
+LỜI NÓI ĐẦU....................................................................................................................... 07
+CHƯƠNG I GIỚI THIỆU CHUNG................................................................................. 08
+1.1 Giới thiệu.......................................................................................................................... 08
+1.2 Các vấn đề đặt ra............................................................................................................. 10
+1.3 Phương pháp nghiên cứu................................................................................................ 10
+1.4 Phạm vi giới hạn.............................................................................................................. 11
+CHƯƠNG II TỔNG QUAN VỀ HỆ THỐNG PHÂN LOẠI SẢN PHẨM................. 12
+2.1 Giới thiệu về các loại phân loại sản phẩm.................................................................. 12
+2.1.1 Các loại hệ thống phân loại sản phẩm đang hiện hành................................ 12
+2.1.2 Hệ thống phân loại sản phẩm theo chiều cao................................................ 17
+2.2 Vật liệu chế tạo................................................................................................................ 19
+2.3 Hệ thống truyền động..................................................................................................... 23
+2.3.1 Động cơ điện một chiều.................................................................................... 23
+2.3.2 Băng chuyền....................................................................................................... 27
+2.4 Hệ thống điều khiển........................................................................................................ 29
+2.4.1 Bộ điều khiển PLC............................................................................................. 29
+2.4.1.1 Tổng quan về bộ điều khiển logic khả trình PLC.................................. 29
+2.4.1.2 Giới thiệu bộ điều khiển logic khả trình PLC S7-200.......................... 36
+2.4.2 Piston xylanh đẩy sản phẩm............................................................................. 42
+2.4.3 Van đảo chiều..................................................................................................... 45
+2.4.4 Cảm biến quang.................................................................................................. 47
+2.4.5 Rơ le trung gian.................................................................................................. 50
+2.4.6 Nút nhấn.............................................................................................................. 54
+CHƯƠNG III MÔ HÌNH HÓA VÀ MÔ PHỎNG HỆ THỐNG................................. 55
+3.1 Mô hình hóa hệ điện của động cơ điện một chiều..................................................... 55
+3.2 Mô phỏng hệ thống......................................................................................................... 57
+3.2.1 Mô phỏng hệ thống cơ khí................................................................................ 57
+3.2.2 Mô phỏng hệ thống điều khiển........................................................................ 58
+3.2.3 Mô phỏng hệ thống khí nén.............................................................................. 59
+CHƯƠNG IV THIẾT KẾ VÀ THI CÔNG HỆ THỐNG.............................................. 60
+4.1 Tính toán thiết kế hệ thống............................................................................................ 60
+4.1.1 Tính toán công suất động cơ............................................................................. 60
+4.1.2 Tính toán tốc độ của động cơ điện một chiều................................................ 61
+4.1.3 Tính toán tốc độ quay các trục......................................................................... 62
+4.1.4 Tính công suất trên các trục............................................................................. 62
+4.1.5 Tính moment xoắn trên các trục...................................................................... 63
+4.1.6 Tính toán lựa chọn piston................................................................................. 63
+4.2 Thi công mô hình hệ thống............................................................................................ 65
+CHƯƠNG V KẾT QUẢ ĐÁNH GIÁ............................................................................... 66
+5.1 Kết quả.............................................................................................................................. 66
+5.2 Đánh giá............................................................................................................................ 67
+5.3 Nguyên nhân và biện pháp khắc phục......................................................................... 68
+5.4 Hướng phát triển.............................................................................................................. 68
+TÀI LIỆU THAM KHẢO................................................................................................... 69
+
+MỤC LỤC HÌNH ẢNH
+Hình 1.1 Mô hình hệ thống phân loại sản phẩm theo chiều cao.................................... 08
+Hình 2.1 Hệ thống phân loại sản phẩm theo màu sắc...................................................... 12
+Hình 2.2 Hệ thống phân loại sản phẩm theo chiều cao.................................................... 14
+Hình 2.3 Hệ thống phân loại sản phẩm theo hình dạng................................................... 15
+Hình 2.4 Mô hình hệ thống phân loại sản phẩm theo chiều cao.................................... 17
+Hình 2.5 Gỗ tấm..................................................................................................................... 19
+Hình 2.6 Thép định hình....................................................................................................... 19
+Hình 2.7 Nhôm ống hình hộp............................................................................................... 20
+Hình 2.8 Ổ bi.......................................................................................................................... 21
+Hình 2.9 Trục dẫn kéo băng chuyền................................................................................... 21
+Hình 2.10 Các phần tử ghép nối cơ khí.............................................................................. 22
+Hình 2.11 Sản phẩm cần được phân loại............................................................................ 22
+Hình 2.12 Một số loại động cơ trên thực tế....................................................................... 23
+Hình 2.13 Cấu tạo động cơ điện một chiều........................................................................ 24
+Hình 2.14 Đặc tính cơ tự nhiên và đặc tính cơ nhân tạo.................................................. 26
+Hình 2.15 Cấu tạo chung của băng chuyền....................................................................... 28
+Hình 2.16 Hình ảnh của bộ PLC S7-200 CPU 224.......................................................... 37
+Hình 2.17 Sơ đồ nối dây PLC S7-200 CPU 224................................................................ 39
+Hình 2.18 Giao diện làm việc của phần mềm STEP7-MICROWIN................................ 40
+Hình 2.19 Các loại xylanh thông dụng............................................................................... 42
+Hình 2.20 Cấu tạo của piston tác dụng kép....................................................................... 43
+Hình 2.21 Hình ảnh xylanh CDM2BZ25-125A................................................................ 44
+Hình 2.22 Hình ảnh van đảo chiều 5/2............................................................................... 45
+Hình 2.23 Van điện từ Airtac 4V210-08............................................................................ 46
+Hình 2.24 Cảm biến quang................................................................................................... 47
+Hình 2.25 Cấu trúc cảm biến quang.................................................................................... 48
+Hình 2.26 Cảm biến quang E3F-DS10C4........................................................................... 49
+Hình 2.27 Rơ le trung gian................................................................................................... 51
+Hình 2.28 Cấu tạo của rơ le trung gian............................................................................... 52
+Hình 2.29 Rơ le OMRON MY4N-J DC24.......................................................................... 53
+Hình 2.30 Nút nhấn............................................................................................................... 54
+Hình 3.1 Hình dáng tổng quan mô hình hệ thống phân loại sản phẩm.......................... 57
+Hình 3.2 Mô phỏng hệ thống điều khiển............................................................................ 58
+Hình 3.3 Mô phỏng hệ thống khí nén................................................................................. 59
+Hình 4.1 Hình ảnh động cơ điện một chiều 57A-AM-18-A268..................................... 61
+Hình 4.2 Mô hình hệ thống phân loại sản phẩm theo chiều cao được hoàn thiện....... 65
+Hình 5.1 Mô hình hệ thống phân loại sản phẩm theo chiều cao đã hoàn thành.......... 66
+
+CHƯƠNG I GIỚI THIỆU CHUNG
+1.1 Giới thiệu
+Ngày nay cùng với sự phát triển của các ngành khoa học kỹ thuật, kỹ thuật điện- điện tử và điều khiển tự động đóng vai trò hết sức quan trọng trong mọi lĩnh vực khoa học, quản lý, công nghiệp tự động hóa, cung cấp thông tin… Do đó chúng ta phải nắm bắt và vận dụng nó một cách có hiệu quả nhằm góp phần vào sự nghiệp phát triển nền khoa học kỹ thuật thế giới nói chung và trong sự phát triển kỹ thuật điều khiển tự động nói riêng. Với những kỹ thuật tiên tiến như vi xử lý, PLC, vi mạch số… được ứng dụng vào lĩnh vực điều khiển, thì các hệ thống điều khiển cơ khí thô sơ, với tốc độ xử lý chậm chạp ít chính xác được thay thế bằng các hệ thống điều khiển tự động với các lệnh chương trình đã được thiết lập trước.
+Trong quá trình hoạt động ở các nhà xưởng, xí nghiệp hiện nay, việc tiết kiệm điện năng là nhu cầu rất cần thiết, bên cạnh đó ngành công nghiệp ngày càng phát triển các công ty xí nghiệp đã đưa tự động hóa và sản xuất để tiện ích cho việc quản lý dây chuyền và sản phẩm cho toàn bộ hệ thống một cách hợp lý là yêu cầu thiết yếu, tiết kiệm được nhiều thời gian cũng như quản lý một cách dễ dàng. Để đáp ứng yêu cầu đó, nhóm tác giả đã tiến hành nghiên cứu tài liệu, thiết kế và thi công mô hình hệ thống phân loại sản phẩm theo chiều cao (Hình 1.1).
+Hình 1.1 Mô hình hệ thống phân loại sản phẩm theo chiều cao.
+Hệ thống phân loại sản phẩm hoạt động trên nguyên lý dùng các cảm biến để xác định chiều cao của sản phẩm. Sau đó dùng xylanh để phân loại sản phẩm có chiều cao khác nhau.
+Từ nguyên lý làm việc trên ta thấy muốn hệ thống hoạt động được cần những chuyển động cần thiết:
+- Chuyển động của băng chuyền. Để truyền chuyển động quay cho trục của băng chuyền ta dùng động cơ điện một chiều thông qua bộ truyền bánh răng trụ răng thẳng trung gian.
+- Chuyển động tịnh tiến của xylanh để phân loại sản phẩm có chiều cao khác nhau. Chuyển động của xylanh được điều khiển bởi hệ thống khí nén.
+Chu trình làm việc máy: khi ấn nút Start máy hoạt động, sản phẩm được xylanh đẩy vào băng chuyền. Nhờ hệ thống điều khiển, sản phẩm trên băng chuyền được phân loại với chiều cao khác nhau. Các sản phẩm sau khi được phân loại sẽ được chuyển đến thùng hàng để đóng gói. Chu trình cứ thế tiếp tục cho đến khi phân loại xong sản phẩm.
+Những lợi ích mà hệ thống phân loại sản phẩm đem lại cho chúng ta là rất lớn, cụ thể như:
+Giảm sức lao động, tránh được sự nhàm chán trong công việc, cải thiện được điều kiện làm việc của con người, tạo cho con người tiếp cận với sự tiến bộ của khoa học kỹ thuật và được làm việc trong môi trường ngày càng văn minh hơn. Nâng cao năng suất lao động, tạo tiền đề cho việc giảm giá thành sản phẩm, cũng như thay đổi mẫu mã một cách nhanh chóng. Giúp cho việc quản lý và giám sát trở nên rất đơn giản, bởi vì nó không những thay đổi điều kiện làm việc của công nhân mà còn có thể giảm số lượng công nhân đến mức tối đa…
+1.2 Các vấn đề đặt ra
+Mục tiêu đặt ra là nghiên cứu chế tạo: Hệ thống phân loại sản phẩm theo chiều cao có kiểu dáng nhỏ gọn, dễ dàng lắp đặt, bảo trì, sửa chữa.
+Để thiết kế được chúng ta cần thiết kế cơ khí và điều khiển được động cơ và hệ thống hoạt động tự động dựa vào lập trình và điều khiển của PLC. Ngoài ra còn có các vấn đề khác như là: vật liệu mô hình, nguồn cung cấp, tính toán thông số chi tiết...
+Các vấn đề cần được giải quyết đó là:
+- Vấn đề cơ khí: phân tích tính toán và lựa chọn vật liệu, thông số kỹ thuật của các chi tiết sao cho thỏa mãn yêu cầu của đề tài: nhỏ, gọn, nhẹ, bền, có tính thẩm mỹ cao, dễ dàng lắp đặt và sửa chữa.
+- Vấn đề điều khiển: điều khiển hoàn toàn tự động.
+- Vấn đề an toàn: đảm bảo an toàn cho người sử dụng và sản phẩm không bị hỏng.
+1.3 Phương pháp nghiên cứu
+Đề tài “Phân loại sản phẩm theo chiều cao” đã được nhiều sinh viên của các trường nghiên cứu và thực hiện. Đồng thời cũng đã có nhiều sinh viên thiết kế những mô hình đơn giản. Mô hình này cũng đã được thiết kế, đưa vào sử dụng trong một số nhà máy và là một sản phẩm cơ điện tử điển hình, nên trong quá trình làm đồ án, nhóm tác giả đã áp dụng phương pháp nghiên cứu sau:
+* Phương pháp tuần tự và đồng thời
+Kết hợp giữa việc thiết kế tuần tự và đồng thời: cụ thể là việc đầu tiên là nghiên cứu mô hình cụ thể sau đó xây dựng mô hình chứa đầy đủ những dự định sẽ có trong thiết kế qua đó có cái nhìn tổng quan về hệ thống chung và xác định thông số cơ bản. Từ đó, áp dụng để thiết kế trong giới hạn của đề tài.
+* Phương pháp thực nghiệm
+Mô hình hóa phần cơ, mô phỏng hóa phần điện, tối ưu hóa thiết kế trước khi chế tạo hoàn thiện.
+Chế tạo mẫu các chi tiết chưa đảm bảo hoạt động như mong muốn, hoặc chưa có trên thị trường. Sau đó chế tạo thật mô hình.
+Cho chạy thử hết công suất, sau khi đã vận hành hết các chức năng cũng như công suất của hệ thống để rút ra giới hạn của hệ thống từ đó đưa ra phương án cải tiến hay thay thế từ đó đưa ra các đánh giá về hệ thống (công suất làm việc của hệ thống, vận tốc của băng tải, mức độ chịu lực, giới hạn các chỉ số cơ khí và điện năng, năng suất của hệ thống...).
+1.4 Phạm vi giới hạn
+Hệ thống phân loại sản phẩm là một đề tài đã được nghiên cứu và phát triển từ lâu. Hiện nay trong các nhà máy xí nghiệp có rất nhiều hệ thống hoàn thiện cả về chất lượng và thẩm mỹ. Tuy nhiên, trong phạm vi một đề tài nghiên cứu, với những giới hạn về kiến thức, thời gian và kinh phí đề tài giới hạn bởi những tính năng sau:
+- Kích thước: (Dài x Rộng x Cao) 1700 x 700 x 400 (mm)
+- Khối lượng: 30 Kg
+- Hệ thống điều khiển: PLC và hệ thống khí nén.
+- Cơ cấu đẩy sản phẩm: Xylanh piston.
+- Động cơ truyền chuyển động: Động cơ điện một chiều.
+- Hệ thống dẫn động: Băng chuyền.
+- Điện áp cung cấp: Điện áp xoay chiều 220V và điện áp một chiều 24V.
+
+CHƯƠNG II TỔNG QUAN VỀ HỆ THỐNG PHÂN LOẠI SẢN PHẨM
+2.1 Giới thiệu về các loại phân loại sản phẩm
+2.1.1 Các loại hệ thống phân loại sản phẩm đang hiện hành
+Nhằm phục vụ nhiệm vụ hiện đại hóa quy trình sản xuất, hệ thống phân loại sản phẩm ra đời là một công cụ hiệu quả giúp thay thế con người trong công việc phân loại, nó đã góp phần nâng cao hiệu quả trong công việc. Một hệ thống hoàn chỉnh có thể phân loại các sản phẩm với độ tin cậy cao, hoạt động liên tục và giảm tối đa thời gian trì hoãn hệ thống. Hơn thế nữa, đối với những công việc đòi hỏi sự tập trung cao và có tính tuần hoàn, nên các công nhân khó đảm bảo được sự chính xác trong công việc. Điều đó ảnh hưởng trực tiếp đến chất lượng sản phẩm và uy tín của nhà sản xuất. Vì vậy, hệ thống tự động nhận dạng và phân loại sản phẩm ra đời nhằm đáp ứng nhu cầu cấp bách này.
+Hệ thống phân loại sản phẩm hiện nay có rất nhiều trong ứng dụng thực tế trong các nhà máy xí nghiệp, nhưng chủ yếu được chia thành ba loại chính là phân loại sản phẩm theo màu sắc, theo hình dạng và theo chiều cao.
+a) Phân loại sản phẩm theo màu sắc
+Mô hình hệ thống phân loại sản phẩm theo màu sắc (Hình 2.1).
+Hình 2.1Hệ thống phân loại sản phẩm theo màu sắc.
+Cấu tạo:
+Hệ thống phân loại sản phẩm theo màu sắc (Hình 2.1) có cấu tạo chính gồm:
+- Một băng chuyền.
+- Một động cơ điện một chiều để kéo băng chuyền.
+- Cảm biến nhận biết màu sắc.
+- Ba xylanh piston để phân loại sản phẩm.
+- Bộ PLC dùng để xử lý tín hiệu.
+- Các van đảo chiều.
+- Các rơ le trung gian.
+- Bộ phận giá đỡ cơ khí cho toàn bộ hệ thống.
+- Nút nhấn.
+Nguyên lý hoạt động:
+Khi nhấn nút Start, điện áp một chiều cấp cho động cơ điện một chiều hoạt động, truyền chuyển động cho băng chuyền thông qua dây đai. Xylanh piston sẽ đẩy sản phẩm ra băng chuyền. Trên băng chuyền sẽ thiết kế những cảm biến nhận biết sản phẩm có màu sắc khác nhau. Khi sản phẩm đi qua, cảm biến nhận biết và gửi tín hiệu về bộ PLC xử lý sau đó PLC đưa ra tín hiệu về van đảo chiều tác động điều khiển piston đẩy từng sản phẩm có màu sắc khác nhau vào nơi chứa riêng biệt.
+Ứng dụng:
+Hệ thống phân loại sản phẩm theo màu sắc được ứng dụng rất nhiều trong các dây chuyền sản xuất Gạch, Ngói, Đá Granite, trong các dây chuyền phân loại các sản phẩm nhựa hay trong chế biến Nông sản (như Cà Phê, Gạo)… Hệ thống sẽ giúp nhà sản xuất tốn ít nhân công lao động và giảm thiểu thời gian làm việc, nâng cao năng suất lao động.
+
+b) Phân loại sản phẩm theo chiều cao
+Hệ thống phân loại sản phẩm theo chiều cao (Hình 2.2).
+Hình 2.2 Hệ thống phân loại sản phẩm theo chiều cao.
+Cấu tạo:
+- Hai băng chuyền.
+- Hai động cơ điện một chiều để kéo băng chuyền.
+- Ba cảm biến nhận biết chiều cao.
+- Hai xylanh piston để phân loại sản phẩm.
+- Bộ PLC dùng để xử lý tín hiệu.
+- Hai van đảo chiều.
+- Các rơ le trung gian.
+- Bộ phận giá đỡ cơ khí cho toàn bộ hệ thống.
+- Nút nhấn.
+
+Nguyên lý hoạt động:
+Khi nhấn nút Start, điện áp một chiều cấp cho động cơ điện một chiều thứ nhất hoạt động, truyền chuyển động cho băng chuyền thứ nhất thông qua dây đai. Trên băng chuyền này sẽ thiết kế những cảm biến nhận biết sản phẩm có chiều cao khác nhau. Khi sản phẩm đi qua, cảm biến nhận biết và gửi tín hiệu về bộ PLC xử lý sau đó PLC đưa ra tín hiệu về van đảo chiều tác động điều khiển piston đẩy sản phẩm cao và trung bình vào khay chứa tương ứng, sản phẩm thấp sẽ được đi đến hết băng chuyền và được phân loại vào hộp chứa nằm trên băng chuyền thứ hai. Sau đó động cơ một chiều thứ hai truyền chuyển động cho băng chuyền thứ hai vận chuyển hộp chứa sản phẩm thấp về vị trí tương ứng.
+Ứng dụng:
+Hệ thống phân loại sản phẩm theo chiều cao được ứng dụng rất nhiều trong các ngành công nghiệp:
+- Ứng dụng trong các dây chuyền sản xuất Gạch, Ngói.
+- Ứng dụng trong các ngành công nghiệp thực phẩm như bánh kẹo, hoa quả...
+- Ứng dụng trong công nghiệp sản xuất bia, nước giải khát.
+c) Phân loại sản phẩm theo hình dạng
+Hệ thống phân loại sản phẩm theo hình dạng (Hình 2.3).
+Hình 2.3Hệthống phân loại sản phẩm theo hình dạng.
+Cấu tạo:
+- Một băng chuyền.
+- Một động cơ điện một chiều để kéo băng chuyền.
+- Hai động cơ bước gạt sản phẩm để phân loại.
+- Cảm biến thị giác Camera (Nhận dạng vật thể qua Camera).
+- Bộ PLC dùng để xử lý tín hiệu.
+- Các rơ le trung gian.
+- Bộ phận giá đỡ cơ khí cho toàn bộ hệ thống.
+- Nút nhấn.
+Nguyên lý hoạt động:
+Khi nhấn nút Start, điện áp một chiều cấp cho động cơ điện một chiều hoạt động, truyền chuyển động cho băng chuyền thông qua dây đai. Trên băng chuyền sẽ thiết kế cảm biến thị giác Camera nhận dạng sản phẩm. Khi sản phẩm đi qua, Cảm biến thị giác nhận biết và gửi tín hiệu về bộ PLC xử lý sau đó PLC đưa ra tín hiệu điều khiển động cơ bước gạt từng sản phẩm có hình dạng khác nhau vào nơi chứa riêng biệt.
+Ứng dụng:
+Hệ thống phân loại sản phẩm theo hình dạng được ứng dụng trong rất nhiều ngành công nghiệp:
+- Ứng dụng trong công nghiệp kiểm tra và phân loại sản phẩm có hình dáng khác nhau như: Gạch, Ngói, thực phẩm tiêu dùng…
+- Ứng dụng trong kiểm tra và phân loại Nông Sản.
+- Ứng dụng kết hợp với Robot thông minh.
+Như vậy, ngoài ba loại hệ thống phân loại sản phẩm trên, chúng ta còn thấy có hệ thống phân loại sản phẩm khác theo đặc tính của sản phẩm. Ví dụ như phân loại sản phẩm theo trọng lượng, kích thước... Hầu hết cấu tạo và nguyên lý hoạt động của chúng khá tương tự nhau, chỉ khác nhau ở bộ phận đẩy sản phẩm phân loại (có thể là xylanh piston hoặc động cơ bước) và bộ phận nhận dạng sản phẩm (có thể là các loại cảm biến như màu sắc, cảm biến quang thu phát, cảm biến phát hiện kim loại, hay camera phát hiện hình dạng vật thể).
+
+2.1.2 Hệ thống phân loại sản phẩm theo chiều cao
+Sự kết hợp giữa ngành điện – điện tử và cơ khí là một bước tiến quan trọng trong sự phát triển của tự động hóa trong công nghiệp. Hiện nay, Đất nước ta đang trong quá trình phát triển và hội nhập, chính vì thế các mặt hàng được sản xuất ra không những đạt tiêu chuẩn về chất lượng, mà còn đòi hỏi phải có độ chính xác cao về hình dạng, kích thước, trọng lượng…Cho nên từ đó các khu công nghiệp được hình thành với nhiều dây chuyền thiết bị máy móc hiện đại phù hợp với nhu cầu sản xuất, để tạo ra năng suất cao hơn trong quá trình sản xuất. Một trong những thiết bị, máy móc hiện đại đó phải kể đến hệ thống phân loại sản phẩm. Chính vì vậy, nhóm tác giả đã quyết định thiết kế và thi công mô hình với đề tài: “Nghiên cứu, thiết kế, chế tạo hệ thống phân loại sản phẩm” (Hình 2.4). Mô hình này sẽ giúp chúng ta hiểu rõ hơn về cấu tạo cũng như nguyên lý hoạt động của các dây chuyền thiết bị được dùng trong hệ thống phân loại, đồng thời ứng dụng PLC vào việc điều khiển hệ thống.
+Hình 2.4 Mô hình hệ thống phân loại sản phẩm theo chiều cao.
+(1) – Nguồn cấp 24VDC. (2) – PLC. (3) – Động cơ một chiều.
+(4) – Nút nhấn. (5) – Rơ le trung gian. (6),(8),(14) – Cảm biến.
+(7),(9) – Piston phân loại. (10),(11),(12) – Van đảo chiều 5/2.
+(13) – Dây dẫn khí. (15) – Sản phẩm. (16) – Băng chuyền.
+(17) – Khay đựng sản phẩm. (18) – Khung đỡ cơ khí.
+(19) – Hộp cấp sản phẩm. (20) – Piston cấp sản phẩm.
+Nguyên lý hoạt động:
+Khi nhấn nút Start, động cơ một chiều quay truyền chuyển động cho băng chuyền thông qua dây đai. Nguyên lý hoạt động được chia thành hai quá trình:
+- Quá trình cấp sản phẩm vào băng chuyền: Khi có sản phẩm trong hộp, cảm biến quang nhận biết và gửi tín hiệu về PLC. Bộ PLC xử lý và đưa ra tín hiệu về đầu tác động điện của van đảo chiều 5/2 điều khiển piston đẩy sản phẩm vào băng chuyền. Hai cảm biến quang thu phát được bố trí trên băng chuyền với vị trí đặt cảm biến theo thứ tự lần lượt cao và trung bình tính từ hộp cấp phôi (Hình 2.4).
+- Quá trình phân loại sản phẩm trên băng chuyền: tùy thuộc vào độ cao của từng sản phẩm để có thể phân loại. Nếu sản phẩm cao trên băng chuyền đi qua sẽ che cảm biến cao, lập tức gửi tín hiệu về PLC, bộ PLC xử lý và đưa ra tín hiệu về đầu tác động điện của van đảo chiều 5/2 điều khiển piston đẩy sản phẩm cao vào khay chứa tương ứng. Sản phẩm có chiều cao trung bình sẽ không che cảm biến cao và khi đi qua cảm biến trung bình, cảm biến sẽ nhận biết và gửi tín hiệu về PLC. Bộ PLC xử lý và xuất tín hiệu đến đầu tác động điện của van đảo chiều 5/2 điều khiển piston đẩy sản phẩm trung bình vào khay chứa tương ứng. Sản phẩm thấp nhất sẽ được đi hết băng chuyền và được phân loại vào khay chứa cuối cùng.
+Khi nhấn nút Stop, hệ thống dừng hoạt động.
+Ứng dụng:
+Hệ thống phân loại sản phẩm theo chiều cao được ứng dụng để phân loại các sản phẩm có chiều cao khác nhau với độ chính xác cao. Hệ thống được ứng dụng rất nhiều trong các ngành công nghiệp như:
+- Ứng dụng trong các dây chuyền sản xuất Gạch, Ngói.
+- Ứng dụng trong các ngành công nghiệp thực phẩm như bánh kẹo, hoa quả...
+- Ứng dụng trong công nghiệp sản xuất bia, nước giải khát.
+
+2.2 Vật liệu chế tạo
+Đế đỡ toàn bộ mô hình: Sử dụng gỗ tấm (Hình 2.5).
+Kích thước (Dài x Rộng x Cao) : 1700 x 700 x 20 (mm)
+Hình 2.5 Gỗ tấm.
+Một số ưu điểm của gỗ tấm:
+- Gia công đơn giản.
+- Giá thành vừa phải.
+- Khối lượng nhẹ hơn nhiều so với vật liệu khác.
+- Không bị ăn mòn.
+- Thuận tiện cho việc thiết kế và bắt vít cố định cho toàn bộ mô hình hệ thống.
+Khung đỡ: Sử dụng thép định hình (Hình 2.6). Thép định hình được sử dụng rộng rãi trong các ngành công nghiệp và xây dựng dân dụng, kết cấu bộ phận…
+Hình 2.6 Thép định hình.
+Một số ưu điểm của thép định hình:
+- Độ cứng vững cao.
+- Chống ăn mòn tốt.
+- Khả năng chịu nhiệt tốt.
+- Chi phí sản xuất thấp.
+Bộ phận đỡ băng chuyền, xylanh và cảm biến: Sử dụng nhôm ống hình hộp (Hình 2.7). Trong mô hình, nhôm ống hình hộp có chức năng vừa làm khung đỡ kết cấu băng chuyền vừa làm cột đỡ xylanh và cảm biến. Nhôm ống hình hộp được sử dụng rộng rãi trong các ngành công nghiệp cũng như xây dựng, kết cấu dân dụng, khung cửa…
+Hình 2.7 Nhôm ống hình hộp.
+Một số ưu điểm của nhôm ống hình hộp:
+- Gia công đơn giản hơn thép ống hình hộp.
+- Khối lượng nhẹ hơn so với nhiều vật liệu khác.
+- Giá thành vừa phải, tiết kiệm chi phí.
+- Khả năng chống ăn mòn tốt.
+
+Vòng bi: Sử dụng ổ bi có kích thước Φ16 mm (Hình 2.8). Ổ bi dùng để dẫn trục quay nhẹ và giảm ma sát.
+Hình 2.8 Ổ bi.
+Trục dẫn kéo băng chuyền: Sử dụng trục ren bằng thép có kích thước Φ8 mm, dài 160mm (Hình 2.9):
+Hình 2.9 Trục dẫn kéo băng chuyền.
+Trục ren nằm ở hai đầu băng chuyền, vừa là trục dẫn động cho băng chuyền, vừa có chức năng tạo và giữ lực căng cần thiết cho bộ phận kéo của băng chuyền.
+Một số ưu điểm của trục ren thép:
+- Chống ăn mòn tốt.
+- Đảm bảo độ cứng, vững cho toàn hệ thống.
+- Trục rất phổ biến trên thị trường nên giá thành vừa phải.
+- Khả năng ăn khớp với ổ bi và bánh răng dẫn động cao.
+
+Phần tử ghép nối cơ khí: Sử dụng bulong-đai ốc, vít bắn, vít xoáy, thép chữ V,… (Hình 2.10). Các phần tử này có chức năng ghép nối các phần tử cơ khí với nhau.
+Hình 2.10 Các phần tử ghép nối cơ khí.
+Ưu điểm của các phần tử ghép nối:
+- Chi phí sử dụng phù hợp.
+- Khả năng ghép nối cao.
+- Chống ăn mòn tốt.
+- Đảm bảo độ cứng, vững cho toàn hệ thống.
+Sản phẩm: Sử dụng gỗ khối hình hộp với chiều cao khác nhau (Hình 2.11).
+Hình 2.11 Sản phẩm cần được phân loại.
+2.3 Hệ thống truyền động
+2.3.1 Động cơ điện một chiều
+Trong mô hình, vì sử dụng truyền động băng chuyền dây đai và không yêu cầu tải trọng lớn nên không cần động cơ có công suất lớn. Với yêu cầu khá đơn giản của băng chuyền như là:
+- Băng chuyền chạy liên tục, có thể dừng khi cần.
+- Không đòi hỏi độ chính xác cao, tải trọng băng chuyền nhẹ.
+- Dễ điều khiển, giá thành rẻ.
+Vì vậy chỉ cần sử dụng động cơ một chiều có công suất nhỏ, khoảng 20-30 W, điện áp một chiều 24 V.
+Động cơ điện một chiều là động cơ điện hoạt động với dòng điện một chiều. Động cơ điện một chiều được dùng rất phổ biến trong công nghiệp và ở những thiết bị cần điều chỉnh tốc độ quay liên tục trong một phạm vi hoạt động.
+Động cơ một chiều trong dân dụng thường là các động cơ hoạt động với điện áp thấp, dùng với những tải nhỏ. Trong công nghiệp, động cơ điện một chiều được sử dụng ở những nơi yêu cầu moment mở máy lớn hoặc yêu cầu điều chỉnh tốc độ bằng phẳng và trong phạm vi rộng. Động cơ điện một chiều trong thực tế (Hình 2.12).
+Hình 2.12 Một số loại động cơ trên thực tế.
+a) Cấu tạo động cơ điện một chiều
+Hình 2.13 Cấu tạo động cơ điện một chiều.
+1- Cổ góp điện. 2- Chổi than. 3- Rotor. 4- Cực từ.
+5- Cuộn cảm. 6- Stator. 7- Cuộn dây phần ứng.
+Cấu tạo của động cơ điện một chiều (Hình 2.13):
+Thông tin chi tiết về động cơ [1]
+- Stator (phần tĩnh): Gồm lõi thép bằng thép đúc, vừa là mạch từ vừa là vỏ máy. Các cực từ chính có dây quấn kích từ.
+- Rotor (phần động): Gồm lõi thép và dây quấn phần ứng. Lõi thép hình trụ, làm bằng các lá thép kỹ thuật điện dày khoảng 0.5 mm, phủ sơn cách điện ghép lại. Mỗi phần tử của dây quấn phần động có nhiều vòng dây, hai đầu với hai phiến góp, hai cạnh tác dụng của phần tử dây quấn trong hai rãnh dưới hai cực khác tên.
+- Cổ góp: gồm các phiến góp bằng đồng được ghép cách điện, có dạng hình trụ, gắn ở đầu trục rotor.
+- Chổi than: làm bằng than graphit. Các chổi tỳ chặt lên cổ góp nhờ lò xo và giá chổi điện gắn trên nắp máy.
+
+b) Nguyên lý làm việc của động cơ điện một chiều
+Khi cho điện áp một chiều vào hai chổi than, trong dây quấn phần ứng có dòng điện. Các thanh dẫn có dòng điện nằm trong từ trường sẽ chịu lực tác dụng làm cho Rotor quay. Chiều của lực được xác định theo quy tắc bàn tay trái. Khi phần ứng quay được nửa vòng, vị trí các thanh dẫn sẽ đổi chỗ cho nhau do có phiến cổ góp đổi chiều dòng điện, giữ cho chiều lực tác dụng không đổi. Khi động cơ quay, các thanh dẫn cắt từ trường sẽ cảm ứng sức điện động. Chiều sức điện động xác định theo quy tắc bàn tay phải. Ở động cơ một chiều thì sức điện động ngược chiều với dòng điện nên còn gọi là sức phản điện động.
+c) Phân loại động cơ điện một chiều
+Tùy theo cách mắc mạch kích từ so với mạch phần ứng mà động cơ điện một chiều được chia thành:
+- Động cơ điện một chiều kích từ độc lập: có dòng điện kích từ và từ thông động cơ không phụ thuộc vào dòng điện phần ứng. Nguồn điện mạch kích từ riêng biệt so với nguồn điện mạch phần ứng.
+- Động cơ điện một chiều kích từ song song: khi nguồn điện một chiều có công suất vô cùng lớn, điện trở trong của nguồn coi như bằng không thì điện áp nguồn sẽ là không đổi, không phụ thuộc vào dòng điện trong phần ứng động cơ. Loại động cơ một chiều kích từ song song cũng được coi như kích từ độc lập.
+- Động cơ một chiều kích từ nối tiếp: dây quấn kích từ mắc nối tiếp với mạch phần ứng.
+- Động cơ một chiều kích từ hỗn hợp: gồm hai dây quấn kích từ, dây quấn kích từ song song và dây quấn kích từ nối tiếp, trong đó dây quấn kích từ song song là chủ yếu.
+
+d) Các phương pháp điều chỉnh tốc độ động cơ điện một chiều
+Về phương diện điều chỉnh tốc độ, động cơ điện một chiều có nhiều ưu việt hơn so với loại động cơ khác, không những nó có khả năng thay đổi tốc độ một cách dễ dàng mà cấu trúc mạch lực, mạch điều khiển đơn giản hơn đồng thời lại đạt chất lượng điều chỉnh cao trong dải điều chỉnh tốc độ rộng.
+Từ phương trình tính tốc độ:
+Suy ra: để điều chỉnh có thể:
+- Điều chỉnh Uư .
+- Điều chỉnh Rư bằng cách thêm Rpvào mạch phần ứng.
+- Điều chỉnh từ thông F của phần ứng.
+Điều chỉnh tốc độ bằng dùng thêm Rp
+Mắc nối tiếp Rp vào phần ứng, từ công thức tính tốc độ động cơ suy ra Rư tăng lên, suy ra giảm, độ dốc của đường đặc tính giảm. Các đường 1, 2 là đường đặc tính sau khi tăng Rư, đường TN là đặc tính tự nhiên của động cơ ban đầu (Hình 2.14).
+Hình 2.14 Đặc tính cơ tự nhiên và đặc tính cơ nhân tạo.
+Ưu điểm của phương pháp này là đơn giản, tốc độ điều chỉnh liên tục, nhưng do thêm Rp nên tổn hao tăng, không kinh tế.
+Điều chỉnh từ thông của phần ứng
+Điều chỉnh từ thông kích thích của động cơ điện một chiều là điều chỉnh moment điện từ của động cơ MKΦIư và sức điện động quay của động cơ EưKω. Khi từ thông giảm thì tốc độ quay của động cơ tăng lên trong phạm vi giới hạn của việc thay đổi từ thông. Nhưng theo công thức trên khiF thay đổi thì moment, dòng điện I cũng thay đổi nên khó tính được chính xác dòng điều khiển và moment tải. Do đó, phương pháp này cũng ít dùng.
+Điều khiển điện áp phần ứng
+Thực tế có hai phương pháp cơ bản để điều khiển tốc độ động cơ điện một chiều bằng điện áp:
+- Điều chỉnh điện áp cấp cho mạch phần ứng của động cơ.
+- Điều chỉnh điện áp cấp cho mạch kích từ của động cơ.
+Trong đó thông thường người ta sử dụng cách điều chỉnh điện áp phần ứng.
+Khi thay đổi điện áp phần ứng thì tốc độ động cơ điện thay đổi theo phương trình:
+Vì từ thông của động cơ không đổi nên độ dốc đặc tính cơ cũng không đổi, còn tốc độ không tải lý tưởng thì tùy thuộc vào giá trị điện áp điều khiển Uư của hệ thống, do đó có thể nói phương pháp điều khiển này là triệt để.
+Đặc tính thu được khi điều khiển là một họ đường thẳng song song.
+2.3.2 Băng chuyền
+a) Giới thiệu chung về băng chuyền
+Băng chuyền thường được dùng để di chuyển các vật liệu đơn giản và vật liệu rời theo phương ngang và phương nghiêng. Trong các dây chuyền sản xuất các thiết bị này được sử dụng rộng rãi như những phương tiện để vận chuyển các cơ cấu nhẹ, trong các xưởng luyện kim dùng để vận chuyển quặng, than đá, các loại xỉ lò trên các trạm thủy điện thì dùng vận chuyển nhiên liệu.
+Trên các kho bãi thì dùng để vận chuyển các loại hàng bưu kiện, vật liệu hạt hoặc một số sản phẩm khác. Trong một số ngành công nghiệp nhẹ, công nghiệp thực phẩm, hóa chất thì dùng để vận chuyển các sản phẩm đẫ hoàn thành và chưa hoàn thành giữa các công đoạn, các phân xưởng, đồng thời cũng dùng để loại bỏ các sản phẩm không dùng được.
+
+
+b) Ưu điểm của băng chuyền
+- Cấu tạo đơn giản, bền, có khả năng vận chuyển rời và đơn chiếc theo các hướng nằm ngang, nằm nghiêng hoặc kết hợp giữa nằm ngang và nằm nghiêng.
+- Vốn đầu tư không lớn lắm, có thể tự động được, vận hành đơn giản, bảo dưỡng dễ dàng, làm việc tin cậy, năng suất cao và tiêu hao năng lượng so với máy vận chuyển khác không lớn lắm.
+c) Cấu tạo chung của băng chuyền
+Cấu tạo chung của băng chuyền (Hình 2.15).
+Hình 2.15 Cấu tạo chung của băng chuyền
+..........................................
+Hình 5.1 Mô hình hệ thống phân loại sản phẩm theo chiều cao đã hoàn thành.
+Phần cơ khí:
+- Thiết kế và chế tạo hệ thống khung cơ khí đỡ băng truyền, cảm biến và piston.
+- Tính toán lựa chọn động cơ, đai dẫn động, trục dẫn động.
+- Thiết kế, thi công hệ thống căng đai.
+- Thiết kế, thi công hộp chứa sản phẩm.
+Phần điện:
+- Lựa chọn rơ le, cảm biến.
+- Đấu nối cảm biến, rơ le, PLC.
+Phần khí nén:
+- Lựa chọn piston.
+- Lắp ráp hệ thống piston xilanh, dây dẫn khí và van đảo chiều 5/2 tác động điện.
+5.2 Đánh giá
+Sau quá trình nghiên cứu, thiết kế và thi công, mô hình hệ thống phân loại sản phẩm theo chiều cao đã được chế tạo thành công. Nhìn chung, hệ thống đáp ứng được các yêu cầu của đề tài đặt ra, tuy nhiên hệ thống vẫn còn một số nhược điểm, cần phải khắc phục.
+Những ưu điểm:
+- Thiết kế nhỏ gọn phù hợp với yêu cầu của đề tài.
+- Hệ thống điều khiển hoàn toàn tự động: Việc áp dụng công nghệ lập trình PLC đã đem lại cho mô hình những tính năng vượt trội về điều khiển, tuổi thọ của các thiết bị được nâng cao.
+- Có thể thay đổi, tác động trực tiếp vào chương trình điều khiển của mô hình.
+- Đơn giản trong thao tác, vận hành, sửa chữa và bảo dưỡng.
+- Hệ thống khí nén ổn định.
+- Mô hình hệ thống hoạt động an toàn.
+- Khả năng phân loại sản phẩm của hệ thống chính xác.
+Những nhược điểm:
+- Tính thẩm mỹ chưa cao.
+- Động cơ chạy còn gây tiếng ồn.
+- Giá thành của bộ PLC cao.
+5.3 Nguyên nhân và biện pháp khắc phục
+a) Nguyên nhân
+Trong quá trình hoạt động hệ thống phân loại sản phẩm theo chiều cao xuất hiện nhiều lỗi khiến hệ thống làm việc gặp nhiều hạn chế: lỗi động cơ, các bố trí các phần tử chưa đạt thẩm mỹ cao. Các lỗi này do nhiều nguyên nhân khách quan cũng như chủ quan gây ra nhưng nhìn chung do một số nguyên nhân sau:
+- Thiết kế cơ khí chưa đạt được độ ổn định cao vẫn còn hơi rung lắc.
+- Chưa có hệ thống ổn định quá dòng.
+- Cách bố trí các phần tử chưa hợp lý.
+b) Biện pháp khắc phục
+- Tối ưu hóa hệ thống cơ khí sao cho hệ thống đảm bảo tạo thành một khối liên kết chắc chắn.
+- Hoàn thiện hệ thống lý thuyết để có thể đưa sản phẩm ra thực tiễn.
+5.4 Hướng phát triển
+- Trong tương lai, mô hình hệ thống sẽ được nghiên cứu sâu để đưa hệ thống vào ứng dụng thực tế trong các ngành công nghiệp nói chung và công nghiệp tự động hóa nói riêng.
+- Hệ thống có thể phân loại được nhiều sản phẩm với các tiêu chí khác nhau trong nhiều trường hợp.
+Mong rằng đề tài này sẽ được các bạn sinh viên khóa sau tiếp tục thực hiện những yêu cầu trên và khắc phục những hạn chế của đề tài này, để có thể tạo ra một hệ thống có chất lượng cao phục vụ cho sản xuất và đời sống xã hội
+

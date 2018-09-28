@@ -1,0 +1,326 @@
+100 MB Bao gồm tất cả file,.lưu đồ giải thuật... thuyết minh, bản vẽ nguyên lý, bản vẽ thiết kế, FILE lập trình, ĐỒ ÁN TỐT NGHIỆP ĐIỆN tử Ảnh hưởng của các kỹ thuật phân tập tới hiệu năng bảo mật của hệ thống vô tuyến.
+MỤC LỤC
+LỜI CAM ĐOAN.. 1
+DANH MỤC CÁC THUẬT NGỮ VIẾT TẮT.. 5
+DANH SÁCH HÌNH VẼ.. 6
+LỜI MỞ ĐẦU.. 7
+CHƯƠNG 1 TỔNG QUAN.. 9
+1.1 Giới thiệu chương. 9
+1.2 Tổng quan về bảo mật thông tin trong hệ thống vô tuyến. 9
+1.2.1 Vấn đề bảo mật thông tin trong hệ thống vô tuyến. 9
+1.2.2 Nguyên lý và một số giới hạn của mật mã hóa hiện đại10
+1.3 Tổng quan về các kỹ thuật phân tập SC, MRC.. 14
+1.3.1 Kỹ thuật phân tập SC 14
+1.3.1.1 Nguyên lý kỹ thuật phân tập SC.. 14
+1.3.1.2 Hiệu suất của kỹ thuật phân tập SC.. 15
+1.3.2 Kỹ thuật phân tập MRC 16
+1.3.2.1 Nguyên lý của kỹ thuật phân tập MRC.. 16
+1.3.2.2 Hiệu suất của kỹ thuật phân tập MRC.. 17
+1.4 Kết luận chương. 21
+CHƯƠNG 2 NGHIÊN CỨU BẢO MẬT THÔNG TIN Ở LỚP VẬT LÝ.. 22
+2.1 Giới thiệu chương. 22
+2.2 Bảo mật ở lớp vật lý. 22
+2.3 Một số loại mô hình bảo mật lớp vật lý. 24
+2.3.1 Gausian wiretap channel24
+2.3.2 Fading wiretap channel25
+2.3.2.1 Dung lượng bảo mật27
+2.3.2.2 Xác suất dung lượng bảo mật khác không. 28
+2.3.2.3 Xác suất mất bảo mật29
+2.4 Kết luận chương. 30
+CHƯƠNG 3 ĐÁNH GIÁ HIỆU NĂNG BẢO MẬT CỦA CÁC KỸ THUẬT PHÂN TẬP Ở KÊNH TRUYỀN FADING RAYLEIGH.. 31
+3.1 Giới thiệu chương. 31
+3.2 Xây dựng mô hình hệ thống. 31
+3.2.1 Mô hình hệ thống cơ bản. 31
+3.2.2 Xây dựng mô hình hệ thống. 32
+3.3 Phân tích hiệu năng bảo mật của hệ thống. 33
+3.3.1 Xác suất dung lượng bảo mật khác không. 34
+3.3.2 Xác suất mất bảo mật34
+3.3.3 Hiệu năng bảo mật của kỹ thuật phân tập SC-SC.. 35
+3.3.3.1 Xác suất dung lượng bảo mật khác không. 35
+3.3.3.2 Xác suất mất bảo mật37
+3.3.4 Hiệu năng bảo mật của kỹ thuật phân tập MRC-MRC.. 39
+3.3.4.1 Xác suất dung lượng bảo mật khác không. 39
+3.3.4.2 Xác suất mất bảo mật41
+3.3.5 Hiệu năng bảo mật của kỹ thuật phân tập MRC-SC.. 43
+3.3.5.1 Xác suất dung lượng bảo mật khác không. 43
+3.3.5.2 Xác suất mất bảo mật45
+3.3.6 Hiệu năng bảo mật của kỹ thuật phân tập SC-MRC.. 46
+3.3.6.1 Xác suất dung lượng bảo mật khác không. 46
+3.3.6.2 Xác suất mất bảo mật48
+3.4 Kết luận chương. 49
+CHƯƠNG 4 MÔ PHỎNG HIỆU NĂNG BẢO MẬT CỦA CÁC KỸ THUẬT PHÂN TẬP. 50
+4.1 Giới thiệu chương. 50
+4.2 Lưu đồ thuật toán chương trình. 50
+4.3 Kết quả mô phỏng và nhận xét52
+4.4 Kết luận chương. 60
+KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN ĐỀ TÀI61
+Kết luận. 61 Hướng phát triển đề tài62
+DANH MỤC TÀI LIỆU THAM KHẢO.. 63
+PHỤ LỤC A.. 65
+PHỤ LỤC B.. 67
+
+DANH MỤC CÁC THUẬT NGỮ VIẾT TẮT
+MRC Maximal Ratio Combining
+SC Selection Combining
+PDF Probability Density Functions
+CDF Cumulative Distribution Functions
+AWGN Additive White Gaussian Noise
+OP Outage Probability
+CS Secrecy Capacity
+Pr Probability
+SNR Signal-to-Noise Ratio
+DANH SÁCH HÌNH VẼ
+Hình 1.1 Kiến trúc phân lớp các giao thức truyền thông
+Hình 1.2 Nguyên lý mã hóa của mật mã hóa đối xứng
+Hình 1.3 Nguyên lý mã hóa của mật mã hóa bất đối xứng
+Hình 1.4 Mật mã one-time pad
+Hình 1.5 Nguyên lý kỹ thuật phân tập SC
+Hình 1.6 Nguyên lí kỹ thuật phân tập MRC
+Hình 2.1 Nghe trộm trong mạng vô tuyến
+Hình 2.2 Gaussian wiretap channel
+Hình 2.3 Rayleigh fading wiretap channel
+Hình 3.1 Mô hình hệ thống cơ bản
+Hình 3.2 Mô hình hệ thống
+Hình 4.1 Sơ đồ mô hình hệ thống
+Hình 4.2 Lưu đồ thuật toán chương trình
+Hình 4.3 Xác suất bảo mật khác không của các kỹ thuật khi Le=1, Lm thay đổi
+Hình 4.4 Xác suất bảo mật khác không của các kỹ thuật khi Lm=Le=2
+Hình 4.5 Xác suất bảo mật khác không của các kỹ thuật khi Lm=6, Le=2
+Hình 4.6 Xác suất bảo mật khác không của kỹ thuật MRC khi Lm, Le thay đổi
+Hình 4.7 Xác suất mất bảo mật của kỹ thuật MRC, SC khi Le=1, Lm thay đổi
+Hình 4.8 Xác suất mất bảo mật của kỹ thuật phân tập khi Lm=Le=2
+Hình 4.9 Xác suất mất bảo mật của kỹ thuật phân tập khi Lm=6, Le=2
+Hình 4.10 Xác suất mất bảo mật của kỹ thuật phân tập MRC khi Lm, Le thay đổi
+LỜI MỞ ĐẦU Ảnh hưởng của các kỹ thuật phân tập tới hiệu năng bảo mật của hệ thống vô tuyến.
+Mạng thông tin vô tuyến đã trở thành một phần không thể thiếu của đời sống và ngày càng phát triển mạnh mẽ. Do đặc tính quảng bá của kênh truyền vô tuyến, dẫn đến những người dùng không hợp pháp cũng có thể dễ dàng thu bắt được thông tin hay thậm chí có thể tấn công và sửa đổi thông tin. Vì lý do đó, bảo mật thông tin trong thông tin vô tuyến đóng một vai trò hết sức quan trọng. Theo quan điểm truyền thống, bảo mật trong thông tin vô tuyến được xem như là một tính năng được thực hiện ở các lớp trên lớp vật lý, và tất cả các giao thức mật mã hóa được sử dụng rộng rãi hiện nay đều được thiết kế và thực hiện với giả thiết rằng lớp vật lý đã thiết lập và cung cấp một đường truyền không có lỗi. Những năm gần đây, nhiều nghiên cứu cho thấy lớp vật lý có khả năng tăng cường độ bảo mật của hệ thống thông tin vô tuyến. Hướng nghiên cứu này gọi là “Bảo mật thông tin ở lớp vật lý “. Ý tưởng đằng sau bảo mật thông tin ở lớp vật lý là tận dụng các đặc tính của kênh truyền vô tuyến như fading và nhiễu, để cung cấp bảo mật cho kênh truyền vô tuyến. Những đặc tính trên, theo quan điểm truyền thống được xem là những nhân tố làm giảm chất lượng hệ thống, thì theo quan điểm bảo mật lớp vật lý, chúng giúp tăng độ tin cậy và độ bảo mật của hệ thống.
+Như chúng ta đã biết các kỹ thuật phân tập được sử dụng trong thông tin vô tuyến nhằm mục đích tăng chất lượng kênh truyền. Một câu hỏi đặt ra là liệu các kỹ thuật phân tập có giúp tăng hiệu quả bảo mật thông tin ở lớp vật lý hay không? Đồ án này sẽ trả lời câu hỏi đó. Với tên đề tài : Ảnh hưởng của các kỹ thuật phân tập tới hiệu năng bảo mật của hệ thống vô tuyến.
+Đồ án chia làm 4 chương
+Chương 1: Tổng quan. Trình bày tổng quan về phương pháp mật mã hóa hiện đại, đưa ra những ưu điểm và những hạn chế của kỹ thuật này. Đồng thời chương một cũng giới thiệu về hai kỹ thuật phân tập không gian thu SC và MRC.
+Chương 2: Nghiên cứu bảo mật ở lớp vật lý. Giới thiệu về bảo mật thông tin ở lớp vật lý, trình bày các khái niệm quan trọng của phương pháp bảo mật này. Sau đó tiến hành khảo sát hiệu năng bảo mật trên mô hình fading wiretap channel.
+Chương 3: Đánh giá hiệu năng bảo mật của các kỹ thuật phân tập trên kênh truyền fading Rayleigh. Đi sâu vào tính toán, phân tích ảnh hưởng của các kỹ thuật phân tập SC, MRC tới hiệu năng bảo mật thông tin của hệ thống vô tuyến, đưa ra các công thức cụ thể để đánh giá.
+Chương 4: Mô phỏng ảnh hưởng của các kỹ thuật phân tập tới hiệu năng bảo mật của hệ thống vô tuyến. Đưa ra mô hình mô phỏng, thiết lập các thông số mô phỏng, vẽ lưu đồ thuật toán, viết chương trình. Sau đó tiến hành mô phỏng và nhận xét kết quả.
+Đồ án này sẽ tập trung phân tích ảnh hưởng của hai kỹ thuật phân tập thu SC, MRC tới hiệu năng bảo mật ở lớp vật lý.
+Trong quá trình thực hiện đồ án, em đã cố gắng rất nhiều song không khỏi mắc phải những sai sót, kính mong quý thầy cô thông cảm và đóng góp ý kiến để đồ án được hoàn thiện hơn.
+Sau cùng, cho phép em bày tỏ lời cảm ơn đến các thầy cô giáo trong khoa Điện Tử Viễn Thông, đặc biệt là cô TS: Bùi Thị Minh Tú đã tận tình hướng dẫn, cung cấp tài liệu và động viên giúp đỡ em trong suốt thời gian thực hiện đồ án này.
+Em xin chân thành cảm ơn!
+
+CHƯƠNG 1 TỔNG QUAN
+1.1 Giới thiệu chương
+Trong chương này sẽ trình bày tổng quan về bảo mật thông tin trong hệ thống vô tuyến. Một số nguyên lý và hạn chế của phương pháp mật mã hóa hiện đại cũng được dẫn ra. Qua đó cho ta thấy rõ sự cần thiết của một phương pháp bảo mật mới. Trong chương này cũng trình bày về các kỹ thuật phân tập không gian thu SC, MRC. Đưa ra nguyên lý và các công thức của hàm PDF, CDF để đánh giá hiệu suất của từng kỹ thuật.
+1.2 Tổng quan về bảo mật thông tin trong hệ thống vô tuyến
+1.2.1 Vấn đề bảo mật thông tin trong hệ thống vô tuyến
+Hệ thống vô tuyến có bản chất “mở”, nên việc bảo mật thông tin là một vấn đề rất phức tạp. Ngoài vấn đề bảo mật, tính chất mở của hệ thông vô tuyến còn tạo ra một số vấn đề khác. Thứ nhất, kênh truyền vô tuyến có thể dễ dàng bị gây nhiễu. Một người tấn công có thể gây nhiễu cho kênh truyền một cách dễ dàng nhằm mục đích phá vỡ lưu lượng thông tin làm cho người dùng hợp pháp không thể truy nhập được vào hệ thống. Thứ hai, với một cơ chế nhận thực không tốt, một người tấn công có thể dễ dàng vượt qua được hạ tầng bảo mật của hệ thống. Vấn đề cuối cùng là với cơ chế mở, một người tấn công có thể dễ dàng lấy được thông tin mà không cần sử dụng tới các thiết bị hiện đại, đắt tiền.
+Giải pháp cho những vấn đề trên được đưa ra dựa trên tiếp cận dạng lớp. Về mặt lịch sử, cách tiếp cận này được sử dụng này nhằm mục đích đơn giản thiết kế của giao thức truyền thông, nhưng lại ít quan tâm đến bảo mật. Hình 1.1 mô tả những lớp khác nhau trong một giao thức truyền thông đặc trưng và mục đích của từng lớp. Ví dụ mã hóa kênh được thực hiện ở lớp vật lý để đảm bảo rằng các lớp phía trên hoạt động không bị lỗi.
+Xem xét một số giải pháp bảo mật được sử dụng trong một số lớp nhất định, ta thấy các cơ chế xác thực được sử dụng ở lớp liên kết để chống lại việc truy nhập vào mạng mà không qua xác thực, kỹ thuật trải phổ được sử dụng ở lớp vật lý để chống lại nhiễu, kỹ thuật mật mã hóa được sử dụng ở lớp ứng dụng để chống lại việc nghe trộm. Tuy nhiên việc nghe trộm cũng liên quan đến lớp vật lý. Đây là nhiệm vụ của bảo mật thông tin lớp vật lí.
+
+Hình 1.1 Kiến trúc phân lớp của các giao thức truyền thông [2]
+
+1.2.2 Nguyên lý và một số giới hạn của mật mã hóa hiện đại
+Mật mã hóa hiện đại không còn giới hạn trong việc phân tích và thiết kế các hệ mã, mà còn giải quyết một số vấn đề như chữ kí số, nhận thực, độ toàn vẹn thông tin. Trong đồ án này sẽ trình bày hai dạng mật mã hóa thông dụng là mật mã hóa bí mật và mật mã hóa công khai. Mục đích của phần này là chỉ ra những điểm nổi bật của những hệ thống này và cung cấp một cơ sở để so sánh với dạng bảo mật lý thuyết thông tin sẽ được trình bày chi tiết trong đồ án này. Để đảm bảo độ tuyệt mật thông tin được gửi từ Alice, thông tin trước khi truyền đi sẽ được mật mã hóa dựa vào thuật toán mã hóa và các chuỗi bít bí mật chỉ có Alice và Bob biết, chuỗi bít đó được gọi là khóa mật mã (key). Mục tiêu của Eve là phá mã mà Alice và Bob sử dụng, tức là có thể đọc nội dung bản tin từ từ mã mà không biết khóa mật mã. Độ bảo mật của các hệ mã thường được đo bằng số phép tính để phá được hệ mã đó. Nhưng với công nghệ ngày nay, việc đo độ bảo mật dựa thời gian tính toán và bộ nhớ cần thiết để phá mã là không còn hợp lý. Phép đo này hiện nay đang được sử dụng phổ biến, nhưng về lâu dài khó có thể đảm bảo được tính bảo mật khi mà khả năng tính toán của các máy tính ngày càng mạnh mẽ hơn. Thật vậy, nhiều loại mã được cho là bảo mật cao cách đây 20 năm, giờ đây có thể dễ dàng bị phá chỉ bởi các máy tính thông thường. Do đó thuật toán mã hóa cần phải được cập nhật thường xuyên để đối mặt với khả năng tính toán ngày càng cao của máy tính.
+
+Hình 1.2 Nguyên lí mã hóa của mật mã hóa đối xứng [2]
+
+Hình 1.2 mô tả nguyên lí của giao thức mật mã hóa bí mật hay còn gọi là mật mã hóa đối xứng. Alice và Bob được cấp một khóa mật mã k, khóa này được sử dụng để mật mã hóa bản tin m hoặc giải mật mã từ mã c. Eve biết thuật toán mã hóa và thuật toán giải mã nhưng không biết khóa k. Mật mã hóa đối xứng có ưu điểm là mật mã bản tin với các khóa tương đối ngắn và tốc độ hoạt động cao.Ví dụ, chuẩn mã hóa nâng cao (ASE) được thực hiện bằng phần cứng có thể thực hiện ở tốc độ hàng gigabytes. Tuy nhiên, độ bảo mật không chỉ phụ thuộc vào độ phức tạp của thuật toán mã hóa mà còn phụ thuộc vào hiệu quả phân bố khóa mật mã giữa Alice và Bob.
+
+Hình 1.3 Nguyên lí mã hóa mật mã hóa bất đối xứng [2]
+
+Giaothức mật mã hóa công khai hay mật mã hóa bất đối xứng được đề xuất như là một giải pháp cho vấn đề phân bố khóa. Hình 1.3 mô tả giao thức mật mã hóa bất đối xứng. Nguyên lý của mật mã hóa bất đối xứng khác biệt so với mật mã hóa đối xứng ở chỗ Alice và Bob có khóa bí mật riêng. Khóa công cộng luôn có sẵn và được Alice sử dụng để mật mã hóa bản tin. Khóa mật mã cá nhân được giữ bí mật và chỉ được sử dụng cho giải mã. Như vậy, khóa công cộng có vai trò như một ổ khóa mà ai cũng có thể đóng (mật mã hóa) nhưng chỉ có Bob có thể mở được, vì chỉ có Bob mới có chìa khóa là .
+
+Hình 1.4 Mật mã one-time pad [2]
+
+Để tránh giới hạn liên quan tới phép đo độ bảo mật bằng khả năng tính toán, người ta quan tâm một tiêu chuẩn nghiêm ngặt hơn dựa vào lý thuyết thông tin. Nếu xem bản tin M và từ mã C là các biến ngẫu nhiên, một từ mã được xem là bảo mật nếu độ bất định Shanon của bản tin sau khi quan sát từ mã H(M|C) bằng với độ bất định thông tin của bản tin trước mật mã H(M) [4]. Định nghĩa này được gọi là bảo mật hoàn hảo (perfect secrecy) và được chấp nhận rộng rãi là khái niệm bảo mật chặt chẽ nhất. Chú ý định nghĩa này không đặt ra một giới hạn nào về khả năng tính toán của Eve.
+Trước khi bàn sâu hơn về bảo mật hoàn hảo, ta nên kiểm tra ý nghĩa thực tế của khái niệm này. Đầu tiên, một điều nên chú ý là không tồn tại phép mật mã nào mà không thể bị phá. Thật vậy, nếu một bản tin chứa k bít thông tin, trong trường hợp xấu nhất của Eve, tức Eve chỉ đoán mò thì xác suất thành công sẽ là . Kết quả này không ngụ ý rằng không thể đạt được bảo mật dữ liệu, mà chỉ chỉ ra rằng việc đánh giá độ bảo mật của một hệ thống nên đánh giá dựa vào xác suất. Tiêu chuẩn bảo mật hoàn hảo, mà đảm bảo rằng bản tin và từ mã là độc lập mang ý nghĩa rằng đoán mò là cách tốt nhất mà Eve có thể thực hiện để đọc được bản tin. Vì không có sự tương quan giữa bản tin và từ mã nên bảo mật hoàn hảo được xem là miễn dịch với các kỹ thuật phân tích mã. Shanon đã chứng minh được dạng mật mã duy nhất thỏa mãn điều kiện bảo mật hoàn hảo là one-time pad được mô tả trên hình 1.4 .
+1.3 Tổng quan về các kỹ thuật phân tập SC, MRC
+1.3.1 Kỹ thuật phân tập SC [15]
+1.3.1.1Nguyên lý kỹ thuật phân tập SC
+
+
+Hình 1.5 Nguyên lý kỹ thuật phân tập SC
+
+Kỹ thuật phân tập thu SC hoạt động trên nguyên tắc lựa chọn tín hiệu có tỉ số tín hiệu trên nhiễu SNR tốt nhất trong số tất cả các tín hiệu nhận được từ các nhánh khác nhau rồi đưa vào xử lý. Điều này tương đương với việc chọn nhánh có giá trị cao nhất nếu công suất nhiễu giống nhau cho tất cả các nhánh. Tại một thời điểm chỉ có một nhánh được sử dụng nên phương pháp SC chỉ yêu cầu máy thu được chuyển đến vị trí anten tích cực (anten có tín hiệu được lựa chọn). Tuy nhiên, kỹ thuật này đòi hỏi trên mỗi nhánh của máy thu phải có một bộ theo dõi SNR đồng thời và liên tục.
+Trong phương pháp phân tập SC, tín hiệu ngõ ra của bộ kết hợp có SNR chính là giá trị cực đại của SNR trên tất cả các nhánh. Vì tại một thời điểm chỉ có một tín hiệu của một nhánh được đưa vào xử lý nên kỹ thuật này không yêu cầu sự đồng pha giữa các nhánh.
+1.3.1.2Hiệu suất của kỹ thuật phân tập SC
+
+Tỉ số SNR thu được tại bộ thu là:
+Khi bậc phân tập là M, thì hàm phân bố xác suất (CDF) của là:
+Trong đó là hàm mật độ xác suất (PDF) của được định nghĩa như sau:
+Xét trên kênh truyền Rayleigh Fading, giả sử nhánh phân tập thứ i có biên độ là . Tỉ số SNR tức thời tại nhánh thứ i là . Định nghĩa tỉ số SNR trung bình tại nhánh thứ i là . Suy ra hàm mật độ xác suất pdf là:
+Nếu tỉ số SNR trung bình của tất cả các nhánh đều giống nhau ( với mọi i ) thì hàm phân bố xác suất (CDF) của γ là:
+suy ra hàm pdf của γ là:
+1.3.2 Kỹ thuật phân tập MRC [15]
+1.3.2.1Nguyên lý của kỹ thuật phân tập MRC
+
+Hình 1.6 Nguyên lí kỹ thuật phân tập MRC
+
+Đối với kỹ thuật phân tập SC, tín hiệu ngõ ra trên bộ kết hợp chính là tín hiệu trên một nhánh riêng biệt nào đó. Kỹ thuật MRC khác với kỹ thuật SC, kỹ thuật này sử dụng tín hiệu thu từ tất cả các nhánh để đưa vào xử lý. Mỗi tín hiệu ở mỗi nhánh có một trọng số tương ứng với SNR của nó, đồng thời tín hiệu trên mỗi nhánh phải cùng pha với nhau với là pha trên nhánh thứ i .
+SNR tại đầu ra của bộ kết hợp trong trường hợp công suất nhiễu trên các nhánh như nhau là:
+Mục đích của chúng ta là phải chọn được các giá trị sao cho đạt giá trị lớn nhất.
+Nếu ta thực hiện tối ưu các trọng số thì kết quả sẽ đạt giá trị lớn nhât. Vì tỉ lệ thuận với tỉ số SNR trên các nhánh , sử dụng định lí Cauchy-Schwarz ta thu gọn biểu thức trên thành
+Vậy SNR của ngõ ra bộ kết hợp là tổng của các SNR trên các nhánh thành phần. SNR của tín hiệu thu được sẽ tăng tuyến tính theo số nhánh phân tập M.
+1.3.2.2Hiệu suất của kỹ thuật phân tập MRC
+Xét trên kênh truyền Rayleigh fading ta có hàm phân bố xác suất và hàm mật độ xác suất của là:
+
+ü Trường hợp có 2 anten thu
+Gọi là tỉ số SNR tương đương của hệ thống
+Theo định nghĩa hàm phân bố xác suất, ta có:
+Xét trường hợp ta có:
+
+Lấy đạo hàm theo biến tacó hàm mật độ xác suất:
+
+ü Trường hợp có 3 anten thu
+Goi là tỉ số SNR tương đương của hệ thống.
+Từ phần chứng minh trên, ta có:
+Áp dụng cho trường hợp:
+ð
+Lấy đạo hàm theo biến ta được hàm mật độ xác suất:
+ü Trường hợp có L anten thu
+Từ hai trường hợp L=2, và L=3 ta rút ra công thức tổng quát của hàm phân bố xác suất và hàm mật độ xác suất đối với L anten là:
+1.4 Kết luận chương
+Hệ thống thông tin vô tuyến có bản chất mở, nên việc bảo mật thông tin là vô cùng quan trọng. Phương pháp mật mã hóa hiện đại mà điển hình là mật mã hóa đối xứng và mật mã hóa bất đối xứng, hiện đang được sử dụng rộng rãi với rất nhiều ưu điểm. Bên cạnh đó phương pháp mật mã hóa hiện đại còn tồn tại một số hạn chế như mức độ bảo mật phụ thuộc vào độ phức tạp của thuật toán mã hóa, như vậy nếu muốn tăng độ bảo mật của hệ thống thì độ phức tạp của thuật toán mã hóa theo đó cũng tăng lên. Điều này dẫn đến thời gian giải mã lớn hơn, dung lượng truyền tăng, tốc độ kênh truyền cũng tăng theo. Phương pháp bảo mật kết hợp phần cứng gọi là “bảo mật thông tin lớp vật lý” hứa hện sẽ khắc phục những hạn chế này. Ngoài ra trong chương này cũng trình bày tổng quan về hai kỹ thuật phân tập SC, MRC. Về nguyên lý hai kỹ thuật này có điểm khác biệt, kỹ thuật phân tập SC trong một thời điểm chỉ chọn một kênh có hệ số SNR cao nhất để đưa vào giải mã nên cần có bộ cảm biến liên tục về SNR trên mỗi anten thu. Còn kỹ thuật phân tập MRC sau khi đã nhân hệ số đồng pha với hệ số SNR trên mỗi anten sẽ lấy tổng tất cả các hệ số này để đưa vào giải mã.
+
+CHƯƠNG 2 NGHIÊN CỨU BẢO MẬT THÔNG TIN Ở LỚP VẬT LÝ
+2.1Giới thiệu chương
+Những năm gần đây, nhiều nghiên cứu cho thấy lớp vật lý có khả năng tăng cường độ bảo mật của hệ thống thông tin vô tuyến. Hướng nghiên cứu này được gọi là bảo mật thông tin ở lớp vật lý. Ý tưởng đằng sau bảo mật thông tin ở lớp vật lý là tận dụng các đặc tính của kênh truyền vô tuyến như fading và nhiễu để cung cấp bảo mật cho kênh truyền vô tuyến. Những đặc tính trên, theo quan điểm truyền thống được xem là nhân tố chính làm giảm chất lượng hệ thống, thì theo quan điểm bảo mật lớp vật lý, chúng giúp tăng cường độ tin cậy và độ bảo mật của hệ thống. Trong phần này sẽ trình bày các khái niệm cơ bản trong bảo mật ở lớp vật lý và đưa ra một số mô hình thường gặp trong bảo mật ở lớp vật lý như Gaussian wiretap channel và fading wiretap channel.
+2.2Bảo mật ở lớp vật lý
+Bảo mật lý thuyết thông tin là nguyên lý cơ bản của bảo mật ở lớp vật lý, và chủ yếu được xây dựng dựa trên khái niệm bảo mật hoàn hảo được đề xuất bởi Shanon [4], sau đó được phát triển bởi Wyner [5], sau đó nữa là Csiszar và Korner [13]. Người đã chứng minh được có sự tồn tại loại mã hóa kênh đảm bảo vừa có thể chống lỗi, vừa có thể bảo mật thông tin. Những năm sau đó, các phát hiện bị giới hạn chủ yếu là do dung lượng bảo mật (security capacity) chỉ lớn hơn không khi tỉ số SNR của kênh hợp pháp (Legitimate) lớn hơn tỉ số SNR của kênh nghe trộm (Eveadropper). Những năm gần đây, nhiều nghiên cứu chỉ ra rằng có thể đạt được dung lượng bảo mật khác không khi tỉ số SNR của kênh chính bé hơn tỉ số SNR của kênh nghe trộm. Trong [10] đã dẫn ra dung lượng bảo mật outage của kênh fading chậm, và kết quả cho thấy một mình fading cũng có thể giúp dung lượng bảo mật khác không, ngay cả khi tỉ số SNR của kênh chính bé hơn kênh nghe trộm.
+Để hiểu ý nghĩa của bảo mật ở lớp vật lý, ta xem xét mô hình mạng như hình 2.1 dưới đây. Trong hình này quá trình truyền thông giữa và bị nghe lén bởi . Kênh truyền thông giữa hai người dùng hợp pháp gọi là kênh chính (main channel), kênh truyền thông giữa và gọi là kênh nghe trộm (eveasdropper’s channel).
+Hình 2.1 Nghe trộm trong mạng vô tuyến [2]
+Tín hiệu vô tuyến thu được tại kênh chính và kênh nghe trộm thông thường không giống nhau và cố độ lệch nhất định. Đó là do đặc tính kênh truyền vô tuyến gây ra, ở đây chủ yếu là fading và path-loss. Fading là kết quả của hiện tượng đa đường gây ra, còn path-loss đơn giản là sự suy giảm biên độ của tín hiệu khi sóng vô tuyến truyền trong không gian. Hệ quả của ảnh hưởng trên là, nếu khoảng cách truyền thông của kênh chính nhỏ hơn nhiều so với kênh nghe trộm thì có thể kì vọng tín hiệu thu được tại kém hơn so với , thậm chí không giải mã được tín hiệu. Hiện tại, việc chống nghe trộm được thực hiện nhờ vào mật mã học và chưa tính đến các ảnh hưởng trên. Ngược lại, ý tưởng cơ bản của bảo mật lớp vật lý là tận dụng những đặc tính của kênh truyền vô tuyến để nâng cao hiệu năng bảo mật của hệ thống.
+2.3Một số loại mô hình bảo mật lớp vật lý
+2.3.1 Gausian wiretap channel
+Năm 1975, trong [5] Wyner đã đưa ra mô hình kênh wiretap và chứng minh được hệ thống có thể đạt được bảo mật hoàn hảo nếu tốc độ truyền nhỏ hơn hiệu dung lượng giữa kênh chính và kênh wiretap, mà không cần phải mã hóa dữ liệu. Sau đó đến năm 1978, trong [6] đã mở rộng mô hình của Wyner cho kênh Gausian, và kết quả cho thấy độ bảo mật của hệ thống sẽ được đảm bảo nếu tốc độ truyền nhỏ hơn dung lượng bảo mật.
+.....................................
+4.1 Kết quả mô phỏng và nhận xét
+4.1.1 Xác suất dung lượng bảo mật khác không
+Mô phỏng 1: Đánh giá hiệu năng bảo mật của kỹ thuật SC, MRC khi Le=1, Lm=1, 2, 3.
+Hình 4.3 Xác suất dung lượng bảo mật khác không
+
+Nhận xét:
+Sử dụng kỹ thuật phân tập ở người thu hợp pháp sẽ tăng cường hiệu năng bảo mật của hệ thống Khi bậc phân tập càng cao thì hiệu năng bảo mật càng tăng Kỹ thuật phân tập MRC cho hiệu năng bảo mật tốt hơn kỹ thuật phân tập SC
+
+Mô phỏng 2: Đánh giá hiệu năng bảo mật của các kỹ thuật SC-SC, SC-MRC, MRC-MRC, MRC-SC khi Lm=Le=2.
+Hình 4.4 Xác suất dung lượng bảo mật khác không của các kỹ thuật phân tập khi Lm/Le=1
+Nhận xét:
+Khi sử dụng kỹ thuật MRC ở người nghe hợp pháp và kỹ thuật SC ở người nghe trộm cho hiệu năng bảo mật tốt nhất Ngược lại khi sử dụng kỹ thuật SC ở người nghe hợp pháp và kỹ thuật MRC ở người nghe trộm cho hiệu năng bảo mất kém nhất Trong trường hợp Lm=Le=2, kỹ thuật phân tập SC cho hiệu năng bảo mật tốt hơn kỹ thuật phân tập MRC khi 8 dB thì hai kỹ thuật này cho hiệu năng bảo mật gần như nhau. Mô phỏng 3: Đánh giá hiệu năng bảo mật của các kỹ thuật SC-SC, SC-MRC, MRC-MRC, MRC-SC khi Lm=6, Le=2.
+Hình 4.5 Xác suất dung lượng bảo mật khác không của các kỹ thuật phân tập khi Lm/Le=3
+Nhận xét:
+Khi tăng bậc phân tập ở người thu hợp pháp thì hiệu năng bảo mật của hệ thống sẽ tăng lên. So sánh với hình 4.2 ta thấy: Kỹ thuật SC-MRC khi Lm=6 tại =[0,6,10]dB thì Pr(Cs>0) lần lượt là [0.0277;0.2519;0.6344], trong khi ở Lm=2 thì Pr(Cs>0) lần lượt là [0.0124;0.1378;0.3853]. Kỹ thuật MRC-SC khi Lm=6 tại =[0,6,10]dB thì Pr(Cs>0) lần lượt là [0.2087;0.7584;0.9701], trong khi ở Lm=2 thì Pr(Cs>0) lần lượt là [0.0412;0.2956;0.6058] Kỹ thuật phân tập MRC cho hiệu năng bảo mật tốt hơn kỹ thuật phân tập SC khi tăng bậc phân tập. Mô phỏng 4: Đánh giá hiệu năng bảo mật của kỹ thuật MRC khi Lm, Le thay đổi.
+Hình 4.6 Xác suất dung lượng bảo mật khác không khi Lm, Le thay đổi
+Nhận xét:
+Khi tăng số lượng anten ở người thu hợp pháp Lm, thì hiệu năng bảo mật cũng tăng theo. Khi tăng số lượng anten ở người nghe trộm Le, thì hiệu năng bảo mật sẽ giảm xuống.
+
+
+
+4.1.2 Xác suất mất bảo mật
+Mô phỏng 5: Xác suất mất bảo mật khi Le=1, Lm=1, 2, 3 của kỹ thuật SC, MRC.
+Hình 4.7 Xác suất mất bảo mật của các kỹ thuật phân tập SC, MRC khi Le=1
+
+Nhận xét:
+khi Lm=Le=1, xác suất mất bảo mật của các kỹ thuật phân tập SC, MRC trùng với trường hợp không sử dụng kỹ thuật phân tập. khi bậc phân tập ở người thu hợp pháp tăng lên (Lm>1,Le=1) thì hiệu năng bảo mật sẽ tăng lên. Kỹ thuật phân tập MRC có hiệu năng bảo mật tốt hơn kỹ thuật phân tập SC khi có cùng bậc phân tập.
+
+Mô phỏng 6: So sánh hiệu năng bảo mật của các kỹ thuật khi Lm=Le=2.
+Hình 4.8 Xác suất mất bảo mật của các kỹ thuật phân tập khi Lm=Le=2
+
+Nhận xét:
+Hiệu năng bảo mật tốt nhất khi sử dụng kỹ thuật MRC ở người thu hợp pháp và sử dụng kỹ thuật SC ở người nghe trộm. Hiệu năng bảo mật xấu nhất khi sử dụng kỹ thuật phân tập SC ở người thu hợp pháp và sử dụng kỹ thuật MRC ở người nghe trộm. Trong trường hợp Lm=Le=2 thì kỹ thuật SC/SC và kỹ thuật MRC/MRC có hiệu năng bảo mật như nhau trong khoảng <10dB, khi >10 dB thì kỹ thuật MRC/MRC cho hiệu năng bảo mật tốt hơn. Mô phỏng 7: So sánh hiệu năng bảo mật của các kỹ thuật phân tập SC-MRC, SC-SC, MRC-MRC, MRC-SC khi Lm=6, Le=2.
+Hình 4.9 Xác suất mất bảo mật của các kỹ thuật phân tập khi Lm=6, Le=2
+
+Nhận xét:
+Khi tăng bậc phân tập ở người thu hợp pháp lên Lm=6 thì xác suất mất bảo mật của các kỹ thuật đều giảm xuống so với khi Lm=2 (giữ nguyên Le=2). Chứng tỏ khi tăng bậc phân tập ở người thu hợp pháp hiệu năng bảo mật của hệ thống sẽ được cải thiện. Khi người nghe hợp pháp sử dụng kỹ thuật phân tập MRC cho hiệu năng bảo mật tốt hơn khi sử dụng kỹ thuật phân tập SC.
+
+Mô phỏng 8: Xác suất mất bảo mật của kỹ thuật MRC khi Lm, Le thay đổi
+Hình 4.10 Xác suất mất bảo mật của kỹ thuật MRC khi Lm, Le thay đổi
+
+Nhận xét:
+Xác suất mất bảo mật sẽ tăng lên khi ta tăng Le, trong khi giữ nguyên Lm, Le càng tăng thì hiệu năng bảo mật của hệ thống càng giảm. Xác suất mất bảo mật sẽ giảm khi ta giữ nguyên Le, và tăng Lm lên, Lm càng tăng thì hiệu năng bảo mật của hệ thống càng tốt.
+
+4.2 Kết luận chương
+Chương này đã thực hiện mô phỏng cho bốn trường hợp SC/MRC, SC/SC, MRC/MRC, MRC/SC với sự thay đổi của các thông số như tỉ số công suất tín hiệu trên nhiễu kênh chính (), tỉ số công suất tín hiệu trên nhiễu kênh nghe trộm (), số lượng anten ở kênh chính (Lm) và kênh nghe trộm (Le). Qua đó, ta thấy được khả năng bảo mật của hệ thống sẽ tăng khi tăng hoặc khi Lm tăng, khả năng bảo mật của hệ thông sẽ giảm khi tăng hoặc khi Le tăng. Từ kết quả mô phỏng ta khẳng định được, khi sử dụng kỹ thuật phân tập ở người nghe hợp pháp thì hiệu năng bảo mật của hệ thống sẽ tăng lên. Bậc phân tập càng cao thì hiệu năng bảo mật càng tăng lên. Hiệu năng bảo mật của hệ thống khi sử dụng kỹ thuật MRC ở kênh chính và kỹ thuật SC ở kênh nghe trộm là tốt nhất, ngược lại khi sử dụng kỹ thuật SC ở kênh chính và MRC ở kênh nghe trộm cho kết quả xấu nhất.
+
+KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN ĐỀ TÀI
+
+Kết luận
+Khả năng bảo mật của phương pháp mật mã hóa hiện đại phụ thuộc vào độ phức tạp của thuật toán mã hóa, khi thuật toán mã hóa càng phức tạp thì thời gian giải mã càng lâu, dung lượng truyền càng lớn. “Bảo mật thông tin lớp vật lý” sẽ khắc phục điều này. Hiệu năng bảo mật của lớp vật lý được đánh giá qua hai thông số: Xác suất dung lượng bảo mật khác không: Xác suất dung lượng kênh chính lớn hơn dung lượng kênh nghe trộm, tức xác suất để tỉ số SNR kênh chính lớn hơn tỉ số SNR kênh nghe trộm. Xác suất mất bảo mật: Xác suất khả năng bảo mật của hệ thống bị phá hay xác suất dung lượng bảo mật của hệ thống nhỏ hơn một ngưỡng R>0 cho trước. Khi sử dụng các kỹ thuật phân tập SC, MRC thì khả năng bảo mật của hệ thống sẽ bị ảnh hưởng: Khi sử dụng kỹ thuật phân tập ở người thu hợp pháp hiệu năng bảo mật
+của hệ thống sẽ tăng lên, bậc phân tập càng cao thì hiệu năng bảo mật
+càng tốt
+Trường hợp người thu hợp pháp sử dụng kỹ thuật MRC trong khi nghười nghe trộm sử dụng kỹ thuật SC cho hiệu năng bảo mật tốt nhất. Ngược lại khi người thu hợp pháp sử dụng kỹ thuật SC trong khi người nghe trộm sử dụng kỹ thuật MRC cho hiệu năng bảo mật kém nhất. Kỹ thuật phân tập MRC cho hiệu năng bảo mật tốt hơn kỹ thuật phân tập
+......................................................................
+Hướng phát triển đề tài
+Đồ án có thể phát triển theo các hướng sau:
+Nghiên cứu hiệu năng bảo mật của lớp vật lý trong hệ thông thông tin đa chặng nút chuyển tiếp. Thiết kế giao thức bảo mật Cross-Layer
+
+Việc thực hiện bảo mật lớp vật lý trong hệ thống thực tế sẽ là một phần của cách tiếp cận phân lớp. Việc thiết kế giao thức kết hợp cả kỹ thuật mật mã hóa truyền thống và kỹ thuật bảo mật lớp vật lý hứa hẹn sẽ là một hướng nghiên cứu hấp dẫn. Khi đó vấn đề quan trọng nhất là phải đưa ra một thông số hợp lý mà có thể đánh giá được hiệu năng tổng hợp của hai kỹ thuật nói trên.
+
+DANH MỤC TÀI LIỆU THAM KHẢO
+
+[1]. Nguyễn Lê Hùng, “Giáo trình Thông tin di động”, khoa Điện tử viễn thông, Đại học bách khoa Đà Nẵng.
+[2]. M. Bloch, Physical-layer security. ProQuest, 2008
+[3]. He, F., H. Man, and W.Wang, “Maximal ratio diversity combining enhanced security”, IEEE Communications Letters, vol. 15, no. 5 p.509-511, 2011.
+[4]. Shannon, C.E, “Communication theory of secrecy systems”, Bell system technical journal, vol. 28, no. 4, p.656-715, 1949.
+[5]. Wyner, A.D., “The wire-tap channel”, Bell system technical journal, vol. 54, no. 8, p. 1334-1387, 1975.
+[6]. Leung-Yan-Cheong, S. and M. Hellman, “The Gaussian wire-tap channel”. IEEE Transactions on Information Theory, vol. 24, no. 4, p.451-456, 1978.
+[7]. Gopala, P.K., L. Lai, and H. El Gamal, “On the secrecy capacity of fading channels”, IEEE Transactions on Information Theory, vol. 54, no. 10, p.4687-4698, 2008.
+[8]. X. Zhou, R. Ganti, and J. Andrews, “Secure wireless network connectivity with multi-antenna transmission,” IEEE Transactions onWireless Communication, vol. 10, no. 2, pp. 425–430, Feb. 2011.
+[9]. Wang, Peiya, Guanding Yu, and Zhaoyang Zhang, "On the secrecy capacity of fading wireless channel with multiple eavesdroppers", IEEE International Symposium on Information Theory, p. 1301-1305, 2007.
+[10]. Barros, J. and M.R. Rodrigues, “Secrecy capacity of wireless channels”, IEEE International Symposium on Information Theory,p. 356-360, July 2006.
+[11]. JEFFREY, Alan ZWILLINGER, Daniel (ed.), “Table of integrals, series, and products”, Access Online via Elsevier, 2007
+[12]. Yunghyeon-dong, Nam-gu, “Porformance of opportunistic scheduling for physical leyer security with tranmit antenna selection” .Springer, 2014
+[13]. J. K. I. Csiszár, “Broadcast channels with confidential messages”. IEEE Trans.Inf. Theory,vol. 24, no.3, p. 339-348, 1978.
+[14]. D. Tse and P. Viswanath, Fundamentals of wireless communication. Cambridge university press, 2005.
+[15]. Andrea Goldsmith “Wireless communicaton”, Stanford University, 2005.
+..................................
+figure;
+%%MRC%%
+semilogy(gm_db,Poutage_mrc(1,:),'g-',gm_db,Poutage_mrc(2,:),'r-',gm_db,Poutage_mrc(3,:),'b-',gm_db,Poutage_mrc(4,:),'y-','LineWidth',2);
+hold on;
+for i=1:length(lm)
+semilogy(gm_db,Poutage_mrc_simulation(:,:,i),'ro','LineWidth',2)
+end
+legend('Lm/Lw=1','Lm/Lw=2','Lm/Lw=3','Lm/Lw=4','simulation');
+xlabel('Average SNR of legitimate channels [\gamma_m dB]','fontsize',14)
+ylabel('Secrecy Outage Probability','fontsize',14)
+title('MRC-MRC');
+grid on;
+figure;
+%%MRCSC%%
+semilogy(gm_db,Poutage_mrcsc(1,:),'g-',gm_db,Poutage_mrcsc(2,:),'r-',gm_db,Poutage_mrcsc(3,:),'b-',gm_db,Poutage_mrcsc(4,:),'y-','LineWidth',2);
+hold on;
+for i=1:length(lm)
+semilogy(gm_db,Poutage_mrcsc_simulation(:,:,i),'ro','LineWidth',2)
+end
+legend('Lm/Lw=1','Lm/Lw=2','Lm/Lw=3','Lm/Lw=4','simulation');
+xlabel('Average SNR of legitimate channels [\gamma_m dB]','fontsize',14)
+ylabel('Secrecy Outage Probability','fontsize',14)
+title('MRC-SC');
+grid on;
+%%SOSANH%%
+figure;
+semilogy(gm_db,Poutage_scmrc(1,:),'g-',gm_db,Poutage_sc(1,:),'r-.',gm_db,Poutage_mrc(1,:),'b-',gm_db,Poutage_mrcsc(1,:),'k--','LineWidth',2);
+hold on;
+semilogy(gm_db,Poutage_scmrc_simulation(:,:,1),'ro',gm_db,Poutage_sc_simulation(:,:,1),'ro',gm_db,Poutage_mrc_simulation(:,:,1),'ro',gm_db,Poutage_mrcsc_simulation(:,:,1),'ro','LineWidth',2);
+legend('SC-MRC','SC-SC','MRC-MRC','MRC-SC','simulation');
+xlabel('Average SNR of legitimate channels [\gamma_m dB]','fontsize',14)
+ylabel('Secrecy Outage Probability','fontsize',14)
+grid on;
+title('Lm=2, Le=2');
+figure;
+semilogy(gm_db,Poutage_scmrc(2,:),'g-',gm_db,Poutage_sc(2,:),'r-.',gm_db,Poutage_mrc(2,:),'b-',gm_db,Poutage_mrcsc(2,:),'k--','LineWidth',2);
+hold on;
+semilogy(gm_db,Poutage_scmrc_simulation(:,:,2),'ro',gm_db,Poutage_sc_simulation(:,:,2),'ro',gm_db,Poutage_mrc_simulation(:,:,2),'ro',gm_db,Poutage_mrcsc_simulation(:,:,2),'ro','LineWidth',2);
+legend('SC-MRC','SC-SC','MRC-MRC','MRC-SC','simulation');
+xlabel('Average SNR of legitimate channels [\gamma_m dB]','fontsize',14)
+ylabel('Secrecy Outage Probability','fontsize',14)
+grid on;
+title('Lm=4, Le=2');
+figure;
+semilogy(gm_db,Poutage_scmrc(3,:),'g-',gm_db,Poutage_sc(3,:),'r-.',gm_db,Poutage_mrc(3,:),'b-',gm_db,Poutage_mrcsc(3,:),'k--','LineWidth',2);
+hold on;
+semilogy(gm_db,Poutage_scmrc_simulation(:,:,3),'ro',gm_db,Poutage_sc_simulation(:,:,3),'ro',gm_db,Poutage_mrc_simulation(:,:,3),'ro',gm_db,Poutage_mrcsc_simulation(:,:,3),'ro','LineWidth',2);
+legend('SC-MRC','SC-SC','MRC-MRC','MRC-SC','simulation');
+xlabel('Average SNR of legitimate channels [\gamma_m dB]','fontsize',14)
+ylabel('Secrecy Outage Probability','fontsize',14)
+grid on;
+title('Lm=6, Le=2');
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+

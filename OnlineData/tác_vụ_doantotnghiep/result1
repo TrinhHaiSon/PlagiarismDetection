@@ -1,0 +1,420 @@
+100 MB Bao gồm tất cả file,.lưu đồ giải thuật... thuyết minh, bản vẽ nguyên lý, bản vẽ thiết kế, FILE lập trình, ĐỒ ÁN TỐT NGHIỆP ĐIỆN tử MÔ HÌNH ĐIỀU KHIỂN QUY TRÌNH NGÂM, RỬA SẢN PHẨM TỰ ĐỘNG DÙNG PLC HỌ S7 200
+Nền công nghiệp thế giới đang trên đà phát triển ngày càng cao, trong đó vấn đề tự động điều khiển được đặt lên hàng đầu trong quá trình nghiên cứu cũng như ứng dụng công nghệ mới vào trong sản xuất. Nó đòi hỏi khả năng xử lý, mức độ hoàn hảo, sự chính xác của hệ thống sản xuất ngày một cao hơn,để có thể đáp ứng được nhu cầu về số lượng, chất lượng, thẩm mỹ ngày càng cao của xã hội.
+Do những nhu cầu của xã hội , các nhà khoa học đã cho ra nhiều thiết bị , phương tiện hiện đại. Một trong những thiết bị phải kể đến đó là bộ PLC. Với khả năng ứng dụng và nhiều ưu điểm nổi bậc, PLC ngày càng được sử dụng rộng rải trong nền sản xuất.
+Nhằm đánh giá lại những kiến thức đã học và tìm hiểu thêm về PLC, đề tài “ MÔ HÌNH ĐIỀU KHIỂN QUY TRÌNH NGÂM, RỬA SẢN PHẨM TỰ ĐỘNG DÙNG PLC HỌ S7 - 200” được chọn làm đề tài tốt nghiệp . Quá trình thực hiện đề tài là điều kiện tốt nhất để học hỏi kinh nghiệm thực tế và phương pháp lập trình điều khiển bằng PLC.
+Do hạn chế về thời gian, kinh nghiệm thực tế, vừa tìm hiểu, vừa học hỏi trong quá trình thực hiện, nên không thể tránh khỏi những thiếu sót. Rất mong sự đóng góp ý kiến quý báo của quý Thầy Cô, và các bạn để đề tài được hoàn thiện hơn.
+Đề tài “MÔ HÌNH ĐIỀU KHIỂN QUY TRÌNH NGÂM, RỬA SẢN PHẨM TỰ ĐỘNG DÙNG PLC HỌ S7 – 200” là đề tài trong đó bao gồm nhiều kiến thức trong chương trình học như: mạch tương tự , kỹ thuật số, điện tử căn bản , điện tử công suất, PLC, … Đề tài là điều kiện để đánh gía, tổng hợp lại kiến thức đã học bao gồm những phương pháp tính toán mạch ,lý thuyết về kỹ thuật số, lý thuyết về PLC, phương pháp lập trình cho PLC … Trong từng phần , chương sẽ giới thiệu về linh kiện, nguyên lý hoạt động của từng mạch , thông số kỹ thuật linh kiện … Về mô hình, mô hình được thiết kế là mô hình động mô tả từng chi tiết , chức năng của đề tài . Do khả năng có hạn nên còn nhiều thiếu sót rất mong sự đóng góp ý kiến của quý Thầy Cô và các bạn để đề tài hoàn thiện hơn . Chân thành cảm ơn.
+MỤC LỤC
+====&====
+
+Lời mở đầu 1
+Lời cảm ơn 2
+Nhận xét của giáo viên hướng dẫn 3
+Nhận xét của giáo viên phản biện 4
+Nhận xét của hội dồng giám khảo 5
+Mục lục 6
+PHẦN I
+LÝ THUYẾT CƠ SỞ LIÊN QUAN 8
+8
+CHƯƠNG 1:
+GIỚI THIỆU MẠCH 8
+Chức năng 8 Thành phần 8 Yêu cầu thiết kế 8
+CHƯƠNG 2:
+GIỚI THIỆU CÁC LINH KIỆN CHỦ CHỐT 9
+Linh kiện mạch nguồn 10 Linh kiện mạch cảm biến 11 Linh kiện mạch đếm 12
+CHƯƠNG 3:
+GIỚI THIỆU VỀ PLC S7_200 CPU 224 13
+Tổng quan về plc 14 Giới thiệu về PLC S7_200 cpu 224 dc/dc/dc 19
+CHƯƠNG 4:
+GIỚI THIỆU VỀ CẤU TRÚC TẬP LỆNH CỦA PLC S7_200 34
+Phương pháp lập trình 34 Giới thiệu tập lệnh của plc s7_200 37
+PHẦN 2: THỰC HIỆN ĐỀ TÀI
+63
+CHƯƠNG 1:
+TÍNH TOÁN VÀ THIẾT KẾ MẠCH 63
+Tính và chon linh kiện mạch 63 Mô hình quy trình ngâm rửa sản phẩm 65
+CHƯƠNG 2:
+SƠ ĐỒ VÀ NGUYÊN LÝ HOẠT ĐỘNG. 67
+Sơ đồ khối 67 Sơ đồ nguyên lý và nguyên lý hoạt động 68
+CHƯƠNG 3:
+LƯU ĐỒ GIẢI THUẬT VÀ CHƯƠNG TRÌNH 75
+Lưu đồ giải thuật 75 Chương trình 89
+PHẦN 3 . KẾT LUẬN CHUNG 95
+TÀI LIỆU THAM KHẢO 96
+
+
+PHẦN 1: LÝ THUYẾT CƠ SỞ LIÊN QUAN
+====&====
+CHƯƠNG 1
+GIỚI THIỆU MẠCH
+I. CHỨC NĂNG.
+Quy trình ngâm rửa sản phẩm tự động là một công đoạn nhỏ trong hệ thống sản xuất của các ngành công nghiệp như luyện kim, ngâm xử lý mạch in, chế tạo ôtô, … hoặc được ứng dụng trong các dây chuyền sản xuất, mà sản phẩm làm ra phải qua nhiều công đoạn mới hoàn thành, mỗi công đoạn chỉ
+làm một việc nhất định. Quy trình này hoạt động theo một chương trình cài đặt sẵn .Phầm mềm giao tiếp với bên ngoài qua các cảm biến và công tắc hành
+trình, công tắc chọn chế độ thông qua sự thay đổi trạng thái ngõ ra giữa 0 và 1.
+Đối với ngành luyện kim và chế tạo ôtô thì các sản phẩm là các phôi sắt , các chi tiết kim loại có từ tính thì sẽ dùng đầu gấp làm bằng nam châm điện để lấy sản phẩm. Sau khi lấy sản phẩm trục thẳng đứng sẽ di chuyển lên và di chuyển sang bồn 1 để xử lý bước thứ nhất rồi lần lượt đưa qua từng bồn tiếp theo cho đến khi hoàn thành chu kỳ hoạt động .
+Đối với việc ngâm mạch in thì đầu gắp có thể sử dụng đầu hút chân không như trong khí nén .
+Tóm lại mạch có thể thực hiện chức năng ngâm, rửa, xử lý bề mặt nhiều loại sản phẩm. Nhưng đối với từng loại sản phẩm phải sử dụng đầu gấp khác nhau.
+II. THÀNH PHẦN .
+Mô hình gồm các thành phần: mạch nguồn, mạch cảm biến , mạch đếm sản phẩm, PLC S7 – 200 .
+1. Mạch nguồn.
+Mạch nguồn cung cấp nguồn DC ổn định cho các mạch cảm biến, mạch đếm và cấp nguồn cho PLC . Ngoài ra mạch ổn áp còn lọc gợn sóng khi chỉnh lưu từ nguồn xoay chiều.
+Mô hình sử dụng 3 mạch nguồn : nguồn 5v cấp cho mạch đếm , nguồn 12v cấp cho mạch cảm biến, nguồn 24v cấp cho PLC.
+2. Mạch cảm biến.
+Mạch cảm biến sử dụng IC LM 324 và led thu phát hồng ngoại . Mạch sử dụng 4 bộ cảm biến để phát hiện đầu gấp sản phẩm và sản phẩm . Khi ngõ ra cảm biến ở mức cao sẽ kích đóng rơ-le cấp điện cho các đầu vào của PLC từ đó điều khiển thiết bị.
+3. Mạch đếm sản phẩm.
+Mạch đếm sản phẩm sử dụng IC đếm 74LS90 và IC giải mã 74LS247, mạch nhận xung kích từ PLC . Khi sản phẩm đi ngang qua cảm biến sẽ kích đóng tiếp điểm trong PLC và PLC phát 1 xung kích mạch đếm lên ở cạnh lên của xung kích .
+4. Thiết bị điều khiển lập trình PLC S7 – 200.
+Mô hình sử dụng PLC S7 – 200 CPU 224 . PLC sẽ được lập trình để điều khiển các thiết bị thừa hành ( motor DC) . Đây là thành phần quyết định chủ yếu đối với mô hình. Mọi hoạt động do PLC điều khiển.
+III. YÊU CẦU THIẾT KẾ.
+Yêu cầu của đề tài là thiết kế mô hình động , mô hình chạy ổn định, chính xác, có băng tải cấp sản phẩm đầu vào , tự gấp sản phẩm dùng nam châm điện , đưa sản pẩm qua từng bồn xử lý , sau khi xử lý sản phẩm xong sẽ tự động thả sản phẩm vào băng tải đầu ra , đếm sản phẩm được ngâm xử lý xong , mô hình hoạt động ở 2 chế độ : tự động và điều khiển bằng tay.
+CHƯƠNG 2
+GIỚI THIỆU CÁC LINH KIỆN CHỦ CHỐT
+I. LINH KIỆN MẠCH NGUỒN.
+1. IC ổn áp 7805và 7812.
+IC ổn áp họ 78XX là vi mạch ổn áp được chế tạo đồng loạt trên mạch rất nhỏ và bọc bên ngoài bằng vỏ plastic và kim loại . Vi mạch họ 78XX là ổn áp nguồn dương . Một vài thông số của 78XX:
+XX là điện áp ra . Điện áp vào: Vin =(XX + 3) đến 35V; riêng IC 7824 có Vin max=50V. Dòng tải từ 0.5A đến 1.5A tuỳ thuộc vào mã số : L; M; H.
+Vd : L là 0.5A ; M là 1A ; H là 1.5A .
+
+TÊN IC 7805 7809 7812 7824 VIN 8 đến 35 12 đến 35 15 đến 35 27 đến 50 VOUT 5 9 12 24
+
+2. Mạch ổn áp khuyếch đại dòng.
+Diode zener :
+Diode zener là diode phân cực nghịch , khi có dòng chạy qua thì điện áp rơi trên nó là ổn định . Cần điện ra tải là bao nhiêu vôn thì chọn diode zener có điện áp danh định (Vz) bấy nhiêu vôn . Vz thường là 3; 3.6; 4.3 ;5; 5.6; 6.2; 7.5; 9; 12; 15; 18; 24; 33 … . Dòng qua diode zener từ 5mA đến 10mA nhưng thường chọn dòng qua diode zener là 5mA. Thường chọn dòng qua diode zener bằng 1/10 dòng qua tải. Vì vậy diode zener được sử dụng trong mạch ổn áp . Mạch ổn áp chỉ dùng diode zener có dòng tải nhỏ nên ta dùng transistor để khuyếch đại dòng .
+Transistor công suất:
+Transistor D468:
+Thông số kỹ thuật:
+
+KÝ HIỆU P(MAX) VCE(MAX) IC (MAX) ; (hfe) D468 900mW 30V 1A 60
+Transistor D613:
+Thông số kỹ thuật:
+KÝ HIỆU P(MAX) VCE(MAX) IC (MAX) ; (hfe) D613 40W 85V 6A 40 -160
+II. LINH KIỆN MẠCH CẢM BIẾN.
+1. IC op - amp LM324.
+Các IC op – amp thông dụng là: 741, 062, 082, 4558, 064, 084, 324, …; hai chữ cái đầu chỉ hãng sản xuất . Ngoài ra , vi mạch 741 còn có thêm chân off set null để chỉnh điện thế chân ra đúng bằng 0. Nguồn cung cấp: ± E hoặc ±Vcc. Dùng nguồn đối xứng : ± Vcc = ± 6v đến ± 15v và mass là 0v. Dùng nguồn đơn : 0v và Vcc = 12v đến 30v.
+Ký hiệu của một số hãng sản xuất :
+HA741 : Hãng HITACHI
+LM324 : Hãng NATIONAL
+RC741: Hãng RAYTHEON
+CA741: Hãng RCA
+mA741 : Hãng FAIRCHILD
+
+SƠ ĐỒ CHÂN VI MẠCH LM 324:
+2. Led thu phát hồng ngoại :
+Led phát hồng ngoại: Giống như quang diode ( led phát quang ) nhưng phát ra ánh sáng hồng ngoại . Dòng qua led từ 5mA đến 20mA, áp rơi trên led từ 2V đến 2.4 V .
+Led thu hồng ngoại : khi nhận được ánh sáng hồng ngoại thì có dẫn dòng qua led và áp rơi trên led cũng từ 2v đến 2.4v. Led thu hồng ngoại được phân cực nghịch .
+III. LINH KIỆN MẠCH ĐẾM.
+1. IC đếm 74LS90.
+Được kích cạnh lên của xung clock.
+
+7490 là Ic đếm thập phân .
+Chân NC không sử dụng .
+2. IC giải mã 74LS247.
+Giải mã BCD sang led 7 đoạn
+BI (Blanking Input) (ngõ vào xoá) khi giả mã bình thường sẽ nối lên cao hay dể không.
+BI = 0 thì các ngõ ra đều tắt bất chấp các ngõ vào khác.
+RBI (Ripple Blanking Input) được để không hay nối lên cao, khi không dùng được xoá số 0 ( số 0 ở trướt số có nghĩa hay sau dấu chấm).
+LT (Land Test) ngõ vào thử đèn = 1và BI = 0, ABCD =0 thì các ngõ ra đều tắt và RBO = 0.
+Khi BI/RBO = 1 hay để không và LT = 0 thì các ngỏ ra đều sán
+CHƯƠNG 3
+GIỚI THIỆU VỀ PLC S7 – 200 CPU 224
+I. TỔNG QUÁT VỀ PLC.
+1. Giới thiệu PLC.
+PLC viết tắt của Programmable Logic Controller , là thiết bị điều khiển lập trình được (khả trình) cho phép thực hiện linh hoạt các thuật toán điều khiển logic thông qua một ngôn ngữ lập trình. Người sử dụng có thể lập trình để thực hiện một loạt trình tự các sự kiện. Các sự kiện này được kích hoạt bởi tác nhân kích thích (ngõ vào) tác động vào PLC hoặc qua các hoạt động có trễ như thời gian định thời hay các sự kiện được đếm. Một khi sự kiện được kích hoạt thật sự, nó bật ON hay OFF thiết bị điều khiển bên ngoài được gọi là thiết bị vật lý. Một bộ điều khiển lập trình sẽ liên tục “lặp” trong chương trình do “người sử dụng lập ra” chờ tín hiệu ở ngõ vào và xuất tín hiệu ở ngõ ra tại các thời điểm đã lập trình.
+Để khắc phục những nhược điểm của bộ điều khiển dùng dây nối ( bộ điều khiển bằng Relay) người ta đã chế tạo ra bộ PLC nhằm thỏa mãn các yêu cầu sau :
+Lập trình dễ dàng , ngôn ngữ lập trình dễ học . Gọn nhẹ, dễ dàng bảo quản , sửa chữa. Dung lượng bộ nhớ lớn để có thể chứa được những chương trình phức tạp. Hoàn toàn tin cậy trong môi trường công nghiệp . Giao tiếp được với các thiết bị thông minh khác như : máy tính , nối mạng , các Modul mở rộng. Giá cả có thể cạnh tranh được.
+Các thiết kế đầu tiên là nhằm thay thế cho các phần cứng Relay dây nối và các Logic thời gian .Tuy nhiên ,bên cạnh đó việc đòi hỏi tăng cường dung lượng nhớ và tính dễ dàng cho PLC mà vẫn bảo đảm tốc độ xử lý cũng như giá cả … Chính điều này đã gây ra sự quan tâm sâu sắc đến việc sử dụng PLC trong công nghiệp . Các tập lệnh nhanh chóng đi từ các lệnh logic đơn giản đến các lệnh đếm , định thời , thanh ghi dịch … sau đó là các chức năng làm toán trên các máy lớn … Sự phát triển các máy tính dẫn đến các bộ PLC có dung lượng lớn , số lượng I / O nhiều hơn.
+Trong PLC, phần cứng CPU và chương trình là đơn vị cơ bản cho quá trình điều khiển hoặc xử lý hệ thống. Chức năng mà bộ điều khiển cần thực hiện sẽ được xác định bởi một chương trình . Chương trình này được nạp sẵn vào bộ nhớ của PLC, PLC sẽ thực hiện viêc điều khiển dựa vào chương trình này. Như vậy nếu muốn thay đổi hay mở rộng chức năng của quy trình công nghệ , ta chỉ cần thay đổi chương trình bên trong bộ nhớ của PLC . Việc thay đổi hay mở rộng chức năng sẽ được thực hiệnê4 dàng mà không cần một sự can thiệp vật lý nào so với các bộ dây nối hay Relay .
+2. Cấu trúc , nguyên lý hoạt động của PLC.
+Cấu trúc.
+Tất cả các PLC đều có thành phần chính là :
+Một bộ nhớ chương trình RAM bên trong ( có thể mở rộng thêm một số bộ nhớ ngoài EPROM ).
+Một bộ vi xử lý có cổng giao tiếp dùng cho việc ghép nối với PLC .
+Các Modul vào /ra.
+Bên cạnh đó, một bộ PLC hoàn chỉnh còn đi kèm thêm môt đơn vị lập trình bằng tay hay bằng máy tính. Hầu hết các đơn vị lập trình đơn giản đều có đủ RAM để chứa đựng chương trình dưới dạng hoàn thiện hay bổ sung . Nếu đơn vị lập trình là đơn vị xách tay , RAM thường là loại CMOS có pin dự phòng, chỉ khi nào chương trình đã được kiểm tra và sẵn sàng sử dụng thì nó mới truyền sang bộ nhớ PLC . Đối với các PLC lớn thường lập trình trên máy tính nhằm hổ trợ cho việc viết, đọc và kiểm tra chương trình . Các đơn vị lập trình nối với PLC qua cổng RS232, RS422, RS458, …
+b. Nguyên lý hoạt động của PLC.
+Đơn vị xử lý trung tâm .
+CPU điều khiển các hoạt động bên trong PLC. Bộ xử lý sẽ đọc và kiểm tra chương trình được chứa trong bộ nhớ, sau đó sẽ thực hiện thứ tự từng lệnh trong chương trình , sẽ đóng hay ngắt các đầu ra. Các trạng thái ngõ ra ấy được phát tới các thiết bị liên kết để thực thi. Và toàn bộ các hoạt động thực thi đó đều phụ thuộc vào chương trình điều khiển được giữ trong bộ nhớ.
+Hệ thống bus .
+Hệ thống Bus là tuyến dùng để truyền tín hiệu, hệ thống gồm nhiều đường tín hiệu song song :
+Address Bus : Bus địa chỉ dùng để truyền địa chỉ đến các Modul khác nhau.
+Data Bus : Bus dùng để truyền dữ liệu.
+Control Bus : Bus điều khiển dùng để truyền các tín hiệu định thời và điều khiển đồng bộ các hoạt động trong PLC .
+Trong PLC các số liệu được trao đổi giữa bộ vi xử lý và các modul vào ra thông qua Data Bus, Address Bus và Data Bus gồm 8 đường, ở cùng thời điểm cho phép truyền 8 bit của 1 byte một cách đồng thời hay song song.
+Nếu môt modul đầu vào nhận được địa chỉ của nó trên Address Bus , nó sẽ chuyển tất cả trạng thái đầu vào của nó vào Data Bus. Nếu một địa chỉ byte của 8 đầu ra xuất hiện trên Address Bus, modul đầu ra tương ứng sẽ nhận được dữ liệu từ Data bus. Control Bus sẽ chuyển các tín hiệu điều khiển vào theo dõi chu trình hoạt động của PLC .
+Các địa chỉ và số liệu được chuyển lên các Bus tương ứng trong một thời gian hạn chế.
+Hê thống Bus sẽ làm nhiệm vụ trao đổi thông tin giữa CPU, bộ nhớ và I/O . Bên cạch đó, CPU được cung cấp một xung Clock có tần số từ 1¸8 MHZ. Xung này quyết định tốc độ hoạt động của PLC và cung cấp các yếu tố về định thời, đồng hồ của hệ thống.
+Bộ nhớ .
+PLC thường yêu cầu bộ nhớ trong các trường hợp :
+Làm bộ định thời cho các kênh trạng thái I/O.
+Làm bộ đệm trạng thái các chức năng trong PLC như định thời, đếm, ghi các Relay.
+Mỗi lệnh của chương trình có một vị trí riêng trong bộ nhớ, tất cả mọi vị trí trong bộ nhớ đều được đánh số, những số này chính là địa chỉ trong bộ nhớ .
+Địa chỉ của từng ô nhớ sẽ được trỏ đến bởi một bộ đếm địa chỉ ở bên trong bộ vi xử lý. Bộ vi xử lý sẽ giá trị trong bộ đếm này lên một trước khi xử lý lệnh tiếp theo. Với một địa chỉ mới , nội dung của ô nhớ tương ứng sẽ xuất hiện ở đầu ra, quá trình này được gọi là quá trình đọc .
+Bộ nhớ bên trong PLC được tạo bởi các vi mạch bán dẫn, mỗi vi mạch này có khả năng chứa 2000 ÷ 16000 dòng lệnh , tùy theo loại vi mạch. Trong PLC các bộ nhớ như RAM, EPROM đều được sử dụng .
+RAM (Random Access Memory ) có thể nạp chương trình, thay đổi hay xóa bỏ nội dung bất kỳ lúc nào. Nội dung của RAM sẽ bị mất nếu nguồn điện nuôi bị mất . Để tránh tình trạng này các PLC đều được trang bị một pin khô, có khả năng cung cấp năng lượng dự trữ cho RAM từ vài tháng đến vài năm. Trong thực tế RAM được dùng để khởi tạo và kiểm tra chương trình. Khuynh hướng hiện nay dùng CMOSRAM nhờ khả năng tiêu thụ thấp và tuổi thọ lớn .
+EPROM (Electrically Programmable Read Only Memory) là bộ nhớ mà người sử dụng bình thường chỉ có thể đọc chứ không ghi nội dung vào được . Nội dung của EPROM không bị mất khi mất nguồn , nó được gắn sẵn trong máy , đã được nhà sản xuất nạp và chứa hệ điều hành sẵn. Nếu người sử dụng không muốn mở rộng bộ nhớ thì chỉ dùng thêm EPROM gắn bên trong PLC . Trên PG (Programer) có sẵn chỗ ghi và xóa EPROM.
+Môi trường ghi dữ liệu thứ ba là đĩa cứng hoạc đĩa mềm, được sử dụng trong máy lập trình . Đĩa cứng hoăc đĩa mềm có dung lượng lớn nên thường được dùng để lưu những chương trình lớn trong một thời gian dài .
+Kích thước bộ nhớ:
+Các PLC loại nhỏ có thể chứa từ 300 ÷1000 dòng lệnh tùy vào công nghệ chế tạo .
+Các PLC loại lớn có kích thước từ 1K ÷ 16K, có khả năng chứa từ 2000 ÷16000 dòng lệnh.
+Ngoài ra còn cho phép gắn thêm bộ nhớ mở rộng như RAM , EPROM.
+Các ngỏ vào ra I / O .
+Các đường tín hiệu từ bộ cảm biến được nối vào các modul ( các đầu vào của PLC ) , các cơ cấu chấp hành được nối với các modul ra ( các đầu ra của PLC ) .
+Hầu hết các PLC có điện áp hoạt động bên trong là 5V , tín hiêu xử lý là 12/24VDC hoặc 100/240VAC đối với PLC sử nguồn xoay chiều.
+Mỗi đơn vị I / O có duy nhất một địa chỉ, các hiển thị trạng thái của các kênh I / O được cung cấp bởi các đèn LED trên PLC , điều này làm cho việc kiểm tra hoạt động nhập xuất trở nên dễ dàng và đơn giản .
+Bộ xử lý đọc và xác định các trạng thái đầu vào (ON,OFF) để thực hiện việc đóng hay ngắt mạch ở đầu ra .
+3. Các hoạt động xử lý bên trong PLC.
+Xử lý chương trình.
+Khi một chương trình đã được nạp vào bộ nhớ của PLC , các lệnh sẽ được trong một vùng địa chỉ riêng lẽ trong bộ nhớ .
+PLC có bộ đếm địa chỉ ở bên trong vi xử lý, vì vậy chương trình ở bên trong bộ nhớ sẽ được bộ vi xử lý thực hiện một cách tuần tự từng lệnh một, từ đầu cho đến cuối chương trình . Mỗi lần thực hiện chương trình từ đầu đến cuối được gọi là một chu kỳ thực hiện. Thời gian thực hiện một chu kỳ tùy thuộc vào tốc độ xử lý của PLC và độ lớn của chương trình. Một chu lỳ thực hiện bao gồm ba giai đoạn nối tiếp nhau :
+Đầu tiên, bộ xử lý đọc trạng thái của tất cả đầu vào. Phần chương trình phục vụ công việc này có sẵn trong PLC và được gọi là hệ điều hành . Tiếp theo, bộ xử lý sẽ đọc và xử lý tuần tự lệnh một trong chương trình. Trong ghi đọc và xử lý các lệnh, bộ vi xử lý sẽ đọc tín hiệu các đầu vào, thực hiện các phép toán logic và kết quả sau đó sẽ xác định trạng thái của các đầu ra. Cuối cùng, bộ vi xử lý sẽ gán các trạng thái mới cho các đầu ra tại các modul đầu ra.
+b. Xử lý xuất nhập
+Gồm hai phương pháp khác nhau dùng cho việc xử lý I / O trong PLC :
+Cập nhật liên tục
+Điều này đòi hỏi CPU quét các lệnh ngõ vào (mà chúng xuất hiện trong chương trình ), khoảng thời gian Delay được xây dựng bên trong để chắc chắn rằng chỉ có những tín hiệu hợp lý mới được đọc vào trong bộ nhớ vi xử lý. Các lệnh ngõ ra được lấy trực tiếp tới các thiết bị. Theo hoạt động logic của chương trình , khi lệnh OUT được thực hiện thì các ngõ ra cài lại vào đơn vị I / O, vì thế nên chúng vẫn giữ được trạng thái cho tới khi lần cập nhật kế tiếp.
+Chụp ảnh quá trình xuất nhập .
+Hầu hết các PLC loại lớn có thể có vài trăm I / O, vì thế CPU chỉ có thể xử lý một lệnh ở một thời điểm . Trong suốt quá trình thực thi, trạng thái mỗi ngõ nhập phải được xét đến riêng lẽ nhằm dò tìm các tác động của nó trong chương trình. Do chúng ta yêu cầu relay 3ms cho mỗi ngõ vào, nên tổng thời gian cho hệ thống lấy mẫu liên tục trở nên rất dài và tăng theo số ngõ vào.
+Để làm tăng tốc độ thực thi chương trình, các ngõ I / O được cập nhật tới một vùng đặc biệt trong chương trình. Ở đây, vùng RAM đặc biệt này được dùng như một bộ đệm lưu trạng thái các logic điều khiển và các đơn vị I / O. Mỗi ngõ vào ra đều có một địa chỉ I / O RAM này. Suốt quá trình copy tất cả các trạng thái vào trong I / O RAM. Quá trình này xảy ra ở một chu kỳ chương trình (từ Start đến End ).
+Thời gian cập nhật tất cả các ngõ vào ra phụ thuộc vào tổng số I/O được copy tiêu biểu là vài ms. Thời gian thực thi chương trình phụ thuộc vào chiều dài chương trình điều khiển tương ứng mỗi lệnh mất khoảng từ 1¸10 ms.
+4. Đặc điểm bộ điều khiển lập trình:
+Nhu cầu về một bộ điều khiển dễ sử dụng, linh hoạt và có giá thành thấp đã thúc đẩy sự phát tiển những hệ thống điều khiển lập trình(programmable-control systems). Hệ thống sử dụng CPU và bộ nhớ để điều khiển máy móc hay quá trình hoạt động. Trong bối cảnh đó, bộ điều khiển lập trình (PLC- Programmable Logic Controller) được thiết kế nhằm thay thế phương pháp điều khiển truyền thống dùng rơle và thiết bị rời cồng kềnh, và nó tạo ra một khả năng điều khiển thiết bị dễ dàng và linh hoạt dựa trên việc lập trình trên các lệnh logic cơ bản. Ngoài ra, PLC còn có thể thực hiện những tác vụ khác như định thời, bộ đếm, v.v… làm tăng khả năng điều khiển cho những hoạt động phức tạp, ngay cả với loại PLC nhỏ nhất.
+Hình : sơ đồ khối bên trong PLC
+Hoạt động của PLC là kiểm tra tất cả trạng thái tín hiệu ở ngõ vào được đưa về từ quá trình điều khiển, thực hiện logic được lập trong chương trình và kích ra tín hiệu điều khiển cho thiết bị bên ngoài tương ứng.
+Với các mạch giao tiếp chuẩn ở khối vào và khối ra của PLC cho phép nó kết nối trực tiếp đến những cơ cấu tác động có công suất nhỏ ở ngõ ra và những mạch chuyển đổi tín hiệu ở ngõ vào, mà không cần có các mạch giao tiếp hay rơle trung gian. Tuy nhiên, cần phải có mạch điện tử công suất trung gian khi PLC điều khiển những thiết bị có công suất lớn.
+Việc sử dụng PLC cho phép chúng ta hiệu chỉnh hệ thống điều khiển mà không cần có sự thay đổi nào về mặt kết nối dây, sự thay đổi chỉ là thay đổi chương trình điều khiển trong bộ nhớ thông qua thiết bị lập trình chuyên dùng. Hơn nữa, chúng còn có ưu điểm là thời gian lắp đặt và đưa vào hoạt động nhanh hơn so với những hệ thống điều khiển truyền thống mà đòi hỏi cần phải thực hiện nối dây phức tạp giữa các thiết bị rời.
+5 .Tính linh hoạt của PLC trong điều khiển:
+Trong quá trình sử dụng PLC, nếu muốn thay đổi hay mở rộng các chức năng trong quy trình công nghệ, ta chỉ cần thay đổi chương trình bên trong bộ nhớ PLC.
+Như vậy, việc thay đổi mở rộng chức năng sẽ được thực hiện một cách dễ dàng mà không cần một sự can thiệp mang tính vật lý nào, trong khi đối với các bộ điều khiển bằng dây nối và rơle thì việc thay đổi này khá phức tạp và khó thực hiện.Đây chính là ưu điểm về tính mềm dẻo và khả năng mở rộng thuận lợi trong việc sử dụng PLC. Các đặc điểm này làm cho PLC ngày nay đạt tới vị trí cao trong các nhà máy công nghiệp.
+6. Bảng so sánh PLC với các hệ thống khác :
+Chỉ tiêu so sánh Rơ-le Mạch số Máy tính PLC Giá thành từng chức năng Khá thấp Thấp Cao Thấp Kích thước vật lý Lớn Rất Gọn Rất gọn Tốc độ điều khiển Chậm Rất nhanh Khá nhanh Nhanh Khả năng chống nhiễu Xuất sắc Tốt Khá tốt Tốt Lắp đặt Mất thời gian thiết kế và lắp đặt Mất thời gian thiết kế Mất nhiều thời gian lập trình Lập trình và lắp đặt đơn giản Khả năng điều khiển tác vụ và phức tạp Không Có Có Có Dễ thay đổi điều khiển Rất khó Khó Khá đơn giản Rất đơn giản Công tác bảo trì Kém-có rất nhiều công tắc Kém-nếu IC được hàn Kém-có rất nhiều mạch điện tử chuyên dùng Tốt-các môdun được tiêu chuẩn hóa
+
+MỘT SỐ PLC HỌ S7 – 200
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+II. GIỚI THIỆU VỀ PLC S7 200 CPU 224 LOẠI DC/DC/DC:
+SƠ ĐỒ NỐI ĐIỆN CỦA PLC S7 – 200 CPU 224 DÙNG CHO NGUỒN CUNG CẤP DC
+1. Cấu trúc phần cứng của CPU 224:
+S7-200 là thiết bị điều khiển logic khả trình loại nhỏ của Hãng SIEMENS (CHLB Đức) có cấu trúc theo kiểu Modul và có các modul mở rộng. Các modul này được sử dụng cho nhiều ứng dụng lập trình khác nhau. Thành phần cơ bản của S7-200 là khối vi xử lý CPU-224
+CPU-224 bao gồm 14 ngõ vào và 10 ngõ ra, có khả năng thêm 7 modul mở rộng. Số đầu vào được tích hợp sẵn là 14, số đầu ra được tích hợp sẵn là 10 transistor ( có thể mắc song song để tăng dòng ra ). Bộ nhớ chương trình 8KB , bộ nhớ dữ liệu 4KB, card(tuỳ chọn ) 1 modul nhớ loại EEPROM. Lưu giữ chương trình : toàn bộ chương trình lưu giữ được tích hợp trong EEPROM; Lưu giữ dữ liệu: toàn bộ DB 1 được nạp từ PG/ PC xuống Eeprom. Dữ liệu của 1DB trong ram, cờ nhớ , timer , counter … được lưu giữ qua tụ lớn hoặc pin. Thực hiện chương trình : chu kỳ thay đổi được (OB1), điều khiển theo ngắt, điều khiển theo thời gian ( 1 tới 255ms). Số chương trình con tối đa 64. Bảo vệ chương trình : 3 cấp mật khẩu bảo vệ . Thời gian thực hiện lệnh bit 0.37ms . Chu kỳ quét 300ms , có thể thay đổi được. Vùng nhớ bit 256, khả năng nhớ từ 0 tới 112 trong EEPROM và từ bit 0 tới 256, sử dụng tụ lớn hoặc pin. Bộ đếm: 256, dải đếm 0 tới 32767. Bộ định thời : 256, dải thời gian: 4 timer 1ms tới 30ms; 16 timer 10ms tới 5min; 236 timer 100ms tới 54min . Các chức năng tốc độ cao : 4 đầu vào ngắt tích cực theo sườn dương hoặc theosườn âm ; 6 bộ đếm nhanh (30kHz); 2 đầu ra xung 20kHz , có khả năng ngắt , độ rộng và tần số xung có thể điều biến được. 2 bộ điều chỉnh tương tự. Cấu hình cứng :
+Các bộ phận chính :
+Một hệ thống lập trình cơ bản phải gồm có hai phần : khối xử lý trung tâm(CPU : Central Processing Unit ) và hệ thống giao tiếp vào /ra ( I/ O) .
+Khối điều khiển trung tâm (CPU ) gồm ba phần : bộ xử lý , hệ thống bộ nhớ và hệ thống nguồn cung cấp .
+CPU có nhiệm vụ thực hiện chương trình và lưu trữ dữ liệu cho việc điều khiển các ứng dụng tự động hoặc xử lý .
+Các ngõ vào và ngõ ra : Các ngõ vào số để giám sát tín hiệu từ các thiết bị ( từ các cảm biến , công tắc ) . Các ngõ ra có thể điều khiển máy bơm động cơ và các thiết bị khác
+- Module mở rộng thực hiện việc truyền đạt thông tin tốc độ cao .
+Một bộ nhớ EEPROM dùng để lưu trữ chương trình và chuyển dữ liệu từ CPU đến các thiết bị khác .
+Các đèn báo trên S7-200 CPU224.
+SF (đèn đỏ): Đèn đỏ SF báo hiệu hệ thống bị hỏng. RUN (đèn xanh): Đèn xanh RUN chỉ định PLC đang ở chế độ làm việc và thực hiện chương trình được nạp vào trong máy. STOP (đèn vàng): Đèn vàng STOP chỉ định rằng PLC đang ở chế độ dừng chương trình và đang thực hiện lại. Cổng vào ra. Ix.x (đèn xanh): Đèn xanh ở cổng vào báo hiệu trạng thái tức thời của cổng Ix.x. Đèn này báo hiệu trạng thái của tín hiệu theo giá trị Logic của công tắc. Qx.x (đèn xanh): Đèn xanh ở cổng ra báo hiệu trạng thái tức thời của cổng Qx.x. Đèn này báo hiệu trạng thái của tín hiệu theo giá trị logic của cổng.
+
+Hình : Sơ đồ khối tổng quát của CPU .
+Đầu vào.
+Kiểu đầu vào IEC 1131-2. Tầm điện áp mức logic 1 :15-30 VDC,dòng nhỏ nhất 4 mA;35VDC ở thời gian tức thời 500ms. Trạng thái mức logic 1 chuẩn : 24 VDC, 7mA. Trạng thái mức logic 0 : Tối đa 5 VDC, 1mA. Đáp ứng thời gian lớn nhất ở các chân I0.0 đến I1.5: có thể chỉnh từ 0,2 đến 8,7 ms mặc định 0,2 ms. Các chân từ I0.6 đến I1.5 được sử dụng bởi bộ đếm tốc độ cao HSC1 và HSC2 ở 30us đến 70us.
+Đầu ra.
+Kiểu đầu ra : Relay hoặc Transistor. Tầm điện áp : 24.4 đến 28.8 VDC. Dòng tải tối đa : 2A/ điểm; 8A/common. Quá dòng : 7A với contact đóng. Điện trở cách ly : nhỏ nhất 100 MW. Thời gian chuyển mạch : tối đa 10 ms. Thời gian sử dụng : 10.000.000 với công tắc cơ khí; 100.000 với tốc độ tải. Điện trở công tắc : tối đa 200 mW. Chế độ bảo vệ ngắn mạch : không có.
+Nguồn cung cấp. Điện áp cấp nguồn : 20.4 đến 24.8 VDC. Dòng vào max load : 900mA tại 24 VDC. Cách ly điện ngõ vào: Không có. Thời gian duy trì khi mất nguồn : 10ms ở 24 VDC. Cầu chì bên trong : 2 A ,250V.
+Nguồn cấp cho sensor.
+Tầm điên áp ra: 15.4 đến 28.8 VDC. Dòng ra tối đa: 280mA. Độ gợn sóng: Giống như nguồn cấp vào. Cách ly : không có.
+Chế độ làm việc: PLC có 3 chế độ làm việc:
+RUN: cho phép PLC thực hiện chương trình từng bộ nhớ, PLC sẽ chuyển từ RUN sang STOP nếu trong máy có sự cố hoặc trong chương trình gặp lệnh STOP. STOP: Cưỡng bức PLC dừng chương trình đang chạy và chuyển sang chế độ STOP. TERM: Cho phép máy lập trình tự quyết định chế độ hoạt động cho PLC hoặc RUN hoặc STOP.
+Cổng truyền thông:
+S7-200 sử dụng cổng truyền thông nối tiếp RS485 với phích nối 9 chân để phục vụ cho việc ghép nối với thiết bị lập trình hoặc với các trạm PLC khác. Tốc độ truyền cho máy lập trình kiểu PPI là 9600 baud. Tốc độ truyền cung cấp của PLC theo kiểu tự do là 300 ¸38.400 baud.
+Để ghép nối S7-200 với máy lập trình PG702 hoặc các loại máy lập trình thuộc họ PG7xx có thể dùng một cáp nối thẳng MPI. Cáp đó đi kèm với máy lập trình.
+Ghép nối S7-200 với máy tính PC qua cổng RS232 cần có cáp nối PC / PPI với bộ chuyển đổi RS232 / RS485. Việc kết nối này được thực hiện trực tiếp cổng nối tiếp của máy tính (COM) với cổng giao tiếp PLC . Do cổng nối tiếp của máy tính được thiết kế theo tiêu chuẩn RS 232 còn cổng giao tiếp của PLC được thiết kế theo tiêu chuẩn RS 485 . Điện áp các mức logic của 2 tiêu chuẩn này khác nhau , nên cáp PC / PPI dùng để chuyển đổi điện áp phù hợp với mức logic của 2 tiêu chuẩn nói trên . Kết nối đầu RS 232 của cáp với máy tính cá nhân và nối đầu RS 485 với cổng giao tiếp của PLC ( port 0 hoặc port 1) và thay đổi vị trí của các công tắc gạt trên vị trí chuyển đổi phù hợp với phương thức giao tiếp PC / PPI.
+Hình : Sơ đồ chân của cổng truyền thông.
+
+Sơ đồ kết nối giữa máy tính và PLC được thực hiện như sau
+Hình kết nối máy tính với PLC
+Việc thay đổi vị trí của công tắc gạt nhằm thay các thông số của các phương thức giao tiếp bao gồm tốc độ truyền , thay đổi số lượng bit dữ liệu và thuộc tính thiết bị đầu cuối .
+Công tắc chọn chế độ làm việc của PLC :
+Công tắc chọn chế độ làm việc nằm phía trên , bên cạnh các cổng ra của S7 – 200 có ba vị trí cho phép chọn các chế độ làm việc khác nhau cho PLC .
+RUN cho phép PLC thực hiện chương trình trong bộ nhớ. PLC S7 – 200 sẽ rời khỏi chế độ RUN và chuyển sang chế độ STOP nếu trong máy có sự cố hoặc trong chương trình gặp lệnh STOP, thậm chí ngay cả khi công tắc ở chế độ RUN. Nên quan sát trạng thái thực tại của PLC theo đèn báo.
+STOP thường cưỡng bức PLC dừng thực hiện chương trình đang chạy và chuyển sang chế độ STOP. Ở chế độ STOP PLC cho phép hiệu chỉnh lại chương trình hoặc nạp một chương trình mới.
+TERM cho phép máy lập trình tự quyết định một trong các chế độ làm việc cho PLC hoặc ở chế độ RUN hoặc ở chế độ STOP.
+Chỉnh định tương tự:
+Điều chỉnh tương tự cho phép điều chỉnh các biến cần phải thay đổi và sử dụng trong chương trình. Núm chỉnh analog được lắp đặt dưới nắp đậy bên cạnh các cổng ra. Thiết bị chỉnh định có thể quay 2700 .
+Pin và nguồn nuôi bộ nhớ:
+Nguồn nuôi dùng để mở rộng thời gian lưu giữ cho các dữ liệu có trong bộ nhớ. Nguồn pin tự động được chuyển sang trạng thái tích cực nếu như dung lượng tụ nhớ bị cạn kiệt và nó phải thay thế vào vị trí đó để dữ liệu trong bộ nhớ không bị mất đi.
+ð Ứng với mỗi loại CPU sẽ có sự khác nhau về số ngõ vào, số ngõ ra, khả năng mở rộng, vùng nhớ sử dụng và số cổng giao tiếp.
+2. Cấu trúc bộ nhớ .
+Bộ nhớ S7-200 được chia thành 4 vùng với 1 tụ có nhiệm vụ duy trì dữ liệu trong một khoảng thời gian nhất định khi mất nguồn. Bộ nhớ S7-200 có tính năng động cao, đọc, ghi được trong toàn vùng, loại trừ các bit nhớ đặc biệt SM (Special memory) chỉ có thể truy nhập để đọc.
+EEPROM MIỀN NHỚ NGOÀI
+
+Chương trình Chương trình Chương trình Tham số Tham số Tham số Dữ liệu Dữ liệu Dữ liệu Vùng đối tượng
+Vùng chương trình: Là nguồn nhờ được sử dụng để lưu giữ các lệnh chương trình. Vùng này thuộc kiểu non-volatile đọc / ghi được. Vùng tham số : Là miền lưu giữ các tham số như: từ khóa, địa chỉ trạm, … cũng giống như vùng chương trình, thuộc kiểu non-volatile đọc / ghi được. Vùng dữ liệu:
+Là miền nhớ động được sử dụng để cất giữ các dữ liệu của chương trình. Nó có thể được truy cập theo từng bít, từng byte, từng từ đơn (W-Word) hoặc theo từ kép (DW_ Double Word), vùng dữ liệu được chia thành những miền nhớ nhỏ với các công dụng khác nhau. Chúng được ký hiệu bằng chữ cái đầu theo từ tiếng Anh, đặc trưng cho công dụng riêng của chúng như sau:
+V : Variable Memory.
+I : Input image register.
+O : Output image regiter.
+M : Internal Memory bits.
+SM : Special Memory bits.
+Tất cả các miền này đều có thể truy nhập theo từng bít, từng byte, từng từ (word) hoặc từ kép (double word).
+Vùng đối tượng
+Bao gồm các thanh ghi Timer, bộ đếm tốc độ cao, bộ đệm vào ra, thanh ghi AC. Vùng này không thuộc kiểu Non-Volatile nhưng đọc / ghi được . Vùng đối tượng được sử dụng để lưu giữ dữ liệu cho các đối tượng lập trình như các giá trị tức thời, giá trị đặt trước của bộ đếm, hay Timer. Kiểu dữ liệu đối tượng bị hạn chế rất nhiều vì các dữ liệu kiểu đối tượng chỉ được ghi theo mục đích cần sử dụng đối tượng đó.
+3. Phương thức truy cập bộ nhớ:
+Truy cập theo bit : tên miền (+) địa chỉ byte (+) · (+) chỉ số bit. Truy cập theo byte : tên miền (+) B (+) địa chỉ của byte trong miền. - Truy cập theo từ : tên miền (+) W (+) địa chỉ byte cao của từ trong miền. Truy cập theo từ kép : tên miền (+) D (+) địa chỉ byte cao của từ trong miền.
+Tất cả các byte thuộc vùng dữ liệu đều có thể truy cập được bằng con trỏ. Con trỏ được định nghĩa trong miền V hoặc các thanh ghi AC1, AC2 và AC3. mỗi con trỏ chỉ địa chỉ gồm 4 byte (từ kép). Quy ước sử dụng con trỏ đẻ truy cập như sau:
+&địa chỉ byte (cao) là toán hạng lấy địa chỉ của byte, từ hoặc từ kép.
+*con trỏ là toán hạng lấy nội dung của byte, từ hoặc từ kép mà con trỏ đang chỉ vào
+BẢNG TRA VÙNG ĐỐI TƯỢNG
+Vùng nhớ CPU 221 CPU 222 CPU 224 CPU 226 Vùng dữ liệu V V0.0¸V2047.7 V0.0¸V2047.7 V0.0¸V5119.7 V0.0¸V5119.7 I I0.0¸I15.7 I0.0¸I15.7 I0.0¸I15.7 I0.0¸I15.7 Q Q0.0¸Q15.7 Q0.0¸15.7 Q0.0¸Q15.7 Q0.0¸Q15.7 M M0.0¸M31.7 M0.0¸M31.7 M0.0¸M31.7 M0.0¸M31.7 SM SM0.0¸SM179.7 SM0.0¸SM179.7 SM0.0¸SM179.7 SM0.0¸SM179.7 S S0.0¸S31.7 S0.0¸S31.7 S0.0¸S31.7 S0.0¸S31.7 L L0.0¸L63.7 L0.0¸L63.7 L0.0¸63.7 L0.0¸L63.7 Vùng đối tượng Timer T0¸T255 T0¸T255 T0¸T255 T0¸T255 Counter C0¸C255 C0¸C255 C0¸C255 C0¸C255 Analog inputs none AIW0¸AIW30 AIW0¸AIW62 AIW0¸AIW62 Analog outputs none AQW0¸AQW30 AQW0¸AQW62 AQW0¸AQW62 Thanh nghi ACC AC0¸AC3 AC0¸AC3 AC0¸AC3 AC0¸AC3 Bộ đếm tốc độ cao HC0,HC3, HC4,HC5 HC0,HC3, HC4,HC5 HC0¸HC5 HC0¸HC5
+BẢNG TRUY CẬP BỘ NHỚ
+Access Method CPU 221 CPU 222 CPU 224 CPU 226 Bit access (byte.bit) V0.0¸V2047.7 I0.0¸15.7 Q0.0¸15.7 M0.0¸M31.7 SM0.0¸SM179.7 S0.0¸S31.7 T0¸T255 C0¸C255 L0.0¸L63.7 V0.0¸V2047.7 I0.0¸I15.7 Q0.0¸Q15.7 M0.0¸M31.7 SM0.0¸SM179.7 S0.0¸S31.7 T0¸T255 C0¸C255 L0.0¸L63.7 V0.0¸V5119.7 I0.0¸I15.7 Q0.0¸Q15.7 M0.0¸M31.7 SM0.0¸SM179.7 S0.0¸S31.7 T0¸T255 C0¸C255 L0.0¸L63.7 V0.0¸V5119.7 I0.0¸I15.7 Q0.0¸Q15.7 M0.0¸M31.7 SM0.0¸SM179.7 S0.0¸S31.7 T0¸T255 C0¸C255 L0.0¸L63.7 Byte access VB0¸VB2047 IB0¸IB15 QB0¸QB15 MB0¸MB31 SMB0¸SMB179 AC0¸AC3 SB0¸SB31 LB0¸LB63 Constant VB0¸VB2047 IB0¸IB15 QB0¸QB15 MB0¸MB31 SMB0¸SMB179 AC0¸AC3 SB0¸SB31 LB0¸LB63 Constant VB0¸VB5119 IB0¸IB15 QB0¸QB15 MB0¸MB31 SMB0¸SMB179 AC0¸AC3 SB0¸SB31 LB0¸LB63 Constant VB0¸VB5119 IB0¸IB15 QB0¸QB15 MB0¸MB31 SMB0¸SMB179 AC0¸AC3 SB0¸SB31 LB0¸LB63 Constant Word access VW0¸VW2046 T0¸T255 C0¸C255 IW0¸IW14 QW0¸QW14 MW0¸MW30 SMW0¸SMW178 AC0¸AC3 LW0¸LW62 SW0¸SW30 Constant VW0¸VW2046 T0¸T255 C0¸C255 IW0¸IW14 QW0¸QW14 MW0¸MW30 SMW0¸SMW178 AC0¸AC3 AIW0¸AIW30 AQW0¸AQW30 LW0¸LW62 SW0¸SW30 Constant VW0¸VW5118 T0¸T255 C0¸C255 IW0¸IW14 QW0¸QW14 MW0¸MW30 SMW0¸SMW178 AC0¸AC3 AIW0¸AIW62 AQW0¸AQW62 LW0¸LW62 SW0¸SW30 Constant VW0¸VW5118 T0¸T255 C0¸C255 IW0¸IW14 QW0¸QW14 MW0¸MW30 SMW0¸SMW178 AC0¸AC3 AIW0¸AIW62 AQW0¸AQW62 LW0¸LW62 SW0¸SW30 Constant Double word access VD0¸VD2044 ID0¸ID12 QD0¸QD12 MD0¸MD28 SMD0¸SMD176 AC0¸AC3 HC0,3,4,5 SD0¸SD28 LD0¸LD60 Constant VD0¸VD2044 ID0¸ID12 QD0¸QD12 MD0¸MD28 SMD0¸SMD176 AC0¸AC3 HC0,3,4,5 SD0¸SD28 LD0¸LD60 Constant VD0¸VD5116 ID0¸ID12 QD0¸QD12 MD0¸MD28 SMD0¸SMD176 AC0¸AC3 HC0¸HC5 SD0¸SD28 LD0¸LD60 Constant VD0¸VD5116 ID0¸ID12 QD0¸QD12 MD0¸MD28 SMD0¸SMD176 AC0¸AC3 HC0¸HC5 SD0¸SD28 LD0¸LD60 Constant
+4.Mở rộng cổng vào ra
+CPU 221 không có modul mở rộng,CPU 222 cho phép mở rộng nhiều nhất 2 modul và CPU 224,CPU 226 nhiều nhất 7 modul. Các modul mở rộng tương tự và số đều có trong S7-200.
+Có thể mở rộng cổng vào/ ra của PLC bằng cách ghép nối thêm vào nó các modul mở rộng về phía bên phải của CPU, làm thành một móc xích. Địa chỉ của các vị trí của modul được xác định bằng kiểu vào/ra và vị trí của modul trong móc xích bao gồm các modul có cùng kiểu. Ví dụ như một modul cổng ra không thể gán địa chỉ của một modul cổng vào cũng như một modul tương tự không thể có địa chỉ như một modul số và ngược lại.
+Các modul mở rộng số hay rời rạc đều chiếm chổ trong bộ đệm tương ứng với số đầu vào/ra của modul.
+Có thể được lập trình cho PLC S7-200 bằng cách sử dụng một trong các phần mềm :
+Step 7 – Micro / Dos
+Step 7 – Micro / Win
+Những phần mềm này đều có thể cài đặt được trên các máy lập trình họ
+PG 7xx và các máy tính cá nhân (PC).
+Các phần tử cơ bản của chương trình :
+Các phần tử cơ bản của chương trình bao gồm khối chương trình,khối hệ thống và khối dữ liệu.
+Khối chương trình :
+Các chương trình cho S7-200 phải có cấu trúc bao gồm chương trình chính (main program) và sau đó đến các chương trình con và các chương trình xử lý ngắt.
+Chương trình chính được kết thúc bằng lệnh kết thúc chương trình (MEND).
+Chương trình con là một bộ phận của chương trình, các chương trình phải được viết sau lệnh kết thúc chương trình đó là lệnh MEND.
+Các chương trình xử lý ngắt cũng là một bộ phận của chương trình. Nếu cần sử dụng phải viết sau lệnh kết thúc chương trình chính (MEND).
+Các chương trình được nhóm lại thành một nhóm ngay sau chương trình chính, sau đó đến các chương trình xử lý ngắt. Cũng có thể do trộn lẫn các chương trình con và chương trình xử lý ngắt ở sau chương trình chính.
+Cấu trúc chương trình của S7 – 200
+Khối hệ thống : Khối hệ thống cho phép định dạng cấu trúc phần cứng cho S7 – 200. Khối dữ liệu :
+Khối này dùng để lưu trữ giá trị trong vùng nhớ V để sử dụng bởi chương trình. Ta có thể sử dụng khối này để đặt giá trị ban đầu cho dữ liệu.
+9. Thực hiện chương trình của S7-200
+PLC thực hiện chương trình theo chu kỳ lặp. Mỗi vòng lặp được gọi là vòng quét (scan). Mỗi vòng quét được bắt đầu bằng giai đoạn đọc các dữ liệu từ các cổng vào vùng bộ đệm ảo, tiếp theo là giai đoạn thực hiện chương trình. Trong từng vòng quét, chương trình được thực hiện bằng lệnh đầu tiên và kết thúc tại lệnh kết thúc MEND. Sau giai đoạn thực hiện chương trình là giai đoạn truyền thông nội bộ và kiểm lỗi. Vòng quét được kết thúc bằng giai đoạn chuyển các nội dung của bộ đệm ảo tới các cổng ra.
+Như vậy tại thời điểm thực hiện lệnh vào / ra thông thường lệnh không làm việc trực tiếp cổng vào ra mà chỉ thông qua bộ đệm ảo của cổng trong vùng nhớ tham số. Việc truyền thông giữa bộ đệm ảo với ngoại vi trong các giai đoạn (1) và (4) do CPU quản lý. Khi gặp lệnh vào / ra ngay lập tức hệ thống sẽ cho dừng mọi công việc khác, ngay cả chương trình xử lý ngắt để thực hiện lệnh này trực tiếp với cổng vào và ra.
+Nếu sử dụng các chế độ ngắt chương trình tương ứng với từng tín hiệu ngắt được soạn thảo và cài đặt như một bộ phận của chương trình. Chương trình xử lý ngắt chỉ được thực hiện trong vòng quét khi xuất hiện tín hiệu báo ngắt và có thể xảy ra ở bất cứ điểm nào trong vòng quét.
+10 . Các toán hạng lập trình cơ bản
+Có 6 phần tử lập trình cơ bản, mỗi phần tử có công dụng riêng. Để dễ dàng xác định thì mỗi phần tử được gán cho mộ ký tự:
+I : Dùng để chỉ ngõ vào vật lý nối trực tiếp vào PLC. Q : Dùng để chỉ ngõ ra vật lý nối trực tiếp từ PLC. T : Dùng để xác định phần tử định thời có trong PLC. C : Dùng để xác định phần tử đếm có trong PLC. M và S : Dùng như các cờ hoạt động như bên trong PLC.
+Tất cả các phần tử (toán hạng) trên có hai trạng thái ON hoặc OFF (1 hoặc 0).
+Cuộn dây có thể được dùng để điều khiển trực tiếp ngõ ra từ PLC (như phần tử Q) hoặc có thể điều khiển bộ định thì, bộ đếm hoặc cờ (như phần tử M, S). Mỗi cuộc dây được gắn với các công tắc. Các công tắc này có thể là thường mở hoặc thường đóng.
+Các ngõ vào vật lý nối đến bộ điều khiển lập trình (phần tử I) không có cuộn dây để lập trình. Các phần tử này chỉ có thể dùng ở dạng các công tắc mà thôi (loại thường đóng và thường mở).
+11. Phương thức lưu và phục hồi dữ liệu trong PLC :
+PLC S7 – 200 cung cấp nhiều biện pháp để đảm bảo chương trình và dữ liệu được giữ lại khi có sự cố mất nguồn cung cấp. PLC hổ trợ 1 tụ điện để giữ giá trị hiện tại của RAM khi mất nguồn cung cấp. Độ lớn của tụ điện và thời gian giữ phụ thuộc vào từng loại CPU.
+
+Ngoài ra PLC còn có một nguồn pin bên trong để hổ trợ cho việc lưu giữ tài liệu,nguồn pin này được sử dụng khi mất nguồn và tụ điện đã xả điện hết.
+Cách nạp chương trình cho PLC và cách đọc chương trình cho PLC :
+Một chương trình cho PLC gồn có 3 phần chính : khối chương trình, khối dữ liệu, khối hệ thống.
+Khi nạp một chương trình từ thiết bị lập trình tới PLC, các thành phần của chương trình được lưu trữ trên vùng nhớ RAM. Sau đó PLC tự động chuyển chương trình người dùng, khối dữ liệu và khối hệ thống vào bộ nhớ EEPROM cho việc lưu trữ lâu dài.
+Khi cần đọc chương trình từ PLC đến thiết bị lập trình thì PLC sẽ đọc khối hệ thống từ RAM, khối chương trình và khối dữ liệu từ EEPROM.
+Ngoài ra các biện pháp hỗ trợ cho việc lưu trữ chương trình trên, PLC còn hỗ trợ lưu trữ chương trình bằng thiết bị lưu trữ bên ngoài. Chương trình được lưu trữ với thiết bị bên ngoài đuợc lấy từ RAM gồm khối chương trình, khối dữ liệu, khối hệ thống và giá trị bắt buộc. Khi đọc chương trình từ thiết bị lưu trữ bên ngoài,nếu nội dung của RAM trong PLC khác với nội dung của chương trình thì PLC sẽ xóa RAM, PLC sẽ copy nội dung của chương trình vào RAM, sau đó PLC tự động copy khối chương trình, khối dữ liệu, khối hệ thống vào EEPROM.
+12.Ứng dụng của PLC trong công nghiệp:
+Điều khiển các công việc trong các nhà máy về lĩnh vực robot:
+Kiểm soát hoạt động và kiểm tra chất lượng sản phẩm trong qúa trình sản xuất. Phối hợp với các bộ cảm biến trong việc điều khiển hệ thống robot ở các nhà máy, các dây chuyền sản xuất tự động.
+Trong các ứng dụng này, PLC sẽ thay thế các relay và các ngắt cơ điện mà thường được sử dụng trước đây trong các bộ khởi động. Các contact giới hạn sẽ dò tìm một cách tự động và báo hiệu khi bộ khởi động đã đạt được mức chính xác trong tiến trình tuần tự của nó.
+Các robot trong việc nâng, hạ hay vận chuyển các vật từ máy này đến máy khác (băng tải… ) được kết nối với PLC cho phép máy này phát tín hiệu đến máy khác ( thông qua PLC) khi công việc hoàn tất hoặc có yêu cầu chuyển tiếp.
+Ví dụ: Ứng dụng PLC trong các hệ thống đếm tự động trong dây chuyền sản xuất và đóng hộp các sản phẩm như trái cây, xà phòng,… trong các dây chuyền đóng chai….
+CHƯƠNG4 GIỚI THIỆU VỀ CẤU TRÚC TẬP LỆNH CỦA PLC S7 – 200
+I. PHƯƠNG PHÁP LẬP TRÌNH.
+S7-200 biểu diễn một mạch logic cứng bằng một dãy các lệnh lập trình. Chương trình bao gồm một dãy các tập lệnh. S7-200 thực hiện chương trình bắt đầu từ lệnh lập trình đầu tiên và kết thúc ở lập trình cuối trong một vòng quét (scan).
+Một vòng quét (scan cyele) được bắt đầu bằng một việc đọc trạng thái của đầu vào, và sau đó thực hiện chương trình. Vòng quét kết thúc bằng việc thay đổi trạng thái đầu ra. Trước khi bắt đầu một vòng quét tiếp theo S7-200 thực thi các nhiệm vụ bên trong và nhiệm vụ truyền thông. Chu trình thực hiện chương trình là chu trình lặp.
+Cách lập trình cho S7-200 nói riêng và cho các PLC nói chung dựa trên hai phương pháp cơ bản. Phương pháp hình thang (Ladder, viết tắt là LAD) và phương pháp liệt kê lệnh (Statement list, viết tắt là STL). Ngoài ra còn phương pháp lập trình FBD.
+Nếu có một chương trình viết dưới dạng LAD, thiết bị lập trình sẽ tự dộng tạo ra một chương trình theo dạng STL tương ứng. Ngược lại không phải mọi chương trình viết dưới dạng STL đều có thể chuyển sang được dạng LAD.
+Phương pháp hình thang (LAD): LAD là một ngôn ngữ lập trình bằng đồ họa, những thành phần cơ bản dùng trong LAD tương ứng với các thành phần của bảng điều khiển bằng rơ le. Trong chương trình LAD, các phần tử cơ bản dùng để biểu diễn lệnh logic như sau:
+Tiếp điểm: Là biểu tượng (Symbol) mô tả các tiếp điểm của rơ le
+Tiếp điểm thường mở
+Tiếp điểm thương đóng
+Cuộn dây (coil): Là biểu tượng ¾( )¾ mô tả rơ le được mắc theo chiều dòng điện cung cấp cho rơ le. Hộp (Box): Là biểu tượng mô tả các hàm khác nhau, nó làm việc khi có dòng điện chạy đến hộp. Những dạng hàm thường được biểu diễn bằng hộp là các bộ thời gian (Timer), bộ đếm (counter) và các hàm toán học. Cuộn dây và các hộp phải mắc đúng chiều dòng điện.
+Mạng LAD: Là đường nối các phần tử thành một mạch hoàn thiện, đi từ đường nguồn bên trái sang đường nguồn bên phải. Đường nguồn bên trái là dây pha, đường nguồn bên phải là dây trung hòa và cũng là đường trở về nguồn cung cấp (thường không được thể hiện khi dùng chương trình tiện dụng STEPT MICRO / DOS hoặc STEPT – MICRO/WIN. Dòng điện chạy từ trái qua tiếp điểm đến đóng các cuộn dây hoặc các hộp trở về bên phải nguồn.
+Phương pháp liệt kê lệnh (STL): Là phương pháp thể hiện chương trình dưới dạng tập hợp các câu lệnh. Mỗi câu lệnh trong chương trình, kể cả những lệnh hình thức biểu diễn một chức năng của PLC.
+
+PHẦN MỀM LẬP TRÌNH
+SIMATIC STEP 7 - Micro/WIN SP1 - VERSION 4.0
+NGÔN NGỮ LẬP TRÌNH LAD
+TRONG SIMATIC STEP7 – Micro/WIN V4.0
+II. GIỚI THIỆU TẬP LỆNH CỦA PLC S7-200:
+...........................
+Điện trở R1==666W Þ chọn R1=560W
+I1= 17.8mA ( để tăng khả năng phát.)
+Khi chỉnh VR về 0W Þ R2 ==1kW. VR để chỉnh độ nhạy của cảm,biến. R3 và R4 tạo thành cầu phân áp để đưa vào V+ của opamp là 6v. Khi ngõ ra của opamp ở mức 1 thì áp là 12v. chọn R5 = 100k.
+IB= =0.112mA, phù hợp với thông số của transistor C2383.
+Diode IN 4007 bảo vệ transistor.
+3. Mạch đếm.
+Mạch đếm sử dụng IC 74LS90 và IC giải mã 74LS247. Xung kích mạch đếm lên được lấy từ PLC .
+Khi ngõ ra của IC 74LS247 ở mức cao thì áp là 5v , áp rơi trên mỗi đoạn led là 2v và dòng là 10mA.
+Þ R1 – R7= = 300W Þ chọn R1 – R7=470W .
+4. Chọn PLC .
+Chọn PLC S7 200 CPU 224 vì có số đầu vào / ra phù hợp với yêu cầu của đề tài.
+II. MÔ HÌNH QUY TRÌNH NGÂM, RỬA SẢN PHẨM .
+1. Tổng quát :
+Hiện nay hầu hết các nhà máy xí nghiệp đều ứng dụng trong kỹ thuật tiên tiến nhằm khép kín qui trình sản xuất của mình, hay nói một cách khác là tự động hóa qui trình sản xuất mục đích là đem lại hiệu quả cao, đáp ứng yêu cầu ngày càng phát triển hiện nay của xã hội.
+Quy trình ngâm rửa sản phẩm là một công đoạn nhỏ trong hệ thống sản xuất của các ngành công nghiệp như luyện kim, chế tạo ôtô, xe gắn máy… hoặc được ứng dụng trong các dây chuyền sản xuất, mà sản phẩm làm ra phải qua nhiều công đoạn mới hoàn thành, mỗi công đoạn chỉ làm một việc nhất định.
+2. các bước thiết kế một hệ thống điều khiển dùng plc.
+Để thiết kế một chương trình điều khiển cho một hoạt động bao gồm những bước sau:
+Xác định qui trình công nghệ:
+Trước tiên, ta phải xác định thiết bị hay hệ thống nào muốn điều khiển. Mục đích cuối cùng của bộ điều khiển là điều khiển một hệ thống hoạt động. Sự vận hành của hệ thống được kiểm tra bởi các thiết bị đầu vào. Nó nhận tín hiệu và gửi tín hiệu đến CPU , CPU xử lý tín hiệu và gởi nó đến thiết bị xuất để điều khiển sự hoạt động của hệ thống như lập trình sẵn trong chương trình.
+Xác định ngõ vào, ngõ ra :
+Tất cả các thiết bị xuất , nhập bên ngoài đều được kết nối với bộ điều khiển lập trình. Thiết bị nhập là những contact, cảm biến ... Thiết bị xuất là những cuộn dây , valve điện từ , motor, bộ hiển thị. Sau khi xác định tất cả các thiết bị xuất nhập cần thiết, ta định vị các thiết bị vào ra tương ứng cho từng ngõ vào, ra trên PLC trước khi viết chương trình.
+Viết chương trình:
+Khi viết chương trình theo sơ đồ hình bậc thang ( ladder ) phải theo sự hoạt động tuần tự từng bước của hệ thống.
+Nạp chương trình vào bộ nhớ :
+Bây giờ chúng ta có thể cung cấp nguồn cho bộ điều khiển có lập trình thông qua cổng I/O. Sau đó nạp chương trình vào bộ nhớ thông qua bộ console lập trình hay máy tính có chứa phần mềm lập trình hình thang. Sau khi nạp xong, kiểm tra lại bằng hàm chuẩn đoán. Nếu được mô phỏng toàn bộ hoạt động của hệ thống để chắc chắn rằng chương trình đã hoạt động tốt.
+Chạy chương trình :
+Trước khi nhấn nút Start, phải chắc chắn rằng các dây dẫn nối các ngõ vào, ra đến các thiết bị nhập, xuất đã được nối đúng theo chỉ định. Lúc đó PLC mới bắt đầu hoạt động thực sự. Trong khi chạy chương trình, nếu bị lỗi thì máy tính hoặc bộ Console sẽ báo lỗi , ta phải sưả lại cho đến khi chương trình hoạt động an toàn.
+SƠ ĐỒ HOẠT ĐỘNG CỦA QUY TRÌNH .
+CHƯƠNG 2
+SƠ ĐỒ VÀ NGUYÊN LÝ HOẠT ĐỘNG
+I. SƠ ĐỒ KHỐI .
+1. Mạch nguồn.
+2. Mạch cảm biến.
+3. Mạch đếm.
+4. sơ đồ khối mô hình điều khiển quy trình ngâm rửa sản phẩm.
+II. SƠ ĐỒ NGUYÊN LÝ VÀ NGUYÊN LÝ HOẠT ĐỘNG.
+1. Mạch nguồn .
+NGUYÊN LÝ HOẠT ĐỘNG
+Mạch ổn áp dạng này cho dòng tải lớn tới vài ampe, thường cấp nguồn cho toàn máy… . Dòng qua tải là dòng Ic của D613.
+Điện áp xoay chiều 220v qua biến áp để giảm áp cho phù hợp , sau đó đưa qua cầu chỉnh lưu để nắn phẳng điện áp . Tụ 1000m lọc làm phẳng điện áp sau chỉnh lưu, hai diode zener được hạn dòng bởi điện trở 470W . khi diode zener dẫn thì áp rơi trên cực B của transistor D468 là ổn định làm cho điện áp ra ổn định . Hai transistor được ghép dalington để tăng hệ số khuyếch đại .
+Ap ra Vout =VZ -1.2v.
+2. Mạch cảm biến.
+NGUYÊN LÝ HOẠT ĐỘNG
+Khi nhận được ánh sáng hồng ngoại thì led thu dẫn điện , áp rơi trên led là 2v nên V- của opamp lớn hơn V+ , ngõ ra của opamp ở mức 0 transistor không dẫn điện nên không đóng rơle.
+Khi không nhận ánh sáng hồng ngoại led thu không dẫn điện, áp tại V + khoảng 8v lớn hơn v- ngõ ra opamp ở mức cao sẽ kích transistor dẫn và đóng rơle . khi transistor tắt cuộn dây rơle hoàn năng lượng tích luỹ trước đó qua diode IN4007 về nguồn để bảo vệ transistor.
+3. Mạch đếm .
+Mạch sẽ đếm lên khi có cạnh lên của xung kích, được lấy từ PLC , sau đó IC 74LS247 giải mã và hiển thi ra led 7 đoạn.
+4. Sơ đồ hoạt động của mô hình ngâm rửa sản phẩm .
+CHÚ THÍCH:
+
+VT1, VT2, VT3, VT4, VT5 : là 5 vị trí làm việc được xác định trên qui trình công nghệ. SENSOR (S1) và (S2) : là hai cảm biến quang gồm có hai đầu thu và phát dùng để phát hiện khi có sản phẩm. HTI, HT2 : là hai công tắc hành trình 1 và 2 được bố trí nằm bên trong trục thẳng đứng. HT3, HT4, HT5, HT6, HT7 : là các công tắc hành trình 3, 4, 5, 6, 7 được bố trí nằm trên trục nằm ngang tương ứng với các vị trí 1, 2, 3, 4, 5. Đ1, Đ2 : là hai động cơ.
+Đ1 là động cơ được sử dụng dùng để nâng và hạ sản phẩm. Đ2 là động cơ được sử dụng dùng để di chuyển sản phẩm từ vị trí 1 sang vị trí 2, 3, 4, 5 và ngược lại (tức là di chuyển sản phẩm sang phải hoặc sang trái).
+1. Quy trình hoạt động ở chế độ AUTO (chế độ tự động).
+Thiết kế một qui trình xử lý bề mặt gồm có 5 vị trí:
+Tại vị trí số 1.
+Khi băng tải đưa sản phẩm vào thì tại đây cảm biến S1 phát hiện có sản phẩm (tức là S1 = 1) lúc đó S1 kích cho động cơ Đ1 quay xuống , hút sản phẩm sau đó cần trục đưa sản phẩm lên cao cho tới khi chạm vào công tắc hành trình 2 làm cho công tắc bị tác động (tức là HT2 = 1) thì động cơ Đ1 dừng lại và động cơ Đ2 được kích quay sang phải lúc đó cần trục đưa sản phẩm từ vị trí 1 sang vị trí 2.
+Tại vị trí số 2.
+Cần trục từ vị trí 1 sang vị trí 2 chạm vào công tắc hành trình 4 làm cho công tắc bị tác động (tức là HT4 =1) thì động cơ Đ2 dừng lại và động cơ Đ1 được kích quay xuống cần trục hạ sản phẩm xuống thấp cho tới khi chạm vào công tắc hành trình 1 làm cho công tắc bị tác động (tức HT1 =1) thì động cơ Đ1 dừng lại và cần trục đưa sản phẩm vào bồn 1 để ngâm tẩy rỉ 105giây. Sau 15 giây kích cho động cơ Đ1 quay lên cần trục đưa sản phẩm lên cao cho đến khi chạm vào công tắc hành trình 2 (tức là HT2 =1) thì động cơ Đ1 dừng lại và động cơ Đ2 được kích quay sang phải để cần trục đưa sản phẩm từ vị trí 2 sang vị trí 3.
+Tại vị trí số 3.
+Khi động cơ Đ2 được kích thì sản phẩm được cần trục đưa từ vị trí 2 sang vị trí 3 chạm vào công tắc hành trình 5 làm cho công tắc bị tác động (tức là HT5 =1) thì động cơ Đ2 dừng lại và động cơ Đ1 được kích quay xuống cần trục hạ sản phẩm xuống thấp cho tới khi chạm vào công tắc hành trình 1 làm cho công tắc bị tác động (tức HT1 =1) thì động cơ Đ1 dừng lại và cần trục đưa sản phẩm vào bồn 2 để tiến hành giai đoạn sơn tĩnh điện sản phẩm 20 giây. Sau 20 giây kích cho động cơ Đ1 quay lên cần trục đưa sản phẩm lên cao cho đến khi chạm vào công tắc hành trình 2 (tức là HT2 =1) thì động cơ Đ1 dừng lại và động cơ Đ2 được kích quay sang phải để cần trục đưa sản phẩm từ vị trí 3 sang vị trí 4.
+Tại vị trí số 4.
+Sản phẩm được cần trục đưa từ vị trí 3 sang vị trí 4 chạm vào công tắc hành trình 6 làm cho công tắc bị tác động (tức là HT6 =1) thì động cơ Đ2 dừng lại và động cơ Đ1 được kích quay xuống cần trục hạ sản phẩm xuống thấp cho tới khi chạm vào công tắc hành trình 1 làm cho công tắc bị tác động (tức HT1 =1) thì động cơ Đ1 dừng lại và cần trục đưa sản phẩm vào bồn C để tiến hành giai đoạn sấy khô sản phẩm 30 giây. Sau 30 giây kích cho động cơ Đ1 quay lên cần trục đưa sản phẩm lên cao cho đến khi chạm vào công tắc hành trình 2 (tức là HT2 =1) thì động cơ Đ1 dừng lại và động cơ Đ2 được kích quay sang phải để cần trục đưa sản phẩm từ vị trí 4 sang vị trí 5.
+Tại vị trí số 5.
+Sản phẩm được cần trục đưa từ vị trí 4 sang vị trí 5 chạm vào công tắc hành trình 7 làm cho công tắc bị tác động (tức là HT7 =1) thì động cơ Đ2 dừng lại và động cơ Đ1 được kích quay xuống cần trục hạ sản phẩm xuống thấp cho tới khi chạm vào công tắc hành trình 1 làm cho công tắc bị tác động (tức HT1 =1) thì động cơ Đ1 dừng lại, cuộn dây nhả sản phẩm xuống băng tải số 2, che cảm biến 2 kích phát xung để đếm sản phẩm và kích băng tải 2 đưa sản phẩm ra. Sau đó tự động reset lại và hoạt động liên tục.
+Quy trình sẽ hoạt động liên tục cho đến khi nhấn nút stop thì dừng.
+2. Quy trình hoạt động ở chế độ MANUAL (chế độ điều khiển bằng tay).
+Mỗi vị trí, công đoạn di chuyển của cần trục đều có sự giám sát của công nhân.
+Tại vị trí số 1.
+Sau khi băng tải đưa sản phẩm vào vị trí thì người công nhân thao tác bật công tắc khởi động để động cơ Đ1 quay xuống , khi chạm vào công tắc HT1 thì dừng lại, sau đó bật công tắc hút sản phẩm, bật công tắc cho cần trục nâng sản phẩm lên mức cao cho đến khi chạm vào công tắc hành trình 2 (tức HT2=1) thì động cơ Đ1 dừng, sau đó người công nhân nhấn nút khởi động động cơ Đ2 quay sang phải để đưa sản phẩm từ vị trí 1 sang vị trí 2.
+Tại vị trí số 2.
+Khi người công nhân khởi động động cơ Đ2 thì sản phẩm được cần trục đưa từ vị trí 1 sang vị trí 2 chạm vào công tắc hành trình 4 làm cho công tắc bị tác động (tức là HT4 =1) thì động cơ Đ2 dừng lại và nhấn nút khởi động để động cơ Đ1 quay xuống cần trục hạ sản phẩm xuống thấp cho tới khi chạm vào công tắc hành trình 1 làm cho công tắc bị tác động (tức HT1 =1) thì động cơ Đ1 dừng lại và cần trục đưa sản phẩm vào bồn 1 để ngâm tẩy rỉ 15 giây. Sau 15 giây người công nhân lại ấn nút khởi động cho động cơ Đ1 quay lên và cần trục đưa sản phẩm lên cao cho đến khi chạm vào công tắc hành trình 2 (tức là HT2 =1) thì động cơ Đ1 dừng lại và khởi động động cơ Đ2 quay sang phải để cần trục đưa sản phẩm từ vị trí 2 sang vị trí 3.
+Tại vị trí số 3.
+Khi người công nhân nhấn nút khởi động động cơ Đ2 thì sản phẩm được cần trục đưa từ vị trí 2 sang vị trí 3 chạm vào công tắc hành trình 5 làm cho công tắc bị tác động (tức là HT5 =1) thì động cơ Đ2 dừng lại và nhấn nút khởi động để động cơ Đ1 quay xuống cần trục hạ sản phẩm xuống thấp cho tới khi chạm vào công tắc hành trình 1 làm cho công tắc bị tác động (tức HT1 =1) thì động cơ Đ1 dừng lại và cần trục đưa sản phẩm vào bồn 1 để tiến hành giai đoạn sơn tĩnh điện sản phẩm trong 20 giây. Sau 20 giây người công nhân lại khởi động cho động cơ Đ1 quay lên và cần trục đưa sản phẩm lên cao cho đến khi chạm vào công tắc hành trình 2 (tức là HT2 =1) thì động cơ Đ1 dừng lại va khởi động động cơ Đ2 quay sang phải để cần trục đưa sản phẩm từ vị trí 3 sang vị trí 4.
+Tại vị trí số 4.
+Khi người công nhân khởi động động cơ Đ2 thì sản phẩm được cần trục đưa từ vị trí 3 sang vị trí 4 chạm vào công tắc hành trình 6 làm cho công tắc bị tác động (tức là HT6 =1) thì động cơ Đ2 dừng lại và nhấn nút khởi động để động cơ Đ1 quay xuống cần trục hạ sản phẩm xuống thấp cho tới khi chạm vào công tắc hành trình 1 làm cho công tắc bị tác động (tức HT1 =1) thì động cơ Đ1 dừng lại và cần trục đưa sản phẩm vào bồn 3 để tiến hành giai đoạn sấy khô sản phẩm trong 30 giây. Sau 30 giây người công nhân lại khởi động cho động cơ Đ1 quay lên và cần trục đưa sản phẩm lên cao cho đến khi chạm vào công tắc hành trình 2 (tức là HT2 =1) thì động cơ Đ1 dừng lại va khởi động động cơ Đ2 quay sang phải để cần trục đưa sản phẩm từ vị trí 4 sang vị trí 5.
+Tại vị trí số 5.
+Khi người công nhân khởi động động cơ Đ2 thì sản phẩm được cần trục đưa từ vị trí 4 sang vị trí 5 chạm vào công tắc hành trình 7 làm cho công tắc bị tác động (tức là HT7 =1) thì động cơ Đ2 dừng lại và khởi động để động cơ Đ1 quay xuống cần trục hạ sản phẩm xuống thấp cho tới khi chạm vào công tắc hành trình 1 làm cho công tắc bị tác động (tức HT1 =1) thì động cơ Đ1 dừng lại Lúc này người công nhân bật công tắc nhả sản phẩm xuống băng tải 2 , tự đếm sản phẩm và băng tải di chuyển sản phẩm ra và tự reset về vị trí đầu.
+3. các bồn xử lý.
+Tuỳ từng loại sản phẩm mà các bồn xử lý sẽ khác nhau. Các bồn 1,2,3, chỉ mang tính minh hoạ , mô hình chủ yếu nhấn mạnh vào quy trình điều khiển.
+CHƯƠNG 3
+LƯU ĐỒ GIẢI THUẬT VÀ CHƯƠNG TRÌNH
+I. LƯU ĐỒ GIẢI THUẬT.
+1. lưu đồ chính.

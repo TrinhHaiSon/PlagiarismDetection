@@ -1,0 +1,208 @@
+ĐỒ ÁN TỐT NGHIỆP CẢI TIẾN THIẾT KẾ MÁY ÉP NHIỆT ,thuyết minh THIẾT KẾ DÂY CHUYỀN SẢN XUẤT MÁY ÉP NHIỆT, quy trình sản xuất MÁY ÉP NHIỆT, bản vẽ nguyên lý MÁY ÉP NHIỆT, bản vẽ THIẾT KẾ MÁY MÁY ÉP NHIỆT, THIẾT KẾ VÀ CHẾ TẠO MÁY ,
+Mục Lục
+Lời nói đầu ...................................................................................................... 5
+Phần 1. TỔNG QUAN.................................................................................... 7
+1.1. Yêu cầu xã hội........................................................................................ 8
+1.1.1 Giới thiệu kỹ thuật in lụa...................................................................... 8
+1.1.2 Lịch sử ra đời........................................................................................ 9
+1.1.3 Phân loại kỹ thuật in............................................................................ 9
+1.1.4 Một số loại in đặc biệt.......................................................................... 10
+1.2 Phân tích sản phẩm................................................................................. 10
+1.3 Yêu cầu của máy..................................................................................... 11
+Phần 2. THIẾT KẾ MÁY............................................................................... 12
+2.1. Lựa chọn nguyên lý làm việc.................................................................. 13
+2.1.1. Cấu tạo máy........................................................................................ 13
+2.2.1. Nguyên lý hoạt động của máy............................................................. 23
+2.2.1.1. Mô tả hoạt động của máy................................................................. 25
+2.2.1.2. Ưu điểm, nhược điểm........................................................................ 26
+2.2. Tính toán động học máy......................................................................... 26
+2.2.1 Cơ sở tính toán khí nén........................................................................ 26
+2.2.1.1 Thành phần hóa học của khí nén....................................................... 26
+2.2.1.2 Đơn vị đo trong hệ thống điều khiển................................................. 27
+2.2.1.3 Cở sở tính toán khí nén..................................................................... 28
+2.2.2 Chọn động cơ....................................................................................... 35
+2.2.3 Phân phối tỉ số truyền.......................................................................... 35
+2.2.4 Thiết kế bộ truyền xích......................................................................... 36
+2.2.4.1 Ưu điểm............................................................................................. 36
+2.2.4.2. Nhược điểm..................................................................................... 36
+2.2.4.3. Thiết kế bộ truyền........................................................................... 36
+2.2.5. Thiết kế và tính toán truyền động băng tải......................................... 40
+2.2.5.1. Giới thiệu......................................................................................... 40
+2.2.5.2. Tính toán thiết kế............................................................................ 41
+2.3. Tính toán đọng lực học máy.................................................................. 43
+2.3.1. Thiết kế trục....................................................................................... 43
+2.3.1.1. Chọn vật liệu làm trục..................................................................... 43
+2.3.1.2. Tính phản lực trên các gối trục........................................................ 44
+2.3.1.3. Thiết kế gối đỡ trục.......................................................................... 46
+2.3.1.4. Bản vẽ chi tiết.................................................................................. 47
+PHẦN 3. KẾT LUẬN..................................................................................... 48
+3.1. Nhận xét đánh giá máy........................................................................... 49
+3.2. Bảo quản máy........................................................................................ 49
+3.3. Kết luận.................................................................................................. 49
+Tài liệu tham khảo…………………………….………………………………….50
+LỜI NÓI ĐẦU
+N
+ước ta là một nước đang phát triển, cùng với sự phát triển của nền kinh tế thị trường, ngành công nghiệp đang thay đổi một cách nhanh chóng và là một trong những ngành chủ đạo trong thời kỳ công nghiệp hóa, hiện đại hóa đất nước. Đặc biệt ngành cơ khí là một ngành then chốt thúc đẩy sự phát triển của đất nước. Muốn đạt được điều đó thì vấn đề đặt ra là phải có nguồn nhân lực có trình độ về chuyên môn mới có thể phân tích, tổng hợp các yêu cầu kỹ thuật đặt ra từ đó có đường lối công nghệ hợp lý phục vụ cho sản xuất. Ngành cơ khí là ngành kỹ thuật có mặt ở tất cả các lĩnh vực. Trong đó ngành công nghệ may mặc chiếm một phần lớn để phục vụ nhu các cầu cần thiết trong đời sống hàng ngày của con người.
+Hiện nay ngành cơ khí ảnh hưởng rất lớn đến ngành công nghiệp may mặc, in ấn. Và đã có rất nhiều máy móc ra đời như: Máy may, máy ép vải, ép nhựa, ép cườm, ép gỗ...và như chúng ta đã biết có rất nhiều hoa văn trên quần áo, logo trên các tấm lụa có những hình ảnh, hoa văn đầy đủ màu sắc, để hoàn thành một sản phẩm có các hoa văn, màu sắc. Theo cách truyền thống làm thủ công thì tốn rất nhiều thời gian và năng suất lại rất thấp. Với năng suất như vậy, thì không đáp ứng được cho những công ty sản xuất với số lượng lớn. Vì thế nhóm đã tìm hiểu và nghiên cứu thiết kế “MÁY ÉP NHIỆT” với mục đích góp một phần nhỏ vào việc tạo các hình ảnh, hoa văn trên áo, trên vải nhanh hơn, hiệu quả hơn.
+1.1. YÊU CẦU XÃ HỘI.
+1.1.1. Giới thiệu kỹ thuật in lụa
+In lụa là một dạng kỹ thuật in ấn. In lụa là tên thông dụng do giới thợ đặt ra, tên gọi này xuất phát từ Châu Âu, bản lưới của khuôn in được làm bằng tơ lụa sau đó khi mà bản lưới lụa có thể thay thế bằng vật liệu khác như vải bông, vải sợi hóa học…
+In lụa thực hiện theo nguyên lý giống như in mực dầu trên giấy nến, theo nguyên lý chỉ một phần mực in chỉ được thấm qua lưới in, in lên vật liệu, bởi trước đó một số mắt lưới khác đã được bịt kín bởi hóa chất chuyên dùng.
+Kỹ thuật này có thể áp dụng cho nhiều loại vật liệu cần in như: nilon, vải tổng hợp, thủy tinh ….
+Hình 1.1 sản phẩm của kỹ thuật in lụa.
+1.1.2. Lịch sử ra đời:
+Kỹ thuật in lụa được Châu Âu sử dụng vào năm 1925 với việc in trên giấy bìa, thủy tinh, vải….
+Nhưng hơn 1000 năm trước người ta đã phát minh ra rằng sợi tơ khi kéo căng trên 1 khung gỗ với hình ảnh khuôn to gắn phía dưới khung bằng keo hồ có thể dùng để sao chép các hình ảnh nhiều lần trên nhiều vật liệu khác nhau bằng cách phết mực xuyên qua các lỗ tròn khuôn trục.
+Nhiều công trình nghiên cứu sử dụng vải tơ làm lưới in, sau đó được đưa vào sử dụng tại Đức và Pháp vào thập niên 1870, sau đó tại Anh quốc vào năm 1907.
+Trong khi đó ngành in lụa ở Việt Nam được hình thành từ những năm 1950, cho đến thập niên 60 mới thực sự biết in lụa các mặt hàng in bông trên các vải sợi, tơ lụa và các mặt hàng quảng cáo mới được mọi người quan tâm. Lúc bấy giờ, so với các nước trong khu vực Đông Nam Á, như Hồng Kông, Đài Loan, Hàn Quốc...bước tiến của mình là chậm chạp. Nhưng vẫn hơn một số nước ở Đông Dương như Thái Lan, Malaysia...
+Đến thập niên 70 ngành In Lụa ở Việt Nam mới có chiều hướng tiến bộ, nhưng phát triển chưa mạnh vì trình độ kỹ thuật in lụa chưa cao, số người in lụa chưa nhiều, chuyên viên in lụa còn quá ít. Trước năm 1975, con số chuyên viên In Lụa đếm chưa đầy đầu ngón tay, nhưng đến những đầu thập niên 90 thời kinh tế thị trường mở rộng, ngành In Lụa bắt đầu phát triển mạnh.
+Bước vào Thế Kỷ 21, ngành In Lụa của chúng ta đang trên đà phát triển mạnh, sẽ tiến tới hiện đại hóa ngành công nghệ In Lụa. Biết rằng rất khó khăn để theo kịp các nước Tây Âu, nhưng chắc chắn sẽ “qua mặt” các nước trong khối ASEAN ở một ngày không xa.
+1.1.3. Phân loại kỹ thuật in lụa.
+- Theo cách thức in
++ In lụa trên bàn in thủ công
++ In lụa trên bàn in có cơ khí hóa một số thao thác
++ In lụa trên máy in tự động
+Theo hình dạng khuôn in
++ In dùng khuôn lưới phẳng
++ In dùng khuôn lưới tròn
+- Theo phương pháp in
++ In trực tiếp
++ In gián tiếp
++ In dự phòng
+1.1.4. Một số loại in đặc biệt
+Có thể sử dụng những loại mực in khác nhau, hoặc những nguyên liệu đặc biệt để tạo ra những hiệu ứng khác nhau ví dụ như in chuyển, tạo chữ nổi…
++ In chuyển: hay còn gọi là in nhiệt, in nhiệt khô, in nhiệt chuyển hay là in thăng hoa. Nguyên tắc chung của phương pháp này là không in trực tiếp lên sản phẩm mà in trung gian qua một lớp giấy nền, sau đó ép nóng để thuốc mực in nhả từ giấy nền kết dính vào vật liệu in.
++ In nổi: trong mực in có các chất gây nở để tạo hình nổi, sau khi in và sấy, sản phẩm được hấp ở nhiệt độ 130-1500C bằng hơi nước bão hòa mực in sẽ chuyển thành màn xốp có hình nổi trên sản phẩm.
+1.2. Phân tích sản phẩm
+Nói đến in lụa, in vải là chúng ta cùng một lúc đề cập đến nhiều ngành khác nhau. Để tạo ra được một sản phẩm thì ba ngành chính tham gia vào quá trình tạo nên 1 sản phẩm là mỹ thuật, hóa nhuộm, in ấn. Mỗi sản phẩm in đều mang đặc thù riêng của nó: tính thẩm mỹ trong họa tiết trang trí, tính cơ lý của chất liệu in, màu in. Khi đề cập đến từng ngành tham gia tạo sản phẩm là đề cập đến nhiều vấn đề: lịch sử phát triển, hiện tại, tương lai của từng ngành.
+Chúng ta biết để tạo một mẫu in có những hình ảnh, hoa văn đặc sắc, tinh tế phụ thuộc rất nhiều yếu tố: chất liệu vải in, mực in, đối tượng sử dụng, mục đích sử dụng, mùa sử dụng, vùng sử dụng… Nếu trên một loại vải thô chúng ta không thể tạo những họa tiết mảng chuyển từ đậm sang nhạt một cách tinh tế được và cũng không thể nào tạo những họa tiết ngộ nghĩnh trên vải thô nhám dùng cho trẻ nhỏ được. Hoặc không thể sử dụng những họa tiết cầu kì cho trẻ em dưới 7 tuổi được… Chính vì thế người thiết kế mẫu in phải có sự hiểu biết về ngành in, nhu cầu thẩm mỹ người tiêu dùng trong mỗi giai đoạn, kết hợp nhuần nhuyễn giữa sáng tạo nghệ thuật với tính khoa học, giữa tính dân tộc và tính hiện đại. Phải đặt mình vào vai trò người tiêu dùng, nhưng cũng phải biết hướng người tiêu dùng tới một thị hiếu tốt. Song hành với sự phát triển của in lụa, thiết kế mẫu cho in lụa cũng ngày càng trở thành những tác phẩm độc lập mang sắc thái riêng.
+Trong đó, các yếu tố như chất liệu các loại vải (vải thun, vải lanh...), lụa, đặc biệt là mực in (hồ in), để tạo những sản phẩm với màu sắc khác nhau và rõ nét ( không bị loang nhòe), chúng ta phải lựa chọn những mực in có độ nhớt cao (đậm đặc). Vì vậy ta phải hiểu “in lụa” là kỹ thuật chuyển một mẫu mực in từ nguyên bản lên sản phẩm bằng một loại mực in thích hợp.
+1.3. Yêu cầu của máy
+- Máy phải đảm bảo độ cứng vững, nâng cao năng suất và độ tin cậy cao.
+- Sản phẩm làm ra phải mang tính thẩm mỹ, dúng yêu cầu kỹ thuật.
+- Hạn chế đến mức tối đa sai số khi in.
+- Máy hoạt động êm, không gây tiếng ồn.
+- Các thiết bị điều khiển không bị trục trặc khi làm việc.
+- Các thiết bị phải được che chắn, tránh tuyệt đối sự rò rỉ điện, gây nguy hiểm cho người đứng máy.
+PHẦN 2: THIẾT KẾ MÁY
+
+2.1. LỰA CHỌN NGUYÊN LÝ LÀM VIỆC.
+2.1.1. Cấu tạo máy.
+2.1.1.1. Thân máy.
+Một khung máy hình hộp chữ nhật làm bằng sắt C45, được lắp ráp với hệ thống khí nén ở phía trên và được điều khiển bởi một hệ thống điều khiển. Ngoài ra trên khung máy còn có một tấm điện trở dùng để chuyển nhiệt.
+Hình 2.1.1: Khung máy.
+
+2.1.1.2. Hệ thống khí nén.
+Sử dụng hệ thống khí nén cho máy ép Cơ cấu chấp hành của hệ thống
+là xylanh điều khiển ép. Để điều khiển cơ cấu chấp hành này ta sử dụng van phân phối kiểu 5/2 truyền động gồm có các phần chính và chức năng của nó như sau:
+Hình 2.1.2: Hệ thống khí nén.
+1. nguồn cấp khí 8. vít ráp M8
+2. bộ lọc khí 9. bu lông M8
+3. van phân phối 5/2 10. tấm cân bằng mâm ép
+4. bích nối 11. điện trở nhiệt
+5,6. van tiết lưu 12. mâm nhiệt
+7. đai ốc M20 13. tấm cách nhiệt
+- Trạm nguồn: Máy nén khí là các máy móc (hệ thống cơ học) có chức năng làm tăng áp suất của chất khí. Công dụng của máy nén khí thì rất nhiều, chúng có mặt trong hầu hết các ngành công nghiệp như in ấn, bao bì, thực phẩm, dệt, gỗ,… Máy nén khí là một “mắt xích” quan trọng trong các hệ thống công nghiệp sử dụng khí ở áp suất cao để vận hành các máy móc khác…
+Máy nén khí hút không khí từ môi trường ngoài và dự trữ trong 1 bình hơi, do đó áp suất khí trong bình rất lớn. Từ bình hơi, khí sẽ đc phân phối đến các công cụ khác nhau như súng phun hơi để thổi bụi hoặc nước, hoặc đến các loại máy có bộ phận quay như máy vít đinh, máy khoan, máy đánh nhám… Trong các loại máy này có 1 tuốc-bin hơi nhỏ, khi cho dòng khí áp suất cao vào sẽ đẩy các cánh quạt của tuốc-bin quay, nhờ các cơ cấu truyền động thích hợp, các máy đó sẽ hoạt động. Thường là không khí, được dùng phổ biến để cung cấp năng lượng cho công cụ dùng khí nén như máy khoan đường, bơm phun sơn và máy khoan răng.
+Hình 2.1.3: Trạm nguồn (máy nén khí).
+- Xy lanh: Xy lanh có nhiệm vụ biến đổi năng lượng thế năng hay động năng của lưu chất thành năng lượng cơ học – chuyển động thẳng hoặc chuyển động quay
+Thông thường xy lanh được lắp cố định, pistông chuyển động. Một số trường hợp có thể piston cố định xy lanh chuyển động.
+Pittông bắt đầu chuyển động khi lực tác động một trong hai phía của nó (lực áp suất, lò xo hoặc cơ khí) lớn hơn tổng các lực cản có hướng ngược lại chiều chuyển động (lực ma sát ,phụ tải,lò xo...)
+Hình 2.1.4: Xylanh tác động kép
+- Van phân phối: Loại van được sử dụng là van điều khiển bằng điện xoay chiều(điện áp 220V), kiểu 5/2. Van này có chức năng phân phối khí đến các khoang làm việc của xy lanh.
+Hình 2.1.5: Van phân phối kiểu 5/2
++ Van một chiều: Cho phép không khí đi từ máy nén khí đi vào bồn và ngăn không khì chạy ngược lại khi máy nén khí tắt.
+Hình 2.1.6: Van một chiều 3/2.
++ Cơ cấu chấp hành: Cơ cấu chấp hành dùng trong hệ truyền động ở đây chính là xy lanh. Cơ cấu chấp hành này có chức năng nhận năng lượng của nguồn khí công tác, rồi biến năng lượng đó thành động năng chuyển động (tịnh tiến).
+- Aptomat (MCCB): Để đóng ngắt thường xuyên trong các mạch điện người ta sử dụng các aptomat. Cấu tạo aptomat gồm hệ thống các tiếp điểm có bộ phận dập hồ quang, bộ phận tự động ngắt mạch để bảo vệ quá tải và ngắn mạch. Bộ phận cắt mạch điện bằng tác động điện từ theo dòng cực đại. Khi dòng vượt quá trị số cho phép chúng sẽ ngắt mạch điện để bảo vệ thiết bị.
+Như vậy aptomat được sử dụng để đóng, ngắt các mạch điện và bảo vệ thiết bị trong các trường hợp quá tải, ngắn mạch...
+..............................................
+- Công tắc hành trình : Công tắt hành trình làm chức năng đóng mở mạch điện, và nó được đặt trên đường hoạt động của một cơ cấu nào đó sao cho khi cơ cấu đến 1 vị trí nào đó sẽ tác động lên công tắc. Hành trình có thể là tịnh tiến hoặc quay. Khi công tắc hành trình được tác động thì nó sẽ làm đóng hoặc ngắt một mạch điện do đó có thể ngắt hoặc khởi động cho một thiết bị khác. Người ta có thể dùng công tắc hành trình vào các mục đích như:
++Giới hạn hành trình ( khi cơ cấu đến vị trí giới hạn tác động vào công tắc sẽ làm ngắt nguồn cung cấp cho cơ cấu -> nó không thể vượt qua vị trí giới hạn) + Hành trình tự động: Kết hợp với các role, PLC hay Vi Điều Khiển để khi cơ cấu đến vị trí định trước sẽ tác động cho các cơ cấu khác hoạt động (hoặc chính cơ cấu đó).
+Hình 2.1.8: Công tắc hành trình
+- Rơle thời gian: Rơle thời gian có nhiệm vụ nhận biết thời gian để kết thúc quá trình làm việc của máy mà công nhân đã cài đặt thời gian theo từng loại vật liệu.
+Các thiết bị đường ống và thiết bị hiển thị: Đây là những thiết bị dùng để kết nối các thiết bị khác tạo thành một hệ thống hoàn chỉnh và hoạt động được.
+Các đường ống để dẫn dòng chất khí công tác từ trạm nguồn đến cơ cấu chấp hành và ngược lại, bao gồm các đường ống thép chịu áp (thường là ống thép đúc) và đường ống mềm cao su chịu áp. Thiết bị hiển thị ở đây là đồng hồ đo áp. Thiết bị này có chức năng hiển thị trị số áp suất của dòng chất khí tại những vị trí mà ta cần biết để có thể điều chỉnh kịp thời nếu cần thiết.
+Hình 2.1.9: Rơ le thời gian.
+- Đầu giò nhiệt : Hay còn được gọi với cái tên là: Cảm biến nhiệt độ, cặp nhiệt, nhiệt điện trở với nhiệm vụ đó là cho ra đại lượng điện (điện áp, dòng điện, điện trở...) thay đổi theo sự thay đổi của nhiệt độ theo 1 đặc tuyến của loại cảm biến đó (Nhiệt điện trở biến sự thay đổi của nhiệt độ thành sự thay đổi điện trở, cặp nhiệt ngẫu biến sự thay đổi của nhiệt độ thành sự thay đổi sức điện động).
+Hình 2.1.10: Đầu dò nhiệt.
+- Đồng hồ đo nhiệt: dùng để điều tiết bằng cách ngắt dòng điện nhằm đảm bảo cho thiết bị, dụng cụ điện luôn giữ ở nhiệt độ nào đó mà ta mong muốn. Nó được dùng trong máy sấy tóc, lò sưởi, lò nung, lò nướng, tủ lạnh, bộ điều hoà không khí v.v… Nó là một bộ phận tuy nhỏ nhưng tác dụng thật là to lớn.
+Hình 2.1.11: đồng hồ đo nhệt.
+- Cảm biến tiệm cận: Cảm biến tiệm cận là giải pháp đủ khả năng và chung nhất để phát hiện đối tượng mà không cần chạm vào. Cảm biến tiệm cận được sử dụng phổ biến nhất là loại cảm ứng từ, nó phát ra một trường điện từ để phát hiện đối tượng kim loại đi qua gần bề mặt của nó. Đây là cách thông thường dễ nhất mà kỹ thuật cảm biến áp dụng cho những ứng dụng phát hiện đối tượng kim loại trong phạm vi một hoặc hai inch của bề mặt cảm biến.
+
+Hình 2.1.12: Cảm biến tiệm cận.
+- Van tiết lưu: Van tiết lưu có công dụng điều chỉnh lưu lượng chất lỏng, chất khí trong hệ thủy lực và trong hệ thống khí nén hoặc một bộ phận hệ thủy lực, khí nén. Qua đó điều chỉnh vận tốc cơ cấu chấp hành: động cơ thủy lực, khí nén.
+Hình 2.1.13: Van tiết lưu.
+- Bộ lọc khí: Dùng để làm sạch nguồn khí, trong hệ thống khí nén, các phần tử hạt sẽ ảnh hưởng đến các thiết bị và hệ thống đường ống. Kết quả là sẽ làm phá hủy hệ thống gây ra nhiều các phần tử ô nhiễm hơn. Có thể kể đến các phân tử được tìm thấy trong hệ thống khí nén như ô xít kim loại, chất bẩn. Các phần tử trong 1 hệ thống khí nén có thể.
+- Giảm độ tiếp xúc các khe cắm của các thiết bị nhạy cảm - Bong các dấu vạch - Ăn mòn các thành phần hệ thống - Giảm hiệu suất của các thiết bị khí nén - Hư hại các thành phẩm Hình 2.1.14: Bộ lọc khí. 2.1.1.3. Băng tải: Băng tải là một cơ chế hoặc máy có thể vận chuyển một tải đơn (thùng carton, hộp, túi ,…) hoặc số lượng lớn vật liệu (đất, bột, thực phẩm …) từ một điểm A đến điểm B. Hình 2.1.15: Băng tải cao su ngang.
+2.2.1. Nguyên lý hoạt động của máy.
+Máy ép nhiệt dùng để in ấn các logo, hình ảnh, hoa văn…trên vải, lụa. Trong quá trình hoạt động in dựa vào công dụng của hệ thống khí nén và miếng điện trở với nhiệt độ nhất định. Khi xylanh ép xuống thì với nhiệt độ nhất định của miếng điện trở sẽ làm cho các hình ảnh, hoa văn sẽ được in lên trên vải, lụa…
+2.2.1.1. Mô tả hoạt động của máy.
+– Nguyên tắc hoạt động
+Khi bật nguồn cho hệ thống, xylanh luôn luôn đi lên tới vị trí cao nhất. Đồng thời băng tải chạy đưa sản phẩm tới vị trí chờ 1 nhờ 1 cảm biến điện cảm. Có hai chế độ hoạt động để ép nhiệt sản phẩm.
+Chế độ bằng tay:
+Nhấn nút Star, băng tải chạy tới vị trí ép và dừng lại nhờ cảm biến 2. Xylanh từ từ đi xuống và ép nhiệt sản phảm. Khoảng thời gian ép được định bởi timer1. Sau thời gian định trước, xylanh đi lên đồng thời băng tải đưa sản phẩm ra khỏi vùng ép và dừng lại tại vị trí chờ 1. Sản phẩm được đưa ra, một sản phẩm khác được đưa vào băng tải tại vị trí chờ 1 để cho một chu kỳ ép mới.
+Chế độ tự động:
+Giống như chế độ bằng tay, chỉ khách ở khâu đưa sản phẩm vào vị trí ép, Thay vì nhấn Star, thì sản phẩm sẽ được đưa vào vị trí ép sau khoảng thời gian được đặt ở timer2 tính từ thời điểm băng tải dừng ở vị trí chờ
+Cấp nguồn cho hệ thống .
+1 - Bật công tắc để cấp nguồn cho bộ điều khiển nhiệt, gia nhiệt cho bàn nhiệt. Đặt nhiệt độ cần thiết trên bộ điều khiển nhiệt độ
+2- Bật công tắc nguồn để cấp nguồn cho nhóm điều khiển
+Chọn chế độ tay:
+Bật công tắc về chế độ tay. Nhấn Star để bắt đầu ép. Lấy sản phẩm và tiếp tục chu trình mới
+Chế độ tự động:
+Chuyển công tắc về chế độ tự động
+Cài đặt thời gian tại timer 2
+Nhấn Star để chạy chu trình đầu tiên
+
+2.2.1.2. Ưu điểm, nhược điểm.
+- Ưu điểm
+- Năng suất cao
+- Không ô nhiễm môi trường
+- Có thể in trên nhiều loại chất liệu khác nhau, chủ động về màu sắc.
+- An toàn, dễ sử dụng và bảo quản.
+- Nhược điểm
+- Dòng khí xả gây ra tiếng ồn
+- Khi in thì tùy theo từng loại vải mà phải điều chỉnh thời gian, nhiệt độ và tính năng làm việc.
+2.2. TÍNH TOÁN ĐỘNG HỌC MÁY.
+2.2.1. Cơ sở tính toán khí nén.
+2.2.1.1. Thành phần hóa học của khí nén
+Nguyên tắc hoạt động của các thiết bị khí nén là không khí trong khí quyển được hút vào và nén trong máy nén khí. Sau đó khí nnens từ máy nén khí được đua vào hệ thống khí nén.không khí là loại hỗn hợp bao gồm những thành phần chính sau:
+
+Bảng 2.1. thành phần hóa học của khí nén.
+khí N2 O2 Ar CO2 H2 Thể tích % 78.08 20.95 0.93 0.03 0.01 Khối lượng% 75.51 23.01 1.286 0.04 0.001
+
+Ngoài những thành phần trên, trong không khí còn có hơi nước, bụi… chính những thành phần đó gây ra cho các thiết bị khí nén sự ăn mòn, sự rò rỉ, phải cần có biện pháp hay thiết bị để loại trừ hoặc giới hạn mức thấp nhất những thành phần đó trong hệ thống:
+2.2.1.2 Đơn vị đo trong hệ thống điều khiển
+- áp suất
+Đơn vị đo cơ bản là pascal (pa) : 1pa = 1
+Ngoài ra người ta còn dùng : Mpa, bar
+1Mpa =
+- lực : đon vị của lực là Newton (N) :
+Ngoài ra còn dùng : dyn, kp, Mp, p
+- Công : đôn vị của công là Joule (J) :1J = 1N.m
+Ngoài ra còn dùg : Kwh, Kcal
+- Công suất: đôn vị của công suất là (W) 1W = 1N.m/s
+Ngoài ra còn dùng : Kw, Kcal/h, Kcal/s
+-Độ nhớt động: Độ nhớt của một chất lưu là thông số đại diện cho ma sát trong của dòng chảy. Khi các dòng chất lưu sát kề có tốc độ chuyển động khác nhau, ngoài sự va đập giữa các phần tử vật chất còn có sự trao đổi xung lượng giữa chúng. Những phần tử trong dòng chảy có tốc độ cao sẽ làm tăng động năng của dòng có tốc độ chậm và ngược lại phần tử vật chất từ các dòng chảy chậm sẽ làm kìm hãm chuyển động của dòng chảy nhanh.
+Trong khí nén độ nhớt động không có vai trò quan trọng
+.........................................................
+Nhận xét đánh giá máy.
+- Máy đạt theo yêu cầu kỹ thuật
+- Tốc độ in nhanh.
+- Tính năng in, copy tự động của máy in này giúp tiết kiệm thời gian và công sức.
+- Chất lượng bản in rõ đẹp, màu sắc đẹp.
+- In được nhiều loại loại vải khác nhau.
+- Máy ổn định, không bị lỗi.
+- Dễ sử dụng.
+3.2. Bảo quản máy.
+Việc sử dụng cũng giống như bao loại máy công nghiệp khác, cần tuân thủ các quy trình lắp đặt , vận hành, sửa chữa và bảo dưỡng.
+Máy phải được bảo dưỡng theo định kỳ hai tháng hoặc ba tháng một lần, mỗi lần sử dụng xong thì cần phải dọn dẹp, vệ sinh máy. Trước khi vệ sinh máy nên nhớ là phải ngắt nguồn điện.
+3.3. Kết luận
+Trong quá trình nghiên cứu và thiết kế máy máy ép nhiệt nhóm em đã học hỏi và vận dụng rất nhiều kiến thức về nghành Cơ khí . Điều đó đã giúp chúng em bổ sung và nâng cao thêm vốn kiến thức mà mình đã học trong các năm qua tại trường Cao Đẳng kỹ thuật Cao Thắng. Nhưng tất nhiên, vì đây là lần đầu nhóm em làm quen với việc áp dụng nhiều kiến thức để thiết kế một sản phẩm đưa ra thực tế ,nó sẽ không thể tránh khỏi nhiều sai sót, mong thầy cô và hội đồng nhà trường giúp đỡ, và thông cảm.
+
+*TÀI LIỆU THAM KHẢO
+1. Nguyễn Hữu Lộc, Cơ sở thiết kế máy, NXB ĐHQGTP Hồ Chí Minh, 2004.
+2. Nguyễn Trọng Hiệp, Chi tiết máy tập 1, 2 NXB Giáo dục, 1998.
+3. Nguyễn Hữu Lộc, Bài tập chi tiết máy, NXB ĐHQGTP Hồ Chí Minh, 2003.
+4. Nguyễn Hữu Lộc, Độ tin cậy trong thiết kế kỹ thuật , NXB ĐHQGTP Hồ Chí Minh, 2002.
+

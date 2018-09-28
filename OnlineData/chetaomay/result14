@@ -1,0 +1,216 @@
+MỤC LỤC THIẾT KẾ VÀ CHẾ TẠO MÁY LỘT VỎ HẠT SEN
+Mục lục
+Chương 1. DẪN NHẬP
+1.1 Lời nói đầu................................................................................... 2
+1.2 Mục tiêu và nội dung chính.......................................................... 4
+1.3Ý nghĩa khoa học và thực tiễn....................................................... 4
+Chương 2. TỔNG QUAN TÀI LIỆU
+2.1 Đại cương hạt sen......................................................................... 5
+2.2 Tình hình sản xuất và tiêu thụ sản phẩm hạt sen trên thế giới... 10
+2.3 Tình hình sản xuất và tiêu thụ sản phẩm hạt sen ở Việt Nam.... 11
+Chương 3. MÁY LỘT VỎ HẠT SEN
+3.1 Tổng quan thị trường máy lột vỏ hạt sen………………………....16
+3.2 Nguyên lý lột vỏ hạt sen…………………………………………..16
+3.3 Tính toán thiết kế bộ truyền của máy…………………………....17
+3.4 Thiết kế bộ phận chặn hạt sen ……………………………………21
+3.5 Tính toán sản lượng hạt sen trong 1 giờ máy làm việc…………..21
+3.6 Một số hư hỏng của máy và cách khắc phục……………………..21
+Chương 4. KẾT LUẬN – ĐỀ NGHỊ
+TÀI LIỆU THAM KHẢO………………………………………………..22
+
+Chương 1. DẪN NHẬP
+
+1.1 Lời nói đầu
+
+Hiện nay, cùng với sự phát triển của đất nước thì ngành cơ khí cũng phát triển mạnh mẽ và các sản phẩm của nó được sử dụng rộng rãi trong đời sống của con người.
+Đồ án tốt nghiệp chính là hành trang để một công nhân cơ khí, một công nhân dựa vào làm cơ sở thiết kế. Đồ án tốt nghiệp được đem vào giảng dạy ở hầu hết các trường kỹ thuật. Đối với mỗi học sinh, sinh viên cơ khí thì đồ án tốt nghiệp là đề tài giúp cho em tốt nghiệp ra trường và đồng thời em đem kiến thức học để trình bày các vấn đề tổng hợp của công nghệ chế tạo máy đã được học ở trường qua các giáo trình cơ bản về công nghệ chế tạo máy. Khi làm đồ án tốt nghiệp này phải làm quen với cách sử dụng tài liệu, cách tra sổ tay cũng như so sánh lý thuyết đã học với thực tiễn sản xuất cụ thể.
+Để hoàn thành được đồ án tốt nghiệp này, em xin chân thành cảm ơn sự hướng dẫn của thầy Nguyễn Long Phụng khoa cơ khí của trường Cao Đẳng Kỹ Thuật Cao Thắng.
+Trong quá trình làm đồ án thì em sẽ không tránh khỏi thiếu sót và sai sót trong đồ án mong quý thầy (cô) bỏ qua những sai sót và thiếu sót trong đồ án tốt nghiệp, em rất mong nhận được sự chỉ bảo thêm của thầy (cô).
+
+1.1 Đặt vấn đề
+Sen có nguồn gốc ở Châu Á, xuất phát từ Ấn Độ (Makino, 1979), sau đó lan qua Trung Quốc,Việt Nam và vùng Đông Bắc Úc Châu. Sen là loại thuỷ sinh được tiêu thụ mạnh khắp Châu Á. Lá, bông, hạt, củ đều là những bộ phận có thể ăn được. Riêng bông sen được sử dụng trong nhiều lễ hội ở các nước Châu Á. Tuy nhiên, củ và hạt sen lại có thị trường lớn nhất so với bộ phận khác của cây sen.
+
+Sen là biểu tượng của sự thịnh vượng, thiêng liêng và bất tử của nhiều nền văn hoá ở các nước Châu Á. Hàng ngàn năm trước, bông sen là biểu tượng chính của nhiều tôn giáo ở Châu Á. Đạo phật xem bông sen là biểu tượng cao nhất của sự tinh khiết, hoà bình, từ bi và vĩnh hằng (William, 1998 ).
+Sen là một trong những cây trồng giữ vai trò hết sức quan trọng ở một số tỉnh ở Việt Nam.Sen dược trồng nhiều nhất ở Đồng Tháp Mười. So sánh hiệu quả kinh tế giữa cây sen với các cây trồng khác như lúa, bắp, đậu nành, 1 ha sen tăng khoảng 2 lần so với 1 ha lúa.
+Thời gian sinh trưởng và phát triển của cây sen dao động từ 4-5 tháng tuỳ thụôc vào việc sử dụng giống và thời gian lưu gốc:
+Nếu sử dụng giống bằng cây con gieo từ hạt thì thời gian từ nảy mầm đến khi thu hoạch là 5 tháng.
+Nếu sử dụng giống bằng ngó sen con thì thời gian từ khi trồng đến khi thu hoạch là 4 tháng
+Tuỳ thuộc vào thời tiết, trạng thái hạt sen non hay già mà có thời gian 1 lần thu hái dao động trong khoảng từ 3-5 ngày, khoảng cách giữa các lần thu hái là 1 ngày. Thời gian thu hoạch kéo dài từ 40-50 ngày, sau đó cây sen tàn dần.
+Hiện nay các sản phẩm của sen như: hạt sen bóc vỏ lụa, loại bỏ tim sen đông lạnh xuất khẩu sang Đài Loan đây là chủ lực trong chế biến sản phẩm sen; chế biến hước hạt sen đóng chai; chế biến hạt sen đóng hộp; chế biến sản phẩm ăn liền từ hạt sen như sen luột, sấy…
+1.2 Mục tiêu và nội dung chính
+Thiết kế và vận hành máy đạt hiệu quả và an toàn
+1.4 Ý nghĩa khoa học và thực tiễn
+Về mặt khoa học Thiết kế máy thành công sẽ giảm áp lực cho nguồn lao động hiện nay. Về mặt thực tiễn Nâng cao năng suất cho các cơ sở sản xuất hạt sen từ việc giảm đi công đoạn lột vỏ hạt sen
+Chương 2. TỔNG QUAN TÀI LIỆU
+2.1. Đại cương hạt sen
+Bông sen không hề xa lạ gì với người dân nước ta, từ xưa đến nay loại hoa thanh cao “gần bùn mà chẳng hôi tanh mùi bùn” ấy đã gắn liền với người dân. Hiếm có loại hoa nào mà từ gốc đến rễ, thân, lá, hoa…. đều có thể sử dụng được như sen. Hoa sen thì dâng Phật; lá sen thì làm cơm hấp hay rửa sạch, thái vụn, sắc kỹ lấy cốt nấu cháo với gạo và đậu xanh; ngó sen ăn uống, hầm gà, làm nộm; hương sen ướp chè… Nhưng có lẽ quý nhất vẫn là hạt sen.
+Theo các tài liệu y học từ xa xưa thì hạt sen (liên nhục) có vị ngọt tính bình, bổ dưỡng an thần; tim sen vị đắng tính hàn, trị sốt cao mê sảng, huyết áp cao; gương sen vị đắng sáp, tính ôn, dùng trị các chứng băng lậu ra máu... Hạt sen là vị thuốc quí, có tác dụng bổ dưỡng lại an thần, đặc biệt dùng để trị các chứng tiêu chảy kéo dài, suy dinh dưỡng. Hạt sen còn có tác dụng tăng cường tì vị, bảo đảm dinh dưỡng cho toàn thân, điều hòa sự thu nạp thức ăn, tiểu đục và một số bệnh phụ nữ.
+Theo số liệu công bố trên tạp chí Dinh dưỡng của Mỹ thì hạt sen rất giàu hàm lượng protein, magie, kali và phốt pho, trong khi đó hàm lượng mỡ bão hòa, natri và cholesterol lại rất thấp. Cụ thể, 100gr hạt sen có chứa 350 calo, 63-68 gr carbohydrate, 17-18gr protein, nhưng chỉ có 1,9-2,5gr mỡ, còn lại là các thành phần khác như: nước (13%), khoáng chất (chủ yếu là natri, kali, canxi, phốt pho). Trung bình, cứ một ao-xơ hạt sen khô (28 gr) cung cấp khoảng 5gr protein chất lượng cao, ngoài ra còn giàu chất xơ lại không chứa đường, hương vị thơm ngon hợp với sở thích của nhiều người.
+vMột số công dụng của hạt sen
+Sau thời gian dài nghiên cứu, các chuyên gia Viện Y học cổ truyền (ITM) ở Portland, Oregon - Mỹ đã phát hiện thấy nhiều tác dụng kỳ lạ của liệu pháp chữa bệnh bằng hạt sen trong y học cổ truyền của người Trung Quốc và liệu pháp chữa bệnh Ayureda của người Ấn Độ cũng như của các dân tốc trên thế giới.
+- Công dụng chống lão hóa: Tiến sĩ Dake Tian ở Viện Kushi Institute (KI) Mỹ cho biết, hạt sen và củ hạt sen có chứa một loại enzyme đặc biệt có tên L- isoaspartyl methyltran sfercese có tác dụng "hàn gắn, phục hồi" protein trong cơ thể con người bị tổn thương và cuối cùng làm cho làn da luôn trẻ trung. Chính vì lợi thế này các hãng bào chế dược phẩm, mỹ phẩm hiện nay đang tìm kiếm, triết xuất enzyme nói trên để đưa vào các sản phẩm chống lão hóa của họ. Nghiên cứu trên của KI đã được công bố trên trang y học trực tuyến Water Gardeners International. Bên cạnh đó, hạt sen còn có tác dụng ngăn ngừa viêm nhiễm, đặc biệt là tác dụng chống viêm các mô lợi, nhất là ở nhóm người cao niên.
+- Công dụng làm trẻ da mặt: Trong y học cổ truyền của người Ấn Độ (Ayurvedic Medicine) hoa sen, hạt sen, lá sen được tận dụng tối đa để làm tăng sắc đẹp cho phụ nữ. Đặc biệt, hoa sen rất giàu axít linoclic protein, phốt pho, sắt, vitamin A và C, được dùng trong spa thư dãn, hoặc tinh dầu sen được pha vào bồn nước tắm, giúp khử tế bào da già cỗi và lưu thông khí huyết. Nước ép từ ngó sen được xem là sản phẩm "đánh tan" các vết nám, tàn nhang, mụn nhọt, làm cho da trở nên sáng láng. Với lợi ích như trên, tại các spa ở châu Á đâu đâu người ta cũng sử dụng liệu pháp này để chữa bệnh.
+vMột số bài thuốc từ hạt sen
+1. Chữa mất ngủ Hằng ngày nấu chè hạt sen ăn vào buổi chiều hoặc tối, có hạt sen tươi càng tốt. 2. Trẻ em tiêu chảy kéo dài, gầy yếu kém ăn Hạt sen sấy khô, gạo tẻ rang vàng, hai thứ liều lượng bằng nhau (khoảng 150-200g) tán bột, mỗi ngày cho ăn 6-8g vào lúc đói. 3. Phụ nữ hay bị sẩy thai Hạt sen 1kg bỏ vỏ ngoài và tim, củ mài (tươi thì 5kg, khô thì 2kg) hai thứ cùng sao vàng, tán mịn, viên với hồ nếp bằng hạt nhãn, mỗi ngày ăn hai lần, mỗi lần 10 viên vào lúc đói. 4. Trẻ con nóng khát Hạt sen 20g, bèo cái 2 cây, gừng tươi 2 lát, đổ một tô nước đun kỹ, cho uống thay nước chè. 5. Chữa di tinh, đái đục Hạt sen 100g (bỏ vỏ, bỏ tim) sao vàng, bạch linh 20g (mua ở hiệu thuốc đông y) hai thứ cùng tán bột, uống với nước lọc vào lúc gần đi ngủ, mỗi lần 1 thìa cà-phê.
+
+6. Chữa lòi dom Hạt sen 50g tẩm rượu để khô, sao vàng, nấu chung với núm đuôi lợn (đoạn ruột sát đuôi, lấy 15- 20cm) thật kỹ, thêm tý muối, ăn vào buổi sáng, cứ vài ba ngày ăn 1 lần, sau 5 lần sẽ kiến hiệu. 7. Chữa thiếu máu, ít ngủ, kém ăn Hạt sen hầm với thịt ba chỉ, ăn hằng tuần liền. 8. Bồi dưỡng cho phụ nữ mới sinh hoặc mới điều hòa kinh nguyệt Chọn gà nhỏ, cỡ 400-500g/con, mổ bỏ ruột, cho hạt sen và ý dĩ (bo bo), gạo nếp, mỗi thứ một nhúm (vo sạch) vào bụng gà, khâu lại, nấu thật nhừ cho ăn. Cứ 2-3 ngày lại ăn một bữa như thế. 9. Chống lão hóa Hạt sen và củ hạt sen có chứa một loại enzyme đặc biệt có tác dụng "hàn gắn, phục hồi" protein trong cơ thể con người bị tổn thương và cuối cùng làm cho làn da luôn trẻ trung. Chính vì lợi thế này các hãng bào chế dược phẩm, mỹ phẩm hiện nay đang tìm kiếm, chiết xuất enzyme để đưa vào các sản phẩm chống lão hóa của họ. Bên cạnh đó, hạt sen còn giàu hàm lượng kaempferol, một chất flavonoid tự nhiên rất hữu ích, có tác dụng ngăn ngừa viêm nhiễm, đặc biệt là tác dụng chống viêm các mô lợi, nhất là ở nhóm người cao niên.
+Trong dân gian người ta đã chế biến hạt sen thành nhiều món ăn có giá trị bổ dưỡng cao như chè sen, mứt sen, chè hạt sen long nhãn,...
+10.Tăng cường cơ chế bài tiết melamin Theo nghiên cứu công bố đầu tháng 6 vừa qua trên tạp chí Y học thử nghiệm phân tử của Mỹ thì tinh dầu chiết từ cánh, nhị và ngó sen có tác dụng tốt trong việc bài tiết melamin, đặc biệt là hợp chất có tên plamitic acid methyl ester, thông qua cơ chế có tên là melanogenesis, đây chính là hợp chất giúp cho tóc của con người không bị bạc, gẫy hoặc bị lão hóa sớm do thiếu melamin. 12.Dùng làm các món ăn thông dụng Với lợi thế về mùi vị, màu sắc và dưỡng chất nên hạt sen được con người sử dụng khá phổ biến để làm thực phẩm và thuốc chữa bệnh. Hạt sen có tác dụng bổ dưỡng an thần, đặc biệt là dùng để chữa tiêu chảy kéo dài và bệnh suy dinh dưỡng, chữa chứng mất ngủ, giảm khát mùa hè, chữa thiếu máu, kém ăn bồi dưỡng cho phụ nữ sau khi sinh... Từ lâu trong dân gian người ta đã chế biến hạt sen thành nhiều món ăn có giá trị bổ dưỡng cao như chè sen, mứt sen, chè hạt sen long nhãn, chè hạt sen đậu xanh, thịt gà hầm hạt sen, móng giò hầm hạt sen... vừa ngon miệng, hấp dẫn lại có giá trị dinh dưỡng cao mà không gây hại cho cơ thể.
+vHàm lượng dưỡng chất của sen
+Trung bình, cứ một ao-xơ hạt sen khô (28 gam) cung cấp khoảng 5 gam protein chất lượng cao.
+Thông thường sen phát triển đủ tuổi cao tới 1,5 m và có thể phát triển các thân rễ bò theo chiều ngang tới 3m. Lá to với đường kính tới 60 cm, hoa có đường kính tới 20 cm. Theo số liệu công bố trên tạp chí Dinh dưỡng của Mỹ thì hạt sen rất giàu hàm lượng protein, ma-nhê, kali và phốt pho, trong khi đó hàm lượng mỡ bão hòa, natri và cholesterol lại rất thấp. Cụ thể, 100g hạt sen có chứa 350 calo, 63-68 gam carbohydrate, 17-18gam protein, nhưng chỉ có 1,9-2,5 gam mỡ, còn lại là các thành phần khác như: nước (13%), khoáng chất (chủ yếu là natri, kali, canxi, phốt pho). Trung bình, cứ một ao-xơ hạt sen khô (28 gam) cung cấp khoảng 5 gam protein chất lượng cao, ngoài ra còn giàu chất xơ lại không chứa đường, hương vị thơm ngon hợp với sở thích của nhiều người.
+vMột số bệnh thường gặp ở sen:
+vSâu hại sen: Theo kết quả điều tra của trường đại học Cần Thơ có 13 loài sâu hại trên cây sen chủ yếu trên giống sen lấy hạt của Đài Loan, Trong đó hai loài sâu hại quan trọng là Sâu ăn tạp Spodoptera litura (Noctuidae,Lepidoptera) và bù lạchScirtothrips dorsalis (thripidae, Thysannoptera).
+Sâu ăn tạp Spodoptera litura thường xuất hiện và gây hại trong mùa nắng, chủ yếu ăn lá non đến trưởng thành. Sâu lớn nên dể thấy, ăn nhiều làm rách lá nên nông dân rất sợ và phun nhiều loại thuốc có độc tính cao để trị như: Lanate, Confidor. Tuy nhiên sâu có một số nhược điểm sau: sâu chỉ ăn rãi rác từng lá, phải vào bờ hóa nhộng, sâu sống tập trung nên dể trị bằng thuốc theo 4 đúng. Một số nông dân có kinh nghiệm trong lúc thu hái hoặc đi chăm sóc nếu phát hiện thì hái lá sen gói lại vùi xuống đất để giết sâu biện pháp này không tốn tiền hiệu quả rất cao. Bù lạch Scirtothrips dorsalis: xuất hiện suốt vụ thường có mật số rất cao trong mùa nắng, tấn công hầu hết trên các bộ phận còn non của cây nên gây hại nhiều đến năng suất. Triệu chứng dể thấy trên lá bị co rúm, làm giảm quang hợp, cuống bị chai sần và quăn queo, gương nhỏ và méo mó, hạt không chắc hoặc bị thoái hóa. Bù lạch có kích thước rất nhỏ có mật số rất cao nhiều khi lên đến 1000 con/lá và vòng đời ngắn khoảng 2 tuần lễ, nên rất khó cho nông dân phát hiện và trị dứt điểm. Do đó nhiều nông dân thâm canh đã phun thuốc liên tục trong suốt vụ. Ngoài ra một số đối tượng khác xuất hiện và gây hại trên cây sen như: dòi đục lá chỉ gây hại trên lá trải; Cào cào gây hại trên lá bông, gương; Rầy mềm gây hại trên lá, bông non; Ốc bươu vàng gây hại trên Ngó, lá mát; Chuột gây hại trên gương… Bệnh hại: Chủ yếu bệnh thán thư Colletotrichum sp. gây hại nặng nhất trên cây sen tấn công trên hầu hết các bộ phận của cây sen như: Lá, bông, hạt, gương; các bệnh khác xuất hiện lẻ tẻ không quan trọng. Bệmh gây hại quan trọng nhất là lá và bông khi còn dưới mặt nước nấm bệnh đã tấn công khi lú khỏi mặt nước bệnh đã làm thối lá hoặc bông vì vậy việc phun thuốc hiệu quả rất thấp. Bệnh gây hại rất nặng có những lúc bệnh xuất hiện gây hại với tỷ lệ 40-50%, tuy nhiên cây sen có khả năng đền bù rất lớn nên ít ảnh hưởng năng suất mà chỉ chậm thời gian thu hoạch của đợt đó. Theo kinh nghiệm để phòng trừ đạt hiệu quả lúc sen ra đọt non, bông rộ rút nước cạn phun thuốc ngừa bằng những loại thuốc đặc trị sau 3 ngày cho nước vào ruộng trở lại hiệu quả khá cao
+2.2 Tình hình sản xuất và tiêu thụ sản phẩm hạt sen trên thế giới
+vDiện tích và thị trường sen trên thế giới:
+Sen được trồng nhiều nơi trên thế giới, đặc biệt là Ấn Độ, Trung Quốc, Nhật Bản, Hàn Quốc, các nước Đông Nam Á, Nga và một số nước Châu Phi. Sen cũng được trồng ở Châu Âu và Châu Mỹ nhưng với mục đích trang trí hơn là thực phẩm.
+v Trung Quốc:
+- Sen được trồng ở Trung Quốc ít nhất từ thế kỷ XII, trước Công Nguyên (Herklot, 1972). Sen và củ được dùng làm thực phẩm hơn 3.000 năm (Liu, 1994; Herklot, 1972).
+- Sen được trồng khắp Trung Quốc, đặc biệt ở những tỉnh có nhiều ao hồ kênh rạch. Diện tích trồng sen của Trung Quốc trên 140.000 ha (Liu, 1994), năng suất sen bình quân 22,5 tấn củ/năm. Sản lượng trên 3 triệu tấn củ/năm. Thời vụ thu hoạch củ sen của Trung Quốc kéo dài từ tháng 8 đến tháng 3 năm sau.
+- Có 3 loại sen được trồng ở Trung Quốc tuỳ thuộc vào mục đích sử dụng. Có những giống chuyên cho gương hay hạt sen (Lian-zi, Lian-mi)có những giống cho bông (Lian-hua, Her-ha) và có những giống cho củ sen (Lian-ngau, Ou-han). Trong những giống cho củ có màu sắc, hàm lượng tinh bột trong hạt sen và chịu được các mực nước khác nhau. Ở viện nghiên cứu thực vật Wuban, Trung Quốc có 125 giống sen trồng được sử dụng để nghiên cứu.
+v Đài Loan:
+- Thị trường bán sỉ hạt sen của Đài loan rất mạnh, giá hạt sen cao gấp đôi so với giá củ sen, trong khi sản lượng hạt của Đài Loan chỉ bằng 5% sản lượng củ sen. Thời vụ thu hoạch củ sen của Đài Loan kéo dài từ tháng 6 đến tháng 11, tập trung vào tháng 8.
+- Sản lượng củ sen tiêu thụ ở Đài Loan giảm từ 750 tấn năm 1987 xuống còn 600 tấn năm 1993 nhưng giá củ sen tăng từ 25 – 30 Đài Tệ/kg (0,9-1,1 USD/kg) lên 55 đài tệ/kg (2 USD/kg) trong cùng thời gian trên (27,5 đài tệ tương đương 1 USD năm 1997).
+2.3 Tinh hinh sản xuất và tiêu thụ hạt sen ở Việt Nam
+Thời điểm này các cơ sở chế biến hạt sen ở thành phố Hưng Yên đang hoạt động nhộn nhịp. Từ nhiều năm nay ở đây có khoảng hơn 100 cơ sở chế biến, tạo việc làm cho cho khoảng 3.000 lao động địa phương có thu nhập ổn định.
+Bình quân mỗi cơ sở chế biến từ 10 đến 20 tấn hạt sen/tháng, thu hút khoảng 30 đến 50 lao động. Nguyên liệu chính là hạt sen thô được lấy từ các tỉnh phía Nam về chế biến qua các khâu chà, bóc vỏ, thông tâm, làm trắng hạt, phân loại và xuất bán đi khắp các tỉnh trong nước.
+Gần đây một số cơ sở còn xuất khẩu sang cả thị trường khu vực Đông Nam Á như: Thái Lan, Malaixia, Singapo và Trung Quốc mang lại thu nhập cao và tạo việc làm cho nhiều lao động địa phương. Điển hình như cơ sở chế biến của anh Trịnh Văn Kiểm ở xã Hồng Nam. Bình quân mỗi năm cơ sở này xuất bán được từ 150 đến 200 tấn, cho doanh thu hàng chục tỷ đồng và tạo việc làm cho trên 200 lao động nông nhàn tại địa phương
+
+Một số sản phẩm từ hạt và củ sen
+
+vXuất khẩu sen làm cảnh
+Sen là biểu tượng của sự thịnh vượng, thiêng liêng và bất tử của nhiều nền văn hoá ở các nước Châu Á. Hàng ngàn năm trước, bông sen là biểu tượng chính của nhiều tôn giáo ở Châu Á. Đạo phật xem bông sen là biểu tượng cao nhất của sự tinh khiết, hoà bình, từ bi và vĩnh hằng (William, 1998).
+
+
+ThS.BS Hoàng Khánh Toàn, Chủ nhiệm Khoa Y học Cổ truyền, Bệnh viện T.Ư Quân đội 108: rượu hạt sen là một trong những loại rượu "dưỡng sinh mùa thu" của y học cổ truyền nhằm bổ sung đầy đủ các chất dịch cho cơ thể khi tiết thu khô hanh gây hao tổn chất dịch trong nhân thể.
+Cách chế: Hạt sen 50g, rượu trắng 500ml. Hạt sen bỏ vỏ và tâm, đập vụn rồi đem ngâm với rượu trong bình kín, sau nửa tháng thì dùng được. Uống mỗi ngày 2 lần, mỗi lần từ 10 - 20ml.
+Công dụng: Dưỡng tâm an thần, kiện tỳ chỉ tả, ích thận chỉ di. Dùng thích hợp cho những người bị mất ngủ, hay hồi hộp đánh trống ngực, di tinh, đái dầm, xuất tinh sớm, phụ nữ bị khí hư, đi lỏng do tỳ vị hư yếu. Với trường hợp đại tiện táo kết không nên dùng.
+
+
+Rượu làm từ hạt sen
+
+vMột số sản phẩm làm từ sen
+Củ sen dung để chế biến các món ăn
+
+Một số mặt hàng xuất khẩu chủ yếu của sen
+
+
+
+vDu lịch
+Nhờ những cánh đồng sen bao la bát ngát mà hằng năm thu hút một lượng lớn khách du lịch đến với tỉnh Đồng Tháp
+
+
+Cánh đồng sen thu hút các nhà nhiếp ảnh
+Chương 3. Máy lột vỏ hạt sen
+3.1 Tổng quan thị trường máy lột vỏ hạt sen
+Hiện tại ở Việt Nam chua có doanh nghiệp nào áp dụng máy lột hạt sen vào sản xuất vì chưa có công ty nào sản xuất máy lột vỏ hạt sen. Nhận thấy nhu cầu này nên chúng em đưa ra ý tưởng thiết kế máy lột hạt sen để giảm bớt công đoạn sản xuất hạt sen để doanh nghiệp có thể tăng sản lượng sản xuất và nâng cao lợi nhuận thu về góp phần cho nhà nước phát triển qua việc nộp thuế.
+Máy lột hạt sen được thiết kế khá đơn giản nhưng lại đem lại hiệu quả cao về năng xuất sản phẩm vì vậy các doanh nghiệp muốn sở hữu máy để áp dụng vào sản xuất.
+3.2 Nguyên lý tách cỏ hạt sen
+
+vHiện tại các cơ sở sản xuất hạt sen ở nước ta chủ yếu tách vỏ bằng thủ công. Công nhân sử dụng 1 lưỡi dao cắt 1 đường xung quanh hạt sen sau đó chuyển qua công đoạn khác để tiếp tục tách vỏ bằng cách dung tay chà hạt sen đã cắt xuống bàn gỗ để hai bên hạt sen rơi ra khỏi hạt sen.
+vTheo như cách sản xuất truyền thống thì một người trong 1 giờ sẽ được 2kg hạt sen đã tách vỏ.
+vViệc tách vỏ hạt sen bằng thủ công gây mất thời gian nhiều,không đạt hiệu quả kinh tế,khó tìm kiếm người lao động,trả lương cho công nhân cao(120-150 ngàn\ngày).
+ðYêu cầu cấp thiết trước mắt phải tạo ra được máy tách vỏ hạt sen để đáp ứng nhu cầu sản xuất của các cơ sở sản xuất hạt sen.
+
+vQuá trình tách vỏ hạt sen
+Hạt sen được tách từ búp sen sau đó loại bỏ những hạt không đủ tiêu chuẩn ( hạt lép,hạt quá nhỏ so với những hạt còn lai,hạt bị sâu…). Sau khi có được hạt sen nguyên liệu ta sẽ khởi động máy và cho hạt sen vào thùng chứa ( do phục vụ cho ĐATN nên kích thước thùng chứa nhỏ khoảng 2kg hạt sen). Sau khi cho hạt sen vào thùng chứa thì hạt sen sẽ rơi xuống máng dẫn hạt sen tới thanh chặn hạt sen,thanh chặn hạt sen có nhiệm vụ chỉ cho mỗi lần rơi xuống băng tải từ 1 đến 2 hạt sen để không xảy ra hiện tượng hạt sen xuống băng tải liên tục gây cản trở cho việc tách vỏ hạt sen. Sau khi hạt sen rớt xuống băng tải thì nó sẽ lăn theo hướng băng tải di chuyển (hạt sen khi lăn sẽ bị lực ép của băng tải và thanh đỡ trên nên không xảy ra hiện tượng hạt sen lúc di chuyển bị rớt ra hai bên). Ở thanh đỡ trên có gắn lưỡi dao,lưỡi dao lồi ra chỉ vừa cắt đứt hết phần vỏ mà không cắt đến phần thịt sen. Sau khi qua lưỡi dao thi hạt sen tiếp tục di chuyển và bị ép ở phần cuối của băng tải và vỏ hạt sen rớt ra hai bên đã được lắp hai thùng để chứa vỏ hạt sen. Sau khi vỏ đã đươc tách ra thì hạt sen thu dược sẽ rớt xuống thùng chứa ở cuối băng tải để kết thúc quá trình tách vỏ của một hạt sen.
+
+3.3 Tính toán thiết kế bộ truyền của máy
+Chọn bộ truyền đai hình thang .
+vBộ truyền 1
+Chọn loại đai:
+Giả sử vận tốc của đai V > 5 m/s, có thể dùng đai loại A
+Tiết diện đai : A
+Kích thước tiết diện đai: a x h (mm) (bảng 5-11, [3]) 13 x 8
+Diện tích tiết diện đai F (mm2) 84
+Định đường kính bánh nhỏ:
+Theo bảng (5-14, [3]): Lấy D1 (mm) 60mm
+Kiểm nghiệm vận tốc đai:
+V = = 0,075 11,25
+Þ V ≤ Vmax = 30 ¸ 35 m/s.
+Tính đường kính đai D2 của bánh lớn:
+D2 = . D1 . (1 - e)
+Với e = 0,02 : hệ số trượt đai thang.
+Þ D2 = = 2.18.D1 300mm
+
+Số vòng quay thực n’2 của trục bị dẫn:
+n’2 = (1 - e).nđc. = 1401,4. 298
+Tỉ số truyền = = 5
+Chọn khoảng cách trục A:
+Theo bảng (5-16,[3]):
+A ≈ 0,9D2 (mm)
+Chiều dài đai L theo khoảng cách trục A:
+Sơ bộ chọn theo công thức: (5-1, [3])
+(mm)
+Lấy theo tiêu chuẩn (tra bảng 5-12, [3]) 2000 Kiểm nghiệm số vòng chạy u trong 1 giây:
+(vòng/phút)
+u < umax = 10
+
+Xác định chính xác khoảng cách trục A theo chiều dài đai đã lấy theo tiêu chuẩn:
+670 Khoảng cách A thỏa mãn các điều kiện [5-19] :
+0,55(D1 + D2) + h ≤ A ≤ 2(D1 + D2)
+Khoảng cách nhỏ nhất cần thiết để mắc đai :
+Amin = A – 0,015 L (mm) 624
+Khoảng cách lớn nhất cần thiết để tạo lực căng
+Amax = A + 0,03 L (mm) 700
+Góc ôm :
+1320
+Góc ôm thỏa mãn điều kiện α ≥1200
+v Bộ truyền 2
+
+Chọn loại đai:
+Giả sử vận tốc của đai V > 5 m/s, có thể dùng đai loại A
+Tiết diện đai : A
+Kích thước tiết diện đai: a x h (mm) (bảng 5-11, [3]) 13 x 8
+Diện tích tiết diện đai F (mm2) 84
+Định đường kính bánh nhỏ:
+Theo bảng (5-14, [3]): Lấy D1 (mm) 80mm
+Kiểm nghiệm vận tốc đai:
+V = = 0,075 11,25
+Þ V ≤ Vmax = 30 ¸ 35 m/s.
+Tính đường kính đai D2 của bánh lớn:
+D2 = . D1 . (1 - e)
+Với e = 0,02 : hệ số trượt đai thang.
+Þ D2 = = 2.18.D1 180mm
+
+Số vòng quay thực n’2 của trục bị dẫn:
+n’2 = (1 - e).nđc. = 1401,4. 108
+Tỉ số truyền = = 2.25
+Chọn khoảng cách trục A:
+Theo bảng (5-16,[3]):
+A ≈ 0,9D2 (mm)
+Chiều dài đai L theo khoảng cách trục A:
+Sơ bộ chọn theo công thức: (5-1, [3])
+(mm)
+Lấy theo tiêu chuẩn (tra bảng 5-12, [3]) Kiểm nghiệm số vòng chạy u trong 1 giây:
+(vòng/phút)
+u < umax = 10
+Xác định chính xác khoảng cách trục A theo chiều dài đai đã lấy theo tiêu chuẩn:
+470 Khoảng cách A thỏa mãn các điều kiện [5-19] :
+0,55(D1 + D2) + h ≤ A ≤ 2(D1 + D2)
+Khoảng cách nhỏ nhất cần thiết để mắc đai :
+Amin = A – 0,015 L (mm) 400
+Khoảng cách lớn nhất cần thiết để tạo lực căng
+Amax = A + 0,03 L (mm) 500
+Góc ôm :
+1320
+Góc ôm thỏa mãn điều kiện α ≥1200
+v Chọn động cơ
+Dựa vào tính toán với bộ truyền công suất nhỏ và không chịu lực lớn nên ta chọn động cơ có công suất 0.557kw, số vòng quay 1 phút 1224
+3.4 Thiết kế bộ phận chặn hạt sen
+Thanh chặn hạt sen có cấu tạo đơn giản gồm 2 ổ bi có đường kính trong 8mm,1 thanh trục có L=70mm, hai lò xo ,1 tấm thép có thông số 50×20×1 mm được lắp len trục bằng hai bulông 6mm.
+Nguyên lý hoạt động: thanh chặn hạt sen được lắp lên phần cuối của máng dẫn hạt sen,bình thường thì tấm chặn hạt sen ở vị trí thấp nhất để ngăn hạt sen đi qua,khi bị sự tác động của cây gạt dược lắp ở trục phía trên tác động thì tấm chặn sẽ bị đẩy lên hạt sen có thể đi qua sau khi hết tác động thì nhờ lò xo kéo về vị trí chặn hạt sen, cứ thế mà chu trình lập đi lập lại liên tục
+3.5 Tính toán sản lượng sen 1 giờ
+Với số vòng quay của trục chính là 108 vòng/phút thì ta sẽ tách được khoảng 108-216 hạt sen 1 phút, vì mỗi lần trục chính quay 1 vòng thì thanh chặn sẽ cho từ 1-2 hạt sen rớt xuống để thực hiện 1 chu trình tách vỏ.
+3.6 Một số hư hỏng của máy và cách khắc phục
+Dao mòn: do sử dụng lâu ngày nên dao mòn nên định kì 10 ngày sử dụng ta có thể thay dao mới hoặc mài lại dao để sử dụng tiếp tục,hằng ngày sau khi sử dụng cần lau sạch dao cắt để đảm bảo hợp vệ sinh thực phẩm.
+Dây đai bị dung: ta có thể chỉnh lại dây đai nhờ có bộ phận điều chỉnh
+Dao cắt sâu hoặc không cắt vào hạt sen: ta có thể điều chỉnh ổ gá dao lên xuống nhờ bộ phận điều chỉnh dao.
+Dây đai bị bụi bám vào làm hạt sen khi tách vỏ ra bị bẩn: sau 1 thời gian sử dụng ta nên vệ sinh máy và giặt sạch dây đai.
+
+Chương 4. KẾT LUẬN
+Sau hơn 2 tháng thực hiện đề tài, với sự hướng dẫn tận tình của thầy Phụng và sự cố gắng nỗ lực của nhóm đề tài tốt nghiệp đã hoàn thành. Như mục tiêu ban dầu, đề tài tập trung vào các vấn đề sau:
+- Nghiên cứu thị trường tiêu thụ hạt sen
+- Thiết kế máy lột hạt sen với năng suất 480kg/ngày
+

@@ -1,0 +1,390 @@
+THIẾT KẾ, CHẾ TẠO HỆ THỐNG ĐIỀU KHIỂN THÔNG MINH CHĂM SÓC VƯỜN CÂY
+
+MỤC LỤC
+CHƯƠNG 1: MỞ ĐẦU 1
+1.1 Đặt vấn đề 1
+1.2 Ý nghĩa khoa học và thực tiễn đề tài2
+1.3 Mục tiêu nghiên cứu đề tài2
+1.4 Đối tượng và phạm vi nghiên cứu 3
+1.5 Phương pháp nghiên cứu 3
+CHƯƠNG 2: TỔNG QUAN 4
+2.1 Giới thiệu chung 4
+2.2 Một số công trình nghiên cứu liên quan 5
+2.2.1 Nhà màng trên thế giới5
+2.2.2 Nhà màng ở Việt Nam 9
+CHƯƠNG 3: CƠ SỞ LÝ THUYẾT 12
+3.1 Đặc tính quang hợp của cây xanh 12
+3.1.1 Ảnh hưởng của ánh sáng đến quang hợp 12
+3.1.2 Ảnh hưởng của nồng độ CO2 13
+3.1.3 Ảnh hưởng của nước 14
+3.1.4 Ảnh hưởng của nhiệt độ 14
+3.1.5 Ảnh hưởng của nguyên tố khoáng 15
+3.2 Tăng năng suất cây trồng 15
+3.3 Kết luận 16
+CHƯƠNG 4: TÍNH TOÁN - THIẾT KẾ 17
+4.1 Phân tích và lựa chọn phương án thiết kế 17
+4.1.1 Chọn lựa cấu trúc nhà trồng 17
+4.1.1.1 Những yêu cầu trong cấu trúc nhà trồng 17
+4.1.1.2 Phân tích các cấu trúc nhà trồng hiện nay .17
+4.1.1.3 Lựa chọn cấu trúc nhà trồng 18
+4.1.2 Hệ thống tưới nước 20
+4.1.2.1Các phương pháp tưới nước tiết kiệm.20
+4.2.1.2 Chọn lựa hệ thống tưới nước 21
+4.3 Chọn lựa phương thức điều khiển 23
+4.4 Nguyên lý hoạt động của nhà màng 23
+4.4.1 Chế độ điều khiển tự động.23
+4.4.2 Chế độ điều khiển bằng tay.27
+4.4.3 Chế độ điều khiển qua mạng Internet27
+4.5 Các công việc tính toán thiết kế 27
+4.5.1 Thiết kế bộ phận đóng mở cửa thông gió 27
+4.5.2 Thiết kế hệ thống rèm cắt nắng 31
+4.6 Thiết kế mạch điện điều khiển 40
+4.6.1 Yêu cầu thiết kế 40
+4.6.2 Thiết kế mạch PLC 42
+4.3.3 Thiết kế mạch điện động lực 47
+4.7 Thiết kế hệ thống giám sát và điều khiển mạng Internet 48
+CHƯƠNG 5: CHẾ TẠO VÀ THỬ NGHIỆM 49
+5.1 Chế tạo các bộ phận 49
+5.1.1 Chế tạo bộ phận đóng mở cửa thông khí.49
+5.1.2 Chế tạo bộ phận đóng mở màn cắt nắng 50
+5.1.3 Chế tạo khung nhà màng 52
+5.1.4 Chế tạo đường ống tưới nhỏ giọt54
+5.1.5 Thiết kế thi công phần điện 54
+5.1.5.1 Động cơ điện đóng mở cửa thông khí54
+5.1.5.2 Động cơ điện đóng mở màn cắt nắng 56
+5.1.5.3 Công tắc hành trình 57
+5.1.5.4 Cảm biến từ 58
+5.1.5.5 Cảm biến báo mưa 58
+5.1.5.6 Cảm biến độ ẩm không khí60
+5.1.5.7 Cảm biến nhiệt độ 61
+5.1.5.8 Cảm biến ánh sáng 63
+5.1.5.9 Relay thời gian 65
+5.1.5.10 Nguồn 12V 67
+5.1.5.11 Nguồn 5V 67
+5.1.5.12 Van điện từ 68
+5.1.5.13 Quạt làm mát không khí69
+5.1.5.14 Máy phun sương 69
+5.1.5.15 Bộ điều khiển internet70
+5.2 Thử nghiệm 74
+5.2.1 Thử nghiệm khả năng chuyển động của màn cắt nắng 74
+5.2.1.1 Mục đích thử nghiệm:74
+5.2.1.2 Trang thiết bị và dụng cụ 74
+5.2.1.3 Mô tả thử nghiệm 74
+5.2.2 Thử nghiệm các bộ phận kiểm soát nhiệt độ, độ ẩm, mưa.75
+5.2.2.1 Mục đích thử nghiệm 75
+5.2.2.2 Trang thiết bị và dụng cụ 75
+5.2.2.3 Mô tả thử nghiệm 76
+5.3 Hoàn chỉnh thiết kế 77
+CHƯƠNG 6: KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN 79
+6.1 Kết quả 79
+6.2 Hướng phát triển 79
+TÀI LIỆU THAM KHẢO 81
+WEBSITE 81
+PHỤ LỤC 82
+
+DANH MỤC SƠ ĐỒ VÀ HÌNH VẼ
+Hình 2.1: Một Nông trang ở sa mạc Israel [6] 6
+Hình 2.2: Hệ thống cảm biến nhiệt độ và ẩm độ được cài đặt tại nhiều vị trí khác nhau và kết nối đến các computer [6] 7
+Hình 2.3: Mô hình trồng rau theo công nghệ Úc [12] 9
+Hình 3.1: Ảnh hưởng của cường độ ánh sáng đến cường độ quang hợp khi nồng độ CO2 tăng [14] 12
+Hình 3.2: Cường độ hấp thụ ánh sáng của các loại sắc tố quang hợp [15].13
+Hình 3.3: Sự phụ thuộc của quang hợp vào nồng độ CO2 [15] 13
+Hình 3.4: Ảnh hưởng của nhiệt độ đến quang hợp [15] 14
+Hình 4.1: Nhà màng kín [13] 17
+Hình 4.2: Nhà màng mái che có cửa thông khí [14] 18
+Hình 4.3: Nhà màng có mái tự động đóng mở 19
+Hình 4.4: Tưới phun mưa [16] 20
+Hình 4.5: Tưới phun sương [16] 20
+Hình 4.6: Vòi tưới nhỏ giọt [16] 21
+Hình 4.7: Sơ đồ lắp đặt van điện và đường ống dẫn nước tưới nhỏ giọt22
+Hình 4.8: Sơ đồ lắp ráp hệ thống phun sương 22
+Hình 4.9: Sơ đồ điều khiển qua PLC và Internet23
+Hình 4.10: Lưu đồ giải thuật điều khiển nhiệt độ 24
+Hình 4.11: Lưu đồ điều khiển độ ẩm 25
+Hình 4.12: Lưu đồ điều khiển ánh sáng 26
+Hình 4.13: Bộ phận mở cửa thông gió 27
+Hình 4.14: Cửa thông gió, (a) Trạng thái cửa đóng , (b) trạng thái cửa mở 29
+Hình 4.15: (a) Cơ cấu khâu khi đóng (b) Cơ cấu khâu khi mở 29
+Hình 4.16: Bộ phận đóng mở màn cắt nắng (khi đóng) 32
+Hình 4.17: Bộ phận đóng mở màn cắt nắng (khi mở) 32
+Hình 4.18: Sơ đồ trục kéo màn thứ nhất37
+Hình 4.19: Sơ đồ phân bố mômen 38
+Hình 4.20: Trục chủ động sau khi thiết kế 40
+Hình 4.21: Trục bị động sau khi thiết kế 40
+Hình 4.22: Lưu đồ giải thuật điều khiển hệ thống 41
+Hình 4.23: Sơ đồ kết nối hệ thống điều khiển 44
+Hình 4.24: Mạch kết nối ngõ ra PLC với các relay cấp điện cho thiết bị chấp hành47
+Hình 4.25: Mạch điện các thiết bị chấp hành 47
+Hình 4.26: Mô hình điều khiển thiết bị thông qua Wife và mạng Internet.48
+Hình 5.1: Chế tạo bộ phận mở cửa thông khí50
+Hình 5.2: Bộ phận kéo màn cắt nắng 52
+Hình 5.3: Bản vẽ thiết kế khung nhà màng 53
+Hình 5.4: Khung nhà màng sau khi hoàn thành 53
+Hình 5.5: Đường ống dẫn nước tưới nhỏ giọt54
+Hình 5.6: Nước chảy dưới dạng nhỏ giọt54
+Hình 5.7: Động cơ điện 12 VDC có hộp số 54
+Hình 5.8: Lắp đặt động cơ đóng/mở cửa thông khí55
+Hình 5.9: Động cơ điện 220 VAC có hộp số 56
+Hình 5.10: Công tắc hành trình 57
+Hình 5.11: Vị trí lắp đặt công tắc hành trình giới hạn đóng/mở cửa thông khí57
+Hình 5.12: Cảm biến điện từ 58
+Hình 5.13: Cảm biến từ gắn trên hành trình kéo màn 58
+Hình 5.14: Cảm biến báo mưa 58
+Hình 5.15: Lắp đặt cảm biến mưa trong mô hình nhà màng 59
+Hình 5.16: Cảm biến độ ẩm không khí60
+Hình 5.17: Lắp đặt cảm biến độ ẩm trong nhà màng 61
+Hình 5.18: Cảm biến nhiệt độ và bộ điều chỉnh nhiệt độ 61
+Hình 5.19: Sơ đồ đấu dây nguồn cung cấp điện và nguồn ra các tải.62
+Hình 5.20: (a) Cảm biến cường độ sáng BH1750 và (b) mạch điều khiển cường độ sáng 63
+Hình 5.21: Mạch relay tác động mức ánh sáng 64
+Hình 5.22: Lắp ráp bộ phận cảm biến ánh sáng trong mô hình nhà màng 64
+Hình 5.23: Relay điều chỉnh thời gian 65
+Hình 5.24: Nguồn một chiều 12VDC 67
+Hình 5.25: Nguồn 5V 67
+Hình 5.26: Van điện từ 68
+Hình 5.27: Quạt điện 69
+Hình 5.28: Máy phun sương và đầu béc phun sương 69
+Hình 5.29: Hệ thống điều khiển thiết bị qua mạng EC10 [16].71
+Hình 5.30: Thiết bị điều khiển qua Lan/Inthernet EC10 [16] 71
+Hình 5.31: Bảng giao diện điều khiển thiết bị qua Webserver [16] 72
+Hình 5.32: Các thành phần của thiết bị EC10 [16] 72
+Hình 5.33: Tổng thể mô hình nhà màng 77
+Hình 5.34: Tổng thể nhà màng sau khi hoàn thiện 78
+
+
+DANH MỤC BẢNG
+Bảng 1: Nhiệt độ sinh trưởng của một số loại cây trồng 15
+Bảng 2: Tổng hợp các thông số tính toàn bộ phận truyền đai31
+Bảng 3: Tổng hợp các thông số 36
+Bảng 4: Các cảm biến, công tắc 41
+Bảng 5: Cơ cấu chấp hành 42
+Bảng 6: Địa chỉ ngõ vào PLC 42
+Bảng 7: Địa chỉ ngõ ra PLC 43
+Bảng 8: Thông số kỹ thuật bộ phận cửa thông khí49
+Bảng 9: Thông số kỹ thuật bộ phận đóng mở màn cắt nắng 51
+Bảng 10: Các thông số động cơ một chiều 55
+Bảng 11: Thông số kỹ thuật động cơ đóng mở màn cắt nắng 56
+
+
+
+
+Chương 1
+MỞ ĐẦU
+1.1 Đặt vấn đề
+Hiện nay trên thế giới, việc ứng dụng các công nghệ điều khiển vào trong sản xuất là rất nhiều và cần thiết trong các ngành nghề kể cả trong nông nghiệp. Trong nông nghiệp, nhờ ứng dụng các công nghệ điều khiển hiện đại mà năng suất và chất lượng cây trồng tăng lên đáng kể. Với công nghệ trồng rau trong nhà màng có sự hỗ trợ của các thiết bị điều khiển đã cho những kết quả ngoài mong đợi như năng suất cao, chất lượng tốt, sạch, an toàn mà còn có thể trồng những loại cây mà từ trước không phải là truyền thống của vùng miền.
+Ở Việt Nam, việc trồng rau trong nhà màng đang phát triển nhanh chóng, đem lại lợi ích cao cho người nông dân. Tuy nhiên, do chi phí đầu tư cao nên việc ứng dụng chỉ hạn chế trong các nông trang lớn có khả năng về kinh tế, hoặc chỉ điều khiển ở dạng bán tự động nên vẫn cần nhiều nhân công trong việc điều khiển vì hầu hết các trang thiết bị điều khiển đều phải nhập từ nước ngoài nên giá thành cao. Do đó cần phải có hướng nghiên cứu, thiết kế và chế tạo những thiết bị này ngay ở trong nước để giảm chi phí, phù hợp với điều kiện kinh tế của người nông dân và điều kiện môi trường ở Việt Nam.
+Luận văn đã trình bày kết quả thiết kế và chế tạo hệ thống điều khiển tiểu môi trường trong mô hình nhà màng một cách tự động và có sự hỗ trợ của máy tính và đặc biệt có thể điều khiển qua điện thoại Smarphone.
+Kết quả thực nghiệm cho thấy với nhà màng được điều khiển tự động sẽ làm cho điều kiện môi trường sinh trưởng của cây trồng tốt hơn, phù hợp yêu cầu môi trường đặt ra cho từng loại cây trồng. Mặt khác với khả năng điều khiển từ xa qua Smarphone làm cho việc giám sát và điều khiển trở nên sễ dàng hơn.
+
+
+1.2 Ý nghĩa khoa học và thực tiễn đề tài
+Ở Việt Nam, diện tích trồng rau xanh rất lớn. Hầu hết phương thức canh tác chủ yếu theo cách truyền thống nên cho năng xuất thấp và chất lượng không cao. Do đó cần phải có một phương thức mới nhằm nâng cao chất lượng sản phẩm và năng xuất cây trồng. Hiện nay cũng đã có nhiều nơi ở Việt Nam đã ứng dụng công nghệ trồng cây trong nhà màng và công nghệ này cũng đã phát huy tính hiệu quả đã giúp cho các nhà đầu tư đạt được lợi nhuận. Tuy nhiên các thiết bị điều khiển của các nhà màng trồng rau lớn ở Việt Nam hầu hết được nhập từ nước ngoài nên giá thành cao, do đó những hộ nông dân nhỏ khó tiếp cận được với công nghệ này hoặc có thì ở mức đơn giản và còn nhiều khâu phải làm thủ công.
+Vì lý do này, tác giả đã chọn lựa đề tài “nghiên cứu, thiết kế và chế tạo hệ thống điều khiển thông minh chăm sóc vườn cây trồng tự nhiên”. Đề tài thực hiện cho phép giải quyết:
+- Áp dụng công nghệ tự động để điều khiển tiểu khí hậu của nhà màng giúp giảm bớt sức lao động, nguồn nước, phân bón, thuốc trừ sâu và nâng cao chất lượng điều chỉnh.
+- Ứng dụng công nghệ thông tin để quan sát, quản lý thiết bị điều khiển.
+- Mô hình nhà màng có thể sử dụng ở qui mô nhỏ hộ gia đình nhất là những nơi có khuôn viên nhỏ của hộ gia đình ở khu đô thị.
+- Làm tăng giá trị của sản phẩm cây trồng, giúp cải thiện chất lượng cuộc sống và tăng thu nhập cho người trồng.
+1.3 Mục tiêu nghiên cứu đề tài
+Đề tài triển khai nghiên cứu hướng tới mục tiêu sau:
+- Tự động hóa quá trình tưới nước
+- Tự động hóa quá trình tạo độ ẩm và thông khí.
+- Tự động hóa quá trình che, cắt nắng.
+- Thiết kế, chế tạo và lắp ráp hoàn chỉnh nhà màng
+1.4 Đối tượng và phạm vi nghiên cứu
+- Đặc tính quang hợp của cây xanh.
+- Tiểu khí hậu trong nhà màng.
+- Cách thức điều khiển tiểu khí hậu trong nhà màng.
+- Cách thức giám sát và điều khiển qua mạng internet.
+1.5 Phương pháp nghiên cứu
+- Nghiên cứu phân tích lý thuyết: Thu thập tài liệu từ các nguồn báo chí, tạp chí, sách, từ internet có liên quan đến nội dung nghiên cứu.
+- Phương pháp thực nghiệm: Tiến hành thiết kế, chế tạo thử nghiệm, thử nghiệm hoạt động và hoàn chỉnh thiết kế.
+
+
+Chương 2
+TỔNG QUAN
+2.1 Giới thiệu chung
+Các sản phẩm rau xanh là nguồn thực phẩm không thể thiếu trong bữa ăn hàng ngày của con người. Nhu cầu về rau xanh là rất lớn, do đó cần phải có nguồn cung cấp rau lớn. Hiện nay nước ta có diện tích trồng rau xanh rất lớn, việc trồng rau xanh ở nước ta mang tính tự phát và không theo qui chuẩn an toàn chất lượng nào. Vì vậy rất khó kiểm soát về chất lượng của sản phẩm, nhất là dư lượng về các thuốc bảo vệ thực vật. Ngoài ra năng suất cây trồng cũng là yếu tố để giúp tăng lợi nhuận cho người trồng vì vậy cần phải có nghiên cứu một qui trình trồng rau xanh hiệu quả an toàn và chất lượng tốt.
+Một trong các cách làm hiệu quả của việc trồng rau là trồng rau trong nhà màng. Đây là một công nghệ mới, cho phép người trồng rau tạo ra các sản phẩm chất lượng, an toàn và năng suất cao.
+Việc trồng rau trong màng hiện đã trở nên phổ biến do tính hiệu quả của nó, không những đối với những trang trại lớn mà còn có thể ứng dụng cho từng hộ gia đình, tùy theo khả năng kinh tế và qui mô sản sản xuất.
+Ở Việt Nam việc ứng dụng kỹ thuật điều khiển vào điều khiển khí hậu của nhà trồng rau cũng đã có khắp nơi, các thiết bị điều khiển hầu như là nhập từ các nước có công nghệ tiến tiến như Nhật, Isareal, Ustralia,.. Giá thành các thiết bị này tương đối cao, rất khó cho người nông dân Việt Nam tiếp cận. Vì vậy cần phải có những nghiên cứu và chế tạo các thiết bị trong nước sao cho đảm bảo được người nông dân có thể đầu tư được và dể sử dụng. Đây cũng chính là mục đích của người nghiên cứu cần hướng tới nhằm tạo ra một sản phẩm tốt và hiện đại cho người nông dân Việt Nam.
+Trong đề tài này chúng tôi cũng nghiên cứu hệ thống điều khiển qua mạng truyền thông Internet nhằm nâng cao khả năng giám sát điều kiện môi trường của nhà trồng để đưa quyết định kịp thời cho việc điều khiển tiểu khí hậu nhà trồng tốt hơn.
+2.2 Một số công trình nghiên cứu liên quan
+2.2.1 Nhà màng trên thế giới
+Hiện nay trên thế giới đã có rất nhiều thành công trong mô hình trồng cây trong nhà kính. Các ứng dụng khoa học vào nông nghiệp đã đem lại những kết quả cao, điển hình như Ustralia, Israel, Hà lan,...trên đây là một số nước có kỹ thuật nông nghiệp tiên tiến.
+Israel: Nhà kính công nghệ cao Israel, ngoài việc đảm bảo yêu cầu kết cấu bền vững, yêu cầu cho việc thực hiện cơ giới hoá đến mức cao nhất các công đoạn sản xuất, nhà kính còn có thể cho phép đáp ứng đến mức cao nhất các nhu cầu về kiểm soát “tiểu khí hậu nhà kính”; kiểm soát “sinh học nhà kính”; kiểm soát “dịch hại” nhà kính; và thực hiện các biện pháp điện toán điều chỉnh các yếu tố môi trường sinh thái nhà kính [6].
+Về kết cấu và cấu trúc: Kết cấu và cấu trúc nhà kính cần đảm bảo nguyên tắc cứng, nặng, đủ độ bền vững để chống lại gió mạnh (tuỳ theo đặc trưng thời tiết khí hậu địa phương). Hiện nay, Israel sử dụng toàn bộ loại hình nhà kính tiên tiến. Các bộ phận thường có của một nhà kính tiêu chuẩn là hệ thống rèm; "cửa ánh sáng" và hệ thống lưới tạo bóng râm; các hệ thống kiểm soát và điều chỉnh môi trường sinh thái để tạo lập ra một môi trường sinh thái tương thích đáp ứng nhu cầu sinh hóa cây trồng, như hệ thống kiểm soát và điều chỉnh nhiệt độ; hệ thống kiểm soát và điều chỉnh ẩm độ không khí/ẩm độ đất; hệ thống kiểm soát và điều chỉnh ánh sáng; hệ thống thông khí, vv. Cùng với việc nghiên cứu phát triển công nghệ tổng hợp, Israel đang tập trung khai thác và tận dụng các đặc trưng đặc tính của “vật liệu thông minh” để xây dựng nhà kính [6].
+Hình 2.1: Một Nông trang ở sa mạc Israel[6]
+Về công nghệ kiểm soát tiểu khí hậu nhà kính công nghệ cao (Technologies for hi-tech greenhouses climate control): Nhà kính của Israel phải đảm bảo các tiêu chuẩn công nghệ quy định, ví dụ như tiêu chuẩn thích ứng nhiệt “làm mát vào ban ngày và toả ấm vào ban đêm”. Việc thiết kế và xây dựng nhà kính như thế nào đó để sao cho việc kiểm soát và điều chỉnh các yếu tố môi trường để tạo ra " miền tiểu khí hậu tối thích " cho cây trồng phát triển trong khi chỉ cần "mức chi phí năng lượng tối thiểu". Vì người sản xuất không thể sản xuất với bất cứ giá thành nào. Thông thường, việc điều chỉnh chế độ nhiệt thường đựơc kết hợp với việc điều chỉnh chế độ ẩm và đựơc thực hiện thông qua hệ thống "phun mù”. Các "hạt phun" có chức năng hấp thụ nhiệt dư thừa trong nhà kính vào ban ngày và lưu trữ lượng nhiệt năng này để làm ấm nhà kính vào ban đêm. Như vậy, việc kiểm soát và điều chỉnh chế độ nhiệt/ẩm của nhà kính diễn ra liên tục suốt ngày đêm. Để tự động hoá việc kiểm soát và điều chỉnh các thông số môi trường nhà kính, hệ thống cảm biến nhiệt độ và ẩm độ được cài đặt tại nhiều vị trí khác nhau và được kết nối trực tiếp đến computer để thực hiện các lệnh tưới, bón, điều chỉnh nhiệt ẩm, tạo lập môi trường sinh thái tối thích cho cây trồng sinh trưởng phát triển [6].
+Hình 2.2: Hệ thống cảm biến nhiệt độ và ẩm độ được cài đặt tại nhiều vị trí khác nhau và kết nối đến các computer [6]
+Về công nghệ điện toán nhà kính: Israel là đất nước có nền công nghệ thông tin phát triển sớm, bao gồm cả công nghệ phần cứng và công nghệ phần mềm. Israel luôn nỗ lực khai thác ứng dụng đến mức cao nhất lợi thế và ưu việt của công nghệ thông tin vào phát triển sản xuất nông nghiệp nói riêng. Đối với sản xuất nhà kính, toàn bộ các hệ thống tưới nước hay bón phân, hệ thống cấp và điều chỉnh ẩm độ nhiệt độ, hệ thống kiểm soát tiểu khí hậu đều được thực hiện tự động hoá thông qua các hệ thống phần mềm quản lý kỹ thuật [6].
+Tại Keny: Kenya là một quốc gia thuộc miền Đông châu Phi đã bắt đầu sản xuất cà chua trong nhà kính nhằm nâng cao hy vọng rằng các loại rau phổ biến sẽ trở nên có sẵn trong suốt cả năm với giá cả phải chăng.
+Trong hệ thống mới được phát triển bởi Chương trình phát triển trồng trọt Kenya (KHDP) có sự tham gia của nhà cung cấp đầu vào nông nghiệp Seminis Seeds và Osho Hóa chất công nghiệp.
+Theo KHDP, dự án cà chua nhà kính, một trong những hoạt động của chương trình là hỗ trợ để giúp tăng thu nhập của hộ gia đình nông thôn, nguồn vay mượn là từ Israel - nơi mà nước này đã phát triển ngành nông nghiệp rất tốt và chuyên nghiệp trong điều kiện khan kiếm đất và nước.
+If the concept is widely embraced, Kenya could start enjoying year-round supply of tomatoes, which currently get damaged during the wet seasons, pushing prices through the roof.Nếu dự án này được phát triển rộng rãi thì Kenya có thể bắt đầu thưởng thức cà chua quanh năm, mà hiện đang bị làm hư hại trong mùa ẩm ướt. Theo Peter Randa, người quản lý tiếp thị và dự án cố vấn kỹ thuật, cây trồng trong các nhà kính có nhiều thuận lợi, trong đó có khả năng sản xuất số lượng lớn trên một mảnh đất nhỏ và liên tục thu hoạch.
+Tại Hoa Kỳ: Sở Nông nghiệp Hoa Kỳ đưa ra dự án 135 với 38 nhà nghiên cứu đầu năm 2006 nhằm xác minh việc trồng rau, hoa trong các nhà lưới nhà kính công nghệ cao, điều khiển tự động đạt được hiệu quả cao vì giảm sử dụng thuốc trừ sâu, lưu giữ chất dinh dưỡng thiết yếu trong đất, mở rộng mùa trồng và sản lượng ngày càng tăng.
+Ngoài ra, vào mùa đông giá lạnh khi nhiệt độ bên ngoài lạnh thì nhiệt độ bên trong nhà kính vẫn được duy trì ổn định cho cây sinh trưởng và phát triển tốt. Vì vậy mùa đông ở đây còn còn bị hiếm rau, hoa như những năm trước nữa.
+Tại Anh: Vào tháng 08/2010, tại tiểu bang Kent ở miền Nam nước Anh, nơi có số ngày nắng trong năm nhiều hơn 17% so với nơi khác, sẽ hoàn thành việc xây dựng Thanet Earth - tổ hợp khổng lồ gồm 7 nhà kính trồng rau (mỗi nhà rộng cỡ 10 sân bóng đá) trên diện tích gần 91 ha.
+Khi hoàn thành, trong tổ hợp nhà kính này sẽ trồng gần 1,3 triệu cây và những người làm việc trong đó phải đeo những chiếc kính bảo hộ đặc biệt vì bên trong nhà kính rất sáng. Để có được ánh sáng tối đa, những cấu trúc kim loại ở đây đều được sơn trắng và sàn nhà thì được phủ bằng lớp phản quang. Lượng ánh sáng được giữ bên trong nhà nhờ tường và mái nhà được che sáng.
+Các điều kiện bên trong nhà kính được kiểm soát bởi những chiếc máy tính dành riêng cho công trình này. Có 7 cái hồ chứa nước mưa, sau khi được xử lý sẽ cung cấp nước cho nông trang, dung lượng mỗi hồ 189 triệu lít. Việc cung cấp nhiệt cho nhà kính là do 7 nhà máy điện đảm trách, chính là những nhà máy cung cấp điện cho một nửa thành phố Thanet gần đó.
+Việc trồng trọt trong những nhà kính lớn như thế đã từng có ở Hà Lan, Canada, Mỹ, còn ở Anh đây là lần đầu tiên. Hai năm nữa, Thanet Earth sẽ đi vào hoạt động và việc tổ chức sản xuất tại tổ hợp này do Tập đoàn Fresca Group, một nhà nhập khẩu lớn của Anh thực hiện.
+Theo tính toán chi li của những người Anh thì từ tháng 2 đến tháng 10, mỗi tuần tổ hợp này sẽ thu hoạch gần 560 ngàn quả ớt, 700 ngàn quả dưa chuột, 2,5 triệu quả cà chua. Công trình này sẽ làm tăng 15% sản lượng thu hoạch rau hằng năm tại Anh.
+Tương tự như ở Úc. Hệ thống trồng rau ở Úc rất phát triển, hầu như toàn bộ qui trình sản xuất rau đều có ứng dụng công nghệ điều khiển hiện đại [9].
+Hình 2.3: Mô hình trồng rau theo công nghệ Úc [12]
+2.2.2 Nhà màng ở Việt Nam
+Tại Việt Nam: những năm gần đây việc ứng dụng khoa học kỹ thuật vào nông nghiệp đang được xúc tiến mạnh mẽ và bước đầu đã đạt được nhiều kết quả tốt.
+Thực tế cho ta thấy, các phương pháp canh tác theo tập quán ngoài đồng đã dần được thay thế bằng những kỹ thuật mới trên những vùng sản xuất. Thông qua các chương trình khuyến nông, việc áp dụng trồng rau, hoa trong nhà kính, nhà lưới đã từng bước được hướng dẫn đến các hộ nông nghiệp trong những năm qua, đã giúp cho người sản xuất cải thiện kỹ thuật canh tác một cách căn bản. Như ta đã biết việc ứng dụng kỹ thuật trồng cây trong nhà kính, nhà lưới sẽ mang lại hiệu quả thiết thực cho người sản xuất cũng như nâng cao chất lượng năng suất sản phẩm nông nghiệp. Tuy nhiên thông tin về kỹ thuật canh tác, những vấn đề kỹ thuật điều khiển khí hậu trong nhà kính, nhà lưới như thế nào là thích hợp trong điều kiện khí hậu ở nước ta để có thể giảm bớt hoặc bổ xung ánh sáng, tăng hoặc giảm nhiệt độ…và hàng loạt các vấn đề kháccần giải quyết.Chính vì vậy dẫn đến thực trạng ở nước ta hệ thống thiết bị điều khiển tiểu khí hậu trong nhà trồng phục vụ sản xuẩt rau và hoa vẫn ở trình độ lạc hậu, chắp vá, đặc biệt là vấn đề sử dụng và quản lý chưa đem lại hiệu quả như mong muốn.
+Do trình độ kỹ thuật phát triển chậm nên hệ thống thiết bị điều khiển tiểu khí hậu trong nhà trồng rau, hoa ở nước ta hiện nay phần lớn mới chỉ tập trung ở vấn đề làm mát trong nhà trồng và thiết bị sử dụng chỉ là hệ thống lưới cắt nắng, dạng này được áp dụng với diện tích lớn của các hộ nông dân ở các vùng sản xuất rau và hoa tập trung ở nước ta như vùng trồng rau ở Vân Nội - Đông Anh, Lĩnh Nam - Thanh Trì, Đà Lạt - Lâm Đồng, Củ chi… với phương pháp điều khiển thủ công dùng các vật liệu sẵn có của địa phương như tre, luồng để căng lưới. Ưu điểm giá thành đầu tư rẻ, kỹ thuật sử dụng đơn giản, do đó chỉ giảm được một phần cường độ ánh sáng và nhiệt độ, chưa đem lại hiệu quả đáng kể nào.
+Ở một số Hợp tác xã như Hợp tác xã Hương Xuân - Thành phố Hồ Chí Minh, Đà Lạt…. một số các công ty và các mô hình ở tỉnh như Thanh Hóa, Vĩnh Phúc đã sử dụng phối hợp một số thiết bị làm mát như lưới cắt nắng, phun sương giảm nhiệt và quạt thông gió.Hệ thống này được điều khiển bằng cơ khí. Ở một số vùng có khí hậu ổn định như ở Đà Lạt, Tam Đảo - Vĩnh Phúc việc sử dụng phối hợp các hệ thống thiết bị này đã đem lại hiệu quả đáng kể. Tuy nhiên do chưa lựa chọn và vận hành đúng các hệ thống thiết bị cho từng vùng khí hậu thường sao chép nguyên mẫu từ vùng này sang vùng khác lên đối với các vùng khí hậu tương đối khắc nghiệt như Thành phố Hồ Chí Minh, Thanh Hoá, Tây Tựu… lên không hiệu quả. Hiện nay đã có một số cơ sở sản xuất rau và hoa ở trong nước đã nhập ngoại đồng bộ hệ thống thiết bị điều khiển tiểu khí hậu trong nhà trồng của Pháp, Isarel, Trung Quốc như Công ty Golden Garden, Trang food, Has farm của Đà Lạt, Trung tâm kỹ thuật rau quả Hà Nội, một số Trường, Viện, Trung tâm nghiên cứu như Viện rau quả Hà Nội, Viện di truyền, trường Đại học Nông nghiệp I, Viện Khoa học Nông nghiệp Việt Nam, Trung tâm giống cây trồng ở Thường Tín, Trung tâm nghiên cứu cây ăn quả Long An.v.v…Các hệ thống thiết bị điều khiển tiểu khí hậu trong nhà trồng bao gồm hệ thống quạt thông gió cưỡng bức, thiết bị làm mát bằng hệ thống tấm đệm bay hơi nước, phun mù kết hợp với che nắng bằng lưới Aluminet, ở Has farm và Trung tâm kỹ thuật rau quả Hà Nội có lắp đặt hệ thống kiểm soát và điều chỉnh khí CO2 và hệ thống gia nhiệt bằng thổi hơi nóng qua hệ thống ống. Việc lắp đặt hoàn thiện đồng bộ các thiết bị điều khiển môi trường tiểu khí hậu trong nhà trồng cho phép trồng một số giống rau và hoatrái vụ. Kết quả cho thấy các cây cà chua, dưa chuột, hoa cẩm tú cầu…phát triển bình thường trong cả thời tiết hè nhiệt độ lên đến 36 - 370C. Các thiết bị được điều khiển bằng cơ khí hoặc tự động toàn bộ do đó đòi hỏi nguời quản lý, sử dụng phải có trình độ nhất định. Mặt khác các thiết bị này do nhập ngoại toàn bộ do đó chi phí đòi hỏi lớn đây cũng là khó khăn để ứng dụng công nghệ và thiết bị này vào trong sản xuất đại trà ở nước ta [10].
+Tóm lại các thiết bị điều khiển tiểu khí hậu trong nhà trồng rau và hoa ở nước ta rất đa dạng, kể cả chủng loại vật liệu và thông số kỹ thuật. Các thiết bị này được thiết kế và chế tạo từ nhiều cơ sở khác nhau, từ các công ty chuyên ngành đến các xưởng nhỏ lẻ trong nước và nhập khẩu từ nước ngoài. Sự đa dạng đó phần nào đáp ứng được nhu cầu về số lượng và chất lượng các chủng loại thiết bị phục vụ xây dựng các nhà trồng. Tuy nhiên, việc chế tạo một số thiết bị này ở các cơ sở trong nước chưa được chú trọng mà mới chỉ dừng lại ở mức độ chép mẫu mà chưa có một tiêu chuẩn cụ thể.
+
+
+Chương 3
+CƠ SỞ LÝ THUYẾT
+
+3.1 Đặc tính quang hợp của cây xanh
+Quang hợp ở cây xanh là qúa trình trong đó năng lượng ánh sáng mặt trời được diệp lục hấp thụ để tạo ra cacbohiđrat và O2 từ khí CO2 và nước.
+Như vậy đặc tính quang hợp của cây trồng phụ thuộc vào các yếu tố chính như: cường độ ánh sáng, nhiệt độ,lượng CO2, và nước [11].
+3.1.1 Ảnh hưởng của ánh sáng đến quang hợp
+Ánh sáng ảnh hưởng đến quang hợp về hai mặt: cường độ sáng và quang phổ sáng.
+a) Cường độ sáng
+Có hai trị số liên quan đến quang hợp đó là điềm bù sáng và điểm bảo hòa ánh sáng.
+- Điểm bù sáng: là cường độ sáng mà tại đó cường độ quang hợp cân bằng với cường độ hô hấp
+- Điểm bảo hòa ánh sáng: là trị số ánh sáng mà từ đó cường độ quang hợp không tăng thêm ( đạt cực đại) mặc dù cường độ sáng tiếp tục tăng [11].
+Hình 3.1: Ảnh hưởng của cường độ ánh sáng đến cường độ quang hợp khi nồng độ CO2 tăng [15]
+b) Quang phổ của ánh sáng:
+Các tia sáng khác nhau ảnh hưởng khác nhau đến quang hợp. Quang hợp chỉ xảy ra ở miền ánh sáng xanh, tím và đỏ. Thành phần ánh sáng biến động phụ thuộc vào độ sâu (trong môi trường nước), thời gian của ngày, cây mọc dưới tán [11].
+Hình 3.2: Cường độ hấp thụ ánh sáng của các loại sắc tố quang hợp [15].
+3.1.2 Ảnh hưởng của nồng độ CO2
+Cây quang hợp được ở nồng độ CO2 thấp nhất là 0,0,8 – 0,01%. Khi tăng nồng độ CO2 lúc đầu cường độ quang hợp tăng tỉ lệ thuận sau đó tăng chậm cho tới khi đền trị số bão hòa CO2. Vượt quá mức đó thì cường độ quang hợp lại giảm [10].
+Hình 3.3: Sự phụ thuộc của quang hợp vào nồng độ CO2 [14]
+I – Cây bí đỏ; II - Cây đậu
+3.1.3 Ảnh hưởng của nước
+Ảnh hưởng của nước đến sự đóng mở khí khổng, nên ảnh hưởng đến khả năng hấp thụ CO2 vào lá để tiến hành các phản ứng quang hợp. Nước quyết định tốc độ vận chuyển các sản phẩm quang hợp ra khỏi lá. Thiếu nước sản phẩm quang hợp sẽ bị tắc nghẽn dẫn đến ức chế quang hợp. Khi cây thiếu nước đến 40 – 60% thì quang hợp sẽ giảm hoặc ngưng quang hợp [11].
+3.1.4 Ảnh hưởng của nhiệt độ
+Nhiệt độ ảnh hưởng đến các phản ứng Enzim chủ yếu trong pha tối của quang hợp. Đối với một số loại cây khả năng quang hợp tăng theo nhiệt độ đến giá trị tối ưu. Trên ngưỡng đó quang hợp sẽ giảm dần.
+Khi nhiệt độ quá lạnh 0oC , một số cây trồng sẽ có hiện tượng chết rét; thời thiết nóng ở trên 40o C Cây khô héo và có thể bị chết. Cây trồng quang hợp hiệu quả ở các nhiệt độ như sau:12oC-24oC; 18oC-21oC; 24oC.v.v.. tùy theo từng loại cây trồng [11].
+Hình 3.4: Ảnh hưởng của nhiệt độ đến quang hợp [14]
+1. Khoai tây ; 2. Cà chua ; 3 Dưa chuột
+Bảng 1: Nhiệt độ sinh trưởng của một số loại cây trồng
+Giới hạn trung bình Giới hạn rộng Tên rau Cao Thấp Tên rau Cao Thấp Cà 18÷30 ÷ Súp lơ xanh ÷ Ớt 18÷30 ÷ Đậu tằm ÷ Cấn tây 10÷22 ÷ Bi xen ÷ Măng tây 15÷30 ÷ Cải bắp ÷ Dưa chuột 20÷30 ÷ Tỏi tây ÷ Bí ngô ÷ Hành tây ÷ Ngô đường ÷ ÷ Cà chua ÷ Cải củ ÷ ÷ Cà Rốt ÷ Đậu bắp ÷ ÷ Củ cải đỏ 8÷30
+
+3.1.5 Ảnh hưởng của nguyên tố khoáng
+Các nguyên tố kháng tham gia vào vào việc cấu thành nên Enzim quang hợp và diệp lục của lá cây, điều tiết độ đóng mở của khí khổng và liên quan đến quá trình phân ly nước [11]
+3.2 Tăng năng suất cây trồng
+Để tăng năng suất cây trồng có nhiều cách như chọn lựa giống mới, cải tạo đất, tuy nhiên biện pháp hữu hiệu nhất là tăng năng suất cây trồng thông qua sự điều khiển quang hợp của cây. Tức là tăng diện tích bộ lá , tăng cường độ quang hợp và tăng hệ số kinh tế.
+Tăng diện tích lá: là áp dụng các biện pháp kĩ thuật như chăm sóc, bón phân, tưới nước hợp lý phù phợp với loài và giống cây trồng.
+Tăng cường độ quang hợp: Tuyển chọn và tạo giống mới có cường độ và hiệu suất quang hợp cao kết hợp áp dụng kĩ thuật chăm sóc hợp lí.
+Tăng hệ số kinh tế: Tăng hệ số kinh tế của cây trồng bằng biện pháp chọn giống và bón phân [11].
+3.3 Kết luận
+Đặc tính quang hợp rất quan trọng cho năng suất cây trồng, quyết định 90 – 95% năng suất cây trồng. Do đó việc tìm hiểu về đặc tính quang hợp của cây trồng, giúp cho việc điều chỉnh ánh sáng, nhiệt độ và độ ẩm tốt hơn và làm cho cây trồng phát triển tốt và cho năng suất cao.
+Để duy trì được các thông số khí hậu cơ bản trên phù hợp với yêu cầu về nông học của cây rau và hoa thì thiết bị kiểm soát khí hậu trong nhà trồng có một tập hợp tiểu hệ thống linh hoạt:
+- Hệ thống thông gió giảm nhiệt độ: Mành ẩm giảm nhiệt, phun sương làm mát, quạt thông gió.
+- Hệ thống gia nhiệt: Máy gia nhiệt áp dụng hình thức thổi gió trực tiếp hoặc thổi gió qua ống, hệ thống rèm che.
+- Hệ thống bổ xung khí CO2: Máy phát sinh khí CO2.
+- Hệ thống điều khiển cường độ ánh sáng: Hệ thống lưới cắt nắng, vật liệu che phủ mái, bổ xung cường độ ánh sáng (đèn natri).
+- Hệ thống tưới mát.
+- Hệ thống tưới nhỏ giọt.
+- Quạt đối lưu không khí.
+- Hệ thống tưới phân bón.
+
+
+
+Chương 4
+TÍNH TOÁN - THIẾT KẾ
+
+4.1 Phân tích và lựa chọn phương án thiết kế
+4.1.1 Chọn lựa cấu trúc nhà trồng
+4.1.1.1 Những yêu cầu trong cấu trúc nhà trồng
+- Cấu trúc của nhà trồng phải có độ cứng vững tốt, đơn giản, dễ thi công.
+- Thoáng khí, có lượng bắt ánh sáng tốt.
+- Có khả năng ngăn cản côn trùng, sâu bệnh xâm nhập, tránh mưa tốt.
+4.1.1.2 Phân tích các cấu trúc nhà trồng hiện nay .
+Hiện nay, có rất nhiều mô hình nhà kính trồng rau, các mô hình có những đặc điểm riêng tùy theo vùng miền. về nguyên lý đa số các mô hình là giống nhau, trên đây là hai dạng mô hình nhà kính điển hình.
+a) Làm mái che nhà kín
+Làm mái che nhà kín sẽ có những ưu và khuyết điểm sau:
+Hình 4.1: Nhà màng kín [13]
+- Ưu điểm: hạn chế gần như tối đa côn trùng gây bệnh, khống chế độ ẩm tốt, giảm lượng bốc hơi của nước, thích hợp cho vùng có khí hậu ôn hòa
+- Nhược điểm: không khí không được lưu chuyển tốt, dễ gây nấm bệnh, nhiệt độ tăng nhanh do hiệu ứng nhà kính, khó hấp thu nguồn CO2 trong tự nhiên để quang hợp. Do đo cần phải có quạt hút và thông gió, điều này cần năng lượng điện nhiều.
+b) Làm nhà màng mái che có cửa thông khí .
+Hình 4.2: Nhà màng mái che có cửa thông khí [14]
+- Ưu điểm: không khí được lưu thông, dễ hấp thu khí CO2 tự nhiên, do đó làm cho khả năng quang hợp tốt hơn, không cần hoặc hạn chế năng lượng dùng quạt hút, thải không khí, nhiệt độ ổn định theo môi trường bên ngoài, thích hợp cho vùng khí hậu nóng ẩm.
+- Nhược điểm: Dễ bị côn trùng tấn công, dễ ảnh hưởng của thời tiết xấu, khả năng giữ độ ẩm thấp.
+4.1.1.3 Lựa chọn cấu trúc nhà trồng
+Khí hậu ở Việt Nam là khí hậu nhiệt đới gió mùa, có nền nhiệt và độ ẩm tương đối cao quanh năm. Do đó việc lựa chọn mô hình nhà màngmái che có cửa thông khí có thể đóng mở được sẽ đạt được sự thông thoáng cao, tránh được nấm mốc và dễ điều khiển nhiệt độ hơn.
+Kiểu nhà màng này có kết cấu đơn giản, nhẹ và mái có thể đóng mở tự động để tạo sự thông thoáng và dễ dàng đón ánh sáng mặt trời, giúp cho không gian trồng thêm thoáng, sáng và làm cho khả năng sinh trưởng của cây trồng thêm tốt hơn.
+Hình 4.3: Nhà màng có mái tự động đóng mở
+Mô hình nhà trên có tỷ lệ so với thực tế. Lý do chọn kích thước tỷ lệ này là do kinh phí chế tạo và không gian đặt để eo hẹp. Trong thực tế, một nhà màng có thể có kích thước chiều rộng từ 8m đến 10m và nhiều gian ghép lại với nhau.
+Vật liệu làm vách ngăn là màng lưới bằng vật liệu Alumine, có khả năng chịu nhiệt và ánh sáng tốt, không bị hoen rỉ do ẩm.
+Khung nhà màng làm bằng thép hộp có sơn phủ ngoài.
+4.1.2 Hệ thống tưới nước
+4.1.2.1Các phương pháp tưới nước tiết kiệm.
+Tưới nước là khâu rất quan trọng cho sự phát triển của cây trồng. Việc tưới nước phải đảm bảo độ ẩm cần thiết cho cây trồng đồng thời phải tránh sự ngập úng quá mức gây các bệnh về rễ và nấm cho cây trồng.
+Tuy nhiên tưới như thế nào để đảm bảo các điều kiện trên mà không hao phí nước, giảm thiểu các chi phí do tưới nước. Hiện nay công nghệ tưới nước tiết kiệm rất đa dạng, nhưng việc tưới nước phải phù hợp với kiểu quang hợp và nhiệt độ của từng loại cây. Dưới đây là một số công nghệ tưới nước:
+a)Công nghệ tưới mưa
+Thích hợp không gian rộng, thoáng. Lượng nước sử dụng nhiều.
+Hình 4.4: Tưới phun mưa [16]
+b) Công nghệ tưới phun sương
+Khả năng tiết kiệm nước cao, luôn làm ẩm và mát bầu không khí, thích hợp với loại cây chịu nhiệt độ thấp. Tuy nhiên giá thành của hệ thống phun sương cao.
+
+Hình 4.5: Tưới phun sương [16]
+c)Công nghệ tưới nhỏ giọt
+Khả năng tiết kiệm nước rất cao, luôn làm ẩm đất với một lượng nhất định. Tuy nhiên tốn kém chi phí lắp đặt ống tới từng gốc cây trồng, không cải thiện nhiều nhiệt độ môi trường xung quanh.
+Hình 4.6: Vòi tưới nhỏ giọt [16]
+4.2.1.2 Chọn lựa hệ thống tưới nước
+Tùy theo từng loại cây trồng mà sử dụng hệ thống tưới phù hợp. hệ thống tưới mưa chỉ thích hợp với không gian rộng như trồng cây ngoài không gian tự nhiên. Hệ thống tưới nhỏ giọt thích hợp với những cây có khả năng chống nấm thấp, không ưa độ ẩm cao như cà chua, dưa lưới …. Hệ thống tưới phun sương thích hợp với những cây có thân yếu, lá dễ bị dập nát nhưng chịu ẩm cao như các loại cải, mồng tơi, ngò ….
+Ở đề tài này tác giả lựa chọn loại cây trồng là cải xanh nên hệ thống tưới thích hợp là tưới nhỏ giọt kết hợp với phun sương để tạo độ ẩm không khí.
+
+Hình 4.7: Sơ đồ lắp đặt van điện và đường ống dẫn nước tưới nhỏ giọt
+Hình 4.8: Sơ đồ lắp ráp hệ thống phun sương
+4.3 Chọn lựa phương thức điều khiển
+Trong mô hình này tác giả lựa chọn phương thức điều khiển bằng bộ lập trình PLC S7-200 do hãng SIEMENS của Đức sản xuất. Các tín hiệu nhiệt độ, ánh sáng, độ ẩm, mưa sẽ được đưa đến các ngõ vào của PLC và được PLC xử lý đưa ra các tín hiệu ngõ ra cung cấp điện cho các cơ cấu chấp hành như quạt điện, động cơ điện, bơm phun sương.
+Ngoài ra hệ thống còn có khả năng giám sát điều khiển từ xa thông qua mạng Wife và Internet nhờ một phần mềm điều khiển EC10.
+Smarphone
+Hình 4.9: Sơ đồ điều khiển qua PLC và Internet
+4.4 Nguyên lý hoạt động của nhà màng
+Qua phân tích đặc tính quang hợp của cây trồng và phương án thiết kế, nguyên lý hoạt động của nhà màng được lựa chọn như sau:
+Hệ thống có ba chế độ làm việc đó là: chế độ điều khiển tự động thông qua các tín hiệu đầu vào của các sensor nhiệt độ, ánh sáng, độ ẩm, báo mưa và các công tắc hành trình; hệ thống điều khiển bằng tay; hệ thống điều khiển qua mạng internet.
+4.4.1 Chế độ điều khiển tự động.
+Chế độ điều khiển tự động thông qua các tín hiệu đầu vào của các sensor nhiệt độ, ánh sáng, độ ẩm, báo mưa và các công tắc hành trình được thực hiện nhứ sau:
+Hình 4.10: Lưu đồ giải thuật điều khiển nhiệt độ
+- Nếu có mưa thì cửa nóc mái nhà lưới sẽ đóng lại còn nếu không mưa và nhiệt độ trong nhà màng lớn hơn To (33oC) thì hệ thống nóc mái sẽ được mở ra đồng thời hệ thống quạt khí mát sẽ thổi lượng khí nóng trong nhà lưới ra ngoài và bơm phun sương hoạt động. Trong trường hợp nhiệt độ nhỏ hơn T0 thì đóng cửa thông khí, tắt quạt gió và tắt bơm phun sương.
+
+Hình 4.11: Lưu đồ điều khiển độ ẩm
+- Nếu độ ẩm không khí thấp độ ẩm cài đặt Rh0 thì bơm phun sương hoạt động. Nếu độ ẩm không khí cao hơn độ ẩm cài đặt Rh0 thì tắt bơm phun sương, đồng thời mở cửa thông khí. Nếu trời mưa thì đóng cửa thống khí
+Hình 4.12: Lưu đồ điều khiển ánh sáng
+Ánh sáng rất quang trọng trong quang hợp của cây trồng, việc tận dụng ánh sáng tối đa cho cây trồng là rất cần thiết. Vì vậy màn cắt nắng chỉ đóng/mở khi nhiệt độ cao hơn nhiệt độ cho phép và khoảng đóng phụ thuộc vào cường độ sáng mạnh hay yếu ở mức độ nào.
+- Nếu nhiệt độ lớn T0 (33oC) hệ thống cảm biến quang sẽ báo trời có nắng nhiều hay ít để kịp thời che màn cắt nắng cho phù hợp. Cảm biến quang có 4 mức, tùy theo cường độ sáng mà đóng hoặc mở ít hay nhiều ( có 4 mức đóng mở). Nếu nhiệt độ nhỏ hơn T0 (33oC) thì màn mở ra hoàn toàn.
+AS L1: cường độ sáng mức 1
+AS L2: cường độ sáng mức 2
+AS L3: cường độ sáng mức 3
+AS L4: cường độ sáng mức 4
+- Tưới nước được cài đặt qua một Relay thời gian. Việc tưới nước tùy thuộc vào từng loại cây và từng giai đoạn sinh trưởng. Trong mô hình này tưới nước được cài đặt như sau: một ngày tưới 4 lần, mỗi lần 15 phút ( lần 1: 5 giờ; lần 2: 10 giờ; lần 3: 14 giờ; lần 4: 20 giờ)
+4.4.2 Chế độ điều khiển bằng tay.
+Được thực hiện thông qua các nút nhấn như đóng, mở màn cắt nắng; đóng, mở cửa thông gió; quạt làm mát.
+4.4.3 Chế độ điều khiển qua mạng Internet
+Qua mạng internet có thể xem được hình ảnh của nhà màng qua camera giám sát, từ đó có thể đóng mở một số thiết bị của hệ thống như đóng/mở màn cắt nắng; đóng/mở cửa thông gió; đóng/mở quạt làm mát; đóng/mở bơm phun sương.
+4.5 Các công việc tính toán thiết kế
+4.5.1 Thiết kế bộ phận đóng mở cửa thông gió
+Hình 4.13:Bộ phận mở cửa thông gió
+Bộ phận đóng mở cửa thông gió gồm:
+1: Động cơ AC và hộp giảm tốc
+.................................................
+Chương 6
+KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN
+
+6.1 Kết quả
+- Luận văn đã hoàn thành các nhiệm vụ sau:
+- Tìm hiểu được đặc tính quang hợp của cây xanh
+- Tính toán và thiết kế các cụm chi tiết của máy.
+- Thiết kế và lắp đặt hệ thống điều khiển
+- Chế tạo các bộ phận của nhà màng
+- Vận hành và thử nghiệm thành công với mô hình của hệ thống điều khiển thông minh chăm sóc vườn cây trồng tự nhiên.
+- Sử dụng thành công module truyền nhận tín hiệu qua wifi, điều khiển thành công mô hình thông qua mạng wifi.
+6.2 Hướng phát triển
+Do thời gian, điều kiện nghiên cứu, chế tạo có giới hạn nên luận văn đã hoàn thành nhưng chưa thật sự đáp ứng được những kỳ vọng của tác giả, vì vậy những kiến nghị sau đây được đề xuất để nghiên cứu sau được hoàn chỉnh hơn:
+- Hệ thống cần thêm bộ phận nhận biết độ ẩm của đất để điều chỉnh độ ẩm đất cho phù hợp với điều kiện tưới tiêu.
+- Hệ thống cần có bộ phận nhận biết lượng CO2 để điều chỉnh lượng CO2 theo yêu cầu để cây quang hợp tốt.
+- Hệ thống cần có bộ phận pha trộn phân bón một cách tự động.
+- Hệ thống điều khiển có thể lựa chọn được những thông số điều kiện môi trường cho từng nhóm cây một cách tự động.
+- Hệ thống điều khiển qua internet có khả năng linh hoạt hơn như: thay đổi một số thông số về điều kiện môi trường như ánh sáng, nhiệt độ, độ ẩm v.v. mà không cần điều chỉnh trực tiếp từ thiết bị.
+

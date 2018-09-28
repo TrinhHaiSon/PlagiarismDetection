@@ -1,0 +1,462 @@
+NGHIÊN CỨU, THIẾT KẾ VÀ CHẾ TẠO MÁY GỌT VỎ NHA ĐAM
+
+NỘI DUNG
+Thiết kế máy: Máy tách vỏ nha đam
+Với các yêu cầu sau:
+A- PHẦN BẢN VẼ
+Bản vẽ sản phẩm Bản vẽ sơ đồ nguyên lý Bản vẽ lắp / cụm của máy Bản vẽ các chi tiết gia công của máy Bản vẽ sơ đồ nguyên công của qui trình công nghệ gia công (nếu khối lượng công việc ít)
+B- PHẦN THUYẾT MINH
+1 - Tổng quan
++ Yêu cầu xã hội
++ Phân tích sản phẩm (Cơ lý tính)
++ Yêu cầu của máy
+2 - Thiết kế máy
++ Lựa chọn nguyên lý làm việc
++Tính toán động học máy
++Tính toán động lực học máy
+3 - Kết luận
++ Nhận xét đánh giá máy
++Hướng dẫn sử dụng bảo quản
+4 - Sản xuất thử mô hình, điều chỉnh, sửa chữa lại thiết kế (nếu có)
+MỤC LỤC
+CHƯƠNG I: TỔNG QUAN.. 9
+1.1 Lịch sử phát triển của cây Nha đam.. 9
+1.2 Thành phần hóa học. 9
+1.3 Tình hình phân bố nha đam.. 17
+1.3.1 Trên thế giới17
+1.3.2 Tại Việt Nam.. 17
+1.4 Tác dụng của cây nha đam.. 19
+1.4.1 Kháng khuẩn. 19
+1.4.2 Nhuận tràng. 19
+1.4.3 Làm lành vết thương. 19
+1.4.4 Trị viêm loét dạ dày. 19
+1.4.5Trị bệnh ngoài da. 20
+1.4.6 Phòng ngừa sỏi niệu. 20
+1.4.7 Bệnh xơ gan cổ trướng. 20
+1.4.8 Bệnh tiểu đường và cao áp huyết20
+1.4.9 Trị mụn. 20
+1.4.10 Thực phẩm.. 20
+1.4.11 Làm đẹp. 21
+1.5 Giới thiệu máy gọt vỏ nha đam.. 21
+1.5.1 Máy tách vỏ nha đam của hãng sản xuấtCƠ KHÍ TRƯỜNG KỲ.. 21
+1.5.2 Máy tách vỏ nha đam trên website:22
+CHƯƠNG 2: Ý TƯỞNG THIẾT KẾ.. 24
+2.1 Yêu cầu thiết kế. 24
+2.2 Nhiệm vụ thiết kế. 24
+2.3 Phân tích chức năng nhiệm vụ thiết kế. 24
+2.3.1 Phân tích chức năng cấp nha đam.. 25
+2.3.2 Phân tích chức năng cắt vỏ mép nha đam.. 26
+2.3.3 Phân tích chức năng cắt phần trên và dưới27
+2.3.4 Phân tích chức năng tách vỏ và thạch. 27
+2.4 Sơ đồ bố trí chung. 28
+2.5 Yêu cầu của máy tách vỏ nha đam.. 28
+2.6 Lựa chọn phương án thiết kế ( một số bộ truyền thông dụng).29
+2.6.1 Máy tách vỏ nha đam hoạt động dựa trên bộ truyền xích. 29
+2.6.2 Máy tách vỏ dựa trên bộ truyền bánh răng:29
+2.6.3 Máy tách vỏ hoạt động dựa trên bộ truyền đai thang. 30
+CHƯƠNG 3: TÍNH TOÁN VÀ THIẾT KẾ MÁY.. 31
+3.1 Yêu cầu :31
+3.2 Nguyên lí máy tách vỏ nha đam.. 32
+3.2.1 Sơ đồ nguyên lí máy tách vỏ nha đam.. 32
+3.2.2 Nguyên lý hoạt động.32
+3.3 Tính toán.33
+3.4 Phân phối tỷ số truyền :35
+3.5 Bảng tổng hợp số liệu :35
+3.6 Tính các bộ truyền :36
+3.7 Thiếtkế trục. 39
+3.7.1 Tính đường kính sơ bộ của các trục. 39
+3.7.2 Tính gần đúng. 39
+3.8 Thiết Kế then. 42
+3.9 Thiết kế các chi tiết máy. 44
+a) Tấm dẫn vỏ mép nha đam.. 44
+b) Trục rulo 1. 44
+c) Trục rulo 2. 45
+d) Thanh gắn dao cắt mép và tấm dẫn hướng. 46
+e) Trục lắp bánh răng với bánh xích.47
+f) Dao cắt mặt lớn.48
+g) Thanh nâng trục.48
+h) Dao cắt mép.49
+i) Tấm dẫn vỏ mép nha đam.. 50
+k) Máng thoát thạch nha đam.. 51
+l) Tấm kẹp dao trên. 52
+m) Tấm kẹp dao dưới53
+n) Trục nâng. 53
+o) Vòng đóng ổ lăn. 53
+p) Chân đế:54
+q) Vỏ máy:55
+CHƯƠNG 4: KHẢO NGHIỆM VÀ ĐÁNH GIÁ SẢN PHẨM... 58
+4.1 Vấn đề an toàn:58
+4.2 Các biện pháp an toàn:58
+4.3 Biện pháp y học:58
+4.4Hướng dẫn sử dụng máy :59
+4.5 Bảo quản máy. 59
+4.6 Đánh giá chung về máy.59
+4.7 Kết quả nghiên cứu. 59
+4.8 Kết luận. 60
+4.9 Hiệu chỉnh máy.60
+CHƯƠNG 5 : KẾT LUẬN.. 61
+TÀI LIỆU THAM KHẢO.. 62
+DANH MỤC HÌNH ẢNH
+Hình 1.1: Aloe ferox Mill9
+Hình 1.2: Aloevera. 9
+Hình 1.3: Cấu trúc phân tử một số hợp chất phân tích từ lá Aloe barbadensis Miller. 16
+Hình 1.4: Cấu trúc polysaccharide chính trong lá Aloe vera. 16
+Hình 1.5: Tình hình phân bố nha đam hiện nay trên thế giới17
+Hình 1.6: Thu hoạch nha đam.. 18
+Hình 1.7: Cánh đồng nha đam ở Ninh Thuận. 18
+Hình 1.8: Thạch nha đam.. 19
+Hình 1.9: Máy tách vỏ nha đam – Hãng cơ khí Trường Kỳ. 21
+Hình 1.10: Máy tách vỏ nha đam.. 22
+Hình 2.1: Sơ đồ chức năng. 24
+Hình 2.2: Sơ đồ phân tích chức năng. 25
+Hình 2.3: Cấp nha đam bằng tay. 25
+Hình 2.4: Cắt vỏ mép nha đam.. 26
+Hình 2.5: Cắt phần vỏ trên vỏ dưới27
+Hình 2.6: Cắt phần vỏ trên vỏ dưới27
+Hình 2.7: Sơ đồ bố trí chung. 28
+Hình 2.8 : Sản phẩm hoàn thiện. 31
+Hình 2.9 : Sơ đồ nguyên lý máy gọt vỏ nha đam.. 32
+Hình 3.1: Động cơ và hộp số Panasonic. 34
+Hình 3.2: Hộp số 3 series. 34
+Hình 3.3: Biểu đồ lực. 41
+Hình 3.4: Mối ghép then. 43
+Hình 3.5: Tấm dẫn vỏ mép nha đam.. 44
+Hình 3.6: Trục rulo 1. 45
+Hình 3.7:Trục rulo 2. 46
+Hình 3.8: Thanh gắn dao cắt mép và tấm dẫn hướng. 47
+Hình 3.9: Trục lắp bánh răng với bánh xích.48
+Hình 3.10: Dao cắt mặt lớn. 48
+Hình 3.11:Thanh nâng trục. 49
+Hình 3.12:Dao cắt mép. 50
+Hình 3.13:Tấm dẫn vỏ mép. 51
+Hình 3.14: Máng thoát thạch nha đam.. 52
+Hình 3.15: Tấm kẹp dao trên. 52
+Hình 3.16: Tấm kẹp dao dưới53
+Hình 3.17: Trục nâng. 53
+Hình 3.18: Vòng đóng ổ lăn. 54
+Hình 3.19: Chân đế. 55
+Hình 3.20: Máng đỡ nha đam.. 56
+Hình 3.21: Phần vỏ máy che hai trục. 56
+Hình 3.22: Phần vỏ máy che bộ truyền. 57
+Hình 3.23: Khay đựng thạch nha đam.. 57
+CHƯƠNG I: TỔNG QUAN
+1.1 Lịch sửphát triển của cây Nha đam
+Cây Nha đam có nguồn gốc từ Bắc Phi.Theo truyền thuyết Ai Cập thì nữ hoàng Cléopâtre đã sử dụng nha đam để tạo ra một làn da mịn màng, tươi tắn.Còn đại đế Hy LạpAlexandros đã dùng nha đam để chữa vết thương cho binh lính của mình trong những cuộc viễn chinh.Những dòng chữ tượng hình và những hình vẽ còn lưu lại trên những bức tường ở những đền đài Ai Cập cho thấy cây nha đam đã được biết đến và sử dụng cách đây hơn 3000 năm. Cho đến tận ngày hôm nay con người đã chứng minh và khẳng định được vai trò của cây nha đam trong cuộc sống. Cụ thể hơn là trong lĩnh vực dược phẩm, thực phẩm và mỹ phẩm.
+Vào cuối thế kỷ 13 một du khách người Italia tên là Marco Polo (1254-1323) đã thực hiện một chuyến đi thám hiểm toàn châu Á. Đến Trung Quốc, Polo đã giới thiệu cho người dân bản xứ một dược thảo mà sau này người ta gọi là nha đam hay cây lô hội.
+Từ Trung Hoa cây nha đam được di chuyển sang Việt Nam. Trong khoảng 180 loài thì chỉ có 4 loài được sử dụng làm dược phẩm.Hai loài được chú ý nhiều nhất là Aloe ferox Mill và Aloevera.
+Hình 1.1: Aloe ferox Mill Hình 1.2: Aloevera
+Hiện nay, ở Việt Nam cây nha đam mọc nhiều ở các vùng Phan Thiết, Phan Rang, Phan Rí thuộc các tỉnh Bình Thuận, Ninh Thuận.Chúng có khả năng phát triểntrong môi trường khắc nghiệt với thời tiết hạn hán và nóng rất tốt.Vì thế chúng được trồng rải rác khắp Việt Nam và được sử dụng làm thuốc hoặc làm cây cảnh.
+1.2 Thành phần hóa học
+Cây Nha đam được sử dụng trong ngành chế biến dược phẩm, thực phẩm có tác dụng rất tốt với sức khỏe của con người.Phần được chế biến của cây nha đam là chất nhựa trong suốt nằm bên trong lá nha đam còn được gọi là "lô hội".Chất nhựa của nha đam khi cô đặc lại sẽ có màu đen (còn gọi là Aloès).
+Các nhà nghiên cứu đã phân tích thành phần hóa học của cây nha đam: Lá nha đam chứa 99 – 99,5% là nước, PH trung bình khoảng 4,5. Phần chất khô còn lại chứa trên 75 thành phần khác nhau bao gồm vitamin, khoáng, enzyme, đường (chiếm 25% hàm lượng chất khô), các hợp chất của phenolic, anthraquinoine, lignin, saponin (chiếm 3% hàm lượng chất khô), sterol, acid salicylic,…
+Bảng.1 – Thành phần hóa học của nha đam
+Nhóm chất Thành phần Vitamin Vitamin D,A,C,F,B1, B2, B3, B6, B9,B12 Enzyme Amylase, lipase, cacboxy-peptidase,catalase, oxidase Khoáng chất Ca, Mg, K, Na, Al, Fe, Zn Chất đường Glucose, mannose, rhamnose, aldopentose Anthraquinone Aloe emodin (0,05%-0,5%,tính trên hàm lượng anthraquinone trong Aloe Barbadensis ), aloe barbaloin(15%-30% tính trên hàm lượng anthraquinone trong Aloe Barbadensis), isobarbaloin, ester của acid cinnamic Acid amin Serine, Threonine, Asparagine, Glutamine, Proline, Glycine, Alanine, Valine, Isoleucine, Leucine, Tyrosine, Phenylalanine, Lysine, Histidine, Arginine Hợp chất khác Acid Arachidonic, steroid ( campestrol, cholesterol, -sitosterol,…), gibberillin, lignin, acid salicylic…
+Thành phần rất quan trọng của nha đam là hai Aloins: Barbaloin và Isobarbaloin. Chúng tạo nên tinh thể Aloin được ứng dụng nhiều trong lĩnh vực y học. Các Anthraquinone khác có tác dụng sát khuẩn chống lại một số lượng vi khuẩn và nấm, ví dụ: Staphylococci, Streptococcus, vi khuẩn salmonella, Candida albicans và nấm (Steinegger và Hansel, năm 1988; Duke, 1997).
+Bảng.2 - Hàm lượng aloin trong một số loài nha đam
+Loài Hàm lượng aloin (%) Aloe arborescens 0.602 A.vera 0.266 A.mutabilis 0.123 A.vera var chinensis 0.011 A.saponaria 0.009 A.greenii 0.076
+Bảng.3 - Thành phần một số hợp chất chủ yếu trong thịt lá nha đam
+Thành phần Hàm lượng tính trên % chất khô Nguồn tham khảo Phần thịt nguyên Phần dịch gel Polysaccharide - 10-20 Yaron, 1993 30 - Roboz và Haage-Smit, 1948 Đường tan 16.480.18 26.810.56 Femenia, 1999 - 20-30 Yaron, 1993 6.5 - Rowe và Park, 1941 25.5 - Roboz và Haage-Smit, 1948 Protein 7.260.33 8.920.62 Femenia, 1999 2.78 - Roboz và Haage-Smit, 1948 Lipid 4.210.12 5.130.23 Femenia, 1999 4.76 - Acid malic 5.40.85-8.70.3 - Paez el al., 2000 Ca 5.340.14 3.580.42 Femenia, 1999 Na 1.980.15 3.660.07 Femenia, 1999 K 3.060.18 4.060.21 Femenia, 1999 Tro 15.370.32 23.610.71 Femenia, 1999 13.1 - Rowe và Park, 1991 8.63 - Roboz và Haage-Smit, 1948
+Bảng.4 - Hàm lượng các hợp chất đường có trong aloe gel của loài
+Aloe Barbadensis
+Loại đường Hàm lượng trên gel nguyên chất( mol/g) Hàm lượng trên bã đông khô(%) Arabinose 4.23a 4.7a Galactose 3.6 4.3 Glucose 31.3 37.7 Mannose 39.4 47.5 Rhamnose 1.27 1.5 Xylose 4.44 4.4 a Arabinose không thể phân biệt với fucose
+
+
+
+Bảng.5 - Hàm lượng khoáng trên lá Aloe vera tươi
+Khoáng chất( tính trên lá nha đam tươi ppm) Ca 460 Mg 93 K 85 Na 51 Al 22 Fe 3,9 Zn 1,0
+Bảng.6 - Hàm lượng các acid amin trong lá Aloe vera
+Acid amin( tính trên hàm lượng chất khô mol/100g) Serine 224 Threonine 123 Asparagine 344 Glutamine 141 Proline 29 Glycine 67 Alanine 177 Valine 109 Isoleucine 85 Leucine 53 Tyrosine 28 Phenylalanine 43 Lysine 53 Histidine 15 Arginine 449
+
+
+
+
+
+Bảng.7 - Hàm lượng chất khô và polyphenol có trong lá nha đam nguyên liệu
+Đặc trưng Lá nha đam nguyên liệu Sản phẩm gel nha đam Nguyên lá Gel chứa bên trong Vỏ Hàm lượng chất khô (g/100g) 4.490.14 0.940.03 7.490.06 0.60.01 Tổng hàm lượng polyphenol(acid garlic(GAE)) (mg/100g) 213.21.06 94.90.61 390.85.06 36.42.61
+Bảng.8: Một số hợp chất dễ bay hơi trong Aloe Ferox
+Hợp chất Hàm lượng (%) (trong thành phần chất dầu dễ bay hơi trong lá) 2-Heptanol 7.31 Cyclopentanocecacboxylic acid, ethenyl este 1.33 1-Hexanol, 3-methyl 2.59 2-Hexen, 3,5-dimethyl(2,4-dimethyl)-4-hexan 1.33 2-Heptanol, 5-methyl (5-methyl-2-heptanol) 3.92 7-methyocta-1,3(Z) 5 (E)-trien 1.28 1,3,6-Octatriene (CAS) 23.87 5-isoprenyl-2-methyl-2-vinyltetrahydrofuran (henboxide) 1.16 3-Carene 3.44 1,3-Cyclopentadiene,5 (1-methyl propyliene) 4.07 1,4-Cyclohexadiene,1-methyl (2,5-dihydrotoluene) 3.70 2,4-Decadien-1-ol, (E,E) 7.45 Benzene, 1-methyl-2-(2-propenyl) 3.78 E-3-hexenyl butanoate 1.06 3-Cyclohexene-1-acetaldehyde, ,4-dimethyl (CAS) 9.51 Syn-2-hidroxy-6-methylene-dicyclo[2,2,2] octane 2.28 Bornylene 5.24 Vitispirane 1.16 Theaspirane A 3.23 Theaspirane A* 2.39 2-Tride canone (CAS) 2.52
+Bảng.9 - Sterol và triterpenoid trong lá Aloe vera
+Sterol hay triterpenoid Hàm lượng chất khô trong lá ( mol/g) Cholesterol 10.8 Campesterol 12.4 -Sitosterol 148.0 Lupeol 66.1
+Hình 1.3: Cấu trúc phân tử một số hợp chất phân tích từ lá Aloe barbadensis Miller
+Hình 1.4: Cấu trúc polysaccharide chính trong lá Aloe vera
+1.3 Tình hình phân bố nha đam
+1.3.1 Trên thế giới
+Nha đam được trồng nhiều ở vùng Trung và Nam Mỹ, Australia và khu vực Trung Hải với khí hậu nóng khô mùa hè và ẩm ướt của mùa đông. Nó cần khí hậu ấm áp và không chịu được khí hậu lạnh.
+Hình 1.5: Tình hình phân bố nha đam hiện nay trên thế giới
+1.3.2 Tại Việt Nam
+Ở Việt Nam, nha đam có nhiều ở dọc bờ biển Nam Trung bộ, tươi tốt quanh năm. Loại cây này đặc biệt phù hợp với vùng cát ven biển, giỏi chịu được khí hậu khô, nóng. Chính vì vậy, Ninh Thuận, Bình Thuận là vùng đất lợi thế cho nha đam phát triển. Nha đam Ninh Thuận đã có thương hiệu và là khách hàng đặc biệt của các cơ sở thu mua, chế biến như công ty Xuất nhập khẩu Tân Bình, công ty Trang trại thành phố Hồ Chí Minh.
+Hiện nay, nha đam đã được chế biến làm nước ép dinh dưỡng, thạch nha đam, sinh tố nha đam… thích hợp dùng hàng ngày như một loại sản phẩm thiên nhiên bổ ích. Độ cao so với mặt nước biển hợp lý ở Bình Thuận cũng là yếu tố giúp cho việc tạo thành các hoạt chất trong lá nha đam. Chính vì vậy mà hoạt chất trong lá nha đam ở Bình Thuận, Ninh Thuận chiếm tới 26% trong khi các nơi khác chỉ có 15%. Khu vực Tuy Phong, Bắc Bình đã có một số hộ trồng thử nghiệm nha đam với giống cây ở Ninh Thuận, đến nay đã cho thu hoạch với sản lượng khá. Hiện nay nha đam được nhân giống một cách khoa học và trồng ở nhiều nơi trên toàn quốc để cung cấp cho công nghiệp chế biến và đáp ứng nhu cầu tiêu dùng của mọi nguời. Nhiều công ty chế biến thực phẩm và nước uống đã đầu tư và khuyến khích các hộ nông dân trồng và phát triển vườn cây nha đam trên bình diện rất lớn để đáp ứng đủ nguyên liệu cho sản xuất. Diện tích đất mỗi công ty đầu tư có thể lên đến hàng trăm hecta.
+Hiện nay, có trên 400 loài nha đam khác nhau, trong đó nha đam Aloe Vera lá xanh thẫm, bẹ lá to là loại dễ trồng và cho năng suất cao. Giống nha đam Aloe Vera đang được trồng đại trà ở Việt Nam.
+Hình 1.6: Thu hoạch nha đam
+Hình 1.7: Cánh đồng nha đam ở Ninh Thuận
+1.4 Tác dụng của cây nha đam
+Nha đam là loại cây có tác dụng rất tốt tới sức khỏe của con người đặc biệt nó có nhiều khả khả năng đối với y học như: Kháng khuẩn, nhuận trường,…Phần được sử dụng của cây nha đam là thạch nha đam.
+Hình 1.8: Thạch nha đam
+1.4.1 Kháng khuẩn
+Những nghiên cứu gần đây đã chứng minh nhựa nha đam có tính sát khuẩn và gây tê. Dùng để sát trùng, thanh nhiệt, và thông tiểu. Nhựa nha đam làm êm dịu vết thương khi bị phỏng nhẹ, khi bị côn trùng châm chích hay da bị chai cứng khi bị rám nắng. Nhựa nha đam cũng có tác dụng làm tăng vi tuần hoàn (giúp máu ngoại vi lưu thông tốt). Nhũ dịch được bào chế từ nha đam dùng để chế các loại thuốc trị eczema hay các mụt tróc lở, làm mau kéo da non ở vết thương. Dịch tươi nha đam có tính kháng khuẩn lao (in vitro).
+1.4.2 Nhuận tràng
+Thời xa xưa từ Hypocrate đến Hải Thượng Lãn Ông đã biết đến đặc tính nhuận trường, nhuận gan, điều kinh của nha đam.
+Liều thấp: 20–50 mg nhựa Aloe khô có tính bổ đắng, kiện tỳ vị, nhuận gan.
+- Liều vừa: 100 mg (3-5 lá tươi): Sát trùng đường ruột, điều kinh, nhuận trường, xổ.
+- Liều cao: 200–500 mg (10-20 lá): xổ mạnh.
+Tại Pháp hiện có khoảng vài chục biệt dược có tác dụng nhuận trường, xổ mà thành phần có chứa Aloès.
+1.4.3 Làm lành vết thương
+Nhiều nghiên cứu từ năm 1930 ở Mỹ và Nga cho thấy thạch trong cây lô hội có khả năng bất ngờ làm lành vết thương, chỗ loét và vết bỏng. Đắp lớp thạch lô hội vào trong vùng cần chữa, tốc độ lành vết thương sẽ nhanh chóng. Tác dụng này phụ thuộc vào sự hiện diện của aloectin B, chất kích thích hệ miễn dịch.
+1.4.4 Trị viêm loét dạ dày
+Uống nhựa tươi của lá nha đam. Cứ vài giờ uống một muỗng canh nhựa tươi lúc bụng không có thức ăn sẽ làm lành vết viêm loét dạ dày (không được quá 400 mg gel tươi/ngày).
+1.4.5Trị bệnh ngoài da
+Nha đam tươi có tác dụng làm săn da, làm nhỏ lỗ chân lông. Bôi nhựa tươi hàng ngày lên mặt có tác dụng ngừa nám, làm mịn da, ngừa mụn...
+1.4.6Phòng ngừa sỏi niệu
+Các anthraquinon sẽ kết hợp các ion canxi trong đường tiểu thành hợp chất tan được để tống ra ngoài theo nước tiểu.
+1.4.7Bệnh xơ gan cổ trướng
+Lấy một nắm cây Aloe vera gọt bỏ phần có gai hai bên lá; nửa lít mật ong nguyên chất. Tất cả bỏ vào máy sinh tố xay đều, lấy nước uống 1 ngày 3 lần (15 phút trước bữa ăn), mỗi lần uống chừng 20 ml (1 muỗng canh). Uống liên tục nhiều tháng bệnh sẽ thuyên giảm khả quan hoặc khỏi hoàn toàn.Lưu ý không có thêm rượu cho người bị bệnh gan.
+1.4.8 Bệnh tiểu đường và cao áp huyết
+Có nhiều cách dùng:
+Lấy một nắm lá nha đam (loài Aloe vera) gọt bỏ phần có gai hai bên lá, nấu sôi để nguội. Tất cả bỏ vào máy sinh tố xay đều lấy nước uống 1 ngày 3 lần (15 phút trước bữa ăn). Mỗi lần dùng khoảng 1 muỗng canh.
+Lấy một nắm lá nha đam nấu sôi để nguội. Uống nước và ăn lá đã nấu chín, 1 ngày 3 lần (15 phút trước bữa ăn). Mỗi lần dùng khoảng 1 muỗng canh.
+Mỗi ngày lấy 1 hay 2 lá nha đam gọt vỏ, ăn sống. Ăn mỗi ngày 3 lần trong nhiều tháng sẽ có kết quả khả quan.
+Những người bị huyết áp mà không bị tiểu đường thì có thể ăn với đường nguyên chất hoặc đường phèn. Người bị tiểu đường nhưng không áp huyết cao thì ăn với muối.
+1.4.9Trị mụn
+Mỗi ngày dùng 200g lá nha đam tươi rửa sạch, cắt bỏ gai hai bên, dùng dao inox rạch trên lá nhiều hình vuông bằng con cờ nhỏ rồi cắt rời ra, thêm 50g đường cát, 2 muỗng canh mật ong, nước đá đập nhỏ để ăn.
+Hoặc dùng 500 ml nước cốt nha đam, 200 ml mật ong trộn đều, để vào tủ lạnh dùng dần.Ngày uống 3 lần, mỗi lần 3 muỗng canh trước bữa ăn.
+Hoặc lấy nước vo gạo để lắng, bỏ nước trong bên trên (liều lượng tùy dùng trong ngày), dùng muỗng nạo lấy nhựa nhớt bên trong lá nha đam (bằng với lượng nước vo gạo) trộn đều hai thứ. Buổi tối trước khi đi ngủ lau mặt cho sạch, rồi thoa dung dịch trên lên mặt, thoa cho đều, để vậy đến sáng, rửa lại bằng nước ấm.
+1.4.10Thực phẩm
+Trong thực phẩm, lá nha đam dùng để ăn tươi với đường hoặc nấu chè. Có nơi còn dùng lá nha đam để nấu canh.Ngoài ra nha đam còn được làm chất đông kết cho rất nhiều món ăn.
+1.4.11Làm đẹp
+Do những đặc tính kỳ diệu trên, các nhà y dược học đã nghĩ đến những loại mỹ phẩm được chế tạo từ nhựa Nha đam để tạo ra những loại kem dưỡng da, do pH của gel nha đam gần giống với pH của da cho nên chúng làm cho da tươi tắn và điều hòa được độ axít của da.
+Hiện nay trên thị trường, nhiều hãng mỹ phẩm đã lấy ngay chính tên Aloe vera làm tên thương mại cho những loại kem chống nắng, dưỡng da, các loại dầu gội, dầu khử mùi hôi, chất có tác dụng chống mốc, xà phòng, dầu cạo râu...
+1.5 Giới thiệu máy gọt vỏ nha đam
+- Thông thường nha đam được thu hoạch về thi sẽ được tách vỏ để phục vụ cho từng mục đích khác nhau , quá trình tách vỏ thường bằng thủ công năng suất thấp (200kg/người/ngày). Nhưng với sự phát triển của khoa học-công nghệ được áp dụng vào trong nông nghiệp thì thì nha đam được tách vỏ bằng máy.
+- Ưu điểm:
+- Giải phóng sức lao động .
+- Nâng cao năng suất .
+- Qúa trình tách vỏ diễn ra nhanh, sạch, không ảnh hưởng đến thạch nha đam .
+Nhằm đẩy mạnh ngành công nghiệp sản xuất nha đam. Hiện nay, trên thị trường đã tồn tại một số loại máy bóc vỏ nha đam.
+1.5.1Máy tách vỏ nha đam của hãng sản xuấtCƠ KHÍ TRƯỜNG KỲ
+Máy tách vỏ nha đam được công ty cơ khí Trường Kỳ sản xuất năm 2015 với hình dáng kết cấu được trình bày trong hình 1.9.
+Hình 1.9:Máy tách vỏ nha đam – Hãng cơ khí Trường Kỳ
+- Máy được sản xuất đặt năng suất cao khoảng 800 – 1000 (kg/giờ)
+- Tốc độ quay của động cơ: 600 (vòng/phút).
+- Công suất động cơ: 2 Kw
+- Điện áp sử dụng: 220V-380V.
+- Trọng lượng máy: 70(kg).
+- Kích thước: 1400 x 800 x 950 (mm).
+- Xuất xứ: Việt Nam.
+- Máy sản xuất được bảo hành: 12 tháng.
++Ưu điểm:
+- Máy có năng suất cao.
+- Sử dụng điện áp một pha.
+- Trọng lượng khá nhỏ thuận tiện cho việc di chuyển.
++Nhược điểm:
+- Cần công suất động cơ khá cao → tiêu hao nguồn điện.
+- Giá cả cao: 15.000.000 đồng
+1.5.2Máy tách vỏ nha đam trên website:
+Hình 1.10: Máy tách vỏ nha đam
+- Tên gọi:Máy bóc vỏ nha đam .
+- Model:2014
+- Công suất:500-700kg/h
+- Kích thước:1000x1500x800 (mm ).
+- Trọng lượng:180kg.
+- Bảo hành:12 tháng.
+CHƯƠNG 2: Ý TƯỞNG THIẾT KẾ
+2.1 Yêu cầu thiết kế
+- Chế tạo được máy bán tự động tách vỏ nha đam đáp ứng yêu cầu của ngành giải khát Việt Nam.
+- Máy phải đạt được năng suất cần thiết:300 – 500 kg/giờ.
+- Sản phẩm được bảo hành, thay thế linh kiện dễ dàng do trong nước sản xuất;
+- Sản phẩm sử dụng công nghệ, vật liệu có sẵn trong nước;
+- Sản phẩm phải giúp khép kín toàn bộ các khâu có liên quan trong quá trình chếbiến, đảm bảo an toàn vệ sinh thực phẩm theo tiêu chuẩn Việt Nam và quốc tế, đảm bảo đồng bộ và cân bằng với các máy trong dây chuyền sản xuất;
+- Sản phẩm có thời gian sử dụng lâu dài, dễ dàng nâng cấp, lắp đặt, thay thế, bổsung mới bằng linh kiện chế tạo tại Việt Nam;
+- Giá bán sản phẩm chỉ bằng 1/2 máy được nhập từ nước ngoài.
+2.2 Nhiệm vụ thiết kế
+- Máy được thiết kế có kích thước dài x rộng x cao: 600x480x500 (mm)
+- Năng suất đạt được: 300-400 kg/giờ
+- Vỏ được bóc sạch trên 90%.
+- Trọng lượng máy nhỏ hơn 50 kg.
+- Máy được thiết kế dễ sử dụng và phù hợp với nhiều đối tượng khác nhau trong quá trình sản xuất.
+- Máy được thiết kế an toàn trong quá trình sử dụng cho cả người và máy.
+- Tiết kiệm năng lượng.
+- Giá thành hạ so với máy được nhập từ nước ngoài.
+2.3 Phân tích chức năng nhiệm vụ thiết kế
+Máy tách vỏ nha đam được thiết kế hoạt động bán tự động có các chứ năng: Cấp nha đam, tách vỏ khỏi cành nha đam, tách riêng thạch nha đam và vỏ nha đam.
+Mối liên hệ giữa các chức năng được thể hiện trong sơ đồ hình sau:
+Hình 2.1: Sơ đồ chức năng
+
+
+
+
+
+Hình 2.2: Sơ đồ phân tích chức năng
+2.3.1 Phân tích chức năng cấp nha đam
+Nha đam sau khi được loại bỏ hai đầu được được vào máy thực hiện nhiệm vụ tiếp theo bằng tay.
+Cấp nha đam bằng tay có thể tận dụng được sức lực từ người vận hành máy mặc dù không nhiều.
+Tuy nhiên, việc cấp bằng tay cho năng suất thấp đồng thời công việc được lặp đi lặp lại đối với người vận hành máy sẽ dẫn đến sự nhàm chán.
+Máy được chế tạo thử nghiệm kiểm tra hai chức năng cắt và tách vỏ do đó ta tạm chấp nhận phương thức cấp nha đam bằng tay.
+
+Hình 2.3: Cấp nha đam bằng tay
+2.3.2 Phân tích chức năng cắt vỏ mép nha đam
+Nha đam sau khi được cấp bằng tay vào máy cộng với sức đẩy của tay ta sử dụng hai dao để cắt mép nha đam với nguyên lý được thể hiện như trong hình 2.3
+Hình 2.4: Cắt vỏ mép nha đam
+Khi nha đam chạm vào 2 tấm dẫn hướng thi phần nhỏ sẽ đươc cắt trước và phần lớn sẽ được cắt sau nhờ lò xo gắn ở hai thanh gắn dao cắt mép sẽ tự lựa để cắt 2 mép không ảnh hưởng nhiều đến thạch nha đam .
+2.3.3 Phân tích chức năng cắt phần trên và dưới
+Phương pháp này được thực hiện tự động nhờ hai trục rulo.
+Hình 2.5: Cắt phần vỏ trên vỏ dưới
+Nha đam sau khi cắt hết hai mép của nha đam thì nha đam được cuốn vào 2 trục rulo đến dao cắt mép tại đây hai phần vỏ, vỏ trên và vỏ dưới của nha đam được tách nhờ hai dao cắt hai mặt lớn.
+2.3.4 Phân tích chức năng tách vỏ và thạch
+Nha đam sau các bước thực hiện cho ra sản phẩm như mong muốn .
+Vỏ đươc bóc sạch được khoảng 90% .
+Hình 2.6: Cắt phần vỏ trên vỏ dưới
+
+
+
+2.4 Sơ đồ bố trí chung
+Sau khi nha đam được làm sạch thi được đưa vào máy nhờ lực đẩy của tay, đi đến phần dao cắt mép tại đây hai phần của mép nha đam được cắt một phần, cho đến khi chạm vào hai trục rulo cuốn vào thì lúc này nha đam được cắt hoàn toàn tự động cho đến hết chiều dài bẹ nha đam , sau khi được cắt hết chiều dài của bẹ nha đam thì thạch nha đam chảy vào máng dẫn vào khay ta sẽ được sản phẩm như mong muốn.
+Sơ đồ được bố trí như hình: 2.5
+Hình 2.7: Sơ đồ bố trí chung
+2.5Yêu cầu của máy tách vỏ nha đam
+- Máy tách vỏ nha đam bán tự động .
+- Phù hợp với nhu cầu sản xuất, năng suất máy, chi phí năng lượng riêng thấp.
+- Không gây ô nhiễm môi trường.
+- Nguồn động lực: sử dụng được cả động cơ điện 2 pha hoặc động cơ servo.
+- Sử dụng thuận tiện, dễ di chuyển và an toàn lao động.
+- Kết cấu đơn giản, dễ chế tạo.
+- Giá thành rẻ.
+2.6Lựa chọn phương án thiết kế ( một số bộ truyền thông dụng).
+2.6.1 Máy tách vỏ nha đam hoạt động dựa trên bộ truyền xích
++Bộ truyền xích được dung trong các trường hợp :
+vTrục có khoảng cách trung bình .
+vYêu cầu kích thước tương đối nhỏ gọn hoặc tỉ số truyền không thay đổi.
+- Ưu điểm :
+- Truyền động xích có kích thước nhỏ gọn hơn so với truyền động đai.
+- Khi làm việc không có hiện tượng trượt ( trượt đàn hồi hoặc trượt trơn ).
+- Hiệu suất khá cao và nhiệt độ cao.
+- Lực tác dụng lên trục nhỏ.
+- Dễ dàng tháo lắp, rẻ tiền hơn bộ truyền bánh răng.
+
+- Nhược điểm:
+- Làm việc với vận tốc không quá 15m/s.
+- Tỷ số truyền i ≤ 8.
+- Chế tạo phức tạp.
+- Cần thường xuyên bôi trơn và giá thành tương đối cao.
+- Không cho phép sự không thẳng hàng.
+- Cần bảo dưỡng thường xuyên : tra dầu mỡ,…
+- Gây ồn và làm rung thiết bị.
+2.6.2 Máy tách vỏ dựa trên bộ truyền bánh răng:
++ Để sử dụng bộ truyền bánh răng cần biết trước:
+- Công dụng và chế độ làm việc của bộ truyền.
+- Công suất cần thiết để làm việc.
+- Số vòng quay trong 1 phút của trục bị dẫn.
+- Đôi khi còn dựa vào vật liệu chế tạo , điều kiện chế tạo bánh răng.
+
+- Ưu điểm :
+- Kích thước nhỏ nhưng khả năng tải trọng lớn.
+- Tuổi thọ cao, khả năng làm việc ổn định.
+- Hiệu suất cao : 0.97 – 0.99.
+- Tỉ số truyền không thay đổi.
+- Làm việc chắc chắn và bền lâu.
+- Nhược điểm:
+- Gây ồn khi vận tốc lớn.
+- Chế tạo phức tạp, yêu cầu độ chính xác cao.
+- Cần thường xuyên bôi trơn và giá thành tương đối cao.
+
+2.6.3 Máy tách vỏ hoạt động dựa trên bộ truyền đai thang
++ Bộ truyền đai thang được dung trong các trường hợp :
+- Trục có khoảng cách trung bình .
+- Yêu cầu kích thước tương đối nhỏ gọn hoặc tỉ số truyền không thay đổi.
+- Ưu điểm :
+Truyền động êm, không gây ồn do độ dẻo của đai nên làm việc với vận tốc lớn.
+- Kết cấu đơn giản, dễ vận hành, dễ chế tạo, rẻ tiền.
+- Khoảng cách giữa các trục xa nhau (< 15m ).
+- Nhờ có sự trượt đai không có sự quá tải cho động cơ.
+- Nhược điểm:
+- Tỉ số truyền không chính xác vì có hiện tượng trượt đai với bánh đai ( trừ đai răng ).
+- Kích thước bộ truyền lớn hơn các bộ truyền xích, bánh răng.
+- Tải trọng tác dụng lên trục và ổ lớn ( gấp 2-3 lần so với vộ truyền bánh răng) do có lực căng ban đầu ( tạo lực pháp tuyến lên đai gây ra ma sát ).
+ðHiện nay bộ truyền đai thang được sử dụng rộng rãi, đai dẹt ngày càng ít được sử dụng.
+
+CHƯƠNG 3: TÍNH TOÁN VÀ THIẾT KẾ MÁY
+3.1 Yêu cầu :
+- Từ các yêu cầu của máy bóc vỏ :
+- Khi bóc vỏ phải sạch, không còn dính trên nhân nha đam.
+- Khi tách không được làm dập nhân.
+- An toàn trong khi sử dụng.
+- Dễ vận hành và sữa chữa thay thế.
++ Năng suất cao.
+Thông tin về sản phẩm:
+- Công suất: 300-400kg/h
+- Tốc độ (vòng/phút): 250
+- Công suất động cơ : 40w .
+- Điện năng:220V-50Hz
+- Trọng lượng (kg): 35Kg
+..........................
+CHƯƠNG 4: KHẢO NGHIỆM VÀ ĐÁNH GIÁ SẢN PHẨM
+
+4.1 Vấn đề an toàn:
++ Máy có nhiều cơ cấu chuyển động nên trong quá trình làm việc rất dễ xảy ra tai nạn lao động .
+Ngoài ra Khi tiếp xúc nha đam tươi phải rất thận trọng vì nhựa của nó có thể tẩy các tế bào sừng hóa ở trên mặt da, nhưng với nhựa cô đặc nồng độ cao có thể làm cho bị bỏng da, bong tróc lớp da rất sâu, có người tới tận lớp biểu bì.
+Nhựa cây nha đam nguyên chất là một chất độc, khi để ra ngoài không khí chất nhựa này dễ bị oxy hoá làm mất đi một phần hoạt tính, do đó cần có quy trình chiết xuất đúng đắn để ổn định hoạt chất.
+4.2 Các biện pháp an toàn:
++ Che chắn các cơ cấu chuyển động như : che chắn bộ truyền đai, các cơ cắt mép .
++ Làm giảm hay triệt tiêu tiếng ồn ngay từ nơi phát sinh :
+* Đây là biện pháp chống ồn chủ yếu bao gồm cả việc lắp ráp có chất lượng của máy móc và động cơ, sửa chửa các máy đã cũ hay bị rơ. Giảm tiếng ồn tại nơi phát sinh có thể thực hiện theo các biện pháp sau:
+- Thay đổi tính đàn hồi và khối lượng của các bộ phận máy móc để thay đổi tần số dao động riêng của chúng tránh hiện tượng cộng hưởng, thay thép bằng chất dẻo, tecxrolit…. Hoặc quét mặt các chi tiết bằng sơn hoặc dùng các hợp kim ít vang hơn khi va chạm.
+- Bọc các mặt thiết bị chịu rung động bằng vật liệu hút hoặc giảm rung động có nội ma sát lớn như bitum, cao su, vòng phớt, amiăng, chất dẻo.
+- Sử dụng bộ giảm rung bằng lo xo hoặc cao su để tránh rung động. Dùng phương pháp hút rung động bằng cáh dùng các vật liệu đàn hồi, dẻo….
+* Giảm tiếng ồn trên đường lan truyền :
+- Sự phản xạ và hút âm phụ thuộc vào tần số và góc tới của sóng âm, nó xảy ra do sự biến đổi cơ năng mà các phần tử không khí mang theo thành nhiệt năng do ma sát nhớt.Do ma sát trong các vật liệu chế tạo mỏng các tấm mỏng chịu dao đọng dưới tác dụng của sóng âm. Vật liệu có nhiều lổ nhỏ, kết cấu cộng hưởng, những tấm hút đơn. Để cách âm thông thường là làm vỏ bọc động cơ, máy nén và các thiết bị công nghiệp khác.
+- Vỏ bọc làm bằng kim loại , gỗ , chất dẻo, kính và các vật liệu khác. Để giảm dao động truyền từ máy vào vỏ bọc, liên kết giữa chúng không làm cứng, Vỏ bọc nên đặt trên đệm cách chấn động làm bằng vật liệu đàn hồi.
+4.3 Biện pháp y học:
++ Khám và kiểm tra sức khỏe định kỳ, phát hiện sớm để chữa trị, phục hồi chức năng làm việc cho công nhân.
++ Dùng các phương tiện bảo vệ cá nhân ( quần áo, mũ nón, mặt nạ, khẩu trang, găng tay, giày bảo hộ).
+4.4Hướng dẫn sử dụng máy :
++ Trước khi đưa máy vào sử dụng ta cần kiểm tra dầu bôi trơn động cơ, cung cấp nhiên liệu cho máy , công việc này cần được kiểm tra hằng ngày khi sử dụng.
++ Sau một ngày làm việc đưa máy về cần vệ sinh máy sạch sẽ không được bụi bặm, vệ sinh sạch nhớt của nham đam tránh bánh lại ở 2 trục rulo.
++ Khi máy hoạt động ta cần trên 1 công nhân để thực hiện quá trình bóc, tách:
+- Kiểm tra xem nguồn điện có đảm bảo an toàn không: dây điện bị tóc vỏ , động cơ sử dụng điện áp 220v/380v,……..
+- Chạy thử máy để kiểm tra xem các bộ phận của máy hoạt động ở tình trạng như thế nào ( sữa chửa nếu thiết bị bị hư hỏng) rồi tiến hành sản xuất.
+- Khi muốn tắt máy phải ngừng cấp nguyên liệu vào và đợi sản phẩm ra hết khỏi máng mới tắt máy.
+4.5Bảo quản máy
+- Sau khi sản xuất xong phải tiến hành vệ sinh ,bôi dầu các ổ lăn và các bộ phận chuyển động, kiểm tra các bộ phận máy để kịp thời sữa chửa đảm bảo cho quá trình sản xuất .
+- Kiểm tra định kỳ để thay thế sữa chửa các bộ phận hư hỏng ( 1 tháng)
+- Sau khi sử dụng cần bảo quản máy ở nơi thoáng , tránh nơi ẩm ướt, có thể dùng tấm la che phủ lên máy tránh bụi bám vào máy,…
+4.6Đánh giá chung về máy.
+- Máy nhỏ gọn, dễ dàng di chuyển thuận tiện cho việc sữa chửa và bảo quản máy, Máy chạy êm không tao ra tiếng ồn lớn .
+- Có thể tạo ra những thạch nha đam sạch cung cấp cho người tiêu dùng để sử dụng vào nhửng mục đích khác nhau .
+- Giá thành của máy rất vừa tiền với các các nơi sản xuất nước giải khác nhỏ lẻ và nơi cung cấp sĩ lẻ nha đam trên thị trường …
+- Tuy nhiên máy máy còn hạn chế về sản phần dao cắt nhanh mòn vì vậy phải mài dao thường xuyên để quá trình cắt được thực hiện tốt .
+4.7Kết quả nghiên cứu
+a) Kết quả tính toán thiết kế
+- Năng suất máy: 300 – 400kg/giờ
+- Công suất: 0,04 kW
+b) Kết quả khảo nghiệm
+- Năng suất khảo nghiệm 400 kg/giờ
+- Máy chạy êm.
+- Các ổ đỡ không có hiện tượng phát nhiệt.
+
+8 Kết luận
+Máy tách vỏ nha đam phải đáp ứng được nhu cầu cơ bản hiện nay là :
+- Vỏ nha đam được tách sạch sẽ khỏi bẹ nha đam
+- Không gây ảnh hưởng tới thạch nha đam như : làm dậpthạch hay cắt phạm thạch bẹ nha đam
+- Máy phù hợp cho mô hình kinh tế , quy mô sản xuất nhỏ hay hộ gia đình. Mức chi phí năng lượng riêng thấp.
+- Kết cấu máy đơn giản, gọn nhẹ, an toàn lao động và dễ dàng di chuyển .
+- Giá thành máy rẻ hơn nhiều lần so với máy nhập từ nước ngoài đã góp phần đáng kể trong việc hạ giá thành sản phẩm..
+9Hiệu chỉnh máy.
+- Trong quá trình vận hành máy, phát sinh một số vấn đề cần phải hiệu chỉnh để đảm bảo năng suất của máy.
+- Các vấn đề thường gặp:
++Chùng đai:
+Nguyên nhân: Sau một thời gian vận hành, dưới sự tác động của lực và nhiệt dẫn đến đai bị giãn. Khắc phục: Vị trí lắp ghép bu lông đai ốc giữa thân máy với động cơ sử dụng lỗ bằng rãnh hột xoài, khi đai chùng ta tháo lỏng đai ốc di trược động cơ về một trong hai bên sao cho đai được căng đảm bảo rồi siết chặt đai ốc lại.
++Mòn dao :
+Nguyên nhân: sau một thời gian cắt thì dao bị mòn ,dưới tác dụng của nhớt và vỏ nha đam …
+
+CHƯƠNG 5 : KẾT LUẬN
+Kết luận:
+- Trong quá trình làm đồ án vừa qua , em được sự hướng dẫn tận tình của Thầy và các thầy trong khoa em đã tổng hợp được nhiều kiến thức hữu ích như là : là chi tiết máy , công nghệ chế tạo máy , máy cắt kim loại ,nguyên lý cắt , dung sai , sức bền vật lệu, … Để vận dụng vào đồ án này.
+- Tuy nhiên với kiến thức hạn hẹp của em cùng với chưa có thật nhiều kinh nghiêm thực tế.Nên trong quá trình thiết kế không thể tránh được những sai sót trong tính toán cũng như tra cứu số liệu. Em rất mong sự hướng dẫn và chỉ bảo thêm của quý Thầy Cô để chúng em có thể thiết kế một bài thuyết minh được tốt hơn.
+
+
+
+
+
+
+
+
+

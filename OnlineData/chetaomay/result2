@@ -1,0 +1,45 @@
+MỤC LỤC CHẾ TẠO MÁY ÉP NHỰA, THIẾT KẾ MÁY CHẾ TẠO MÁY ÉP HỘP NHỰA, thuyết minh MÁY ÉP HỘP NHỰA, động học MÁY ÉP HỘP NHỰA, kết cấu MÁY ÉP HỘP NHỰA, nguyên lý MÁY ÉP HỘP NHỰA, cấu tạo MÁY ÉP HỘP NHỰA, quy trình sản xuất
+Trang
+LỜI NÓI ĐẦU………………………………………………………………
+Chương I: NHỮNG VẤN ĐỀ CHUNG CỦA MÁY ÉP NHỰA
+Chương II: THIẾT KẾ SƠ BỘ MÁY ÉP NHỰA, PHÂN TÍCH PHƯƠNG ÁN VÀ CHỌN PHƯƠNG ÁN TỐI ƯU
+I . Yu cầu kỹ thuật của my
+II. Các phương án thiết kế máy
+II.1 Phương án 1 : Máy ép hoạt động theo nhịp
+II.2 Phương án 2 : Máy ép hoạt động liên tục
+III . Nguyn lý lm việc của my
+IV. Hệ thống điều khiển
+IV.1 Xylanh
+1. Xylanh khí nén tác động đơn
+Xylanh khí nén tác động kép Xylanh mng Xylanh tầng Xylanh ghp Xylanh có cần đối xứng Xylanh khơng cĩ cần
+IV.2 Rơle
+IV.3 Giới thiệu cc loại van khí nn – thủy lực
+Chương II: TÍNH TỐN THIẾT KẾ MY
+I. Tính động học máy
+I.1 Chọn xylanh cho các cơ cấu trong máy ép
+I.2 p suất khí
+II. Thiết kế sơ bộ kết cấu của khuôn ép nhựa
+III Tính toán các con lăn trên máy
+IV. Thiết kế các thanh trượt cho các con lăn
+V. Thiết kế hệ thống điều khiển
+VI. Thiết kế bộ phận nhiệt
+VI.1 Cấu tạo
+VI.2 Nguyn lý lm việc
+Hệ thống thiết bị sử dụng khí nn của my
+Khi qut về việc tính tốn cc xy-lanh khí nn
+Xác định lực tác dụng lên xylanh Tính đường kính xylanh chịu tải tĩnh Tính đường kính xylanh chịu tải trọng động Tính đường kính cần xylanh theo công thức Euler’s
+5. Sơ đồ phân bố áp suất trong một xylanh khí nén
+6. Các phương pháp dùng để cố định một xylanh
+VII. Hệ thống ht chn khơng của my
+Chương II: VẬN HÀNH VÀ BẢO DƯỠNG
+I. Vận hnh my
+II. Bảo dưỡng máy
+Lời mở đầu
+
+Trong nền sản xuất công nghiệp, đăc biệt là trong công nghiệp ép nhựa nhằm tạo hình để đóng gói,bao bọc các sản phẩm thiết bị đáp ứng cho nhu cầu đời sống của con người là rất cần thiết. Trong thực tế , có rất nhiều các loại máy ép nhựa , nhưng để có một hệ thống điều khiển được quá trình ép tạo ra sản phẩmvới giá cả thích hợp là rất cần thiết trong điều kiện nền kinh tế VIỆT NAM.
+Trong điều kiện hiện nay, việc kết hợp giữa cơ khí - điện tử - công nghệ thông tin là một giải pháp để tăng tính cạnh tranh của một sản phẩm công nghiệp: đó là sản phẩm của cơ khí kết hợp với cơ điện tử.
+Để tăng năng suất cho quá trình vận hành làm việc của máy ép tạo ra được sản phẩm tốt thì vấn đề áp dụng điều khiển tự động là không thể thiếu được. Thế nhưng vấn đề lựa chọn thiết bị cũng như phương pháp điều khiển sao cho đáp ứng được yêu cầu đặt ra đồng thời tăng năng suất của quá trình là một vấn đề phức tạp đòi hỏi người thiết kế am hiểu về kỹ thuật cơ khí cũng như kiền thức về điều khiển tự động.
+Với nhu cầu trên, trong luận văn em có nhiệm vụ thiết kế chế tạo mô hình điều khiển máy ép nhựa :
+Trình bày phương pháp ép hoạt động của các loại máy ép thông dụng hiện nay, đồng thời nêu lên một vài hướng sử lý, điều khiển máy,điều chỉnh nhiệt độ để tạo ra được một mẫu khuôn nhựa đạt yêu cầu. Tìm hiểu sơ lược về lý thuyết mờ trong điều khiển công nghiệp. Giới thiệu các mạch điều khiển tự động ứng dụng trong quá trình vận hành của máy.
+Mô hình này có ưu điểm đơn giản, dễ thiết kế chế tạo và giá thành thấp. Tuy nhiên, mô hình cũng có nhược điểm là chưa kết hợp máy tính vào điều khiển nhằm mở ra những hướng điều khiển mới trong tương lai, một phần vì thời gian hạn hẹp một phần vì trang thiết bị cần thiết ở thị trường VIỆT NAM còn thiều.
+

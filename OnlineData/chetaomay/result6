@@ -1,0 +1,107 @@
+THIẾT KẾ CHẾ TẠO MÁY CẮT PLASMA CNC MINI, ĐỒ ÁN TỐT NGHIỆP, THIẾT KẾ CHẾ TẠO MÁY MÁY CẮT PLASMA CNC MINI , thuyết minh MÁY CẮT PLASMA CNC MINI , động học máy MÁY CẮT PLASMA CNC MINI , kết cấu máy MÁY CẮT PLASMA CNC MINI , nguyên lý máy MÁY CẮT PLASMA CNC MINI , quy trình sản xuất MÁY CẮT PLASMA CNC MINI Tên đề tài: Thiết kế chế tạo máy cắt Plasma CNC mini điều khiển thông qua mạng LAN
+Các số liệu tài liệu ban đầu: không. Nội dung thuyết minh, tính toán:
+Tổng quan về máy CNC và công nghệ Plasma. Nghiên cứu công nghệ cắt Plasma. Thiết kế và chế tạo máy cắt Plasma CNC.
++Máy CNC 3 trục.
++Mạch điều khiển.
++Bộ phận đầu cắt Plasma.
+Hướng dẫn sử dụng phần mềm Mach3 Professional Controller điều khiển máy cắt Plasma CNC. Ứng dụng phần mềm điều khiển thông qua mạng LAN và mạng Internet. Kết luận và định hướng phát triển.
+Các bản vẽ:
+Bản vẽ lắp:
+Sản phẩm: 1 máy cắt CNC Plasma
+LỜI NÓI ĐẦU Thiết kế chế tạo máy cắt Plasma CNC mini điều khiển thông qua mạng LAN
+Nâng cao chất lượng và hạ giá thành sản phẩm là một nhiệm vụ quan trọng của ngành chế tạo máy. Để nâng cao chất lượng sản phẩm cần phải phân tích các thông số của độ chính xác và nghiên cứu quan hệ phụ thuộc giữa chúng và các yếu tố công nghệ. Giải quyết các nhiệm vụ này chỉ có thể được thực hiện bằng các phương pháp thực nghiệm. Kết quả thực nghiệm cho phép xây dựng các mô hình toán học biểu thị quan hệ giữa các yếu tố ngẫu nhiên với mục đích tối ưu hóa nguyên công hoặc qui trình công nghệ. Độ chính xác gia công là đặc tính quan trọng của chi tiết máy. Trong thực tế không thể chế tạo chi tiết có độ chính xác tuyệt đối vì khi gia công xuất hiện các sai số.
+Trong ngành cơ khí chế tạo, chất lượng bề mặt làm việc cũng như độ chính xác về kích thước của các chi tiết máy có một vai trò đặc biệt quan trọng, ảnh hưởng lớn đến các chỉ tiêu kinh tế kỹ thuật của máy móc thiết bị. Việc đi sâu nghiên cứu để tìm các giải pháp công nghệ nhằm nâng cao độ chính xác cũng như chất lượng bề mặt làm việc của chi tiết máy đã được đặc biệt quan tâm. Vấn đề mà các nhà khoa học kỹ thuật đặt ra là phải nâng cao độ chính xác và chất lượng bề mặt, không ngừng đưa ra các công nghệ, phương pháp gia công mới hoàn thiện hơn.
+Phương pháp cắt CNC bằng hồ quang Plasma là một phương pháp có khả năng mang lại hiệu quả kinh tế cao, nó đã được đưa vào nghiên cứu và có một vài ứng dụng ở Việt Nam. Điển hình như một số chi tiết bass cẩu, nấp đậy động cơ, nghệ thuật, bảng hiệu… đã đạt được kết quả đáng khích lệ:
+- Nâng cao độ chính xác khi lắp ráp.
+- Nâng cao độ nhẵn bóng bề mặt vết cắt của chi tiết lên hai đến ba cấp.
+- Chi phí sản xuất và giá thành thấp, dễ dàng ứng dụng cho các cơ sở sản xuất.
+Trong phạm vi của đề tài, em tiến hành nghiên cứu, thiết kế và chế tạo máy Cắt CNC bằng Plasma điều khiển gián tiếp thông qua mạng LAN và mạng Internet. Dựa trên cơ sở lý thuyết đã được nghiên cứu chúng em tiến hành khảo sát từ thực tế tại các nhà máy, xí nghiệp từ đó tiến hành thu thập các số liệu về nhu cầu về máy cắt CNC Plasma. Đưa ra mô hình và thiết kế mini cho máy cắt CNC Plasma.
+Trong quá trình thực hiện đề tài, tuy có nhiều cố gắng nhưng không tránh khỏi những nhược điểm cũng như chưa có điều kiện nghiên cứu sâu hơn những vấn đề liên quan, rất mong được sự đóng góp của quý thầy cô và bạn đọc.
+
+MỤC LỤC
+CHƯƠNG I: DẪN NHẬP…………………………………….. .......1
+1.1. ĐẶT VẤN ĐỀ ……………………………………...............1
+1.2. ĐIỂM MỚI CỦA ĐỀ TÀI ....………………………………….2
+1.3. GIỚI HẠN ĐỀ TÀI …………………………………….... 2
+1.4. MỤC ĐÍCH NGHIÊN CỨU. ……………………...……….2
+1.5. PHƯƠNG PHÁP NGHIÊN CỨU: ...………………………….3
+CHƯƠNG II: CƠ SỞ LÝ LUẬN...………………………………….4
+2.1. TỔNG QUAN VỀ KỸ THUẬT ĐIỀU KHIỂN SỐ……………..4
+2.1.1. Các định nghĩa cơ bản về điều khiển số: ..………….4
+2.1.2. Phương pháp truyền thông tin đầu vào..…………….7
+2.1.3. Ưu nhược điểm của máy điều khiển số. ………………………………....……. 7
+2.2. TỔNG QUAN VỀ KỸ THUẬT CNC VÀ MÁY CNC …………………………………….8
+2.2.1. Khái niệm về CNC: ………………………….......................................………….8
+2.2.2. Lịch sử phát triển máy CNC …………………...........................………………….8
+2.2.3. Định nghĩa máy và trục máy. ………………...........................…………………….9
+2.2.4. Phân loại hệ thống điều khiển trong máy công cụ điều khiển số................ 10
+2.2.6. Phần mềm CNC. ………………………………….....................................................14
+2.3. GIỚI THIỆU VỀ MÁY CẮT THÉP TẤM. ....................……………………………….….16
+2.3.1. Các phương pháp cắt kim loại sử dụng nhiệt. ………………………………......16
+2.3.2. Các loại máy cắt thép tấm sử dụng nhiệt. ..........………………………………….25
+2.4. CÁC LOẠI MÁY SỬ DỤNG Ở VIỆT NAM HIỆN NAY VÀ ƯU NHƯỢC ĐIỂM. ..........27
+2.4.1. Tình hình sử dụng các thiết bị CNC tương tự của các nước trên thế giới....27
+2.4.2. Tình hình sử dụng và nghiên cứu chế tạo trong nước. ..............…………….29
+2.4.3. Nhu cầu thực tế về việc sử dụng máy cắt thép tấm CNC ở nước ta. .….…....30
+2.5. SO SÁNH CÔNG NGHỆ GIA CÔNG BẰNG HỒ QUANG PLASMA VỚI CÁC CÔNG NGHỆ KHÁC:.…………………….31
+2.5.1 Với công nghệ cắt bằng tia nước: …………..........................................................31
+2.5.2 Cắt bằng tia nước có hạt mài (Abrasive Water Jet Cutting - AWJC): ............... 33
+2.5.3 Với công nghệ cắt bằng tia Lazer: ……................................................................35
+2.5.4 So sánh đặc tính kỹ thuật: ……………............................................................37
+2.6. MỘT SỐ KHÓ KHĂN KHI TÍNH TOÁN VÀ CHẾ TẠO MÁY CNC Ở NƯỚC TA TRONG GIAI ĐOẠN HIỆN NAY. .............38
+CHƯƠNG III: THIẾT KẾ TÍNH TOÁN CHO MÁY CẮT CNC PLASMA MINI .............……….40
+3.1. LỰA CHỌN PHƯƠNG ÁN VÀ KẾT CẤU CỦA MÁY…………........................................40
+3.1.1. Lựa chọn kết cấu chung của máy: ...................................................................40
+3.1.2. Lựa chọn bộ truyền chuyển động quay thành chuyển động tịnh tiến.........….44
+3.2. CÁC THÔNG SỐ KĨ THUẬT CỦA MÁY CẮT...................................................………….45
+3.3. THIẾT KẾ TÍNH TOÁN KẾT CẤU VÀ HỆ THỐNG DẪN ĐỘNG CỦA MÁY..............…….48
+3.3.1. Xác định lực kéo phần thân máy:. ………………................................................... 48
+3.3.2. Tính toán động lực học máy: ……………………………..........................................48
+3.3.3. Tính toán thiết kế hệ dẫn động cơ khí của máy. ……...............................………. 50
+3.3.4. Tính toán lựa chọn các sống lăn: ……………..................................................52
+3.4. BẢN VẼ LẮP MÁY (PHỤ LỤC) ……………….......................................................56
+3.5. LẬP BẢNG GHI CÁC CHI TIẾT TIÊU CHUẨN (PHỤ LỤC)................................………….56
+3.6. HỆ THỐNG ĐIỀU KHIỂN ……………………………………........................................56
+3.6.1. Mạch điều khiển ......................................................................................................56
+3.6.2. Hệ thống CAD/CAM tích hợp để lập trình ...........................................…………….61
+3.6.3. Giao tiếp giữa máy và máy tính …………………………………….....................62
+CHƯƠNG IV: HƯỚNG DẪN SỬ DỤNG PHẦN MỀM MACH3 CONTROLLER .……………….62
+4.1. GIỚI THIỆU VỀ PHẦN MỀM MACH3 Plasma: ...........……………………….............…….63
+4.1.1.Giới thiệu ……………………………………..........................................................63
+4.1.2.Giao diện: ……………………………………...........................................................64
+4.1.3.Một số tính năng cơ bản và chức năng cung cấp bởi Mach3: …………...........….64
+4.2. CÁCH XÁC LẬP THÔNG SỐ TRONG PHẦN MỀM MACH3 .......................…….......…….65
+4.3. HƯỚNG DẪN CHẠY FILE TRONG MACH3 …………………….........................................74
+4.3.1.Trên vùng hiển thị và điều khiển tọa độ ............................……................................75
+4.3.2. Vùng điều khiển: ……………………………………..............................................76
+4.4. CHẠY MỘT FILE G-CODE MẪU ……………………………………..............................76
+CHƯƠNG V: GIỚI THIỆU PHẦN MỀM ỨNG DỤNG ĐIỀU KHIỂN THÔNG QUA MẠNG LAN VÀ MẠNG INTERNET …….78
+5.1. NETSUPPORT SCHOOL PRO10.05 ...........................................78
+5.2. TEAMVIEWER 6.07 …………………….......................................80
+5.2.1 Giới thiệu ………………………………................................80
+5.2.2 Hướng dẫn sử dụng: …………………….................................81
+CHƯƠNG VI: KẾT LUẬN VÀ KIẾN NGHỊ …….....................…………….94
+6.1. ĐÁNH GIÁ HIỆU QUẢ KINH TẾ VÀ AN TOÀN.…............................94
+6.2. KẾT LUẬN. ………………………...............................................94
+6.3. HƯỚNG PHÁT TRIỂN CỦA ĐỀ TÀI. ……………........................….95
+TÀI LIỆU THAM KHẢO
+Thiết kế chế tạo máy cắt Plasma CNC mini điều khiển thông qua mạng LAN
+1.1. ĐẶT VẤN ĐỀ LÍ DO CHỌN ĐỀ TÀI:
+Để vận dụng những kiến thức đã học và làm việc nhiều năm trong lãnh vực CAD – CAM – CNC. Thiết kế được máy CNC là điều trăn trở. Thiếu về tư liệu sản xuất cũng như phương tiện, thiết bị… Hiện nay nhu cầu về máy CNC phục vụ công nghiệp và các ngành sản xuất khác là rất lớn, doanh nghiệp thiết kế máy trong nước chỉ đáp ứng một phần nhỏ. Chủ yếu là nhập khẩu máy CNC mới từ nước ngoài về hay nhập máy cũ (seconhand) về. Ngoài ra để giảm chi phí quản lí và thuê mướn kỹ sư có trình độ cao làm việc. Thì việc cài đặt, lập trình, bảo dưỡng và điều khiển máy trong xí nghiệp lớn thì việc liên kết nhiều máy CNC với nhau, và điều khiển gián tiếp là việc cần làm. Vd: Một xưởng sản xuất chỉ cần 1 kỹ sư thiết kế sản phẩm, xuất file gia công, điều chỉnh máy (thông số)… Tại phòng điều khiển trung tâm có thể điều khiển khoảng 999 máy CNC. Công việc gá phôi sẽ được tự động hay do công nhân bậc thấp thực hiện Do máy CNC có tính lặp lại chính xác chu trình gia công. Đối với quá trình cắt Plasma thì việc tiếp xúc trực tiếp tại chỗ làm việc là cực kỳ nguy hiểm mất an toàn và ảnh hưởng tới sức khỏe: môi trường bị ô nhiễm nặng (khói độc, bức xạ hồ quang, bức xạ điện từ,…) nguy hiểm cho mắt, da, phổi…Tai nạn về phỏng do kim loại nóng chảy văng ra, điện giật…Nên điều khiển gián tiếp là biện pháp hiệu quả nhất. Máy sẽ được đặt trong môi trường kín sẽ đảm bảo vệ sinh môi trường làm việc cho công nhân. Trong tình hình hội nhập với nền kinh tế thế giới cùng với sự cạnh tranh gắt gao từ các nhà sản xuất nước ngoài. Điều này đòi hỏi các nhà sản xuất trong nước cần phải nâng cao năng lực cạnh tranh của sản phẩm hơn nữa bằng cách cải tiến và đầu tư máy móc, trang thiết bị an toàn, bảo vệ sức khỏe công nhân để phục vụ sản xuất. Đặc biệt là trong tình hình lao động hiện nay, nguồn lao động có tay nghề trong ngành cơ khí đang thiếu hụt trầm trọng. Chính vì điều này mà hiện nay vấn đề đặt ra là: để phát triển ngành sản suất cơ khí trong nước thì việc trang bị các máy móc tự động phục vụ một phần cho công việc trong quá trình sản xuất là vô cùng quan trọng. Ví dụ như một nhà máy đóng tàu nhỏ hay một cơ sở sản xuất các cấu kiện bằng thép nếu muốn trang bi một máy cắt phôi thép tấm tự động như vậy cần phải đầu tư một số tiền rất lớn. Chính vì vậy mà việc nghiên cứu, chế tạo một máy cắt thép tấm CNC dạng nhỏ với giá thành rẻ, kết cấu gọn, lắp ráp,đóng gói dễ dàng và sử dụng dễ dàng là rất cần thiết và hữu ích. Việc sử dụng sản phẩm trong nước như vậy sẽ làm cho các ngành sản xuất, gia công cơ khí trong nước phát triển, mặt khác nó còn nhằm mục đích hưởng ứng cuộc vận động sử dụng hàng sản xuất trong nước. Ngoài các lý do như trên thì việc thiết kế, chế tạo và sử dụng thiết bi cắt thép tấm CNC còn là tiền đề cho việc phát triển lĩnh vức cơ khí tự động hóa trong sản xuất. Hưởng ứng phong trào thiết kế máy CNC phục vụ trong nước của nước ta.
+1.2. ĐIỂM MỚI CỦA ĐỀ TÀI
+Ứng dụng phần mềm điều khiển máy cắt Plasma CNC. Thiết kế máy khối lượng nhẹ, lắp ráp, di chuyển dễ dàng Điều khiển gián tiếp và từ xa (thông qua mạng LAN, internet). Nhờ tính năng Vedio Control của phần mềm, ứng dụng các phần mềm điều khiển gián tiếp. Nên chỉ cần một kỹ thuật viên lập trình gia công cho các máy số lượng đến 999 máy con. Đảm bảo an toàn gần như tuyệt đối và bảo vệ môi trường cao (nếu đặt máy trong môi trường kín). Máy có khổ nhỏ (640x400) nhưng khả năng gia công cắt được những tấm vật liệu khổ lớn (không giới hạn kích thước). Do thiết kế tạo khoảng không giữa máy. Ứng dụng hiệu quả khi làm việc ngoài khu vực xưởng sản xuất. Công trình đang thi công ngoài xưởng (thiết kế tại văn phòng nhưng gián tiếp điều khiển gia công tại nơi thi công lắp ráp…)
+1.3. GIỚI HẠN ĐỀ TÀI
+Do thời gian nghiên cứu và điều kiện vật chất có hạn nên trong đề tài này người nghiên cứu mới chỉ tính toán, thiết kế và chế tạo thử nghiệm một mô hình máy cắt với kích thước nhỏ. Mô hình này gọn nhẹ, có khối lượng nhỏ 20kg, và vận tốc cắt tối đa là 1m/ph, hành trình cắt ở mỗi trục là 640x400mm và ứng dụng chủ yếu trong các xưởng sản xuất, hoặc các phân xưởng có nhu cầu sử dụng máy cắt các phôi thép tấm nhỏ có độ dày từ 0.1 mm đến 25 mm với hình dạng khác nhau đối với khách hàng có nhu cầu cắt, gia công.
+1.4. MỤC ĐÍCH NGHIÊN CỨU.
+Với đề tài “Thiết kế, chế tạo máy cắt plasma C.N.C mini” người nghiên cứu thể hiện với các mục đích sau: Hoàn thiện một lượng kiến thức khá lớn về tin học và điện tử nói chung, công nghệ tự động hoá nói riêng. Nghiên cứu tính toán , thiết kế và chế tạo theo hướng đơn giản hóa các kết cấu, thu nhỏ các kích thước của những máy đã chế tạo trước đây để tạo thành một máy mới có có giá thành hạ, kết cấu đơn giản, dễ vận hành, dễ thao tác và di chuyển từ nơi làm việc này đến nơi làm việc khác. Loại máy cắt này có kết cấu tương tự như thiết bị cắt tự hành nhưng có thể di chuyển đầu cắt đến tọa độ bất kì trong mặt phẳng cắt để tạo thành các hình dạng sản phẩm cần cắt khác nhau. Với khả năng cắt tự động, sử dụng như là một máy phay CNC có thể được đặt trực tiếp lên trên vật liệu cắt (tấm lớn…), sử dụng thuận tiện và linh hoạt trong việc di chuyển máy trong phạm vi công việc. Ngôn ngữ sử dụng để điều khiển hệ thống là tiếng Anh, giao diện đẹp mắt, hoạt động rất đơn giản và thuận tiện, có sẵn thư viện để cắt các hình cơ bản như vuông, tròn, chữ nhật, hoa văn, hình ảnh nghệ thuật (người, xe, con vật, hoa, cây cối….) mà không cần lập trình. Ưu điểm của máy là bộ nhớ xử lý lớn có thể gia công những chi tiết phức tạp (file có dung lượng lớn). Hình dáng của mẫu cắt có thể vẽ trên phần mềm Auto CAD đơn giản, hiệu quả và dễ sử dụng. Chuyển qua phần mềm MastercamX xuất sang dạng Gcode. Ngoài ra phần mềm còn hỗ trợ phần mềm Lazy Cam chuyên dùng cho cắt tấm vật liệu (đọc được file DXF và một số file hỗ trợ CAM). Góp phần phát triển ngành công nghệ tự động của nước nhà.
+1.5. PHƯƠNG PHÁP NGHIÊN CỨU:
+Phương pháp tham khảo tài liệu: Tài liệu về điều khiển tự động, tài liệu về công nghệ CNC, tài liệu về thiết kế mô phỏng, tài liệu về lập trình vi điều khiển, tài liệu về động cơ bước, động cơ Servo… Tham khảo một số máy CNC có cấu trúc tương tự và giá thành của chúng trên thị trường. Tham khảo một số tài liệu về thiết kế máy cắt CNC trước đây. Tham khảo các tài liệu về thiết kế bộ điều khiển cho máy CNC Nghiên cứu kết cấu của các loại máy CNC trên thị trường có tính năng tương tự, cải tiến những khuyết điểm.. Phương pháp thực nghiệm: Lắp ráp và thí nghiệm các mạch điều khiển động cơ DC Step, Bộ điều khiển chính, cổng truyền thông nối tiếp với file hình vẽ trên Auto CAD, gia công toàn bộ các chi tiết và lắp ráp hoàn chỉnh mô hình máy cắt CNC Plasma.
+CHƯƠNG II
+CƠ SỞ LÝ LUẬN
+2.1. TỔNG QUAN VỀ KỸ THUẬT ĐIỀU KHIỂN SỐ
+2.1.1. Các định nghĩa cơ bản về điều khiển số:
+2.1.1.1 Điều khiển số:
+Điều khiển số (Numerical control) là một quá trình tự động điều khiển các hoạt động của máy dựa trên cơ sở các dữ liệu được mã hóa đặc biệt tạo nên một chương trình làm việc của thiết bị hay hệ thống.
+2.1.1.2 Hệ thống điều khiển số:
+Là hệ thống mà trong đó các hoạt động được điều khiển là dữ liệu số đưa vào trực tiếp ở một điểm nào đó. Hệ thống đó phải tự động dịch chuyển tối thiểu một phần nào đó của dữ liệu này. Dữ liệu là thông tin cung cấp bởi mã nhị phân. Nó được biểu diễn dưới dạng mã số hoặc ký tự. Đây là thông tin cần thiết để tạo ra một chương trình gọi là chương trình gia công. Có hai loại hệ thống điều khiển: Hệ thống điều khiển kín và hệ thống điều khiển hở.
+a. Hệ thống điều khiển hở:

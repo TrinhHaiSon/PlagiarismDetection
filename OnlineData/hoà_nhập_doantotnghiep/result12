@@ -1,0 +1,700 @@
+Lời nói đầu. 1 Đặt vấn đề. 2 Chương 1. Tổng quan về ô nhiễm môi trường và giới thiệu ô tô Hybrid. 5 1.1. Tổng quan về ô nhiễm môi trường. 5 1.1.1. Ô nhiễm môi trường từ góc độ giao thông. 5 1.1.2. Giải pháp giảm ô nhiễm môi trường do giao thông cơ giới. 7 1.2. Giới thiệu chung về ô tô Hybrid. 9 1.2.1. Xu thế phát triển của ô tô sạch. 9 1.2.2. Giới thiệu chung và lịch sử ra đời của ô tô Hybrid. 11 1.2.2.1. Ô tô Hybrid là gì. 11 1.2.2.2. Lịch sử phát triển của ô tô Hybrid. 11 1.2.2.3. Giới thiệu một số mẫu xe Hybrid. 14 1.2.2.4. Ưu nhược điểm của ô tô Hybrid. 17 Chương 2. Thiết kế chung ô tô Hybrid 9 chỗ ngồi. 19 2.1. Yêu cầu thiết kế. 19 2.1.1. Yêu cầu chung. 19 2.1.2. Cơ sở thiết kế ô tô. 19 2.1.2.1. Cơ sở khoa học của thiết kế. 19 2.1.2.2. Cơ sở kỹ thuật của thiết kế. 19 2.1.2.3. Cơ sở kinh tế của thiết kế. 19 2.1.2.4. Cơ sở thẩm mỹ của thiết kế. 20 2.1.2.5. Cơ sở nhân trắc của thiết kế. 20 2.1.3. Các yêu cầu kinh tế kĩ thuật cơ bản đối với kết cấu ô tô. 21 2.2. Thiết kế tổng thể. 22 2.3. Tính toán ổn định ô tô Hybrid 9 chỗ ngồi. 24 2.3.1.Xác định tọa độ trọng tâm. 24 2.3.2. Tính ổn định dọc tĩnh khi ô tô lên dốc. 25 2.3.3. Tính ổn định dọc tĩnh khi ô tô xuống dốc. 26 2.3.4. Tính toán ổn định ngang. 27 2.3.5. Tính ổn định của ô tô khi quay vòng. 28 2.4. Tính toán, lựa chọn các hệ thống phanh, lái, treo. 29 2.4.1. Tính toán, lựa chọn các hệ thống phanh. 29 2.4.1.2. Tính toán các thông số cơ bản của cơ cấu phanh. 31 2.4.2. Hệ thống treo. 33 2.4.2.1. Chọn loại hệ thống treo. 33 2.4.2.2. Độ biến dạng và tải trọng tác dụng lên hệ thống treo trước và sau. 33 2.4.3. Hệ thống lái 35 2.4.3.1. Xác định các thông số cơ bản. 35 2.4.3.2. Xác định mômen cản quay vòng Mcq. 36 Chương 3. Thiết kế tính toán hệ thống truyền lực kết hợp động cơ điện và động cơ nhiệt. 39 3.1. Các phương án bố trí và truyền động trên ô tô Hybrid . 39 3.1.1. Các phương án bố trí các hệ thống trên ô tô hybrid. 39 3.1.1.2. Kiểu bố trí song song. 40 3.1.1.3. Kiểu bố trí hỗn hợp. 41 3.1.2 . Các phương án truyền động trên ô tô hybrid. 42 3.1.2.1. Bộ truyền kết hợp công suất kiểu nối cứng tốc độ (w2 º w1.i21). 44 3.1.2.2. Bộ truyền kết hợp công suất kiểu biến đổi mômen. 46 3.1.2.3. Bộ kết hợp công suất kiểu vi sai. 51 3.2. Tính toán, lựa chọn công suất động cơ điện và nhiệt. 55 3.2.1. Tính toán, lựa chọn công suất động cơ nhiệt. 55 3.2.2. Phân chia tỷ lệ công suất. 57 3.2.3. Lựa chọn động cơ :. 57 3.2.4. Tính toán, lựa chọn công suất động cơ điện. 58 3.2.5. Xác định các thông số cho pin ( ắc quy chính ) dùng chạy động cơ điện. 62 3.3. Hệ thông điều khiển trên ô tô Hybrid. 65 3.3.1. Sơ đồ tổng quát hệ thống điều khiển trên ô tô Hybrid. 65 3.3.2. Điều khiển động cơ điện 1 chiều. 66 3.3.2.1. Phương án điều khiển động cơ điện một chiều kích từ nối tiếp. 66 3.3.2.2. Bộ băm điện áp. 68 3.3.2.3. Mạch đảo chiều của hệ thống Tyristo – động cơ. 72 3.3.2.4. Mạch điện điển hình để điều khiển tốc độ động cơ điện một chiều kích từ nối tiếp. 73 3.3.2.5 : Sơ đồ mạch điện điều khiển chung. 78 3.4. Các bộ phận chính trong hệ thống truyền động kết hợp. 80 3.4.1. Bộ điều khiển trung tâm HV ECU (Hybrid Vehicle Electronic Control Unit). 80 3.4.2. Động cơ đốt trong. 80 3.4.3. Bộ kết hợp công suất. 80 3.4.4. Động cơ điện. 81 3.4.5. Bộ phận chuyển đổi. 82 3.4.6. Pin nhiên liệu. 82 3.4.7. Cáp nguồn. 83 3.4.8. Hộp số vô cấp. 83 3.5. Nguyên lý hoạt động của ô tô Hybrid 9 chỗ ngồi sử dụng kết hợp động cơ nhiệt và động cơ điện. 84 3.5.1. Chế độ đứng yên. 84 3.5.2. Chế độ khởi động xe. 85 3.5.3. Chế độ khởi động động cơ đốt trong khi xe đang chạy. 86 3.5.4. Tăng tốc nhẹ với động cơ. 87 3.5.5. Tốc độ thấp ổ định. 88 3.5.6. Tăng tốc. 89 3.2. 7. Tốc độ cao ổn định. 90 3.5.8. Tốc độ tối đa. 91 3.6. Xác định các thông số cơ bản của bộ truyền kết hợp kiểu vi sai. 93 3.6.1 Số răng của các bánh răng của bộ vi sai. 93 3.6.2. Các kích thước cơ bản của bộ vi sai. 93 Chương 4. Xây dựng đường đặc tính ô tô Hybrid. 97 4.1. Xây dựng đặc tính động cơ đốt trong. 97 4.2. Xây dựng đặc tính Moto. 99 4.3. Xây dựng đặc tính kéo cho ôtô HYBRID.. 101 4.3.1. Tính tỷ số truyền chính io. 101 4.3.2. Các công thức tính lực kéo. 102 Chương 5. Quy trình kiểm tra chất lượng xuất xưởng. 106 5.1. Kiểm tra tổng thể:. 106 5.1.1 Số khung, số động cơ:. 106 5.1.2 Khung,thân vỏ. 106 5.1.3 Gương chiếu hậu phía ngoài:. 106 5.1.4 Hệ thống đèn chiếu sáng và tín hiệu. 107 5.1.5 Động cơ và các bộ phận liên quan. 107 5.1.6 Bánh xe và moay ơ:. 107 5.2. Kiểm tra gầm xe. 108 5.2.1. Hệ thống phanh. 108 5.2.2. Li hợp. 108 5.2.3 . Cơ cấu lái và các đòn dẫn động lái. 108 5.3.3. Các khớp cầu, khớp chuyển hướng. 109 5.3.4. Ngõng quay lái:. 109 5.3.5. Lò xo, ụ hạn chế hành trình. 109 5.3.6. Giảm chấn:. 109 5.3.7. Các đăng:. 110 5.3.8. Cầu xe:. 110 5.3. Kiểm tra buồng lái và khoang hành khách. 110 5.3.1. Kính chắn gió:. 110 5.3.2 Gương chiếu hậu:. 111 5.3.3. Gạt nước và phun nước rửa kính:. 111 5.3.4. Ghế người lái:. 111 5.3.5. Đai an toàn ghế của người lái:. 111 5.3.6 . Vô lăng lái:. 112 5.3.7. Cần số, phanh tay. 112 5.3.8. Các pêđan li hợp, phanh, ga. 112 5.3.9. Các đồng hồ tốc độ, áp suất khí nén, báo số vòng quay động cơ, mức nhiên liệu…, các đèn chỉ báo. 112 5.3.10. Kính cửa sổ:. 113 5.3.11. Sàn xe, trần xe và các thành bên: 113 5.3.12. Đèn chiếu sáng trong xe, đèn bậc cửa lên xuống, điều hòa, quạt thông gió. 113 Kết luận. 114 TÀI LIỆU THAM KHẢO.. 115
+
+Lời nói đầu.
+Ngày nay, vấn đề môi trường là một vấn đề ” đặc biệt” luôn được quan tâm không chỉ trong phạm vi một quốc gia mà lan rộng ra trên toàn thế giới. Ô nhiễm do xe cơ giới đang là vấn nạn của các quốc gia, nhất là những quốc gia đang phát triển như Việt Nam. Nó ảnh hưởng trực tiếp hoặc gián tiếp đến sức khoẻ con người.
+Với mục đích cải thiện về trang thiết bị, máy móc, sức lao động con người. Nhằm nâng cao chất lượng vệ sinh,giảm thải ô nhiểm môi trường, đảm bảo quá trình đô thị hoá của thành phố , trong quá trình làm đồ án tốt nghiệp em chọn nhiệm vụ " Thiết kế ô tô Hybrid 9 chỗ ngồi sử dụng động cơ nhiệt và điện.”
+Đồ án tốt nghiệp là điều kiện tất yếu mà mọi sinh viên phải hoàn thành, để hiểu biết một cách chặt chẽ và nắm vững sâu thêm về kiến thức ôtô. Qua đó sẽ cũng cố thêm kiến thức đã học, thể hiện sự am hiểu về kiến thức cơ bản và cũng là sự vận dụng lý thưyết sao cho hợp lý, nghĩa là lúc này sinh viên đã được làm việc của một cán bộ kỹ thuật.
+Trong quá trình hoàn thành đề tài, mặc dù đã rất cố gắng, nhung do kiến thức có hạn, tài liệu tham khảo về xe hybrid còn thiếu, chưa có nhiều thực tế ngoài đời sống nên đề tài không thể tránh khỏi thiếu xót. Em rất mong được sự chỉ dẫn quý báu của thầy cô để em hoàn thiện tốt hơn. Em chân thành gửi lời cảm ơn thầy giáo hướng dẫn TS. Lê Văn Tụy, thầy hướng dẫn Th.s. Phạm Quốc Thái, các thầy cô trong khoa và các bạn sinh viên đã giúp đỡ hết sức tậm tình để em hoàn thành đồ án và khóa học.
+
+Đà nẵng, ngày 30 tháng 05 năm 2011
+Sinh viên thực hiện:
+
+Lê Đắc Dũng.
+
+
+
+
+
+
+
+
+ĐẶT VẤN ĐỀ.
+Phương tiện giao thông là nguồn phát thải ô nhiễm không khí quan trọng nhất hiện nay. Phương tiện giao thông không gây ô nhiễm (zero emission) từ lâu đã là mục tiêu nghiên cứu của các nhà khoa học. Nhiều giải pháp đã được đưa ra cả về mặt hoàn thiện kết cấu động cơ lẫn tìm kiếm các nguồn nhiên liệu thay thế xăng dầu truyền thống để giảm mức độ phát thải ô nhiễm. Các nghiên cứu này trở nên bức thiết khi nguồn dầu lửa ngày càng cạn kiệt, giá dầu thô thay đổi thất thường và dường như không còn được kiểm soát bằng những giải pháp truyền thống mà thế giới đã dùng trong hơn thế kỷ qua.
+
+Hình 1-1: Trữ lượng dầu năm 2005 của các vùng khác nhau trên thế giới tính theo năm sản xuất 2005.
+Nhìn vào đồ thị ta thấy trữ lượng dầu của các vùng trên thế giới đang có xu hướng giảm, thời gian sử dụng chỉ còn một vài chục năm nữa. Thậm chí trữ lượng dầu tại Châu Âu chỉ còn 9 năm ( theo : BP Statistical Review, 2007). Giá dầu thô thì thất thường và đang tăng cao. Theo điều tra của Reuters thông qua 31 chuyên gia phân tích công nghiệp, dự báo giá dầu thô Mỹ trung bình năm 2011 sẽ là 96,73 US$/thùng. Đây là tháng thứ năm liên tiếp, các chuyên gia phân tích tăng mức giá dầu dự báo (tăng 6,33$/thùng so với dự báo trước). Giá dầu thô Mỹ Trung bình Quý 2/2011sẽ là 99,8$/thùng. Giá dầu Brent trung bình năm nay cũng được dự báo tăng 13,4$/thùng so với báo cáo trước, lên mức 104,57$/thùng. Giá dầu Brent trung bình Quý 2/2011sẽ là 107,9$/thùng. Mức chênh lệch giá giữa dầu Brent và WTI sẽ ở ngưỡng trung bình 7,84$/thùng trong suốt năm 2011, giá dầu WTI vẫn thấp hơn Brent.
+
+Hình 1-2: Giá dầu thô thế giới và dự báo giá dầu thô năm 2011 (theo Reuters).
+Trong những năm qua, Nhà Nước phải dùng ngân sách để bù lỗ cho xăng dầu để đảm bảo ổ định giá mặt hàng thiết yếu này nhằm ổn định giá cả của các mặt hàng khác. Tuy nhiên hiện nay giá dầu thô trên thế giới đã vượt ngưỡng 100USD/thùng, Nhà Nước không còn khả năng bù lỗ, giá xăng dầu đã tăng và trong tương lai, mức độ tăng giá xăng dầu sẽ ngày càng mạnh mẽ hơn do nguồn dữ trữ dầu thô đã cạn kiệt. Theo thống kê của Exxon Mobil, 2002 lượng xăng dầu và khí gas được tìm thấy đến bây giờ chưa đáp ứng được nhu cầu tiêu thụ.
+
+Hình 1-3: Lượng gas và lượng dầu tìm thấy hàng năm từ năm 1990.
+Mặt khác, điều kiện của nước ta năng lượng điện năng tuy chưa có sản lượng lớn nhưng tiềm năng là không thể bỏ qua. Hiện tại điện năng nước ta chủ yếu được sản xuất bằng thủy điện (năng lượng tái sinh). Một số nhà máy thủy điện lớn như : nhà máy thuỷ điện Sơn La (tỉnh Sơn La), Hoà Bình ( tỉnh Hòa Bình), Ialy ( Gia Lai- Kon Tum), Trị An ( Đồng Nai), Sông Hinh ( Phú Yên), Thác Mơ ( Bình Phước), Đa Nhim (Ninh Thuận).... Ngoài ra còn phải kể đến nhiệt điện Phả Lại ( Hải Dương ), Uông Bí ( Quảng Ninh) ....Xu hướng nước ta sẽ xây thêm nhiều nhà máy thủy và nhiệt điện và nhất là sẽ xây dựng nhà máy điên hạt nhân. Do đó từ nay đến 2020, ô tô hybrid chạy kết hợp động cơ nhiệt và động cơ điên và nạp điện bổ sung bằng là phù hợp nhất. Trong xu thế hòa nhập kinh tế khu vực (AFTA) và thế giới (WTO), thị trường nội địa của nước ta chắc chắn sẽ là mảnh đất màu mỡ đối với các nhà sản xuất ô tô thế giới. Mặt khác việc hoà nhập kinh tế với thế giới sẽ nẩy sinh vấn đề về tiêu chuẩn chất thải của xe cho phù hợp với những quy định của thế giới. Nếu chúng ta cứ nhập xe từ nước khác xẽ làm mất thị phần đối với một sản phẩm công nghiệp quan trọng của đất nước. Vì vậy, việc nghiên cứu thiết kế tiến tới sản xuất một chủng loại ô tô phù hợp với điều kiện sử dụng trong nước có ý nghĩa rất thiết thực, cấp bách và mang tính chiến lược đối với nước ta.
+Đề tài “ thiết kế ô tô Hybrid 9 chỗ ngồi sử dụng kết hợp động cơ nhiệt và động cơ điện ” đặt nền tảng cho việc thiết kế và sản xuất một kiểu ô tô mang nhãn hiệu Việt Nam phù hợp với điều kiện giao thông trong nước, giá thành vừa phải, có hiệu suất sử dụng năng lượng cao và mức độ phát ô nhiễm thấp, góp phần thực hiện nhiệm vụ cấp bách nói trên nhằm đẩy nhanh tiến trình công nghiệp hóa, hiện đại hóa đất nước. Mục tiêu chính hướng tới của đề tài là :
+Nâng cao điều kiện sống của người dân. Nâng cao chất lượng vệ sinh đảm bảo quá trình đô thị hoá của thành phố Tiết kiệm năng lượng và giảm ô nhiễm môi trường trong giao thông vận tải. Tạo ra mặt hàng công nghiệp đặc thù mang lợi thế cạnh tranh lớn. Phát triển ngành công nghiệp sản xuất ô tô ở Việt Nam. Tạo ra một nét mới để khẳng định nguồn nhân lực của con người Việt Nam.
+
+
+
+
+
+Chương 1. Tổng quan về ô nhiễm môi trường và giới thiệu ô tô Hybrid.
+1.1. Tổng quan về ô nhiễm môi trường.
+1.1.1. Ô nhiễm môi trường từ góc độ giao thông.
+Trái đất nóng lên đang là thách thức của nhân loại mọi quốc gia trên thế giới, nhiều biện pháp giảm thiểu tình trạng này được đưa ra. Nhưng hàng ngày, vẫn có một nghịch lý diễn ra, chúng ta vẫn mặc nhiên “đóng góp” thêm cho sự nóng lên bằng chính phương tiện giao thông cơ giới: tai nạn, ùn tắc, lãng phí, rối loạn từ giao thông... Không những thế phương tiện giao thông cơ giới ngày càng tăng nhanh.
+
+Hình 1-4: Số lượng ô tô và xe máy hoạt động hàng năm của Việt Nam (Nguồn: Cục Đăng kiểm Việt Nam và Vụ KHCN&MT, Bộ GTVT, 2009)
+Mới đây, Cục Đăng kiểm Việt Nam công bố kết quả khảo sát nghiên cứu về môi trường đô thị: Hầu hết các loại khí độc hại như HC, CO, C02, S02, NOx trong môi trường không khí tại các đô thị Việt Nam đều vượt tiêu chuẩn cho phép. Có những nơi mật độ giao thông cao, tình trạng tắc nghẽn giao thông thường xuyên thì mức độ ô nhiễm và các chất độc hại nêu trên tăng gấp hơn hai lần so với tiêu chuẩn cho phép. Khí thải xe gây hại sức khỏe cộng đồng. Nguyên nhân gây ô nhiễm môi trường không khí xuất phát từ hoạt động xây dựng, sản xuất công nghiệp… nhưng nguyên nhân chính được các cơ quan chức năng xác định là do lượng khí thải phát ra từ xe môtô, xe gắn máy không kiểm soát được. Môi trường không khí bị ô nhiễm đã và đang gây hại đến sức khỏe con người, làm ảnh hưởng trực tiếp đến hệ hô hấp và nhiều cơ quan nội tạng khác. Các nhà nghiên cứu đã tính toán và đưa ra con số về mức độ thiệt hại kinh tế do ô nhiễm không khí, chủ yếu là do khí thải xe máy, ở TP.HCM là hơn 50 triệu USD/năm; còn ở Hà Nội là hơn 20 triệu USD/năm, chiếm từ 0,3 đến 0,6% GDP của thành phố.
+Dưới đây là biểu đồ về lượng ô nhiễm của một số chất gây ô nhiễm như : NO2,
+CO, CO2 do Các trạm QT&PTMT vùng (Đất liền 1, 2, 3) – Mạng lưới QT&PTMT quốc gia, 2010 và Chi cục BVMT TP. Hồ Chí Minh, Cục BVMT, 2007 cung cấp.
+Biểu đồ 1.
+
+Hình 1-5: Diễn biến nồng độ NO2 ven các trục giao thông của một số đô thị trong toàn quốc ( nguồn : Các trạm QT&PTMT vùng (Đất liền 1, 2, 3) – Mạng lưới QT&PTMT quốc gia, 2010 ).
+Biểu đồ 2.
+
+Hình 1-6 : Diễn biến nồng độ SO2 tại các trục đường giao thông ở một số đô thị
+( nguồn : Các trạm QT&PTMT vùng (Đất liền 1, 2, 3) – Mạng lưới QT&PTMT quốc gia, 2010).
+Biểu đồ 3.
+
+Hình 1-7: Diễn biến nồng độ CO tại các tuyến đường phố của một số đô thị 2002-2006.
+( nguồn : Chi cục BVMT TP. Hồ Chí Minh, Cục BVMT, 2007).
+1.1.2. Giải pháp giảm ô nhiễm môi trường do giao thông cơ giới.
+Trước thực trạng đó nhà nước cần phải có những phương án cụ thể :
+Cải tạo quy hoạch hệ thống giao thông đô thị sao cho đáp ứng các chỉ tiêu: Tỷ lệ diện tích giao thông động đạt 15-20% tổng diện tích xây dựng đô thị, tỷ lệ diện tích giao thông tĩnh đạt 3-6%, mật độ đường đạt khoảng 6km/1km2; Phát triển giao thông công cộng (đạt trên 40%), giao thông đi bộ và đi xe đạp trong thành phố; Thắt chặt các tiêu chuẩn môi trường có liên quan (tiêu chuẩn xăng dầu, tiêu chuẩn khí thải của các phương tiện giao thông cơ giới); Tiến hành kiểm soát nguồn thải của các loại xe và cấm vận hành đối với các xe không đạt tiêu chuẩn EURO2 về khí thải. Khuyến khích xe cộ sử dụng nhiên liệu sạch hơn (xe chạy bằng khí hóa lỏng (LPG), khí tự nhiên nén (CNG), ethanol, dầu sinh học) và xe điện. Cấm hoặc giảm lượng xe cá nhân chạy ở khu vực trung tâm thành phố, chỉ dành cho người đi bộ và xe công cộng. Truyền thông nâng cao nhận thức và xây dựng văn hóa, đạo đức môi trường cho mọi người dân đô thị, đặc biệt là đối với những người lái xe ô tô, xe máy và chủ các cơ sở sản xuất.
+
+Giới thiệu tiêu chuẩn EURO áp dụng ở Việt Nam cho các loại động cơ đốt trong.
+Phương tiện loại nhẹ.
+Mô tả Động cơ Euro 1 Euro 2 Euro 3 Euro 4 Kiểu 1 g/km g/km g/km g/km CO Xăng 2,72 2,2 2,3 1,0 Diesel 1,0 0,64 0,5 Diesel phun trực tiếp HC Xăng Không Không 0.2 0.1 Diesel Không Không Diesel phun trực tiếp NOx Xăng Không Không 0,15 0,08 Diesel 0,5 0,25 Diesel phun trực tiếp HC + NOx Xăng 0,97 0,5 Không Không Diesel 0,7 0,56 0,3 Diesel phun trực tiếp 0,9 Chất thải hạt Xăng Không Không Không Không Diesel 0,14 0,08 0,05 0,025 Diesel phun trực tiếp 0,10
+
+
+b. Động cơ hạng nặng và động cơ phi đường bộ (g/kW.h)
+
+Mô tả Động cơ Euro 1 (1996) Euro 2 (1996) Euro 3 (2000) Euro 4 (2005) Euro 5 (2008) CO ESC 4,5 4,0 2,1 1,5 1,5 ETC Không 5,4 4,0 4,0 HC ESC 1,1 1,1 0,66 0,46 0,46 NMHC ETC Không 0,78 0,55 0,55 CH4(động cơ Gas) ETC Không 1,6 1,1 1,1 NOx ESC 8,0 7,0 5,0 3,5 2,0 ETC Không 5,0 3,5 2,0 Chất thải hạt ESC 0,36 0,15 0,10 0,02 0,02 ETC Không 0,16 0,03 0,03 NMHC (none metal hydrocacbon): Tổng lượng thải hydrocacbon không bao gồm metal
+
+1.2. Giới thiệu chung về ô tô Hybrid.
+1.2.1. Xu thế phát triển của ô tô sạch.
+Có nhiều giải pháp đã được công bố trong những năm gần đây, tập trung vào việc hoàn thiện quá trình cháy động cơ Diesel, sử dụng các loại nhiên liệu không truyền thống cho ô tô như LPG, khí thiên nhiên, methanol, ethanol, biodiesel, điện, pin nhiên liệu, năng lượng mặt trời, ô tô lai (hybrid). Xu hướng phát triển ô tô sạch có thể tổng hợp như sau:
++ Hoàn thiện động cơ diesel:
+Các kỹ thuật mới để hoàn thiện động cơ diesel đã cho phép nâng cao rõ rệt tính năng của nó bao gồm áp dụng hệ thống phun ray chung (common rail) điều khiển điện tử, lọc bồ hóng và xử lý khí trên đường xả bằng bộ xúc tác ba chức năng, hoặc nâng cao chất lượng nhiên liệu, sử dụng nhiên liệu diesel có hàm lượng lưu huỳnh cực thấp. Việc dùng động cơ diesel sử dụng đồng thời nhiên liệu khí và nhiên liệu lỏng (dual fuel) cũng là một giải pháp nâng cao tính năng của động cơ diesel.
++ Ô tô chạy bằng các loại nhiên liệu lỏng thay thế:
+Các loại nhiên liệu lỏng thay thế quan tâm hiện nay là cồn, colza,... có nguồn từ thực vật. Do thành phần C trong nhiên liệu thấp nên quá trình cháy sinh ra ít chất ô nhiễm có gốc carbon, đặc biệt là giảm CO2, chất khí gây hiệu ứng nhà kính. Ngày nay việc ứng dụng các loại nhiên liệu lỏng thay thế trên phương tiện vận tải nói chung và trên xe buýt nói riêng vẫn còn rất hạn chế do giá thành của nhiên liệu còn cao. Tuy nhiên giải pháp này có lợi ở những nơi mà nguồn nhiên liệu này dồi dào hoặc các loại nhiên liệu trên được chiết xuất từ các chất thải của quá trình sản xuất công nghiệp.
+Một loại nhiên liệu lỏng thay thế khác mới đây được công bố là Dimethyl ether (DME) được chế tạo từ khí thiên nhiên. Đây là loại nhiên liệu thay thế cực sạch có thể dùng cho động cơ diesel giống như LPG. Thử nghiệm trên ô tô cho thấy, ô tô dùng DME có mức độ phát ô nhiễm thấp hơn nhiều so với tiêu chuẩn ô tô phát ô nhiễm cực thấp California ULEV. Nếu việc sản xuất DME trên qui mô công nghiệp thành hiện thực thì trong tương lai nó sẽ là nhiên liệu lỏng lý tưởng nhất vì khí thiên nhiên phân bố đều khắp trên trái đất và có trữ lượng tương đương dầu mỏ.
++ Ô tô chạy bằng khí thiên nhiên:
+Sử dụng ô tô chạy bằng khí thiên nhiên là một chính sách rất hữu ích về năng lượng thay thế trong tương lai, đặc biệt về phương diện giảm ô nhiễm môi trường trong thành phố. Cho tới nay có hai giải pháp sử dụng khí thiên nhiên trên xe buýt, đó là khí thiên nhiên dưới dạng khí và khí thiên nhiên dưới dạng lỏng. Một trong những khó khăn khiến cho nguồn năng lượng này chưa được áp dụng rộng rãi trên phương tiện vận tải là vấn đề lưu trữ khí thiên nhiên (dạng khí hay dạng lỏng) trên ô tô. Ngày nay việc chế tạo bình chứa khí thiên nhiên đã được cải thiện nhiều cả về công nghệ lẫn vật liệu, chẳng hạn sử dụng bình chứa composite gia cố bằng sợi carbon.
++ Ô tô chạy bằng khí dầu mỏ hóa lỏng LPG:
+Khí dầu mỏ hóa lỏng LPG ngày càng trở nên là loại nhiên liệu ưa chuộng để chạy ô tô ngoài những đặc điểm nổi bật về giảm ô nhiễm môi trường nó còn có lợi thế về sự thuận tiện trong chuyển đổi hệ thống nhiên liệu. Việc chuyển đổi ô tô chạy bằng nhiên liệu lỏng sang dùng LPG có thể được thực hiện theo ba hướng: sử dụng duy nhất nhiên liệu LPG, sử dụng hoặc xăng hoặc LPG, sử dụng đồng thời diesel và LPG (dual fuel). Việc tạo hỗn hợp LPG không khí có thể thực hiện bằng bộ chế hoà khí kiểu Venturie thông thường hay phun LPG trên đường nạp. Những hệ thống phun mới đang được nghiên cứu phát triển là phun LPG dạng lỏng trong buồng cháy để tăng tính năng công tác của loại động cơ này. Cũng như các loại nhiên liệu khí khác, việc lưu trữ LPG trên ô tô là vấn đề gây nhiều khó khăn nhất mặc dù áp suất hóa lỏng của LPG thấp hơn rất nhiều so với khí thiên nhiên hay các loại khí khác. Các loại bình chứa nhiên liệu LPG cũng được cải tiến nhiều nhờ vật liệu và công nghệ mới.
++ Ô tô chạy bằng điện:
+Ô tô chạy điện về nguyên tắc là ô tô sạch tuyệt đối (zero emission) đối với môi trường không khí trong thành phố. Nguồn điện dùng để chạy ô tô được nạp vào accu do đó quãng đường hoạt động độc lập của ô tô phụ thuộc vào khả năng tích điện của accu. Nếu nguồn điện được sản xuất từ các nguồn năng lượng tái sinh (thủy điện, pin mặt trời...) thì ô tô dùng điện là loại phương tiện lý tưởng nhất về mặt ô nhiễm môi trường. Tuy nhiên nếu nguồn điện được sản xuất từ nhiên liệu hóa thạch thì ưu điểm này bị hạn chế nếu xét về mức độ phát ô nhiễm tổng thể. Ngày nay ô tô chạy bằng accu đã đạt được những tính năng vận hành cần thiết giống như ô tô sử dụng nhiên liệu lỏng truyền thống.
++ Ô tô chạy bằng pin nhiên liệu:
+Một trong những giải pháp của nguồn năng lượng sạch cung cấp cho ô tô trong tương lai là pin nhiên liệu. Pin nhiên liệu là hệ thống điện hóa biến đổi trực tiếp hóa năng trong nhiên liệu thành điện năng. Pin nhiên liệu trước đây chỉ được nghiên cứu để cung cấp điện cho các con tàu không gian nhưng ngày nay pin nhiên liệu đã bước vào giai đoạn thương mại hóa để cung cấp năng lượng cho ô tô. Do không có quá trình cháy xảy ra nên sản phẩm hoạt động của pin nhiên liệu là điện, nhiệt và hơi nước. Vì vậy có thể nói ô tô hoạt động bằng pin nhiên liệu là ô tô sạch tuyệt đối theo nghĩa phát thải chất ô nhiễm trong khí xả. Ô tô chạy bằng pin nhiên liệu không nạp điện mà chỉ nạp nhiên liệu hydrogen. Khó khăn vì vậy liên quan đến lưu trữ hydro dưới áp suất cao hoặc trong vật liệu hấp thụ trên phương tiện vận tải.
+
+1.2.2. Giới thiệu chung và lịch sử ra đời của ô tô Hybrid.
+1.2.2.1. Ô tô Hybrid là gì.
+Hybrid nghĩa là lai, ôtô hybrid (Hybrid Electric Vehiclé-HEVs) là dòng ôtô sử dụng động cơ tổ hợp. Thật ra, ý tưởng“Hybrid”đã có từ rất lâu đời. Theo Bách Khoa Toàn Thư mở Wikipedia thì Hybrid Vehicle, tạm dịch là Phương Tiện Giao Thông Ghép, là một phương tiện giao thông mà được động lực bằng hai nguồn năng lượng trở lên. Ví dụ như sự kết hợp giữa: Hệ thống Chứa Năng Lượng Nạp Lại Được (Rechargeable Energy Storage System hay RESS, hoặc cụ thể hơn là Pin nạp lại được) và Nguồn Năng Lượng Nhiên Liệu (Xăng, dầu diesel v.v...). Xe đạp bằng sức người với sự trợ giúp của động cơ điện ví dụ như xe đạp điện chẳng hạng. Tàu buồm kết hợp với mô-tơ điện.Động cơ hybrid là sự kết hợp giữa động cơ đốt trong thông thường với một động cơ điện dùng năng lượng ắc quy. Bộ điều khiển điện tử sẽ quyết định khi nào thì dùng động cơ điện, khi nào thì dùng động cơ đốt trong, khi nào dùng vận hành đồng bộ và khi nào nạp điện vào ắc quy để sử dụng về sau.
+Trong thực tế hiện nay, thuật ngữ này (Hybrid Vehicle) thường dùng để nói đến Phương Tiện Giao Thông Ghép kết hợp năng lượng từ điện và xăng (Petroleum Electric Hybrid Vehicle) hay viết tắt trong tiếng anh là PEHV, và cũng có thể được viết tắt là HEV (Hybrid Electric Vehicle). Theo ngôn ngữ phổ thông tiếng Việt thường dùng ta có thể gọi là “Xe điện xăng”, hay tiếng Anh là Hybrid Car.
+1.2.2.2. Lịch sử phát triển của ô tô Hybrid.
+Những chiếc xe lai đầu tiên được triển lãm ở Paris Salon năm 1899. Nó được chế tạo bởi Pieper, Liège của Bỉ và công ty truyền tải điện Vendovelli và Priestly của Pháp. Xe Pieper là một kiểu xe lai song song với một động cơ xăng nhỏ làm mát bằng gió được hỗ trợ thêm một động cơ điện và các ắc quy chì. Ắc quy sẽ được nạp khi xe đang chạy đều trên đường cao tốc hoặc khi xe hoạt động tại chỗ. Khi công suất dẫn động yêu cầu cao hơn công suất định mức của động cơ, motor điện sẽ cung cấp thêm công suất cho động cơ. Nó là một trong hai chiếc xe hybrid đầu tiên và là chiếc xe lai song song đầu tiên và không nghi ngờ rằng nó cũng là chiếc xe khởi động điện đầu tiên.
+Một chiếc hybrid khác được giới thiệu tại Paris Salon, 1899 là chiếc xe lai kiểu nối tiếp đầu tiên và nó thừa kế từ xe điện thương mại của công ty Vendovelli và Priestly Pháp. Chiếc xe điện này có 3 bánh với 2 bánh sau được dẫn động bởi hai motor độc lập. Thêm vào đó là một động cơ xăng 3/4 hp và một máy phát 1,1 kW được đặt ở thanh dằng và được kéo bởi xe để làm tăng tầm hoạt động của xe bằng cách nạp lại cho ắc quy. Trong trường thiết kế của người Pháp này, thiết kế lai được dùng để tăng thêm phạm vi hoạt động cho một xe điện và không cung cấp thêm năng lượng cho một động cơ đốt trong yếu.
+Một người Pháp tên là Camille Jenatzy đã giới thiệu một chiếc xe lai song song tại Paris Slon vào năm 1903. Chiếc xe này kết hợp một động cơ xăng 6 hp và một động cơ điện 14 hp, nó có thể nạp lại cho ắc quy từ động cơ hoặc có thể hỗ trợ động cơ. Một người Pháp khác tên là H.Krieger chế tạo một chiếc xe lai kiểu nối tiếp thứ hai vào năm 1902. Thiết kế của ông dùng hai motor DC dẫn động hai bánh trước, chúng lấy năng lượng từ 44 ngăn ắc quy chì, chúng được nạp lại bằng một máy phát điện một chiều dẫn động bởi động cơ sử dụng cồn đánh lửa cưỡng bức.
+TS. Victor Wouk được biết đến như là một nhà nghiên cứu trong trào lưu xe lai điện13. Năm 1975, ông cùng với các đồng nghiệp đã xây dựng một phiên bản xe hybird kiểu song song của chiếc Buick Skylark.13 Động cơ được sử dụng là động cơ quay của Mazda kết hợp với hộp số thường. Nó được hỗ trợ bởi động cơ điện DC riêng biệt 15 hp được đặt phía trước hộp số. 8 ắc quy 12 V được sử dụng để dự trữ năng lượng. Tốc độ tối đa xe đạt được là 80 mph (129 km/h), khả năng tăng tốc từ 0 đến 60 mph trong 16s. Thiết kế xe lai nối tiếp được hồi sinh bởi giáo sư Dr. Ernest H. Wakefield năm 1976, khi đang làm việc cho Linear Alpha Inc. Một động cơ - máy phát AC nhỏ với công suất đầu ra 3 kW được sử dụng để nạp bộ ắc quy. Tuy nhiên những thí nghiệm này nhanh chóng dừng lại bởi vì vấn đề kỹ thuật. Những tiếp cận khác được nghiên cứu trong thập niên 70 và những năm đầu thập niên 80 nhằm mở rộng dải hoạt động của xe lai, dựa trên thiết kế của Venlovelly và Priestly năm 1899. Nhưng những nghiên cứu này không thể tiếp cận thị trường. Các mẫu xe lai khác được chế tạo bởi tập đoàn Electric Auto vào năm 1982 và tập đoàn Briggs & Stratton 1980, cả hai đều theo kiểu bố trí song song. Khái niệm xe lai điện thật sự trở nên hấp dẫn vào thập niên 90 khi một điều trở nên chắc chắn rằng xe điện không bao giờ đạt đến mục tiêu tiết kiệm năng lượng. Tập đoàn Ford Motor khởi động chương trình “Thách thức xe lai điện Ford” thu hút những nỗ lực từ các trường đại học nhằm phát triển phiên bản xe lai cho sản xuất ô tô.
+Các nhà sản xuất xe hơi trên thế giới đã xây dựng nhiều mẫu động cơ lai đạt đến tính tiết kiệm nhiên liệu thật tuyệt vời so với các phiên bản động cơ đốt trong trước đây. Tại Mỹ, Dodge đã xây dựng mẫu xe Intrepid ESX 1, 2, và 3. ESX1 là xe lai điện bố trí nối tiếp, công suất được cung cấp bởi động cơ diesel tăng áp nhỏ 3 xylanh và bộ nguồn ắc quy, 2 động cơ điện công suất 100 hp được đặt ở hai bánh sau. Chính phủ Mỹ lập ra “Hiệp hội cho một thế hệ xe mới” (Partnership for a New Generation of Vehicles - PNGV) và đặt ra chỉ tiêu đối với dòng xe sedan trung bình phải đạt đến 80 mpg. Ford Prodigy và GM Precept là kết quả của nỗ lực này, cả hai chiếc này đều là xe lai điện bố trí song song, nguồn công suất sử dụng động cơ diesel tăng áp kích thước nhỏ kết hợp với ly hợp khô và hộp số thường. Cả hai đều đạt được yêu cầu chỉ tiêu đề ra nhưng việc sản xuất này không được thực hiện.
+Nỗ lực của người châu Âu được thể hiện qua chiếc French Renault Next, là chiếc xe lai điện cỡ nhỏ sử dụng động cơ đốt cháy cưỡng bức 750 cc và 2 motor điện. Nó có thể đạt tốc độ tối đa là 29.4 km/l (70 mpg) và đặc tính tăng tốc tương đương với kiểu xe truyền thống. Volkswagen cũng cho ra mẫu Chico, về cơ bản nó là một chiếc xe điện, với bộ ắc qui nickel–metal hydride và một động cơ kích từ ba pha. Một động cơ xăng nhỏ hai xy lanh dùng để nạp lại cho ắc quy và cung cấp thêm công suất khi hoạt động tốc độ cao.
+Sự nỗ lực đáng kể nhất trong sự phát triển và thương mại hóa xe lai điện được tạo ra bởi các nhà sản xuất người Nhật. Năm 1997 Toyota đã cho ra mắt dòng sedan Prius ở Nhật, Honda cũng cho ra dòng xe Civic và Civic Hybrid. Những chiếc xe trên hiện đang lưu thông trên toàn thế giới. Chúng có thể đạt đến tính năng tiêu thụ nhiên liệu tuyệt hảo Toyota Prius và các dòng xe Honda có một giá trị lịch sử vì chúng là những chiếc xe lai đầu tiên đi vào thương mại hóa trong kỷ nguyên hiện đại để đáp ứng vấn đề tiêu thụ nhiên liệu trên xe.
+1.2.2.3. Giới thiệu một số mẫu xe Hybrid.
+Có rất nhiều mẫu xe của các hang sản xuất trên thế giới sử dụng công nghệ lai Hybrid như Toyota Prius, Camry Hybrid, Honda Civic hybrid, Honda Insigh, Huyndai Sotana Hybrid, Nissan Altima Hybrid, Ford Escape Hybrid, Saturn Vue Green Line… Dưới đây giới thiệu một số mẫu xe Hybrid tiết kiệm nhiên liệu và ăn khách nhất thế giới.
++ Toyota Prius.
+Toyota vừa tuyên bố doanh số mẫu Prius trên thị trường toàn cầu đã vượt mốc 2 triệu chiếc. Đây là một trong những dòng xe bán chạy nhất của Toyota tại 70 quốc gia trên thế giới, đặc biệt là ở Nhật Bản và Bắc Mỹ. Tính đến thời điểm cuối tháng 9/2010, tổng số xe Prius tiêu thụ được đã đạt mức 2.012.000 chiếc. Toyota bắt đầu phân phối Prius tại Nhật Bản vào năm 1997, tiếp đến là châu Âu, Bắc Mỹ và hơn 200 quốc gia khác. Thế hệ Prius thứ 2 trình làng vào năm 2003, đến năm 2009, Toyota giới thiệu Prius thế hệ thứ 3
+
+
+Hình 1-8: Toyota Prius.
+Ngoài ra theo Cơ quan bảo vệ môi trường và Bộ Năng lượng Mỹ, công bố bảng xếp hạng tiêu thụ nhiên liệu (Fuel Economy Guide) của các xe phiên bản 2011. Theo đó, tại Mỹ, Toyota Prius 2011 vẫn đứng đầu bảng về độ tiết kiệm nhiên liệu, với mức tiêu thụ 4,6 lít/100km đường thành phố và 4,9 lít/100km đường cao tốc. Cơ quan bảo vệ môi trường Mỹ (EPA) là được coi là đơn bị đánh giá mức tiêu thụ nhiên liệu của ô tô đáng tin cậy nhất, có giá trị tham khảo rất cao đối với người mua xe không chỉ tại Mỹ mà còn ở nhiều nước khác.
+
+Thông số kỹ thuật.
+Động cơ. Loại động cơ 1.8 Hybrid, 4 xilanh Dung tích xi lanh ( cm3). 1798 Công suất cực đại ( Hp/rpm). 134hp (36hp từ mô-tơ điện)/ 5200 Mômen xoắn cực đại ( Nm/ rpm). 142 / 4000 (động cơ xăng) Tăng tốc 0- 100 Km/h.giây 10.1. Kích thước, trọng lượng. Dài × Rộng × Cao (mm) 4460 x 1745 x 1491 Chiều dài cơ sở (mm) 2700 Khoảng sáng gầm xe (mm) 140 Tự trọng không tải (Kg) 1380 Nhiên liệu. Sử dụng nhiên liệu Xăng, điện. Dung tích bình chứa (L) 45 Tiêu thụ nhiên liệu (city, L/ 100Km) 4.6 Tiêu thụ nhiên liệu (highway, L/ 100Km) 4.9 Tiêu thụ nhiên liệu (combined, L/ 100Km) 4.7 Phanh, lốp. Lốp trước/sau P195/65R15 89S/ P215/45R17 89S Hệ thống phanh trước/sau Đĩa tản nhiệt với caliper trượt pit-tông đơn 10.0-inch/10.2inch , có ABS Giá (USD) 23500
++ Honda Civic Hybrid.
+Honda Civic Hybrid là một mẫu xe Hybrid có hình dáng đẹp và tiết kiệm nhiên liệu và bán chạy chỉ đứng sau Toyota Prius. Với động cơ xăng dung tích 1,3 lít I4, công suất 95 mã lực và mô-tơ điện 20 mã lực, Civic hybrid có mức tiêu hao nhiên liệu theo đánh giá của cơ quan bảo vệ môi trường Mỹ EPA là 4,8 lít cho 100 km trong thành phố và 4,6 lít trên đường trường. Tuy nhiên, giá trị này rất ít khi đạt được. Các số liệu phổ biến của Civic hybrid là 5,9 lít và 5,2 lít, nhỉnh hơn một chút so với Prius. Giá của Civic hybrid tại Mỹ vào khoảng 23.000 USD. Tuy nhiên quá trình hoạt động của Honda Civic lại khác hẳn với Toyota Prius.
+
+
+Hình 1-9: Honda Civic Hybrid
+Về tổng thể, Civic hybrid và Toyota Prius cùng kết hợp giữa hai động cơ xăng và động cơ điện. Tuy nhiên, nếu Prius có thể ngừng động cơ xăng và chỉ vận hành bằng động cơ điện thì Civic hybrid lại không làm được điều này. Nếu không có phương pháp xử lý, rõ ràng công nghệ hybrid trên Civic trở thành vô nghĩa. Bởi nếu cả động cơ xăng và điện luôn luôn phải làm việc cùng nhau thì xe vẫn "ăn" xăng như thường. Honda đã nhờ cậy công nghệ điều khiển van biến thiên i-VTEC và đây thực sự là giải pháp không thể tốt hơn. Khi cần thiết, i-VTEC đóng toàn bộ các van, ngăn không cho nhiên liệu vào xi-lanh. Do đó, động cơ xăng của Civic vẫn chạy, trục khuỷu và piston vận hành lên-xuống bình thường nhưng không hề tốn một giọt nhiên liệu nào.
+Quá trình đóng van được Honda chương trình hóa, dựa trên các thông số về tốc độ và tải trọng. Chẳng hạn ở tốc độ 30-40 km/h trên mặt đường phẳng, động cơ xăng bị "vô hiệu hóa" và một mô-tơ điện sẽ đóng vai trò cung cấp động năng cho xe. Khi giảm tốc, i-VTEC cũng có những tác động tương tự.
+Dưới đây là Quá trình vận hành của hệ thống Hybrid ở các chế độ:
+Khi xe trong chế độ nghỉ: Động cơ tắt và mức tiêu hao nhiên liệu là không Khởi động và tăng tốc : Động cơ hoạt động ở chế độ đóng mở van vòng tua thấp, có mô tơ trợ giúp. Khi xe tăng tốc nhanh : Động cơ hoạt động, van điều chỉnh tốc độ cao, có mô tơ trợ giúp Khi xe vận hành với tốc độ thấp: Van của cả 4 xi lanh trong động cơ sẽ được đóng lại, quá trình đốt cháy tạm dừng. Lúc này mô tơ điện đảm nhiêm vai trò vận hành chính Khi xe tăng tốc nhẹ nhàng và chạy với tốc độ cao: Xe được vận hành nhờ động cơ hoạt động trong điều kiện van điều chỉnh ở tốc độ thấp Giảm tốc: Van của cả 4 xi lanh trong động cơ bị đóng kín, quá trình cháy tạm ngưng. Mô tơ thu hồi tối đa năng lượng giải phóng nhờ quá trình giảm tốc để nạp điện cho ác quy.
+1.2.2.4. Ưu nhược điểm của ô tô Hybrid.
++ Ưu điểm.
+Giảm lượng tiêu thụ nhiên liệu (động cơ hybrid tiêu thụ lượng nhiên liệu ít hơn nhiều so với động cơ đốt trong thông thường, chỉ bằng một nửa). Ô tô Hybrid ít gây ô nhiễm môi trường hơn ô tô chạy xăng bình thường bởi vì động cơ điện có hiệu xuất cao hơn nhiều so với động cơ xăng. Động cơ --Hybrid thường tiết kiệm hơn 100% so với động cơ xăng truyền thống. Tận dụng năng lượng khi phanh: khi cần phanh hoặc khi xe giảm tốc độ, động cơ điện có tác dụng như máy phát điện, năng lượng phanh được tận dụng để tạo ra dòng điện nạp cho ắc-quy. Động cơ điện được dùng trong các chế độ gia tốc hoặc tải lớn nên động cơ đốt trong chỉ cần cung cấp công suất vừa đủ nên động cơ đốt trong có kích thước nhỏ gọn. Có thể sử dụng vật liệu nhẹ để giảm khối lượng tổng thể của ôtô. Có thể chạy xa và mạnh mẽ được giống như những ô tô chạy xăng bình thường. Ô tô Hybrid vẫn dùng xăng làm nhiên liệu nên người vận hành không phải lo việc nạp điện, thông thường tốn rất nhiều thời gian. Nhà nước có nhiều ưu đãi khi sử dụng ô tô Hybrid về thuế nhập khẩu, chỗ đỗ, đậu xe…
++ Nhược điểm.
+Do chi phí sản xuất, thêm động cơ điện và các phụ kiện liên quan nên ô tô Hybrid thường đắt hơn ô tô bình thường. Lai xe ô tô là tương đối nặng, vì nặng của pin được cài đặt bên trong xe. Một vấn đề về các loại xe lai là nó rất nguy hiểm trong tai nạn vì khi đó rất nguy hiểm cho hành khách do điện áp của nó rất cao.
+Tổng kết :
+Tập đoàn ô tô Toyota (TMC) vừa công bố doanh số bán các mẫu xe Hybrid (mẫu xe chạy bằng xăng - điện thân thiện với môi trường) cộng dồn của Toyota trên toàn cầu đã đạt hơn 3,03 triệu xe bán ra tính đến 28-2-2011. Hiện tại, TMC đang cung cấp 16 mẫu xe hybrid tại gần 80 quốc gia và vùng lãnh thổ trên toàn thế giới, trong đó bao gồm cả 3 dòng xe thương mại đang có mặt tại thị trường Nhật Bản.
+Với tất cả những công nghệ tiên tiến, khả năng tiết kiệm nhiên liệu và giảm khí thải của mình, xe hybrid được xem là những chiếc xe của tương lai. Chắn chắn, với những model hybrid mới xuất hiện và những model đang được phát triển, công nghệ này sẽ là đóng vai trò chính trong bức tranh của ngành ô tô những năm sắp tới hoặc ít nhất là cho đến khí con người tìm hiểu công nghệ pin nhiên liệu hoặc một vài giải pháp để tăng giá xăng dầu, tiêu thụ hết nguồn nguyên liệu hóa thạch và tích đầy khí thải gây ô nhiễm.
+Chương 2. Thiết kế chung ô tô Hybrid 9 chỗ ngồi.
+2.1. Yêu cầu thiết kế.
+2.1.1. Yêu cầu chung.
+Ô tô thiết kế phù hợp với tiêu chuẩn ngành 22TCN 307-06, “ phương tiện giao thông cơ giới đương bộ ô tô, yêu cầu an toàn chung ” ban hành theo quyết định số 24/2006/QĐ-BGTVT ngày 10/05/2006 của Bộ Giao Thông Vận Tải và các tiêu chuẩn liên quan Ô tô có kết cấu phù hợp với điều kiện sử dụng thực tế ở Việt Nam. Kết cấu phải phù hợp với điều kiện công nghệ và hợp lý về giá thành. Việc chuẩn hóa trong thiết kế cần được đặc biệt quan tâm tạo điều kiện để sản xuất hàng loạt.
+
+2.1.2. Cơ sở thiết kế ô tô.
+2.1.2.1. Cơ sở khoa học của thiết kế.
+Công tác thiết kế ô tô là một công việc kỹ thuật phức tạp cần phải có phương pháp tư duy khoa học để tạo ra các sản phẩm hoàn thiện. Thông qua các phương pháp phân tích và tổng quát hóa cùng với kinh nghiệm có được có thể hiểu được nhiệm vụ cho trước, xác định con đường thiết kế, các giải pháp tối ưu mà tiêu tốn thời gian ít nhất. Việc sử dụng các phương pháp khoa học tạo điều kiện cho việc xác định chất lượng và đặc tính của kết cấu cũng như dự kiến các giải pháp tối ưu tương thích với đỉnh cao của sự phát triển của thế giới.
+2.1.2.2. Cơ sở kỹ thuật của thiết kế.
+Khi thiết kế phải sử dụng những phương pháp thiết kế tiên tiến nhất, tận dụng tối đa các tiến bộ của khoa học kỹ thuật, các hiểu biết trong lĩnh vực phát triển kết cấu ô tô ( cấu trúc, sơ đồ hệ thống, nguyên lý làm việc, các đặc tính của quá trình làm việc, thông số kết cấu…). Quan trọng nhất là sử dụng các tiêu chuẩn hiện hành, các vật liệu mới nhằm đảm bảo khả năng áp dụng của sản phẩm vào thực tế.
+2.1.2.3. Cơ sở kinh tế của thiết kế.
+Chất lượng sản phẩm liên quan mật thiết với chỉ tiêu đánh giá kinh tế trong sản xuất chế tạo và sử dụng. Các giải pháp kết cấu khác nhau luôn phải được đánh giá về phương diện kinh tế.
+.........................
+Trên cơ sở phân tích tình hình kinh tế xã hội trong mối tương quan của nền kinh tế, xác định kiểu ô tô cơ sở, hệ thống truyền lực… Sau đó xác định và lựa chọn các mẫu tiếp theo sao cho phủ hết yêu cầu kinh tế. Các thông số kết cấu, kích thước và kiểu xe được thiết lập sao cho phù hợp với mục đích kinh tế, chức năng sử dụng mà không bị chồng chéo.
+Tính kinh tế cũng cần đặt ra trong trường hợp có những tiến bộ kỹ thuật, những hoàn thiện tiên tiến, nâng cao chất lượng của sản phẩm.
+2.1.2.4. Cơ sở thẩm mỹ của thiết kế.
+Phải đáp ứng được yêu càu thẩm mỹ trong thiết kế. Nhiệm vụ của thiết kế thẩm mỹ kỹ thuật phải được đặt ra ngay từ đầu sao cho phù hợp với tiêu chuẩn.
+2.1.2.5. Cơ sở nhân trắc của thiết kế.
+Khi thiết kế cần dẫn ra các yêu cầu về nhân trắc sử dụng trong phương tiện đó. Đặc điểm về kích thước, chức năng phải phù hợp với nhân trắc vật lý của con người.
+Các yêu cầu cụ thể về nhân trắc là phải đảm bảo tối ưu về :
+Khả năng điều khiển của người lái với cơ cấu điều khiển. Sự phù hợp của con người với khả năng quan sát, chiếu sang trên xe và ngoài xe. Đảm bảo dành không gian thích hợp cho người trên ô tô, đặc biệt khí xảy ra tai nạn. Tiện nghi trong tư thế ngồi, đứng trên ô tô.
+
+
+
+
+
+
+
+
+
+
+
+2.1.3. Các yêu cầu kinh tế kĩ thuật cơ bản đối với kết cấu ô tô.
+Trong quá trình thiết kế tổng thể ô tô, cần tìm các giải pháp tổng hợp tối ưu để thực hiện tổ hợp bố trí chung và thỏa mãn những yêu cầu trái ngược nhau.
+
+
+
+VẬN
+CHUYỂN
+CHẾ TẠO
+LUẬT VÀ
+CỘNG ÐỒNG
+KHẢ NANG
+THỊ TRƯỜNG
+Vh cao
+Ít nhiên liệu
+Chi phí sản
+xuất thấp
+Ðộ tin cậy cao
+Khả năng khắc
+phục địa hình
+Ít nguyên liệu
+Tính liên tục,
+công nghệ,
+kết cấu
+Mức độ động
+học cao
+An toàn
+kết cấu
+Luật
+môi trường
+Luật
+Quốc gia
+Mức độ tiên
+tiến công nghệ
+Chi phí sản
+xuất thấp
+Tính công nghệ
+kết cấu.
+Tính công
+nghệ, kết cấu
+Luật
+Quốc gia
+Luật
+Quôc tế
+Trình đị
+Quốc tế
+CÁC YÊU CẦU KINH TẾ KỸ THUẬT
+Hình 2-1: Các yêu cầu kinh tế kĩ thuật cơ bản đối với kết câu ô tô.
+Trong quá trình sản xuất ô tô nước ta gặp nhiều khó khăn :
+Chịu sức ép các tiêu chuẩn quốc tế. Chịu sự cạnh tranh về uy tín, công nghệ, giá cả thị trường. Thiếu vốn, công nghệ sản xuất,kinh nghiệm….
+Tuy nghiên cũng có nhiều thuận lợi :
+Thừa kế công nghệ tiên tiến. Nhanh chóng xác định được mục tiêu sản xuất cho phù hợp với điều kiện của mình, nhanh chóng hòa nhập thị trường quốc tế. Thị trường hay các yêu cầu kỹ thuật cụ thể đáp ứng ngay trên tình hình cụ thể của mình.
+2.2. Thiết kế tổng thể.
+stt Thông số Kí hiệu Đơn vị Giá trị 1 Tự trọng Go Kg 1500 2 Trọng lượng toàn tải. Gt Kg 2130 3 Chiều dài cơ sở L mm 2850 4 Chiều rộng tổng thể B mm 1770 5 Chiều cao tổng thể H mm 1745 6 Chiều dài tổng thể Lo mm 4660 7 Khoảng sang gầm xe mm 200 8 Vệt bánh xe Trước mm 1500 9 sau mm 1500
+
+Bảng 2-2: Thông số tổng thể ô tô hybrid 9 chỗ ngồi sử dụng động cơ nhiệt - điên.
+
+4660
+2850
+Hình 2-3: Hình chiếu đứng ô tô hybrid 9 chỗ ngồi sử dụng động cơ nhiệt - điên.
+
+1745
+200
+1500
+1770
+Hình 2-4: Hình chiếu cạnh mặt trước ô tô hybrid 9 chỗ ngồi sử dụng động cơ nhiệt - điên.
+
+1500
+
+Hình 2-5: Hình chiếu cạnh mặt sau ô tô hybrid 9 chỗ ngồi sử dụng động cơ nhiệt - điên.
+
+2.3. Tính toán ổn định ô tô Hybrid 9 chỗ ngồi.
+2.3.1.Xác định tọa độ trọng tâm.
+Sơ đồ tải trọng tác dụng lên ô tô khi đầy tải được biểu diễn như hình vẽ.
+
+a
+b
+L
+G
+hg
+Pw
+O
+1
+Z1
+Z0
+O
+2
+Hình 2-6: Tọa độ trọng tâm ô tô.
+( a, b, hg ): Tọa độ trọng tâm của ô tô.
+G : Tải trọng của ô tô ( khi đầy tải ). G = 2130 [ Kg ]
+L = 2750 [mm]: Chiều dài cơ sở của ô tô.
+Zo, Z12 : Lực tác dụng lên bánh xe.
+Pw : Lực cản của gió. Coi Pw = 0.
+Lấy mômen tại điểm O2 :
+G×b – Zo×L = 0
+
+Thay số : Zo = G1= G/2, L = 2750 [mm ], G = 2130 [ Kg ]
+
+
+Tọa độ trọng tâm G (a; b; hg )
+a = 1375 [m m ] b = 1375 [m m ]
+
+
+Tìm hg:
+h0g: chiều cao tọa độ trọng tâm khi không tải. Tọa độ này được xác định tương đối. Thông thường tọa độ này nằm trên mặt ghế so với mặt đất, cho nên lấy tương đối h0g = 720 [mm].
+Khi có hành khách , tọa độ trọng tâm của hành khách là : hhk = 1000 [mm].
+khi đó :
+(G0×h0g+ Gt× hhk)/G
+hg = (1500×720+ 630× 1000)/2130.
+hg = 803 [mm]
+Tọa độ trọng tâm của ô tô (a,b,hg ): ( 1375, 1375, 803) [mm].
+
+2.3.2. Tính ổn định dọc tĩnh khi ô tô lên dốc.
+
+Gcosa
+O
+1
+Z1
+Z0
+O
+2
+G
+Gsina
+a1
+Hình 2-7: Sơ đồ lực tác dụng lên ô tô khi đứng quay đầu lên dốc.
+G : Trọng lượng ô tô.
+α1 : góc giới hạn mà xe bị lật khi đứng quay đầu lên dốc
+Z0 : Phản lực đặt tại bánh xe trước.
+Z1 : Phản lực đặt tại bánh xe sau.
+O1, O2 : giao điểm của đường và trục thảng đứng tâm bánh xe trước và sau.
+Khi xe quay đầu lên dốc, góc α1 tăng dần cho đến khi bánh xe bị nhấc khỏi mặt đường. lúc đó Z0 = 0. Và xe sẽ bị lật quanh điểm O2. Để xác định góc giới hạn mà xe bị lật khi quay đầu lên dốc ta lập phương trình mô men của tất cả các lực quanh điêm O2 rồi rút gọn với Z0 = 0 ta được:
+G.b.cosα1 – G.hg.sin α1 = 0
+tg(α1) = b/hg = 1375/ 803 = 1,712.
+α1 = 59,70.
+
+2.3.3. Tính ổn định dọc tĩnh khi ô tô xuống dốc.
+
+
+Gcosa
+O
+1
+Z1
+Z0
+O
+2
+
+a2
+G
+Gsina
+Hình 2-8: Sơ đồ lực tác dụng lên ô tô khi đứng quay đầu lên dốc.
+
+α2: góc giới hạn mà xe bị lật khi đứng quay đầu xuống dốc.
+Tương tự lập luận như xe đứng quay đầu lên dốc, khi xe xuống dốc, góc giới hạn mà xe bị lật khi đứng quay đầu xuống dốc α2 tăng dần đến khi Z1 = 0 và xe sẽ bị lật quanh điểm O1. Để xác định góc giới hạn mà xe bị lật khi quay đầu xuống dốc ta lập phương trình mô men của tất cả các lực quanh điêm O1 rồi rút gọn với Z1= 0 ta được:
+G.a.cosα2 – G.hg.sin α2 = 0
+tg(α2) = a/hg = 1375/ 803 = 1,712.
+α2 = 59,70.
+Vậy góc ổn định khi đứng quay đầu xuống dốc là : α2 = 59,70
+2.3.4. Tính toán ổn định ngang.
+
+
+ß
+G
+Gsin
+ß
+Gcos
+ß
+C/2
+C/2
+Mjn
+Hình 2-9: Sơ đồ lực tác dụng lên ô tô khi chuyển động trên đường ngang.
+G : trọng lượng của ô tô, được chia thành 2 thành phần theo góc nghiêng β. Mjn : Mô men các lực quán tính tiếp tuyến tác dụng trong mặt phnagr ngang khi xe chuyển động không ổn định. Zo, Z1: các phản lực thẳng góc đặt tại bánh xe trái và phải. β : Góc nghiêng ngang của đường. C : Chiều rộng cơ sở của ô tô. C = 1500 [mm].
+Dưới tác dụng của các lực và mô men góc β tăng dần và xe có xu hướng bị lật quanh bánh xe bên trái. Khi đó Z1 = 0.
+
+Giả sử trị số mô men quán tính của các chi tiết quay của động cơ và hệ thống truyền lực sinh ra không đáng kể, nên :
+tg β = C/2hg = 1500/2. 803
+suy ra β = 430.
+2.3.5. Tính ổn định của ô tô khi quay vòng.
+
+Rmin
+Hình 2-10: Sơ đồ quay vòng của ôtô
+Theo sơ đồ ta có:
+Rmin = L/tgα
+Trong đó:
+α: Góc quay trung bình của các bánh xe dẫn hướng, α=300
+L : Chiều dài cơ sở của ô tô, L=2850 (mm)
+Þ Rmin=2850/tg30o = 4936 (mm)
+Vn : Vận tốc giới hạn khi quay vòng. [m/s].
+Khi ô tô chuyển động trên mặt nằm nghiêng, vận tốc giới hạn của ô tô được tính theo công thức:
+Vn=
+Vn=
+Vn = 9,27 [m/s] = 33,37 [km/h].
+Vậy: Bán kinh quay vòng là : 4,936 [m].
+Vận tốc giới hạn khi quay vòng. Vn= 33,37 [Km/h].
+Các thông số ổn định của ô tô:
+Thông số Kí hiệu Đơn vị Giá trị Tọa độ trọng tâm a mm 1375 b mm 1375 hg mm 803 Góc ổn định khi đứng quay đầu xuống dốc α2 Độ 59,70 Góc ổn định khi đứng quay đầu lên dốc α1 Độ 59,70 Góc nghiêng ngang của đường β. Độ 430 Bán kinh quay vòng Rmin mm 4936 Vận tốc giới hạn khi quay vòng Vn Km/h 33,37
+
+
+
+2.4. Tính toán, lựa chọn các hệ thống phanh, lái, treo.
+2.4.1. Tính toán, lựa chọn các hệ thống phanh
+Cơ câú phanh bánh của ô tô du lịch cần đạt hiệu quả cao, thời gian chậm tác dụng bé và cần có độ nhạy lớn do đó để đảm bảo tính ổn định của xe khi phanh ở tốc độ cao ta chọn cơ cấu phanh đĩa cho cơ cấu phanh bánh trước và sau. Ngoài ra trong hệ thống phanh có sử dụng ABS (Anti-lock Braking System).
+2.4.1.1. Tính mô men phanh sinh ra ở bánh xe.
+
+V
+
+
+Pj
+Pf1
+Pf2
+
+Hình 2-11: Sơ đồ phân bố lực phanh trên ô tô.
+Từ hình 2-15. ta viết được phương trình cân bằng mô men như sau:
++ Đối với cầu trước: Z1.L – G.a + Pj.hg = 0 (2.1)
++ Đối với cầu sau: Z0.L – G.b - Pj.hg = 0 (2.2)
+G: là trọng lượng toàn bộ của xe; Z0 là phản lực pháp tuyến ở cầu trước
+khi xe đứng yên; còn L là chiều dài cơ sở của xe.
+Trọng lượng bám ở mỗi bánh xe Gbx chính bằng phản lực pháp tuyến Zi tại
+bánh xe khi phanh Khi ôtô được phanh khẩn cấp với tốc độ bất kỳ cho đến khi dừng hẳn (v = 0) thì gia tốc phanh cực đại có thể được xác định từ lực quán tính lớn nhất khi phanh Pj. Sau khi biến đổi ta có trọng lượng bám ở mỗi bánh xe trước/sau.
+Mặt khác ta có: Pj = Jp.ma = Jp. (2.3)
+Trong đó: Pj – Lực quán tính.
+ma – Khối lượng của ôtô.
+g – Gia tốc trọng trường.
+Ta suy ra: Z0 = (2.4)
+Z1 = (2.5)
+Với hệ thống phanh trang bị hệ thống kiểm soát, điều chỉnh tốc độ trượt bánh xe (xe trang bị hệ thống chống hãm cứng bánh xe ABS, hay hệ thống phanh điều khiển điện tử EBS) thì hệ số bám khi phanh khẩn cấp đạt được là: jbx = 0.8
+Do đó ta có:
+Gbx1 = (2.6)
+Gbx2= (2.7)
+Suy ra lực phanh yêu cầu ở mỗi bánh xe trước/sau là:
+Pbx1 = Gbx1. jbx /2 = 14791 x 0,8/2= 5916,4 [N] (2.8)
+Pbx2 = Gbx2. jbx /2 = 5371 x 0,8/2= 2148,4 [N]
+Mô-men phanh yêu cầu ở mỗi bánh xe trước/sau là:
+Mbx1 = Pbx1.Rbx = 5916,4 x 0,35 = 2070,74 [N.m] (2.9)
+Mbx2 = Pbx2.Rbx = 2148,4 x 0,35 = 526,94 [N.m]
+Trong đó Rbx là bán kính làm việc trung bình (hay bán kính động lực) của bánh xe. Rbx = 0,35[m].
+2.4.1.2. Tính toán các thông số cơ bản của cơ cấu phanh
+Mô-men phanh do cơ cấu phanh sinh ra và lực ép yêu cầu.
+Sau khi đã chọn được kiểu và loại cơ cấu phanh hợp lý, chúng ta có thể bắt tay tính toán để xác định các thông số cơ bản của cơ cấu phanh.
+Các thông số cơ bản của cơ cấu phanh bao gồm mô-men phanh do cơ cấu phanh tạo ra, lực ép của cơ cấu phanh. Cách tính mô-men phanh và do đó công thức tính lực ép yêu cầu của cơ cấu ép phụ thuộc vào kiểu và loại cơ cấu phanh cụ thể như đã chọn ở trên. Kiểu cơ cấu phanh ở cầu trước cũng như cầu sau thường là kiểu đĩa có xẻ rảnh bên trong để thông gió làm mát cho đĩa khi phanh; có cơ cấu ép bởi hai xy lanh đơn bố trí ở hai phía khác nhau
+Phanh đĩa thường có cơ cấu ép có tính đối xứng hoàn toàn về phương diện kết cấu qua mặt phẳng chứa đĩa phanh .Vì vậy mô-men ma sát của đĩa được tạo ra bởi hai má phanh có giá trị hoàn toàn giống nhau vì đĩa được ép bởi hai piston bằng nhau bố trí đối xứng qua đĩa có cùng áp lực dầu.
+
+Hình 2-12: Cơ cấu phanh kiểu đĩa có rãnh làm mát.
+13-Đĩa ma sát; 14-Giá kẹp xy lanh; 15-Rãnh làm mát
+Đường kính ngoài của đĩa phanh:
+D2 = 0,8.Rbx = 0,8 x 0.35 = 0,28 [m]
+Þ R2 = 0,14 [m].
+Bán kính vòng trong của đĩa ma sát được xác định :
+R1 = (0,53 ¸ 0,75).R2 (2.10).
+Dối với xe du lich ta chọn R1=0.65R2=0.65 x 0.14=0.091 [m].
+Bán kính ma sát trung bình của đĩa :
+(2.11)
+Mô men ma sát sinh ra trong hệ thống phanh được xác định theo công thức :
+[Nm] (2.12)
+Trong đó :
+Mms : Mô men ma sat sinh ra trong hệ thống phanh. : Hệ số ma sát, chọn = 0,3 Zms : Số lượng bề mặt ma sát, chỉ dùng một đĩa nên Zms =2. Pct : Lực ép cần thiết tác dụng lên đĩa ma sát cơ cấu phanh trước. Rtb : bán kính ma sát trung bình.
+Vậy lực ép cần thiết tác dụng lên đĩa phanh của cơ cấu phanh trước :
+[N]. (2.13)
+Lực ép cần thiết tác dụng lên đĩa phanh của cơ cấu phanh sau :
+[N] (2.14).
+2.4.2. Hệ thống treo
+2.4.2.1. Chọn loại hệ thống treo
+Hệ thống treo được phân loại theo bộ phận hướng gồm có hai loại là hệ thống treo độc lập và hệ thống treo phụ thuộc, theo đặc điểm xe ta tính chọn hệ thống treo độc lập đối với hệ thống treo trước và sau.
+- Bộ phận đàn hồi: gồm các loại là: lò xo, thanh xoắn, phần tử đàn hồi thuỷ khí, phần tử đàn hồi khí nén, bằng cao su...
++ Hệ thống treo trước: chọn bộ phận đàn hồi loại lò xo trụ, đòn kép và thanh cân bằng, có các ưu điểm: kết cấu, chế tạo đơn giản, kích thước nhỏ gọn. Tuy nhiên, nó cũng có nhược điểm: chỉ tiếp nhận lực thẳng đứng, cần có bộ phận hướng riêng.
++ Hệ thống treo sau: Liên kết 4 điểm, lò xo cuộn và tay đòn bên
++ Chọn bộ phận đàn hồi phụ của cả hai hệ thống treo là ụ hạn chế bằng cao su có độ bền cao, không cần bôi trơn, bảo dưỡng, trọng lượng bé và có đường đặc tính phù hợp, có nhược điểm là xuất hiện biến dạng thừa dưới tác dụng của tải trọng kéo dài và tải trọng thay đổi, cao su bị hoá cứng khi nhiệt độ thấp.
+- Bộ phận giảm chấn: Theo cách lắp đặt và yêu cầu êm dịu của xe thiết kế, ta chọn bộ phận giảm chấn thuỷ lực dạng ống lồng, tác dụng hai chiều và có van giảm tải cho cả hệ thống treo trước và sau.
+- Bộ phận hướng
+Là hệ thống treo độc lập nên bộ phận hướng gồm các loại là: loại một đòn, loại hai đòn chiều dài bằng nhau, loại hai đòn chiều dài khác nhau, loại đòn ống (Macphenxon), loại nến. Theo yêu cầu của xe ta chọn bộ phận hướng loại hai đòn có chiều dài khác nhau cho hệ thống treo trước.
+
+2.4.2.2. Độ biến dạng và tải trọng tác dụng lên hệ thống treo trước và sau
+a. Độ biến dạng và tải trọng tác dụng lên hệ thống treo trước
+Xác định Ztt:
+Tải trọng tác dụng ôtô đầy tải: G = Gat- Gkt [Kg] (2.15)
+Trong đó:
+Gat: trọng lượng toàn bộ phân bố lên cầu trước [Kg],
+Gkt: trọng lượng phần không được treo ở cầu trước [Kg].
+Với: Gkt= Gct+ 2.Gbx [Kg] (2.16)
+Trong đó:
+Gct: trọng lượng của cầu trước [Kg],
+Gbx: trọng lượng của bánh xe [Kg].
+Do đó ta được:
+............................
+Hình 3-47: Sơ đồ kết cấu hộp số vi sai kết hợp
+1- Mặt bích nối động cơ điện; 2,24-Trục; 3,20- ổ đỡ trục; 4- ống gài; 5- Đầu nối tín hiệu điện; 6,17-Càng gạt; 7,19- Thanh trượt; 8- Vỏ vi sai; 9- ổ đỡ trước vi sai; 10- Thân trước của vi sai; 11- Bánh răng giảm tốc; 12- Bánh răng vệ tinh; 13- Thân sau vi sai; 14- ổ đỡ sau vi sai; 15- Thân của bộ gài phía sau; 16- Nắp; 18- Công tắc điện; 21-Mặt bích nối đĩa; 22,41- Đai ốc; 23,39- Đĩa chắn bụi; 38- Phớt làm kín; 25- ống gài; 26- vòng chặn ổ; 27- Bạc lót; 31- Bu lông; 28- Bánh răng bao; 29- Bánh răng trung tâm; 35- Bạc chặn; 30- Nút xã dầu; 32- Đai ốc hãm; 33- Thân của bộ gài phía trước; 34- Vành gài; 36- Gu jong; 37- Bạc chặn kín; 40- Đĩa che bụi.
++ Nguyên lý làm việc:
+Khi truyền động kết hợp cả hai nguồn công suất (1) và (2).
+Nguồn công suất thứ nhất truyền đến trục (2) qua mặt bích (1). Từ trục (2) truyền đến bánh răng trung tâm (29) ăn khớp với các bánh răng vệ tinh (12). Đồng thời nguồn công suất thứ hai qua bộ giảm tốc sơ cấp đến mặt bích (21) rồi lên trục (24) để đến bánh răng bao (28). Từ đó thông qua các bánh răng vệ (12) truyền công suất lên thân (10) để đến bánh răng (11) sẵn sàng truyền cho cầu chủ động.
+Khi chỉ sử dụng nguồn công suất (1).
+Càng gạt (17) gạt ống gài (25) khóa chặt trục công suất thứ hai (24). Lúc này chỉ có nguồn công suất thứ nhất truyền đến trục (2) qua mặt bích (1).Từ trục (2) truyền đến bánh răng trung tâm (29) ăn khớp với các bánh răng vệ tinh (12). Vi sai bây giờ làm việc theo nguyên lý của cơ cấu hành tinh có bánh răng bao (28) cố định. Nguồn công suất thứ nhất truyền lên thân (10) để đến bánh răng giảm tốc (11) sẵn sàng truyền cho cầu chủ động.
+Khi chỉ sử dụng nguồn công suất (2).
+Càng gạt (6) gạt ống gài (4) khoá chặt trục công suất thứ nhất (2). Lúc này nguồn công suất thứ hai qua bộ giảm tốc sơ cấp đến bích (21) rồi lên trục (24) để đến bánh răng bao (28). Từ đó thông qua các bánh răng vệ tinh (12) truyền công suất lên thân (10) để đến bánh răng giảm tốc (11) sẵn sàng truyền cho cầu chủ động. Cũng vậy, khi trục (2) cố định nên bánh răng trung tâm (29) cố định, vi sai bây giờ làm việc theo nguyên lý của cơ cấu hành tinh có bánh răng trung tâm (29) cố định.
+Khi chỉ sử dụng nguồn công suất (2) và nạp điện cho nguồn (1).
+Gạt càng (4) sang phải để nối trục trung tâm (2) với thân vi sai (10) nhằm khoá cứng vi sai. Công suất nguồn hai vừa truyền cho ôtô, vừa quay cưỡng bức trục (2) để quay rôto máy điện. Tức là máy điện làm việc theo chế độ máy phát, nạp điện cho ắc qui
+Chương 4. Xây dựng đường đặc tính ô tô Hybrid.
+
+1) Các thông số của động cơ (cho trước) + Công suất nguồn 1 (điện) N1 30 kW n_M 2850 [rpm] + Công suất nguồn 2 (nhiệt) N2 79 kW n_N 6000 [rpm]
+
+Xây dựng đặc tính động cơ đốt trong.
+
+Vận tốc góc : ωN =
+ω N = =628,32 [rad/s]/
+Mô men quay :
+Me =
+nhận giá trị : =(0,1-1,1).
+Ta thu được bảng sau:
+
+Lam-da w [rad/s] Me[N.m] Ne [W] 0.10 62.83 137.05 8611.0 0.15 94.25 141.76 13360.9 0.20 125.66 145.85 18328.0 0.25 157.08 149.31 23453.1 0.30 188.50 152.14 28677.0 0.35 219.91 154.34 33940.4 0.40 251.33 155.91 39184.0 0.45 282.74 156.85 44348.6 0.50 314.16 157.17 49375.0 0.55 345.58 156.85 54203.9 0.60 376.99 155.91 58776.0 0.65 408.41 154.34 63032.1 0.70 439.82 152.14 66913.0 0.75 471.24 149.31 70359.4 0.80 502.66 145.85 73312.0 0.85 534.07 141.76 75711.6 0.90 565.49 137.05 77499.0 0.95 596.90 131.70 78614.9 1.00 628.32 125.73 79000.0 1.05 659.74 119.13 78595.1 1.10 691.15 111.90 77341.0
+
+Bảng 4-1: Bảng đặc tính động cơ đốt trong.
+Ta thu được đồ thị:
+ω [Rad/s]
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+10
+700
+20
+30
+40
+50
+60
+70
+80
+90
+600
+500
+400
+300
+200
+100
+Me
+Ne
+Me [N.m]
+Ne [N.m]
+Hình 4-1: Đặc tính động cơ đốt trong.
+Nhận xét: Đường đặc tính của động cơ giống như lý thuyết.
+
+Xây dựng đặc tính Moto.
+Vận tốc góc : ωM =
+ωM = = 298.452 [rad/s]/
+Mô men quay :Me =
+nhận giá trị : =(0.1-1.0).
+Ta thu được bảng sau:
+Lam-da w [rad/s] Me[N.m] Ne [W] 0.10 29.8 402.07 12000 0.15 44.8 402.07 18000 0.20 59.7 402.07 24000 0.25 74.6 402.07 30000 0.30 89.5 335.06 30000 0.35 104.5 287.20 30000 0.40 119.4 251.30 30000 0.45 134.3 223.37 30000 0.50 149.2 201.04 30000 0.55 164.1 182.76 30000 0.60 179.1 167.53 30000 0.65 194.0 154.64 30000 0.70 208.9 143.60 30000 0.75 223.8 134.02 30000 0.80 238.8 125.65 30000 0.85 253.7 118.26 30000 0.90 268.6 111.69 30000 0.95 283.5 105.81 30000 1.00 298.452 100.52 30000
+
+Bảng 4-3: Bảng đặc tính động cơ điện.
+Đồ thị đặc tính động cơ điện.
+
+0
+40
+80
+120
+160
+200
+240
+260
+300
+50
+100
+150
+200
+250
+300
+350
+400
+450
+4
+8
+12
+16
+20
+24
+28
+32
+36
+Me
+Ne
+Me [N.m]
+Ne [N.m]
+ω [Rad/s]
+Hình 4-4: Đặc tính động cơ điện.
+Nhận xét:
+Từ ω = ( 0- 74.6 [Rad/s]) mô men của động cơ điện không đổi và đạt ở mức cực đại, trong khi đó công suất động cơ biến thiên từ 0 đến cực đại là 30 KW. Từ ω = 74.6 [Rad/s] trở đi mô men giảm, công suất động cơ giữ nguyên.
+Xây dựng đặc tính kéo cho ôtô HYBRID
+Ta đi tính các thông số:
+Tính tỷ số truyền chính io.
+Khi cả 2 nguồn cùng phát, công suất của xe Vmax.
+Trong đó: I0 : tỷ số truyền chính.
+Suy ra :
+Khi 2 nguồn kết hợp động cơ đốt trong có tốc độ cao hơn động cơ điện nên phải giảm số vòng quay của nó trước khi đến bộ kết hợp.
+Suy ra :
+Tỉ số truyền khi dùng nguồn công suất động cơ nhiệt.
+i1-N = / = = 1,375.
+Tỉ số truyền khi dùng nguồn công suất động cơ điện.
+i1_M = / = =3,67
+Các công thức tính lực kéo.
+Bảng số liệu:
+[rad/s] [rad/s] igt ikh 628,32 298,45 3,67 1,375 3,13 0,9 2,105 1
+Công thức tính lực kéo khi chỉ dùng nguồn 1 động cơ điện Pk1.
+V1 = .
+Pk1 = .
+Công thức tính lực kéo khi chỉ dùng nguồn 2 động cơ nhiệt Pk2.
+V2 = .
+Pk2 = .
+Công thức tính lực kéo khi chỉ dùng nguồn 1 động cơ điện Pk1 khi truyền direct ( truyền thẳng )
+V3 = .
+Pk3 = .
+Công thức tính lực kéo khi chỉ dùng nguồn 1 động cơ nhiệt Pk2 khi truyền direct ( truyền thẳng )
+V4= .
+Pk4 =
+Công thức tính lực kéo khi dùng 2 nguồn kết hợp Pk5.
+V5 = .
+Pk5 = .
+Ta thu được bảng sau:
+V1 Pk1 V2 Pk2 V3 Pk3 v4 Pk4 v5 Pk5 0.91 11880 2.42 3196.4 3.333 3240 3.334 2465.57 3.33 6699.25 1.36 11880 3.64 3306.4 5 3240 5.001 2550.39 5.00 6725.37 1.82 11880 4.85 3401.7 6.667 3240 6.668 2623.91 6.67 6748.01 2.27 11880 6.06 3482.4 8.333 3240 8.334 2686.11 8.33 6767.16 2.73 9900 7.27 3548.3 10 2700 10 2737.01 10.00 5792.83 3.18 8485.71 8.49 3599.7 11.67 2314.29 11.67 2776.59 11.67 5097.88 3.64 7425 9.70 3636.3 13.33 2025 13.34 2804.87 13.33 4576.23 4.09 6600 10.91 3658.3 15 1800 15 2821.83 15.00 4168.96 4.55 5940 12.12 3665.6 16.67 1620 16.67 2827.49 16.67 3840.7 5.00 5400 13.34 3658.3 18.33 1472.73 18.34 2821.83 18.33 3568.96 5.45 4950 14.55 3636.3 20 1350 20 2804.87 20.00 3338.73 5.91 4569.23 15.76 3599.7 21.67 1246.15 21.67 2776.59 21.67 3139.64 6.36 4242.86 16.97 3548.3 23.33 1157.14 23.34 2737.01 23.33 2964.26 6.82 3960 18.18 3482.4 25 1080 25 2686.11 25.00 2807.16 7.27 3712.5 19.40 3401.7 26.67 1012.5 26.67 2623.91 26.67 2664.26 7.73 3494.12 20.61 3306.4 28.33 952.941 28.34 2550.39 28.33 2532.43 8.18 3300 21.82 3196.4 30 900 30 2465.57 30.00 2409.25 8.64 3126.32 23.03 3071.8 31.67 852.632 31.67 2369.43 31.67 2292.8 9.09 2970 24.25 2932.5 33.33 810 33.34 2261.99 33.33 2181.56
+
+Bảng 4-5: Bảng số liệu tính lực kéo của ô t
+Đồ thị.
+V [m/s]
+Pk [N]
+Hình 4-6: Đặc tính lực kéo của ô tô.
+Chương 5. Quy trình kiểm tra chất lượng xuất xưởng.
+- Xe sau khi đã được hoàn thiện lắp ráp qua các công đoạn, dây chuyền, cần phải kiểm tra tổng thể, kiểm tra gầm xe, kiểm tra các thiết bị băng thử ở khu vực dây chuyền kiểm tra, chạy thử trên đường và thử kín nước để đánh giá chất lượng chế tạo lắp ráp, xác định các thông số và các chỉ tiêu đánh giá chất lượng ô tô.
+- Qui trình công nghệ kiểm tra chất lượng xuất xưởng:
+5.1. Kiểm tra tổng thể:
+5.1.1 Số khung, số động cơ:
+
+Nội dung kiểm tra Yêu cầu Phương pháp kiểm tra -Vị trí đóng khung. - Số khung thực tế, số máy thực tế. -Qui cách, chất lượng các kí tự. -Số đóng phải rõ ràng, không đóng 2 lần. - Các kí tự và vị trí đóng đúng với qui định. - So sánh với bản đăng kí
+
+5.1.2 Khung,thân vỏ.
+
+Nội dung kiểm tra. Yêu cầu Phưong pháp kiểm tra -Hình dáng chung. -Các kích thước cơ bản. - Lắp đặt, bố trí các cụm tổng thành. - Chất lượng lớp sơn phủ. -Sai lệch về kích thước trong giới hạn cho phép. - Thân vỏ xe không lồi lõm,biến dạng. - Lớp sơn phải đảm bảo chất lương. -Đo bằng thước, so sánh với thiết kế.
+
+
+5.1.3 Gương chiếu hậu phía ngoài:
+
+Nội dung kiểm tra. Yêu cầu. Phương pháp kiểm tra. - Kiểu loại, số lượng. - Kết cấu,lắp đặt. - Đủ số lượng, đúng kiểu, điều khiển nhẹ nhàng. - Không bị mờ. - Quan sát được chiều rộng 4m cho mỗi gương ở vị trí cách gương 20m. -So sánh với thiết kế. - Kiểmtra bằng thiết bị và bằng tay.
+
+
+5.1.4 Hệ thống đèn chiếu sáng và tín hiệu.
+
+Nội dung kiểm tra. Yêu cầu. Phương pháp kiểm tra. - Vị trí lắp đặt. - Số lượng các loại đèn, màu sắc. - Sự hoạt động. - Không nứt, trầy, hở. - Bắt chắc chắn, đủ chi tiết, chức năng theo qui định. -Đủ yêu cầu về cường độ sáng, màu sắc và các yêu cầu khác. - So sánh với thiết kế. - Kiểm tra bằng thiết bị và bằng tay.
+
+
+5.1.5 Động cơ và các bộ phận liên quan.
+
+Nội dung kiểm tra Yêu cầu Phương pháp kiểm tra. - Định vị và bắt chặt động cơ và các bộ phận lắp trên động cơ. - Các dây đai dẫn động. -Độ kín khít của hệ thống nhiên liệu, bôi trơn, làm mát. - Không bị nứt, trầy,biến dạng, không có va chạm giữa các chi tiết quay và các chi tiết khác. - Được bắt chặt vào khung xe,lực xiết bulông đúng theo thiết kế qui định. -Mức dầu bôi trơn, làm mát, dầu dẫn động phanh, dầu dẫn động li hợp nằm trong giới hạn cho phép. - Động cơ hoạt động ổn định, không có tiếng ồn lạ khi hoạt động. - Không có rò rỉ nước làm mát. -Nhiệt độ nước làm mát và dầu bôi trơn nằm trong giới hạn qui định. - Dùng búa chuyên dùng hoặc cờ lê lực. -Để cần số ở vị trí 0, dừng xe bằng phanh đổ, cho động cơ làm việc và kiểm tra.
+
+5.1.6 Bánh xe và moay ơ:
+Nội dung kiểm tra Yêu cầu Phương pháp kiểm tra - Vị trí và cách lắp đặt. - Số lượng, kích cỡ và áp suất lớp. - Các chi tiết kẹp chặt và phòng lỏng. - Moay ơ của bánh xe. - Hư hại và biến dạng của lớp. - Đúng kích cỡ, kiểu loại, áp suất lớp. - Không nứt, biến dạng. - Lực xiết bulông đúng theo thiết kế. - Sự đầy đủ các chi tiết kẹp chặt và phòng lỏng. - Bánh xe được cân bằng động, không bó kẹt khi hoạt động. - Không có độ rơ dọc trục và hướng kính. - Chắn bùn đầy đủ và chắc chắn. - Vận hành. -Kiểm tra độ rơ, bó kẹt của moay ơ. - Dùng đồng hồ đo áp suất. - Dùng búa chuyên dùng, hoặc cà lê lực.
+
+
+5.2. Kiểm tra gầm xe.
+5.2.1. Hệ thống phanh.
+
+Nội dung kiểm tra Yêu cầu Phương pháp kiểm tra - Trang bị các hệ thống. - Kiểu loại, kết cấu. - Lắp đặt hoạt động và các mối ghép. - Đủ các chi tiết,chắc chắn, không nứt, không biến dạng. - Cáp phanh đỗ không lỏng, chùng khi phanh. Quan sát, dùng tay lắc vận hành hệ thống đạp phanh để kiểm tra sự rò rỉ.
+
+
+5.2.2. Li hợp.
+
+Nội dung kiểm tra Yêu cầu Phương pháp kiểm tra - Kiểu loại, lắp đặt. - Sự hoạt động. - Đủ không rò rỉ chất lỏng -Li hợp không bó kẹt, đóng ngắt phải nhẹ, cắt dứt khoát, phải có hành trình tự do theo qui định của nhà sản xuất. - Đạp, nhả bàn đạp li hợp. -Vận hành hợp số.
+
+5.2.3.. Cơ cấu lái và các đòn dẫn động lái.
+
+Nội dung kiểm tra Yêu cầu Phương pháp kiểm tra -Kiểu loại, lắp đặt và các mối ghép. - Sự hoạt động. -Đủ, không biến dạng. - Lực xiết bulông theo thiết kế. -Không va chạm vào các bộ phận khác khi quay vô lăng lái - Dùng đèn soi. - Tay lắc vô lăng lái và quan sát.
+
+
+5.2.4. Các khớp cầu, khớp chuyển hướng.
+
+Nội dung kiểm tra Yêu cầu Phương pháp kiểm tra -Kiểu loại,lắp đặt, các mối ghép và bôi trơn. - Sự hoạt động. -Đủ, không biến dạng, không kẹt khi quay vô lăng. - Đủ mỡ bôi trơn. - Không có tiếng lạ khi lắc vô lăng. - Vỏ bọc chắn bụi không bị thủng,rách. -Dùng đèn soi. - Tay lắc vô lăng lái.
+
+5.2.5. Ngõng quay lái:
+Nội dung kiểm tra Yêu cầu Phương pháp kiểm tra -Kiểu loại, lắp đặt. -Các mối ghép và sự bôi trơn. -Sự hoạt động. -Trợ lực lái. -Đủ, không biến dạng, không kẹt khi quay vô lăng. -Đủ mỡ bôi trơn. - Không rơ hướng trục và hướng kính. - Không rò rỉ dầu trợ lực lái. - Không rơ bạc, trục khớp cầu. -Đèn soi. -Kích bánh dẫn hướng kiểm tra độ rơ.
+
+
+5.2.6. Lò xo, ụ hạn chế hành trình.
+
+Nội dung kiểm tra Yêu cầu Phưong pháp kiểm tra -Kiểu loại, số lượng. -Lắp đặt và các mối ghép. -Các ụ hạn chế hành trình của nhíp và lò xo. - Không biến dạng, nứt. -Đủ các chi tiết. -Lực xiết bulông đúng theo thiết kế. - Đèn soi. -Dùng búa chuyên dùng hay cơ lê lực kiểm tra các mối ghép, lực xiết bu lông.
+
+5.2.7. Giảm chấn:
+
+Nội dung kiểm tra Yêu cầu Phưong pháp kiểm tra -Kiểu loại, số lượng. -Lắp đặt và các mối ghép. -Rò rỉ dầu thủy lực. - Không biến dạng, nứt. -Đủ các chi tiết. -Lực xiết bulông đúng theo thiết kế. -Không rò rỉ dầu. - Đèn soi. -Dùng búa chuyên dùng hay cơ lê lực kiểm tra các mối ghép, lực xiết bu lông.
+
+5.2.8. Các đăng:
+Nội dung kiểm tra Yêu cầu Phưong pháp kiểm tra -Lắp đặt và các mối ghép. -Độ rơ các khớp, then hoa,gối đỡ. -Không biến dạng, nứt. -Đủ các chi tiết. -Lực xiết bulông đúng theo thiết kế. -Độ rơ của then hoa và các trục chữ thập nằm trong giới hạn cho phép. - Đèn soi. -Dùng búa chuyên dùng hay cơ lê lực kiểm tra các mối ghép, lực xiết bu lông.
+
+5.2.9.Cầu xe:
+
+Nội dung kiểm tra Yêu cầu Phưong pháp kiểm tra -Lắp đặt và các mối ghép. - Rò rỉ dầu thủy lực. - Không biến dạng, nứt. -Lực xiết bulông đúng theo thiết kế. - Mức dầu bôi trơn nằm trong giới hạn qui định. -Không rò rỉ dầu bôi trơn. - Đèn soi. -Dùng búa chuyên dùng hay cơ lê lực kiểm tra các mối ghép, lực xiết bu lông
+
+
+5.3. Kiểm tra buồng lái và khoang hành khách.
+5.3.1. Kính chắn gió:
+
+Nội dung kiểm tra Yêu cầu Phưong pháp kiểm tra -Kiểu loại, số lượng. -Lắp đặt. -Trình trạng của gioăng kính. - Không nứt, vỡ. - Lắp chặt vào thân xe. -Gioăng kính không biến dạng Quan sát, so sánh với thiết kế
+5.3.2 Gương chiếu hậu:
+Nội dung kiểm tra Yêu cầu Phưong pháp kiểm tra -Kiểu loại, số lượng. - Lắp đặt, kết cấu. -Tầm quan sát. -Đủ. -Tầm quan sát đạt theo thiết kế. -Hình ảnh phản chiếu phải rõ, không biến dạng. Quan sát, so sánh, dùng tay lắc.
+5.3.3. Gạt nước và phun nước rửa kính:
+
+Nội dung kiểm tra Yêu cầu Phưong pháp kiểm tra -Kiểu loại, số lượng. - Lắp đặt, kết cấu. -Vùng quét. -Chắc, đủ. -Hoạt động nhẹ nhàng, không kẹt. -Diện tích quét phải đảm bảo tầm nhìn cho người lái. -Tia phun nước nằm trong tầm quét của gạt nước. -Gương chiếu hậu bên ngoài nằm trong tầm quét của gạt nước. -Quan sát thử. -Thao tác thử.
+5.3.4. Ghế người lái:
+Nội dung kiểm tra Yêu cầu Phưong pháp kiểm tra -Kết cấu, lắp đặt. -Khả năng điều chỉnh. -Chắc, đủ. -Hoạt động nhẹ nhàng, không kẹt. -Thỏa mãn vùng quan sát theo qui định. - Vị trí ghế người lái phải điều chỉnh được để đảm bảo tầm nhìn. -Quan sát thử. -Thao tác thử.
+5.3.5. Đai an toàn ghế của người lái:
+Nội dung kiểm tra Yêu cầu Phưong pháp kiểm tra -Kiểu loại, số lượng. -Lắp đặt. -Sự làm việc. Đủ, đúng, chắc. Quan sát, so sánh, thử.
+5.3.6 . Vô lăng lái:
+Nội dung kiểm tra Yêu cầu Phưong pháp kiểm tra -Lắp đặt, sự làm việc. - Độ rơ vô lăng lái. - Hiệu quả trợ lực lái. -Chắc, đủ. -Độ rơ vô lăng lái nằm trong giới hạn cho phép -Có trợ lực lái khi động cơ hoạt động. Quan sát, so sánh, thử.
+5.3.7. Cần số, phanh tay.
+Nội dung kiểm tra Yêu cầu Phưong pháp kiểm tra -Lắp đặt, sự làm việc. -Chắc, đủ. -Cần số không rung,lắc, chuyển số nhẹ nhàng. Quan sát, so sánh, thử.
+5.3.8. Các pêđan li hợp, phanh, ga.
+Nội dung kiểm tra Yêu cầu Phưong pháp kiểm tra - Vị trí lắp đặt. -Hành trình tự do. - Hành trình làm việc. - Khe hở tương đối với sàn. - Chắc, đủ. -Hành trình tự do và hành trình làm việc nằm trong giới hạn qui định. -Điều khiển nhẹ, không bó kẹt, trả về vị trí ban đầu khi thôi lực tác dụng. Quan sát, so sánh, thử.
+5.3.9. Các đồng hồ tốc độ, áp suất khí nén, báo số vòng quay động cơ, mức nhiên liệu…, các đèn chỉ báo
+Nội dung kiểm tra Yêu cầu Phưong pháp kiểm tra -Lắp đặt. -Sự làm việc. - Chắc, đúng vị trí, đủ số lượng. -Không nứt,trầy, hở. Quan sát, so sánh, thử.
+5.3.10. Kính cửa sổ:
+Nội dung kiểm tra Yêu cầu Phưong pháp kiểm tra -Kiểu loại, số lượng. - Lắp đặt. -Chắc, đủ. -Đóng mở phải nhẹ nhàng, không kẹt. - Các gioăng phải kín khít. - Khóa cửa chắc chắn, hoạt động nhẹ. - Quan sát,đo. -So sánh với thiết kế. -Đóng mở cửa thử.
+5.3.11. Sàn xe, trần xe và các thành bên:
+Nội dung kiểm tra Yêu cầu Phưong pháp kiểm tra -Vật liệu trải sàn. - Các tấm ốp thành bên, trần xe. -Vật liệu trải sàn không trơn trượt. -Trải sàn kgông rách, phồng. -Các tấm ốp không rách, nứt, tróc. -Nẹp phải đủ, chắc và thẳng hàng. -Quan sát. -So sánh.
+5.3.12. Đèn chiếu sáng trong xe, đèn bậc cửa lên xuống, điều hòa, quạt thông gió.
+Nội dung kiểm tra Yêu cầu Phưong pháp kiểm tra - Số lượng, qui cách. - Vị trí lắp đặt. -Tình trạng hoạy động. - không nứt, trầy , hở. - Bắt chặt, đủ số lượng, đảm bỏa chức năng thiết kế. -Quan sát. -So sánh. -Thử.
+
+Kết luận.
+Với mục tiêu chính của thiết kế ô tô hybrid 9 chỗ là giảm thiểu ô nhiễm môi trường, đánh vào ý thức của người dân, tiết kiệm nhiên liệu nên chiếc xe này chủ yếu được sử dụng làm xe taxi ở các điểm du lịch hoặc làm xe gia đình. Do đó thiết kế ô tô hybrid là một đề tài hay và khả quan. Tuy nhiên do hạn chế về kiến thức và nếu thiết kế hoàn thiện toàn bộ một chiếc ô tô ( mới hoàn toàn ) đòi hỏi phải có thời gian rất lớn và rất nhiều vấn đề cần giải quyết như khung vỏ, khung gầm, điện ô tô …
+Đề tài “ Thiết kế ô tô Hbrid 9 chỗ ngồi sử dụng động cơ nhiệt – động cơ điện” này em tập trung phân tích quá trình hoạt động kết hợp của 2 nguồn công suất và thiết kế bộ truyền lực chung, đặc biệt là bộ vi sai. Một số hệ thống khác như hệ thống phanh, lái, khung gầm, điện thân xe …em chon tham khảo theo mẫu xe Innova của Toyota.
+Trong quá trình làm đồ án em xin có một số đề xuất, mong rằng các sinh viên khóa sau nên tìm hiểu thêm:
+Thiết kế bố trí và lắp đặt động cơ điện, bình ác quy chính, hệ thống dây dẫn trên xe. Tìm hiểu về pin nhiên liệu có thể sử dụng trên ô tô hybrid và các loại nhiên liệu mới dung cho động cơ nhiệt. Tính toán thiết kế hoàn thành ô tô hybrid ở tất cả các hệ thống, tính kinh tế… Tối ưu bộ vi sai kết hợ
+TÀI LIỆU THAM KHẢO
+[1]. Nguyễn Hữu Cẩn - Dư Quốc Thịnh – Phạm Minh Thái – Nguyễn Văn Tài – Lê Thị Vàng. (1998). Lý thuyết ô tô máy kéo. Nhà xuất bản khoa học kỹ thuật.
+[2]. Lê Văn Tụy. Kết Cấu Và Tính Toán Ô Tô. Đà Nẵng. 2008.
+[3]. Bùi Văn Ga. Chuyên đề Năng lượng môi trường. Đại học Đà Nẵng.
+[4]. James Larminie. (2003). Electric and Vehicle Technology Explained
+[5] Iqbal Husain. Electric and hybrid vehicle design fundamentals.
+[6] Nguyễn Trọng Hiệp, Nguyễn Văn Lẫm. Thiết kế chi tiết máy, nhà xuất bản giáo dục, 2007.
+[7] Toyota Hybrid system, tài liệu của Toyota.
+[8] www. Oto-hui.com.

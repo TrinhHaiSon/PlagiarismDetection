@@ -1,0 +1,160 @@
+MỤC LỤC
+NHẬN XÉT CỦA GIÁO VIÊN HƯỚNG DẪN.. 1
+PHẦN 1: GIỚI THIỆU MÁY ÉP MÍA.. 5
+1.1. Lịch sử phát triển của máy. 5
+1.2. Giới thiệu về chức năng, công dụng, phân loại 6
+1.2.1. Chức năng và công dụng. 6
+1.2.2. Phân loại máy ép mía. 6
+1.3. Máy ép mía F1.750. 8
+1.4. Giới thiệu qua về công nghệ ép mía. 10
+1.4.1. Lấy nước mía bằng phương pháp ép. 10
+1.4.2. Các công đoạn lấy nước mía. 10
+1.4.3. Phương pháp lấy nước mía. 11
+1.5. Nội dung thiết kế được giao. 12
+PHẦN 2: PHÂN TÍCH CẤU TẠO CHỨC NĂNG SẢN PHẨM... 13
+2.1. Phân tích kết cấu của máy. 13
+2.2. Phân tích cấu tạo các chi tiết thành phần của máy ép 3 trục. 14
+2.2.1. Giá máy. 14
+2.2.2. Trục ép. 15
+2.2.3. Ổ trượt 17
+2.2.4. Bộ truyền bánh răng và bộ truyền xích. 17
+2.2.5. Ty ốc khóa. 19
+2.2.6. Thành hộp cán. 19
+2.2.7. Động cơ. 20
+2.2.8. Các chi tiết khác. 21
+2.3. Quy trình tháo, lắp thiết bị 22
+2.3.1. Dụng cụ tháo lắp. 22
+2.3.2. Quá trình tháo lắp. 25
+2.3.2.1. Tháo các chi tiết 25
+2.3.2.2. Lắp các chi tiết 32
+PHẦN 3: TÍNH TOÁN ĐỘNG HỌC VÀ ĐỘNG LỰC HỌC.. 33
+3.1. Tính toán động học 33
+3.1.1. Dạng răng của trục. 33
+3.1.2. Tỷ số truyền. 33
+3.1.3. Chiều dài và đường kính trục. 34
+3.1.4. Khe hở miệng ép trục trước và trục sau. 35
+3.1.5. Tốc độ quay của các trục. 35
+3.1.6. Bộ truyền xích. 39
+3.1.7. Bộ truyền bánh răng. 39
+3.1.8. Khoảng cách trục. 40
+3.2. Tính toán động học và kiểm nghiệm trục. 40
+3.2.1. Chọn vật liệu. 40
+3.2.2. Tính thiết kế trục. 41
+3.2.3. Phân tích lực và tính toán các lực tác dụng lên 3 trục. 43
+3.2.4. Kiểm nghiệm trục I 47
+PHẦN 4: HƯỚNG CẢI TIẾN VÀ KẾT LUẬN.. 51
+4.1. Hướng cải tiến. 51
+4.2. Kết luận. 54
+TÀI LIỆU THAM KHẢO.. 55
+LỜI NÓI ĐẦU
+Khoa học thiết kế và công nghệ không ngừng cải tiến, phát triển đã nhanh chóng làm thay đổi bộ mặt thế giới. Ngành công nghiệp thế giới nói chung và ngành công nghiệp ở nước ta nói riêng đã và đang phát triển nhanh chóng, tạo ra các sản phẩm thiết yếu phục vụ cho đời sống con người. Để nâng cao đời sống nhân dân, để hoà nhập vào sự phát triển chung của các nước trong khu vực cũng như trên thế giới. Đảng và Nhà nước ta đã đề ra mục tiêu đến năm 2020 nước ta cơ bản trở thành một nước công nghiệp phát triển, trở thành một nền kinh tế vững mạnh trong khu vực, có tiếng nói lớn hơn trong các diễn đàn kinh tế thế giới.
+Đồ án môn học đóng vài trò hết sức quan trọng trong quá trình đào tạo sinh viên trở thành một người kỹ sư. Đề án thiết kế là một dạng đồ án tổng hợp kiến thức của một số môn như: nguyên lý máy, sức bền vật liệu, chi tiết máy, máy nâng chuyên,…Qua đề án thiết kế giúp cho sinh viên hiểu rõ hơn về những kiến thức đã tiếp thu được trong quá trình học tập, giúp cho sinh viên kiểm nghiệm và thực hành nhưng kiến thức đã được học ở các chương trình trước, củng cố và nâng cao những kỹ năng phân tích, đánh giá,… trong quá trình làm đề án cũng như giúp ích rất nhiều cho công tác sau này.
+Là một sinh viên chuyên ngành kỹ thuật cơ khí, em đã được giao đề tài: “Thiết kế máy ép mía siêu sạch” . Đây là một đề tài mới và khó đối với em. Tuy nhiên trong thời gian làm đề án em đã nhận được sự chỉ bảo tận tình của thầy giáo hướng dẫn: .... do vậy em đã hoàn thành tốt được đề án.
+Tuy nhiên do trình độ hiểu biết về lý thuyết cũng như thực tế còn hạn chế nên đề án này chắc chắn không tránh khỏi những sai sót. Vậy em rất mong nhận được sự chỉ bảo của các thầy cô để em có thể hiểu sâu hơn về môn học cũng như các phương án khác hợp lý hơn.
+Em xin chân thành cảm ơn!
+Ngày 30 tháng 05 năm 2014
+Sinh viên thực hiện :
+PHẦN 1
+GIỚI THIỆU MÁY ÉP MÍA
+1.1. Lịch sử phát triển của máy
+Khi mà công nghệ ép mía còn rất thô sơ, người ta ép mía bằng 2 trục gỗ đứng, lấy sức kéo từ trâu bò.
+Ngành công nghiệp tuy có từ lâu đời, nhưng 200 năm gần đây mới được cơ khí hóa. Nhiều thiết bị quan trọng được phát minh vào thế kỷ 19.
+Trong những năm gần đây ngành công nghiệp đã phát triển một cách nhanh chóng, vấn đề cơ khí hóa, liên tục hóa và tự động hóa để giảm sức lao động cho con người được áp dụng rông rãi .
+Tình hình công nghiệp của nước ta:
+Việt Nam là một quốc gia có truyền thống sản xuất mía từ lâu đời. Cùng với sự phát triển của ngành công nghiệp trên thế giới, việc ép mía thủ công ở nước ta cũng phát triển mạnh.
+Trong thời kỳ Pháp thuộc, ngành công nghiệp nước ta phát triển một cách chậm chạp, sản xuất thủ công là chủ yếu. Khi này máy ép mía chưa được phát triển.
+Sau ngày hòa bình lập lại, dưới sự lãnh đạo của Đảng, lòng nhiệt tình lao động của nhân dân ta cộng với giúp đỡ của các nước XHCN ngành công nghiệp nước ta ngày càng bắt đầu phát triển. Cùng với sự phát triển ngành công nghiệp máy ép mía cũng được thiết kế đơn giản và thô sơ.
+Khi đất nước thống nhất nghành công nghiệp nước ta bắt đầu phát triển mạnh, đời sống nhân dân được nâng cao. Máy ép mía phát triển theo sự phát triển đó những chiếc máy thô sơ đơn giản đến những chiếc máy thủ công quay bằng tay và bây giờ những chiếc máy ép mía dùng động cơ điện ngày càng phát triển mạnh và chiếm ưu thế trên thị trường.
+Với các nghành công nghiệp hiện đại và các cơ sở sản xuất thủ công, kết hợp với sự phát triển nhanh chóng của thiết kế sản xuất và sự an toàn trong việc sử dụng thực phẩm, chắc chắn trong thời gian tới nước ta sẽ có một nền công nghiệp tiên tiến nhằm đáp ứng nhu cầu sử dụng cho nhân dân sử dụng nước mía sạch từ nhũng chiếc máy ép siêu sạch để tăng năng suất và đặc biệt bảo vệ sức khỏe của người tiêu dùng.
+1.2. Giới thiệu về chức năng, công dụng, phân loại
+1.2.1. Chức năng và công dụng
+Máy ép mía có chức năng chủ yếu tách nước ra từ cây mía.
+Máy ép mía là công cụ để ép mía thành nước tạo ra những cốc mía phục vụ khách hàng và là một trong những công đoạn quan trọng nhất, nó quyết định khả năng lấy được bao nhiêu nước mía trong cây mía, quá trình ép mía càng tốt thì năng suất cửa hàng càng tăng lớn (thời gian khách phải chờ ngắn) nước mía sau khi ép ra sạch, đảm bảo vệ sinh, phục vụ cho khách hàng tốt, lợi nhuận cửa hàng thu về được nhiều hơn.
+Như vậy máy ép mía cần phải được thiết kế một cách hợp lý nhất sao cho nước mía được lấy ra triệt để nhất, nhanh nhất và sạch nhất, nếu thiết kế không hợp lý thì sẽ ảnh hưởng đến năng suất ép mía.
+1.2.2. Phân loại máy ép mía
+Máy ép mía quay tay: Dùng lực của tay để làm quay các trục ép.
+
+Hình 1.1: Máy ép mía quay tay
+Máy ép mía sử dụng động cơ điện
+Máy ép mía hai trục ép (hình 1.2)
+Máy gồm các bộ phận chính: Giá máy, đế máy, thân máy, các trục ép (trục trên, trục dưới), bộ truyền bánh răng, bộ truyền xích, động cơ.
+Hình 1.2: Máy ép mía 2 trục
+Máy ép mía ba trục ép
+Hình 1.3: Máy ép mía 3 trục
+Cấu tạo của máy ép 3 trục có các bộ phận chính sau:
+Giá máy
+Các trục ép: trục đỉnh, trục trước, trục sau
+Bộ gối đỡ trục
+Tấm dẫn mía.
+- Máy ép mía bốn trục ép
+Hình 1.4: máy ép mía 4 trục
+Cấu tạo chính: Trục cán I, trục cán II, trục cán III, trục cán IV, puly, bộ truyền xích, bộ phận phát động.
+1.3. Máy ép mía F1.750
+Trong phạm vi của đề án này nhóm đi nghiến cứu sâu về máy ép mía siêu sạch 3 lô F1.750, được sử dụng rộng rãi trong đời sống hằng ngày.
+Đặc điểm của máy:
+Tất cả vỏ bằng inox, 2 Trục cán chính inox đặc loại 304, máy tải bằng xích, dễ vận chuyển, mặt trên của máy có tấm kính dễ kiểm soát khi cán mía. Có ngăn chứa cây mía vá ngăn đựng bã mía khi ép xong không rơi vãi ra ngoài, giữ vệ sinh. Dễ tháo ráp, tất cả có phốt nên rửa nước được tòan bộ khi vệ sinh máy trong ngày.
+Máy ép mía siêu sạch 3 lô F1.750 với thiết kế đặc biệt, ép mía chỉ duy nhất một lần toàn bộ máy được gắn trên một bộ thùng xe chắc chắn, dễ dàng di chuyển, dễ vệ sinh và có khoang chứa bã sau khi ép. Máy thích hợp với những cửa hàng phải di chuyển nhiều trong ngày.
+Thông số kỹ thuật:
+Kích thước: 90x55x80 cm
+Trọng lượng: 95 kg
+Motor: 750W - 220v/50hz
+Tốc độ đầu ra động cơ: 50 vòng/phút.
+Một số hình ảnh về máy ép nước mía siêu sạch F1.750
+1.4. Giới thiệu qua về công nghệ ép mía
+1.4.1. Lấy nước mía bằng phương pháp ép
+Nguyên lý của phương pháp này là dùng lực cơ học làm biến đổi thể tích cây mía, từ đó phá vở tổ chức tế bào để lấy nước mía.
+Phương pháp ép bao gồm các công đoạn: xử lí mía, ép giập, ép kiệt.
+1.4.2. Các công đoạn lấy nước mía
+a. Xử lý mía
+Nhằm tạo điều kiện cho quá trình ép dễ dàng hơn, chất lượng nước được sạch, nâng cao năng suất và hiệu suất ép. Xử lý mía trước khi ép bao gồm các quá trình sau:
+Mía được làm sạch vỏ và các chất bẩn. Cây mía được chặt ngắn thành từng đoạn và vát mép 1 đầu của cây để dễ dàng cho việc đưa cây mía vào ép. Nâng cao năng suất ép. Nâng cao hiệu suất ép mía.
+b. Ép giập
+Ép giập vừa có tác dụng lấy nước mía ra từ cây mía (khoảng 60 – 70%), vừa làm cho mía giập vụn hơn. Đồng thời thu nhỏ thể tích lớp mía, cung cấp mía đều đặn cho các máy ép sau, tạo điều kiện cho các máy ép sau làm việc ổn định, làm tăng năng suất, hiệu suất ép và giảm bớt công suất tiêu hao.
+c. Ép kiệt
+Sau khi ép dập lần 1 mía được ép lần 2,3. Mục đích chủ yếu của giai đoạn này là lấy đến mức tối đa lượng nước mía có trong cây mía.
+1.4.3. Phương pháp lấy nước mía
+Gồm 2 phương pháp: Phương pháp ép khô và phương pháp ép ướt.
+a. Phương pháp ép khô
+Vì máy ép mía thiết kế cho quán giải khát. Máy được thiết kế đơn giản, do người thực hiện thủ công nên phương pháp ép thô được sử dụng.
+Đây là phương pháp ép lấy nước mía mà không sử dụng nước thẩm thấu, chỉ dùng áp lực làm vở tế bào để lấy nước mía, do đó hiệu suất ép mía thấp (khoảng 92 – 95%) không thể ép kiệt lượng nước có trong cây mía.
+Phương pháp ép khô được sử dụng ở các máy ép mía thủ công, trong phòng thí nghiệm…
+b. Phương pháp ép ướt (có sử dụng nước thẩm thấu)
+Phương pháp này thường sử dụng trong các nhà máy ép mía làm đường nhằm lấy toàn bộ lượng đường có trong mía.
+Để lấy được nhiều đường ra từ cây mía, thì việc phun nước thấm vào bã mía được xem là biện pháp hiệu quả.
+Khi mía bị ép, màng tế bào bị rách và co lại, đồng thời nước mía chảy ra. Sau khi ra khỏi máy ép, các tế bào nở ra và có khả năng hút nước mạnh. Chính vì vậy, mà người ta đã phun nước vào lớp bã để hoà tan một lượng đường còn lại trong tế bào, qua lần ép sau lượng đường pha loãng được lấy ra, và tiếp tục như vậy cho đến khi đường được lấy ra với mức cao nhất. Phương pháp này sử dụng trong các nhà máy ép mía làm đường.
+Có 3 phương pháp ép ướt:
+Phương pháp ép thẩm thấu đơn Phương pháp ép thẩm thấu kép Phương pháp ép thẩm thấu kết hợp.
+1.5. Nội dung thiết kế được giao
+Thiết kế thiết kế máy ép mía phục vụ cho một quán giải khát:
+- Phân tích kết cấu, chức năng của máy ép và các chi tiết thành phần.
+- Lập sơ đồ nguyên lý làm việc của máy.
+- Tính toán động học và động lực học của máy.
+- Lập các bản vẽ lắp, bản vẽ 3D, mô phỏng hoạt động của máy trên phần mềm, bản vẽ chi tiết của các chi tiết thành phần.
+................................................
+PHẦN 2
+PHÂN TÍCH CẤU TẠO CHỨC NĂNG SẢN PHẨM
+2.1. Phân tích kết cấu của máy
+Sơ đồ nguyên lý làm việc của máy ép nước mía sạch (Hình 2.1)
+Theo hình dưới ta có: động cơ bộ truyền xích bánh răng trục quả lô tấm dẫn nước mía.
+Hình 2.1: Sơ đồ nguyên lý làm việc
+- Máy có cấu tạo với 3 lô ép, làm hoàn toàn bằng thép chuyên dụng. - Có khay đỡ cốc. - Kích thước nhỏ gọn, di chuyển dễ dàng. - Có khay lưới lọc, giúp nước mía luôn trong vắt.
+................................................
+Giá thành giảm, có thể sử dụng tới khi nào hỏng thì thay cái mới không cần quan tâm đến việc bảo dưỡng.
+Vì vậy chúng em đã cải tiến dùng ổ lăn thay cho ổ trượt để làm bộ phận đỡ trục cho máy.
+Dưới đây là hình vẽ đã cải tiến của ổ đỡ trục.
+Hình 4.1: Ổ đỡ trục trước cải tiến
+Hình 4.2: Ổ đỡ trục sau cải tiến
+Song theo quan sát của chúng em thì khi đưa khúc mía vào tấm dẫn mía thì không sao, mía vẫn được ép bình thường. Nhưng để cho cốc nước mía sau khi được ép thơm ngon hơn thì tất cả các quán nước khi ép nước mía đều cho 1, 2 quả quất vào trong máy ép để ép lấy nước như mía. Vấn đề khi cho quất vào lại gặp khó khăn, khi cho quất vào chúng ta phải mở tấm kính bên trên và từ từ nhẹ nhàng thả quất vào, nếu không cẩn thẩn quất có thể bị văng ra ngoài hay tay có thể chạm vào các trục. Vì thế chúng em cải tiến tấm dẫn mía ở đầu ra khi đưa mía vào. Chúng em sẽ làm vát mặt trên của ống một góc nhất định để khi chúng ta thả quất vào rất thuận tiện, không sợ văng ra ngoài hay ko sợ tay mình chạm vào các lô ép và như vậy an toàn cho người sử dụng.
+Ngoài ra vẫn còn một phương pháp cải tiến tấm dẫn mía mà chúng ta không cần vát mép mặt trên của ống. chúng ta có thế thiết kế ống dẫn mía với một chiều dài nhất định sao cho khoảng cách ống dẫn mía tới trục I, II là nhỏ nhất vẫn đảm bảo được tính an toàn giữa các trục với ống dẫn mía. Khi đó chúng ta cho quất vào cùng khúc mía qua tấm dẫn mía đi vào khe hở giữa hai trục mà không sợ quất văng ra ngoài, không cần tháo tấm kính bên trên máy, đảm bảo an toàn và sạch sẽ. như vậy khi mía và quất được ép sẽ cho ra những cốc nước mía thơm ngon, và người sử dụng máy ép mía siêu sạch cũng cảm giác thấy an tâm hơn.
+Dưới đây là 2 hình vẽ đã cải tiến của tấm dẫn mía vào lô ép.
+Hình 4.1: Tấm dẫn mía trước và sau khi được cải tiến
+4.2. Kết luận
+Qua quá trình tìm hiểu, tháo lắp máy ép mía siêu sạch F1-750 chúng em đã dựng lại mô hình 3D máy ép mía siêu sạch và mô phỏng hoạt động của máy trên mô hình 3D cùng với bản vẻ lắp và những bản vẽ chi tiết. Để tính được lực ép của trục I và II vào khúc mía chúng em đã dùng phương pháp thực tế để đo đạc tính lực ép rồi sau đó dựa vào những công thức đã được học để kiểm nghiệm bền chúng em thấy thỏa mãn bền.
+Vậy qua đề án thiết kế máy ép mía siêu sạch. Chúng em có thể hiểu thêm về nguyên lý hoạt động cũng như những ưu nhược điểm của máy ép mía siêu sạch đang được sử dụng phổ biến trong nhưng quán giải khát hiện nay.
+*TÀI LIỆU THAM KHẢO
+1. Nguyễn Hữu Lộc, Cơ sở thiết kế máy, NXB ĐHQGTP Hồ Chí Minh, 2004.
+2. Nguyễn Trọng Hiệp, Chi tiết máy tập 1, 2 NXB Giáo dục, 1998.
+3. Nguyễn Hữu Lộc, Bài tập chi tiết máy, NXB ĐHQGTP Hồ Chí Minh, 2003.
+4. Nguyễn Hữu Lộc, Độ tin cậy trong thiết kế kỹ thuật , NXB ĐHQGTP Hồ Chí Minh, 2002.
+
+

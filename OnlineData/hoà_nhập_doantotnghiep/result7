@@ -1,0 +1,254 @@
+QUY TRÌNH CÔNG NGHỆ GIA CÔNG CHI TIẾT THÂN ĐỠ
+ĐẠI HỌC KỸ THUẬT CÔNG NGHIỆP
+LỜI NÓI ĐẦU
+Hiện nay khoa học kỹ thuật đang phát triển như vũ bão, mang lại những lợi ích cho con người về tất cả nhữnh lĩnh vực tinh thần và vật chất. Để nâng cao đời sống nhân dân, để hoà nhập vào sự phát triển chung của các nước trong khu vực cũng như trên thế giới. Đảng và Nhà nước ta đã đề ra những mục tiêu trong những năm tới là nước công nghiệp hoá hiện đại hoá .
+Muốn thực hiện được điều đó một trong những ngành cần quan tâm phát triển nhất đó là ngành cơ khí chế tạo máy vì ngành cơ khí chế tạo máy đóng vai trò quan trọng trong việc sản xuất ra các thiết bị công cụ cho mọi ngành kinh tế quốc dân. Để thực hiện việc phát triển ngành cơ khí cần đẩy mạnh đào tạo đội ngũ cán bộ kỹ thuật có trình độ chuyên môn cao, đồng thời phải đáp ứng được các yêu cầu của công nghệ tiên tiến, công nghệ tự động hoá theo dây truyền trong sản xuất .
+Nhằm thực hiện mục tiêu đó, chúng Em là sinh viên trường Đại Học Kỹ Thuật Công Nghiệp - Thái Nguyên nói riêng và những sinh viên của các trường kỹ thuật nói chung trong cả nước luôn cố gắng phấn đấu trong học tập và rèn luyện, trau dồi những kiến thức đã được dạy trong trường để sau khi ra trường có thể đóng góp một phần trí tuệ và sức lực của mình vào công cuộc đổi mới của đất nước trong thế kỷ mới
+Sau một thời gian học tập tại trường, Em đã hoàn thành khoá học với chuyên ngành Chế Tạo Máy. Với những kiến thức đã học và học hỏi thêm của bản thân, Em đã tính toán thiết kế quy trình công nghệ gia công thân đỡ . Đây là chi tiết dạng hộp , Sản phẩm này đã và đang được sử dụng một cách có hiệu quả trong các ngành nông nghiệp, công nghiệp nhẹ trong và ngoài nước .
+Qua đề tài này Em đã tổng hợp được nhiều kiến thức chuyên môn, giúp Em hiểu rõ hơn những công việc của một kỹ sư thiết kế quy trình công nghệ. Song với những hiểu biết còn hạn chế cùng với kinh nghiệm thực tế chưa nhiều nên đề tài của Em không tránh khỏi những thiếu sót. Em rất mong được sự chỉ bảo của các thầy trong bộ môn Công Nghệ Chế Tạo Máy và các Thầy Cô giáo trong khoa để đề tài của Em được hoàn thiện hơn .
+Cuối cùng Em xin chân thành cảm ơn sự quan tâm chỉ bảo của các Thầy Cô trong khoa và bộ môn Công Nghệ Chế Tạo Máy trường Đại Học Kỹ Thuật Công Nghiệp và đặc biệt là sự hướng dẫn tận tình của thầy giáo :
+QUY TRÌNH CÔNG NGHỆ GIA CÔNG CHI TIẾT THÂN ĐỠ ĐẠI HỌC KỸ THUẬT CÔNG NGHIỆP
+
+MỤC LỤC
+Trang
+PhầnI Phân tích chi tiết gia công
+Phần II Xác định dạng sản xuất
+Phần III Xác định phương pháp chế tạo phôi
+Phần IV Thiết kế qui trình công nghệ
+Phần V Tính và tra lượng dư
+Phần VI Tính và tra chế độ cắt
+PHẦN I
+PHÂN TÍCH CHI TIẾT GIA CÔNG
+
+1.1 Phân tích đặc điểm và điều kiện làm việc của chi tiết gia công
+a. Đặc điểm chi tiết gia công dạng hộp.
+Chi tiết dạng hộp là chi tiết có dạng khối rỗng, xung quanh có thành vách, gân gờ, lồi lõm dầy mỏng khác nhau, dùng để lắp cụm chi tiết máy lên nó.
+Do có cấu tạo hết sức phức tạp nên việc gia công gặp nhiều khó khăn. Tuy nhiên đây là chi tiết được sử dụng rộng rãi
+b. Điều kiện làm việc.
+Chi tiết đề cho là thân đỡ dùng để đỡ trục cán trong máy cán do đó điều kiện làm việc chủ yếu chịu nén rung động do máy gây ra .
+1.2. Phân tích yêu cầu kỹ thuật và chọn phương pháp gia công lần cuối
+Đây là chi tiết dạng hộp khá phức tạp gồm nhiếu bề mặt gia công và không gia công với những yêu cầu khác nhau . Do đó chọn các phương pháp gia công lần cuối cũng khác nhau
+Thân đỡ có các bề mặt bao , độ chính xác lớn , nhám bề mặt khá cao, Ra=2.5mm . Đây cũng là bề mặt dùng làm chuân tinh trong qua trình gia công lỗ,rãnh….Ta dùng phương pháp phay thô, tinh, bào hay chuốt. ở đây sử dụng phương pháp phay, để đảm bảo năng suất va chất lượng yêu cầu.
+Các lỗ f20+0.1dùng để bắt chốt yêu cầu Ra=1.25mm ở đây dùng khoan khoét doa . Để đảm bảo độ đồng tâm có thể dùng các cách sau:
+· Gia công trên cùng một lần gá.
+· Sử dụng chuẩn tinh thống nhất.
+· Gia công song lỗ này dùng làm chuẩn đê gia công lỗ kia.
+· Dùng đồ gá bàn quay.
+· Gia công trên máy nhiều trục .
+ở đây sử dụng phương pháp gia công trên cùng một lần gá để đảm bảo năng suất và độ đồng tâm.
+Gia công 4lỗ M16 sâu 32 bố trí trên một mặt phẳng , để đảm bảo độ vuông góc đường tâm lỗ với mặt đầu và khoảng cách tâm các lỗ có thể dùng các cách sau:
+
+
+· Phương pháp vạch dấu .
+· Dùng bạc dẫn hướng .
+· Dùng bạc chuẩn .
+· Phương pháp xác định toạ độ : dùng thước , du xích .
+· Gia công trên máy nhiều trục.
+ở đây dùng bạc dẫn hướng , các lỗ ren sẽ được ta rô ngay sau khi khoan
+Các lỗ ren còn lại (M16, M6) có yêu cầu độ chính xác không cao nên khoan sau đó ta rô ren .
+Rãnh có chiều rộng 20với yêu cầu Ra=1.25 àm . Để đạt được yêu cầu này ta có thể sử dụng các phương pháp gia công lần cuối sau: mái , phay tinh, hoặc chuốt . ở đây sử dụng phương pháp phay tinh để đạt năng suất.
+Bề mặt R80 với yêu cầu nhám khá cao Ra=1.25 àm sau khi đúc sử dụng phương pháp tiên trên máy doa để đảm bảo năng suất và độ nhám.
+Rãnh phía dưới có chiều rộng 20chiều sâu 45mm yêu cầu Ra=2.5 àm sử dụng phương pháp phay một lần bằng dao phay đĩa ba mặt.
+Các rãnh còn lại do yêu cầu độ chính xác không cao, chất lượng bề mặt không cao lắm , ta dùng dao phay ngón để đảm bảo năng suất và chât lượng.
+1.3. Phân tích tính công nghệ trong kết cấu.
+Tính công nghệ trong kêt cấu: Là tính chất của sản phẩm nhằm đảm bảo yêu cầu tiêu hao kim loại là ít nhất , gia công lắp giáp là ít nhất . Giá thành chế tạo là ít nhất ... Trong điều kiện sản xuất cụ thể.
+Nhìn chung chi tiết thân đỡ có bề mặt bao rộng để đỡ chi tiết gia công do đó đủ cứng vững khi gia công ít bị biến dạng.
+Các rãnh then , các rãnh khác phải đảm bảo dễ ăn dao và thoát dao trong quá trình gia công.
+Các lỗ ren tiêu chuẩn thuận lợi cho quá trình gia công .
+Từ những đặc tính trên ta thấy chi tiết gia công có tính công nghệ trong kết cấu khá cao .
+
+
+PHẦN II XÁC ĐỊNH DẠNG SẢN XUẤT
+
+2.1.Khái niệm và ý nghĩa của việc xác định dang sản xuất.
+Khái niệm: Dạng sản xuất phản ánh mối quan hệ qua lại giữa các đặc trưng vế công nghệ và các hình thức tổ chức sản xuất để tạo ra hiệu quả sản phẩm cao nhất.
+ý nghĩa: Khi biết dạng sản xuất sẽ cho ta biết điều kiện cho phép về vốn đầu tư , trang thiết bị công nghệ...
+2.2.Xác định dạng sản xuất.
+Dạng sản xuất phụ thuộc vào:
+· Sản lượng cơ khí của chi tiết.
+· Trọng lượng chi tiết.
+Mức độ lặp lại của chi tiết.
+Sản lượng cơ khí của chi tiết:
+Theo công thức (1) tài liệu[2] trang 12 có
+N =N1. m.( 1+)
+Trong đó:
+N : số lượng chi tiết được sản xuất trong một năm.
+N1: số lượng theo kế hoạch của sản phẩm/ một năm.
+m : số chi tiết cùng tên trong một sản phẩm, m = 1.
+b : số chi tiết được chế tạo thêm để dự trữ (6%).
+a: số phế phẩm (5%).
+N = 25000. 1. ( 1+) = 27750 ( chi tiết)
+Xác định trọng lượng chi tiết:
+Q1 = V . g (KG)
+Trong đó:
+g :trọng lượng riêng của vật liệu. g=7,852 (KG/dm3)
+V: thể tích chi tiết (dm3).
+V = V1+ V2_- V3 - V4 - V5
+V1 = 248.115.62 =1768240 (mm3)
+V2 = 120.45.115 = 621000 (mm3)
+V3 = 20.45.62 =55800 (mm3)
+V4 = 20.7.174 = 24360 (mm3)
+V5 = 124.30.115 =427800 (mm3)
+® V = 1768240+621000-55800-24360-427800 = 1881280 (mm3)
+Q= 1,88.7,852 = 14,76 (KG)
+Với sản lượng N = 27750, Q = 14,76 (KG) Tra bảng 2 tài liệu [ 2 ] trang 13 Kết luận dạng sản là hàng khối.
+
+PHẦN III
+XÁC ĐỊNH PHƯƠNG PHÁP CHẾ TẠO PHÔI
+
+3.1.Cơ sở chọn dạng phôi
+Chọn phôi hợp lý sẽ đảm bảo tối ưu quá trình gia công , giảm mức tiêu hao vật liệu , sức lao động , rút ngắn quy trình công nghệ , đảm bảo tính năng kỹ thuật của máy . Do đó sẽ giảm giá thành chế tạo sản phẩm. Vì vậy để chọn dáng phôi thích hợp cần căn cứ :
+· Kích thước , hình dáng , kết cấu của chi tiết gia công.
+· Vật liệu , cơ tính , yêu cầu kỹ thuật của vật liệu gia công.
+· dạng sản xuất.
+· Điều kiện cụ thể của nhà máy xí nghiệp, nơi sản xuất.
+· Khả năng của phương pháp chế tạo phôi.
+· Hệ số sử dụng vật liệu .
+Để tối ưu hoá vấn đề phôi cố gắng chọn phôi có kích thước gần giống với chi tiết gia công .
+Với chi tiết dạng hộp có thể sử dụng các phương pháp chế tạo phôi sau: đúc , hàn , dập , ...
+3.2.Các dạng phôi và phương pháp chế tạo phôi.
+1.Phôi đúc:
+Có thể đúc gang , thép ,hợp kim nhôm, thường có các phương pháp sau:
+a. Đúc trong khuôn cát, làm khuôn bằng tay, mẫu gỗ :
++ Ưu điểm :
+• Giá thành rẻ
+• Đúc được các chi tiết có hình dáng từ đơn giản đến phức tạp với khối lượng từ nhỏ đến lớn .
++Nhược điểm :
+• Lượng dư của phôi đúc lớn
+• Độ chính xác của phôi đúc thấp
+• Độ chính xác của phôi đúc phụ thuộc vào tay nghề của người làm khuôn .
++Phạm vi ứng dụng :
+Từ những đặc điểm trên thấy rằng phương pháp đúc này phù hợp với dạng sản xuất đơn chiếc , loạt nhỏ .
+b. Đúc trong khuôn cát, mẫu kim loại, làm khuôn bằng máy :
++ Ưu điểm :
+• Độ chính xác của phôi cao
+• Năng suất đúc cao do khuôn được làm bằng máy
+• Lượng dư để lại cho gia công nhỏ
+• Vật liệu chế tạo khuôn là cát, đất sét có sẵn nên hạ giá thành sản phẩm .
+• Khuân và lõi có thể sủ dụng lại nhiều lần.
++Nhược điểm :
+• Giá thành chế tạo mẫu khá cao .
++Phạm vi ứng dụng :
+Phương pháp đúc này phù hợp với dạng sản xuất hàng khối loạt lớn , với chi tiết lơn và trung bình.
+c. Đúc áp lực :
++Ưu điểm :
+• Năng suất, chất lượng của phôi đúc cao
+có thể đúc những chi tiết cỡ nhỏ có hình thù phức tạp, vỏ mỏng.
++Nhược điểm :
+• Phải tính chính xác lực đè khuôn
+• Khuôn phải được chế tạo chính xác nên giá thành cao.
++ Phạm vi ứng dụng :
+• Đúc chi tiết kim loại mầu, nhôm , hợp kim ít gia công cơ.
+d. Đúc trong khuôn kim loại :
++ Ưu điểm :
+• Năng suất, chất lượng của phôi đúc cao
+• Khuôn có thể dùng được nhiều lần
+• Tiết kiệm được vật liệu đúc do tính toán chính xác phôi liệu .
++Nhược điểm :
+• Giá thành chế tạo mẫu cao .
+• Chỉ đúc chi tiết không quá mỏng , kết cấu không quá phức tạp, chi tiết không quá lớn.
++Phạm vi ứng dụng :
+Phương pháp đúc này phù hợp với dạng sản xuất hàng khối loạt lớn .
+e. Đúc trong khuôn vỏ mỏng :
++ Ưu điểm :
+- Tính thông khí tốt , ít khuyết tật , giảm sức lao động..
++Nhược điểm :
+• Chỉ đúc được các chi tiết có độ phức tạp vừa và khối lượng nhỏ .
++Phạm vi ứng dụng :
+Dùng sản xuất hàng khối
+f.Đúc trong khuôn mẫu chẩy :
++ Ưu điểm :
+- Đúc được vật đúc có hình dáng phức tạp, có độ bóng cao
+- Đúc được các loại kim loại và hợp kim
++ Nhược điểm :
+Quy trình chế tạo khuôn phức tạp, giá thành cao.
++Phạm vi ứng dụng :
+Phương pháp đúc này chỉ nên áp dụng ở dạng sản xuất loạt lớn hàng khối với những phôi có chất lượng cao .
+2.Phôi hàn
+Chế tạo từ thép tấm rồi hàn lại thành hộp .
++ Ưu điểm :
+-Rút ngắn thời gian chuẩn bị , đạt hiệu quả kinh tế cao.
++ Nhược điểm :
+- Tồn tại ứng suất dư do đó ảnh hưởng đến chất lượng phôi.
++ Phạm vi ứng dụng :
+Sản xuất đơn chiếc loạt nhỏ , kết cấu đơn giản .
+3. Phôi dập
++ Ưu điểm :
+Tạo cơ tính tốt , năng suất cao.
++ Nhược điểm :
+Thường dập chi tiết nhỏ , hình dạng phức tạp.
++Phạm vi ứng dụng :
+Loạt lớn hàng khối
+Kết luận :
+Qua việc phân tích các phương pháp chế tạo phôi trên .Với chi tiết thân đỡ kích thước không quá lớn , không có thành mỏng , dạng sản xuất ở đây là loạt lớn hàng khối . Ta chọn phương pháp đúc trong khuôn cát làm khuôn bằng máy.
+
+BẢN VẼ CHI TIẾT ĐÚC
+
+PHẦN IV
+THIẾT KẾ QUY TRÌNH CÔNG NGHỆ
+4.1. Vấn đề chọn chuẩn định vị khi gia công:
+Mục đích chọn chuẩn :
+Chọn chuẩn rất quan trọng trong việc thiết kế quy trình công nghệ . Chọn chuẩn hợp lý cần thoả mãn hai yêu cầu :
+- Đảm bảo chất lượng của chi tiết trong suốt quá trình gia công .
+- Đảm bảo năng suất cao và giá thành hạ .
+Từ hai yêu cầu trên người ta đề các nguyên tắc chọn chuẩn như sau :
+Nguyên tắc 1 :
+Khi chọn chuẩn phải xuất phát từ nguyên tắc 6 điểm để khống chế hết số bậc tự do cần thiết một cách hợp lý nhất, tuyệt đối tránh thiếu và siêu định vị, trong một số trường hợp cần tránh thừa định vị .
+Nguyên tắc 2 :
+Chọn chuẩn sao cho không bị lực cắt, lực kẹp làm biến dạng chi tiết quá nhiều, đồng thời lực kẹp phải nhỏ để giảm bớt sức lao động của công nhân .
+Nguyên tắc 3 :
+Chọn chuẩn sao cho kết cấu đồ gá phải đơn giản , sử dụng thuận lợi nhất và thích hợp với từng loại hình sản xuất .
+4.1.1 Chọn chuẩn tinh :
+Yêu cầu khi chọn chuẩn tinh :
+- Đảm bảo phân bố đủ lượng dư cho các bề mặt gia công.
+- Đảm bảo độ chính xác về vị trí tương quan giữa các bề mặt gia công với nhau
+Các lời khuyên khi chọn chuẩn tinh :
+- Nên chọn chuẩn tinh sao cho tính trùng chuẩn được sử dụng nhiều nhất . Nếu được như vậy sẽ giảm được sai số gia công và khi chuẩn cơ sở trùng với chuẩn khởi xuất thì sai số chuẩn : ec = 0 .
+-Nên chọn chuẩn tinh là chuẩn tinh chính
+- Nên chọn chuẩn tinh là chuẩn tinh thống nhất cho cả quá trình gia công . Nếu chọn được như vậy sẽ giảm chi phí chế tạo đồ gá .
+Các phương án chọn chuẩn tinh :
+Từ các yêu cầu và lời khuyên , hình dáng , kết cấu chi tiết , dạng sản xuất . Có các phương án chọn chuẩn tinh như sau:
+a. Phương án 1 :
+Sử dụng hệ gồm một mặt phẳng C khống chế 3 bậc tự do và 2 lỗ vuông góc với mặt phẳng C khống chế nốt 3 bậc còn lại
++Ưu điểm :
+- Đồ gá đơn giản .
+- Chuẩn tinh là chuẩn tinh chính
+
++ Nhược điểm :
+- Phải gia công chính xác hai lỗ định vị , hai chốt định vị dễ bị mòn khi gá đặt chi tiết nhiều lần .
+
+TÀI LIỆU THAM KHẢO
+(1)- Hướng dẫn thiết kế đồ án CÔNG NGHỆ CHẾ TẠO MÁY
+HỒ VIẾT BÌNH-PHAN MINH THANH
+Xuất bản năm 2013
+(2)-Giáo trình CÔNG NGHỆ CHẾ TẠO MÁY
+HỒ VIẾT BÌNH-PHAN MINH THANH
+Nhà xuất bản đại học quốc gia thành phố HCM
+(3)-CHẾ ĐỘ CẮT GIA CÔNG CƠ KHÍ
+NGUYỄN TRỌNG ĐÀO
+HỒ VIẾT BÌNH
+Nhà xuất bản Đà Nẵng,2001
+(4)-Sổ tay CÔNG NGHỆ CHẾ TẠO MÁY tập 1
+NGUYỄN ĐẮC LỘC
+LÊ VĂN TIẾN
+NINH ĐỨC BỐN
+TRẦN XUÂN VIỆT
+Nhà xuất bản khoa học và kỹ thuật ,2010
+(5)-Sổ tay CÔNG NGHỆ CHẾ TẠO MÁY tập 2
+NGUYỄN ĐẮC LỘC
+LÊ VĂN TIẾN
+NINH ĐỨC BỐN
+TRẦN XUÂN VIỆT
+Nhà xuất bản khoa học và kỹ thuật
+(6)-ATLAS ĐỒ GÁ
+TRẦN VĂN ĐỊCH
+Nhà xuất bản khoa học và kỹ thuật ,2003
+(7)-Sách CÔNG NGHỆ KIM LOẠI
+NGUYỄN TÁC ÁNH
+HOÀNG TRỌNG BÁ
+(8)-Sách DUNG SAI KỸ THUẬT ĐO
+TÀI LIỆU THAM KHẢO
+THIẾT KẾ ĐỒ ÁN CÔNG NGHỆ CHẾ TẠO MÁY. – TRẦN VĂN ĐỊCH. NXB KHKT 2000 CÔNG NGHỆ CHẾ TẠO MÁY. – ĐHSPKT 2000. –HỒ VIẾT BÌNH – NGUYỄN NGỌC ĐÀO. CHẾ ĐỘ CẮT GIA CÔNG CƠ KHÍ. – NXB ĐÀ NẴNG 2001. NGUYỄN NGỌC ĐÀO – HỒ VIẾT BÌNH. SỔ TAY CNCTM TẬP 1,2. NXB KHKT 2001. –NGUYỄN ĐẮC LỘC – LÊ VĂN TIẾN. ĐỒ GÁ GIA CÔNG CƠ KHÍ. NXB ĐÀ NẴNG 2000. – HỒ VIẾT BÌNH – LÊ ĐĂNG HOÀNH – NGUYỄN NGỌC ĐÀO. SỔ TAY VÀ ATLAS ĐỒ GÁ. – NXB KHKT 2000. –TRẦN VĂN ĐỊCH. CÁC SÁCH GIÁO KHOA VỀ CÔNG NGHỆ CHẾ TẠO MÁY. CƠ SỞ CÔNG NGHỆ CHẾ TẠO MÁY. – ĐHSPKT 2002. – NGUYỄN NGỌC ĐÀO – HỒ VIẾT BÌNH – PHAN MINH THANH.
+
+TÀI LIỆU THAM KHẢO THIẾT KẾ QUY TRÌNH CÔNG NGHỆ GIA CÔNG CHI TIẾT THÂN ĐỒ GÁ RÃNH ĐUÔI ÉN ĐHCN HÀ NỘI 1] : Thiết kế đồ án công nghệ chế tạo máy [2] : Sổ tay công nghệ chế tạo máy tập 1 (bộ 3 tập) [3] : Sổ tay công nghệ chế tạo máy tập 2 (bộ 3 tập) [4] : Sổ tay công nghệ chế tạo máy tập 2 (bộ 3 tập) [5] : Sổ tay nhiệt luyện [6] : Công nghệ chế tạo máy tập 1 [7] : Sổ tay công nghệ chế tạo máy tập 1 (bộ 7 tập) [8] : Sổ tay công nghệ chế tạo máy toàn tập (trường ĐHBK
+

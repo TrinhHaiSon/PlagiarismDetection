@@ -1,0 +1,160 @@
+ĐỒ ÁN TỐT NGHIỆP ỨNG DỤNG ĐIỆN TỬ CÔNG SUẤT VÀ BỘ ĐIỀU KHIỂN LẬP TRÌNH PLC TRONG ĐIỀU KHIỂN ĐỘNG CƠ ĐIỆN MỘT CHIỀU, thuyết minh ĐIỆN TỬ CÔNG SUẤT VÀ BỘ ĐIỀU KHIỂN LẬP TRÌNH PLC TRONG ĐIỀU KHIỂN ĐỘNG CƠ ĐIỆN MỘT CHIỀU, ĐIỆN TỬ CÔNG SUẤT VÀ BỘ ĐIỀU KHIỂN LẬP TRÌNH PLC TRONG ĐIỀU KHIỂN ĐỘNG CƠ ĐIỆN MỘT CHIỀU
+Chương IV:
+GIỚI THIỆU BỘ ĐIỀU KHIỂN LẬP TRÌNH (PLC) VÀ ỨNG DỤNG CỦA PLC
+GIỚI THIỆU BỘ ĐIỀU KHIỂN LẬP TRÌNH (PLC – PROGRAMMABLE LOGIC CONTROLLER)
+Trong những năm gần đây bộ điều khiển lập trình PLC được sử dụng ngày càng rộng rãi trong công nghiệp ở nước ta như là một giải pháp điều khiển lý tưởng cho việc tự động hóa các quá trình sản xuất. Hiện nay trong nước chưa có một giáo trình tiếng Việt nào giới thiệu đầy đủ về bộ điều khiển lập trình nhằm đáp ứng nhu cầu học tập và nghiên cứu. Trên cơ sở khảo sát những tài liệu kỹ thuật về bộ điều khiển lập trình của hãng Siemens em xin giới thiệu bộ điều khiển lập trình simatic S7- 2000
+
+I/ CẤU TRÚC PHẦN CỨNG CỦA CPU – (CENTRAL PROCCESS UNIT)
+Khái quát chung :
+PLC viết tắc của programmable logic controller là thiết bị điều khiển logic cho phép thực hiện linh hoạt các thuật toán điều khiển logic qua một ngôn ngữ lập trình bộ điều khiển thỏa mãn các yêu cầu:
+Lập trình dễ dàng vì ngôn ngữ lập trình dễ học Gọn nhẹ, dễ dàng bảo quản, tu sửa Dung lượng bộ nhớ lớn để có thể chứa được những chương trình phức tạp Hoàn toàn tin cậy trong môi trường công nghiệp Giao tiếp với các thiết bị thông tín máy tính, nối mạng các module mở rộng Giá cả phù hợp
+Bộ điều khiển lập trình PLC được thiết kế nhằm thay thế phương pháp điều khiển truyền thống dùng Rơ le và thiết bị cồng kềnh nó tạo ra một khả năng điều khiển thiết bị dễ dàng và linh hoạt dựa trên việc lập trình trên các lệnh logic cơ bản. PLC còn thực hiện các tác vụ định thì và đếm làm tăng khả năng điều khiển, thực hiện logic được lập trong chương trình và kích ra tín hiệu điều khiển cho thiết bị bên ngoài tương ứng, S7-200 là thiết bị điều khiển logic khả trình loại nhỏ của hãng Siemens cấu trúc theo kiển module có các module mở rộng các module này được sử dụng cho nhiều ứng dụng lập trình khác nhau. Thành phần cơ bản của S7-200 là khối vi xử lý CPU 212 và CPU 214 về hình thức bên ngoài sự khác nhau của hai loại CPU này nhận biết được nhờ số đầu vào ra và nguồn cung cấp
+CPU 212 có 8 cổng vào và 6 cổng ra có khả năng mở rộng thêm bằng 2 module mở rộng CPU 214 có 14 cổng vào và 10 cổng ra và có khả năng mở rộng thêm bằng 7 module mở rộng
+Cấu trúc CPU 212
+512 từ đơn (word) tức là 1 kbyte, để lưu chương trình thuộc miền bộ nhớ đọc/ ghi được và không bị mất dữ liệu nhờ có giao diện với Eprom. Vùng nhớ với tính chất như vậy được gọi là vùng nhớ non – volatile 512 từ đơn được lưu dữ liệu trong đó có 100 từ nhớ đọc/ ghi thuộc miền non – volatile 8 cổng vào logic và 6 cổng ra logic Có thể ghép nối 2 module để mở rộng số cổng vào/ra, bao gồm cả 2 module tương tự (analog) Tổng số cổng logic vào/ ra cực đại là 64 cổng vào và 64 cổng ra 64 bộ tạo thời gian trễ (timer) trong đó có 2 timer có độ phân giải 1ms 8 timer có độ phân giải 10ms và 54 timer có độ phân giải 100ms 64 bộ đếm (counter) chia làm 2 loại loại bộ đếm chỉ đếm tiến và loại vừa đếm tiến vừa đếm lùi 368 bit nhớ đặc biệt sử dụng làm các bit trạng thái hoặc các bit đặt chế độ làm việc Có các chế độ ngắt và xử lý tín hiệu khác nhau bao gồm ngắt truyền thông ngắt theo sườn lên hoặc sườn xuống. Ngắt theo thời gian và ngắt báo hiệu của bộ đếm tốc độ cao (2kHz) Bộ nhớ không bị mất dữ liệu trong khoảng thời gian 50 giờ khi PLC bị mất nguồn nuôi
+Cấu trúc CPU 214
+CPU 214 bao gồm 14 ngõ vào và 10 ngõ ra có khả năng mở rộng thêm bằng 7 module mở rộng 2048 từ đơn (4 kbyte) thuộc miền nhớ đọc/ghi non – volatile để lưu chương trình (dùng nhớ có giao diện với EEPROM) 2048 từ đơn (4kbyte) thuộc kiểu đọc ghi để lưu dữ liệu (trong đó có 512 từ đầu thuộc miền EEPROM)
+IO.O, QO.O, VO.O, SMO.1
+Tổng số cổng vào/ ra cực đại là 64 cổng vào và 64 cổng ra Có 14 ngõ vào từ IO.O ¸ IO.1 và I1.O ¸ I1.5 Có 10 ngõ ra từ QO.O ¸ IO.1 và Q1.O ¸ Q1.1 Có thể gắn thêm 1 module mở rộng bao gồm cả module analog 128 timer chia làm 3 loại theo độ phân giải khác nhau 4 timer 1ms, 16 timer 10ms và 108 timer 100ms Có 128 bộ đếm chia làm hai loại
++ Chỉ đếm lên CTU
++ Vừa đếm lên vừa đếm xuống CTUD
+Có 688 bít nhớ đặc biệt dùng để thông báo trạng thái và đặt chế độ làm việc
++ SMO.O : luôn ở trạng thái 1
++ SMO.1 : bằng 1 trong vòng quét đầu tiên
+Các chế độ ngắt và xử lý ngắt gồm ngắt truyền thông, ngắt theo sườn lên hoặc xuống, ngắt thời gian ngắt của bộ đếm tốc độ cao và ngắt truyền xung Có 3 bộ đếm tốc độ cao với nhịp 2kHz và 7kHz 2 bộ phát xung nhanh cho dãy xung kiểu
+PTO (Pulse traisn output) : điều tần
+PWM (Pulse width modulation) : điều rộng xung
+2 bộ chỉnh tương tự Toàn bộ vùng nhớ không bị mất dữ liệu trong khoảng thời gian 190 giờ khi PLC bị mất nguồn nuôi Các đèn báo trên S7-200 CPU 214
++ SF (đèn đỏ) : đèn đỏ SF báo hiệu hệ thống bị hỏng. Đèn SF sáng lên khi PLC bị hỏng hóc
++ Run (đèn xanh) : đèn xanh chỉ định PLC đang ở chế độ làm việc và thực hiện chương trình được nạp vào trong máy
++ Stop (đèn vàng): đèn vàng chỉ định PLC đang ở chế độ dừng
++ Ix.x (đèn xanh) : đèn xanh ở cổng vào chỉ định ở trạng thái tức thời của cổng Ix.x (X.X = 0.0 ¸ 1.5)
++ Qy.y (đèn xanh): đèn xanh ở cổng ra báo hiệu trạng thái tức thời của cổng Qy.y (y.y = 0.0 ¸ 1.1)
++ TERM : cho phép máy lập trình tự quyết định chế độ hoạt động cho PLC hoặc Run hoặcStop
+II/ CẤU TRÚC BỘ NHỚ :
+Bộ điều khiển lập trình S7-200 được chia thành 4 vùng nhớ. Với 1 tụ có nhiệm vụ duy trì dữ liệu trong thời gian nhất định khi mất nguồn bộ nhớ S7-200 có tính năng động cao đọc và ghi trong phạm vi toàn vùng loại trừ các bít nhớ đặc biệt SM (Special Memory)chỉ có thể truy nhập để đọc.
+Hình II-1: Bộ nhớ trong và ngoài của S7-200
+Vùng chương trình : là vùng bộ nhớ được sử dụng để lưu trữ các lệnh chương trình vùng này thuộc bộ nhớ trong đọc và ghi được Vùng tham số : là vùng lưu giữ các tham số như : từ khóa, địa chỉ trạm… cũng giống như vùng chương trình thuộc bộ nhớ trong đọc và ghi được Vùng dữ liệu : là vùng nhớ động được sử dụng cất các dữ liệu của chương trình bao gồm các kết quả các phép tính nó được truy cập theo từng bit từng byte vùng này được chia thành những vùng nhớ với các công dụng khác nhau.
+Vùng I (Input image register): là vùng nhớ gồm 8 byte
+I (đọc /ghi) : I.O ¸ I.7
+Vùng Q (Output image register): là vùng nhớ gồm 8 byte
+Q (đọc /ghi) : Q.O ¸ Q.7
+Vùng M (Internal memory bits): là vùng nhớ gồm có 32 byte
+M (đọc /ghi) : M.O ¸ M.31
+Vùng V (Variable memory ): là vùng nhớ gồm có 4096 byte
+V (đọc /ghi) : V.O ¸ V.4095
+Vùng SM : (special memory): là vùng nhớ gồm 86 byte chia làm 2 phần
+SMO ¸ SM29 chỉ đọc
+SMO ¸ SM85 chỉ ghi
+Vùng đối tượng : là timer (định thì), counter (bộ đếm) tốc độ cao vàv các cổng vào/ra tương tự được đặt trong vùng nhớ cuối cùng vùng này không thuộc kiểu non – volatile nhưng đọc ghi được.
+Timer (bộ định thì) : đọc/ ghi Tf ¸ T127 Counter (bộ đếm): đọc/ ghi Cf ¸ C127 Bộ đệm vào analog (đọc) : AIWO ¸ AIW3O Bộ đệm ra analog (ghi) : AQWO ¸ AQW3O Accumulator (thanh ghi) :ACO ¸ AC3 Bộ đếm tốc độ cao : HSCO ¸ HSC2
+Tất cả các miền này đều có thể truy nhập được theo từng bit, từng byte, từng từ đơn (word – 2byte), từ kép (Double word)
+III/ CẤU TRÚC CHƯƠNG TRÌNH :
+Chương trình cho S7-200 phải có cấu trúc bao gồm chương trình chính (main program) sau đó đến các chương trình con và các chương trình xử lý ngắt
+Chương trình chính được kết thúc bằng lệnh kết thúc chương trình (End) Chương trình con là một bộ phận của chương trình. Các chương trình con phải được viết sau lệnh kết thúc chương trình chính đó là lệnh (End) Các chương trình xử lý ngắt là một bộ phận của chương trình, nếu cần sử dụng chương trình xử lý ngắt phải viết sau lệnh kết thúc End Các chương trình con được nhóm lại thành một nhóm ngay sau chương trình chính sau đó đến ngay các chương trình xử lý ngắt bằng cách viết như vậy cấu trúc chương trình được rõ ràng và thuận tiện hơn trong việc đọc chương trình có thể trộn lẫn các chương trình con và chương trình xử lý ngắt đằng sau chương trình chính
+Main program . . . End { stop} Thực hiện trong 1 vòng quét
+
+SBR (n) {no ¸ 255}chương trình con . . . Ret Thực hiện khi được chương trình chính gọi
+
+INT (n) {no ¸ 255}chương trình xử lý ngắt . . . Ret Thực hiện khi có tín hiệu báo ngắt
+IV/ PHƯƠNG PHÁP LẬP TRÌNH :
+S7-200 biểu diễn một mạch logic cứng bằng một dãy các lệnh chương trình bao gồm một dãy các lệnh
+S7-200 thực hiện chương trình bắt đầu từ lệnh lập trình đầu tiên và kết thúc ở lệnh lập trình cuối trong một vòng. Một vòng như vậy gọi là dòng quét (scan)
+Một vòng quét (Scan cycle) được bắt đầu bằng việc đọc trạng thái của đầu vào và sau đó thực hiện chương trình, vòng quét kết thúc bằng việc thay đổi trạng thái đầu ra. Trước khi bắt đầu một vòng quét tiếp theo S7-200 thực thi các nhiệm vụ bên trong và nhiệm vụ truyền thông. Chu trình thực hiện chương trình là chu trình lập.
+Hình IV –1 : Thực hiện chương trình theo vòng quét trong S7-200
+Cách lập trình cho S7-200 dựa trên hai phương pháp cơ bản : phương pháp hình thang (ladder logic – viết tắt là LAD) và phương pháp liệt kê lệnh (statement list viết tắc là STL)
+- Chương trình được viết theo kiểu LAD thiết bị lập trình sẽ tạo ra một chương trình theo, kiểu STL tương ứng và ngược lại
+Phương pháp LAD : LAD là ngôn ngữ lập trình đồ họa những thành phần cơ bản dùng trong LAD tương ứng với các thành phần cơ bản dùng để biểu diễn lệnh lôgic như sau:
+- Tiếp điểm : là biểu tượng (symbol) mô tả các tiếp điểm rơle các tiếp điểm có thể thường đóng , thường mở
+- Cuộn dây (coil) : là biểu tượng mô tả rơle mắc theo chiều dòng điện cung cấp cho rơle
+Hộp (box) : là biểu tượng mô tả các hàm khác nhau nó làm việc khi có dòng điện chạy đến hộp thường là các bộ thời gian (timer), bộ đếm (counter) và các hàm toán học Mạng LAD : là đuờng nối các phần tử thành một mạch hoàn thiện, đi từ đường nguồn bên trái sang nguồn bên phải dòng điện chạy từ trái qua tiếp điểm đến các cuộn dây hoặc các hộp trở về bên phải nguồn.
+Phương pháp liệt kê lệnh STL : Phương pháp liệt kê (STL) là phương pháp thực hiện chương trình dưới dạng tập hợp các câu lệnh. Mỗi câu lệnh trong chương trình kể cả những lệnh hình thức biểu diễn một chức năng của PLC
+Để tạo một chương trình dạng STL người lập trình cần phải hiểu rõ phương thức sử dụng của ngăn xếp logic của S7-200 (S0 ¸ S8).
+Ngăn xếp lôgic là một khối gồm 9 bit chồng lên nhau. Tất cả các thuật toán liên quan đến ngăn xếp, đều chỉ làm việc với bít đầu tiên hoặc với bít đầu và bit thứ hai của ngăn xếp (S0 ¸ S1) giá trị logic mới đều có thể được gửi vào ngăn xếp
+V/ CÚ PHÁP LỆNH CƠ BẢN TRONG S7-200
+Lệnh vào ra : (Input/ Output)
+Load (LD) : lệnh LD nạp giá trị của một tiếp điểm vào trong bit đầu tiên của ngăn xép có giá trị cũ còn lại ngăn xếp bị đẩy lùi xuống một bít (như hì oad not (LDN) : lệnh LDN nạp giá trị logic nghịch đảo của một tiếp điểm vào trong bit đầu tiên của ngăn xếp, các giá trị cũ còn lại trong ngăn xếp bị đẩy lùi xuống một bít (hình V-2) Các dạng khác nhau của lệnh LD, LDN cho LAD như sau :
+MÔ TẢ TOÁN HẠNG Tiếp điểm thường mở sẽ được đóng Nếu n =1 n : I, Q, M, SM, T, C, V (bit) Tiếp điểm thườngđóng sẽ mở Khi n =1 Tiếp điểm thường mở sẽ đóng tức thời khi n = 1 n: I Tiếp điểm thường đóng sẽ mở tức thời khi n =1
+
+Các dạng khác nhau của lệnh LD, LDN cho STL như sau
+LỆNH MÔ TẢ TOÁN HẠNG LD n Lện nạp giá trị logic của điểm n vào bit đầu tiên trong ngăn xếp n : I, Q, M, SM, T, C, V (bit) LDN n Lệnh nạp giá trị logic nghịch đảo của điểm n vào bit đầu tiên trong ngăn xếp LDI n Lệnh nạp tức thời giá trị logic của điểm n và bit đầu tiên trong ngăn xếp n: I (bit) LDNI n Lệnh nạp tức thời giá trị logic nghịch đảo vào điểm n vào bit đầu tiên
+
+MÔ TẢ TOÁN HẠNG Cuộn dây đầu ra ở trạng thái kích thích khi có dòng điện điều khiển đi qua n : I, Q, M, SM, T, C, V (bit) Cuộn dây đầu ra được kích tức thời khi có dòng điều khiển đi qua n : Q (bit)
++ Mô tả lệnh output bằng STL
+STL MÔ TẢ TOÁN HẠNG = n Lệnh = sao chép giá trị của đỉnh ngăn xếp tới tiếp điểm n được chỉ dẫn trong lệnh n : I, Q, M, SM, T, C, V (bit) =I n Lệnh = I (immediate) sao chép tức thời giá trị của đỉnh stack tới tiếp điểm n được chỉ dẫn trong lệnh n :Q bit
+Lệnh ghi/ xóa giá trị cho tiếp điểm: Set (S) và Reset (R) lệnh dùng để đóng và ngắt các điểm gián đoạn đã được thiết kế. Trong LAD logic điều khiển đến các cuộn dây thì các cuộn dây đóng hoặc mở các tiếp điểm
+Trong STL lệnh truyền trạng thái bit đầu của ngăn xếp đến các điểm thiết kế nếu bit này có giá trị bằng 1 các lệnh S và R sẽ đóng ngắt tiếp điểm một dãy các tiếp điểm (giới hạn từ 1 ¸ 255). Nội dung của ngăn xếp không bị thay đổi bởi các lệnh này – mô tả lệnh S và R bằng LAD
+LAD MÔ TẢ TOÁN HẠNG Đóng một mảng gồm n các tiếp điểm kể từ S – bit S-bit : P, Q, M, SM, T, C, V (bit) n : PB, QB, MB, SMB, VB, AC, hằng số, *VD*AC Ngắt một mảng gồm n các tiếp điểm kể từ S bit lại chỉ vào timer và counter thì lệnh sẽ xóa bit đầu ra của timer/ counter Đóng tức thời một mảng gồm n các tiếp điểm kể từ S bit S bit : Q bit n: PB, QB, MB, SMB, VB, AC, hằng số, *VD*AC Ngắt tức thời một mảng gồm n các tiếp điểm kể từ địa chỉ S bit
+Mô tả các lệnh set (S) và reset (R) bằng STL
+STL MÔ TẢ TOÁN HẠNG S – S.bit – n Ghi giá trị logic và một mảng gồm n bit kể từ địa chỉ S.bit S-bit : P, Q, M, SM, T, C, V (bit) n : PB, QB, MB, SMB, VB, AC, hằng số, *VD R – S.bit – n Xóa một mảng gồm n bit kể từ địa chỉ S. bit. Nếu S.bit lại chỉ vào timer counter thì lệnh sẽ xóa bit đầu ra của timer counter SI – S.bit – n Ghi tức thời giá trị lôgic 1 vào một mãng gồm n bit kể từ địa chỉ S.bit S bit : Q bit n: IB, QB, MB, SMB, VB, AC, hằng số, *VD RI – S.bit - n Xóa tức thời một mảng gồm n bit kể từ địa chỉ S.bit
+Ví dụ : mô tả S và R trong LAD và STL
+Lad STL IO.O LD I0 . 0 = Q2. 0 S Q2 . 1 K1 R Q2 . 2 K1 R Q1 . 0 K3
+Các lệnh logic đại số boolean
+Các lệnh đại số boolean cho phép tạo lập được các mạch logic không có nhớ. Trong LAD các lệnh này được biểu diễn thông qua cấu trúc mạch mắc nối tiếp hay song song các tiếp điểm thường đóng và các tiếp điểm thường mở. STL có thể sử dụng các lệnh A (And) và O (OR) cho các hàm số hoặc các lệnh AN (And not); ON (Or not) cho các hàn kín giá trị của ngăn xếp thay đổi phụ thuộc vào từng lệnh
+LỆNH MÔ TẢ TOÁN HẠNG O n A n Lệnh thực hiện toán tử Ù(A) và Ú(O) giữa giá trị logic của tiếp điểm n và giá trị bit đầu tiên trong ngăn xếp kết quả được ghi lại vào bit đầu tiên của ngăn xếp n: I, Q, U, SM, T, C, V AN n ON n Lệnh thực hiện toán tử Ù(A) và Ú(O) giữa giá trị logic nghịch đảo của tiếp điểm n và giá trị bit đầu tiên của ngăn xếp kết quả được ghi lại vào bit đầu tiên của ngăn xếp AI n OI n Lệnh thực hiện toán tử Ù(A) và Ú(O) giữa giá trị logic của tiếp điểm n và giá trị bit đầu tiên trong ngăn xếp kết quả được ghi lại vào bit đầu tiên của ngăn xếp n : I bit ANI n ONI n Lệnh thực hiện toán tử Ù(A) và Ú(O) giữa giá trị logic nghịch đảo của tiếp điểm n và giá trị bit đầu tiên trong ngăn xếp kết quả được ghi lại vào bit đầu tiên của ngăn xếp
+Ngoài những lệnh làm việc trực tiếp với tiếp điểm S7-200 còn có 5 lệnh đặc biệt biểu diễn các phép tính của đại số boolean cho các bit trong ngăn xếp được gọi là các lệnh Strack logic. Đó là lệnh ALD (And load), OLD (Orload), LPS (logic push), LRD (logic read) và LPP (logic pop). Lệnh stack logic được dùng để tổng hợp sao chụp hoặc xóa các mệnh đề logic LAD không có bộ đếm dành cho lệnh strack logic. STL sử dụng các lệnh stack logic để thực hiện phương trình tổng thể có nhiều biểu thức con, bảng sau tóm tắt cú pháp gọi các lệnh Stack logic trong STL
+LỆNH MÔ TẢ TOÁN HẠNG ALD Lệnh tổ hợp giá trị của bit đầu tiên và thứ hai của ngăn xếp bằng phép tính logic và kết quả ghi lại vào bit đầu tiên giá trị còn lại của ngăn xếp được kéo lên 1 bit Không có OLD Lệnh tổ hợp giá trị của bit đầu tiên và thứ hai của ngăn xếp bằng phép tính logic và kết quả ghi lại vào bit đầu tiên giá trị còn lại của ngăn xếp được kéo lên 1 bit Không có LPS Lệnh logic sao chụp giá trị của các bit đầu vào bit thứ hai trong ngăn xếp giá trị còn lại của ngăn xếp bị đẩy xuống 1 bit. Bit cuối cùng bị đẩy ra khỏi ngăn xếp Không có LRD Lệnh sao chép giá trịv của bit thứ hai vào bit đầu tiên trong ngăn xếp các giá trị còn lại của ngăn xếp giữ nguyên vị trí Không có LPP Lệnh kéo ngăn xếp lên 1 bit giá trị của bit sau được chuyển cho bít trước Không có
+a- Lệnh AND (A) và OR (O)
+Lệnh A và O phối hợp giá trị của một tiếp điểm n với giá trị bit đầu tiên trong ngăn xếp kết quả phép tính được đặt lại vào bit đầu tiên trong ngăn xếp giá trị của các bit còn lại trong ngăn xếp không bị thay đổi
+b- Lệnh AND AD và OR O XORW XORD lệnh thực hiện các thuật tón logic And, Or, Exclusive Or của đại số boolean trên 2 byte hoặc 4 byte
+Lệnh có tiếp điểm đặc biệt : có thể dùng các lệnh có tiếp điểm đặc biệt để phát hiện trạng thái của xung (sườn xung) và đảo lại trạng thái của dòng cung cấp (giá trị của đỉnh ngăn xếp)
+LAD sử dụng các tiếp điểm đặc biệt để tác động vào dòng cung cấp các tiếp điểm đặc biệt, không có toán hạng riêng của chính chúng và vì thế phải đặt chúng vào vị trí phía trước của cuộn dây hộp đầu ra. Tiếp điểm chuyển tiếp dương/ âm( các lệnh sườn trước sau) có nhu cầu về bộ nhớ bởi vậy đối với CPU 214 là 256 lệnh
+- Mô tả lệnh tiếp điểm đặc biệt trong LAD và STL
+LAD STL Net work1 LD I0.0 Not = Q0.1 Net work2 LD I0.0 Eu = Q0.2 Net work3 LD I0.0 Eu = Q0.3
+5. Các lệnh điều khiển timer
+Timer là hệ tạo thời gian trễ giữa tín hiệu vào và tín hiệu ra nên trong điều khiển vẫn thường gọi là khâu trễ
+S7-200 có 128 timer (với CPU 214) được chia làm hai loại khác nhau
+Timer tạo thời gian trễ không có nhớ (On Delay Timer) ký hiệu TON Timer tạo thời gian trễ có nhớ (Retentive on Delay Timer)ký hiệu TONR
+Hai kiểu timer các S7-200 (TON và TONR) phân biệt với nhau trong phản ứng của nó đối với trạng thái tín hiệu đầu vào
+Cả hai kiểu TON và TONR cùng bắt đầu tạo thời gian trễ tín hiệu từ thời điểm có sườn lên ở tín hiệu đầu vào, tức là khi tín hiệu đầu vào chuyển trạng thái từ 0 lên 1 gọi là thời điểm timer được kích và không tính thời gian khi đầu vào có giá trị logic 0 mà thời gian trễ tín hiệu được đặt trước
+Khi đầu vào có giá trị logic bằng 0. TON tự động reset còn TONR thì không tự động reset
+Timer TON được dùng để tạo thời gian trễ trong một khoảng thời gian
+Timer TONR thời gian trễ sẽ được tạo ra trong nhiều khoảng thời gian khác nhau
+Timer TON và TONR bao gồm 3 loại với ba độ. Phân giải khác nhau độ phân giải 1ms, 10ms, 100ms. Thời gian trễ t được tạo ra chính là tích của độ phân giải của bộ timer được chọn và giá trị đặt trước cho timer
+Ví dụ một bộ timer có độ phân giải bằng 10ms và gá trị đặt trước là 50 thì thời gian trễ sẽ là t = 500ms.
+Các loại timer của S7-200 (đối với CPU 214) theo TON, TONR
+LỆNH ĐỘ PHÂN GIẢI GIÁ TRỊ CỰC ĐẠI CPU 214 TON 1ms 32,767s T32, T96 10ms 327,67s T33¸T36, T97¸T100 100ms 3276,7s T37¸T63, T101¸T127 TONR 1ms 32,767s T0, T64 10ms 327,67s T1¸T4, T65 ¸T68 100ms 3276,7s T5¸T31, T64 ¸T95
+Cú pháp khai báo sử dụng timer trong LAD, STL
+LAD STL TOÁN HẠNG TON – TXX – PT TXX CPU 32¸ 63 (WORD) 96¸ 127 PT : VW, T, IW, QW,MV (WORD) SMW, AC, AIW, VD *AC, hằng số TONR – TXX – PT TXX CPU 0 ¸ 31 (WORD) 64 ¸ 95 PT : VW, T, C, IW,QW, (WORD) MW, SMW
+Chú ý : Khi sử dụng timer TONR giá trị tức thời được lưu lại và không bị thay đổi trong khoảng thời gian khi tín hiệu đầu vào có logic 0 giá trị của bit không được nhớ mà hoàn toàn phụ thuộc vào kết quả so sánh giữa giá trị đếm tức thời và giá trị đặt trước
+6. Các lệnh điều khiển counter
+Counter là bộ đếm hiện chức năng sườn xung trong S7-200 các bộ đếm của S7-200 được chia làm hai loại bộ đếm tiến (CTU) và bộ đếm tiến và lùi (CTUD)
+Bộ đếm tiến CTU đếm số sườn lên của tín hiệu logic đầu vào tức là đếm số lần thay đổi trạng thái logic từ 0 lên 1 của tín hiệu số sườn xung đếm được ghi vào thanh ghi 2 byte của bộ đếm gọi là thanh ghi C-WORD
+Nội dung của C-Word gọi là giá trị đến tức thời của bộ đếm luôn được so sánh với giá trị đếm tức thời bằng hoặc lớn hơn giá trị đặt này thì bộ đếm báo ra ngoài bằng cách đặt giá trị logic 1 vào một bit đặc biệt của nó được gọi là C bit trường hợp giá trị đặc trước C bit có giá trị logic là 0
+Các bộ counter đều có chân nối với tín hiệu điều khiển xóa để thực hiện việc đặt lại chế độ khởi phát ban đầu (Reset) cho bộ đếm được ký hiệu bằng chữ R trong LAD hay được quyđịnh trạng thái logic của bit bắt đầu tiên của ngăn xếp trong STL bộ đếm được reset khi tín hiệu bị xóa này có mức logic 1 hoặc khi lệnh R (reset) thực hiện với Cbit. Khi bộ đếm được reset cả CWORD và Cbit đều nhận giá trị
+Hình 6-1 : Bộ đếm CTU của S7-200
+Bộ đếm CTUD đếm tiến khi gặp sườn lên của xung vào cổng đếm tiến ký hiệu là CU trong LAD hoặc bit thứ 3 của ngăn xếp trong STL và đếm lùi khi gặp sườn lên của xung vào cổng đếm lùi được ký hiệu là CD trong LAD hoặc bit thứ 2 của ngăn xếp trong STL
+Khi đầu vào logic của chân xóa ký hiệu bằng R trong LAD hoặc bit thứ nhất của ngăn xếp trong STL có giá trị logic là 1 hoặc bằng lệnh reset với C bit của bộ đếm. CTUD có giá trị đếm tức thời đúng bằng giá trị đang đếm và được lưu trong thanh ghi 2byte C-Word của bộ đếm. Giá trị đếm tức thời luôn được so sánh với giá trị đặt trước PV của bộ đếm
+Nếu giá trị đếm tức thời lớn hơn bằng giá trị đặt trước thì Cbit có giá trị logic bằng 1 còn các trường hợp khác giá trị logic bằng 0
+Hình 6-2 : Bộ đếm CTUD của S7-200
+Bộ đếm tiến CTU có miền giá trị đến tức thời từ 0 ¸ 32.767
+Bộ đếm tiến lùi CTUD có miền giá trị đến tức thời từ là –32,768 ¸ 32.768
+Lệnh khai báo sử dụng Bộ đếm trong LAD như sau :
+LAD STL TOÁN HẠNG CTU Cxx PV Cxx CPU 214 0 ¸ 47 80 ¸ 127 PV: VW, T, C, IW, QW (Word) MW, SMW, AC, AIW CTUD Cxx PV Cxx CPU 214 48 ¸ 79 PV: VW, T, C, IW, QW (Word) MW, SMW, AC, AIW Hằng số
+7. Các lệnh dịch chuyển ô nhớ :
+Các lệnh dịch chuyển thực hiện việc di chuyển hoặc sao chép số liệu từ vùng này sang vùng khác trong bộ nhớ.
+Trong LAD và trong STL lệnh dịch chuyển thực hiện việc di chuyển hay sao chép nội dung một byte, một từ đơn, hoặc một giá trị thực từ vùng này sang vùng khác trong bộ nhớ
+Lệnh trao đổi nội dung của hai byte trong một từ đơn thực hiện việc chuyển nội dung của byte thấp sang byte cao và ngược lại
+MOV – B (LAD) lệnh sao chép nội dung của byte in sang byte out
+MOVB (STL)
+Cú pháp lệnh MOVB trong STL và MOV – B trong LAD
+LAD STL TOÁN HẠNG MOWB In Out IN VB, IB,QB, MB, SMB (byte) AC hằng số *VD *AC OUT VB, IB,QB, MB, SMB (byte) AC *VD *AC
+
+MOV – W (LAD)
+MOVW (STL)
+Lệnh sao chép nội dung của từ đơn IN sang từ đơn OUT
+Cú pháp lệnh MOV – V (LAD) MOV – W trong STL
+LAD STL TOÁN HẠNG MOVW In Out IN VW, T,C ,IW, QW, MW, (từ đơn) SMW, AC, AIW, hằng số *VD *AC Out VW, T,C, IW,QW, MW, SMW, AC, AIW
+VI/ SO SÁNH VỚI CÁC HỆ THỐNG ĐIỀU KHIỂN KHÁC
+CHỈ TIÊU SO SÁNH RƠLE KHÔNG TIẾP ĐIỂM PLC Giá thành từng chức năng Khá thấp Thấp Thấp Kích thước vật lý Cồng kềnh Rất gọn Rất gọn Tốc độ điều khiển Chậm Nhanh Nhanh Khả năng chống nhiễu Khá tốt Tốt Tốt Lắp đặt Mất thời gian thiết kế và lắp đặt Mất thời gian thiết kế Lập trình và lắp đặt đơn giản Khả năng điều khiển tác vụ phức tạp Không Có Có Dễ thay đổi điều khiển Rất khó Khó Khá đơn giản Công tác bảo trì Kém có nhiều công tắc Kém nếu IC hàn bị Tốt các module được tiêu chuẩn hóa
+
+B- ỨNG DỤNG PLC BỘ ĐIỀU KHIỂN LẬP TRÌNH TRONG ĐIỀU KHIỂN ĐỘNG CƠ ĐIỆN MỘT CHIỀU.
+I/ ỨNG DỤNG PLC KHỞI ĐỘNG ĐỘNG CƠ ĐIỆN MỘT CHIỀU QUAY THUẬN QUAY, NGHỊCH QUA BA CẤP ĐIỆN TRỞ PHỤ.
+Mạch động lực.
+Hình I-1: Mạch động lực .
+THIẾT BỊ NGOÀI
+THIẾT BỊ TRONG PLC GHI CHÚ ON/OFF IO.O Ngõ vào on/off MT IO.1 Ngõ vào mở thuận MN IO.2 Ngõ vào mở nghịch 1K QO.3 Ngõ ra loại địên trở phụ 2K QO.4 Ngõ ra loại địên trở phụ 3K QO.5 Ngõ ra loại địên trở phụ
+
+2.Nguyên lý hoạt động .
+Đe động cơ có thể hoạt động đóng cầu dao cấp điện cho mạch kích từ và các tiếp điểm của mạch phần ứng.Khi ta nhấn nút mở máytheo chiều thuận (MT) động cơ sẽ chạy thuận và khởi động thuận với toàn bộ điện trở phụ(Rf) trong mạch phần ứng sau thời gian 2s tiếp điểm 1k đóng lại loại một phần điện trở phụ rf1 ra khỏi mạch phần ứng ,sau thời gian 4s tiếp điểm 2K đóng lại loại tiếp điệ n trở phụ rf2 ra khỏi mạch phần ứng,sau thời gian 6s tiếp điểm 3K đóng lại loại hết điện trở phụ ra khỏi mạch phần ứng kết thúc quá trình khởi động động cơ làm việc với điện áp định mức
+3.Sơ đồ kết nối plc với thiết bị ngoài

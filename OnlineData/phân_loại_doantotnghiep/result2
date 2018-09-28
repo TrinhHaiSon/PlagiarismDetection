@@ -1,0 +1,441 @@
+100 MB Bao gồm tất cả file,.lưu đồ giải thuật... thuyết minh, bản vẽ nguyên lý, bản vẽ thiết kế, FILE lập trình, ĐỒ ÁN TỐT NGHIỆP ĐIỆN tử THIẾT KẾ VÀ THI CÔNG MÔ HÌNH BĂNG TẢI PHÂN LOẠI SẢN PHẨM THEO VẬT LIỆU VÀ MÀU SẮC
+CHƯƠNG I : GIỚI THIỆU CÁC LOẠI CẢM BIẾN
+
+1.1 - Cảm biến màu
+1.1.1 - Nguyên lý hoạt động chung.
+Cảm biến màu dùng một đèn halogen để tạo ra ánh sáng trắng và chiếu lên vật thể cần cảm biến, có một số loại truyền ánh sáng qua cáp quang. Ánh sáng từ vật thể phản xạ rồi truyền về bộ phân tích ánh sáng. Ở đây ánh sáng được chia thành nhiều dãy quang phổ và được chiếu lên một ma trận gồm 128 photodiode. Các photodiode này dùng để đo cường độ của màu tương ứng và tạo ra dữ liệu màu.
+Dữ liệu màu từ ma trận sẽ được đưa về bộ vi xử lí. Bộ vi xử lí nảy đã được cài đặt để nhận biết một số màu nhất định. Khi vật thể với màu tương ứng đi qua cảm biến, ngõ ra của bộ vi xử lí sẽ đưa ra tín hiệu để điều khiển.
+Sơ đồ nguyên lý chung của cảm biến :
+Hình 1.1: Sơ đồ nguyên lý chung của cảm biến màu
+1.1.2 - Giới thiệu cảm biến 3 màu RGB.
+Cảm biến màu sắc là một dự án thú vị cho các nhà sưu tầm. The cir- cuit can sense eight colours, ie blue, green and red (primary colours); magenta, yellow and cyan (secondary colours); and black and white.Cảm biến có thể cảm nhận tám màu sắc, tức là màu xanh lá cây, màu xanh dương và đỏ (3 màu sắc chính); đỏ tươi, màu vàng và màu cyan (3 màu sắc trung học); màu đen và trắng. The circuit is based on the fundamentals of optics and digital electronics. Hình 1.2: Sơ đồ nguyên lý hoạt động của cảm biến màu 3 màu RGB
+Mạch này dựa trên các nguyên tắc cơ bản của quang học và điện tử kỹ thuật số. The object whose colour is required to be detected should be placed in front of the system. Các đối tượng màu sắc muốn được phát hiện nên được đặt ở phía trước của hệ thống. The light rays reflected from the object will fall on the three convex lenses which are fixed in front of the three LDRs.Các tia ánh sáng phản chiếu từ đối tượng sẽ rơi vào ba ống kính lồi được cố định ở phía trước của ba LDR (Light Dependent Resistor). The convex lenses are used to converge light rays. Các ống kính lồi được sử dụng để hội tụ tia sáng. This helps to increase the sensitivity of LDRs. Điều này giúp làm tăng sự nhạy cảm của LDR.Blue, green and red glass plates (filters) are fixed in front of LDR1, LDR2 and LDR3 respectively. Tấm thủy tinh màu xanh lá cây, xanh dương và đỏ (là bộ lọc) được cố định ở phía trước của LDR1, LDR2 và LDR3 tương ứng. When reflected light rays from the object fall on the gadget, the coloured filter glass plates determine which of the LDRs would get triggered. Khi ánh sáng phản xạ từ đối tượng rơi vào ngõ vào các bộ lọc, khi đó các tấm kính lọc màu của các LDR sẽ được kích hoạt. The circuit makes use of only 'AND' gates and 'NOT' gates. Mạch này chỉ sử dụng cổng AND và cổng NOT. Khi có một màu sắc chính rơi vào hệ thống, các tấm kính tương ứng với màu sắc chính sẽ cho phép màu sắc chính này đi qua, đồng thời But the other two glass plates will not allow any light to pass through.hai tấm kính còn lại sẽ không cho phép bất kỳ ánh sáng nào đi qua. Thus only one LDR will get triggered and the gate output corresponding to that LDR will become logic 1 to indicate which colour it is. Vì vậy, chỉ có một LDR sẽ được kích hoạt và ngõ ra tương ứng với LDR sẽ lên mức 1, thông qua các cổng logic có thể cho biết đó là màu sắc gì. Similarly, when a secondary coloured light ray falls on the system, the two primary glass plates corres- ponding to the mixed colour will allow that light to pass through while the remaining one will not allow any light ray to pass through it. Tương tự như vậy, khi một tia sáng màu trung gian rơi vào hệ thống, hai tấm kính chính tương ứng với màu sắc hỗn hợp sẽ cho phép ánh sáng đi qua trong khi một tấm kính chính còn lại sẽ không cho phép bất kỳ tia sáng nào đi qua nó. As a result two of the LDRs get triggered and the gate output corresponding to these will become logic 1 and indicate which colour it is. Kết quả là hai trong 3 LDR được kích hoạt và ngõ ra tương ứng sẽ lên mức 1 và cho biết đó là màu sắc nào. Khi tất cả các LDR nhận được kích hoạt hoặc không được kích hoạt, chúng ta sẽ quan sát được màu trắng và đen tương ứng. Sau đây là các điểm cần chú ý cẩn thận: + Các biến trở VR1, VR2 và VR3 có thể được sử dụng để điều chỉnh độ nhạy của các LDR.
++ Common ends of the LDRs should be connected to positive supply.Thường các đầu cuối của LDR phải được kết nối với nguồn cung cấp (cực +). + Use good quality light filters.Sử dụng bộ lọc ánh sáng có chất lượng tốt.
+LDR là mẫu chứa trong trong một ống, phía sau ống chứa ống kính, và chiếu thẳng vào đối tượng. The coloured glass filter should be fixed in front of the LDR as shown in the figure. Bộ lọc màu là các tấm thủy tinh nên được cố định ở phía trước của LDR như thể hiện trong hình vẽ. Make three of that kind and fix them in a suitable case. Chúng ta thực hiện tương tự với cả 3 bộ lọc và chỉ thay đổi chúng trong một số trường hợp.Adjustments are critical and the gadget performance would depend upon its proper fabrication and use of correct filters as well as light conditions Việc điều chỉnh rất quan trọng và hiệu năng của việc điều chỉnh sẽ phụ thuộc vào cách chế tạo và sử dụng đúng các bộ lọc cũng như điều kiện ánh sáng.
+1.1.2 Cảm biến màu sử dụng trong mô hình
+Thông số kỹ thuật:
+Tốc độ đáp ứng cao: Dưới 0.5ms Cài đặt độ nhạy tự động (Cài đặt bằng phím) / Cài đặt độ nhạy từ xa Chức năng ngõ vào đồng bộ bên ngoài, Ngăn ngừa giao thoa bằng tay, Chức năng tự chẩn đoán Bảo vệ quá dòng và Bảo vệ nối ngược cực nguồn Chức năng định thời: OFF Delay khoảng. 40ms (Chỉ dành cho Loại chuẩn, Loại cài đặt độ nhạy từ xa)
+Có thể tự động chọn chế độ Light ON / Dark ON Có thể phát hiện đối tượng nhỏ và lắp đặt nơi rất nhỏ
+1.2 – Cảm Biến Từ
+Có nhiều kỹ thuật khác nhau được sử dụng để đo các đại lượng từ . Sau đây nhóm thực hiện xin tóm tắt những loại cảm biến từ thông dụng:
+1.2.1 – Cảm biến Hall
+Cảm biến hall là một thiết bị chuyển đổi mà có điện áp ra biến thiên theo sự thay đổi của từ trường. Thường dùng cho cảm biến vị trí, đo tốc độ và một số ứng dụng cảm biến hiện nay.
+Cảm biến Hall là một mảnh bán dẫn mỏng có kết cấu đặc biệt. khi có dòng điện i chạy dọc theo tấm bán dẫn đồng thời có từ cảm B tác động vuông góc với tấm này thì trên 2 cực ngang của nó xuất hiện sức điện động:
+EH = kH.I.B.sinα
+I là dòng điện chạy dọc theo cảm biến;
+B từ cảm xuyên qua cảm biến;
+α là góc lệch giữa I và B
+KH hệ số Hall Hình 1.3: Nguyên lý cảm biến Hall
+1.2.2 – Cảm biến kích từ dọc (fluxgate sensor)
+Gồm một số cuộn dây quấn quanh 2 thanh sắt từ hoặc một lõi xuyến. Một cuộn được cung cấp bằng từ trường xoay chiều từ hóa thanh sắt từ theo các chiều ngược nhau. Cuộn cảm biến quấn quanh cả 2 thanh và lấy tín hiệu ra. Khi không có từ trường ngoài, tín hiêu ra bằng không. Khi có từ trường ngoài thành phần trường dọc theo thanh thay đổi vì vật liệu từ bị từ hóa ở mỗi nữa chu kỳ của nguồn kích thích. Kết quả là điện áp ra tỉ lệ với cường độ từ trường cần đo và biến thiên với tần số gấp đôi tần số kích thích. Cảm biến chỉ đo một thành phần vector từ cảm. Bằng cách kết hợp hai hoặc ba phần tử có thể đo được cả ba thành phần của vector từ cảm. Dải đo của cảm biến fluxgate từ 10-6 đến 102 gauss.
+
+1.2.3 - Cảm biến từ trở MR (magnetresistive):
+Sử dụng hiệu ứng trong đó điện trở của lớp dẫn phụ thuộc vào độ lớn và phương của từ trường đặt vào. Sự quay của vector từ hóa gây ra sự thay đổi điện trở. Vật liệu thường sử dụng làm cảm biến từ trở là pecmaloi, hợp kim của thép và Niken. Các cảm biến từ trờ thường sử dụng công nghệ lớp mỏng dày cở 50 nm pecmaloi trên một đế cách điện, cho phép sử dụng công nghệ 1 mạch tích hợp với điện trở thay đổi vài phần trăm.
+1.2.4 -Hiệu ứng GMR ( Giant Magnetoresistance Ratio )
+Do các nhà khoa học Pháp phát hiện năm 1989. Ở một nhiệt độ nào đó và tử trường mạch , điện trở vật liệu có thể thay đổi tới 50% . Nhiều nghiên cứu GMR đang tiến hành những cơ chế hoạt động của GMR cịn chưa hiểu biết đầy đủ..
+1.2.5 - Phương pháp cộng hưởng từ hạt nhân RMN ( Resonace Magnetic Nucles )
+Là phương pháp đo dựa trên chuyển đổi lượng từ cộng hưởng từ hạt nhân . Hiện tượng cộng hưởng từ hạt nhân xảy ra khi có sự cn bằng giữa tần số quay của moomen từ của hạt nhn v tần số quay của từ trường xoay chiều .Tần số cộng hưởng từ hạt nhân ω = γB tỷ lệ với từ cảm cần đo.
+γ : hệ số từ thủy phụ thuộc vo vật liệu.
+Phương pháp lượng tử siêu dẫn SQUID (Superconducting Quantum Interference Device ) dựa trên hiện tượng lượng tử từ tho6ngqua một vịng siu dẫn v hiệu ứng Josephson sẽ được đề cập kỹ thuật ở các phần sau.
+Trong đồ án náy nhóm thực hiện sử dụng cảm biến từ với 2 mục đích:
++ Dùng để nhận biết sản phẩm từ:
+1.3 – Cảm biến quang
+1.3.1 - Khái niệm cơ bản về ánh sáng
+Như chúng ta đã biết sánh sáng vừa có tính chất sóng vửa có tính chất hạt. Ánh sáng là một dạng của sóng điện từ, vùng ánh sáng nhìn thấy có bước sóng từ 0.4µm -0.75 µm.
+Vận tốc ánh sáng trong chân không c = 299.792 km/s, trong môi trường vật chất vận tốc truyền sóng giảm, được xác định theo công thức :
+n : là chiết suất của môi trường.
+Mối quan hệ giữa tần số ν và bước sóng λ của ánh sáng được xác định bởi biểu thức :
++ Khi môi trường là chân không :
++ Khi môi trường là vật chất :
+Tính chất hạt của ánh sáng thể hiện qua sự tương tác của ánh sáng với vật chất. Ánh sáng gồm các hạt nhỏ gọi là proton mỗi hạt mang một năng lượng nhất định, năng lượng này phụ thuộc vào tần số ν của ánh sáng
+= h.ν
+Trong đó h là hằng số Planck (h= j.s)
+Bước sóng của bức xạ càng dài thì tính chất sóng thề hiện càng rõ, ngược lại bước sóng càng ngắn thì tính chất hạt thể hiện càng rõ.
+1.3.2 - Các đơn vị đo quang
+1.3.2.1 - Đơn vị đo năng lượng :
+Năng lượng bức xạ Q : là năng lượng phát xạ, lan truyền hoặc hấp thụ dưới dạng bức xạ và đo bằng jun (J).
+Quang thông Φ: là công suất phát xạ lan truyền hoặc hoặc hấp thụ, đo bằng oat (W).
+Cường độ ánh sáng I:là quang thông phát ra theo một hướng dưới một đơn vị góc khối, có đơn vị là W/steradian : Độ chói năng lượng L : là tỷ số giữa cường độ ánh sáng phát ra bởi một phần tử bề mặt dA theo một hướng xác định và diện tích hình chiếu vuông góc của phần tử bề mặt , có đơn vị là W/steradian. :
+Độ rọi năng lượng E :là tỷ số giữa quang thông thu được bởi một phần tử bề mặt và diện tích của phần tử đó, có đơn vị là W/:
+Là đơn vị dặc trưng cho mặt được chiếu sáng.
+1.3.2.- Đơn vị đo thị giác :
+Độ nhạy của mắt người đối với ánh sáng có bước sóng bước sóng khác nhau là khác nhau.các đại lượng thị giác nhận được từ đại lượng tương ứng thông qua hệ số tỉ lệ K.V(λ).
+Theo quy ước một luồng ánh sáng có năng lượng 1W ứng với bước sóng , tương ứng với luồng ánh sáng bằng 680 lumen, do đó k =680.
+Vậy luồng ánh sáng đơn sắc tính theo đơn vị đo thị giác:
+() = 680V()() lumen
+Đối với ánh sáng phổ liên tục :
+= 680 d lumen
+Tương tự như vậy ta có thể chuyển đổi tương ứng các đơn vị đo năng lượng và đơn vị thị giác.
+Các đơn vị đo cơ bản :
+Đại lượng quang Đại lượng thị giác Đơn vị năng lượng Quang thông Lumen (lm) Oat (W) Cường độ Candela (cd) Oat/Sr (W/sr) Độ chói Candela/ (cd/) Oat/Sr. (W/) Độ rọi Lux (lx) Oat/ (W/) Năng lượng Lumen.s (lm.s) Jun (J)
+1.3.3 - Cảm biến quang điện
+Cảm biến quang điện thực chất là các linh kiện quang điện, thay đổi trạng thái điện khi có ánh sáng thích hợp tác động vào bề mặt của nó.
+Tế bào quang dẫn
+Đặc trưng cơ bản của tế báo quang dẫn là điện trở của nó phụ thuộc vào thông lượng của bức xạ và phổ của bức xạ. Tế bào quang dẫn là 1 trong những cảm biến có độ nhạy cao. Cơ sở vật lý của tế bào quang dẫn là hiện tượng quang dẫn do kết quả của hiệu ứng quang điện bên trong. Đó là hiện tượng giải phóng hạt tải điệntrong vật liệu bán dẫn dưới tác dụng của ánh sáng.
+-Vật liệu chế tạo cảm biến :
+Cảm biến quang thường được chế tạo bằng các bán dẫn đa tinh thể đồng nhất hoặc đơn tinh thể, bán dẫn riêng hoặc pha tạp.
++ Đa tinh thể :CdS, CdSe, CdTe.
+PbS, PbS, PbTe.
++ Đơn tinh thể : Ge, Si tinh khiết hoặc pha tạp Au, Cu, Sb, In
+SbIn, AsIn, CdHgTe
++Các tính chất cơ bản của cảm biến quang dẫn là
++ Điện trở tối phụ thuộc vào hình dạng, kích thước, nhiệt độ và bản chất lý hóa của vật liệu.
++ Các chất CdS, CdSe, CdTe có điện trở rất lớn (từ đến Ω ở C) trong khi đó SbIn, AsIn, CdHgTe có điện trở tương đối nhỏ (10- Ω ở C). Khi chiếu sáng điện trở giảm rất nhanh, quan hệ điện trở và độ rọi là phi tuyến.
+Độ nhạy:
++ Độ nhạy phổ của tế bào quang dẫn được đinh nghĩa theo biểu thức :
++ Khi điện áp U= 10V, diện tích bề mặt tế bào bằng 1,độ nhạy quang phổ khoảng 0,1 - 10A/W.
++ Độ nhạy quang phổ phụ thuộc vào nhiệt độ.
+Tế bào quang dẫn có độ nhạy cao cho phép đơn giản hóa trong các ứng dụng nhưng có một số nhược điểm :
++ Đặc tính điện trở - độ rọi là phi tuyến.
++ Thời gian hồi đáp tương đối lớn.
++ Thông số không ổn định do già hóa.
++ Độ nhạy phụ thuộc vào nhiệt độ.
+2) photodiode
+- Nguyên lý hoạt động: khi chiếu sáng lên bề mặt diot bán dẫn bằng bức xạ có bước sóng nhỏ hơn bước sóng ngưỡng = sẽ xuất hiện thêm các cặp diện tử - lỗ trống. Để các hạt này có thể tham gia vào độ dẫn làm tăng dòng điện I, cần phải ngăn cản quá trình tái hợp của chúng tức là phải nhanh chóng tách cặp điện tử - lỗ trống dưới tác dụng của điện trường. Đieu2 này chỉ có thể xảy ra trong vùng nghèo và sự chuyển dời của các điện tích đó kéo theo sự gia tăng của dòng điện ngược. Để đạt được diều đó ánh sáng phải đạt tới vùng nghèo sau khi đã đi qua bề dày của chất bán dẫn và tiêu hao năng lượng không nhiều.càng đi sâu vào chất bán dẫn quang thông càng giảm.
+Φ(x) =
+Trong đó 105 cm-1 ứng với độ giảm quang thông 63% khi đi qua chiều dày
+103 ( Ǻ)
+Diot thực tế có lớp bán dẫn rất mỏng để sử dụng ánh sáng hữu hiệu, đồng thời vùng nghèo cũng phải đủ rộng để hấp thụ ở đó là cực đại.
+Các vật liệu thường dùng để chế tạo photodiot là Si, Ge(vùng ánh sáng nhìn thấy và hồng ngoại gần) và GaAs, InAs, CdHgTe (vùng hồng ngoại).
+- Chế độ hoạt động :
+Chế độ quang dẫn :sơ đồ nối photodiot gồm nguồn một chiều Ephân cực ngược diot và một điện trở R.
+Đặc tính von-ampe của photodiot ứng với mức quang thông khác nhau.
+Phương trình cân bằng điện áp : E =
+Trong đó = RI là đường thẳng
+Điểm làm việc của diot là điểm giao nhau giữa đường phụ tải và đặc tuyến von-ampe ứng với quang thông tương ứng.
++ Chế độ quang thế :trong chế độ này không có điện áp ngoài đặt vào diot. Photodiot hoạt dộng như một nguồn dòng. Đặc điểm quan trọng cụa chế độ làm việc này là không có dòng tối do không có dòng điện phân cực ngoài, do đó có thể giảm nhiễu và cho phép đo quang thông nhỏ
++ Độ nhạy quang phổ :
+S() = đối với < được cho trên biểu đồ và là thông số lựa chọn quan trọng cho các ứng dụng . Thông thường S() nằm trong khoảng từ 0.1 đến 1 A/w. Hệ số nhiệt độ 0.1%/.
+3) Phototransistor
+Phototrensistor là transistor silic lai NPN trong đó vùng bazơ có thể chiếu sáng. Khi không có điện áp đặt trên bazơ chỉ có điện áp đặt trên C, chuyển tiếp B-C phân cực ngược.
+Điện áp đặt vào hầu hết tập trung toàn bộ lên chuyển tiếp B-C, trong khi đó sự chênh lệch điện thế giữa E và B không đáng kể = 0,6 – 0,7 V.
+Khi chuyển tiếp B-C được chiếu sáng, sẽ hoạt động giống photodiot ở chế độ quang dẫn với dòng điện ngược :
+Trong đó là dòng điện ngược trong tối, là dòng quang điện khi có quang thông chiếu qua bề dày X. Dòng đóng vai trò dòng bazơ, nó gây nên dòng colectơ I
+
+β hệ số khuếch đại dòng khi emitơ nối chung.
+Có thể coi phototransistor như tổ hợp của một photodiot và một tran-zitor. Photodiot cung cấp dòng quang điện tại bazơ, còn tran-zitor cho hiệu ứng khuếch đại β. Các điện tử và lỗ trống phát sinh trong vùng bazơ dưới tác dụng của ánh sáng sẽ bị phân chia dưới tác dụng của từ trường rên chuyển tiếp B-C. Độ nhạy phổ S() = phụ thuộ vào . Ở bước sóng tương ứng với điểm cực đại có giá trị nằm trong khoảng 1- 100 A/W.
+Photortransistor hiệu ứng trường _ photo FET được sừ dụng rộng rãi.
+Trong photo FET, ánh sáng dùng để làm thay đổi điện trở kênh. Việc điều chỉnh dòng máng do sự thay đổi điện áp giữa cổng và nguồn. Trong chế độ phân cực ngược chuyển tiếp PN giữa cổng và kênh. Dòng máng có biểu thức :
+
+Ở đây là dòng máng khi = 0, là diện áp thất kênh.
+Khi được chiếu sáng, chuyển tiếp PN giống như một photodiot cho dòng ngược:
+
+Trong đó là dòng điện tối ở 250C. có giá trị nhỏ cỡ nA và tăng gấp đôi khi nhiệt độ tăng thêm 100C, là dòng quang điện.
+
+Trong đó là độ nhạy của diot cổng-kênh,là quang thông.
+1.3.4 - Cảm biến phát xạ
+1) Cơ chế hoạt động
+- Trong loại cảm biến phát xạ sự biến đổi tín hiệu quang thành tín hiệu điện được hình thực hiện nhờ hiện tượng phát xạ quang điện. Số lượng điện tử phát ra khỏi catot tỷ lệ với quang thông chiếu vào nó.Điện tử sơ cấp tạo dòng cactot, sau đó có thể :
++ Thu nhận trực tiếp bằng anot (tế bào quang điện chân không).
++ Ion hóa chất khí (đèn ion khí).
++ Phát xạ thứ cấp kèm theo sự khuếch đại dòng thứ cấp (nhân quang).
+- Cơ chế phát xạ xảy ra theo 3 giai đoạn :
++ Hấp thụ photon và giải phóng điện tử bên trong vật liệu.
++ Điện tử vừa được giải phóng di chuyển đến bề mặt.
++ Điện tử thoát khỏi bề mặt catot.
+- Sau khi được giải phóng điện tử di chuyển có tính chất ngẫu nhiên theo mọi hướng do đó chỉ một số ít điện tử được giải phóng đến được bề mặt. Trong quá trình di chuyển chúng va chạm với các điện tử khác và photon khác làm mất đi một phần năng lượng. Sự phát xạ điện tử sau khi đến được bề mặt chỉ xảy ra nếu nó thắng được hàng rào thế phân cách vậy liệu với môi trường bên ngoài. Vì những lý do đó hiệu suất phát xạ điện tử thường nhỏ hơn 10%, rất ít khi vượt quá 30%.
+2) Vật liệu chế tạo
+Để làm catot hường sử dụng các vật liệu :
++ AgOCs nhạy từ vùng hồng ngoại
++ CSb, (Cs) NKSb, CsSb nhạy với ánh sáng nhìn thấy và vùng tử ngoại. - -- Hiệu suất phát xạ của vật liệu trên từ 1 – 20%.
+Ngoài ra còn sử dụng các hợp chất của nhôm III - V như : Ga A, S, G InAs, . Ngưỡng nhạy của chúng nằm ở vùng hồng ngoại. Hiệu suất phát xạ có thể lên tới 30%.
+tế bào quang điện chân không
+Tế bào quang điện chân không có dạng ống hình trụ, có một cửa sổ trong suốt được hút chân không tới áp suất 10-6 – 10-8 mmHg. Catotco1 khả năng phát xạ khi được chiếu sáng và một anot.
+Hình dáng và vị trí của các điện cực được thiết kế để đảm bảo cactot có thể hấp thụ tối đa ánh sáng chiếu vào mà không bị anot che lấp và đảm bảo anot hấp thụ tối đa điện tử catot phát xạ.
+Đặc tuyến von_ampe của tế bào quang diện chân không có 2 vùng rõ rệt. Vùng điện tích trung gian, gần tuyến tính, khi điện áp tăng dòng điện tăng nhanh. Vùng diện tích không gian có xu hướng đẩy điện tử mới phát xạ bật trở lại làm hạn chế dàng anot. Vùng bão hòa trong đó ít phụ thuộc vào điện áp. Trong vùng này chỉ phụ thuộc vào quang thông.
+Tế bào quang điện được sử dụng tong vùng bão hòa, Khi đó nó giống như một nguồn dóng có độ lớn chỉ phụ thuộc vào quang thông.
+Điện trở trong của tế bào quang điện chân không rất lớn và được tích từ độ dốc của đặc tuyến von-ampe ở vùng bão hòa.
+Điện trở trong của tế bào quang điện chân không cỡ 1010 Ω. Trong vùng bão hòa thự tế dòng anot bằng dòng catot. Gía trị độ nhạy nằm trong khoảng 10 – 100 mA/W.
+Tế bào quang điện chất khí:
+Về cấu tạo quang điện chất khí giống chân không, chỉ khác là bên trong đèn có khí trơ, thường là argon có áp suất cỡ 10-1 - 10-2 mmHg.
+Khi điện áp dưới 20V, đặc tuyến von_ampe có dạng giống như trong trường hợp tế bào quang điện chân không vì các điện tử bức xạ không đủ năng lượng để ion hóa chất khí.
+Khi điện áp anot cao điện tử chuyển động với vận tốc đáng kể làm ion hóa chất khí do va chạm. Kết quả là dòng anot tăng lên từ 5-10 lần.
+1.3.5 – Các loại cảm biến quang sử dụng trong mô hình
+Cảm biến quang 2 dây:
+Cảm biến quang 3 dây
+Hình 1.4: Sơ đồ đấu dây của cảm biến quang 2 dây và 3 dây
+CHƯƠNG II : KHÍ NÉN
+2.1 – Đại cương về khí nén
+2.1.1 - Ưu – nhược điểm
+Ưu điểm :
+Sạch sẽ.
+Số lượng vô hạn.
+Vận tốc đáp ứng lớn.
+Dễ chứa đựng vận chuyển .
+An toàn, ít gây cháy nổ…
+Nhược điểm :
+Áp suất sinh ra nhỏ.
+Không thể điều chỉnh chính xác được hệ thống của nó.
+Gây ra tiếng ồn xả khí.
+2.1.2 - Các đại lượng cơ bản
+Áp suất khí quyển ( \= 1bar): lực hút của trái đấy đối với không khí xung quanh nó tạo ra áp suất khí quyển. Áp suất tuyệt đối (\) : môi trường không có không khí xung quanh là môi trường tuyệt đối, áp suất đo được ờ đây bằng bao nhiêu thì áp suất tuyệt đối bằng bấy nhiêu. Áp suất tương đối(áp suất khí dư (\)) : cho không khí vào một bình ép lại với áp suất lớn hơn áp suất khí quyển gọi là áp suất tương đối. Mối quan hệ : \
+- Cơ cấu chấp hành
+Khái niệm
+Là cơ cấu thực hiện công việc đề ra.
+Phân loại
+Loại chuyển động thẳng :
+Xy lanh tác động đơn.
+Xy lanh tác động kép.
+Xylanh có nhiều trục.
+Xylanh có tác động nhờ ngoại lực.
+Xylanh chuyển động quay.
+Xylanh quay.
+Động cơ.
+3) Một số loại xylanh
+Xylanh tác động đơn :
+Xylanh tác động kép :
+1 : Khí cấp vào cửa 1 pittong đẩy ra.
+2 : Cấp khí vào cửa 2 pittong đẩy vào.
+
+2.2 - Một số loại van trong hệ thống khí nén :Công tắc hành trình 1 chiều chỉ hoạt động khi có sự tác động từ A đến B
+2.3 – Thiết kế mạch điều khiển khí nén theo tầng
+Mạch hoạt động thiết kế theo tầng cho phép 1 pittong chỉ hoạt dộng 1 thao tác trong 1 tầng
+2.3.1 - Mạch 2 tầng
+Hình 2.1 : mạch khí nén 2 tầng
+2.3.2 - Mạch 3 tầng
+Hình 2.2 Mạch khí nén 3 tầng
+2.3.3 - Mạch 4 tầng
+Hình 2.3: mạch khí nén 4 tầng
+
+2.4 - Điều khiển điện – khí nén :
+2.4.1 - Nút nhấn
+2.4.2 - Cuộn dây
+2.4.3 - van điện từ
+
+2.4.5 - Thiết kế mạch diều khiển
+Thiêt kế mạch điều khiển điện - khí nén gồm 2 phương pháp :
+Thiết kế theo tầng. Thiết kế theo nhịp.
+CHƯƠNG III : ĐỘNG CƠ
+3.1 Khái niệm cơ bản về động cơ điện
+Máy điện dùng dể biến đổi điện năng thành cơ năng gọi là động cơ điện.
+Phép biến đổi trên thường dùng để truyền động các máy công tác khác nhau. Phụ thuộc vào chức năng và yêu cầu công nghệ của các máy công tác mà đưa ra các yêu cầu đối với động cơ điện truyền động các máy công tác đó, ví dụ như: đảm bảo momen khởi động; độ ổn định trong chế độ làm việc; có khả năng điều chỉnh tốc độ; hệ số công suât cos v hiệu suất cao; độ tin vậy trong chế độ làm việc…
+Cũng như máy phát điện, phụ thuộc vào nguồn cấp điện cho động cơ, động cơ điện cũng có hai loại: động cơ điện một chiều và động cơ điện xoay chiều ( động cơ điện đồng bộ và động cơ điện không đồng bộ).
+Đặc tính làm việc chính của động cơ là đặc tính cơ – biểu diễn sự phụ thuộc của tốc độ quay n hoặc tốc độ góc vào momen quay.
+Phân tích quá trình khởi động, độ ổn định làm việc của động cơ điện được tiến hành dựa trên phương trình trạng thi cơ học. Đối với chuyển động quay đó là phương trình cn bằng momen sau:
+(3.1.1)
+Trong đó:
+Mdc –momen quay của đông cơ điện truyền động máy công tác, N,m;
+Mc – momen cản do máy công tác sinh ra đặt lên trục động cơ truyền động, N,m;
+
+gia tốc của chuyển động quay;
+J –momen qun tính của cc phần quay (các phần chuyển động) của chuyển động cơ điện truyền động và máy công tác, (kg.m)2;
+– tốc độ góc,rad/s;
+t – thời gian,s.
+vế phải của phương trình (8.27) chính l momen động Mđg = , có nghĩa là
+Mđc – Mc = Mdg.
+Các đại lượng momen trong biểu thức 8.27 được quy ước dấu như sau:
+Mdc,Mc > 0 khi cùng chiều với tốc độ ,
+Mdc,Mc < 0 khi ngược chiều với tốc độ ,
+Từ phương trình trang thi cơ học (3.1.1) ta có:
+a. Khi nghĩa l , động cơ tăng tốc,
+b. Khi nghĩa l , động cơ giảm tốc,
+c. Khi Mdc = Mc, nghĩa l Mđg = J ; , hoặc là roto của động cơ đứng yên hoặc là quay với tốc độ không đổi, có nghĩa là hệ thống động cơ, máy công tác ở trạng thái cân bằng ( trạng thái làm việc xác lập với ωxl = const).
+Đôi khi trong thực tế chúng ta thường gặp hệ thống truyền động chuyện động tịnh tiến, khi đó phương trình trạng thái cơ học được viết dưới dạng phương trình cn bằng lực như sau:
+(3.1.2)
+Trong đó:
+Fdc – lực gây ra chuyển động tịnh tiến của vật, lực của động cơ sinh ra, N;
+Fc – lực cản của vật, kg;
+v – vận tốc chuyển động, m/s;
+t - thời gian dịch chuyển, s.
+Các trạng thái làm việc của hệ (động cơ – máy công tác) lý luận tương tự như trường hợp chuyển động quay.
+Khả năng của động cơ xác lập được một trạng thái cân bằng mới (trạng thái ổn định) khi có sự tác động ngắn hạn hoặc dài hạn của nhiều (do sự thay đổi của phụ tải Mc, diện áp lưới U, tần số của điện áp nguồn cấp f, và các thông số khác) hoặc hệ thống trở lại trạng thái cân bằng ban đầu khi không cịn tc dụng của nhiễu gọi là độ ổn định làm việc của động cơ.
+Điều kiện cần và đủ để một trạng thái xác lập của một hệ truyền động điện ổn định là gia số tốc độ, đặc trưng cho hiện tượng mất cân bằng và momen động xuất hiện khi đó phải có dấu ngược nhau, có nghĩa là:
+(3.1.3).
+Để xét độ ổn định của hệ truyền động chúng ta có thể dựa vào đặc tính cơ củ động cơ truyền động và đặc tính cơ phụ tải ( đặc tính máy công tác).
+Chúng ta khảo sát khả năng giữ trạng thái ổn định của hệ động cơ – máy công tác với động cơ truyền động có đường đặc tính cơ n = f(Mđc) như trên hình (3.2.1), có n = f(Mdc) là đặc tính cơ của máy công tác.
+Trong vùng a – b, hệ thống làm việc xác lập tại điểm A khi Mđc = Mc tương ứng với tốc độ quay là .Nếu M’c > Mđc tương ứng với sự dịch chuyển của đường đặc tính cơ của máy công tác n = f(M’c) (đường nét đứt trên hình 8.24), thì tốc độ quay của roto sẽ giảm. Điều đó xảy ra là do Mđc tăng và hệ thống xác lập tại điểm A’ tương ứng với tốc độ quay là .
+Trong vùng a – b hệ thống làm việc ổn định cho dù có tác động của các loại nhiễu khác nhu: sự biến thiên của điện áp lưới, tần số… thì cuối cùng cũng dẫn đến dịch chuyển của các đường đặc tính cơ n = f(Mđc) v n = f(Mc) v hệ thống luơn luơn thỏa mãn điều kiện ổn định như sau:
+(3.1.4)
+Trong vùng b – c hệ thống làm việc không ổn định. Ví dụ, tại điểm làm việc xác lập B với Mđc = Mc, khi có nhiễu tác động từ phía phụ tải M’’c > Mđc tương ứng với sự dịch chuyển của đường đặc tính của máy công tác n = f(M’’c) (đường nét đứt trên hình 8.24), tốc độ roto giảm do momen động cơ giảm, Như vậy không thỏa mn điều kiện ổn định của biểu thức 8.29 hoặc 8.30. Nếu momen của máy công tác tiếp tục tăng thì động cơ sẽ dừng lại. nếu đặc tính cơ của máy công tác dưới tác động của nhiễu là n = f(M’c), thì khi Mđc > Mc roto sẽ tăng tốc đi sang vùng làm việc ổn định a-b và làm việc xác lập tại điểm A’, xc lập một trạng thi cn bằng mới.
+Hình 3.1.1. Đồ thị đặc tính cơ giải thích trạng thái ổn định của hệ truyền động điện
+3.2 – Động cơ không đồng bộ
+3.2.1 – Phân loại
+Trong thực tế động cơ không đồng bộ được sử dụng nhbiều nhất (chiếm khoảng 80% của tất cả các loại động cơ điện với công suất hàng chục W đến hàng trăm W) để truyền động các máy sản xuất khác nhau. So với dộng cơ điện một chiều, nó có ưu điểm sau: cấu tạo đơn giản , đặc biệt là động cơ rôto lồng sóc, kích thước, trọng lượng nhỏ hơn khi có cùng một cấp công suất định mức, làm việc tin cậy, vốn đầu tư cơ bản và chí phí vận hành ít hơn, sử dụng trực tiếp lưới điện xoay chiều ba pha,do đó trong nhiều trường hợp không cân các thiết bị khác kèm theo….
+Nhược điểm cơ bản của nó là điều chỉnh tốc độc và khống chế các quá trình quá độ khó khăn hơn.đặc biệt đối với động cơ không đồng bộ rôto có các chỉ tiêu khởi đông xấu ( dòng khởi động lớn, mômen khởi động bé)
+Phân loại:
+Theo loại từ trường
+Động cơ không đồng bộ với từ trường quay. Động cơ không đồng bộ với từ trường chạy.
+
+Theo số pha
+Động cơ không đồng bộ ba pha. Động cơ không đồng bộ hai pha. Động cơ không đồng bộ một pha.
+Theo loại rôto:
+Động cơ không đồng bộ rôto lồng sóc. Động cơ không đồng bộ rôto dây quấn.
+3.2.2- Hệ dố trượt
+Từ nguyên lý làm vịệc của động cơ không đồng bộ ta rút ra rằng từ trường stato và rôto có tốc độ quay khác nhau, nghĩa là chúng quay không đồng bộ. Khi đó sức từ động của stato và rôto đứng yên tương đối so với nhau, đó là quá trình để thực hiện biến đổi năng lượng.
+Từ đó ta rút ra: n1 – n2 = ns
+Trong đó n1: tốc độ quay của sức từ động stato (vòng/phút).
+n2: tốc độ quay của rôto (vòng/phút).
+ns: tốc độ quay của sức từ động rôto so với trừ trường quay stato, (vòng/phút).
+Khi phân tích chế độ làm việc của động cơ không đồng bộ ta thường dùng đại lượng tương đối gọi là hệ số trượt s:
+Trong đó: tốc độ từ trường quay, còn gọi là tốc độ đồng bộ, (vòng/phút).
+Ở chế độ làm việc bình thường hệ số trượt bằng khoảng (0.02- 0,06). Khi rôto bị phanh dừng lại hoặc trong trường hợp bắt đầu khởi động (n2 = 0) thì ns = n2 và s = 1.
+Từ tường quay chính sẽ cảm ứng ra trong các thanh dẫn của rôto và stato một sức điện động. Sức điện động trong cuộn stato có cùng tần số với tần số điện áp lưới f1, còn trong rôto có tần số bằng : f2 = s.f1
+3.2.3 - Các phương trình cơ bản của dộng cơ không đồng bộ
+1- Phương trình cân bằng điện áp trong dây quấn stato.
+Từ thông chính trong lõi thép có tần số f1 với điện áp lưới đặt vào dây quấn stato. Nếu gọi w1 là số vòng dây của mỗi pha dây quấn stato, thì suất điện động cảm ứng ra trong đó khi từ thông chính xuyên qua, tương tự như máy biến áp, sẽ có trị hiệu dụng bằng:
+E1 = 4,44f1kdq1w1Ф
+Trong đó: kdq1 < 1 – hệ số dây quấn stato.
+Sở dĩ phải thêm hệ số dây quấn kdq1 là vì trong động cơ không đồng bộ các vòng dây không tập trung tại một chỗ mà được sắp xếp trong nhiều rãnh khác nhau, từ thông xuyên qua các vòng dây không đồng thời. Vì vậy suất điện động của các vòng dây lệch pha nhau do đó suất điện động tổng của w1 vòng là tổng hình học các véctơ suất điện động các vòng dây, trị số của suất điện động sẽ bé hơn tổng số học suất điện động các vòng dây một hệ số luôn luôn nhỏ hơn 1.
+Cuối cùng lý luận tương tự như máy biến áp ta viết được phương trình cân bằng điện áp ( phương trình trạng thái điện) cho một pha dây quấn stato:
+U1 = -E1 + jX1I1 + R1I1
+Trong đó: X1 – điện kháng tản của dây quấn một pha stato.
+R1 – điện trở của dây quấn một pha stato.
+2. Phương trình cân bằng điện áp trong dây quấn rôto
+Khi đặt điện áp lưới vào dây quấn stato và giữ chặt rôto lại không cho quay thì động cơ điện không đồng bộ ba pha tương tự như máy biến áp ba pha. Vì vậy suất điện động cảm ứng ra trong dây quấn rôto của động cơ cũng có tần số f1 như ở dây quấn thứ cấp máy biên áp. Suất điện động trong mỗi pha của dây quấn rôto khi rôto đứng yên bằng:
+E2 = 4,44f1kdq2w2Ф
+Trong đó: kdq2 – hệ số dây quấn rôto.
+W1 – số vòng dây mỗi pha dây quấn rôto.
+Thực tế trong quá trình làm việc, rôto quay với một tốc độ nào đó cùng chiều với tốc độ từ trường quay n1. Vì vậy suất điện động trong mỗi pha của dây quấn rôto khi rôto quay bằng:
+E2s = 4,44f1kdq2w2Ф = s.E2
+ở động cơ không đồng bộ điện năng kgông lấy trực tiếp ở dây quấn rôto mà được chuyển thành cơ năng trên trục của động cơ.Vì vậy, dây quấn rôto được coi như luôn luôn bị ngắn mạch qua tổng trở bản thân dây quấn của nó, dưới tác dụng của suất điện động E2, dòng diện trong dây quấn rôto khi rôto quay bằng:
+I2s =
+
+Biểu thức trị hiệu dụng của dòng điện trong một pha rôto I2s và cosφ là:
+3. Phương trình cân bằng từ
+Từ thông chính Ф trong động cơ không đồng bộ khi không tải do suất từ dộng dây quân stato F10 = I10w1kdq1 sinh ra. Khi máy làm việc có tải nó được sinh ra do tổng 2 suất từ động dây quấn stato F10 = I10w1kdq1 và F2= I2w2kdq2 tạo thành. Suất từ động của dây quấn rôto sinh ratừ trường quay rôto và quay tương đối so với rôto với tốc độ bằng:
+n2
+mặt khác vì rôto lại quay tương đối so với stato theo tốc độ n nên từ trường quay của rôto sẽ quay tương đối so với stato theo tốc độ là: n2 + n = s.n1 + n = s.n1 + n1(1 – s) = n1.
+Như vậy giữa từ trường quay stato và từ trường quay rôto không có chuyển đông tương đối và chúng cùng có tốc độ quay là n1 tương đối so với stato. Chúng ta có thể làm phép cộng véctơ để tìm suất từ động tổng của động cơ không đồng bộkhi có tải
+(I1w1.kdq1 + I2w2.kdq2)
+Cũng tương tự như máy biến áp , từ thông chính trong động cơ không đồng bộ có trị số không đổi khi không tải cũng như có tải nếu giữ nguyên điện áp lưới cấp cho động cơ bằng không đổi ( U = const). Vì vậy ta viết phương trình cân bằng từ của động cơ không đồng bộ như sau:
+F10 = F1 + F2 = I10w1kdq1 = I1w1.kdq1 + I2w2.kdq2
+Từ biểu tức trên ta có thể viết phương trình cân bằng dong điện như sau:
+I10 = I1 + I’2
+Trong đó : I’2 = – dòng điện rôto quy đổi về phía stato;
+ki = – hệ số quy đổi về dòng điện.
+Các phương trình trạng thái mạch điện và mạch từ của động cơ không đồng bộ tương tự như các phương trình máy biến áp. Điểm khác biệt là ở chỗ tần số của suất điện động và của dòng điện trong mạch rôto khác với tần số suất điện độngvà của dòng điện trong mạch stato và công suất hữu công không phải là công suất điện mà là công suất cơ.
+4. Phương trình đặc tính cơ của động cơ không đồng bộ
+Ta có công suất điện từ Pdt = 1M chuyển từ stato qua khe hở không khí đến roto lớn hơn công suất Pcơ = M một lượng là APcu2 như vậy ta có thể viết được biểu thức sau:
+∆Pcu2 = Pđt - Pcơ = M(1 – ) = M 1.s (3.2.1)
+Trong đó:
+ω1 – tốc độ góc của từ trường stato, rad/s;
+ω - tốc độ góc của roto, rad/s.
+biểu thức (3.1.1) cũng có thể viết dưới dạng sau:
+∆Pc = M1 (3.2.2)
+Từ biểu thức (3.2.2) ta nhận thấy rằng tổn hao đồng trong roto của động cơ không đồng bộ tỷ lệ thuận hệ số trượt.
+Từ biểu thức (3.2.1) ta rút ra:
+M = (3.1.3)
+Thay biểu thức (3.2.6) vo (3.2.3) ta có:
+M = (3.1.4)
+Mặt khác từ sơ đồ thay thế ta tính được dịng điện roto quy đổi về stato bằng:
+(3.2.5)
+Thay (8.86) vo biểu thức (8.85) ta cĩ:
+(3.2.6)
+Biểu thức (3.2.6) biểu diễn mối quan hệ M = f(s) là phương trình đặc tính cơ của động cơ không đồng bộ.
+Nếu biểu diễn đặc tính cơ trên đồ thị sẽ là đường cong.
+Có thể xác định điểm cực trị của đường cong này, điểm cực trị thường gọi là điểm tới hạn có toa độ . Giá trị của chúng được xác định bằng cách lấy vi phân của biểu thức (8.87) theo s rồi cho bằng không ta được:
+(3.2.7)
+Thay biểu thức (3.2.7) vào (3.2.6)ta tìm được trị số momen tới hạn cũng chính là trị số momen cực đại của động cơ:
+Trong hai biểu thức (3.2.7) và (3.2.8) dấu (+) tương ứng với máy điện làm việc ở chế độ động cơ, cịn dấu (-) tương ứng máy điện làm việc ở chế độ máy phát.
+Từ biểu thức (3.2.8) ta nhận thấy momen tới hạn ở trạng thái may phát lớn hơn momen tới hạn ở trạng thái động cơ. Thông thường ở trạng thái động cơ
+Khi khởi động, n = 0 ( = 0); s= 1, momen khởi động sẽ là:
+(3.2.9)
+Từ đường công M = f(s) trên hình 8.38 và các biểu thức (3.2.6), (3.2.7), (3.2.8), (3.2.9) ta có các nhận xét sau:
+a. Momen quay động cơ không đồng bộ tỷ lệ với bình phương điện áp nguồn cấp U12. Vì thế động cơ sẽ làm việc kém ổn định khi điện áp lưới dao động, đặc biệt khi điện áp nguồn cấp giảm xuống quá thấp (U1 < 0,85Udm) momen quay của động cơ giảm đi đáng kể không thắng nổi momen cản của máy sản xuất dẫn đến động cơ sẽ bị cháy.
+b. Momen tới hạn (Mth) không phụ thuộc vào trị số điện trở trong mạch roto (R’2), cịn hệ số trượt tới hạn (sth) và momen khởi động (Mkđ) tỷ lệ thuận với trị số điện trở trong mạch roto.
+Ta có thể viết phương trình đặc tính cơ của động cơ không đồng bộ dưới dạng thuận tiện hơn bằng cách lập tỷ số giữa hai biểu thức (8.87), (8.89), ( ở biểu thức 8.89 lấy dấu +) và biến đổi ta có:
+M = (3.2.10)
+............................................................
+Khi đang ở môi trường ZEN Soft, thực hiện theo các bước sau để nhập/thay đổi thuộc tính cho ứng dụng
+2) Môi trường làm việc
+Để có thể vào môi trường làm việc ZEN Soft, trước tiên phải tạo mới chương trình hoặc mở file đang hiện hữu.
+Định dạng của file khi lập trình dùng ZEN Soft:
+>>*ZEN _ file ứng dụng ZEN soft.
+File ứng dụng chứa toàn bộ các thông tin liên quan đến chương trình dạng bậc thang và toàn bộ mọi cài đặt thiết lập khi dùng ZEN.
+3) Các biểu tượng trong ZENSOFT
+- Tạo fiile mới
+- Mở file
+- Lưu file
+- In
+- Xem trước khi in
+- Cắt đối tượng chọn
+- Coppy đối tượng chọn
+- Xóa đối tượng chọn
+- Tìm kiếm
+- Về versions Soft
+- Kết nối/ngưng kết nối với ZEN
+- Bật tắt chế độ giám sát
+- Truyền sang ZEN
+- Truyền từ ZEN
+- So sánh với ZEN
+- Cài mật mã
+- Bỏ mật mã
+- Chế độ chọn đối tượng
+- Tiếp điểm N.O
+- Đường nối ngang
+- Đường nối đứng
+- Thu nhỏ (zoom out)
+- Phóng to(zoom in)
+- Bật/tắt đường kẻ ô
+- Bật/tắt chú giải
+- Hiện thị dạng bậc thang
+- Hiện thị dang mạch điện
+4) Soạn thảo các đối tượng
+- Bất kỳ một chức năng nào ZEN có trang bị cũng đều có thể lập trình hoặc cài đặt dùng ZEN Soft.
+- Những chức năng này đều có thể lập trình được rất dễ dang. Chỉ có một ý tưởng lập trình rõ ràng và xác định rõ muc45 đích của từng chức năng là có thể thực hiện được.
+Cửa sổ soạn thảo sẽ thay đổi tùy thuộc vào đối tượng được chọn. Ví dụ, nếu ta chọn cài đặt cho bit tương ứng với timer, thực hiện như sau:
+5) Soạn chú dẫn
+Có thể soạn thảo, hiệu chỉnh, xóa và xem chú dẫn của bất kỳ một đối tượng nào bằng cách vào cửa sổ sau:
+Chọn “Edit”à”Edit comments…” để mở cửa sổ nhưu hình bên cạnh.
+6) Các cài đặt cho ZEN Có thể chỉnh ngày giờ của Zen trùng với ngày giờ hệ thống máy tính chạy Zen soft. Để thực hiện , nhấp vào nút “ Synchronize”
+Chọn “Zen” à “Set Protection” à
+“timer Settings” để hiện thị cửa sổ bên cạnh
+Cũng có thể chỉnh ngày giờ của Zen bằng cách nhập vào ngày giờ mong muốn, sau đó nhấp vào nút “Zen timer setting” để truyền ngày giờ mới nhập sang Zen.
+Trong cửa sổ cài đặt cho ZEN,có thể chỉnh được độ tương phản, thời gian tự động tắt đèn nền, thời gian lọc các đầu vào, chọn ngôn ngữ, tự động chỉnh giờ mùa hè, cài đặt địa chỉ nút, và ngay cả việc gửi một chuỗi lệnh để khởi tạo modem kết nối với Zen.
+7) Cài đặt truyền thông
+Để kết nối Zen soft với ZEN, chỉ cần cài đặt truyền thông và địa chỉ nút ZEN cần kết nối. Chọn “file” à “communications Setting,…” để cài đặt.
+Địa chỉ nút phải trùng địachỉ nút ZEN cần kết nối.
+8) Chế độ làm việc của ZEN
+Cũng có thể chuyển đổi chế độ làm việc của ZEN sang RUN hoặc STOP sử dung phần mềm ZEN soft.
+Lưu ý: không thể thay đổi chế độ làm việc của ZEN khi đang ở soạn thảo chương trình
+9) Cài mật mã
+Cách cài mật mã như sau Nhập mật mã ( dạng số hay ký tự : chọn “Zen” à “set protection” à “Set Password…”
+- Mật mã “0000” không có hiệu lực
+- Sau khi kết nối với Zen , nhấp vào biểu tượng hoặc chọn “Zen”à “Protect” à “Set” .Cửa sổ nhập mật mã xuất hiện. Sau khi nhập mật mã, nhấn “Ok” để cài đặt mật mã cho Zen
+10) Hủy mật mã
+Trước tiên phải kết nối với Zen. Sau đó nhấp vào biểu tượng hoặc chọn “Zen” à “ Protect” à “Release”. Một cửa sổ xuất hiện yêu cầu nhập đúng mật mã đã cài.
+Sau khi nhập đúng mật mã , nhấn nút “Ok” để hủy bỏ mật mã cho ZenTrước tiên phải kết nối với Zen. Sau đó nhấp vào biểu tượng hoặc chọn “Zen” à “ Protect” à“Release”. Một cửa sổ xuất hiện yêu cầu nhập đúng mật mã đã cài.
+Sau khi nhập đúng mật mã , nhấn nút “Ok” để hủy bỏ mật mã cho Zen
+
+CHƯƠNG V : BĂNG TẢI
+5.1 Phạm vi ứng dụng :
+Các băng tải thường dùng để di chuyển các vật liệu đơn chiết và vật liệu rời theo phương ngang, phương đứng, phương xoắn.Trong các dây chuyền sản xuất , các thiết bị này được sử dụng rộng rãi như những phương tiện vận chuyển các linh kiện nhẹ, trong các xưởng kim loại được dùng để vận chuyển quặng, than đá, các loại xí lò; trên các trạm thủy điện thì dùng để chuyển nhiên liệu; trên các kho bãi thì dùng vận chuyển các loại hàng bao kiện vật liệu hạt hoặc một số sản phẩm khác; trên các công trường thì dùng để vận chuyển vật liệu xây dựng;trong ngành lâm nghiệp và khai thác gỗ thì vận chuyển gỗ, vỏ bào; trong một số ngành công nghiệp nhẹ, công nghiệp thực phẩm,hóa chất và một số ngành công nghiệp khác thì dùng để vận chuyển sản phẩm hoàn thành và chưa hoàn thành ở các giai đoạn, các phân xưởng, đồng thời cũng như loại bỏ các sản phẩm không dùng được.
+Khác với các thiết bị vận chuyển khác, băng tải có chiều dài vận chuyển lớn, năng suất lớn, kết cấu nhỏ, đơn giản, làm việc tin cậy và sử dụng thuận tiện.
+Ngày nay người ta sử dụng băng tải có độ bền cao, chiều rộng tới 3m tốc độ vận chuyển có thể đạt tới 4km/giây và hơn nữa năng suất của băng tải có thể đạt vài nghìn tấn trong một giờ. Trên thực tế chiều dài băng tải không giới hạn và có thể áp dụng hệ thống gồm nhiều giai đoạn liên kết. Những hệ thống này được sử dụng rộng rãi trong ngành khai thác mỏ quặng, cũng như ngành xây dựng.Ở đó băng tải có khả năng cạnh tranh lớn với đường chuyển cáp treo, thậm chí cả đối với vận chuyển bằng ô tô, đường sắt.
+Một ưu điểm của băng tải là dễ dàng phù hợp với các dạng chu tuyến vận chuyển.Giá thành công trình không lớn do kết cấu năng băng theo đường vận chuyển đơn giản và nhẹ nhưng vẫn đảm bảo an toàn,năng lượng tiêu tốn không cao, sống .
+5.2 Phân loại :
+Băng tải có nhiều kiểu dáng và có nhiều chức năng khác nhau vì thế được phân loại như sau:
+5.2.1.Theo phương chuyển động
+-Theo phương ngang: Băng tải loại này được ứng dụng trong việc vận chuyển các loại nguyên liệu trong ngành xây dựng,vận chuyển than đá hoặc những sản phẩm đóng gói:
+Kết cấu loại băng tải loại này là băng tải đai vải,chân của băng tải có thể nâng lên hạ xuống để tạo dốc nghiêng hoặc ở cố định nhưng lớn nhất phải nhỏ hơn góc ma sát giữa vật liệu và bằng 7-10 độ.
+-Theo phương nghiêng: Dùng vận chuyển sản phẩm trên cao đã đóng gói đóng thùng hoặc vận chuyển các sản phẩm dạng rời như than đá,sỏi…
+-Theo phương đứng: Băng tải loại này dùng để vận chuyển dạng kiện hoặc khối nhỏ lên cao. Thông thường thì băng tải loại này vận chuyển hàng từ trên xuống hoặc từ dưới lên,hình dáng bên ngoài giống băng gầu.Đặc biệt nó còn ưu điểm nữa là không tốn diện tích nơi nó vận hành
+-Theo phương xoắn : Băng tải loại này dùng để vận chuyển những kiện hàng nhỏ vừa,hình dáng của nó như con ốc xoắn.Băng tải loại này có thể vận chuyển hàng từ trên xuống và ngược lại.Nó cũng có ưu điểm nữa là không tốn diện tích nơi nó vận hành
+5.2.2.Theo kết cấu
+-Loại cố định: Băng tải loại này sử dụng trong dây chuyền sản xuất có tính liên tục và đặt cố định trong dây chuyền
+-Loại di động: Được dùng trong dây chuyền không có tính liên tục hay cố định,có hay không đều không ảnh hưởng đến dây chuyền.Kết cấu giống như băng tải cố định nhưng khác ở chõ có gắn bộ phận di động ở dưới chân đế của băng tải
+5.2.3.Theo công dụng
+-Loại chuyên dùng: Được sử dụng chuyên chở các vật dụng cá nhân gia đình(băng hành lý),thức ăn.Băng tải loại này được sử dụng nhiều trong các nhà hàng,hệ thống vận chuyển hành lí trong các sân bay nhà ga.
+Băng tải hành lý
+-Băng tải con lăn: Băng tải loại này không có bộ phận kéo,người sử dụng phải tác động lực để trượt những sản phẩm trên con lăn.Băng tải được hoạt động nhờ vào sự tác động lực của sản phẩm một cách lien lục vào các con lăn.
+Băng tải con lăn
+-Băng tải xích:
+
+Băng tải đai vải:Thường dùng để vận chuyển vật liệu dạng bột, hạt.
+5.2.4.Theo mục đích sử dụng
+-Băng tải chịu nhiệt:Băng tải này phải làm việc trong môi trường có nhiệt độ lớn và thường xuyên tiếp xúc với vật liệu có nhiệt độ lớn trên 700C,hoặc tải vật liệu nhiệt độ cao trên 600
+
+CHƯƠNG VI : MỘT SỐ BÀI TẬP ỨNG DỤNG
+5.1 Chương trình gắp sản phẩm :
+5.2 hương trình phân loại sản phẩm dùng cảm biến từ
+5.3 chương trình sản phẩm theo cảm biến màu
+5.4 chương trình phân loại sản phẩm theo màu sắc và chất liệu :
+
+TÀI LIỆU THAM KHẢO
+Wedsite :tailieu.vn
+Wedsite : dientu.com
+Giáo trinh : hệ thống điều khiển bằng khí nén TG: Nguyễn Ngọc Phương
+Giáo trình : ứng dụng plc siemens và ,oeller trong tự động hóa
+TG : Nguyễn Tấn Phước
+Và một số wedsite cùng giáo trình khác
+

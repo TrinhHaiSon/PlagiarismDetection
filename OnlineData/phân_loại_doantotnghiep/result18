@@ -1,0 +1,138 @@
+ĐỒ ÁN TỐT NGHIỆP CƠ ĐIỆN tử TRẠM CẤP PHÔI TỰ ĐỘNG VÀ PHÂN LOẠI SẢN PHẨM
+LỜI MỞ ĐẦU
+Chiến lược phát triển KH&CN nước ta đến năm 2010 đã xác định Cơ điện tử là một trong những lĩnh vực công nghệ ưu tiên cho công nghiệp hoá, hiện đại hoá(CNHHĐH) đất nước.
+Trong hoàn cảnh đó, Cơ điện tử-một lĩnh vực công nghệ liên ngành- đã làm tốt vai trò này. Cơ điện tử là sự liên kết những yếu tố cấu thành của các ngành cơ học, điện tử và tin học nhằm tạo nên một công nghệ mới; trong đó, có sự biến đổi về chất tư duy công nghiệp và quan trọng là tư duy công nghệ. Bằng tư duy mới và sự phối hợp liên ngành, việc đổi mới phương pháp giải quyết nhiều vấn đề kỹ thuật tổng hợp đã tạo được những đột phá, làm cơ sở cho sự ra đời những sản phẩm tiên tiến, phục vụ hiệu quả cho nền công nghiệp hiện đại. Cơ điện tử là một thể thống nhất hữu cơ các yếu tố cấu thành, nó không phải là sự tập hợp đơn thuần những công nghệ khác nhau như cơ khí, điện tử, cảm biến, máy tính.... Chính vì vậy, cấu trúc của các công nghệ hợp thành đã có sự thay đổi để tạo thành một thể thống nhất trong sản phẩm. Công nghệ cơ điện tử cho phép phát triển những sản phẩm có tính năng mới, nhằm bù trừ hoặc loại bỏ những hạn chế trong thiết kế và chế tạo sản phẩm truyền thống đồng thời mang lại giải pháp tiến bộ cho quá trình công nghệ.
+Các sản phẩm cơ điện tử có hàm lượng thông minh cao tạo được những tính năng cần thiết trong các lĩnh vực sản xuất robot; hệ thống sản xuất linh hoạt, sản xuất tích hợp; năng lượng mới; giao thông, hàng không vũ trụ; thiết bị y tế và các mặt hàng dân dụng... được xem là nhu cầu tất yếu trong đời sống con người
+
+DANH MỤC HÌNH VẼ
+Hình 2.1:Mô hình thực tế của đề tài
+Hình 2.2: Cấu trúc thanh trượt .
+Hình 2.3: Cấu trúc của Piston 2 ống.
+Hình 2.4: Cấu trúc của Piston tay kẹp.
+Hình 2.5: Van 5/2.
+Hình 2.6: Cấu trúc RELAY 8 chân
+Hình 2.7: Nguyên lí chung về cấu trúc của một bộ điều khiển logic khả trình(PLC)
+Hình 2.8:Lập trình có cấu trúc
+Hình 2.9: Chu kì vòng quét
+.
+Chương 1: ĐẶT VẤN ĐỀ - 10 -
+1.1 Lí do chọn đề tài: - 10 -
+1.2 Hiện trạng của đề tài “TRẠM CẤP PHÔI TỰ ĐỘNG”: - 10 -
+1.3 Những Công Việc Nhóm Chúng Em Làm đề tài “TRẠM CẤP PHÔI TỰ ĐỘNG”: - 10 -
+1.4 Các vấn đề khó khăn cần giải quyết:Trong quá trình thiết kế và thi công thường xảy ra những vấn đề sau: - 11 -
+1.5 Biện pháp khắc phục cho từng phần trên như sau: - 11 -
+Chương 2: THIẾT KẾ VÀ THI CÔNG - 12 -
+2.1 Cấu trúc, ứng dụng Của “TRẠM CẤP PHÔI TỰ ĐỘNG” - 12 -
+2.1.1 Cơ cấu tay kẹp: - 12 -
+2.1.1.1Cấu trúc và ứng dụng của thanh trượt. - 12 -
+2.1.1.2Cấu trúc và ứng dụng của piston hai ống. - 13 -
+2.1.1.3Cấu trúc và ứng dụng của piston tay kẹp. - 14 -
+2.1.1.4Van 5/2 sử dụng một solenoid. - 14 -
+2.1.1.5Cảm biến từ (Cảm biến từ giữ vai trò là công tắc hành trình): - 15 -
+2.1.1.6 Nhôm định hình - 15 -
+2.1.1.7 Cơ cấu băng tải - 15 -
+2.1.2 Giới thiệu vè PLC S7-300 - 15 -
+2.1.2.1 Giới thiệu thiết bị điều khiển logic khả trình. - 15 -
+2.1.2.2 Các module của PLC S7-300 - 19 -
+2.1.2.2.1 Module CPU - 19 -
+2.1.2.2.2 Module mở rộng - 19 -
+2.1.2.3 Tổ chức bộ nhớ CPU - 20 -
+2.1.2.4 Vòng quét chương trình của CPU - 27 -
+2.2 Điện tử - 29 -
+2.2.1 LM7805 : IC ổn áp 5V - 29 -
+2.2.2 Khối nguồn 5V - 30 -
+2.2.3 Mạch kích Relay - 31 –
+2.2.4 Khối vi điều khiển PIC 16f887 - 31 -
+2.1.3 Nguyên tắc hoạt động của mô hình - 21 -
+Chương 3: KẾT QUẢ VÀ HƯỚNG PHÁT TRIỂN - 26 -
+3.1 Kết Quả - 26 -
+3.1.1 Những kết quả đạt được - 26 -
+3.1.2 Những mặt hạn chế - 26 -
+3.1.3 Cách khắc phục - 26 - -
+
+
+
+Chương 1: ĐẶT VẤN ĐỀ
+Lí do chọn đề tài:
+Nhóm chúng em chọn đề tài “TRẠM CẤP PHÔI TỰ ĐỘNG VÀ PHÂN LOẠI SẢN PHẨM”. Bởi vì trong quá trình tìm hiểu nhóm chúng em nhận thấy đề tài “TRẠM CẤP PHÔI TỰ ĐỘNG VÀ PHÂN LOẠI SẢN PHẨM” được ứng dụng rộng rãi và phổ biến trong các nhà máy xí nghiệp ở Việt Nam. Bên cạnh đó, Đề tài “TRẠM CẤP PHÔI TỰ ĐỘNG VÀ PHÂN LOẠI SẢN PHẨM” cũng gần với các nhà máy xí nghiệp của Thế Giới. Nhóm chúng em chọn đề tài này là nhằm rút ngắn thời gian tiếp cận với nền công nghiệp tiên tiến ở Việt Nam nói riêng và nền công nghiệp Thế Giới nói chung. Hơn nữa, Nhóm chúng em chọn đề tài này cũng là giúp cho người học tiếp cận với thiết bị tự động gần với công nghiệp tự động của Việt Nam và của Thế Giới.
+Hiện trạng của đề tài “TRẠM CẤP PHÔI TỰ ĐỘNG”:
+Đề tài này đã được nghiên cứu trong bài tập lớn tự động hoá của nhóm khoá 09, nhóm khoá 09 nghiên cứu đề tài này ở mức độ sử dụng cảm biến phân loại màu phôi và qui trình làm việc của trạm là nhận được màu nào thì cho vào máng đó tương ứng với màu phôi.. Nhóm chúng em chọn đề tài này và phát triển lên như sau: sử dụng cảm biến phôi để cấp phôi qua băng tải 2 và trong băng tải 2 có cảm biến để phân biệt màu sắc bằng việc kích cho xi lanh đẩy phôi vào máng.
+1.3 Những công việc nhóm chúng em làm đề tài “TRẠM CẤP PHÔI TỰ ĐỘNG VÀ PHÂN LOẠI SẢN PHẨM”:
+Thiết kế và thi công phần cứng mô hình “TRẠM CẤP PHÔI TỰ ĐỘNG”. Thiết kế bảng pannel cho mô hình “TRẠM CẤP PHÔI TỰ ĐỘNG”. Thiết kế và thi công mạch nguồn. Thiết kế và thi công kit PLC. Lập trình simatic s7-300 để điều khiển “TRẠM CẤP PHÔI TỰ ĐỘNG” bằng kit PLC.
+Các vấn đề khó khăn cần giải quyết:Trong quá trình thiết kế và thi công thường xảy ra những vấn đề sau:
+Trong quá trình thiết kế và thi công mô hình “TRẠM CẤP PHÔI TỰ ĐỘNG” thì phần lớn bị lỗi là do cảm biến từ giữ vai trò là công tắc hành trình không hoạt động như mong muốn và dễ bị hư và hỏng trong quá trình chạy thử. Van 5/2 sử dụng 1 solenoid không hoạt động khi cấp khí vào. Trong quá trình thiết kế cơ khí cho mô hình thì mắc phải một số vấn đề:tiềm kiếm cảm biến,xi lanh trượt,tay gấp khó khăn và không được như mong muốn,xi lanh gấp chu kì không được như mong muốn.
+Biện pháp khắc phục cho từng phần trên như sau:
+Trước tiên là mô hình “TRẠM CẤP PHÔI TỰ ĐỘNG”: biện pháp khắc phục cảm biến mua cảm biến và test cảm biến và đảm bảo cảm biến hoạt động được thì mới nhận mua, biện pháp khắc phục cho van 5/2 sử dụng một solenoid là cần lượng khí từ 3kg trở lên thì cung cấp đủ cho van hoạt động.
+Mô hình :
+CHƯƠNG 2:THIẾT KẾ VÀ THI CÔNG
+Hinh 2.1: Mô hình thực tế của đề tài
+Cơ khí:
+Cơ cấu tay kẹp
+Thanh trượt, piston 2 ống, piston tay kẹp, van 5/2 sử dụng một solenoid, cảm biến từ đống vai trò là công tắc hành trình, nhôm định hình.
+2.1.1.1 Cấu trúc và ứng dụng của xilanh trượt:
+
+Hình 2.2: Xi lanh trượt
+Xi lanh trượt là một thiết bị có cấu tạo đơn giản như sau:Phần thân dài,trượt qua lại trên 2 ống trụ tròn,2 bên hong có 2 đường cấp khí được thông với nhau qua 2 ống trụ tròn.Khi ta cấp khí bên này thì bên trong xi lanh có 1 bộ phận trượt qua bên kia và ngược lại.Để kiểm soát được quá trình trượt của xi lanh thì ta mua thêm 2 công tắc hành trình loại 3 chân gắn vào 2 bên của xi lanh để biết được vị trí của bộ phận công tác.
+Ứng dụng của xi lanh trượt trong mô hình là:xi lanh trượt được sử dụng để di chuyển vật phôi tịnh tiến nằm ngang theo 2 hướng trái và phải bằng cách sử dụng van 5/2 một solenoid để điều khiển.
+2.1.1.2 Cấu trúc và ứng dụng của piston 2 ống
+Piston 2 ống có cấu tạo đơn giản như sau:thân hình chữ nhật,hai ống trượt,bên trong có 2 ống dẫn khí và 2 nam châm
+
+Hình 2.3: Cấu trúc của piston 2 ống
+Ứng dụng của piston 2 ống trong mô hình như sau: Piston hai ống được sử dụng để di chuyển vật phôi tịnh tiến nằm dọc theo hai hướng phía trên và phía dưới bằng cách sử dụng van 5/2 một solenoid để điều khiển.
+2.1.1.3 Cấu trúc và ứng dụng của piston tay kẹp.
+Hình 2.4: Cấu trúc của piston tat kẹp
+Ứng dụng của piston tay kẹp trong hệ thống “Trạm cấp phôi tự động” như sau: Piston tay kẹp được sử dụng để kẹp và nhả vật phôi theo hai hướng song song vào và ra bằng cách sử dụng van 5/2 một solenoid để điều khiển
+Van 5/2 sử dụng một solenoid.
+
+Hình 2.5: Van 5/2
+Ứng dụng của van 5/2 một solenoid trong hệ thống “trạm cấp phôi tự động” như sau: Van solenoid 5/2 một cuộn dây được sử dụng để điều khiển thiết bị khí nén, điển hình trong mô hình này thì van 5/2 một solenoid điều khiển thanh trượt, piston hai ống và tay kẹp.
+Cảm biến từ (Cảm biến từ giữ vai trò là công tắc hành trình):
+Ứng dụng của cảm biến từ trong hệ thống “Trạm cấp phôi tự động” như sau: Cảm biến từ với vai trò là công tắc hành trình thì được sử dụng để đóng ngắt van điện, cụ thể trong mô hình này thì cảm biến từ sử dụng để đóng ngắt van 5/2 một solenoid.
+Nhôm định hình:
+Dùng để gá xilanh trượt
+Cơ cấu băng tải
+Động cơ DC 24V
+Vật liệu làm băng tải: Nhôm tấm kích thước 400x60x5
+Ổ bi nâng đỡ, giảm ma sát cho rulo
+Băng tải cao su 830x70mm
+Ốc lục giác
+Khớp nối trục truyền động quay từ động cơ sang trục r
+RELAY 8 CHÂN
+Giới thiệu cấu trúc của RELAY 8 CHÂN có cấu tạo đơn giản 8 chân.
+Hình 2.6: Cấu trúc RELAY 8 chân
+Ứng dụng của relay 8 chân trong hệ thống kít điều khiển như sau:RELAY 8 CHÂN có nhiệm vụ nhận tín hiệu ngõ ra từ PLC kích cho relay,relay có điện điều khiển thiết bị van 5/2 một solenoid tác động cho xi lanh và động cơ.
+2.1.2 Giới thiệu về PLC S7-300
+2.1.2.1 Thiết bị điều khiển logic khả trình:
+Thiết bị điều khiển logic khả trình là loại thiết bị thực hiện linh hoạt các thuật toán điều khiển số thông qua một ngôn ngữ lập trình,thay vì phải thực hiện thuật toán bằng mạch số.Như vậy ,PLC là một bộ điều khiển gọn nhẹ và dễ trao đổi thông tin với môi trường bên ngoài( với các PLC khác hoặc máy tính).Toàn bộ chương trình điều khiển được lưu trữ trong bộ nhớ của PLC dưới dạng các khối chương trình và được thực hiện theo chu kì của vòng quét.
+
+Hình 2.7: Nguyên lí chung về cấu trúc của một bộ điều khiển logic khả trình(PLC)
+Để thực hiện được một chương trình điều khiển,tất nhiên PLC phải có tính năng như một máy tính,nghĩa là phải có bộ vi xữ lý(CPU),một hệ điều hành,bộ nhớ để lưu chương trình điều khiển,dữ liệu và tất nhiên phải có các cổng vào/ra để giao tiếp được với đối tượng điều khiển và để trao đổi thông tin với môi trường xung quanh.Bên cạnh đó,nhằm phục vụ bài toán điều khiển số,PLC còn phải thêm vào một số khối chức năng đặc biệt khác như bộ đếm(Counter),bộ định thời(Timer)…. Và những khối hàm chuyên dung
+
+Ưu điểm của bộ điều khiển lập trình so với điều khiển nối dây:
+Tính năng mở rộng:khả năng mở rộng xử lý bằng cách thay đổi chương trình lập trình một cách dễ dàng. Độ tin cậy cao. Cách kết nối các thiết bị điều khiển đơn giản. Hình dáng PLC gọn nhẹ.
+2.1.2.2 Các module của PLC S7-300
+Để tăng tính mềm dẻo trong ứng dụng thực tế mà ở đó phần lớn các đối tượng điều khiển có số tín hiệu đầu vào,đầu ra cũng như chủng loại tín hiệu vào/ra khác nhau mà các bộ điều khiển PLC được thiết kế không bị cứng hóa về cấu hình.Chúng được chia nhỏ thành các module.Số các module được sử dụng nhiều hay ít tùy thuộc vào từng bài toán,song tối thiệu bao giờ cũng có module chính(module CPU,module nguồn).Các module còn lại là những module truyền nhận tín hiệu với các đối tượng điều khiển,chúng được gọi là các module mở rộng.Tất cả các module đều được gá trên một thanh Rack.
+2.1.2.2.1 Module CPU:
+Đây là loại module có chứa bộ vi xử lý,hệ điều hành,bộ nhớ,các bộ thời gian,bộ đếm,cổng truyền thông… và có thể có các cổng vào/ra.Các cổng vào/ ra tích hợp trên PLC gọi là cổng và ra onboard.
+Trong họ PLC S7-300,các module CPU có nhiều loại và được đặt tên theo bộ vi xử lý bên trong như:CPU 313, CPU 314, CPU 316,….Những module cùng một bộ vi xử lý nhưng khác nhau số cổng vào/ra onboard cũng như các khối hàm đặc biệt thì được phân biệt bằng cụm chữ cái IFM.Ví dụ như CPU 312FM, CPU 314FM,…
+2.1.2.2.2 Module mở rộng:
+Các module mở rộng được chia thành 5 loại:
+PS(Power Supply):module nguồn là module tạo ra các điện áp 24v dc cấp nguồn cho các module khác. Có 3 loại:2A,3A Và 10A. SM(Signal Module): module mở rộng vào/ ra,bao gồm: DI(Digital Input): module mở rộng cổng vào số.Số các cổng vào số mở rộng có thể là 8,16 hoặc 32 tùy thuộc vào từng loại module. DO(Digital Output): module mở rộng cổng ra số.Số các cổng vào số mở rộng có thể là 8,16 hoặc 32 tùy thuộc vào tửng loại module. DI/DO(Digital Input/Digital Output): module mở rộng cổng vào /ra số.Số các cổng vào/ra số mở rộng có thể là 8 vào/8 ra hoặc 16 vào/16 ra tùy thuộc vào từng loại module. AI(analog input): module mở rộng cổng vào tương tự.Bản chất chúng là những bộ chuyển đổi tương tự sang số(ADC). Số các cổng vào tương tự có thể là 2,4 hoặc 8 tùy từng loại module,số bit có thể là 8,10,12,14,16 tùy theo từng loại module. AO(Analog Output):module mở rộng cổng ra tương tự.Chúng là những bộ chuyển đổi từ số sang tương tự(DAC). Số cổng ra tương tự có thể là 2 hoặc 4 tùy từng loại module. AI/AO(Analog Input/Analog Output): module mở rộng vào/ra tương tự.Số các cổng vào ra tương tự có thể là 4 vào/2 ra hoặc 4 vào/4 ra tùy từng loại module. IM (Interface Module): Module kết nối.
+Đây là loại module dùng để kết nối từng nhóm các module mở rộng thành một khối và được quản lý bởi một module CPU. Thông thường các module mở rộng được gá liền nhau trên một thanh rack. Mỗi thanh rack chỉ có thể gá nhiều nhất 8 module mở rộng (không kể module CPU và module nguồn). Một module CPU có thể làm việc có thể làm việc nhiều nhất với 4 thanh rack và các rack này phải được nối với nhau bằng module IM.
+
+FM (Function module): Module có chức năng điều khiển như: module điều khiển động cơ bước, module điều khiển động cơ servo, module PID,… CP (Communication Processor): Module truyền thông giữa PLC với PLC hoặc PLC với PC.\
+2.1.2.3 Tổ chức bộ nhớ CPU.
+Vùng nhớ chứa các thanh ghi: ACCU1, ACCU2, AR1, AR2,…
+Load memory: là vùng nhớ chứa chương trình ứng dụng (do người sử dụng viết) bao gồm tất cả các khối chương trình ứng
+........................................................................
+CHƯƠNG 3:KẾT QUẢ VÀ HƯỚNG PHÁT TRIỂN
+
+Kết Quả
+Những kết quả đạt được
+Thiết kế được phần cứng cơ khí hoàn chỉnh . Thiết kế bảng panel mô hình hoàn chỉnh. Thiết kế hoàn chỉnh kit PLC điều khiển mô hình trạm cấp phôi tự động.
+Những mặt hạn chế
+Trong quá trình thiết kế và thi công phần cứng cơ khí trạm cấp phôi tự động thì cảm biến bị hư tiêu tốn nhiều khoảng chi cho cảm biến.
+Cách khắc phục
+Trong quá trình thiết kế phần cứng cơ khí thì cảm biến hư hỏng nên mua lại và kiểm tra chạy ổn định. Hướng phát triển để cải tiến ,nâng cao chất lượng mô hình Để nâng cao và cải tiến mô hình thì ta cần có cảm biến phân biệt được nhiều màu, nhiều dây truyền sản xuất, tăng khâu để truyền tiếp cho mô hình.
+TÀI LIỆU THAM KHẢO
+PGS.Nguyễn Ngọc Phương, hệ thống điều khiển bằng khí nén,nhà xuất bản giáo dục, 1998. Trần Thế San-Châu Ngọc Thạch, Tự thiết kế và lắp ráp mạch điện, nhà xuất bản khoa học và kỹ thuật. Tài liệu tham khảo trên trang web......, google.

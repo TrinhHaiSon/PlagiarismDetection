@@ -1,0 +1,340 @@
+LỜI NÓI ĐẦU Máy cắt kim loại chiếm một vị trí quan trọng trong ngành chế tạo máy, để sản xuất ra các chi tiết máy của các máy khác nhau nghĩa là chế tạo ra tư liệu sản xuất chế tạo ra máy móc khác nhau để cơ khí hoá và tự động hoá ngành kinh tế quốc dân. Máy công cụ có nhiều loại như: tiện, phay, bào... máy vạn năng, chuyên dùng, tự động, bán tự động... sản phẩm cơ khí đa dạng, phong phú, do vậy cần có các máy vạn năng để đảm nhận. Máy vạn năng cần phải được cải tiến liên tục để đáp ứng được các yêu cầu công nghệ của các sản phẩm cần gia công, để gia công được các chi tiết khác nhau, các bề mặt khác nhau, vậy nó không thể thiếu được ở các nhà máy cơ khí. Đề tài tốt nghiệp của em là thiết kế Máy tiện Ren vít vạn năng với số cấp tốc độ Zn = 22; H = 200 Máy tiện ren vít vạn năng rất quan trọng, nó có công dụng rất lớn. Máy này có thể tiện trơn, tiện lỗ, tiện côn, tiện các bề mặt định hình, tiện các loại ren hệ mét, hệ Anh, hệ ren Quốc tế, Môđul, ren trái, ren phải, một đầu mối, nhiều đầu mối, ren mặt đầu... Vì khả năng công nghệ lớn như vậy cho nên cấu trúc, kết cấu máy rất phức tạp. Với sự giúp đỡ nhiệt tình của thầy giáo Th.S Nguyễn Thuận cùng với sự cố gắng của bản thân, nhưng là lần đầu tiên thiết kế tỉ mỉ một cách phức tạp do vậy không thể tránh khỏi những sai sót trong quá trình thiết kế. Rất mong nhận được sự góp ý của các thầy giáo và các bạn. Em xin chân thành cảm ơn. Ngày tháng 11 năm 2012 Sinh viên thiết kế PHẦN THỨ NHẤT THIẾT KẾ ĐỘNG HỌC MÁY Phần I: TỔNG HỢP CẤU TRÚC ĐỘNG HỌC Nội dung của phần này là xuất phát từ đối tượng gia công, phương pháp gia công, dụng cụ gia công để xây dựng trên sơ đồ nguyên tắc làm việc- sơ đồ cấu trúc động học máy. Máy tiện ren vít vạn năng là loại máy công cụ được sử dụng rộng rãi để gia công các bề mặt tròn xoay. Máy này phù hợp với các loại hình sản xuất, vì vậy nó chiếm một vị trí quan trọng trong ngành cơ khí chế tạo. Ngày nay với sự tiến bộ của khoa học kỹ thuật nó không ngừng được cải tiến để phù hợp với khả năng ngày càng phát triển của khoa học kỹ thuật. Ngoài việc gia công các bề mặt tròn xoay nó còn gia công được các bề mặt phức tạp như: mặt định hình, khoan, khoét, doa đạt độ chính xác cao, độ bóngÑ6¸Ñ7 nếu có cơ cấu đặc biệt thì đạt đượcÑ7¸Ñ9 Chủ yếu tiện trơn, ren (Quốc tế, Mođul, Anh, Pít). Cắt được các loại ren một đầu mối, ren trái, phải, ren tiêu chuẩn, không tiêu chuẩn. Tạo hình bề mặt: Máy tiện ren vít vạn năng chủ yếu gia công các mặt trụ tròn xoay, mặt ren... Các bề mặt này được tạo thành nhờ 2 chuyển động: - Chuyển động quay tròn của trục chính mang phôi Q1. - Chuyển động tịnh tiến của bàn dao T2. Như vậy chuyển động tạo hìnhfv gồm 2 thành phần fv(Q1;T2) 1- Có một chuyển động tạo hình Fv. 2-Chuyển động tạo hình thành phần Thực chất của bề mặt gia công là bề mặt xoắn vít, bề mặt này được tạo thành từ phương pháp vết- vết. Đường chuẩn (1) được tạo thành từ phương pháp vết do chuyển động tịnh tiến của dao T2. Đường sinh (2) được tạo thành do chuyển động quay Q1. II- Chuyển động trong máy 1- Chuyển động tạo hình : Là chuyển động cần thiết để tạo ra đường sinh công nghệ và dịch chuyển nó theo đường chuẩn. Số lượng chuyển động tạo hình là: NF = NFs+NFc - 1/2NFT. Với NFs là số thành phần tạo nên đường sinh, ở đây là chuyển động tịnh tiến của dao. NFc là số chuyển động thành phần tạo nên đường chuẩn với máy đó là chuyển động quay Q1 của phôi. NFT là số chuyển động trùng. NFT = 0. Vậy NF =1+1=2 gồm hai thành phần Fv (Q1; T2). Phân tích chuyển động tạo hình của máy đó là chuyển động xoắn xích bởi các liên kết động học. Ta có phương trình điều chỉnh: - Xích Tốc độ: nđcơ . i12 . iv .i34.k = nTC - Xích tạo hình : 1vòng TC . i45 . is .i67.Tmdoc = tp - Xích chạy dao ngang: 1vòng TC .i45 . is . i67 . i89Tmngang =sn 2- Chuyển động cắt gọt. Chuyển động cắt gọt là chuyển động cần thiết để thực hiện và tiếp tục quá trình cắt gọt, ở máy này chuyển động cất trùng với chuyển động tạo hình. Điều này làm cho kết cấu máy đơn giản xong hạ thấp năng suất máy. 3- Chuyển động phân độ. Là chuyển động khi cần cắt các bề mặt không liên tục. 4- Chuyển động phụ. Là những chuyển động không tham gia vào quá trình cắt gọt. Phần II ĐẶC TRƯNG KỸ THUẬT A- Đặc trưng công nghệ. Trên máy này gia công được các trục tròn xoay (trong, ngoài), mặt côn, mặt phẳng, các loại ren (hệ mét, hệ Anh, trong, ngoài, phải, trái, 1đầu mối, 2đầu mối, ren mặt đầu), đồng thời có thể khoan, khoét, tarô...Nếu có thêm các trang bị công nghệ có thể mở rộng khả năng công nghệ. - Cấp độ chính xác khi tiện trơn từ 7¸2 - Độ bóng Ñ3 ¸ Ñ7. Vật liệu gia công trên máy có thể là gang, thép, hợp kim màu, nhưng phổ biến là thép chế tạo máy có sp = 75 kg/mm2. Dao cụ trên máy rất đa dạng như: dao tiện ren, tiện trơn, xén mặt đầu, cắt đứt, mũi khoan, tarô... Vật liệu dao có thể la thép gió hợp kim cứng... B- Đặc trưng kích thuớc. - Đường kính lớn nhất của phôi gia công được trên máy Dmax =2*H = 400 mm - Chiều cao tâm máy H = Dmax/ 2 = 200 mm - Khoảng cách giữa 2 mũi tâm L = (3,5 - 7)H = 5H = 5*200 = 1000 mm -Đường kính phôi lớn nhất gia công hiệu quả trên máy D1 max = 1,3. H = 260 mm - Đường kính phôi luồn qua trục chính d1max = (0,15 ¸ 0,2 ) .D1 max = 47 mm - Đường kính phôi gia công lớn nhất D1min = 1/10. D1 max = 26 C- Đặc trưng động học. 1- Xích tốc độ: Việc tính toán tốc độ cắt lớn nhất và nhỏ nhất của máy bằng cách phối hợp những điều kiện thuận lợi hay khó khăn với nhau sẽ dẫn tới tăng phạm vị điều chỉnh của máy làm cho máy có kết cấu phức tạp, do đó việc chọn các trị số tốc độ cắt giới hạn tốt nhất là dựa vào những số liệu thống kê và sử dụng tốc độ cắt trên máy khác nhau. để xác địnhtốc độ cắt lớn nhất Với thép C = 0,7 d1max = 240 mm chiều sâu cắt nhỏ nhất tmin = (1/2 ¸ 1/2) tmax. Lấy 1/4 tmax Û tmin = 1,1 mm - Tốc độ cắt giới hạn: Z là số cấp tốc độ Z=22 Chọn g theo tiêu chuẩn g = 1,26 Từ g = 1,26 Ta có chuỗi số vòng quay nmin = n1 = 12,5 vòng/phút
+n2 = 16 vòng/phút n3 = 20 vòng/phút n4 = 25 vòng/phút n5 = 31vòng/phút n6 = 40 vòng/phút n7 = 50 vòng/phút n8 = 63 vòng/phút n9 = 80 vòng/phút n10=100 vòng/phút n11=125 vòng/phút n12=160 vòng/phút n13=200 vòng/phút n14=250 vòng/phút n15=315 vòng/phút n16=400 vòng/phút n17=500 vòng/phút n18=630 vòng/phút n19=800 vòng/phút n20=1000vòng/phút n21=1250vòng/phút n22=1600vòng/phút
+2- Xích chạy dao:
+Tốc độ chạy dao phụ thuộc vào chiều sâu cắt và chất lượng bề mặt gia công.
+- lượng chạy dao lớn nhất Smax = (1/ 3 ¸ 1/4). tmax
+Lấy Smax =1/4,4 .t max =1/1.4 . 4,4 = 1(mm/vòng)
+- Lượng chạy dao bé nhất Smax .( 1/5¸1/10) = Smin Û o,15 (mm / vòng).
+Dựa theo mày tiêu chuẩn nên lấy Sd và S n theo T620
+Máy gia công được 4 loại ren:
+- Ren Quốc tế: tp = (0,5¸112) mm
+- Ren môđul: m = ( 0,5¸112) mm
+-Ren Anh: n = (56¸0,25)vòng/ 1’’
+- Ren Pít: Dp = 56¸0,25
+D- Đặc trưng động lực học
+- Chiều sâu cắt lớn nhất tmax = 4 mm
+lượng chạy dao tính toán S* = 0,4 tmax ¸ 0,3 mm = 1,5 ¸ 0,3 mm
+Tốc độ cắt tính toán
+Tra bảng (5¸12) Tài liệu[II]. Với vật liệu là thép, dao là P18. Với S ³ 0,25 mm/ vòng.
+Ta có: Cv = 50,2 ; Xv = 0,25 ; Yv = 0,66 ; m= 0,125 ; Kv = 1,09
+- t là chiều sâu cắt = 4mm
+-S là lượng chạy dao= 1,5mm
+- T là tuổi bền = 60 phút
+50,2
+V = . 1,09 = 29,43 (mm/vòng)
+40,25 . 600,125 . 1,460,66
+Lực cắt Px = Cpx.txpx. Sypx
+Py = Cpy .txpy. Sypy
+Pz = Cpz .txppz .Sypz
+Theo bảng[ II-1 Tài liệu[I]] ta có :
+Cpx = 650 ; Cpy = 1250 ; Cpz = 2000 ; xpx = 1,12 ; xpy = 0,9 ; xpz= 1
+ypx = 0,65 ; ypy = 0,75 ; ypz =0,75
+Lấy chiều sâu cắt theo chế độ thử máy t = 6 (mm) ; S = 1,4 (mm/vòng).
+Py = 1250 . 60,9 . 1,40,75 = 928 kg
+Px = 650 .61,2 . 1,40,65 = 455,3 kg
+Py = 2000 . 61,0 . 1,40,75 = 15.444,5 kg
+Từ đó ta tính được công suất cắt Nc = Pz .V/ (60.1000)
+(II-Tài liệu[I])
+Nc = 1.544,5/(60.1000) = 5,926 KW
+Chọn động cơ:
+Công suất động cơ Nđ/c = Nc/h
+Với máy chuyển động quay tròn lấy h = 0,85 ta có:Nđ/c =5,926/0,85 =8,15 KW
+Lấy Nđc = 10 KW
+Chọn Nđ/c = 10KW Þ n =1450 vòng/ phút
+Phần III ĐỘNG HỌC
+A- Hộp tốc độ:
+I- Lựa chọn phương án bố trí.
+Khi chọn kiểu truyền dẫn căn cứ vào phạm vi điều chỉnh, công thức truyền, trị số trượt- điều khiển thuận tiện, thay đổi nhanh, tính công nghệ tốt.
+Với máy tiện, chuyển động chính là chuyển động quay tròn có công suất nhỏ hơn100 KW nên dùng truyền dẫn cơ khí điều chỉnh tốc độ gồm một động cơ điện xoay chiều và một hộp tốc độ bánh răng. Kiểu truyền dẫn này đảm bảo truyền dẫn chính xác, chắc chắn, cứng vững, thay đổi tốc độ đơn giản,điều khiển thuận tiện xong có nhược điểm là phải dừng máy mới thay đổi tốc độ được.
+Yêu cầu của hộp tốc độ là: nhỏ, gọn, làm việc êm, chính xác, điều khiển an toàn, tính công nghệ cao, đảm bảo tốc độ trục chính,số cấp tốc độ Z và phạm vi điều chỉnh chính xác.
+Hộp tốc độ phải kín, khi gia công các chi tiết khác nhau tốc độ và lực cắt phải phù hợp ( Pc . Vc = const) có nghĩa là Nc = const. khi thay đổi nTC ; vỏ hộp ,trục chính,các trục, ở phải cứng vững. Bố trí các chi tiết truyền tải sang trục chính phải hợp lý. chọn phương án bố trí hộp tốc độ và hộp trục chính có chung ưu điểm là: ít chi tiết vỏ hộp,
+kết cấu nhỏ gọn , tập chung tay gạt điều khiển - hạ giá thành. Nhưng có nhược điểm là : Rung động hộp sẽ truyền sang trục chính, trục chính bị nung nóng do ma sát ở hộp tốc độ , khó làm việc êm ở tốc độ cao, khó dùng truyền động đai cho trục chính.
+lựa chọn bộ truyền cuối cùng của trục chính .
+Bộ truyền cuối cùng của trục chính ảnh hưởng mạnh tới độ chính xác gia công và điều hoà chuyển động, ảnh hưởngđến độ bóng bề mặt gia công . chọn bộ truyền bánh răng để trục chính quay êm cần đảm bảo tốc độ vòng quay của bánh răng không được quá lớn, đường kính bánh răng lắp trên trục chính không được quá bé so với đường kính phôi lớn nhất.
+II. CHỌN PHƯƠNG ÁN KẾT CẤU.
+1- Chọn kết cấu.
+Chọn kết cấu đơn giản hay phức tạp căn cứ vào phạm vi điều chỉnh , công dụng của máy, kết cấu đơn giản sử dụng khi phạm vi điều chỉnh yêu cầu bé hơn trị số tới hạn . Ta có : Rn * = [ Ri]2/ j = 82/j = 50
+Rn = n max/ nmin = 1600/ 12,5 = 128
+Rn > Rn * cho nên ta dùng kết cấu phức tạp có 1 kết cấu phụ là đủ .
+z = zo ( 1 + z1 )
+ưu điểm của kết cáu này là mở rộng phạm vi điều chỉnh, rút ngắn xích truyền dẫn các tốc độ cao, dẫn đến giảm tổn thất ma sát , nâng cao hiệu suất máy giảm quán tính quay.
+2- Chọn phương án kết cấu.
+Phươngán kết cấu được biểu diễn qua công thức kết cấu z = n mk=1. Pk
+- Pk là tỷ số truyền trong nhóm thứ k.
+- K là trật tự kết cấu của nhóm theo xích.
+- m là số nhóm truyền trong máy.
+Do Z = 22 cấp tốc độ ta chọn Z= 24 sau đó phân ra:
+Z = 2.3.2.2= 2.2.3.2=2.2.2.3
+Ta chọn phương án sau
+Do đó Z =Pm hay m= lgZ/lgP
+Mà Sp = m.p
+Do đó chọn p = 2 hoặc p = 3.
+Số lượng nhóm truyền tối thiểu trong phương án m = m min
+Dựa vào chuỗi số vòng quay n min = n1 và n đ/c để đảm bảo sao cho tỷ số truyền trong mỗi nhóm i > 1/4lúc đó tỷ số truyền giới hạn của hộp là:
+Trong đó :
+-i mingh là tỷ số truyền nhỏ nhất của hộp tốc độ
+- x là số lượng nhóm truyền tối thiểu là m = 4
+từ đó nên so sánh 4 phương án đầu ( 4 phương án tối ưu )
+Z = 24 = 2.2.2 3 = 2.2.3.2 = 2.3.2.2= 3.2.2.2.
+Để trọnglượng truyền dẫn bé nhất ta đã biết rằng momen xoắn tăng dần khi số vòng quay giảm.
+Mx = K.N/n và làm tăng kích thứơc truyền dẫn cho nên để nhận được số bộ truyền nhẹ nhiều hơn số bộ truyền nặng và giảm trọng lượng truyền dẫn cần lấy Pk giảm dần về phía trục chính tức là : Z = pm Pk thì p1 > p2 .....> pm gần trục chính nên lấy p = 1 hoặc 2.
+với i là số nhóm truyền động. từ đó 4 phương án trên đều cần tối thiểu 5 trục .
+3. Chọn phương án động học.
+Phương án động học là phương án về trật tự thay đổi các bộ truyền trong các nhóm để nhận được dãy các tốc độ đã cho phương án tối ưu là P1 > p2 > p3.>....> Pm
+khi x1 < x2 < x3.<.....< xm.
+Ưu điểm số vòng quay bé nhất như nhau. Trục trung gian có số vòng quay bé nên giảm yêu cầu về độ chính xác, giảm tải trọng, giảm rung động , giảm mòn và tổn thất ma sát. Phạm vi điều chỉnh của nhóm khuyếch đại sau cũng không vượt quá phạm vi cho phép: Rm = jim pm-1 £ { Ri} = 8
+Do đó lượng mở lớn nhất của 2 tia biên :
+
+lg { Ri }
+X max = Xm ( p -1 ) =
+lgử
+Với [ Ri ] = 8 ; j = 1,26 thì x max = 9.
+Căn cứ vào chỉ tiêu trên ta lựa chọn phương án động học tối ưu. một phương án kết cấu có n! phương án động học với Z = 24 ta có n! = 1.2.3.4 = 24 phương án động học.
+Ta phân tích để chọn 1 phương án tốt nhất trong 24 phương án :
+- Lập lưới kết cấu để so sánh .
+- Dùng các bảng sau đây để so sánh loại trừ các phương án không đạt yêu cầu với
+j = 1,26.
+Để đơn giản ta không vẽ hết 24 lưới kết cấu của 24 phương án thứ tự. Ta lập bảng và và vẽ lưới kết cấu của nhóm các phương án động học.
+Như vậy ta nhận thấy rằng ở tất cả 24 phương án thứ tự đều có j xmax > 8 do đó đều không đạt yêu cầu. Do vậy phải chọn 1 phương án thích hợp để j xmax £ 8.
+Khi lượng mở j xmax > 8 ta sửa lại là: Tạo hiện tượng trùng tốc độ - Thêm trục trung gian và tách ra hai đường truyền. để thu hẹp lượng mở ta tách hai đường truyền ta vẽ 1 lưới kết cấu
+Sơ Đồ Lưới Cấu Trúc
+ĐƯỜNG TRUYỀN NHANH
+Do Zn = 22 nên ta làm trùng tốc độ ở đường truyền nhanh . Tức là giảm đăc tính của nhóm từ X6 xuống X4. Vậy Z1 = 21I.32II.24III
+PAKC 2 3 2 2 2 3 2 2 2 3 2 2 PATT I II III IV II I III IV III IV II I Đặc tính nhóm x 1 2 6 12 3 1 6 12 4 8 2 1 Lưới Kết cấu nhóm Lượng mở cực đại xmax 12 12 16 jxmax j12= 1,2612=16 16 j12= 1,2616= 44,32 Kết quả Kđ Kđ Kđ
+BẢNG 2.
+PAKC 2 3 2 2 2 3 2 2 2 3 2 2 PATT II IV III I II III IV I II IV I II Đặc tính nhóm x 2 8 4 1 2 4 12 1 2 4 1 12 Lưới kết cấu nhóm Lượng mở cực đại xmax 16 12 12 jxmax j16= 1,2616= 44,32 j12 = 16 16 Kết quả kđ Kđ Kđ
+BẢNG3
+PAKC 2 3 2 2 2 3 2 2 2 3 2 2 PATT II I IV III IV III II I III II IV I Đặc tính nhóm x 3 1 12 6 6 2 1 12 6 2 12 1 Lưới Kết cấu nhóm Lượng mở cực đại xmax 12 12 12 jxmax j12 = 16 j12 = 16 j12 = 16 Kết quả Kđ Kđ Kđ
+BẢNG4
+PAKC 2 3 2 2 2 3 2 2 2 3 2 2 PATT III IV I II III I II IV III I IV II Đặc tính nhóm x 4 8 1 2 6 1 3 12 6 1 12 3 Lưới Kết cấu nhóm Lượng mở cực đại xmax 16 12 12 jxmax j16 = 44,32 j12 = 16 16 Kết quả Kđ Kđ Kđ
+BẢNG5
+PAKC 2 3 2 2 3 2 2 2 3 2 2 PATT IV I II III III II III IV IV I III II Đặc tính nhóm x 12 1 3 6 12 2 1 6 12 1 6 3 Lưới kết cấu nhóm Lượng mở cực đại xmax 12 12 12 jxmax j12 = 16 16 16 Kết quả Kđ Kđ Kđ
+BẢNG 6
+PAKC 2 3 2 2 2 3 2 2 3 2 2 PATT IV II III I IV III I II III IV II I Đặc tính nhóm x 12 2 6 1 12 4 1 2 12 4 2 1 Lưới kết cấu nhóm Lượng mở cực đại xmax 12 12 12 jxmax j12 = 16 16 16 Kết quả Kđ Kđ Kđ
+BẢNG7
+PAKC 2 3 2 2 2 3 2 2 2 3 2 2 PATT I III II IV I IV III II I III IV II Đặc tính nhóm x 1 4 2 12 1 8 4 2 1 4 12 2 Lưới kết cấu nhóm Lượng mở cực đại xmax 12 16 12 jxmax j12 = 16 j16 = 44,32 16 Kết quả Kđ Kđ Kđ
+BẢNG8
+PAKC 2 3 2 2 2 3 2 2 2 3 2 2 PATT I II IV III I IV II III II III I IV Đặc tính nhóm x 1 2 12 6 1 8 2 4 2 4 1 12 Lưới Kết cấu nhóm Lượng mở cực đại xmax 12 16 12 jxmax j12 = 16 j16 = 44,32 16 Kết quả Kđ Kđ Kđ
+Ta có phương án kết cấu: Z1= 2.3.2.1.1
+Z2 = 2.3.2 số tốc độ đủ là Zx = Z1 + Z2 = 24 + 6 = 30.
+Phương án thứ tự của Z1 : Z1 đủ = 21 . 32 . 26 . 1.1
+có j12 = 1,2612 = 16 > 81
+Ta tạo ra hiện tượng trùng tốc độ như sau : Z1 thu , Z1 thu hẹp = 21 . 32 . 26 . 212.
+Số tốc độ trùng Zx = 12 - 6 =6 được bù lại bằng đường thứ 2. Phương án thứ tự của đường truyền thứ 2 là : Z2 = 21 . 32..26
+Với phương án đã chọn ở trên sẽ đảm bảo các kết cấu máy biến đổi nhịp nhàng, cân đối , kết cấu nhỏ gọn , số bánh răng chịu công suất lớn (mô men xoắn lớn).(2 bánh )
+4- Đồ thị vòng quay.
+a- Chọn tỷ số truyền:
+Dựa trên nguyên tắc chọn tỷ số truyền sao cho kết cấu hộp chặt chẽ, thay đổi tốc độ đơn giản, tính bánh răng dễ dàng đảm bảo Vb / răng < 12 m/s.
+Giới hạn tỷ số truyền 2 ³ iv 1/4; 2,8³ is ³ 1/5 Để giảm tốc độ có thể lấy
+iv = 2 - 2,5.
+Nguyên tắc chọn tỷ số truyền:
+Chọn i »1 vì cơ cấu làm việc đồng đều, tiết kiệm nguyên vật liệu , kích thước nhỏ gọn nhưng không sát với thực tế. Hộp tốc độ thường giảm tốc độ nên chọn i » 1 , nhưng xích truyền động dài, kích thước thước hộp sẽ lớn nên nguyên tắc này chỉ được áp dụng cho những nhóm tỷ số truyền ở các trục trung gian đầu tiên. Theo nguyên tắc này số vòng quay no nên đặt ở giữa số vòng quay nmax và nmin của trục chính ( trục cuối cùng )
+Khi giảm tốc độ qua nhiều trục trung gian trong điều kiện cho phép nên chọn i giảm hay tăng từ từ, chọn i sao cho tốc độ các trục trung gian càng lớn càng tốt .
+Mô men xoắn Mx tỷ lệ nghịch với số vòng quay khi n càng cao thì Mx càng nhỏ do đó kích thước trục bánh răng nhỏ. Phối hợp cả 2 nguyên tắc trên nên số vòng quay chọn sao cho tỷ số truyền i = 1,06 E ( E là các số nguyên, dương)
+Nhưng i phải nằm trong giới hạn cho phép :
+2 ³ i ³ 1/4.
+Từ đây suy ra giới hạn lượng mở của i trong hộp
+imax 2
+jx max = = =8
+imin 1/4
+Tính lượng mở giới hạn Xmax trong từng nhóm truyền theo công thức :
+j xmax = j x ( P- 1)
+- x là lượng mở giữa 2 tia lân cận .
+- P là tỷ số truyền trong nhóm.
+Kết quả tính toán phải thoả mãn x ( P -1) £ 0
+Chọn phương pháp xác định tỷ số truyền theo phương pháp đồ giải. Tỷ số truyền được biểu diễn dưới dạng : i = j -E
+Với E là là số khoảng lg j mà tia truyền cắt qua.
+Ta có nII = n 19.
+i min hộp = n1/n19 = j - 18.
+Ta có :
+i1 =j1 = 1,26 i2=j2 =1,588
+i3 =j-4 i4=j-2
+i5=j0 = 1 i6=j-6 = 0,25
+i7=j0 = 1 i8=j-6 = 0,25
+i9=j-3= 0,5 i10=j-3
+i11 = j
+Từ đó ta vẽ được đồ thị vòng quay.
+III - Tính toán động học bánh răng.
+1- Trường hợp mô đul của các bánh răng trong nhóm truyền như nhau
+Ta phải tính số năng Z1, Z1’, Z2, Z2’... Zn, Zn’.
+Vì máy thiết kế mới chưa biết khoảng cách trục A nên ta lý luận như sau:Ta có:
+Với åZ là tổng số răng của các cặp bánh răng ăn khớp giữa trục I và II
+åZ=Zx+Zx’.
+Các tỷ số truyền trên đồ thị vòng quay ta phân tích thành
+Với fx và gx là các số nguyên không chứa thừa số chung. Ta sẽ có hệ phương trình.
+Hai phương trình có 3 ẩn ta coi đã biết 1 ẩn nào đó, ở đây coi là biết åZ . Giải hệ (1) ta có.åZ và.åZ (2)
+Yêu cầu số năng Zx, Zx’ phải là số nguyên nên theo (2) thì fx.åZvà gx.åZ phải chia đúng cho fx+gx.
+Nhưng vì fx và gx là 2 số nguyên không có thừa số chung nên åZ phải chia đúng cho fx+gx nghĩa là: åZ = E1(f1+g1) = E2(f2+g2) =... Ex(fx+gx) = En(fn+gn).
+E1;E2; ... Ex; En là các số nguyên. Gọi K là bội số chung nhỏ nhất của mọi tổng fx+gx thì åZ =KE (3) E là số nguyên.
+Trị số E tính ra thường lẻ mà E³Emin nào đó để Zx ³Zmin và Zx’ ³Zmin (Zmin là số răng tối thiểu với hộp tốc độ Zmin = 17 răng).
+Eminđược xác định suy ra từ bất đẳng thức : (4)
+EK ³ Zmin Û Emin chủ đ =
+Với bánh răng nhỏ nhất là bánh chủ động và:
+EK ³ Zmin => Emin bị =
+Với bánh nhỏ nhất là bánh bị động.
+Trị số Emin tính ra thường là số lẻ muốn xác định Zmin ta chọn công thức Emin, ta thấy rằng Zmin sẽ nằm ở một trong hai tia ngoài cùng của nhóm truyền tia nào nghiêng nhiều nhất. Tia nghiêng phải dùng công thức Emin bị. Tia nghiêng trái dùng công thức Emin chủ.
+2- Trường hợp mô đun của bánh răng trong nhóm truyền khác nhau.
+Để tiết kiệm nguyên vật liệu, kết cấu nhỏ gọn ta dùng nhiều loại mô đun khác nhau.
+Trường hợp dùng 3 mô đun khác nhau ít dùng nên ở đây ta chỉ tính với trường hợp dùng 2 mô đun khác nhau. Giả sử trong một nhóm truyền bánh răng (răng thẳng) dùng 2 loại mô đun m1 và m2 thì điều kiện làm việc là:
+2A=m1.(Zi+Zi’)= åZ1.m1
+2A=m2.(Zj+Zj’)= åZ2.m2 (5)
+Ở đây A là khoảng cách trục, åZ1 và åZ1 là tổng số răng của cặp bánh răng có môđul m1 và m2 ; åZ1=Ke1; åZ2=Ke2 ...
+Trong đó e1; e2; K là các số nguyên
+3- Tính số răng của nhóm truyền thứ nhất.
+Ta có i1=j1=1,261=1,26
+i2=j2=1,262=1,58
+Cách tính số răng:
+i1=1,26
+f1=17; g1=13 => f1+g1=30=2.3.5
+i2=1,58 => f2=28.
+g2=17 <=> f2+g2= 45 = 32.5
+Bội số chung nhỏ nhất của (fx+gx) là 32.2.5 Û K=2.32.5.
+Ta tính được Emin là Emin nằm ở tỷ số truyền i1, i2 vì i2 tăng tốc nhiều hơn i1 nên theo công thức (4) chọn E=1.
+Ta có tổng số răng Z=K.E =1´90 =90. Tổng số răng åZ<(100¸120) răng do đó
+Z1=51
+Z1’=39
+Z2 = 56
+Z2’=34
+4- Tính số răng của nhóm truyền thứ hai:
+i5=j0=1.
+Ta có f3=21.g3=55
+Ûf3+g3=76=2.2.19
+f4=29; g4=47
+Û f3+g3=76=2.2.19
+f5=1; g5=1 Û f5+g5=2
+K= 2.2.19 =76.
+Chọn Emin=1
+Tổng số răng åZ=E.K=1.76=76
+Do đó ta có: Z3=21
+Z3’=55
+Z4=29
+Z4’=47
+Z5=Z5’=38
+5- Tính số răng cho nhóm truyền III
+i7=j0=1,260=1
+Qua đồ thị vòng quay ta thấy ở nhóm truyền này 1 tốc độ thấp thấp và 1 tốc độ cao, do đó sự truyền lực sẽ khác nhau, đối với tốc thấp Mx sẽ lớn hơn do đó sẽ ảnh hưởng truyền lực lớn hơn, để giảm truyền lực này và tiết kiệm vật liệu máy đỡ cồng kềnh ta chọn 2 cặp này từ công thức:
+åZ6=Ke7; åZ7=Ke6; Ta có åZ7=5K; åZ6=6K phân tích i6 Ta lấy trong các trị số đó.
+Ta chọn sao cho åZ=(110¸120) răng ta được Z6=15; Z6’=60; åZ6=75.
+åZ7=Ke6=18,3.5=91,5 lấy tròn åZ7=90 => Z7=45; Z7’=45.
+6- Tính số răng nhóm truyền IV
+Tương tự nhóm truyền III. Ta có i9=1
+Ta tính được Z8=18; Z8’ =72; Z9=30; Z9’=60;
+Do tính toán gần đúng nên bánh răng phải dịch chỉnh để sai số trong phạm vi cho phép.
+7- Tính số răng của nhóm truyền V.
+Û f10=1; g10=2
+Û f10+g10=3
+Tia nghiêng trái giảm tốc nên Emin chủ động =17
+Để tăng åZ10 để đảm bảo truyền được mô men xoắn lớn và đảm bảo bánh răng Z10’ lắp được trên trục chính ta chọn Z10=30 Û Z10’=2. Z10=60
+i11=j2=1,58 Có f11=65;
+g11=43. f11+g11=108 . Theo tiêu chuẩn chọn Z11=60 và Z11’ =48.
+b) Kiểm tra sai số vòng quay
+Nếu tỷ số truyền của hộp là iv thì ta có tốc độ trục chính là ntc=ndc.iv
+Trong quá trình tính toán do sai số của tỷ số truyền (vì khi chọn số răng có sai số) nên số vòng quay ntc có sai số so với chuỗi số vòng quay sao cho sai số
+Dn £ [Dn]
+Dn = 10 (j-1)% = 2,6%
+Sai số vòng qua trục chính phải thỏa mãn điều kiện:
+Trong đó ntc là số vòng quay tiêu chuẩn
+Dn và [Dn] là sai số vòng quay thực tế và cho phép
+Bảng so sánh
+TT[n] Phương trình xích động ntt (v/p) ntc(v/p) dn % Đồ thị sai số 1460*0,98* 12,52 12,5 0,16 1460*0,98* 15,8 16 1,25 1460*0,98* 19,7 20 2 1460*0,98* 24,8 25 -1,6 1460*0,98* 31,9 31,5 -0,16 1460*0,98* 40,2 40 -2 1460*0,98* 48,8 50 +2 1460*0,98* 61,4 63 1,5 1460*0,98* 78,8 80 2,5 1460*0,98* 99,26 100 1 1460*0,98* 127,7 125 -0,18 1460*0,98* 160,9 160 -1,25 1460*0,98* 195 200 4 1460*0,98* 245,7 250 0,8 1460*0,98* 315,3 315 -0,6 1460*0,98* 397 400 -1,75 1460*0,98* 511 500 0,8 1460*0,98* 643,5 630 -2 1460*0,98* 788 800 2,5 1460*0,98* 992,63 1000 0,2 1460*0,98* 1277,4 1250 -0,8 1460*0,98* 1608,7 1600 -0,6
+B -Hộp chạy dao.
+I - Đặc điểm.
+Hộp chạy dao truyền dẫn với công suất bé thường chỉ bằng (5 ¸ 10)% công suất truyền của động cơ chính. Hộp chạy dao làm việc với tốc độ thấp vì vậy đường truyền dài, thường phải dung các bộ truyền có tỷ số truyền lớn như vít me - đai ốc, bánh vít - trục vít, hiệu suất truyền dẫn thấp (h bé). Trong điều kiện có thể dung nhiều cặp bánh răng nối tiếp với nhau thì không nhất thiết phải dùng những bộ truyền nói trên.
+Ở đây máy ta thiết kế để tiện được các loại ren hệ mét, hệ Anh với đường kính lớn nhất là 400 mm.
+Vì hộp chạy dao ngoài tiện hơn còn phải cắt các loại ren do đó tỷ số truyền cần chính xác, nếu không sai số sẽ phản ánh trức tiếp lên sản phẩm gia công.
+Gọi tv là bước ren vít me
+tp là bước ren của phôi được cắt
+i là tỷ số truyên giữa phôi và vít me
+Ta có phương trình: 1 vòng phôi . i . tv = tp
+II - Các bước thiết kế hộp chạy dao để tiện ren.
+Hộp dao máy tiện có 2 công dụng tiện và tiện trơn nhưng ta chỉ chú ý tới tiện ren, sau khi thiết kế xong ta tính lại các bước tiện trơn ta thấy chúng trùng nhau, sát nhau hoặc có chỗ cách quãng, vấn đề này không quan trọng lắm vì thực tế các bước tiện trơn nói chung khá dày đặc nên điểm cách quãng hầu như ít gây ra tổn thất về năng suất của máy khi gia công.
+Các bước thiết kế:
+- Sắp xếp bước ren đươc cắt thành nhóm cơ sở và nhóm gấp bội.
+- Thiết kế nhóm cơ sở
+- Thiết kế nhóm gấp bội
+- Kiểm tra lại các bước ren đã thiết kế xem có đúng không
+Theo yêu cầu thiết kế ta phải thiết kế các bộ truyền hộp chạy dao để cắt được các bước ren sau:
+Ren quốc tế: t=(0.5 ¸ 112) mm
+Ren Anh: xác định bằng số vòng ren trên 1 tấc Anh: n= 0.5¸112
+Ren môđul : xác định theo công thức m=0.5¸112
+Ren Pít: Xác định theo công thức Dp = 56¸0.25
+III - Sắp xếp bước ren.
+Đầu tiên sắp xếp các bước ren được cắt thành những nhóm cơ sở và những khuyếch đại với tỷ số truyền nhóm khuyếch đại 1, 2, 4, 8 hoặc nghĩa là tỷ số truyền khuyếch đại sắp xếp thành cấp số nhân có công bội j=2 khi sắp xếp cần chú ý:
+Số hàng ngang phải ít nhất Tránh để bước ren trùng và sót
+- Với ren Anh thì số vòng ren trong 1 tấc càng ít thì bước ren càng lớn nên ta phải xếp ren có n nhỏ về phía phải của bảng ren trong nhóm cơ sở những bước ren lớn tức là n nhỏ cần xếp lên trên, sở dĩ như vậy vì người ta chứng minh được khi cắt ren Anh và pít thì số răng Zi tỷ lệ với số vòng ren n trong 1 tấc Anh và số Dp: r1:r2:r3...:nq =Z1:Z2:Z3:...:Zq và cắt ren quốc tế và môđul thì: t1:t2:..:tq= Z1:Z2:...:Zq nên ren quốc tế và ren môđul có bước ngắn được xếp lên trên.
+Khi sắp xếp lên trên bước ren chú ý cả 4 bảng ren đều do 1 cơ cấu di trượt duy nhất tạo ra. Để tránh cho qua trình tính toán phức tạp, các con số xếp trong cột dọc giữa các bảng ren phải thống nhất hóa về mặt tiêu chuẩn và sắp xếp.
+Dựa vào nguyên tắc sắp xếp ta có bảng sau:
+Bảng Ren quốc tế (tp =mm)
+Bước ren tiêu chuẩn Bước ren khuyếch đại 0,5 1 2 4 8 16 32 64 - 1,25 2,5 5 10 20 40 80 0,75 1,5 3 6 12 24 48 96 1,75 3,5 7 14 28 56 112
+Bảng Ren môđul (m=)
+Bước ren tiêu chuẩn Bước ren khuyếch đại 0,5 1 2 4 8 16 32 64 - 1,25 2,5 5 10 20 40 80 0,75 1,5 3 6 12 24 48 96 1,75 3,5 7 14 28 56 112
+Bảng Ren Anh (n=)
+Bước ren tiêu chuẩn Bước ren khuyếch đại Ics Igb Igb 4/5 56 28 14 3,5 1,75 5/5 48 24 12 3 1,5 0,75 6/5 40 20 10 2,5 1,25 7/5 32 16 8 2 1 0,5
+Bảng Ren Pit (Dp=)
+Bước ren tiêu chuẩn Bước ren khuyếch đại Ics Igb Igb 4/5 56 28 14 3,5 1,75 5/5 48 24 12 3 1,5 0,75 6/5 40 20 10 2,5 1,25 7/5 32 16 8 2 1 0,5
+IV - Thiết kế nhóm cơ sở.
+Có thể sử dụng cơ cấu noóc tông, mê an, bánh răng di trượt. Đối với loại này ta dùng cơ cấu bánh răng di trượt vì dùng dạng cơ cấu này độ cứng vững cao công suất truyền lớn, điều chỉnh đơn giản. Nhược điểm của cơ cấu này là kích thước trục lớn . Để khắc phục ta dùng bánh răng dịch chỉnh.
+Ta có phương trình
+1vòngtc.icđ.itt.ics.igb.tvm = tp
+Vậy ics = tp/5
+V - Thiết kế nhóm gấp bội.
+Nhóm gấp bội phải tạo ra tỷ số truyền có công bội j=2 nhưng trị số còn phụ thuộc vào việc chọn cột nào trong bảng xếp ren làm nhóm cơ sở.
+Nếu chọn cột 1,75; 2; 2,25; 2,5; 2,75; và 3 làm nhóm cơ sở thì muốn tiện ra toàn bộ số ren tỷ số truyền nhóm gấp bội là
+Nếu chọn cột 3,5;4;4,5;5;5,5;6 làm nhóm cơ sở thì tỷ số truyền nhóm gấp bội là ; ; ; (2) ở đây ta chọn cột theo đường hợp.
+Chọn cột 4 làm nhóm cơ sở tức là 7:8:9:10:11:12 làm nhóm cơ sở thì tỷ số truyền nhóm gấp bội là
+ở đây nhóm gấp bội ta dùng bánh răng di trượt nen thiết kế như hộp tốc độ.
+Ta có phương trình: igb1: igb2: igb3: igb4= 1:2:4:8
+Chọn igb4=4; Zn=4; j=2 (Zn là số bánh răng của nhóm gấp bội)
+Ta chọn phương án kết cấu: Zn=4 =2I´2II. Do nhóm gấp bội khống chế khoảng cách trục theo nhóm cơ sở đã thiết kế vì vậy ta dùng bánh răng dùng chung. Để tránh sự chênh lệch kích thước qúa lớn của 2 bánh răng trong 1 cặp để cho tỷ số truyền thay đổi từ từ ta phải phân phối tỷ số truyền sao cho đảm bảo được các yêu cầu trên:
+Ta có thể phân tích như sau:
+igb1=
+igb2=
+igb3=
+igb4=1=
+Ta phân thành: igbI=iI1´iII1=´
+igb2=iI2´iII1=´; igb3=iI1´iII2=
+Ta vẽ được lưới kết cấu và đồ thị vòng quay
+Ta tính số răng cho các nhóm:
+Nhóm I: iI1= => f1=2; g1=5; f1+g1=7
+iI2= => f2=4; g2=5; f2+g2=9
+Bội số chung K= 9.7=63
+Emin=Zmin=<1 chọn Emin=1
+Từ đó ta có Z1===18
+Z1’===45
+Z2===28
+Z2’===35
+Nhóm II: iII1=Û f3=5;
+g3=16 => f3+g3=21
+iII2=Û f4=5;
+g4=16 => f4+g4=9
+Bội số chung nhỏ nhất K=63
+Emin=´Zmin=´13 <1 Chọn Emin=1
+åZ=KE = 63´1=63
+Z3===15 răng
+Z3’===48
+Z4===35;
+Z4’===28
+Bánh răng Z35 được dùng chung cho cả 2 nhóm.
+VI - Thiết kế nhóm bù.
+Nhóm bù gồm những khâu cố định do các bộ truyền đơn bánh răng thay thế và các nhóm đảo chiều, ta có:
+Phương trình cân bằng chuyển động:
+1 v òng TC . i bù . ics . igb . tv =tp
+Ta có: ibù = p = icđ . itt từ đó có phương trình.
+1vtc . itt .icđ .ics . igb.tv=tp
+Do đó ta có p=
+Vì p=const khi tiện các loại ren khác nhau, các bước ren khác nhau nên lúc đó để tính p ta chọn 1 bước ren tp để cắt thử và khi đó ics và igb cùng xác định tương ứng, bước vít me chọn trước theo máy chuẩn. Vì đường tiện ren hệ mét và hệ Anh khác nhau nên p khác nhau. Gọi PM1; PM2; PA1; PA2 là tỷ số truyền khi ren quốc tế, môđunl ren Anh, ren Pít, ta có:
+PM1==ipM1
+PM2==ipM2
+PA1==ipA1
+PA2==ipA2
+Ta có 4 tỷ số truyền khác nhau khi tiện 4 loại ren, chọn công thức kết cấu của nhóm bù:
+Zp=Zptt.Zpcđ=2.2
+Trong đó Zptt là tỷ số truyền thay thế
+Zpcđ là tỷ số truyền cố định
+Sơ bộ bố trí xích cắt ren như sơ đồ lúc tiện ren chính xác ta đóng các ly hợp Mịj lại
+Tỷ số truyền itt1dùng để tiện ren quốc tế và ren Anh. Tỷ số truyền itt2 dùng để tiện ren Môđun và ren Pit. Tỷ số itt2 phải là bánh răng đặc biệt để khử số p.
+Tỷ số truyền ipcđM dùng để cắt ren quốc tế, môđul. Tỷ số truyền ipcđ1,2 dùng để cắt ren Anh ren Pít khử số 25,4.
+Cách tính các tỷ số truyền như sau:
+Chọn tỷ số truyền cố định khi tiện ren quốc tế thường chọn ipcđm=1 lúc đó jpA1 = iptt2.
+
+

@@ -1,0 +1,443 @@
+CHƯƠNG 1: GIỚI THIỆU VỀ ĐỀ TÀI
+I/ GIỚI THIỆU:
+Ngày nay cùng với sự phát triển mạnh mẽ của các ngành khoa học kỹ thuật, công nghệ kỹ thuật điện tử mà trong đó là kỹ thuật tự động điều khiển đóng vai trò quan trọng trong mọi lĩnh vực khoa học kỹ thuật, quản lí, công nghiệp, cung cấp thông tin ... Do đó là một sinh viên chuyên ngành điện, chúng ta phải biết nắm bắt và vận dụng nó một cách có hiệu quả nhằm góp phần vào sự phát triển nền khoa học kỹ thuật thế giới nói chung và trong sự phát triển kỹ thuật điện tử nói riêng. Bên cạnh đó còn là sự thúc đẩy sự phát triển của nền kinh tế nước nhà. Điều khiển thiết bị điện từ xa thông qua hệ thống thông tin liên lạc là sự kết hợp giữa các ngành Điện - Điện tử và Viễn thông, sự phối hợp ứng dụng vi điều khiển hiện đại và hệ thống thông tin liên lạc đã hình thành một hướng nghiên cứu và phát triển không nhỏ trong khoa học kỹ thuật.
+Qua những đợt đi thực tập tốt nghiệp tại nhà máy và tham quan thực tế các doanh nghiệp sản xuất, chúng tôi đã được thấy nhiều khâu được tự động hóa trong quá trình sản xuất. Thêm vào đó, ngày nay hệ thống mạng điện thoại di động và các thiết bị điện thoại di động ngày càng được phổ biến trong cuộc sống. Cùng với đó là nhu cầu cuộc sống ngày càng tăng. Từ đó đã hình thành, nảy sinh một ý tưởng về việc giám sát và cảnh báo thiết bị tự động trong nhà thông qua tin nhắn SMS.
+Như chúng ta cũng đã biết, gần như các thiết bị tự động trong nhà máy, trong đời sống của các gia đình ngày nay đều hoạt động độc lập với nhau, mỗi thiết bị có một quy trình sử dụng khác nhau tuỳ thuộc vào sự thiết lập, cài đặt của người sử dụng.Chúng chưa có một sự liên kết nào với nhau về mặt dữ liệu. Nhưng đối với hệ thống giám sát và cảnh báo thiết bị từ xa thông qua tin nhắn SMS thì lại khác. Ở đây, các thiết bị điều khiển tự động được kết nối với nhau thành một hệ thống hoàn chỉnh qua một một thiết bị trung tâm và có thể giao tiếp với nhau về mặt dữ liệu.
+Điển hình của một hệ thống là việc giám sát các thiết bị trong nhà từ xa thông qua tin nhắn SMS gồm có các thiết bị đơn giản như bóng đèn, quạt máy, lò sưởi đến các thiết bị tinh vi, phức tạp như tivi, máy giặt, hệ thống báo động … Nó hoạt động như một ngôi nhà thông minh. Nghĩa là tất cả các thiết bị này có thể giao tiếp với nhau về mặt dữ liệu thông qua một đầu não trung tâm. Đầu não trung tâm ở đây có thể là một máy vi tính hoàn chỉnh hoặc có thể là một bộ xử lí đã được lập trình sẵn tất cả các chương trình điều khiển. Bình thường, các thiết bị trong ngồi nhà này có thể được điều khiển và giám sát từ xa thông qua các tin nhắn của chủ nhà. Chẳng hạn như việc tắt quạt, đèn điện … khi người chủ nhà quên chưa tắt trước khi ra khỏi nhà. Hay chỉ với một tin nhắn SMS, người chủ nhà có thể bật máy điều hòa để làm mát phòng trước khi chủ nhà trong một khoảng thời gian nhất định. Còn khi có chuyện gì đó xảy ra ra đối với ngôi nhà mang tính khẩn cấp như cháy chẳng hạn. Lúc này, ngôi nhà sẽ tự động phát hiện ra hỏa hoạn nhờ vào các cảm biến thì lập tức dữ liệu đó sẽ được gởi đến hệ thống điều khiển trung tâm. Khi hệ thống trung tâm đã xử lý xong dữ liệu thì nó sẽ lập tức ra lệnh điều khiển đóng tất cả các đường ống dẫn khí, tắt hết các thiết bị đang hoạt động trong ngồi nhà này và báo động gửi tin nhắn cho người chủ nhà,những số điện thoại được cài đặt sẵn và có thể tự động gọi điện báo cho lực lượng phòng cháy chữa cháy. Ngoài ra, hệ thống còn mang tính bảo mật. Nghĩa là chỉ có chủ nhà hay người biết mật khẩu của ngôi nhà thì mới điều khiển được ngôi nhà này.
+Từ những yêu cầu thực tế, những đòi hỏi ngày càng cao của cuộc sống, cộng với sự hợp tác, phát triển mạnh mẽ của mạng di động nên chúng tôi đã chọn đề tài “giám sát và cảnh báo các thiết bị trong nhà từ xa qua tin nhắn SMS " để đáp ứng được nhu cầu ngày càng cao của con người và góp phần vào sự tiến bộ, văn minh, hiện đại của nước nhà.
+II/ TÓM TẮT NỘI DUNG ĐỀ TÀI:
+Các thiết bị được kết nối song song với nhau. Tín hiệu đầu vào được sử dụng ở 2 mức 0 và 1 bằng các cảm biến. Các cảm biến này được kết nối trực tiếp với modun và được định ở chế độ 0. Modun được cấp nguồn trực tiếp bên ngoài sử dụng nguồn 110v. Khi module được cấp nguồn thi tiếp theo chúng ta sẽ thực hiện các lệnh cài đặt cho mondun thông qua tin nhắn SMS thiết bị nhận ở đây là Sim 300cz, nó hoạt động như 1 điện thoại đơn giản là nhận và truyền tin nhắn. Sau khi các lệnh đã được cài đặt xong thiết bị ở chế độ sẵn sàng hoạt động. Khi có một trong các cảm biến phát hiện sẽ lập tức chuyển từ 0 sang 1 (off sang on), khi đó có nguồn cấp và Sim 300cz hoạt động và sẽ gửi tin nhắn cho các số điện thoại đã được cài đặt trong khoảng 10 giây, chuông báo kêu khoảng 10s và vi điều khiển pic 18f26k20 sẽ điều khiển đóng mở role.Tương tự như vậy các role sẽ lần lượt đóng lại và được giữ như vậy cho đến khi có lệnh OFF thì Sim 300cz tắt và tắt hết các thiết bị và mở role.
+III/ Ý NGHĨA KHOA HỌC CỦA ĐỀ TÀI:
+Ngày nay cùng với sự tiến bộ của khoa học kỹ thuật, các thiết bị điện tử ra đời ngày càng nhiều về chủng loại cũng như tính năng sử dụng. Bên cạnh đó nhu cầu sử dụng các thiết bị một cách tự động ngày càng cao, con người ngày càng muốn có nhiều thiết bị giải trí cũng như các thiết bị sinh hoạt với kỹ thuật và công nghệ ngày càng cao. Có thể ở Việt nam chưa phát triển mạnh mẽ trong lĩnh này nhưng hiện nay ở trên thế giới, nhất là các quốc gia thuộc Châu âu hay Mỹ thì mô hình ngôi nhà tự động được điều khiển từ xa đã phát triển rất mạnh mẽ. Chúng được biết đến như ngôi nhà thông minh nổi tiếng của Bill Gate chẳng hạn. Với sự kết hợp chặt chẽ giữa các thiết bị điện tử tinh vi và phần mềm xây dựng tương ứng, Bill Gate đã xây dựng được mô hình ngôi nhà thông minh, tự động hoàn toàn và còn cho phép điều khiển từ xa thông qua một bộ điều khiển trung tâm.
+Từ những nhu cầu thực tế đó, người thực hiện muốn đưa một phần những kỹ thuật hiện đại của thế giới áp dụng vào điều kiện thực tế trong nước để có thể tạo ra một hệ thống điều khiển thiết bị trong nhà từ xa thông qua tin nhắn SMS nhằm đáp ứng nhu cầu ngày càng cao của con người. Đề tài lấy cơ sở là tin nhắn SMS để điều khiển thiết bị. Bên cạnh đó, các thiết bị này cũng có thể được điều khiển tại nhà thông qua giao diện phần mềm xây dựng. Việc sử dụng tin nhắn SMS để điều khiển thiết bị có thuận lợi là tiết kiệm chi phí, mang tính cạnh tranh và cơ động cao (nghĩa là ở chỗ nào có phủ sóng mạng điện thoại di động ta cũng có thể điều khiển thiết bị được).
+Ngoài ra, sản phẩm của đề tài này có tính mở, có thể áp dụng cho nhiều đối tượng khác nhau trong dân dụng cũng như trong công nghiệp.
+IV/ MỤC ĐÍCH NGHIÊN CỨU:
+Đồ án được nghiên cứu, khảo sát và thực hiện với mục đích áp dụng những kiến thức đã được học trong nhà trường để thiết kế, tạo ra một hệ thống điều khiển tự động từ xa bằng tin nhắn SMS hoàn chỉnh. Hệ thống tích hợp module điều khiển giám sát (có cả camera), module đo nhiệt độ và module công suất cho cho các thiết bị trong nhà cùng các module tiện ích khác. Với module đo nhiệt độ thì cảm biến nhiệt độ sẽ gởi thông tin dữ liệu về bộ xử lí trung tâm. Qua xử lí, nhiệt độ sẽ được cập nhật liên tục trên giao diện phần mềm xây dựng theo biểu đồ thời gian một cách trực quan. Module điều khiển giám sát, bên cạnh các chức năng điều khiển cơ bản thì nó còn liên tục cập nhật hình ảnh bên trong của ngôi nhà tới người chủ (tức trên điện thoại di động của người chủ nhà). Và một khi có hỏa hoạn sảy ra thì nó sẽ tự động thi hành các thao tác cần thiết được lập trình sẵn để bảo vệ ngôi nhà.
+V/ GIỚI HẠN ĐỀ TÀI:
+Để thực thi một hệ thống điều khiển thiết bị từ xa thông qua tin nhắn SMS áp dụng cho một ngôi nhà hoàn chỉnh như nói trên là rất phức tạp và rất tốn kém. Để đáp ứng việc điều khiển toàn bộ các thiết bị này đòi hỏi phải có một lượng thời gian, kiến thức nhất định. Bên cạnh đó còn là vấn đề tài chính. Với lượng thời gian và kiến thức có hạn, trong đề tài này nhóm thực hiện chỉ thực thi một phần của hệ thống hoàn chỉnh đó dưới dạng mô hình. Đó là điều khiển đóng mở đèn, đo và hiển thị nhiệt độ phòng theo thời gian được hiển thị trên phần mềm ứng dụng. Ngoài ra còn có chức năng báo cháy khi sảy ra hỏa hoạn.
+Với những gì đã trình bày trên, nhóm đã tiến hành nghiên cứu, khảo sát và thực hiện và dự kiến đạt được các mục tiêu đặt ra như sau:
+- Điều khiển và giám sát các thiết bị trong nhà bằng tin nhắn SMS tại ví trí có phủ sóng của mạng điện thoại di động đang hoạt động trong nước như Viettel, Mobile Phone, Vina Phone …
+- Tự động gửi tin nhắn ngược trở lại cho chủ nhà, với nội dung tin nhắn chứa thông tin hoạt động của các thiết bị điện và nhiệt độ của ngôi nhà (nếu như người sử dụng có lựa chọn chức năng này). Ngoài ra, hệ thống còn có chức năng tự động báo cháy bằng cách gửi một tin nhắn SMS tới người chủ.
+VI/ Ý TƯỞNG THIẾT KẾ:
+Dùng mạng điện thoại di động của các nhà cung cấp dịch vụ như Viettel, Mobi, Vina, S-Fone để gửi tin nhắn SMS điều khiển và giám sát các thiết bị và có thể nhận đáp ứng lại từ các thiết bị cho biết tình trạng hoạt động của các thiết bị.
+VII/ ƯU ĐIỂM CỦA ĐỀ TÀI:
+- Có độ chính xác cao
+- Chạy ổn định
+- Dễ thi công và lắp đặt
+- Giá thành rẽ
+- Dễ kiểm tra và khắc phục khi có sự cố
+- Dễ sử dụng
+VIII/ PHƯƠNG PHÁP NGHIÊN CỨU:
+Trong đề tài này người thực hiện đã sử dụng các phương pháp nghiên cứu:
+- Phương pháp tham khảo tài liệu: bằng cách thu thập thông tin từ sách, tạp chí về điện tử và truy cập từ mạng internet.
+- Phương pháp quan sát: khảo sát một số mạch điện thực tế đang có trên thị trường và tham khảo thêm một số dạng mạch từ mạng Internet.
+- Phương pháp thực nghiệm: từ những ý tưởng và kiến thức vốn có của mình kết hợp với sự hướng dẫn của giáo viên, người thực hiện đã lắp ráp thử nghiệm nhiều dạng mạch khác nhau để từ đó chọn lọc những mạch điện tối ưu.
+IX/ PHƯƠNG TIỆN NGHIÊN CỨU:
+Với đề tài này, người thực hiện dựa vào sách giáo khoa và những kiến thức được trang bị trong quá trình học tập cùng với sự trợ giúp của máy tính và những thông tin trên mạng. Ngoài ra, còn có những thiết bị trợ giúp trong quá trình thiết kế mạch do người thực hiện tự trang bị.
+X/ KẾ HOẠCH THỰC HIỆN:
+- Tuần 1 : Chọn đề tài, chính xác hóa đề tài, thu thập thông tin và tìm kiếm tài liệu có liên quan.
+- Tuần 2 : Tìm ra thuật giải để giải quyết vấn đề.
+- Tuần 3 : Kiểm tra thực tế bằng việc ráp thử.
+- Tuần 4 : Thi công.
+- Tuần 5 : Đánh máy, in ấn.
+- Tuần 6 : Kiểm tra và hoàn thiện đề tài.
+XI/ TỔNG QUÁT VỀ TIN NHẮN SMS:
+1 /GIỚI THIỆU VỀ SMS
+SMS là từ viết tắt của Short Message Service. Đó là một công nghệ cho phép gửi và nhận các tín nhắn giữa các điện thoại với nhau. SMS xuất hiện đầu tiên ở Châu âu vào năm 1992. Ở thời điểm đó, nó bao gồm cả các chuẩn về GSM (Global System for Mobile Communications). Một thời gian sau đó, nó phát triển sang công nghệ wireless như CDMA và TDMA. Các chuẩn GSM và SMS có nguồn gốc phát triển bởi ETSI. ETSI là chữ viết tắt của European Telecommunications Standards Institute. Ngày nay thì 3GPP (Third Generation Partnership Project) đang giữ vai trò kiểm soát về sự phát triển và duy trì các chuẩn GSM và SMS.
+Như đã nói ở trên về tên đầy đủ của SMS là Short Message Service, từ cụm từ đó, có thể thấy được là dữ liệu có thể được lưu giữ bởi một tin nhắn SMS là rất giới hạn. Một tin nhắn SMS có thể chứa tối đa là 140 byte (1120 bit) dữ liệu. Vì vậy, một tin nhắn SMS chỉ có thể chứa :
++ 160 kí tự nếu như mã hóa kí tự 7 bit được sử dụng (mã hóa kí tự 7 bit thì phù hợp với mã hóa các lí tự latin chẳng hạn như các lí tự alphabet của tiếng Anh).
++ 70 kí tự nếu như mã hóa kí tự 16 bit Unicode UCS2 được sử dụng (các tin nhắn SMS không chứa các kí tự latin như kí tự chữ Trung Quốc phải sử dụng mã hóa kí tự 16 bit).
+Tin nhắn SMS dạng text hỗ trợ nhiều ngôn ngữ khác nhau. Nó có thể hoạt động tốt với nhiều ngôn ngữ mà có hỗ trợ mã Unicode , bao gồm cả Arabic, Trung Quốc,Nhật bản và Hàn Quốc.
+Bên cạnh gữi tin nhắn dạng text thì tin nhắn SMS còn có thể mang các dữ liệu dạng binary. Nó còn cho phép gửi nhạc chuông, hình ảnh cùng nhiều tiện ích khác … tới một điện thoại khác.
+Một trong những ưu điểm nổi trội của SMS đó là nó được hỗ trợ bởi các điện thoại có sử dụng GSM hoàn toàn. Hầu hết tất cả các tiện ích cộng thêm gồm cả dịch vụ gửi tin nhắn giá rẻ được cung cấp, sử dụng thông qua sóng mang wireless. Không giống như SMS, các công nghệ mobile như WAP và mobile Java thì không được hỗ trợ trên nhiều model điện thoại.
+Sử dụng tin nhắn SMS ngày càng phát triển và trở lên rộng khắp :
+- Các tin nhắn SMS có thể được gửi và đọc tại bất kỳ thời điểm nào. Ngày nay, hầu hết mọi người đều có điện thoại di động của riêng mình và mang nó theo người hầu như cả ngày. Với một điện thoại di động , bạn có thể gửi và đọc các tin nhắn SMS bất cứ lúc nào bạn muốn, sẽ không gặp khó khăn gì khi bạn đang ở trong văn phòng hay trên xe bus hay ở nhà…
+- Tin nhắn SMS có thể được gửi tới các điện thoại mà tắt nguồn.
+Nếu như không chắc cho một cuộc gọi nào đó thì bạn có thể gửi một tin nhắn SMS đến bạn của bạn thậm chí khi người đó tắt nguồn máy điện thoại trong lúc bạn gửi tin nhắn đó. Hệ thống SMS của mạng điện thoại sẽ lưu trữ tin nhắn đó rồi sau đó gửi nó tới người bạn đó khi điện thoại của người bạn này mở nguồn.
+-Các tin nhắn SMS ít gây phiền phức trong khi bạn vẫn có thể giữ liên lạc với người khác Việc đọc và viết các tin nhắn SMS không gây ra ồn ào. Trong khi đó, bạn phải chạy ra ngoài khỏi rạp hát, thự viện hay một nơi nào đó để thực hiện một cuộc điện thoại hay trả lời một cuộc gọi. Bạn không cần phải làm như vậy nếu như tin nhắn SMS được sử dụng.
+-Các điện thoại di động và chúng có thể được thay đổi giữa các sóng mang Wireless khác nhau.
+Tin nhắn SMS là một công nghệ rất thành công và trưởng thành. Tất cả các điện thoại mobile ngày nay đều có hỗ trợ nó. Bạn không chỉ có thể trao đổi các tin nhắn SMS đối với người sử dụng mobile ở cùng một nhà cung cấp dịch vụ mạng sóng mạng wireless, mà đồng thời bạn cũng có thể trao đổi nó với người sử dụng khác ở các nhà cung cấp dịch vụ khác.
+- SMS là một công nghệ phù hợp với các ứng dụng Wireless sử dụng cùng với nó. Nói như vậy là do:
+*Thứ nhất, tin nhắn SMS được hỗ trợ 100% bởi các điện thoại có sử dụng công nghệ GSM. Xây dựng các ứng dụng wireless trên nền công nghệ SMS có thể phát huy tối đa những ứng dụng có thể dành cho người sử dụng.
+*Thứ hai, các tin nhắn SMS còn tương thích với việc mang các dữ liệu binary bên cạnh gửi các text. Nó có thể được sử dụng để gửi nhạc chuông, hình ảnh, hoạt họa …
+*Thứ ba, tin nhắn SMS hỗ trợ việc tri trả các dịch vụ trực tuyến. Nghĩa là nó cho phép thực hiện việc chi trả các dịch vụ trực tuyến một cách thuận lợi. Ví dụ như, bạn muốn phát triển một ứng dụng download nhạc chuông mang tính thương mại và thu phí sử dụng từ người sử dụng cho mỗi lần download nhạc chuông đó. Một cách rất thuận lợi để thực thi ứng dụng này đó là sử dụng một số điện thoại từ nhà cung cấp mạng có khả năng tri trả ngược lại tới tiện ích này thông qua việc sử dụng một song mang wireless. Và để có thể tải nhạc chuông này người sử dụng phải soạn một tin nhắn có nội dụng cũng như cấu trúc tin nhắn được qui định bởi nhà cung cấp dịch vụ và gửi tin nhắn này tới một số điện thoại đã được tích hợp sẵn chức năng tri trả trực tuyến mà người phát triển ứng dụng xây dựng. Ứng dụng SMS mà bạn sử dụng sau đó sẽ gửi trả lại cho bạn một hay nhiều tin nhắn SMS có kèm theo cả nhạc chuông (chẳng hạn) và thông báo chi phí phải trả cho việc sử dụng ứng dụng đó. Chi phí này sẽ gồm cả chi phí sử dụng dịch vụ hàng tháng của điện thoại di động này hay là được khấu trừ từ thẻ card dùng di động của bạn. Nó tùy thuộc vào thỏa thuận giữa bạn và người phát triển ứng dụng đó.
+2/ CẤU TRÚC MỘT TIN NHẮN SMS
+Nội dung của một tin nhắn SMS khi được gửi đi sẽ được chia làm 5 phần như sau :
+Hình 1: Cấu trúc 1 tin nhắn
+- Instructions to air interface : chỉ thị dữ liệu kết nối với air interface (giao diện không khí) .
+- Instructions to SMSC :chỉ thị dữ liệu kết nối với trung tâm tin nhắn SMSC (short message service centre).
+- Instructions to handset : chỉ thị dữ liệu kết nối bắt tay.
+- Instructions to SIM (optional) :chỉ thị dữ liệu kết nối, nhận biết SIM (Subscriber Identity Modules).
+- Message body : nội dung tin nhắn SMS
+CHƯƠNG 2 : GIỚI THIỆU VỀ VI ĐIỀU KHIỂN
+I/ TỔNG QUAN VỀ PIC:
+1/ PIC là gì:
+PIC là viết tắt của "Programable Intelligent Computer", có thể tạm dịch là "máy tính thông minh khả trình" do hãng Genenral Instrument đặt tên cho vi điều khiển đầu tiên của họ: PIC1650 được thiết kế để dùng làm các thiết bị ngoại vi cho vi điều khiển CP1600. Vi điều khiển này sau đó được nghiên cứu phát triển thêm và từ đó hình thành nên dòng vi điều khiển PIC ngày nay.
+2/ Cấu trúc của Pic:
+Cấu trúc phần cứng của một vi điều khiển được thiết kế theo hai dạng kiến trúc: kiến trúc Von Neuman và kiến trúc Havard.
+Hình 2: Kiến trúc Havard và kiến trúc Von-Neuman
+Tổ chức phần cứng của PIC được thiết kế theo kiến trúc Havard. Điểm khác biệt giữa kiến trúc Havard và kiến trúc Von-Neuman là cấu trúc bộ nhớ dữ liệu và bộ nhớ chương trình. Đối với kiến trúc Von-Neuman, bộ nhớ dữ liệu và bộ nhớ chương trình nằm chung trong một bộ nhớ, do đó ta có thể tổ chức, cân đối một cách linh hoạt bộ nhớ chương trình và bộ nhớ dữ liệu. Tuy nhiên điều này chỉ có ý nghĩa khi tốc độ xử lí của CPU phải rất cao, vì với cấu trúc đó, trong cùng một thời điểm CPU chỉ có thể tương tác với bộ nhớ dữ liệu hoặc bộ nhớ chương trình. Như vậy có thể nói kiến trúc Von-Neuman không thích hợp với cấu trúc của một vi điều khiển. Đối với kiến trúc Havard, bộ nhớ dữ liệu và bộ nhớ chương trình tách ra thành hai bộ nhớ riêng biệt. Do đó trong cùng một thời điểm CPU có thể tương tác với cả hai bộ nhớ, như vậy tốc độ xử lí của vi điều khiển được cải thiện đáng kể.
+Một điểm cần chú ý nữa là tập lệnh trong kiến trúc Havard có thể được tối ưu tùy theo yêu cầu kiến trúc của vi điều khiển mà không phụ thuộc vào cấu trúc dữ liệu. Ví dụ, đối với vi điều khiển dòng 16F, độ dài lệnh luôn là 14 bit (trong khi dữ liệu được tổ chức thành từng byte), còn đối với kiến trúc Von-Neuman, độ dài lệnh luôn là bội số của 1 byte (do dữ liệu được tổ chức thành từng byte). Đặc điểm này được minh họa cụ thể trong hình 1.1
+3/ Các dạng Pic và sự lựa chọn Pic:
+Các kí hiệu:
+PIC12xxxx: độ dài lệnh 12 ;bit PIC16xxxx: độ dài lệnh 14 bit ;PIC18xxxx: độ dài lệnh 16 bit của vi điều khiển PIC.
+C: PIC có bộ nhớ EPROM (chỉ có 16C84 là EEPROM)
+F: PIC có bộ nhớ flash
+LF: PIC có bộ nhớ flash hoạt động ở điện áp thấp
+LV: tương tự như LF, đây là kí hiệu cũ.
+Bên cạnh đó một số vi điệu khiển có kí hiệu xxFxxx là EEPROM, nếu có thêm chữ A ở cuối là flash (ví dụ PIC16F877 là EEPROM, còn PIC16F877A là flash). Ngoài ra còn có thêm một dòng vi điều khiển PIC mới là dsPIC. Ở Việt Nam phổ biến nhất là các họ vi điều khiển PIC do hãng Microchip sản xuất.
+4/ Cách lựa chọn một vi điều khiển PIC phù hợp:
+Trước hết cần chú ý đến số chân của vi điều khiển cần thiết cho ứng dụng. Có nhiều vi điều khiển PIC với số lượng chân khác nhau, thậm chí có vi điều khiển chỉ có 8 chân, ngoài ra còn có các vi điều khiển 28, 40, 44, … chân. Cần chọn vi điều khiển PIC có bộ nhớ flash để có thể nạp xóa chương trình được nhiều lần hơn. Tiếp theo cần chú ý đến các khối chức năng được tích hợp sẵn trong vi điều khiển, các chuẩn giao tiếp bên trong. Sau cùng cần chú ý đến bộ nhớ chương trình mà vi điều khiển cho phép. Ngoài ra mọi thông tin về cách lựa chọn vi điều khiển PIC có thể được tìm thấy trong cuốn sách "Select PIC guide" do nhà sản xuất Microchip cung cấp.
+II/ PIC 18F26K20:
+Đây là vi điều khiển thuộc họ PIC18F2xK20 với tập lệnh gồm 75 lệnh và 83 lệnh mở rộng. Mỗi lệnh đều được thực thi trong một chu kì xung clock. Tốc độ hoạt động tối đa
+cho phép là 64 MHz. Bộ nhớ chương trình 64 Kbyte , bộ nhớ dữ liệu 3936 byte RAM và bộ nhớ dữ liệu EEPROM với dung lượng 1024 byte. Số PORT I/O là 5 với 25 pin I/O.
+Các đặc tính ngoại vi bao gồm các khối chức năng sau:
+- Timer0: bộ đếm hoặc định thì 8 bit và 16 bit.
+- Timer1: bộ đếm hoặc định thì 16 bit.
+- Xung clock ngoại vi ngay khi vi điều khiển hoạt động ở chế độ sleep.
+- Timer2: bộ định thì 8 bit.
+- Timer3: bộ đếm hoặc định thì 16 bit.
+- Một bộ Capture/so sánh/điều chế độ rông xung.
+- Các chuẩn giao tiếp nối tiếp MSSP (Master Synchronous Serial Port).
+- Chuẩn giao tiếp nối tiếp EUSART. Hai bộ so sánh.
+- Các đặc tính Analog : 10 kênh chuyển đổi 10 bit.
+Bên cạnh đó là một vài đặc tính khác của vi điều khiển như:
+- Bộ nhớ flash với khả năng ghi xóa.
+- Bộ nhớ EEPROM với khả năng ghi xóa.
+- Khả năng tự nạp chương trình với sự điều khiển của phần mềm.
+- Nạp được chương trình ngay trên mạch điện ICSP (In Circuit Serial Programming) thông qua 3 chân.
+- Watchdog Timer với bộ dao động trong.
+- Chức năng bảo mật chương trình.
+- Chế độ Sleep.
+- Có thể hoạt động với nhiều dạng Oscillator khác nhau.
+Sơ đồ khối:
+Hình 3: Sơ đồ khối bên trong của PIC 18F26K20
+Tổ chức bộ nhớ:
+Cấu trúc bộ nhớ của vi điều khiển PIC 18F26K20 bao gồm bộ nhớ chương trình (Program memory) và bộ nhớ dữ liệu (Data Memory).
+Các cổng xuất nhập của PIC 18F26K20:
+Cổng xuất nhập (I/O port) chính là phương tiện để vi điều khiển tương tác với thế giới bên ngoài. Sự tương tác này rất đa dạng và thông qua quá trình tương tác đó, chức năng của vi điều khiển được thể hiện một cách rõ ràng.
+Một cổng xuất nhập của vi điều khiển bao gồm nhiều chân (I/O pin), tùy theo cách bố trí và chức năng của vi điều khiển mà số lượng cổng xuất nhập và số lượng chân trong mỗi cổng có thể khác nhau. Bên cạnh đó, do vi điều khiển được tích hợp sẵn bên trong các đặc tính giao tiếp ngoại vi nên bên cạnh chức năng là cổng xuất nhập thông thường, một số chân xuất nhập còn có thêm các chức năng khác để thể hiện sự tác động của các đặc tính ngoại vi nêu trên đối với thế giới bên ngoài. Chức năng của từng chân xuất nhập trong mỗi cổng hoàn toàn có thể được xác lập và điều khiển được thông qua các thanh ghi SFR liên quan đến chân xuất nhập đó.
+Vi điều khiển PIC 18F26K20 có 5 cổng xuất nhập, bao gồm: PORTA, PORTB, PORTC, PORTD và PORTE.
+PORTA:
+PORTA bao gồm 7 I/O pin.
+PORTB:
+PORTB bao gồm 8 I/O pin
+PORTC:
+PORTC bao gồm 8 I/O pin.
+PORTD:
+PORTD bao gồm 8 I/O pin.
+PORTE:
+PORTE bao gồm 4 I/O pin.
+Bộ chuyển đổi ADC:
+ADC (Analog to Digital Converter) là bộ chuyển đổi tín hiệu giữa hai dạng tương tự và số. PIC 18F26K20 có 10 ngõ vào analog. Hiệu điện thế chuẩn VREF có thể được lựa chọn là VDD, VSS hay hiệu điện thể chuẩn được xác lập trên hai chân AN2 và AN3. Kết quả chuyển đổi từ tín tiệu tương tự sang tín hiệu số là 10 bit số tương ứng và được lưu trong hai thanh ghi ADRESH và ADRESL. Khi không sử dụng bộ chuyển đổi ADC, các thanh ghi này có thể được sử dụng như các thanh ghi thông thường khác. Khi quá trình chuyển đổi hoàn tất, kết quả sẽ được lưu vào hai thanh ghi ADRESH và ADRESL, bit GO/DONE được xóa về 0 và cờ ngắt ADIF được set.
+Bảng : Chọn xung cho ADC
+Thanh ghi ADCON
+Hình 4: Cấu trúc thanh ghi ADCON0
+Thanh ghi ADCON1
+Hình 5: Cấu trúc thanh ghi ADCON1
+Thanh ghi ADCO
+Hình 6: Cấu trúc thanh ghi ADCON2
+
+Các bước chuyển đổi từ tương tự sang số:
+1. Cài đặt cổng:
+- Vô hiệu hóa chân ngõ ra.
+- Cài đặt chân là analog.
+2. Cài đặt module ADC:
+- Chọn xung clock cho bộ chuyển đổi ADC
+- Cài đặt thông số điện áp.
+- Lựa chọn kênh ngõ vào ADC.
+- Chọn định dạng kết quả.
+- Bật module ADC.
+3. Cài đặt ngắt ADC:
+- Xóa cờ ngắt ADC.
+- Cho phép ngắt ADC.
+- Cho phép ngắt ngoại vi.
+- Cho phép ngắt toàn bộ.
+4. Chờ đợi thời gian tiếp nhận.
+5. Bắt đầu chuyển đổi bằng cách set bit GO/DONE.
+6. Chờ đợi việc chuyển đổi ADC hoàn tất.
+7. Đọc kết quả ADC.
+8. Xóa cờ ngắt ADC (nếu ngắt được kích hoạt).
+Hình 7: Sơ đồ khối ADC
+Hình 8: Sơ đồ ngõ vào tương tự
+Lựa chọn xung Clock cho ADC:
+Thời gian chuyển đổi ADECLARE được xác định cho mỗi Bit là TAD. Việc chuyển đổi yêu cầu cần đến thời gian tối thiểu là 12 TAD. Nguồn xung Clock cho việc chuyển đổi được lựa chọn bởi phần mềm. Có 7 mức lựa chọn cho phép là:
++ 2 TOSC.
++ 4 TOSC.
++ 8 TOSC.
++ 16 TOSC.
++ 32 TOSC.
++ 64 TOSC.
++ Bộ dao động nội RC(1-4ms).
+Để việc lấy mẫu chính xác thì thời gian lấy mẫu TAD phải tối thiểu là 1.7ms được chọn bởi xung Clock.
+Sự chuyển đổi ADC:
+Nếu xóa Bit Go/Done trong khi đang chuyển đổi sẽ làm cho việc chuyển đổi bị hủy. Khi đó thanh ghi lưu kết quả sẽ không được cập nhật mà sẽ giữ lại kết quả của lần lưu trước đó.
+Hình 9: Sơ đồ chu kỳ Tad
+Giao tiếp nối tiếp:
+EUSART (Enhanced Universal Synchronous Asynchronous Receiver Transmitter) là một
+trong hai chuẩn giao tiếp nối tiếp. EUSART còn được gọi là giao diện giao tiếp nối tiếp SCI (Serial Communication Interface). Có thể sử dụng giao diện này cho các giao tiếp với các thiết bị ngọai vi, với các vi điều khiển khác hay với máy tính.
+Các module EUSART bao gồm các khả năng sau đây:
+- Truyền và nhận bất đồng bộ song song
+- Hai kí tự bộ đệm vào
+- Một kí tự bộ đệm ra
+- Có khả năng lập trình kí tự dài 8 bit hoặc 9 bit
+- Phát hiện địa chỉ trong chế độ 9 bit
+- Bộ đệm vào tràn phát hiện lỗi
+- Nhận khung kí tự phát hiện lỗi
+- Đồng bộ tổng thể một chiều
+- Đồng bộ phụ một chiều
+- Lập trình bộ định thời và đảo dữ liệu
+Chế độ truyền bất đồng bộ EUSART:
+Ở chế độ truyền này EUSART hoạt động theo chuẩn NRZ (None-Return-To-Zero), nghĩa là các bit truyền đi sẽ bao gồm 1 bit Start, 8 hay 9 bit dữ liệu (thông thường là 8 bit) và 1 bit Stop. Bit LSB sẽ được truyền đi trước. Các khối truyền và nhận data độc lập với nhau sẽ dùng chung tần số tương ứng với tốc độ baud cho quá trình dịch dữ liệu, và để đảm bảo tính hiệu quả của dữ liệu thì hai khối truyền và nhận phải dùng chung một định dạng dữ liệu.
+Chế độ truyền bất đồng bộ được chọn bằng cách xóa Bit SYNC
+Module truyền bất đồng bộ EUSART bao gồm :
++ Phát tốc độ Baud.
++ Mạch lấy mẫu.
++ Bộ Truyền bất đồng bộ.
++ Bộ Nhận bất đồng độ.
+Bộ truyền bất đồng bộ USART:
+Khồi truyền bất đồng bộ EUSART được chỉ trong hình dưới. Trung tâm của bộ truyền là thanh ghi truyền dịch TSR. Thanh ghi dịch chứa dữ liệu bên trong nó từ việc đọc/ghi bộ đệm truyền, TXREG. Thanh ghi TXREG được tải với dữ liệu bên trong phần mềm. Thanh ghi TSR không được tải dữ liệu cho đến khi Bit Stop đã được truyền từ lần tải cuối cùng. Khi Bit Stop được truyền, thanh ghi TSR được tải vào dữ liệu mới từ thanh ghi TXREG. Một khi thanh ghi TXREG truyền dữ liệu đến thanh ghi TSR, thanh ghi TXREG trống và bit cờ TXIF được đặt.
+Hình 10:Sơ đồ bộ truyền dữ liệu bất đồng bộ EUART
+Hình 11: Sơ đồ truyền dữ liệu
+Khi cài đặt cho việc truyền dữ liệu bất đồng bộ. Ta làm như sau:
+1. Khởi tao thanh ghi SPBRG cho tốc độ Baud. Nếu muốn truyền với tốc độ cao
+thì đặ Bit BRGH.
+2. Cho phép truyền bất đồng bộ qua cổng nt bằng cách xóa Bit SYNC và đặt Bit
+SPEN lên 1.
+3. Nếu muốn sử dụng ngắt, thì cho phép đặt Bit TXIE lên 1.
+4. nếu muốn truyền 9-bit thì đặt Bit TX9 lên 1.
+5. Cho phép truyền bằng cách đặt Bit TXEN, mà cũng sẽ đặt Bit TXIF lên 1.
+6. Nếu chọn chế độ truyền 9-Bit, Bit thứ 9 sẽ được tải vào trong Bit TX9D.
+7. Tải dữ liệu đến thanh ghi TXREG (bắt đầu truyền).
+8. Nếu sử dụng ngắt, thì Bit GIE và PEIE(Bit 7,6) của thanh ghi INTCON được đặt.
+................................................................
+Hình 14: Cửa sổ màn hình hộp thoại Properties của MS HyperTerminal trong
+Windows 98.
+7. Gõ “AT” ở trong cửa sổ màn hình window chính. Một phản hồi “OK” sẽ được trả lời từ modem GSM/GPRS Gõ “AT+CPIN?” trong cửa sổ màn hình window chính. Lệnh AT “AT+CPIN” được sử dụng để chất vần liệu modem GSM/GPRS đang đợi một PIN có đúng không (personal identification number _số nhận dạng cá nhân, ví dụ như password). Nếu thấy có phản hồi là “+CPIN:READY”thì nó có nghĩa là thẻ SIM không yêu cầu có một PIN và nó đã sẵn sàng cho sử dụng. Còn nếu như thẻ SIM của bạn yêu cầu có một PIN thì bạn cần đặt PIN thông qua lệnh AT “AT+CPIN+<PIN>”.
+Hình 15: Cửa sổ màn hình chính của MS HyperTerminal trong windows 98.
+Nếu như bạn nhận được phản hồi như cửa sổ màn hình trên thì modem GSM/GPRS đang hoạt động đúng. Và tới đây bạn có thể gõ cá lệnh AT theo ý riêng của bạn để điều khiển modem GSM/GPRS.
+Để có những hiểu biết chi tiết hơn về cách sử dụng các lệnh AT để gửi và nhận các tin nhắn SMS sẽ được cung cấp trong các mục sau.
+Kiểm tra modem GSM/GPRS có hỗ trợ việc sử dụng các lệnh AT để gửi, nhận và đọc các tin nhắn SMS.
+Sau khi kiểm tra xong các truyền thông giữ PC và modem GSM/GPRS, thứ kế tiếp mà bạn muốn làm là kiểm tra xem modem GSM/GPRS có hỗ trợ việc sử dụng các lệnh AT để truyền, nhận và đọc tin nhắn SMS không. Hầu hết các modem GSM/GPRS đều có hỗ trợ ba chức năng trên nhưng chỉ có một số điện thoại di động hỗ trợ các chức năng đó.
+Gửi tin nhắn SMS.
+Để hiểu xem một modem GSM/GPRS có hỗ trợ việc gửi các tin nhắn SMS thông qua các lệnh AT hay không, bạn phải:
+1.Sử dụng lệnh AT +CSMS (tên lệnh trong text: Select Message Service) để kiểm tra liệu xem các tin nhắn SMS có nguồn gốc từ mobile có được hỗ trợ không.
+2.Thực thi các hoạt động test để kiểm tra liệu các lệnh AT +CMGW (tên lệnh ở dạng text: Send Message) và (hay) +CMSS (tên lệnh ở dạng text: Send Message from Storage) được hỗ trợ không. (bạn có thể kiểm tra các lệnh AT +CMGW [tên lệnh ở dạng text: Write Message to Memory] và +CMGD [tên lệnh ở dạng text: Delete Message] thêm vào khi đôi khi chúng được sử dụng chung với +CMSS)
+*Nhận và đọc các tin nhắn SMS từ vùng lưu trữ tin nhắn
+Để hiểu xem liệu một modem GSM/GPRS có hỗ trợ nhận và đọc tin nhắn SMS thông qua các lệnh AT không thì bạn phải :
+Sử dụng lệnh AT +CSMS (tên lệnh ở dạng text: Select Message Service) dùng để kiểm tra xem liệu các tin nhắn SMS kết cuối di động có được hỗ trợ không. Thực thi các hoạt động test để kiểm tra xem liệu +CNMI (tên lệnh ở dạng text: New Message Indications to TE), +CMGL (tên lệnh ở dạng text: List Messages) và (hay) +CMGR (tên lệnh ở dạng text: Read Message) có được hỗ trợ không. Nếu như modem GSM/GPRS có hỗ lệnh AT +CNMI thì nó có thể gửi một thông báo hay trực tiếp xúc tiến tin nhắn tới PC bất cứ khi nào một tin nhắn SMS mới tới. Còn nếu như modem GSM/GPRS hay điện thoại di động không hỗ trợ lệnh +CNMI nhưng lai hỗ trợ lệnh +CMGL và/hay +CMGR thì PC phải có sự lựa chọn modem GSM/GPRS theo thứ tự để biết nếu như có bất kỳ tin nhắn mới nào vừa tới nó.
+* Chế độ hoạt động: chế độ SMS text và chế độ SMS PDU:
+Chi tiết kỹ thuật của SMS được định nghĩa ở hai chế độ (hai mode),và ở hai chế độ đó modem GSM/GPRS đều có thể hoạt động tốt với nó. Hai chế độ đó là :chế độ SMS text và chế độ SMS DPU. (chuẩn PDU dùng cho đơn vị dữ liệu Protocol). Chế độ mà một modem GSM/GPRS đang hoạt động tìm kiếm, xác định cấu trúc ngữ pháp của các lệnh AT SMS và định dạng của các đáp ứng trả lại sau khi thi hành. Dưới đây là các lệnh AT SMS mà nó có ảnh hưởng tới:
+- CMGS (Send Message_gửi tin nhắn)
+-CMSS (Send Message from Storage_gửi tin nhắn từ trung tâm lưu trữ)
+- CMGR (Read Message_đọc tin nhắn)
+-CMGL (List Messages_liệt kê các tin nhắn)
+- CMGW (Write Message to Memory_viết tin nhắn vào bộ nhớ)
+- CNMA (New Message Acknowledgement to ME/TA_Sự chấp nhận các tin nhắn mới tới ME/TA).
+- CMGC (Send Command_gửi tin nhắn).
+Hai lệnh AT sau chỉ hữu ích khi chế độ SMS text được sử dụng.
+-CSMP (Set Text Mode Parameters_đặt các tham số cho chế độ text)
+- CSDH (Show Text Mode Parameters_Chỉ ra các tham số ở chế độ text)
+* Sự so sánh giữa chế độ SMS text và chế độ SMS PDU:
+Dưới đây chúng ta sẽ so sánh các khía cạch khác nhau giữa hai chế độ SMS text và SMS PDU. Sự so sánh này sẽ giúp chúng ta thấy được sự khác nhau giữa hai chế độ này và từ giúp ta có quyết định tốt hơn trong việc chọn lựa chế độ nào nên được sử dụng bởi ứng dụng tin nhắn SMS của bạn.
+*Cấu trúc ngữ pháp của các lệnh AT SMS và các đáp ứng của nó:
+Khi modem GSM/GPRS đang hoạt động trong các chế độ khác nhau thì cấu trúc ngữ pháp lệnh AT SMS nào đó và các đáp ứng của nó đưa lại sau khi thực thi lệnh là khác nhau. Sau đây là một ví dụ cho trình bày nói trên. Giả sử rằng bạn muốn gửi một tin nhắn SMS như sau: “It is easy to send text messages” đến một số điện thoại +85291234567 thì trong chế độ SMS text thì dòng lệnh bạn phải đánh vào là như sau: AT+CMGS="+85291234567"<CR>It is easy to send text messages.<Ctrl+z>. Tuy nhiên nếu modem GSM/GPRS đang hoạt động trong các chế độ SMS PDU thì việc thực thi dòng lệnh trên sẽ phát sinh ra một lỗi. Đó là do cấu trúc ngữ pháp của lệnh AT +CMGS được sử dụng theo một cách khác trong chế độ SMS DPU. Để thực thi nhiệm vụ trên thì dòng lệnh sau nên được thay thế vào:
+AT+CMGS=42<CR>07915892000000F001000B915892214365F7000021493A283D0795C3F33C88FE06CDECLAREB6E32885EC6D341EDF27C1E3E97E72E<Ctrl+z>
+*Các giá trị được định nghĩa cho các tham số:
+Khi modem GSM/GPRS hoạt động trong các chế độ khác nhau thì các giá trị của các tham số nào đó cũng khác nhau. Thường thì các giá trị dạng string được định nghĩa dành cho chế độ SMS text trong khi các giá trị số được định nghĩa dành cho chế độ PDU. Thí du, lệnh AT +CMGL được sử dụng để liệt kê các tin nhắn được lưu trữ trong kho lưu trữ tin nhắn. Nó sẽ lấy một tham số để chỉ ra trạng thái của các tin nhắn SMS được tìm, lấy về. Bảng thông số sau sẽ liệt kê các giá trị được định nghĩa cho các tham số trong hai chế độ text và chế độ PDU.
+
+Giả sử rằng bạn muốn liệt kê tất cả cac1tin nhắn từ trung tâm lưu trữ tin nhắn. Nếu như modem GSM/GPRS đang hoạt động trong các chế độ SMS text thì bạn nên ấn định giá trị dạng string “All” đối với lệnh AT AT +CMGL như sau:
+AT+CMGL="ALL"
+Còn trong chế độ SMS PDU thì giá trị số “4” nên được ấn định cho cho lệnh AT +CMGL, nó như sau: AT+CMGL=4
+*Dạng ngõ ra/ngõ vào (input/output) của các tin nhắn SMS được dùng bởi các lệnh
+AT SMS.
+Khi modem GSM/GPRS đang hoạt động trong các chế độ khác nhau thì dạng ngõ ra/ngõ vào (input/output) của các tin nhắn SMS được dùng bởi các lệnh AT SMS cũng khác nhau. Trong chế độ SMS text thì đầu và thân của các tin nhắn SMS được làm các ngõ vào vao/ngõ ra khi tách rời các tham số/các lĩnh vực.Trong chế độ SMS DPU, TPDUs (Transport Protocol Data Units) ở định dạng hexa là các ngõ vào và ngõ ra. Đầu và thần của các tin nhắn SMS được mã hóa theo dạng TPDUs. Sau đây là một thí dụ cho những trình bày nói trên. Để gửi một tin nhắn SMS "It is easy to send text messages." Đến một số điện thoại +85291234567 thì dòng lệnh sau nên được sử dụng trong chế độ SMS text. Trong khi bạn thấy các dưới đây, đầu số của số điện thoại đích và các đầu số của các số điện thoại khác nữa được mã hóa theo dãy số hexa.
+AT+CMGS=42<CR>07915892000000F001000B915892214365F7000021493A283D
+0795C3F33C88FE06CDECLAREB6E32885EC6D341EDF27C1E3E97E72E<Ctrl+z>
+*Dễ dàng trong sử dụng
+Khi các bạn đã xem tất cả các ví dụ trước thì bạn sẽ cảm thấy thật là dễ dàng sử dụng các lệnh AT trong chế độ SMS text. Bạn không cần phải học về các loại cấu trúc khác nhau của TPDUs ở dạng bit hay là các mã hóa hay giải mã các chuỗi số hexa.
+*Các đặc điểm hỗ trợ của tin nhắn SMS
+Mặc dù sử dụng các lệnh AT rất dễ dàng trong chế độ SMS text, nhưng nó lại hỗ trợ ít các đặc điểm về tin nhắn SMS hơn là chế độ SMS DPU. Điều này là do bạn không thể hoàn tất các điều khiển dựa trên các giá trị đầu và thân của tin nhắn trong chế độ SMS text. Một vài nhiệm vụ có thể được hoàn thành trong chế độ text, đòi hỏi người lập trình phải hiểu biết về chế độ PDU và TPDU. Thí dụ, để yêu cầu một bản tin trạng thái từ SMSC trong chế độ SMS text thì bạn phải đặt bit 5 của 8 bít đầu tiên trong SMS-SUBMIT TPDU thành “1” bằng lệnh AT +CCMP (tên lệnh ở dạng text: Set Text Mode Parameters). Các nhiệm vụ tương tự bao gồm thiết lập chu kỳ hợp lí cho tin nhắn và gửi một tin nhắn SMS dạng flash (nghĩa là nó ngay lập tức xuất hiện trên màn hình điện thoại khi nó đến địa chỉ đích).
+* Gửi các tin nhắn SMS từ một máy tính/PC sử dụng các lệnh AT (AT+CMGS,
+AT+CMSS)
+Chế độ SMS DPU có nhiều hỗ trợ phổ biến hơn dành cho modem GSM/GPRS hơn là cho chế độ SMS text.
+Cả hai lệnh AT+CMGS (tên lệnh ở dạng text:Send Message) và +CMSS(tên lệnh ở dạng text: Send Message From Storage) đều có thể được sử dụng để gửi các tin nhắn SMS từ một máy tính (PC). Sự khác nhau cơ bản ở bản giữa chúng là lệnh AT+CMGS lấy các tin nhắn SMS như là một tham số,trong khi đó lệnh AT+CMSS lấy các số index mà chỉ rõ vị trí của tin nhắn SMS trong khu vực lưu trữ tin nhắn như là một tham số. Những trình bày sau đây là một thí dụ để làm sáng tỏ sự khác nhau này.
+Giả sử rằng bạn muốn gửi một tin nhắn dạng text "Sending text messages is easy." Từ
+một máy tính để bàn (PC) tới một số thoại di động 091234567 sử dụng lệnh AT+CMGS ở chế độ SMS text. Và sau đây là dòng lệnh được sử dụng:
+AT+CMGS="91234567"<CR>Sending text messages is easy.<Ctrl+z>
+Còn nếu cũng muốn gửi text nhưng sử dụng lệnh AT +CMSS thì đầu tiên bạn phải sử dụng lệnh AT+CMGW (tên lệnh ở dạng text: Write Message to Memory) để viết text tin nhắn tới khu vực lưu trữ tin nhắn. Trong chế độ SMS text thì dòng lệnh sẽ như sau:
+AT+CMGW="91234567"<CR>Sending text messages is easy.<Ctrl+z>
+Giờ thì chúng ta có thể nói text tin nhắn SMS bây giờ được định vị tại index 3 của vùng lưu trữ tin nhắn. Ban5co1 thể sử dụng lệnh AT +CMSS để gửi text tin nhắn đến trung tâm tin nhắn bằng dòng lệnh sau: AT+CMSS=3
+Khi khong gian lưu trữ bị giới hạn, nếu như mỗi text tin nhắn SMS đã gửi được để ở vùng lưu trữ tin nhắn thì sẽ có một thời điểm khi mà không có thêm các text tin nhắn SMS nào có thể được viết. Để giải thoát không gian lưu trữ, bạn có thể sử dụng lệnh AT +CMGD (tên lệnh ở dạng text: Delete Message) để xóa các text tin nhắn SMS ở vùng lưu trữ tin nhắn,nó như sau: AT+CMGD=3
+Khi bạn thấy dòng lệnh trên, gửi một tin nhắn SMS bằng lệnh AT +CMSS là một sự nặng nề về bit, bởi vì nó bao gồm nhiều bước và các lệnh AT. Tuy nhiên, một bản copy của tin nhắn SMS đã gửi được lưu ở vùng lưu trữ tin nhắn. Điều này không thể đạt được với lệnh AT +CMGS.
+Trong một vài tình huống, có nhiều thuận lợi để gửi các tin nhắn SMS bằng lệnh AT +CMSS hơn là dùng lệnh AT +CMGS. Ví dụ, nếu như bạn phải gửi các tin nhắn tương tự nhau đến nhiều người nhận thì sử dụng lệnh At +CMSS sẽ thuận lợi hơn:
+AT+CMSS=3,"91234567"
+AT+CMSS=3,"97777777"
+AT+CMSS=3,"96666666"
+* Đọc các tin nhắn SMS từ một khu vực lưu trữ tin nhắn sử dụng các lệnh AT
+(AT+CMGR, AT+CMGL)
+Để kích hoạt sử dụng một máy tính để bàn (PC) cho việc đọc các tin nhắn SMS từ một khu vực lưu trữ tin nhắn, thì modem GSM/GPRS phải được hỗ trợ cả hai lệnh AT+CMGR (tên lệnh ở dạng text: Read Messages) và lệnh AT+CMGL (tên lệnh ở dạng text: List Messages). Lệnh AT+CMGR được sử dụng để đọc một tin nhắn SMS tại một vị trí nào đó trong khu vực lưu trữ tin nhắn. Trạng thái có thể là : "received unread", "received read", "stored unsent", "stored sent",…Còn lệnh AT+CMGL cũng cho phép bạn lấy tất cả các tin nhắn SMS được lưu trữ trong khu vực lưu trữ tin nhắn.
+Những trình bày sau là một ví dụ nhằm giúp hiểu rõ được sự khác nhau giữa +CMGR và +CMGL. Giả sử rằng bạn muốn sử dụng máy tính đọc một text tin nhắn từ một khu vực lưu trữ tin nhắn và bạn cũng biết chỉ số của text tin nhắn SMS là ở chỗ nào. Trong trường hợp này thì bạn nên sử dụng lệnh AT+CMGR. Và đây là dòng lệnh được đánh vào(giả sử rằng text tin nhắn được lưu trữ tại vị trí có chỉ số là 3):
+AT+CMGR=3
+Modem GSM/GPRS sẽ phản hồi lại như sau:
++CMGR: "REC READ","+85291234567",,"07/02/18,00:12:05+32".
+Hello, welcome to our SMS tutorial.
+OK
+Giả sử bay giờ bạn lại ở trong một tình huống khác. Bạn muốn sử dụng máy tính bàn (PC) để lấy về tất cả các tin nhắn SMS mà bạn chưa đọc trước đó. Trong trường hợp này thì bạn sử dụng lệnh AT+CMGL. Trong chế độ SMS text thì dòng lệnh được sử dụng là:
+AT+CMGL="REC UNREAD"
+Modem GSM/GPRS sẽ phản hồi lại như sau:
++CMGL: 1,"REC UNREAD","+85291234567",,"07/02/18,00:05:10+32"
+Reading text messages is easy.
++CMGL: 2,"REC UNREAD","+85291234567",,"07/02/18,00:07:22+32"
+A simple demo of SMS text messaging.
+OK
+Lệnh AT+CMGL cũng có thể được dùng để đọc tất cả các tin nhắn mà được lưu trữ trong khu vực lưu trữ tin nhắn. Để làm được như vậy trong chế độ SMS text thì dòng lệnh sẽ là:
+AT+CMGL="ALL"
+Ở thời điểm này thì phản hồi của Modem GSM/GPRS sẽ như sau:
++CMGL: 1,"REC READ","+85291234567",,"07/02/18,00:05:10+32"
+Reading text messages is easy.
++CMGL: 2,"REC READ","+85291234567",,"07/02/18,00:07:22+32"
+A simple demo of SMS text messaging.
++CMGL: 3,"REC READ","+85291234567",,"07/02/18,00:12:05+32"
+Hello, welcome to our SMS tutorial.
+OK
+Với những gì bạn thấy ở những dòng trên, lệnh AT+CMGR chỉ có thể được sử dụng để đọc 1 tin nhắn SMS tại một thời điểm trong khi đó lệnh AT+CMGL có thể được sử dụng để đọc nhiều tin nhắn tại cùng một thời điểm.
+Một sự khác nhau khác nữa giữa hai lệnh AT+CMGR và AT+CMGL là lệnh AT+CMGR có thể được sử dụng để lấy nhiều chi tiết tin nhắn hơn là lệnh AT+CMGL khi các modem GSM/.GPRS hay các điện thoại di động đang hoạt động ở chế độ SMS text.Sau đây là cac1chi tiết tin nhắn có thể lấy được bằng cách sử dụng lệnh AT+CMGR ở chế độ SMS text.
++ Trạng thái của tin nhắn SMS ("received unread", "received read", "stored unsent", "stored sent",…)
++ Số điện thoại của người gửi/người nhận được lưu trữ trong phần đầu của tin nhắn SMS và kiểu của số điện thoại.
++ Text liên quan tới số điện thoại của người gửi/người nhận nằm trong danh bạ điện thoại.
++ Thời gian và ngày tin nhắn SMS đến SMSC (chỉ cho phép với các tin nhắn SMS đến)
++ Tám bit đầu tiên (1 octet = 8 bits) của TPDU (Transport Protocol Data Unit) của tin nhắn SMS.
++ Giá trị nhận dạng protocol nằm trongTPCU của tin nhắn SMS.
++ Giá trị lược đồ mã hóa dữ liệu nằm trong TPCU của tin nhắn SMS.
++ Số SMSC được lư trữ cùng với tin nhắn SMS và kiểu số SMSC
++ Chu kỳ hợp lí của tin nhắn SMS (chỉ cho phép tin nhắn SMS đi)
++ Thân của tin nhắn SMS và chiều dài của nó.
+Sau đây là các chi tiết tin nhắn có thể lấy được bằng cách sử dụng lệnh AT+CMGL ở chế độ SMS text:
++ Số index nhằm định rõ vị trí của tin nhắn SMS ở trong vùng lưu trữ tin nhắn.
++ Trạng thái của tin nhắn SMS ("received unread", "received read", "stored unsent", "stored sent"…)
++ Số điện thoại của người gửi/người nhận được lưu trữ trong phần đầu của tin nhắn SMS và kiểu của số điện thoại.
++ Text liên quan tới số điện thoại của người gửi/người nhận nằm trong danh bạ điện thoại.
++ Thời gian và ngày tin nhắn SMS đến SMSC (chỉ cho phép với các tin nhắn SMS đến)
++ Thân của tin nhắn SMS và chiều dài của nó.
+Nếu bạn so sánh hai list trên, bạn sẽ nhận ra rằng các chi tiết tin nhắn sau chỉ có thể được lấy bằng các lệnh AT+CMGR chứ không phải lệnh AT+CMGL:
++ Tám bit đầu tiên của TPCU của tin nhắn SMS.
++ Giá trị nhận dạng protocol trong TPCU của tin nhắn SMS.
++ Gía trị lược đồ mã hóa dữ liệu trong TPCU của tin nhắn SMS.
++ Số SMSC được lưu trữ cùng với tin nhắn SMS và kiểu của số SMSC.
++ Chu kỳ giá trị của tin nhắn SMS (chỉ cho phép với các tin nhắn SMS đi).
+Chú ý: Nếu modem GSM/GPRS hay điện thoại di động đang hoạt động ở chế độ SMS PDU thì các chi tiết tin nhắn có thể được lấy bằng hai lệnh AT+CMGR và lệnh AT+CMGL là như nhau.
+CHƯƠNG 4: GIỚI THIỆU VỀ MODULE ĐIỀU KHIỂN
+I/ Giới thiệu linh kiện:
+1/ C1815:
+Nguồn tiêu thụ: P = 0,4 W
+Dòng điện: I = 0,15 A
+Điện thế: V = 60 V
+Đặc tính điện:
+2/ IC 7805:
+Sơ đồ khối bên trong:Hình 16: Sơ đồ khối bên trong
+
+Đặc tính điện:
+C2383 là transistor NPN
+Đặc tính điện
+3/ AMS1117: là ổn áp nguồn 3.3 V
+1: Ground
+2: Vout
+3: Vin
+Đặc tính điện:
+4/ MIC29152:
+1: Enable
+2: Input
+3: Ground
+4: Output
+5: Adjust
+Sơ đồ khối:
+Đặc tính điện:
+Tham số MIC29152:
+Ngõ ra Flag:
+Ngõ vào ENABLE:
+5/ Opto PC817:
+OPTO là loạI IC có cấu tạo như một tổ hợp led phát và phototransistor dùng để cách ly tín hiệu vào và ra .
+Chân 1 và 2 được có chức năng như led phát khi có tin hiệu sẽ dẩn điện áp từ chân 4 sang chân 3.
+Các thông số kỹ thuật của OPTO PC817 :
+- Ngõ vào : Dòng điện IF để có tính hiệu dẩn là 10 mA. Dòng đỉnh có thể chịu được 100 mA. Điện áp ngõ vào có thể chịu được là 6 V.
+- Ngõ ra : Điện áp VCE có thể chịu được là 35 V. Dòng điện dẩn IC có thể chịu được là 50 mA
+6/ LM35DZ: Cảm biến nhiệt
+LM 35 là một cảm biến nhiệt được tích hợp sẵn có độ chính xác cao. Mà ngõ ra điện áp là tuyến tính theo tỉ lệ với nhiệt độ C và nhiệt độ K. LM35 không yêu cầu phải có thêm mạch tinh chỉnh bên ngoài để cung cấp độ chính xác ở nhiệt độ phòng.
+* Các tính năng của LM35:
+Tuyến tính : +10mV/°C. Sai số 0.5°C khi đạt đến 25°C. Phạm vi đo lớn từ −55° to +150°C. Hoạt động từ 4 đến 30 V. Dòng cực máng nhỏ hơn 60 μA.
+
+Hình 17: Sơ đồ đặc tính của ứng dụng
+Hình 18: Sơ đồ chân kết nối
+Bảng : Đặc tính điện của cảm biến LM35
+Tính toán và thiết kế:
+Dựa vào các đặc tính kĩ thuật như trên, nhóm đã thiết kế khối cảm biến dựa trên các thông số kĩ thuật của nhà sản xuất để áp dụng vào đề tài.
+Ta kết nối chân số 2 của cảm biến với ngõ vào AN0 của Pic18F26K20. Chân 1
+được nối nguồn 5V nằm trong tiêu chuẩn từ 4 đến 30V. Chân 3 nối Ground (đất).
+LM35 có:
++ Điện áp 0V khi ở 0°C.
++ Điện áp 0.29V khi ở 29°C.
+Khi ta chọn độ phân giải 10 bit cho vi điều khiển PIC 18F26K20 thì được tính toán nhiệt độ như sau :
+Ở 29°C :
+Value_ADC = (290mV*1024)/5000mV = 59.392.
+Khi đọc giá trị từ cảm biến LM35 thì trong vi điều khiển sẽ có giá trị là: Value_ADC = 59.392.
+Vì vậy muốn đổi ra nhiệt độ °C thì : T°C = (59.392 * 5000/1024)/10 = 29.
+Tức là T°C = 59.392 / 2.
+II/ Sơ đồ nguyên lý:
+
+Hình 19: Sơ đồ nguyên lý của module
+II/ Nguyên lý hoạt động:
+Tín hiệu đầu vào:
+
+Hình 20: Tín hiệu đầu vào bằng cảm biến
+Đầu vào Board mạch có đầu nối 03 sợi dùng để kết nối Cảm biến. Trong đó có 01 dây cấp nguồn, 01 dây Đất và 01 dây nhận tín hiệu từ cảm biến. Chân số 3 của DOMINO CON3 sẽ có nhiệm vụ nhận tín hiệu từ cảm biến qua OPTO cách ly PC817 để đưa vào chân Vi điều khiển. Chân 03 ở mức cao thì OPTO hoạt động làm chân IN2,3,4,5 được nối đất. Nếu chân 03 ở mức thấp thì OPTO không dẫn, lúc đó IN2,3,4,5 sẽ được nối với nguồn 3.3V tương ứng mức điện áp cao CMOS cấp cho vi điều khiển. Lúc này nhờ tín hiệu IN2,3,4,5 mà vi điều khiển xử lí các trạng thái khác nhau.
+Nguồn cung cấp:
+Hình 21: Nguồn cấp cho module
+Nguồn 110V được cấp từ bên ngoài qua MIC29152 chuyển thành 2 nguồn: 1 nguồn 4.8V cấp cho Sim300Cz và 1 nguồn 3.3V cấp cho vi điều khiển trung tâm sẽ có sơ đồ như sau. Trong đó KA 7805 có nhiệm vụ ổn áp 5V, sau đó đưa vào AMS1117 có ổn áp 3.3V tuyến tính. Led kiểm tra tình trạng hoạt động của khối nguồn.
+3/ Tín hiệu ra loa:
+Hình 22: Tín hiệu ra loa
+Tín hiệu OUT_LOA được kích bởi chân Vi điều khiển qua cực B của transitor C1815. Transitor C1815 dẫn bão hòa nên áp 12V đổ xuống qua Led làm Led sang và đổ vào cực B của Transitor C2383 làm con này dẫn bão hòa nên dòng đổ xuống từ 12V qua Relay làm đóng cuộn cảm của Relay, lúc này Chân 3,4 của Relay nối với nhau, chân 3,5 hở ra.
+III/ Hình ảnh của module:
+Hình 23: Mặt trước của module
+Hình 24: Mặt sau của module
+IV/ Tập lệnh sử dụng trong hệ thống:SMS COMMAND
+1/ Cấu trúc:
+-CONF (CONFIG):MẬT KHẨU:SỐ ĐIỆN THOẠI CÀI ĐẶT TRONG HỆ THỐNG
+-MSG (MESSAGE):MẬT KHẨU:ĐỊA CHỈ CỦA CƠ QUAN HAY NHÀ NƠI ĐẶT HỆ THỐNG BÁO ĐỘNG
+-PT (PROJECT):MẬT KHẨU:ON hoặc OFF(dùng để tắt hoặc mở hệ thống)
+-ND:MẬT KHẨU:Nhiệt độ cài đặt
+-PW(PASSWORD):MẬT KHẨU:MẬT KHẨU CŨ:MẬT KHẨU MỚI (lệnh này dùng để thay đổi mật khẩu nhằm đảm bảo tính bảo mật của hệ thống)
+
+2/ Cách thức hoạt động:
+Khi đã cấp nguồn cho hệ thống,đầu tiên ta sẽ cài đặt cho hệ thống các số điện thoại bằng lệnh CONF ( có thể là số điện thoại của chủ nhà hoặc của cơ quan) , khi có tín hiệu đầu vào từ các cảm biến báo động.Sau đó ta sẽ cài đặt địa chỉ cho hệ thống bằng lệnh MSG.Nếu hệ thống nghi ngờ không đảm bảo tính bảo mật thì ta sẽ đổi password bằng lệnh PW.Để tắt hoặc mở hệ thống thì ta sử dụng lệnh PT.Cần phải làm đúng theo cấu trúc để đảm bảo hệ thống hoạt động ổn định và chính xác cao.
+CHƯƠNG 5 : THIẾT KẾ MẠCH VÀ THI CÔNG MÔ HÌNH
+I/ TÍN HIỆU ĐẦU RA DÙNG RƠLE:
+1/ Sơ đồ nguyên lý:
+Hình 25: Tín hiệu đầu ra
+Hình 26: Tín hiệu đầu ra của Role 3,4
+2/Sơ đồ mạch in:
+Hình 27: Sơ đồ bố trí linh kiện
+3/Nguyên lý hoạt động:
+Khi có sự cố thì board vi xử lý xuất ra tín hiệu 3V cung cấp cho transistor làm transistor mở nên khi nhận được điện áp 3V kích cho cực B làm cho transistor C1815 dẫn và kích cho C2383 dẫn, lúc này dòng điện sẽ đi qua role làm đóng role.
+D1 làm nhiệm vụ bảo vệ 2 transistor khi role đóng ngắt bởi vì khi role đóng ngắt thì có 1 suất điện động cảm ứng rất lớn phát ra từ cuộn dây của role làm hỏng transistor.
+CHƯƠNG 6 : KẾT LUẬN
+Sau hơn sáu tuần thực hiện kể từ lúc nhận đề tài, bằng sự nỗ lực cố gắng của bản thân mỗi cá nhân và sự phân chia, phối hợp công việc hợp lí, chặt chẽ, nhịp nhàng giữa mỗi thành viên của nhóm, bên cạnh đó còn là sự hướng dẫn nhiệt tình, tận tâm của thầy Bùi Đông Hải, quyển đồ án này đã được hoàn thành đúng thời gian như đã định và đã đạt được yêu cầu đặt ra theo yêu cầu là thiết kế và thi công hệ thống điều khiển thiết bị điện từ xa qua tin nhắn SMS. Trong quá trình thực hiện đề tài, chúng em đã thu được những kết quả nhất định như sau:
+Mạch điện với các module nhỏ trên mạch được thiết kế, thi công hoàn chỉnh và đã được thử nghiệm nhiều lần và đã thoạt động ổn định trong thực tế.
+Hệ thống điều khiển thiết bị trong nhà từ xa thông qua tin nhắn SMS được thực hiện như trong đề tài là một hệ thống với các chức năng đạt được như sau:
+Hệ thống có thể điều khiển được thiết bị điện từ xa thông qua tin nhắn SMS.
+Sau khi gửi tin nhắn thì với nội dụng tin nhắn đó, bộ xử lí sẽ thực thi quá trình xử lí, sau đó là điều khiển thiết bị một cách tự động. Tin nhắn được gửi đi từ người chủ nhà để điều khiển thiết bị điện và người chủ nhà cũng nhận được tin nhắn trả ngược lại với nội dụng tin nhắn là tình trạng hiện tại của các thiết bị cũng như nhiệt độ của ngôi nhà. Hệ thống có khả năng được bảo vệ tốt, nghĩa là người sử dụng phải biết mật khẩu (password) thì mới đăng nhập được vào hệ thống đối với sử dụng tin nhắn SMS và đối với cửa ra vào thì cũng phải đăng nhập mật khẩu thông qua keypad mới vào được trong nhà. Hệ thống có khả năng tự hoạt động nếu như người sử dụng có cài đặt lịch làm việc cho hệ thống.
+Hệ thống có chức năng cảnh báo sự cố
+Khối module cảm biến nhiệt độ được thiết kế, lập trình kết hợp với trung tâm xử lí có khả năng gửi thông tin dữ liệu nhiệt độ tới trung tâm xử lí. Ngoài ra còn có khả năng gửi tin nhắn ngược lại cho chủ nhà và tự động thi hành các thao tác được lập trình sẵn khi có hỏa hoạn sảy ra.
+Do thời gian thực hiện đề tài có hạn và lượng kiến thức cá nhân mỗi thành viên của nhóm là nhất định nên đề tài thực hiện xong chỉ đáp ứng được một phần nhỏ của một hệ thống hoàn chỉnh. Vì vậy, để đề tài này thêm phong phú hơn, mang nhiều tính thực tế hơn nữa, có khả năng ứng dụng cao hơn thì đề tài cần đưa thêm vào những yêu cầu như sau:
+Ngoài việc giám sát trên máy tính, ta cũng có thể điều khiển Camera để chụp hình rồi sau đó gửi tin nhắn đa phương tiện đến điện thoại. Lúc này ta cần kết nối 1 Modem GSM thay thế cho việc kết nối điện thoại trong đề tài vì những ưu điểm của nó. Ngoài việc điều khiển các thiết bị trong nhà và thiết bị dân dụng, ta còn có thể sử dụng tin nhắn SMS để truy cập vào cơ sở dữ liệu SQL của WinCC và điều khiển các máy móc công nghiệp thông qua phần mềm này. Lúc này ta cần xây dựng giao diện phần mềm kết nối với SQL của WinCC và lập trình cho WinCC lấy cơ sở dữ liệu đó để thực hiện các yêu cầu. Sử dụng thêm nhiều loại cảm biến khác kết hợp với cảm biến nhiệt độ, chẳng hạn như cảm biến độ ẩm không khí,… và tất cả các thông số này nên được hiển thị trên cùng một giao diện phần mềm. Như thế người dùng có thể hình dung ra được toàn bộ không gian trong ngồi nhà. Mở rộng điều khiển được nhiều hơn nữa các thiết bị trong nhà. Phần cứng cho mỗi module cần được tách rời nhằm dễ dàng cho việc chỉnh sửa, thay đổi. Đề tài không những chỉ áp dụng cho với các tòa nhà mà nên được mở rộng áp dụng đối với điều khiển các thiết bị sử dụng nơi công cộng.
+TÀI LIỆU THAM KHẢO
+1/ NGUYỄN ĐÌNH PHÚ - VI XỬ LÍ 2 - TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ
+THUẬT.
+2/ HOÀNG MINH SƠN – MẠNG TRUYỀN THÔNG CÔNG NGHIỆP – NXB KHOA HỌC VÀ KỸ THUẬT – 2006.
+3/ DOGAN IBRAHIM – PIC BASIC PROJECTS 30 PROJECTS USING PIC BASIC AND PIC BASIC PRO.
+4/ JAN AXELSON – SERIAL PORT COMPLETE SECOND EDITION.
+5/ MỘT SỐ TRANG WEB:
+
+www.codeproject.com
+www.dientuvietnam.com
+www.picvietnam.com

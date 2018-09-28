@@ -1,0 +1,185 @@
+ĐỒ ÁN TỐT NGHIỆP CƠ ĐIỆN tử thiết kế Tay Máy Công Nghiệp 4 Bậc Tự Do cải tiến
+LỜI GIỚI THIỆU
+Trong những năm gần đây theo sự tiến bộ của khoa học kỹ thuật, công cuộc công nghiệp hóa, hiện đại hóa đất nước đang diễn ra khá tốt đẹp. Trước tình hình đó đã có khá nhiều yêu cầu cấp bách và cũng là những thách thức được đặt ra cho giới tri thức.
+Tay máy công nghiệp là một lĩnh vực mới mà ở Việt Nam đang nghiên cứu và từng bước chế tạo để ứng dụng vào quá trình sản xuất góp phần nâng cao năng xuất lao động.
+Trong nhiều lĩnh được quan tâm, có một lĩnh vực về vi điều khiển được quan tâm rất nhiều hiện nay đó là vi điều khiển PIC. Việc tìm hiểu và ứng dụng hết khả năng linh hoạt của nhiều loại PIC là cả một quá trình dài lý thú và hữu ích, vì sự thuận tiện, tinh gọn, khả năng phát triển cũng như sự đa dạng các dòng sản phẩm phù hợp với nhiều quy mô ứng dụng của nó.
+Không nên dừng lại ở cách sử dụng, cách tốt nhất để hiểu rỏ thiết bị mới và đi sâu vào tìm hiểu bản chất hoạt động bên trong của thiết bị đó. Thực hiện đề tài “ TAY MÁY CÔNG NGHIỆP 4 BẬC TỰ DO” như là một cách để thể hiện một phần trong những kiến thức mà em đã đạt được sau ba năm học tập tại trường.
+Lựa chọn dsPIC30F6014A là một trong dòng sản phẩm vi điều khiển PIC trong đề tài này là một bước đi phù hợp với những yêu cầu giới hạn cần có của một đề tài tốt nghiệp cũng như đáp ứng nhu cầu ứng dụng thực tế trong các lĩnh vực của ngành cơ điện tử đã theo học.
+Tuy đã có nhiều cố gắng nhưng do có sự hạn chế về thời gian cũng như kiến thức và kinh nghiệm nên không tránh những sai sót và khuyết điểm trong quá trình tính toán cũng như thi công mô hình. Rất mong nhận được sự thông cảm và góp ý kiến của quý thầy cô cũng như các bạn sinh viên.
+MỤC LỤC CHƯƠNG I : ĐẶT VẤN ĐỀ.. 1 1.1/ ĐẶT VẤN ĐỀ : 1 1.1.1/LỊCH SỬ PHÁT TRIỂN CỦA ROBOT CÔNG NGHIỆP : 1 1.1.2/ ỨNG DỤNG ROBOT CÔNG NGHIỆP TRONG SẢN XUẤT : 2 1.1.3/ CÁC KHÁI NIỆM VÀ ĐỊNH NGHĨA VỀ ROBOT CÔNG NGHIỆP : 4 1.1.3.1/ Định nghĩa robot công nghiệp : 4 1.1.3.2/ Bậc tự do của robot (DOF : Degrees Of Freedom) : 5 1.1.3.3/ Hệ toạ độ (Coordinate frames) : 5 1.1.3.4/ Trường công tác của robot (Workspace or Range of motion): 6 1.1.4/ CẤU TRÚC CƠ BẢN CỦA ROBOT CÔNG NGHIỆP : 7 1.1.5/ PHÂN LOẠI ROBOT CÔNG NGHIỆP : 8 1.1.5.1/ Phân loại theo kết cấu : 8 1.2/ MỤC ĐÍCH NGHIÊN CỨU : 9 CHƯƠNG II : THIẾT KẾ VÀ THI CÔNG.. 10 2.1/ PHÂN TÍCH VÀ CHỌN PHƯƠNG ÁN THIẾT KẾ : 10 2.1.1/Tính linh hoạt của một tay máy công nghiệp : 10 2.1.1.1/Phân tích một số khâu , khớp có trong cơ khí: 10 2.1.1.2/Một số kết cấu tay máy điển hình: 10 2.2/PHƯƠNG ÁN THIẾT KẾ : 13 2.3/CÁC THÔNG SỐ ĐẶC TRƯNG CỦA TAY MÁY: 15 2.3.1/Bộ thông số Denavit-Hartenberg (DH): 15 2.3.2/ Đặc trưng của các ma trận A: 16 2.4/PHƯƠNG TRÌNH ĐỘNG HỌC CỦA TAY MÁY.. 18 2.4.1/ GẮN TỌA ĐỘ LÊN CƠ CẤU : 18 2.4.2/LẬP BẢNG THÔNG SỐ DH: 18 2.4.3/TÍNH CÁC MA TRẬN ĐẶC TRƯNG : 19 2.5/ THIẾT KẾ CƠ KHÍ : 20 2.5.1/ GIỚI THIỆU VỀ VIỆC THIẾT KẾ TAY MÁY: 20 2.5.2/NGUYÊN LÝ, CƠ CẤU TRUYỀN ĐỘNG CỦA TAY MÁY : 24 2.5.2.1/Nguyên lý hoạt động của tay máy: 24 2.5.2.2/Các thành phần của tay máy 4 bậc tự do : 24 2.6/ THIẾT KẾ MẠCH ĐIỆN : 28 2.6.1/ Phương án thiết kế. 28 2.6.2: Khối điều khiển trung tâm Control Unit: 29 2.6.3 : Khảo sát đặc tính LM629. 32 2.7/LẬP TRÌNH : 39 2.7.1/SƠ LƯỢC THUẬT TOÁN PID.. 39 2.7.2/LƯU ĐỒ GIẢI THUẬT TỔNG THỂ.. 43 CHƯƠNG III : KẾT QUẢ VÀ HƯỚNG PHÁT TRIỂN.. 44 3.1/NHỮNG KẾT QUẢ ĐẠT ĐƯỢC : 44 3.1.1/Phần cơ khí : 44 3.1.2/Phần điện tử : 44 3.1.3/Phần lập trình : 44 3.2/NHỮNG HẠN CHẾ CỦA ĐỀ TÀI VÀ CÁCH KHẮC PHỤC : 44 3.2.1/NHỮNG HẠN CHẾ : 44 3.2.2/CÁCH KHẮC PHỤC : 45 3.3/HƯỚNG PHÁT TRIỂN ĐỀ TÀI : 45 TÀI LIỆU THAM KHẢO.. 45 DANH MỤC HÌNH VẼ Hình 1.1 : Các tọa độ suy rộng của Robot................................................................. 6 Hình 1.2 : Quy tắc bàn tay phải................................................................................... 6 Hình 1.3 : Biểu diễn trường công tác của Robot....................................................... 7 Hình 1.4 : Các thành phần chính của hệ thống Robot.............................................. 8 Hình 2.1 : Robot hoạt động theo tọa độ Đề Các..................................................... 11 Hình 2.2 : Robot hoạt động theo tọa độ trụ............................................................. 11 Hình 2.3 : Robot hoạt động theo tọa độ cầu............................................................ 12 Hình 2.4 : Robot hoạt động theo tọa độ góc............................................................ 12 Hình 2.5 : Robot kiểu SCARA................................................................................... 13 Hình 2.6 : Sơ đồ động tay máy.................................................................................. 14 Hình 2.7 : Chiều dài và góc xoắn của một khâu..................................................... 15 Hình 2.8 : Bộ thông số Denavit-Hartenberg............................................................ 16 Hình 2.9 : Hình dạng hình học tay máy................................................................... 18 Hình 2.10 : Động cơ DC SERVO............................................................................... 21 Hình 2.11 : Các thành phần của động cơ DC SERVO............................................ 22 Hình 2.12 : Mô hình tay máy..................................................................................... 23 Hình 2.13 : Mô hình đế khâu 1.................................................................................. 24 Hình 2.14 : Bánh bị dẫn.............................................................................................. 25 Hình 2.15 : Bánh dẫn.................................................................................................. 25 Hình 2.16 : Trục vít – bánh vít.................................................................................. 26 Hình 2.17 : Khớp quay............................................................................................... 27 Hình 2.18 : Sơ đồ khối chức năng và mạch điện cần thiết.................................... 29 Hình 2.19 : Sơ đồ main chính của khối Control Unit............................................. 30 Hình 2.20 : Mạch sau khi hoàn thành và gia công................................................. 31 Hình 2.21 : Mạch nguồn Lm2576............................................................................. 31 Hình 2.22 : Graphics LCD 128x64 dots................................................................... 32 Hình 2.23 : Hệ thống LM629..................................................................................... 33 Hình 2.24 : Sơ đồ chân LM629................................................................................. 34 Hình 2.25 : Kiến trúc phần cứng LM629................................................................. 35 Hình 2.26 : Ngõ ra PWM của LM629 với tần số hoạt động là 8MHz.................. 36 Hình 2.27 : Hoạt động đọc Byte của trạng thái....................................................... 37 Hình 2.28 : Hoạt động ghi Byte lệnh........................................................................ 38 Hình 2.29 : Hoạt động đọc dữ liệu............................................................................ 38 Hình 2.30 : Hoạt động ghi dữ liệu............................................................................. 38 Hình 2.31 : Minh họa thuật toán PID........................................................................ 40
+
+CHƯƠNG I : ĐẶT VẤN ĐỀ
+1.1/ ĐẶT VẤN ĐỀ :
+1.1.1/LỊCH SỬ PHÁT TRIỂN CỦA ROBOT CÔNG NGHIỆP :
+Thuật ngữ “Robot” xuất phát từ tiếng Sec có nghĩa là công việc tạp dịch trong một vở kịch của Karel Capek.
+Robot được nhắc đến như một tiểu thuyết khoa học viễn tưởng I Robot của nhà văn Nga Isaac Asimov xuất bản năm 1950.
+Về mặt kỹ thuật, Robot công nghiệp ngày nay có nguồn gốc từ hai lĩnh vực kỹ thuật: Cơ cấu điều khiển từ xa (trong chiến tranh thế giới thứ II) và các máy công cụ điều khiển số NC đáp ứng gia công các chi tiết máy bay (1949).
+Robot công nghiệp (hay người máy công nghiệp) được đặt tên cho những dáng vấp và một vài chức năng như tay người để thực hiện một số thao tác sản xuất.
+Thuật ngữ Inducstrial Robot (IR) - xuất hiện đầu tiên ở Mỹ do công ty AMF(American Manchine and Foundry company) quảng cáo mô tả thiết bị mang dáng dấp và có một số chức năng như tay người được điều khiển tự động để thực hiện một số thao tác sản xuất thiết bị có tên gọi Versatran.
+Quá trình phát triển của IR có thể tóm tắt như sau :
+Từ những năm 50 ở Mỹ xuất hiện viện nghiên cứu đầu tiên. Đến đầu những năm 60 xuất hiện sản phẩm đầu tiên tên Versatran của công ty AMF. Ở Anh người ta bắt đầu nghiên cứu và chế tạo các IR theo bản quyền của Mỹ từ năm 1967. Ở các nước Tây Âu khác như : Đức, Ý, Pháp, Thụy Điển từ những năm 70. Châu Á có Nhật bắt đầu nghiên cứu ứng dụng IR từ năm 1968.
+Đến nay trên thế giới có khoảng trên 20 công ty sản xuất IR trong số đó có 80 công ty của Nhật, 90 công ty của các nước Tây Âu, 30 công ty của Mỹ và một số công ty ở Nga, Tiệp…
+Theo chủng loại, mức độ điều khiển, và khả năng nhận biết thông tin cuả tay máy - người máy đã được sản xuất trên thế giới có thể phân loại các IR thành các thế hệ sau :
+Thế hệ 1 : Thế hệ có điều khiển theo chu trình dạng chương trình cứng không có khả năng nhận biết thông tin.
+Thế hệ 2 : Thế hệ có kiểu điều khiển theo chu trình dạng chương trình mềm bước đầu đả có khả năng nhận biết thông tin.
+Thế hệ 3 : Thế hệ có kiểu điều khiển dạng tinh khôn, có khả năng nhận biết thông tin và bước đầu đã có một số chức năng lý trí của con người.
+Đối với tay máy công nghiệp đã có hơn 250 loại, trong số đó có hơn 40% là loại tay máy có kiểu điều khiển đơn giản thuộc thế hệ thứ nhất.
+Sự xuất hiện của Robot và sự gia tăng vai trò của chúng trong sản xuất và xã hội loài người làm xuất hiện một ngành khoa học mới là ngành robot học (Robotic). Trên thế giới ở nhiều nước đã xuất hiện những viện nghiên cứu riêng về Robot. Ở Việt Nam, từ những năm giữa của thế kỷ 80 đã có viện nghiên cứu về robot.
+1.1.2/ ỨNG DỤNG ROBOT CÔNG NGHIỆP TRONG SẢN XUẤT :
+Từ khi mới ra đời robot công nghiệp được áp dụng trong nhiều lĩnh vực dưới góc độ thay thế sức người. Nhờ vậy các dây chuyền sản xuất được tổ chức lại, năng suất và hiệu quả sản xuất tăng lên rõ rệt.
+Mục tiêu ứng dụng robot công nghiệp nhằm góp phần nâng cao năng suất dây chuyền công nghệ, giảm giá thành, nâng cao chất lượng và khả năng cạnh tranh của sản phẩm đồng thời cải thiện điều kiện lao động. Đạt được các mục tiêu trên là nhờ vào những khả năng to lớn của robot như : làm việc không biết mệt mỏi, rất dễ dàng chuyển nghề một cách thành thạo, chịu được phóng xạ và các môi trường làm việc độc hại, nhiệt độ cao, “cảm thấy” được cả từ trường và “nghe” được cả siêu âm ... Robot được dùng thay thế con người trong các trường hợp trên hoặc thực hiện các công việc tuy không nặng nhọc nhưng đơn điệu, dễ gây mệt mõi, nhầm lẫn.
+Trong ngành cơ khí, robot được sử dụng nhiều trong công nghệ đúc, công nghệ hàn, cắt kim loại, sơn, phun phủ kim loại, tháo lắp vận chuyển phôi, lắp ráp sản phẩm . . .
+Ngày nay đã xuất hiện nhiều dây chuyền sản xuất tự động gồm các máy CNC với Robot công nghiệp, các dây chuyền đó đạt mức tự động hoá cao, mức độ linh hoạt cao . . . ở đây các máy và robot được điều khiển bằng cùng một hệ thống chương trình.
+Ngoài các phân xưởng, nhà máy, kỹ thuật robot cũng được sử dụng trong việc khai thác thềm lục địa và đại dương, trong y học, sử dụng trong quốc phòng, trong chinh phục vũ trụ, trong công nghiệp nguyên tử, trong các lĩnh vực xã hội . . .
+Rõ ràng là khả năng làm việc của robot trong một số điều kiện vượt hơn khả năng của con người; do đó nó là phương tiện hữu hiệu để tự động hoá, nâng cao năng suất lao động, giảm nhẹ cho con người những công việc nặng nhọc và độc hại. Nhược điểm lớn nhất của robot là chưa linh hoạt như con người, trong dây chuyền tự động, nếu có một robot bị hỏng có thể làm ngừng hoạt động của cả dây chuyền, cho nên robot vẫn luôn hoạt động dưới sự giám sát của con người.
+1.1.3/ CÁC KHÁI NIỆM VÀ ĐỊNH NGHĨA VỀ ROBOT CÔNG NGHIỆP :
+1.1.3.1/ Định nghĩa robot công nghiệp :
+Định nghĩa theo tiêu chuẩn AFNOR (Pháp) :Robot công nghiệp là một cơ cấu chuyển động tự động có thể lập trình, lặp lại các chương trình, tổng hợp các chương trình đặt ra trên các trục toạ độ; có khả năng định vị, định hướng, di chuyển các đối tượng vật chất : chi tiết, dao cụ, gá lắp . . . theo những hành trình thay đổi đã chương trình hoá nhằm thực hiện các nhiệm vụ công nghệ khác nhau.
+Định nghĩa theo RIA (Robot institute of America) :Robot là một tay máy vạn năng có thể lặp lại các chương trình được thiết kế để di chuyển vật liệu, chi tiết, dụng cụ hoặc các thiết bị chuyên dùng thông qua các chương trình chuyển động có thể thay đổi để hoàn thành các nhiệm vụ khác nhau.
+Định nghĩa theo GOCT 25686-85 (Nga) :Robot công nghiệp là một máy tự động, được đặt cố định hoặc di động được, liên kết giữa một tay máy và một hệ thống điều khiển theo chương trình, có thể lập trình lại để hoàn thành các chức năng vận động và điều khiển trong quá trình sản xuất.
+Có thể nói Robot công nghiệp là một máy tự động linh hoạt thay thế từng phần hoặc toàn bộ các hoạt động cơ bắp và hoạt động trí tuệ của con người trong nhiều khả năng thích nghi khác nhau.
+Robot công nghiệp có khả năng chương trình hoá linh hoạt trên nhiều trục chuyển động, biểu thị cho số bậc tự do của chúng. Robot công nghiệp được trang bị những bàn tay máy hoặc các cơ cấu chấp hành, giải quyết những nhiệm vụ xác định trong các quá trình công nghệ : hoặc trực tiếp tham gia thực hiện các nguyên công (sơn, hàn, phun phủ, rót kim loại vào khuôn đúc, lắp ráp máy .. .) hoặc phục vụ các quá trình công nghệ (tháo lắp chi tiết gia công, dao cụ, đồ gá . . .) với những thao tác cầm nắm, vận chuyển và trao đổi các đối tượng với các trạm công nghệ, trong một hệ thống máy tự động linh hoạt, được gọi là “Hệ thống tự động linh hoạt robot hoá” cho phép thích ứng nhanh và thao tác đơn giản khi nhiệm vụ sản xuất thay đổi.
+1.1.3.2/ Bậc tự do của robot (DOF : Degrees Of Freedom) :
+Bậc tự do là số khả năng chuyển động của một cơ cấu (chuyển động quay hoặc tịnh tiến). Để dịch chuyển được một vật thể trong không gian, cơ cấu chấp hành của robot phải đạt được một số bậc tự do. Nói chung cơ hệ của robot là một cơ cấu hở, do đó bậc tự do của nó có thể tính theo công thức :
+Ở đây: n - Số khâu động;
+pi - Số khớp loại i (i = 1,2,. . .,5 : Số bậc tự do bị hạn chế).
+Đối với các cơ cấu có các khâu được nối với nhau bằng khớp quay hoặc tịnh tiến (khớp động loại 5) thì số bậc tự do bằng với số khâu động . Đối với cơ cấu hở, số bậc tự do bằng tổng số bậc tự do của các khớp động.
+Để định vị và định hướng khâu chấp hành cuối một cách tuỳ ý trong không gian 3 chiều robot cần có 6 bậc tự do, trong đó 3 bậc tự do để định vị và 3 bậc tự do để định hướng. Một số công việc đơn giản nâng hạ, sắp xếp... có thể yêu cầu số bậc tự do ít hơn. Các robot hàn, sơn... thường yêu cầu 6 bậc tự do. Trong một số trường hợp cần sự khéo léo, linh hoạt hoặc khi cần phải tối ưu hoá quỹ đạo,... người ta dùng robot với số bậc tự do lớn hơn 6.
+1.1.3.3/ Hệ toạ độ (Coordinate frames) :
+Mỗi robot thường bao gồm nhiều khâu (links) liên kết với nhau qua các khớp (joints), tạo thành một xích động học xuất phát từ một khâu cơ bản (base) đứng yên. Hệ toạ độ gắn với khâu cơ bản gọi là hệ toạ độ cơ bản (hay hệ toạ độ chuẩn). Các hệ toạ độ trung gian khác gắn với các khâu động gọi là hệ toạ độ suy rộng. Trong từng thời điểm hoạt động, các toạ độ suy rộng xác định cấu hình của robot bằng các chuyển dịch dài hoặc các chuyển dịch góc của các khớp tịnh tiến hoặc khớp quay . Các toạ độ suy rộng còn được gọi là biến khớp.(hình 1.1)
+Các hệ toạ độ gắn trên các khâu của robot phải tuân theo qui tắc bàn tay phải : Dùng tay phải, nắm hai ngón tay út và áp út vào lòng bàn tay, xoè 3 ngón : cái, trỏ và giữa theo 3 phương vuông góc nhau, nếu chọn ngón cái là phương và chiều của trục z, thì ngón trỏ chỉ phương, chiều của trục x và ngón giữa sẽ biểu thị phương, chiều của trục y (hình 1.2).
+Trong robot ta thường dùng chữ O và chỉ số n để chỉ hệ toạ độ gắn trên khâu thứ n. Như vậy hệ toạ độ cơ bản (Hệ toạ độ gắn với khâu cố định) sẽ được ký hiệu là O0; hệ toạ độ gắn trên các khâu trung gian tương ứng sẽ là O1, O2,..., On-1, Hệ toạ độ gắn trên khâu chấp hành cuối ký hiệu là On.
+1.1.3.4/ Trường công tác của robot (Workspace or Range of motion):
+Trường công tác (hay vùng làm việc, không gian công tác) của robot là toàn bộ thể tích được quét bởi khâu chấp hành cuối khi robot thực hiện tất cả các chuyển động có thể. Trường công tác bị ràng buộc bởi các thông số hình học của robot cũng như các ràng buộc cơ học của các khớp; ví dụ, một khớp quay có chuyển động nhỏ hơn một góc 3600. Người ta thường dùng hai hình chiếu để mô tả trường công tác của một robot (hình 1.3).
+1.1.4/ CẤU TRÚC CƠ BẢN CỦA ROBOT CÔNG NGHIỆP :
+Các thành phần chính của robot công nghiệp :
+Một robot công nghiệp thường bao gồm các thành phần chính như : cánh tay robot, nguồn động lực, dụng cụ gắn lên khâu chấp hành cuối, các cảm biến, bộ điều khiển , thiết bị dạy học, máy tính ... các phần mềm lập trình cũng nên được coi là một thành phần của hệ thống robot.
+Cánh tay robot (tay máy) là kết cấu cơ khí gồm các khâu liên kết với nhau bằng các khớp động để có thể tạo nên những chuyển động cơ bản của robot.
+Nguồn động lực là các động cơ điện (một chiều hoặc động cơ bước), các hệ thống xy lanh khí nén, thuỷ lực để tạo động lực cho tay máy hoạt động.
+Dụng cụ thao tác được gắn trên khâu cuối của robot, dụng cụ của robot có thể có nhiều kiểu khác nhau như : dạng bàn tay để nắm bắt đối tượng hoặc các công cụ làm việc như mỏ hàn, đá mài, đầu phun sơn ...
+Thiết bị dạy-hoc (Teach-Pendant) dùng để dạy cho robot các thao tác cần thiết theo yêu cầu của quá trình làm việc, sau đó robot tự lặp lại các động tác đã được dạy để làm việc (phương pháp lập trình kiểu dạy học).
+Các phần mềm để lập trình và các chương trình điều khiển robot được cài đặt trên máy tính, dùng điều khiển robot thông qua bộ điều khiển (Controller). Bộ điều khiển còn được gọi là Mođun điều khiển (hay Unit, Driver), nó thường được kết nối với máy tính. Một mođun điều khiển có thể còn có các cổng Vào - Ra (I/O port) để làm việc với nhiều thiết bị khác nhau như các cảm biến giúp robot nhận biết trạng thái của bản thân, xác định vị trí của đối tượng làm việc hoặc các dò tìm khác; điều khiển các băng tải hoặc cơ cấu cấp phôi hoạt động phối hợp với robot ...
+1.1.5/ PHÂN LOẠI ROBOT CÔNG NGHIỆP :
+Robot công nghiệp rất phong phú đa dạng, có thể được phân loại theo các cách sau:
+1.1.5.1/ Phân loại theo kết cấu :
+Theo kết cấu của tay máy người ta phân thành robot kiểu toạ độ Đề các, Kiểu toạ độ trụ, kiểu toạ độ cầu, kiểu toạ độ góc, robot kiểu SCARA như đã trình bày ở trên.
+1.1.5.2/ Phân loại theo hệ thống truyền động :
+Có các dạng truyền động phổ biến là :
+Hệ truyền động điện : Thường dùng các động cơ điện 1 chiều (DC : Direct Current) hoặc các động cơ bước (step motor). Loại truyền động nầy dễ điều khiển, kết cấu gọn.
+Hệ truyền động thuỷ lực : có thể đạt được công suất cao, đáp ứng những điều kiện làm việc nặng. Tuy nhiên hệ thống thuỷ lực thường có kết cấu cồng kềnh, tồn tại độ phi tuyến lớn khó xử lý khi điều khiển.
+Hệ truyền động khí nén : có kết cấu gọn nhẹ hơn do không cần dẫn ngược nhưng lại phải gắn liền với trung tâm tạo ra khí nén. Hệ nầy làm việc với công suất trung bình và nhỏ, kém chính xác, thường chỉ thích hợp với các robot hoạt động theo chương trình định sẳn với các thao tác đơn giản “nhấc lên - đặt xuống” (Pick and Place or PTP : Point To Point).
+1.1.5.3/ Phân loại theo ứng dụng :
+Dựa vào ứng dụng của robot trong sản xuất có Robot sơn, robot hàn, robot lắp ráp, robot chuyển phôi .v.v...
+1.1.5.4/ Phân loại theo cách thức và đặc trưng của phương pháp điều khiển:
+Có robot điều khiển hở (mạch điều khiển không có các quan hệ phản hồi), Robot điều khiển kín (hay điều khiển servo) : sử dụng cảm biến, mạch phản hồi để tăng độ chính xác và mức độ linh hoạt khi điều khiển.
+Ngoài ra còn có thể có các cách phân loại khác tuỳ theo quan điểm và mục đích nghiên cứu.
+
+1.2/ MỤC ĐÍCH NGHIÊN CỨU :
+Thực hiện đề tài : “MÔ HÌNH TAY MÁY CÔNG NGHIỆP 4 BẬC TỰ DO” là một công việc để người thực hiện đề tài nghiên cứu kỹ khái niệm mô hình,nguyên lý làm việc cũng như tập lệnh của vi xử lí.
+Sản phẩm cùa đề tài nghiên cứu trước hết có thể được ứng dụng vào phương tiện giảng dạy tại trường và nếu được phát triển rộng, đi sâu hơn thì có thể ứng dụng vào trong thực tế sản xuất công nghiệp, và đặc biệt cung cấp một cái nhìn tổng quát về xử lí và tay máy công nghiệp.
+CHƯƠNG II : THIẾT KẾ VÀ THI CÔNG
+2.1/ PHÂN TÍCH VÀ CHỌN PHƯƠNG ÁN THIẾT KẾ :
+2.1.1/Tính linh hoạt của một tay máy công nghiệp :
+2.1.1.1/Phân tích một số khâu , khớp có trong cơ khí:
+Muốn xác định một vật thể trong không gian ta cần phải biết được phương hướng, vị trí tọa độ của vật thể mà ta cần tiếp cận.
+Về mặt lý thuyết thì một khâu trong không gian có 6 bậc tự do: đó là chuyển động tịnh tiến và quay lần lược quanh các trục x , y , z của hệ tọa độ Descarde.
+Trong thực tế thì ta thường thấy các khớp của của Robot chỉ có một số bậc tự do nhất định, ví dụ như chỉ chuyển động quay hay tịnh tiến mà thôi.
+Với khớp tịnh tiến thì số bậc tự do bị hạn chế là 5. Khớp quay số bậc tự do bị hạn chế củng là 5 đặc trưng của loại khớp này ta thường thấy ở thực tế là loại khớp bảng lề. Khớp cầu số bậc tự do bị hạn chế là 3, loại khớp này tương đối linh hoạt.
+Từ mặt lý thuyết như vậy: trong quá trình tiếp cận vật thể thì tay máy thông qua các khớp nó di chuyển để cho khâu chấp hành cuối có thể tiếp cận chính xác vật thể để thực hiện một tác vụ nào đó.
+2.1.1.2/Một số kết cấu tay máy điển hình:
+Robot kiểu toạ độ Đề các : là tay máy có 3 chuyển động cơ bản tịnh tiến theo phương của các trục hệ toạ độ gốc (cấu hình T.T.T). Trường công tác có dạng khối chữ nhật. Do kết cấu đơn giản, loại tay máy nầy có độ cứng vững cao, độ chính xác cơ khí dễ đảm bảo vì vậy nó thuờng dùng để vận chuyển phôi liệu, lắp ráp, hàn trong mặt phẳng ...
+
+Hình 2.1 Robot hoạt động theo tọa độ Dề Các.
+Robot kiểu toạ độ trụ : Vùng làm việc của robot có dạng hình trụ rỗng. Thường khớp thứ nhất chuyển động quay. Ví dụ robot 3 bậc tự do, cấu hình R.T.T như hình vẽ 2.2. Có nhiều robot kiểu toạ độ trụ như : robot Versatran của hãng AMF (Hoa Kỳ).Hình 2.2 Robot hoạt động theo hệ tọa độ trụ.
+Robot kiểu toạ độ cầu : Vùng làm việc của robot có dạng hình cầu. thường độ cứng vững của loại robot nầy thấp hơn so với hai loại trên. Ví dụ robot 3 bậc tự do, cấu hình R.R.R hoặc R.R.T làm việc theo kiểu toạ độ cầu (hình 2.3).
+
+Hình 2.3 Robot hoạt động theo hệ toạ độ cầu.
+Robot kiểu toạ độ góc (Hệ toạ độ phỏng sinh) : Đây là kiểu robot được dùng nhiều hơn cả. Ba chuyển động đầu tiên là các chuyển động quay, trục quay thứ nhất vuông góc với hai trục kia. Các chuyển động định hướng khác cũng là các chuyển động quay. Vùng làm việc của tay máy nầy gần giống một phần khối cầu. Tất cả các khâu đều nằm trong mặt phẳng thẳng đứng nên các tính toán cơ bản là bài toán phẳng, ưu điểm nổi bật của các loại robot hoạt động theo hệ toạ độ góc là gọn nhẹ, tức là có vùng làm việc tương đối lớn so với kích cở của bản thân robot, độ linh hoạt cao.
+Hình 2.4 Robot hoạt động theo hệ tọa độ góc.
+Các robot hoạt động theo hệ toạ độ góc như : Robot PUMA của hãng Unimation - Nokia (Hoa Kỳ - Phần Lan), Irb-6, Irb-60 (Thuỵ Điển), Toshiba, Mitsubishi, Mazak (Nhật Bản) .v.v.Hình 2.4 là một ví dụ của robot hoạt động theo hệ tọa độ phỏng sinh có cấu hình RRR.RRR.
+Robot kiểu SCARA : Robot SCARA ra đời vào năm 1979 tại trường đại học Yamanashi (Nhật Bản) là một kiểu robot mới nhằm đáp ứng sự đa dạng của các quá trình sản xuất. Tên gọi SCARA là viết tắt của "Selective Compliant Articulated Robot Arm" : Tay máy mềm dẽo tuỳ ý. Loại robot nầy thường dùng trong công việc lắp ráp nên SCARA đôi khi được giải thích là từ viết tắt của "Selective Compliance Assembly Robot Arm". Ba khớp đầu tiên của kiểu Robot nầy có cấu hình R.R.T, các trục khớp đều theo phương thẳng đứng. Sơ đồ của robot SCARA như hình 2.5.
+Hình 2.5 Robot kiểu SCARA
+
+2.2/PHƯƠNG ÁN THIẾT KẾ :
+Tay máy chúng em chọn thiết kế là loại mô hình tay máy công nghiệp 4 bậc tự do thuộc vào dạng Robot tọa độ cầu.
+Hình 2.6 Sơ đồ động tay máy
+Tính ứng dụng: Với tay máy kiểu này thì phạm vi hoạt động tương đối lớn nó có thể dùng trong việc lấy sản phẩm hay cấp phôi cho các máy gia công tự động.
+2.3/CÁC THÔNG SỐ ĐẶC TRƯNG CỦA TAY MÁY:
+2.3.1/Bộ thông số Denavit-Hartenberg (DH):
+Một robot nhiều khâu cấu thành từ các khâu nối tiếp nhau thông qua các khớp động. Gốc chuẩn (Base) của một robot là khâu số 0 và không tính vào số các khâu. Khâu 1 nối với khâu chuẩn bởi khớp 1 và không có khớp ở đầu mút của khâu cuối cùng. Bất kỳ khâu nào cũng được đặc trưng bởi hai kích thước:
+Độ dài pháp tuyến chung : an.
+Góc giữa các trục trong mặt phẳng vuông góc với an : n .
+Hình 2.7 Chiều dài và góc xoắn của một khâu.
+Hình 2.8.Bộ thông số Denavit-Hartenberg.
+Mỗi trục sẽ có hai pháp tuyến với nó, mỗi pháp tuyến dùng cho mỗi khâu (trước và sau một khớp). Vị trí tương đối của hai khâu liên kết như thế được xác định bởi dn là khoảng cách giữa các pháp tuyến đo dọc theo trục khớp n và n là góc giữa các pháp tuyến đo trong mặt phẳng vuông góc với trục.
+dn và n thường được gọi là khoảng cách và góc giữa các khâu.
+Để mô tả mối quan hệ giữa các khâu ta gắn vào mỗi khâu một hệ toạ độ. Nguyên tắc chung để gắn hệ tọa độ lên các khâu như sau :
+Gốc của hệ toạ độ gắn lên khâu thứ n đặt tại giao điểm của pháp tuyến an với trục khớp thứ n+1. Trường hợp hai trục khớp cắt nhau, gốc toạ độ sẽ đặt tại chính điểm cắt đó. Nếu các trục khớp song song với nhau, gốc toạ độ được chọn trên trục khớp của khâu kế tiếp, tại điểm thích hợp.
+Trục z của hệ toạ độ gắn lên khâu thứ n đặt dọc theo trục khớp thứ n+1.
+
+2.3.2/ Đặc trưng của các ma trận A:
+
+Trên cơ sở các hệ toạ độ đã ấn định cho tất cả các khâu liên kết của robot, ta có thể thiết lập mối quan hệ giữa các hệ toạ độ nối tiếp nhau (n-1), (n) bởi các phép quay và tịnh tiến sau đây :
+Quay quanh zn-1 một góc n.
+Tịnh tiến dọc theo zn-1 một khoảng dn.
+Tịnh tiến dọc theo xn-1 = xn một đoạn an.
+Quay quanh xn một góc xoắn n.
+Bốn phép biến đổi thuần nhất này thể hiện quan hệ của hệ toạ độ thuộc khâu thứ n so với hệ toạ độ thuộc khâu thứ n-1 và tích của chúng được gọi là ma trận A :
+An = Rot(z, ) Trans(0,0,d) Trans(a,0,0) Rot(x, ).
+An= . .
+An=
+Đối với một khâu đi theo một khớp quay thì d, a và a là hằng số. Như vậy ma trận A của khớp quay là một hàm số của biến khớp .
+Đối với một khâu đi theo một khớp tịnh tiến thì , a là hằng số. Ma trận A của khớp tịnh tiến là một hàm số của biến số d.
+
+2.4/PHƯƠNG TRÌNH ĐỘNG HỌC CỦA TAY MÁY
+Hình 2.9 : Hình dạng hình học tay máy
+2.4.1/ GẮN TỌA ĐỘ LÊN CƠ CẤU :
+Sử dụng những qui tắc đã được trình bày ở trên, ta tiến hành gắn hệ tọa độ (Hình 2.14).Biểu diễn các hệ tọa độ sau khi gắn kết.
+2.4.2/LẬP BẢNG THÔNG SỐ DH:
+
+
+, , ,
+2.4.3/TÍNH CÁC MA TRẬN ĐẶC TRƯNG :
+2.5/ THIẾT KẾ CƠ KHÍ :
+2.5.1/ GIỚI THIỆU VỀ VIỆC THIẾT KẾ TAY MÁY:
+Cách thức truyền động và phạm vi làm việc :
+Tay máy thiết kế có dạng tọa độ trụ rỗng gồm 4 khớp quay, thường được ứng dụng trong các dây chuyền sản xuất tự động,các nhà máy, hoặc các xưởng cơ khí. Nó có thể làm nhiệm vụ cung cấp phôi cho các máy gia công tự động, cấp sản phẩm hoặc lấy sản phẩm từ băng tải….
+Tay máy được truyền động bằng bộ truyền bánh răng , bộ truyền đai răng và trục vít bánh vít với sự kết hợp của động cơ DC SERVO làm cho kết cấu tay máy được vững chắc, hoạt động đáng tin cậy và dễ đạt đến vị trí của vât thể được tác động.
+Động cơ được chọn để dẫn động là động cơ DC SERVO có công suất 100W, nguồn cung cấp 48VDC, dòng 3A, và có tốc độ 3300v/p. Số động cơ sử dụng là 4 động cơ DC SERVO.
+Một số chi tiết chính :
+Đế, các thanh đở, lò xo trợ lực. Các trục quay, các trục đỡ. Ổ bi lá,ốc vít… Động cơ.
+Giới thiệu động cơ DC SERVO :
+
+Hình 2.10 : Động cơ DC SERVO của tay máy
+.............................................................................................
+CHƯƠNG III : KẾT QUẢ VÀ HƯỚNG PHÁT TRIỂN
+3.1/NHỮNG KẾT QUẢ ĐẠT ĐƯỢC :
+3.1.1/Phần cơ khí :
+Khung cơ khí tương đối chắc chắn. Khi hoạt động các khớp bánh răng tương đối êm.
+3.1.2/Phần điện tử :
+Khả năng chống nhiễu của các mạch hoạt động ổn định Mạch là sản phẩm đầu tay sáng tạo không sao chép. Mang tính thẫm mĩ cao. Ứng dụng nhiều linh kiện, vi điều khiển và thiết bị giao tiếp ngoại vi mới.
+3.1.3/Phần lập trình :
+3.2/NHỮNG HẠN CHẾ CỦA ĐỀ TÀI VÀ CÁCH KHẮC PHỤC :
+3.2.1/NHỮNG HẠN CHẾ :
+Do chế tạo bằng thủ công nên độ chính xác không cao, vùng công tác bị hạn chế. Vì đầu công tác làm bằng từ nên chỉ làm việc được với phôi kim loại. Tỉ số truyền ở bậc 2 thấp.
+
+3.2.2/CÁCH KHẮC PHỤC :
+Cần nhiều máy móc hiện đại để gia công mang đến độ chính xác cao. Nên thay đầu công tác từ bằng tay gắp sẽ làm việc đa dạng sản phẩm hơn. Nên thay bộ truyền có tỉ số truyền cao hơn.
+3.3/HƯỚNG PHÁT TRIỂN ĐỀ TÀI :
+Vì thời gian có hạn và mức độ chỉ dừng lại là đồ án nên sản phẩm chỉ mang tính học tập. Nếu có thời gian thì đề tài có thể phát triển lên thành:
+Tay máy cấp phôi và lấy sản phẩm sau khi gia công từ các máy cơ khí như phay, tiện,bào,mài… Cấp và lấy sản phẩm từ băng tải, hệ thống xử lí, sản xuất… Thay thế cho công nhân trong môi trường khắc nghiệt như nhà máy luyện kim, đúc, nhà máy điện hạt nhân…… Kết hợp với các xe chuyên dụng rà phá bom mìn, thay thế con người trên các chiến trường hiện đại như cấp pháo lên nòng cho xe tăng, pháo tự hành,… ……………………………..
+TÀI LIỆU THAM KHẢO
+1.Sách “sơ đồ chân linh kiện bán dẫn” tác giả : Dương Minh Trí – Nhà xuất bản KHTN – 1997.
+2.Sách “kỹ thuật điện tử” tác giả : Lê Phi Yến – Lưu Phú - Nguyễn Như Anh.
+2.Diễn đàn http:// www.picvietnam.net
+3.Diễn đàn http://www.spkt.net
+4.Diễn đàn http://dientuvietnam.net
+
+
+
+
+
+
+
+
+

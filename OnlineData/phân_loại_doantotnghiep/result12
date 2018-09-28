@@ -1,0 +1,248 @@
+THIẾT KẾ MÁY TÁCH VỎ VÀ PHÂN LOẠI CÀ PHÊ cafe coffe, đồ án tốt nghiệp THIẾT KẾ MÁY TÁCH VỎ VÀ PHÂN LOẠI CÀ PHÊ cafe coffe, thiết kế máy nông nghiệp MÁY TÁCH VỎ VÀ PHÂN LOẠI CÀ PHÊ cafe coffe, thiết kế máy công nghiệp MÁY TÁCH VỎ VÀ PHÂN LOẠI CÀ PHÊ cafe coffe
+NỘI DUNG
+Thiết kế máy: Tách vỏ lụa và phân loại cà phê (Có chế tạo mô hình).
+Với các yêu cầu sau:
+PHẦN BẢN VẼ
+Bản vẽ sơ đồ nguyên lý. Bản vẽ lắp / cụm của máy. Bản vẽ các chi tiết gia công của máy. Bản vẽ sơ đồ nguyên công của quy trình công nghệ gia công.
+PHẦN THUYẾT MINH
+1 - Tổng quan
++ Yêu cầu xã hội
++ Phân tích sản phẩm (Cơ lý tính)
++ Yêu cầu của máy
+2 - Thiết kế máy
++ Lựa chọn nguyên lý làm việc
++Tính toán động học máy
++Tính toán động lực học máy
+3. Kết luận
++ Nhận xét đánh giá máy
++Hướng dẫn sử dụng bảo quản
+4 - Sản xuất thử mô hình, điều chỉnh, sửa chữa lại thiết kế.
+........................................
+Mục Lục
+Trang
+Nhiệm vụ đồ án............................................................................................... 1
+Mục lục........................................................................................................... 2
+Lời nói đầu...................................................................................................... 4
+Lời cảm ơn...................................................................................................... 5
+Nhận xét của giáo viên hướng dẫn.................................................................. 6
+Chương I:Tổng quan về máy tách vỏ lụa và phân loại cà phê......................... 7
+Yêu cầu xã hội......................................................................................... 7
+Giới thiệu về các loại cà phê và quy trình sản xuất cà phê...................... 7 Vai trò của ngành cà phê......................................................................... 8 Giới thiệu một số loại máy trong quy trình sản xuất cà phê nhân........... 9
+Phân tích sản phẩm................................................................................. 11
+Cấu tạo quả cà phê.................................................................................. 11 Phân tích cơ lý tính của quả cà phê......................................................... 12
+Yêu cầu của máy.................................................................................... 12
+1.Tính công nghệ......................................................................................... 12
+2. Tính hiệu quả và tính kinh tế................................................................... 13
+Chương II: Thiết kế máy tách vỏ lụa và phân loại cà phê............................... 14
+Lựa chọn nguyên lý làm việc cho máy................................................... 14
+Bộ phận tách vỏ.................................................................................... 14 Bộ phận phân loại................................................................................. 15 Hệ thống gió.......................................................................................... 20 Nguyên lý hoạt động lựa chọn............................................................... 21
+Tính toán động học cho máy................................................................. 24
+Chọn các động cơ sơ bộ cho máy........................................................... 24 Phân phối tỉ số truyền........................................................................... 24 Số vòng quay của trục chính.................................................................. 24 Công suất và momen xoắn của trục....................................................... 24 Trục vít tải vật liệu................................................................................ 24
+Tính toán động lực học cho máy.......................................................... 25
+Tính toán thiết kế bộ truyền đai thang................................................... 25 Tính toán trục vít tải liệu....................................................................... 28 Tính toán trục dao băm......................................................................... 29 Tính toán thiết kế trục và then............................................................... 31
+Chương III: Dung sai....................................................................................... 41
+Chương IV: Quy trình công nghệ gia công một số chi tiết của máy................. 49
+Chương V: Kết luận........................................................................................ 53
+Nhận xét đánh giá máy........................................................................ 53
+Năng suất............................................................................................... 53 Kinh tế................................................................................................... 54 Hướng phát triển.................................................................................... 55
+Hướng dẫn sử dụng, bảo quản............................................................. 56
+Hướng dẫn sử dụng................................................................................ 56 Bảo quản máy........................................................................................ 58
+Chương VI: Sản xuất thử mô hình , điều chỉnh............................................... 60
+Tài liệu tham khảo.......................................................................................... 62
+...................................
+CHƯƠNGI: TỔNG QUAN VỀ MÁY TÁCH VỎ LỤA
+VÀ PHÂN LOẠI CÀ PHÊ.
+Yêu cầu xã hội:
+Giới thiệu về các loại cà phê và quy trình sản xuất cà phê:
+Trên thế giới, cà phê có rất nhiều loại, đây là một loại cây có khả năng thích nghi với môi trường. Hiện nay, các nước trên thế giới cũng như ở nước ta đều trồng ba loại cà phê là: arabica (cà phê chè), canephora (cà phê vối), excelsa (cà phê mít).
+Cà phê chè (arabica): là loại cà phê được trồng và tiêu thụ nhiều nhất trên thế giới, chiếm 9/10 tổng sản lượng cà phê. Cây cao 3 - 5 m, có khi 7 - 10 m, độc thân hoặc nhiều thân, vỏ mốc trắng, gỗ vàng ngà, hoa mọc thành từng chùm gồm 5 cánh màu trắng, thời gian ra hoa ở nước ta từ tháng 2 đến tháng 4. Quả hình trứng hay hình tròn, khi chín có màu đỏ tươi, kích thước quả: dài 17 - 18 mm, đường kính tiết diện 10 - 15 mm, 500 - 700 quả/kg, thời gian từ lúc có quả đến lúc chín 6 - 7 tháng, thời vụ thu hoạch từ tháng 9 đến tháng 2. Hạt có vỏ lụa màu bạc, ít bám vào nhân, kích thước: dài 5 - 10 mm, rộng 4 - 7 mm, dày 2 - 4 mm, kích thước này thay đổi theo từng loại và theo điều kiện môi trường. Khối lượng 500 - 700 hạt/100g, hàm lượng cafein 1,3 %, hạt có màu xám xanh, xanh lục tùy theo chủng và cách chế biến, năng suất 3–4 tấn cà phê nhân/ha. Tỉ lệ thành phẩm (cà phê nhân) so với nguyên liệu (cà phê quả tươi) là 14 - 20 %.Cà phê chè là loại cà phê được ưa chuộng nhất do hương thơm và mùi vị tốt. Cà phê vối (canephora): Cây cao từ 3 - 8 m, vỏ cây mốc trắng, gỗ vàng hoặc trắng ngà, hoa màu trắng mọc thành cụm có 5 - 7 cánh, mùa hoa từ tháng 4 đến tháng 6. Quả hình tròn hoặc hình trứng, khi chín có màu đỏ hoặc hồng, trên quả thường có đường gân dọc, vỏ quả mỏng so với cà phê chè, thời gian từ khi có quả đến lúc chín 10 - 12 tháng, thời vụ thu hoạch từ tháng 1 đến tháng 4. Hạt hình bầu dục hay tròn, vỏ lụa trắng dễ bong, khoảng 600 - 900 hạt/100g, hạt dài 5 - 8 mm, hạt có màu xanh bạc, xanh lục hoặc xanh nâu tùy theo chủng và cách chế biến, hàm lượng cafein 2 - 3 %, đây là loại cà phê có nhiều cafein nhất.Năng suất trồng trọt 3–5 tấn cà phê nhân/ha, ít hương thơm, thường dùng để pha trộn với cà phê chè hay để chế biến cà phê hòa tan và bánh kẹo cà phê. Loại cà phê này giá trị thương phẩm kém nhưng lại chịu được hạn, ít kén đất và ít bị sâu bệnh. Cà phê mít (excelsa): Cây cao từ 6 - 15 m, nếu đất tốt có thể cao đến 20m. Hoa màu trắng có 5 cánh, quả hình trứng hơi ép ngang, quả chín có màu đỏ, to và dày. Khối lượng 500 - 700 quả/kg. Hình dạng hạt cà phê mít giống như hạt cà phê chè, màu vàng xanh hay màu vàng rạ, vỏ lụa dính sát vào nhân, khó bong, khoảng 700 - 1000 hạt/100g, hàm lượng cafein 1 - 1,2 %.Năng suất 3–5 tấn kg cà phê nhân/ha, tỉ lệ thành phẩm (cà phê nhân) so với cà phê quả tươi khoảng 10 - 15 %.Giá trị thương phẩm không cao do hạt không đều, khó chế biến, hương vị thất thường, tuy nhiên đây là loại cà phê chịu được hạn, ít kén đất và ít bị sâu bệnh.
+Có 2 phương pháp chế biến cà phê:
+Chế biến cà phê theo phương pháp ướt:
+Nguyên liệu→Bảo quản nguyên liệu→Phân loại kích thước quả→Phân loại trong bể Sifon→Xát cà phê quả tươi→Ngâm ủ→Rửa nhớt→Làm ráo nước→Phơi sấy→Sàng tạp chất→Xát cà phê thóc khô→Đánh bóng→Phân loại kích thước nhân→Phân loại trọng lượng→Phân loại màu sắc→Pha trộn theo tiêu chuẩn Nhà nước→Cân, đóng bao, bảo quản.
+Chế biến theo phương pháp khô:
+Nguyên liệu→Phơi sấy→Sàng tạp chất→Xát cà phê quả khô→Đánh bóng→Phân loại kích thước nhân→Phân loại trọng lượng nhân→Phân loại màu sắc→Pha trộn theo tiêu chuẩn Nhà nước→Cân, đóng gói , bảo quản.
+Vai trò của ngành cà phê:
+Cà phê là một mặt hàng thương mại quan trọng trên thị trường quốc tế. Trên thế giới hiện nay có 80 nước trồng cà phê với tổng diện tích trên 10 triệu ha và giá trị hàng hoá xuất khẩu hàng năm trên 10 tỷ USD.
+Cà phê du nhập vào Việt Nam từ thế kỷ XIX và hiện nay trở thành một mặt hàng xuất khẩu giá trị kinh tế cao. Trong vòng 10 năm trở lại đây, ngành cà phê Việt Nam đã tiến những bước dài ngoạn mục: cà phê là mặt hàng nông sản xuất khẩu đứng thứ 2 sau lúa gạo, đồng thời Việt Nam đứng thứ 2 trong 10 nước xuất khẩu cà phê lớn nhất thế giới, sản lượng đạt 800.000 tấn /năm, kim ngạch xuất khẩu đạt gần nửa tỷ USD chiếm 25 - 27% kim ngạch xuất khẩu nông sản và 4-5% kim ngạch xuất khẩu của cả nước, vươn ra trên 60 thị trường tiêu thụ. Những thành tựu mà ngành cà phê đạt được là rất đáng kể nhưng bên cạnh đó vẫn còn tồn tại nhiều hạn chế cần khắc phục để tạo bước tiến mạnh mẽ trong thời gian tới.
+Giới thiệu một số loại máy trong quy trình sản xuất cà phê nhân:
+Máy phân loại theo tỉ trọng:
+Phân tích cơ lý tính của hạt cà phê:
+Cơ lý tính của hạt cà phê khô:
+Quả cà phê khô gồm 4 lớp quả:
+Ba lớp vỏ gồm: lớp ngoài cùng gọi là vỏ quả màu xám đen, khá cứng, dòn nên dễ bị chà nát. Kế tiếp là lớp vỏ thịt và vỏ thóc màu vàng nâu, cứng và rất dòn, khi bị chà lớp vỏ này sẽ vỡ vụn. Lớp vỏ cuối cùng gọi là vỏ lụa màu xám, dính sát với nhân và rất mềm do đó chỉ có thể tách ra bằng cách chà xát.
+Quả cà phê khô có khối lượng riêng là 0,4 kg/lít.
+Giữa bốn lớp vỏ có khoảng trống (không dính nhau ), vỏ lụa dính sát vào nhân. Đặc biệt là giữa lớp vỏ trấu và vỏ lụa có khoảng không lớn 1-2 mm.
+Cơ lý tính của nhân cà phê:
+Nhân cà phê cứng nhưng dẻo do đó có thể chịu được lực nén ép lớn.
+Bề mặt nhân tròn cạnh, trơn láng.
+Khối lượng riêng của nhân cà phê là 0,7kg/lít.
+Yêu cầu của máy:
+Tính công nghệ:
+Máy gồm 3 bộ phận chính:
++ Cối xay xát có nhiệm vụ làm tróc lớp vỏ ra khỏi nhân cà phê.
++ Hệ thống quạt gió có 2 nhiệm vụ là thổi bụi và hổ trợ cho hệ thống sàng làm việc tốt hơn. Nhờ hệ thống gió máy sẽ ít tạo ra bụi làm ít ô nhiễm so với 1 số máy khác.
++ Hệ thống sàng rung có nhiệm vụ phân loại cà phê.
+Các chi tiết trong máy được thiết kế dễ gia công, các chi tiết máy được tách rời nhau nên dễ dàng sửa chữa và thay thế. Vật liệu làm các chi tiết chủ yếu là gang và thép có bán sẵn trên thị trường, những chi tiết bu lông, đai ốc và 1 số chi tiết khác được thiết kế theo tiêu chuẩn có sẵn trên thị trường.
+Tính hiệu quả và tính kinh tế:
+Hạt cà phê khô sau khi qua máy sẽ được tách lớp vỏ ngoài và lớp vỏ lụa bên trong và qua hệ thống phân loại theo kích thước ta thu được nhân loại I. Phần vỏ và nhân loại II được sàng và phân loại 1 lần nửa ta được nhân loại II.
+Máy tách vỏ và phân loại cà phê có chi phí phù hợp với hộ gia đình có khoảng 1-3 ha cà phê, phù hợp với sản xuất hộ gia đình.
+
+CHƯƠNG II: THIẾT KẾ MÁY TÁCH VỎ LỤA
+VÀ PHÂN LOẠI CÀ PHÊ
+Lựa chọn nguyên lý làm việc cho máy:
+Bộ phận tách vỏ:
+Một số phương án lựa chọn:
+Dùng nguyên lý ma sát và dao băm làm cho vỏ hạt cà phê bị trầy sau đó ma sát vào nhau làm nát vỏ. Nguyên lý này hiện được áp dụng nhiều trên các máy có trên thị trường hiện nay như máy xát đĩa, máy xát dạng ống ....
+Ưu điểm: nhân cà phê thành phẩm có hình thức do vỏ lụa mỏng bám quanh nhân đã được chà xát sạch, năng xuất khá cao, có thể chà nát vỏ những hạt có kích thước lớn nhỏ khác nhau nên không cần phân loại kích thước quả khô trước khi chà.
+Nhược điểm: công xuất động cơ lớn vì máy chà theo nguyên lý ma sát nên tổn thất công xuất do ma sát và nhiệt, có bụi khi máy hoạt động do vỏ bị chà nát tạo ra.
+Dùng nguyên lý búa: các hạt cà phê sẽ bị những đầu búa quay quanh trục đập làm vỡ vỏ.
+
+Nguyên lý hoạt động:
+Vật liệu được nạp vào máy nghiền từ phía trên của máy, nhờ trọng lượng bản thân rơi hoặc trượt theo máng và vùng ra đập của búa đang quay với tốc độ cao. Sau va đập, vật liệu bị vỡ thành nhiều mảnh và bay với góc phản chiếu khoảng 90˚, tạo thành một vùng đập nghiền. Khi bay, các mảnh vỡ đập vào các tấm lót (được gắn vào các tấm phản hồi) trên thành vỏ máy, bật ngược trở lại đầu búa để nghiền tiếp, cứ như vậy cho đến khi đủ nhỏ lọt qua mặt sàng ra ngoài.
+
+Ưu điểm: hiệu suất năng lượng cao do máy chỉ phải dùng động cơ công suất tương đối nhỏ, năng suất khá cao.
+Nhược điểm: không thể tách được lớp vỏ lụa bám vào nhân do không cọ xát, hiệu quả tách vỏ đối với những quả cà phê có vỏ dính sát vào nhân, vỏ khi chà phải thật khô và giòn thì mới có thể đập vụn vỏ dẫn đến nhân khô quá mức cần thiết gây mất sản lượng nhân. Ngoài ra do búa đập mạnh vào hạt nhân cà phê làm bề mặt hạt bị móp, hình thức không đẹp (nhân cà phê khá cứng và dẻo nên dễ bị móp khi bị đập mạnh).
+→ KẾT LUẬN: chọn nguyên lý hoạt động của máy là nguyên lý ma sát kết hợp dao băm. Mặc dù công xuất động cơ cần lớn nhưng hiệu quả chà cao.
+Bộ phận phân loại:
+Phân loại bằng hệ thống sàn ống:
+Trong máy sàng ống, quá trình phân loại xảy ra khi quay ống sàng.
+Khi mặt sàng quay, hạt vật liệu được mặt sàng nâng lên cao do ma sát. Đến độ cao xác định, hạt vật liệu trượt xuống dưới, đồng thời trượt dọc theo trục của ống sàng về phía cửa xả. Trong quá trình trượt, trên mặt sàng, hạt vật liệu sẽ gặp lổ sàng và sẽ lọt qua nếu nhỏ hơn kích thước lỗ - chiều cao nâng của hạ phụ thuộc vào tốc độ quay của ống và không vượt quá giá trị giới hạn. Nếu lớn quá thì khi rơi, các hạt vật liệu sẽ đập vào nhau, làm hạt vật liệu vỡ vụn tạo phế phẩm.
+Ưu điểm:
+Mặt sàng có dạng hình trụ, hình nón hay hình lăng trụ, ống sàng hình trụ được dùng phổ biến để sàng và rửa các loại đá xây dựng khi khối lượng không lớn.
+Mặt sàng ống có cấu tạo đơn giản, làm vịêc không tiếng ồn, thời hạn sử dụng của mặt sàng ống cao hơn so với mặt sàng lưới.
+Nhược điểm:
+Vì hạt vật liệu chỉ có trượt trên mặt sàng nên cường độ phân loại không cao. Diện tích làm việc của mặt sàng thấp (khoảng 20% diện tích mặt sàng). Do vậy, hiệu quả sàng thấp (40-60%), năng suất thấp trong khi kích thước, trọng lượng lớn và tổn hao năng lượng nhiều.
+Máy sàng ống ít được sử dụng, trừ trường hợp cần thiết phải kết hợp để rửa vật liệu (có độ bẩn trung bình).
+Phân loại bằng hệ thống sàn rung:
+Có bộ gây rung có hướng 1 đặt cố định trên hộp sàn 2.
+Bộ gây rung gồm 1 trục cam (trên các trục có lắp ghép các bánh lệch tâm để gây rung) đặt song song quay cùng tốc độ và cùng chiều nhau, lực gây rung sẽ có hướng theo đường thẳng vuông góc trục. Góc giữa phương của lực gây rung và mặt sàng thường từ 35 độ đến 40 độ. Hộp sàng rung với các mặt sàng được tựa trên lò xo thẳng đứng, hoặc tựa trên các nhíp đặt vuông góc với hướng tác dụng của lực gây rung. Thông thường các máy sàng làm việc hiệu quả hơn khi hộp sàng tựa trên các lò xo.
+Ưu điểm:phân loại chuẩn xác theo kích thước của hạt, giá thành rẻ do dễ chế tạo, năng lượng tiêu thụ tương đối thấp, năng suất cao, ít bụi bẩn, hiệu suất phân loại cao. Hạt sau khi phân loại có độ đồng nhất cao về kích thước.
+Nhược điểm:có rung động tần số lớn nên kết cấu cần chịu rung và chống tháo, không phân loại được các hạt lép có kích thước lớn.
+Máy được chọn thiết kế là máy sàng rung động . Đây là kiểu máy sàng mà mặt sàng được đặt nằm ngang với bộ gây rung có hướng.
+Năng suất sàng là lượng sản phẩm được sàng trong một đơn vị thời gian.Hiệu quả và độ sạch là các chỉ tiêu quan trọng về chất lượng sàng.Các chỉ tiêu trên có sự phụ thuộc lẫn nhau,phụ thuộc vào các thông số máy sàng,thành phần hạt và phương pháp sàng,sàng ướt hay khô.
+Cấu tạo máy sàng rung bao gồm các cụm chính như: mặt sàng, hộp sàng, cơ cấu gây rung, lò xo hoặc chi tiết đàn hồi...
+Yêu cầu của máy thiết kế:
++Số mặt sàng: 2 mặt.
++Tiếp nhận được các hạt cà phê đầu vào có kích thước (4 - 10) mm.
++Năng suất máy 0,2¸0,8 t/h.
++Hiệu quả sàng cao.
++Khả năng chống bịt lỗ sàng tốt.
+Cách bố trí mặt sàng và ưu nhược điểm:
+Mặt sàng I nằm trước và nối tiếp sàng II:
+Ưu điểm: kết cấu đơn giản, giá thành rẻ, năng suất cao do chỉ có một mặt sàng dài nên nhân đi nhanh hơn.
+Nhược điểm: hiệu suất không cao nhân lớn sẽ che lấp một phần các lỗ sàng, các nhân nhỏ không rơi xuống hết (phần sàng sơ cấp ngắn).
+Mặt sàng I nằm trên, mặt sàng II nằm dưới:
+Ưu điểm: kết cấu gọn gàng do chiều dài ngắn lại, hiệu suất cao.
+Nhược điểm: kết cấu và điều chỉnh khá phức tạp.
+→ Ta chọn cách sắp xếp mặt sàng I nằm trên, mặt sàng II nằm dưới.
+Sau đây là một số phương án thiết kế máy sàng rung có hướng:
+Phương án 1: Máy sàng với bộ gây rung điện từ:
+Bộ phận đáng chú ý của loại máy sàng này là bộ gây rung điện từ. Cấu tạo của bộ phận này bao gồm 2 nam châm điện đặt ở 2 đầu, chính giữa 2 nam châm điện là bánh khối lượng bằng thép với 2 lò xo ở hai bên kiểu con lắc lò xo. Khi máy hoạt động,các nam châm điện liên tục đóng ngắt xen kẽ nhau với tần số bằng tần số mong muốn của sàng. Dưới tác dụng của lực điện trường, bánh thép sẽ được hút về phía nam châm đang hoạt động và sẽ dao động qua lại theo thứ tự hoạt động của các nam châm.
+Hai lò xo hai bên đóng vai trò ngăn chặn va đập, triệt tiêu lực quán tính khi bánh thép đảo chiều, đây mới là mục đích quan trọng nhất của lò xo. Như vậy, khi bánh thép dao động sẽ chỉ chịu tác động của lực điện từ,quá trình đảo chiều diễn ra nhanh gọn hơn.
+Kết cấu của máy được biểu diễn ở hình 7. Trong đó: 1-Thân máy; 2-lò xo; 3-Bộ gây chấn; 4-hai lò xo cùng độ cứng; 5- nam châm điện; 6- bánh thép.
+Ưu điểm: của loại máy sàng này là kết cấu rất gọn nhẹ, bộ gây chấn tháo lắp dễ dàng, không dầu mỡ nên có thể ứng dụng cho nhiều ngành khác như thực phẩm, dược phẩm...
+Nhược điểm: bộ gây rung chế tạo phức tạp.
+
+Hình 7
+Phương án 2: Máy sàng có bộ gây chấn là hai quả lệch tâm quay cùng chiều:
+Đây là kiểu máy sàng rung có hướng khá phổ biến, với bộ gây chấn gồm hai trục cam có bánh lệch tâm quay cùng tốc độ, cùng chiều nhau. Khi được truyền cơ năng từ động cơ tới, các bánh lệch tâm sẽ quay nhanh, gây chấn động làm rung mặt sàng, các vật liệu hợp cỡ sẽ lọt qua mắt sàng.Kết cấu máy sàng được biểu diễn trong hình 8. Trong đó: 1- động cơ; 2-bộ gây chấn; 3- lò xo; 4- thân sàng.
+
+Hình 8
+Ưu điểm: Kết cấu đơn giản, dễ vận hành, sửa chữa, các chi tiết chế tạo đơn giản, thích hợp dùng trong dây chuyền phân loại.
+Nhược điểm: So với máy sàng trước, không tìm ra nhược điểm so sánh nào đáng kể ngoài sự hạn chế về mở rộng khả năng công nghệ.
+Phương án 3: Máy sàng lắc lệch tâm:
+Bộ gây chấn động là cơ cấu tay quay - thanh truyền. Lực phát động từ động cơ truyền qua cơ cấu tay quay, thanh truyền đến thùng sàng. Kết cấu của máy sàng được thể hiện trong hình 9. Trong đó: 1- Thân máy; 2-nhíp; 3-tay quay; 4 - thanh truyền.
+Đối với máy sàng loại này, không tìm ra được ưu điểm vượt trội nào so với hai loại máy sàng đã nêu
+Hình 9
+Chọn phương án thiết kế máy:
+Từ 3 phương án trên, ta thấy chỉ có phương án 2 (máy sàng có bộ gây chấn là 2 quả lệch tâm quay cùng chiều) là phù hợp nhất với mục đích thiết kế và ứng dụng của máy. Do vậy quyết định chọn phương án này làm phương án thiết kế máy.
+Hệ thống gió:
+Cần có hệ thống gió vì gió giúp thổi đi bụi và giúp quá trình phân loại được tốt hơn.
+Phương án thổi:
+Ưu điểm: điều chỉnh lực thổi dễ dàng (tiết lưu cửa hút hoặc tốc độ quạt), điều chỉnh độ tập trung của luồng gió thổi đơn giản (bằng các phễu hứng gió), công suất quạt nhỏ.
+Nhược điểm: bụi bẩn bị thổi phát tán gây ô nhiễm nên cần bao kín khu vực làm việc của quạt.
+Phương án hút:
+Ưu điểm: hút sạch, bụi bẩn không thể phân tán gây ô nhiễm vì đều bị hút và lọc.
+Nhược điểm: muốn có được lực hút mạnh cần thiết kế tiết diện hút nhỏ hơn tiết diện xả để tăng tốc dòng khí ở cửa hút tạo áp xuất hút mạnh, như vậy để hút được nhiều bụi bẩn và vỏ cần mở rộng cửa hút => tăng công suất động cơ => tăng chi phí. Cấu tạo phức tạp.
+Phân loại bằng hệ thống thổi gió có máng hứng (máng giúp trải đều hạt để gió luồn qua tốt hơn).
+Ưu điểm: phân loại theo khối lượng của hạt chuẩn xác, năng suất phân loại cao, cấu tạo đơn giản.
+Nhược điểm: nhiều bụi bẩn nên hệ thống cần được ốp kín.
+→KẾT LUẬN: hệ thống phân loại bằng sàn rung và hệ thống gió có ưu nhược điểm bù xớt cho nhau vì vậy chúng em sẽ kết hợp sàng rung và hệ thống lại để tạo ra hệ thống sàng rung có thổi gió, toàn bộ hệ thống được ốp kín, sức gió được tiết lưu để tăng hiệu quả làm sạch, đồng thời khi hệ thống sàng hoạt động sẽ có hiệu ứng làm cho những hạt nhẹ, vỏ có xu hướng nổi lên trên bề mặt và di chuyển ngược lên trên tạo thuận lợi cho gió thổi. Do đó hệ thống sàng kết hợp gió và rung tần số cao sẽ mang lại hiệu quả làm sạch và phân loại tốt nhất.
+Nguyên lý hoạt động lựa chọn:
+Sơ đồ nguyên lý hoạt động của máy tách vỏ và phân loại cà phê.
+Nguyên lý hoạt động:
+Bản vẽ nguyên lý hoạt động:
+Nguyên lý hoạt động:
+Trước khi cho nguyên liệu vào phễu chúng ta khởi động: động cơ chính (1), động cơ quạt (3) và động cơ rung (4).
+Nguyên liệu cho vào phễu là cà phê khô nguyên vỏ (gồm hai loại là cà phê tươi được chà dập vỏ rồi phơi khô hoặc loại để nguyên quả tươi phơi thành quả khô. Máy sử dụng cả hai loại nguyên liệu này). Sau khi nguyên liệu được đưa vào phễu sẽ qua cửa nạp liệu đi vào buồng vít tải (2).
+Trong buồng vít tải (2), nguyên liệu liên tục được vít tải đẩy vào buồng chà. Vít tải vừa cung cấp nguyên liệu vừa góp phần đảm bảo nguyên liệu luôn lấp đầy buồng chà đáp ứng cho quá trình chà ma sát.
+Trong buồng chà gồm hai bộ phận chính:
+Dao băm vỏ (6): có nhiệm vụ cắt đi một phần quả khô mà không phạm vào nhân, sau một vòng quay của cối chà quả khô sẽ quay lại ở góc độ khác và bị cắt vỏ một lần nữa.
+Mặt chà lỗ (8): mặt chà có tiết diện hình vành khăn với các lỗ côn được xắp xếp so le nhằm tăng hiệu quả chà vỏ.
+Tại đây quả cà phê sẽ bị chà xát mạnh nhiều lần vào mặt chà lỗ làm cho lớp vỏ quả, vỏ thịt, vỏ thóc, vỏ lụa bị chà dập và tán nhỏ ra khi va chạm nhau. Trong khi đó nhân cứng và dẻo nên chịu được các lần chà xát này. Sau khi đã chà xong, đến cuối mặt chà lỗ các mảnh vỏ vỡ vụn sẽ lọt qua lỗ côn của mặt chà và rơi vào máng hứng phế phẩm, nhân và các mảnh vỏ lớn không lọt qua lỗ và được áp lực từ vít tải đẩy ra khỏi mặt chà, rơi vào phễu hứng để xuống họng thổi gió (9).
+Trong họng thổi gió (9): dưới tác dụng của trọng lực nhân cà phê bị hút rơi xuống, trong lúc đó gió sẽ luồn qua và thổi đi một phần bụi bẩn nhẹ lẫn trong nhân cà phê còn những vỏ nặng cùng nhân tiếp tục rơi xuống mặt sàng I (10).
+Mặt sàng rung I (10) được tạo rung động bằng động cơ rung (4) phía bên dưới (biên độ và tần số rung động có thể điều chỉnh tùy theo yêu cầu sàng). Mặt sàng liên tục rung động làm hỗn hợp nhân và vỏ nát liên tục rung động theo và trượt xuống theo độ dốc của sàngtrong lúc đó gió liên tục thổi luồn qua hỗn hợp nhân khi hỗn hợp rung và nhảy lên (gió được cung cấp bởi quạt gió chính (3), lực thổi được điều chỉnh sao cho thổi sạch vỏ nhưng không làm bay nhân theo). Hỗn hợp nhân và vỏ còn sót lại nhỏ hơn lỗ sàng I (10) rơi xuống mặt sàng II (11), nhân lớn sẽ trượt theo sàng vào máng hứng cấp I.
+Mặt sàng II (11) có lỗ sàng nhỏ hơn và gió thổi yếu hơn để đảm bảo những nhân nhỏ, nhân bị bể do hiệu xuất máy <100%không bị thổi đi mà tiếp tục được làm sạch. Nhân sạch trượt dọc theo sàng vào máng hứng cấp II trong khi đó vỏ nát và bụi nặng rơi xuống mặt hứng bụi (12) và trượt vào khu vực chứa bụi bẩn. Tất cả bụi bẩn và vỏ được loại ra đều bị gió thổi đến cuối mặt sàng rơi vào phễu hứng bụi để thu gom lại nhằm hạn chế tối đa bụi bẩn.
+Tính toán động học cho máy:
+Chọn các động cơ sơ bộ cho máy:
+Động cơ chính của máy:
+Tra bảng Động cơ điện không đồng bộ 3 pha rôto lồng sóc trang 19 Phụ Lục Thuyết Minh Chọn động cơ 3K112M4 công suất 4KW có số vòng quay 1460 vòng/phút.
+Động cơ quạt: 0,2 KW Động cơ rung: 0,734 KW
+Phânphối các tỉ số truyền:
+Trong đó:
+nđ/c: số vòng quay của động cơ
+nt/c: số vòng quay của trục chính
+Số vòng quay của trục chính:
+vòng/phút
+Công suất và momen xoắn của các trục:
+Công suất:
+Nt/c= Nđc × ηđ × ηol= 4×0,95×0,99 = 3,76 KW
+Momen xoắn của trục động cơ: (CT 3-53/55) sách TK CTM)
+Mđc = == 26164 N.mm
+Momen xoắn của trục chính:
+Mt/c = == 44885 N.mm
+Trục vít tải vật liệu:
+Đặc điểm kết cấu:
+Vít tải được sử dụng để vận chuyển vật liệu rời bên cạnh các loại máy vận chuyển khác. Nhưng vít tải có khác với chúng ở chổ độ chắc chắn cao và có thể vận chuyển các vật trong máng kín. Vít tải được sử dụng để vận chuyển theo phương ngang và đôi khi theo góc nghiêng không quá 15 ÷ 20° các loại vật liệu rời dạng bụi, dạng hạt và cục nhỏ.
+Ưu nhược điểm:
+Ưu điểm: cấu tạo đơn giản, giá thành không cao, kích thước bao ngang nhỏ, có khả năng vận chuyển các vật nóng, có khả năng chất tải và dỡ tải bất kỳ vị trí nào của máng, không có tổn thất vật liệu và không làm bẩn nhà xưởng do bụi nhờ có máng đậy kín, an toàn làm việc và bảo dưỡng.
+Nhược điểm: làm vở vụn và mài mòn vật liệu, chi phí năng lượng cao do sự khuấy trộn mạnh các phần tử suốt chiều dài của máng, năng suất tương đối thấp, do ma sát giữa vật liệu với máng, với cánh vít; do sự kẹt và đè nén các phần tử vật liệu trong các khe hở giữa máng và vít.
+Các bộ phận hợp thành:
+Máng của vít tải thường được chế tạo bằng thép, đôi khi được làm bằng gang thì nặng và đắt hơn được sử dụng để vận chuyển các vật liệu mài mòn hoặc vật liệu nóng.
+Nắp máng được chế tạo dạng tháo được, nắp và máng được chế tạo thành những đoạn riêng biệt được nối với nhau bằng mặt bích (đối với những vít tải có chiều dài lớn.)
+Trục vít thường là trục đặc hoặc trục ống. Người ta thường sủ dụng là trục vít liền đủ thành (trục vít có các loại: đủ thành có bề mặt vít liền, dải, có cánh, định hình). Thường thì trục vít được chế tạo một mối ren phải, ít khi dùng ren trái, trục vít hai mối ren và ba mối ren được sử dụng trong các băng tải cấp liệu.
+Tính toán động lực học cho máy:
+Tính toán thiết kế bộ truyền đai thang:
+Chọn loại đai. Giả thuyết vận tốc của đai V>5 m/s, có thể dùng đai loại A hoặc loại (bảng 5-13/93). Ta tính theo cả hai phương án và chọn phương án nào có lợi hơn.
+Tiết diện đai A Б
+Kích thước tiết diện đai a×h(mm) (bảng 5-11/92) 13×8 17×10,5
+Diện tích tiết diện F ( ) 81 138
+Định đường kính bánh đai nhỏ. Theo bảng 5-14/93 lấy
+D1 (mm) 100 140
+Kiểm nghiệm vận tốc của đai:
+, m/s 7,64 10,
+Tính đường kính D2 của bánh lớn:
+, mm 179 250
+Lấy theo tiêu chuẩn (Bảng 5-15/93) D2 180 250
+Số vòng quay thực của trục bị dẫn:
+, v/ph 799 801
+Số vòng quay sai lệch rất ít so với yêu cầu.
+Tỉ số truyền = 1,83 1,82
+Chọn sơ bộ khoảng cách trục A theo bảng 5-16/94
+, mm 216 300
+Tính chiều dài đai L theo khoảng cách trục A
+sơ bộ [CT 5-1/83] 879 1223
+Lấy L theo tiêu chuẩn, mm (Bảng 5-12/92 900 1250
+Kiểm nghiệm số vòng chạy u trong 1 giây:
+8,7 8,7
+Đều nhỏ hơn umax = 10
+Xác định chính xác khoảng cách trục A theo chiều dài
+đai đã lấy theo chiều dài tiêu chuẩn [CT 5-2/83] 226 313
+Khoảng cách A thỏa mãn điều kiện 5-19/94
+Khoảng cách nhỏ nhất, cần thiết để mắc đai
+Amin = A – 0,015.L, mm 213 294
+Khoảng cách lớn nhất, cần thiết để mắc đai
+Amax = A + 0,03.L, mm 253 350
+Tính góc ôm α1 [CT 5-3/83] 160° 160°
+Góc ôm thỏa mãn điều kiện α1
+

@@ -1,0 +1,212 @@
+100 MB Bao gồm tất cả file,.lưu đồ giải thuật... thuyết minh, bản vẽ nguyên lý, bản vẽ thiết kế, FILE lập trình, ĐỒ ÁN TỐT NGHIỆP ĐIỆN tử Ứng dụng của STEP MOTOR – DIRVER
+CHƯƠNG 1: GIỚI THIỆU SƠ LƯỢC VỀ ĐỘNG CƠ BƯỚC
+Động cơ bước (Stepmotor), đúng như tên gọi của nó, di chuyển trừng bước nhỏ một. Nghĩa là nó quay không phải liên tục, mà từng góc nhỏ một, mỗi bước như vậy ứng với 360/n độ. Có khả năng định vị bằng cách đểm số lượng xung cấp vào nó.
+Động cơ bước có thể được mô tả như là một động cơ điện một chiều không tiếp xúc và động cơ đồng bộ giảm tốc công suất nhỏ. Cụ thể, các mấu trong động cơ là stator, và rotor là nam châm vĩnh cửu hoặc là biến từ trở (nó là những khối răng làm bằng vật liệu nhẹ có từ tính).
+Nguyên lý hoạt động:
+Động cơ bước không quay theo cơ chế thông thường, chúng quay theo từng bước nên có độ chính xác rất cao về mặt điều khiển học. Chúng làm việc nhờ các bộ chuyển mạch điện tử đưa các tín hiệu điều khiển vào stato theo thứ tự và một tần số nhất định. Tổng số góc quay của rôto tương ứng với số lần chuyển mạch, cũng như chiều quay và tốc độ quay của rôto phụ thuộc vào thứ tự chuyển đổi và tần số chuyển đổi.
+Các động cơ và bộ điều khiển được thiết kế để động cơ có thể giữ nguyên bất kỳ vị trí cố định nào cũng như là quay đến bất kỳ vị trí nào. Hầu hết các động cơ bước có thể chuyển động ở tần số âm thanh, cho phép chúng quay khá nhanh, và với một bộ điều khiển thích hợp, chúng có thể khởi động và dừng lại dễ dàng ở các vị trí bất kỳ.
+Ứng dụng:
+Động cơ bước có thể được dùng trong hệ thống điều khiển vòng hở đơn giản;những hệ thống này đảm bảo cho hệ thống điều khiển gia tốc với tải trọng tĩnh,nhưng khi tải trọng thay đổi hoặc điều khiển ở gia tốc lớn, người ta vẫn dùng hệ điều khiển vòng kín với động cơ bước. Động cơ bước được ứng dụng nhiều trong ngành tự động hoá, chúng được ứng dụng trong các thiết bị cần điều khiển chính xác. Ví dụ: Điều khiển robot, điều khiển tiêu cự trong các hệ quang học, điều khiển định vị trong các hệ quan trắc, điểu khiển bắt, bám mục tiêu trong các khí tài quan sát, điều khiển lập trình trong các thiết bị gia công cắt gọt, điều khiển các cơ cấu lái phương và chiều trong máy bay...
+Trong công nghệ máy tính, động cơ bước được sử dụng cho các loại ổ đĩa cứng, ổ đĩa mềm, máy in...
+Các loại động cơ bước:
+Động cơ bước biến từ trở. (VARIABLE RELUCTANCE STEPPER MOTOR)
+Động cơ bước đơn cực.( UNIPOLAR STEPPER MOTOR)
+Động cơ bước lưỡng cực. (BIPOLAR STEPPER MOTOR)
+Động cơ bước hai dây song song. ( BIFILAR STEPPER MOTOR)
+Động cơ bước nhiều pha.
+Động cơ bước lai.( HYBRID STEPPING MOTOR)
+Động cơ bước biến từ trở
+Thông thường có 3 hoặc 4 cuộn dây được nối chung một đầu. Đầu chung đựơc nối với nguồn dương, các đầu còn lại cho thông với đất để quay Rotor. Cả Stator và Rotor đều có răng. Rotor được làm bằng vật liệu dẫn từ (sắt non) có từ trở thay đổi theo góc quay. Chiều quay của động cơ không phụ thuộc vào chiều dòng điện mà chỉ phụ thuộc vào thứ tự cấp điện cho các cuộn dây. Loại động cơ này có số bước lớn, tần số làm việc cao, chuyển động êm nhưng mômen đồng bộ nhỏ.
+Nguyên lý hoạt động:
+Hình – 1.1
+Dấu thập trong hình 1.1 là rotor của động cơ biến từ trở quay 30 độ mỗi bước. Rotor trong động cơ này có 4 răng và stator có 6 cực, mỗi cuộn quấn quanh hai cực đối diện. Khi cuộn 1 được kích điện, răng X của rotor bị hút vào cực 1. Nếu dòng qua cuộn 1bị ngắt và đóng dòng qua cuộn 2, rotor sẽ quay 30 độ theo chiều kim đồng hồ và răng Y sẽ hút vào cực 2. Để quay động cơ này một cách liên tục, chúng ta chỉ cần cấp điện liên tục luân phiên cho 3 cuộn. Theo logic đặt ra, trong bảng dưới đây 1 có nghĩa là có dòng điện đi qua các cuộn , và chuỗi điều khiển sau sẽ quay động cơ theo chiều kim đồng hồ 24 bước hoặc 2 vòng:
+Cuộn 1 1001001001001001001001001
+Cuộn 2 0100100100100100100100100
+Cuộn 3 0010010010010010010010010
+thời gian -->
+Hình dạng động cơ được mô tả trong hình 1.1, quay 30 độ mỗi bước, dùng răng rotor và số cực stator tối thiểu. Sử dụng nhiều cực và nhiều răng hơn động cơ quay với góc nhỏ hơn. Tạo mặt răng trên bề mặt các cực và răng trên rotor một cách phù hợp cho phép các bước nhỏ đến vài độ.
+Động cơ bước đơn cực
+Động cơ bước đơn cực có Rotor được cấu tạo từ nam châm vĩnh cửu. Chia thành các răng N, S xen kẽ. Stator được cấu tạo bởi 2 cuộn dây bố trí trực giao với nhau. Mỗi cuộn dây lại được chia thành 2 phần bố trí xuyên tâm đối. Giữa các cuộn dây này có một đầu ra để nối với nguồn dương. Động cơ loại này thường có 6 đầu ra. Đầu 1, 2 thường được nối với cực dương. Các đầu 1a, 1b, 2a và 2b được lần lượt nối đất sẽ quyết định chiều quay của động cơ.
+Nguyên lý hoạt động:
+Hình – 1.2
+Mấu 1 nằm ở cực trên và dưới của stator, còn mấu 2 nằm ở hai cực bên phải và bên trái động cơ. Rotor là một nam châm vĩnh cửu với 6 cực, 3 Nam và 3 Bắc, xếp xen kẽ trên vòng tròn.
+Để xử lý góc bước ở mức độ cao hơn, rotor phải có nhiều cực đối xứng hơn. Động cơ 30 độ mỗ bước trong hình là một trong những thiết kế động cơ nam châm vĩnh cửu thông dụng nhất.
+Như trong hình, dòng điện đi qua từ đầu trung tâm của mấu 1 đến đầu a tạo ra cực Bắc trong stator trong khi đó cực còn lại của stator là cực Nam. Nếu điện ở mấu 1 bị ngắt và kích mấu 2, rotor sẽ quay 30 độ, hay 1 bước. Để quay động cơ một cách liên tục, chúng ta chỉ cần áp điện vào hai mấu của đông cơ theo dãy.
+Mấu 1a 1000100010001000100010001 Mấu 1a 1100110011001100110011001
+Mấu 1b 0010001000100010001000100 Mấu 1b 0011001100110011001100110
+Mấu 2a 0100010001000100010001000 Mấu 2a 0110011001100110011001100
+Mấu 2b 0001000100010001000100010 Mấu 2b 1001100110011001100110011
+thời gian --> thời gian -->
+Nhớ rằng hai nửa của một mấu không bao giờ được kích cùng một lúc. Cả hai dãy nêu trên sẽ quay một động cơ nam châm vĩnh cửu một bước ở mỗi thời điểm. Dãy bên trái chỉ cấp điện cho một mấu tại một thời điểm, như mô tả trong hình trên; vì vậy, nó dùng ít năng lượng hơn. Dãy bên phải đòi hỏi cấp điện cho cả hai mấu một lúc và nói chung sẽ tạo ra một moment xoắy lớn hơn dãy bên trái 1.4 lần trong khi phải cấp điện gấp 2 lần.
+Vị trí bước được tạo ra bởi hai chuỗi trên không giống nhau,kết hợp 2 chuỗi trên cho phép điều khiển nửa bước,với việc dừng động cơ một cách lần lượt tại những vị trí đã nêu ở một trong hai dãy trên. Chuỗi kết hợp như sau:
+Mấu 1a 11000001110000011100000111
+Mấu 1b 00011100000111000001110000
+Mấu 2a 01110000011100000111000001
+Mấu 2b 00000111000001110000011100
+Thời gian -->
+Động cơ bước lưỡng cực
+Động cơ nam châm vĩnh cửu hoặc hỗn hợp hai cực có cấu trúc cơ khí giống y như động cơ đơn cực, nhưng hai mấu của động cơ được nối đơn giản hơn, không có đầu trung tâm. Vì vậy, bản thân động cơ thì đơn giản hơn, nhưng mạch điều khiển để đảo cực mỗi cặp cực trong động cơ thì phức tạp hơn. Minh hoạ ở hình 1.3 chỉ ra cách nối động cơ, trong khi đó phần rotor ở đây giống y như ở hình 1.2.
+Hình – 1.3
+Mạch điều khiển cho động cơ đòi hỏi một mạch điều khiển cầu H cho mỗi mấu; điều này sẽ được bàn chi tiết trong phần Các mạch điều khiển. Tóm lại, một cầu H cho phép cực của nguồn áp đến mỗi đầu của mấu được điều khiển một cách độc lập. Các dãy điều khiển cho mỗi bước đơn của loại động cơ này được nêu bên dưới, dùng + và ‐ đểđại diện cho các cực của nguồn áp được áp vào mỗi đầu của động cơ:
+Đầu 1a + ‐ ‐ ‐ + ‐ ‐ ‐ + ‐ ‐ ‐ + ‐ ‐ ‐ + + ‐ ‐ + + ‐ ‐ + + ‐ ‐ + + ‐ ‐
+Đầu 1b ‐ ‐ + ‐ ‐ ‐ + ‐ ‐ ‐ + ‐ ‐ ‐ + ‐ ‐ ‐ + + ‐ ‐ + + ‐ ‐ + + ‐ ‐ + +
+Đầu 2a ‐ + ‐ ‐ ‐ + ‐ ‐ ‐ + ‐ ‐ ‐ + ‐ ‐ ‐ + + ‐ ‐ + + ‐ ‐ + + ‐ ‐ + + ‐
+Đầu 2b ‐ ‐ ‐ + ‐ ‐ ‐ + ‐ ‐ ‐ + ‐ ‐ ‐ + + ‐ ‐ + + ‐ ‐ + + ‐ ‐ + + ‐ ‐ +
+thời gian ‐‐>
+Chú ý rằng những dãy này giống như trong động cơ nam châm vĩnh cửu đơn cực, ở mức độ lý thuyết, và rằng ở mức độ mạch đóng ngắt cầu H, hệ thống điều khiển cho hai loại động cơ này là giống nhau.
+Động cơ bước hai dây song song
+Động cơ có hai cuộn dây rotor và stator giống động cơ bước lưỡng cực, với mỗi cuộn dây được đặt riệng biệt theo từng rãnh hai đầu dây được nối song song với một cuộn dây khác. Kết quả là, tám đầu dây của động cơ bước hai dây song song giống như bốn đầu dây của động cơ bước lưỡng cực.
+Hình - 1.5
+Nguyên lý hoạt động
+Động cơ bước hai dây song song điều khiển giống như động cơ bước đơn cực hay động cơ bước lưỡng cực. Sử dụng động cơ giống như động cơ bước đơn cực thì ta đấu nối tiếp hai đầu dây của hai cuộn dây, để có một đầu nối chung giống như cuộn dây 1 hình 1.5. Muốn sử dụng giống như động cơ bước lưỡng cực thì ta đấu song song hai cuộn dây lại với nhau như cuộn dây 2 hình 1.5. Đấu song song cho phép hoạt động với dòng điện cao, còn đấu nối tiếp cho phép hoạt động với điện áp cao.
+Động cơ bước nhiều pha
+Một bộ phận các động không được phổ biến như những loại trên đó là động cơ nam châm vĩnh cửu mà các cuộn được quấn nối tiếp thành một vòng kín như hình 1.4.Thiết kế phổ biến nhất đối với loại này sử dụng dây nối 3 pha và 5 pha. Bộ điều khiển cần ½ cầu H cho mỗi một đầu ra của động cơ, nhưng những động cơ này có thể cung cấp moment xoắn lớn hơn so với các loại động cơ bước khác cùng kích thước. Một vài động cơ 5 pha có thể xử lý cấp cao để có được bước 0.72 độ (500 bước mỗi vòng).
+Nguyên lý hoạt động
+Hình – 1.4
+Với một động cơ 5 pha như trên sẽ quay mười bước mỗi vòng bước, như trình bày dưới đây:
+Đầu 1 + + + ‐ ‐ ‐ ‐ ‐ + + + + + ‐ ‐ ‐ ‐ ‐ + +
+Đầu 2 ‐ ‐ + + + + + ‐ ‐ ‐ ‐ ‐ + + + + + ‐ ‐ ‐
+Đầu 3 + ‐ ‐ ‐ ‐ ‐ + + + + + ‐ ‐ ‐ ‐ ‐ + + + +
+Đầu 4 + + + + + ‐ ‐ ‐ ‐ ‐ + + + + + ‐ ‐ ‐ ‐ ‐
+Đầu 5 ‐ ‐ ‐ ‐ + + + + + ‐ ‐ ‐ ‐ ‐ + + + + + ‐
+thời gian ‐‐>
+Ở đây, giống như trong trường hợp động cơ hai cực, mỗi đầu hoặc được nối vào cực dương hoặc cực âm của hệ thống cấp điện động cơ. Chú ý rằng, tại mỗi bước chỉ có một đầu thay đổi cực. Sự thay đổi này làm ngắt điện ở một mấu nối vào đầu đó (bởi vì cả hai đầu của mấu có cùng điện cực) và áp điện vào một mấu đang trong trạng thái nghỉ trước đó. Hình dạng của động cơ được đề nghị như hình 1.4, dãy điều khiển sẽ điều khiển động cơ quay 2 vòng.
+Động cơ bước lai
+Nguyên lý hoạt động của động cơ bước lai là sự kết hợp của động cơ bước biến từ trở và nam châm vĩnh cửu. Rotor của động cơ bước có rất nhiều răng giống như động cơ biến từ trở, và được giữ nhờ một trục từ là một vòng nam châm đồng tâm gắn trên trục. Các răng trên rotor quy định hướng cho nam châm, hướng thay đổi liên tục, dành được vị trí ưu tiên trong khe hở không khí. Đĩa nam châm có từ trường hãm tăng dần, đặc điểm của động cơ này là momen giữ và momen lực so với động cơ biến từ trở và nam châm vĩnh cửu.
+Các mạch điều khiển động cơ bước đơn giản Điều khiển động cơ biến từ trở
+Các chân A,B,C chịu trách nhiệm cung cấp tín hiệu điều khiển các MOSFET đóng mở tại từng thời điểm thích hợp để quay động cơ. Cấp tín hiệu điều khiển MOSFET có thể là một bộ điều khiển hoặc máy tính.
+Cuộn dây, lõi solenoil của động cơ đều là các tải cảm ứng. Như vậy, dòng điện qua cuộn dây không thể đóng ngắt tức thời mà không làm áp tăng đột ngột. Khi MOSFET điều khiển động cơ đóng, cho dòng điện đi qua làm dòng điện tăng chậm. Khi công tắc mở, sự tăng mạnh điện áp có thể làm hư MOSFET.
+Để khắc phục trường hợp trên ta sử dụng diode hoạt động ở tần số cao mắc song song với cuộn dây. Diode có khả năng dẫn toàn bộ dòng điện do từ trễ của cuộn dây sinh ra, khi MOSFET mở và dòng điện không đi qua cuộn dây.
+Mạch điều khiển động cơ bước đơn cực hay động cơ hỗn hợp
+Các chân A,B,C,D cung cấp các tín hiệu điều khiển cho MOSFET đóng mở tại từng thời điểm thích hợp để quay động cơ. Cấp tín hiệu điều khiển cho MOSFET có thể là một bộ điều khiển hoặc máy tính.
+Để giải quyết sự thay đổi độ tự cảm bất ngờ của cuộn dây khi MOSFET hở. Ta sử dụng bốn diode hoạt động ở tần số cao. Cuộn dây của động cơ có mối nối ở giữa, chúng hoạt động như một bộ chuyển đổi. Khi một đầu cuộn dây được đẩy lên thì đầu kia sẽ bị kéo xuống và ngược lại. Khi một đầu MOSFET hở thì lập tức đầu đó được nối với nguồn dương nhờ diode và ngay lập tức đầu kia phải được nối với GND nhờ diode.
+Điều khiển động cơ bước lưỡng cực
+Đối với động cơ bước lưỡng cực không có đầu nối chung trên các cuộn dây. Vì thế để đảo chiều từ trường sinh ra bởi cuộn dây ta phải đảo chiều dòng điện qua cuộn dây. Ta sử dụng một mạch cầu H trên mỗi cuộn dây với bốn MOSFET được cấp tín hiệu điều khiển bởi các chân A1,B1,C1,D1. Bốn diode hoạt động giống như mạch điều khiển động cơ đơn cực.
+Với bốn MOSFET thay nhau đóng mở ta có 16 mode hoạt động, trong đó có 7 mode ở chế độ ngắn mạch. Các mode sau thường được sử dụng:
+Mode thuận: động cơ quay thuận với việc A1 và C1 đóng.
+Mode nghịch: động cơ quay nghịch với việc B1 và D1 đóng.
+Giới thiệu vexta motor PK596AE:
+Model PK596AE
+
+SPECIFICATIONS:
+Product Line (Nhà sản xuất) VEXTA ® Motor Type (Loại motor) 5-Phase Lead Wires (Số dây nối) 5 Current per Phase (A/phase) (Dòng cung cấp cho mỗi pha) 1.4 Rotor Inertia (oz-in2) (Quán tính Roto) 7.7 oz-in2 Maximum Holding Torque (lb-in) (Lực xoắn tối đa) 18.13 Step Angle (Góc độ của bước)
+
+CHƯƠNG 2: GIỚI THIỆU VỀ BỘ DRIVER VEXTA UDX5114
+Bộ Driver UDX5114 này thuộc series UDP gồm có các loại sau: UDX5128, UDX5150, UDX5107, UDX5114, UDX5105.
+CW pulse signal input terminal:
+Đầu vào tín hiệu xung điều khiển quay theo chiều kim đồng hồ
+CCW pulse signal input terminal:
+Đầu vào tín hiệu xung điều khiển quay ngược chiều kim đồng hồ
+Output current OFF signal input terminal:
+Đầu vào tín hiệu để ngừng cung cấp dòng Hold off cho motor.
+Excitation timing signal output terminal:
+Tín hiệu hiển thị trạng thái kích motor dựa theo những thiết lập ban đầu của driver.
+Overheat signal output terminal:
+Tín hiệu ra khi nhiệt độ của tấm tản nhiệt vượt quá 70oC, motor se tự động dừng lại.
+Motor terminal:
+Các điểm kết nối tín hiệu điều khiển motor.
+Power supply terminal:
+Nguồn cung cấp cho driver 100V, 50~60Hz
+Frame grounding terminal:
+Điểm nối vỏ hợp, nối với mấu FG của bộ điều khiển.
+STEP ANGEL: Điều chỉnh độ của bước. Khi bật sang FULL thì driver sẽ thiết lập 0.720/step (ứng với 500 xung 1 vòng). Nếu bật sang HALF thì sẽ là 0.360/step (ứng với 1000 xung 1 vòng)
+Biến trở RUN & STOP: Dùng để chỉnh dòng điều khiển motor.
+CW/CCW Pulse Input:
+Internal Circuit and wiring: Sơ đồ mạch và dây nối
+Ký hiệu dùng để chỉ 2 xung đầu vào, nhưng ở đây dùng để chỉ 1 xung đầu vào.
+Điện trở R có thể không cần sử dụng khi V0=5V. Nếu V0>5V thì sử dụng R sao cho dòng vào khoảng 20mA.
+Pulse wave:
+Motor quay tại điểm xung cạnh lên.
+Áp xung vào khoảng 4~5V là xung cao H, và 0~1v là xung thấp L
+Xung vào có độ rộng xung ít nhất là 5µS, số lần lên và xuống của xung là 2 µS
+Thời gian đổi chiều quay tối thiểu là 10 µS
+Pulse Input System (Hệ thống xung đầu vào):
+2- Pulse Input system (2 xung đầu vào):
+Hệ thống bao gồm 2 dạng xung là xung quay thuận và xung quay ngược. Khi xung CW cấp vào thì motor quay thuận theo chiều kim đồng hồ, và sẽ quay ngược chiều kim đồng hồ nếu ta cấp xung CCW.
+Output Current Off ( H.OFF) input ( Ngõ vào tín hiệu H.OFF):
+Internal Circuit and wiring (mạch điện và sơ đồ đấu dây bên trong):
+Khi tín hiệu tắt dòng ngõ ra ở mức L thì sẽ không có dòng điện vào motor ( thắng được nhả ra) và trục motor có thể quay dưới tác động ngoại lực. Sử dụng chức năng này khi trục motor cần di chuyển hoặc điều chỉnh bằng tay. Trong khi motor hoạt động thì tín hiệu luôn được set lên mức H. Nếu không cần sử dụng tới thì không kết nối.
+Khi ta bật từ On sang Off thì pha của motor không thay đổi khi tín hiệu Off được xuất ra.
+Excitation Timing Output ( Ngõ ra định thời kích):
+Vo từ 5v ~ 24v, dòng cấp vào khoảng 10mA.
+Tín hiệu kích định thời để chỉ trạng thái kích của motor tương ứng với thiết lập ban đầu.
+Overheat (O.H) Output ( Ngõ ra tín hiệu quá nhiệt):
+Tín hiệu quá nhiệt sẽ xuất ra khi nhiệt độ của tấm tản nhiệt vượt quá 700C. Tín hiệu xuất ra ở mức L. Đèn báo quá nhiệt sáng khi xuất tín hiệu.
+Nếu chức năng tự động tắt ngõ ra được thiết lập lúc này thì dòng ra motor sẽ xuống 0 và motor sẽ tự động dừng.
+Khi tín hiệu quá nhiệt xuất ra thì phải giải nhiệt cho driver
+Tín hiệu quá nhiệt sẽ tự động ngưng khi nhiệt độ bên trong của driver giảm xuống.
+..................................................
+Ở đây ta để mặc định theo nhà máy. Sau đó ta nhấn phím “SET” màn hình sẽ hiển thị “P.no-2”. Rồi ta nhấn phím “MODE” cho đến khi màn hình hiển thị “no-1”.
+Nhấn nút “RUN” trên panel điều khiển động cơ sẽ quay đúng 1 vòng, khi bộ điều khiển cấp xung cho động cơ chạy thì chữ “no-1” trên màn hình sẽ sáng nhấp nháy cho biết là bộ điều khiển đang hoạt động .
+Tương tự ta chuyển qua chế độ “half step” và ấn nút “RUN” trên panel động cơ sẽ quay nửa vòng vì thông số cài đặt vẫn là 500 xung. Làm các bước tương tự như trên và cài đặt lại là 1000 xung động cơ sẽ quay được 1 vòng.
+Bài thí nghiệm 3: Cài đặt MAX số xung cấp cho động cơ và thay đổi tốc độ động cơ. Cài đặt cho động cơ chạy ở các chế độ khác nhau.
+Giải:
+Ở bài này ta giới hạn cài đặt cho động cơ chạy ở 2 mức chế độ khác nhau “p.no-1” và “p.no-2”.
+Thực hiện tương tự các bước cài đặt như “Bài 1” cho đến bước cài đặt tốc độ xung hoạt động. Nhưng ở phần thiết lập thông số cấp xung cho động cơ ta nhấn phím “DOWN” để cài đặt số xung là “99999” và cài đặt tốc độ xung là “100” tương ứng với 10000Hz.
+Sau khi đặt tốc độ xung ta nhấn phím “SET” màn hình sẽ hiển thị “p.no-2”.
+Ta nhấn phím “SET” và cài đặt số xung cấp cho động cơ, tốc độ xung hoạt động tương tự như các bước ở chế độ “p.no-1”. Ở chế độ này ta sẽ đặt số xung cấp cho động cơ tương tự như chế độ 1 là “99999” xung và tốc độ của động cơ sẽ là “200” tương ứng với 20000Hz.
+Sau khi đã thiết lập xong các thông số cho chế độ 2 ta nhấn phím “MODE” cho đến khi mà hình hiển thị “no-1”.
+Nhấn phím “START” trên panel điều khiển, bộ điều khiển sẽ hoạt động cấp xung cho động cơ hoạt động với tốc độ xung thiết lập ở chế độ 1 và màn hình sẽ hiển thị nhấp nháy “no-1”. Sau khi động cơ dừng nhấn phím “START” một lần nữa động cơ sẽ hoạt động với thông số thiết lập ở chế độ 2 và màn hình sẽ hiển thị nhấp nháy “no-2”.
+Quan sát và thấy ở chế đọ “no-2” ta thấy động cơ quay nhanh hơn và thời gian động cơ thực hiện hết số vòng quay cũng nhanh hơn.
+Bài thí nghiệm 4: Cài đặt cho động cơ quay thuận CW, quay ngược CCW và sử dụng chế độ chạy liên tục của bộ điều khiển. Thay đổi chỉ số dòng điện cấp cho động cơ để làm tăng hoặc giảm mô men của động cơ.
+Giải:
+Ở các bài tập trên các thông số cài đặt cho động cơ được thực hiện ở chế độ chạy thuận – CW. Cài đặt cho động cơ chạy nghịch cũng cài tương tự như các bước ở trên, nhưng ở bước cài đặt thông số tốc độ xung hoạt động cấp cho động cơ ta sẽ cài đặt ở chế độ âm.
+Nhấn phím “DOWN” để cài đặt tốc độ xung, màn hình sẽ hiển thị ký hiệu “-“ trước chữ số.
+Trong phần này thiết lập bộ điều khiển hoạt động ở 2 chê độ “p.no-1” và “p.no-2”. Ở chế độ 1 cài đặt tốc độ xung là “100” chạy thuận - CW , và ở chế độ 2 đặt tốc độ xung là “-100” chạy nghịch - CCW.
+Nhấn phím “MODE” cho bộ điều khiển trở về chế độ hoạt động, màn hình hiển thị là “no-1”. Sử dụng công tắc gạt “CW” và “CCW” để động cơ hoạt động ở chế độ liên tục.
+Chế độ 1 là chạy thuận - CW, ta gạt công tắc về vị trí CW động cơ sẽ quay thuận và màn hình sẽ hiển thị nhấp nháy chữ “SCAN”.
+Khi gạt công tắc về vị trí OFF màn hình sẽ hiển thị “no-2”
+Chế độ 2 là chạy nghịch - CCW, ta gạt công tắc về vị trí CCW động cơ sẽ quay nghịch và màn hình sẽ hiển thị nhấp nháy chữ “-SCAN”.
+Khi gạt công tắc về vị trí OFF màn hình sẽ hiển thị “no-1”.
+Lưu ý: Khi sử dụng chế độ này, tương ứng với chiều quay của động cơ được thiết lập trên từng chế độ mà ta gạt công tắc theo vị trí quay thuận hay nghịch tương ứng.
+Thay đổi chỉ số dòng điện cấp cho động cơ để thay đổi mô-men của động cơ. Sử dụng vít đầu nhỏ để xoay biến trở “RUN” ở trên bảng panel. Xoay về bên trái sẽ hạn chế dòng vào của động cơ, động cơ sẽ quay mượt và ít rung hơn nhưng mô-men yếu, dễ bị trượt khi gặp tải nặng. Xoay về bên phải sẽ làm tăng dòng cấp cho động cơ à làm cho mô-men tăng nhưng động cơ hoạt động rung hơn và chạy không mượt.
+Bài thí nghiệm 5: Sử dụng chức năng “TEST” của bộ điều khiển để kiểm tra hoạt động của động cơ.
+Giải:
+Chức năng test của động cơ là chức năng dùng để kiểm tra hoạt động của động cơ xem đã hoạt động đúng như các thông số đã được thiết lập ở các chế độ hoạt động hay chưa, sử dụng chức năng này động cơ sẽ hoạt động mà không cần dùng các phím nhấn điều khiển bên ngoài mà sẽ hoạt động trực tiếp trên bộ điều khiển.
+Nhấn phím MODE để vào chế độ TEST. Sử dụng các phím “UP” và “DOWN” để lựa chọn các chế độ TEST.
+Khi muốn động cơ chạy ở chế độ nào đó trong các kiểu chế độ trên sử dụng nút nhấn “SET” để cho động cơ hoạt động.
+Bài thí nghiệm 6: Sử dụng chức năng thay đổi số xung và tốc độ xung hoạt động để cài đặt vận tốc của động cơ (vòng/phút) theo 2 chế độ half –full. Ví dụ: Cài đặt cho động cơ hoạt động ở tốc độ 30vòng/phút.
+Giải
+Đầu tiên ta cài đặt cho động cơ hoạt động ở chế độ half-step:
+Gạt công tắc sang chế độ half. Ở chế độ half động cơ quay 1 vòng/giây với số xung mặc định cấp cho động cơ là 1000 và tốc độ xung là 1000Hz = 1 giây (tương ứng với tốc độ xung cài đặt trong bộ điều khiển là 10). Vậy ta có:
+1vòng/giây => 1000 Hz
+30vòng/phút = 0.5vòng/giây => A Hz
+A = 0.5*1000= 500 Hz
+Động cơ hoạt động ở chế độ full-step:
+Gạt công tắc sang chế độ full. Ở chế độ full động cơ quay 1 vòng/giây với số xung mặc định cấp cho động cơ là 500 và tốc độ xung là 1000Hz = 1 giây (tương ứng với tốc độ xung cài đặt trong bộ điều khiển là 10). Vậy ta có tốc độ xug cài đặt cho động cơ là 500Hz, chỉ thay đổi số xung cấp cho động cơ.
+Bài thí nghiệm 7: Cài đặt tăng giảm vận tốc khởi động của động cơ.
+Giải.
+Đầu tiên ta chọn mode “P.no-1”
+Sau đó nhấn đồng thời 2 phím “UP” và “SET” trong khoảng hơn 1giây. “Su-Sd” sẽ được hiển thị. Nhấn phím “Set” và bắt đầu cài đặt.
+Nhấn phím “UP” và “DOWN” để thay đổi giá trị. Thiết lập mặc định của nhà máy là 30ms/Khz.
+Nhấn phím “SET” để đặt giá trị trên màn hình. Bộ điều khiển sẽ tiến hành thiết lập tốc độ xung khởi động.
+Bài thí nghiệm 8: Sử dụng chức năng trở về vị trí cơ học ban đầu của bộ điều khiển.
+Giải
+Trước khi bắt đầu sử dụng chức năng này ta chỉnh lại thông số SU-sd, Vs, Ho- Vr để thấy rõ cách thức hoạt động.
+Thông số:
+Su-Sd : 50
+Vs: 2
+Ho-Vr: -70
+-1) Chọn chế độ hoạt động ( return to mechanical home):
+Cấp tín hiệu pin 1 (nút Return Home trên panel) lên mức L để cho “Ho” hiển thị.
+-2) Khởi động chế độ:
+Cấp tín hiệu khởi động bằng cách set pin 6 ( nút Start trên panel) lên mức H
+Trong suốt quá trình đó thì “ Ho” nhấp nháy.
+-3) Hoàn tất quá trình:
+Khi “ Ho.End” xuất hiện thì return to mechanical home kết thúc.
+Đường đặc tính của chế độ:
+Phương thức hoạt động:
+Khi được kích hoạt, motor sẽ bắt đầu hoạt động theo chiều đã thiết lập trong bộ điều khiển xung. (mặc định theo chiều CCW)
+Khi điểm Homels được phát hiện thì motor giảm tốc và quay theo chiều ngược lại so với chiều hiện tại với tốc độ VS
+Khi điểm homels được phát hiện lần thứ 2 thì motor bắt đầu đổi chiều quay lần nữa và quay với vận tốc VS
+Khi điểm Homels được phát hiện lần thứ 3 thì motor dừng lại.
+CHƯƠNG 6: KẾT LUẬN
+Những kết quả đạt được:
+Nắm được nguyên lý hoạt động và ứng dụng của động cơ bước. Thiết kế và hoàn thiện mô hình kit thí nghiệm STEP MOTOR và DRIVER. Tìm hiểu và sử dụng bộ cấp xung để cấp xung cho driver điều khiển động cơ hoạt động. Soạn thảo các bài thí nghiệm thực hành kit thực tập.
+Những kết quả chưa đạt được:
+Chưa thiết kế được mô hình điều khiển bàn trục vít bằng STEP MOTOR. Chưa hiển thị được tốc độ quay và số vòng quay của động cơ.
+Hướng phát triển:
+Thiết kế giao tiếp với máy vi tính sử dụng vi điều khiển để cấp xung cho động cơ bước hoạt động. Lập trình PLC cấp xung điều khiển động cơ bước. Sử dụng động cơ bước để điều khiển băng tải.
+DANH MỤC TÀI LIỆU THAM KHẢO
+[1] Giáo sư Douglash W.Jones (Sách dịch), Tài liệu hướng dẫn điều khiển động cơ bước, Đại học Bách Khoa thành phố HCM.
+[2] Oriental motor U.S.A CORP, Operating manual.

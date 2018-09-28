@@ -1,0 +1,369 @@
+Mục lục Thiết kế, chế tạo mô hình tàu đệm khí
+Mục lục. 1
+LỜI NÓI ĐẦU.. 5
+PHẦN I: NGHIÊN CỨU, THIẾT KẾ, CHẾ TẠO MÔ HÌNH.. 7
+TÀU ĐỆM KHÍ7
+CHƯƠNG I. TỔNG QUAN VỀ TÀU ĐỆM KHÍ7
+1.1. Lý do chọn đề tài.7
+1.2. Giới thiệu về lịch sử phát triển của tàu nói chung và tàu đệm khí nói riêng.9
+1.2.1. Lịch sử phát triển tàu thủy. 9
+1.2.2. Lịch sử 300 năm của tàu đệm khí –Hovercraft.11
+1.3. Tàu đệm khí và nguyên lý hoạt động của tàu đệm khí17
+PHẦN II: TÍNH TOÁN, THIẾT KẾ, CHẾ TẠO MÔ HÌNH TÀU.. 19
+CHƯƠNG II. CƠ SỞ CHỌN VẬT LIỆU VÀ TÍNH BỀN THÂN TÀU.19
+2.1. Thép đóng tàu.19
+2.2. Kim loại màu. 22
+2.3. Thép độ bền cao. 22
+2.4. Hợp kim nhôm.. 25
+2.5. Gỗ. 28
+2.6. Vật liệu Composite. 30
+2.6.1. Khaùi nieäm, phaân loaïi, öu nhöôïc ñieåm.31
+Mục lục 1 LỜI NÓI ĐẦU 5 PHẦN I: NGHIN CỨU, THIẾT KẾ, CHẾ TẠO MƠ HÌNH 7 TÀU ĐỆM KHÍ 7 CHƯƠNG I. TỔNG QUAN VỀ TÀU ĐỆM KHÍ 7 1.1. Lý do chọn đề ti. 7 1.2. Giới thiệu về lịch sử pht triển của tàu nói chung và tàu đệm khí nĩi ring. 9 1.2.1. Lịch sử pht triển tu thủy 9 1.2.2. Lịch sử 300 năm của tàu đệm khí –Hovercraft. 11 1.3. Tàu đệm khí và nguyên lý hoạt động của tàu đệm khí 17 PHẦN II: TÍNH TỐN, THIẾT KẾ, CHẾ TẠO MƠ HÌNH TU 19 CHƯƠNG II. CƠ SỞ CHỌN VẬT LIỆU V TÍNH BỀN THN TU. 19 2.1. Thép đóng tàu. 19 2.2. Kim loại mu 22 2.3. Thép độ bền cao 22 2.4. Hợp kim nhơm 25 2.5. Gỗ 28 2.6. Vật liệu Composite 30 2.6.1. Khái niệm, phân loại, ưu nhược điểm. 31 2.6.1.1. Khái niệm 31 2.6.1.2. Phân loại 32 2.6.1.3. Ưu –nhược điểm của vật liệu FRP 34 2.6.2. Vật liệu Composite dùng trong đóng tàu 35 2.6.2.1. Vật liệu nền (nhựa) 35 2.6.2.2. Vật liệu cốt (vật liệu gia cường) 36 2.6.2.3. Chất xúc tác 37 2.6.3. Cơ học vật liệu composite 38 2.6.3.1. Tấm Composite đơn hướng 38 2.6.3.2. Tấm trực hướng 41 2.6.4. Phân tích độ bền kết cấu thn tu Composite 43 2.6.4.1. Khái quát bài toán phân tích độ bền kết cấu thn tu 43 2.6.4.2. Bài toán độ bền chung thân tàu 45 2.6.4.3. Mô hình hoá kết cấu 46 2.6.4.4. Mô hình hoá tải trọng tác dụng 48 2.6.4.5. Xác định ứng suất, biến dạng 48 2.6.4.6. Kiểm tra, đánh giá độ bền 52 2.6.5. Phân tích độ bền cục bộ kết cấu đáy tàu Composite 53 2.6.5.1. Đặc điểm kết cấu đáy tàu Composite 53 2.6.5.2. Mô hình hoá kết cấu đáy tàu Composite 54 2.6.5.3. Mô hình hoá tải trọng tác dụng 57
+CHƯƠNG III. Lựa chọn phương pháp chế tạo vỏ tàu bằng composite 62
+3.1. Phương pháp chế tạo thủ công.62
+3.2. Phương pháp phun hỗn hợp composite.63
+3.4. Phương pháp đùn ép.65
+3.5. Phương pháp đúc chuyển nhựa.66
+3.6. Phương pháp đúc chân không.67
+CHƯƠNG IV. THIẾT KẾ KẾT CẤU TÀU ĐỆM KHÍ69
+4.1. Thông số yêu cầu.69
+4.2. Ước tính sơ bộ khối lượng.69
+4.3. Các yêu cầu đối với kích thước chính của tàu đệm khí.70
+4.4. Xác đinh các kích thước và các yếu tố hình học của tàu đệm khí thiết kế.72
+4.4.1. Tính sơ bộ lượng chiếm nước D (tấn) khi tắt váy. 73
+4.4.2. Lựa chọn chiều dài Lc, rộng Bc, chiều cao váy Hsk cho tàu thiết kế.74
+4.4.3.Xác định các hệ số hình dáng.75
+4.4.3.1.Lựa chọn hệ số diện tích mặt đường nước (Cw)75
+4.4.3.2. Vẽ đường hình lý thuyết.75
+4.5. Bố trí hệ thống tạo lực nâng đẩy.77
+4.6. Hệ thống lái, điều chỉnh hướng. 78
+4.7. Cabin lái79
+4.8. Bố trí chung tàu đệm khí81
+CHƯƠNG V. ĐỘNG LỰC HỌC CỦA TÀU ĐỆM KHÍ84
+5.1. Khí động học. 84
+5.2 Ưu điểm của hệ thống đệm khí84
+5.3 Kết cấu động học của tàu đệm khí.84
+5.4.Tổng quan về quạt.85
+5.4. Các thông số cơ bản. 85
+5.5 Tính toán quạt.89
+5.5.1 Tính toán lực đẩy và lựa chọn động cơ :90
+5.5.2 Công suất của quạt đẩy.92
+5.6 Các thông số cơ bản của quạt93
+5.6.1. Phương trình liên tục.96
+5.6.2. Phương trình năng lượng.97
+5.6.3. Phương trinh mômen động lượng. 98
+5.6.4. Phương trình lưu số. 100
+5.6.5. Định lý Jukốpxki101
+5.6.6. Hệ số khí động lực. 104
+5.6.7. Kích thước các đường dòng. 105
+5.6.8. Xác định vận tốc vòng. 106
+5.6.9 Xác định vận tốc vòng tuyện đối107
+5.6.10 Xác định hướng của vận tốc ở vô cực. 108
+5.6.10.1. Xác định thành phần vận tốc hướng trục ca1.108
+5.6.10.2. Xác định hướng của vận tốc ở vô cực b¥.109
+5.6.11. Xác định góc vào b1111
+5.6.12. Xác định góc ra b2113
+5.6.13 Xác đinh vận tốc w¥. 114
+5.6.14 Xác định số cách bánh công tác. 114
+5.6.15 Xác đinh bước lưới115
+5.6.16. Xác định chiều dài cánh. 116
+5.6.17. Hình dạng prôfin cánh. 117
+5.6.18 Xác định lực nâng cánh cy124
+5.6.19 Xác định hệ số lực cản cx126
+5.6.20. Xác định góc tới δ. 127
+5.6.21. Xác định lại góc nâng λ. 128
+5.6.22 Xác định góc đặc cánh βp129
+5.6.23 Xác định chiều dày tương đối của prôfin. 130
+5.7. Tìm hiểu về váy khí133
+5.7.1. Các loại váy khí133
+5.7.2.Vật liệu chế tạo váy đệm khí134
+5.8 Xác định đường kính trục.135
+5.9 Tính toán bộ truyền đai136
+PHẦN III. KẾT LUẬN.. 142
+TÀI LIỆU THAM KHẢO.. 144
+
+LỜI NÓI ĐẦU Thiết kế, chế tạo mô hình tàu đệm khí
+Trong những năm gần đây ngành công nghiệp tàu thủy nước ta đang từng bước phát triển và dần chiếm được vị trí trong nước và ngoài nước.Trước đây con tàu đóng ra với mục đích là vận chuyển hàng hóa là chủ yếu thì bây giờ mục đích sử dụng của con tàu được đa dạng lên rất nhiều.
+Hiện nay ngành công nghiệp tàu thủy đã cho ra rất nhiều sản phẩm đa dạng như: tàu, thuyền, ca nô, xuồng máy,…hoạt động trong nhiều lĩnh vực: quân sự, du lịch, kinh doanh, tìm kiếm cứu nạn,…
+Các tàu thuyền thương mại đã đạt được tốc độ vào khoảng 40 knots.Trong những năm thập niên 20 của thế kỷ trước các tàu thuyền lớn đã đạt được tốc độ này. Đây là vấn đề cực kỳ khó khăn cho bài toán thiết kế giảm sức cản, cải thiện hệ thống động lực. Lực cản thủy động là nguyên nhân chính quyết định tốc độ tối đa của tàu thuyền. Khả năng có thể giảm thiểu được lực cản sóng đó là phủ kín hay cô lập phần thân tàu sao cho nó không tiếp xúc với mặt nước. Ý tưởng này gắn liền với một số phương tiện vận chuyển mới ra đời như : tàu trên gối khí (ACV), tàu đệm khí sử dụng hiệu ứng mặt thoáng(SES), tàu bay ứng dụng hiệu ứng mặt đất (WIG hay PARWING).
+ACV ra đời với ý tưởng thiết kế tàu có một lớp đệm khí ở giữa phần thân tàu và mặt nước.Với thiết kế này thì phần thân tàu sẽ cách mặt nước một khoảng thích hợp sao cho lực cản sóng được giảm tối đa.
+Hiện nay khả năng sử dụng “tàu đệm khí” của người Việt Nam thực sự chỉ mới bắt đầu. Tại TP.HCM, đã có một vài công ty tư nhân đề cập tới việc thiết kế và chế tạo thử tàu đệm khí nhẹ 2 chỗ ngồi nhưng chưa có nơi nào đi đến kết quả là một thử nghiệm cuối cùng.Tuy các đơn vị này gặp ít nhiều khó khăn trong quá trình triển khai các nghiên cứu nhằm đi đến một thiết kế hoàn chỉnh, nhưng họ cũng đã mạnh dạn đầu tư để vừa thiết kế vừa chế tạo với kinh phí khá lớn.
+Trước những yêu cầu trên, để tạo điều kiện tiếp cận thực tế, làm quen với việc giải quyết vấn đề một cách cụ thể, chúng em đã được Th.S. Tạ Thị Thúy Hương giao cho đề tài “Thiết kế, chế tạo mô hình tàu đệm khí”. Nghiên cứu này được thực hiện với mục tiêu tìm kiếm một giải pháp kĩ thuật phù hợp nhằm tiến tới mở rộng phát triển hơn nữa ở nước ta.
+Qua thời gian tìm hiểu,được sự hướng dẫn tận tình của cô giáo Th.S.Tạ Thị Thúy Hương và sự cộng tác cũng như cố gắng của cả nhóm, chúng em đã hoàn thành nội dung của đề tài.
+Tuy nhiên vì thời gian và kiến thức có hạn nên trong quá trình thực hiện không thể tránh khỏi những thiếu sót. Kính mong được sự góp ý của các thầy cô giáo để chúng em được hoàn thiện hơn về kiến thức.
+PHẦN I: NGHIÊN CỨU, THIẾT KẾ, CHẾ TẠO MÔ HÌNH
+TÀU ĐỆM KHÍ
+CHƯƠNG I. TỔNG QUAN VỀ TÀU ĐỆM KHÍ
+1.1. Lý do chọn đề tài.
+Với vị trí địa lý thuận lợi và có nguồn tài nguyên khoáng sản phong phú của nước ta, không những có ý nghĩa lớn với phát triển kinh tế, xã hội mà còn có tầm quan trọng trong việc bảo vệ an ninh quốc phòng khu vực. Trong lịch sử đấu tranh dựng nước và giữ nước của dân tộc, nước Việt Nam ta luôn luôn bị nhiều thế lực đế quốc nhòm ngó hòng xâm chiếm những nguồn tài nguyên thiên nhiên mà biển, đảo mang lại và thậm chí là xâm chiếm cả đất nước nếu có thể. Chính vì vậy, chúng ta không ngừng theo sát sự phát triển của các nước tiên tiến về khoa học. Trên thế giới hiện nay đã và đang phát triển rất nhiều phương tiện phục vụ cho chiến tranh và bảo vệ chủ quyền biển, đảo. Một trong số đó là sự hình thành và phát triển của “tàu đệm khí_Hovercraft”một loại tàu có khả năng lơ lửng trên không, đi trên mặt nước, đầm lầy, băng tuyết…Nắm bắt được tình hình đó, trong khi Việt Nam ta mới chỉ đang biết đến, nghiên cứu và thiết kế mô hình “tàu đệm khí” còn sơ khai và nhiều vấn đề chưa được giải quyết. Đó là lý do quan trọng hàng đầu để chúng em xây dựng ý tưởng “ Thiết kế và chế tạo mô hình tàu đệm khí” nhằm góp phần quan trọng vào lĩnh vực quân sự của nước nhà.
+Một vấn đề quan trọng nữa đó là: nước ta là một quốc gia nằm ở phần Đông của bán đảo Trung ấn, gần trung tâm của khu vực Đông Nam Á và có diện tích biển rộng trên 1 triệu km2 . Trong đó có 3000 đảo nhỏ và nhiều đảo lớn như: Cát Bà, Côn Đảo, Phú Quốc và 2 quần đảo lớn nhất là Hoàng Sa và Trường Sa. Vì vậy nước ta rất thuận lợi cho việc mở rộng giao lưu hợp tác quốc tế bằng đường biển và đồng thời cũng là nơi dừng chân của nhiều tàu thuyền quốc tế, đó là cơ hội để đẩy mạnh phát triển du lịch quốc tế và du lịch biển.
+Ngày nay, cùng với sự phát triển của nền kinh tế, sự đi lên của mức sống người dân ngày càng có nhiều sự lựa chọn hơn khi đi du lịch, vì thế mà chúng ta cần phải nắm bắt và luôn không ngừng sáng tạo để thu hút sự tham gia của mọi người. Với hiện trạng các sản phẩm du lịch biển hiện nay còn chưa phong phú, khách du lịch chủ yếu đến thăm quan, tắm biển và mang nặng tính mùa vụ…Vì vậy để khai thác tốt cơ sở hạ tầng, cũng như các điều kiện tự nhiên sẵn có mà biển, đảo mang lại thì cần phải phát triển các loại hình du lịch mới. Và để xác lập vị trí cho một thương hiệu thì công việc quan trọng hàng đầu là phải xây dựng cho thương hiệu đó có sự khác biệt trong sản phẩm và dịch vụ mà nó cung cấp. Phát triển tàu, thuyền, ca nô, ... phục vụ cho nhu cầu du lịch trên biển, đảo của con người là một tất yếu. Đó là lý do quan trọng thứ hai để chúng em xây dựng ý tưởng “Thiết kế mô hình tàu đệm khí” phục vụ cho ngành du lịch biển.
+Ngoài ra, nước ta nằm trong khu vực được coi là nhiều thiên tai nhất thế giới như: bão, lũ lụt, hạn hán…Đặc biệt là cuộc sống của người dân tỉnh miền trung và vùng đồng bằng sông Cửu Long luôn phải đối mặt với thiên tai lũ lụt hàng năm. Ở vùng đồng bằng sông Cửu Long còn nhiều địa hình rừng rậm phức tạp, có nhiều đầm lầy gây khó khăn cho việc đi lại của người dân,… cho nên nước ta luôn phải đầu tư để hạn chế và phòng ngừa những hậu quả của thiên tai. Việc hình thành và phát triển phương tiện đi lại, cứu hộ bão lụt, cũng như phục vụ người dân vùng sông nước đi lại buôn bán,…luôn là vấn đề cần phải được quan tâm hàng đầu.
+Đó là lý do thứ 3 để chúng em hình thành ý tưởng nêu trên và xây dựng đề tài “ thiết kế và chế tạo mô hình tàu đệm khí” nhằm đưa vấn đề dần được sáng tỏ hơn.
+1.2. Giới thiệu về lịch sử phát triển của tàu nói chung và tàu đệm khí nói riêng.
+1.2.1. Lịch sử phát triển tàu thủy
+Ngày 11/08/1956 Chính phủ ban hành Nghị định số 70/CP thành lập Cục đường thủy, tiền thân của Cục Đường sông Việt Nam.
+Ngược dòng lịch sử, những năm từ 1956-1965 là thời kì xây dựng, tổ chứ tập hợp lực lượng vận tải sông tư nhân cùng với lực lượng quốc doanh còn non trẻ đảm bảo vận chuyển hàng hóa khôi phục kinh tế, dân sinh, góp phần đặt nền móng cho nền công nghiệp XHCN. Toàn quốc đã có gần 3,6 triệu tấn phương tiện, tổng đội tàu vận tải tăng 5,5 lần TPT với phương tiện đa dạng về loại hình, chất lượng khả năng an toàn tính năng và phạm vi hoạt động của phương tiện được tăng lên rõ rệt.Đã có tàu hiện đại cánh ngầm phục vụ chở khách trên một số tuyến khu vực Quảng Ninh-Hải Phòng, TP.HCM - Vũng Tàu, TP.HCM - Cần Thơ, Cần Thơ -Phnompenh.
+Hiện nay nước ta đã trang bị cho mình một loạt các con tàu hiện đại và rộng lớn.Theo nguồn tin từ ban quản lý khu kinh tế Dung Quất, công ty TNHH một thành viên Công nghiệp tàu thủy Dung Quất đóng tàu trở dầu AFRAMAX có tải trọng 104.000 tấn và còn nhiều con tàu lớn khác. Cùng với sự phát triển và mở rộng các công ty đóng tàu của nhà nước và của tư nhân là sự phát triển không ngừng của các con tàu hiện đại và rộng lớn phục vụ cho kinh tế, quân sự,…Với vị trí địa lý thuận lợi và có nguồn tài nguyên khoáng sản phong phú, thì việc bảo vệ chủ quyền biển, đảo là vấn đề hàng đầu cần được đầu tư. Một trong những con tàu chiến hiện đại được nhập từ Liên Xô như: tàu phóng lôi lớp shershen, tàu tên lửa lớp OSA II, tàu TPF,…
+
+Hình 1.1. Tàu phóng lôi lớp Shershen
+Hình 1.2. Tàu tên lửa lớp Osa – II
+Hình 1.3. Tàu TPF
+1.2.2. Lịch sử 300 năm của tàu đệm khí –Hovercraft.
+Hovercraft - một loại tàu (craft) có khả năng lơ lửng trên không (hover). Tàu đệm khí là một phương tiện di chuyển đặc biệt – tự tạo cho mình một đệm không khí phía dưới và di chuyển trên đệm khí đó. Nó có thể di chuyển trên một bề mặt tương đối bằng phẳng, có thể là một con dốc, mặt nước, bề mặt đóng băng mà không hề chạm vào bề mặt đó.
+
+Mẫu thiết kế đầu tiên của tàu đệm khí được đưa ra lần đầu tiên vào năm 1716 bởi Emanuel Swedenborg (1688 – 1772), một nhà thiết kế, thần học và triết gia người Thụy Điển. Ông đưa ra một mẫu thiết kế có hình dáng một chiếc thuyền lộn ngược hoạt động bằng sức người, với một vị trí điều khiển ở trung tâm và tay chèo có nhiệm vụ nén không khí ở phía dưới nhằm nhấc chiếc tàu lên. Tuy nhiên, đó chỉ là một bản thiết kế vẫn còn nằm trên giấy, chưa được chế tạo vì rõ ràng, không thể dùng sức người tạo ra một lực nén đủ mạnh để có thể nhấc chiếc tàu lên được.
+Vào giữa thập niên 1870, Sir John Isaac Thornycroft, một kỹ sư người Anh thử nghiệm một kỹ thuật dùng không khí để làm giảm lực cản giữa nước và thân tàu dựa trên ý tưởng của ông, ông đã được nhận bằng phát minh cho kỹ thuật này, tuy nhiên thử nghiệm của ông không nhận được sự quan tâm vì chưa thể áp dụng vào thực tế.
+Mãi đến năm 1915 – 1916, mẫu tàu đệm khí đầu tiên đã được chế tạo thành công bởi Hải quân hoàng gia đế chế Áo – Hung tại Pola, dựa trên mẫu thiết kế của Dagobert Müller von Thomamühl cho kho vũ khí hải quân. Ngày 2/9/1915, mẫu tàu đêm khí đầu tiên được hạ thủy, thủy thủ đoàn gồm 5 người và đạt tốc độ nhanh nhất thời bấy giờ, mang tên là: “Tàu cánh ngầm với hệ thống Thomamühl”.
+
+
+
+
+
+
+
+
+
+
+
+
+Hình 1.4. Mẫu tàu của Thomamühl được thử nghiệm năm 1916
+Đến năm 1916, mẫu tàu của Thomamühl được thử nghiệm phát triển thành tàu phóng ngư lôi nhanh, được trang bị 2 ngư lôi, một súng máy Schwarzlose và một số “quả bom nước” dùng để làm tàu chống ngầm. Nó có 2 cánh quạt, mỗi cánh quạt được vận hành bằng động cơ 6 xi lanh giúp đẩy tàu đi tới, một động cơ 4 xi lanh khác được sử dụng để thổi luồng khí nóng xuống phía dưới thân tàu, tạo ra một đệm không khí giúp tàu di chuyển trên đệm khí đó. Sau khi đưa ra sử dụng thử trên biển, cuối cùng thử nghiệm bị hủy bỏ vào năm 1917, sau đó hải quân Áo – Hung chính thức ngừng tiến hành những nghiên cứu về loại tàu này.
+Năm 1927, Konstantin Tsiolkovsky, một nhà khoa học Liên Xô lần đầu tiên mô tả về Hiệu ứng mặt đất/nước và lý thuyết về phương pháp tính toán khí động lực học cho phương tiện di chuyển bằng đệm khí trong bài nghiên cứu của mình về Lực cản không khí và Xe lửa tốc hành.
+Cuối cùng, vào năm 1931, Toivo J. Kaario, một kỹ sư người Phần Lan, cũng là trưởng phân xưởng sản xuất động cơ máy bay Valtion Lentokonetehdas, bắt đầu thiết kế mẫu tàu đệm khí. Ông tiến hành chế tạo và thử nghiệm, ông gọi nó là pintaliitäjä (Tàu lượn trên bề mặt) và ông đã nhận được bằng sáng chế về phát minh này. Kaario được xem là người đầu tiên chế tạo thành côngphương tiện vận hành bằng đệm khí một cách hoàn chỉnh nhất cho đến thời điểm bấy giờ, tuy nhiên ông không thể tiếp tục phát triển nó do không thể tìm được nguồn kinh phí.
+
+
+
+
+
+
+
+
+
+
+
+
+Hình 1.4. Mẫu tàu của Kaario vào năm 1931
+Cùng khoảng thời gian với Kaario, Vladimir Levkov - một giáo sư người Nga làm việc tại khoa Động lực học ứng dụng tại trường Đại học Bách khoa Donskoi, đã nghiên cứu và chế tạo thành công mô hình tàu đệm khí vào năm 1927, ban đầu nó là một mô hình tròn và đối xứng. Đến năm 1932, ông cho ra đời mô hình tàu đệm khí với chiều dài 2,5m, đặc trưng là dạng thuôn dài, trang bị hai động cơ và mẫu thiết kế này đã vận hành thành công.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hình 1.5. Mẫu L-1 của Levkov năm 1935
+Konstantin Tsiolkovsky là người đầu tiên mô tả về Hiệu ứng mặt đất và lý thuyết về phương pháp tính toán khí động lực học cho phương tiện di chuyển bằng đệm khí trong nghiên cứu về “Lực cản của không khí và Tàu lửa tốc hành” của mình vào năm 1927.
+Kể từ đó, Vladimir Levkov bắt đầu có ý tưởng phát triển phương tiện di chuyển trên đệm không khí. Khoảng giữa thập niên 1930, Leckov lắp ráp thử nghiệm khoảng 20 tàu đệm khí (chủ yếu nhằm mục đích quân sự). Từ mẫu L1 chỉ là một mẫu thiết kế đơn giản với 2 bè gỗ nhỏ được trang bị ba động cơ, dần cải tiến cho đến mẫu L5 đã được thử nghiệm thành công có thêm một động cơ đặt phía sau thân tàu theo chiều ngang làm nhiệm vụ tạo đệm không khi bên dưới bằng cách thổi luồng khí qua một cái phễu giữa thân tàu, mẫu này được gọi là thuyền tấn công nhanh tốc độ cao L-5.
+Sau đó, cũng có nhiều nỗ lực để chế tạo một phương tiên di chuyển bằng đệm khí này bao gồm cả mẫu thiết kế của hải quân Nga và Đức trong thế chiến I.
+Tại Mỹ vào thế chiến II, Charles J. Fletcher, một lính hải quân dự bị của quân đội Mỹ đã cho ra đời một mẫu thiết kế mang tên“Glidemobile” (Xe lướt), thiêt kế này dựa trên nguyên tắc tạo một luồng khí liên tục nén lên bề mặt phía dưới (có thể là mặt đất hoặc mặt nước) nhấc bổng nó lên cách mặt đất từ 25cm đến 0,6m. Một thời gian ngắn sau cuộc thử nghiệm tại hồ Beezer, thành phố Sparta Township, bang New Jersey, thiết kế này ngay lập tức đã bị chiếm dụng bởi Bộ quốc phòng Hoa Kỳ, và họ phủ nhận hoàn toàn bản quyền sáng tạo này của Fletcher. Mãi cho đến năm 1985, cơ quan bảo vệ bằng sáng chế đã kiện thành công Bộ quốc phòng Mỹ, và bắt bồi thường khoảng tiền 6 triệu dollar vào năm 1990.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hình 1.6. Mẫu tàu của Fletcher
+Tại Mỹ, tiến sĩ W. Bertelsen cũng nghiên cứu phát triển mẫu tàu đệm hơi. Tiến sĩ Bertelsen xây dựng một nguyên mẫu ban đầu của một chiếc phương tiện này vào năm 1959 (tên gọi là AeroMobile 35-B), và bức ảnh đầu tiên của nó được đăng trên tạp chí Popular Science với hình ảnh cưỡi một chiếc xe trên đất và trên nước vào tháng 4/1959. Các bài viết khác mô tả về phát minh của của ông cũng được đăng trên tạp chí này vào tháng 7/1959.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hình 1.6. Bertelsen và mẫu thiết kế của mình trên tạp chí Popular Science
+Người đầu tiên chế tạo thành công tàu đệm khí một cách hoàn chình cả về mặt kỹ thuật và khả năng thương mại là một nhà phát minh người Anh, Christopher Cockerell vào năm 1955.
+Vào năm 1952, Cockerell nghiên cứu về hệ thống bôi trơn bằng không khí, sau đó ông nghiên cứu sâu hơn về ý tưởng tạo ra đệm khí. Ông thực hiện những thí nghiệm đơn giản bằng cách dùng động cơ máy hút bụi và hai hộp hình trụ để tạo ra một động cơ phản lực, chìa khóa để phát minh ra tàu chạy trên đệm khí. Ông đã chứng minh tính khả thi của phương tiện này khi nó có thể tạo ra đệm khí để di chuyển trên nhiều bề mặt hoàn toàn khác nhau như đầm lầy, mặt đất, mặt nước, mặt băng… trên ý tưởng đó, ông cho ra đời mẫu tàu đệm khí SR-N1 và chính thức vận hành vào ngày 11 tháng 6 năm 1959.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hình 1.7. Mẫu tàu đệm khí đầu tiên của Cockerell được hạ thủy
+Một thời gian ngắn sau, nó thực hiện chuyến đi từ Pháp sang Anh để dự lễ kỷ niệm 50 năm chuyến bay của Bleriot. Sau đó, ông cùng cộng sự quan trọng của mình là kỹ sư Denys Bliss cùng nhau hoàn thiện nó, để cuối cùng vào năm 1962, chiếc tàu đệm khí bản thương mại hóa chính thực được ra đời. Bằng sáng chế cho phát minh này được đồng trao cho cả Cockerell và Bliss vào tháng 7/1967. Cockerell đã được phong tước hiệp sĩ cho phát minh của mình vào năm 1969. Ông đã đặt tên “tàu đệm khí” (hovercraft)để mô tả cho phát minh này của mình.
+
+
+
+
+
+
+
+
+
+Hình 1.8. Một tàu đệm khí được sử dụng để chữa cháy tại Anh
+Qua lịch sử phát triển hơn 300 năm, từ bảng phác thảo đầu tiên của Swedenborg, đến mẫu tàu đầu tiên của Thomamühl, tiếp theo là pintaliitäjä của Kaario cùng biết bao nhiêu nỗ lực của biết bao nhà phát minh trong suốt hàng trăm năm, để rồi đến sản phẩm thương mại đầu tiên của Cockerell, cho đến ngày nay, tàu đệm khí luôn được hoàn thiện và cải tiến để trở thành một phương tiện di chuyển cực kỳ linh hoạt mà có thể sẽ là phương tiện di chuyển trong tương lai nữa. Nó được ứng dụng cả trong quân sự lẫn dân sự, từ những chiếc tàu đổ bộ nhanh của quân đội, tàu tuần tiễu bờ biển, tàu di chuyển trên đầm lầy, tàu di chuyển trên băng và cho đến những chiếc phà chở khách và còn nhiều ứng dụng khác nữa. Chính vì thế, ngoài máy bay lên thẳng ra, tàu đệm khí xứng đáng trở thành phương tiện cơ động nhất của con người.
+1.3. Tàu đệm khí và nguyên lý hoạt động của tàu đệm khí
+Sở dĩ gọi là “ Tàu đệm khí” vì tàu này chạy chủ yếu là trên “đệm khí”. Lớp đệm khí này được tạo ra bởi một luồng khí nén áp lực cao do các thiết bị trên tàu phát ra, nâng con tàu lên, đẩy tàu lên cách mặt đất, mặt nước một khoảng cách nhất định. Tàu di chuyển được nhờ lực đẩy của động cơ hay cánh quạt. Tàu đệm khí là một trong những giải pháp thay thế tàu đệm từ. Trong cả hai trường hợp, mục đích đệm này là để ngăn chặn phương tiện không tiếp xúc với mặt đất, mặt nước. Trong khi tàu đệm từ thực hiện việc này thông qua sử dụng từ trường, thì tàu đệm khí sử dụng đệm không khí.
+Thông thường, tàu đệm khí được trang bị những chiếc quạt gió có công suất rất lớn. Khi quạt chạy, không khí nén do những chiếc quạt này sinh ra theo đường dẫn hình tròn ở bốn xung quanh đáy tàu phun xuống dưới mặt nước với áp lực rất lớn. Theo nguyên lý phản lực, thân tàu nhận được một lực theo hướng lên trên. Khi lực này đạt được độ lớn đủ sức đẩy trọng lượng thân tàu lên thì thân tàu được nâng lên khỏi mặt nước. Lúc ấy ở giữa thân tàu và mặt nước sẽ hình thành một lớp đệm không khí. Sau đó chân vịt của tàu cắm theo hướng nghiêng vào trong nước hoặc chong chóng không khí để đẩy tàu chạy lên phía trước.
+Không khí nén trong đệm không khí không ngừng tan đi, vì thế, để duy trì đệm không khí cần phải tiêu hao công suất rất lớn. Hơn nữa, khi tàu di chuyển trên mặt nước còn gây ra những đợt sóng tương đối lớn đồng thời làm tung toé rất nhiều hoa sóng. Những hoạt động này đều tiêu hao không ít năng lượng. Vì vậy, tàu đệm không khí tuy có thể nâng cao tốc độ chạy, nhưng đòi hỏi phải có công suất rất lớn.
+Tuy vậy, loại tàu này có một ưu điểm rất lớn là vừa chạy trên nước, vừa chạy được trên cạn. Khi chạy trên mặt đất, giữa tàu và mặt đất cũng hình thành một đệm không khí để nâng tàu lên. Do lớp đệm này dày tới mấy mét, tàu có thể chạy một cách bình yên trên các con đường gồ ghề, bùn lầy, trên thảo nguyên, sa mạc, đầm lầy hoặc trên mặt biển đóng băng mà không gặp trở ngại gì. Ngoài máy bay lên thẳng ra, đây là loại tàu có thể đi đến được nhiều nơi nhất và với tốc độ nhanh nhất.
+
+
+
+PHẦN II: TÍNH TOÁN, THIẾT KẾ, CHẾ TẠO MÔ HÌNH TÀU
+CHƯƠNG II. CƠ SỞ CHỌN VẬT LIỆU VÀ TÍNH BỀN THÂN TÀU.
+2.1. Thép đóng tàu.
+Thép làm vỏ tàu thường là thép cacbon chứa từ 0,15% đến 0,23% cacbon cùng lượng mangan cao. Hai thành phần gồm lưu huỳnh và photpho trong thép đóng tàu phải ở mức thấp nhất, dưới 0,05%. Từ năm 1959, các đăng kiểm đồng ý tiêu chuẩn hóa thép đóng tàu nhằm giảm thiểu các cách phân loại thép dùng cho ngành này, trên cơ sở đảm bảo chất lượng. Theo tiêu chuẩn đã được chấp nhận này, có 5 cấp thép, từ kĩ thuật bằng tiếng anh viết là grade, chất lượng khác nhau, dùng cho tàu thương mại. Đó là các cấp A, B, C, D và E. Theo cấp B dùng tại những vùng nhạy cảm với tác động lực, những nơi đòi tấm có chiều dày lớn. Đăng kiểm ABS ghi rõ rang thép grade B vào danh mục dùng làm thân tàu. Về sau này nhiều nước không ghi cấp C vào danh mục các cấp thép đóng tàu. Theo cách ghi trong quy phạm do Đăng kiểm Việt Nam đưa ra, cấp thép chấp nhận tại mục “phân loại thép”, điều 3.1.2 _Quy phạm phân cấp và đóng tàu biển vỏ thép 2003, gồm A, B, D và E.
+Những yêu cầu với thép đóng tàu, độ bền bình thường:
+Bảng 2.1 Các chỉ số độ bền với thép
+Các ký hiệu vừa nêu trong phần vật liệu này được dùng tại hầu hết các nước. Trong tài liệu chính thức do Đăng kiểm Việt Nam lưu hành, yêu cầu chung cho tất cả 4 cấp, theo TCVN 6259-7:2003 là:
+Bảng 2.2. Yêu cầu cho 4 cấp theo TCVN 6259-7:2003
+Nguồn cung cấp thép đóng tàu khá phong phú. Chọn thép cho kết cấu cần biết xuất xứvà các tiêu chuẩn dùng thép được chọn. Một số hệ thống qui tắc bắt buộc áp dụng khi dùng thép sản xuất tại USA có thể kể sau đây. Hệ thống phân loại quan trọng nhất của USA là AISI (American Iron and Steel Institut), theo hệ thống này cấp thép được dùng 4 con số để chỉ. Số thứ nhất chỉ cacbon, con số thứ hai chỉ lượng phần trăm hợp chất chính yếu trong đó. Ví dụ10XX chỉ thép cacbon. Hai con số cuối chỉ lượng cacbon, tính bằng phần trăm, ví dụAISI 1040 chỉ thép cacbon chứa 0,04% cacbon. Các ký hiệu theo hệ thống ASTM (American Society for Testing Materials) mang đặc trưng dễ nhận diện, được dùng chính thức trong văn bản của đăng kiểm ABS. Thép thường dùng trong đóng tàu thuộc nhóm A36-78, là thép cacbon, dùng trong xây dựng. Hai con số cuối cùng trong ký hiệu ASTM chỉ năm ra đời của phiên bản mới nhất. Thép tấm, thép hình, ống vv… thường được phân loại trong hệ thống này. Thép độ bền cao ghi trong hệ thống này gồm A242, A440, A441, và A588, vv…
+Thép dùng chế tạo chi tiết được ghi bằng ký hiệu của nó. Những ký hiệu của kim loại và hợp kim qui định trong TCVN 1659 – 75 được tóm tắt như sau: Thép các bon thông thường (thép xây dựng), ký hiệu bằng CT và các con số đi sau đó chỉ độbền kéo, tính bằng daN/mm2.Thép nhóm này có thểlà CT31, CT33, CT34, CT38, CT42, CT51, CT61. Thép cac bon chất lượng tốt ký hiệu bằng ký tựC. Con số đi sau C chỉhàm lượng cac bon, tính bằng phần vạn, 1:10.000 . Ví dụ thép của nhóm C5, C8, C10, C15, C20, C25, C30, C40, C70, C85. Thép công cụ ký hiệu bằng CD, ví dụCD70, CD80, CD0, CD100, CD120. Thép hợp kim ghi theo cách được dùng tại Việt Nam nhưcác ví dụ: 10Mn2Si, 9Mn2, 10SiMnPb, 100Cr2 vv…
+Trong các sách kỹ thuật dùng tại nước ta, cho đến những năm chín mươi đang sử dụng các ký hiệu phân loại của Nga từ rất lâu và đã được chuyển hóa theo cách hiểu của người không phải Nga. Từ uối những năm chín mươi, người Nga đã sử dụng những tiêu chuẩn chung như các nước khác trong cộng đồng thế giới, cách ký hiệu cũng đã có những đổi mới. Có lẽ vì sự thay đổi từ nguồn đó cần giải thích rõ để bạn đọc dễ đối chiếu với các tiêu chuẩn vừa nêu. Thép đóng tàu dùng tại Liên xô trước đây được qui định trong tiêu chuẩn nhà nước liên bang, ví dụ GOST 5521-50, từ năm1950, hoặc trước đó, theo đó các thép CT.3C, CT4C theo cách viết của người Nga (nếu phiên âm thành La tinh các ký hiệu đó phải được hiểu là St 3S, St 4S) được dùng như thép độ bền bình thường. Ký hiệu của ngưới Nga mang nghĩa CT- viết tắt từ“thép”, C – viết tắt “đóng tàu”. Thành phần của các thép đóng tàu theo qui định trong GOST 5521-50 và sau đó như sau:
+Bảng 2.3.Thành phần của thép đóng tàu theo quy định GOST 5521-50
+
+Yêu cầu về giới hạn chảy và giới hạn bền:
+: Không nhỏ hơn 220;
+: Không nhỏ hơn 240 ;
+Trong một số tiêu chuẩn GOST được công bố những năm gần đây, đã sử dụng giới hạn dưới của độ bền chảy để kết hợp với mác thép tiêu chuẩn quốc tế ISO. Đối với thép chếtạo tàu thuyền, theo GOST 5521-89 có hai loại đều có tính hàn. Một là loại thép có độ bền thông thường, có 4 mác thép A, B, C, D, giới hạn chảy đề là 235 MPa; một là loại thép có độ bền cao, mác thép là A xx, D xx, E xx. Trong đó xx biểu thị cấp độ bền, ví dụ A32 biểu thị cấp 32 kG (tức 315 MPa), D40 biểu thị cấp 40 kG (tức 395 MPa).
+2.2. Kim loại màu
+Đồng kim loại ký hiệu bằng Cu, gồm Cu1, Cu2, Cu3 … Cu1 đồng kim loại chứa 99,9% Cu; Cu2 đồng kim loại chứa 99,7% Cu; Cu3 đồng kim loại chứa 99,5% Cu.
+Latông (đồng thau) ký hiệu L. Ví dụ LCuZn20, LCuZn40Pb2
+Brông (đồng thanh) ký hiệu B. Ví dụ BCuSn2, BCuSn6Zn6
+Đuara. Ví dụ AlCu4Mg2.
+2.3. Thép độ bền cao
+Theo tiêu chuẩn được các nước chấp nhận, thép độ bền cao dùng trong đóng tàu được phân cấp thành ba mức, ký hiệu 32, 36, 40. Mỗi mức bền được chia làm bốn cấp: AH (ví dụAH32, AH36, AH40), DH (ví dụDH32, DH36, DH40), EH ( EH32, EH36,EH40). Mức bền cao hơn, tính từ 42, 46, 50, 56, 62 và 69 được ghi vào các grade FH. Theo tiêu chuẩn Việt Nam, thép cường độ cao được chia làm các cấp sau đây: A 32, D32, E 32, A 36, D36, E 36, A 40, D 40, E 40, F32, F36 , F40. Thành phần hóa chất trong thép độ bền cao không quá giới hạn sau:
+Cacbon : 0,18 % max; Chrom : 0,25% max;
+Mangan : 0,90 –1,6 % Molybdem : 0,08 max;
+Phospho : 0,04% max; Đồng : 0,35 % max;
+Lưu huỳnh : 0,04 % max; Silic : 0,1 – 0,5 %;
+Nickel : 0,4 % max; Vanad : 0,10 % max.
+Giới hạn bền : H32 470 -585 (4800-6000 )
+H36 490-620 (5000-6300)
+H40 510 – 650 (5200 –6600 )
+Giới hạn chảy : H32 315 (3200 )
+H36 355 (3600)
+H40 390 (4000)
+Độ giãn dài tương đối : 20% cho mức 40; 22% cho mức 32.
+Tính chất cơ học của các cấp thép cường độ cao:
+Bảng 2.4. Tính chất cơ học của các cấp thép cường độ cao.
+
+
+Tính chất cơ học các mác thép sản xuất tại Liên trước đây, ký hiệu còn lưu lại trong tài liệu Việt Nam được ghi lại như sau:
+Bảng 2.5. Tính chất cơ học các mác thép sản xuất tại Liên Xô.
+Sử dụng các cấp thép vào kết cấu tàu theo đúng chức năng của chúng. Các nhà đóng tàu các nước tuân thủ qui định gần như thống nhất sau, trích từ qui định của RMRS (Russian Maritime Register of Shipping).
+Bảng 2.6. Quy định về cấp thép trong kết cấu tàu theo RMRS
+Chiều dày các tấm hoặc chiều dày thành thép hình của ba cấp A, B, D được đề cập tại đây không quá 50mm. Chiều dày tối đa cấp E chỉ được tính 100mm. Cụ thể hơn nữa, thép cấp A, B thường hóa được cung cấp dưới dạng chiều dày không bị hạn chế trong giới hạn, hiểu đơn giản hơn, thép cán thuộc cấp A, B có chiều dầy bất kỳ. Thép cấp D chiều dày đến 25mm có thểlà thép lắng và xử lý hạt mịn ( steel is killed and fine grain treated). Thép cấp D dày trên 35mm qua lắng và xử lý hạt mịn còn phải chịu thử va đập.
+2.4. Hợp kim nhôm
+Vật liệu truyền thống làm tàu cỡ nhỏ, chạy nhanh là hợp kim nhôm. Trên thị trường quốc tế giá vật liệu từ hợp kim nhôm cao hơn 10 lần thép cùng trong lượng. trong lượng riêng của nhôm thực ra chỉ bằng 35% trong lượng riêng của thép, do vậy giá thành tính cho đơn vị thể tích vật liệu, giá hợp kim nhôm chỉ cao hơn thép 4 lần. Điều có thể nói, nếu có giới hạn bền của hợp kim nhôm không cách xa nhiều so với thép thường, về mặt lý thuyết có thể tiết kiệm 65% trong lượng vật liệu nếu thay thế bằng nhôm. Trong thực tế giới hạn bền của nhôm thấp hơn do vậy mức giảm trong lượng tối đa khi thay thép bằng nhôm chỉ không đến 50%.
+Hợp kim nhôm dùng đóng vỏ tàu thưòng chứa mangan như chất bổ sung chính. Hợp kim này chịu được tác động của nước biển, trong khi đó độ bền của nó khá cao. Theo phân loại dùng tại UK hợp kim nhôm dùng trong đóng vỏ tàu (marinealuminim alloys) được phân thành 5 nhóm chính, ký hiệu N4, N5, N6, N8 và H30, tương ứng các phân loại của ISO là A1Mg2, A1Mg2, A1Mg3-5, A1Mg3-5, A1Mg5, A1 Mg 4-5 Mn và A1SIMgMn.
+Đặc tính cơ học hợp kim nhôm vừa nêu như sau: module đàn hồi E = 69 Gpa, module cắt G=25GPa. Độ bền kéo nhóm N4: 160-225 MPa, nhóm N8:125-270 MPa, và của H30:120-240 MPa.
+Theo cách phân loại của Nga, hợp kim nhôm – mangan được chế tạo theo các mã AMg2, AMg3, AMg6, AMg61, và các mã khác. Đặc tính cơ học các tấm cán từ hợp kim nhôm sản xuất tại Nga được xác nhận theo tiêu chuẩn nhà nước ¥OCT 261631, (GOST 261631). Theo tiêu chuẩn này hợp kim AMg2 có các tính chất: độ bền kéo , giới hạn chảy giãn dài tương đối a = 7%. Hợp kim AMg3 có các tính chất: độ bền kéo , giới hạn chảy , giãn dài tương đối a = 12 –15%. Hợp kim AMg4 có các tính chất: độ bền kéo , giới hạn chảy ,giãn dài tương đối a = 12%.
+Theo qui định ghi trong quy phạm đóng tàu vỏ hợp kim nhôm của DNV, đặc tính cơ học tối thiểu áp dụng cho vật liệu làm vỏ tàu phải là:
+Bảng 2.7. Đặc tính cơ học của vật liệu làm vỏ tàu.
+Bảng 2.8. Giới hạn thành phần hóa học của các hợp kim
+Cấp và cơ tính hợp kim nhôm cán dùng làm vỏ tàu chạy nhanh ghi trong TCVN 6451-2:1998 được trích dẫn tại bảng dưới đây. Lưu ý bạn đọc, mã hiệu được cơ quan có thẩm quyền Việt Nam dùng cho hợp kim nhôm phải được hiểu theo hoàn cảnh cụ thể. Trong bảng sau, nếu không giải thích thêm ký hiệu bằng số không khác ký hiệu được tổ chức AA (Aluminium Association) sử dụng. Ký hiệu chữ đi sau số phải được đối chiếu với giải thích do cơ quan có thẩm quyền nêu. Ưng suất trong bảng tính bằng Mpa.
+Bảng 2.9. Ưng suất của vật liệu theo TCVN 6451-2:1998.
+................................................
++)Chiều rộng bánh đai
+ADCT
+B = ( z – 1 ).t + 2s
+BA = ( 2 -1 ) .16 + 2.10 = 36(mm)
+BГ = (1-1 ).20 + 2.12,5 = 25(mm)
++)Đường kính ngoài của bánh dẫn
+ADCT Dn1 = D1 + 2.c (c tra bảng 10-3)
+Dn1A = 100 + 2.2,35 = 107 (mm)
+Dn1Г = 140 + 2.5 = 150 (mm)
++)Tính lực căng ban đầu
+S0 = δ0 .F
+S0A = 1,2.13.8 = 124,8 (N)
+S0B = 1,2.17.10,5 = 214,2 (N)
++)Tính lực tác dụng
+R = 3.S0.z.sinα1/2
+RA= 3.124,8.2.sin177,15/2 = 748,5 (N)
+RB= 3.214,2.2.sin177,1/2 = 1284,7 (N)
+
+
+
+
+
+PHẦN III. KẾT LUẬN
+Tàu đệm khí HP01 với các thông số chính sau:
+- Số chỗ: 2 người;
+- Chiều dài toàn bộ: 2,5m;
+- Chiều rộng khi căng váy: 1,4m;
+- Trọng lượng tàu không là: 100kg;
+- Công suất: 6,5 KW;
+- Tốc độ:
+- Phạm vi hoạt động: lưỡng cư (mặt đất và mặt nước );
+- Tầm hoạt động: 60 – 70 km;
+- Kết cấu: gỗ ép - composite;
+- Để đóng Tàu Đệm Khí và ứng dụng được phải hội đủ các điều kiện: thiết kế tin cậy, công nghệ đóng tàu phù hợp cho loại hình này, khả năng về kiểm định chất lượng bên trong (tổ chức đo lường, thực nghiệm, đánh giá) & bên ngòai (đăng kiểm, trung tâm đo lường) và trên hết, giá cả hợp lý.
+- Chế tạo thành công Tàu đệm khí HP01 trong nước : Tàu Đệm Khí sản xuất trong nước cũng sẽ có giá thành hạ do chủ động kỹ thuật đóng, sửa chữa, bảo trì và cải tiến.
+Cải tiến & nâng cấp
+- Hệ thống nâng cần xem xét thêm với các mô hình đệm khí có váy nối dài (ống váy, váy đoạn,...);
+- Tối ưu hoá kết cấu với tính toán phân bố sợi hợp lý + sử dụng các loại vật liệu mới như xốp tổ ong, xốp di-vinyl, vải sợi carbon,…
+- Xây dựng các mô hình tính ổn định tin cậy kết hợp với thực nghiệm;
+- Thực nghiệm về sức cản;
+- Xem xét vấn đề đăng kiểm & chuẩn hoá các thiết kế.
+3. Hướng phát triển:
+- Tạo ra nguồn tư liệu Khoa học kỹ thuật quý báu trong lãnh vực thiết kế & chế tạo Tàu Đệm Khí phục vụ đào tạo, Nghiên cứu khoa học trong các lãnh vực kỹ thuật tàu thủy / hàng không.
+- Kích thích cho các dòng sản phẩm tàu nhanh, phi cơ cùng phát triển (tàu WIGS, PARWIG, thủy phi cơ…)
+- Phương tiện cứu hộ, cứu nạn sau lũ, góp phần khai thác các vùng nước nông hoặc bị rong rêu, rừng ngập mặn, hải đảo… hiệu quả hơn và phục vụ an ninh, quốc phòng.
+
+
+TÀI LIỆU THAM KHẢO
+
+[1]. PGS. TS. NGUYỄN ĐỨC ÂN, KS. NGUYỄN BÂN – “Lý thuyết tàu thủy tập 2” – NXB GTV, Hà Nội, 2005.
+[2]. NGUYỄN ĐĂNG CƯỜNG – “Thiết kế và lắp ráp thiết bị tàu thủy” – NXB KH - KT, TP.HCM, 2000.
+[3]. HỒ QUANG LONG – “Sổ tay thiết kế tàu thủy” – NXB KH $ KT, 2003.
+[4]. NGYỄN THỊ HIỆP ĐOÀN – “Lý thuyết tàu” – Trường ĐH Hàng Hải, Hải Phòng.
+[5]. TRẦN ÍCH THỊNH – “Vật liệu composite cơ học và tính toán kết cấu” – NXB GD, 1994.
+[6]. TRƯƠNG SỸ CÁP – “Lực cản tàu thủy” – NXB GTVT, Hà Nội, 1987.
+[7]. NGUYỄN HOA THỊNH, NGUYỄN ĐÌNH ĐỨC – “Vật liệu composite – cơ học và công nghệ” – NXB KH $ KT, 2001.
+[8]. TS. TRẦN GIA THÁI – “GT. Sức bền thân tàu”, Nha Trang, 2003.
+[9]. TS. TRẦN CÔNG NGHỊ - “Độ bền kết cấu vật liệu composite tập 2” – NXB ĐHQG, TP.HCM
+[10]. Tài liệu [3], Đăng kiểm VN (2003), “Quy phạm kiểm tra và chế tạo các tàu làm bằng chất dẻo cốt sợi thủy tinh TCVN 6282: 2003”.
+[11] GS,TS Nguyễn Trọng Hiệp. “Chi tiết máy tập 1, tập 2”. Nhà xuất bản Giáo Dục 1997 .
+[12] T.S Lê Xuân Hòa, Th.S Nguyễn Thị Bích Ngọc. Trường Đại Học Sư Phạm Kỹ Thuật TP Hồ Chí Minh . “Bơm, quạt, máy nén”.
+[13] “Hướng dẫn thiết kế quạt” . Mascova 1971.
+[14] V.M.Cherkassky. PUMPS - FANS COMPRESSORS . Mir publishers . Moscow.
+[15] ЛOПАСТНЬIE HACOЬI . ТEOPИЯ, PACЧEТ И ΚOHCТPYИPOBAHИE Mockba " MAШИHOCТPOEHИ" 1977 .
+*TÀI LIỆU THAM KHẢO ĐỒ ÁN TỐT NGHIỆP THIẾT KẾ CHẾ TẠO MÔ HÌNH TÀU ĐỆM KHÍ
+1. Nguyễn Hữu Lộc, Cơ sở thiết kế máy, NXB ĐHQGTP Hồ Chí Minh, 2004.
+2. Nguyễn Trọng Hiệp, Chi tiết máy tập 1, 2 NXB Giáo dục, 1998.
+3. Nguyễn Hữu Lộc, Bài tập chi tiết máy, NXB ĐHQGTP Hồ Chí Minh, 2003.
+4. Nguyễn Hữu Lộc, Độ tin cậy trong thiết kế kỹ thuật , NXB ĐHQGTP Hồ Chí Minh, 2002.
+
+

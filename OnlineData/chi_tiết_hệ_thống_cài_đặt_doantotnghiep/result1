@@ -1,0 +1,256 @@
+ĐỒ ÁN TỐT NGHIỆP CẢI TIẾN Thiết kế hệ thống điều khiển nhà vệ sinh thông minh
+TRƯỜNG ĐẠI HỌC KỸ THUẬT CÔNG NGHIỆP
+KHOA ĐIỆN TỬ
+ĐỒ ÁN TỐT NGHIỆP đồ án điện tử,
+NGÀNH: KỸ THUẬT ĐIỆN TỬ
+HỆ: ĐẠI HỌC CHÍNH QUY
+Đề tài :
+THIẾT KẾ HỆ THỐNG ĐIỀU KHIỂN NHÀ VỆ SINH,
+NHÀ TẮM TỰ ĐỘNG
+TRƯỜNG ĐHKTCN CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM KHOA ĐIỆN TỬ Độc lập - Tự do - Hạnh phúc
+
+NHIỆM VỤ THIẾT KẾ TỐT NGHIỆP
+
+Khoá
+Giáo viên hướng dẫn: Nguyễn Hoàng Việt
+
+1. Tên đề tài tốt nghiệp: Thiết kế hệ thống điều khiển nhà vệ sinh thông minh
+2. Các số liệu ban đầu (nếu có) :
+3. Nội dung các phần thuyết minh và tính toán :
+- Tìm hiểu thực trạng nhà vệ sinh, vệ sinh công cộng hiện nay.
+- Đề suất một số ý tưởng tự động có thể áp dụng.
+- Thiết kế hệ thống điều khiển tự động áp dụng trong nhà vệ sinh.
+- Tính toán công suất, giá trị linh kiện cần sử dụng.
+- Thiết kế mạch thực.
+4. Số lượng các phần mềm, bảng biểu, bản vẽ (kích thước A0) :
+- Bản vẽ sơ đồ khối, các bản vẽ chi tiết mạch điện từng khối.
+5. Ngày giao nhiệm vụ :
+MỤC LỤC
+LỜI NÓI ĐẦU.. 2
+CHƯƠNG I : TỔNG QUAN.. 3
+1.1 Giới thiệu về nhà tắm nhà vệ sinh hộ gia đình. 4
+1.1.1 Khái quát4
+1.2 Sơ đồ khối6
+1.2.1 Sơ đồ khối nhà vệ sinh. 6
+1.2.2 Sơ đồ khối nhà tắm.. 7
+CHƯƠNG 2 : HỆ THỐNG ĐIỀU KHIỂN VỆ SINH, NHÀ TẮM.. 9
+2.1 Khối nguồn. 9
+2.1.1 Chức năng của khối nguồn. 9
+2.1.2 Sơ đồ nguyên lý. 9
+2.3 Lựa chon linh kiện. 13
+2.3.1 Cảm biến hồng ngoại, cảm biến khoản cách. 13
+2.3.2 Opto PC871. 14
+2.3.4 Relay. 15
+2.3.5 Diện trở. 15
+2.3 Van nước. 16
+2.3.1 Module Cảm Biến Ánh Sáng. 16
+2.3.2 Cảm biến chuyển động. 17
+2.3.3 Cảm biến nhiệt độ. 17
+2.3.4 Module sim 900A.. 19
+CHƯƠNG 3 THIẾT KẾ HỆ THỐNG.. 21
+3.1 Sơ đồ nguyên lý phần cứng nhà tắm thông minh. 21
+3.1.1 Nhiệm vụ của từng khối21
+3.1.2 Lưu đồ thuật toán. 25
+3.1.3 Lập trình. 26
+3.2 Sơ đồ nguyên lý phần cứng nhà vệ xinh thông minh. 33
+3.2.1 Nhiệm vụ của từng khối33
+3.1.2 Lưu đồ thuật toán. 35
+3.1.3 Lập trình. 36
+3.2 Kết quả thực nghiệm.. 39
+CHƯƠNG 4 KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN.. 40
+4.1 Kết luận. 40
+4.2 Hướng phát triển. 40
+
+LỜI NÓI ĐẦU
+Ngày nay, việc lắp đặt các nhà vệ sinh ở các khu vực công cộng là một nhu cầu cần thiết yếu. Tuy nhiên, để đảm bảo vệ sinh trong các nhà vệ sinh công cộng là một vấn đề khó khăn. Nuyên nhân là do sự thiếu ý thức của một số cá nhân khi sử dụng dịch vụ công cộng. Do đó em đã chọn đề tài thiết kế mô hình nhà vệ sinh công cộng thông minh với mong muốn qua những kiến thức đã học phục vụ cho xã hội , khắc phục sự thiết ý thức của người sử dụng.
+Với mong muốn giới thiệu những ứng dụng điển hình của hệ thống điện tử vào đời sống, nhóm em đưa ra đề tài “Thiết kế hệ thống điều khiển nhà vệ sinh, nhà tắm tự động”. Trong quá trình thực hiện đồ án môn học, nhóm chúng em cố gắng thiết kế sao cho mô hình là đơn giản nhất, ổn định nhất.
+Trong quá trình thực hiện em đã cố gắng để hoàn thành tốt nhất đề tài này, nhưng chắc chắn vẫn còn nhiều sai sót. Em rất mong nhận được sự đóng góp của các thầy cô giáo để đồ án của chúng em được hoàn thiện hơn.
+Chúng em xin trân trọng cảm ơn!
+
+Người thực hiện đề tài
+
+CHƯƠNG I : TỔNG QUAN
+1.1 Giới thiệu về nhà tắm nhà vệ sinh hộ gia đình
+1.1.1 Khái quát
+Hiện nay, hầu hết các công trình vệ sinh, chưa lắp đặt các hệ thống thông minh, do đó cần nhiều thao thác của con người. Ngoài ra, những chức năng về tiết kiệm năng lượng, cảnh báo sự cố,… hầu như chưa được chú ý đến. Đề tài áp dụng nghiên cứu nhà vệ sinh với quy mô hộ gia đình để giải quyết các vấn đề trên.
+Những ưu nhược điểm của nhà vệ sinh, nhà tắm thông minh.
+Ưu điểm :
++ Khi trời tối có người đi vào hệ thống sẽ tự động bật đèn.
++ Có người đi vệ sinh hệ thống sẽ tự động xả nước.
++ Điều khiển bật/tắt bình nóng lạnh qua mạng điện thoại di động.
++ Xả nước tự động bồn rửa mặt.
++ Tự động bật tắt các thiết bị không cần thiết, hoặc không có người sử dụng.
++ Phát hiện cảnh báo cho người nhà biết khi phát hiện có người bất tỉnh trong phòng tắm.
++ Điều khiển và ổn định nhiệt độ nhà tắm....
+
+Nhược điểm :
++ Khi sảy ra hỏng hóc , người sử dụng khó tiến hành sửa chữa.
++ Chỉ hoạt động khi có điện, khi mất điện toàn bộ hệ thống ngùng hoạt động.
+
+Một số hình ảnh nhà vệ sinh thông minh.
+Khi có người rửa tay vời nước sẽ tự động xả nước. Trong phần này em sư dụng một cặp thu phát hồng ngoại để phát hiện khi có vật cản, tín hiệu sẽ được đưa về vi diều khiển đẻ thực hiện mở van nước.
+Khi rửa tay xong vòi nước sẽ tự động đóng lại, rất tiện lợi tạo một cảm giác thoải mái cho người sử dụng.
+Hình 1.1 Bồn rửa mặt tự động
+
+Khi đi vệ sinh hệ thống sẽ tự động xả nước .
+Hinh 1.2 Nhà vệ sinh tự động
+
+1.2 Sơ đồ khối
+1.2.1 Sơ đồ khối nhà vệ sinh
+Hình 1.3 Sơ đồ khối tổng quát của hệ thống
+- Nhiệm vụ từng khối:
++ Khối nguồn : Cung cấp nguồn cho cho các thành phần trong hệ thống như: động cơ, vi điều khiển, cảm biến...
++ Khối cảm biến : Có nhiệm vụ cung cấp tín hiệu cho vi điều khiển khi có tác động từ bên ngoài hoặc nhận thấy sự thay đổi.
++ Khối điều khiển : Nhận tín hiệu từ cảm biến sau đó đưa tín hiệu ra để điểu khiển động cơ bánh.
++ Khối van nước : Nhận tín hiệu từ khối điều khiển để hoạt động theo lệnh điều khiển.
++ Khối động cơ quạt hút, quạt phẩy, chổi quét: Có nhiệm vụ cuốn bụi, phẩy bụi vào buống hút và hút bụi đưa vào buồng chứa.
+
+
+- Nguyên lý hoạt động sơ đồ:
++ Khi phat hiện có người → cảm biến hoạt động → khối điều khiển
+→ thực hiện bật đèn, mở van nước.
+
+
+1.2.2 Sơ đồ khối nhà tắm
+Hình 2.1 Sơ đồ khối tổng quát của hệ thống
+- Nhiệm vụ từng khối:
++ Khối nguồn : Cung cấp nguồn cho cho các thành phần trong hệ thống như: động cơ, vi điều khiển, cảm biến...
++ Khối cảm biến : Có nhiệm vụ cung cấp tín hiệu cho vi điều khiển khi có tác động từ bên ngoài hoặc nhận thấy sự thay đổi, gồm các cảm biến ánh sáng, cảm biến chuyển động , cảm biến nhiệt độ .
++ Khối điều khiển : Nhận tín hiệu từ cảm biến sau đó đưa tín hiệu ra để điểu khiển động cơ bánh.
++ Khối bình nóng lạnh , đèn : Nhận tín hiệu từ khối điều khiển để hoạt động theo lệnh điều khiển.
++ Khối module sim : nhận tin nhắn từ điện thoại gửi về và chuyển đến vi điều khiển.
+- Nguyên lý hoạt động sơ đồ:
++ Khi phat hiện có người → cảm biến hoạt động → khối điều khiển
+→ thực hiện bật đèn.
++ Khi có người gửi tin nhắn cho module sim → Khối điều khiển
+→ thực hiện mở van điện từ.
+CHƯƠNG 2 : HỆ THỐNG ĐIỀU KHIỂN VỆ SINH, NHÀ TẮM
+2.1 Khối nguồn
+2.1.1 Chức năng của khối nguồn
+- Khối nguồn có chức năng cung cấp các mức điện áp một chiều cho các bộ phận của mạch, bao gồm các điện áp.
++ Nguồn 12V cung cấp cho van điện từ
++ Nguồn 5v cuung cấp cho vi điều khiển, module sim, đóng mở rơle …
+Hinh 2.1 Sac pin cấp nguồn cho mạch điều khiển
+2.1.2 Sơ đồ nguyên lý
+Hình 2.2 Khối nguồn 5V
+- Nhiệm vụ của khối nguồn chuyển điện áp từ 12V về 5V để cung cấp cho mạch điều khiển
+
+2.2 Giới thiệu về vi điều khiển
+vGiới thiệu về điều khiển AT89C51
+- Chức năng các chân của 89C51: 89C51 có tất cả 40 chân có chức năng như các đường xuất nhập. Trong đó có 24 chân có tác dụng kép (có nghĩa 1 chân có 2 chức năng), mỗi đường có thể hoạt động như đường xuất nhập hoặc như đường điều khiển hoặc là thành phần của các bus dữ liệu và bus địa chỉ.
+- Sử dụng chân đầu vào điều khiển:
++ Chân P3.2 nhận tín hiệu từ cảm biến ánh sáng
++ Chân P3.3 nhận tín hiệu từ cảm biến chuyển động
++ Chân p3.4 nhận tín hiệu từ cảm biến khoảng cách
+- Sử dụng các chân đầu ra :
++ Chân P0.2 điều khiển bật đèn
++ Chân P0.6 điều khiển mở van điện
+v Giới thiệu về điều khiển PIC887
++ Sơ đồ nguyên lý
+- VDK PIC là một họ vi điều khiển có khả năng lập trình để xử lý tính toán số liệu hay điều khiển các modul thết bị ngoại vi.
+- Là một dòng VDK mạnh giải quyết được nhiều bài toán ,ứng dụng trong thực tế.
+- PIC hỗ trợ lập trình trên ngôn ngữ C
+- PIC hỗ trợ nhiều modul phần cứng nhưng ADC, PWM, RS232, USB, SPI, I2C ....
+- PIC mình nghiên cứu ở trong tài liệu này là PIC 16F887.Gồm có 34 chân in out dữ liệu, 14 chân ADC, 3 timer, 8k byte rom, 256 byte EEPROM , 368 byte RAM.
+
++ Sơ đồ chân
+Từ sơ đò chân ta rút ra các nhận xét ban đầu như sau :
++ PIC16F887A có tất cả 40 chân
++ 40 chân trên được chia thành 5 PORT , 2 chân cấp nguồn , 2 chân GND, 2 chân thạch anh và một chân dùng để RESET vi điều khiển.
+
+5 port của PIC16F887 bao gồm :
++ PORTB : 8 chân
++ PORTC : 8 chân
++ PORTA : 6 chân
++ PORTE : 3 chân
+Mỗi chân của vi điều khiển PIC 16F887 có một chức năng khác nhau. Trong đó có một số chân đa công dụng : mỗi chân có thể hoạt động như một đương xuất nhập hoặc là một chân chức năng đặc biệt dùng đẻ giao tiếp với các thiết bị ngoại vi.
+PIC16F887 là dòng PIC khá phổ biến, khá đầy đủ tính năng phục vụ cho hầu hết tất cả các ứng dụng thực tế. Đây là dòng PIC khá dễ cho người mới làm quen với PIC có thể học tập và tạo nền tản về hộ vi điều khiển PIC của mình.
+o Cấu trúc tổng quát của PIC16F887 như sau :
++ 8K Flash Rom
++ 368x8 bytes Ram
++ 256 bytes ESPROM
++ 5 port và ra với tín hiệu điều khiển độc lập
++ 2 bộ định thời Timer 0 và Timer 2 8 bit
+
+2.3 Lựa chon linh kiện
+2.3.1 Cảm biến hồng ngoại, cảm biến khoản cách
+Như trên đã nói có rất nhiều loại cảm biến có thể đáp ứng được yêu cầu phát hiện vật cản phía trước. Tuy nhiên cảm biến hồng ngoại và cảm biến khoản cách là phù hợp hơn cả về giá thành cũng như dễ sử dụng. Dưới đây là một số hình hảnh về cảm biến hồng ngoạivà cảm biến khoảng cách sử dụng trong hệ thống .
+Hình 2.3 Module cảm biến hồng ngoại
+Hình 2.4 Cảm Biến Khoảng Cách E18-D80NK
+
+2.3.2 Opto PC871
+- Sơ đồ chân:
+Hình 2.6 Sơ đồ chân
++ Chân 1: Anode
++ Chân 2: Cathode.
++ Chân 3: Emitter-Phát.
++ Chân 4: Collector –Thu.
+- Ứng dụng: dùng để cách ly giữa các khối điện áp cao(khối nguồn 220V) với khối điện áp thấp(5V
+
+
+2.3.4 Relay
+- Hình ảnh
+Hình 2.5 Hình ảnh thực Relay
+
+- Ứng dụng:
++ Như một công tắc đóng ngắn.
++ Dùng làm khóa điện đóng mở tiếp điểm để điều khiển thiết bị khác.
+2.3.5 Diện trở
+- Điện trở là sự cản trở dòng điện của một vật dẫn điện, nếu một vật dẫn điện tốt thì điện trở nhỏ, vật dẫn điện kém thì điện trở lớn, vật cách điện thì điện trở là vô cùng lớn
+- Hình dạng:
+
+Hình 2.6 Điện trở
+2.3 Van nước
+Đối với van nước sử dụng van nước tự động điều khiển bằng nguồn 12V. Tự động đóng mở nước khi có tín hiệu điều khiển.
+
+Hinh 2.7 Van Nước TD12 DC12V Thường Đóng
+2.3.1 Module Cảm Biến Ánh Sáng
+Module cảm biến ánh sáng giúp bật tắt đèn bằng ánh Sáng, Phát hiện ánh sáng...
+Hinh 2.8 Module Cảm Biến Ánh Sáng
+Thông số kỹ thuật. - Sử dụng CB Ánh Sáng. - Đầu ra: + A0: Tín hiệu Analog + D0: Tín hiệu 0 1 ( Sử dụng LM393)
+Sử dụng biến trở để điều chỉnh độ nhậy của tín hiệu
+
+2.3.2 Cảm biến chuyển động
+Cảm biến chuyển động giúp phát hiện khi có người đi vào, Khi có người vào phạm vi cảm ứng, OUT: 1.5-3.3V. Không phát hiện ở 0V .
++ Thiết lập hai chế độ kích hoạt: L không có thể được lặp đi lặp lại, H có thể được lặp đi lặp lại.
++ Không thể lặp lại kích hoạt: Module tự động đưa về mức thấp khi hết thời gian trễ.
++ Lặp lại kích hoạt: Module luôn giữ ở mức cao cho đến khi không còn người chuyển động.
++ Thiết lập thời gian: Module hoạt động ổn định khi cài đặt >5s
++ Điện áp sử dụng: Sử dụng điện áp từ 5-12V
+
+Hinh 2.9 Module Cảm Biến Chuyển Động HC-SR501
+2.3.3 Cảm biến nhiệt độ
+Cảm biến nhiệt độ LM35 là một loại cảm biến tương tự rất hay được ứng dụng trong các ứng dụng đo nhiệt độ thời gian thực. Vì nó hoạt động khá chính xác với sai số nhỏ, đồng thời với kích thước nhỏ và giá thành rẻ là một trong những ưu điểm của nó. Vì đây là cảm biến tương tự nên ta có thể dễ dàng đọc được giá trị của nó .
+LM35 là một cảm biến nhiệt độ analog.
+- LM35 là cảm biến nhiệt độ được sử dụng rộng rãi do giá thành rẻ, độ chính xác cao, dễ dàng xây dựng các ứng dụng. LM35 cho đầu ra là tín hiệu analog, tỷ lệ tuyến tính với nhiệt độ cần đo.
+- Dải nhiệt độ đo được -55 đến 150oC.
+- Hệ số tỷ lệ giữa tín hiêu ra với nhiệt độ là 10mV/oC.
+- Nguồn nuôi từ 4-30V, ăn dòng ít hơn 60 μA.
+- Trở kháng ra chân Vout 0.1 Ω cho tải 1 mA, dễ dàng phối ghép trong mạch
+- Phép đo nhiệt độ cơ bản trong dải 2oC - 150oC
+- Phép đô nhiệt độ full dải -55oC - 150oC
+- Chọn R1= –VS / 50 µA
+- VOUT= 1500 mV tại 150°C
+- VOUT= 250 mV tại 25°C
+- VOUT= –550 mV tại –55°C
+Hinh 2.10 Cảm biến nhiệt độ LM 35
+2.3.4 Module sim 900A
+Giới thiệu:
+Module Sim900A là module GSM, hoạt động ở 2 băng tần 900/1900 MHz, xây dựng dựa trên Sim900A của hãng SIMCOM.
+Module Sim900A do MLAB sản xuất được thiết kế tập trung hướng đến sự ổn định trong hoạt động của thiết bị, dễ sử dụng với người dùng và phục vụ chủ yếu cho việc điều khiển và giám sát các thiết bị qua GSM/GPRS, mọi tính năng không cần thiết đều được loại bỏ để đạt được yêu cầu chính của khách hàng với chi phi phí thấp nhất.
+Đặc điểm:
++ Sử dụng nguồn ngoài: 4.3VDC - 4.8VDC/ 3A(chạy ổn địn ở 4.5 V) Trên mạch có phần bảo vệ ESD và chống cắm ngược nguồn.
++ Giao tiếp UART, dùng được với cả MCU 5V và 3.3V
++ Có thể khởi động module sim bằng phím bấm hoặc khởi động mềm bằng cách điều khiển chân PWKEY
++ Kích thước: 3.42 cm x 5.87 cm
+Kết nối với vi điều khiển:
++ GND nối với 0 VDC
++ VGSM - Nguồn cấp cho Module Sim 3.6V-4.8V / 3A
++ VMCU - Chân này dùng để đồng bộ mức điện áp RX,TX của 2 thiết bị, do module thiết kế có thể giao tiếp được cho cả IC 5V và 3.3V. Chân VMCU được nối với nguồn của vi điều khiển hoặc nguồn của IC giao tiếp với Module Sim.(Ví dụ: dùng vi điều khiển 3.3V thì cấp 3.3V vào chân VMCU, dùng vi điều khiển 5V thì cấp 5 V vào chân VMCU)
++ TXD - Nối với TXD của MCU
++ RXD- Nối với RXD của MCU
++ PWK - PWRKEY kết nối với 1 chân ouput của MCU để tắt/bật/reset nguồn cho module sim (phải có).
++ RST - NRESET kết nối với chân ouput của MCU để reset Module(Nếu cần).
+
+
+

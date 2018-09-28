@@ -1,0 +1,217 @@
+ĐỒ ÁN TỐT NGHIỆP ĐIỆN TỬ ĐIỀU KHIỂN VÀ GIÁM SÁT LÒ NHIỆT, thuyết minh ĐỒ ÁN TỐT NGHIỆP ĐIỆN TỬ ĐIỀU KHIỂN VÀ GIÁM SÁT LÒ NHIỆT, ĐIỀU KHIỂN VÀ GIÁM SÁT LÒ NHIỆT, Ngôn ngữ lập trình SCADA
+CHƯƠNG 1 :
+GIỚI THIỆU HỆ THỐNG ĐIỀU KHIỂN NHIỆT ĐỘ VÀ NHIỆM VỤ LUẬN VĂN
+1.1. Giới thiệu về nhiệt độ và phương pháp điều khiển :
+Nhiệt độ là một đại lượng vật lý hiện diện khắp nơi và trong nhiều lĩnh vực, trong công nghiệp cũng như trong sinh hoạt. Nhiệt độ trở nên là mối quan tâm hàng đầu cho các nhà thiết kế máy và điều khiển nhiệt độ trở thành một trong những mục tiêu của ngành Điều Khiển Tự Động. Trong nhiều lĩnh vực của nền kinh tế, vấn đề đo và kiểm soát nhiệt độ là một quá trình không thể thiếu được, nhất là trong công nghiệp. Đo nhiệt độ trong công nghiệp luôn gắn liền với quy trình công nghệ của sản xuất , việc đo và kiểm soát nhiệt độ tốt quyết định rất nhiều đến chất lượng của sản phẩm trong các ngành công nghiệp thực phẩm, luyện kim, xi măng, gốm sứ, công nghiệp chế tạo động cơ đốt trong...
+Tùy theo tính chất , yêu cầu của quá trình mà nó đòi hỏi các phương pháp điều khiển thích hợp. Tính ổn định và chính xác của nhiệt độ cũng được đòi hỏi ở đây đặt ra các vấn đề cần phải giải quyết.
+Một điều thực sự cần thiết là ta phải khảo sát kỹ đối tượng cung cấp nhiệt mà ta cần phải điều khiển để dẫn đến mô hình toán học cụ thể. Từ đó chúng ta sẽ giải quyết bài toán điều khiển trên cơ sở lý thuyết đã nghiên cứu sẳn . Hệ thống điều khiển nhiệt độ có thể phân làm hai loại : hệ thống điều khiển hồi tiếp (feedback control system) và hệ thống điều khiển tuần tự (sequence control system) .
+Điều khiển hồi tiếp thường được xác định và giám sát kết quả điều khiển , so sánh nó với yêu cầu thực thi (ví dụ điểm đặt) và tự động điều chỉnh đúng .
+Điều khiển tuần tự thực hiện từng bước điều khiển tùy theo hoạt động điều khiển trước khi xác định tuần tự .
+Một hệ thống muốn chính xác cần phải thực hiện hồi tiếp tín hiệu về so sánh với tín hiệu vào và ra sẽ được gởi đến bộ điều khiển hiệu chỉnh đầu ra . Hệ thống điều khiển hồi tiếp có nhiều ưu điểm nên thường được thấy trong các hệ thống tự động .
+Các phương pháp điều khiển khác nhau nhưng nguyên tắc điều khiển là giống nhau . Một hệ thống điều khiển nhiệt độ dựa trên nguyên tắc hệ thống hồi tiếp có dạng tổng quát như hình dưới đây : Đây là một hệ thống hồi tiếp qua bộ cảm biến cho tín hiệu đo lường nhiệt độ về so sánh với giá trị đặt , sai lệch giữa tín hiệu đặt và đo sẽ được đưa tới bộ điều khiển tạo tín hiệu điều khiển công suất cấp cho bộ phận gia nhiệt . Như vậy các phương pháp điều khiển khác nhau về bản chất là do các bộ điều khiển khác nhau tạo nên .
+1.2.Nhiệm vụ luận văn :
+1.2.1.Nhiệm vụ của luận văn là tìm hiểu thực hiện các mục tiêu sau :
+Sử dụng PLC SIEMENS S7-300 điều khiển lò nhiệt bằng phương pháp mờ lai Giám sát điều khiển và thu thập dữ liệu hoạt động của lò nhiệt sử dụng phần mềm WinCC (Windows Control Center)
+1.2.2.Phạm vi điều khiển : do trong khuôn khổ giới hạn của luận văn nên em chỉ giới hạn trong phạm vi như sau :
+Đối tượng : PLC S7-300 (CPU 314IFM), modun AI SM331 chuyên dụng có khả năng đọc trực tiếp tín hiệu từ các cảm biến như Thermocoup, PT... và lò nhiệt dân dụng Cảm biến : Thermocoup TC loại K có độ nhạy nhiệt 40mV/10C Phương tiện điều khiển : OP (Operation Panel), tuy nhiên được thay thế bằng PC ( Personal Computer ) với hệ điều hành Windows 98 Giao tiếp máy tính : thông qua phần mềm WInCC của công ty SIEMENS Bộ điều khiển mờ và PID : tích hợp trong PLC S7-300 của công ty SIEMENS Chương trình điều khiển : soạn thảo bằng phần mềm Step7 của công ty SIEMENS
+CHƯƠNG 2 : GIỚI THIỆU PLC SIEMEN VÀ PHẦN MỀM STEP7
+1. GIỚI THIỆU PLC
+PLC (Programmable Logic Control): thiết bị điều khiển logic khả trình là loại thiết bị cho phép thực hiện linh hoạt các thuật toán điều khiển logic thông qua một ngôn ngữ lập trình, thay cho việc phải thể hiện thuật toán đó bằng mạch logic.
+1.1. Vài nét về lịch sử của PLC:
+PLC bắt đầu phát triển từ năm 1968 để đáp ứng một yêu cầu của hãng Hydraumatic Division of General Motors (GM). Thời gian này, GM thường mất nhiều thời gian để thay thế hệ thống điều khiển dựa trên relay mỗi khi cần hiệu chỉnh hay thay đổi mẫu mã của xe hơi. Để giảm chi phí cao về việc nối lại dây, kỹ thuật điều khiển của GM gọi hệ thống điện tử có sự linh động của máy tính, có thể lập trình và bảo dưỡng bởi các kỹ sư và các chuyên gia trong xí nghiệp. Nó cũng có thể chịu đựng được bụi bẩn của không khí, sự rung, nhiễu điện, độ ẩm và nhiệt độ cao trong các môi trường công nghiệp.
+PLC đầu tiên được lắp đặt vào năm 1969 và thành công nhanh chóng. Những chức năng giống như relay được thay thế, thậm chí những PLC đầu tiên cũng có độ tin cậy hơn hệ thống relay, lý do là thành phần điện tử của nó đơn giản so với các phần chuyển động của các relay điện cơ. Nó chiếm ít không gian hơn các counters, timers và các thành phần điều khiển khác mà nó thay thế. Khả năng lập trình lại của nó rất lớn khi có sự thay đổi về kế hoạch điều khiển.
+Có lẽ chìa khóa lớn nhất để PLC có thể chấp nhận được trong công nghiệp là ngôn ngữ lập trình đầu tiên dựa trên giản đồ hình thang (ladder diagram) và các ký hiệu thường dùng của thợ điện.
+Hầu hết các nhân viên trong xí nghiệp được huấn luyện theo mức logic hình thang nên họ dễ dàng chấp nhận nó trong PLC. Thực ra mức logic hình thang có vai trò chung trong việc lập trình và sửa chữa, cho dù ngôn ngữ lập trình tân tiến hơn đã được phát triển.
+1.2 . Đặc điểm của PLC :
+Một hệ điều khiển được gọi là điều khiển lập trình được khi các ngõ ra và các ngõ vào được nối kết với nhau thông qua một bộ điều khiển có thể lập trình được. Chức năng của một hệ điều khiển được chuyển đổi thành một chương trình và được nạp vào bộ điều khiển. Bộ điều khiển dựa theo chương trình này để thực hiện quá trình điều khiển các ngõ ra và các thông số ngõ vào.
+Chúng ta có nên dùng một ngôn ngữ có thể lập trình ? Trong những năm 1970 và đầu thập kỷ 80 nhiều kỹ sư, nhà điều hành sản xuất và những người thiết kế hệ thống đã tốn nhiều thời gian để tranh luận về đề tài này song song đó là chi phí cho PLC. Ngày nay, người ta chấp nhận PLC vì nó trở nên kinh tế và có hiệu quả trong hệ thống điều khiển cần từ ba đến bốn relay hay nhiều hơn trong khi đó chi phí cho một PLC nhỏ chỉ vài trăm dollars. Các nhà sản xuất đặt hiệu suất và chất lượng lên hàng đầu nên chi phí trở nên không quan trọng.
+Với sự phát triển mạnh mẽ của kỹ thuật máy tính nhưng chúng ta vẫn dùng PLC để điều khiển máy trong công nghiệp là vì:
+Một PLC đơn giản có thể dùng trong nhiều lĩnh vực công nghiệp, từ việc điểu khiển lặp đi lặp lại một tác vụ đơn giản nào đó cho đến việc điều khiển để chạy chỉ một tác vụ phức tạp. Các chương trình điểu khiển có thể được thay đổi một cách dể dàng, cải tiến để phù hợp với hoạt động mới. Chương trình điều khiển có thể dể dàng nạp vào nhiều PLC, dể dàng trao đổi chương trình. Thời gian đáp ứng nhanh trở thành một tiêu chuẩn đối với PLC. Điều này là cần thiết bởi vì trong điều khiển công nghiệp, các tín hiệu từ các cảm biến thay đổi rất nhanh. Trong PLC có sẳn các bộ đếm, bộ định thì có thể sử dụng với nhiều độ chính xác khác nhau, khi trong quá trình điều khiển có cần thêm. Có thể chấp nhận được về tính kinh tế khi PLC được sử dụng trong các hệ thống điều khiển có 4 relay hay nhiều hơn. Khi dùng PLC có thể giao tiếp với các thiết bị như đèn LED 7 đoạn, bộ chọn nhấn ( thumbwheels), các chức năng về xử lý tín hiệu analog, xử lý tín hiệu tần số cao... Cho phép có thể hiển thị đồ hoạ trên một hệ thống. Truyền thông: Những hoạt động giao tiếp với những PLC khác hay mạng máy tính giúp cho việc thu thập dữ liệu và trao đổi thông tin được dể dàng.
+Các thiết kế đầu tiên là nhằm thay thế cho phần cứng các relay dây nối và các logic thời gian. Tuy nhiên, bên cạnh đó việc đòi hỏi tăng cường dung lượng nhớ và tính dễ dàng cho PLC mà vẫn đảm bảo được tốc độ xử lý cũng như giá cả...
+Chính những điều này đã gây ra sự quan tâm sâu sắc đến việc sử dụng PLC trong công nghiệp. Các tập lệnh nhanh chóng đi từ các lệnh logic đơn giản đến các lệnh đếm, định thời, thanh ghi dịch... sau đó là các chức năng làm toán trên các máy lớn... Sự phát triển của máy tính dẫn đến các bộ PLC có dung lượng nhớ lớn hơn, số lượng I/O nhiều hơn. PLC sử dụng bộ nhớ có thể lập trình được để lưu trữ các lệnh và thực thi các chức năng đặc biệt gồm có điều khiển ON/OFF, định thời, đếm, thứ tự, số học và xử lý dữ liệu. Với mọi hệ điều khiển, các tín hiệu đầu vào, đầu ra được nối vào PLC. PLC hoạt động bằng cách kiểm tra lại tín hiệu các lệnh (đã được lập trình trong bộ nhớ), sau đó ghi kết quả vào ngõ ra đưa đến các thiết bị điều khiển.
+Trong PLC, phần cứng CPU và chương trình là hai đơn vị cơ bản cho quá trình điều khiển hoặc xử lý hệ thống. Chức năng mà bộ điều khiển cần thực hiện sẽ được xác định bởi một chương trình. Chương trình này được nạp sẵn vào bộ nhớ của PLC, PLC sẽ thực hiện việc điều khiển dựa vào chương trình này. Như vậy nếu muốn thay đổi hay mở rộng chức năng của quy trình công nghệ, ta chỉ cần thay đổi chương trình bên trong bộ nhớ của PLC. Việc thay đổi hay mở rộng chức năng sẽ được thực hiện một cách dễ dàng mà không cần một sự can thiệp mang tính vật lý nào so với các bộ điều khiển dùng dây nối và relay.
+Nhiều PLC giúp gia tăng sự cạnh tranh. Các quá trình thường sử dụng PLC bao gồm: đóng gói, đóng chai và vận chuyển, xử lý vật liệu, vận hành máy, phát năng lượng, những hệ thống điều khiển xây dựng, hệ thống bảo vệ, dây chuyền tự động, vẽ đường và xử lý nước. PLC ứng dụng trong nhiều ngành công nghiệp bao gồm thức ăn và đồ uống, chuyển động tự động, hóa học, nhựa, bột giấy và giấy, dược và vật liệu. Thực ra, bất kỳ một ứng dụng nào cần đến điện đều có thể sử dụng PLC.
+So sánh PLC với một số hệ thống khác:
+Chỉ tiêu so sánh Rơ-le Mạch số Máy tính PLC Giá thành từng chức năng Khá thấp Thấp Cao Thấp Kích thước vất lý Lớn Rất gọn Khá gọn Rất gọn Tốc độ điều khiển Chậm Rất nhanh Khá nhanh Nhanh Khả năng chống nhiễu Xuất sắc Tốt Khá tốt Tốt Lắp đặt Mất thời gian thiết kế và lắp đặt Mất thời gian thiết kế Mất nhiều thời gian lập trình Lập trình và lắp đặt đơn giản Khả năng điều khiển tác vụ phức tạp Không Có Có Có Dễ thay đổi điều khiển Rất khó Khó Khó Đơn giản Công tác bảo trì Kém-có rất nhiều công tác Kém- nếu IC được hàn Kém- có rất nhiều mạch điện từ chuyên dùng Tốt- các module được tiêu chuẩn hóa
+1.3. Một vài ưu điểm của PLC trong tự động:
+Ưu điểm :
+- Thời gian lắp đặt công trình ngắn gọn.
+- Dễ dàng thay đổi mà không tổn thất tài chính.
+- Có thể tính toán được chính xác giá thành.
+- Cần ít thời gian huấn luyện.
+- Dễ dàng thay đổi thiết kế nhờ phần mềm.
+- Ứng dụng trong phạm vi rộng.
+- Dễ bảo trì, các chỉ thị ra vào giúp xử lý sự cố dễ hơn và nhanh hơn.
+- Độ tin cậy cao.
+- Chuẩn hóa được phần cứng điều khiển.
+Thích ứng trong môi trường khắc nghiệt: nhiệt độ, độ ẩm, điện áp dao động, tiếng ồn.
+1.3.1. Điều khiển giám sát:
+- Thay cho điều khiển Relay.
+- Thời gian đếm.
+- Thay cho các panels điều khiển mạch in.
+- Điều khiển tự động và bán tự động bằng tay,các máy và các quá trình.
+1.3.2 Điều khiển dãy:
+Các phép toán số học.
+- Cung cấp thông tin.
+- Điều khiển liện tục: nhiệt độ, áp suất...
+- Điều khiển P.I.D.
+- Điều khiển động cơ chấp hành.
+- Điều khiển động cơ bước.
+1.3.3 Điều khiển mềm dẻo:
+- Điều khiển quá trình và báo động.
+- Phát hiện lỗi và điều hành.
+- Ghép nối qua máy tính.
+- Ghép nối với máy in.
+- Mạng tự động hóa xí nghiệp.
+- Mạng cục bộ.
+- Mạng mở rộng.
+1.4. Cấu trúc của một PLC :
+- Một hệ thống lập trình cơ bản phải gồm có hai phần: khối xử lý trung tâm (CPU: Central Processing Unit) và hệ thống giao tiếp vào/ra (I/O)
+Hình 1.4.b-Sơ đồ khối tổng quát của CPU
+2. Giới thiệu PLC SIEMEN
+2.1. Cấu trúc , chức năng
+1- Các khối của S7-300
+- Khối tín hiệu (SM)
++ Khối ngõ vào digital: 24V DC, 120/230V AC
++ Khối ngõ ra digital: 24V DC, ngắt từ
++ Khối ngõ vào analog: Áp, dòng, điện trở, cặp nhiệt
++ Khối ngõ vào digital: 24V DC, Áp, dòng
+- Khối giao tiếp (IM): Khối IM360/IM365 và IM365 dùng để nối nhiều cấu hình. Chúng điều khiển thanh ghi của hệ thống.
+- Khối giả lập (DM): Khối DM 370 dự phòng các khối tín hiệu chưa được chỉ định. Chẳng hạn như dành chỗ cho các khối trong tương lai sẽ lắp đặt.
+- Khối chức năng (FM): Thể hiện những chức năng đặc biệt sau
++ Đếm
++ Định vị
++ Điều khiển hồi tiếp
+- Xử lý liên lạc (CP): Cung cấp những tiện nghi liên lạc sau
++ Nối điểm – điểm
++ Mạng PROFIBUS
++ Ethernet công nghiệp
+- Phụ tùng: Các thanh nối và bộ phận nối phía trước mặt
+2.2- Các thành phần cơ bản của S7-300
+- Dẫn nhập: Bảng kê các thiết bị cấu hình S7-300
+Bộ phận Nhiệm vụ Rãnh trượt … Là giá của S7-300 Nguồn cung cấp (PS) … Biến đổi áp khu vực (120/230V) ra 24V DC là áp làm việc của S7-300 Vi xử lý (CPU) … Thực hiện chương trình của người dùng phụ kiện: khối nhớ, pin lưu trữ Khối giao tiếp (IM) … Kết nối các thanh dữ liệu giữa các giá (dãy) Khối tín hiệu (SM) (Digital/Analog) … Làm thích nghi với nhiều mức xử lý của S7-300. Phụ kiện: nối thanh ghi, nối phía trước Khối chức năng (FM) … Thực hiện nhiệm vụ định vị, điều khiển hồi tiếp v.v… Xử lý truyền thông (CP) … Để nối các bộ phận PLC với nhau. Phụ kiện: cáp, phần mềm, khối giao tiếp
+- Ray: Nguồn cung cấp, CPU, IM, và 8 loại khối khác được gắn chặt vào thanh ray.
+- Nguồn:
++ Nguồn cung cấp có nhiều kiểu: 2A, 5A, đến 10A áp 24V. Nguồn áp cung cấp là lpại cách ly, có bảo vệ ngắn mạch, áp ổn định khi không tải. Có LED báo trạng thái hư hỏng. Đèn LED nhấp nháy khi ngắn mạch.
++ Bạn lưu ý nút đổi điện áp sơ cấp 120V và 230V.
+- Khối vi xử lý: CPU có những thành phần sau đây ở mặt trước:
++ Báo trạng thái và báo lỗi
++ Công tắc chuyển đổi cách vận hành với 4 chọn lựa
++ Mối nối nguồn cung cấp 24V
++ Phần giao tiếp nhiều điểm MPI để nối với các thiết bị lập trình hay PLC khác
++ Hộc chứa pin (không có đối với CPU312/FM)
++ Hộc chứa khối nhớ (không có đối với CPU312/FM, 314/FM)
+- Khối giao tiếp: Có thể sắp xếp cấu hình theo nhiều kiểu.
+- Khối tín hiệu: Những khối này được chọn tùy theo dãy điện áp sử dụng và điện áp ngõ ra. Có bộ nối bus điều khiển cho mỗi khối, và các vòng nối các bus dữ liệu phía sau. Tín hiệu xử lý ở bộ nối phía trước.
+- Nối liên kết: Bạn cần có cáp để nối CPU trực tiếp với máy lập trình.
+- Cáp: Cáp PROFIBUS và cáp nối cần có để nối nhiều PLC với nhau.
+- FM: Những khối chức năng thay thế các khối IP.
+- CP: Bộ xử lý truyền thông dành cho hệ thống bus dữ liệu của PROFIBUS.
+2.3- Khả năng mở rộng của S7-300
+- Độ mở rộng tối đa: cho phép mở rộng đến 32 khối, nhiều nhất là 8 khối trên mỗi giá (chồng). Không có qui luật về số rãnh đăng ký cho các khối tín hiệu, các khối chức năng, và các bộ xử lý truyền thông. Nghĩa là chúng có thể chiếm bất kỳ rãnh.
+- Khối giao tiếp (IM):
++ Khối giao tiếp (IM 360/361) được dùng để hồi tiếp thanh ghi dữ liệu ở giá. Bộ IMS là khối gửi, và bộ IMR là khối nhận. Các khối giao tiếp phải dùng đúng rãnh chỉ định.
++ Nếu cần, nguồn cung cấp phải gắn thêm ở giá mở rộng.
++ Có loại khối giao tiếp tên IM 365 là dạng tiết kiệm dùng cho cấu hình kiểu xếp 2 khối. (Không dùng cho nguồn thêm; không nối CP).
+- Phân đoạn nội bộ:
++ Có vài khối chức năng, chẳng hạn khối FM NC, có thể phải chỉ định cổng I/O cho chúng. Khối FM có vùng I/O riêng, và khối này có thể truy cập vùng I/O nhanh chóng. Vùng I/O này là phân đoạn nội bộ.
++ Một phân đoạn nội bộ có thể cấu hình cho từng rãnh, CPU không thể truy cập I/O.
+- Số rãnh
++ Rãnh 1 đến 3:chỉ định thường trực
+Rãnh 1: PS (nguồn cung cấp), nếu có
+Rãnh 2: CPU (vi xử lý), nếu có
+Rãnh 3: IM (khối giao tiếp), nếu có
++ Rãnh 4 đến 11 (tự do chỉ định): SM, FM, CP có thể cắm vào bất cứ rãnh nào
+- Khoảng cách: các loại cáp với độ dài sau được dùng cho các kiểu sắp xếp cấu hình
++ Cấu hình 2 chồng với IM 365 tối đa 1m
++ Cấu hình nhiều chồng với IM 360/361 tối đa 10m.
+2.4. Cấu trúc phần cứng
+Các thành phần trong cấu trúc của S7-300
+1. Giá đỡ chuẩn DIN: Nguồn cung cấp CPU, IM và nhiều nhất là 8 module có khả năng lắp đặt trên một giá.
+2. Nguồn cung cấp: có khả năng với dòng ra 2A, 5A, 10A và điện áp ra 24V DC. Điện áp ra phải cách biệt, bảo vệ khi ngắn mạch và ổn định như khi làm việc không tải. Một đèn báo nguồn làm việc ở chế độ bình thường và đèn nhấp nháy khi quá tải. Có thể chọn công tắc, chọn lưới điện cung cấp 120V hay 230V AC.
+3. Bộ xử lý trung tâm: CPU được lắp ráp với các phần tử đặt ở mặt trước của thiết bị sau đây:
+- Đèn báo trạng thái và báo lỗi.
+- Công tắc chọn chế độ làm việc 4 vị trí.
+- Chỗ nối cho nguồn 24V.
+- Cổng MPI cho thiết bị lập trình hoặc cho ghép nối với một PLC khác.
+- Ngăn đựng pin (không có đối với CPU 312).
+- Rãnh đặt một module (không có đối với CPU 312).
+4. Module giao diện: tạo khả năng ghép nối nhiều cấu hình.
+5. Module tín hiệu: được lựa chọn theo miền giới hạn của tín hiệu vào và ra. Mỗi module có thêm một bus nối để tạo ra khả năng mở rộng tiếp các tín hiệu đo được nối ở bảng đấu dây của bộ nối.
+6. Cable nối (Cáp): đấu dây trực tiếp với thiết bị lập trình cần có một cable dành cho máy lập trình PG... Nếu nối một vài PLC với nhau trong một mạng cần phải có cable profibus và bộ nối cable.
+7. FM: module chức năng thay chỗ cho module IP.
+8. CP: Bộ xử lý truyền thông dành cho hệ profibus.
+2.5. Modul mở rộng: được chia thành 5 loại
+1. PS (power supply): module nguồn nuôi. Có 3 loại 2A, 5A, 10A
+2. SM (signal module): module mở rộng cổng tín hiệu vào ra. Bao gồm:
+- DI (digital input): module mở rộng các cổng vào số. Số các cổng vào số có thể là 8, 16 hoặc 32 tùy thuộc vào từng loại module.
+- DO (digital output): module mở rộng các cổng ra số. Số các cổng ra số có thể là 8, 16 hoặc 32 tùy thuộc vào từng loại module.
+- DI/DO: module mở rộng các cổng vào/ra số. Số các cổng vào/ra số có thể là 8, 16 hoặc 32 tùy thuộc vào từng loại module.
+- AI (analog input): module mở rộng các cổng vào tương tự. Chúng chính là bộ chuyển đổi số 12 bits (AD) tức là mỗi tín hiệu tương tự được chuyển thành một tín hiệu số (nguyên) có độ dài 12 bits. Số các cổng vào tương tự có thể là 2/4 hoặc 8 tùy từng loại module.
+- AO (analog output): module mở rộng các cổng ra tương tự. Chúng chính là bộ chuyển đổi số 12 bits (AD) tức là mỗi tín hiệu tương tự được chuyển thành một tín hiệu số (nguyên) có độ dài 12 bits. Số các cổng ratương tự có thể là 2/4 hoặc 8 tùy từng loại module.
+- AI/AO: module mở rộng các cổng vào/ra tương tự. Số các cổng tương tự có thể là 4 vào/ 4 ra hoặc 4 vào/2 ra tùy loại module.
+3. IM (interface module): module ghép nối. đây là loại module chuyên dụng có nhiệm vụ nối từng nhóm các module mở rộng lại với nhau thành một khối và được quản lý chung bởi môt module CPU. Thông thường các module mở rộng được gá liền với nhau trên một thanh đỡ gọi là rack. Trên mỗi rack chỉ có thể gá được nhiều nhất 8 module mở rộng (không kể module CPU, module nguồn nuôi). Một module CPU S7-300 có thể làm việc trực tiếp được với nhiều nhất 8 rack và các rack này phải được nối với nhau bằng module IM.
+4. FM (function module): module chức năng điều khiển riêng. Ví dụ module điều khiển động cơ bước, động cơ serco...
+5. CP (communication module): module phục vụ truyền thông trong mạng giữa các PLC với nhau hoặc giữa PLC với máy tính.
+CHƯƠNG 3 : TẬP LỆNH S7-300
+Tham khảo phụ lục
+CHƯƠNG 4. CHƯƠNG TRÌNH FCPA
+4.1 Chuẩn bị một Project cho việc khai báo bộ điều khiển mờ bằng FCPA
+Chương trình FCPA (Fuzzy Control Parameter Assinment) là phần mềm hỗ trợ việc tạo lập bộ điều khiển mờ cho PLC Simatic S7-300 theo từng bước như đã trình bày
+Trước hết ta phải cài đặt FCPA trên máy tính cá nhân.Việc cài đặt thành công FCPA đòi hỏi :
+có ít nhất 1Mbytes còn trống trong ổ cứng . Chạy dưới hệ điều hành Window 95/98 hoặc NT.
+Toàn bộ chương trình gốc của FCPA gồm 2 phần Fuzzy/Tool và Fuzzy/FB với dung lượng tổng cộng 2,27MB.Để cài dặt ,ta gọi tệp Setup .exe của Fuzzy/Tool và của Fuzzy/FB từ Window và thực hiện những chỉ dẫn hiện trên
+.............................................................................
+5.1.2 Phương pháp thực nghiệm
+Trong trường hợp không thể xây dựng mô hình cho đối tượng thì phương pháp thiết kế thích hợp là phương pháp thực nghiệm. Thực nghiệm chỉ có thể tiến hành nếu hệ thống đảm bảo điều kiện : khi đưa trạng thái làm việc của hệ đến biên giới ổn định thì mọi giá trị của các tín hiệu trong hệ thống đều phải nằm trong giới hạn cho phép.
+Phương pháp Zlegier và Nichois
+Trước khi tiến hành thực nghiệm hệ thống phải được lắp đặt theo sơ đồ ở hình 5.1, bao gồm đối tượng và bộ điều khiển theo luật PID. Sau khi lắp đặt xong, thực nghiệm được tiến hành theo các bước sau :
+Cho hệ thống làm việc ở biên giới ổn định
+Điều khiển đối tượng theo luật P, tức là cho và
+Tăng hệ số khuếch đại của luật điều khiển P cho đến khi hệ thống ở biên giới ổn định. Xác định hệ số và chu kỳ giao động tới hạn dao độ
+Trong nhiều trường hợp , việc xác định chu kỳ dao động riêng gặp khó khăn và không đảm bảo độ chính xác thì phương pháp giới thiệu sau đây sẽ khắc phục nhược điểm đó.
+Phương pháp Jassen và Offerein
+Thực nghiệm theo phương pháp này được tiến hành theo các bước sau đây :
+Cho hệ thống làm việc ở biên giới ổn định
+Điều khiển đố i tượng theo luật P( và )
+Tăng hệ số khuếch đại của luật điều khiển P cho đến khi hệ thống ở biên giới ổn định. Xác định hệ số và chu kỳ giao động tới hạn dao động.
+Chọn luật điều khiển và tính toán tham số từ theo bảng sau
+Luật điều khiển Luật P 0,5 Luật PI 0,45 0,8 Luật PID 0,6 0,5 0,12
+Trong nhiều trường hợp, việc xác định chu kỳ dao động riêng gặp khó khăn và không đảm bảo độ chính xác thì phương pháp giới thiệu sau đây sẽ khắc phục nhược điểm đó.
+Phương pháp Jassen và Offerein
+Cho hệ thống làm việc ở biên giới ổn định
+Điều khiển đối tượng theo luật và
+Xác định hệ số
+Chọn tham số cho luật PI
+Cho hệ làm việc với luật PI và với hệ số =0,45 , tùy chọn.
+Giảm hằng số thời gian tích phân cho đến khi hệ thống làm việc ở biên giới ổn định. Xác định hằng số thời gian tích phân ở chế độ này.
+Chọn
+3) Chọn luật điều khiển PID
+Cho hệ thống làm việc theo luật PID với = ( dù nhỏ), và tùy chọn.
+Tăng hằng số thời gian vi phân cho đến khi hệ thống đạt được quá điều chỉnh cực đại lớn nhất .Xác định
+Chọn và = 4,5
+Giảm cho đến khi hệ thống đạt được đặc tính đông học mong muốn.
+5.2 Module mềm PID
+5.2.1 Những module PID mềm có trong có trong step7
+Phần mềm Step7 cung cấp các module mềm PID để điều khiển các đối tượng có mô hình liên tục như lò, động cơ, mức… đầu ra của đối tượng được đưa vào đầu vào của bộ điều khiển qua các cổng vào tương tự của các module vào tương tự của các Simatic S7-300/400. Tín hiệu ra của bộ điều khiển có nhiều dạng và được đưa đến các cơ câu chấp hành qua các module vào ra khác nhau như:
+qua các cổng ra tương tự của module ra tương tự (AO) hoặc qua các cổng ra số của module ra số (DO), hoặc qua các cổng phát xung ra tốc độ cao.
+Phụ thuộc vào cơ cấu chấp hành, người sử dụng có thể chọn được module mềm PID tương thích. Ba module PID được tích hợp trong phần mềm Step7 phù hợp với ba kiểu cơ cấu chấp hành nêu trên, đó là:
+1 điều khiển liên tục với module mềm FB41 ( tên hình thứ CONT_ C).
+2 Điều khiển bước với module mềm FB42 (tên hình thức CONT _ S)
+3 Điều khiển kiểu phát xung với khối hàm hỗ trợ FB43 ( tên hình thức CONT_S)
+Mỗi module mềm PID đều có một khối lượng dữ liệu riêng (DB) để lưu giữ các dữ liệu phục vụ cho chương trình tính toán thực hiện luật điều khiển. Các khối hàm FB của module mềm PID đều cập nhật được những khối dữ kiệu này ở mọi thời điểm.
+Module mềm FB PULSEGEN được sử dụng kết hợp với module mềm FB CONT _ C nhằm tạo ra bộ điều khiển có tín hiệu ra dạng xung tốc độ cao thích ứng với những cơ cấu chấp hành kiểu tỷ lệ.
+Một bộ điều khiển PID mềm được hoàn thiện thông qua các khối hàm FB nhiều chức năng tạo ra tính linh hoạt cao trong thiết kế. Người sử dụng có thể chọn các chức năng này hoặc loại bỏ các chức năng không cần cho một hệ thống. Các chức năng cơ bản khác như xử lý tín hiệu chủ đạo, tín hiệu quá trình và tính toán các biến khác cùng với bộ điều khiển PID cũng được tích hợp sẵn trong một module điều khiển mềm.
+Một điều cần chú ý là những module PID mềm không toàn năng tới mức có thể ứng dụng được vào mọi bài toán điều khiển. Đặc tính điều khiển và tốc độ xử lý của module PID mềm phụ thuộc vào loại CPU được chọn để giải quyết bài toán điều khiển. Do khi xử ký một mạch vòng điều khiển người ta phải thực hiện công việc trích mẩu tín hiệu đầu vào cho mạch vòng điều khiển đó (liên quan đến tín hiệu báo ngắt theo chu kỳ thời gian OB30 - OB38), nên cần phải có sự tương thích giữa số mạch vòng điều khiển PID và khả năng cũng như tốc độ tính toán của CPU. Nếu bài toán điều khiển yêu cẩu tần suất cập nhật càng cao thì số dòng điều khiển phải càng giảm. Chỉ ở những bài toán có số vòng điều khiển ít người ta mới có thể sử dụng các bộ module PID mềm có tần suất truy nhập cao.
+Tất cả các module PID mềm đều cung cấp nhiều giải pháp lựa chọn luật điếu khiển trong khi thiết kế để độ điều khiển phù hợp được với đối tượng như : luật điều khiển tỷ lệ (luật P), luật điều khiển tỷ lệ – vi phân ( luật PD), luật điều khiển tỷ lệ – tích phân ( luật PI)…. Chất lượng của hệ thống phụ thuộc vào các tham số của bộ điều khiển do đó, điều kiện bắt buộc để đảm bảo thành công trong thiết kế là người sử dụng phải có mô hình đối tượng chính xác. Đó cũng chính là nhược điểm cơ bản của các phương pháp điều khiển kinh điển.
+Các đại lượng vật lý của đối tượng và đặc tính của bộ điều khiển quyết định đặc tính động của hệ thống trong quá trình điều khiển và chỉ bị thay đổi rất ít so với thiết kế. Chỉ có thể đạt được chất lượng điều khiển tốt nếu như người thiết kế chọn thuật điều khiển và thời gian trích mẩu phù hợp với đối tượng.
+Hoàn toàn có thể thiết kế bộ điều khiển (cấu trúc ,tham số , gọi module mềm PID trong chương trình hệ thống ) mà không cần lập trình. Tuy nhiên muốn làm được như vậy phải nắm được phần mềm Step7.
+5.2.2Khai báo tham số và các biến của module mềm PID
+Người thiết kế có thể khai báo tham số và các biến cho bộ điều khiển trong một dữ liệu địa phương (instance data block ) bằng cách sử dụng giao diện của module mềm PID. Để vào chương trình khai báo tham số khó thực hiện .
+Simatic Step7 PID Control Paramete Assignment
+Trong hộp hội thoại đầu tiên,ngươi thiết kế có thể mở khối dữ kiệu (DB ) đã tích hợp sẵn cho FB14 :con- C”, FB42 “ CON_S “ hoặc mở một khối dữ liệu mới hoàn toàn. Riêng FB43 “PULSEGEN” không thể thực hiện chọn tham số và biến qua giao diện, trong trường hợp này người thiết kế phải sử dụng công cụ của STEP7 để thiết lập tham số và khai báo biến cho bộ điều khiển .
+Đối với CPU 314 IFM có thể thiết lập tham số và biến cho module mềm SFB41 hoặc SFB42 bằng cách nhập trực tiếp một khối dữ liệu bất kỳ và chọn nó làm khối lượng dữ liệu cục bộ cho những module này.
+5.3 điều khiển liên tục với FB41 “CONT C”
+5.3.1Giới thiệu chung về FB41
+
+1. Lý thuyết điều khiển mờ. Phan Xuân Vinh – Nguyễn Doãn Phước 2. Tự động hóa với Simatic S7-300 Phan Xuân Vinh – Nguyễn Doãn Phước 3. Điều khiển tự động 1, 2 Nguyễn Thị Phương Hà 4. Tài liệu thí nghiệm từ động hóa 1 và 2 5. Tài liệu thí nghiệm vi xử lý 6. Simatic STEP 7 User Manual 7. S7 300 Harware Configuration and Structure 8. Simatic WinCC User Manual

@@ -1,0 +1,450 @@
+GIAO TIẾP MÁY TÍNH ĐIỀU KHIỂN VÀ GIÁM SÁT THIẾT BỊ ĐIỆN Những năm gần đây, việc ứng dụng khoa học công nghệ trong cuộc sống ngày càng trở nên phổ biến, nhất là trong lĩnh vực Điện tử - Tự động hóa. Các Microcontroller Unit (MCU) sẽ đảm nhiệm những nhiệm vụ điều khiển thay cho con người một cách chính xác và nhanh chóng, kết hợp với PC cho ta giao diện Người – Máy (HMI) thân thiện. Việc truyền thông thường được thực hiện thông qua các chuẩn giao tiếp có sẵn trên PC như : PCI, LPT, COM, USB … Mỗi chuẩn giao tiếp lại có những đặc điểm khác nhau như tốc độ truyền, độ ổn định, khoảng cách truyền xa hay gần, kiểu định dạng dữ liệu, số lượng dây truyền dữ kiệu, tính kinh tế, khả năng thực hiện…với những ứng dụng điều khiển nhỏ thường chọn chuẩn giao tiếp nối tiếp thông qua cổng COM Một khía cạnh khác là trong nhiều lĩnh vực sản xuất và quản lý hiện nay, nhất là trong các văn phòng, tòa nhà, nhà xưởng… là giám sát và điều khiển. Vì vậy đồ án tốt nghiệp em chọn “Giao tiếp máy tính giám sát và điều khiển thiết bị điện ” với đối tượng là các thiết bị chiếu sáng hoặc thiết bị với chức năng chính là on/off như máy bơm, quạt, bình nước nóng lạnh… thông qua cổng COM. Mặt dù rất cố gắng để hoàn thành đồ án đúng thời hạn, nhưng cũng không tránh khỏi những thiếu sót. Chúng em kính mong quí thầy cô cảm thông. Rất mong được nhận những ý kiến đóng góp. Cuối cùng xin chân thành cảm ơn sự giúp đỡ chân tình của quí thầy cô và các bạn. Trong suốt khóa học 2007 – 2010 tại trường CĐ Kỹ Thuật Cao Thắng, quí thầy cô đã truyền đạt cho em rất nhiều kiến thức bổ ích,đặc biệt là thầy cô trong khoa điện tử - tin học đã truyền cho chúng em rất nhiều kiến thức về chuyên ngành rất cần thiết cho chúng em sau khi ra trường.Trong thời gian làm đề tài nhóm chúng em đã học hỏi rất nhiều kiến thức từ thầy hướng dẫn và các bạn nên đã hoàn thành đề tài đúng thời gian quy định. Nhóm chúng em xin chân thành cám ơn :Quí thầy cô trường CAO ĐẲNG KỸ THUẬT CAO THẮNG đã giảng dạy cho chúng em nhiều kiến thức quý báu.Thầy cô trong khoa Điện tử -Tin học đã giảng dạy những kiến thức chuyên môn làm cơ sở để thực hiện tốt đề tài và tạo điều kiện thuận lợi cho chúng em hoàn thành tốt khóa học. Nhóm chúng em xin gởi lời cảm ơn đến thầy Thượng Văn Bé, người đã hướng dẫn, giúp đỡ chúng em tận tình và tạo mọi điều kiện tốt cho chúng em thực hiện đề tài. Ngoài ra, nhóm cũng hết lòng biết ơn các bạn bè đã hết lòng giúp đỡ, động viên, ủng hộ và đóng góp ý kiến cho chúng em trong suốt thời gian thực hiện đề tài. Nhóm chúng em xin chân thành cảm ơn! MỤC LỤC CHƯƠNG DẪN NHẬP.................................................................................................. 5 I.1 ĐẶT VẤN ĐỀ...................................................................................................... 6 I.2 TẦM QUAN TRỌNG CỦA ĐỀ TÀI................................................................... 6 I.3 GIỚI HẠN ĐỀ TÀI............................................................................................... 6 I.4 MỤC ĐÍCH NGHIÊN CỨU................................................................................. 6 I.5 ĐỐI TƯỢNG NGHIÊN CỨU.............................................................................. 6 I.6 PHƯƠNG PHÁP VÀ PHƯƠNG TIỆN NGHIÊN CỨU..................................... 7 CHƯƠNG II: GIỚI THIỆU PIC 16F877A.................................................................... 8 II.1.Sơ đồ chân................................................................................................ 9 II.2.Một vài thông số kỹ thuật của pic16f877a......................................... 9 II.3.Sơ đồ khối của pic 16f877a................................................................ 10 II.4.Tổ chức bộ nhớ..................................................................................... 11 II.5.Các cổng xuất nhập của Pic16F877A................................................ 14 II.6.Timer 0................................................................................................... 16 II.7.Timer 1................................................................................................... 17 II.8.Timer 2................................................................................................... 18 II.9.ADC........................................................................................................ 18 II.10.Giao tiếp nối tiếp................................................................................ 19 II.11.Cổng giao tiếp song song psp........................................................... 21 II.12.Các đặc tính của Oscillator............................................................... 21 II.13.Các chế độ Reset................................................................................ 21 II.14.Ngắt...................................................................................................... 23 CHƯƠNG III: ĐO NHIỆT ĐỘ..................................................................................... 25 III.1.Thang nhiệt độ và điểm chuẩn độ...................................................... 26 III.2.Các phương pháp đo nhiệt độ............................................................. 26 III.3.Hệ thống đo lường số........................................................................... 30 CHƯƠNG IV:GIAO TIẾP MÁY TÍNH....................................................................... 31 IV.1.Phân tích cơ sở giao tiếp máy tính..................................................... 32 IV.1.1.Giao tiếp qua rãnh cắm (Slot).................................................. 32 IV.1.2.Giao tiếp qua cổng song song (LPT)....................................... 32 IV.1.3.Giao tiếp qua cổng nối tiếp (COM)......................................... 35 IV.1.4.Truyền thông nối tiếp dùng ActiveX...................................... 38 IV.1.5.Chọn phương án thiết kế........................................................... 42 IV.2.Giới thiệu MAX232............................................................................. 43 IV.2.1.Giới thiệu.................................................................................... 44 IV.2.2.IC MAX-232............................................................................... 46 CHƯƠNG V: GIỚI THIỆU CCS.................................................................................. 47 V.1Tổng quan về CCS................................................................................. 47 V.2.Viết một chương trình trong CCS....................................................... 47 V.3.Sử dung các biến và hàm,cấu trúc lệnh trong CCS.......................... 48 V.4.Hiển thị tiền xử lý................................................................................. 49 V.5.Các hàm xử lý số,bit,deley.................................................................. 51 V.6.Các hàm Deley...................................................................................... 52 V.7.Xử lý ADC,các hàm I/O........................................................................ 53 V.8.Truyền thông PC qua cổng COM ,xử lý chuổi.................................. 54 V.9.Làm việc với ngắt.................................................................................. 54 CHƯƠNG VI: THIẾT KẾ PHẦN CỨNG VÀ GIAO DIỆN ĐIỀU KHIỂN.............. 57 VI.1.THIẾT KẾ PHẦN CỨNG................................................................... 58 VI.1.1.Sơ đồ khối và lưu đồ giải thuật............................................. 58 VI.1.2.Chức năng mỗi khối................................................................ 61 VI.1.3.Thi công mô hình.................................................................... 62 VI.2.THIẾT KẾ GIAO DIỆN ĐIỀU KHIỂN.............................................. 67 VI.2.1.Lựa chọn ngôn ngữ lập trình.................................................. 67 VI.2.2.Xây dựng chương trình........................................................... 68 VI.2.3.Thi công.................................................................................... 69 CHƯƠNG VI: TÓM TẮT VÀ KẾT LUẬN................................................................. 72 VII.1.TÓM TẮT........................................................................................... 73 VII.2.KẾT LUẬN......................................................................................... 73 PHẦN PHỤ LỤC........................................................................................................... 74 I.CHƯƠNG TRÌNH CHO VI XỬ LÝ........................................................ 75 II.CHƯƠNG TRÌNH ĐIỀU KHIỂN TRÊN MÁY VI TÍNH..................... 85 TÀI LIỆU THAM KHẢO I.1. ĐẶT VẤN ĐỀ. Ngày nay, khi công nghiệp ngày càng phát triển thì nhu cầu điều khiển được đặt lên hàng đầu. Xuất phát từ nhu cầu đó điện tử tự động hoá ra đời và nó đã được xếp trong nhóm 5 ngành khoa học công nghệ hàng đầu vì những ứng dụng rộng rãi của nó. Song song với sự ra đời của điện tử tự động hoá là sự ra đời và cải tiến không ngừng của máy tính. Từ những chiếc máy tính đời đầu chỉ thực hiện những phép tính đơn giản ngày nay máy tính có tốc độ xử lý rất cao, nó có thể xử lý hàng tỉ phép tính phức tạp trong vòng một giây. Để khai thác được những ưu điểm đó điện tử tự động hoá đã có sự bắt tay với máy vi tính. Nhờ có máy vi tính mà chúng ta có thể làm được nhiều công việc mà không phải tốn nhiều công sức. Xuất phát từ thực tế đó, bằng những kiến thức đã được học và sự giúp đở của thầy cô, em đã quyết định tìm hiểu về đề tài “Giao tiếp máy tính điều khiển và giám sát thiết bị điện” I.2.TẦM QUAN TRỌNG CỦA ĐỀ TÀI. Đây là một đề tài nghiên cứu mang tính thực tiễn trong việc vận dụng các kiến thức đã được học dưới mái trường Cao Đẳng vào trong thực tế. Về mặt khoa học, đề tài sẽ giúp cho nhóm sinh viên thực hiện hiểu rõ thêm về Truyền dữ liệu điều khiển và Cách điều khiển mạch điện thông qua máy tính. Về mặt thực tiễn, đề tài này có thể áp dụng vào thực tế để điều khiển một số thiết bị trong nhà như đèn điện, quạt máy..v..v. I.3.GIỚI HẠN ĐỀ TÀI. Do thời gian thực hiện đề tài có hạn và kiến thức còn hạn chế nên nhóm sinh viên thực hiện đã đưa ra những giới hạn sau: - Điều khiển cùng lúc tối đa 16 thiết bị. - Mạch phải hoạt động tốt không bị nhiễu trên đường truyền tín hiệu. - Mạch phải chạy ổn định trong quá trình làm việc. - Mạch đo nhiệt độ chạy ổn định. I.4. MỤC ĐÍCH NGHIÊN CỨU. Khi bắt tay vào thực hiện đề tài này, nhóm thực hiện mong muốn rằng sản phẩm của đề tài phải được ứng dụng. Và đặc biệt, đối với nhóm nghiên cứu đây là điều kiện, cơ hội, cách thức để củng cố, bổ sung và ứng dụng những gì đã được lĩnh hội được trong lý thuyết cũng như thực tập. Từ đó sử dụng và ứng dụng nó nhằm đáp ứng cho nhu cầu thực tế. Đây chính là những tiền đề đầu tiên để mỗi thành viên trong nhóm có được một số kiến thức chuyên ngành nhất định, làm hành trang cho công việc sau này. I.5. ĐỐI TƯỢNG NGHIÊN CỨU. Đối tượng nghiên cứu của đề tài này chính là: - Cách thức giao tiếp giữa mạch đo và máy tính. - Cách thức giao tiếp giữa mạch đo và mạch điều khiển. - Cách lập trình cho vi điều khiển để cho dữ liệu có thể thu, phát liên tục mà không bị ngắt quãng. - Cách cân chỉnh mạch đo, đảm bảo độ chính xác của mạch đo. I.6.PHƯƠNG PHÁP VÀ PHƯƠNG TIỆN NGHIÊN CỨU. a. Phương pháp nghiên cứu. Trong quá trình nghiên cứu, nhóm sinh viên thực hiện chủ yếu dựa vào hai phương pháp chính: - Phương pháp tham khảo tài liệu: Thu thập các tài liệu liên quan đến giao tiếp máy tính, Truyền số liệu, Kỹ thuật mạch điện tử, Thiết kế mạch điện tử và Phương pháp nghiên cứu khoa học. Sau đó, nhóm sinh viên vận dụng các kiến thức hiện có để tổng hợp các tài liệu, sau cùng thiết kế ra mạch điện phù hợp với các yêu cầu mà ban đầu nhóm đã đề ra. - Phương pháp quan sát và thực nghiệm: Sau khi đã có mạch theo tính toán lý thuyết, nhóm sinh viên thực hiện đã thi công mạch thực tế theo đúng sơ đồnguyên lý đã vạch ra. Do không có các thiết bị đo chuyên dụng thích hợp, nhóm sinh viên thực hiện đã cân chỉnh thủ công từng khối, đo điện áp và dòng điện ngõ ra của chúng. Sau đó, nhóm đã sử dụng kết quả cân chỉnh này để điều chỉnh lại lý thuyết một cách hợp lý. b. Phương tiện nghiên cứu. a. Các tài liệu liên quan đến đề tài. b. Bộ nguồn ổn áp tuyến tính 5V, ±12V. c. Đồng hồ đo VOM kim và số. d. Máy tính. CHƯƠNG II: GIỚI THIỆU PIC 16F877A
+II. 1.Sơ đồ chân:
+Sơ đồ chân của Vi điều khiển PIC16F877A
+II. 2.Một vài thông số kỹ thuật của pic16F877A:
+Đây là vi điều khiển thuộc họ PIC16Fxxx với tập lệnh gồm 35 lệnh có độ dài 14 bit. Mỗi lệnh đều được thực thi trong một chu kì xung clock. Tốc độ hoạt động tối đa cho phép là 20 MHz với một chu kì lệnh là 200ns. Bộ nhớ chương trình 8Kx14 bit, bộ nhớ dữ liệu 368 byte RAM và bộ nhớ dữ liệu EEPROM với dung lượng 256 byte. Số PORT I/O là 5 với 33 pin I/O.
+Các đặc tính ngoại vi bao gồm các khối chức năng sau:
+- Timer0: bộ đếm 8 bit với bộ chia tần số 8 bit.
+- Timer1: bộ đếm 16 bit với bộ chia tần số, có thể thực hiện chức năng đếm dựa vào xung clock ngoại vi ngay khi vi điều khiển hoạt động ở chế độ sleep.
+- Timer2: bộ đếm 8 bit với bộ chia tần số, bộ postcaler.
+- Hai bộ Capture/so sánh/điều chế độ rông xung.
+- Các chuẩn giao tiếp nối tiếp SSP (Synchronous Serial Port), SPI và I2C.
+- Chuẩn giao tiếp nối tiếp USART với 9 bit địa chỉ.
+- Cổng giao tiếp song song PSP (Parallel Slave Port) với các chân điều khiển RD, WR, CS ở bên ngoài.
+Các đặc tính Analog:
+- 8 kênh chuyển đổi ADC 10 bit.
+- Hai bộ so sánh.
+- Bên cạnh đó là một vài đặc tính khác của vi điều khiển như:
+- Bộ nhớ flash với khả năng ghi xóa được 100.000 lần.
+- Bộ nhớ EEPROM với khả năng ghi xóa được 1.000.000 lần.
+- Dữ liệu bộ nhớ EEPROM có thể lưu trữ trên 40 năm.
+- Khả năng tự nạp chương trình với sự điều khiển của phần mềm.
+- Nạp được chương trình ngay trên mạch điện ICSP (In Circuit Serial Programming)thông qua 2 chân.
+- Watchdog Timer với bộ dao động trong.
+- Chức năng bảo mật mã chương trình.
+- Chế độ Sleep.
+- Có thể hoạt động với nhiều dạng Oscillator khác nhau.
+II.3. Sơ đồ khối của pic 16F877A :
+Sơ đồ khối vi điều khiển PIC16F877A.
+II.4. Tổ chức bộ nhớ :
+Cấu trúc bộ nhớ của vi điều khiển PIC16F877A bao gồm bộ nhớ chương trình (Program memory) và bộ nhớ dữ liệu (Data Memory).
+a.Bộ nhớ chương trình.
+Bộ nhớ chương trình của vi điều khiển PIC16F877A là bộ nhớ flash, dung lượng bộ nhớ 8K word (1 word = 14 bit) và được phân thành nhiều trang (từ page0 đến page 3) . Như vậy bộ nhớ chương trình có khả năng chứa được 8*1024 = 8192 lệnh (vì một lệnh sau khi mã hóa sẽ có dung lượng 1 word (14 bit).
+Khi vi điều khiển được reset, bộ đếm chương trình sẽ chỉ đến địa chỉ 0000h (Reset vector). Khi có ngắt xảy ra, bộ đếm chương trình sẽ chỉ đến địa chỉ 0004h (Interrupt vector). Bộ nhớ chương trình không bao gồm bộ nhớ stack và không được địa chỉ hóa bởibộ đếm chương trình.
+b. Bộ nhớ dữ liệu.
+Bộ nhớ dữ liệu của PIC là bộ nhớ EEPROM được chia ra làm nhiều bank. Đối với PIC16F877A bộ nhớ dữ liệu được chia ra làm 4 bank. Mỗi bank có dung lượng 128 byte, bao gồm các thanh ghi có chức năng đặc biệt SFG (Special Function Register) nằm ở các vùng địa chỉ thấp và các thanh ghi mục đích chung GPR (General Purpose Register) nằm ở vùng địa chỉ còn lại trong bank. Các thanh ghi SFR thường xuyên được sử dụng (ví dụ như thanh ghi STATUS) sẽ được đặt ở tất cà các bank của bộ nhớ dữ liệu giúp thuận tiện trong quá trình truy xuất và làm giảm bớt lệnh của chương trình. Sơ đồ cụ thể của bộ nhớ dữ liệu PIC16F877A như sau:
+Thang ghi chức năng đặc biệt SFR:
+Đây là các thanh ghi được sử dụng bởi CPU hoặc được dùng để thiết lập và điều khiển các khối chức năng được tích hợp bên trong vi điều khiển. Có thể phân thanh ghi SFR làm hai lọai: thanh ghi SFR liên quan đến các chức năng bên trong (CPU) và thanh ghi SRF dùng để thiết lập và điều khiển các khối chức năng bên ngoài (ví dụ như ADC, PWM, …).
+Thanh ghi STATUS (03h, 83h, 103h, 183h):
+Thanh ghi chứa kết quả thực hiện phép toán của khối ALU, trạng thái reset và các bit chọn bank cần truy xuất trong bộ nhớ dữ liệu.
+Thanh ghi OPTION_REG (81h, 181h):
+Thanh ghi này cho phép đọc và ghi, cho phép điều khiển chức năng pull-up của các chân trong PORTB, xác lập các tham số về xung tác động, cạnh tác động của ngắt ngoại vi và bộ đếm Timer0.
+Thanh ghi INTCON (0Bh, 8Bh,10Bh, 18Bh):
+Thanh ghi cho phép đọc và ghi, chứa các bit điều khiển và các bit cờ hiệu khi timer0 bị tràn, ngắt ngoại vi RB0/INT và ngắt interrputon- change tại các chân của PORTB.
+Thanh ghi PIE1 (8Ch):
+Chứa các bit điều khiển chi tiết các ngắt của các khối chức năng ngoại vi.
+Thanh ghi PIR1 (0Ch):
+Chứa cờ ngắt của các khối chức năng ngoại vi, các ngắt này được cho phép bởi các bit điều khiển chứa trong thanh ghi PIE1.
+Thanh ghi PIE2 (8Dh):
+Chứa các bit điều khiển các ngắt của các khối chức năng CCP2, SSP bus, ngắt của bộ so sánh và ngắt ghi vào bộ nhớ EEPROM.
+Thanh ghi PIR2 (0Dh):
+Chứa các cờ ngắt của các khối chức năng ngoại vi, các ngắt này được cho phép bởi các bit điều khiển chứa trong thanh ghi PIE2.
+Thanh ghi PCON (8Eh):
+Chứa các cờ hiệu cho biết trạng thái các chế độ reset của vi điều khiển.
+Thanh ghi mục đích GPR:
+Các thanh ghi này có thể được truy xuất trực tiếp hoặc gián tiếp thông qua thanh ghi FSG (File Select Register). Đây là các thanh ghi dữ liệu thông thường, người sử dụng có thể tùy theo mục đích chương trình mà có thể dùng các thanh ghi này để chứa các biến số, hằng số, kết quả hoặc các tham số phục vụ cho chương trình.
+c. Stack
+Stack không nằm trong bộ nhớ chương trình hay bộ nhớ dữ liệu mà là một vùng nhớ đặc biệt không cho phép đọc hay ghi.
+Khi lệnh CALL được thực hiện hay khi một ngắt xảy ra làm chương trình bị rẽ nhánh, giá trị của bộ đếm chương trình PC tự động được vi điều khiển cất vào trong stack. Khi một trong các lệnh RETURN, RETLW hat RETFIE được thực thi, giá trị PC sẽ tự động được lấy ra từ trong stack, vi điều khiển sẽ thực hiện tiếp chương trình theo đúng qui trình định trước.
+Bộ nhớ Stack trong vi điều khiển PIC họ 16F87xA có khả năng chứa được 8 địa chỉ và hoạt động theo cơ chế xoay vòng. Nghĩa là giá trị cất vào bộ nhớ Stack lần thứ 9 sẽ ghi đè lên giá trị cất vào Stack lần đầu tiên và giá trị cất vào bộ nhớ Stack lần thứ 10 sẽ ghi đè lên giá trị cất vào Stack lần thứ 2.
+Cần chú ý là không có cờ hiệu nào cho biết trạng thái stack, do đó ta không biết được khi nào stack tràn. Bên cạnh đó tập lệnh của vi điều khiển dòng PIC cũng không có lệnh POP hay PUSH, các thao tác với bộ nhớ stack sẽ hoàn toàn được điều khiển bởi CPU.
+II.5.Các cổng xuất nhập của Pic16F877A.
+Cổng xuất nhập (I/O port) chính là phương tiện mà vi điều khiển dùng để tương tác với thế giới bên ngoài. Bên cạnh đó, do vi điều khiển được tích hợp sẵn bên trong các đặc tính giao tiếp ngoại vi nên bên cạnh chức năng là cổng xuất nhập thông thường, một số chân xuất nhập còn có thêm các chức năng khác để thể hiện sự tác động của các đặc tính ngoại vi nêu trên đối với thế giới bên ngoài.
+Vi điều khiển PIC16F877A có 5 cổng xuất nhập, bao gồm PORTA, PORTB, PORTC, PORTD và PORTE.
+a. Port A:
+PORTA (RPA) bao gồm 6 I/O pin. Đây là các chân “hai chiều” (bidirectional pin), nghĩa là có thể xuất và nhập được. Chức năng I/O này được điều khiển bởi thanh ghi TRISA (địa chỉ 85h). Muốn xác lập chức năng của một chân trong PORTA là input, ta “set” bit điều khiển tương ứng với chân đó trong thanh ghi TRISA và ngược lại, muốn xác lập chức năng của một chân trong PORTA là output, ta “clear” bit điều khiển tương ứng với chân đó trong thanh ghi TRISA. Thao tác này hoàn toàn tương tự đối với các PORT và các thanh ghi điều khiển tương ứng TRIS (đối với PORTA là TRISA, đối với PORTB là TRISB, đối với PORTC là TRISC, đối với PORTD là TRISD vàđối với PORTE là TRISE). Bên cạnh đó PORTA còn là ngõ ra của bộ ADC, bộ so sánh, ngõ vào analog ngõ vào xung clock của Timer0 và ngõ vào của bộ giao tiếp MSSP (Master Synchronous Serial Port).
+Các thanh ghi SFR liên quan đến PORTA bao gồm:
+- PORTA (địa chỉ 05h) : chứa giá trị các pin trong PORTA.
+- TRISA (địa chỉ 85h) : điều khiển xuất nhập.
+- CMCON (địa chỉ 9Ch) : thanh ghi điều khiển bộ so sánh.
+- CVRCON (địa chỉ 9Dh) : thanh ghi điều khiển bộ so sánh điện áp.
+- ADCON1 (địa chỉ 9Fh) : thanh ghi điều khiển bộ ADC.
+b. Port B:
+PORTB (RPB) gồm 8 pin I/O. Thanh ghi điều khiển xuất nhập tương ứng là TRISB. Bên cạnh đó một số chân của PORTB còn được sử dụng trong quá trình nạp chương trình cho vi điều khiển với các chế độ nạp khác nhau. PORTB còn liên quan đến ngắt ngoại vi và bộ Timer0. PORTB còn được tích hợp chức năng điện trở kéo lên được điều khiển bởi chương trình.
+Các thanh ghi SFR liên quan đến PORTB bao gồm:
+- PORTB (địa chỉ 06h,106h) : chứa giá trị các pin trong PORTB
+- TRISB (địa chỉ 86h,186h) : điều khiển xuất nhập
+- OPTION_REG (địa chỉ 81h,181h) : điều khiển ngắt ngoại vi và bộ Timer0.
+c. Port C:
+PORTC (RPC) gồm 8 pin I/O. Thanh ghi điều khiển xuất nhập tương ứng là TRISC. Bên cạnh đó PORTC còn chứa các chân chức năng của bộ so sánh, bộ Timer1, bộ PWM và các chuẩn giao tiếp nối tiếp I2C, SPI, SSP, USART.
+Các thanh ghi điều khiển liên quan đến PORTC:
+- PORTC (địa chỉ 07h) : chứa giá trị các pin trong PORTC
+- TRISC (địa chỉ 87h) : điều khiển xuất nhập.
+d. Port D:
+PORTD (RPD) gồm 8 chân I/O, thanh ghi điều khiển xuất nhập tương ứng là TRISD.PORTD còn là cổng xuất dữ liệu của chuẩn giao tiếp PSP (Parallel Slave Port).
+Các thanh ghi liên quan đến PORTD bao gồm:
+- Thanh ghi PORTD : chứa giá trị các pin trong PORTD.
+- Thanh ghi TRISD : điều khiển xuất nhập.
+- Thanh ghi TRISE : điều khiển xuất nhập PORTE và chuẩn giao tiếp PSP.
+e. Port E:
+PORTE (RPE) gồm 3 chân I/O. Thanh ghi điều khiển xuất nhập tương ứng là TRISE. Các chân của PORTE có ngõ vào analog. Bên cạnh đó PORTE còn là các chân điều khiển của chuẩn giao tiếp PSP.
+Các thanh ghi liên quan đến PORTE bao gồm:
+- PORTE : chứa giá trị các chân trong PORTE.
+- TRISE : điều khiển xuất nhập và xác lập các thông số cho chuẩn giao tiếp PSP.
+- ADCON1 : thanh ghi điều khiển khối ADC.
+II.6.Timer 0.
+Đây là một trong ba bộ đếm hoặc bộ định thời của vi điều khiển PIC16F877A. Timer0 là bộ đếm 8 bit được kết nối với bộ chia tần số (prescaler) 8 bit. Cấu trúc của Timer0 cho phép ta lựa chọn xung clock tác động và cạnh tích cực của xung clock. Ngắt Timer0 sẽ xuất hiện khi Timer0 bị tràn.
+Sơ đồ khối của Timer 0
+Muốn Timer0 hoạt động ở chế độ Timer ta clear bit TOSC (OPTION_REG<5>), khi đó giá trị thanh ghi TMR0 sẽ tăng theo từng chu kì xung đồng hồ (tần số vào Timer0 bằng ¼ tần số oscillator). Khi giá trị thanh ghi TMR0 từ FFh trở về 00h, ngắt Timer0 sẽ xuất hiện. Thanh ghi TMR0 cho phép ghi và xóa được giúp ta ấn định thời điểm ngắt Timer0 xuất hiện một cách linh động. Muốn Timer0 hoạt động ở chế độ counter ta set bit TOSC (OPTION_REG<5>). Khi đó xung tác động lên bộ đếm được lấy từ chân RA4/TOCK1. Bit TOSE (OPTION_REG<4>) cho phép lựa chọn cạnh tác động vào bột đếm. Cạnh tác động sẽ là cạnh lên nếu TOSE=0 và cạnh tác động sẽ là cạnh xuống nếu TOSE=1. Khi thanh ghi TMR0 bị tràn, bit TMR0IF (INTCON<2>) sẽ được set. Đây chính là cờ ngắt của Timer0. Cờ ngắt này phải được xóa bằng chương trình trước khi bộ đếm bắt đầu thực hiện lại quá trình đếm. Ngắt Timer0 không thể “đánh thức” vi điều khiển từ chế độ sleep.
+Các lệnh tác động lên giá trị thanh ghi TMR0 sẽ xóa chế độ hoạt động của prescaler. Khi đối tượng tác động là Timer0, tác động lên giá trị thanh ghi TMR0 sẽ xóa prescaler nhưng không làm thay đổi đối tượng tác động của prescaler. Khi đối tượng tác động là WDT, lệnh CLRWDT sẽ xóa prescaler, đồng thời prescaler sẽ ngưng tác vụ hỗ trợ cho WDT.
+Các thanh ghi điều khiển liên quan đến Timer0 bao gồm:
+- TMR0 (địa chỉ 01h, 101h) : chứa giá trị đếm của Timer0.
+- INTCON (địa chỉ 0Bh, 8Bh, 10Bh, 18Bh): cho phép ngắt hoạt động (GIE và PEIE)
+- OPTION_REG (địa chỉ 81h, 181h): điều khiển prescaler.
+II.7.Timer 1.
+Timer1 là bộ định thời 16 bit, giá trị của Timer1 sẽ được lưu trong hai thanh ghi (TMR1H:TMR1L). Cờ ngắt của Timer1 là bit TMR1IF (PIR1<0>). Bit điều khiển của Timer1 sẽ là TMR1IE (PIE<0>). Tương tự như Timer0, Timer1 cũng có hai chế độ hoạt động: chế độ định thời (timer) với xung kích là xung clock của oscillator (tần số của timer bằng ¼ tần số của oscillator) và chế độ đếm (counter) với xung kích là xung phản ánh các sự kiện cần đếm lấy từ bên ngoài thông qua chân RC0/T1OSO/T1CKI (cạnh tác động là cạnh lên). Việc lựa chọn xung tác động (tương ứng với việc lựa chọn chế độ hoạt động là timer hay counter) được điều khiển bởi bit TMR1CS (T1CON<1>). Sau đây là sơ đồ khối của Timer1:
+
+Các thanh ghi liên quan đến Timer1 bao gồm:
+- INTCON (địa chỉ 0Bh, 8Bh, 10Bh, 18Bh): cho phép ngắt hoạt động (GIE và PEIE).
+- PIR1 (địa chỉ 0Ch): chứa cờ ngắt Timer1 (TMR1IF).
+- PIE1( địa chỉ 8Ch): cho phép ngắt Timer1 (TMR1IE).
+- TMR1L (địa chỉ 0Eh): chứa giá trị 8 bit thấp của bộ đếm Timer1.
+- TMR1H (địa chỉ 0Eh): chứa giá trị 8 bit cao của bộ đếm Timer1.
+
+- T1CON (địa chỉ 10h): xác lập các thông số cho Timer1.
+II.8. Timer 2.
+Timer2 là bộ định thời 8 bit và được hỗ trợ bởi hai bộ chia tần số prescaler và postscaler. Thanh ghi chứa giá trị đếm của Timer2 là TMR2. Bit cho phép ngắt Timer2 tác động là TMR2ON (T2CON<2>). Cờ ngắt của Timer2 là bit TMR2IF (PIR1<1>). Xung ngõ vào (tần số bằng ¼ tần số oscillator) được đưa qua bộ chia tần số prescaler 4 bit (với các tỉ số chia tần số là 1:1, 1:4 hoặc 1:16 và được điều khiển bởi các bit T2CKPS1:T2CKPS0 (T2CON<1:0>)).
+Ngoài ra ngõ ra của Timer2 còn được kết nối với khối SSP, do đó Timer2 còn đóng vai trò tạo ra xung clock đồng bộ cho khối giao tiếp SSP.
+Các thanh ghi liên quan đến Timer2 bao gồm:
+- INTCON (địa chỉ 0Bh, 8Bh, 10Bh, 18Bh): cho phép toàn bộ các ngắt (GIE và PEIE).
+- PIR1 (địa chỉ 0Ch): chứa cờ ngắt Timer2 (TMR2IF).
+- PIE1 (địa chị 8Ch): chứa bit điều khiển Timer2 (TMR2IE).
+- TMR2 (địa chỉ 11h): chứa giá trị đếm của Timer2.
+- T2CON (địa chỉ 12h): xác lập các thông số cho Timer2.
+- PR2 (địa chỉ 92h): thanh ghi hỗ trợ cho Timer2.
+Timer0 và Timer2 là bộ đếm 8 bit (giá trị đếm tối đa là FFh), trong khi Timer1 là bộ đếm 16 bit (giá trị đếm tối đa là FFFFh). Timer0, Timer1 và Timer2 đều có hai chế độ hoạt động là timer và counter. Xung clock có tần số bằng ¼ tần số của oscillator. Xung tác động lên Timer0 được hỗ trợ bởi prescaler và có thể được thiết lập ở nhiều chế độ khác nhau (tần số tác động, cạnh tác động) trong khi các thông số của xung tác động lên Timer1 là cố định. Timer2 được hỗ trợ bởi hai bộ chia tần số prescaler và postcaler độc lập, tuy nhiên cạnh tác động vẫn được cố định là cạnh lên. Timer1 có quan hệ với khối CCP, trong khi Timer2 được kết nối với khối SSP.
+
+Sơ đồ khối của Timer 2
+II.9.ADC .
+ADC (Analog to Digital Converter) là bộ chuyển đổi tín hiệu giữa hai dạng tương tự và số. PIC16F877A có 8 ngõ vào analog (RA4:RA0 và RE2:RE0). Hiệu điện thế chuẩn VREF có thể được lựa chọn là VDD, VSS hay hiệu điện thể chuẩn được xác lập trên hai chân RA2 và RA3. Kết quả chuyển đổi từ tín tiệu tương tự sang tín hiệu số là 10 bit số tương ứng và được lưu trong hai thanh ghi ADRESH:ADRESL.
+Các thanh ghi liên quan đến bộ chuyển đổi ADC bao gồm:
+- INTCON (địa chỉ 0Bh, 8Bh, 10Bh, 18Bh): cho phép các ngắt (các bit GIE, PEIE).
+- PIR1 (địa chỉ 0Ch): chứa cờ ngắt AD (bit ADIF).
+- PIE1 (địa chỉ 8Ch): chứa bit điều khiển AD (ADIE).
+- ADRESH (địa chỉ 1Eh) và ADRESL (địa chỉ 9Eh): các thanh ghi chứa kết quả chuyển đổi AD.
+- ADCON0 (địa chỉ 1Fh) và ADCON1 (địa chỉ 9Fh): xác lập các thông số cho bộ chuyển đổi AD.
+- PORTA (địa chỉ 05h) và TRISA (địa chỉ 85h): liên quan đến các ngõ vào analog ở PORTA.
+- PORTE (địa chỉ 09h) và TRISE (địa chỉ 89h): liên quan đến các ngõ vào analog ở PORTE.
+II.10. Giao tiếp nối tiếp.
+a. USART (Universal Synchronous Asynchronous Receiver Transmitter) :
+Là một trong hai chuẩn giao tiếp nối tiếp.USART còn được gọi là giao diện giao tiếp nối tiếp SCI (Serial Communication Interface). Có thể sử dụng giao diện này cho các giao tiếp với các thiết bị ngoại vi, với các vi điều khiển khác hay với máy tính. Các dạng của giao diện USART ngoại vi bao gồm:
+- Bất động bộ (Asynchronous).
+- Đồng bộ_ Master mode.
+- Đồng bộ_ Slave mode.
+PIC16F877A được tích hợp sẵn bộ tạo tốc độ baud BRG (Baud Rate Genetator) 8 bit dùng cho giao diện USART. BRG thực chất là một bộ đếm có thể được sử dụng cho cả hai dạng đồng bộ và bất đồng bộ và được điều khiển bởi thanh ghi PSBRG. Ở dạng bất đồng bộ, BRG còn được điều khiển bởi bit BRGH ( TXSTA<2>). Ở dạng đồng bộ tác động của bit BRGH được bỏ qua. Tốc độ baud do BRG tạo ra được tính theo công thức sau:
+
+Trong đó X là giá trị của thanh ghi RSBRG ( X là số nguyên và 0<X<255).
+Các thanh ghi liên quan đến BRG bao gồm:
+- TXSTA (địa chỉ 98h): chọn chế độ đòng bộ hay bất đồng bộ ( bit SYNC) và chọn mức tốc độ baud (bit BRGH).
+- RCSTA (địa chỉ 18h): cho phép hoạt động cổng nối tiếp (bit SPEN).
+- RSBRG (địa chỉ 99h): quyết định tốc độ baud.
+b.USART bất đồng bộ:
+Ở chế độ truyền này USART hoạt động theo chuẩn NRZ (None-Return-to-Zero), nghĩa là các bit truyền đi sẽ bao gồm 1 bit Start, 8 hay 9 bit dữ liệu (thông thường
+là 8 bit) và 1 bit Stop. Bit LSB sẽ được truyền đi trước. Các khối truyền và nhận data độc lập với nhau sẽ dùng chung tần số tương ứng với tốc độ baud cho quá trình dịch dữ liệu (tốc độ baud gấp 16 hay 64 lần tốc độ dịch dữ liệu tùy theo giá trị của bit BRGH), và để đảm bảo tính hiệu quả của dữ liệu thì hai khối truyền và nhận phải dùng chung một định dạng dữ liệu.
+Các thanh ghi liên quan đến quá trình truyền dữ liệu bằng giao diện USART bất đồng bộ:
+- Thanh ghi INTCON (địa chỉ 0Bh, 8Bh, 10Bh, 18Bh): cho phép tất cả các ngắt.
+- Thanh ghi PIR1 (địa chỉ 0Ch): chứa cờ hiệu TXIF.
+- Thanh ghi PIE1 (địa chỉ 8Ch): chứa bit cho phép ngắt truyền TXIE.
+- Thanh ghi RCSTA (địa chỉ 18h): chứa bit cho phép cổng truyền dữ liệu (hai pin RC6/TX/CK và RC7/RX/DT).
+- Thanh ghi TXREG (địa chỉ 19h): thanh ghi chứa dữ liệu cần truyền.
+- Thanh ghi TXSTA (địa chỉ 98h): xác lập các thông số cho giao diện.
+- Thanh ghi SPBRG (địa chỉ 99h): quyết định tốc độ baud.
+c. USART đồng bộ:
+Giao diện USART đồng bộ được kích hoạt bằng cách set bit SYNC. Cổng giao tiếp nối tiếp vẫn là hai chân RC7/RX/DT, RC6/TX/CK và được cho phép bằng cách set bit SPEN. USART cho phép hai chế độ truyền nhận dữ liệu là Master mode và Slave mode. Master mode được kích hoạt bằng cách set bit CSRC (TXSTA<7>), Slave mode được kích hoạt bằng cách clear bit CSRC. Điểm khác biệt duy nhất giữa hai chế độ này là Master mode sẽ lấy xung clock đồng bộ từ bộ tao xung baud BRG còn Slave mode lấy xung clock đồng bộ từ bên ngoài qua chân RC6/TX/CK. Điều này cho phép Slave mode hoạt động ngay cả khi vi điều khiển đang ở chế độ sleep.
+Các thanh ghi liên quan đến quá trình truyền dữ liệu bằng giao diện USART đồng bộ Master mode:
+- Thanh ghi INTCON (địa chỉ 0Bh, 8Bh, 10Bh, 18Bh): cho phép tất cả các ngắt.
+- Thanh ghi PIR1 (địa chỉ 0Ch): chứa cờ hiệu TXIF.
+- Thanh ghi PIE1 (địa chỉ 8Ch): chứa bit cho phép ngắt truyền TXIE.
+- Thanh ghi RCSTA (địa chỉ 18h): chứa bit cho phép cổng truyền dữ liệu (hai pin RC6/TX/CK và RC7/RX/DT).
+- Thanh ghi TXREG (địa chỉ 19h): thanh ghi chứa dữ liệu cần truyền.
+- Thanh ghi TXSTA (địa chỉ 98h): xác lập các thông số cho giao diện.
+- Thanh ghi SPBRG (địa chỉ 99h): quyết định tốc độ baud.
+
+II.11.Cổng giao tiếp song song psp (parallel slave port).
+Ngoài các cổng nối tiếp và các giao điện nối tiếp được trình bày ở phần trên, vi điều khiển pic16F877A còn được hỗ trợ một cổng giao tiếp song song và chuẩn giao tiếp song song thông qua portd và porte. do cổng song song chỉ hoạt động ở chế độ slave mode nên vi điều khiển khi giao tiếp qua giao diện này sẽ chịu sự điều khiển của thiết bị bên ngoài thông qua các pin của porte, trong khi dữ liệu sẽ được đọc hoặc ghi theo dạng bất đồng bộ thông qua 8 pin của portd.
+Các thanh ghi liên quan đến psp bao gồm:
+- Thanh ghi portd (địa chỉ 08h): chứa dữ liệu cần đọc hoặc ghi.
+- Thanh ghi porte (địa chỉ 09h): chứa giá trị các pin porte.
+- Thanh ghi trise (địa chỉ 89h): chứa các bit điều khiển porte và psp.
+- Thanh ghi pir1 (địa chỉ 0ch): chứa cờ ngắt pspif.
+- Thanh ghi pie1 (địa chỉ 8ch): chứa bit cho phép ngắt psp.
+- Thanh ghi adcon1 (địa chỉ 9fh): điều khiển khối adc tại porte.
+II.12.Các đặc tính của Oscillator.
+Pic16F877A có khả năng sử dụng một trong 4 loại oscillator, đó là:
+- LP: (low power crystal).
+- XT: thạch anh bình thường.
+- HS: (high-speed crystal).
+- RC: (resistor/capacitor) dao động do mạch rc tạo ra. đối với các loại oscillator lp, hs, xt, Oscillator được gắn vào vi điều khiển thôngqua các pin osc1/clki và Osc2/Clko.Đối với các ứng dụng không cần các loại oscillator tốc độ cao, ta có thể sử dụng mạch dao động rc làm nguồn cung cấp xung hoạt động cho vi vi điều khiển. tần số tạo ra phụ thuộc vào các giá trị điện áp, giá trị điện trở và tụ điện, bên cạnh đó là sự ảnh hưởng của các yếu tố như nhiệt độ, chất lượng của các linh kiện.Các linh kiện sử dụng cho mạch rc oscillator phải bảo đảm các giá trị sau:
+- 3 k < rext < 100 k
+- cext >20 pf
+II.13. Các chế độ Reset.
+Có nhiều chế độ reset vi điều khiển, bao gồm:
+- Power-on Reset POR (Reset khi cấp nguồn hoạt động cho vi điều khiển).
+- Reset trong quá trình hoạt động.
+- Từ chế độ sleep.
+- WDT reset (reset do khối WDT tạo ra trong quá trình hoạt động).WDT wake up từ chế độ sleep.
+- Brown-out reset (BOR).
+- Power-on reset (POR): Đây là xung reset do vi điều khiển tạo ra khi phát hiện nguồn cung cấp VDD. Khi hoạt động ở chế độ bình thường, vi điều khiển cần được đảm bảo các thông số về dòng điện, điện áp để hoạt động bình thường. Nhưng nếu các tham số này không được đảm bảo, xung reset do POR tạo ra sẽ đưa vi điều khiển về trạng thái
+................................................
+reset và chỉ tiếp tục hoạt động khi nào các tham số trên được đảm bảo.
+- Power-up Timer (PWRT): đây là bộ định thời hoạt động dựa vào mạch RC bên trong vi điều khiển. Khi PWRT được kích hoạt, vi điều khiển sẽ được đưa về trạng thái reset.PWRT sẽ tạo ra một khoảng thời gian delay (khoảng 72 ms) để VDD tăng đến giá trị thích hợp.
+- Oscillator Start-up Timer (OST): OST cung cấp một khoảng thời gian delay bằng 1024 chu kì xung của oscillator sau khi PWRT ngưng tác động (vi điều khiển đã đủ điều kiện hoạt động) để đảm bảo sự ổn định của xung do oscillator phát ra. Tác động của OST còn xảy ra đối với POR reset và khi vi điều khiển được đánh thức từ chế đợ sleep. OST chỉ tác động đối với các lọai oscillator là XT, HS và LP.
+- Brown-out reset (BOR): Nếu VDD hạ xuống thấp hơn giá trị VBOR (khoảng 4V) và kéo dài trong khoảng thời gian lớn hơn TBOR (khoảng 100 us), BOR được kích hoạt và vi điều khiển được đưa về trạng thái BOR reset. Nếu điện áp cung cấp cho vi điều khiển hạ xuống thấp hơn VBOR trong khoảng thời gian ngắn hơn TBOR, vi điều khiển sẽ không được reset. Khi điện áp cung cấp đủ cho vi điều khiển hoạt động, PWRT được kích hoạt để tạo ra một khoảng thời gian delay (khoảng 72ms). Nếu trong khoảng thời gian này điện áp cung cấp cho vi điều khiển lại tiếp tục hạ xuống dưới mức điện áp VBOR, BOR reset sẽ lại được kích hoạt khi vi điều khiển đủ điện áp hoạt động. Một điểm cần chú ý là khi BOR reset được cho phép, PWRT cũng sẽ hoạt động bất chấp trạng thái của bit PWRT.
+- Tóm lại để vi điều khiển hoạt động được từ khi cấp nguồn cần trải qua các bước sau: POR tác động.PWRT (nếu được cho phép hoạt động) tạo ra khoảng thời gian delay TPWRT để ổn định nguồn cung cấp.OST (nếu được cho phép) tạo ra khoảng thời gian delay bằng 1024 chu kì xung của oscillator để ổn định tần số của oscillator.Đến thời điểm này vi điều khiển mới bắt đầu hoạt động bình thường. Thanh ghi điều khiển và chỉ thị trạng thái nguồn cung cấp cho vi điều khiển là thanh ghi PCON.
+II.14.Ngắt.
+PIC16F877A có đến 15 nguồn tạo ra hoạt động ngắt được điều khiển bởi thanh ghi INTCON (bit GIE). Bên cạnh đó mỗi ngắt còn có một bit điều khiển và cờ ngắt riêng. Các cờ ngắt vẫn được set bình thường khi thỏa mãn điều kiện ngắt xảy ra bất chấp trạng thái của bit GIE, tuy nhiên hoạt động ngắt vẫn phụ thuôc vào bit GIE và các bit điều khiển khác. Bit điều khiển ngắt RB0/INT và TMR0 nằm trong thanh ghi INTCON, thanh ghi này còn chứa bit cho phép các ngắt ngoại vi PEIE. Bit điều khiển các ngắt nằm trong thanh ghi PIE1 và PIE2. Cờ ngắt của các ngắt nằm trong thanh ghi PIR1 và PIR2.
+Trong một thời điểm chỉ có một chương trình ngắt được thực thi, chương trình ngắt được kết thúc bằng lệnh RETFIE. Khi chương trình ngắt được thực thi, bit GIE tự động được xóa, địa chỉ lệnh tiếp theo của chương trình chính được cất vào trong bộ nhớ Stack và bộ đếm chương trình sẽ chỉ đến địa chỉ 0004h. Lệnh RETFIE được dùng để thoát khỏi chương trình ngắt và quay trở về chương trình chính, đồng thời bit GIE cũng sẽ được set để cho phép các ngắt hoạt động trở lại. Các cờ hiệu được dùng để kiểm tra ngắt nào đang xảy ra và phải được xóa bằng chương trình trước khi cho phép ngắt tiếp tục hoạt động trở lại để ta có thể phát hiện được thời điểm tiếp theo mà ngắt xảy ra.
+Đối với các ngắt ngoại vi như ngắt từ chân INT hay ngắt từ sự thay đổi trạng thái các pin của PORTB (PORTB Interrupt on change), việc xác định ngắt nào xảy ra cần 3 hoặc 4 chu kì lệnh tùy thuộc vào thời điểm xảy ra ngắt
+Cần chú ý là trong quá trình thực thi ngắt, chỉ có giá trị của bộ đếm chương trình
+được cất vào trong Stack, trong khi một số thanh ghi quan trọng sẽ không được cất và có thể bị thay đổi giá trị trong quá trình thực thi chương trình ngắt. Điều này nên được xử lí bằng chương trình để tránh hiện tượng trên xảy ra.
+Sơ đồ logic của tất cả các ngắt trong vi điều khiển PIC16F877A.
+CHƯƠNG III :
+ĐO NHIỆT ĐỘ
+III.1.Thang nhiệt độ và điểm chuẩn nhiệt độ:
+Thang nhiệt độ : Các tính chất vật lí của vật liệu phụ thuộc vào nhiệt độ của chúng. Từ sự thay đổi nhiệt của một đặc trưng vật lí của vật liệu cho trước người ta luôn luôn có thể xác định một thang đo nhiệt độ cho phép đo nhiệt độ và đặc biệt là nhận biết sự cân bằng của hai nhiệt độ cho phép đo nhiệt độ. Tuy thế thang nhiệt độ như thế là hoàn toàn tuỳ tiện bởi vì nó liên quan đến 1 tính chất đặc biệt: nó không cho phép gán cho giá trị nhiệt độ một ý nghĩa vật lí riêng. Chỉ có xuất phát từ các định luật nhiệt động học mới có thể xác định thang nhiệt độ đặc trưng tổng quát cho mọi trường hợp .
+Điểm chuẩn nhiệt độ : Nhiệt độ đo được (nhờ một điện trở hay một cặp nhiệt) chính bằng nhiệt độ của cảm biến và kí kiệu là Tc. Nó phụ thuộc vào nhiệt độ của môi trường Tx và sự trao đổi nhiệt độ trong đó. Nhiệm vụ của người làm thực nghiệm là làm thế nào để giảm hiệu số Tx-Tc xuống nhỏ nhất. Có 2 biện pháp để giảm sự khác biệt giữa Tx-Tc:
+- Tăng trao đổi nhiệt giữa cảm biến và môi trường đo .
+- Giảm trao đổi nhiệt giữa cảm biến và môi trường bên ngoài.
+III.2.Các Phương Pháp Đo Nhiệt Độ :
+Việc đo nhiệt độ được tiến hành nhờ các dụng cụ hổ trợ chuyên biệt như:
+- Cặp nhiệt điện
+- Nhiệt điện trở kim loại
+- Nhiệt điện trở bán dẫn
+- Nhiệt kế bức xạ
+- IC cảm biến nhiệt
+III.2.1. Cặp nhiệt điện ( Thermocouples ).
+Linh kiện gồm hai thanh kim loại hoặc bán dẫn khác loại, hàn với nhau một đầu, hoạt độngnhờ hiện tượng nhiệt điện hay hiệu ứng Peltier-Seebeck. Giữa hai đầu dây của cặp nhiệt điện sẽ xuất hiện một sức điện động một chiều có trị số phụ thuộc vào hiệu số nhiệt độ giữa mối hàn và các đầu không hàn.
+Ðiện thế này phụ thuộc vào các kim loại được dùng và nhiệt độ tại điểm tiếp xúc,
+thông thường điện thế biến đổi cỡ 7 đến 75 mV ứng với một độ C. Khoảng nhiệt độ đo được của cặp nhiệt điện khá cao, độ bền tốt và tính ổn định cao. Tuy nhiên cặp nhiệt điện cũng có một số nhược điểm cần khắc phục. Trước hết đó là mức ra quá thấp cho nên cần phải có bộ khuếch đại có hệ số lớn. Thứ hai, điện áp ra không tuyến tính với nhiệt độ, điều này có thể giải quyết bằng cách dùng mạch khuếch đại có độ khuếch đại phụ thuộc giá trị của tín hiệu.
+Tuỳ thuộc vào nhiệt độ cần đo mà dùng các loại cặp nhiệt điện khác nhau:
+- Platin- Platin Radi (1.300OC);
+- Cromen - Alumen (1.000 OC);
+- Cromen - Copen (tới 600 OC);
+- Sắt - Copen (tới 6000C).
+Đối với khoảng đo từ +600 trở xuống người ta sử dụng cặp nhiệt điện .
+III.2.2. Điện trở dò nhiệt (RTD)
+Ðiện trở dò nhiệt (Resistance Temperature Detector -RTD) là điện trở có giá trị thay đổi theo nhiệt độ. RTD được cấu tạo bởi một sợi hay một lá mỏng platin hay một sợi nikel hoặc đồng (nguyên chất) .Dựa trên nguyên tắc thay đổi điện trở của kim loại theo nhiệt độ ( phương trình Callendar- Van Dusen ).
+Cần phải có mạch điện phức tạp để giảm sai số hay dùng sơ đồ nối ba hay bốn dây để bù trừ điện trở dây nối khi phải nối dài cảm biến.
+......................................................
+CHƯƠNG IV:
+GIAO TIẾP MÁY TÍNH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IV.1.PHÂN TÍCH CƠ CỞ GIAO TIẾP MÁY TÍNH.
+Máy tính là thiết bị trợ giúp đặc biệt cho con người ở các lĩnh vực văn phòng, đồ hoạ, lập trình.v.v.. . Khoa học kỹ thuật ngày càng phát triển thì máy tính trở nên rất cần thiết và hữu ích . Chính vậy, máy tính được đưa vào ứng dụng rất nhiều trong cuộc sống đặc biệt trong lĩnh vực kỹ thuật. Những ứng dụng mạnh nhất của máy tính trong kĩ thuật là thu thập dữ liệu từ thiết bị ngoại vi và điều khiển các quá trình hoạt động của hệ thống một cách tự động theo chương trình mà con người định sẳn.
+Máy tính giao tiếp với các thiết bị ngoại vi theo các cách sau:
+- Giao tiếp qua rãnh cắm của máy tính (Slot Card).
+- Giao tiếp máy tính qua cổng song song (LPT).
+- Giao tiếp máy tính qua cổng nối tiếp (COM).
+- Giao tiếp máy tính qua cổng USB.
+IV.1.1. Giao tiếp qua rãnh cắm (Slot).
+Trong máy tính, trên main board hoặc IO-card, thường chế tạo sẵn các rãnh cắm (slot) cho phép mở rộng bộ nhớ, cài đặt thêm phần cứng, mở rộng phạm vi ứng dụng cho máy tính. Mỗi khe cắm có các đường dữ liệu, đường địa chỉ, đường nguồn và các đường điều khiển như :CLK, IRQ, DMA…Do đó, nếu thiết kế giao tiếp qua Slot sẽ giảm được bộ nguồn bên ngoài, làm giảm giá thành. Tuy nhiên bên cạnh đó, Slot đòi hỏi người thiết kế phải nắm vững phần cứng của máy tính. Giao tiếp qua Slot giới hạn khoảng cách làm việc.
+IV.1. 2. Giao tiếp qua cổng song song (LPT).
+a. Vài nét cơ bản về cổng ghép nối máy in (cổng song song) :
+Cổng máy in hay thường gọi là giao diện Centronics, việc nối với cổng máy in, máy tính được thực hiện thông qua ổ cắm 25 chân ở phía sau máy tính. Nhưng đây không chỉ là chỗ nối với máy in mà khi sử dụng vào mục đích đo lường và điều khiển thì việc ghép nối cũng có thể thực hiện qua ổ cắm này. Qua cổng này dữ liệu được truyền đi song song, do vậy tốc độ truyền dữ liệu cũng đạt đến mức đáng kể. Tất cả các đường dẫn của cổng máy in đều tương thích với TTL. Chính sự tương thích này giúp cho việc giao tiếp trở nên đơn giản và dễ dàng hơn. Nghĩa là chúng đều cung cấp mức điện áp nằm giữa 0V đến 5V.
+Do đó ta cần lưu ý là các đường dẫn vào cổng này không được đặt mức điện áp quá lớn. Vì vậy khi ta tiến hành ghép nối chúng với nhau ta phải chú ý tới những qui tắc an toàn sau:
+- Chỉ được ghép nối khi máy tính đang ở trạng thái ngắt điện.
+- Các lối vào chỉ được phép tiếp nhận điện áp giữa 0V và 5 V.
+- Các lối ra không được phép ngắn mạch hoặc đấu nối với các ngõ ra khác và các lối ra không được phép nối với các nguồn tín hiệu điện áp không biết rõ thông số.
+- Cổng máy in trong máy tính được ký hiệu bằng LPT1 hoặc LPT2, có tổng cộng 17 đường dẫn dữ liệu số: bao gồm có 12 đường dẫn ra và 5 đường dẫn vào.
+Các đường dẫn dữ liệu từ D0 – D7 là những đường dẫn một chiều, và là đường dẫn ra. Các đường tín hiệu vào, ra có chốt.
+.......................................
+Chức năng các chân của cổng song song:
+Do cổng máy in có 5 đường dẫn lối vào, nhờ vậy mà việc bắt tay giữa máy tính và các thiết bị ngoại vi được thực hiện. Trong 17 đường dẫn tín hiệu thì có 5 vào, vì vậy
+việc bắt tay giữa máy tính và máy in được thực hiện, chẳng hạn như khi máy in không còn
+đủ chỗ trống trong bộ nhớ thì nó đưa đến máy tính một trạng thái (BUSY =1) tức là báo máy in đang bận không nên gởi dữ liệu ra nữa.
+d. Sự trao đổi với các đường dẫn tín hiệu:
+Các đường dẫn tín hiệu của cổng máy in được sắp xếp thành 3 thanh ghi: Thanh ghi dữ liệu, thanh ghi trạng thái và thanh ghi điều khiển. Thông qua 3 thanh ghi này cho phép trao đổi thông tin giữa môi trường ngoài và bộ nhớ máy tính.
+Muốn truy xuất dữ liệu qua cổng máy in thì ta phải biết được địa chỉ cơ bản của các thanh ghi dữ liệu gọi là địa chỉ cơ bản của cổng máy in.
+Cổng máy in LPT1 có địa chỉ cơ bản là 378Hex và cổng LPT2 có địa chỉ cơ bản là 278Hex.
+Địa chỉ thanh ghi dữ liệu với địa chỉ cơ bản của cổng máy in 378h. Địa chỉ thanh ghi trạng thái là 379h.
+Địa chỉ thanh ghi điều khiển là 37Ah.
+Thanh ghi dữ liệu: gồm có 8 bit dữ liệu, có địa chỉ là 378h. Thanh ghi dữ liệu (Data register, địa chỉ = địa chỉ cơ bản ):
+Thanh ghi trạng thái: có địa chỉ là 379h.
+Thanh ghi trạng thái(status register, địa chỉ = địa chỉ cơ bản +1)
+Thanh ghi điều khiển : có địa chỉ là 37AH
+Thanh ghi điều khiển(control register, địa chỉ = địa chỉ cơ bản + 2
+Nhìn vào bảng công dụng các chân của cổng LPT1 và 3 thanh ghi của máy tính, ta thấy có thể sử dụng thanh ghi data là thanh ghi phát, có nhiệm vụ truyền dữ liệu ra ngoài, và thanh ghi điều khiển sẽ gởi tín hiệu điều khiển cho Kit, còn thanh ghi trạng thái sẽ nhận tín hiệu báo trạng thái hiện tại của thiết bị về máy tính.
+IV.1. 3. Giao tiếp qua cổng nối tiếp (COM).
+Giao tiếp qua cổng COM được sử dụng khá phổ biến. Dữ liệu truyền ở cổng này thuộc dạng dữ liệu nối tiếp. Tín hiệu truyền ở cổng này có thể truyền đi xa nhờ có cấu tạo đường dây cáp ít sợi hơn cổng song song, mức áp tín hiệu cao.
+Cổng COM có loại 9 chân và loại 25 chân như cổng song song, có tổng cộng 8 đường dẫn tín hiệu không kể đường nối đất.
+Cổng COM giao tiếp theo chuẩn RS-232 và thường được sử dụng để giao tiếp giữa máy tính và Modem hoặc giao tiếp với Mouse. Dữ liệu được truyền dưới dạng nối tiếp với tốc cực đại là 20Kbps, khoảng cách tối đa không quá 15m.
+Chiều dài của dữ liệu có thể dài bất kì nhưng thông thường trong 1byte chỉ dài 7 đến 8 bit kết hợp các bit xuất phát(Start bit) và bit dừng(Stop bit), Parity bit tạo thành một Frame. Các thiết bị phát và nhận phải có cùng độ dài dữ liệu. Ngoài các đường dữ liệu, cổng giao tiếp này còn có các đường điều khiển thu phát và kiểm tra lỗi.
+Cổng nối tiếp được sử dụng để truyền dữ liệu hai chiều giữa máy tính và ngoại vi, có các ưu điểm sau:
+- Khoảng cách truyền xa hơn truyền song song.
+- Số dây kết nối ít.
+- Có thể truyền không dây dùng hồng ngoại.
+- Có thể ghép nối với vi điều khiển hay PLC (Programmable Logic Device).
+- Cho phép nối mạng.
+- Có thể tháo lắp thiết bị trong lúc máy tính đang làm việc.
+- Có thể cung cấp nguồn cho các mạch điện đơn giản
+Các thiết bị ghép nối chia thành 2 loại: DTE (Data Terminal Equipment) và DCE (Data Communication Equipment). DCE là các thiết bị trung gian như MODEM còn DTE là các thiết bị tiếp nhận hay truyền dữ liệu như máy tính, PLC, vi điều khiển,… Việc trao đổi tín hiệu thông thường qua 2 chân RxD (nhận) và TxD (truyền). Các tín hiệu còn lại có chức năng hỗ trợ để thiết lập và điều khiển quá trình truyền, được gọi là các tín hiệu bắt tay (handshake).
+Ưu điểm của quá trình truyền dùng tín hiệu bắt tay là có thể kiểm soát đường truyền.
+Tín hiệu truyền theo chuẩn RS-232 của EIA (Electronics Industry Associations). Chuẩn RS-232 quy định mức logic 1 ứng với điện áp từ -3V đến -25V (mark), mức logic 0 ứng với điện áp từ 3V đến 25V (space) và có khả năng cung cấp dòng từ 10 mA đến 20 mA. Ngoài ra, tất cả các ngõ ra đều có đặc tính chống chập mạch.
+Chuẩn RS-232 cho phép truyền tín hiệu với tốc độ đến 20.000 bps nhưng nếu cáp truyền đủ ngắn có thể lên đến 115.200 bps.
+Các phương thức nối giữa DTE và DCE:
+- Đơn công (simplex connection): dữ liệu chỉ được truyền theo 1 hướng.
+- Bán song công ( half-duplex): dữ liệu truyền theo 2 hướng, nhưng mỗi thời điểm chỉ được truyền theo 1 hướng.
+- Song công (full-duplex): số liệu được truyền đồng thời theo 2 hướng. Định dạng của khung truyền dữ liệu theo chuẩn RS-232 như sau:
+STAR D0 D1 D2 D3 D4 D5 D6 D7 P STOP
+Khi không truyền dữ liệu, đường truyền sẽ ở trạng thái mark (điện áp -10V). Khi bắt đầu truyền, DTE sẽ đưa ra xung Start (space: 10V) và sau đó lần lượt truyền từ D0 đến D7 và Parity, cuối cùng là xung Stop (mark: -10V) để khôi phục trạng thái đường truyền. Dạng tín hiệu truyền mô tả như sau (truyền ký tự A):
+Các đặc tính kỹ thuật của chuẩn RS-232 như sau:
+
+Chiều dài cable cực đại 15m Tốc độ dữ liệu cực đại 20 Kbps Điện áp ngõ ra cực đại ± 25V Điện áp ngõ ra có tải ± 5V đến ± 15V Trở kháng tải 3K đến 7K Điện áp ngõ vào ± 15V Độ nhạy ngõ vào +3V Trở kháng ngõ vào 3K đến 7K
+
+Các tốc độ truyền dữ liệu thông dụng trong cổng nối tiếp là: 1200 bps, 4800 bps,9600 bps và 19200 bps.
+Sơ đồ chân:
+Cổng COM có hai dạng: đầu nối DB25 (25 chân) và đầu nối DB9 (9 chân) mô tả như hình trên. Ý nghĩa của các chân mô tả như sau:
+D25 D9 TÍN HIỆU HƯỚNG TRUYỀN MÔ TẢ 1 - - - Protected ground: nối đất bảo vệ 2 3 TxD DTE→DCE Transmitted data: dữ liệu truyền 3 2 RxD DCE→DTE Received data: dữ liệu nhận 4 7 RTS DTE→DCE Request to send: DTE yêu cầu truyền dữ liệu 5 8 CTS DCE→DTE Clear to send: DCE sẵn sàng nhận dữ liệu 6 6 DSR DCE→DTE Data set ready: DCE sẵn sàng làm việc 7 5 GND - Ground: nối đất (0V)18 8 1 DCD DCE→DTE Data carier detect: DCE phát hiện sóng mang 20 4 DTR DTE→DCE Data terminal ready: DTE sẵn sàng làm việc 22 9 RI DCE→DTE Ring indicator: báo chuông 23 - DSRD DCE→DTE Data signal rate detector: dò tốc độ truyền 24 - TSET DTE→DCE Transmit Signal Element Timing: tín hiệu định thời truyền đi từ DTE 15 - TSET DCE→DTE Transmitter Signal Element Timing: tín hiệu định thời truyền từ DCE để truyền dữ liệu 17 - RESET DCE→DTE Receiver Signal Element Timing: tín hiệu định thờitruyền từ DCE để truyền dữ liệu 18 - LL Local Loopback: kiểm tra cổng 21 - RL DCE→DTE Remote Loopback: Tạo ra bởi DCE khi tín hiệu nhận từ DCE lỗi 14 - STxD DTE→DCE Secondary Transmitted Data
+IV.1.4. Truyền thông nối tiếp dùng ActiveX.
+a. mô tả:
+Việc truyền thông nối tiếp trên Windows được thực hiện thông qua một ActiveX có sẵn là Microsoft Comm Control.. ActiveX này dược lưu trữ trong file MSCOMM32.OCX. Quá trình này có hai khả năng thực hiện điều khiển trao đổi thông tin:
+- Điều khiển sự kiện:
+Truyền thông điều khiển sự kiện là phương pháp tốt nhất trong quá trình điều khiển việc trao đổi thông tin. Quá trình điều khiển thực hiện thông qua sự kiện OnComm.
+- Hỏi vòng:
+Quá trinh điều khiển bằng phương pháp hỏi vòng thực hiện thông qua kiểm tra các giá trị của thuộc tính CommEvent sau một chu kỳ nào đó để xác định xem có sự kiện nào xảy ra hay không. Thông thường phương pháp này sử dụng cho các chương trình nhỏ.
+ActiveX MsComm được bổ sung vào một Visual Basic Project thông qua menu Project > Components:
+Biểu tượng của MsComm và các thuộc tính cơ bản mô tả như sau:
+b. Các thuộc tính:
+- Settings:
+Xác định các tham số cho cổng nối tiếp. Cú pháp:
+MSComm1.Settings = ParamString MSComm1: tên đối tượng
+ParamString: là một chuỗi có dạng như sau: "BBBB,P,D,S"
+BBBB: tốc độ truyền dữ liệu (bps) trong đó các giá trị hợp lệ là:
+110 2400 38400 300 9600 56000 600 14400 188000 1200 19200 256000
+
+P: kiểm tra chẵn lẻ, với các giá trị:
+Giá trị Mô tả O Odd (kiểm tra lẻ) E Even (kiểm tra chẵn) M Mark (luôn bằng 1) S Space (luôn bằng 0) N Không kiểm tra
+
+D: số bit dữ liệu (4, 5, 6, 7 hay 8), mặc định là 8 bit S: số bit stop (1, 1.5, 2)
+VD: MSComm1.Settings = "9600,O,8,1" sẽ xác định tốc độ truyền 9600bps, kiểm tra parity chẵn với 1 bit stop và 8 bit dữ liệu.
++ CommPort: Xác định số thứ tự của cổng truyền thông, cú pháp:
+MSComm1.CommPort = PortNumber
+PortNumber là giá trị nằm trong khoảng từ 1 → 99, mặc định là 1. VD:
+MSComm1.CommPort = 1 xác định sử dụng COM1
++ PortOpen: Đặt trạng thái hay kiểm tra trạng thái đóng / mở của cổng nối tiếp. Nếu dùng thuộc tính này để mở cổng nối tiếp thì phải sử dụng trước 2 thuộc tính Settings và CommPort. Cú pháp:
+MSComm1.PortOpen = True | False
+Giá trị xác định là True sẽ thực hiện mở cổng và False để đóng cổng đồng thời xoá nội dung của các bộ đệm truyền, nhận.
+VD: Mở cổng COM1 với tốc độ truyền 9600 bps
+MSComm1.Settings = "9600,N,8,1" MSComm1.CommPort = 1
+MSComm1.PortOpen = True
+- Các thuộc tính nhận dữ liệu:
++ Input: nhận một chuỗi ký tự và xoá khỏi bộ đệm. Cú pháp:
+InputString = MSComm1.Input
+Thuộc tính này kết hợp với InputLen để xác định số ký tự đọc vào. Nếu InputLen = 0 thì sẽ đọc toàn bộ dữ liệu có trong bộ đệm.
++ InBufferCount:Thuộc tính này cùng dược dùng để xoá bộ đệm nhận bằng cách gán giá trị 0. MSComm1.InBufferCount = 0.
+Thuộc tính này cùng dược dùng để xoá bộ đệm nhận bắng cách gán giá trị 0.
+MSComm1.InBufferCount = 0
++ InBufferSize: đặt và xác định kích thước bộ đệm nhận (tính bằng byte). Cú pháp:
+MSComm1.InBufferCount = NumByte
+Giá trị măc định là 1024 byte. Kích thước bộ đệm này phải đủ lớn để tránh tình trạng mất dữ liệu.
+VD: Đọc toàn bộ nội dung trong bộ đệm nhận nếu có dữ liệu
+MSComm1.InputLen = 0
+IfMSComm1.InBufferCount<>0Then InputString=MSComm1.Input End If
+- Các thuộc tính xuất dữ liệu:
+Bao gồm các thuộc tính Output, OutBufferCount và OutBufferSize, chức năng của các thuộc tính này giống như các thuộc tính nhập.
++ CDTimeout: Đặt và xác định khoảng thời gian lớn nhất (tính bằng ms) từ lúc phát hiện sóng mang cho đến lúc có dữ liệu. Nếu quá khoảng thời gian này mà vẫn chưa có dữ liệu thì sẽ gán thuộc tính CommEvent là CDTO (Carrier Detect Timeout Error) và tạo sự kiện OnComm. Cú pháp:
+MSComm1.CDTimeout=NumTime
++ DSRTimeout: Xác định thời gian chờ tín hiệu DSR trước khi xảy ra sự kiện OnComm.
++ CTSTimeout: Đặt và xác định khoảng thời gian lớn nhất (tính bằng ms) đợi tín hiệu CTS trước khi đặt thuộc tính CommEvent là CTSTO và tạo sự kiện OnComm. Cú pháp:
+MSComm1.CTSTimeout = NumTime
++ CTSHolding: Xác định đã có tín hiệu CTS hay chưa, tín hiệu này dùng cho quá trình bắt tay bằng phần cứng (cho biết DCE sẵn sàng nhận dữ liệu), trả về giá trị True hay False.
++ DSRHolding:Xác định trạng thái DSR (báo hiệu sự tồn tại của DCE), trả về giá trị True hay False.
++ CDHolding: Xác định trạng thái CD, trả về giá trị True hay False.
++ DTREnable: Đặt hay xoá tín hiệu DTR để báo sự tồn tại của DTE.
+Cú pháp: MSComm1.DTREnable = True | False
++ RTSEnable: Đặt hay xoá tín hiệu RTS để yêu cầu truyền dữ liệu đến DTE.
+Cú pháp: MSComm1.RTSEnable = True | False
++ NullDiscard:
+Cho phép nhận các ký tự NULL (rỗng) hay không (= True: cấm).
+Cú pháp: MSComm1.NullDiscard = True | False.
++ SThreshold: Số byte trong bộ đệm truyền làm phát sinh sự kiện OnComm. Nếu giá trị này bằng 0 thì sẽ không tạo sự kiện OnComm. Cú pháp:
+MSComm1.SThreshold=NumChar.
++ HandShaking: Chọn giao thức bắt tay khi thực hiện truyền dữ liệu. Cú pháp: MSComm1.HandShaking = Protocol.
+Các giao thức truyền bao gồm:
+
+Protocol Giá trị Mô tả ComNone 0 Không băt tay (mặc định) ComXon/Xoff 1 Bắt tay phần mềm (Xon/Xoff) ComRTS 2 Bắt tay phần cứng (RTS/CTS) ComRTSXon/Xoff 3 Bắt tay phần cứng và phàn mềm
+
+commEvent:Trả lại các lỗi truyền thonog hay sự kiện xảy ra tại cổng nối tiếp.Các sự kiện:
+Sự kiên Giá trị Mô tả ComEvSend 1 Đã truyền ký tự ComEvReceive 2 Khi có ký tự trong bộ đệm nhận ComEvCTS 3 Có thay đổi trên CTS (Clear To Send) Có ComEvDSR 4 Có thay đổi trên DSR (Data Set Ready) Có ComEvCD 5 Có thay đổi trên CD (Carrier Detect) ComEvRing 6 Phát hiện chuông ComEvEOF 7 Nhận ký tự kết thúc file
+
+IV.1.5. Chọn phương án thiết kế.
+Chọn phương án giao tiếp qua cổng nối tiếp :
+Truyền nối tiếp thì có khả năng dùng cho những khoảng cách lớn, khả năng gây nhiễu là nhỏ đáng kể so với dùng cổng song song. Khi truyền port nối tiếp mức logic 1 có điện áp từ -3 đến -15V và mức logic 0 có điện thế từ +3 đến +15V trong khi truyền port song song thì mức logic 0 tương ứng 0V còn 5V tương ứng mức logic 1. Cho nên ở port nối tiếp có thể có biên độ giao động tối đa là 30V so với port song song tối đa chỉ có 5V. Vì vậy mức tín hiệu của truyền song song trong khoảng 0 ÷ 5V không tương thích với khoảg cách truyền lớn. Khi truyền dữ liệu nối tiếp thì không tốn đường dây dẫn so với truyền song song. Để thực hiện giao thức truyền nối tiếp bất đồng bộ thì ta cần phải có các vi mạch UART và bộ phận điều khiển trung tâm. Tuy nhiên do vi điều khiển PIC16F877A đã tích hợp sẵn một bộ UART, để thực hiện việc giao tiếp nên nhóm thực hiện đã chọn vi điều khiển để giao tiếp với máy tính. Do mức logic của cổng COM không phù hợp với mức TTL của vi điều khiển PIC16F877A nên ta cần phải có vi mạch kích thu, kích phát đường truyền. Vì vậy, nhóm thực hiện đã chọn vi mạch MAX-232.
+IV.2. GIỚI THIỆU VỀ RS-232.
+IV.2.1. Giới thiệu:
+RS-232 (tương ứng ở châu âu là CCITT V.24) đươc dùng chủ yều trong giao tiếp giữa hai DTE, ví dụ giữa hai máy tính (PC, PLC…), giữa máy tính và máy in, hoặc giữa một DTE và một DCE, ví dụ máy tính và Modem.
+RS-232 sử dụng phương thức truyền không đối xứng, tức là sử dụng tín hiệu chênh lệch giữa một dây dẫn với đất. Mức điện áp được sử dụng dao động trong khoảng từ -15V tới 15V. Trong khoảng từ 3V đến 15V ứng với giá trị logic 0, khoảng từ -15V đến -3V ứng với giá trị logic 1.
+Chính vì từ -3V đến 3V là phạm vi không được định nghĩa, trong trường hợp thay đổi giá trị từ logic 0 lên 1 hoăc từ 1 tới 0 một phải vượt qua khoảng qúa độ trong thời gian ngắn hợp lý.
+Tốc độ truyền dẫn đa số phụ thuộc vào chiều dài dây dẫn. Đa số các hệ thống hiện nay chỉ hỗ trợ tốc độ 19.2 kBd ( chiều dài cho phép từ 30m đến 50m) gần đây, sự tiến bộ trong vi mạch đã góp phần nâng cao tốc độ của các modem lên nhiều lần ngưỡng 19.2 kBd. Hiện nay đã có những vi mạch thu phát tốc độ 460 kBd và hơn nữa, tuy nhiên tốc độ thực tế lớn hơn 115.2 kBd theo chuẩn RS-232 trong một hệ thống làm việc dựa vào ngắt là một điều kiện có thể thực hiện.
+Chế độ làm việc của hệ thống RS-232 là hai chiều toàn phần, tức là hai thiết bị tham gia có thề thu và phát tín hiệu cùng một lúc. Như vậy, việc thực hiện truyền thông cần tối thiểu 3 dây dẫn trong đó có hai dây tín hiệu nối chéo nhau các đầu thu phát của hai trạm và một dây đất.
+Một ưu điểm của chuẩn RS-232 là có thề sử dụng công suất phát tương đối thấp, nhờ trở kháng đầu vào hạn chế trong phạm vi từ 3-7k
+Thông Số Điều Kiện Tối Thiểu Tối Đa Điện áp đầu ra hở mạch 25V Điện áp đầu ra khi có tải 3KRL7K 5V 15V Trở kháng đầu vào khi cắt nguồn -2VV02V 300 Dòng ra ngắn mạch 500mA Điện dung tải 2500pF Trở kháng đầu vào 3VVI 25V 3K 7K Ngưỡng cho giá trị logic 0 3V Ngưỡng cho giá trị logic 1 -3V
+Điện áp thay đổi từ 5V đến 10V được thay đổi nhờ sự bơm điện. Đầu tiên tụ C1 sẽ bơm điện áp từ 5V đến 10V và để lưu trữ điện áp 10V cho tụ C1 thì tụ C3 có vai trò là lưu trữ điện áp 10V ở ngõ ra.Thứ hai sử dụng tụ C2 là để biến đổi từ 10V sang -10V và để lưu trữ điện áp -10V thì tụ C4 có vai trò lưu trữ điện áp -10V ở ngõ ra.
+IV.2.2. IC MAX-232:
+Max-232 là IC thường được dùng trong lĩnh vực giao tiếp với máy tính, theo chuẩn RS-232, MAX-232 có nhiều loại, ở đây chỉ đề cập đến loại MAX-232E có 16 chân.
+Với điện áp là 5V thì điện ra của ngõ xuất sẽ dao động trong khoảng 8V khi tải ở ngõ nhận có giá trị là 5k, trong điều kiện tồi tệ nhất mức điện áp tối thiểu ở ngõ ra cũng phải dao động trong khoảng 5V.Gồm có một tải 3k, điện áp tối thiểu, và một nhiệt độ hoạt động tối đa. Trong một mạch điện mở rộng thì điện áp ngõ ra dao động trong khoảng từ (V+ - 0,6V) đến V- . Ngưỡng ngõ vào của hai họ CMOS/TTL phải tương thích với nhau. Max 232 không có điện trở kéo lên ở ngõ vào chân phát.
+..................................................
+VI.3.Thi công.
+a. Thử nghiệm phần cứng.
+Để hoàn thiện mạch theo đúng các yêu cầu cuối cùng nhóm thực hiện đã trải qua khoảng thời gian khá dài để thử nghiệm từng phần của mạch. Nhóm đã sử dụng các test-board cho các thử nghiệm đơn giản. Sau khi thử nghiệm trên test-board xong nhóm đã thi công mạch in.
+b. Thử nghiệm phần mềm.
+Đối với phần mềm nạp vào vi điều khiển nhóm cũng đã thử nghiệm rất nhiều lần. Nhóm cũng đã thi công mạch nạp vi điều khiển để phục vụ cho việc thử nghiệm các chương trình nạp vào nó. Việc lập trình cho vi điều khiển cũng tiến hành từng phần, khi nào thấy hoàn chỉnh phần này mới tiến hành lập trình cho phần khác. Như vậy khắc phục được các lỗi trong quá trình lập trình, mặc khác chương trình viết ra được rõ ràng hơn.
+Đối với phần mềm giao diện chương trình trên máy tính nhóm cũng tiến hành tương tự. Ban đầu là xem các tài liệu nói về cách lập trình bằng VISUAL BASIC sau đó tiến hành viết thử các chương trình đơn giản có liên quan đến chương trình sẽ viết. Khi đã có kiến thức cơ bản về lập trình VISUAL BASIC nhóm mới bắt đầu viết về chương trình giám sát và điểu khiển nhiệt độ. Công việc này cũng tiến hành theo nhiều giai đoạn từ việc bố trí các nút lệnh, các bảng lựa chọn đến cách giao tiếp giữa máy tính và mạch đo nhiệt độ…cuối cùng là việc xây dựng giao diện chương trình cho “bắt mắt” và đặc biệt là dễ dàng sử dụng. .
+c. Thi công mạch in.
+Đây là giai đoạn quan trọng trong quá trình thi công bởi vì nếu có một sự cố nào thì mạch có thể không chạy và phải thi công lại. Chính vì thế giai đoạn này chiếm một khoảng thời gian khá lâu trong toàn bộ quá trình thi công.
+Để thực hiện được sơ đồ mạch in, nhóm thực hiện sử dụng chương trình Orcad để vẽ mạch. Sau khi vẽ xong, nhóm cũng đã chỉnh sửa các đường mạch để việc thi công được khả thi hơn.
+..................................................
+VII.1.TÓM TẮT.
+Sau hơn 8 tuần nghiên cứu thực hiện đề tài, tập đồ án đã được hoàn thành.
+Các vấn đề trong đề tài được trình bày và giải quyết theo tình tự logic từ tổng quát đến cụ thể.
+Trong mỗi vấn đề được chia sẽ ra thành từng phần nhỏ để giải quyết.
+Nội dung trình bày của đề tài được chia thành 5 chương. Tuy nhiên vấn đề cốt lõi của đề tài được tập trung vào chương .
+Ở chương 1 và 2 là các phần dẫn nhập và cơ sở lý luân cho việc chọn đề tài. Qua chương 3 đến chương 4là phần giới thiệu các kiến thức cơ sở, các vấn đề liên quan đến đề tài. Chương 5 là phần trọng tâm của đề tài - chúng ta từng bước thiết kế các khối trong mạch cũng như tính toán các giá trị linh kiện được sử dụng trong từng mạch. Chương 6 tóm tắt đề tài, các kết luận sau khi làm xong đồ án và những kiến nghị đưa ra để các đề tài sau có liên quan được hoàn thiện hơn.
+Sau quá trình thực hiện đề tài “điều khiển thiết bị điện qua máy tính”. Nhóm sinh viên thực hiện đã hoàn thành những nội dung chính như sau:
+- Nghiên cứu và ứng dụng họ vi điều khiển PIC 16F877A vào thiết kế mạch.
+- Tìm hiểu về giao tiếp máy tính và chuẩn RS-232.
+- Dùng ngôn ngữ lập trình visual basic thiết kế giao diện người dùng.
+- Thi công hoàn chỉnh mạch giám sát và điều khiển
+VII.2. KẾT LUẬN.
+Đề tài về cơ bản đã hoàn thành theo đúng nội dung đề ra của nhóm thực hiện. Nhiều tài liệu được tham khảo và nhiều thử nghiệm được thực hiện để cuối cùng hoàn thành mạch giám sát và điều khiển nhiệt độ từ xa đúng thời gian quy định.
+Đề tài đã đạt được một số kết quả nhất định. Nhiệt độ thu nhận được chính xác và có thể thu nhận được nhiệt độ ở hai địa điểm khác nhau. Giao diện với người dùng thân thiện và dễ sử dụng.
+Trong quá trình thực hiện đề tài nhiều vấn đề khó khăn xuất hiện như: nhiệt độ hiển thị chưa ổn định, bước đầu sử dụng modole HM-TR truyền thì bị mất dữ liệu, các IC bị chết…
+Có nhiều ý tưởng xuất hiện trong quá trình thực hiện đề tài như: lưu trữ lại thông tin về ngày giờ thời gian đo nhiệt độ, nhưng nhóm thực hiện nghĩ điều này không cần thiết nên không thực hiện.
+..................................................
+TÀI LIỆU THAM KHẢO
+[1]. Robert Boylestad. Electronic devices and circuit theory_Nhà xuất bản Prentice Hall, New Jersey.
+[2]. Dương Minh Trí. Sơ đồ chân linh kiện bán dẫn_ Nhà xuất bản Khoa học và kỹ thuật.
+[3]. Ngô Diên Tập. Kỹ thuật điều khiển với AVR _Nhà xuất bản Khoa học và kỹ thuật.
+[4]. Nguyễn Tấn Phước . Kỹ thuật xung căn bản và nâng cao _Nhà xuất bản thành phố Hồ Chí Minh.
+[5].Trangwed:www.alldatasheet.com;www.diendandientu.com;www.google.com.
+

@@ -1,0 +1,140 @@
+THIẾT KẾ MÁY NGHIÊN CỨU CHẾ TẠO MÔ HÌNH MÁY RỬA CHÉN GIA ĐÌNH TỰ ĐỘNG CẢI TIẾN , thuyết minh, động học máy, kết cấu máy, nguyên lý máy, cấu tạo máy, quy trình sản xuất
+TÓM TẮT ĐỀ TÀI :
+Xã hội ngày càng phát triển, nhu cầu giải phóng sức lao động của con người là một tất yếu. Máy rửa chén là một trong những máy móc để đáp ứng nhu cầu trên. Ơ các nước phát triển, máy rửa chén là loại máy phổ biến nhưng ở nước ta máy rửa chén còn khá mới lạ. Với đề tài “ Nghiên cứu và chế tạo mô hình máy rửa chén gia đình tự động” nhóm nghiên cứu sẽ làm rõ nguyên lý chế tạo một máy rửa chén gia đình thông thường, thiết lập các công thức tính toán thiết kế cho các bộ phận cơ bản của máy làm cơ sở cho việc chế tạo hàng loạt các loại máy rửa chén, cải tiến để máy rửa chén có thể trở nên thông dụng ở Việt Nam. Dựa vào các công thức này, nhóm tính toán, thiết kế cho một mô hình máy rửa chén cho gia đình 4 người.
+Phần 1.
+ĐẶT VẤN ĐỀ
+I. ĐỐI TƯỢNG NGHIÊN CỨU:
+_ Thị trường máy rửa chén Việt Nam.
+_ Quy trình rửa chén bằng máy.
+II. TÌNH HÌNH NGHIÊN CỨU TRONG VÀ NGOÀI NƯỚC:
+Chiếc máy rửa chén đầu tiên được cấp bằng sáng chế vào năm 1850 là của Joel Houghton ở Ogden, New York ,Mỹ. Chiếc máy này dùng tay để quay một cái bánh xe làm cho nước bắn lên chén bát để rửa. Lúc này máy bơm nước vẫn chưa ra đời. Vào năm 1893 Josephine Cochrane , ở Shelbyville, Indiana giới thiệu một chiếc máy rửa chén thành công hơn nhưng nó vẫn sữ dụng sức người. Đầu tiên bà làm nó cho chính mình và sau đó thành lập công ty sản xuất máy rửa chén sau này mang tên Kitchenaid là một trong những công ty hàng đầu về sản xuất máy rửa chén và các dụng cụ bếp hiện nay.
+Những chiếc máy rửa chén đầu tiên này không được phổ biến rộng rải vì người ta phải đổ nước vào và lấy nước bẩn ra bằng tay. Máy rửa chén thực sự có bước phát triển vào những năm 1920 khi mà nó được gắn cố định vào vòi nước gia đình. Vào những năm 1940 máy rửa chén được hoàn toàn tự động và có trang bị hệ thống sấy bằng điện. Đến những năm 1960 nhiều đặc tính được thêm vào máy rửa chén,và nó được bỏ gọn dưới gầm bếp như một cái tủ. Và cho tới những năm 1980 thì máy rửa chén được thiết kế sao cho tiết kiệm năng lượng, vận hành êm. Càng ngày máy rửa chén càng hiện đại, nhiều tiện ích, kiểu dáng đẹp, tiết kiệm nước, tiết kiệm điện và đặc biệt nó đã được tiêu chuẩn hóa về kích thước bên ngoài theo kích thước của các ngăn tủ của nhà bếp.
+Ơ Việt Nam, máy rửa chén chưa phổ biến. Theo nhóm nghiên cứu được biết, hiện đã có một số đề tài nghiên cứu về máy rửa chén nhưng chưa thấy công bố rộng rãi. Ơ trường Đại Học Sư Phạm Kỹ Thuật thành phố Hồ Chí Minh đã có một đề tài nghiên cứu của sinh viên khoa Xây Dựng về máy rửa chén nhưng theo giảng viên hướng dẫn đề tài này cho biết đề tài này chỉ mới dừng ở việc chế tạo thực nghiệm là chủ yếu mà chưa đưa ra được cơ sở lý thuyết cho chính xác cho việc tính toán và mô hình làm ra chưa đạt yêu cầu một cách hoàn hảo vì còn một số chổ như miệng chén mô hình rửa không sạch... Còn trên thị trường, chưa có một doanh nghiệp Việt Nam nào chế tạo, kinh doanh máy rửa chén nói chung.
+III. NHỮNG VẤN ĐỀ CÒN TỒN TẠI:
+_ Các máy rửa chén trên thị trường Việt Nam hiện nay đều phải sử dụng loại bột rửa chén riêng cho máy nên gây bất tiện cho người sử dụng- phải tìm mua bột rửa.
+_ Chưa có một tài liệu nào ở Việt Nam nghiên cứu chi tiết về các thông số cơ bản của máy rửa chén để làm cơ sở cho việc thiết kế các loại máy rửa chén khác nhau.
+
+Chương II. NGUYÊN LÝ HOẠT ĐỘNG CỦA MÁY RỬA CHÉN GIA ĐÌNH HIỆN ĐẠI
+Chén được sắp vào khay theo từng loại và đặt vào giữa hai cánh phun một cánh phun trên và một cánh phun dưới( nhiều loại máy chỉ có cánh phun dưới).
+Chu kỳ làm việc của máy thường có 3 giai đoạn:
+Giai đoạn rửa: nước được một dây maiso nung nóng lên 55- 600C sau đó máy bơm bơm nước lên cánh phun và phun vào chén bát. Sau một thời gian xác định cánh phun nước ngừng lúc này hóa chất rữa được tưới đều lên chén bát. Giai đoạn làm sạch: ở giai đoạn này nước bẩn được tháo ra ngoài và nước sạch được lấy vào máy bơm phun nước làm sạch chất bẩn vào hóa chất rửa còn bám trên mặt chén bát. Giai đoạn sấy: lúc này nước được tháo ra ngoài hết, một cái quạt thổi không khí nóng làm khô chén. Giai đoạn này có loại máy có trang bị cũng có loại không. Đôi khi người ta dùng máy sấy riêng.
+Ơ giai đoạn rửa, các máy hiện tại đều dùng loại hóa chất rửa chuyên dùng dạng bột.
+Điều này giúp làm tăng hiệu quả đối với từng loại máy. Đặc biệt là điều này giúp đơn giản hệ thống phun hóa chất rửa đi rất nhiều. Tuy nhiên, nó cũng gây khó khăn cho người sử dụng vì phải tìm mua đúng loại hóa chất rửa cho máy của mình trong khi loại hóa chất rửa đó không phổ biến như nước rửa chén thông thường. Và khó khăn trên đặc biệt đúng với thị trường Việt Nam.
+Do đó một trong những mục tiêu của nhóm nghiên cứu đề ra là máy rửa chén sẽ sử dụng được nhiều loại hóa chất rửa chén khác nhau, làm cho máy rửa chén phổ biến ở Việt Nam và nó trở thành thông dụng như máy giặt và tủ lạnh.
+
+NGHIÊN CỨU CHẾ TẠO MÔ HÌNH MÁY RỬA CHÉN TỰ ĐỘNG
+Chương III. THIẾT KẾ QUI TRÌNH RỬA.
+Ta xem xét một người rửa chén bằng tay. Ban đầu chén được bỏ vào một chậu đầy nước, tiếp đến nó được thoa đều một lớp mỏng dung dịch nước rửa và người ta dùng tay để làm sạch chén thông qua dẻ lau. Cuối cùng chén được tráng qua một đến hai lần bằng nước sạch:
+Trong quá trình rửa bằng tay như trên ta thấy có 3 công đoạn chính là:
+Làm sạch sơ bộ thoa đều hóa chất rửa làm sạch lần cuối. Tương tự như vậy ta cũng thiết kế qui trình rửa cho máy: làm sạch sơ bộ phun mịn hóa chất rửa làm sạch lần cuối. Đây chỉ là một qui trình cơ bản tương ứng với một chương trình làm việc của máy vì trong thực tế có nhiều loại chất bẩn khác nhau nên một chương trình rửa sẽ không đáp ứng được hoặc là sạch nhưng tốn nhiều hóa chất rửa hoặc là có loại chất bẩn sẽ không sạch. Vậy nên trong khâu làm sạch sơ bộ sẽ có làm sạch với nước nóng hoặc làm sạch với nước lạnh bình thường, phun hóa chất có thể chọn được lượng phun phù hợp với loại chất bẩn.
+
+CHƯƠNG IV. CƠ SỞ TÍNH TOÁN THỦY LỰC
+Trong phương pháp rửa chén bằng tay nước chỉ đóng vai trò là môi trường để rửa chén. Nước làm dung môi hòa tan hóa chất,sau đó hóa chất tác dụng với chất béo làm phân hủy chất béo và lực tay người tác dụng lên dẻ cùng với nước lấy sạch các chất bẩn.
+Còn trong phương pháp này nước vừa là môi trường vừa là tác nhân tác động trực tiếp lên chén để lấy sạch chất bẩn. Bây giờ ta sẽ xem xét cơ sở lý thuyết thủy lực để tính lực nước tác động lên chén và các thiết kế khác.
+4.1. Một số khái niệm:
+- Dòng chảy dừng(ổn định) là dòng chảy mà các đặc trưng của nó ( vận tốc, áp suất,…) không phụ thuộc vào thời gian tức là .
+- Dòng chảy không dừng là dòng chảy mà các đặc trưng của nó phụ thuộc vào thời gian.
+Trong công nghiệp và đời sống ta thường gặp các dòng chảy mà các đặc trưng của nó phụ thuộc vào thời gian tuy nhiên giá trị trung bình trong thời gian đủ dài của nó thì không phụ thuộc thời gian và có thể coi như không đổi, khi đó gọi là dòng chảy dừng trung bình thời gian.
+4.2.Phương trình Bernoulli của dòng chảy dừng:
+4.2.1 Tích phân Bernoulli cho đường dòng chất lỏng lý tưởng:
+Tích phân Bernoulli cho đường dòng trong điều kiện cụ thể hay thường gặp trong thực tế: chất lỏng, chuyển dộng dừng và lực khối tác dụng chỉ có trọng lực. Qua các phép biến đổi ta được phương trình viết cho một đơn vị trọng lượng chất lỏng:
+z + (1)
+Viết cho hai vị trí 1 và 2 nào đó của đường dòng:
+Z1+ (2)
+z : độ cao hình học
+: trọng lượng riêng của môi chất
+p/ : độ cao đo áp
+z+p/ : cột áp thủy tĩnh
+u : vận tốc của môi chất tại mặt cắt đang xét
+u2/2g : độ cao vận tốc
+z+p/ +u2/2g : cột áp thủy động
+4.2.2 Phương trình Bernoulli cho dòng nguyên tố chất lỏng thực:
+Đối với chất lõng thực vì có một phần năng lượng tiêu hao để thắng lực ma sát, cho nên:
+z1+
+Hay z1+ + h’w1-2 (3)
+h’w1-2 là tổn thất năng lượng của một đơn vị trọng lượng chất lỏng khi dòng nguyên tố chuyển động từ vị trí 1 đến 2.
+
+4.2.3 Phương trình Bernoulli cho toàn dòng chất lỏng thực và các loại tổn thất:
+Khi mở rộng cho toàn dòng chất lỏng ta không thể áp dụng trực tiếp phương trình Bernoulli cho toàn dòng. Vì trong mặt cắt chất lỏng thực vận tốc phân bố không đều bằng không ở sát thành và lớn nhất ở trung tâm do ảnh hưởng của lực nhớt. Các yếu tố p,v trong dòng chất lỏng thực thay đổi nên không thể lấy tổn thất năng lượng của một dòng nguyên tố nào đại diện cho cả dòng. Vì thế chỉ mở rộng tích phân cho toàn dòng tại mặt cắt có dòng chảy đều hoặc biến đổi dần, tại đó áp suất thủy động tuân theo quy luật thủy tĩnh: z+p/ = const. Qua các phép biến đổi ta được:
+z1+ + h’w1-2
+v : vận tốc trung bình của dòng môi chất
+gọi là hệ số hiệu chỉnh động năng,
+Chảy tầng = 2; chảy rối =1,01÷1,1
+h’w1-2 tổn thất năng lượng trong đoạn 1-2. có hai loại tổn thất năng lượng là tổn thất năng lượng dọc đường và tổn thất năng lượng cục bộ.
+Tổn thất dọc đường theo công thức Darcy
+: hệ số ma sát; phụ thuộc vào số Re và tình trạng thành rắn giới hạn.
+l : chiều dài ống
+d: đường kính ống dẫn
+Tổn thất cục bộ theo công thức Weibach :
+: hệ số này thường được xác định từ thực nghiệm.
+4.3.Phương trình động lượng:
+4.3.1 Phương trình động lượng dòng nguyên tố .
+/...................................................................................................................
+PHẦN 2: GIẢI QUYẾT VẤN ĐỀ
+
+MỤC TIÊU ĐỀ TÀI:
+Nghiên cứu thị trường máy rửa chén Việt Nam về tình hình thực tại và khả năng phát triển của nó đối với máy rửa chén. Thiết lập công thức tính toán, thiết kế cho các bộ phận chính của máy rửa chén. Giải pháp để máy rửa chén có thể sử dụng được nước rửa chén thông thường hiện có bán trên thị trường Việt Nam. Chế tạo được mô hình để kiểm nghiệm các kết quả tính toán.
+PHƯƠNG PHÁP NGHIÊN CỨU: Nghiên cứu tài liệu. Tài liệu gồm :
+Thông tin về các nhà sản xuất máy rửa chén, thông tin quảng cáo của các đại lý phân phối trên mặt đất và trên mạng internet. Mạng internet là nơi cung cấp thông tin nhanh nhất, rẻ và rất thuận tiện.
+Các sách lý thuyết cơ bản về các vấn đề liên quan như : kỹ thuật thủy khí, cơ lý thuyết…
+Thăm dò ý kiến. Bao gồm việc hỏi ý kiến của các đại lý kinh doanh hàng điện tử gia dụng có bán máy rửa chén, ý kiến một số người dân … Phân tích số liệu, xây dựng công thức tính toán.
+Đây là phương pháp được dùng chủ yếu trong đề tài nhằm tìm ra các công thức cụ thể cho việc thiết kế một máy rửa chén.
+Phương pháp thực nghiệm.
+Đây là phương pháp kiểm nghiệm các công thức được lập ra và các phần không tính toán mà chọn theo kinh nghiệm.
+
+III. NỘI DUNG PHẦN I. HIỂU BIẾT CHUNG
+Chương I. CÁC LOẠI MÁY RỬA CHÉN GIA ĐÌNH TRÊN THỊ TRƯỜNG HIỆN NAY
+
+Máy rửa chén trên thị trường có hai loại ( theo sự phân chia của nhóm nghiên cứu): đó là máy rửa chén gia đình và máy rửa chén công nghiệp. Trong phạm vi của đề tài chỉ đề cập máy rửa chén gia đình là loại máy được các gia đình mua về phục vụ việc rửa chén, li, nồi… cho riêng gia đình. Còn máy rửa chén công nghiệp là loại máy được dùng trong các công ty, các nhà hàng nơi mà một số lượng lớn chén bát cần phải rửa. Thực ra, máy rửa chén công nghiệp có nguyên lý tương tự như máy rửa chén gia đình nhưng công suất cao hơn và nó được thiết kế sao cho có thể vận hành như một dây chuyền tự động.
+Chúng em phân chia ra làm hai loại thị trường là thị trường trong nước và thị trường nước ngoài.
+Đối với thị trường trong nước: Do tính chất đề tài bị hạn hẹp về kinh phí nên chúng em không có dịp ra Hà Nội và các thành phố lớn khác của cả nước để tìm hiểu, nên chỉ nghiên cứu trên thị trường thành phố Hồ Chí Minh. Như đã nói ở trên chủng loại máy rửa chén ở thị trường trong nước rất hạn chế về số lượng cũng như về chất lượng. Chiếm ưu thế là loại máy Active care của Electrolux, giá từ 11 triệu đến 13 triệu VND với cở cho gia đình 7 người tại siêu thị điện máy Nguyễn Kim. Hiện nay chưa có một doanh nghiệp Việt Nam nào sản xuất máy rửa chén. Thị trường máy rửa chén Việt Nam là một thị trường đang còn bỏ ngỏ, nó là cơ hội lớn cho doanh nghiệp nào muốn chiếm lĩnh thị trường tiềm năng này cả máy rửa chén gia đình và máy rửa chén công nghiệp.
+Đối với thị trường nước ngoài: Máy rửa chén ở các nước Au, Mỹ đã trở nên rất phổ biến. Các công ty đều có những trang web để bán sản phẩm của mình. Chúng ta dể dàng tìm được các loại máy rửa chén đa dạng trên web với từ khóa “dishwasher”. Các công ty có bán máy rửa chén như: GE,Kenmore, Miele, Bosh, Whirlpool, Kitchenaid…
+.........................................................................................................
+5.5 Tính toán và thiết kế hệ thống phun hóa chất rửa chén
+5.5.1 Tính toán thể tích dung dịch hóa chất(DDHC) cần thiết để phủ đều lên chén một lớp mỏng
+Thực tế chiều dầy bám dính của hóa chất lên các chổ khác nhau bên trong máy là khác nhau và việc tìm ra chiều dầy bao nhiêu là đủ rất khó và cũng không cần thiết.
+Từ thực nghiệm nhóm đã chọn máy bơm phun sương loại nhỏ lưu lượng 1l/phút cột áp trong khoảng 5-6 at phổ biến trên thị trường với 70ml dung dịch nước rửa là đủ phun đều lên diện tích sàn thực nghiệm.
+Vậy chọn dung tích đựng dung dịch hóa chất rửa là 100ml.
+5.5.2 Bố trí hệ thống:
+Về cách người sử dụng cấp hóa chất rửa (ở đây là nước rửa chén) cho máy có thể chỉ cấp nước rửa đặc cho máy trong máy ta sẽ dùng một đường cấp nước tự động cho máy và cơ cấu hòa đều nước rửa chén với nước hệ thống này cũng khá phức tạp nhưng người sử dụng cũng không thể biết bao nhiêu nước rửa là đủ nếu ta cung cấp thêm một cái nắp có chia vạch để người dùng đong lượng nước rửa thì sau đó cũng phải tráng lại cái nắp đấy.
+Để cho đơn giản ta sẽ cấp kèm một cái phểu có vạch chia cho nước rửa và vạch cho nước người dùng sẽ lắc đều sau đó cho vào máy sẽ làm cho hệ thống phun nước rửa chén trở nên đơn giản.
+........................................................................................
+5.6 Thiết kế sàn để chén
+Sàn để chén có tác dụng có định vị trí của chén dĩa và ở vị trí đó tia nước có thể tiếp cận mọi bề mặt của chén dĩa trong một vòng quay của cánh phun.
+Trong phần tính toán của cánh phun góc nghiêng của tia nước là =700 . Vậy để tia nước tiếp xúc tiếp tuyến ở thành trên miệng chén thì chén phải nghiêng theo sơ đồ ở dưới:
+Do độ cong của chén lớn nên ta cần tính cẩn thận góc tiếp xúc đối với tia nước còn đối với dĩa thì không cần từ sơ đồ ta thấy dĩa cóthể dựng gần đứng.
+Chọn vật liệu làm sàn là thép thường CT3 Þ=3 và Þ=4( gân chịu lực). Sàn sau khi gia công được sơn. Ơ đây không cần kiểm nghiệm sức bền vì thực tế sàn loại này cùng vật liệu đã đã được sử dụng nhiều.
+..............................................................................................
+6.10. Thiết kế cửa.
+Cửa là một trong những bộ phận quan trong của máy vừa phải đảm bảo kín nước khi đóng vừa phải đẹp vì đây là bộ phận bên ngoài hay sử dụng nhất.
+6.10.1. Bố trí bản lề:
+Bản lề cửa có thể bố trí dọc thành bên của máy như hình phía dưới. Tuy nhiên với thiết kế của ngang người sử dụng có thể sàn chén lên cánh cửa để xếp chén vào hoặc lấy chén ra mà không phải mang cả sàn ra để lên một vật dụng khác.
+...................................................................................................
+6.10.2. Thiết kế khóa cửa:
+Khóa cửa của máy rửa chén không cần phải làm ổ khóa như khóa tủ hay như cửa nhà nhưng cũng không thể làm theo kiểu dùng nam châm hút như tủ lạnh vì không kín nước. Vậy để cho đơn giản đẹp và kín nước khóa sẽ nằm chìm trong tay nắm cửa như sơ đồ sau.
+....................................................................
+2. Khả năng triển khai ứng dụng vào thực tế:
+
+Đề tài có tính ứng dụng vào thực tế cao. Không chỉ máy rửa chén gia đình mà máy rửa chén công nghiệp cũng có một thị trường rất rộng ở Việt Nam cũng như nước ngoài. Đề tài đáp ứng được nhu cầu giải phóng sức lao động trong lĩnh vực nội trợ là một nhu cầu đang lên ở Việt Nam.
+Chính vì vậy mà nhóm nghiên cứu có ý định thành lập công ty sản xuất máy rửa chén đầu tiên ở Việt Nam.
+
+3. Hiệu quả kinh tế - xã hội:
+
+Nếu đề tài đựoc áp dụng để sản xuất máy rửa chén phục vụ nhu cầu của mọi người thì nó mang lại hiệu quả kinh tế- xã hội to lớn. Đối với người tiêu dùng, họ có thêm một sản phẩm, thêm một lựa chọn để thỏa mản nhu cầu của mình. Với hơn 10 triệu hộ gia đình của Việt Nam đó là thị trường lớn hứa hẹn tương lai tuơi sáng cho nghành sản xuất máy rửa chén, đem lại việc làm và thu nhập cho nhiều người.
+Phần 3: KẾT LUẬN
+
+I. KẾT LUẬN:
+Đề tài đã giải quyết cơ bản mục tiêu đề ra. Nắm được thực trạng và xu hướng phát triển của máy rửa chén tại thị trường Việt Nam. Làm sáng tỏ nguyên lý hoạt động của máy rửa chén gia đình. Lập và kiểm nghiệm được các công thức cho việc tính toán thiết kế cho các bộ phận chính của máy. Tuy nhiên các phần nghiên cứu mới dừng ở góc độ học thuật, để triển khai sản xuất vào thực tế cần các nghiên cứu sâu hơn về các tiêu chuẩn, thiết lập các tiêu chuẩn và thông số kỹ thuật chi tiết cho việc sản xuất trên thực tế.
+II. ĐỀ NGHỊ:
+TÀI LIỆU THAM KHẢO
+
+1. THỦY LỰC VÀ MÁY THỦY LỰC – NGUYỄN PHỨƠC HOÀNG – NXB GD 1996
+2. THỦY KHÍ KỸ THUẬT VÀ MÁY BƠM- PHẠM THỊ THANH TÂM- ĐHSPKT 2003
+3. SỔ TAY CHẾ TẠO MÁY ( TẬP 1)- NGUYỄN ĐẮC LỘC- NXB KHOA HỌC VÀ KỸ THUẬT HÀ NỘI- 2006
+4. SỨC BỀN VẬT LIỆU- LÊ THANH PHONG- ĐHSPKT- 2005
+5. VI ĐIỀU KHIỂN 8051 – TỐNG VĂN ON
+6. VI ĐIỀU KHIỂN 1-2 – NGUYỄN ĐÌNH PHÚ- ĐHSPKT
+7. KỸ THUẬT GÒ HÀN – TRẦN THẾ SAN-
+8. WWW.HOWTUFFWORK.COM
+9. WWW.ASKO.COM
+10. WWW.GOOGLE.COM

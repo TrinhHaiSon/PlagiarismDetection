@@ -1,0 +1,563 @@
+TÓM TẮT NGHIÊN CỨU THIẾT KẾ VÀ CHẾ TẠO MÁY TẠO MẪU NHANH SLS ĐHBK TP HCM
+
+Trong cuộc chiến cạnh tranh mang tính toàn cầu, việc tạo ra những sản phẩm theo yêu cầu của khách hàng trong một khoảng thời gian ngắn và tiết kiệm đã thúc đẩy các nhà sản xuất tìm kiếm một kỹ thuật mới để tăng tốc độ sản xuất mà vẫn đảm bảo hiệu quả kinh tế. Vì lý do đó mà RP ( rapid prototyping ) – Kỹ thuật tạo mẫu nhanh – đã ra đời để đáp ứng khả năng tạo ra mẫu thiết kế và cải tiến mẫu một cách nhanh hơn, chính xác hơn so với cách sản xuất thông thường. RP là một kỹ thuật tạo mẫu theo nguyên lý cắt lớp: mẫu thiết kế được chia thành từng lớp mỏng và được mã hoá thành file dữ liệu nhờ hệ thống máy tính. Sau đó file này được đưa vào bộ nhớ của máy tạo mẫu chuyên dùng để tạo mẫu.
+Với sự phát triển của khoa học kỹ thuật hiện nay có nhiều công nghệ tạo mẫu nhanh khác nhau như: SLA, SGS, SLS, LOM, FDM… Trong hầu hết các công nghệ kể trên vật liệu chủ yếu là nhựa nhiệt dẻo đặc biệt, sau quá trình gia công đòi hỏi quá trình làm sạch chuyên dụng, nên thiết bị khá đắt tiền. trong khi đó công nghệ SLS có ưu điểm là gia công được trên vật liệu nhựa vật liệu kim loại và bộ sản phẩm không cần phải làm sạch đặc biệt. Với lý do đó mà phòng thí nghiệm trọng điểm Điều khiển số và kỹ thuật hệ thống được giao đề tài “Nghiên cứu thiết kế và chế tạo hệ thống tạo mẫu nhanh SLS”. Trong quá trình thực hiện đề tài nhóm nghiên cứu đang tiến hành thiết kế, chế tạo máy tạo mẫu nhanh theo công nghệ SLS và tiến hành thực nghiệm để đánh giá khả năng công nghệ của máy với các nội dung sau:
+ü Nội dung 1: Nghiên cứu tổng quan.
+ü Nội dung 2: Phân tích lựa chọn các phương án thiết kế sơ bộ.
+ü Nội dung 3: Nghiên cứu các yếu tố ảnh hưởng đến quá trình tạo sản phẩm.
+ü Nội dung 4: Tính toán và thiết kế tổng thể máy.
+ü Nội dung 5: Tính toán thiết kế các cụm chi tiết.
+ü Nội dung 6: Nghiên cứu QTCN và CT cụm cơ khí.
+ü Nội dung 7: Nghiên cứu cấu trúc dữ liệu STL.
+ü Nội dung 8: Xây dựng phần mềm nhận dạng file STL.
+ü Nội dung 9: Lựa chọn các bộ phận điều khiển máy.
+ü Nội dung 10: NCQT lắp ráp và Lắp ráp máy.
+ü Nội dung 11:Chạy thử nghiệm và hiệu chỉnh.
+ü Nội dung 12 :Viết báo cáo và hướng dẫn sử dụng.
+Nhóm thực hiện đề tài xin chân thành cảm ơn ban khoa học công nghệ Đại học Quốc gia, trường ĐHBK và PTN trọng điểm điều khiển số và kỹ thuật hệ thống đã tạo mọi điều kiện hỗ trợ trong quá trình thực hiện đề tài.
+DANH MỤC CÁC KÝ HIỆU VÀ CHỮ VIẾT TẮT
+
+Ký hiệu và chữ viết tắt Giải thích ý nghĩa Ghi chú RP Rapid Prototyping Công nghệ tạo mẫu nhanh SLS Selective Laser Sintering Công nghệ tạo mẫu nhanh SLS SLA StereoLithography Apparatus Công nghệ tạo mẫu nhanh SLA SGC Solid Ground Curing Công nghệ tạo mẫu nhanh SGC LOM Laminated Objective Manufacturing Công nghệ tạo mẫu nhanh LOM FDM Fuse Deposition Modeling Công nghệ tạo mẫu nhanh FDM
+
+
+MỤC LỤC
+MỤC LỤC....................................................................................................................................... 1
+DANH MỤC KÝ HIỆU VÀ CHỮ VIẾT TẮT.......................................................................... 4
+DANH MỤC BẢNG BIỂU............................................................................................................ 5
+DANH MỤC HÌNH ẢNH............................................................................................................. 6
+LỜI NÓI ĐẦU................................................................................................................................ 8
+BÁO CÁO GIỮA KỲ.. 1
+TÓM TẮT.. 2
+CHƯƠNG 1................................................................................................................. TỔNG QUAN.. 15
+1.1. Giới thiệu tổng quan về công nghệ tạo mẫu nhanh (Rapid prototyping). 15
+1.2. Các phương pháp và ứng dụng công nghệ tạo mẫu nhanh. 18
+1.3. Tình hình nghiên cứu nước ngoài22
+1.4. Tình hình nghiên cứu trong nước. 28
+1.5. Tính cấp thiết của đề tài33
+1.6. Mô hình tổ chức, cách tiếp cận và kỹ thuật sử dụng. 36
+CHƯƠNG 2.............................. PHÂN TÍCH LỰA CHỌN PHƯƠNG ÁN THIẾT KẾ SƠ BỘ.. 38
+2.1. Sơ đồ nguyên lý của máy SLS. 38
+2.1.1. Phân cụm chức năng của máy SLS. 38
+2.1.2. Thiết kế lựa chọn phương án cho các cụm chức năng chính trong máy SLS. 40
+2.1.3. Sơ đồ động của máy SLS. 47
+2.2. Thông số đầu vào của các cụm chức năng. 48
+2.3. Lựa chọn phương án thiết kế cho các cụm chức năng. 49
+2.3.1. Lựa chọn phương án thiết kế cho cụm con lăn. 49
+2.3.2. Lựa chọn phương án thiết kế cho cụm bàn nâng. 55
+2.3.3. Phương án thiết kế cụm di chuyển đầu lazer. 60
+2.3.4. Bộ phận gia nhiệt cho bột. 64
+2.3.5. Tổng hợp các phương án thiết kế. 67
+CHƯƠNG 3.NGHIÊN CỨU CÁC YẾU TỐ ẢNH HƯỞNG ĐẾN QUÁ TRÌNH TẠO MẪU SẢN PHẨM 70
+3.1. Vật liệu sử dụng trong máy tạo mẫu nhanh SLS. 70
+3.2. Công nghệ thiêu kết vật liệu kim loại bột. 72
+3.3. Cơ chế của các dạng thiêu kết được nghiên cứu. 75
+3.4. Động lực học và các hiện tượng cơ bản của công nghệ thiêu kết. 78
+3.5. Các biến số của quá trình thiêu kết vật liệu bột. 79
+3.6. Hướng phát triển tiềm năng cùa công nghệ thiêu kết. 79
+3.7. Tổ chức và tính chất của vật liệu kim loại bột. 81
+3.8. Tính chất của vật liệu kim loại bột84
+3.9. Các yếu tố ảnh hưởng đến quá trình tạo sản phẩm... 84
+3.9.1. Yếu tố Lazer. 84
+3.11. Yếu tố vật liệu thiêu kết. 94
+3.12. Yếu tố nhiệt và truyền nhiêt. 96
+3.13. Ảnh hưởng của việc gia nhiệt đến chất lượng của sản phẩm... 98
+3.14. Ảnh hưởng của tốc độ quét đến khả năng thiêu kết vật liệu. 99
+3.15. Ảnh hưởng về độ dày của lớp bột khi thiêu kết. 100
+CHƯƠNG 4.................................................. TÍNH TOÁN THIẾT KẾ THÔNG SỐ CỦA MÁY.. 103
+4.1. Phân tích thiết kế các chi tiết cụm.. 103
+4.2. Mô hình khung máy và kết quả phân tích khung máy. 104
+4.2.1. Mô hình khung máy. 104
+4.2.2. Kết quả phân tích ứng suất cụm khung máy. 106
+CHƯƠNG 5.......................................................................... TÍNH TOÁN THIẾT KẾ CHI TIẾT.. 118
+5.1. Tính toán thiết kế cụm con lăn. 118
+5.2. Tính toán thiết kế cụm bàn nâng. 119
+5.2.1. Tính toán trục vít me nâng bàn nâng. 120
+5.2.2. Tính toán bộ truyền đai răng dùng cho truyền dông trục vít124
+5.2.3. Tính chọn động cơ cho bộ truyền. 126
+5.3. Tính toán thiết kế cụm di chuyển đầu lazer. 130
+5.3.1. Tính toán bộ truyền đai răng công tác. 131
+5.3.2. Lựa chọn động cơ. 133
+5.4. Tính toán thiết kế cụm khung máy[20]. 141
+CHƯƠNG 6.. NGHIÊN CỨU QUY TRÌNH CÔNG NGHỆ CHẾ TẠO CÁC CỤM CƠ KHÍ. 142
+6.1. Công nghệ chế tạo con lăn ứng dụng trong thiết kế máy SLS. 142
+6.1.1. Phân tích khả năng làm việc của chi tiết con lăn. 142
+6.1.2. Phân tích tính công nghệ trong kết cấu của chi tiết. 142
+6.2. Phương pháp chế tạo phôi143
+6.3. Quy trình công nghệ gia công trục con lăn. 143
+6.3.1. Chuẩn định vị143
+6.3.2. Lập thứ tự nguyên công. 144
+6.3.3. Tính lượng dư gia công. 151
+6.3.4. Chế độ cắt trong gia công chế tạo. 155
+6.4. Tổng hợp các chi tiết chế tạo và gia công. 158
+BÁO CÁO THỐNG KÊ TÌNH HÌNH THỰC HIỆN ĐỀ TÀI. 164
+KẾT LUẬN VÀ KIẾN NGHỊ. 171
+TÀI LIỆU THAM KHẢO............................................................................................................... 172
+
+
+DANH SÁCH BẢNG BIỂU
+Bảng 1. 1. Các phương pháp tạo mẫu nhanh. 24
+
+Bảng 2. 1. Các bộ phận chính của máy tạo mẫu nhanh SLS. 39
+Bảng 2. 2. Yêu cầu chức năng của các cụm trong thiết kế máy. 49
+Bảng 2. 3. Bảng đánh giá các phương án lựa chọn cụm con lăn. 54
+Bảng 2. 4. Bảng đánh giá các phương án lựa chọn cụm bàn nâng. 59
+Bảng 2. 5. Bảng đánh giá các phương án lựa chọn cụm di chuyển đầu laser. 63
+Bảng 2. 6. Bảng đánh giá các phương án lựa chọn bộ phận gia nhiệt cho bột67
+Bảng 2. 7. Bảng tổng hợp các phương án thiết kế cho tất cả cụm chi tiết trong máy SLS. 68
+
+Bảng 3. 1. Thông số Laser sử dụng trong thiết kế máy tạo mẫu nhanh SLS. 88
+Bảng 3. 2. Tốc độ thiêu kết một số loại vật liệu [13].94
+Bảng 3. 3. Các bề rộng cắt điển hình khi cắt bằng laser CO2. 94
+Bảng 3. 4. Độ dày lớp bột và vận tốc quét có thể đối với một vài loại vật liệu thông dụng. 95
+Bảng 3. 5. Ảnh hưởng của một số thuộc tính của vật liệu đến khả năng thiêu kết96
+Bảng 3. 7. Bảng tổng kết các yếu tố ảnh hưởng đến quá trình hoạt động của máy tạo mẩu nhanh SLS 101
+
+Bảng 4. 1. Bảng chi tiết tính toán chọn và chi tiết mua. 103
+Bảng 4. 2.Thông số lựa chọn sử dụng trong quá trình tính toán phân tích. 104
+Bảng 4. 3. Lực tác dụng lên khung khi đưa vào tính toán bền. 105
+Bảng 4. 4. Phản lực và momen tại chân đế. 107
+Bảng 4. 5. Kết quả phân tích tĩnh. 107
+Bảng 4. 6. Độ dịch chuyển tổng của khung máy. 109
+Bảng 4. 7. Tổng lực tác dụng theo phương x ( Fx). 109
+Bảng 4. 8. Tổng lực tác dụng theo phương y ( Fy) [20]. 110
+Bảng 4. 9. Tổng lực tác dụng theo phương z ( Fz). 110
+Bảng 4. 10. Tổng momet tác dụng theo phương x ( Mx). 111
+Bảng 4. 11. Tổng momet tác dụng theo phương y ( My). 111
+Bảng 4. 12. Tổng momet tác dụng theo phương z ( Mz). 112
+Bảng 4. 13. Ứng suất pháp lớn nhất tác dụng lên toàn máy. 112
+Bảng 4. 14. Ứng suất pháp nhỏ nhất tác dụng lên toàn máy. 113
+Bảng 4. 15. Ứng suất uốn lớn nhất của trục x tác dụng lên toàn máy. 113
+Bảng 4. 16. Ứng suất uốn nhỏ nhất theo trục x tác dụng lên toàn máy. 114
+Bảng 4. 17. Ứng suất uốn lớn nhất của trục y tác dụng lên toàn máy. 114
+Bảng 4. 18. Ứng suất uốn nhỏ nhất theo trục y tác dụng lên toàn máy. 115
+Bảng 4. 19.Ứng suất tiếp theo trục x tác dụng lên toàn máy. 116
+Bảng 4. 20. Ứng suất tiếp theo trục y tác dụng lên toàn máy. 116
+Bảng 4. 21. Tổng hợp ứng suất tiếp tác dụng lên toàn máy. 117
+Bảng 4. 22. Thông số kỹ thuật của các cụm chức năng trong máy tạo mẫu nhanh SLS. 117
+Bảng 4. 27. Mô hình cụm con lăn. 118
+Bảng 4. 28. Nguyên lý hoạt động của cụm XY.. 131
+Bảng 4. 39. Mô hình cụm khung máy. 141
+
+Bảng 5. 1. Thông số tính toán thiết kế đầu vào cụm con lăn. 118
+Bảng 5. 2. Thông số tính toán thiết kế đầu vào cụm bàn nâng. 119
+
+Bảng 6. 1. Thành phần hóa học của kim loại sử dụng. 142
+Bảng 6. 2. Các bước thực hiện công nghệ. 154
+Bảng 6. 3 Lượng dư bề mặt 1,5. 154
+Bảng 6. 4. Lượng dư bề mặt 2.4. 154
+Bảng 6. 5. Chế độ cắt nguyên công 1. 155
+Bảng 6. 6. Chế độ cắt nguyên công 2. 156
+Bảng 6. 7. Chế độ cắt cho các nguyên công 4,6. 157
+Bảng 6. 8.Chế độ cắt cho nguyên công 5,7. 157
+Bảng 6. 9. Tổng hợp danh sách các chi tiết gia công chế tạo. 158
+
+
+DANH SÁCH HÌNH VẼ
+Hình 1. 1 Tạo mẫu nhanh từ mô hình thiết kế ba chiều [1]. 15
+Hình 1. 2. Đồ thị tăng trưởng số lượng hệ thống tạo mẫu nhanh trên thế giới [3].23
+Hình 1. 3. Máy Sinterstation HiQ Sinterstation® Pro DM100 SLM System.. 26
+Hình 1. 4. Máy HRPS-IV.. 27
+Hình 1. 5. Máy Sinterstation® Pro DM100. 28
+Hình 1. 6. Máy tạo mẫu nhanh FDM 200mc [4]. 29
+Hình 1. 7. Sơ đồ một mẫu máy SLS phổ biến hiện nay [5]. 30
+Hình 1. 8. So sánh QTSX truyền thống và sử dụng công nghệ tạo mẫu nhanh [6]. 31
+Hình 1. 9. Các sản phẩm của công nhệ tạo mẫu nhanh. 32
+Hình 1. 10. Phối hợp các nhóm nghiên cứu của PTN ĐKS&KTHT.. 36
+
+Hình 2. 2. Patent US 4,863,538. 42
+Hình 2. 3. Patent số 5,658,412. 42
+Hình 2. 4. Patent số 6,215,093. 43
+Hình 2. 5. Patent số 6,554,600. 44
+Hình 2. 6. Patent số 5,430,666. 44
+Hình 2. 7. Patent số 5,427,733. 45
+Hình 2. 8. Sơ đồ nguyên lý máy SLS. 46
+Hình 2. 9. Sơ đồ động máy SLS. 47
+Hình 2. 10. Phương án sử dụng tấm gạt phẳng. 49
+Hình 2. 11. Phương án sử dụng con lăn bột50
+Hình 2. 12. Phương án sử dụng con lăn gắn thêm động cơ. 51
+Hình 2. 13. Phương án sử dụng con lăn và động cơ. 52
+Hình 2. 14. Phương án trục vít me nằm phía ngoài55
+Hình 2. 15. Phương án xy lanh nằm phía dưới bàn nâng. 56
+Hình 2. 16. Phương án kết cấu đỡ nằm ngay dưới trọng tâm bàn máy. 57
+Hình 2. 17. Phương án Vít me đai ốc ở dưới bàn nâng. 58
+Hình 2. 18. Phương án sử dụng hệ gương (Patent US 4,863,538). 60
+Hình 2. 19. Phương án dùng Vít me đai ốc để di chuyển đầu thấu kính. 61
+Hình 2. 20. Phương án dùng Vít me đai ốc để di chuyển đầu thấu kính. 62
+Hình 2. 21. Bộ phận gia nhiệt với bộ phận san đều bột64
+
+Hình 3. 1. Sản phẩm sử dụng vật liệu polyme [10]. 70
+Hình 3. 2. Sản phẩm sử dụng vật liệu kim loại và hợp kim [10]. 71
+Hình 3. 3. Sản phẩm sử dụng vật liệu phi kim [10]. 71
+Hình 3. 4.. Bốn yếu tố cơ bản của khoa học vật liệu và cơ khí [11]. 72
+Hình 3. 5. Sơ đồ chế tạo cơ bản của chi tiết được thiêu kết [11]. 72
+Hình 3. 6. Hình biểu diễn của những loại thiêu kết khác nhau [11]. 74
+Hình 3. 7. Sơ đồ cấu trúc của thiết bị thiêu kết xung điện Plasma [11]. 76
+Hình 3. 8. Sơ đồ cấu trúc cơ bản của một thiết bị sử dụng phương pháp Thiêu kết chùm tia electron [11] 77
+Hình 3. 9. Hiện tượng cơ bản xảy ra trong quá trình nung kết dưới động lực cho quá trình thiêu kết [11] 78
+Hình 3. 10. Sơ đồ công nghệ thiêu kết kim loại bột [11]. 81
+Hình 3. 11. Lỗ xốp trong vật liệu kim loại bột [11]. 83
+Hình 3. 12. Thiết bị phát laser [12]. 85
+Hình 3. 13.Nguyên lý của một thiết bị phát laser [12]. 86
+Hình 3. 14. Dao động trong tần số phát laser [12]. 90
+Hình 3. 15. Hình sơ đồ cụ thể nguyên lý máy phát laser [13]. 93
+Hình 3. 16. Tạo mẫu sản phẩm bằng tia laser [15]. 98
+Hình 4. 1. Mô hình khung máy được thiết kế. 106
+Hình 4. 2. Xét định vị cố đinh là tại chân máy. 106
+Hình 4. 3. Mô hình đặt lực tác dụng lên khung máy tổng thể. 106
+Hình 4. 4. Độ dịch chuyển tổng của khung máy. 108
+Hình 4. 5. Tổng lực tác dụng theo phương x ( Fx). 109
+Hình 4. 6. Tổng lực tác dụng theo phương y ( Fy). 109
+Hình 4. 7. Tổng lực tác dụng theo phương z ( Fz). 110
+Hình 4. 8. Tổng momet tác dụng theo phương x ( Mx). 110
+Hình 4. 9. Tổng momet tác dụng theo phương y ( My). 111
+Hình 4. 10. Tổng momet tác dụng theo phương z ( Mz). 111
+Hình 4. 11. Ứng suất pháp lớn nhất tác dụng lên toàn máy. 112
+Hình 4. 12. Ứng suất pháp nhỏ nhất tác dụng lên toàn máy. 112
+Hình 4. 13. Ứng suất uốn lớn nhất của trục x tác dụng lên toàn máy. 113
+Hình 4. 14. Ứng suất uốn nhỏ nhất theo trục x tác dụng lên toàn máy. 114
+Hình 4. 15. Ứng suất uốn lớn nhất của trục y tác dụng lên toàn máy. 114
+Hình 4. 16. Ứng suất uốn nhỏ nhất theo trục y tác dụng lên toàn máy. 115
+Hình 4. 17. Ứng suất tiếp theo trục x tác dụng lên toàn máy. 115
+Hình 4. 18. Ứng suất tiếp theo trục y tác dụng lên toàn máy. 116
+Hình 4. 19. Tổng hợp ứng suất tiếp tác dụng lên toàn máy. 116
+Hình 5. 1. Mô hình thiết kế cụm bàn nâng. 120
+Hình 5. 2. Giao diện của phần mềm[23]. 127
+Hình 5. 3. Thiết lập dữ liệu tính toán [23]. 128
+Hình 5. 4. Các bước chọn động cơ DC [23]. 129
+Hình 5. 5. Các bước chọn động cơ servo [23]. 130
+Hình 5. 6. Các bước chọn động cơ bước [23]. 130
+Hình 5. 7. Thiết lập các thông số tính toán [. 133
+Hình 5. 8. Các bước lựa chọn động cơ AC.. 134
+Hình 5. 9. Các bước lựa chọn động cơ DC.. 135
+Hình 5. 10. Các bước lựa chọn động cơ Step. 135
+Hình 5. 11. Các bước lựa chọn động cơ servo. 136
+Hình 5. 12. Thiết lập các thông số cần tính toán [23]. 138
+Hình 5. 13. Các bước để chọn động cơ AC [23]. 139
+Hình 5. 14. Các bước để chọn động cơ DC [23]. 139
+Hình 5. 15. Các bước để chọn động cơ bước [23]. 140
+Hình 5. 16. Các bước để chọn động cơ servo. 140
+
+Hình 6. 1. Bản vẽ đánh số bề mặt142
+Hình 6. 2. a). Cán ống b). Phôi ống. 143
+Hình 6. 3. Phương pháp định vị trên mâm cặp và chống tâm.. 143
+Hình 6. 4. Sơ đồ gá đặt nguyên công 1. 144
+Hình 6. 5. Sơ đồ gá đặt nguyên công 2. 145
+Hình 6. 6. Sơ đồ gá đặt nguyên công 3. 146
+Hình 6. 7. Sơ đồ gá đặt nguyên công 4. 147
+Hình 6. 8. Sơ đồ gá đặt nguyên công 4. 147
+Hình 6. 9. Sơ đồ gá đặt nguyên công 5. 148
+Hình 6. 10. Sơ đồ gá đặt nguyên công 6. 149
+Hình 6. 11. Sơ đồ gá đặt nguyên công 7. 150
+Hình 6. 12. Sơ đồ gá đặt nguyên công 8. 151
+
+
+
+LỜI NÓI ĐẦU
+
+Nền kinh tế nước ta nói riêng và nền kinh tế thế giới nói chung đang trong giai đoạn cạnh tranh khốc liệt trước xu hướng toàn cầu hóa. Do đó xu hướng nội địa hóa các thiết bị máy móc trên thị trường là một nhu cầu cấp thiết để tăng tính cạnh tranh của các doanh nghiệp trong nước.
+Máy tạo mẫu nhanh SLS đã xuất hiện trên thị trường nước ta và đang có một thị phần rộng lớn trên cả nước. Các ứng dụng của máy rất phong phú và đa dạng, bao gồm các ngành dịch vụ, in mô hình, quảng cáo hoặc sử dụng như một máy tạo mẫu nhanh phục vụ cho công ty, xí nghiệp. Có thể nói, máy tạo mẫu nhanh SLS cùng với các dạng máy tạo mẫu nhanh hiện nay là một thiết bị máy móc không thể thiếu trong đời sống xã hội và nhu cầu này tiếp tục tăng nhanh.
+Tuy nhu cầu về mảng thiết bị này rất lớn, nhưng để đầu tư chi phí cho một máy tạo mẫu nhanh hiện nay khá cao và các thiết bị máy móc hầu hết đều nhập khẩu từ nước ngoài. Do đó chi phí tăng cao và việc bảo trì thay thế cũng khó khăn.
+Đề tài “Nghiên cứu, thiết kế và chế tạo hệ thống tạo mẫu nhanh SLS” nhằm mục đích thiết kế máy tạo mẫu nhanh SLS có khả năng tạo ra các sản phẩm có chất lượng tương đương các máy trên thị trường. Qua đó đề tài phục vụ cho việc phát triển và làm chủ công nghệ in 3D cũng như tạo mẫu nhanh ở Việt Nam về mảng thiết bị và giảm giá thành đầu tư thiết bị tương đương từ nước ngoài, giúp doanh nghiệp linh hoạt trong việc thay đổi bảo trì, nâng cao khả năng cạnh tranh.
+
+Chủ nhiệm đề tài
+
+
+
+PGS.TS NGUYỄN THANH NAM
+CHƯƠNG 1. TỔNG QUAN
+
+Hiện nay, tạo mẫu nhanh là một công nghệ đang được nghiên cứu áp dụng rộng rãi ở nhiều nước trên thế giới, đặc biệt là trong bối cảnh toàn cầu hóa và khu vực hóa nền kinh tế. Trong chương này sẽ trình bày tổng quan về tạo mẫu nhanh ứng dụng trong máy tạo mẫu nhanh SLS.
+1.1. Giới thiệu tổng quan về công nghệ tạo mẫu nhanh (Rapid prototyping)
+Từ khi ra đời cho đến nay, có khá nhiều khái niệm về tạo mẫu nhanh. Một số nhà khoa học quan niệm rằng tạo mẫu nhanh là quá trình tạo mẫu vật lý từ những thiết kế ba chiều trên máy tính. Quá trình thiết kế này gọi là quá trình thiết kế thuận.
+Hình 1. 1Tạo mẫu nhanh từ mô hình thiết kế ba chiều [1]
+Hiện tại có nhiều khái niệm Tạo mẫu nhanh như Kochan, Chen, Jack Zhou… đều quan niệm rằng tạo mẫu nhanh là quá trình tạo mẫu vật lý từ những thiết kế 3D trên máy tính. Một số nhà khoa học khác lại nêu khái nhiệm quá trình tạo mẫu nhanh dựa trên những nguyên tắc bồi đắp vật liệu, gia công theo lớp hoặc đặc điểm tạo mẫu không cần khuôn.
+Tuy nhiên, định nghĩa về tạo mẫu nhanh của Terry Wohler (Chủ tịch Hiệp hội tạo mẫu nhanh thế giới) trong báo cáo năm 2001 của Hội tạo mẫu nhanh thế giới là toàn diện nhất: “Tạo mẫu nhanh là công nghệ chế tạo mô hình vật lý hoặc mẫu sản phẩm từ dữ liệu thiết kế ba chiều trên máy tính hoặc từ dữ liệu chụp cắt lớp điện toán CT, cộng hưởng từ MRI hoặc từ dữ liệu của các thiết bị số hóa ba chiều”.
+Theo định nghĩa này, tạo mẫu nhanh là công nghệ chế tạo mô hình vật lý hoặc mẫu sản phẩm từ những dữ liệu sau đây:
++ Thiết kế ba chiều trên máy tính.
++ Dữ liệu chụp cắt lớp điện toán CT hoặc cộng hưởng từ MRI.
++ Dữ liệu từ các thiết bị số hóa ba chiều như các máy đo tọa độ CMM, máy quét ba chiều (3D scanner).
+Hiện nay trên thế giới có nhiều thiết bị tạo mẫu nhanh đã được thương mại hoá như:
+Thiết bị tạo mẫu lập thể SLA (Stereo Lithography Apparatus) của 3D Systems. Thiết bị tạo lớp mỏng LOM (Laminate Object Manufacturing ) của Helisys. Thiết bị phun nhiều lớp FDM (Fused Deposition Modeling) của Stratasys. Thiết bị thiêu kết bằng laser SLS (Selective Laser Sintering) của DTM.
+Mục tiêu của quá trình tạo mẫu nhanh
+Tạo mẫu là mô hình ý tưởng của người thiết kế. Trước khi sản xuất hàng loạt sản phẩm bao giờ người ta cũng tạo mẫu trước để xem xét, phân tích sự phù hợp của mẫu so với những yêu cầu của sản phẩm. Tạo mẫu nhanh cho phép rút ngắn chu kỳ chuẩn bị sản xuất và sản xuất để đưa nhanh sản phẩm ra thị trường.
+Tạo mẫu nhanh có quan hệ mật thiết với kỹ thuật ngược và có vai trò quan trọng để sửa đổi cải tiến và thiết kế một cách sáng tạo mô hình ảo trên máy tính. Do vậy, công nghệ tạo mẫu nhanh là một kỹ thuật để cạnh tranh sản phẩm của mỗi doanh nghiệp trong thời đại hiện nay. Ngoài ra công nghệ tạo mẫu nhanh có khả năng thay đổi mẫu mã sản phẩm một cách nhanh chóng.
+Tạo mẫu nhanh là một công nghệ áp dụng tích hợp các thành tựu của công nghệ thông tin, công nghệ tự động, cơ khí chính xác và quang học, laser, cũng như công nghệ vật liệu. Công nghệ tạo mẫu nhanh hiện nay gồm nhiều các phương pháp: SLA, LOM, SLS, 3DP, SDM, FDM, SGC, SCS… Trong các phương pháp này, SLS có thể sử dụng vật liệu kim loại cũng như phi kim loại, đây là thế mạch của công nghệ này.
+
+Lịch sử phát triển của công nghệ tạo mẫu nhanh
+Sự phát triển của tạo mẫu nhanh (Rapid Prototyping- RP) có quan hệ mật thiết với sự phát triển ứng dụng của máy tính trong công nghiệp. Việc giảm giá thành của các loại máy tính, đặc biệt là máy tính cá nhân và máy tính mini đã làm thay đổi phương thức làm việc ở các phân xưởng của các nhà máy.
+Việc gia tăng sử dụng máy tính đã thúc đẩy sự tiến bộ trong nhiều lĩnh vực liên quan đến máy tính bao gồm thiết kế (CAD–Computer Aided Design), chế tạo (CAM–Computer Aided Manufacturing), gia công điều khiển số nhờ máy tính (CNC – Computer Numerical Control). Có thể hiểu tạo mẫu nhanh là quá trình tạo mẫu sản phẩm giúp cho nhà sản xuất quan sát nhanh chóng sản phẩm cuối cùng. Quá trình này nhờ các thiết bị RP như những máy in ba chiều cho phép người thiết kế chuyển những dữ liệu CAD 3D thành những mẫu thực một cách nhanh chóng. Tùy thuộc vào kích thước và độ phức tạp của mẫu mà thời gian để tạo ra một mẫu mới mất khoảng từ 3 – 72 giờ, thậm chí ít hơn. Như vậy so với việc tạo mẫu bằng máy truyền thống thường mất từ nhiều tuần đến nhiều tháng thì việc tạo mẫu bằng RP nhanh hơn rất nhiều. Do mất ít thời gian nên RP giúp cho nhà sản xuất nhanh chóng đưa sản phẩm ra thị trường và giảm chi phí sản xuất. Đó cũng là ưu điểm nổi bật của quá trình tạo mẫu nhanh.
+Lịch sử phát triển của công nghệ tạo mẫu được phân ra làm ba thời kỳ [1]. Hai thời kỳ sau chỉ mới ra đời trong khoảng 20 năm trở lại đây. Tương tự như quá trình tạo mẫu trên máy vi tính, tính chất vật lý của mẫu chỉ được nghiên cứu phát triển trong thời kỳ thứ ba.
+Thời kỳ đầu: Tạo mẫu bằng tay
+Thời kỳ đầu tiên ra đời cách đây vài thế kỷ. Trong thời kỳ này, các mẫu điển hình không có độ phức tạp cao và chế tạo một mẫu trung bình mất khoảng 4 tuần. Phương pháp tạo mẫu phụ thuộc vào tay nghề và thực hiện công việc một cách nặng nhọc.
+Thời kỳ thứ hai: Phần mềm tạo mẫu hay tạo mẫu ảo
+Thời kỳ thứ hai của tạo mẫu phát triển rất sớm, khoảng giữa thập niên 70. Thời kỳ này đã có phần mềm tạo mẫu hay tạo mẫu ảo. Việc ứng dụng CAD/CAE/CAM đã trở nên rất phổ biến. Phần mềm tạo mẫu sẽ phác họa trên máy vi tính những ý tưởng mới. Các mẫu ảo này được kiểm tra, phân tích cũng như đo ứng suất như là một mô hình vật lý và sẽ được hiệu chỉnh cho phù hợp nếu chúng chưa đạt yêu cầu. Thí dụ như phân tích ứng suất và sức căng bề mặt chất lỏng có thể dự đoán chính xác được. Các mẫu trong thời kỳ này trở nên phức tạp hơn nhiều so với thời kỳ đầu (trên hai lần). Vì thế, thời gian cho việc tạo mẫu có khuynh hướng tăng lên khoảng 16 tuần, tính chất vật lý của mẫu vẫn còn phụ thuộc vào các phương pháp tạo mẫu cơ bản trước.
+Thời kỳ thứ ba: Quá trình tạo mẫu nhanh
+Quá trình tạo mẫu rỗng thông qua công nghệ tạo lớp đánh dấu quá trình phát triển tạo mẫu trong thời kỳ thứ ba. Việc phát minh ra các thiết bị tạo mẫu nhanh đã đáp ứng được yêu cầu của giới kinh doanh trong thời kỳ này: giảm thời gian sản xuất, độ phức tạp của mẫu tăng, giảm chi phí. Ở thời điểm này người tiêu dùng yêu cầu các sản phẩm cả về chất lượng lẫn mẫu mã, nên mức độ phức tạp của chi tiết cũng tăng lên, gấp ba lần mức độ phức tạp mà các chi tiết đã được làm vào những năm của thập niên 70. Nhờ vào công nghệ tạo mẫu nhanh nên thời gian trung bình để tạo thành một chi tiết chỉ còn lại 3 tuần so với 16 tuần ở thời kỳ thứ hai. Năm 1988, hơn 20 công nghệ tạo mẫu nhanh đã được nghiên cứu.
+
+1.2. Các phương pháp và ứng dụng công nghệ tạo mẫu nhanh
+Các yêu cầu trong quá trình tạo mẫu nhanh bao gồm:
+a. Mẫu chi tiết được thiết kế trên hệ thống CAD/CAM phải thể hiện đầy đủ những mặt cong khép kín với kích thước giới hạn rõ ràng. Yêu cầu này đảm bảo rằng tất cả các mặt cắt ngang đều là những đường cong kín để tạo ra khối vật thể.
+b. Mô hình dạng khối hay mô hình bề mặt được chuyển sang file định dạng “.STL” (StereoLithography) khởi đầu các hệ thống 3D. File định dạng .STL xấp xỉ các bề mặt dưới dạng các đa giác. Các mặt cong bậc cao phải dùng rất nhiều đa giác nên các file .STL dùng cho các chi tiết mặt cong phải có dung lượng rất lớn.
+c. Máy tính phân tích file STL để xác định rõ ràng mô hình cho sản xuất và các lớp mỏng trên mặt cắt ngang. Bề mặt cắt ngang được tạo ra theo phương pháp hạ dần xuống trong suốt quá trình hóa cứng chất lỏng hay bột. Những lớp mỏng được liên kết với nhau để hình thành mẫu 3D. Các phương pháp tạo mẫu tương tự khác cũng có thể dùng cho công việc tạo mẫu.
+Nói cách khác, sự phát triển của quá trình tạo mẫu nhanh được thể hiện qua bốn mặt cơ bản: dữ liệu vào, phương pháp tạo mẫu nhanh, vật liệu và các ứng dụng [2].
+Dữ liệu vào: Dữ liệu 3D cung cấp được chuyển đến bằng các tín hiệu điện tử theo yêu cầu để mô tả các vấn đề có liên quan đến vật thể. Có thể bắt đầu từ hai dạng mô hình sau: mô hình trên máy tính hay mô hình từ vật thể. Hệ thống CAD tạo ra mô hình trên máy tính ở dạng mặt hay dạng khối. Ở một khía cạnh khác, dữ liệu của vật thễ sẵn có có thể thu được bằng một phương pháp gọi là kỹ thuật ngược. Trong kỹ thuật ngược, có thể sử dụng các thiết bị như: máy đo tọa độ và bút vẽ bằng laser.
+Phương pháp tạo mẫu nhanh: Tùy từng phương pháp xử lý của nhà sản xuất mà ta có thể phân tích thành một số dạng như: xử lý quang hóa (Photo-curing), cắt và dán liên kết (Cutting and Glucing/Joining), nóng chảy và đông đặc (Melting and Solidifying/Fusing)... Việc xử lý quang hóa còn có thể phân tích thành từng nhóm nhỏ: chùm laser đơn, chùm laser đôi...
+Vật liệu: Tùy thuộc vào những nét đặc trưng của vật liệu ta có thể lựa chọn vật liệu: dạng khối, dạng lỏng hay dạng bột bụi. Ở dạng khối có thể có các hình thức khác nhau như là: viên, dây hay phiến mỏng. Một số vật liệu hiện đang được sử dụng như là: giấy, nilon, nhựa, sáp, kim loại và gốm…
+Các ứng dụng: Hầu hết tất cả các sản phẩm được tạo ra bằng phương pháp tạo mẫu nhanh cần phải được chỉnh sửa hay gia công tinh lại trước khi đưa vào sử dụng. Các ứng dụng có thể phân thành từng nhóm: Thiết kế, phân tích kỹ thuật và lập kế hoạch, tạo công cụ và sản xuất.
+Phân loại hệ thống tạo mẫu nhanh
+Phân loại các hệ thống tạo mẫu nhanh dựa trên cơ sở vật liệu có thể chia thành ba loại:
+- Dựa trên cơ sở vật liệu dạng lỏng. - Dựa trên cơ sở vật liệu dạng khối. - Dựa trên cơ sở vật liệu dạng bột.
+Hệ thống tạo mẫu nhanh dựa trên cơ sở vật liệu dạng lỏng: Quá trình tạo mẫu là một quá trình lưu hóa, vật liệu chuyển đổi từ trạng thái lỏng sang trạng thái rắn. Sau đây là một số phương pháp tạo mẫu nhanh dựa trên cơ sở vật liệu dạng lỏng:
+- Hệ thống tạo mẫu nhanh công nghệ SLA của 3D System.
+- Thiết bị tạo mẫu lập thể SLA của 3D Systems.
+- Thiết bị xử lý dạng khối SGC của Cubital.
+- Thiết bị tạo mẫu dạng khối SCS của Sony.
+- Thiết bị in sử dụng tia tử ngoại tạo vật thể dạng khối SOUP của Misuibishi.
+- Thiết bị tạo ảnh nổi của EOS.
+- Thiết bị tạo ảnh khối của Teijin Seiki.
+- Thiết bị tạo mẫu nhanh của Meiko cho ngành công nghiệp đồ trang sức.
+- Thiết bị tạo mẫu nhanh SLP của Denken.
+- Thiết bị tạo mẫu nhanh COLAMM của Mitsui.
+- Thiết bị tạo mẫu nhanh LMS của Fockele và Schwarze.
+- Thiết bị điêu khắc bằng ánh sáng.
+- Thiết bị hai chùm tia laser.
+Hệ thống tạo mẫu nhanh dựa trên cơ sở vật liệu dạng khối: Ngoại trừ các vật liệu dạng bột, các hệ thống tạo mẫu nhanh với vật liệu cơ bản dạng khối có liên quan đến tất cả các hình thức vật liệu dạng khối bao gồm các dạng: dây, cuộn, dát mỏng và dạng viên. Sau đây là một số phương pháp tạo mẫu nhanh thuộc loại này:
+- Thiết bị tạo lớp mỏng LOM của Helisys.
+- Thiết bị phun nhiều lớp FDM của Stratasys.
+- Thiết bị dập nóng có sử dụng chất liên kết SAHP của KiRa.
+- Thiết bị tạo mẫu nhanh của Kinergy.
+- Thiết bị tạo mẫu nhiều đầu phun MJM của 3D System.
+- Hệ thống tạo mẫu nhanh RPS của IBM.
+- Thiết bị tạo mẫu MM-6B của công ty Sanders Prototype.
+- Thiết bị tạo mẫu nhanh Hot Plot của Sparx AB’s.
+- Thiết bị tạo mẫu nhanh Laser CAMM của Scale Model Unlimited.
+Hệ thống tạo mẫu nhanh dựa trên cơ sở vật liệu dạng bột: trạng thái bột vẫn được xem như dạng khối. Tuy nhiên, nó được tạo ra trên loại thiết bị khác với hệ thống tạo mẫu nhanh vật liệu ở trạng thái khối. Sau đây là một số phương pháp tạo mẫu nhanh tượng trưng cho phương pháp này:
+- Hệ thống tạo mẫu công nghệ SLS của 3D System.
+- Thiết bị thiêu kết bằng laser SLS của DTM.
+- Thiết bị đúc khuôn vỏ mỏng trực tiếp DSPC của Soligen.
+- Thiết bị định hình nhiều giai đoạn hoá cứng MJS của Fraunhofer.
+- Hệ thống các thiết bị EOSINT của EOS.
+- Thiết bị in phun (Ink-Jet) hay còn gọi là BPM của BPM Technology.
+- Thiết bị in ba chiều 3DP của MIT.
+Một số ứng dụng của công nghệ tạo mẫu nhanh:
+1. Đúc khuôn vỏ mỏng: Đúc khuôn vỏ mỏng là một quá trình đúc chính xác để chế tạo là những chi tiết có hình dáng sắc cạnh từ các hợp kim. Hiệu quả chủ yếu khi áp dụng phương pháp tạo mẫu nhanh trong công nghệ đúc khuôn vỏ mỏng là khả năng tạo ra mẫu có độ chính xác cao, chi phí thấp và thời gian để tạo mẫu ngắn.
+2. Chế tạo dụng cụ: Người ta ứng dụng công nghệ tạo mẫu nhanh trong chế tạo dụng cụ như điện cực trong gia công tia lửa điện, chế tạo các khe hở hoặc ruột của khuôn phun nhựa, ống dẫn hệ thống điều hòa nhiệt độ…
+3.Tạo mẫu nhanh trong chế tạo sản xuất: Tạo mẫu nhanh có thể được sử dụng để chế tạo sản phẩm như nút bấm, phích cắm điện... để phục vụ cho yêu cầu riêng của người sử dụng. Thêm nữa các vật thể chế tạo bằng tạo mẫu nhanh ngày càng được sử dụng thường xuyên để kiểm tra chức năng và có thể kiểm tra trước khi sản xuất hàng loạt. Bằng cách đó người ta có thể kịp thời phát hiện các lỗi ở giai đoạn khi mà sự thay đổi chưa tốn kém lắm. Người ta ước lượng nếu việc sử dụng phương pháp tạo mẫu nhanh có hiệu quả, thời gian phát triển sản phẩm có thể giảm một nửa.
+4.Tạo mẫu nhanh với các công nghệ truyền thống: Tạo mẫu nhanh không thay thế hoàn toàn các công nghệ truyền thống như: NC và cán tốc độ cao hoặc ngay cả những phần làm bằng tay nhưng tạo mẫu nhanh cho thấy lợi thế rõ ràng khi phải sao chép nhiều lần bộ phận phức tạp.
+5. Tạo mẫu nhanh trong những ứng dụng y học: Ứng dụng phương pháp tạo mẫu nhanh trong y học là một lĩnh vực mới. Nhiều ứng dụng đã trở nên rất quan trọng do sự hội tụ của ba công nghệ riêng biệt đó là: hình ảnh nội soi, đồ họa điện toán, CAD và tạo mẫu nhanh. CT (Computer-Assisted Tomography) và URI (Magnectic Resonance Imaging) cung cấp những hình ảnh để xác định chính xác những cấu trúc bên trong của cơ thể con người. Ví dụ các cấu trúc của xương và các cơ quan. Những hình ảnh này được xử lý bằng những công cụ phần mềm thích hợp. Kết quả được chuyển cho quá trình tạo mẫu nhanh và tạo ra vật thể vật lý - mô hình y học.
+
+1.3. Tình hình nghiên cứu nước ngoài
+Sự tăng trưởng của phương pháp tạo mẫu nhanh được thể hiện qua đồ thị (hình 1.2). Từ giữa năm 2003 số hệ thống tạo mẫu nhanh được tiêu thụ tăng rất nhanh, thể hiện sự thích ứng của phương pháp này với các ngành công nghiệp trên thế giới. Các công nghệ tạo mẫu nhanh khác nhau, với các tính chất đặc trưng đã và đang được ứng dụng, phục vụ hiệu quả cho hầu hết các ngành công nghiệp, hiệu quả nhất là lĩnh vực thiết kế ô tô (31,7%), tạo dáng công nghiệp, tạo mẫu thí nghiệm (17%) [3].
+Có thể hiểu tạo mẫu nhanh là quá trình tạo mẫu sản phẩm giúp cho nhà sản xuất quan sát nhanh chóng sản phẩm cuối cùng. Quá trình này nhờ các thiết bị tạo mẫu nhanh như những máy in ba chiều cho phép người thiết kế chuyển những dữ liệu CAD 3D thành những mẫu thực một cách nhanh chóng. Tùy thuộc vào kích thước và độ phức tạp của mẫu mà thời gian để tạo ra một mẫu mới mất khoảng từ 3 – 72 giờ, thậm chí ít hơn. Như vậy so với việc tạo mẫu bằng phương pháp truyền thống thường mất từ nhiều tuần đến nhiều tháng thì việc tạo mẫu bằng thiết bị tạo mẫu nhanh nhanh hơn rất nhiều. Do mất ít thời gian nên tạo mẫu nhanh giúp cho nhà sản xuất nhanh chóng đưa sản phẩm ra thị trường và giảm chi phí sản xuất. Đó cũng là ưu điểm nổi bật của quá trình tạo mẫu nhanh.
+Hình 1. 2. Đồ thị tăng trưởng số lượng hệ thống tạo mẫu nhanh trên thế giới [3].
+Sự phát triển của tạo mẫu nhanh (Rapid Prototyping- RP) có quan hệ mật thiết với sự phát triển ứng dụng của máy tính trong công nghiệp. Việc giảm giá thành của các loại máy tính, đặc biệt là máy tính cá nhân và máy tính mini đã làm thay đổi phương thức làm việc ở các phân xưởng của các nhà máy. Việc gia tăng sử dụng máy tính đã thúc đẩy sự tiến bộ trong nhiều lĩnh vực liên quan đến máy tính bao gồm thiết kế (CAD–Computer Aided Design), chế tạo (CAM–Computer Aided Manufacturing), gia công điều khiển số nhờ máy tính (CNC – Computer Numerical Control). Cụ thể, sự nổi lên của hệ thống RP không thể thiếu sự hiện diện của CAD. Ngoài ra, nhiều công nghệ khác như các hệ thống chế tạo và vật liệu cũng có tính quyết định đến sự phát triển của hệ thống tao mẫu nhanh.
+Việc phát minh ra các thiết bị tạo mẫu nhanh đã đáp ứng được yêu cầu của giới kinh doanh: giảm thời gian sản xuất, độ phức tạp của mẫu tăng, giảm chi phí. Ở thời điểm này người tiêu dùng yêu cầu các sản phẩm cả về chất lượng lẫn mẫu mã, nên mức độ phức tạp của chi tiết cũng tăng lên, gấp ba lần mức độ phức tạp mà các chi tiết đã được làm vào những năm của thập niên 70. Nhưng nhờ vào công nghệ tạo mẫu nhanh nên thời gian trung bình để tạo thành một chi tiết chỉ còn lại 3 tuần so với 16 tuần ở ở các phương pháp tạo mẫu khác.
+Lịch sử của công nghệ tạo mẫu nhanh được đánh dấu bằng sáng chế của Hull vào năm 1984 về Thiết bị tạo hình lập thể (StereoLithography Aparatus – SLA), được công nhận vào năm 1986 và thương mại hóa bởi công ty 3D System vào năm 1988. Sau khi được thương mại hóa vào năm 1988, 34 hệ thống đã được cung cấp vào năm 1988 và theo báo cáo tổng kết của Hiệp hội Tạo mẫu nhanh thế giới do Wohler làm chủ tịch, tính đến năm 2001, đã có khoảng 8000 hệ thống tạo mẫu nhanh được trang bị cho 53 nước trên thế giới. Từ một phương pháp tạo hình lập thể SLA, chỉ sau gần hai chục năm, đã có khoảng 30 phương pháp tạo mẫu nhanh khác nhau.
+Tạo mẫu nhanh là một công cụ hỗ trợ thiết kế cũng như là cánh tay đắc lực trong công nghệ thiết kế ngược. Tạo mẫu nhanh gồm nhiều công nghệ và mỗi công nghệ đại diện cho một hay các cách thức sản xuất, thiết kế sản phẩm khác nhau.
+Để có thể hiểu rõ nguyên tắc hoạt động của các loại thiết bị này chúng ta có thể tham khảo bảng so sánh các công nghệ điển hình sau đây [3]:
+Bảng 1. 1. Các phương pháp tạo mẫu nhanh
+Công nghệ Nguyên lý làm việc Vật liệu Sơ đồ nguyên lý Stereo Lithography Appratus (SLA) Sử dụng tia laser làm đông đặc polymer nhạy quang Polymer nhạy quang (tính độc hại cao) Selective Laser Sintering (SLS) Sử dụng tia laser để thiêu kết vật liệu Bột kim loại, bột thạch cao,.. Laminated Object Manufacturing (LOM) Dụng cụ cắt các tấm cứng theo biên dạng , sau đó dán từng lớp với nhau. Giấy, tấm gỗ.. (vật liệu dạng tấm cứng) Fused Deposition Modeling (FDM) Vật liệu được đùn qua đầu đùn gia nhiệt,sau đó đông đặc tạo hình Sáp, nhựa ABS, silicon
+Trong số này thì phương pháp SLS là phương pháp có nhiều ưu điểm: có thể gia công trên các vật liệu nhựa và kim loại, ngoài ra kết cấu của máy đơn giản dựa theo sự dịch chuyển theo các trục tọa độ x,y,z.
+Tuy nhiên, với công nghệ đơn giản, kết cấu không phức tạp, khả năng tạo mẫu với vật liệu nhựa và kim loại bột, giá thành hệ thống máy tương đối thấp, đồng thời khả năng tạo ra các mẫu với thể tích lớn, tạo mẫu nhanh theo công nghệ lazer thiêu kết nhanh sẽ là một trong 10 công nghệ được hướng đến vào năm 2020 (theo dự đoán của Wohlers Report 2008).
+Trên thị trường nước ngoài hiện nay có một số dòng máy tạo mẫu nhanh được sử dụng rộng nhất là hệ thống Sinterstation có xuất xử từ tập đoàn DTM và hiện nay được phát triển bời hãng 3D Systems với các dòng máy như Sinterstation® Pro, Sinterstation® HiQ™ (là phiên bản nâng cấp của dòng máy Sinterstation® 2500plus HiQ – High Quality. Sau đây là một số tham khảo về các dòng máy tạo mẫu nhanh trên thị trường thế giới.
+Hệ thống Sinterstation HiQ của 3D Systems
+Thông số kỹ thuật của hệ thống:
+- Nguồn laser
+HiQ: 30W Laser CO2, tốc độ quét tối đa 5m/s. HiQ +HS: 50W CO2, tốc độ quét tối đa 10m/s.
+- Không gian gia công: W381 x D330 x H457 mm (57L).
+- Phần mềm điều khiển: Proprietary SLS system
+- Hệ điều hành: Windows XP
+- Tập tin nguồn: .stl
+- Nguồn điện:
+240 VAC 12.5 kVA, 50/60 Hz, 3 pha 380 VAC 12.5 kVA, 50/60 Hz, 3 pha
+- Nhiệt độ làm việc: 16-27 °C
+- Độ ẩm: <70%
+Hình 1. 3. Máy Sinterstation HiQSinterstation® Pro DM100 SLM System
+Máy HRPS-IV. Trung Quốc
+Thông số kỹ thuật của máy
+- Không gian gia công: 500 x 500 x 400 mm.
+- Vật liệu: bột PS, bột gang, bột thép.
+- Độ dày lớp: 0.08~0.3mm, độ chính xác chi tiết: 200mm+/-0.2mm hoặc +/-0.1%.
+- Độ chính xác của tia laser: 0.02mm.
+- Phần mềm ứng dụng để điều khiển hệ thống SLS RP: Power RP 2005.
+Hình 1. 4. Máy HRPS-IV
+
+Máy Sinterstation® Pro DM100
+Thông số kỹ thuật của máy:
+- Nguồn laser: 50/100/200W Laser CO2, tốc độ quét tối đa 10m/s.
+- Tốc độ gia công: tối đa 30cm3/ giờ.
+- Đường kính tia laser: 30 - 200 micron.
+- Không gian gia công: Ø125mm x 80 mm.
+- Bề dày lớp: 30/50 micron.
+- Hệ điều hành: Windows XP
+- Tập tin nguồn: .stl
+- Nguồn điện: 208V, 3 pha, 50/60Hz, 16 A,12.5 kVA
+- Kích thước: 900 x 800 x 2500 mm
+- Khối lượng: 400kg
+Hình 1. 5. Máy Sinterstation® Pro DM100
+1.4. Tình hình nghiên cứu trong nước
+Do nhu cầu trong đào tạo và nghiên cứu nên trong thời gian qua đã có nhiều trường đại học và viện nghiên cứu và các doanh nghiệp đã trang bị các máy tạo mẫu nhanh như [4]:
+Đại học Bách Khoa TPHCM có máy SLA và đã ứng dụng để thực hiện đề tài KC05 ‘Nghiên cứu công nghệ tạo mẫu nhanh để gia công các bề mặt phức tạp’ do PGS.TS Đặng Văn Nghìn làm chủ nhiệm. Sau đó, đã nghiên cứu tạo mẫu sản phẩm cho doanh nghiệp sản xuất công nghiệp, đồng thời liên kết với các bệnh viện thực hiện tạo mẫu nhanh các chi tiết y học cho 25 bệnh nhân và đã cấy ghép thành công.
+- Các công ty giầy như Nike, Adidas, Puma, Pouyen sử dụng máy 3D printers.
+- Đại học Bách Khoa Hà Nội có máy Polyjet tại trung tâm công nghệ cao.
+- Phòng thí nghiệm trọng điểm quốc gia điều khiển số và kỹ thuật hệ thống có máy SLS và Polyjet.
+- Đại học Thái Nguyên đã đầu tư máy in 3 chiều (3D Printing).
+- Viện Máy và dụng cụ (IMI) có máy LOM.
+- Đại học Sư Phạm Kỹ Thuật TPHCM đã đầu tư máy FDM tại Trung tâm công nghệ cao.
+Máy tạo mẫu nhanh FDM 200mc với các thông số công nghệ:
+-Kích thước sản phẩm: (203 x 203 x 305)mm
+-Độ chính xác: ±0.127mm
+-Kích thước máy: (686 x 864 x1041)mm
+-Khối lượng: (128- 160)kg
+-Bề dày lớp đùn: (0.178-0.254) mm
+Đây cũng là hệ thống máy tạo mẫu nhanh dạng FDM duy nhất ở Việt Nam đang có tại Đại học Sư phạm kỹ thuật Tp. Hồ chí Minh.
+Hình 1. 6. Máy tạo mẫu nhanh FDM 200mc [4]
+Các đề tài cấp cơ sở PTN (2008-2009): “Nghiên cứu thiết kế và chế tạo mô hình bộ điều khiển nhiệt độ cho khuôn có kênh dẫn nhựa nóng” tập trung nghiên cứu các bộ điều khiển nhiệt độ cho hệ thống khuôn có kênh dẫn nhựa nóng hay đề tài cấp nhà nước (2008-2010): “Nghiên cứu thiết kế, chế tạo máy đo toạ độ 3D CNC” là những tiền đề quan trọng cho việc triển khai thiết kế chế tạo máy tạo mẫu nhanh SLS một cách hiệu quả và tin cậy.
+Từ đầu năm 2011 nhóm nghiên cứu tại phòng thí nghiệm trọng điểm quốc gia Điều khiển số và kỹ thuật hệ thống đã triển khai thực hiện đề tài nghiên cứu thiết kế và chế tạo máy tạo mẫu nhanh theo công nghệ LOM (Laminated Object Manufacturing).
+Hình 1. 7. Sơ đồ một mẫu máy SLS phổ biến hiện nay [5]
+Công nghệ tạo mẫu nhanh SLS dựa trên phương pháp thiêu kết bằng laser (Selective Laser Sintering) là kỹ thuật đã được phát triển và cấp bằng sáng chế tại trường đại học Texas, Austin. Với sự cung cấp tài chính từ công ty BFGoodrich, tập đoàn DTM (1987) đã nghiên cứu thương mại hóa kỹ thuật SLS, thiết bị tạo mẫu nhanh đầu tiên của tập đoàn DTM đã được thương mại hóa vào năm 1992. Ngày nay thiết bị tạo mẫu nhanh loại này đã và đang được sản xuất bởi một số các công ty khác. Tương tự phương pháp SLA, phương pháp này cũng dựa trên quá trình chế tạo từng lớp nhưng chất polymer lỏng được thay bằng vật liệu bột.
+Tạo mẫu là mô hình hoá ý tưởng của người thiết kế. Trước đây, trước khi sản xuất hàng loạt một sản phẩm nào đó, bao giờ người ta cũng tạo mẫu trước để nghiên cứu, xem xét, phân tích sự phù hợp của mẫu so với những yêu cầu của sản phẩm thực. Ngày nay, cùng với sự phát triển của loài người, các sản phẩm có yêu cầu cao về độ phức tạp cũng như độ chính xác càng nhiều thì việc tạo mẫu thử nghiệm trở thành công đoạn cực kỳ quan trọng trong việc phát triển sản phẩm mới.
+Qui trình sản xuất truyền thống Qui trình sản xuất sử dụng công nghệ tạo mẫu nhanh
+Hình 1. 8. So sánh QTSX truyền thống và sử dụng công nghệ tạo mẫu nhanh [6]
+Hiện nay trên thế giới có nhiều thiết bị tạo mẫu nhanh đã được thương mại hoá như:
+Thiết bị tạo mẫu lập thể SLA (Stereo Lithography Apparatus) của 3D Systems. Thiết bị tạo lớp mỏng LOM (Laminate Object Manufacturing ) của Helisys. Thiết bị phun nhiều lớp FDM (Fused Deposition Modeling) của Stratasys. Thiết bị thiêu kết bằng laser SLS (Selective Laser Sintering) của DTM.
+Các sản phẩm tạo từ các thiết bị tạo mẫu nhanh rất đa dạng có thể ứng dụng trong các lĩnh vực khác nhau:
+Cánh quạt turbin khí Hệ thống ống góp Hệ thống ống góp Thiết kế mẫu giày – dép Thiết kế đồ chơi điện tử Tạo mô hình y học từ dữ liệu CT Multi Scaner Mô hình tên lửa
+Hình 1. 9. Các sản phẩm của công nhệ tạo mẫu nhanh
+Hiện nay, tình hình nghiên cứu trong nước để làm chủ công nghệ còn ít, chủ yếu là khai thác công nghệ và máy móc sản xuất từ nước ngoài, trong tương lai công nghệ tạo mẫu nhanh sẽ phát triển mạnh nên cần có những bước thực hiện nghiên cứu tiền khả thi tạo nền tảng phát triển tương xứng với nhu cầu về máy và thiết bị sản xuất trong nước.
+Do đó, việc nghiên cứu chế tạo máy tạo mẫu nhanh, trong đó có máy tạo mẫu nhanh theo công nghệ SLS là cần thiết. Đề tài sẽ xây dựng những cơ sở thiết kế để chế tạo máy tạo mẫu nhanh theo công nghệ SLS.
+Các thông số kỹ thuật của máy:
+- Thể tích làm việc: 230mmx230mmx300mm
+- Tốc độ di chuyển của trục x, y: 900mm/s;
+- Hệ thống Laser: Công suất thích hợp dùng cho các vật liệu dạng bột;
+- Vật liệu: bột PS
+- Độ dày lớp: 0.08~0.3mm,
+- Độ chính xác chi tiết: 100mm+/-0.5mm hoặc +/-0.5%;
+- Độ chính xác của tia laser: 0.02mm
+1.5. Tính cấp thiết của đề tài
+Luận giải về mục tiêu và các nội dung thực hiện của đề tài:
+Qua nghiên cứu tổng quan có thể rút ra các nhận xét về máy tạo mẫu nhanh công nghệ SLS như sau:
+Tạo mẫu nhanh theo công nghệ SLS đứng thứ 2 trong 10 công nghệ tạo mẫu nhanh triển vọng trong 10 năm tới (báo cáo của Hiệp Hội tạo mẫu nhanh thế giới năm 2008). Sở dĩ như vậy vì nó có các ưu điểm như giá thành thấp, thiết bị không quá phức tạp, vật liệu đa dạng có thể là nhựa và vật liệu kim loại… đối với ngành công nghiệp phụ trợ của Việt Nam trong giai đoạn tới 2020 là rất cấp thiết và có tính thúc đẩy nội bộ ngành.
+Tạo ra được một số sản phẩm thực tế (không phải là tạo ra mẫu): Với vật liệu nhựa nhiệt dẻo, phương pháp SLS có thể tạo ra được chi tiết có độ bền bằng 95% sản phẩm được tạo ra bằng phương pháp chế biến nhựa truyền thống, vật liệu bột kim loại pha phi kim có chất phụ gia hoặc hợp kim gốm sẽ giúp chế tạo được các chi tiết máy phức tạp có độ bền cơ học tương đương sản phẩm sản xuất hàng loạt bằng các phương pháp thông thường với chi phí thấp cho một lần sản xuất giúp nhà chế tạo có thể không ngừng cải tiến sản phẩm.
+Lãng phí ở mức thấp nhất: Phương pháp SLS xây dựng chi tiết bằng cách thay đổi trạng thái của nhựa nhiệt dẻo không qua tiếp xúc, đồng thời vật liệu dạng bột có thể được tận dụng triệt để trong quá trình tạo mẫu thông qua hệ thống hồi liệu.
+Nguồn vật liệu sử dụng trong công nghệ SLS dễ kiếm, được thương mại trên thị trường và chi phí thấp so với các công nghệ khác như vật liệu cho máy SLA. Ngoài ra, vấn đề độc hại thì SLS ít ảnh hưởng đến người sử dụng máy trong thời gian lâu dài.
+Thiết bị tạo mẫu nhanh SLS là thiết bị có khả năng đạt độ chính xác tạo hình cao hơn các thiết bị tạo mẫu nhanh thông thường như: LOM, FDM, 3D Project.
+Thị trường của sản phẩm này rất rộng lớn vì phạm vi áp dụng của công nghệ tạo mẫu nhanh rộng như trong các ngành công nghiệp nhựa, khuôn mẫu, ô tô, xe máy, ti vi, tủ lạnh, máy tính, điện thoại…và những doanh nghiệp có nhu cầu phát triển sản phẩm mới.
+Trước mắt có thể tập trung cho ngành nhựa và khuôn mẫu vì nó tạo ra mẫu cũng như sản phẩm. Ngành công nghiệp nhựa Tp.HCM là ngành có tốc độ phát triển nhanh chóng và ổn định chiếm tỷ trọng khoảng 80% sản phẩm của cả nước. Tình hình nghiên cứu trong nước đang dừng ở mức độ khai thác thiết bị mà chưa nghiên cứu thiết kế và chế tạo thiết bị tạo mẫu nhanh. Chính vì lẽ đó, mục tiêu nghiên cứu của đề tài là làm chủ việc thiết kế và chế tạo thiết bị tạo mẫu nhanh SLS.
+Máy SLS được chế tạo phải thể hiện sự ưu việt về mặt cấu trúc, sự phối hợp về chuyển động một cách linh hoạt giữa các cơ cấu của máy, sáng tạo về kiểu dáng công nghiệp và là sản phẩm được thiết kế và chế tạo trong nước với chuẩn dữ liệu STL.
+Phần mềm xuất dữ liệu xuất các lớp có thể thay đổi tùy thuộc vào vật liệu cũng như hình dáng của sản phẩm.
+Các vấn đề nghiên cứu cần thiết bao gồm:
+Nội dung 1: Nghiên cứu tổng quan
+Nội dung 2: Phân tích lựa chọn các phương án thiết kế sơ bộ
+Nội dung 3: Nghiên cứu các yếu tố ảnh hưởng đến quá trình tạo sản phẩm
+Nội dung 4: Tính toán thiết kế tổng thể của máy
+Nội dung 5: Tính toán thiết kế các cụm chi tiết
+Nội dung 6: Nghiên cứu QTCN và CT cụm cơ khí
+Nội dung 7: Nghiên cứu cấu trúc dữ liệu STL
+Nội dung 8: Xây dựng phần mềm nhận dạng file STL
+Nội dung 9: Lựa chọn các bộ phận điều khiển máy
+Nội dung 10: NCQT lắp ráp và lắp ráp máy.
+Nội dung 11:Chạy thử nghiệm và hiệu chỉnh.
+Nội dung 12 :Viết báo cáo và hướng dẫn sử dụng.
+Hiệu quả kinh tế:
++ Rút ngắn thời gian chế tạo mẫu, giảm sai sót thiết kế, nhanh chóng đưa vào sản xuất hàng loạt, giúp doanh nghiệp giảm được nhiều chi phí.
++ Đối với các sản phẩm không yêu cầu độ cứng cao, mẫu được tạo ra có thể sử dụng như sản phẩm thực thụ.
+
+
+Nhận xét chung về các nội dung cần thực hiện của đề tài
+1. Phương án thiết kế cụm đầu lazer di chuyển theo phương hai x,y thay thế cho phương án lăng kính sẽ là điểm mới cho thiết bị đễ dàng nội địa hóa và tăng tính cạnh tranh thương mại.
+2. Phương pháp tạo mẫu nhanh sử dụng lazer thiêu kết trên bề mặt bột vật liệu, các thành phần trong vật liệu sẽ liên kết với nhau theo cường độ của nguồn lazer thiết lập để tạo hình chi tiết, sau đó vật liệu sẽ được cấp vào theo từng lớp qua hệ thống con lăn giúp cho quá trình thực hiện thiêu kết được liên tục. Vì độ chính xác phụ thuộc một phần vào độ dày của lớp bột vật liệu nên quá trình điều khiển phối hợp phải thật chính xác và tối ưu thì mới đảm bảo được chất lượng và thời gian tạo mẫu.
+3. Cần nghiên cứu ảnh hưởng của các yếu tố đến độ chính xác và chất lượng của mẫu như chọn vật liệu hợp lý, các thông số về gia nhiệt, các thông số về tốc độ di chuyển trong quá trình thiêu kết, khả năng tạo được mặt phẳng trên bột đều và tuyệt đối, nâng cao độ cứng vững của máy.
+4. Do đặc thù của phương pháp là tạo mẫu các bề mặt phức tạp nên việc điều khiển, mô phỏng quá trình hoạt động của máy cũng như quá trình tạo mẫu là rất cần thiết.
+5. Thiết kế giao diện điều khiển hợp lý, khả năng liên kết với máy tính và chuyển đổi dữ liệu cao,dễ sử dụng, phần mềm mô phỏng trực quan.
+6. Thiết kế cải tiến và nội địa hóa các thiết bị, các cụm chi tiết là vấn đề cần giải quyết nhằm giảm giá thành máy. Chính vì lẽ đó mà máy thiết kế sẽ có khả năng tạo mẫu với kích thước (khoảng 300 x 300 x 250 mm) so với máy tham khảo đăng ký (100 x 100 x 100mm).
+
+1.6. Mô hình tổ chức, cách tiếp cận và kỹ thuật sử dụng
+Tổ chức các nhóm nghiên cứu và phối hợp thực hiện:
+Các nhóm nghiên cứu trong PTN để thực hiện đề tài trên được tổ chức theo hệ thống như trên hình dưới:
+Hình 1. 10. Phối hợp các nhóm nghiên cứu của PTN ĐKS&KTHT
+Cách tiếp cận thực hiện nghiên cứu trong đề tài:
+- Trên cơ sở tiếp thu những nghiên cứu lý thuyết về công nghệ SLS, tìm hiểu các patent về máy SLS, các loại máy SLS của các hãng sản xuất trên thế giới, sách, bài báo viết về máy SLS; tìm hiểu các yêu cầu kỹ thuật của máy như kích thước của sản phẩm khi tạo hình, tốc độ quét, nhiệt độ yêu cầu gia nhiệt trong quá trình thiêu kết vật liệu… Từ đó thiết kế kết cấu máy.
+- Thiết kế theo mô đun những bộ phận máy tạo mẫu nhanh SLS.
+- Hướng tiếp cận là giải quyết từng bài toán con của thuộc từng lĩnh vực cụ thể với các kết quả thử nghiệm tại các Phòng chuyên môn của PTN Trọng điểm, sau đó tích hợp thành hệ thống hoàn chỉnh.
+Phương pháp nghiên cứu và kỹ thuật sử dụng:
+Nghiên cứu kỹ các tài liệu: sách, báo, patent về công nghệ và cấu tạo của các loại máy SLS đã có; Nghiên cứu các phương án thiết kế về cấu hình và kết cấu máy SLS; Đánh giá, lựa chọn phương án thiết kế phù hợp; Tính toán thiết kế máy SLS; Mô hình kết cấu và mô phỏng động học máy; Mô phỏng hoạt động; Phân tích, đánh giá và hiệu chỉnh thiết kế; Lập qui trình công nghệ chế tạo máy SLS; Chế tạo, thử nghiệm và hiệu chỉnh sản phẩm; Đánh giá và lập hồ sơ thiết kế cho sản phẩm.
+
+
+Trong chương này đã trình bày các nội dung liên quan đến phần tổng quan máy tạo mẫu nhanh SLS làm cơ sở cho việc thực hiện thiết kế những phần cơ khí và điều khiển trong quá trình thực hiện đề tài.
+
+CHƯƠNG 2. PHÂN TÍCH LỰA CHỌN PHƯƠNG ÁN THIẾT KẾ SƠ BỘ
+
+Trong chương này sẽ trình bày các phương án thiết kế phù hợp với yêu cầu kỹ thuật của máy SLS làm cơ sở để tính toán thiết kế chi tiết các cụm chính trong máy ở các chương kế tiếp.
+2.1. Sơ đồ nguyên lý của máy SLS
+2.1.1. Phân cụm chức năng của máy SLS
+Để có được sơ đồ nguyên lý hoàn chỉnh của máy SLS trước hết ta phân máy thành từng cụm chức năng riêng biệt từ đó xây dựng lên sơ đồ khối như sau:
+Hình 2. 1. Sơ đồ khối thể hiện chức năng từng cụm trong máy SLS
+Trong sơ đồ khối ở hình trên ta thấy máy SLS có thể phân thành 5 cụm chính như sau:
+- Cụm con lăn bột: Cụm chi tiết này được bố trí ở phần giữa của thân máy, phía trên các cụm thùng bột, bàn nâng và thu hồi bột. Chức năng chính của cụm chi tiết này là san phẳng một lớp bột trên bề mặt của bàn nâng bột. Do bề dày của mỗi lớp bột là rất nhỏ do đó bề mặt này sau khi quét đòi hỏi độ phẳng rất cao. Chính yêu cầu này của bề mặt lớp bột trở thành yêu cầu kỹ thuật chính cho cụm con lăn. Cụm con lăn phải được thiết kế sao cho trong quá trình hoạt động không bị võng ở giữa, bề mặt con lăn phải được đảm bảo không bị bám bột trong quá trình lăn, tốc độ quét của con lăn phải đảm bảo để khi chạy qua nó không kéo theo lớp bột bay lên.
+- Cụm bàn nâng: Nếu ta chia máy thành ba phần trên, dưới và ở giữa thì cụm bàn nâng nằm ở dưới cùng của máy, cụm này có chức năng chính là làm bệ đỡ cho sản phẩm cần tạo hình. Sau mỗi lớp tạo hình thì bàn nâng lại hạ xuống một khoảng nhỏ đã được lập trình trước bằng với lớp bột tiếp theo. Do đó cụm này cần được điều khiển rất chính xác để có thể đảm bảo độ chính xác cho mô hình sau khi thiêu kết. Một điểm cần lưu ý đối với cụm chi tiết này là do lượng bột mà mặt bàn phải nâng sau mỗi lần thiêu kết lại tăng lên, do đó cần phải đảm bảo độ cứng vững cho cụm này tránh việc mặt bàn nâng bị biến dạng ảnh hưởng tới chất lượng sản phẩm.
+- Cụm đầu di chuyển lazer: Cụm chi tiết này được bố trí ở vị trí trên cùng của máy. Cụm này có chức năng điều khiển sao cho tia lazer quét đến đúng vị trí thiêu kết đã được phần mềm lập trình trước đó. Tia lazer phải được điều chỉnh cường độ sao cho có thể thích hợp với từng loại vật liệu khác nhau. Đồng thời cũng phải điều chỉnh tốc độ quét của tia lazer để đảm bảo chất lượng quét nhưng không làm giảm năng suất gia công.
+- Bộ phận gia nhiệt Thực hiện bởi đèn halozen gia nhiệt vật liệu nhựa dẻo, kim loại, hợp kim gốm dạng bột liên tục trong quá trình gia công
+Bảng 2. 1. Các bộ phận chính của máy tạo mẫu nhanh SLS
+STT Các bộ phận Truyền động 1 Cơ cấu con lăn Động cơ – hệ thống truyền động – con lăn 2 Cụm bàn nâng Động cơ – hệ thống truyền động -bàn nâng trục Z 3 Cụm đầu di chuyển lazer Động cơ – hệ thống quét (hai phương X, Y được dẫn động bằng hai động cơ AC servo) 4 Bộ phận gia nhiệt Thực hiện bởi đèn halozen gia nhiệt vật liệu nhựa dẻo, kim loại, hợp kim gốm dạng bột liên tục trong quá trình gia công
+Trong phân tích cụm, bộ phận thân máy có vai trò quan trọng quyết định độ chính xác bởi quy trình định vị và la91p ghép các cụm trong máy như: cụm di chuyển hai phương XY mang đầu lazer tạo hình, cụm bàn nâng bột, khung máy chịu lực cho cụm con lăn di chuyển đầu quét bột và các hệ thống chân đỡ, thùng chứa hệ thống điện.
+
+2.1.2. Thiết kế lựa chọn phương án cho các cụm chức năng chính trong máy SLS
+Phương pháp SLS sử dụng tính chất của vật liệu bột có thể hóa rắn dưới tác dụng của nhiệt (như nylon, elastomer, kim loại). Một lớp mỏng của bột nguyên liệu được trải trên bề mặt của xy lanh công tác bằng một trống định mức. Sau đó, tia laser hóa rắn (kết tinh) phần bột nằm trong đường biên của mặt cắt làm cho chúng dính chặt ở những chỗ có bề mặt tiếp xúc. Trong một số trường hợp, quá trình nung chảy hoàn toàn hạt bột vật liệu được áp dụng.
+Quá trình kết tinh có thể được điều khiển tương tự như quá trình polymer hoá trong phương pháp tạo hình lập thể SLA. Sau đó xy lanh hạ xuống một khoảng cách bằng độ dày lớp kế tiếp, bột nguyên liệu được đưa vào và quá trình được lặp lại cho đến khi chi tiết được hoàn thành [7].
+
+Hình 2. 2. Nguyên lý làm việc của máy SLS
+Nguyên lý làm việc của quá trình tạo mẫu nhanh SLS được thể hiện trên hình 2.2. Sản phẩm được chia thành các lát cắt từ file định dạng .STL tạo một lớp bằng cách trải các lớp bột, thiêu kết bằng nguồn laser CO2 theo các bước sau:
+Bước 1: Một lớp vật liệu bột nóng chảy được đặt vào buồng chứa sản phẩm.
+Bước 2: Lớp vật liệu bột đầu tiên được quét bằng tia laser CO2 và đông đặc lại. Vật liệu bột không được xử lý sẽ được đưa trở về thùng chứa liệu.
+Bước 3: Khi lớp thứ nhất đã hoàn thành thì lớp vật liệu bột thứ hai được cấp vào thông qua con lăn cơ khí chuẩn bị cho quá trình quét lớp thứ hai.
+Bước 4: Bước hai và bước ba được lặp lại cho đến khi sản phẩm được hoàn thành.
+Sau khi quá trình kết thúc, sản phẩm được lấy ra khỏi buồng xử lý, qua giai đoạn hậu xử lý hoặc đánh bóng lại như phun cát tùy từng ứng dụng của sản phẩm.
+Trong công nghiệp, có thể ứng dụng các loại laser khác nhau để gia công vật liệu như laser rắn (laser hồng ngọc, thuỷ tinh), laser khí (CO, CO2) và laser lỏng (laser chelate hữu cơ - đất hiếm) và laser bán dẫn. Một trong những điểm nổi bật của công nghệ tạo mẫu nhanh SLS là phương pháp tạo hình trên nhiều loại vật liệu, đặc biệt là vật liệu bột kim loại, phi kim mà các công nghệ khác không thực hiện được.
+Các patent liên quan đến công nghệ tạo mẫu nhanh SLS [8]:
+Patent US 4,863,538
+Phương pháp và thiết bị để lưu hóa có chọn lọc lớp bột nhằm tạo ra một chi tiết nhiều lớp. Thiết bị bao gồm một máy tính điều khiển một tia laser hướng trực tiếp vào trong bột để tạo ra một khối bột được lưu hóa. Máy tính được lập trình với biên dạng mặt cắt ngang của chi tiết để tia laser chỉ làm lưu hóa những phần bột bên trong biên dạng của mặt cắt ngang. Bột được tiếp tục đắp vào và được lưu hóa cho đến khi tạo thành chi tiết hoàn chỉnh. Bột có thể là nhựa, kim loại, gốm sứ, hoặc là những chất polymer. Với nhiệm vụ như trên, tia laser sẽ quét liên tục để hình thành nên biên dạng riêng biệt cho từng mặt cắt.
+Hình 2. 1. Patent US 4,863,538
+Patent số 5,658,412
+Trong phương pháp tạo ra vật thể 3 chiều này, vật thể được tạo ra theo từng lớp bằng cách đắp những lớp vật liệu có thể bị hóa rắn bởi tác động của ánh sáng và bức xạ điện từ và hóa rắn một cách liên tục mỗi lớp tại điểm nhiệt độ tùy thuộc vào loại vật liệu.
+Hình 2. 2. Patent số 5,658,412
+Patent số 6,215,093
+Phương pháp tạo ra một mẫu nhựa dựa vào dữ liệu CAD 3D của mẫu nhựa đó, bằng cách đắp những lớp bột kim loại, nhiều lớp bột tiếp theo được đắp lên trên những lớp bột trước đó, chúng được nung đến một nhiệt độ xác định, điều này có nghĩa là hệ thống laser phải thực hiện thêm chức năng nung trước khi thực hiện tiếp lớp kế. Chùm tia laser được chiếu vào những lớp bột theo biên dạng mặt cắt ngang của mô hình CAD theo một cách để cho chúng gắn liền với lớp dưới nó. Năng lượng của nguồn tia laser được lựa chọn sao cho nó có thể làm nóng chảy vật liệu.
+...............................................
+BÁO CÁO THỐNG KÊ TÌNH HÌNH THỰC HIỆN ĐỀ TÀI
+Tóm tắt các nội dung, công việc chủ yếu
+TT Cácnội dung, công việc chủ yếu (Các mốc đánh giá chủ yếu) Kết quả thực hiện Đánh giá Theo kế hoạch Thực tế đạt được 1 Nội dung 1: Nghiên cứu tổng quan. 01 báo cáo tổng quan 01 báo cáo tổng quan Đạt 2 Nội dung 2: Phân tích lựa chọn các phương án thiết kế sơ bộ. Lựa chọn PA kết cấu chung của máy Phương án kết cấu máy Đạt Lựa chọn PA thiết kế cụm cấp bột Phương án cụm cấp bột Đạt Lựa chọn PA và thiết kế bàn nâng Z Phương án bàn nâng Đạt Lựa chọn PA và TK hệ thống gia nhiệt Phương án hệ thống gia nhiệt Đạt Lựa chọn phương án hậu xử lý Phương án hậu xử lý Đạt 3 Nội dung 3: Nghiên cứu các yếu tố ảnh hưởng đến quá trình tạo sản phẩm. Ảnh hưởng của hệ thống gia nhiệt đến các bộ phận khác Tập báo cáo Đạt Ảnh hưởng của tốc độ quét đến khả năng thiêu kết vật liệu Tập báo cáo Đạt Khả năng chiều dầy của lớp bột khi thiêu kết Tập báo cáo Đạt Ảnh hưởng của các yếu tố khác Tập báo cáo Đạt 4 Nội dung 4: Tính toán và thiết kế tổng thể máy. Xác định yêu cầu kỹ thuật, cấu hình và không gian của Bộ phận cấp bột, con lăn Tập báo cáo Đạt Xác định yêu cầu kỹ thuật, cấu hình và không gian của Bộ phận nâng hạ sản phẩm Tập báo cáo Đạt Xác định yêu cầu kỹ thuật, cấu hình và không gian của Bộ phận gia nhiệt Tập báo cáo Đạt Xác định yêu cầu kỹ thuật, cấu hình và không gian của Bộ phận điều khiển nhiệt Tập báo cáo Đạt Xác định yêu cầu kỹ thuật, cấu hình và không gian của Bộ phận điều khiển tia laser Tập báo cáo Đạt Xác định yêu cầu kỹ thuật cấu hình và không gian của Bộ phận điều khiển di chuyển theo trục Z Tập báo cáo Đạt Nghiên cứu mô phỏng hoạt động của máy Tập báo cáo Đạt Tính toán thiết kế khung máy Tập báo cáo Đạt 5 Nội dung 5: Tính toán thiết kế các cụm chi tiết. Hệ thống cấp bột, con lăn Tập bản vẽ chung và chi tiết Đạt Bộ phận nâng hạ sản phẩm Tập bản vẽ chung và chi tiết Đạt Bộ phận gia nhiệt Tập bản vẽ chung và chi tiết Đạt Bộ phận điều khiển nhiệt Xác định PA ĐK nhiệt Đạt Bộ phận điều khiển tia laser Xác định PA ĐK tia laser Đạt Bộ phận điều khiển di chuyển theo trục Z Xác định PA ĐK trục Z Đạt 6 Nội dung 6: Nghiên cứu QTCN và CT cụm cơ khí. Bộ phận cấp bột, con lăn Cụm cấp bột Đạt Bộ phận nâng hạ sản phẩm Cụm nâng hạ Đạt Bộ phận gia nhiệt Cụm gia nhiệt Đạt Bộ phận di chuyển theo trục Z Cụm gạt bột Đạt Khung máy Khung máy Đạt 7 Nội dung 7: Nghiên cứu cấu trúc dữ liệu STL. - Tìm hiểu định dạng STL do hãng 3D System viết để sử dụng cho hệ thống tạo mẫu nhanh Tập báo cáo Đang thực hiện - Chuyển đổi mô hình 3D khi được sang định dạng .STL Tập báo cáo Đang thực hiện 8 Nội dung 8: Xây dựng phần mềm nhận dạng file STL. - Xây dựng chương trình trên nền tảng Windows, trong môi trường MFC (Microsoft Foudation Class), và sử dụng OpenGL Utility Library (GLU) làm thư viện đồ hoạ chính. Chương trình thư viện Đang thực hiện - Viết phần mềm nhận dạng dữ liệu chia lớp và điều khiển máy Phần mềm nhận dạng và cắt lớp Đang thực hiện 9 Nội dung 9: Lựa chọn các bộ phận điều khiển máy. - Xây dựng thuật toán điều khiển Thuật toán Đang thực hiện - Thiết kế giao diện bộ phận điều khiển Giao diện Đang thực hiện - Chọn chương trình điều khiển Chương trình ĐK Đang thực hiện 10 Nội dung 10: NCQT lắp ráp và Lắp ráp máy. Bộ phận nâng hạ sản phẩm Cụm bàn nâng Đạt Bộ phận gia nhiệt Cụm gia nhiệt Đạt Bộ phận điều khiển nhiệt Cụm ĐK nhiệt độ Đang thực hiện Bộ phận điều khiển tia laser Cụm ĐK laser Đang thực hiện Bộ phận điều khiển di chuyển theo trục z Cụm ĐK trục z lazer Đang thực hiện 11 Nội dung 11:Chạy thử nghiệm và hiệu chỉnh. Chạy thử toàn máy Gia công các chi tiết Đang thực hiện 12 Nội dung 12:Viết báo cáo và hướng dẫn sử dụng. Tập thuyết minh Báo cáo tổng kế Đang thực hiện
+
+Đánh giá kết quả so với thuyết minh đăng ký
+vSản phẩm dạng I:
+Số TT Tên sản phẩm Đơn vị đo Mứcchấtlượng Theo kế hoạch Thực tế đạt được Đánhgiá 1 2 3 4 5 6 Sản phẩm mềm Bộ Các bản vẽ thiết kế sơ đồ mạch và tài liệu kỹ thuật Đang thực hiện Đang thực hiện Các bản vẽ thiết kế cơ khí và tài liệu kỹ thuật Hoàn thành bản vẽ thiết kế Hoàn thành Chương trình máy tính Đang thực hiện Đang thực hiện Các chương trình cho hệ thống nhúng Đang thực hiện Đang thực hiện Sổ tay hướng dẫn sử dụng máy Đang thực hiện Đang thực hiện
+
+vSản phẩm dạng II:
+STT Tên sản phẩm Theo đăng ký Thực tế đạt được Đánh giá 1 Máy Tạo mẫu nhanh SLS - Tốc độ di chuyển của trục x, y: 900mm/s; - Thể tích làm việc 100x100x100 mm; - Hệ thống điều khiển: đảm bảo tốc độ di chuyển của trục xy; gạt bột đảm bảo bột có độ xốp và đều; - Nhiệt độ từ 1500C- 2300C; - Hệ thống Lazer: công suất thích hợp dùng cho các vật liệu bột PS; - Độ dày lớp: 0,08~0,3 mm - Độ chính xác của chi tiết: 100mm+/-0,5mm (0,5%) - Độ chính xác vị trí của tia lazer: 0,02mm. - Tốc độ di chuyển của trục x, y: 900mm/s; - Thể tích làm việc 230x230x300 mm; - Hệ thống điều khiển: đảm bảo tốc độ di chuyển của trục xy; gạt bột đảm bảo bột có độ xốp và đều; - Nhiệt độ từ 1500C- 2300C; - Hệ thống Lazer công suất 80W. - Độ dày lớp: 0,08~0,3 mm - Độ chính xác của chi tiết: 100mm+/-0,5mm (0,5%) - Độ chính xác vị trí của tia lazer: 0,02mm. Lắp ráp hoàn chỉnh các cụm và chi tiết cụm lên khung máy. Hiện đang thực hiện hoàn chỉnh phần điều khiển để tiếp tục sang các công đoạn chạy vận hành thử nghiệm và đo đạc các thông số của máy.
+
+vSản phẩm dạng III, kết quả đào tạo và đăng ký SHTT:
+1. Kết quả công bố khoa học
+TT Tên sản phẩm Yêu cầu khoa học cần đạt Số lượng, nơi công bố (Tạp chí, nhà xuất bản) Minh chứng Đánh giá Theo đăng ký Thực tế đạt được 1 Bài báo đăng trên tạp chí trong nước 01BB 01BB Phan Huỳnh Lâm, Nguyễn Thanh Nam, Hồ Phạm Huy Ánh “Controlmethod Forreducingerrors Prosessing Of The SLS machine” Tạp chí phát triển Khoa học và Công nghệ, ĐHQG-HCM Giấy xác nhận bài báo được chấp nhận đăng Đạt 2 Bài báo cáo đăng trên hội nghị Quốc tế 01BC 2BC Phan Huynh Lam, Nguyen Thanh Nam,Pham Van Duy and Le Thanh Son “Building Real-Time Operating System (RTOS) to Control in Processing by SLS Machine” Phan Huynh Lam, Nguyen Thanh Nam,Pham Van Duy Le Thanh Son and Vu Ngoc Thanh The “The Data Combining Method And The Forming Control Algorithm From The 3D Scanning Machine And Processing In The SLS Machine” Hội nghị SISA 2014 Giấy xác nhận bài báo được chấp nhận đăng Đạt 3 Bài báo cáo đăng trên Hội nghị trong nước 01BC Đang thực hiện Đang thực hiện
+
+2. Kết quả đào tạo
+Số TT Cấp đào tạo, chuyên ngành đào tạo Số lượng Thời gian kết thúc Đánh giá Đăng ký Thực tế đạt được 1 Thạc sĩ 01HVCH 02 HVCH HVCH. Trần Trung Kiên“Nghiên cứu thiết kế hệ thống tạo mẫu nhanh SLS theo môdun” 10/2014 Đạt HVCH. Lê Thanh Sơn “Ứng dụng phương pháp thiết kế sản phẩm theo modul trong thiết kế máy tạo mẫu nhanh” (đang đăng ký đề cương) 2015 Đạt 2 Đại học 02SV 02 SV SV. Đặng Đức Phúc “Nghiên cứu, thiết kế và chế tạo cụm con lăn tạo hình bề mặt bột trong hệ thống tạo mẫu nhanh SLS” (đang đăng ký làm luận văn) SV. Trần Phi Vũ “Nghiên cứu, thiết kế máy tạo mẫu nhanh theo modul” (đang đăng ký làm luận văn) 2014 Đạt
+
+3. Đăng ký SHTT
+STT Sản phẩm Kết quả Ghi chú (Thời gian kết thúc) Theo kế hoạch Thực tế đạt được 1 GPHI “ hệ thống cơ khí và điều khiển hai trục thay thế cụm lăng kính điều khiển chùm tia lazer tạo hình cắt lớp” (dự kiến) 01 Đang triển khai viết bản mô tả 20/10/2014 2 QTG “ Phần mềm điều khiển máy” (dự kiến) 01 30/10/2014
+KẾT LUẬN VÀ KIẾN NGHỊ
+I. Những nội dung đã thực hiện
+Nghiên cứu tổng quan cơ sở lý thuyết về kỹ thuật tạo mẫu nhanh SLS và nghiên cứu các thiết kế máy chế tạo máy; Lập bảng phân tách các nội dung chế tạo và chi tiết tích hợp:
+- Mô tả và chức năng của từng chi tiết;
+- Trình bày đặc tính kỹ thuật của chi tiết;
+- Tập bản vẽ thiết kế các chi tiết máy và cụm chi tiết tích hợp làm cơ sở chế tạo;
+3. Thực hiện công việc lắp ráp và kết nối các chi tiết và cụm chi tiết máy;
+Tiến độ hoàn thành các nội dung công việc chế tạo sản phẩm dạng II theo đăng ký
+đến thời điểm báo cáo là: 70%;
+5. Hoàn thành các nội dung đăng ký về đào tạo đạt 90%
+6. Xây dựng chương trình điều khiển của máy: 50%
+7. Thiết kế quy trình điều khiển vận hành máy và thiết bị: 70%
+II. Những nội dung sẽ thực hiện
+Hoàn thiện hồ sơ thiết kế thông qua cập nhật thông tin trong giai đoạn chế tạo máy; Hoàn thành nội dung điều khiển của máy; Thực hiện thử nghiệm máy, gia công các chi tiết thử máy; Hoàn chỉnh đóng gói máy;
+III. Kiến nghị
+Cho phép Nhóm nghiên cứu tiếp tục thực hiện, hoàn thành đề tài.
+

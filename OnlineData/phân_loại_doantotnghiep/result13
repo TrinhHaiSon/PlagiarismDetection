@@ -1,0 +1,420 @@
+MỤC LỤC
+
+Lời mở đầu
+Chương 1 : CƠ SỞ LÝ THUYẾT VỀ HỆ THỐNG PHÂN PHỐI KHÍ
+1.1 Nhiệm vụ, yêu cầu, phân loại............................................................................... 1
+1.1.1 Nhiệm vụ...................................................................................................... 1
+1.1.2 Yêu cầu......................................................................................................... 1
+1.1.3 Phân loại....................................................................................................... 1
+1.2 Cấu tạo và nguyên tắc hoạt động của hệ thống phân phối khí trên DCDT.... 2
+1.2.1 Hệ thống phân phối khí xupap treo loại OHV........................................ 2
+1.2.2 Hệ thống phân phối khí xupap treo loại OHC........................................ 3
+1.2.3 Hệ thống phân phối khí không trục cam (Camless)............................... 4
+1.3 Ảnh hưởng của việc thay đổi pha phân phối khí tới hiệu quả động cơ.......... 6
+1.3.1 Ảnh hưởng của việc thay đổi thời điểm mở xupap thải........................ 7
+1.3.2 Ảnh hưởng của việc thay đổi thời điểm đóng xupap thải..................... 8
+1.3.3 Ảnh hưởng của việc thay đổi thời điểm mở xupap nạp......................... 9
+1.3.4 Ảnh hưởng của việc thay đổi thời điểm đóng xupap nạp................... 10
+1.4 Ảnh hưởng của việc thay đổi độ nâng xupap tới hiệu quả động cơ............. 16
+1.5 Nguyên lý điều chỉnh trên các hệ thống cam thông minh.............................. 22
+Chương 2 : HỆ THỐNG PHÂN PHỐI KHÍ TRÊN XE TOYOTA
+2.1 Giới thiệu............................................................................................................... 25
+2.2 Cấu tạo và nguyên lý hoạt động của hệ thống VVT-i..................................... 28
+2.2.1 Cấu tạo cơ cấu VVT-I............................................................................... 28
+2.2.2 Phương pháp thay đổi thời điểm phối khí............................................. 29
+2.3 Cấu tạo và nguyên lý hoạt động của hệ thống VVTL-i.................................. 33
+2.3.1 Mô tả........................................................................................................... 33
+2.3.2 Cấu tạo....................................................................................................... 34
+2.3.3 Hoạt động................................................................................................... 36
+Chương 3 : HỆ THỐNG PHÂN PHỐI KHÍ TRÊN XE HONDA
+3.1 Giới thiệu và phân loại......................................................................................... 39
+3.2 Cấu tạo và nguyên lý hoạt động của SOHC VTEC.......................................... 41
+3.2.1 Cấu tạo....................................................................................................... 41
+3.2.2 Nguyên lý hoạt động................................................................................ 45
+3.3 Cấu tạo và nguyên lý hoạt động của DOHC VTEC.......................................... 47
+3.4 Cấu tạo và nguyên lý hoạt động của NEW VTEC............................................ 48
+3.5 Cấu tạo và nguyên lý hoạt động của VTEC 3 giai đoạn.................................. 53
+3.6 Cấu tạo và nguyên lý hoạt động của VTEC-E.................................................. 56
+3.7 Cấu tạo và nguyên lý hoạt động của i-VTEC.................................................... 57
+3.7.1 Cấu tạo và nguyên lý hoạt động của VTC............................................. 59
+3.7.2 Các chế độ hoạt động cơ bản của i-VTEC............................................ 61
+Chương 4 : HỆ THỐNG MIVEC TRÊN XE MITSUBISHI
+4.1 Giới thiệu............................................................................................................... 65
+4.2 Cấu tạo và nguyên tắc hoạt động của hệ thống thay đổi độ nâng xupap...... 66
+4.3 Cấu tạo và nguyên tắc hoạt động hệ thống thay đổi thời điểm phối khí...... 69
+4.3.1 Cấu tạo....................................................................................................... 69
+4.3.2 Nguyên tắc hoạt động.............................................................................. 71
+4.3.3 Các chế độ hoạt động............................................................................... 73
+4.4 Đồ thị mômen, công suất và tiêu hao nhiên liệu.............................................. 76
+Chương 5 : HỆ THỐNG VANOS VÀ VALVETRONIC TRÊN XE BMW
+5.1 Hệ thống Vanos .................................................................................................... 78
+5.1.1 Giới thiệu................................................................................................... 78
+5.1.2 Cấu tạo....................................................................................................... 79
+5.1.3 Nguyên lý hoạt động................................................................................ 82
+5.2 Hệ thống Valvetronic........................................................................................... 84
+5.2.1 Giới thiệu................................................................................................... 84
+5.2.2 Cấu tạo....................................................................................................... 86
+5.2.3 Nguyên lý hoạt động................................................................................ 87
+5.3 Đồ thị công suất và mômen động cơ.................................................................. 89
+Chương 6 : HỆ THỐNG MULTIAIR TRÊN XE FIAT
+6.1 Lịch sử phát triển.................................................................................................. 90
+6.2 Cấu tạo.................................................................................................................... 91
+6.3 Nguyên lý hoạt động............................................................................................ 92
+6.4 Sự phát triển trong tương lai................................................................................ 95
+KẾT LUẬN.................................................................................................................. 97
+PHỤ LỤC (Mạch điện).............................................................................................. 98
+TÀI LIỆU THAM KHẢO
+LỜI MỞ ĐẦU
+Ô tô đã trở thành phương tiện quan trọng không thể thiếu trong cuộc sống ngày nay. Nhưng ngoài những công dụng như vận chuyển người và hàng hóa thì nó vẫn tồn tại một số nhược điểm cơ bản như tiêu hao nhiên liệu cao trong khi nguồn dầu mỏ đang cạn kiệt dần và nhất là gây ô nhiễm môi trường. Để khắc phục những nhược điểm trên đã có rất nhiều cải tiến trong động cơ đốt trong như hệ thống phun nhiên liệu và đánh lửa bằng điện tử , cải tiến trong hệ thống nạp và thải của động cơ…Gần đây những cải tiến quan trọng nhằm tối ưu hóa hiệu suất động cơ thường liên quan tới hệ thống nạp và đó là lý do chúng em quyết định chọn đề tài “Nghiên cứu một số hệ thống điều khiển cam thông minh ” do Thầy Th.S Lý Văn Trung hướng dẫn.
+Trong đề tài này chúng em tập trung nghiên cứu cơ sở lý thuyết của hệ thống phân phối khí và đi sâu vào việc tối ưu hóa thời gian, thời điểm, độ nâng và góc đóng mở của xupap để làm tăng công suất động cơ, tiết kiệm nhiên liệu, thân thiện với môi trường. Phần sau chúng em phân tích kết cấu và nguyên lý hoạt động của các hệ thống phân phối khí thông minh trên các hãng xe phổ biến ở thị trường Việt Nam như TOYOTA, HONDA, MITSUBISI, BMW và FIAT mục đích giúp cho các kỹ sư, kỹ thuật viên và thợ sủa chữa ô tô trong việc bảo dưỡng, sửa chữa. Ngoài ra đề tài còn có ý nghĩa trong việc giảng dạy giúp sinh viên hiểu biết sâu hơn về hệ thống phân phối khí trên các động cơ hiện đại ngày nay.
+Phương pháp nghiên cứu : phân tích, tổng hợp, đánh giá
+LỜI CẢM ƠN
+
+Sau hơn ba tháng làm đồ án tốt nghiệp giờ đã hoàn thành. Chúng em xin chân thành cảm ơn :
+Trường Đại Học Công Nghiệp TP.HCM đã tạo điều kiện tốt nhất cho chúng em trong suốt quá trình học tập và làm đồ án tốt nghiệp. Thư viện trường đã cho chúng em mượn tài liệu tham khảo để làm đồ án.
+Khoa Công Nghệ Động Lực đã giúp đỡ chúng em hoàn thành đồ án tốt nghiệp đúng thời gian quy định.
+Đặc biệt sự hướng dẫn và giúp đỡ của Thầy Th.S Lý Văn Trung, Thầy đã chỉ bảo chúng em tận tình, giúp chúng em vượt qua những khó khăn vướng mắc trong khi hoàn thành đồ án của mình. Bên cạnh đó chúng em cảm ơn quý Thầy trong khoa Công Nghệ Động Lực đã cho chúng em những lời khuyên, động viên và tạo mọi điều kiện để chúng em hoàn thành tốt chương trình học và đồ án tốt nghiệp này.
+Mặc dù rất cố gắng nhưng do thời gian và trình độ có hạn, nên trong quá trình làm đồ án không thể tránh những thiếu sót. Rất mong nhận được sự góp ý, nhận xét, đánh giá về nội dung cũng như hình thức trình bày của quý Thầy và các bạn để chúng em hoàn thành tốt hơn các công việc của mình trong tương lai.
+Chúng em xin chân thành cảm ơn.
+Chương 1 : CƠ SỞ LÝ THUYẾT VỀ HỆ THỐNG PHÂN PHỐI KHÍ
+
+Nhiệm vụ, yêu cầu, phân loại
+1.1.1 Nhiệm vụ
+Hệ thống phân phối khí dùng để nạp đầy hỗn hợp hòa khí đối với động cơ xăng hay không khí sạch đối với động cơ diesel vào các xylanh ở kỳ nạp và thải sạch khí thải trong xylanh ở kỳ xả.
+1.1.2 Yêu cầu
+Đóng mở các xupap đúng lúc, đúng thì, đúng thứ tự hoạt động của động cơ, đóng kín các của nạp và cửa thải trong kỳ nén, cháy và giãn nở
+Đảm bảo việc nạp đầy nghĩa là hệ số nạp phải lớn và việc xả sạch nghĩa là hệ số khí sót phải nhỏ.
+Đảm bảo trị số “thời gian - tiết diện” thông qua phải lớn để dòng khí dễ lưu thông
+Làm việc êm dịu, độ tin cậy và tuổi thọ cao, thuận tiện trong việc chế tạo, bảo dưỡng, sửa chữa.
+1.1.3 Phân loại
+Hệ thống phân phối khí dùng cam và xupap được dùng phổ biến trên ĐCDT do kết cấu đơn giản và dễ dàng điều chỉnh. Loại này lại được phân ra nhiều loại:
+Kiểu xupap treo: dùng phổ biến trên các động cơ hiện đại Loại OHV (OverHead Valve): trục cam đạt dưới thân máy, xupap bố trí trên nắp máy và được điều khiển qua con đội, đũa đẩy và cò mổ Loại OHC (OverHead Camshaft): loại có một trục cam đặt trên nắp máy SOHC (Single OverHead Camshaft) và hai trục cam đặt trên nắp máy DOHC (Double OverHead Camshaft) điều khiển trực tiếp xupap hoặc thông qua cò mổ. Kiểu xupap đặt: ngày nay ít được sử dụng nên không đề cập trong đề tài
+Hệ thống phân phối khí dùng pittông đóng mở các cửa nạp và cửa thải thường được dùng trên động cơ 2 kỳ, có ưu điểm kết cấu đơn giản không phải điều chỉnh sửa chữa nhưng chất lượng trao đổi khí không tốt
+Hệ thống phân phối khí dùng van trượt trên xe đặc chủng và xe đua có tiết diện thông qua lớn, chất lượng trao đổi khí cao nhưng giá thành chế tạo mắc.
+Hệ thống điều khiển xupap bằng điện từ EVA (Electro-magnetic Valve Actuation Systems). ECU nhận tín hiệu từ các cảm biến điều khiển cuộn solenoid hay nam châm điện đóng mở trực tiếp xupap, hệ thống này không sử dụng trục cam và có thể thay đổi được thời điểm, thời gian và độ nâng xupap một cách tối ưu tùy thuộc vào các chế độ hoạt động của động cơ.
+Cấu tạo và nguyên tắc hoạt động của một số hệ thống phân phối khí phổ biến trên ĐCDT hiện nay
+1.2.1 Hệ thống phân phối khí xupap treo loại OHV
+Hình 1.1 Kết cấu xupap treo loại OHV
+1-Ống dẫn hướng. 2-Lò xo xupap. 3-Đĩa lò xo. 4-Móng hãm. 5-Xupap. 6-Cò mổ.
+7-Vít chỉnh xupap. 8-Đế xupap. 9-Đũa đẩy. 10-Con đội. 11- Cam
+Nguyên lý làm việc: trục cam 11 nằm trong thân máy và được dẫn động trực tiếp bằng bánh răng hoặc qua xích. Khi trục cam quay làm cho bề mặt làm việc của cam tác động vào con đội 10 đẩy đũa đẩy 9 đi lên làm cò mổ xoay quanh trục của nó. Đầu kia của cò mổ ấn đuôi xupap đi xuống, lúc này lò xo bị nén lại. Xupap đi xuống làm thông của nạp với xylanh động cơ nếu trong kỳ hút hoặc cửa thải với xylanh động cơ nếu trong kỳ xả. Khi cam 11 quay hết hành trình tác dụng thì lò xo 2 sẽ dãn ra đóng xupap lại kết thúc quá trình hút hoặc thải. Quá trình này diễn ra liên tục khi động cơ hoạt động, mỗi một chu kỳ xupap hút và xả chỉ mở một lần.
+Ưu điểm: có các ưu điểm của loại xupap treo như có thể tăng tí số nén động cơ do buồng đốt có kết cấu nhỏ lại, diện tích truyền nhiệt giảm nên giảm tổn thất nhiệt, tăng hệ số nạp và giảm hệ số khí sót do kết cấu đường nạp và thải thông thoáng hơn.
+Nhược điểm: thân máy và nắp máy có kết cấu phức tạp hơn, tăng chiều cao động cơ và cơ cấu dẫn động phức tạp.
+1.2.2 Hệ thống phân phối khí xupap treo loại OHC
+Hình 1.2 Kết cấu xupap treo loại OHC
+1-Xupap. 2-Ống dẫn hướng. 3-Lò xo xupap. 4-Đĩa lò xo. 5-Con đội. 6-Cam.
+7-Móng hãm. 8-Đế xupap
+Nguyên lý làm việc: trục cam 6 đặt trên nắp máy và được dẫn động bằng trục khuỷu thông qua dây đai hoặc xích. Nguyên lý làm việc được chia làm hai quá trình cơ bản sau: quá trình vấu cam đẩy mở xupap và quá trình lò xo giãn đóng kín xupap.
+Quá trình vấu cam đẩy mở xupap: khi động cơ làm việc trục khuỷu quay làm cho bánh xích dẫn động cơ cấu phân phối khí lắp ở đầu trục khuỷu quay theo, thông qua bộ truyền động xích hoặc đai trung gian dẫn động các bánh xích hoặc bánh đai lắp ở đầu các trục cam do đó làm cho các trục cam đóng mở xupap quay. Khi các vấu cam tiếp xúc với con đội 5 làm con đội bắt đầu chuyển động đi xuống tác động vào đĩa lò xo ép lò xo xupap 3 nén lại đồng thời xupap chuyển động đi xuống làm mở các cửa nạp nếu trong giai đoạn nạp khí vào xylanh động cơ và cửa thải nếu trong quá trình thải thực hiện quá trình nạp môi chất mới và thải khí cháy ra ngoài.
+Quá trình lò xo giãn đóng kín xupap: khi trục cam tiếp tục quay, vấu cam di chuyển theo cho đến khi đỉnh của vấu cam vượt qua đường tâm con đội. Lúc này con đội 5 bắt đầu di chuyển đi lên, lò xo xupap 3 từ từ giãn ra nhờ vào đĩa chặn lò xo 4 cùng với các móng hãm đẩy xupap tịnh tiến về vị trí ban đầu thực hiện quá trình đóng kín xupap. Chu trình đóng mở được lặp đi lặp lại như vậy tuân theo chu kì làm việc của pha phân phối khí.
+Ưu điểm: giống loại xupap treo OHV, trục cam nằm trên nắp máy thuận tiện trong việc bảo dưỡng, sửa chữa, lắp ghép.
+Nhược điểm: dẫn động trục cam phức tạp hơn, nắp máy khó đúc.
+1.2.3 Hệ thống phân phối khí không trục cam (Camless): Gồm có loại điện từ, điện–thủy lực và loại thủy lực. Dưới đây trình bày loại điện từ EVA (Electro-magnetic Valve Actuation Systems)
+Hình 1.3 Cấu tạo của hệ thống điều khiển xupap bằng điện từ EVA
+Trục cam là một cơ cấu phức tạp, làm tăng trọng lượng động cơ và tiêu hao nhiều công suất do mất mát ma sát. Do kết cấu vật lý nên một cam chỉ điều khiển chuyển động của một xupap với các thông số thời điểm và độ nâng hạn chế do đó sẽ không tối ưu cho tất cả các chế độ hoạt động của động cơ. Những tiến bộ trong công nghệ điều khiển thay đổi thời gian và độ nâng xupap VVT trong những năm gần đây đã cải thiện được hiệu suất và hiệu quả động cơ tuy nhiên các hệ thống này vẫn còn phức tạp và chưa tối ưu. Hệ thống phân phối khí không trục cam được phát minh đã mang lại bước đột phá mới trong động cơ đốt trong. Với công nghệ này động cơ không cần sử dụng bướm ga đã làm giảm sự cản trên đường ống nạp và tổn thất do bơm, việc điều khiển lượng hòa khí mới vào trong xylanh bằng việc thay đổi thời gian và hành trình xupap.
+Cấu tạo cơ cấu chấp hành gồm nam châm điện (electromagnet) được đặt phía trên đỉnh xupap, miếng sắt từ đóng vai rò phần ứng được kết nối với đuôi xupap, các lò xo hoàn lực, chén chặn và xupap.
+Khi nam châm điện phía trên được kích hoạt sẽ tạo ra một lực từ trường hút miếng sắt phần ứng lên trên cùng làm cho xupap ở vị trí đóng
+Khi từ tính do nam châm điện phía trên bị ngắt, miếng sắt phần ứng kết nối với đuôi xupap sẽ bị kéo xuống bởi lò xo. Bộ chấp hành nam châm điện phía dưới sẽ duy trì xupap ở vị trí mở.
+Hình 1.4 Cấu trúc hệ thống
+1-Tín hiệu từ các cảm biến. 2- ECU. 3- Bộ chấp hành điều khiển xupap hút
+4-Xupap hút. 5- Bộ chấp hành xupap xả. 6- Xupap xả
+Hệ thống sử dụng các nam châm điện 3 và 5 để đóng mở xupap 4 và 6. Tín hiệu nhập vào từ các cảm biến 1 thông qua mạch giao tiếp nhập/xuất như vị trí pittông, tốc độ động cơ, tố độ xe, nhiệt độ nước làm mát, áp suất khí nạp…ECU liên tục nhận tín hiệu từ các cảm biến sau đó tính toán thời gian và độ nâng xupap tối ưu để điều khiển bộ chấp hành nam châm điện. Sự chính xác của tín hiệu đầu vào là rất quan trọng để động cơ hoạt động hiệu quả.
+Ưu điểm: giảm 20% lượng tiêu thụ nhiên liệu, 20% các khí thải ô nhiễm và tăng 20% mômen xoắn ở tốc độ thấp, giảm ma sát do dễ bôi trơn và kết cấu đơn giản không còn các bộ phận truyền động, nắp máy được đơn giản hóa.
+Nhược điểm: tuy có rất nhiều ưu điểm nhưng động cơ với xupap điều khiển điện tử vẫn có những khiếm khuyết như khả năng xảy ra trục trặc lớn do lệ thuộc nhiều vào các thiết bị điện tử. Nếu máy tính điện tử gặp sự cố hoặc hệ thống điện có trục trặc, rất có thể động cơ sẽ cho ra lượng khí thải độc hại lớn hoặc tệ hơn nếu xupap đóng mở không đúng thời điểm sẽ phá vỡ đỉnh pittông, hư hỏng động cơ.
+Ảnh hưởng của việc thay đổi pha phân phối khí tới hiệu quả động cơ (Công nghệ thay đổi thời điểm phối khí VVT-Variable Valve Timing)
+Trước khi đi sâu nghiên cứu về sự thay đổi pha phân phối khí trên các hệ thống phân phối khí thông minh tới hiệu quả động cơ ta đi tìm hiểu ảnh hưởng của pha phân phối khí tới quá trình thải và nạp của động cơ bốn kỳ cổ điển.
+Theo lý thuyết đơn giản với 7200 góc quay trục khuỷu thì mỗi kỳ tương ứng với 1800 và xupap xả bắt đầu mở khi pittông ở điểm chết dưới đầu kỳ xả và đóng lại khi pittông tới điểm chết trên và lúc này xupap hút mở và khi pittông tới điểm chết dưới trong kỳ nạp thì đóng lại. Tuy nhiên trên các động cơ đốt trong thực tế thì có sự thay đổi thời điểm mở và khoảng thời gian mở các xupap sao cho động cơ hoạt động với hiệu quả cao nhất đồng thời khí thải phát ra ít gây ô nhiễm môi trường.
+Hình 1.5 Pha phân phối khí động cơ bốn kỳ không tăng áp
+- góc mở sớm xupap nạp. - góc đóng trễ xupap nạp
+- góc mở sớm xupap xả. - góc đóng trễ xupap xả
+- góc đánh lửa hoặc phun dầu sớm
+1.3.1 Ảnh hưởng của việc thay đổi thời điểm mở xupap xả (Effects of Changes to Exhaust Valve Opening Timing – EVO)
+Xupap thải bắt đầu mở sẽ làm cho áp suất cao trong xylanh trong quá trình đốt cháy được thoát ra ngoài qua hệ thống xả.
+Xupap thải mở sớm trước khi pittông tới điểm chết dưới (điểm b’ trên hình) sẽ tạo điều kiện thuận lợi cho quá trình thải bằng cách cho sản vật cháy tự thoát ra ngoài nhờ chênh áp giữa xylanh và đường thải. Với mục đích giảm tải trọng động cho xupap cần phải cho xupap mở và đóng đường thông một cách từ từ. Chính vì vậy việc mở sớm xupap thải nhằm tạo ra giá trị “thời gian-tiết diện” đủ để áp suất trong xylanh giảm tới mức yêu cầu khi pittông đi ngược từ điểm chết dưới lên điểm chết trên. Khi đã mở sớm xupap thải vào thời điểm hợp lý sẽ làm giảm công tiêu hao cho việc đẩy khí thải ra ngoài.
+Nhưng nếu mở xupap thải quá sớm sẽ làm giảm công giãn nở trên đồ thị công qua đó làm giảm công suất động cơ.
+Hai yêu cầu trên mâu thuẫn với nhau. Trên các động cơ đốt trong cổ điển thì pha phân phối khí được chọn cố định nên phải cân đối lợi ích giữa hai yếu tố trên. Còn trên các động cơ có trang bị hệ thống phân phối khí thông minh thì hệ thống sẽ thay đổi thời điểm mở xupap thải sao cho động cơ đạt được hiệu suất cao nhất ở mọi tốc độ và tải động cợ
+Trong chế độ tải nhỏ hay một phần tải động cơ sẽ đạt hiệu suất cao hơn nếu như thời điểm mở xupap thải càng gần ĐCD hơn càng tốt vì ở chế độ này áp lực khí cháy trong xylanh nhỏ hơn nên cũng cần ít thời gian hơn để đẩy khí cháy ra ngoài. Ngược lại khi động cơ ở chế độ toàn tải thì cần mở xupap thải sớm tức trước khi pittông tới ĐCD vì cần có đủ thời gian để đẩy sạch khí cháy ra ngoài, tuy mất một ít công trên đồ thị p-v nhưng bù vào đó quá trình nạp trong chu kỳ kế tiếp có lợi ích lớn hơn nên nhìn chung động cơ sẽ đạt được hiệu quả cao hơn.
+Hình 1.6 Ảnh hưởng của việc thay đổi thời điểm mở xupap xả
+1.3.2 Ảnh hưởng của việc thay đổi thời điểm đóng xupap xả (Effects of Changes to Exhaust Valve Closing Timing – EVC)
+Xupap thải bao giờ cũng đóng trễ sau khi pittông đã đi qua điểm chết trên nhằm đảm bảo cho sản vật cháy được thoát hết ra ngoài, mặt khác lợi dụng chênh áp để sản vật cháy được thải tiếp giảm lượng khí sót còn lại trong xylanh. Ngoài ra việc đóng muộn xupap thải còn nhằm sử dụng quán tính trên đường thải sinh ra giảm áp có tính chu kỳ thấp hơn giá trị trung bình của pth tạo điều kiện để thải sạch hơn.
+Thời điểm đóng xupap thải có ảnh hưởng rất quan trọng đến việc khí thải còn lại trong xylanh trong kỳ hút tiếp theo. Thời điểm đóng xupap thải là một thông số quan trọng trong việc điều khiển lưu hồi khí thải và góc trùng điệp của hai xupap.
+Khi ở chế độ đầy tải mong muốn cho lượng khí thải còn lại trong xylanh là ít nhất để tối đa lượng hòa khí mới nạp vào trong xylanh trong kỳ hút kế tiếp. Điều này đòi hỏi thời điểm đóng xupap thải phải càng gần ngay ĐCT. Ngoài ra trong động cơ có hệ thống xả tích cực nghĩa là sử dụng sóng áp suất của dòng khí xả xylanh khác thì thời điểm đóng xupap xả cũng ảnh hưởng tới sóng áp suất làm ảnh hưởng tới việc đẩy hay hút khí xả ra ngoài hoặc trở lại xylanh. Sóng áp suất thay đổi theo tốc độ động cơ do đó nếu cố định thời điểm đóng xupap xả ở một tốc độ nào đó sẽ gây ảnh hưởng tới các chế độ hoạt động khác của động cơ.
+Khi động cơ hoạt động ở chế độ một phần tải thì thời điểm đóng muộn xupap thải có thể mang lại lợi ích lớn từ việc giữ lại một phần khí thải để hạn chế hòa khí mới nạp vào. Khí thải được giữ lại do đó làm giảm sự hoạt động cần thiết của bớm ga để điều khiển lượng hòa khí vào buồng đốt và kết quả làm giảm tổn thất bơm trong kỳ hút tiếp theo. Di chuyển thời điểm đóng trễ xupap thải sẽ làm tăng tuần hoàn khí thải tương ứng giảm phát thải khí thải làm động cơ thân thiện với môi trường.
+Giới hạn bao nhiêu khí thải còn lại trong xylanh là cần thiết để đặc tính sự cháy vẫn ổn định và không ảnh hưởng tới công suất động cơ. Tuần hoàn khí thải làm giảm dụng tích xylanh của buồng đốt do lượng khí trơ chiếm chỗ do đó sẽ làm giảm công suất và gây ra đặc tính cháy xấu. Vì vậy ở chế độ cầm chừng và tốc độ thấp không nên sử dụng việc lưu hồi để ổn định tốc độ cầm chừng, khi ở tốc độ cao cũng vậy để công suất và mômen động cơ phát ra đạt tối đa.Hình 1.7 Ảnh hưởng của việc thay đổi thời điểm đóng xupap xả
+1.3.3 Ảnh hưởng của việc thay đổi thời điểm mở xupap nạp (Effect of changes to Intake Valve Opening Timing – IVO)
+Việc mở xupap nạp cho phép hòa khí vào xylanh từ ống góp hút (trong động cơ diesel hay động cơ phun xăng trực tiếp thì chỉ có không khí). Thời gian bắt đầu mở xupap nạp cần chọn sao cho khi áp suất trong xylanh (do giãn nở của khí sót) hạ thấp hơn áp suất môi chất trên đường nạp thì tiết diện lưu thông của xupap nạp đã đủ lớn để môi chất mới đi vào. Do đó thường mở sớm xupap nạp trước ĐCT (BTDC). Thời điểm mở xupap nạp là thông số thứ hai xác định góc trùng điệp của xupap nạp và xupap xả (cả hai xupap đều mở) () đó đó thời điểm đóng xupap xả và mở xupap nạp thay đổi sẽ làm thay đổi thời điểm phối khí, thay đổi lượng luân hồi khí thải.
+Hình 1.8 Ảnh hưởng của việc thay đổi thời điểm mở xupap nạp
+1.3.4 Ảnh hưởng của việc thay đổi thời điểm đóng xupap nạp (Effect of changes to Intake Valve Closing Timing – IVC)
+Hiệu quả thể tích hòa khí nạp vào phụ thuộc vào thời điểm đóng xupap nạp theo từng tốc độ và tải động cơ. Thời điểm đóng xupap nạp quyết định bao nhiêu hòa khí sẽ được nạp vào xylanh do đó ảnh hưởng tới tính kinh tế và hiệu quả động cơ.
+Để đạt được mômen xoắn tối đa xupap nạp đóng muộn sau khi pittông đã vượt qua điểm chết dưới nhằm nạp thêm môi chất mới vì ở điểm chết dưới tiết diện lưu thông qua xupap còn lớn, áp suất trong xylanh pa còn thấp hơn áp suất trên đường ống nạp pk quán tính của môi chất mới từ đường nạp vào xylanh vẫn còn. Do đó có thể kéo dài quá trình nạp thêm một giai đoạn sau điểm chết dưới cho tới khi áp suất trong xylanh trở nên lớn hơn pk. Mặt khác còn lợi dụng quán tính của dòng khí nạp tốc độ cao để nạp thêm môi chất giúp tối đa lượng hòa khí nạp vào để công suất và mômen động cơ phát ra tối đa.
+Việc đóng sớm xupap nạp sẽ làm giảm hòa khí nạp vào xylanh giúp tiết kiệm nhiên liệu ở chế độ tải nhỏ. Việc đóng sớm xupap nạp ở chế độ tải nhỏ còn giúp hạn chế hòa khí quay trở lại ống góp hút và hạn chế tổn thất bơm.
+Hình 1.9 Ảnh hưởng của việc thay đổi thời điểm đóng xupap nạp
+Thời gian mở sớm và đóng muộn của các xupap theo góc quay trục khuỷu tính bằng độ tạo thành pha phân phối khí của động cơ. Động cơ vận tải hoạt động ở các tốc độ khác nhau mà mỗi tốc độ lại tương ứng với một pha phân phối khí tối ưu đảm bảo cho hệ số nạp đạt cực đại. Nhưng trên thực tế các động cơ cổ điển không thể thay đổi được điều này. Pha phân phối khí trong mỗi động cơ được quyết đinh sau khi thử nghiệm và lấy ở tốc độ xe hay hoạt động.
+
+Loại động cơ Tốc độ động cơ Xupap nạp Xupap xả Góc trùng điệp Mở trước ĐCT Đóng sau ĐCD Mở trước ĐCD Đóng sau ĐCT Động cơ xăng ô tô Zill 130 3200 310 830 670 470 780 Peugeot 5400 00 30030’ 350 4030’ 4030’ Renault 4500 60 300 450 70 130 Động cơ diesel không tăng áp D6 1500 200 480 480 200 400 Man 2000 20 250 400 80 100 Henshel 2200 170 420 420 170 340
+Pha phân phối khí ở một số động cơ cổ điển
+Trên các động cơ hiện đại có trang bị hệ thống phân phối khí thông minh thì pha phân phối khí có thể điều chỉnh trong phạm vi nhất định sao cho động cơ hoạt động hiệu quả ở mọi chế độ.
+
+Hình 1.10 Đồ thị mômen động cơ
+Ở chế độ cầm chừng (phạm vi số 1 trên biểu đồ) công sinh ra chỉ cần để thắng các lực ma sát nên tốc độ động cơ thấp và khi có sự tăng tải bất ngờ thì động cơ dễ bị chết máy. Chế độ này yêu cầu tỉ lệ hòa khí nạp vào xylanh động cơ đậm hơn và việc thải sạch khí thải để hệ số khí sót thấp dẫn tới môi chất công tác được tốt hơn. Lúc này cần pha phân phối khí trễ hơn tức điều chỉnh góc trùng điệp () nhỏ lại để khí cháy được thải sạch ra ngoài, giảm khí xả chạy ngược lại phía nạp. Điều này làm ổn định chế độ không tải.
+Hình 1.11 Chế độ cầm chừng
+Khi ở chế độ tải nhẹ (phạm vi số 2 trên biểu đồ) nghĩa là áp suất trên ống góp hút rất thấp nên có xu hướng hút khí xả trên ống góp xả lại nên thời điểm phối khí của trục cam nạp cũng cần được làm trễ lại và độ trùng điệp xupap () giảm đi. Điều này làm ổn định tốc độ động cơ.Hình 1.12 Khi ở chế độ tải nhẹ
+Chế độ tải trung bình (phạm vi số 3 trên biểu đồ) pha phân phối khí của động cơ được điều chỉnh sớm và độ trùng lặp xupap tăng lên để tăng tuần hoàn khí thải (EGR). Điều này cải thiện ô nhiễm khí xả và tính tiết kiệm nhiên liệu, hiệu suất làm việc của động cơ tăng lên.Hình 1.13 Chế độ tải trung bình
+Trong phạm vi tốc độ thấp tới trung bình với tải nặng (phạm vi số 4 trên biểu đồ) do lúc này tốc độ động cơ thấp và tải nặng nên áp suất trên đường ống nạp lớn hơn xupap nạp cần được đóng sớm lại để hòa khí nạp vào đảm bảo vừa đủ cải thiện hiệu suất thể tích nạp. Điều này làm cải thiện mômen xoắn ở tốc độ thấp tới trung bình.
+Hình 1.14 Tốc độ thấp tới trung bình với tải nặng
+Trong phạm vi tốc độ cao với tải cao (phạm vi số 5 trên biểu đồ) thì cần làm chậm thời điểm đóng xupap nạp để lợi dụng quán tính của dòng khí nạp tốc độ cao làm cải thiện hiệu suất thể tích nạp. Điều này cải thiện công suất đầu ra.
+Hình 1.15 Tốc độ cao với tải cao
+Khi nhiệt độ động cơ thấp giảm góc trùng điệp xupap để ngăn chặn sự cháy xấu và ổn định tốc độ không tải nhanh.
+Hình 1.16 Khi nhiệt độ động cơ thấp
+Khi khởi động hoặc khi động cơ ngừng góc trùng điệp ở vị trí nhỏ nhất để cải thiện tính khởi động và cho lần khởi động tiếp theo.
+Hình 1.17 Khi khởi động hoặc khi động cơ ngừng
+Ảnh hưởng của việc thay đổi độ nâng xupap tới hiệu quả động cơ (Công nghệ thay đổi độ nâng xupap VVA-Variable Valve Actuation)
+Thay đổi độ nâng xupap ảnh hưởng tới tiết diện lưu thông của dòng khí nạp qua họng xupap. Ngoài ra nó còn làm thay đổi trị số “thời gian – tiết diện” A của đường thông đi qua xupap nạp cũng như xupap xả nhờ đó làm giảm tốc độ dòng chảy và giảm cản của các xupap, kết quả làm hệ số nạp tăng.
+Trong đó :
+n : ( vòng/phút ) tốc độ động cơ
+f : ( m2 ) tiết diện lưu thông qua xupap
+( độ ) vi lượng góc quay trục khuỷu
+Biểu thức trên cho ta thấy khi tốc độ động cơ càng cao thì trị số “thời gian-tiết diện” càng giảm. Giả sử khi động cơ hoạt động ở tốc độ 6000 vòng/phút thì các xupap sẽ phải mở và đóng 3000 lần mỗi phút tức 50 lần mỗi giây. Tốc độ nhanh như vậy sẽ làm cho trị số “thời gian–tiết diện” giảm đi. Nhưng yêu cầu khi tốc độ động cơ cao thì tiết diện lưu thông của xupap phải lớn để hòa khí nạp vào xylanh được nhiều hơn để động cơ phát ra công suất và mômen lớn. Điều này chỉ có thể đạt được khi thời điểm phối khí phù hợp và nhất là độ nâng xupap phải thay đổi để phù hợp với các chế độ hoạt động của động cơ. Mà độ nâng xupap lại phụ thuộc vào dạng hình học của các vấu cam trên trục cam. Do đó yêu cầu động cơ phải thay đổi được biên dạng cam theo từng tốc độ khác nhau.
+Hình 1.18 là trị số “thời gian-tiết diện” khi động cơ hoạt động ở 7500 vòng/phút (hai đường gần trục tung) và khi động cơ hoạt động ở 1000 vòng/phút (hai đường cong phía ngoài). Độ nâng xupap là 10 mm, góc trùng điệp là 520. Ta thấy ở tốc độ 7500 vòng/phút thì trị số “thời gian-tiết diện” giảm đi rõ rệt. Ở tốc độ 1000 vòng/phút và với góc trùng điệp lớn 520 thì phần trị số “thời gian-tiết diện” của góc trùng điệp cũng lớn gây ảnh hưởng xấu tới quá trình nạp. Để giảm thiểu điều này các động cơ trang bị hệ thống phối khí thông minh sẽ điều chỉnh để khi tốc độ thấp, tải nhẹ thì góc trùng điệp nhỏ. Hình 1.19 điều chỉnh góc trùng điệp 180.
+
+Hình 1.18 Trị số “thời gian- tiết diện” với góc trùng điệp 520
+Hình 1.19 Trị số “thời gian- tiết diện” với góc trùng điệp 180
+Hệ thống VVT giải quyết vấn đề về góc trùng điệp tại điểm chết trên do đó nó cũng làm thay đổi thời điểm của các xupap tại điểm chết dưới. Khi ở tốc độ thấp VVT điều chỉnh góc trùng điệp nhỏ tức mở muộn xupap hút và đóng sớm xupap xả do đó tại điểm chết dưới nó sẽ giữ mở xupap nạp nhiều hơn cần thiết và mở xupap xả sớm hơn cần thiết.
+Hình 1.20 Trị số “thời gian- tiết diện” với độ nâng xupap 1,3 mm ở 1000 vòng/phút
+và 10mm ở 7500 vòng/phút
+Hình 1.21 Trị số “thời gian- tiết diện” với độ nâng xupap
+10 mm và 0,3 mm ở tốc độ 1000v/p
+Hình 1.20 so sánh trị số “thời gian-tiết diện” ở hai chế độ tại số vòng quay 1000 vòng/phút, độ nâng xupap 1,3 mm và tại số vòng quay 7500 vòng/phút, độ nâng xupap 10 mm. Khi tốc độ và tải động cơ thay đổi thì ngoài việc thay đổi thời điểm phối khí thì cần phải điều khiển độ nâng xupap hợp lý sao cho hòa khí nạp vào xylanh đủ để phù hợp với các điều kiện hoạt động.
+Hình 1.21 so sánh trị số “thời gian-tiết diện” ở tốc độ 1000 vòng/phút với độ nâng xupap là 0,3 mm và 10 mm. Tại cùng số vòng quay và cùng góc trùng điệp nhưng độ nâng xupap thay đổi thì ngoài việc trị số “thời gian-tiết diện” chính thay đổi thì phần trị số “thời gian- tiết diện” của góc trùng điệp cũng giảm. Do đó việc thay đổi độ nâng xupap tại tốc độ thấp cũng góp phần như việc điều chình thời điểm phân phối khí để giảm việc khí xả quay trở lại đường nạp góp phần ổn định tốc độ động cơ.
+Hình 1.22 Trị số “thời gian- tiết diện” khi thay đổi tốc độ động cơ
+và độ nâng xupap
+Hình 1.22 biểu diễn chế độ toàn tải khi độ nâng xupap thay đổi từ 0,6 mm ở 500 vòng/phút và tăng dần tại 900, 1800, 3700 vòng/phút và đạt 10 mm tại 7500 vòng/phút. Nếu độ nâng xupap không thay đổi thì ta có đồ thị như hình 1.23 bên dưới
+Hình 1.23 Trị số “thời gian- tiết diện” khi thay đổi tốc độ động cơ
+và độ nâng xupap cố định 10 mm
+Hình 1.24 Trị số “thời gian- tiết diện” khi tốc độ động cơ 4000 vòng/phút
+và độ nâng xupap thay đổi từ 5/5, 4/5, 3/5, 2/5, 1/5 tải
+Hình 1.25 Trị số “thời gian- tiết diện” khi tốc độ động cơ 1500 vòng/phút
+và độ nâng xupap thay đổi từ 5/5, 4/5, 3/5, 2/5, 1/5 tải
+
+Ngoài ra khi độ nâng xupap còn tương đối nhỏ do độ nhớt của môi chất làm cho dòng chảy men sát các mặt côn của tán và đế xupap điền đầy khe hở đi vào xylanh (hình a) Khi tăng dần độ nâng xupap mới đầu dòng chảy tách khỏi mặt côn của tán tạo nên dòng phun một phía (hình b) tiếp theo dòng chảy tách rời mặt côn của đế xupap tạo tia phun tự do (hình c) lúc đó thấy rõ toàn bộ khe hở của tiết diện lưu thông qua xupap không được lợi dụng hết. Đến khi xupap mở lớn hơn dòng chảy sẽ chịu sự can thiệp của thành xylanh (hình d). Dựa vào các kết quả trên người ta tìm ra các phương án nhằm tận dụng hết tiết diện lưu thông qua xupap và giảm cản cho khu vự này.
+Dòng chảy qua xupap
+Khi thay đổi độ nâng của xupap tức ta thay đổi được h và h’ làm cho tiết diện lưu thông qua xupap f được lớn hơn.
+
+Tiết diện lưu thông qua xupap
+Khi thì
+Và hành trình xupap
+Trong trường hợp thì hành trình xupap thường phải lớn hơn mới có thể đạt được tiết diện lưu thông bằng tiết diện họng đế xupap.
+Nguyên lý điều chỉnh trên các hệ thống phân phối khí thông minh
+Do động cơ trên ô tô hoạt động luôn thay đổi tốc độ mà mỗi tốc độ lại tương ứng với các thông số thời điểm, độ nâng và thời gian mở của các xupap rất khác nhau. Đối với động cơ cổ điển thì pha phân phối khí thực tế được chọn tối ưu ở một số vòng quay nào đó phụ thuộc vào điều kiên sử dụng động cơ và độ nâng của xupap là không thay đổi được. Nếu đặt điều kiện hoạt động tối ưu của các xupap ở tốc độ thấp thì quá trình đốt nhiên liệu lại không hiệu quả khi động cơ hoạt động ở tốc độ cao, khiến công suất chung của động cơ bị giới hạn. Ngược lại, nếu đặt điều kiện tối ưu ở tốc độ cao thì động cơ lại hoạt động không tốt ở tốc độ thấp. Từ những hạn chế đó nên hệ thống phân phối khí hiện đại ra đời với ý tưởng là tìm cách tác động để thời điểm mở xupap, độ mở, khoảng thời gian mở và độ nâng xupap biến thiên theo từng tốc độ động cơ khác nhau sao cho chúng mở đúng lúc, khoảng mở và thời gian mở đủ để nạp đầy hòa khí vào buồng đốt và xả sạch khí cháy ra ngoài. Dựa vào nguyên tắc đó nhưng mỗi hãng có những cơ cấu thay đổi pha phân phối khí và độ nâng xupap mang tên công nghệ khác nhau và cải tiến qua từng giai đoạn.
+TOYOTA phát minh ra hệ thống VVT-i có thể thay đổi được pha phân phối khí liên tục tùy thuộc vào tốc độ động cơ khác nhau do ECU động cơ điều khiển, hệ thống sẽ làm trễ, sớm hay giữ nguyên thời điểm phối khí so với thời điểm chuẩn tùy thuộc vào các thông số và chế độ hoạt động của động cơ. Nhưng hệ thống VVT-i chưa thay đổi được độ nâng của xupap. Khi mà động cơ cần momem xoắn và công suất cao thì yêu cầu cần được nạp đầy đủ hòa khí (đối với động cơ xăng) và không khí (đối với động cơ diesel), ngoài việc thay đổi pha phân phối khí thì yêu cầu độ nâng xupap với hành trình dài hơn để trị số “thời gian–tiết diện” lớn để dòng khí lưu thông dễ dàng và nạp được nhiều hơn. VVTL-i ra đời đã đáp ứng được các yêu cầu đặt ra. Bằng việc sử dụng hai loại vấu cam tốc độ thấp và trung bình và vấu cam tốc độ cao trên cùng một trục cam sẽ điều khiển được hành trình xupap theo tốc độ và tải trọng động cơ.
+Hãng HONDA ban đầu phát triển công nghệ VTEC thay đổi thời gian và độ nâng xupap cũng bằng việc sử dụng hai loại vấu cam có biên dạng khác nhau trên một trục cam, khi chuyển đổi giữa các vấu cam thì độ nâng xupap thay đổi rõ rệt nhưng pha phân phối khí thì thay đổi không đáng kể và không biến thiên liên tục do đó mang lai hiệu quả chưa cao. Phải đến khi hệ thống i-VTEC được phát minh có thêm cơ cấu thay đổi thời gian phân phối khí VTC biến thiên liên tục theo các chế độ hoạt động của động cơ thì sự tiết kiệm nhiên liệu và giảm độc hại khí thải được nâng cao. Vì vậy công nghệ VVTL-i và i-VTEC đang mang những đặc trưng khá giống nhau.
+Mitsubishi phát minh ra hệ thống MIVEC có nguyên lý hoạt động gần giống với i-VTEC. Cam tốc độ thấp hoạt động khi tốc độ thấp và cam tốc độ cao hoạt động khi tốc độ động cơ cao, cùng với cơ cấu thay đổi thời điểm phối khí làm cho động cơ trang bị hệ thống MIVEC đạt được hiệu suất cao.
+BMW có hệ thống VANOS thay đổi thời điểm phân phối khí và hệ thống VALVETRONIC thay đổi thời điểm và độ nâng của xupap. VALVETRONIC là một cải tiến quan trọng giúp động cơ hoạt động hiệu quả, nó có thể thay đổi độ nâng xupap một cách tuyến tính tử 0 – 9,7 mm. Động cơ có thể không cần sử dụng bướm ga do đó giảm sức cản trên đường nạp và tổn thất do bơm giúp tăng công suất, việc điều chỉnh lượng hòa khí vào trong xylanh là do độ nâng của xupap. Khi tốc độ thấp xupap mở với hành trình nhỏ để lượng hòa khí vào trong xylanh ít, khi yêu cầu tốc độ động cơ cao thì xupap mở với hành trình lớn để nạp lượng hòa khí nhiều hơn. Các động cơ BMW hiện đại trang bị cả Double VANOS và VALVETRONIC.
+Cơ cấu nạp nhiên liệu chủ động VVA (Variable Valve Actuation) của Fiat rất giống với hệ thống Valvetronic của BMW. VVA điều phối hoạt động của các xupap nạp và giúp động cơ vận hành không cần sử dụng bướm ga. Nghiên cứu của Fiat khác hệ thống Valvetronic của BMW ở chỗ độ nâng xupap được thay đổi bằng thủy lực chứ không phải bằng điện.
+Alfa Romeo - CVVT (Double Continuous Variable Valve Timing) hệ thống biến thiên liên tục thời điểm mở xupap sử dụng trên cả trục cam nạp và cam xả.
+Chrysler - Dual VVT (Dual Variable Valve Timing).
+Daihatsu - DVVT (Dynamic Variable Valve Timing).
+Ford -VVT (Variable Valve Timing.)
+General Motors - VVT (Variable Valve Timing) và DCVCP (Double Continuous Variable Cam Phasing)
+Kia - CVVT (Continuous Variable Valve Timing)
+Hyundai – CVVT (Continuous Variable Valve Timing)
+Mazda - S-VT
+MG Rover - VVC (Variable Valve Control)
+Nissan - CVTCS (Continuous Variable Valve Timing Control System). N-VCT (Varies the rotation of the cam(s) only, does not alter lift or duration of the valves). VVL (Varies timing, duration, and lift of the intake and exhaust valves) sử dụng hai vấu cam khác nhau.
+Porsche - VarioCam Plus
+Volvo - CVVT (Continuous Variable Valve Timing)
+Wolkswagen Group - tương tự VarioCam
+Chương 2: HỆ THỐNG PHÂN PHỐI KHÍ THÔNG MINH TRÊN XE TOYOTA
+
+2.1 Giới thiệu
+Hệ thống VVT (Variable Valve Timing) đã được sử dụng rộng khắp và được nhiều công ty sản xuất ô tô áp dụng cách đây cũng hơn 40 năm. Hệ thống VVT đơn giản đã được sử dụng và đem lại kết quả khả quan. Hệ thống gồm hai bộ phận chính là: solenoid điều khiển dầu và cơ cấu VVT
+Trên hình đã thể hiện một vài bộ phận rời, nhưng có thể thấy rõ được hai bộ phận chính: cơ cấu ròng rọc VVT và OCV ( Oil Control Valve, hoặc oil solenoid)
+Hình 2.1. Cơ cấu VVT cổ điển.
+Hệ thống VVT ban đầu hoạt động một cách tương đối đơn giản: tại số vòng quay cố định (4400 vòng/phút trên động cơ 20 xupap 4AGE) tín hiệu từ máy tính sẽ làm cho OCV mở, nó sẽ làm cho áp suất dầu đi qua một đường đặc biệt trong cam nạp, đi xuyên qua trung tâm của cam nạp tới pully VVT. Trong đó có một pittông nhỏ, áp suất dầu này sẽ đẩy pittông ra phía sau, làm cho phần phía ngoài của pully điều chỉnh đúng với phần bên trong, vì then hình trôn ốc nên điều khiển hướng đi của pittông. Như vậy, khi tín hiệu từ máy tính làm VVT hoạt động, OCV mở, đó là nguyên nhân làm pully VVT hoạt động sớm hơn 300 góc quay trục khuỷu (sớm hơn 150 so với bản thân pully).
+Hệ thống VVT-i là một kỹ thuật thay đổi thời điểm phối khí được phát triển bởi TOYOTA. Hệ thống VVT-i đã thay thế hệ thống VVT đơn giản vào năm 1991 trên động cơ 4A-GE 20 xupap. Hệ thống VVT-i được giới thiệu vào năm 1996, thay đổi thời điểm của xupap nạp bằng cách điều chỉnh mối quan hệ giữa trục cam điều khiển (dây đai, vị trí bánh răng hoặc dây xích).
+Hệ thống VVT-i thiết kế cùng hệ thống phun xăng của hãng Toyota hoạt động theo nguyên lý điện - thủy lực. Cơ cấu này tối ưu hóa góc phối khí của trục cam nạp dựa trên chế độ làm việc của động cơ phối hợp với các thông số điều khiển chủ động.
+Áp suất dầu của động cơ sẽ đẩy tới bộ truyền động cho đúng với vị trí trục cam. Năm 1998 Dual VVT-i (Điều chỉnh cả xupap xả và xupap nạp) được giới thiệu trên động cơ RS2000 Altezza’s 3S- GE. Dual VVT-i còn được sử dụng trên động cơ V6 mới 3.5L2GR-FE V6. Động cơ này được sử dụng trên các loại xe như Avalon, RAV4 và Camry ở Mỹ, Aurion ở Australia và một vài model ở Nhật, có cả xe Estima..
+Hình 2.2. Cơ cấu VVT-i của hãng Toyota.
+Thông thường, thời điểm phối khí của động cơ đều được cố định, nhưng hệ thống VVT-i đã sử dụng áp suất thủy lực để xoay trục cam nạp và làm cơ cấu này tối ưu hoá góc phối khí của trục cam nạp dựa trên chế độ làm việc của động cơ phối hợp với các thông số điều khiển chủ động. Hiệu suất làm việc của động cơ phụ thuộc rất nhiều vào hoạt động cung cấp nhiên liệu. Hệ thống điện tử điều khiển xupap nạp biến thiên VVT-i được thiết kế với mục đích nâng cao mômen xoắn của động cơ, cắt giảm tiêu thụ nhiên liệu và khí thải độc hại.
+Các bộ phận của hệ thống gồm: bộ xử lý trung tâm ECU 32 bit, bơm và đường dẫn dầu, bộ điều khiển phối khí (VVT) với các xupap, cảm biến VVT, vị trí bướm ga, lưu lượng khí nạp, vị trí truc khuỷu, nhiệt độ nước. Ngoài ra, VVT-i thường được thiết kế đồng bộ với cơ cấu bướm ga điện tử ETCS-i, đầu phun nhiên liệu 12 lỗ (loại bỏ sự hỗ trợ bằng khí ) và bộ chia điện bằng điện tử cùng các bugi đầu iridium.
+Hình 2.3 Các cảm biến gửi về ECU điều khiển VVT-i
+Trong quá trình hoạt động, các cảm biến vị trí trục khuỷu, vị trí bướm ga và lưu lượng khí nạp cung cấp các dữ liệu chính đưa về ECU để tính toán thông số phối khí theo yêu cầu chủ động. Các cảm biến nhiệt độ nước làm mát động cơ cung cấp dữ liệu hiệu chỉnh, còn các cảm biến vị trí VVT và vị trí trục khuỷu thì cung cấp các thông tin về tình trạng phối khí thực tế. Trên cơ sở các yếu tố chủ động, hiệu chỉnh và thực tế, ECU sẽ tổng hợp được lệnh phối khí tối ưu cho buồng đốt. Lệnh này được tính toán trong vài phần nghìn giây và quyết định góc đóng mở của các xupap.
+Áp lực dầu sẽ tác động thay đổi vị trí bộ điều khiển phối khí, mở các xupap vào thời điểm thích hợp. Như vậy, thay cho hệ thống cam kiểu cũ với thời điểm mở xupap không đổi, VVT-i đã điều chỉnh vô cấp hoạt động của các góc phối phí xupap.
+Thời điểm mở biến thiên theo sự phối hợp của các thông số về lưu lượng khí nạp, vị trí bướm ga, tốc độ và nhiệt độ động cơ.
+Ngoài ra, còn một cảm biến đo nồng độ oxy đặt ở ống góp xả cho biết tỷ lệ % nhiên liệu được đốt cháy. Thông tin từ đây được gửi về ECU và cũng được phối hợp xử lý khi hiệu chỉnh chế độ nạp tối ưu nhằm tiết kiệm xăng và bảo vệ môi trường.
+2.2. Công nghệ VVT-i (Variable Valve Timing with intelligence)
+2.2.1 Cấu tạo của cơ cấu VVT-i
+Bộ chấp hành của hệ thống VVT-i bao gồm bộ điều khiển VVT-i dùng để xoay trục cam nạp, áp suất dầu dùng làm lực xoay cho bộ điều khiển VVT-i, và van điều khiển để điều khiển đường đi của dầu.
+Hình 2.4 Cấu tạo của bộ điều khiển VVT-i.
+Bộ điều khiển bao gồm một vỏ được dẫn động bởi xích cam và các cánh gạt được cố định trên trục cam nạp. Áp suất dầu đi từ phía làm sớm hay làm muộn trục cam nạp sẽ xoay các cánh gạt của bộ điều khiển VVT-i để thay đổi liên tục thời điểm phối khí của trục cam nạp.
+Khi động cơ ngừng, trục cam nạp chuyển động đến trạng thái muộn nhất để duy trì khả năng khởi động. Khi áp suất dầu không truyền đến bộ điều khiển VVT-i ngay lập tức, sau khi động cơ khởi động, chốt hãm sẽ hãm các cơ cấu hoạt động của bộ điều khiển VVT-i để tránh tiếng gõ.
+
+Hình 2.5 Cấu tạo van điều khiển dầu phối khí trục cam
+Nguyên lý hoạt động của van điều phối :
+Van điều phối trục cam hoạt động theo sự điều khiển (tỷ lệ hiệu dụng, điều xung PWM) từ ECU động cơ để điều khiển vị trí của van ống và phân phối áp suất dầu cấp đến bộ điều khiển VVT-i để làm sớm hay làm muộn góc mở xupap nạp. Khi động cơ ngừng hoạt động, thời điểm phối khí xupap nạp được giữ ở góc muộn tối đa. Van điều phối kiểm soát điều khiển áp suất dầu đến bộ điều khiển VVT-i tương ứng với độ lớn dòng điện từ ECU động cơ.
+Bộ điều khiển VVT- i quay trục cam nạp tương ứng với vị trí nơi mà đặt áp suất dầu vào, để làm sớm, làm muộn hoặc duy trì thời điểm phối khí. ECU động cơ tính toán thời điểm đóng mở van tối ưu dưới các điều kiện hoạt động khác nhau theo tốc độ động cơ, lưu lượng khí nạp, vị trí bướm ga và nhiệt độ nước làm mát để điều khiển van điều khiển dầu phối khí trục cam. Hơn nữa ECU dùng các tín hiệu từ cảm biến vị trí trục cam và cảm biến vị trí trục khuỷu để tính toán thời điểm phối khí thực tế và thực hiện điều khiển phản hồi để đạt được thời điểm phối khí chuẩn.
+2.2.2 Phương pháp thay đổi thời điểm phối khí
+Hệ thống được thiết kế để điều khiển thời điểm phối khí bằng cách xoay trục cam tính theo góc quay của trục khuỷu để đạt được thời điểm phối khí tối ưu cho các điều kiện hoạt động của động cơ dựa trên tín hiệu từ các cảm biến.
+..................................................................
+Chương 3 : HỆ THỐNG PHÂN PHỐI KHÍ THÔNG MINH TRÊN XE HONDA
+
+3.1 Giới thiệu và phân loại
+Hệ thống điều khiển xupap biến thiên của hãng HONDA mang tên công nghệ VTEC ( Variable Valve Timing and Lift Electronic Control System ) do Ikuo Kajtani phát minh. VTEC có những đặc trưng kỹ thuật mà có thể thay đổi thời gian mở xupap và độ nâng của xupap phụ thuộc vào các thông số tốc độ động cơ, tốc độ di chuyển của xe, nhiệt độ nước làm mát và tải động cơ... Khả năng này làm cho đặc tính sự cháy có thể đáp ứng được các điều kiện hoạt động của động cơ, vì vậy vừa tiết kiệm nhiên liệu vừa đạt được hiệu suất cao và giảm thiểu khí thải gây ô nhiễm môi trường.
+Mỗi xupap trong động cơ được điều khiển bởi một số vấu cam với biên dạng riêng biệt. Tất cả các cam đó đều được lắp đặt trên một trục cam và hệ thống điều khiển điện tử điều khiển hoạt động của chúng dựa trên các điều kiện hoạt động của động cơ bằng cách dùng áp suất thủy lực. Tùy theo điều kiện làm việc cụ thể của động cơ mà sử dụng loại vấu cam phù hợp.
+
+
+
+
+
+
+
+
+
+
+
+
+Hình 3.1 Cấu tạo các vấu cam
+Ở dải tốc độ thấp, biên dạng cam tốc độ thấp được sử dụng, thời gian mở xupap được tối ưu hóa nhằm đạt được mômen xoắn cần thiết để xe có thể di chuyển tốt nhất ở vòng tua thấp, đồng thời tiết kiệm nhiên liệu.
+Ở dải tốc độ cao, biên dạng cam tốc độ cao thay thế, cho độ mở xupap và thời gian mở xupap được tăng lên, không khí được nạp vào nhiều hơn. Hệ thống cung cấp cho xe khả năng di chuyển tốt ở tốc độ cao và tăng hiệu suất động cơ.
+Các dạng VTEC: hiện nay có 6 dạng hệ thống VTEC kết cấu tuy khác nhau nhưng nói chung chúng giống nhau về mặt nguyên lý vì tất cả đều sử dụng loại trục cam có vấu kép, một vấu dùng khi tốc độ thấp và một vấu dùng ở tốc độ cao. Ở dải tốc độ thấp, các xupap mở ít và thời gian mở ngắn lại do biên dạng của vấu cam giảm.
+DOHC VTEC: Ứng dụng này của công nghệ VTEC có các cam tốc độ cao và tốc độ thấp với các biên dạng khác nhau, được áp dụng trên cả trục cam nạp và trục cam xả. Khi tốc độ động cơ thấp và trung bình, các xupap nạp và xupap xả được điều khiển bởi các cam tốc độ thấp. Các cam tốc độ cao sẽ điều khiển các xupap này khi tốc độ động cơ cao. Sự phối hợp hoạt động của các cam này cho phép động cơ tạo được mô men lớn ở tốc độ vòng tua thấp và công suất cao ở tốc độ vòng tua cao.
+SOHC VTEC: Cũng giống như DOHC, cam tốc độ thấp điều khiển các xupap khi tốc độ động cơ thấp và trung bình, và cam tốc độ cao điều khiển khi tốc độ động cơ cao. Nhưng với SOHC thì điều này chỉ áp dụng cho các xupap nạp, kỹ thuật này giúp động cơ có được công suất cao và tiết kiệm nhiên liệu.
+New VTEC: Các cam tốc độ cao và tốc độ thấp với các biên dạng khác nhau được áp dụng với các trục cam nạp, cam tốc độ cao được dùng khi tốc độ vòng tua cao trong khi cam tốc độ thấp được dùng khi tốc độ vòng tua thấp và trung bình. Nhưng trong sự áp dụng này các xupap nạp thứ cấp được giữ cố định với độ nâng nhỏ để hòa khí không đọng lại trên ống góp hút khi tốc độ xe thấp trong khi các xupap nạp cơ bản cung cấp không khí chủ yếu cho các xylanh. Kết hợp với sự tinh tế trong hình dáng của các buồng đốt và các đường ống góp, việc này tạo ra một vòng chuyển động xoáy trong mỗi buồng đốt để làm cho sự cháy đạt hiệu quả hơn. Động cơ New VTEC có thể tạo ra công suất và mô men lớn trong khi vẫn tiết kiệm nhiên liệu.
+VTEC ba giai đoạn: Ba giai đoạn khác nhau của hệ thống VTEC tương ứng cho tốc độ thấp (một xupap được điều khiển bởi cam tốc độ thấp), tốc độ trung bình (tất cả các xupap được điều khiển bằng cam tốc độ trung bình), và tốc độ cao (tất cả các xupap được điều khiển bởi cam tốc độ cao). Sự thiết kế này cho phép động cơ sử dụng nhiên liệu hiệu quả ở tốc độ vòng tua thấp, tạo được mô men lớn ở tốc độ vòng tua trung bình, công suất cao ở tốc độ vòng tua cao.
+VTEC-E: Trục cam của xupap nạp có các cam tốc độ thấp và trung bình với các biên dạng riêng biệt. Ở tốc độ vòng tua thấp, xupap thứ cấp được điều khiển bởi cam tốc độ thấp (mặc dù trong thực tế nó hầu như không chuyển động); Tất cả các xupap được điều khiển bởi cam tốc độ trung bình khi tốc độ vòng tua trung bình. Kết quả là động cơ tiêu thụ nhiên liệu một cách hiệu quả đặc biệt trong khi vẫn duy trì được khả năng điều khiển ở mức cao.
+i-VTEC: Hệ thống i-VTEC hoàn thành sự mở rộng công suất và mômen, hiệu quả sử dụng nhiên liệu cao hơn và giảm khí thải nhờ sự điều khiển góc cam so với hệ thống VTEC thay đổi thời gian mở xupap và độ nâng của xupap trong hai hoặc ba giai đoạn. i-VTEC bổ xung thêm cơ cấu VTC (Bộ điều khiển thời gian thay đổi) tiếp tục thay đổi góc cam nạp từ góc chậm nhất sang góc tối ưu nhất.
+3.2 Cấu tạo và nguyên lý hoạt động của SOHC VTEC
+3.2.1 Cấu tạo
+Đây là dạng cơ bản nhất của hệ thống VTEC bao gồm những bộ phận sau :
+Trục cam Các cò mổ Cụm chuyển động êm Van ống Hệ thống điều khiển (ECM)
+Trục cam: Trục cam của động cơ SOHC VTEC có 3 loại cam, được gọi là cam cơ bản, cam giữa, và cam thứ cấp. Những cam này có những biên dạng khác nhau để cung cấp thời gian mở xupap và độ nâng khác nhau.
+..................................................
+Chương 4 : HỆ THỐNG MIVEC CỦA HÃNG MITSUBISHI
+(Mitsubishi Innovative Valve timing Electronic Control system)
+
+4.1 Giới thiệu
+MIVEC được Mitsubishi giới thiệu lần đầu tiên vào năm 1992 trên động cơ 4G92, dung tích 1597 cc, DOHC không tăng áp, 4 xilanh thẳng hàng, mỗi xilanh gồm hai xupap nạp và hai xupap xả. Thế hệ công nghệ này ra đời với tên gọi “Mitsubishi Innovative Valve timing Electronic Control”. Chiếc xe đầu tiên sử dụng công nghệ này là chiếc hatchback Mitsubishi Mirage và chiếc sedan Mitsubishi Lancer. Trong khi một động cơ 4G92 thông thường sinh ra công suất 145 mã lực ở tốc độ 7000 vòng/phút thì một động cơ được trang bị công nghệ MIVEC có thể sinh ra tới 175 mã lực ở vòng tua 7500 vòng/phút. Một số các cải tiến về công nghệ khác cũng được ứng dụng khi công nghệ này được áp dụng rộng rãi vào năm 1994 trên xe Mitsubishi FTO. Mặc dù vậy các thiết kế mới nhằm nâng cao hiệu suất vẫn phải đảm bảo tính tiết kiệm nhiên liệu và giảm ô nhiễm khí thải ở dòng xe Mitsubishi.
+
+Hình 4.1 Cấu trúc hệ thống Mivec
+4.2 Cấu tạo và nguyên tắc hoạt động của hệ thống thay đổi độ nâng xupap
+MIVEC là công nghệ động cơ với độ nâng xupap nạp biến thiên được phát triển bởi hãng Mitsubishi, hệ thống này có khả năng thay đổi hành trình và thời gian đóng mở các xupap bằng cách sử dụng các loại vấu cam khác nhau.
+Chế độ tốc độ thấp: Sự khác nhau trong độ nâng xupap hút, hai vấu cam tốc độ thấp 3 mm và 9 mm dẫn động các xupap. Tuy cả hai xupap đều mở nhưng một xupap mở với hành trình nhỏ (3mm) để hòa khí không đọng lại trên đường ống hút và một xupap mở lớn hơn ( 9mm) làm hòa khí vào xylanh hầu như qua đây điều này tạo được lốc xoáy mạnh giúp hòa khí đều hơn. Cần chữ T vẫn kết nối với biên dạng cam tốc độ cao 10 mm, nhưng lúc này chỉ chuyển động tự do và không tiếp xúc với cò mổ của xupap nạp. Bên trong cò mổ có các pittông được nén lại nhờ các lò xo. Chế độ này làm tăng mômen xoắn ở tốc độ thấp và sự cháy ổn định hơn trong xylanh ngoài yêu cầu tiết kiệm nhiên liệu và giảm ô nhiễm khí xả.
+Chế độ tốc độ cao: MIVEC sẽ điều khiển mở van dầu làm tăng áp suất dầu tới pittông, khiến cho pittông được nâng lên và tiếp xúc với cần chữ T, khi đó biên dạng cam tốc độ cao 10 mm thông qua cần chữ T tác động vào cả hai cò mổ và điều khiển đóng mở xupap nạp. Nhờ biên dạng cam lớn hơn nên sẽ tăng thời gian và độ mở của xupap nạp, làm tăng lượng khí hòa hút vào xylanh do đó công suất và mômen xoắn tăng, dải tốc độ động cơ được mở rộng.
+Grandis được trang bị với MIVEC 2.4l và Colt được trang bị với MIVEC 1.3l và 1.5l
+Hình 4.2 Biên dạng các vấu cam hút
+Hình 4.3 Cấu tạo hệ thống
+Hình 4.4 Hoạt động của các cam ở tốc độ thấp
+........................................................................
+Chương 5 : HỆ THỐNG VANOS VÀ VALVETRONIC TRÊN XE BMW
+
+5.1 Hệ thống VANOS (VAriable NOckenwellen Steuerung)
+5.1.1 Lịch sử phát triển
+Hệ thống VANOS trang bị trên động cơ BMW là công nghệ làm thay đổi thời điểm mở xupap hoạt động dựa trên nguyên lý làm thay đổi vị trí tương đối của trục cam với trục khuỷu động cơ. Hệ thống này có thể xoay tương đối trục cam 400 so với góc quay trục khuỷu và điều chỉnh liên tục để tối ưu hóa vị trí trục cam cho tất cả các điều kiện hoạt động của động cơ. Không giống như các hệ thống thay đổi thời điểm mở xupap của các hãng khác VANOS có cấu tạo khác hẳn là sự kết hợp giữa việc điều khiển bằng cơ khí và thủy lực và được quản lý bởi DME (hệ thống điều khiển động cơ của xe).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hình 5.1 Dạng đồ thị cam
+Single VANOS: được giới thiệu vào năm 1992 trên động cơ BMW M50. Single VANOS điều chỉnh vị trí của trục cam nạp so với trục khuỷu dựa vào tốc độ động cơ và vị trí bàn đạp ga. Ở tốc độ thấp xupap nạp được mở trễ lại để chế độ cầm chừng ổn định. Khi tốc độ trung bình xupap nạp được mở sớm hơn để tăng góc trùng điệp tạo hiệu ứng EGR tăng tiết kiệm nhiên liệu và giảm khí thải ô nhiễm. Khi tốc độ động cơ cao xupap nạp lại được mở trễ lại để công suất động cơ phát ra tối đa.
+Double VANOS: được sử dụng đầu tiên trên động cơ S50B32 vào năm 1996 sau đó là động cơ 6 xylanh M52TU điều chỉnh vị trí của cả trục cam nạp và trục cam xả so với trục khuỷu. Trục cam nạp có thể thay đổi 400 và trục cam xả có thể thay đổi 250. Sự kết hợp hài hòa của hai trục cam làm tối ưu hóa hệ thống. Double VANOS kéo dài thời gian mở của xupap hơn 120 và tăng độ nâng xupap thêm 0,9mm nhưng hệ thống yêu cầu áp suất thủy lực lớn để việc điều chỉnh nhanh và chính xác.
+Ưu điểm VANOS:
+Tăng mômen xoắn ở tốc độ thấp và tốc độ trung bình mà không ảnh hưởng nhiều tới phạm vi công suất động cơ Tăng tính tiết kiệm nhiên liệu do tối ưu hóa góc phối khí Giảm ô nhiễm khí thải do tối ưu hóa góc trùng điệp của xupap Chế độ cầm chừng ổn định
+5.1.2 Cấu tạo các bộ phận
+Hệ thống điện điều khiển: Modul điều khiển động cơ chịu trách nhiệm kích hoạt các van solenoid VANOS dựa vào biểu đồ chương trình lưu trong DME thông qua các tín hiệu đầu vào :
+Tốc độ động cơ Tải động cơ Nhiệt độ nước làm mát Vị trí trục cam Nhiệt dộ dầu
+Tùy thuộc vào loại hệ thống VANOS mà sử dụng solenoid loại on/off hay điều độ rộng xung PWM (Pulse Width Modulation)
+
+
+
+
+
+Hình 5.2 Cấu tạo solenoid
+Loại động cơ Loại VANOS Điều chỉnh vô cấp Solenoid M50TU Single Không 1 solenoid on/off M52 Single Không 1 solenoid on/off M52TU Double Có 2 solenoid pwm M54 Double Có 2 solenoid pwm N52 Double Có 2 solenoid pwm S50 Single Có 2 solenoid pwm S50 Double Có 4 solenoid pwm S52 Single Không 1 solenoid on/off S54 Double Có 4 solenoid pwm M62TU Single Có 2 solenoid pwm N62 Double Có 4 solenoid pwm S62 Double Có 8 solenoid pwm + 1 pwm solenoid điều áp S85 Double Có 4 solenoid pwm + 1 pwm solenoid điều áp N73 Double Có 4 solenoid pwm
+
+Hệ thống điều khiển thủy lực: gồm bơm dầu để tạo áp lực tác dụng lên pittông van solenoid điều khiển trực tiếp dòng dầu tác động vào bộ chấp hành cơ khí của hệ thống VANOS để từ đó thay đổi vị trí trục cam.
+Hệ thống điều khiển cơ khí:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hình 5.3 Các chi tiết hệ thống điều khiển cơ khí
+Gồm đĩa xích được dẫn động bởi trục khuỷu động cơ. Đĩa xích không gắn cứng với trục cam mà được liên kết với trục cam thông qua then hoa. Bánh răng nghiêng trên đĩa xích ăn khớp trong với bánh răng nghiêng của trục then hoa. Trục cam lại được liên kết với trục then hoa bằng bánh răng ăn khớp trong nhưng là răng thẳng. Trục then hoa có thể di chuyển dọc trục dưới tác dụng của áp suất thủy lực để làm thay đổi vị trí tương đối của trục cam với đĩa xích. Góc độ thay đổi phụ thuộc vào hướng nghiêng ban đầu của trục then hoa và bánh răng đĩa xích. Bộ chấp hành cơ khí của tất cả các hệ thống VANOS hoạt động dưới một nguyên lý giống nhau.
+5.1.3 Nguyên lý hoạt động
+Đĩa xích A được dẫn dộng bởi trục khuỷu giữa tâm có răng nghiêng ăn khớp với trục B
+Trục B được kết nối với pittông. Khi áp lực thủy lực tác dụng lên pittông sẽ làm trục này di chuyển dọc trục.
+Trục C là trục cam
+.........................................
+Chương 6 : HỆ THỐNG MULTIAIR TRÊN XE FIAT
+
+6.1 Lịch sử phát triển
+MultiAir là hệ thống điều khiển xupap bằng điện-thủy lực được tập đoàn Fiat giới thiệu vào ngày 08/03/2009 tại triển lãm Geneva. Bằng việc điều khiển trực tiếp không khí hoặc hòa khí vào trong xylanh thông qua xupap hút không cần sử dụng bướm ga nên đã giảm tổn thất bơm và giảm cản trên đường ống nạp. MultiAir là một sự đột phá cơ bản trong thiết kế động cơ xăng giúp giảm tiêu thụ nhiên liệu đồng thời tăng cường đáng kể công suất và sức kéo của động cơ, cắt giảm lượng khí thải CO2 khoảng 10 đến 25%, và giảm ô nhiễm đến 60% so với các loại động cơ khác và đặc biệt hiệu quả hơn khi sử dụng với hệ thống tăng áp hoặc động cơ diesel.
+Ứng dụng đầu tiên của công nghệ Multiair được lắp trên động cơ Fire 1400cc 16 xupap, ứng dụng thứ hai là trên động cơ xăng cỡ nhỏ SGE 900cc cả hai loại động cơ đều có phiên bản tăng áp và không tăng áp với nắp quy lát được thiết kế đặc biệt để lắp đặt bộ chấp hành điện - thủy lực. Thế hệ động cơ mới này sẽ cho phép Fiat thay thế những động cơ lớn bằng động cơ nhỏ hơn, hiệu suất cao hơn.
+Ưu điểm của MultiAir :
+Công suất tối đa được tăng lên 10% nhờ vào việc sử dụng trục cam định hướng ở công suất cao. Tại tốc độ vòng quay thấp mômen xoắn được cải thiện đến 15% thông qua việc đóng sớm xupap nạp để có thể đạt lượng không khí trong xi lanh là lớn nhất. Quá trình bơm giảm dẫn đến giảm lượng nhiên liệu tiêu thụ và khí CO2 sinh ra cũng giảm một lượng tương ứng cả với động cơ tăng áp và động cơ không tăng áp. Động cơ MultiAir tăng áp cỡ nhỏ có thể tăng 25% hiệu quả kinh tế đối so với động cơ thường trong cùng một điều kiện. Hiệu quả điều khiển xupap thể hiện tốt nhất là trong quá trình làm nóng động cơ và sự tái tuần hoàn khí xả thông qua việc mở lại xupap hút trong kỳ xả. Kết quả là khí thải giảm từ 40% cho HC, CO và đến 60% cho NOx. Duy trì áp suất nạp (không khí cho động cơ thường và không khí áp suất cao hơn cho động cơ tăng áp), cộng với việc điều khiển khí nạp cho từng xylanh trong mỗi thì riêng biệt sẽ tạo ra một động cơ tối ưu và nâng cao cảm giác lái xe. MultiAir được áp dụng cho tất cả động cơ đốt trong, nó có thể được lắp trên động cơ Diesel để giảm lượng khí NOx thải ra và làm cho các bộ lọc xúc tác khí thải có hiệu quả hơn.
+Nói tóm lại, một động cơ được trang bị Fiat MultiAir sẽ mạnh hơn, phản ứng nhanh hơn trong toàn bộ dải tốc độ, tiết kiệm nhiên liệu và giảm đáng kể tất cả các loại khí thải. Công nghệ này cũng hứa hẹn Fiat sẽ giữ được vị trí hàng đầu trong lĩnh vực giảm lượng khí thải và giảm tiêu thụ nhiên liệu, danh hiệu mà họ đã duy trì được trong những năm gần đây.
+6.2 Cấu tạo của hệ thống
+Hình 6.1 Cấu tạo hệ thống
+Trục cam : động cơ sử dụng một trục cam (SOHC) để điều khiển xupap hút và xupap xả. Mỗi xylanh có 4 xupap trong đó hai xupap xả được điều khiển trực tiếp bởi các vấu cam xả như động cơ thông thường và không thể thay đổi được thời điểm cũng như độ nâng. Trong khi đó các xupap hút được điều khiển bởi các vấu cam hút thông qua pittông, buồng thủy lực và van solenoid điện. Van solenoid điện tắt, mở sẽ làm thay đổi thời điểm và độ nâng xupap.
+Hệ thống thủy lực : gồm pittông và buồng thủy lực. Khi vấu cam hút tác dụng vào đòn gánh sẽ làm pittông dich chuyển có công dụng như một bơm thủy lực tạo áp lực chứa trong buồng thủy lực. Buồng thủy lực được kết nối với xupap và được điều khiển thông qua một solenoid.
+Solenoid : được điều khiển bởi hệ thống điều khiển động cơ có tác dụng đóng mở mạch thủy lực tác dụng lên xupap để làm thay đổi thời điểm và độ nâng xupap theo các chế độ hoạt động của động cơ.
+6.3 Nguyên lý hoạt động
+Phương thức hoạt động của hệ thống tập trung vào xupap hút. Pittông chuyển động bởi trục cam được liên kết với xupap hút thông qua một buồng thủy lực được điều khiển đơn thuần bằng chế độ đóng mở của một van điện.
+Khi van điện đóng dầu trong buồng dầu chạy như một vật thể rắn và truyền đến xupap hút và độ nâng xupap được quy định bởi trục cam. Khi van điện mở buồng chứa dầu và xupap hút được kết hợp với nhau, xupap hút không hoạt động theo trục cam nữa mà đóng dưới tác động của lò xo. Phần cuối cùng của hành trình đóng xupap được điều khiển bởi phanh hãm thủy lực, để đảm bảo các chế độ hoạt động nhẹ nhàng, bình thường trong mọi điều kiện hoạt động của xe.
+Thông qua việc điều khiển quá trình đóng, mở van điện, có thể dễ dàng tìm ra một số chế độ hoạt động của động cơ như sau :
+Chế độ xupap mở hoàn toàn theo biên dạng cam ( full lift ): để có được công suất lớn nhất van solenoid điện luôn luôn đóng và xupap được điều khiển mở hoàn toàn bởi biên dạng trục cam mà được thiết kế đặc biệt để tạo công suất tối đa khi chạy ở tốc độ cao (thời gian mở lâu hơn).
+Hình 6.2 Chế độ Full lift- xupap mở theo biên dạng cam thiết kế
+Chế độ mở trễ xupap nạp ( LIVO-late intake valve opening ): khi khởi động động xupap hút mở ra một phần nhờ sự đóng van solenoid điện. Tức là xupap hút mở muộn và đóng sớm. Trong trường hợp này, dòng khí vào xylanh nhanh hơn tạo lốc xoáy mạnh hơn kết quả sự hòa trộn nhiên liệu trong xylanh tơi hơn.
+Hình 6.3 Chế độ mở trễ xupap nạp- LIVO
+Chế độ đóng sớm xupap nạp (EIVC- early intake valve closing ): để đạt được mô men xoắn ở tốc độ thấp van solenoid điện được mở gần với biên dạng của trục cam và làm cho xupap hút sớm đóng lại hạn chế hiện tượng mất bơm và hiện tượng khí nạp quay trở lại ống góp hút giúp khối lượng không khí nạp vào trong xylanh là lớn nhất.
+Hình 6.4 Chế độ đóng sớm xupap nạp- EIVC
+Chế độ thay đổi độ nâng xupap liên tục ( Multilift ) : hai chế độ hoạt động có thể bao gồm trong cùng một kỳ hút tạo ra chế độ Multilift, đây là chế độ cháy khi tải rất thấp.
+Hình 6.5 Chế độ thay đổi độ nâng xupap liên tục- Multilift
+Chế độ theo tải động cơ ( Partial load ): khi tải động cơ thay đổi thì thời gian mở solenoid cũng thay đổi. Khi tải động cơ ổn định thì solenoid giữ nguyên vị trí mở trước đó làm cho xupap mở một phần để kiểm soát lượng hòa khí vào trong xylanh một cách hiệu quả tạo ra mômen xoắn theo yêu cầu tải động cơHình 6.6 Chế độ theo tải động cơ- Partial load
+6.4 Sự phát triển trong tương lai
+Công nghệ Common Rail, một sản phẩm của Fiat được trình làng năm 1997 đã mở đường cho hơn một thập kỷ phát triển với các sản phẩm như MultiJet (phun nhiều lần), động cơ diesel cỡ nhỏ và gần đây là công nghệ Modular Injection. Những sản phẩm này sẽ sớm được tung ra thị trường.
+Hình 6.7 Hệ thống MultiAir
+Tương tự, Công nghệ MultiAir ra mắt trên toàn thế giới 2009 sẽ mở ra một sự phát triển mới cho công nghệ động cơ xăng :
+Sự kết hợp giữa MultiAir với phun xăng trực tiếp để nâng cao khả năng phản ứng và tiết kiệm nhiên liệu. Việc đưa ra nhiều chế độ mở xupap tối ưu hơn có thể làm giảm lượng khí thải nhiều hơn. Cải tiến động cơ tăng áp, kết hợp việc tăng áp suất khí nạp với điều khiển quá trình mở xupap để tối ưu hóa lượng hòa khí nạp vào xylanh.
+Song song với hệ thống phun xăng điện tử phát triển trong những năm 70 và Common Rail trong những năm 90 là những đột phá công nghệ cụ thể, công nghệ điều khiển xupap MultiAir có thể áp dụng cho tất cả các loại động cơ đốt trong với bất cứ loại nhiên liệu đốt cháy nào. MultiAir lúc đầu được phát triển cho động cơ sử dụng các loại nhiên liệu nhẹ như xăng đến khí gas tự nhiên và khí hidro. Tuy nhiên nó cũng có khả năng cho việc giảm khí thải của động cơ diesel. Thực chất việc giảm 60% NOx đạt được bởi công nghệ tái tuần hoàn khí xả bằng việc mở lại xupap hút trong quá trình xả, trong khi tối ưu việc điều khiển xupap lúc khởi động lạnh và làm nóng động cơ có thể mang đến hiệu quả giảm tới 40% khí HC và CO. Cải thiện hiệu suất động cơ điesel tương tự như động cơ xăng, sự tiêu hao nhiên liệu được giảm thiểu xuống bởi sự giảm tổn thất bơm. Vì thế động cơ diesel trang bị Multiair sẽ tiết kiệm nhiên liệu hơn.
+Trong tương lai việc cải tiến kỹ thuật ở hệ thống truyền động có thể mang lại những lợi ích từ sự thống nhất cấu trúc của động cơ xăng và diesel. Chính vì vậy sản phẩm quy lát động cơ MultiAir đã được hình thành và phát triển để phù hợp với cả động cơ xăng và diesel. Bộ chấp hành điện-thủy lực của MultiAir không nằm ngoài quy luật đó, với sự đa dạng trong việc gia công, các linh kiện phụ trợ được mang đến từ ứng dụng Fire và SGE của Fiat.
+
+TÀI LIỆU THAM KHẢO
+Nguyên lý động cơ đốt trong, Nguyễn Tất Tiến, Nhà xuất bản Giáo Dục, 2007 Nguyên lý tính toán kết cấu động cơ đốt trong, Nguyễn Tấn Quốc, ĐHSPKT Tp. HCM, 2000 The impact of valve events upon engine performance and emissions, 2006 Tài liệu đào tạo các hãng Honda, Toyota, Mitsubishi, Fiat http://www.mechadyne-int.com http://www.pattakon.com http://asia.vtec.net/article/k20a http://www.mitsubishi-motors.com http://en.wikipedia.org
+
+

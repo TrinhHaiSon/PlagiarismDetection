@@ -1,0 +1,442 @@
+Mục lục THIẾT KẾ VÀ LẬP TRÌNH PHẦN MỀM ĐIỀU KHIỂN MÁY DẬP CẮT CNC
+Mở đầu.......................................................................................................... i
+Danh sách các bảng chú giải các chữ viết tắt, bảng, hình........................ vi
+
+Chương 1. TỔNG QUAN VỀ NGHIÊN CỨU VÀ ỨNG DỤNG HỆ THỐNG CAD/CAM/CNC CẮT VẬT LIỆU TRONG NGÀNH GIÀY DÉP.
+1.1 Hệ thống CAD/CAM trong ngành giày dép trên thế giới...…….1.1
+1.2 Hệ thống CAD/CAM/CNC cắt vật liệu trong ngành giày dép trên thế giới……...………………………………………………………………1.4
+1.3 Hệ thống CAD/CAM/CNC cắt vật liệu trong ngành giày dép tại Việt Nam…………………………………………………………………..1.8
+Chương 2. THIẾT KẾ CẤU HÌNH VÀ QUI TRÌNH VẬN HÀNH HỆ THỐNG CAD/CAM/CNC CẮT VẬT LIỆU GIÀY DÉP
+2.1 Xác định cấu hình, các chức năng và yêu cầu kỹ thuật của hệ thống ………………………………………………………….………....…2.1
+2.2 Xác định cấu hình, các chức năng và yêu cầu kỹ thuật của máy dập cắt CNC ………...……………………..………………………………2.4
+2.3 Thiết kế qui trình vận hành các phần mềm và máy dập cắt CNC………...……………………..…………………………..……………2.8
+Chương 3. QUÁ TRÌNH, GIẢI THUẬT VÀ PHẦN MỀM SỐ HOÁ ĐƯỜNG BIÊN CHI TIẾT.
+3.1 Yêu cầu số hoá chi tiết để giải các bài toán nhân ni và sắp xếp trong ngành giày dép……………………………………………………....3.1
+3.2 Tổng quan về các phương pháp số hoá đã được sử dụng…...….3.2
+3.3 Phương pháp số hoá đề nghị…….……….………………………3.4
+3.4 Giải thuật số hoá đường biên chi tiết………....………………….3.5
+3.5 Xác định những điểm hỗ trợ quá trình nhân ni và sắp xếp…...3.15
+3.6 Lập trình phần mềm………………………...………..…………3.16
+3.7 Các giao diện và vận hành phần mềm………………...………. 3.21
+3.8 Kiểm thử phần mềm……………………………………………..3.24
+Chương 4. QUÁ TRÌNH, GIẢI THUẬT VÀ PHẦN MỀM NHÂN NI.
+4.1 Khái niệm về ni ……..………………………………………..…...4.1
+4.2 Các phương pháp nhân ni ....………………….…………………4.4
+4.3 Phương pháp nhân ni đề nghị…………….……………………...4.8
+4.4 Lập trình phần mềm..................................………………….......4.14
+4.5 Các giao diện và trình tự vận hành phần mềm………...….......4.28
+4.6 Kiểm thử phần mềm..................................…………………........4.32
+Chương 5. QUÁ TRÌNH, CÁC GIẢI THUẬT VÀ PHẦN MỀM SẮP XẾP.
+5.1 Nhu cầu sắp xếp trong ngành giày dép…………………….……5.1
+5.2 Một số khái niệm ............…………….……………………...……5.3
+5.3 Giải thuật sắp xếp …………............................................………...5.5
+5.4 Cơ sở dữ liệu của phần mềm…………........................………...5.13
+5.5 Lập trình phần mềm.....................................................................5.16
+5.6 Các giao diện và trình tự vận hành phần mềm............……......5.16
+5.7 Kiểm thử phần mềm.......................................................…...…...5.19
+8Tích hợp các phần mềm..................................................…...…...5.19
+
+CHƯƠNG 6. THIẾT KẾ VÀ CHẾ TẠO HỆ THỐNG CƠ KHÍ CỦA MÁY DẬP CẮT VẬT LIỆU ĐIỀU KHIỂN CNC.
+6.1 Phân tích và lựa chọn sơ đồ nguyên lý cho máy dập CNC………………………………………………………………….…..…6.1
+6.2 Thiết kế sơ đồ động của máy…………...…………….............….6.9
+6.3 Thiết kế hệ thống cơ khí của máy dập cắt CNC …………...…6.15
+6.4 Thiết kế cụm thân máy …….…..…………………………...…..6.18
+6.5 Thiết kế cụm truyền động đầu dập……………….……...…….6.42
+6.6 Thiết kế cụm cấp vật liệu cuộn …………………..……..……...6.50
+6.7 Thiết kế cụm băng tải.…………………………….……..……...6.51
+6.8 Thiết kế cụm đầu dập.…………………………….……..……...6.60
+6.9 Thiết kế hệ thống truyền động thủy lực.………..……...……...6.77
+6.10 Thiết kế hệ thống truyền động khí nén.……………….……...6.88
+6.11 Lập qui trình công nghệ chế tạo các chi tiết……….……..…..6.93
+6.12 Chế tạo máy dập cắt CNC…………………………..…………6.93
+CHƯƠNG 7. THIẾT KẾ VÀ CHẾ TẠO PHẦN CỨNG HỆ THỐNG ĐIỀU KHIỂN CNC.
+7.1 Xác định các yêu cầu và đối tượng điều khiển………………….7.1
+7.2 Đề xuất và lựa chọn các phương án điều khiển…..……………7.9
+7.3 Thiết kế và lựa chọn các phần tử trong hệ thống điều khiển CNC…………………………………………………………………..7.10
+7.4 Chế tạo bộ điều khiển CNC….………………………………….7.30
+CHƯƠNG 8. THIẾT KẾ VÀ LẬP TRÌNH PHẦN MỀM ĐIỀU KHIỂN MÁY DẬP CẮT CNC.
+8.1 Mở đầu…..………………………………………………………...8.1
+8.2 Các yêu cầu kỹ thuật của phần mềm điều khiển…………….....8.1
+8.3 Các chức năng của phần mềm điều khiển….…………………...8.2
+8.4 Nội dung của phần mềm………….……………………………...8.6
+CHƯƠNG 9. TÍCH HỢP HỆ THỐNG.
+9.1 Giải pháp tích hợp hệ thống…………….………………………9.1
+9.2 Các dữ liệu/thông tin tích hợp……………….………………….9.2
+9.3 Tiến trình tích hợp hệ thống.……………………………………9.5
+CHƯƠNG 10. KIỂM THỬ PHẦN MỀM VÀ VẬN HÀNH THỬ NGHIỆM MÁY DẬP CẮT CNC
+10.1 Kiểm thử phần mềm ………………………………………..10.1
+10.2 Kiểm thử Phần mềm nhân ni và sắp xếp ..............................10.1
+10.3 Kiểm thử Phần mềm nhân ni và sắp xếp tại Công ty CP Giày Việt...............................................................................................................10.2
+10.4 Kiểm thử Phần mềm nhân ni và sắp xếp tại Công ty CP Giày Thái Bình...................................................................................................10.58
+10.5 Vận hành thử nghiệm Máy dập cắt CNC ...........................10.89
+10.6 Chứng nhận kiểm tra kỹ thuật các sản phẩm của đề tài..10.111
+CHƯƠNG 11. CÁC KẾT QUẢ ĐẠT ĐƯỢC.
+11.1 Sản phẩm dạng I……………………………………………11.1
+11.2Các sản phẩm dạng II……………………………………...11.2
+11.3Các sản phẩm dạng III…………………………………….11.4
+11.4Kết quả tham gia đào tạo sau đại học……………………..11.5
+11.5 Các sản phẩm đã đăng ký bảo hộ quyền sở hữu công nghiệp…………………………………………………………………….11.5
+11.6 Tác động đối với kinh tế, xã hội và môi trường…………..11.5
+11.7 Mức độ sẵn sàng chuyển giao, thương mại hóa kết quả nghiên cứu………………………………………………………………………..11.6
+8Dự toán sản phẩm…………………………………………..11.6 9Tính toán hiệu quả kinh tế cho doanh nghiệp…….……..11.7
+KẾT LUẬN VÀ KIẾN NGHỊ
+TÀI LIỆU THAM KHẢO
+
+
+
+LUẬN VĂN TỐT NGHIỆP Nghiên cứu thiết kế, chế tạo máy dập cắt vật liệu điều khiển CNC trong ngành giày dép
+Mục lục
+Mở đầu …………………………………………………………………… 2 Phương pháp nghiên cứu, điều tra khảo sát, tính toán và trang thiết bị nghiên cứu đã sử dụng thực tế … ………………………………………………… 5 Danh mục các kết quả, sản phẩm KHCN đạt được với số lượng, chủng loại và chỉ tiêu chất lượng, yêu cầu khoa học chính …………………………... 6 Các sản phẩm đã đăng ký bảo hộ quyền sở hữu công nghiệp .................... 11 Tác động đối với kinh tế, xã hội và môi trường ......................................... 12 Kết luận ...................................................................................................... 12 Kiến nghị ………………………………………………………………… 13
+
+HƯỚNG DẪN SỬ DỤNG PHẦN MỀM
+FCS
+FOOTWEARE CAD SYSTE
+Để thêm một mã hàng mới, click Thêm.
+Muốn xoá một mã hàng , click nút lệnh Xoá. Nếu không còn dữ liệu liên quan đến mã hàng, phần mềm sẽ cho bạn xoá dữ liệu mã hàng.
+Muốn sửa thông tin mã hàng, chọn mã hàng, sau đó sửa dữ liệu, trên giao diện sẽ xuất hiện nút lệnh Ghi cho bạn ghi lại những thông tin đã sửa.
+Chú ý cần kiểm tra nhập đủ dữ liệu trong Loại mũi form, Nhóm nguời dùng, Hệ nhân ni dài, Hệ nhân ni rộng. Nếu không nhập đủ các dữ liệu này, phần mềm sẽ không thực hiện nhân ni được, do không lấy được dữ liệu từ cơ sở dữ liệu. Phần mềm sẽ kiểm soát và nhắc bạn nhập đủ những dữ liệu này.
+Sau khi nhập thông tin mã hàng, bạn cần nhập Chi tiết mã hàng bằng cách click vào nút lệnh Chi tiết mã hàng trên giao diện.
+Phần mềm sẽ mở cho bạn một giao diện nhập chi tiết của mã hàng như sau:
+Hai subform Danh sách size và Danh sách chi tiết hoạt động độc lập với nhau. Tổ hợp của hai danh sách này sẽ là số chi tiết của mã hàng.
+Bạn cần nhập danh sách size của mã hàng và danh sách chi tiết của mã hàng.
+Danh sách size bạn sẽ phải chọn từ trong danh sách, lấy từ cơ sở dữ liệu, tương ứng với hệ size dài, size rộng, nhóm người dùng để tránh cho bạn sai sót trong nhập liệu.
+Trong số các size nhập vào, bạn cần chọn 1 size gốc. Phần mềm sẽ hiểu rằng chi tiết số hoá sẽ là chi tiết tương ứng với size gốc. Chi tiết của các size khác của mã hàng sẽ được tạo ra từ chi tiết với size gốc này.
+Bạn nhập tay Danh sách chi tiết bằng cách gõ dữ liệu vào trong lưới.
+Sau khi nhập xong dữ liệu, bạn sẽ ghi lại dữ liệu bằng nút lệnh Ghi.
+Nếu bạn click nút lệnh Thoát, bạn sẽ trở về form Mã hàng
+Số hoá chi tiết
+Bạn có hai cách số hoá đường biên chi tiết.
+Nếu mã hàng đang chọn có chi tiết chưa có đường biên, nút lệnh Chọn hình chi tiết sẽ sáng lên cho bạn click vào.
+Ngoài ra, bạn có thể vào menu, chọn trên menu Mã hàng -> Nhập đường biên chi tiết. Phần mềm sẽ mở cho bạn giao diện để số hoá chi tiết.
+Trong giao diện này, nếu mã hàng còn chi tiết chưa có dữ liệu số hoá, bạn sẽ chọn được trong các combobox. Những mã hàng hay chi tiết không hiển thị trên các combo là các chi tiết đã có dữ liệu đường biên đã số hoá.
+Sau khi chọn mã hàng và chi tiết, bạn click chuột phải để mở menu con rồi chọn Open. Phần mềm sẽ mở cho bạn 1 cửa sổ chọn đường dẫn file.
+Chọn các chức năng xử lý hình trên menu con để xử lý hình.
+CHƯƠNG 8
+THIẾT KẾ VÀ LẬP TRÌNH PHẦN MỀM ĐIỀU KHIỂN
+MÁY DẬP CẮT CNC
+Chương này giới thiệu các yêu cầu kỹ thuật của phần mềm điều khiển và các chức năng điều khiển của phần mềm, từ đó xây dựng nội dung của phần mềm và cuối cùng vận hành phần mềm điều khiển này.
+8.1 Mở đầu
+Phần mềm điều khiển máy dập cắt CNC là công cụ liên kết dữ liệu giữa phần mềm nhân ni và sắp xếp với máy dập cắt CNC. Phần mềm này điều khiển mọi hoạt động của máy dập cắt CNC nhằm dập cắt ra các chi tiết giày dép theo đúng sơ đồ sắp xếp xuất ra từ phần mềm nhân ni và sắp xếp với hệ số sử dụng vật liệu cao.
+8.2 Các yêu cầu kỹ thuật của phần mềm điều khiển
+Phần mềm điều khiển máy dập cắt CNC được thiết kế để điều khiển mọi hoạt động của máy dập cắt CNC. Các chức năng của phần mềm bao gồm:
+- Hoạt động trên môi trường Windows.
+- Giao diện đơn giản, dễ sử dụng.
+- Giao tiếp được với phần mềm nhân ni và sắp xếp.
+- Chuyển dữ liệu sơ đồ cắt thành file dữ liệu số điều khiển máy dập cắt.
+- Điều khiển máy dập cắt CNC và hiển thị vị trí của đầu dập, vị trí của băng tải, góc xoay dao theo thời gian thực.
+- Cho phép cài đặt số lượng chi tiết cần dập cắt.
+- Hiển thị số lượng chi tiết đã được dập cắt.
+- Cho phép lựa chọn tốc độ di chuyển đầu dập, tốc độ di chuyển băng tải, tốc độ xoay dao.
+- Ngôn ngữ sử dụng tiếng Việt và tiếng Anh.
+
+8.3 Các chức năng của phần mềm điều khiển
+Từ các yêu cầu kỷ thuật nêu trên cần thiết kế phần mềm điều khiển với một số chức năng chính được trình bày như hình 8.1.
+
+Hình 8.1: Cấu trúc của phần mềm điều khiển máy dập cắt CNC.
+
+Nội dung của các chức năng chính và giải thuật ([8.1]) như sau:
+Quản lý trạng thái của các cơ cấu tác động:
+Phần mềm điều khiển quản lý trạng thái của cụm đầu dập, cụm băng tải và cụm điều chỉnh hành trình cắt. Các trạng thái được thông báo trên phần mềm bao gồm:
+- Giới hạn hai phía của cụm đầu dập (X+ và X-).
+- Giới hạn 2 phía của cụm băng tải (Y+ và Y-).
+- Giới hạn của hành trình cắt (D+ và D-).
+- Trục X đã về gốc (X về gốc).
+- Trục Y đã về gốc (Y về gốc).
+- Góc C đã về gốc (C về gốc).
+- Trục D đã về gốc (D về gốc).
+Sơ đồ giải thuật quản lý trạng thái của các cơ cấu tác động được thể hiện như hình 8.2.
+Hình 8.2: Giải thuật quản lý trạng thái của các cơ cấu tác động.
+Quản lý vị trí (tọa độ) của đầu dập, băng tải và góc xoay dao
+Các vị trí của đầu dập (trục X) so với gốc 0, vị trí tương đối của băng tải giữa 2 lần di chuyển (trục Y) và vị trí của góc xoay C được phản hồi về bộ điều khiển và hiển thị giá trị thực hiện được lên giao diện phần mềm.
+Nhờ giá trị hiển thị này và giá trị thực tế mà bộ điều khiển cần đạt tới giúp xác định sai số di chuyển của các trục X, trục Y và góc xoay dao C.
+Sơ đồ giải thuật xử lý và hiển thị vị trí của trục X, trục Y và góc xoay dao C được thể hiện như hình 8.3.
+Hình 8.3: Giải thuật quản lý vị trí.
+Cho phép chạy ở chế độ từng câu lệnh để kiểm tra hoặc chạy chế độ tự động
+Ở chế độ chạy từng câu lệnh, phần mềm sẽ điều khiển máy chạy theo giá trị câu lệnh được hiển thị. Chế độ này dùng để kiểm tra sai số di chuyển về tọa độ của các trục cũng như đánh giá việc thực thi các câu lệnh trong file dữ liệu xuất ra từ phần mềm nhân ni và sắp xếp.
+Chế độ chạy tự động sẽ thực hiện tuần tự từng dòng lệnh trong file dữ liệu sơ đồ cắt.
+Xem trước câu lệnh đang thực hiện và lệnh thực thi tiếp theo
+Chương trình sẽ gọi và hiển thị lên màn hình dòng lệnh cần thực thi và lệnh thực thi kế tiếp ở chu kỳ sau.
+Chọn cấp tốc độ di chuyển của hệ thống 25%; 50%; 75% và 100%
+Phần mềm điều khiển vận hành theo 4 cấp tốc độ khác nhau.
+- Cấp độ 25%, 50% là cấp độ dùng trong việc điều chỉnh máy.
+- Cấp độ 75% thường được dùng để chạy rô đai máy.
+- Cấp độ hoạt động thực tế sẽ được cài đặt bằng 100% tốc độ di chuyển tối đa của cụm đầu dập, cụm kéo băng tải và cụm xoay dao.
+Việc phân chia này giúp cho việc kiểm tra, đo đạc được thực hiện dễ dàng hơn khi máy di chuyển với tốc độ thấp. Bên cạnh đó, đối với những loại vật liệu khác nhau thì cũng có tốc độ dập cắt khác nhau để đảm bảo chất lượng chi tiết được dập ra.
+Cài đặt số lượng chi tiết giày dép cần dập cắt
+Khi số lượng chi tiết cần dập cắt cho một mã hàng ít hơn số lượng chi tiết có thể sắp xếp trên một cuộn vật liệu thì việc cài đặt số lượng chi tiết cần dập cắt ra là cần thiết. Phần mềm sẽ có một bộ đếm số lượng chi tiết đã được dập cắt ra bằng cách đếm số lần di chuyển của đầu dập. Nếu số lượng chi tiết đã dập ra bằng với số
+BÁO CÁO TÓM TẮT
+Báo cáo tóm tắt này được trình bày theo hướng dẫn của PHỤ LỤC 1-1, HƯỚNG DẪN BÁO CÁO TỔNG HỢP (Ban hành kèm theo Thông tư số 12/2009/TT-BKHCN ngày 08 tháng 5 năm 2009 của Bộ trưởng Bộ Khoa học và Công nghệ), có tính chất thông tin nhanh, đủ để người đọc có thể nắm bắt được các đặc điểm cơ bản của đề tài.
+1. Mở đầu.
+Ngành giày dép Việt Nam hiện là ngành xuất khẩu đứng hàng thứ ba sau dầu khí và dệt may, đạt mức 4,8 tỉ USD năm 2008, có mức tăng trưởng trung bình hàng năm 16%. Mục tiêu tới năm 2010 của ngành giày dép Việt Nam là sản xuất 720 triệu đôi giày dép các loại; 80,7 triệu chiếc cặp túi xách và 80 triệu m2 da thuộc thành phẩm, nâng tổng kim ngạch xuất khẩu của ngành lên tới 6,2 tỷ USD.
+Tuy nhiên, ngành giày dép đang đứng trước một số trở ngại đang được chính phủ và các nhà sản xuất tập trung khắc phục, trong đó có vấn đề nguyên vật liệu. Nguyên vật liệu sản xuất của ngành này hầu hết được nhập từ nước ngoài và chiếm tỉ lệ khoảng 70% giá thành sản xuất nên giải quyết vấn đề sử dụng hiệu quả nguyên vật liệu là hết sức cấp thiết.
+Trong quá trình sản xuất giày dép, thông thường công đoạn cắt các chi tiết từ vật liệu dạng tấm để lắp ráp thành đôi giày dép được thực hiện bởi công nhân thao tác trên máy dập cắt mỗi lần một loại chi tiết với dao cắt có hình dạng giống hệt như rập mẫu của chi tiết. Tùy theo qui mô sản xuất, mỗi nhà máy có thể có vài máy hoặc 50 – 70 máy dập cắt hoặc hơn nữa.
+Vật liệu có thể là loại tấm hình chữ nhật với hai kích thước cố định hoặc loại cuộn có một kích thước cố định (khổ tối đa là 1600 mm) và kích thước còn lại có thể dài vài chục mét.
+Hiệu suất sử dụng vật liệu phụ thuộc vào mỗi công nhân, thường là khác nhau vì kinh nghiệm và tay nghề khác nhau nên khó đạt đến mức cao nhất có thể được. Mà giá trị vật liệu có thể chiếm đến trên dưới 70% chi phí sản xuất.
+Ngoài ra năng suất cắt thủ công thường là thấp vì công nhân có nhiều thao tác dù là cần thiết nhưng không tạo ra giá trị gia tăng. Mặt khác tai nạn có thể xảy ra khi thao tác trên máy dập cắt, đặc biệt là ở những nước đang phát triển nơi mà công nhân chạy theo năng suất nên dễ bỏ qua các qui định về vận hành và an toàn.
+Tình hình nghiên cứu và ứng dụng trên thế giới
+Tại các nước phát triển, công nghệ CAD/CAM và CNC đã và đang được ứng dụng rộng rãi để cắt vật liệu trong ngành giày dép. Đây là yếu tố quan trọng giúp tăng nhanh năng lực chuẩn bị sản xuất, gia công, rút ngắn chu kỳ sản phẩm, tiết kiệm vật liệu và giảm chi phí sản xuất cho doanh nghiệp.
+Hiện nay, một số mô hình kết hợp phần mềm CAD/CAM (để sắp xếp sơ đồ cắt tối ưu) với máy dập cắt CNC đã được triển khai ở nước ngoài.
+Kinh nghiệm ở các nước cho thấy việc sử dụng máy dập cắt CNC kết hợp với phần mềm sắp xếp có thể giúp doanh nghiệp tiết kiệm từ 5 đến 20% vật liệu, năng suất cắt có thể tăng gấp 10 lần. Khi dùng các máy dập cắt CNC chỉ cần một số chức năng của phần mềm CAD/CAM như hỗ trợ thiết bị số hóa khi lấy mẫu rập, nhân ni, sắp xếp sơ đồ cắt và hỗ trợ cắt chi tiết trên máy dập cắt CNC.
+Mặt khác, những sản phẩm phần mềm và máy nêu trên thường do các hãng cung cấp. Những nghiên cứu trong lĩnh vực này từ các trường đại học và viện nghiên cứu của các nước còn ít được biết đến.
+Tình hình nghiên cứu và ứng dụng tại Việt Nam
+Một số ít công ty trong nước (Công ty giày An Lạc, Công ty Giày Thái Bình, chẳng hạn) đã trang bị phần mềm CAD để thiết kế sản phẩm giày dép. Tuy nhiên việc trang bị cả một hệ thống CAD/CAM và máy CNC dập cắt vật liệu sao cho hiệu suất sử dụng vật liệu cao hơn thì chưa công ty nào nghĩ đến vì chi phí đầu tư quá lớn. Cho đến nay những đơn vị Việt Nam nghiên cứu vấn đề này chưa nhiều.
+Những bước đi ban đầu được thực hiện qua các đề tài NCKH cấp trường “Hợp lý hóa việc cắt vật liệu trong ngành giày dép” (1993 - 1995), đề tài khoa học cơ bản cấp Nhà Nước “Tối ưu hóa các bài toán sắp xếp” (1996 – 1997), do TS. Phạm Ngọc Tuấn, Khoa Cơ khí, Trường Đại học Bách khoa Tp.HCM, chủ trì, trong đó những vấn đề thực tế của việc cắt vật liệu trong ngành giày dép Việt nam đã được xác định và bước đầu định hình những nội dung đổi mới công nghệ cần giải quyết.
+Song song đó là đề tài NCKH cấp Thành phố Hồ Chí Minh:”Nghiên cứu phát triển các dây chuyền công nghệ và thiết bị gia công giày dép” do TS. Phạm Ngọc Tuấn chủ trì, từ 1996 đến 1999. Trong thời gian này đã có hơn 30 chủng loại thiết bị, trong đó có máy dập cắt thủy lực, với hơn 100 thiết bị được chuyển giao cho hơn 35 doanh nghiệp sản xuất giày dép. Từ đó đến nay nhóm đề tài đã phối hợp với thành viên trong nhóm đề tài, Công ty TNHH Cơ khí Tân Hiệp Lực phát triển hơn 50 loại thiết bị gia công giày dép, chuyển giao hơn 1.000 thiết bị cho nhiều công ty, cơ sở sản xuất giày dép trong cả nước.
+Những vấn đề còn tồn tại
+Có thể thấy một số vấn đề còn tồn tại đối với các nghiên cứu trong nước như sau:
+- Đã có những kết quả ban đầu trong việc nghiên cứu sắp xếp sơ đồ cắt hợp lý nhưng phải còn nhiều bước nữa mới xây dựng được phần mềm nhân ni và sắp xếp sơ đồ cắt tự động, có thể được thương mại hóa để chuyển giao rộng rãi cho các doanh nghiệp sản xuất giày dép.
+- Đã chế tạo được máy dập cắt, nhưng đó chưa phải là máy dập cắt CNC nên không thể kết nối, tích hợp với phần mềm CAD/CAM, nếu có.
+èPhát xuất từ vấn đề bức xúc này, đề tài đã được hình thành.
+Phương pháp nghiên cứu, điều tra khảo sát, tính toán và trang thiết bị nghiên cứu đã sử dụng thực tế.
+- Áp dụng kỹ thuật đồng thời trong thiết kế phần mềm, thiết kế và chế tạo máy dập cắt CNC, trong việc phối hợp và tổ chức thực hiện cho các chuyên gia của nhiều ngành (thiết kế, chế tạo, cơ điện tử và tự động hóa, công nghệ thông tin và phần mềm, công nghệ da giày, công nghệ vật liệu).
+- Áp dụng phương pháp thiết kế ngược trong việc thiết kế và lập trình phần mềm nhân ni và sắp xếp trên cơ sở tham khảo một số phần mềm tương tự của nước ngoài, thiết kế và chế tạo máy dập cắt CNC trên cơ sở tham khảo một số mẫu máy tương tự của nước ngoài.
+- Áp dụng các phương pháp giải tích toán học, kỹ nghệ phần mềm trong thiết kế, lập trình và kiểm thử các phần mềm.
+- Áp dụng phương pháp phân tích và thiết kế hệ thống trong quá trình thiết kế cấu hình và tích hợp hệ thống CAD/CAM/CNC.
+- Sử dụng phần mềm Inventor để thiết kế mô hình 3D của máy dập cắt, đồng thời mô phỏng hoạt động của các cơ cấu trong máy dập cắt.
+- Sử dụng phần mềm Ansys trong tính toán độ bền của các chi tiết máy để đảm bảo chi tiết máy có thể đảm bảo được độ bền với kết cấu và kích thước nhỏ nhất.
+- Sử dụng phần mềm AutoCad để thiết kế và thực hiện các bản vẽ chế tạo, bản vẽ lắp, bản vẽ chi tiết để gia công các chi tiết máy và lắp ráp đúng với sơ đồ lắp.
+- Sử dụng phần mềm C# để lập trình phần mềm nhân ni và sắp xếp các chi tiết giày dép và xuất sơ đồ cắt hợp lý để điều khiển máy dập cắt cắt vật liệu theo sơ đồ đã sắp xếp.
+- Sử dụng phần mềm Visual Basic để lập trình giao diện giám sát và điều khiển máy dập cắt CNC trên máy tính. Bên cạnh đó, phần mềm này còn được dùng để tích hợp dữ liệu của phần mềm nhân ni và sắp xếp với chương trình điều khiển của vi xử lý.
+- Sử dụng phần mềm Mikro C for Pic để lập trình điều khiển cho vi xử lý để thu nhận dữ liệu từ phần mềm nhân ni và sắp xếp, sau đó xuất tín hiệu điều khiển các cơ cấu trong máy dập cắt.
+3. Danh mục các kết quả, sản phẩm KHCN đạt được với số lượng, chủng loại và chỉ tiêu chất lượng, yêu cầu khoa học chính.
+3.1 Sản phẩm dạng I.
+Một máy dập cắt vật liệu điều khiển CNC.
+Máy có một số đặc tính kỹ thuật như được trình bày ở bảng 1.
+Bảng 1: Các đặc tính kỹ thuật của máy dập CNC
+Đặc tính kỹ thuật Giá trị (đăng ký) Giá trị thực tế Ghi chú Lực cắt 30 tấn 30 tấn Đạt Kích thước đầu dập 500 x 500 mm 635 x 635 mm Tốt hơn Bề rộng vùng dập (tối thiểu) 1700 mm 1800 mm Tốt hơn Góc xoay 0 ÷ 3600 0 ÷ 3600 Đạt Tốc độ di chuyển đầu dập max: 400 mm/s max: 400 mm/s Đạt Tốc độ băng tải cấp liệu tự động max: 300 mm/s max: 300 mm/s Đạt
+
+Các đặc tính kỹ thuật nêu trên đã được Trung tâm Tiêu chuẩn – Đo lường – Chất lượng 2 kiểm tra và cấp Giấy chứng nhận kiểm tra tra kỹ thuật số 01-2010/KTKT-ĐHBK, ngày 04/02/2010.
+So với các máy tương tự của nước ngoài (Ý, Đức, Đài Loan) máy có các đặc tính kỹ thuật tương đương, cụ thể là:
+- Lực dập cắt đạt 30 tấn, so với lực dập cắt của các loại máy dập cắt của nước ngoài trong khoảng 20 – 30 tấn, đồng thời đáp ứng yêu cầu của doanh nghiệp giày dép Việt Nam.
+- Kích thước đầu dập là 635 x 635 (mm), là yêu cầu của Công ty CP Giày Việt nhằm đáp ứng các trường hợp dao cắt đôi, có thể cắt một lần hai chi tiết. Kích thước đầu dập này thuận lợi hơn so với các đầu dập của máy nước ngoài trong khoảng 400 x 400 (mm) đến 500 x 500 (mm).
+- Bề rộng vùng dập tối thiểu đạt 1800 mm (rộng hơn 100 mm so với đăng ký), để đảm bảo chiều rộng tối đa của vật liệu dạng tấm hoặc dạng cuộn là 1600 mm, mỗi bên còn khoảng cách 100 mm để thuận lợi cho công nhân thao tác điều chỉnh mép của các lớp vật liệu (khi cắt nhiều lớp).
+- Góc xoay dao đạt 00 ÷ 3600, để cho phép dao cắt có thể xoay mọi góc độ.
+- Tốc độ di chuyển đầu dập có thể điều chỉnh được và đạt giá trị tối đa là 400 mm/s. Số lần dập có thể đạt từ 40 – 60 lần/phút.
+- Tốc độ băng tải cấp liệu tự động có thể điều chỉnh được và đạt giá trị tối đa là 300 mm/s.
+- Năng suất dập trên máy CNC gấp 7 – 10 lần so với trên máy truyền thống. Nói cách khác, một máy CNC có thể thay thế từ 7 đến 10 máy truyền thống.
+3.2 Các sản phẩm dạng II.
+Các sản phẩm dạng II được trình bày ở bảng 2.
+
+
+Bảng 2: Các sản phẩm dạng II.
+TT Tên sản phẩm Các đặc điểm và yêu cầu khoa học cần đạt khi đăng ký Kết quả thực hiện 1 Phần mềm nhân ni và sắp xếp - Hoạt động trên môi trường Windows. - Xử lý và quản lý file dữ liệu đường biên từ thiết bị số hóa. - Nhân được các ni thông dụng trong ngành giày dép. - Sắp xếp sơ đồ cắt theo một hàng không xoay và có xoay. - Sắp xếp sơ đồ cắt theo hai hàng không xoay và có xoay. - Sắp xếp sơ đồ cắt với hệ số sử dụng vật liệu cao. - Xuất ra file dữ liệu sắp xếp sơ đồ để in ra giấy hoặc giao tiếp với phần mềm điều khiển máy dập cắt CNC. - Ngôn ngữ sử dụng tiếng Việt và tiếng Anh. Đạt các yêu cầu này 2 Phần mềm điều khiển máy dập cắt CNC - Hoạt động trên môi trường Windows. - Giao diện đơn giản, dễ sử dụng. - Giao tiếp được với phần mềm nhân ni và sắp xếp. - Chuyển file dữ liệu sơ đồ cắt thành file dữ liệu số điều khiển máy dập cắt CNC. - Điều khiển máy dập cắt CNC - Ngôn ngữ sử dụng tiếng Việt và tiếng Anh. Đạt các yêu cầu này 3 Bộ hồ sơ thiết kế máy dập cắt CNC Bao gồm các bản vẽ lắp và bản vẽ chi tiết theo các tiêu chuẩn TCVN về vẽ cơ khí hiện hành, đảm bảo chế tạo được Đạt các yêu cầu này 4 Bộ hồ sơ qui trình công nghệ chế tạo và lắp ráp các bộ phận và cụm chi tiết chính của máy dập cắt CNC Theo mẫu các tài liệu về qui trình công nghệ hiện hành và phù hợp với điều kiện chế tạo tại Việt Nam Đạt các yêu cầu này 5 Tài liệu hướng dẫn sử dụng và bảo trì máy Theo mẫu các tài liệu về hướng dẫn sử dụng và bảo trì máy hiện hành Đạt các yêu cầu này
+
+Các đặc điểm nêu trên của Phần mềm nhân ni và sắp xếp, Phần mềm điều khiển máy dập cắt CNC đã được Trung tâm Tiêu chuẩn – Đo lường – Chất lượng 2 kiểm tra và cấp Giấy chứng nhận kiểm tra tra kỹ thuật số 01-2010/KTKT-ĐHBK, ngày 04/02/2010.
+Ngoài ra có thể nhận thấy rằng:
+- Phần mềm nhân ni và sắp xếp có thể thực hiện nhân ni và sắp xếp nhiều loại rập mẫu khác nhau trong ngành giày dép.
+- Phần mềm nhân ni và sắp xếp có thể chạy trên các hệ điều hành thông dụng hiện nay như Windows XP, Vista, sử dụng hệ cơ sở dữ liệu Microsoft SQL Server, ngôn ngữ lập trình Visual C++.
+- Xử lý và quản lý toàn bộ dữ liệu đường biên từ thiết bị số hóa và các dữ liệu nhân ni và sắp xếp khác trên một cơ sở dữ liệu duy nhất.
+- Nhân được các ni thông dụng trong ngành giày dép, bao gồm hai lựa chọn: nhân ni theo dữ liệu trên cơ sở dữ liệu và theo dữ liệu do người sử dụng nhập vào trên giao diện.
+- Sắp xếp sơ đồ cắt với hệ số sử dụng vật liệu bằng hoặc cao hơn so với sắp xếp thủ công.
+- Có thể xuất dữ liệu sang AutoCad.
+3.3 Các sản phẩm dạng III.
+Đăng ký viết hai bài báo. Thực tế đã thực hiện: 4 bài báo và 1 báo cáo khoa học, được liệt kê dưới đây.
+- Bài báo 1: “Mô tả đường biên chi tiết mẫu bằng máy quét”, Trần Đăng Bổng, Phạm Ngọc Tuấn, Tạp chí Phát triển khoa học và công nghệ, Đại học Quốc gia TPHCM, Tập 11, Số 03/2008, trang 88 – 96.
+- Bài báo 2: “Xây dựng đường mút trong sơ đồ sắp xếp chi tiết cắt từ vật liệu dạng tấm trong ngành giày dép”, Trần Đăng Bổng, Phạm Ngọc Tuấn, Trần Đại Nguyên, Hồ Minh Tuấn, Tạp chí phát triển khoa học và công nghệ, Đại học Quốc gia TPHCM, Tập 12, Số 13/2009, trang 73 – 84.
+- Bài báo 3: “Máy dập cắt vật liệu điều khiển CNC trong ngành giày dép”, Phạm Ngọc Tuấn, Lê Minh Đông, Huỳnh Minh Phú, Tạp chí Cơ khí Việt Nam, Số 145, tháng 8/2009, trang 16 – 18.
+- Bài báo 4: “Nghiên cứu phát triển một phần mềm nhân ni mới trong ngành giày dép”, Phạm Ngọc Tuấn, Hồ Minh Tuấn, Trần Thị Thu Hiền, Trần Đăng Bổng Tạp chí phát triển khoa học và công nghệ, Đại học Quốc gia TPHCM, Tập 12, Số 16/2009, trang 92 – 102.
+- Báo cáo khoa học “Hệ thống CAD/CAM/CNC cắt vật liệu trong ngành giày dép“, Phạm Ngọc Tuấn, Trần Thị Thu Hiền, Huỳnh Minh Phú, Nguyễn Minh Hà, Kỷ yếu Hội nghị Khoa học Công nghệ Cơ khí chế tạo toàn quốc lần thứ hai, 2009.
+è Như vậy số bài báo và báo cáo khoa học vượt chỉ tiêu đăng ký.
+3.4 Kết quả tham gia đào tạo sau đại học
+Kết quả tham gia đào tạo sau đại học được trình bày ở bảng 3.
+Bảng 3: Kết quả tham gia đào tạo sau đại học.
+Số TT Cấp đào tạo, Chuyên ngành đào tạo Số lượng Ghi chú (Thời gian kết thúc) Theo đăng ký Thực tế đạt được 1 Thạc sĩ 2 2 2009 2 Tiến sĩ 1 1 2010
+
+Cụ thể kết quả tham gia đào tạo sau đại học như sau:
+Hai luận văn thạc sĩ:
+- Huỳnh Minh Phú, đề tài luận văn thạc sĩ: “Nghiên cứu thiết kế máy dập CNC cắt vật liệu giày dép‘‘, đã bảo vệ vào tháng 7/ 2009.
+- Trần Thị Thu Hiền, đề tài luận văn thạc sĩ: “Nghiên cứu xây dựng bộ phần mềm nhân ni và sắp xếp tối ưu tích hợp với máy dập CNC cắt vật liệu giày dép“, đã bảo vệ vào tháng 7/ 2009.
+Một luận văn tiến sĩ:
+- Trần Đăng Bổng, đề tài luận án tiến sĩ: “Nghiên cứu tối ưu hóa sơ đồ cắt vật liệu tấm trong một số ngành công nghiệp“, dự kiến bảo vệ vào quý 2 năm 2010.
+4. Các sản phẩm đã đăng ký bảo hộ quyền sở hữu công nghiệp.
+Đề tài đã tiến hành đăng ký bảo hộ quyền sở hữu công nghiệp cho:
+- Phần mềm nhân ni và sắp xếp sơ đồ cắt cho ngành giày dép.
+- Máy dập cắt vật liệu điều khiển CNC trong ngành giày dép.
+
+5. Tác động đối với kinh tế, xã hội và môi trường.
+5.1 Tác động đối với kinh tế.
+Kết quả của đề tài được áp dụng sẽ làm tăng năng suất cắt vật liệu từ 7 – 10 lần, tiết kiệm vật liệu trong hoạt động sản xuất của các doanh nghiệp giày dép, từ đó góp phần nâng cao hiệu quả kinh tế cho doanh nghiệp và góp phần vào sự phát triển của nền kinh tế đất nước.
+5.2 Tác động đối với xã hội.
+Năng suất cao hơn sẽ góp phần tăng thêm thu nhập của công nhân, doanh nghiệp. Mặc khác, công nhân làm việc trong môi trường an toàn hơn, hầu như sẽ không còn bị tai nạn trên máy dập cắt.
+5.3 Tác động đối với môi trường.
+Phế liệu giảm góp phần giảm tác hại đến môi trường và giảm chi phí xử lý chất thải.
+
+6. Kết luận.
+Những kết quả mới của đề tài bao gồm:
+- Một máy dập cắt vật liệu điều khiển CNC.
+- Một phần mềm nhân ni và sắp xếp.
+- Phần mềm nhân ni và sắp xếp và máy dập cắt: có thể tích hợp với nhau thành một hệ thống CAD/CAM/CNC, đã được Trung tâm Tiêu chuẩn – Đo lường – Chất lượng 2 cấp Giấy chứng nhận kiểm tra tra kỹ thuật và đã làm thủ tục đăng ký sở hữu trí tuệ.
+- 04 bài báo và 01 báo cáo khoa học.
+- 02 luận văn thạc sĩ và 01 luận án tiến sĩ.
+
+7. Kiến nghị.
+Nhóm nghiên cứu đề xuất với Lãnh đạo Bộ Khoa học & Công nghệ, lãnh đạo Trường Đại học Bách khoa, ĐHQG TPHCM một số kiến nghị sau đây:
+- Cho phép nhóm đề tài tiếp tục triển khai ứng dụng hệ thống CAD/CAM/CNC cắt vật liệu trong năm 2010 tại Công ty CP Giày Việt để có những thông tin phản hồi nhằm hoàn thiện sản phẩm và tính hiệu quả kinh tế của việc đổi mới công nghệ.
+- Cho phép tổ chức hội thảo giới thiệu các kết quả ứng dụng của đề tài và thường xuyên tổ chức các đoàn tham quan tại công ty này như là một mô hình ứng dụng công nghệ mới trong ngành giày dép.
+- Cho phép phối hợp với một số doanh nghiệp cơ khí chế tạo, Hội da giày TPHCM, Hội da giày Việt Nam xây dựng dự án P sản xuất thử – thử nghiệm trong năm 2011 để hoàn thiện các sản phẩm và sản xuất ở qui mô công nghiệp nhằm phục vụ nhu cầu đổi mới công nghệ của các doanh nghiệp sản xuất giày dép.
+- Cho phép tiếp tục đề xuất một số đề tài ứng dụng CAD/CAM, tự động hóa, robot cho các tác vụ khác trong quá trình gia công, sản xuất giày dép nhằm nâng cao trình độ công nghệ của một ngành công nghiệp có giá trị xuất khẩu lớn nhưng lại thâm dụng nhiều lao động.
+
+BẢN MÔ TẢ SÁNG CHẾ
+1- Tên sáng chế:
+MÁY DẬP CẮT VẬT LIỆU ĐIỀU KHIỂN CNC TRONG NGÀNH GIÀY DÉP
+Sáng chế đề cập đến máy dập cắt vật liệu điều khiển CNC (Computerized Numerical Control) dùng trong ngành giày dép.
+Máy dập CNC dùng để cắt các chi tiết giày dép được điều khiển tự động bằng chương trình số. Máy này có thể dập cắt tự động vật liệu dạng tấm hay cuộn, đầu dập được di chuyển theo phương ngang còn vật liệu được di chuyển theo phương dọc. Đầu dập được thiết kế để có khả năng tạo ra lực dập theo phương thẳng đứng, còn dao có thể chuyển động xoay quanh trục của đầu dập. Một chương trình cắt tối ưu được đưa vào từ phần mềm sắp xếp có thể điều khiển toàn bộ các chuyển động của máy. Máy có thể cắt hầu hết các loại vật liệu giày dép thông dụng trong công nghiệp như vải, cao su, nhựa, simili, giấy,….
+Chương trình cắt tối ưu có thể được nạp vào máy qua mạng hay đĩa dữ liệu. Trên máy dập CNC, chương trình sắp xếp tối ưu có thể làm tiết kiệm vật liệu đáng kể, còn điều khiển số làm tăng năng suất cắt gấp nhiều lần so với máy dập cắt truyền thống.
+Hình 1 và 2 mô tả cấu trúc của máy dập cắt vật liệu điều khiển CNC dùng trong ngành giày dép.
+
+Hình 1: Cấu trúc của máy dập cắt vật liệu điều khiển CNC dùng trong ngành giày dép (mặt trước).
+
+1.1: Thân máy 1.2: Tang băng tải trước 1.3: Bàn máy 1.4: Vật liệu 1.5: Cảm biến an toàn 1.6: Động cơ servo 1.7: Trục vít me bi 1.8: Bánh răng giới hạn hành trình 1.9: Bánh răng điều chỉnh hành trình 1.10: Động cơ servo 1.11: Xy lanh thủy lực 1.12: Động cơ servo 1.13: Bộ truyền đai răng 1.14: Bộ dao cắt
+
+Hình 2: Cấu trúc của máy dập cắt vật liệu điều khiển CNC dùng trong ngành giày dép (mặt bên phải).
+
+2.1: Động cơ servo 2.2: Bộ truyền đai răng 2.3: Trục vít me bi 2.4: Đai ốc 2.5: Xy lanh căng băng 2.6: Tang căng băng 2.7: Tang trung gian 2.8: Tang băng tải sau 2.9: Xy lanh kẹp băng 2.10: Xy lanh kẹp vật liệu 2.11: Pit tông đầu dập 2.12: Xy lanh kẹp vật liệu 2.13: Xy lanh kẹp vật liệu 2.14: Tang trung gian 2.15: Máy nén khí 2.16: Bơm dầu
+
+
+
+2- Lĩnh vực kỹ thuật được đề cập:
+Sáng chế thuộc lĩnh vực thiết bị gia công giày dép, cụ thể là đề cập đến máy dập cắt vật liệu điều khiển CNC các chi tiết trong ngành sản xuất giày dép.
+3- Tình trạng kỹ thuật của sáng chế:
+Trong sản xuất giày dép công nghiệp hiện nay cắt các chi tiết là công đoạn phổ biến trong quá trình sản xuất. Để cắt chi tiết có thể sử dụng máy dập cắt thủy lực truyền thống hoặc máy dập cắt CNC.
+Chưa thấy các patent được công bố liên quan đến máy dập cắt CNC trong ngành giày dép, có thể người ta chỉ tập trung thực hiện những cải tiến trong các công ty chế tạo, nhưng không đăng ký patent.
+Một số máy dập cắt CNC hiện nay có những nhược điểm cần khắc phục sau đây:
+- Đầu dập di chuyển theo phương ngang, dao được gá đặt trên đầu dập ở một vị trí nhất định, không thay đổi được trong quá trình cắt. Tuy nhiên trong một số trường hợp dao cần xoay với những góc nghiêng khác nhau trong quá trình cắt theo sơ đồ cắt tối ưu thì không thực hiện được.
+- Hệ thống băng tải truyền thống truyền động nhờ tang chủ động kéo tang bị động quay lồng không. Tuy nhiên hệ thống băng tải này dễ bị trượt và tạo ra sai số, không đảm bảo độ chính xác vị trí tương đối giữa hai hàng cắt.
+4- Bản chất kỹ thuật của sáng chế:
+Sáng chế được tạo ra nhằm mục đích khắc phục các nhược điểm nêu trên của cơ cấu xoay dao và cơ cấu di chuyển băng tải.
+Nhược điểm thứ nhất được khắc phục bằng cách trang bị cho máy dập cắt một cơ cấu xoay dao tự động theo các góc xoay bất kỳ từ 00 đến 3600 theo sơ đồ cắt tối ưu.
+Nguyên lý hoạt động của cơ cấu xoay dao như sau:
+Động cơ servo truyền động cho mâm xoay và dao thông qua bộ truyền đai răng. Do động cơ servo và bộ truyền đai răng đều truyền động với độ chính xác cao nên góc xoay dao cũng đạt được độ chính xác cao.
+Vấn đề thứ hai được khắc phục bằng cách trang bị cho máy dập cắt một cơ cấu dịch chuyển băng tải có độ chính xác cao, thích hợp cho vật liệu dạng cuộn và dạng tấm.
+Trong trường hợp này băng tải được đỡ bởi hai trục tang quay lồng không ở hai đầu. Vật liệu được đặt lên băng tải, sau đó được kẹp chặt nhờ một cơ cấu kẹp chặt băng tải. Cơ cấu này gồm một thanh kẹp trên và một thanh kẹp dưới có chiều dài lớn hơn chiều rộng của băng tải. Thanh kẹp trên được gắn hai xy lanh khí nén tác động ở hai đầu thanh. Khi xy lanh khí nén tác động thì thanh kẹp trên sẽ ép tấm vật liệu và băng tải sát vào thanh kẹp dưới.
+Cơ cấu kẹp này được gắn trên một bệ đỡ, bệ đỡ liên kết và được truyền động nhờ bộ truyền trục vít me bi. Bộ truyền này được dẫn động bằng động cơ servo.
+Do động cơ servo và trục vít me bi đều truyền động với độ chính xác cao nên dịch chuyển của băng tải và tấm vật liệu cũng đạt được độ chính xác cao.
+
+5- Mô tả vắn tắt hình vẽ nguyên lý:
+1. Cơ cấu xoay dao:
+Hình 3: Cơ cấu xoay dao.
+3.1. Tấm gá động cơ servo. 3.2. Tấm định vị. 3.3. Bộ truyền đai răng. 3.4. Động cơ servo. 3.5. Thân của bộ xy lanh thủy lực. 3.6. Mâm xoay. 3.7. Tấm gá dao. 3.8. Dao cắt. 3.9. Ổ bi đũa. 3.10. Đầu pít tông thủy lực. 3.11. Bạc thau.
+
+Dao cắt (3.8) được lắp trên tấm gá dao (3.7) bằng hai bu lông M5. Tấm gá dao (3.7) được lắp trên tấm định vị (3.2) nhờ hai rãnh định vị song song và được kẹp chặt bằng hai bu lông M8. Tấm định vị (3.2) được định vị và lắp cố định trên mặt dưới của mâm xoay (3.6). Mâm xoay (3.6) là một tấm kim loại hình bát giác, có vành trong được lắp quay lồng không với đầu pít tông thuỷ lực (3.10) nhờ ổ bi đũa (3.9). Vành ngoài mặt trên của mâm xoay (3.6) được lắp với một bánh đai răng lớn có đường kính 600 mm. Động cơ servo (3.4) được lắp cố định trên tấm gá (3.1), tấm gá này liên kết với mặt đầu của thân xy lanh.
+Nguyên lý hoạt động của cơ cấu xoay dao như sau:
+Động cơ servo (3.4) truyền động bộ truyền đai răng (3.3) làm quay mâm xoay (3.6) một góc theo yêu cầu của sơ đồ cắt. Tỉ số truyền của bộ truyền đai răng (3.3) được tính toán sao cho đảm bảo mối quan hệ giữa góc xoay dao và tốc độ động cơ.
+2. Cơ cấu di chuyển băng tải:
+Hình 4: Cơ cấu di chuyển băng tải.
+4.1: Động cơ servo. 4.2: Bộ xy lanh khí nén căng băng tải. 4.3: Tang đỡ. 4.4: Trục vít me bi. 4.5: Tấm băng tải. 4.6: Cơ cấu kẹp băng tải. 4.7: Cơ cấu căng băng tải. 4.8: Khung đỡ.
+
+
+Hình 5: Cơ cấu hệ thống kẹp băng tải.
+5.1: Xy lanh khí nén 5.2: Bệ đỡ cơ cấu kẹp 5.3: Cơ cấu giới hạn hành trình kẹp 5.4: Tấm đỡ xy lanh ngang 5.5: Tấm đỡ xy lanh đứng 5.6: Thanh kẹp băng tải 5.7: Tấm kẹp băng tải.
+
+Cơ cấu di chuyển băng tải bao gồm hai bộ phận chính: hệ thống băng tải và cơ cấu kẹp băng tải (4.6).
+
+- Hệ thống băng tải bao gồm:
+Tấm băng tải (4.5), được lắp đặt trên hai tang đỡ (4.3). Hai tang này được lắp cố định lên khung đỡ (4.8) và quay lồng không. Một cơ cấu căng băng tải (4.7) được lắp đặt để tác động vào hai đầu của các tang đỡ nhằm tăng hoặc giảm độ căng của tấm băng tải khi cần thiết. Phía dưới khung đỡ (4.8) có lắp đặt bộ xy lanh khí nén (4.2). Bộ xy lanh khí nén (4.2) có nhiệm vụ làm căng băng tải khi cơ cấu kẹp băng tải (4.6) kéo tấm băng tải di chuyển.
+- Cơ cấu kẹp băng tải bao gồm:
+Hai bộ xy lanh khí nén (5. 1) ở hai đầu của thanh kẹp băng tải (5.6). Bộ xy lanh khí nén (5.1) được lắp cố định trên tấm đỡ xy lanh ngang (5.4) và được liên kết với thanh kẹp băng tải (5.6) bằng tấm đỡ xy lanh đứng (5.5). Thanh kẹp băng tải (5.6) có thể được điều chỉnh di chuyển theo phương thẳng đứng và được giới hạn bởi cơ cấu giới hạn hành trình kẹp (5.3).
+Cơ cấu kẹp băng tải (4.6) di chuyển được là nhờ động cơ servo (4.1) truyền động cho trục vít me bi (4.4) liên kết với cơ cấu kẹp.
+Nguyên lý làm việc của cơ cấu di chuyển băng tải như sau:
+Hai bộ xy lanh khí nén (5.1) ở hai đầu đẩy thanh kẹp băng tải (5.6) kẹp vào tấm vật liệu. Động cơ servo (4.1) truyền chuyển động cho trục vít me bi (4.4) kéo toàn bộ cơ cấu kẹp (4.6) di chuyển mang tấm vật liệu chuyển động thẳng tịnh tiến.
+6- Mô tả chi tiết nguyên lý hoạt động:
+Cơ cấu xoay dao được hoạt động theo nguyên lý như sau:
+Cơ cấu xoay dao ( hình 3) là một bộ phận nằm trong đầu dập, nó được điều khiển thay đổi vị trí góc xoay của dao cắt (3.8) để cắt được các chi tiết đúng theo sơ đồ cắt tối ưu được xuất ra từ phần mềm sắp xếp. Khi dập cắt một chi tiết, chương trình điều khiển từ máy tính sẽ đọc vị trí của chi tiết từ file xuất ra của phần mềm sắp xếp, giá trị góc xoay của chi tiết được truyền xuống vi điều khiển để điều khiển cơ cấu xoay dao xoay đúng góc xoay. Động cơ servo (3.4) quay, truyền động bộ truyền đai răng (3.3) làm cho cơ cấu xoay dao chuyển động xoay để đạt giá trị góc điều khiển mong muốn.
+Cơ cấu dịch chuyển băng tải được hoạt động theo nguyên lý như sau:
+Sau khi đầu dập đã cắt xong một hàng trên tấm/cuộn vật liệu, thì tín hiệu điều khiển dịch chuyển tấm băng tải (4.5) được xuất ra từ phần mềm vi điều khiển. Động cơ servo (4.1) được điều khiển quay, thông qua cơ cấu truyền động vít me bi (4.4) làm cho cơ cấu kẹp băng tải (4.6) di chuyển về vị trí gốc (vị trí ban đầu) và dừng lại. Sau khi cơ cấu kẹp băng tải (4.6) dừng đúng vị trí ban đầu, bộ xy lanh khí nén (5.1) ở hai đầu của cơ cấu kẹp (4.6) điều khiển thanh kẹp (5.6) đi xuống. Tấm băng tải (4.5) được kẹp chặt giữa hai thanh kẹp (5.6). Động cơ servo (4.1) kéo cơ cấu kẹp để di chuyển tấm băng tải (4.5) thông qua cơ cấu truyền động vít me bi (4.4), nhờ đó tấm vật liệu cũng di chuyển theo. Khi tấm vật liệu đã đến đúng vị trí thì cơ cấu kẹp phôi cố định vị trí của tấm băng tải (4.5) và tấm vật liệu. Sau đó, xy lanh khí nén (5.1) điều khiển thanh kẹp băng tải (5.6) di chuyển lên. Và cơ cấu kẹp được điều khiển lui về vi trí gốc và dừng lại để bắt đầu một chu trình mới.
+Yêu cầu bảo hộ:
+Máy dập cắt vật liệu điều khiển CNC trong ngành giày dép bao gồm cơ cấu xoay dao và cơ cấu di chuyển băng tải. Điểm khác biệt ở chỗ: Cơ cấu xoay dao (hình 3) được thiết kế có thể xoay dao cắt (3.8) theo các góc khác nhau để đầu dập có thể cắt theo sơ đồ cắt tối ưu. Cơ cấu này là một hệ thống gồm động cơ servo (3.4) liên kết với bộ truyền đai răng (3.3) truyền chuyển động quay cho dao với độ chính xác cao. Cơ cấu di chuyển băng tải (hình 4) là một hệ thống gồm động cơ servo (4.1) liên kết với trục vít me bi (4.4) truyền chuyển động tịnh tiến kéo cơ cấu kẹp băng tải (4.6) dịch chuyển với độ chính xác cao.
+2. Máy dập cắt vật liệu điều khiển CNC trong ngành giày dép này có cơ cấu xoay dao theo điểm 1, khác biệt ở chỗ: trong cơ cấu này, dao cắt (3.8) được lắp trên tấm gá dao ( 3.7), tấm gá dao này được lắp cố định trên tấm định vị (3.2). Đến lượt tấm định vị này được lắp cố định và đồng tâm với mâm xoay (3.6). Chuyển động quay của dao cắt (3.8) được thực hiện nhờ động cơ servo (3.4) truyền động cho bộ truyền đai răng (3.3) làm quay mâm xoay (3.6), được lắp cố định và đồng tâm với vành ngoài bánh đai răng lớn. Vành trong của mâm xoay (3.6) được lắp đồng tâm và quay lồng không với mặt đầu xy lanh thủy lực (3.10).
+3. Máy dập cắt vật liệu điều khiển CNC trong ngành giày dép này có cơ cấu di chuyển băng tải theo điểm 1, khác biệt ở chỗ: tấm băng tải (4.5) được lắp trên các tang đỡ (4.3) quay lồng không và được kẹp chặt nhờ cơ cấu kẹp băng tải (4.6). Cơ cấu kẹp này liên kết cố định với bệ đỡ (5.2). Tấm băng tải di chuyển với độ chính xác cao nhờ động cơ servo (4.1) thông qua trục vít me bi (4.4) truyền chuyển động tịnh tiến cho bệ đỡ cơ cấu kẹp (5.2).
+BẢN TÓM TẮT SÁNG CHẾ
+Sáng chế đề cập đến máy dập cắt vật liệu điều khiển CNC (Computer Numerical Control) dùng trong ngành giày dép. Sáng chế được đưa ra nhằm khắc phục hai nhược điểm chính của máy dập cắt CNC hiện có là dao không quay được và băng tải di chuyển không đảm bảo độ chính xác vị trí. Nhược điểm thứ nhất được khắc phục bằng cách trang bị cho máy dập cắt một cơ cấu xoay dao tự động theo các góc xoay bất kỳ từ 00 đến 3600 theo sơ đồ cắt tối ưu. Nhược điểm thứ hai được khắc phục bằng cách trang bị cho máy dập cắt một cơ cấu dịch chuyển băng tải có độ chính xác cao, thích hợp cho vật liệu dạng cuộn và dạng tấm.
+BẢN MÔ TẢ
+PHẦN MỀM NHÂN NI VÀ SẮP XẾP CHO NGÀNH GIÀY DÉP
+FCS – FOOTWEAR CAD SYSTEMS
+Phần mềm nhân ni và sắp xếp cho ngành giày dép (FCS – Footwear CAD System) có một số đặc điểm sau đây:
+- Nhân ni các chi tiết giày dép từ một ni gốc thành các ni khác thuộc nhiều hệ nhân ni do người dùng lựa chọn.
+- Sắp xếp tối ưu sơ đồ cắt các chi tiết cùng loại trên vật liệu dạng tấm hoặc dạng cuộn.
+- Tích hợp với phần mềm điều khiển để điều khiển máy dập cắt CNC thực hiện chức năng dập cắt chi tiết giày dép theo sơ đồ cắt tối ưu.
+- Xuất file chi tiết để đặt làm dao cắt.
+- Lưu trữ dữ liệu về các chi tiết và sơ đồ cắt tối ưu.
+- Hoạt động trong môi trường Windows 7, Vista và XP.
+- Ngôn ngữ sử dụng là tiếng Việt và tiếng Anh.
+
+.......................................
+KẾT LUẬN VÀ KIẾN NGHỊ
+Kết luận
+Những kết quả mới của đề tài bao gồm:
+- Một máy dập cắt vật liệu điều khiển CNC.
+- Một phần mềm nhân ni và sắp xếp.
+- Phần mềm nhân ni và sắp xếp và máy dập cắt: có thể tích hợp với nhau thành một hệ thống CAD/CAM/CNC, đã được Trung tâm Tiêu chuẩn – Đo lường – Chất lượng 2 cấp Giấy chứng nhận kiểm tra tra kỹ thuật và đã làm thủ tục đăng ký sở hữu trí tuệ.
+- 4 bài báo và 1 báo cáo khoa học.
+- 2 luận văn thạc sĩ và 1 luận án tiến sĩ.
+2. Kiến nghị
+Nhóm nghiên cứu đề xuất với Lãnh đạo Bộ Khoa học & Công nghệ, lãnh đạo Trường Đại học Bách khoa, ĐHQG TPHCM một số kiến nghị sau đây:
+- Cho phép nhóm đề tài tiếp tục triển khai ứng dụng hệ thống CAD/CAM/CNC cắt vật liệu trong năm 2010 tại Công ty CP Giày Việt để có những thông tin phản hồi nhằm hoàn thiện sản phẩm và tính hiệu quả kinh tế của việc đổi mới công nghệ.
+- Cho phép tổ chức hội thảo giới thiệu các kết quả ứng dụng của đề tài và thường xuyên tổ chức các đoàn tham quan tại công ty này như là một mô hình ứng dụng công nghệ mới trong ngành giày dép.
+- Cho phép phối hợp với một số doanh nghiệp cơ khí chế tạo, Hội da giày TPHCM, Hội da giày Việt Nam xây dựng dự án P sản xuất thử – thử nghiệm trong năm 2011 để hoàn thiện các sản phẩm và sản xuất ở qui mô công nghiệp nhằm phục vụ nhu cầu đổi mới công nghệ của các doanh nghiệp sản xuất giày dép.
+- Cho phép tiếp tục đề xuất một số đề tài ứng dụng CAD/CAM, tự động hóa, robot cho các tác vụ khác trong quá trình gia công, sản xuất giày dép nhằm nâng cao trình độ công nghệ của một ngành công nghiệp có giá trị xuất khẩu lớn nhưng lại thâm dụng nhiều lao động.
+
+CHƯƠNG 8 THIẾT KẾ VÀ LẬP TRÌNH PHẦN MỀM ĐIỀU KHIỂN MÁY DẬP CẮT CNC Chương này giới thiệu các yêu cầu kỹ thuật của phần mềm điều khiển và các chức năng điều khiển của phần mềm, từ đó xây dựng nội dung của phần mềm và cuối cùng vận hành phần mềm điều khiển này. 8.1 Mở đầu Phần mềm điều khiển máy dập cắt CNC là công cụ liên kết dữ liệu giữa phần mềm nhân ni và sắp xếp với máy dập cắt CNC. Phần mềm này điều khiển mọi hoạt động của máy dập cắt CNC nhằm dập cắt ra các chi tiết giày dép theo đúng sơ đồ sắp xếp xuất ra từ phần mềm nhân ni và sắp xếp với hệ số sử dụng vật liệu cao. 8.2 Các yêu cầu kỹ thuật của phần mềm điều khiển Phần mềm điều khiển máy dập cắt CNC được thiết kế để điều khiển mọi hoạt động của máy dập cắt CNC. Các chức năng của phần mềm bao gồm: - Hoạt động trên môi trường Windows. - Giao diện đơn giản, dễ sử dụng. - Giao tiếp được với phần mềm nhân ni và sắp xếp. - Chuyển dữ liệu sơ đồ cắt thành file dữ liệu số điều khiển máy dập cắt. - Điều khiển máy dập cắt CNC và hiển thị vị trí của đầu dập, vị trí của băng tải, góc xoay dao theo thời gian thực. - Cho phép cài đặt số lượng chi tiết cần dập cắt. - Hiển thị số lượng chi tiết đã được dập cắt. - Cho phép lựa chọn tốc độ di chuyển đầu dập, tốc độ di chuyển băng tải, tốc độ xoay dao. - Ngôn ngữ sử dụng tiếng Việt và tiếng Anh.
+
+8.3 Các chức năng của phần mềm điều khiển Từ các yêu cầu kỷ thuật nêu trên cần thiết kế phần mềm điều khiển với một số chức năng chính được trình bày như hình 8.1. Hình 8.1: Cấu trúc của phần mềm điều khiển máy dập cắt CNC.
+
+Nội dung của các chức năng chính và giải thuật ([8.1]) như sau:
+Quản lý trạng thái của các cơ cấu tác động:
+Phần mềm điều khiển quản lý trạng thái của cụm đầu dập, cụm băng tải và cụm điều chỉnh hành trình cắt. Các trạng thái được thông báo trên phần mềm bao gồm:
+- Giới hạn hai phía của cụm đầu dập (X+ và X-).
+- Giới hạn 2 phía của cụm băng tải (Y+ và Y-).
+- Giới hạn của hành trình cắt (D+ và D-).
+- Trục X đã về gốc (X về gốc).
+- Trục Y đã về gốc (Y về gốc).
+- Góc C đã về gốc (C về gốc).
+- Trục D đã về gốc (D về gốc).
+Sơ đồ giải thuật quản lý trạng thái của các cơ cấu tác động được thể hiện như hình 8.2.
+
+
+
+
+
+
+
+
+
+
+
+
+Hình 8.2: Giải thuật quản lý trạng thái của các cơ cấu tác động.
+Quản lý vị trí (tọa độ) của đầu dập, băng tải và góc xoay dao
+Các vị trí của đầu dập (trục X) so với gốc 0, vị trí tương đối của băng tải giữa 2 lần di chuyển (trục Y) và vị trí của góc xoay C được phản hồi về bộ điều khiển và hiển thị giá trị thực hiện được lên giao diện phần mềm.
+Nhờ giá trị hiển thị này và giá trị thực tế mà bộ điều khiển cần đạt tới giúp xác định sai số di chuyển của các trục X, trục Y và góc xoay dao C.
+Sơ đồ giải thuật xử lý và hiển thị vị trí của trục X, trục Y và góc xoay dao C được thể hiện như hình 8.3.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hình 8.3: Giải thuật quản lý vị trí.
+Cho phép chạy ở chế độ từng câu lệnh để kiểm tra hoặc chạy chế độ tự động
+Ở chế độ chạy từng câu lệnh, phần mềm sẽ điều khiển máy chạy theo giá trị câu lệnh được hiển thị. Chế độ này dùng để kiểm tra sai số di chuyển về tọa độ của các trục cũng như đánh giá việc thực thi các câu lệnh trong file dữ liệu xuất ra từ phần mềm nhân ni và sắp xếp.
+Chế độ chạy tự động sẽ thực hiện tuần tự từng dòng lệnh trong file dữ liệu sơ đồ cắt.
+Xem trước câu lệnh đang thực hiện và lệnh thực thi tiếp theo
+Chương trình sẽ gọi và hiển thị lên màn hình dòng lệnh cần thực thi và lệnh thực thi kế tiếp ở chu kỳ sau.
+Chọn cấp tốc độ di chuyển của hệ thống 25%; 50%; 75% và 100%
+Phần mềm điều khiển vận hành theo 4 cấp tốc độ khác nhau.
+- Cấp độ 25%, 50% là cấp độ dùng trong việc điều chỉnh máy.
+- Cấp độ 75% thường được dùng để chạy rô đai máy.
+- Cấp độ hoạt động thực tế sẽ được cài đặt bằng 100% tốc độ di chuyển tối đa của cụm đầu dập, cụm kéo băng tải và cụm xoay dao.
+Việc phân chia này giúp cho việc kiểm tra, đo đạc được thực hiện dễ dàng hơn khi máy di chuyển với tốc độ thấp. Bên cạnh đó, đối với những loại vật liệu khác nhau thì cũng có tốc độ dập cắt khác nhau để đảm bảo chất lượng chi tiết được dập ra.
+Cài đặt số lượng chi tiết giày dép cần dập cắt
+Khi số lượng chi tiết cần dập cắt cho một mã hàng ít hơn số lượng chi tiết có thể sắp xếp trên một cuộn vật liệu thì việc cài đặt số lượng chi tiết cần dập cắt ra là cần thiết. Phần mềm sẽ có một bộ đếm số lượng chi tiết đã được dập cắt ra bằng cách đếm số lần di chuyển của đầu dập. Nếu số lượng chi tiết đã dập ra bằng với số

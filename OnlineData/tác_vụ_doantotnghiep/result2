@@ -1,0 +1,470 @@
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP. HCM
+KHOA ĐIỆN - ĐIỆN TỬ
+BỘ MÔN ĐIỆN TỬ - VIỄN THÔNG
+
+ĐỒ ÁN TỐT NGHIỆP
+Đề tài:
+TÌM HIỂU HỆ THỐNG NHÚNG VÀ XÂY DỰNG ỨNG DỤNG PICTURE FRAME
+Tìm hiểu về hệ thống nhúng và xây dựng ứng dụng Picture Frame
+TÓM TẮT LUẬN VĂN
+Ứng dụng cho các hệ thống nhúng hiện nay ngày càng trở nên phức tạp, không phải đơn giản chỉ là điều khiển một chốt đèn giao thông định thời, đếm số người ra vào cửa, điều khiển động cơ, hiển thị một câu thông báo trên LCD... Xu thế tất yếu, các nhân điều khiển cần có cấu hình mạnh hơn, đáp ứng thời gian thực tốt hơn các nhân điều khiển 8 bit đang dùng.
+Ngày nay với sự phát triển của khoa học và kỹ thuật, các ứng dụng mang tính hệ thống lớn được thế kế sử dụng các vi xử lý 16/32 bit. Trong đó phổ biến nhất là ARM, chiếm hơn 75% chip 32 bit trên thị trường. ARM là một họ vi xử lý RISC 16/32 bit của ARM Ltd. Đặc tính nổi trội của ARM là tiết kiệm năng lượng, do đó được sử dụng trong nhiều thiết bị cầm tay, là CPU được tìm thấy khắp nơi trong các sản phẩm thương mại điện tử (PDA, Mobile…) đến các thiết bị ngoại vi máy tính (ổ đĩa cứng, bộ định tuyến để bàn…). Do đó việc tìm hiểu và nghiên cứu về vi điều khiển ARM là điều hết sức cần thiết. Sau quá trình tìm hiểu và thực hiện đề tài đã giúp nhóm thực hiện hiểu được kiến trúc, tập lệnh cũng như thiết kế ứng dụng trên lõi vi xử lý ARM. Dựa trên kiến thức tìm hiểu được,
+nhóm quyết định thực hiện đề tài: “ Tìm hiểu về hệ thống nhúng và xây dựng ứng dụng Picture Frame”
+Trong quá trình thực hiện luận văn, dù đã cố gắng, nỗ lực song khó tránh khỏi thiếu xót
+MỤC LỤC
+Trang
+Trang bìa............................................................................................................................
+Quyết định giao đề tài.....................................................................................................
+Lịch trình thực hiện đề tài...............................................................................................
+Lời cảm ơn....................................................................................................................... I
+Mục lục........................................................................................................................... II
+Liệt kê bảng................................................................................................................... III
+Liệt kê hình................................................................................................................... IV
+Liệt kê từ viết tắt........................................................................................................... V
+Tóm tắt........................................................................................................................... VI
+Chương 1: GIỚI THIỆU................................................................................................... 1
+1.1 Vấn đề và tầm quan trọng của vấn đề........................................................................ 1
+1.2 Mục tiêu nghiên cứu..................................................................................................... 2
+1.3 Đối tượng nghiên cứu.................................................................................................... 2
+1.4 Phương thức nghiên cứu............................................................................................... 2
+1.5 Nội dung chính nghiên cứu.......................................................................................... 2
+Chương 2: GIỚI THIỆU HỆ THỐNG NHÚNG........................................................... 4
+2.1 Giới thiệu hệ thống nhúng........................................................................................... 4
+2.1.1. Định nghĩa hệ thống nhúng................................................................................... 4
+2.1.2. Các đặc điểm của hệ thống nhúng........................................................................ 6
+2.1.3. Giao diện.................................................................................................................. 6
+2.1.4. Kiến trúc CPU......................................................................................................... 7
+2.1.5. Thiết bị ngoại vi...................................................................................................... 7
+2.1.6. Công cụ phát triển.................................................................................................. 7
+2.2Các thành phần trong hệ thống nhúng......................................................................... 8
+2.2.1. Phần cứng trong hệ thống nhúng.......................................................................... 8
+2.2.2. Phần mềm trong hệ thống nhúng........................................................................ 15
+Chương 3: TRÌNH ĐIỀU KHIỂN THIẾT BỊ.............................................................. 19
+3.1Giới thiệu device driver.............................................................................................. 19
+3.2Phân loại device driver............................................................................................... 20
+3.3Cấu trúc device driver................................................................................................. 21
+3.4 Ví dụ về character driver.......................................................................................... 23
+Chương 4: GIỚI THIỆU BOARD KM9260................................................................ 26
+4.1 giới thiệu phấn cứng................................................................................................... 26
+4.2 Sơ đồ khối board......................................................................................................... 27
+4.3 chú thích đặc biệt trên kit ......................................................................................... 32
+4.4 Tổ chức phần mềm trong hệ thống nhúng km9260................................................ 33
+4.4.1 Bootstrap................................................................................................................ 33
+4.4.2 U-boot..................................................................................................................... 34
+4.4.3 Kernel................................................................................................................................... 34
+4.4.4 File system.............................................................................................................. 35
+4.5 Cài đặt chương trình cho hệ thống............................................................................ 36
+4.6 Xây dựng và phát triển hệ thống............................................................................... 41
+4.6.1 Bootstrap................................................................................................................ 41
+4.6.2 U-boot..................................................................................................................... 41
+4.7 Biên dịch Linux Kernel.............................................................................................. 42
+Chương 5: LCD TFT........................................................................................................ 44
+5.1 Giới thiệu ili9320....................................................................................................... 44
+5.2 Những đặc trưng của ili9320.................................................................................... 44
+5.3 Mô tả chân................................................................................................................... 46
+5.4 Sơ đồ khối................................................................................................................... 47
+5.5 Mô tả khối................................................................................................................... 47
+5.5.1 Giao tiếp hệ thống MPU....................................................................................... 47
+5.5.2 Giao tiếp RGB và VSYNC.................................................................................... 48
+5.5.3 Bộ đếm địa chỉ AC................................................................................................ 48
+5.5.4 Ram đồ họa............................................................................................................. 49
+5.5.5 Grayscale Voltage Generating Circuit............................................................... 49
+5.5.6 Timing Controller.................................................................................................. 49
+5.5.7 Bộ tạo dao động (OSC)......................................................................................... 49
+5.5.8 Mạch điều khiển LCD........................................................................................... 49
+5.5.9 Mạch cấp nguồn điều khiển LCD....................................................................... 50
+5.6 Giao tiếp hệ thống...................................................................................................... 50
+5.6.1 Đặc tính của giao tiếp........................................................................................... 50
+5.6.2 Input Interfaces...................................................................................................... 51
+5.6.3 Giao tiếp ngoại vi nối tiếp SPI............................................................................. 52
+5.6.4 Giao tiếp VSYNC.................................................................................................. 54
+5.6.5 Giao tiếp RGB........................................................................................................ 55
+5.7 Mô hình màu RGB (Red, Green, Bule).................................................................... 57
+5.8 Cấu trúc ảnh BMP....................................................................................................... 59
+5.8.1 Header BMP........................................................................................................... 59
+5.8.2 Thông tin BMP....................................................................................................... 60
+5.8.3 Color Palette........................................................................................................... 61
+5.8.4 Dữ liệu BMP........................................................................................................... 62
+Chương 6: XÂY DỰNG ỨNG DỤNG PICTURE FRAME...................................... 64
+6.1 Giới thiệu khung ảnh số............................................................................................. 64
+6.2 Giới thiệu khung ảnh số của đề tài........................................................................... 65
+6.3 Lưu đồ thực hiện công việc....................................................................................... 66
+6.4 Cấu trúc hoạt động và cài đặt driver........................................................................ 67
+Chương 7: KẾT QUÃ THỰC HIỆN............................................................................ 73
+7.1 Các bước thực hiện………………............................................................................ 73
+7.2 Kết quả đạt được......................................................................................................... 81
+Chương 8: KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN................................................ 83
+8.1 Kết quả đạt được......................................................................................................... 83
+8.2 Kết luận........................................................................................................................ 83
+8.3 Đề nghị hướng phát triển............................................................................................ 83
+Phụ lục A: Mã nguồn chương trình................................................................................. 84
+Phụ lục B: Sơ đồ mạch.................................................................................................... 106
+Tài liệu tham khảo........................................................................................................... 107
+
+Chương 1: GIỚI THIỆU
+1.1Đặt vấn đề và tầm quan trọng của vấn đề
+Trong sự phát triển mạnh mẽ của khoa học kỹ thuật với nền kinh tế trí thức và xu hướng hội nhập toàn cầu như hiện nay, thế giới và Việt Nam đang thực hiện việc kết hợp giữa các ngành thuộc lĩnh vực công nghệ cao trong một Khoa hoặc cơ sở đào tạo. Đó là lĩnh vực khoa học dưới 3 ngọn cờ: Máy tính, Điện tử- Viễn thông và Điều khiển tự (Computer – Communication - Control). Có thể nói, các quá trình sản xuất và quản lí hiện nay như: các hệ thống đo lường điều khiển tự động trong sản xuất công nghiệp; các hệ thống di động và không dây tiên tiến, các hệ thống thông tin vệ tinh, các hệ thống thông tin dựa trên Web, chính phủ điện tử, thương mại điện tử, các cơ sở dữ liệu của nhiều ngành kinh tế và của Quốc gia, các hệ thống thiết bị Y tế hiện đại, các thiết bị điện tử dân dụng, ... đều là sản phẩm của sự kết hợp giữa các lĩnh vực khoa học trên.
+Hiện nay chúng ta đang ở thời đại hậu PC sau giai đoạn phát triển của máy tính lớn (Mainframe) 1960-1980, và sự phát triển của PC-Internet giai đoạn 1980-2000. Giai đoạn hậu PC-Internet này được dự đoán từ năm 2000 đến 2020 là giai đoạn của môi trường thông minh mà hệ thống nhúng là cốt lõi và đang làm nên làn sóng đổi mới trong công nghệ thông tin nói riêng và lĩnh vực công nghệ cao nói chung. Một thực tế khách quan là thị trường của các hệ thống nhúng lớn gấp rất nhiều lần thị trường PC, trong khi đó chúng ta mới nhìn thấy bề nổi của công nghệ thông tin là PC và Internet còn phần chìm của công nghệ thông tin chiếm hơn 90% số bộ xử lý trên toàn cầu này nằm trong các hệ nhúng thì còn ít được biết đến.
+Sức đẩy của công nghệ đưa công nghệ vi điện tử, công nghệ vi cơ điện, công nghệ sinh học hội tụ tạo nên các chip của công nghệ nano, là nền tảng cho những thay đổi cơ bản trong lĩnh vực công nghệ cao, sức kéo của thị trường đòi hỏi các thiết bị phải có nhiều chức năng thân thiện với người dùng, có mức độ thông minh ngày càng cải thiện đưa đến vai trò và tầm quan trọng của các hệ thống nhúng ngày càng cao trong nền kinh tế quốc dân.
+Phát triển các hệ nhúng và phần mềm nhúng là quốc sách của nhiều quốc gia trên thế giới, nhất là giai đoạn hậu PC hiện nay. Ở nước ta hiện nay lĩnh vực này còn khá mới mẻ,do vậy cần có những điều chỉnh phù hợp trong chiến lược phát triển để có thể theo kịp, rút ngắn khoảng cách tụt hậu đối với các nước trong khu vực và trên thế giới.Vì hiểu được tầm quan trong như vậy nên nhóm đã quyết định đưa ra đề tài của theo hướng phát triển này.
+
+
+
+1.2MỤc tiêu nghiên cỨU
+Tìm hiểu về hệ thống nhúng và trình điều khiển thiết bị (driver) trên Linux.
+Nội dung cụ thể bao gồm:
+ü Tìm hiểu về hệ thống nhúng trên Board nhúng SAM9260EK.
+ü Tìm hiều hệ điều hành Linux.
+ü Tìm hiểu cách lập trình về trình điều khiển thiết bị trên Linux (device driver).
+ü Tìm hiểu về Lcd tft 2.4 inch
+ü Thiết kế ứng dụng Picture Frame dựa trên kit nhúng SAM9260EK,trình chiếu hình ảnh trên Lcd tft.
+
+1.3ĐỐi tưỢng nghiên cỨu
+ü Board nhúng SAM9260EK.
+ü Vai trò và các câu lệnh của U-Boot.
+ü Hệ điều hành Linux.
+ü Lập trình C trong hệ điều hành Linux.
+ü Các địa chỉ và thanh ghi chức năng trong Lcd tft
+ü Device driver của Lcd tft.
+
+1.4PHƯƠNG THỨC NGHIÊN CỨU
+Trong quá trình thực hiện đồ án nhóm đã tham khảo nhiều tài liệu từ những trang web về hệ thống nhúng trên Internet,tìm hiểu và trao đổi thông tin trên các diễn đàn.Mặc khác mỗi khi gặp những thắc mắc hay khó khăn thì nhóm đều nhận được những ý kiến đóng góp quý báu từ thầy hướng dẫn là thầy Trương Ngọc Sơn để có thể tiếp tục thực hiện đề tài.
+
+
+
+1.5NỘI DUNG CHÍNH NGHIÊN CỨU
+Vì thời gian thực hiện đề tài hạn chế ,trình độ cũng như sự hiểu biết của nhóm thực hiện có giới hạn,nên nhóm chỉ tập trung giải quyết những vấn đề cốt yếu được phân bố qua từng chương như sau:
+
+CHƯƠNG 2: GIỚI THIỆU HỆ THỐNG NHÚNG
+2.1 GIỚI THIỆU VỀ HỆ THỐNG NHÚNG
+2.1.1 Định nghĩa hệ thống nhúng.
+Một hệ thống nhúng (Embedded system) là một sự kết hợp chặt chẽ giữa phần cứng và phần mềm, có thể kết hợp với một vài thành phần cơ khí khác, được thiết kế để thực hiện một chức năng riêng biệt nào đó.
+Một hệ thống nhúng khác với một máy tính cá nhân. Một máy tính cá nhân không được thiết kế để thực hiện một chức năng riêng biệt, nó có thể làm nhiều việc khác nhau. Khác với các máy tính đa chức năng, chẳng hạn như máy tính cá nhân, một hệ thống nhúng chỉ thực hiện một hoặc một vài chức năng nhất định, thường đi kèm với những yêu cầu cụ thể và bao gồm một số thiết bị máy móc và phần cứng chuyên dụng mà ta không tìm thấy trong một máy tính đa năng nói chung. Vì hệ thống chỉ được xây dựng cho một số nhiệm vụ nhất định nên các nhà thiết kế có thể tối ưu hóa nó nhằm giảm thiểu kích thước và chi phí sản xuất. Các hệ thống nhúng thường được sản xuất hàng loạt với số lượng lớn. Hệ thống nhúng rất đa dạng, phong phú về chủng loại. Đó có thể là những thiết bị cầm tay nhỏ gọn như đồng hồ kĩ thuật số và máy chơi nhạc MP3, hoặc những sản phẩm lớn như đèn giao thông, bộ kiểm soát trong nhà máy hoặc hệ thống kiểm soát các máy năng lượng hạt nhân. Xét về độ phức tạp, hệ thống nhúng có thể rất đơn giản với một vi điều khiển hoặc rất phức tạp với nhiều đơn vị, các thiết bị ngoại vi và mạng lưới được nằm gọn trong một lớp vỏ máy lớn.
+
+Hình 2.1: Hệ thống nhúng cơ bản.
+
+Thông thường, một hệ thống nhúng là một thành phần của một vài hệ thống lớn hơn. Ví dụ những chiếc ô tô và xe tải hiện đại cũng gồm nhiều hệ thống nhúng. Một hệ thống nhúng điều khiển phanh, một hệ thống khác giám sát và điểu khiển sự giải phóng năng lượng của xe, và hệ thống thứ 3 diển thị thông tin lên màn hình. Trong một vài trường hợp, các hệ thống nhúng đó được liên kết với nhau bởi một vài loại mạng giao tiếp.
+
+Hình 2.2: Một số ứng dụng hệ thống nhúng.
+Nếu một hệ thống nhúng được thiết kế tốt, người dùng có thể hoàn toàn không phát hiện ra sự tồn tại của bộ xử lý và phần mềm, giống như trường hợp của lò vi ba, VCR, hay đồng hồ báo thức.
+Các thiết bị PDA hoặc máy tính cầm tay cũng có một số đặc điểm tương tự với hệ thống nhúng như các hệ điều hành hoặc vi xử lý điều khiển chúng nhưng các thiết bị này không phải là hệ thống nhúng thật sự bởi chúng là các thiết bị đa năng, cho phép sử dụng nhiều ứng dụng và kết nối đến nhiều thiết bị ngoại vi.
+
+
+2.1.2 Các đặc điểm của hệ thống nhúng.
+Hệ thống nhúng thường có một số đặc điểm chung như sau:
+Các hệ thống nhúng được thiết kế để thực hiện một số nhiệm vụ chuyên dụng chứ không phải đóng vai trò là các hệ thống máy tính đa chức năng. Một số hệ thống đòi hỏi ràng buộc về tính hoạt động thời gian thực để đảm bảo độ an toàn và tính ứng dụng, một số hệ thống không đòi hỏi hoặc ràng buộc chặt chẽ, cho phép đơn giản hóa hệ thống phần cứng để giảm thiểu chi phí sản xuất. Một hệ thống nhúng thường không phải là một khối riêng biệt mà là một hệ thống phức tạp nằm trong thiết bị mà nó điều khiển. Phần mềm được viết cho các hệ thống nhúng được gọi là firmware và được lưu trữ trong các chip bộ nhớ ROM hoặc bộ nhớ flash chứ không phải là trong một ổ đĩa. Phần mềm thường chạy với số tài nguyên phần cứng hạn chế, không có bàn phím, màn hình hoặc có nhưng với kích thước nhỏ, dung lượng bộ nhớ thấp. Sau đây, ta sẽ đi sâu, xem xét cụ thể đặc điểm của các thành phần của hệ thống nhúng.
+2.1.3 Giao diện.
+Các hệ thống nhúng có thể không có giao diện (đối với những hệ thống đơn nhiệm) hoặc có đầy đủ giao diện giao tiếp với người dùng tương tự như các hệ điều hành trong các thiết bị để bàn. Đối với các hệ thống đơn giản, thiết bị nhúng sử dụng nút bấm, đèn LED và hiển thị chữ cỡ nhỏ hoặc chỉ hiển thị số, thường đi kèm với một hệ thống menu đơn giản.
+Còn trong một hệ thống phức tạp hơn, một màn hình đồ họa, cảm ứng hoặc có các nút bấm ở lề màn hình cho phép thực hiện các thao tác phức tạp mà tối thiểu hóa được khoảng không gian cần sử dụng, ý nghĩa của các nút bấm có thể thay đổi theo màn hình và các lựa chọn. Các hệ thống nhúng thường có một màn hình với một nút bấm dạng cần điểu khiển (joystick button). Sự phát triển mạnh mẽ của mạng toàn cầu đã mang đến cho những nhà thiết kế hệ nhúng một lựa chọn mới là sử dụng một giao diện web thông qua việc kết nối mạng. Điều này có thể giúp tránh được chi phí cho những màn hình phức tạp nhưng đồng thời vẫn cung cấp khả năng hiển thị và nhập liệu phức tạp khi cần đến thông qua một máy tính khác. Điều này là hết sức hữu dụng đối với các thiết bị điều khiển từ xa, cài đặt vĩnh viễn. Ví dụ, các router là các thiết bị đã ứng dụng tiện ích này.
+
+Hình 2.3: Giao diện hệ thống nhúng.
+2.1.4 Kiến trúc CPU.
+Các bộ xử lý trong hệ thống nhúng có thể được chia thành hai loại: vi xử lý và vi điều khiển. Các vi điều khiển thường có các thiết bị ngoại vi được tích hợp trên chip nhằm giảm kích thước của hệ thống. Có rất nhiều loại kiến trúc CPU được sử dụng trong thiết kế hệ nhúng như ARM, MIPS, Coldfire/68k, PowerPC, x86, PIC, 8051, Atmel AVR, Renesas H8, SH, V850, FR-V, M32R, Z80, Z8 …
+2.1.5 Thiết bị ngoại vi.
+Hệ thống nhúng giao tiếp với bên ngoài thông qua các thiết bị ngoại vi, ví dụ như:
+Serial Communication Interfaces (SCI): RS-232, RS-422, RS-485... Synchronous Serial Communication Interface: I2C, JTAG, SPI, SSC và ESSI Universal Serial Bus (USB). Networks: Controller Area Network, LonWorks... Bộ định thời: PLL(s), Capture/Compare và Time Processing Unit. Discrete IO: General Purpose Input/Output (GPIO).
+2.1.6 Công cụ phát triển.
+Tương tự như các sản phẩm phần mềm khác, phần mềm hệ thống nhúng cũng được phát triển nhờ việc sử dụng các trình biên dịch (compilers), chương trình dịch hợp ngữ (assembler) hoặc các công cụ gỡ rối (debuggers). Tuy nhiên, các nhà thiết kế hệ thống nhúng có thể sử dụng một số công cụ chuyên dụng như:
+Bộ gỡ rối mạch hoặc các chương trình mô phỏng (emulator). Tiện ích để thêm các giá trị checksum hoặc CRC vào chương trình, giúp hệ thống nhúng có thể kiểm tra tính hợp lệ của chương trình đó. Đối với các hệ thống xử lý tín hiệu số, người phát triển hệ thống có thể sử dụng phần mềm workbench như MathCad hoặc Mathematica để mô phỏng các phép toán. Các trình biên dịch và trình liên kết (linker) chuyên dụng được sử dụng để tối ưu hóa một thiết bị phần cứng. Một hệ thống nhúng có thể có ngôn ngữ lập trình và công cụ thiết kế riêng của nó hoặc sử dụng và cải tiến từ một ngôn ngữ đã có sẵn. Các công cụ phần mềm có thể được tạo ra bởi các công ty phần mềm chuyên dụng về hệ thống nhúng hoặc chuyển đổi từ các công cụ phát triển phần mềm GNU. Đôi khi, các công cụ phát triển dành cho máy tính cá nhân cũng được sử dụng nếu bộ xử lý của hệ thống nhúng đó gần giống với bộ xử lý của một máy PC thông dụng.
+2.2 CÁC THÀNH PHẦN TRONG HỆ THỐNG NHÚNG
+2.2.1 Phần cứng trong hệ thống nhúng
+
+HÌNH 2.4 : Cấu trúc phần cứng hệ thống nhúng
+
+
+
+2.2.1.1 Vi xử lý
+ARM
+Là viết tắt của Advanced RISC Machine- là một họ vi xử lí được phát triển bởi ARM Holdings Ltd. Khác với các nhà sản xuất chip khác như IBM, Freescale hay Intel, công ti ARM Holdings không sản xuất chip xử lí của chính họ, thay vào đó họ thiết kế lõi CPU cho các khách hàng dựa trên kiến trúc lõi ARM và cho khách hàng sản xuất theo thiết kế đó tại bất kì công ti sản xuất chip nào mà họ mong muốn. Đây là một hướng đi mới, tuy nhiên sẽ dễ làm cho các nhà phát triển bị phân tâm giữa nhiều nhà sản xuất chip ARM khi họ bắt đầu lựa chọn. Tuy nhiên, có một điều giống nhau của các bộ xử lí ARM là đều có chung một kiến trúc tập lệnh, dẫn đến tính tương thích của phần mềm chạy trên đó. Điều này không có nghĩa là tất cả các CPU ARM và board đều được lập trình và cài đặt giống nhau, mà chỉ các ngôn ngữ Assemble và các tập tin Binary thực thi là giống nhau.
+Ngày nay, đa số các CPU ARM được sản xuất bởi Marvell ( trước là một nhánh của Intel, sản xuất dưới thương hiệu là “Xscale”), Toshiba, Samsung, và nhiều nhà sản xuất khác. Kiến trúc ARM được sử dụng rộng rãi trong nhiều thiết bị, từ điện thoại cho đến các thiết bị mạng và nhiều sản phẩm cũng như dịch vụ khác nữa mà rất có thể chính ta cũng đang sử dụng.
+AVR32
+Là kiến trúc vi xử lí 32bit mới của Atmel corporation được đưa ra thị trường vào năm 2006 (trước đó Atmel chỉ chuyên sản xuất vi điều khiển 8 bit như họ 8051). Ngoài những đặc điển thông thường của AVR, AVR32 hỗ trợ tập lệnh 16 cũng như 32 bit, hỗ trợ các lệnh xử lí tín hiệu số DSP hay Java. AVR32 cũng chính thức được đưa vào Linux Kernel Mailing List năm 2006 và đã có board phát triển dựa trên chip này.
+Intel x86
+Họ x86 của intel bắt đầu từ bộ vi xử lí 386 vào năm 1985 và phát triển cho đến nay với 486, Pentium, Xeon, Core, Core 2 và một số vi ử lí của National Semiconductor hay AMD cũng sản xuất theo họ này như Itanium.
+Ngày nay, một số nhà sản xuất sử dụng lại họ vi xử lí 386 và thiết kế lại theo dạng System- on- Chip (SoC) để sử dụng trong các hệ thống nhúng gọi là i386.
+Mặc dù x86 là hệ thống phổ biến nhất chạy Linux, nhưng chúng không có thị phần lớn trong hệ thống nhúng. Người ta thường sử dụng ARM, MIPS, PowerPC i386 hơn vì tính phức tạp, khả năng tiêu thụ năng lượng và giá thành của nó.
+M32R
+Là họ vi xử lí 32 bit của Renesas, cũng được sử dụng trong nhiều thiết bị nghe nhìn và điều khiển như PDA, camera, và thiết bị điều khiển động cơ trong xe hơi.
+
+MIPS
+Là kiến trúc CPU của nhà khoa học máy tính John Hennessey- tác giả của nhiều cuốn sách nổi tiếng về kiến trúc máy tính – kết quả của dự án mang tên Microprocessor without Interlocked Pipeline Stage (MIPS) của đại học Stanford.
+MIPS được sử dụng trong các hệ máy chơi game như Nintendo’s 64bit, SonyPlaysatation 1&2 và một số thiết bị điện tử tiêu dùng khác.
+Tương tự như ARM, công ti MIPS Technologies giữ bản quyền kiến trúc nhân của CPU, nhưng không hoàn toàn giống nhau về tập lệnh so với ARM. Các chip 32 bit MIPS thường sản xuất bởi IDT, Toshiba, RMI, NXP, LSI, còn các chip 64 bit thường của IDT, LSI, NEC, NXP, Broadcom hay Toshiba. So với các CPU trên thì MIPS ít thông dụng hơn trong hệ thống nhúng Linux.
+Motorola 68000
+Họ 68000 của Motorola thường được biết dưới cái tên m68k. Đây là họ CPU chỉ đứng sau họ x86 của Intel về mức độ phổ biến vào những năm 1980. Mặc dù ngày nay các hệ thống nhúng thường chuộng những kiến trúc CPU mới hơn như ARM, MIPS, PowerPC nhưng m68k với nguồn tài liệu phong phú vẫn có một vị trí nhất định
+PowerPC
+Kiến trúc PowerPC là sự hợp tác của ba nhà sản xuất Apple, IBM, Motorola (bộ ba AIM). Là bộ xử lí được biết đến nhiều nhất trong dòng máy tính MAC của Apple, và một số máy chủ của IBM.
+Cùng với i386, ARM, thì PowerPC là hệ thống được hỗ trợ nhiều nhất trên Linux nhờ có sự ủng hộ của các nhà sản xuất lớn.
+SuperH
+Tiếp nối thành công của các bộ vi điều khiển 8, 16 bit của dòng H8 trước đó, Hitachi sản xuất dòng SuperH vào những năm đầu 1990 với độ dài từ 32 bit. SuperH Inc của Hitachi (nay là Renesas Technology) nắm giữ bản quyền kiến trúc và phát triển SuperH tương tự như mộ hình của ARM và MIPS. SuperH được sử dụng nhiều trong các sản phẩm của Hitachi như PDA hay một số máy chơi game thế hệ cũ.
+Các phiên bản cũ của SuperH như SH-1, SH-2 không được Linux hỗ trợ, bắt đầu từ các phiên bản SH- 3, 4, 5 đã chạy được Linux.
+
+
+
+
+
+
+2.2.1.2 Bộ nhớ
+Cấu trúc cơ bản của bộ nhớ gồm có 3 thành phần: IC nhớ, bus địa chỉ, bus dữ liệu.
+Hình 2.5: Sơ đồ cấu trúc bộ nhớ
+ROM- Read Only Memory
+Hình 2.6 : Cấu trúc ROM với 3 đường địa chỉ, 8 đường dữ liệu và kích thước 8 byte
+Là loại bộ nhớ chỉ đọc mà không thề thay đổi thông tin bên trong được, thông tin trên ROM chỉ được lưu bởi nhà sản xuất.
+Thông tin trên ROM thường ghi theo Địa chỉ x Đường dữ liệu (Ví dụ 16kB- 16kBytes ROM là 16K x 8 ROM: tức có 16Kbit-14 đường địa chỉ và 8 đường dữ liệu.
+Các loại ROM thông dụng:
+One-time Programmable ROM (OTP hay OTPRom): Chỉ lập trình được một lần Erasable Programmable ROM(EPROM): Có thể được xóa một hay nhiều lần bằng tia cực tím Electrically Erasable Programmable ROM(EEPROM): giống EPROM, có thể xóa nhiều lần nhưng xóa bằng điện nên việc xóa dễ dàng hơn và có thể thực hiện ngay trên Board So với Flash thì ROM chậm hơn và mắc hơn.
+Bộ nhớ RAM
+RAM- thường được coi như là bộ nhớ chính, thường được truy xuất một cách ngẫu nhiên và nội dung trên nó thường được các phần cứng thay đổi nhiều lần, và bị mất đi khi mất điện (volatile). Hai loại RAM chính là Static RAM và Dynamic RAM.
+So với SRAM lưu dữ liệu bằng các mạch Flip-Flop, thì DRAM sử dụng các tụ điện , vì vậy mà chúng cần được refresh (làm tươi) để duy trì đặc tính nạp xả của tụ. Cứ sau mỗi lần đọc dữ liệu các tụ này phải được nạp lại do quá trình đọc làm mất điện tích trong tụ.
+Chính vì qúa trình nạp-xả trong mỗi cell nhớ nên gọi là DRAM- RAM động.
+Bộ nhớ Flash
+Hầu như tất cả chúng ta đều đã quen thuộc với loại bộ nhớ Compact Flash và SD card được sử dụng trong hầu hết các thiết bị điện tử tiêu dùng ngày nay như Camera và PDAs (đều là các sản phẩm nhúng tiêu biểu), chúng đều dựa trên công nghệ Flash với khả năng chứa dữ liệu là hàng Gigabytes trên kích thước chỉ bằng đầu móng tay.
+Có nhiều nhà sản suất bộ nhớ Flash, với nhiều hình dáng kích thước vật lí, kích thước bộ nhớ hay đặc tính điện từ khác nhau. Ngày nay, ít khi thấy những hệ thống nhúng mà chỉ có khoảng 4MB hay 8MB dữ liệu, thay vào đó là khoảng từ 16MB đến 256MB hay hơn thế nữa.
+Bộ nhớ Flash có thể được ghi hay xóa bằng phần mềm. Mặc dù tốc độ còn chậm so với ổ cứng (Hard driver) nhưng đang từng ngày được cải thiện
+Bộ nhớ Flash được chia thành từng đơn vị nhỏ gọi là Blocks. Mỗi Block sẽ định rõ dữ liệu đang được đọc hay ghi. Đối với bộ nhớ NOR Flash, dữ liệu có thể dễ dàng chuyển từ 1 sang 0 bằng phần mềm trực tiếp vào từng Cell, theo đơn vị bit hay Word. Tuy nhiên, việc chuyển từ 0 sang 1 đòi hỏi phải thực hiện tuần tự các lệnh điều khiển đặc biệt tới Flash chip.
+Một bộ nhớ NOR Flash bao gồm nhiều blocks. Ví dụ, khoảng 4MB Flash bao gồm 64 Block, mỗi Block là 64KB. Đôi khi kích thước mỗi Flash Block cũng không đồng nhất, nhằm làm tăng tính linh hoạt trong việc lưu trữ dữ liệu. Các Block có kích thước khác biệt này thường gọi là Boot Block hay boot sector Flash. Thường thì boot loader sẽ được lưu vào các block có kích thước nhỏ, còn Kernel lưu vào các Block có kích thước lớn hơn.
+Hình 2.7 : Cấu trúc dữ liệu một Boot Flash
+Để thay đổi dữ liệu trong bộ nhớ Flash, phải thay đổi dữ liệu trong cả khối Block, cho dù chỉ thay đổi 1 byte trong block đó. Vì kích thước của mỗi block (64KB) là lớn nếu so với sector trong ổ cứng thông thường (khoảng 512 hay 1024 Byte) nên thời gian để cập nhật dữ liệu của Flash nếu so với HDD thì lớn hơn.
+Một hạn chế nữa của Flash là giới hạn về số lần ghi dữ liệu. Một bộ nhớ NOR Flash thì giới hạn trong khoảng 100.000 lần cho mỗi Block. Vì vậy, nếu một thiết kế không tối ưu (ghi, xóa dữ liệu nhiều lần chỉ tập trung vào một block trong một mảng) thì sẽ làm bộ nhớ Nhanh bị lỗi .
+NAND Flash
+Là công nghệ Flash mới, có nhiều cải tiến so với công nghệ NOR Flash cũ như cho phép kích thước mỗi Block nhỏ hơn, tốc độ đọc, ghi tốt hơn cũng như hiệu quả hơn trong việc sử dụng các mảng bộ nhớ.
+NOR Flash kết nối tới Vi xử lí bằng các bus dữ liệu/địa chỉ song song. Ngược lại, NAND Flash được truy xuất nối tiếp.
+Thiết kế một hệ thống nhúng ta có thể có nhiều tùy chọn trong việc phân vùng các bộ nhớ. Trong hệ thống, các file Binary thực thi có thể lưu vào Flash device. Khi boot lên file ảnh hệ thống trong Flash được đưa vào RAM. Đây là thiết kế tối ưu vì dữ liệu trên flash ít khi cần phải cập nhật. Bất kì thay đổi nhỏ nào đều nhỏ nếu so với kích thước bộ nhớ Ram, và sẽ dữ liệu này sẽ mất đi khi hệ thống khởi động lại
+Hình 2.8 : Phân vùng Flash Memory Layout thường thấy
+Bootloader thường nằm trên cùng, hoặc dưới cùng. Theo sau đó là Linux kernel image, rồi đến bộ nhớ Ram hệ thống- chứa Root file system. Thông thường, Linux kernel và Ram disk file system image được nén lại, và được boot loader giải nén trong quá trình khởi động.
+Một phần nhỏ của Flash, hoặc loại bộ nhớ không bay hơi (Non volatile) có thể dành cho các dữ liệu tạm cần được lưu lại, như các dữ liệu cấu hình trong các Wireless access point hay Router.
+Flash file system
+Những giới hạn của Flash được han chế bằng Flash File System tương tự như với đĩa cứng. Một trong những ưu điểm với file system là tính năng Wear leveling nhằm phân phối đều số lần ghi/xóa dữ liệu trên mỗi block nhằm kéo dài tuổi thọ của bộ nhớ. Ngoài ra File system còn nhằm hạn chế sự mất mát dữ liệu khi gặp sự cố về nguồn điện. Một trong những File system được sử dung phổ biến ngày nay đối với Flash là JFFS2- Journaling Flash File System 2.
+2.2.1.3 Không gian bộ nhớ
+Hệ điều hành quản lí tất cả bộ nhớ trong một bảng không gian bộ nhớ ảo: tức là địa chỉ của tất cả các bộ nhớ vật lí sẽ đi lần lượt từ 0 cho đến hết. Ví dụ, nếu một vi xử lí có 24 đường địa chỉ, 8 đường dữ liệu, bảng địa chỉ của nó sẽ đi từ 0x00000000 tới 0x00ffffff. Chia chỉ của DRAM thì thường được cho lên dưới cùng, còn Flash cho lên đầu tiên như trong hình, còn các địa chỉ ở giữa dùng cho các thiết bị ngoại vi hay các port xuất nhập
+
+Hình 2.9 : Không gian bộ nhớ trong hệ thống
+Ngoài ra còn các cổng giao tiếp khác như USB, Ethernet, UART…dùng cho các thiết bị ngoại vi hay dùng dể debug (UART).
+2.2.2 Phần mềm trong hệ thống nhúng
+2.2.2.1 Giới thiệu hệ điều hành linux
+Linux là hệ điều hành của máy tính . Về mặt nguyên tắc hệ điều hành cũng là một software, nhưng đây là một software đặc biệt – được dùng để quản lý, điều phối các tài nguyên (resource) của hệ thống (bao gồm cả hardware và các software khác).
+Linux còn được gọi là hệ điều hành mã nguồn mở Open Source Unix (OSU) Phiên bản Linux đầu tiên do Linus Torvalds viết vào năm 1991, lúc ông còn là một sinh viên của Đại học Helsinki tại Phần Lan. Ông làm việc một cách hăng say trong vòng 3 năm liên tục và cho ra đời phiên bản Linux 1.0 vào năm 1994. Bộ phận chủ yếu này được phát triển và tung ra trên thị trường dưới bản quyền GNU General Public License. Do đó mà bất cứ ai cũng có thể tải và xem mã nguồn của Linux.
+Một cách chính xác, thuật ngữ "Linux" được sử dụng để chỉ Nhân Linux, nhưng tên này được sử dụng một cách rộng rãi để miêu tả tổng thể một hệ điều hành giống Unix (còn được biết đến dưới tên GNU/Linux) được tạo ra bởi việc đóng gói nhân Linux cùng với các thư viện và công cụ GNU, cũng như là các bản phân phối Linux. Thực tế thì đó là tập hợp một số lượng lớn các phần mềm như máy chủ web, các ngôn ngữ lập trình, các hệ quản trị cơ sở dữ liệu, các môi trường làm việc desktop như GNOME và KDE, và các ứng dụng thích hợp cho công việc văn phòng như open.office
+Khởi đầu, Linux được phát triển cho dòng vi xử lý 386, hiện tại hệ điều hành này hỗ trợ một số lượng lớn các kiến trúc vi xử lý, và được sử dụng trong nhiều ứng dụng khác nhau từ máy tính cá nhân cho tới các siêu máy tính và các thiết bị nhúng như là các máy điện thoại di động.
+Ban đầu, Linux được phát triển và sử dụng bởi những người say mê. Tuy nhiên, hiện nay Linux đã có được sự hỗ trợ bởi các công ty lớn như IBM và Hewlett-Packard, đồng thời nó cũng bắt kịp được các phiên bản Unix độc quyền và thậm chí là một thách thức đối với sự thống trị của Microsoft Windows trong một số lĩnh vực. Sở dĩ Linux đạt được những thành công một cách nhanh chóng là nhờ vào các đặc tính nổi bật so với các hệ thống khác: chi phí phần cứng thấp, tốc độ cao (khi so sánh với các phiên bản Unix độc quyền) và khả năng bảo mật tốt, độ tin cậy cao (khi so sánh với Windows) cũng như là các đặc điểm về giá thành rẻ, không bị phụ thuộc vào nhà cung cấp. Một đặc tính nổi trội của nó là được phát triển bởi một mô hình phát triển phần mềm nguồn mở hiệu quả.
+Bởi vì nhiều lí do cả về kinh tế lẫn kĩ thuật mà ngày này Linux ngày càng trở nên phổ biến trong các thiết bị nhúng. Và đây là một số lí do tiêu biểu:
+linux hỗ trợ nhiều thiết bị phần cứng hơn so với bất kì một hệ điều hành nào khác. Linux có nhiều phần mềm ứng dụng cũng như các giao thức mạng. Linux có tính tùy biến cao, có thể hoạt động trên nhiều nền tảng: từ những thiết bị có bộ nhớ nhỏ cho tới những các máy chủ. Linux không phải vướng mắc về các vấn đề tác quyền khi chỉnh sửa hay sử dụng vì đây là hệ điều hành mở. Linux có cộng đồng phát triển năng động, rộng khắp. Cho phép nhanh chóng hỗ trợ các phần mềm, phần cứng mới nhất.
+Các nhà sản xuất phần cứng lớn hiện nay đều hỗ trợ Linux. Tuy nhiên, hiện tại số lượng phần cứng được hỗ trợ bởi Linux vẫn còn rất khiêm tốn so với Windows vì các trình điều khiển thiết bị tương thích với Windows nhiều hơn là Linux. Nhưng trong tương lai số lượng phần cứng được hỗ trợ cho Linux sẽ tăng lên.
+2.2.2.2 Tổ chức thư mục trong Linux.
+Hệ thống tập tin của Linux và Unix được tổ chức theo một hệ thống phân bậc tương tự cấu trúc của một cây thư mục, bao gồm 1 thân thẳng đứng và các cành lớn chĩa ra. Bậc cao nhất của hệ thống tập tin là thư mục gốc, được ký hiệu bằng vạch chéo “/” (root directory). Đối với các hệ điều hành Unix và Linux tất các thiết bị kết nối vào máy tính đều được nhận ra như các tập tin, kể cả những linh kiện như ổ điã cứng, các phân vùng điã cứng và các ổ USB, chẳn hạn. Sau đây là danh sách các thư mục thông thường được nhìn thấy dưới thư mục gốc (/) :
+- /bin – Thư mục này chứa các file chương trình thực thi dạng nhị phân và các chương trình khởi động của hệ thống. (binary applications),
+- /boot – các tập tin cấu hình cho quá trình khởi động hệ thống (boot configuration files).
+- /dev – Thư mục này chứa các file thiết bị. Trong thế giới *nix và Linux các thiết bị phần cứng (device) được xem như là các file. Đĩa cứng và phân vùng cũng là file như hda1, hda2, hdb1, hdb2, đĩa mềm thì mang tên fd0… các file thiết bị này thường được đặt trong này. (device files),
+- /etc – Thư mục này chứa các file cấu hình toàn cục của hệ thống. Có thể có nhiều thư mục con trong thư mục này nhưng nhìn chung chúng chứa các file script để khởi động hay phục vụ cho mục đích cấu hình chương trình trước khi chạy.
+- /home – Thư mục này chứa các thư mục con đại diện cho mỗi user khi đăng nhập. Nơi đây là thư viện làm việc thường xuyên của người dùng. Khi người quản trị tạo tài khoản cho bạn họ sẽ cấp cho bạn một thư mục cùng tên với tên tài khoản nằm trong thư mục /home. Bạn có mọi quyền thao tác trên thư mục của mình mà không ảnh hưởng đến người dùng khác.(local users’ home directories),
+- /lib – Thư mục này chứa các file thư viện .so (shared object) hoặc .a. Các thư viện C và liên kết động cần cho chương trình chạy và cho toàn hệ thống. Thư mục này tương tự như thư mục SYSTEM32 của Windows.(system libraries)
+- /lost+found – Khi hệ hệ thống khởi động hoặc khi bạn chạy trình fsck, nếu tìm thấy một chuỗi dữ liệu nào thất lạc trên đĩa cứng và không liên quan đến đến các tập tin, Linux sẽ gộp chúng lại và đặt trong thư mục này để nếu cần bạn có thể đọc và giữ lại dữ liệu bị mất.
+- /media – thư mục này được dùng để tạo ra các tập tin gắn (loaded) tạm thời được hệ thống tạo ra khi một thiết bị lưu động (removable media) được cắm vào như đĩa CDs, máy ảnh kỹ thuật số, USB, etc….
+- /mnt – thư mục này được dùng để gắn các hệ thống tập tin tạm thời (mounted filesystems),v /opt – thư mục dùng để chứa các phần mềm ứng dụng (optional applications) đã được cài đặt thêm,
+- /proc – đây là một thư mục đặc biệt linh động để lưu các thông tin về tình trạng của hệ thống, đặc biệt về các tiến trình (processes) đang hoạt động,
+- /root – đây là thư mục nhà của người quản trị hệ thống (root),
+- /sbin – Thư mục này chứa các file thực thi của hệ thống dành cho người quản trị (root). (system binaries)
+- /sys – thư mục này lưu các tập tin của hệ thống (system files),
+- /tmp – thư mục này lưu lại các tập tin được tạo ra tạm thời (temporary files),
+- /usr – Thư mục này chứa rất nhiều thư mục con như /usr/bin, /usr/local… Và đây cũng là một trong những thư mục con quan trọng của hệ thóng, bên trong thư mục con này (/usr/local) cũng chứa đầy đủ các thư mục con tương tự ngoài thư mục gốc như sbin, lib, bin… Nếu nâng cấp hệ thống thì các chương trình bạn cài đặt trong thư mục /usr/local vần giữ nguyên và bạn không phải sợ các chương trình bị mất mát. Thư mục này tương tự như thư mục C:\Program Files của Windows.
+- /usr/src – Thư mục chứa mã nguồn kể cả mã nguồn của Linux.
+- /usr/man – Chứa tài liệu hướng dẫn (manual).
+- /var – thư mục này lưu lại các tập tin ghi các số liệu biến đổi (variable files) như các tập tin dữ liệu và các tập tin bản ghi (logs and databases).
+
+CHƯƠNG 3: TRÌNH ĐIỀU KHIỂN THIẾT BỊ
+3.1 GIỚI THIỆU DEVICE DRIVER
+Device Drivers được gọi là trình điều khiển thiết bị đóng một vai trò đặc biệt trong nhân Linux (Linux Kernel). Nó được coi là những hộp đen “black boxes” và làm cho phần cứng thực thi những hàm API được định nghĩa sẵn trong kernel. Chúng giấu hoàn toàn các chi tiết về cách thiết bị hoạt động
+Ngoài ra, chúng ta cũng có thể nhìn driver ở một quan điểm khác: nó chính là lớp phần mềm nằm giữa ứng dụng người dùng (applications) và thiết bị thực (actual device). Các drivers khác nhau cung cấp các khả năng khác nhau thậm chí cho cùng một thiết bị nên khi thiết kế một driver thực tế cần phải xem xét nhiều yếu tố khác nhau. Trong đó, việc cân bằng giữa nhiều lựa chọn khác nhau cho người dùng và thời gian viết cũng như mong muốn đơn giản hóa là một trong những điều cần xem xét chính.
+
+Hình 3.1 : Quan hệ các tầng
+Một trong những đặc tính hay của Linux là khả năng cho phép mở rộng tại thời điểm chạy. Điều này được hiểu là chúng ta có thể thêm các chức năng vào kernel hoặc loại bỏ chúng trong khi hệ thống đang chạy. Mỗi đoạn code được add vào kernel tại thời điểm chạy được gọi là một module. Linux kernel hỗ trợ một số kiểu khác nhau của modules trong đó có device drivers. Mỗi module được tạo ra từ object code (chưa được link tới file thực thi hoàn tất). Chúng có thể dễ dàng kết nối tới kernel đang chạy thông qua chương trình insmod và ngắt kết nối thông qua chương trình rmmod
+
+Hình 3.2 : Quá trình cài đặt và xóa modules
+
+3.2 PHÂN LOẠI DEVICE DRIVER
+Linux phân chia thiết bị thành 3 nhóm chính:
+v Block device
+v Network interface.
+v Character Device
+Device được truy cập như một byte stream (giống như một file) và truy cập tuần tự.
+Char driver của character device có nhiệm vụ thực hiện chức năng này.Nó thường bao gồm ít nhất các hàm hệ thống như: open, close, read and write.Char device được truy cập thông qua node file hệ thống (filesystem nodes) như /dev/tty1 và dev/lp0.
+Điều khác nhau duy nhất giữa char device and file thông thường là chúng ta chỉ có thể truy cập tuần tự đối với char device.
+Block Device
+Giống như char device, block device được truy cập bởi nút hệ thống (filesystem) trong thư mục /dev. Một block device là thiết bị có thể sở hữu một file hệ thống. Trong hầu hết các hệ thống Unix, thao tác I/O được thực hiện theo dạng block thường là 512bytes/ block.
+Tuy nhiên, Linux cho phép người dùng có thể đọc hoặc ghi một block device giống như char device. Kết quả là, block device và char device chỉ khác nhau ở 1 điểm duy nhất là cách dữ liệu được lưu trữ nội bởi kernel
+Network Device
+Thể hiện dưới dạng các interface do đó nó là một thiết bị có thể trao đổi dữ liệu với các host khác. Thông thường, các interface là các thiết bị phần cứng như NIC hoặc có thể là thiết bị phần mềm thuần túy như một interface ảo (loopback interface).
+Một giao tiếp mạng (network interface) làm nhiệm vụ gửi và nhận dữ liệu dạng packets. Driver của network device chủ yếu xử lí dữ liệu theo packets mà không cần quan tâm đến các tầng cao hơn như connection của TCP. Việc giao tiếp giữa kernel và network driver hoàn toàn khác so với char và block driver. Thay vì sử dụng các hàm hệ thống như read và write, chúng sử dụng các hàm hệ thống liên quan đến việc chuyển packets.
+Tóm lại, ngoại trừ network device, các device khác được truy cập thông qua một loại file đặc biệt gọi là device file. Device file không giống như file thông thường khác ở điểm các truy cập vào device file sẽ được thực hiện bởi các hàm tương ứng do driver cung cấp thay vì truy xuất đĩa như các file thông thường
+User Space và Kernel Space
+Như đã nói trong phần Cấu trúc nhân Linux, bộ nhớ hệ thống trong Linux có thể được chia ra làm 2 vùng riêng biệt:
+Kernel space: nơi mà nhân chạy và cung cấp các dịch vụ của nó. User space: vùng nhớ nơi các quá trình của người dùng (user processes) thực thi.
+Kernel space có thể được truy cập bởi các user processes thông qua sử dụng các hàm hệ thống (system calls). Theo lí thuyết, một module chạy trong kernel space trong khi đó ứng dụng (application) chạy trong user space. Unix sẽ chuyển thực thi từ user space sang kernel space khi các ứng dụng gọi tới các system calls hoặc bị dừng bởi các ngắt phần cứng
+Các ứng dụng thường chạy theo tuần tự từ bắt đầu tới kết thúc và không quan tâm tới bất cứ điều gì xảy ra có thể thay đổi môi trường của nó. Kernel Code được xây dựng trên ý tưởng nhiều processes có thể chạy cùng lúc, sử dụng một driver tại cùng thời điểm.
+Điều này được định nghĩa là sự thực thi đồng thời trong lập trình kernel (concurrency in kernel programming).
+Mặc dù kernel modules không thực thi tuần tự như application, các tác vụ trong kernel đều được thực hiện dựa trên một process cụ thể. Lệnh kernel có thể chỉ ra process đang thực thi bằng cách truy cập biến toàn cục current, được định nghĩa trong thư viện .
+3.3 CẤU TRÚC CỦA DEVICE DRIVER
+Hầu hết các hoạt động driver cơ bản có 3 cấu trúc dữ liệu quan trọng sau, được gọi là file_operations, file, và inode
+File Operations
+Chúng ta đã dự trữ một số device numbers cho việc sử dụng của chúng ta. Nhưng chúng ta cũng chưa bao giờ kết nối bất kỳ hoạt động nào của driver (driver’s operation) đến những number đó. Cấu trúc file_operations là làm thế nào một char driver thiết lập những kết nối đó. Cấu trúc được định nghĩa trong , là một tập hợp của những con trỏ hàm. Mỗi lần mở file ( được mô tả nội bởi một cấu trúc file ) được thích hợp với chình việc thiệt lập hàm của chính nó. ( bằng việc bao gồm một trường được gọi là f_op chỉ đến cấu trúc file_operations).
+Một file_operations structure hoặc một pointer tới nó được gọi fops . mỗi trường bên trong sturcture phải chỉ đến hàm trong driver để thực hiện một hoạt động đặc biệt hoặc trả lại NULL cho hoạt động không hỗ trợ
+struct file_operations gpio_fops = { .ioctl= gpio_ioctl, .open= gpio_open, .release = gpio_close, }
+The Struct file
+Struct file, được định nghĩa trong , là cấu trúc dữ liệu quan trọng thứ hai được sử dụng trong device drivers. Chú ý đó là một file không có thứ gì để làm với FILE pointers của chương trình user-space. Một FILE được định nghĩa trong thư việc C và chưa bao giờ xuất hiện trong kernel code. Một struct file, mặt khác, là một cấu trúc kernel chưa bao giờ xuất hiện trong không gian người sử dụng.
+Cấu trúc file mô tả một file mở . nó được tạo bởi kernel trên open và được gán tới bất kỳ hàm nào để hoạt động trên file đó cho tới khi được đóng. Sau khi hầu hết các trường hợp của file dược đóng, kernel giải phóng cấu trúc dữ liệu.
+Trong kernel sources, một con trỏ tới struct file thường được gọi là file hoặc filp
+mode_t f_mode; loff_t f_pos; unsigned int f_flags; struct file_operations *f_op; void *private_data; struct dentry *f_dentry;
+The inode Structure
+Cấu trúc inode được sử dụng bởi kernel nội để mô tả files. vì vậy, nó là khác biệt so với file structure được sử dụng để mô tả một file descriptor. Có thể có nhiều file strcuctures mô tả nhiều open descriptors trên một file đơn, nhưng chúng hầu như chỉ tới một cấu trúc inode đơn.
+Cấu trúc inode chứa đựng một ý tưởng lớn của thông tin về file. như là một vai trò chung, chỉ có hai trường của cấu trúc được quan tâm cho việc viết driver code
+dev_t i_rdev; struct cdev *i_cdev;
+
+
+
+3.4 VÍ DỤ VỀ CHARACTER DEVICE
+Một thí dụ về Character Device là chương trình gpio_dev( phụ lục A):
+Giải thích chương trình:
+Chức năng chi tiết của từng hàm và các tác vụ tương ứng:
+HÌNH 3.3 : Cấu trúc Gpio
+Hàm module_init:
+Được gọi khi module liên kết với kernel thông qua lệnh insmod.
+Thực hiện việc đăng kí device number(major& minor) và liên kết các tác vụ
+file_operations với character device.
+Hàm module_exit:
+Được gọi khi module bị gỡ bỏ khỏi nhân qua lệnh rmmod. Thực hiện việc gỡ
+bỏ device khỏi hệ thống.
+Tác vụ open:
+Được định nghĩa bằng hàm gpio_open(). Hàm thực hiện mở device.
+Tác vụ release:
+Được định nghĩa bằng hàm gpio_close(). Hàm thực hiện đóng device.
+
+
+
+Tác vụ ioctl:
+Sử dụng điều khiển các hành vi khác nhau của device bằng cấu trúc switch_case
+Tùy theo giá trị của thông số cmd truyền từ user, các hàm tương ứng được gọi:
+ Cmd = GPIO_GET
+Gọi hàm gpio_get_value (arg) để nhận trạng thái hiện tại của chân với tham số arg là số thứ tự chân.
+ Cmd = GPIO_SET
+Gọi hàm gpio_set_value(arg, 1) để thiết lập giá trị tại arg lên 1.
+ Cmd = GPIO_CLEAR
+Gọi hàm gpio_set_value(arg, 0) để thiết lập giá trị của arg lên 0.
+ Cmd = GPIO_DIR_IN
+Gọi hàm GPIO_DIR_IN(arg) để thiết lập chân tại arg thành chân có chế độ vào.
+ Cmd = GPIO_DIR_OUT
+Gọi hàm gpio_direction_output(arg, 0) để thiết lập chân tại arg thành chế độ ngõ ra.
+Ở cấp độ software, hệ điều hành Linux phân chia thành 2 không gian hoạt động, gọi là user space và kernel space. Chương trình ứng dụng (user program) thuộc về user space và kernel module, driver thuộc về kernel space. Với sự phân chia trên, 1 chương trình ứng dụng không thể truy xuất trực tiếp các gpio của MPU theo kiểu lập trình firmware truyền thống, trong khi kernel module, driver có thể dễ dàng thực hiện điều này. Chương trình ứng dụng truy xuất gpio thông qua driver. Về phía driver, các pin gpio_number của AT91SAM9260 MPU được khai báo trong header file: "arch/arm/mach-at91/include/mach/gpio.h"
+AT91_PIN_PA0, AT91_PIN_PB0, AT91_PIN_PC0 ...
+Ví dụ :
+#defineAT91_PIN_PA0 (PIN_BASE + 0x00 + 0)
+#defineAT91_PIN_PB0 (PIN_BASE + 0x20 + 0)
+#defineAT91_PIN_PC0 (PIN_BASE + 0x40 + 0)
+#defineAT91_PIN_PD0 (PIN_BASE + 0x60 + 0)
+...
+
+Và PIN_BASE được định nghĩa trong header file "irqs.h" và có giá trị là 32. Như vậy ta có thể quy đổi ra gpio_number theo công thức như sau:
+1. Pin name có dạng P
+2. gpio_number = 32*letter + number : A = 1, B = 2, C = 3 ...
+3. Ví dụ : PC6 => gpio_number = 32*3+6 = 102
+Sau đây là ví dụ cho kernel module có tên gọi là gpio_dev, driver cho phép chương trình ứng dụng truy xuất gpio pin trên MPU, bao gồm các IO control set chiều input, ouput, set bit, clear bit. Chương trình ứng dụng sử dụng driver này thông qua device file có tên là "/dev/gpio". Sau đây là ví dụ cho kernel module với source file có tên là "gpio_dev.c".
+Sau khi build thành công kernel module (trên máy PC Linux), ta được file gpio_dev.ko. Để chạy được module, ta chép gpio_dev.ko vào thư mục trong / và thực hiện các lệnh insert module vào hệ thống:
+$ insmod gpio_dev.ko $ lsmod Module Size Used by gpio_dev 2432 0
+
+Về phía ứng dụng, ta có thể set pin gpio của AT91SAM9260 MPU ở chế độ input, output, set bit, clear bit theo cú pháp như sau:
+$ ./gpioctl dirin|dirout|get|set|clear gpio_num
+
+Ví dụ: Cấu hình PB20 as output và set pin này lên 1 ta thực hiện lệnh sau:
+$ ./gpioctl dirout 84 using gpio pin 84 $ ./gpioctl set 84 using gpio pin 84
+
+.............................................
+Chương 8: KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN
+8.1 KẾt quẢ đẠt đưỢc
+Sau thời gian tìm hiểu và thi công đề tài đã đạt được những nội dung chính như sau:
+ü Thi công hoàn chỉnh ứng dụng Picture Frame trình chiếu hình ảnh lưu trong USB trên Lcd tft 2.4
+ü Lcd tft có khả năng hiện thị ảnh theo nhiều hướng,và thực thi một số hiệu ứng đơn giản.
+ü Phần mềm điều khiển có thể dễ thay đổi,mở rộng thêm nhiều hiệu ứng trình chiếu khác.
+8.2 KẾt luẬn
+Đồ án đã hoàn thành đúng thời gian cho phép và hoàn thành phần lớn yêu cầu đặt ra.Nhóm thực hiện đã cố gắng nghiên cứu và giải quyết trọng tâm của đồ án ,qua đó cũng đã nâng cao kiến thức,kinh nghiệm thực tế.Mặc dù nhóm đã cố gắng thực hiện ,đồng thời cũng nhận được sự chỉ bảo nhiệt tình của Thầy hướng dẫn nhưng cũng tránh khỏi phát sinh những khó khăn,thiếu sót ,cũng như những mặc còn hạn chế của đề tài.
+8.3 ĐỀ nghỊ hưỚng phát triỂn cỦa đỀ tài
+Đề tài đã thực hiện vấn đề cơ bản nhất của ứng dụng Picture Frame là trình chiếu ảnh trên Lcd tft .Tuy nhiên đê hoàn chỉnh hơn nữa và đưa ra ứng dụng thực tế thì nhóm thực hiện đề xuất những vấn đề cần giải quyết mà nhóm chưa kịp hoàn thành:
+- Ứng dụng có khả năng đọc được các file ảnh khác JPEG, GIF, PNG, …
+- Thực hiện thêm các chức năng trên kit: giao tiếp với Wifi để ứng dụng có khả năng cập nhật hình ảnh qua Internet thay gì phải thông qua USB
+- Ứng dụng có khả năng trình chiếu các file Video như MP4,WAV…
+- Màn hình giao diện có thể phát triển là màn hình cảm ứng để giúp cho người sử dụng có thể thao tác thuận tiện hơn.
+Chương 1:GIỚI THIỆU
+Tổng quan về nội dung của đồ án và cách thức thực hiện
+Chương 2:GIỚI THIỆU HỆ THỐNG NHÚNG
+Tìm hiểu cơ bản về hệ thống nhúng và các thành phần trong hệ thống nhúng
+Chương 3 :TRÌNH ĐIỀU KHIỂN THIẾT BỊ
+Tìm hiểu cấu trúc và cách lập trình một device driver cho thiết bị
+Chương 4:GIỚI THIỆU BOARD SAM9260EK
+Tìm hiểu cấu trúc phần cứng và phần mềm của board SAM9260EK
+Chương 5 :LCD TFT
+Tìm hiểu tổng quan về Lcd tft
+Chương 6 :XÂY DỰNG ỨNG DỤNG PICTURE FRAME TRÊN BOARD SAM9260-EK
+Xây dựng hoàn chỉnh ứng dụng khung ảnh số trên board SAM9260EK,và giải thích chương trình điều khiển driverlcd_dev.c
+Chương 7: KẾT QUẢ THỰC HIỆN
+Chương 8: KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN
+
+
+TÀI LIỆU THAM KHẢO
+
+[1]. Trương Ngọc Sơn, giáo trình Hệ thống nhúng, Trường ĐHSP Kỹ thuật TP.HCM,2011
+[2]. Jonathan Corbet, AlessandroRubini, and Greg Kroah-Hartman; Linux Device Drivers - Third Edition, O’Reilly Media. Inc, 2005.
+[3] Data sheet LTI9320
+[4] Data sheet AT91SAM9260EK
+[5] www.armlinux.info
+[6] http://code.google.com/p/km9260/wiki
+[7]http://en.wikipedia.org/wiki/BMP_file_format
+Phụ lục A: MÃ NGUỒN
+
+Chương trình gpio_dev.c
+#include
+#include
+#include
+#include
+#include
+#include
+#include
+#include
+#include
+#include
+#define DRVNAME "gpiodev"
+#define DEVNAME "gpio"
+
+#define IOC_GPIODEV_MAGIC 'B'
+#define GPIO_GET _IO(IOC_GPIODEV_MAGIC, 10)
+#define GPIO_SET _IO(IOC_GPIODEV_MAGIC, 11)
+#define GPIO_CLEAR _IO(IOC_GPIODEV_MAGIC, 12)
+#define GPIO_DIR_IN _IO(IOC_GPIODEV_MAGIC, 13)
+#define GPIO_DIR_OUT _IO(IOC_GPIODEV_MAGIC, 14)
+static int dev_major;
+static atomic_t gpio_open_cnt = ATOMIC_INIT(1);
+static int
+gpio_ioctl(struct inode * inode, struct file * file, unsigned int cmd, unsigned long arg)
+{
+int retval = 0;
+switch (cmd)
+{
+case GPIO_GET:
+retval = gpio_get_value(arg);
+break;
+case GPIO_SET:
+printk("gpio set\n");
+gpio_set_value(arg, 1);
+break;
+case GPIO_CLEAR:
+printk("gpio clear\n"); .....................
+.........................................................................................
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP. HCM
+KHOA ĐIỆN - ĐIỆN TỬ
+BỘ MÔN ĐIỆN TỬ - VIỄN THÔNG
+
+ĐỒ ÁN TỐT NGHIỆP
+Đề tài:
+TÌM HIỂU HỆ THỐNG NHÚNG VÀ XÂY DỰNG ỨNG DỤNG PICTURE FRAME
+
+
+

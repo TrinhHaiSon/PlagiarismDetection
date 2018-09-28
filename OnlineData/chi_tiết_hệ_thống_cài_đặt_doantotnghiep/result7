@@ -1,0 +1,314 @@
+MỤC LỤC
+PHẦN MỞ ĐẦU
+Trang
+PHẦN NỘI DUNG:
+Chương I: Cơ sở lý luận..................................................................................................... 1
+1.1 Mục tiêu đào tạo của nhà trường:............................................................................ 1
+1.2 Mục tiêu học tập:......................................................................................................... 1
+1.3 Chức năng tài liệu giảng dạy:................................................................................... 2
+1.3.1 Chức năng thông tin .................................................................................................. 2
+1.3.2 Chức năng chỉ đạo học tập........................................................................................ 2
+1.3.3 Chức năng hướng nghiệp và giáo dục..................................................................... 2
+1.4 Yêu cầu của tài liệu giảng dạy................................................................................... 3
+1.5 Các nguyên tắc dạy học vận dụng vào môn học................................................... 3
+1.5.1 Nguyên tắc đảm bảo tính tư tưởng........................................................................... 3
+1.5.2 Nguyên tắc bảo đảm tính khoa học......................................................................... 3
+1.5.3 Nguyên tắc đảm bảo tính vừa sức ........................................................................... 4
+1.5.4 Nguyên tắc đảm bảo tính thực tiễn.......................................................................... 4
+1.5.5 Nguyên tắc đảm bảo tính hệ thống.......................................................................... 4
+1.6 Các nguyên lý vận dụng vào môn học...................................................................... 4
+1.6.1 Học đi đôi với hành................................................................................................... 4
+1.6.2 Giáo dục gắn liền với lao động sản xuất................................................................. 5
+Chương II: Giới thiệu về các phần mềm hỗ trợ thiết kế giáo trình......................... 6
+2.1 Phần mềm Dreamweaver 8.0.................................................................................... 6
+2.1.1 Khởi động chương trình............................................................................................ 6
+2.1.2 Cửa sổ tài liệu............................................................................................................. 6
+2.1.3 Document.................................................................................................................. 10
+2.1.4 Status bar, Property Inspector, Panel.................................................................... 13
+2.2 Giới thiệu một số phần mềm hỗ trợ........................................................................ 17
+2.2.1 Aleo Flash Intro Banner Maker............................................................................ 17
+2.2.2 Xara Webstyle.......................................................................................................... 20
+2.2.3 Phần mềm Flax......................................................................................................... 20
+Chương III Tiến trình thực hiện giáo trình điện tử.................................................. 23
+3.1 Tạo cấu trúc quản lý các ứng dụng của trang..................................................... 23
+3.2 Tạo 1 site để quản lý các tập tin............................................................................. 23
+3.3 Tạo một trang mới..................................................................................................... 24
+3.4 Nhấp CSS để tạo 1 Style Sheet CSS mới............................................................... 27
+3.5 Tạo bảng Table cho trang........................................................................................ 27
+3.6 Chèn các hình thiết kế cho giao diện của trang................................................... 28
+3.7 Chèn Banner............................................................................................................... 30
+3.8 Tạo thanh menu ngang............................................................................................. 31
+3.9 Tạo thanh menu dọc bên trái................................................................................... 32
+3.10 Soạn thảo văn bản................................................................................................... 33
+3.11 Tạo liên kết............................................................................................................... 34
+3.11.1 Tạo liên kết các chương trên thanh menu.......................................................... 35
+3.11.2 Tạo liên kết cho Text............................................................................................ 35
+Chương IV: Nội dung giáo trình................................................................................... 37
+4.1 Khái quát hệ thống phun xăng điện tử................................................................... 37
+4.1.1 Khái niệm về phun xăng điện tử............................................................................ 37
+4.1.2 Lịch sử phát triển của hệ thống phun xăng điện tử............................................. 38
+4.1.3 Nguyên lý hoạt động của hệ thống phun xăng điện tử....................................... 39
+4.1.4 Phân loại hệ thống phun xăng điện tử.................................................................. 42
+4.1.5 So sánh động cơ phun xăng với động cơ dùng bộ chế hòa khí......................... 46
+4.1.6 Ưu điểm hệ thống phun xăng................................................................................. 50
+4.2 Hệ thống nạp không khí........................................................................................... 52
+4.2.1 Tổng quan về hệ thống nạp không khí.................................................................. 52
+4.2.2 Bộ lọc khí.................................................................................................................. 52
+4.2.3 Cổ họng gió............................................................................................................... 55
+4.2.4 Vít chỉnh hỗn hợp không tải................................................................................... 57
+4.2.5 Van không khí (van khí phụ)................................................................................. 59
+4.2.6 VanISC (Van điều khiển tốc độ không tải)........................................................... 61
+4.2.7 Buồng nạp và đường ống nạp................................................................................. 61
+4.2.8 Kiểm tra hệ thống nạp không khí.......................................................................... 62
+4.3 Hệ thống cung cấp nhiên liệu.................................................................................... 64
+4.3.1 Tổng quan về hệ thống nhiên liệu......................................................................... 64
+4.3.2 Bơm nhiên liệu......................................................................................................... 65
+4.3.3 Lọc nhiên liệu........................................................................................................... 75
+4.3.4 Ống phân phối nhiên liệu....................................................................................... 77
+4.3.5 Bộ điều áp................................................................................................................. 77
+4.3.6 Bộ dập dao động...................................................................................................... 81
+4.3.7 Kim phun................................................................................................................... 82
+4.3.8 Kim phun khởi động lạnh....................................................................................... 88
+4.3.9 Kiểm tra- sửa chữa hệ thống nhiên liệu................................................................ 93
+4.4 Hệ thống điều khiển điện tử..................................................................................... 98
+4.4.1 Các loại cảm biến và tín hiệu đầu vào.................................................................. 98
+4.4.2 Bộ điều khiển điện tử ( ECU - electronic control unit ).................................. 159
+4.4.3 Các chức năng của ECU trong hệ thống phun xăng điện tử........................... 162
+
+PHẦN KẾT LUẬN........................................................................................................... 187
+TÀI LIỆU THAM KHẢO............................................................................................... 188
+PHẦN MỞ ĐẦU
+1. Lý do chọn đề tài:
+Ngày nay với sự phát triển của các ngành khoa học kỹ thuật, đặc biệt là ngành Công nghệ thông tin (CNTT) và viễn thông đã làm cho nhiều lĩnh vực có sự thay đổi một cách nhanh chóng và sâu sắc, đặc biệt trong lĩnh vực giáo dục đào tạo; làm thay đổi những tập quán quen thuộc trong hoạt động của giáo viên và sinh viên trong quá trình dạy học, phương pháp dạy học truyền thống (phấn trắng, bảng đen) không thể đáp ứng được xu thế hiện nay. Mà thay vào đó là ứng dụng các chương trình mô phỏng trong việc mô phỏng các quá trình, các hiện tượng, các hoạt động trình bày một cách trực quan sinh động làm cho quá trình dạy học mang lại những hiệu quả cao hơn. Việc nghiên cứu đổi mới phương pháp giảng dạy bằng việc sử dụng hiệu quả công nghệ thông tin đang là một nhu cầu cấp bách trên phạm vi toàn thế giới.
+Để việc học tập và nghiên cứu được thuận tiện và dễ dàng hơn, nhóm chúng em đã chọn đề tài “ Thiết kế giáo trình điện tử hệ thống phun xăng điện tử “ với sự hướng dẫn của thầy Lý Văn Trung.
+Đề tài là sự kết hợp chặt chẽ giữa lý thuyết, thực hành và điều khiển hiện đại với công cụ tin học. Giáo trình điện tử này được xây dựng trong môi trường Windows, với giao diện nội dung hướng dẫn hoàn toàn bằng tiếng việt, máy tính của bạn cần phải cài đặt chương trình Macromedia Dreamweave 8.0, Macromedia Flash 8 là hoàn toàn có thể sử dụng giáo trình một cách dễ dàng. Bạn chỉ cần Click vào tên các nội dung để mở các trang tương ứng. Toàn bộ giáo trình chiếm không gian một đĩa CD hay chép vào máy để sử dụng.
+2. Mục đích nghiên cứu:
+Đề tài thực hiện trên cơ sở dùng phần mềm Dreamweave - một phần mềm thiết kế đơn giản mà hữu ích, qua đó đưa về những nội dung liên quan về nguyên lý - kết cấu của hệ thống phun xăng điện tử trên ô tô hiện nay và các ứng dụng tiêu biểu, từ đó nâng cao được hiệu quả học tập, nghiên cứu. Mặt khác qua đó có cơ hội củng cố được các kiến thức trong quá trình học ở trường và biết thêm được các phương pháp học phổ biến trên thế giới như : học trên mạng, học từ xa, multimedia....
+Nhóm thực hiện hy vọng rằng với sự đóng góp nhỏ này giúp các bạn sinh viên và những người đọc tiếp cận nhanh với công nghệ hiện đại và qua đây mong nhận được sự đóng góp của quý thầy, các bạn và người đọc để tiếp tục hoàn thiện cho giáo trình này đạt kết quả cao nhất.
+3. Nhiệm vụ nghiên cứu:
+Nghiên cứu xác định cơ sở lý luận của đề tài. Nghiên cứu các công cụ phần mềm tin học giúp xây dựng giáo trình điện tử. Hình thành và phát triển phương pháp thiết kế, xây dựng và sử dụng giáo trình điện tử. Đề xuất các tiêu chí đánh giá tác dụng của giáo trình điện tử nói riêng và công nghệ thông tin nói chung trong quá trình giảng dạy .
+4. Phương pháp nghiên cứu:
+Trong quá trình thực hiện đề tài này chúng em đã sử dụng các phương pháp nghiên cứu sau đây:
+Tìm hiểu thực tế về hiệu quả của giáo trình điện tử trong việc giảng dạy. Phương pháp phân tích: căn cứ vào mục đích, nhiệm vụ của đề tài và thời gian thực hiện để chọn lựa phần mềm phù hợp với khà năng bản thân và yêu cầu đề tài. Phương pháp tự học: đối với sinh viên ngành cơ khí động lực, kỹ năng sử dụng phần mềm và hạn chế vể tin học, thì cần phải có tinh thần tự học tập, quyết tâm cao để trong thời gian ngắn có thể tiếp thu, hiểu rõ về những phần cơ bản nhất thì mới hoàn thành đề tài được giao. Phương pháp tham khảo tài liệu: tiến hành thu thập tài liệu , báo chí, tạp chí có nội dung liên quan, phân tích và chọn lọc ra nội dung phù hợp với đề tài. Quan sát là sử dụng các giác quan, để chú ý xem xét các sự vật, các hiện tượng một cách khách quan, qua đó nắm được bản chất và nguyên lý vận hành của nó. Đối với đề tài này, chủ sát quan sát trên máy tính về công việc xử lý hình ảnh. Việc quan sát có thể diễn ra ở nhiều mức độ: Quan sát thông thường là ghi nhận sự kiện quan sát. Quan sát khoa học là ghi nhận và giải thích ý nghĩa của sự kiện quan sát.
+5. Nội dung nghiên cứu:
+Nội dung nghiên cứu bao gồm:
+► Phần I: Dẫn nhập.
+► Phần lI: Các phần mềm và các kiến thức về hệ thống phun xăng điện tử.
+► Phần III: Kết luận - Đánh giá - Đề nghị.
+
+6. Giới hạn đề tài:
+Do kiến thức về chuyên môn, phần mềm tin học và kinh nghiệm thực tế còn hạn chế nên chúng em chỉ trình bày nội dung về cấu tạo, nguyên lý hoạt động của hệ thống phun xăng điện tử, chưa bao hết các cơ sở lý thuyết và ứng dụng thực tế của phun xăng điện tử. Ngoài ra, do thời gian thực hiện đề tài có nên về hình ảnh về các chi tiết, hệ thống cũng chưa được phong phú và những hình ảnh động minh hoạ chưa thật đầy đủ.
+7. Cấu trúc luận án:
+Ngoài phần mở đầu và kết luận, đồ án gồm có 4 chương:
+Chương I: Cơ sở lý luận.
+Chương II: Giới thiệu các phần mềm thiết kế giáo trình.
+Chương III: Các bước thực hiện làm giáo trình điện tử.
+Chương IV: Các nội dung về hệ thống phun xăng điện tử.
+ĐỒ ÁN TỐT NGHIỆP THIẾT KẾ GIÁO TRÌNH ĐIỆN TỬ HỆ THỐNG PHUN XĂNG ĐIỆN TỬ
+LỜI CẢM ƠN
+
+Nhóm thực hiện xin chân thành cảm ơn Thầy- Th.S .... đã cung cấp
+tài liệu cũng như tận tình chỉ dạy, hướng dẫn trong suốt quá trình học tập cũng
+như trong thời gian thực hiện đề tài này.
+Xin chân thành cám ơn quý thầy trong Khoa Công Nghệ Động Lực, Trường
+Đại học Công Nghiệp Tp. Hồ Chí Minh đã tận tình chỉ dẫn, trực tiếp giúp đỡ và tạo cho chúng em điều kiện làm việc tốt trong suốt quá trình thực hiện đề tài này.
+Cảm ơn sự đóng góp ý kiến của các bạn sinh viên khoa Công Nghệ Động Lực để nhóm thực hiện chúng tôi hoàn thành tốt đề tài này.
+Xin trân trọng cám ơn.
+PHẦN NỘI DUNG:
+Chương I: Cơ sở lý luận
+Việc biên soạn giáo trình điện tử hệ thống phun xăng điện tử là yêu cầu cần thiết. Nội dung tài liệu phải đầy đủ nội dung cơ bản và cập nhật thông tin. Ngoài ra tài liệu phải đảm bảo yêu cầu sư phạm, phù hợp với quy luật nhận thức và tính sư phạm trong giảng dạy.
+1.1 Mục tiêu đào tạo của nhà trường:
+Mục tiêu đào tạo của nhà trường Đại học Công Nghiệp Tp. Hồ Chí Minh là đào tạo những kỹ sư có chuyên môn đáp ứng yêu cầu của xã hội.
+1.2 Mục tiêu học tập:
+Quá trình dạy và học là một chuỗi những hoạt động của giáo viên và học viên nhằm trả lời các câu hỏi "dạy cái gì ?" , "học cái gì ?", "dạy như thế nào ?", chúng ta cần dạy lý thuyết, kỹ năng, kỹ xảo ?", các lĩnh vực học tập, mục tiêu trong dạy học là nhắm tới việc cung cấp tri thức cho học viên.
+► Cung cấp kiến thức :
+Giúp học sinh nắm bắt được:
+Sự kiện. Khái niệm. Nguyên lý. Qui trình. Quá trình. Cấu trúc.
+► Kỹ năng:
+Là hoạt động quan sát được và những phản ánh mà một người thực hiện nhằm đạt được mục đích. Những kỹ năng cần đạt được là:
+Giải quyết các vấn đề. Quyết định phương pháp học tập có ý thức trách nhiệm. Tư duy logic. Phê phán và sáng tạo.
+Ngoài ra còn phải dạy cho học viên điều chỉnh những kỹ năng khi môi trường làm việc thay đổi.
+
+► Thái độ:
+Được định nghĩa là những giá trị bên những cảm xúc niềm tin và động cơ được chia ra hai loại:
+- Loại quan sát được:
+Kỹ năng cá nhân. Kỹ năng giao tiếp giữa người với người.
+- Loại không quan sát được: thái độ không trực tiếp quan sát được đó là những cảm giác và lòng tin con người.
+1.3 Chức năng tài liệu giảng dạy:
+1.3.1 Chức năng thông tin :
+Trình bày nội dung kiến thức khoa học dựa vào chương trình học bao gồm:
+Tầm quan trọng của môn học. Một số tài liệu tham khảo giúp người học có thể nâng cao trình độ chuyên môn. Cập nhật hóa kiến thức, thông tin để phù hợp với thời đại.
+1.3.2 Chức năng chỉ đạo học tập:
+Giáo trình giúp cho học viên nắm hết tri thức một cách có hệ thống, logic, khoa học. Mở đầu giáo trình phải có lời nói đầu, mục đích yêu cầu, mục lục... nhằm giới thiệu nội dung chính của giáo trình để người học có cái nhìn tồng quát nhằm nâng cao đánh giá mức độ tiếp thu của học viên để từ đó rút ra phương pháp giảng dạy tốt hơn.
+1.3.3 Chức năng hướng nghiệp và giáo dục:
+Giáo dục bao gồm tất cả các quá trình lao động có mục đích, có kế hoạch, có phương pháp nhằm bồi dưỡng cho người được giáo dục những phẩm chất, quan điểm, đạo đức khả năng, sức khỏe, ý chí để có thể sẵn sàng lao động và sáng tạo. Đây là nguồn lực phục vụ cho các ngành sản xuất, tài liệu giảng dạy phải có sức hấp dẫn, lôi cuốn làm cho người học say mê, hứng thú tạo tâm lý thuận lợi để người học tiếp thu tốt hơn. Để thực hiện được điều đó đòi hỏi tài liệu đảm bảo như chính xác khoa học, từ ngữ phải rõ ràng, logic, phải có những ví dụ minh họa, liên hệ thực tế để người học tiếp thu một cách dễ dàng.
+Giáo trình sẽ giúp một phần nào đó cho giáo viên và học viên thực hiện có hiệu quả hơn trong quá trình giáo dục kỹ thuật và nghề nghiệp, hình thành kỹ năng, kỹ xảo trong lao động sản xuất. Góp phần hình thành con người mới theo mục tiêu đào tạo của nhà trường và yêu cầu xã hội.
+1.4 Yêu cầu của tài liệu giảng dạy:
+Giáo trình giảng dạy về chuyên môn phải phù hợp với trình độ đối tượng, do đó phải đảm bảo các yêu cầu sau:
+► Về nội dung đảm bảo các tính chất sau:
+Cơ bản: đòi hỏi nội dụng phải được chọn lọc Hiện đại: đáp ứng phù thời sự phát triển của khoa học kỹ thuật Thực tiễn: phù hợp với hoàn cảnh kinh tế xã hội hiện đại Về mặt sư phạm phải đảm bảo trên tinh thần nội dung và nguyên tắc dạy học.
+Yêu cầu này đòi hỏi người viết phải nắm vững lí luận giáo dục và các nguyên tắc sư phạm.
+Yêu cầu sử dụng tài liệu phải được trình bày rõ ràng cẩn thận, nội dung phải phong phá phù hợp với đối tượng, phải có tính thuyết phục cao nhằm lôi cuốn người học.
+► Để đạt được mục tiêu đào tạo của nhà trường và mục tiêu yêu cầu môn học.
+Giáo trình phải đảm bảo các yêu cầu sau:
+Phục vụ cho việc giảng dạy của giáo viên và việc học côn học viên. Tuân thủ thời lượng cho từng chương, từng bài và từng đề mục. Lời văn phải ngắn gọn, rõ ràng, xúc tích, dễ hiểu và có kèm theo hình vẽ minh họa.
+1.5 Các nguyên tắc dạy học vận dụng vào môn học:
+1.5.1 Nguyên tắc đảm bảo tính tư tưởng:
+Nguyên tắc này thể hiện ở việc thông qua nhiệm vụ dạy học nhằm:
+Phát huy như sáng tạo của học viên. Xây dựng niềm tin, tình cảm tốt đẹp và hành động đứng đắn của người học. Quá trình dạy học dù thể hiện ở môi trờng sư phạm nào cũng phải thể hiện vai trò tác động đến việc phát triển toàn diện nhân cách của người học thông qua việc chuẩn bị kiến thức, kỹ năng, kỹ xảo, giáo dục ý thức dân tộc. Để vận dụng hiệu quả nguyên tắc này vào môn học. Giáo viên cần phải chọn lọc những chương trình, nội dung và phương pháp phù hợp với trình độ người học.
+1.5.2 Nguyên tắc bảo đảm tính khoa học:
+Nguyên tắc này đòi hỏi người học phải nắm vững hệ thống tri thức khoa học cơ bản, hình thành thói quen suy ngẫm và làm việc một cách khoa học. Nhìn nhận vấn đề một cách chính xắc và đứng đắn, say mê trong công tác lao động sản xuất và học tập.
+Để thực hiện tốt nguyên tắc này giáo viên còn phải tổ chức điều khiển hoạt động để người học để họ nắm bắt tri thức khoa học một cách có hệ thống. Nội dung này phải phản ánh lượng yêu cầu thực tiễn. Tri thức truyền đại phải chính xác phản ánh những thành tựu khoa học kỹ thuật hiện đại.
+1.5.3 Nguyên tắc đảm bảo tính vừa sức :
+Trong quá trình dạy học giáo viên phải chọn lựa nội dung và phương pháp dạy học hợp lý nhằm khắc phục sự chênh lệch trình độ của học viên. Đảm bảo cho mọi người trong lớp đều có khả năng tiếp thu kiến thức một cách đồng đều tạo cho người học sự hứng thú tích cực học tập.
+Đạt được hiệu quả trong nguyên tắc này là một nghệ thuật sư phạm của người giáo viên thể hiện qua phương pháp dạy học của mình nhằm vào mục đích phát huy tính tích cực học tập và sáng tạo của học viên.
+Khi biên soạn tài liệu, ngoài kiến thức căn bản còn phải yêu cầu người học đọc thêm những loại sách tham khảo để nâng cao kiến thức, phải có những câu hỏi ôn tập định hướng và phải có những bài tập cụ thể cho mỗi bài, mỗi chương.
+1.5.4 Nguyên tắc đảm bảo tính thực tiễn:
+Nguyên tắc này đòi hỏi người học phải nắm bắt được tình hình lao động sản xuất. Có khả năng tiếp thu những công nghệ trong thực tiễn dự đoán được sự phát triển của nền kinh tế quốc dân. Từ đó vàn dụng khả năng của mình vào thực tế sản xuất.
+1.5.5 Nguyên tắc đảm bảo tính hệ thống:
+Khi soạn giáo trình, tài liệu giảng dạy phải đi theo đúng thứ tự các phần, chương, đề mục, nội dung các bài học phải có mối liên hệ chặt chẽ với nhau để người học nắm bắt được kiến thức một cách có hệ thống và nhớ lâu hơn.
+Trong quá trình giảng dạy giáo viên nên thường xuyên củng cố kiến thức đã học, kiểm tra bài cũ để người học hệ thống kiến thức cũ, củng cố và tiếp thu kiến thức mới.
+Nhắc nhở người học phải tích cực trong học tập, trước khi học bài mới phải đọc trước tài liệu hướng dẫn.
+1.6 Các nguyên lý vận dụng vào môn học:
+1.6.1 Học đi đôi với hành:
+Để nắm vững bài bọc một cách sâu sắc thì người học cần củng cố kiến thức, phải có lý thuyết vững chắc và áp dụng các bài tập để từ đó có thể hiểu sâu những vấn đề chưa rõ, chính sự thực hành làm cho sự hiểu biết thêm chắc chắn và hiệu quả. Nếu chỉ học lý thuyết mà không thực hành thì sẽ còn tồn tại vấn khi gặp trên thực tế sẽ không giải quyết được.
+Để giúp học sinh học tập tốt đòi hỏi người giáo viên phải quan tâm học sinh còn yếu phần nào, phần nào chưa nắm vững để tìm cách khắc phục, củng cố. Cần đưa ra nhiều bài tập để học sinh làm dựa vào lý thuyết đã học.
+1.6.2 Giáo dục gắn liền với lao động sản xuất:
+Giáo dục kết hợp lao động sản xuất là quá trình kết hợp chặt chẽ lâu dài giữa hoạt động giáo dục và hoạt động lao động sản xuất, giáo dục đem lại nguồn nhân lực dồi dào cho lao động sản xuất và lao động sản xuất nâng cao giáo dục.
+Giáo dục bồi dưỡng cho người học những quan điểm lao động, thái độ lao động, ý thức lao động đúng đắn.
+Giáo dục bồi dưỡng tư tưởng đạo đức, tình cảm nâng cao hiểu biết thực tiễn giúp con người cảm nhận vẻ đẹp, tạo ra hứng thú trong lao động và học tập.
+Bởi giáo dục tạo ra nguồn nhân lực dồi dào cho lao động sản xuất, lao động sản xuất lại tác động nâng cao giáo dục để đáp ứng nguồn nhân lực mà lao động sản xuất cần. Đồng thời vận dụng giáo dục vào nghề nghiệp là xây dựng nội dung giáo dục ngày càng hoàn thiện và mang tính thực tiễn, phù hợp với yêu cầu xã hội.
+Chương II: Giới thiệu về các phần mềm hỗ trợ thiết kế giáo trình
+2.1 Phần mềm Dreamweaver 8.0:
+Chương trình Dreamweaver 8 là một chương trình thiết kế web , mạnh , giàu tính năng ,chuyên nghiệp , dễ sử dụng và thông dụng nhất hiện nay , không cần phải biết nhiều về html , javascript . Đây là phiên bản mới nhất cùng với các tính năng hay của chương trình giúp các bạn tham khảo và áp dụng vào công việc học và thực hành thiết kế các trang web .
+2.1.1 Khởi động chương trình:
+Sau khi cài đặt Dreamweaver, để mở chương trình chúng ta vào Start > Dreamweaver, cũng có thể nhấp đúp vào Shortcut ở trên Desktop hoặc nhấp phải chuột chọn Open
+2.1.2 Cửa sổ tài liệu:
+Khi nhấp Shortcut hiện ra Bảng WorkSpace Setup > Chọn Designer > Ok. Nếu thay đổi chọn lựa trên > Menu Window > WorkSpace LayOut . Ra 3 mục để bạn chọn lựa là Coder, Designer, Dual Screen. Đối với những người mới tìm hiểu về Dreamweaver đều chọn Designer LayOut.
+Sau khi chọn, xuất hiện cửa sổ tài liệu:
+Đây là 1 cửa sổ tài liệu Dreamweaver đơn giản . Ban có thể chỉnh sửa nó để thích hợp với những thói quen của bạn .
+Nếu mở nhiều Files cùng lúc , bạn sẽ thấy các Tables nằm dọc ở phần trên cùng cửa sổ . Chúng ta nhấp vào 1 Table để chỉnh sửa . Ta có thể Delete Table. Nhấp Nút Restore Down ( góc phải trên ) > Trở lại nhấp nút Maximize. Thanh Menu : Nói về những gì mà bạn mong đợi thấy trên nền. Thanh INSERT : Dưới thanh Menu. Common : Tập hợp này chứa các đối tượng thường được sử dụng nhiều nhất như các liên kết với ảnh .
+Layout : nhấp nút xổ xuống chọn Layout . Hiện ra gồm các Tables – Div – Layer – Khung ( Frame ) . Các Đối tượng nầy giúp bạn mô tả cách bạn muốn trình bày trang. Forms : Gồm các thành phần Form như trường Text , nút và hộp kiểm .
+Text : Giúp tạo Style cho Text đã nằm trên Trang tốt hơn là dùng Property Inspector ( nằm ở đáy ).
+HTML : Ít hữu dụng , cho phép bạn chèn các đối tượng như Table – Khung – Script vốn được thực hiện tốt hơn ở nơi khác .
+
+Application : Giúp cho bạn làm việc với các cơ sở dữ liệu bên ngoài
+Flash elements : Chỉ chứa 1 Đối tượng bộ xem ảnh Flash.Nếu muốn thêm các thành phần Flash như Nút Flash, Text, Video hãy quay về Common > Nút Media .
+
+Favorites : Chỉ là rổng không . Dùng để chỉnh sửa , dùng để chứa những gì bạn muốn nó có . Để làm điều nầy > Chọn Tập hợp Favorites > Nhấp Phải > Cho phép bạn chọn lựa để thêm những đối tượng thường được sử dụng nhiều nhất.
+
+Chức năng của từng nút và nút xổ xuống kế bên :
+Để con trỏ lên Nút sẽ thấy Text mô tả chức năng của nút đó . Nhấp Nút xổ xuống kế bên ra chức năng phụ.
+2.1.3 Document:
+2.1.3.1 Thanh công cụ :
+Có 3 phần :
+Nút code :
+Gồm diện mạo Markup và Tag ( thẻ ) . Có nhiều người tạo ra trang web đẹp mà chưa sử dụng khung xem Code.
+Nút split :
+Có cả phần Code và Design .Mã nằm phía trên . Phần khung nằm phía dưới. Dùng tìm hiểu về Markup , tinh chỉnh các Tag xem diện mạo của kiểu thiết kế. Rê thanh giữa để nới rộng và thu hẹp 2 phần này.
+Nút design : Nơi bạn nhập dữ liệu. Khi xem trong trình duyệt ( Browser ) cũng giống như thế . Gọi là : What You See Is You Get .Là nơi bạn thao tác thực hiện thiết kế Trang Web . Bạn có thể xem trên các chế độ: Design, Code, Split .
+Các loại nút phụ : Chứa mọi thứ , bạn nhấp lên để tìm hiểu thêm. Đáng chú ý Nút Preview In Browser đang liên kết đến các trình duyệt của bạn đang sử dụng.
+Tittle :
+Nhập tiêu đề trang.
+2.1.3.2 Các thanh công cụ khác :
+Khi nhấp Phải trong thanh Document hay thanh Insert , ta sẽ thấy có 2 thanh trong bảng này :
+Thanh STYLE RENDERING :
+Ta sẽ sử dụng để chuyển đổi giữa 2 Style Rendering . Phần lớn bạn chỉ muốn xem khung màn hình mặc định .
+Thanh standard : Khi nhấp Phải để chọn Style Rendering có các chức năng New- Open- Save- Print- Cut- Copy- Paste. Ta có thể tắt thanh Insert và thanh Document . Để mở lại : View > Toolbars > Chọn các thanh.
+2.1.4 Status bar, Property Inspector, Panel:
+2.1.4.1 Status bar ( Thanh trạng thái ):
+Undo : Ctrl+Z ; Redo : CTRL+Y.
+- Nhập Text vào .
+- Góc đáy bên Trái là Bộ Chọn Thẻ ( Tag Selector ):
+Nhấp < body > là chọn toạn bộ nội dung trang . Nhấp bất cứ nơi nào trong một tài liệu > Sẽ hiện ra Thẻ hiện hành của vị trí mà bạn đang nhấp > Nhấp lên Thẻ nầy > Bạn sẽ có các dữ liệu của Thẻ đó trong Properties.
+- Góc Đáy Phải : Công cụ Select – Hand – Zoom – Tỉ lệ % đang hiển thị - Kích cở của cửa sổ đang hiển thị ( Kế bên có nút xổ xuống để chọn Size của cửa sổ có sẵn ) – Ô chót : Ước tính thời gian mà trình duyệt Download trang nầy .Nếu không thích 2 Ô cuối cùng nầy , bạn có thể thay đổi bằng cách chọn Edit Sizes từ Menu bật lên ).
+2.1.4.2 Property Inspector :
+Căn cứ những gì được chọn trong cửa sổ tài liệu , các tùy chọn mô tả sẽ xuất hiện trong cửa sổ này .
+2.1.4.3 Panel :
+Bên phải màn hình là các Panel.
+Các Panel có khi bị mất , chọn Menu Window > Arrange Panels để chúng xuất hiện lại . Thường mặc định hiện hữu là : Application – Tag Inspector – CSS – File . Không xuất hiện các Panel : Frames, History, Results, Code Inspector , Time Lines . Chỉ xuất hiện khi bạn mở chúng ra ( Menu Windown > Nhấp các panel liệt kê trên ) . Mỗi Panel có tính năng riêng của nó , giúp dễ dàng khảo sát – chỉnh sửa những đối tượng liên quan đến chúng . Các Panel có chung vài tùy chọn như sau : Nhấp Nút xổ để mở nội dung Panel. Kẹp Panel : Rê Panel đến nơi khác . Thanh Tiêu Đề : Nhấp Tab mở nội dung của nó . Nút Panel Options : Mở Menu để chọn. Nút Panel chứa 2 hay nhiều Tab Khung xem Category : Nhấp Tag <p> > Tab Attributes : Có 2 khung xem là Category và List . Xem Category . Xem List . Nút Panel Options sẽ xuất hiện Menu dựa vào Panel và Tab mà bạn đang làm việc.
+Ví Dụ : Sử dụng Panel CSS :
+Mở Panel CSS : Nhấp Thẻ CSS – Menu Window > CSS Styles. Nhấp Phải lên CSS Styles bật ra Menu để bạn có thể : Group CSS with – Close CSS – Rename – Maximize – Close Panel Options . Nhấp Tab Layers > Nút Panel Options > Group Layer with Panel khác .Có thể chọn trong Menu bật ra hoặc tạo New Panel Group
+Đóng các Tab – Di chuyển các Tab từ Panel nầy đến Panel khác sẽ xác lập Dreamweaver để làm việc theo cách mà bạn mong muốn.
+2.2 Giới thiệu một số phần mềm hỗ trợ:
+2.2.1 Aleo Flash Intro Banner Maker:
+Có 6 bước để bạn tiến hành và thực hiện xong một banner flash.
+- Bước 1: Chọn kích cỡ và âm thanh cho banner flash.
+- Bước 2 Chọn nền cho banner
+- Bước 3: Tạo hiệu ứng cho banner.
+- Bước 4: Chèn văn bản vào banner.
+- Bước 5: Chèn liên kết cho banner vừa tạo thành.
+- Bước 6: Đóng gói và hoàn thành banner.
+2.2.2 Xara Webstyle:
+Phần mềm giúp thiết kế web với các phần thiết kế banner, heading, logo, buttun...nhanh và gọn nhẹ nhất.
+Để hoàn thành giáo trình này, sử dụng mục Buttons để tạo các tiêu đề chương.
+............................................................
+Điều khiển đánh lửa sau khi khởi động :
+Điều chỉnh đánh lửa sau khi khởi động là việc điều chỉnh được thực hiện trong khi động cơ đang chạy sau khi khởi động. Việc điều chỉnh này được thực hiện bằng cách tiến hành các hiệu chỉnh khác nhau đối với góc thời điểm đánh lửa ban đầu và góc đánh lửa sớm cơ bản.
+Thời điểm đánh lửa = góc thời điểm đánh lửa ban đầu + góc đánh lửa sớm + góc đánh lửa sớm hiệu chỉnh.
+Khi thực hiện việc điều chỉnh đánh lửa sau khởi động, tín hiệu IGT được bộ vi xử lý tính toán và truyền qua IC dự trữ này.
+Góc đánh lửa sớm cơ bản
+Góc đánh lửa sớm cơ bản được xác định bằng cách dùng tín hiệu NE, tín hiệu VG hoặc tín hiệu PIM. Tín hiệu NE và VG được dùng để xác định góc đánh lửa sớm cơ bản và được lưu giữ trong bộ nhớ của ECU động cơ.
+
+Hình 4.90 - Điều khiển đánh lửa sau khi khởi động
+
+4.4.3.5.4 Hệ thống đánh lửa trực tiếp (DIS) :
+Thay vì sử dụng bộ chia điện, hệ thống này sử dụng bô bin đơn hoặc đôi cung cấp điện cao áp trực tiếp cho bugi. Thời điểm đánh lửa được điều khiển bởi ESA của ECU động cơ. Trong các động cơ gần đây, hệ thống đánh lửa này chiếm ưu thế.
+
+Hình 4.95 - Hệ thống đánh lửa DIS.
+Nguyên lí hoạt động:
+Hình 4.96 - Hệ thống đánh lửa trực tiếp.
+Trong hệ thống đánh lửa trực tiếp (ĐLTT), bộ chia điện không còn được sử dụng nữa. Thay vào đó, hệ thống ĐLTT cung cấp một bô bin cùng với một IC đánh lửa độc lập cho mỗi xy-lanh. Vì hệ thống này không cần sử dụng bộ chia điện hoặc dây cao áp nên nó có thể giảm tổn thất năng lượng trong khu vực cao áp và tăng độ bền. Đồng thời nó cũng giảm đến mức tối thiểu nhiễu điện từ, bởi vì không sử dụng tiếp điểm trong khu vực cao áp. Chức năng điều khiển thời điểm đánh lửa được thực hiện thông qua việc sử dụng ESA (đánh lửa sớm bằng điện tử). ECU của động cơ nhận được các tín hiệu từ các cảm biến khác nhau, tính toán thời điểm đánh lửa, truyền tín hiệu đánh lửa đến IC đánh lửa.
+Thời điểm đánh lửa được tính toán liên tục theo điều kiện của động cơ, dựa trên giá trị thời điểm đánh lửa tối öu đã được löu giữ trong máy tính, dưới dạng một bản đồ ESA. So với điều khiển đánh lửa cơ học của các hệ thống thông thường thì phương pháp điều khiển bằng ESA có độ chính xác cao hơn và không cần phải đặt lại thời điểm đánh lửa. Kết quả là hệ thống này giúp cải thiện tiết kiệm nhiên liệu và tăng công suất phát ra.
+Hệ thống đánh lửa trực tiếp bao gồm các bộ phận sau đây:
+
+Hình 4.97 - Các thành phần của hệ thống đánh lửa trực tiếp.
+1 Cảm biến vị trí trục khuỷu (NE): Phát hiện góc quay trục khuỷu (tốc độ động cơ)
+2. Cảm biến vị trí của trục cam (G): Nhận biết xy lanh, kỳ và theo dõi định thời của trục cam.
+3. Cảm biến kích nổ (KNK): Phát hiện tiếng gõ của động cơ
+4. Cảm biến vị trí bướm ga (VTA): Phát hiện góc mở của bướm ga
+5. Cảm biến lưu lượng khí nạp (VG/PIM): Phát hiện lượng không khí nạp.
+6. Cảm biến nhiệt độ nước (THW): Phát hiện nhiệt độ nước làm mát động cơ
+7. Bô bin và IC đánh lửa: Đóng và ngắt dòng điện trong cuộn sơ cấp vào thời điểm tối ưu. Gửi các tín hiệu IGF đến ECU động cơ.
+8. ECU động cơ: Phát ra các tín hiệu IGT dựa trên các tín hiệu từ các cảm biến khác nhau, và gửi tín hiệu đến bô bin có IC đánh lửa.
+9. Bugi: Phát ra tia lửa điện để đốt cháy hỗn hợp hòa khí.
+Hình 4.98 - Sơ đồ nguyên lý của hệ thống đánh lửa trực tiếp
+Bô bin có IC đánh lửa:
+Thiết bị này bao gồm IC đánh lửa và bô bin kết hợp thành một cụm. Trước đây, dòng điện cao áp được dẫn đến xy lanh bằng dây cao áp. Nhöng nay, thì bô bin có thể nối trực tiếp đến bugi của từng xy lanh thông qua việc sử dụng bô bin kết hợp với IC đánh lửa. Khoảng cách dẫn điện cao áp được rút ngắn nhờ có nối trực tiếp bô bin với bugi, làm giảm tổn thất điện áp và nhiễu điện từ. Nhờ thế độ tin cậy của hệ thống đánh lửa được nâng cao.
+Hình 4.98 - Bô bin kết hợp với IC đánh lửa
+Sau đây là một thí dụ về vận hành dựa trên DIS của động cơ 1NZ-FE, dùng bô bin kết hợp với IC đánh lửa.
+1. ECU động cơ nhận tín hiệu từ các cảm biến khác nhau và xác định thời điểm đánh lửa tối ưu. (ECU của động cơ cũng có tác động đến việc điều khiển đánh lửa sớm)
+2. ECU động cơ gửi tín hiệu IGT đến bô bin có IC đánh lửa. Tín hiệu IGT được gửi đến IC đánh lửa theo thứ tự đánh lửa (1-3-4-2).
+3. Cuộn đánh lửa, với dòng sơ cấp được ngắt đột ngột, sẽ sinh ra dòng cao áp.
+4. Tín hiệu IGF được gửi đến ECU động cơ khi dòng sơ cấp vượt quá một trị số đã định.
+5. Dòng cao áp phát ra từ cuộn thứ cấp sẽ được dẫn đến bugi và gây đánh lửa.
+Hình 4.99 - Sơ đồ của hệ thống đánh lửa 1NZ-FE
+4.4.3.5.5 Kiểm tra hệ thống đánh lửa
+a. Kiểm tra thời điểm đánh lửa ban đầu
+- Cho động cơ chạy để hâm nóng lên và nối tắt các cực TE1 và E1 trên DLC1, hoặc TC và CG trên DLC3.
+- Nối kẹp của đèn soi thời điểm đánh lửa vào mạch nguồn của cuộn đánh lửa.
+- Kiểm tra thời điểm đánh lửa với bướm ga đóng hoàn toàn
+- Thời điểm đánh lửa ban đầu được cài đặt bằng cách nối tắt các cực TE1 và E1 trên DLC1, hoặc TC và CG trên DLC3.
+- Có hai kiểu kẹp của đèn soi thời điểm đánh lửa: kiểu dò theo Đóng/Ngắt dòng sơ cấp và kiểu theo điện áp thứ cấp.
+- Vì thời điểm đánh lửa sẽ được đặt sớm khi bướm ga mở, nên bướm ga cần được kiểm tra xem đã đòng hoàn toàn chưa.
+Thời điểm đánh lửa ban đầu không chuẩn xác có thể làm giảm công suất động cơ, tăng tiêu hao nhiên liệu hoặc kích nổ.
+Hình 4.100 - Kiểm tra thời điểm đánh lửa Hình 4.101 - Thử bugi
+b.Kiểm tra bugi :
+Bugi sẽ không đánh lửa khi bị nứt, điện cực bị mòn, bẩn hoặc khe hở quá lớn. Khi khe hở quá nhỏ, tia lửa có thể bị dập tắt. Trong trường hợp này, nhiên liệu không được đốt cháy, ngay cả khi có tia lửa.
+Nếu sử dụng bugi với vùng nhiệt không phù hợp thì có thể dẫn đến tích luỹ muội than hoặc chảy điện cực.
+c. Thử bugi
+- Tháo tất cả giắc nối của kim phun để không có phun nhiên liệu.
+- Tháo bô bin (với bộ đánh lửa) và bugi
+- Nối lại bugi vào bô bin.
+- Nối giắc nối với bugi, và nối mát cho bugi. Kiểm tra xem bugi có đánh lửa hay không khi khởi động động cơ. Việc kiểm tra này nhằm xác định xem xy lanh nào không được đánh lửa.
+Khi kiểm tra bugi, không cho quay khởi động động cơ lâu quá 5-10 giây.
+PHẦN KẾT LUẬN:
+Qua ba tháng thực hiện, đề tài đã hoàn thành đúng thời hạn và nhiệm vụ đã được giao ban đầu. Đó là, thiết kế xong giáo trình điện tử về hệ thống phun xăng điện tử trên ô tô hiện nay. Trong giáo trình có sự phân tích và giải thích một cách cụ thể, dễ hiểu và kèm theo là một số hình ảnh, hình flash mô phỏng thật sinh động. Trong khi đó hiện nay, tài liệu về hệ thống phun xăng điện tử tuy nhiều nhưng rời rạc ,thiếu những hình ảnh chi tiết, rõ nét để phục vụ cho nhu cầu học của sinh viên. Do vậy, các bạn đọc cũng như là sinh viên ngành cơ khí động lực có thể lấy làm tài liệu tham khảo thật hữu dụng.
+Giáo trình điện tử đã giúp cho giáo viên thực hiện dễ dàng chương trình giảng dạy, phù hợp với nguyện vọng của từng cá nhân. Nội dung giáo trình với những hình ảnh động trực quan và sinh động, giúp sinh viên có thể theo học các chương trình phù hợp và học theo khả năng tiếp thu nhanh chậm của mình.
+Việc ứng dụng đa phương tiện nói chung và giáo trình điện tử nói riêng vào giảng dạy là vấn đề còn mới mẽ ở Việt Nam, chưa được phổ cập nhiều trong các trường đại học, nhưng do tính ưu việt của nó rồi cũng sẽ thay thế phương pháp giảng dạy truyền thống. Khi làm chủ được các chương trình làm giáo trình điện tử, cùng với các kiến thức chuyên ngành thì người sử dụng có thể phát huy hết những tính năng sẵn có, để soạn và trình bày nội dung cho bất kỳ môn học nào.
+Qua thời gian làm đề tài, đã giúp ích nhiều cho chúng em không những trong củng cố và nâng cao kiến thức chuyên ngành đã tiếp thu, mà còn học thêm nhiều phần mềm mới, nắm được kỹ thuật làm giáo trình điện tử cho việc giảng dạy .
+Tuy nhiên, do đây là lần đầu làm quen với việc thiết kế giáo trình điện tử, kiến thức và kinh nghiệm còn hạn chế, và nhất là có sự giới hạn về thời gian, nên đề tài còn có những hạn chế nhất định: chưa đi sâu vào phần cơ sở lý thuyết tính toán , nội dung giáo trình chưa phong phú và những hình ảnh mô phỏng chưa thật đầy đủ.
+
+TÀI LIỆU THAM KHẢO
+
+Giáo trình Điện Động Cơ, Nguyễn Chí Hùng, Đại học Công Nghiệp Tp. Hồ Chí Minh, lưu hành nội bộ, 2004. Giáo trình Thực tập động cơ xăng II, Nguyễn Tấn Lộc, Đại học Sư Phạm Kỹ Thuật, 2007. Hệ thống điện và điện tử trên ô tô hiện đại, PGS.TS Đỗ Văn Dũng, NXB Đại học quốc gia Tp.Hồ Chí Minh, 2003. Macromedia Dreamweaver MX 2004, Nguyễn Trường Sinh, NXB Lao động xã hội, 2005. Macromedia Flash MX 2004, Nguyễn Trường Sinh, NXB Lao động xã hội, 2004. Tài liệu đào tạo TCCS( Hệ thống điều khiển bằng máy tính của TOYOTA ).
