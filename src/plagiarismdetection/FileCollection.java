@@ -128,7 +128,7 @@ public class FileCollection {
 
     
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        File root = new File("/media/trinhhaison/01D22CD594D997B0/School/NLP/BaoMoi/BaoMoi");
+        File root = new File("~/BaoMoi");
         List<File> baomoiFiles = new ArrayList<>();
         List<File> queu = new ArrayList<>();
         queu.add(root);
@@ -145,7 +145,7 @@ public class FileCollection {
             sCurrentLine = br.readLine();
             
             while ((sCurrentLine = br.readLine()) != null){
-                tempFile = new File("/media/trinhhaison/01D22CD594D997B0/School/NLP/BaoMoi/BaoMoi2/" + i + ".txt");
+                tempFile = new File("~/BaoMoi2/" + i + ".txt");
                 tempFile.createNewFile();
                 writer = new PrintWriter(tempFile, "UTF-8");
                 do{
