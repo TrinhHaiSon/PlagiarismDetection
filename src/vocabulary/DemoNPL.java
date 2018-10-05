@@ -72,7 +72,7 @@ public class DemoNPL {
         
         wordMap = new HashMap<>();
 //        setStopWords();
-        fileCollect = new FileCollection("/home/trinhhaison/Documents/NPL/20_newsgroups", 3);
+        fileCollect = new FileCollection("/home/huong/BaoMoi2", 3);
         wordIDFs = new HashMap<>();
         
     }
@@ -80,7 +80,7 @@ public class DemoNPL {
     
     public static void setStopWords(Set stopWordSet) throws FileNotFoundException, IOException{
 //        stopWords = new HashSet<>();
-        File file = new File("/home/trinhhaison/NetBeansProjects/PlagiarismDetection/vetnamese_stopwords");
+        File file = new File("/home/huong/JavaCode/PlagiarismDetection/vetnamese_stopwords");
         FileReader fr = new FileReader(file);
         BufferedReader br = new BufferedReader(fr); 
         String sCurrentLine;
@@ -435,7 +435,7 @@ public class DemoNPL {
             
             DemoNPL demo = new DemoNPL();
             demo.createVocab();
-            demo.pushWordIDFsToFile("/home/trinhhaison/NetBeansProjects/PlagiarismDetection/vietnamese_news_tf_idf");
+            demo.pushWordIDFsToFile("/home/huong/JavaCode/PlagiarismDetection/vietnamese_news_tf_idf");
             
         } catch (SQLException ex) {
             Logger.getLogger(DemoNPL.class.getName()).log(Level.SEVERE, null, ex);
