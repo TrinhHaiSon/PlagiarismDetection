@@ -124,74 +124,82 @@ public class FeedWordSetList extends Thread {
         try{
             int i = 0;
             HashSet<String> temp;
-            FileReader fr;
-            BufferedReader br; 
-            String sCurrentLine;
-            List<Word> words;
-            String wordTemp;
             
             if(fileType == 3){
                 for(File file : fileList){
-                    
-                    fr = new FileReader(file);
-                    br = new BufferedReader(fr); 
-                    sCurrentLine = br.readLine();
-                    while ((sCurrentLine = br.readLine()) != null){
-                        temp = wordSetList.get(i);
-                         synchronized(temp){
-                             do{
-                                 System.out.println(sCurrentLine);
-                                 words = POS(sCurrentLine);
-                                for (Word word : words){
-                                    wordTemp = DemoNPL.wordProcess(word.getForm().replaceAll("_", " "), stopWords);
-                                    if(wordTemp != null){
-                                        temp.add(wordTemp);
-                                    }
-                                }
-                                
-                                temp.notify();
-                                System.out.println(file.getAbsolutePath() + " " + i);
-                                sCurrentLine = br.readLine();
-                                
-                             }while((sCurrentLine != null) && (!sCurrentLine.equals("#")));
-                             
-                             i++;
-                             
-                             if(sCurrentLine == null) break;
-                         }
-//                        if(sCurrentLine.equals("#")){
-//                            i++;
-//                            while((sCurrentLine = br.readLine()) != "#"){
-//                                
-//                            }
-//                        }
-//                        else{
-//                            
-//                            temp = wordSetList.get(i - 1);
-//                            synchronized(temp){
-//
-//                                words = POS(sCurrentLine);
-//
+                    temp = wordSetList.get(i);
+                    synchronized(temp){
+                        
+                        extractWordFromTxtFile(file, temp);
+                        temp.notify();
+                        System.out.println(file.getAbsolutePath());                        
+                    }
+                    i++;
+                }
+            }
+            
+//            if(fileType == 3){
+//                for(File file : fileList){
+//                    
+//                    fr = new FileReader(file);
+//                    br = new BufferedReader(fr); 
+//                    sCurrentLine = br.readLine();
+//                    while ((sCurrentLine = br.readLine()) != null){
+//                        temp = wordSetList.get(i);
+//                         synchronized(temp){
+//                             do{
+//                                 System.out.println(sCurrentLine);
+//                                 words = POS(sCurrentLine);
 //                                for (Word word : words){
 //                                    wordTemp = DemoNPL.wordProcess(word.getForm().replaceAll("_", " "), stopWords);
 //                                    if(wordTemp != null){
 //                                        temp.add(wordTemp);
 //                                    }
 //                                }
+//                                
 //                                temp.notify();
-//                                System.out.println(file.getAbsolutePath());                        
-//                            }
-//                            
-//                        }
-                        
-                    }
-
-                    br.close();
-                    fr.close();
-                    
-                    
-                }
-            }
+//                                System.out.println(file.getAbsolutePath() + " " + i);
+//                                sCurrentLine = br.readLine();
+//                                
+//                             }while((sCurrentLine != null) && (!sCurrentLine.equals("#")));
+//                             
+//                             i++;
+//                             
+//                             if(sCurrentLine == null) break;
+//                         }
+////                        if(sCurrentLine.equals("#")){
+////                            i++;
+////                            while((sCurrentLine = br.readLine()) != "#"){
+////                                
+////                            }
+////                        }
+////                        else{
+////                            
+////                            temp = wordSetList.get(i - 1);
+////                            synchronized(temp){
+////
+////                                words = POS(sCurrentLine);
+////
+////                                for (Word word : words){
+////                                    wordTemp = DemoNPL.wordProcess(word.getForm().replaceAll("_", " "), stopWords);
+////                                    if(wordTemp != null){
+////                                        temp.add(wordTemp);
+////                                    }
+////                                }
+////                                temp.notify();
+////                                System.out.println(file.getAbsolutePath());                        
+////                            }
+////                            
+////                        }
+//                        
+//                    }
+//
+//                    br.close();
+//                    fr.close();
+//                    
+//                    
+//                }
+//            }
             
 //            else if(fileType == 1){
 //            
