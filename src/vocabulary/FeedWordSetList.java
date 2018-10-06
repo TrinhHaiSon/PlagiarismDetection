@@ -140,6 +140,7 @@ public class FeedWordSetList extends Thread {
                         temp = wordSetList.get(i);
                          synchronized(temp){
                              do{
+                                 System.out.println(sCurrentLine);
                                  words = POS(sCurrentLine);
                                 for (Word word : words){
                                     wordTemp = DemoNPL.wordProcess(word.getForm().replaceAll("_", " "), stopWords);
