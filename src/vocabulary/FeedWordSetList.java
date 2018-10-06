@@ -132,7 +132,7 @@ public class FeedWordSetList extends Thread {
                         
                         extractWordFromTxtFile(file, temp);
                         temp.notify();
-                        System.out.println(file.getAbsolutePath());                        
+                        System.out.println(file.getAbsolutePath() + " " + i);                        
                     }
                     i++;
                 }
