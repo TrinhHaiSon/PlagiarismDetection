@@ -72,7 +72,7 @@ public class DemoNPL {
         
         wordMap = new HashMap<>();
 //        setStopWords();
-        fileCollect = new FileCollection("/home/huong/BaoMoi2", 3);
+        fileCollect = new FileCollection("/home/huong/BaoMoi2", 1);
         wordIDFs = new HashMap<>();
         
     }
@@ -277,56 +277,56 @@ public class DemoNPL {
     public void createVocab() throws SQLException, InterruptedException, IOException{
         
         int fileListSize1 = fileCollect.getFiles().get(0).size();
-        int fileListSize2 = fileCollect.getFiles().get(1).size();
-        int fileListSize3 = fileCollect.getFiles().get(2).size();
+//        int fileListSize2 = fileCollect.getFiles().get(1).size();
+//        int fileListSize3 = fileCollect.getFiles().get(2).size();
         
         
         HashSet<String> stopWords1 = new HashSet<>();
         setStopWords(stopWords1);
-        HashSet<String> stopWords2 = new HashSet<>();
-        setStopWords(stopWords2);
-        HashSet<String> stopWords3 = new HashSet<>();
-        setStopWords(stopWords3);
+//        HashSet<String> stopWords2 = new HashSet<>();
+//        setStopWords(stopWords2);
+//        HashSet<String> stopWords3 = new HashSet<>();
+//        setStopWords(stopWords3);
         
         ArrayList<HashSet<String>> wordSet1 = new ArrayList<>();
         for(int i = 0; i < fileListSize1; i++){
             wordSet1.add(new HashSet<>());
         }
         
-        ArrayList<HashSet<String>> wordSet2 = new ArrayList<>();
-        for(int i = 0; i < fileListSize2; i++){
-            wordSet2.add(new HashSet<>());
-        }
-        
-        ArrayList<HashSet<String>> wordSet3 = new ArrayList<>();
-        for(int i = 0; i < fileListSize3; i++){
-            wordSet3.add(new HashSet<>());
-        }
+//        ArrayList<HashSet<String>> wordSet2 = new ArrayList<>();
+//        for(int i = 0; i < fileListSize2; i++){
+//            wordSet2.add(new HashSet<>());
+//        }
+//        
+//        ArrayList<HashSet<String>> wordSet3 = new ArrayList<>();
+//        for(int i = 0; i < fileListSize3; i++){
+//            wordSet3.add(new HashSet<>());
+//        }
         
         FeedWordSetList feedWordSetList1 = new FeedWordSetList(wordSet1, 3, fileCollect.getFiles().get(0), stopWords1);
-        FeedWordSetList feedWordSetList2 = new FeedWordSetList(wordSet2, 3, fileCollect.getFiles().get(1), stopWords2);
-        FeedWordSetList feedWordSetList3 = new FeedWordSetList(wordSet3, 3, fileCollect.getFiles().get(2), stopWords3);
+//        FeedWordSetList feedWordSetList2 = new FeedWordSetList(wordSet2, 3, fileCollect.getFiles().get(1), stopWords2);
+//        FeedWordSetList feedWordSetList3 = new FeedWordSetList(wordSet3, 3, fileCollect.getFiles().get(2), stopWords3);
         
         FeedWordMap feedWordMap1 = new FeedWordMap(wordMap, wordSet1);
-        FeedWordMap feedWordMap2 = new FeedWordMap(wordMap, wordSet2);
-        FeedWordMap feedWordMap3 = new FeedWordMap(wordMap, wordSet3);
+//        FeedWordMap feedWordMap2 = new FeedWordMap(wordMap, wordSet2);
+//        FeedWordMap feedWordMap3 = new FeedWordMap(wordMap, wordSet3);
         
         feedWordSetList1.start();
-        feedWordSetList2.start();
-        feedWordSetList3.start();
+//        feedWordSetList2.start();
+//        feedWordSetList3.start();
         
         feedWordMap1.start();
-        feedWordMap2.start();
-        feedWordMap3.start();
+//        feedWordMap2.start();
+//        feedWordMap3.start();
         
         
         feedWordSetList1.join();
-        feedWordSetList2.join();
-        feedWordSetList3.join();
+//        feedWordSetList2.join();
+//        feedWordSetList3.join();
         
         feedWordMap1.join();
-        feedWordMap2.join();
-        feedWordMap3.join();
+//        feedWordMap2.join();
+//        feedWordMap3.join();
         
         double tempIdf;
         for(Map.Entry<String, Integer> entry : wordMap.entrySet()){
