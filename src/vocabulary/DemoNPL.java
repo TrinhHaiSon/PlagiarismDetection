@@ -26,6 +26,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import static plagiarismdetection.PlagiarismDetection.initialPipeline;
 //import opennlp.tools.sentdetect.SentenceDetectorME;
 //import opennlp.tools.sentdetect.SentenceModel;
 //import opennlp.tools.tokenize.Tokenizer;
@@ -68,11 +69,11 @@ public class DemoNPL {
 //        return compression;
 //    }
     
-    public DemoNPL() throws IOException, IOException {
+    public DemoNPL(int numberOfSubset) throws IOException, IOException {
         
         wordMap = new HashMap<>();
 //        setStopWords();
-        fileCollect = new FileCollection("/home/huong/BaoMoi2", 1);
+        fileCollect = new FileCollection("/home/huong/BaoMoi2", numberOfSubset);
         wordIDFs = new HashMap<>();
         
     }
@@ -274,9 +275,9 @@ public class DemoNPL {
 //        return null;
 //    }
     
-    public void createVocab() throws SQLException, InterruptedException, IOException{
+    public void createVocab(int subset) throws SQLException, InterruptedException, IOException{
         
-        int fileListSize1 = fileCollect.getFiles().get(0).size();
+        int fileListSize1 = fileCollect.getFiles().get(subset).size();
 //        int fileListSize2 = fileCollect.getFiles().get(1).size();
 //        int fileListSize3 = fileCollect.getFiles().get(2).size();
         
@@ -303,7 +304,7 @@ public class DemoNPL {
 //            wordSet3.add(new HashSet<>());
 //        }
         
-        FeedWordSetList feedWordSetList1 = new FeedWordSetList(wordSet1, 3, fileCollect.getFiles().get(0), stopWords1);
+        FeedWordSetList feedWordSetList1 = new FeedWordSetList(wordSet1, 3, fileCollect.getFiles().get(subset), stopWords1);
 //        FeedWordSetList feedWordSetList2 = new FeedWordSetList(wordSet2, 3, fileCollect.getFiles().get(1), stopWords2);
 //        FeedWordSetList feedWordSetList3 = new FeedWordSetList(wordSet3, 3, fileCollect.getFiles().get(2), stopWords3);
         
@@ -328,11 +329,11 @@ public class DemoNPL {
 //        feedWordMap2.join();
 //        feedWordMap3.join();
         
-        double tempIdf;
-        for(Map.Entry<String, Integer> entry : wordMap.entrySet()){
-            tempIdf = Math.log(((double)fileCollect.getCorpusSize()) / entry.getValue());
-            wordIDFs.put(entry.getKey(), tempIdf);
-        }
+//        double tempIdf;
+//        for(Map.Entry<String, Integer> entry : wordMap.entrySet()){
+//            tempIdf = Math.log(((double)fileCollect.getCorpusSize()) / entry.getValue());
+//            wordIDFs.put(entry.getKey(), tempIdf);
+//        }
         
     }
     
@@ -432,10 +433,10 @@ public class DemoNPL {
 
 
         try {
-            
-            DemoNPL demo = new DemoNPL();
-            demo.createVocab();
-            demo.pushWordIDFsToFile("/home/huong/JavaCode/PlagiarismDetection/vietnamese_news_tf_idf");
+            initialPipeline();
+            DemoNPL demo = new DemoNPL(20);
+            demo.createVocab(Integer.valueOf(args[0]));
+            demo.pushWordMapToFile("/home/huong/JavaCode/PlagiarismDetection/idf/word_count"+args[0]);
             
         } catch (SQLException ex) {
             Logger.getLogger(DemoNPL.class.getName()).log(Level.SEVERE, null, ex);

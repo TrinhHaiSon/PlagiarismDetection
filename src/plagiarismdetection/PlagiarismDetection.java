@@ -65,6 +65,7 @@ public class PlagiarismDetection {
     public ArrayList<HashSet<String>> textSet;
     public HashMap<String, Integer> wordMap; 
     public FileCollection fileCollect;
+    public static VnCoreNLP pipeline;
     
     public PlagiarismDetection(String pathToSource) {
         docSet = new ArrayList<>();
@@ -74,7 +75,10 @@ public class PlagiarismDetection {
         fileCollect = new FileCollection(pathToSource);
     }
     
-    
+    public static void initialPipeline() throws IOException{
+        String[] annotators = {"wseg", "pos"};
+        pipeline = new VnCoreNLP(annotators);
+    }
     
     public static boolean containLetter(String s){
         for (int i = 0; i < s.length(); i++){
@@ -267,7 +271,11 @@ public class PlagiarismDetection {
 //        return (new VietnameseMaxentTagger()).tagText2(a);
 //    }
     
-    
+    public static List<Word> POS2(String a) throws IOException{
+        Annotation annotation = new Annotation(a);
+        pipeline.annotate(annotation); 
+        return annotation.getWords();
+    }
     
     public static List<Word> POS(String a) throws IOException{
         String[] annotators = {"wseg", "pos"};

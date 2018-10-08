@@ -23,6 +23,7 @@ import org.apache.poi.hwpf.extractor.WordExtractor;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 import static plagiarismdetection.PlagiarismDetection.POS;
+import static plagiarismdetection.PlagiarismDetection.POS2;
 import vn.pipeline.Word;
 
 /**
@@ -57,7 +58,7 @@ public class FeedWordSetList extends Thread {
         String wordTemp;
         
         while ((sCurrentLine = br.readLine()) != null){
-            words = POS(sCurrentLine);
+            words = POS2(sCurrentLine);
             
             for (Word word : words){
                 wordTemp = DemoNPL.wordProcess(word.getForm().replaceAll("_", " "), stopWords);
