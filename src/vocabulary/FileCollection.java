@@ -5,6 +5,7 @@
  */
 package vocabulary;
 
+import com.google.common.io.Files;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -85,5 +86,20 @@ public class FileCollection {
         return corpusSize;
     }
     
+    public static void main(String[] args) {
+//        FileCollection mycollection = new FileCollection("/home/huong/BaoMoi2", 20);
+//        int i = 0;
+//        File tempFile;
+//        for(ArrayList<File> fileCollect : mycollection.getFiles()){
+//            
+//            for(File file : fileCollect){
+//                tempFile = new File("/home/huong/BaoMoi2/BaoMoi2-"+i);
+//                Files.copy(file, file);
+//            }
+//            
+//        }
+
+        
+    }
     
 }

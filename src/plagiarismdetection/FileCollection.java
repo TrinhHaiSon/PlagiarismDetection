@@ -147,7 +147,7 @@ public class FileCollection {
             while ((sCurrentLine = br.readLine()) != null){
                 tempFile = new File("/home/huong/BaoMoi2/" + i + ".txt");
                 tempFile.createNewFile();
-                writer = new PrintWriter(tempFile, "UTF-8");
+                writer = new PrintWriter(tempFile, "UTF-16");
                 do{
                     writer.println(sCurrentLine);
                     sCurrentLine = br.readLine();
@@ -162,6 +162,23 @@ public class FileCollection {
             br.close();
             fr.close();
         }
+        
+
+
+//        File file = new File("/home/trinhhaison/Documents/answer.txt");
+//        File file2 = new File("/home/trinhhaison/Documents/answer2.txt");
+//        FileReader fr = new FileReader(file);
+//        BufferedReader br = new BufferedReader(fr);
+//        PrintWriter writer = new PrintWriter(file2, "UTF-8");
+//        String sCurrentLine;
+//         while ((sCurrentLine = br.readLine()) != null){
+//             System.out.println(sCurrentLine);
+//             writer.println(sCurrentLine);
+//         }
+//         
+//        br.close();
+//        fr.close();
+//        writer.close();
     }
     
 }
