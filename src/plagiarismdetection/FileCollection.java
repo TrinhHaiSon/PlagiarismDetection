@@ -128,57 +128,57 @@ public class FileCollection {
 
     
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        File root = new File("/home/huong/BaoMoi");
-        List<File> baomoiFiles = new ArrayList<>();
-        List<File> queu = new ArrayList<>();
-        queu.add(root);
-        dirPassingRecursive(queu, baomoiFiles);
-        FileReader fr;
-        BufferedReader br; 
-        String sCurrentLine;
-        int i = 0;
-        File tempFile;
-        PrintWriter writer;
-        for(File file : baomoiFiles){
-            fr = new FileReader(file);
-            br = new BufferedReader(fr);
-            sCurrentLine = br.readLine();
-            
-            while ((sCurrentLine = br.readLine()) != null){
-                tempFile = new File("/home/huong/BaoMoi2/" + i + ".txt");
-                tempFile.createNewFile();
-                writer = new PrintWriter(tempFile, "UTF-16");
-                do{
-                    writer.println(sCurrentLine);
-                    sCurrentLine = br.readLine();
-                }while((sCurrentLine != null) && (!sCurrentLine.equals("#")));
-                writer.close();
-                i++;
-                System.out.println(tempFile.getAbsolutePath());
-                if(sCurrentLine == null){
-                    break;
-                }
-            }
-            br.close();
-            fr.close();
-        }
+//        File root = new File("/home/huong/BaoMoi");
+//        List<File> baomoiFiles = new ArrayList<>();
+//        List<File> queu = new ArrayList<>();
+//        queu.add(root);
+//        dirPassingRecursive(queu, baomoiFiles);
+//        FileReader fr;
+//        BufferedReader br; 
+//        String sCurrentLine;
+//        int i = 0;
+//        File tempFile;
+//        PrintWriter writer;
+//        for(File file : baomoiFiles){
+//            fr = new FileReader(file);
+//            br = new BufferedReader(fr);
+//            sCurrentLine = br.readLine();
+//            
+//            while ((sCurrentLine = br.readLine()) != null){
+//                tempFile = new File("/home/huong/BaoMoi2/" + i + ".txt");
+//                tempFile.createNewFile();
+//                writer = new PrintWriter(tempFile, "UTF-16");
+//                do{
+//                    writer.println(sCurrentLine);
+//                    sCurrentLine = br.readLine();
+//                }while((sCurrentLine != null) && (!sCurrentLine.equals("#")));
+//                writer.close();
+//                i++;
+//                System.out.println(tempFile.getAbsolutePath());
+//                if(sCurrentLine == null){
+//                    break;
+//                }
+//            }
+//            br.close();
+//            fr.close();
+//        }
         
 
 
-//        File file = new File("/home/trinhhaison/Documents/answer.txt");
-//        File file2 = new File("/home/trinhhaison/Documents/answer2.txt");
-//        FileReader fr = new FileReader(file);
-//        BufferedReader br = new BufferedReader(fr);
-//        PrintWriter writer = new PrintWriter(file2, "UTF-8");
-//        String sCurrentLine;
-//         while ((sCurrentLine = br.readLine()) != null){
-//             System.out.println(sCurrentLine);
-//             writer.println(sCurrentLine);
-//         }
-//         
-//        br.close();
-//        fr.close();
-//        writer.close();
+        File file = new File("/home/huong/BaoMoi/0389-baomoi-articles.txt");
+        File file2 = new File("/home/huong/BaoMoi2/test");
+        FileReader fr = new FileReader(file);
+        BufferedReader br = new BufferedReader(fr);
+        PrintWriter writer = new PrintWriter(file2, "UTF-8");
+        String sCurrentLine;
+         while ((sCurrentLine = br.readLine()) != null){
+             System.out.println(sCurrentLine);
+             writer.println(sCurrentLine);
+         }
+         
+        br.close();
+        fr.close();
+        writer.close();
     }
     
 }
