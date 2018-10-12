@@ -5,10 +5,12 @@
         <group>
             <file>file:/home/trinhhaison/NetBeansProjects/PlagiarismDetection/src/vocabulary/DemoNPL.java</file>
             <file>file:/home/trinhhaison/NetBeansProjects/PlagiarismDetection/src/vocabulary/FileCollection.java</file>
+            <file>file:/home/trinhhaison/NetBeansProjects/PlagiarismDetection/src/plagiarismdetection/FileCollection.java</file>
             <file>file:/home/trinhhaison/NetBeansProjects/PlagiarismDetection/src/plagiarismdetection/PlagiarismDetection.java</file>
             <file>file:/home/trinhhaison/NetBeansProjects/PlagiarismDetection/src/vocabulary/FeedWordSetList.java</file>
             <file>file:/home/trinhhaison/NetBeansProjects/PlagiarismDetection/src/vocabulary/Vocab.java</file>
             <file>file:/home/trinhhaison/NetBeansProjects/PlagiarismDetection/src/vocabulary/FeedWordMap.java</file>
+            <file>file:/home/trinhhaison/NetBeansProjects/PlagiarismDetection/src/plagiarismdetection/KeywordDetection.java</file>
         </group>
     </open-files>
 </project-private>

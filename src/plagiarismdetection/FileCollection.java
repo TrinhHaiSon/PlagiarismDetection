@@ -170,7 +170,7 @@ public class FileCollection {
         File file = new File("/home/huong/BaoMoi/0389-baomoi-articles.txt");
         File file2 = new File("/home/huong/BaoMoi2/test");
         FileReader fr = new FileReader(file);
-        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF8"));
+        BufferedReader br = new BufferedReader(fr);
         PrintWriter writer = new PrintWriter(file2, "UTF-8");
         String sCurrentLine;
          while ((sCurrentLine = br.readLine()) != null){
